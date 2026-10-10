@@ -1,0 +1,228 @@
+class_name SchedulesData
+extends RefCounted
+## Günlük rutin şablonları. Her dilim: [başlangıç saati, bitiş saati, etkinlik, [[oda, ağırlık], ...]]
+## "@home" karakterin evi, "@office" ofisi, "@serves" hizmet ettiği kişinin bulunduğu oda.
+## Karakterin "haunts" listesindeki odaların ağırlığı iki katına çıkar.
+
+const ACTIVITY_NAMES := {
+	"uyku": "Uyuyor", "kahvalti": "Kahvaltı ediyor", "yemek": "Yemek yiyor", "gorev": "Görevinin başında",
+	"sohbet": "Sohbet ediyor", "gezinti": "Geziniyor", "okuma": "Okuyor", "dinlenme": "Dinleniyor",
+	"toplanti": "Divan toplantısında", "nobet": "Nöbette", "talim": "Talim yapıyor", "calisma": "Çalışıyor",
+	"hizmet": "Hizmette", "ders": "Ders hazırlıyor", "yazi": "Yazı yazıyor", "muzik": "Ud çalıyor",
+	"disarida": "Saray dışında", "kabul": "Ziyaretçi kabul ediyor", "denetim": "Denetim yapıyor",
+}
+
+## Hangi etkinlikte hangi nokta türleri tercih edilir
+const ACTIVITY_SPOTS := {
+	"uyku": ["sleep"], "kahvalti": ["sit_low", "sit"], "yemek": ["sit_low", "sit"], "sohbet": ["sit", "sit_low", "stand"],
+	"dinlenme": ["sit", "sit_low"], "okuma": ["sit_low", "sit", "stand"], "yazi": ["sit_low", "stand"], "muzik": ["sit", "sit_low"],
+	"toplanti": ["sit"], "nobet": ["guard", "stand"], "talim": ["work", "stand"], "calisma": ["work", "stand"],
+	"gorev": ["work", "stand", "sit"], "hizmet": ["stand"], "ders": ["sit_low", "stand"], "gezinti": ["stand"],
+	"kabul": ["sit", "stand"], "denetim": ["stand", "work"],
+}
+
+const PROFILES := {
+	"valide": [
+		[0, 7, "uyku", [["@home", 1.0]]],
+		[7, 8, "kahvalti", [["@home", 1.0]]],
+		[8, 10, "denetim", [["harem", 1.0], ["@home", 0.4]]],
+		[10, 12, "kabul", [["@home", 1.0], ["harem", 0.5]]],
+		[12, 13, "yemek", [["@home", 1.0]]],
+		[13, 15, "gezinti", [["harem_bahce", 1.0], ["bahce", 0.5], ["harem", 0.3]]],
+		[15, 18, "kabul", [["@home", 1.0], ["harem", 0.6]]],
+		[18, 20, "sohbet", [["harem", 1.0], ["@home", 0.5]]],
+		[20, 22, "dinlenme", [["@home", 1.0]]],
+		[22, 24, "uyku", [["@home", 1.0]]],
+	],
+	"harem_lady": [
+		[0, 7, "uyku", [["@home", 1.0]]],
+		[7, 8, "kahvalti", [["harem", 1.0], ["@home", 0.5]]],
+		[8, 11, "okuma", [["kutuphane", 0.6], ["@home", 0.8], ["harem", 0.6], ["valide", 0.4]]],
+		[11, 13, "sohbet", [["harem", 1.0], ["harem_bahce", 0.7], ["valide", 0.4]]],
+		[13, 14, "yemek", [["harem", 1.0]]],
+		[14, 17, "gezinti", [["bahce", 0.7], ["harem_bahce", 0.8], ["kutuphane", 0.4], ["avlu", 0.4], ["@home", 0.5]]],
+		[17, 19, "sohbet", [["harem", 1.0], ["valide", 0.6]]],
+		[19, 21, "dinlenme", [["@home", 1.0], ["harem", 0.6]]],
+		[21, 24, "uyku", [["@home", 1.0]]],
+	],
+	"nedime": [
+		[0, 6, "uyku", [["harem", 1.0]]],
+		[6, 7, "hizmet", [["harem", 1.0]]],
+		[7, 13, "hizmet", [["@serves", 1.0]]],
+		[13, 14, "yemek", [["harem", 0.7], ["mutfak", 0.5]]],
+		[14, 18, "hizmet", [["@serves", 1.0], ["harem", 0.3]]],
+		[18, 20, "sohbet", [["harem", 1.0], ["harem_bahce", 0.4]]],
+		[20, 22, "hizmet", [["@serves", 1.0]]],
+		[22, 24, "uyku", [["harem", 1.0]]],
+	],
+	"official": [
+		[0, 8, "disarida", [["disari", 1.0]]],
+		[8, 12, "toplanti", [["divan", 1.0]]],
+		[12, 13, "yemek", [["mutfak", 1.0]]],
+		[13, 16, "gorev", [["@office", 1.0], ["divan", 0.3]]],
+		[16, 17, "sohbet", [["avlu", 1.0], ["koridor_k", 0.3], ["koridor_b", 0.3]]],
+		[17, 24, "disarida", [["disari", 1.0]]],
+	],
+	"scribe": [
+		[0, 7, "uyku", [["@home", 1.0]]],
+		[7, 8, "yemek", [["mutfak", 1.0]]],
+		[8, 12, "yazi", [["divan", 1.0], ["kutuphane", 0.5]]],
+		[12, 13, "yemek", [["mutfak", 1.0]]],
+		[13, 16, "yazi", [["halk", 0.8], ["kutuphane", 0.8], ["hazine", 0.3]]],
+		[16, 19, "sohbet", [["avlu", 0.8], ["mutfak", 0.8], ["koridor_g", 0.3]]],
+		[19, 22, "okuma", [["kutuphane", 1.0]]],
+		[22, 24, "uyku", [["@home", 1.0]]],
+	],
+	"chief_guard": [
+		[0, 6, "uyku", [["muhafiz", 1.0]]],
+		[6, 8, "talim", [["muhafiz", 1.0], ["avlu", 0.3]]],
+		[8, 12, "nobet", [["taht", 0.8], ["koridor_k", 0.6], ["divan", 0.4]]],
+		[12, 13, "yemek", [["mutfak", 0.6], ["muhafiz", 0.6]]],
+		[13, 18, "nobet", [["avlu", 0.7], ["taht", 0.6], ["hazine", 0.4], ["koridor_d", 0.4]]],
+		[18, 20, "talim", [["muhafiz", 1.0]]],
+		[20, 22, "nobet", [["koridor_k", 0.8], ["avlu", 0.5]]],
+		[22, 24, "uyku", [["muhafiz", 1.0]]],
+	],
+	"guard_day": [
+		[0, 6, "uyku", [["muhafiz", 1.0]]],
+		[6, 14, "nobet", [["hazine", 0.8], ["koridor_k", 0.6], ["taht", 0.5], ["elci", 0.4]]],
+		[14, 15, "yemek", [["mutfak", 0.6], ["muhafiz", 0.6]]],
+		[15, 20, "nobet", [["avlu", 0.7], ["koridor_g", 0.5], ["hazine", 0.5], ["halk", 0.4]]],
+		[20, 24, "uyku", [["muhafiz", 1.0]]],
+	],
+	"guard_night": [
+		[0, 6, "nobet", [["hazine", 0.7], ["koridor_k", 0.6], ["avlu", 0.6]]],
+		[6, 7, "yemek", [["mutfak", 1.0]]],
+		[7, 15, "uyku", [["muhafiz", 1.0]]],
+		[15, 17, "talim", [["muhafiz", 1.0]]],
+		[17, 18, "yemek", [["mutfak", 1.0]]],
+		[18, 24, "nobet", [["koridor_d", 0.6], ["avlu", 0.6], ["hazine", 0.6], ["koridor_k", 0.5]]],
+	],
+	"kitchen": [
+		[0, 5, "uyku", [["mutfak", 1.0]]],
+		[5, 12, "calisma", [["mutfak", 1.0]]],
+		[12, 13, "hizmet", [["harem", 0.6], ["valide", 0.4], ["divan", 0.3]]],
+		[13, 17, "calisma", [["mutfak", 1.0]]],
+		[17, 19, "hizmet", [["harem", 0.6], ["valide", 0.4], ["mutfak", 0.5]]],
+		[19, 21, "sohbet", [["mutfak", 1.0], ["avlu", 0.5]]],
+		[21, 24, "uyku", [["mutfak", 1.0]]],
+	],
+	"gardener": [
+		[0, 6, "uyku", [["bahce", 1.0]]],
+		[6, 12, "calisma", [["bahce", 1.0], ["harem_bahce", 0.6]]],
+		[12, 13, "yemek", [["mutfak", 1.0]]],
+		[13, 17, "calisma", [["avlu", 0.8], ["bahce", 0.8], ["harem_bahce", 0.6]]],
+		[17, 19, "sohbet", [["mutfak", 0.8], ["avlu", 0.6]]],
+		[19, 24, "uyku", [["bahce", 1.0]]],
+	],
+	"scholar": [
+		[0, 6, "uyku", [["kutuphane", 1.0]]],
+		[6, 8, "okuma", [["kutuphane", 1.0]]],
+		[8, 9, "yemek", [["mutfak", 1.0]]],
+		[9, 12, "ders", [["sehzade", 1.0], ["kutuphane", 0.4]]],
+		[12, 13, "yemek", [["mutfak", 1.0]]],
+		[13, 16, "okuma", [["kutuphane", 1.0]]],
+		[16, 18, "gezinti", [["avlu", 0.8], ["bahce", 0.8]]],
+		[18, 21, "okuma", [["kutuphane", 1.0]]],
+		[21, 24, "uyku", [["kutuphane", 1.0]]],
+	],
+	"envoy": [
+		[0, 10, "disarida", [["disari", 1.0]]],
+		[10, 12, "gorev", [["elci", 1.0]]],
+		[12, 14, "sohbet", [["avlu", 0.7], ["elci", 0.6], ["bahce", 0.3]]],
+		[14, 16, "gorev", [["elci", 1.0]]],
+		[16, 24, "disarida", [["disari", 1.0]]],
+	],
+	"harem_manager": [
+		[0, 6, "uyku", [["harem", 1.0]]],
+		[6, 8, "denetim", [["harem", 1.0]]],
+		[8, 12, "denetim", [["harem", 1.0], ["valide", 0.6], ["leyla", 0.25], ["feraye", 0.25]]],
+		[12, 13, "denetim", [["mutfak", 1.0]]],
+		[13, 18, "gorev", [["harem", 1.0], ["valide", 0.7]]],
+		[18, 21, "sohbet", [["valide", 1.0], ["harem", 0.5]]],
+		[21, 24, "uyku", [["harem", 1.0]]],
+	],
+	"physician": [
+		[0, 9, "disarida", [["disari", 1.0]]],
+		[9, 12, "gorev", [["harem", 0.7], ["valide", 0.6]]],
+		[12, 13, "yemek", [["mutfak", 1.0]]],
+		[13, 15, "okuma", [["kutuphane", 1.0]]],
+		[15, 17, "gorev", [["muhafiz", 0.6], ["harem", 0.6]]],
+		[17, 24, "disarida", [["disari", 1.0]]],
+	],
+	"treasury_clerk": [
+		[0, 8, "disarida", [["disari", 1.0]]],
+		[8, 12, "calisma", [["hazine", 1.0]]],
+		[12, 13, "yemek", [["mutfak", 1.0]]],
+		[13, 16, "calisma", [["hazine", 1.0]]],
+		[16, 18, "sohbet", [["muhafiz", 0.8], ["avlu", 0.6]]],
+		[18, 24, "disarida", [["disari", 1.0]]],
+	],
+	"cariye": [
+		[0, 7, "uyku", [["@home", 1.0]]],
+		[7, 8, "kahvalti", [["harem", 1.0]]],
+		[8, 11, "calisma", [["harem", 1.0], ["valide", 0.5], ["harem_bahce", 0.4]]],
+		[11, 13, "sohbet", [["harem", 1.0], ["harem_bahce", 0.7]]],
+		[13, 14, "yemek", [["harem", 1.0]]],
+		[14, 17, "gezinti", [["harem_bahce", 1.0], ["harem", 0.6], ["bahce", 0.3]]],
+		[17, 19, "muzik", [["harem", 1.0], ["valide", 0.4]]],
+		[19, 22, "dinlenme", [["@home", 1.0], ["harem_bahce", 0.3]]],
+		[22, 24, "uyku", [["@home", 1.0]]],
+	],
+	"chamberlain": [
+		[0, 6, "uyku", [["@home", 1.0]]],
+		[6, 8, "hizmet", [["hukumdar", 1.0]]],
+		[8, 10, "gorev", [["harem", 0.8], ["valide", 0.5]]],
+		[10, 12, "hizmet", [["hukumdar", 0.8], ["taht", 0.5]]],
+		[12, 13, "yemek", [["mutfak", 1.0]]],
+		[13, 17, "gorev", [["hukumdar", 1.0], ["harem", 0.5], ["koridor_k", 0.3]]],
+		[17, 19, "sohbet", [["avlu", 0.6], ["harem", 0.5], ["valide", 0.4]]],
+		[19, 23, "hizmet", [["hukumdar", 1.0]]],
+		[23, 24, "uyku", [["@home", 1.0]]],
+	],
+	"infant": [
+		[0, 24, "uyku", [["@home", 1.0]]],
+	],
+	"child_small": [
+		[0, 8, "uyku", [["@home", 1.0]]],
+		[8, 9, "kahvalti", [["harem", 1.0]]],
+		[9, 12, "gezinti", [["harem_bahce", 1.0], ["harem", 0.6], ["valide", 0.5]]],
+		[12, 13, "yemek", [["harem", 1.0]]],
+		[13, 15, "uyku", [["@home", 1.0]]],
+		[15, 18, "gezinti", [["harem_bahce", 1.0], ["bahce", 0.4], ["harem", 0.5]]],
+		[18, 24, "uyku", [["@home", 1.0]]],
+	],
+	"child": [
+		[0, 7, "uyku", [["@home", 1.0]]],
+		[7, 8, "kahvalti", [["harem", 1.0]]],
+		[8, 12, "okuma", [["sehzade", 1.0]]],
+		[12, 13, "yemek", [["harem", 1.0]]],
+		[13, 16, "gezinti", [["harem_bahce", 0.8], ["bahce", 0.6], ["avlu", 0.3]]],
+		[16, 18, "okuma", [["sehzade", 0.8], ["kutuphane", 0.5]]],
+		[18, 20, "sohbet", [["harem", 0.8], ["valide", 0.6]]],
+		[20, 24, "uyku", [["@home", 1.0]]],
+	],
+	"artist": [
+		[0, 8, "disarida", [["disari", 1.0]]],
+		[8, 12, "calisma", [["taht", 1.0], ["valide", 0.3]]],
+		[12, 13, "yemek", [["mutfak", 1.0]]],
+		[13, 17, "calisma", [["taht", 0.8], ["harem", 0.4], ["avlu", 0.4]]],
+		[17, 24, "disarida", [["disari", 1.0]]],
+	],
+}
+
+## Karakterlerin sevdiği mekânlar
+const HAUNTS := {
+	"leyla": ["kutuphane", "harem_bahce", "leyla"],
+	"feraye": ["valide", "bahce", "avlu", "feraye"],
+	"mahinur": ["valide", "harem_bahce"],
+	"riza": ["mutfak", "kutuphane"],
+	"sumbul": ["harem", "harem_bahce"],
+	"halil": ["divan"],
+	"tolga": ["muhafiz"],
+	"selim": ["elci"],
+}
+
+## Divan günleri (haftanın ilk dört günü)
+const DIVAN_DAYS := [0, 1, 2, 3]
+const WEEKDAYS := ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar"]

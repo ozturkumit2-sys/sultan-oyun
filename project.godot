@@ -1,0 +1,62 @@
+; Engine configuration file.
+; SULTAN: Hanedanın Kaderi — Godot 4.5 (Mobile renderer)
+
+config_version=5
+
+[application]
+
+config/name="SULTAN: Hanedanın Kaderi"
+config/description="Zehrâni İmparatorluğu'nda geçen 3D saray ve hanedan simülasyonu."
+config/version="0.1.0"
+run/main_scene="res://scenes/main_menu.tscn"
+config/features=PackedStringArray("4.5", "Mobile")
+boot_splash/bg_color=Color(0.039, 0.055, 0.11, 1)
+boot_splash/show_image=false
+config/icon="res://icon.png"
+run/low_processor_mode=false
+config/quit_on_go_back=false
+
+[autoload]
+
+Settings="*res://scripts/autoload/settings.gd"
+GameState="*res://scripts/autoload/game_state.gd"
+SaveSystem="*res://scripts/autoload/save_system.gd"
+AudioManager="*res://scripts/autoload/audio_manager.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=4
+window/energy_saving/keep_screen_on=true
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[input_devices]
+
+pointing/emulate_mouse_from_touch=true
+pointing/emulate_touch_from_mouse=false
+
+[physics]
+
+common/physics_ticks_per_second=60
+3d/physics_engine="DEFAULT"
+
+[rendering]
+
+renderer/rendering_method="mobile"
+renderer/rendering_method.mobile="mobile"
+textures/vram_compression/import_etc2_astc=true
+textures/canvas_textures/default_texture_filter=1
+anti_aliasing/quality/msaa_3d=1
+lights_and_shadows/directional_shadow/size=2048
+lights_and_shadows/directional_shadow/size.mobile=2048
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=1
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality.mobile=1
+environment/defaults/default_clear_color=Color(0.039, 0.055, 0.11, 1)
+limits/forward_renderer/max_lights_per_object=8
+occlusion_culling/use_occlusion_culling=true
