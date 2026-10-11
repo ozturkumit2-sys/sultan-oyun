@@ -3,7 +3,9 @@
 Malzemeleri birleştir, çılgın yemekler pişir, rakiplerin sabotajlarına karşı koy ve üç eksantrik jüriden sağ çık!
 Godot 4.5 (GDScript) ile geliştirilmiş, dikey ekranlı, tamamen çevrimdışı oynanan bir Android oyunu.
 
-**İndirme:** En güncel APK bu deponun [Releases](../../releases) sayfasında (`fusechef-v...` etiketli sürümler).
+**İndirme (telefon):** [FuseChef.apk — doğrudan indir](https://github.com/ozturkumit2-sys/sultan-oyun/raw/fuse-chef/apk/FuseChef.apk)
+
+APK her zaman bu dalın `apk/` klasöründe en güncel hâliyle durur. İndirdikten sonra dosyayı aç; Android "bilinmeyen kaynak" izni isterse bu kurulum için izin ver. Yeni sürüm eskisinin üzerine kurulur, kayıtların korunur.
 
 ## Oyunda neler var?
 
