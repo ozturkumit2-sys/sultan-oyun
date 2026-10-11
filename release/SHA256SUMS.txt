@@ -1,0 +1,2 @@
+13ede605bf415cdd21d6cd6b4b4ed486dd5c1e91009b5d7350a1d3ea5f794473  release/FuseChef-v1.0.0-release.aab
+de37a3f2420dce5c7f76bd745e97543d76161408564c65280a8cd76271935edf  release/FuseChef-v1.0.0-test.apk

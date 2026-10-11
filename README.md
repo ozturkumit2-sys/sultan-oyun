@@ -26,6 +26,29 @@ APK her zaman bu dalın `apk/` klasöründe en güncel hâliyle durur. İndirdik
 - Sürümlü, doğrulanan ve atomik yazılan **yerel kayıt** (yedekli).
 - Tüm karakterler, yemekler, ikonlar, müzikler ve ses efektleri bu proje için **özgün olarak üretildi** (telifli içerik yok).
 
+## Google Play sürümü (v1.0.0)
+
+- **Play Console'a yüklenecek dosya:** [`release/FuseChef-v1.0.0-release.aab`](https://github.com/ozturkumit2-sys/sultan-oyun/raw/fuse-chef/release/FuseChef-v1.0.0-release.aab) — yükleme anahtarıyla imzalı Android App Bundle.
+- **Telefonda deneme APK'sı:** [`release/FuseChef-v1.0.0-test.apk`](https://github.com/ozturkumit2-sys/sultan-oyun/raw/fuse-chef/release/FuseChef-v1.0.0-test.apk) — aynı paketin evrensel APK'sı. Play sürümünü kurmadan önce kaldırılmalıdır (imzalar farklıdır).
+- Paket: `com.fusegames.fusechef` · Sürüm: 1.0.0 (kod 1) · minSdk 24 · targetSdk 36 · ABI: arm64-v8a, armeabi-v7a, x86_64.
+- İzinler: yalnızca `VIBRATE` (titreşim ayarı için). İnternet izni yok; oyun tamamen çevrimdışıdır.
+- 16 KB sayfa boyutu: `libgodot_android.so` ve `libc++_shared.so` ELF segmentleri 16 KB hizalı; AAB yapılandırması yerel kitaplıkları sıkıştırmasız ve 16 KB hizalı paketler.
+- Play App Signing ile uyumludur: AAB yükleme anahtarıyla imzalanır, Google uygulamayı kendi uygulama imzalama anahtarıyla yeniden imzalar.
+- **Keystore ve parola bu depoda yoktur ve asla eklenmemelidir** (depo herkese açık).
+
+### AAB nasıl üretilir
+
+Godot'nun Gradle'lı AAB yolu yerine Google'ın resmi araçlarıyla (aapt2 + bundletool) üretilir:
+
+```bash
+godot --headless --export-release Android build/release/FuseChef-v1.0.0.apk
+FUSECHEF_KS_PASS='<keystore parolası>' python3 tools_src/android/build_aab.py \
+    --apk build/release/FuseChef-v1.0.0.apk --out build/release/FuseChef-v1.0.0-release.aab \
+    --bundletool bundletool-all-1.18.2.jar --keystore fusechef-upload.jks --alias fusechef-upload
+```
+
+Betik ayrıca Godot 4.5 dışa aktarımındaki iki kusuru düzeltir (silinmiş `themed_icon.xml` ve yinelenen `androidx.startup` sağlayıcı yetkisi) ve `targetSdkVersion` değerini 36'ya yükseltir. Her güncellemede `version/code` artırılmalı ve **aynı keystore** kullanılmalıdır.
+
 ## Projeyi açma ve çalıştırma
 
 1. [Godot 4.5.x](https://godotengine.org/download) (standart sürüm, .NET gerekmez) indir.

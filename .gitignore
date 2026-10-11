@@ -4,3 +4,10 @@ build/
 *.idsig
 export_credentials.cfg
 __pycache__/
+
+# imza anahtarları asla depoya girmez
+*.jks
+*.keystore
+*.p12
+.storepass
+keys/
