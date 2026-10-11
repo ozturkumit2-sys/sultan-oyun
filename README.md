@@ -14,7 +14,7 @@ APK her zaman bu dalın `apk/` klasöründe en güncel hâliyle durur. İndirdik
 - **8 rakip:** Cadı Morgana, Robot X-3000, Zombi Nine Gülizar, Kont Velvet, Kaptan Barbunya, Uzaylı Zorp, Peri Lila ve son boss Şef Obscura. Her birinin kişiliği, tercih ettiği malzemeleri, özel sabotajı, boss kuralı ve zafer/yenilgi replikleri var. Yapay zekâ temaya, skor durumuna ve jüri mutasyonlarına göre karar verir.
 - **Sabotaj sistemi:** Her sabotaj önceden uyarılır; *Savun* (mini oyun), *Uyum Sağla* veya *Riski Kabul Et* (geri tepme şansı). Hiçbir sabotaj kaçınılmaz yenilgi yaratmaz.
 - **Canlı yemekler:** Zıplayan, koşan, saklanan, süzülen, çatal çalan ve kılık değiştiren yemekler için 6 dokunmatik yakalama oyunu.
-- **3 jüri:** Şef Bruno (lezzet), Profesör Mira (yaratıcılık), Lord Max (sunum). Her puan yemeğin gerçek özelliklerinden ve oyuncu kararlarından hesaplanır ve gerekçesiyle gösterilir.
+- **3 jüri:** Şef Bruno (lezzet), Profesör Mira (yaratıcılık), Lord Max (sunum). Her puan yemeğin gerçek özelliklerinden ve oyuncu kararlarından hesaplanır ve gerekçesiyle gösterilir. Her jürinin 150'den fazla bağlama duyarlı yorumu var (puan seviyesi, mutasyon, canlı yemek, ilk keşif, tekrar, lanetli malzeme, gizemli malzeme, sevdiği/sevmediği malzemeler, pişirme yöntemi, tartışmalar); yorumlar yemeğin ve malzemelerin adını anar ve kısa sürede tekrarlanmaz.
 - **8 jüri mutasyonu** (görsel, damak değişimi, kaos), **jüri tartışmaları** (puanı en fazla ±1 etkileyen adil seçenekler), 10 tepki animasyonu.
 - **Kariyer:** 5 lig × 3 maç, yıldızlar, lig kuralları, boss maçları, tekrar oynama.
 - **Kaos Lab**, **Tarif Kitabı** (ipuçları, deneyler, gizli karakterler, mutasyon koleksiyonu, başarımlar), **Günlük Meydan Okuma** (tarihten deterministik), **Dükkân**, **Şef özelleştirme** ve **4 uzmanlık ağacı**.
@@ -47,7 +47,7 @@ Mimari: `arm64-v8a` (2017 sonrası telefonların neredeyse tamamı). Paket adı:
 ## Klasör yapısı
 
 ```
-data/                 Oyun içeriği (JSON): malzemeler, tarifler, temalar, jüri, rakipler, ligler, kozmetikler
+data/                 Oyun içeriği (JSON): malzemeler, tarifler, temalar, jüri ve jüri replikleri, rakipler, ligler, kozmetikler
 scenes/               Gerekli sahneler (Boot, MainMenu, ChefCustomization, CareerMap, KitchenBattle,
                       FusionLab, JudgingStage, Results, RecipeBook, DailyChallenge, Settings, Shop)
 scripts/autoload/     GameManager, SaveManager, AudioManager, IngredientDatabase, RecipeBookManager,
@@ -57,7 +57,7 @@ scripts/visual/       DrawKit, CharacterFigure, CharacterAnimationController, Di
 scripts/ui/           Arayüz bileşenleri (KitchenStation, CookingMinigame, DefendMinigame, SabotageDialog, ...)
 scripts/ui/scenes/    Sahne betikleri
 assets/               Yazı tipi (Baloo 2, OFL), UI ikonları, ses ve müzik
-tools_src/            Ses/ikon üretim betikleri (Python)
+tools_src/            Ses/ikon üretim ve jüri repliği betikleri (Python)
 _dev/                 Geliştirme testleri (dışa aktarıma dahil edilmez)
 ```
 

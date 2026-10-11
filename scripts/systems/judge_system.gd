@@ -269,12 +269,142 @@ static func judge_score(judge: Dictionary, ev: Dictionary, dish: Dictionary, mut
 	if not mutation.is_empty() and absf(mut_effect) > 0.05:
 		texts.append("(Mutasyon etkisi: %s%.1f)" % ["+" if mut_effect > 0 else "", mut_effect])
 	var tier := "high" if score >= 7.5 else ("mid" if score >= 4.5 else "low")
-	var lines: Array = judge.get("lines", {}).get(tier, ["..."])
+	var lines: Array = IngredientDatabase.judge_lines.get(judge["id"], {}).get(tier, [])
+	if lines.is_empty():
+		lines = judge.get("lines", {}).get(tier, ["..."])
 	var h := FusionEngine.fnv(str(dish.get("id", "")) + str(judge["id"]) + str(ctx.get("round", 0)))
-	var quip: String = lines[h % lines.size()]
+	var quip: String = _fill(str(lines[h % lines.size()]), dish, "")
 	return {"score": score, "raw": raw, "reason": " ".join(PackedStringArray(texts)), "quip": quip, "tier": tier,
 		"weights": w, "axes": ax, "mutation_effect": mut_effect,
+		"liked": likes > 0, "disliked": dislikes > 0, "toxic": judge["id"] == "bruno" and s["toxic"] > 40.0,
 		"reaction": pick_reaction(judge, score, dish, likes > 0)}
+
+
+# ---------------------------------------------------------------- bağlamsal jüri replikleri
+static var _recent: Dictionary = {}          # jüri id -> son kullanılan replikler
+static var _qrng: RandomNumberGenerator = null
+const RECENT_MAX := 45
+
+
+## judge_all sonuçlarına bağlama uygun, tekrarlamayan replikler yerleştirir.
+## ctx: mutations(Dictionary jüri->mutasyon), living("none"/"caught"/"escaped"), first, repeat, mystery(malzeme id)
+static func assign_quips(results: Dictionary, dish: Dictionary, ctx: Dictionary) -> void:
+	if _qrng == null:
+		_qrng = RandomNumberGenerator.new()
+		_qrng.randomize()
+	var muts: Dictionary = ctx.get("mutations", {})
+	var living: String = str(ctx.get("living", "none"))
+	var tags: Array = dish.get("tags", [])
+	var cursed: bool = tags.has("cursed") or dish.has("tainted")
+	var mystery: String = str(ctx.get("mystery", ""))
+	var method: String = str(dish.get("method", ""))
+	for jid in results.keys():
+		var r: Dictionary = results[jid]
+		var pools: Dictionary = IngredientDatabase.judge_lines.get(jid, {})
+		if pools.is_empty():
+			continue
+		var tier: String = r.get("tier", "mid")
+		var cands: Array = []   # [ağırlık, havuz]
+		var mid: String = str(muts.get(jid, ""))
+		if mid != "":
+			cands.append([3.0, pools.get("mutation", {}).get(mid, [])])
+		if living == "escaped" and tier != "high":
+			cands.append([2.2, pools.get("living_escaped", [])])
+		elif living == "caught":
+			cands.append([1.6, pools.get("living_caught", [])])
+		if ctx.get("repeat", false):
+			cands.append([2.5, pools.get("repeat", [])])
+		elif ctx.get("first", false) and tier != "low":
+			cands.append([1.3, pools.get("first", [])])
+		if cursed and tier != "high":
+			cands.append([1.5, pools.get("cursed", [])])
+		if mystery != "" and tier != "low":
+			cands.append([1.1, pools.get("mystery", [])])
+		if r.get("liked", false) and tier != "low":
+			cands.append([1.0, pools.get("like", [])])
+		if r.get("disliked", false) and tier != "high":
+			cands.append([1.2, pools.get("dislike", [])])
+		if r.get("toxic", false):
+			cands.append([1.6, pools.get("toxic", [])])
+		if method != "" and tier != "low":
+			cands.append([0.6, pools.get("method", {}).get(method, [])])
+		cands.append([4.0, pools.get(tier, [])])
+		var line := _pick_weighted(jid, cands)
+		if line == "":
+			continue
+		var ing := ""
+		if line.contains("{ing}") and mystery != "" and IngredientDatabase.ingredients.has(mystery) and pools.get("mystery", []).has(line):
+			ing = str(IngredientDatabase.ingredients[mystery].get("name", ""))
+		r["quip"] = _fill(line, dish, ing)
+
+
+static func _pick_weighted(jid: String, cands: Array) -> String:
+	var recent: Array = _recent.get(jid, [])
+	var total := 0.0
+	var live: Array = []
+	for c in cands:
+		var pool: Array = c[1]
+		var fresh: Array = []
+		for l in pool:
+			if not recent.has(l):
+				fresh.append(l)
+		if fresh.is_empty():
+			continue
+		live.append([float(c[0]), fresh])
+		total += float(c[0])
+	var line := ""
+	if live.is_empty():
+		for c in cands:
+			if not (c[1] as Array).is_empty():
+				var p: Array = c[1]
+				line = str(p[_qrng.randi() % p.size()])
+	else:
+		var roll := _qrng.randf() * total
+		var idx := live.size() - 1
+		for i in live.size():
+			roll -= float(live[i][0])
+			if roll <= 0.0:
+				idx = i
+				break
+		var p: Array = live[idx][1]
+		line = str(p[_qrng.randi() % p.size()])
+	if line != "":
+		recent.append(line)
+		while recent.size() > RECENT_MAX:
+			recent.pop_front()
+		_recent[jid] = recent
+	return line
+
+
+## Yer tutucuları doldurur: {dish} yemek adı, {ing} yemekteki bir malzeme, {method} pişirme yöntemi.
+static func _fill(line: String, dish: Dictionary, ing: String) -> String:
+	if line.contains("{dish}"):
+		line = line.replace("{dish}", str(dish.get("name", "bu yemek")))
+	if line.contains("{ing}"):
+		if ing == "":
+			var bases: Array = []
+			_base_ingredients(str(dish.get("id", "")), bases, 0)
+			if bases.is_empty():
+				ing = "malzeme"
+			else:
+				var pick: String = bases[FusionEngine.fnv(str(dish.get("id", "")) + line) % bases.size()]
+				ing = str(IngredientDatabase.ingredients[pick].get("name", "malzeme"))
+		line = line.replace("{ing}", ing)
+	if line.contains("{method}"):
+		line = line.replace("{method}", IngredientDatabase.method_name(str(dish.get("method", ""))))
+	return line
+
+
+static func _base_ingredients(id: String, out: Array, depth: int) -> void:
+	if id == "" or depth > 6:
+		return
+	if IngredientDatabase.ingredients.has(id):
+		if not out.has(id):
+			out.append(id)
+		return
+	var it := FusionEngine.item(id)
+	for inp in it.get("inputs", []):
+		_base_ingredients(str(inp), out, depth + 1)
 
 
 static func _generic_reason(key: String) -> String:

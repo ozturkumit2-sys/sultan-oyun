@@ -21,6 +21,7 @@ var themes: Dictionary = {}
 var theme_order: Array = []
 var judges: Array = []
 var judge_map: Dictionary = {}
+var judge_lines: Dictionary = {}   # jüri id -> bağlamsal replik havuzları (data/judge_lines.json)
 var reactions: Array = []
 var opponents: Dictionary = {}
 var opponent_order: Array = []
@@ -103,6 +104,7 @@ func load_all() -> void:
 	for j in judges:
 		judge_map[j["id"]] = j
 	reactions = jd.get("reactions", [])
+	judge_lines = _load_json("res://data/judge_lines.json")
 
 	var op := _load_json("res://data/opponents.json")
 	for o in op.get("opponents", []):

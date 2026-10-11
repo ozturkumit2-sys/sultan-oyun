@@ -1,0 +1,652 @@
+{
+ "version": 1,
+ "bruno": {
+  "high": [
+   "Mamma mia! Bu bir şaheser!",
+   "Damağımda bir orkestra çalıyor!",
+   "Annemin yemeklerinden bile iyi... Ona söylemeyin.",
+   "Bıyıklarım mutluluktan kıvrıldı!",
+   "İşte buna yemek denir. Gerisi sadece kalori.",
+   "Bir lokma daha alabilir miyim? Sadece bilimsel amaçlı.",
+   "Otuz yıllık meslek hayatımda böylesini az gördüm.",
+   "Bu tabağı çerçeveletip mutfağıma asacağım.",
+   "Tuzu tam yerinde. Sen tuzun dilinden anlıyorsun!",
+   "Gözlerim doldu. Soğandan değil, gururdan.",
+   "Bu tadı rüyamda görsem uyanmak istemezdim.",
+   "Bravo! Tencere ve sen tek yürek olmuşsunuz.",
+   "Bunu yiyince çocukluğuma döndüm. Güzel günlerdi.",
+   "Kusursuz! Bıyığıma bile bulaşmadı, o kadar zarif.",
+   "Lezzet dengesi o kadar iyi ki terazim kıskandı.",
+   "Bu yemeğe saygı duruşunda bulunmak istiyorum.",
+   "Ağzımda havai fişek patladı, ama lezzetli olanından.",
+   "Bundan sonra herkese bu tabağı anlatacağım. Herkese!",
+   "Mutfak tanrıları bugün seninle, evlat.",
+   "Böyle bir yemek için dağları aşarım: {dish}!",
+   "Şu {ing} dokunuşu... dahiyane, gerçekten dahiyane!",
+   "Tabağı yalamamak için kendimi zor tutuyorum.",
+   "Sana bir sır vereyim: Bu benim gizli tarifimden iyi.",
+   "Bunu yiyen bir daha hazır çorba içmez.",
+   "Her lokmada biraz daha aşık oluyorum. Yemeğe tabii.",
+   "Tadı o kadar iyi ki bıyığımı bile taramayı unuttum.",
+   "Bu tabağın kokusu bile ödül almalı."
+  ],
+  "mid": [
+   "Fena değil, ama ruhu eksik.",
+   "Tuzunu biraz daha düşünmeliydin.",
+   "Yenir. Yani... yenir.",
+   "İyi bir başlangıç, ama şef olmak için biraz daha ateş lazım.",
+   "Bıyıklarım kararsız kaldı. Biri sağa, biri sola baktı.",
+   "Sıradan bir pazar öğlesi yemeği gibi. Kötü değil, hatırlanmaz da.",
+   "Bir şeyler eksik. Belki sevgi, belki tuz. Muhtemelen tuz.",
+   "Fikir güzel, uygulamada biraz tökezlemişsin.",
+   "Annem olsa 'Daha çok çalış evladım' derdi. Ben de diyorum.",
+   "Lezzetin yarısı burada, diğer yarısı yolda kaybolmuş.",
+   "Tadı idare eder, ama kokusu daha çok söz veriyordu.",
+   "Bu tabak biraz daha cesaret isterdi: {dish} daha iyi olabilir.",
+   "Ne aşık oldum ne ayrıldım. Arkadaş kalalım.",
+   "Biraz daha ateş, biraz daha sabır... olurdu.",
+   "Ilık. Hem sıcaklığı hem duygusu.",
+   "Tabakta potansiyel görüyorum. Ağzımda pek görmüyorum.",
+   "Şu {ing} biraz yalnız kalmış, ona arkadaş lazım.",
+   "Puanım kibar, ama kalbim daha fazlasını bekliyordu.",
+   "İkinci lokmayı istemem. Ama ilkine de kızmadım.",
+   "Bu yemek yarı yolda durmuş, arızalı bir otobüs gibi.",
+   "Teknik olarak doğru, duygusal olarak eksik.",
+   "Bıyığım 'olur' diyor, midem 'bakalım' diyor.",
+   "Pişirme fena değil ama lezzetler birbirini tanımıyor.",
+   "Bir dahaki sefere daha çok tat, daha az korku.",
+   "Ortada bir yerde. Tıpkı benim sabahki ruh hâlim gibi.",
+   "Yemek güzel bir şarkının sadece nakaratı gibi. Gerisi nerede?",
+   "Bunu sevmek istiyorum, gerçekten. Biraz yardım et."
+  ],
+  "low": [
+   "Bu bir felaket!",
+   "Bıyıklarım titredi, iyi anlamda değil.",
+   "Bunu kim pişirdi? Bir ejderha mı?",
+   "Annem bunu görse terliğini fırlatırdı.",
+   "Lezzet burada nefes almaya çalışıyor, yardım edin!",
+   "Bu tabak mutfak tarihine kara bir leke olarak geçecek.",
+   "Ağzımda bir savaş çıktı ve herkes kaybetti.",
+   "Su! Biri bana su getirsin! Ve bir avukat!",
+   "Bunu yemektense bıyığımı tıraş ederim.",
+   "Buna yemek denmez, ceza denir: {dish}.",
+   "Damak zevkim istifa dilekçesini verdi.",
+   "Tencere bunu yapmana nasıl izin verdi?",
+   "Bunu tadınca otuz yıllık kariyerim gözümün önünden geçti.",
+   "Şu {ing} burada ne arıyor? Kaybolmuş olmalı.",
+   "Tuz nerede? Sevgi nerede? Mantık nerede?",
+   "Bu tabağı yere değil, tarihe gömelim.",
+   "Midem bana küstü, bir hafta konuşmayacak.",
+   "Bunu ancak çok kızgın bir korsan yer.",
+   "Tatlar birbirinin saçını başını yolmuş.",
+   "Bu bir yemek değil, bir uyarı levhası.",
+   "Bunu yedikten sonra en az üç gün dinlenmem lazım.",
+   "Gözlerim yaşardı, ama acıdan değil, üzüntüden.",
+   "Bunu çöpe atmak bile çöpe saygısızlık olur.",
+   "Lütfen bir daha deneme. Ya da dene ama bana getirme.",
+   "Bu mutfakta suç işlendi ve delil tabakta.",
+   "Çatalım bükülmek istedi, ben de.",
+   "Bu tadı unutmak için bir ömür yetmez."
+  ],
+  "first": [
+   "Daha önce hiç böyle bir şey tatmadım. Şaşırttın!",
+   "Yeni bir tarif mi? Cesaretine şapka çıkarıyorum. Şef şapkamı!",
+   "Bu tarifi defterime yazıyorum. Kurşun kalemle, ne olur ne olmaz.",
+   "İlk kez yapılan bir yemek için gayet olgun bir tat."
+  ],
+  "repeat": [
+   "Bunu zaten yemiştim. İkinci kez yemek ilk aşk gibi değil.",
+   "Aynı tabak, aynı tat... Biraz sürpriz bekliyordum.",
+   "Tekrar mı? Annem de her pazar aynı yemeği yapardı ama o annemdi."
+  ],
+  "living_caught": [
+   "Yemek tabakta dans ediyor! Hiç olmazsa taze olduğu kesin.",
+   "Kıpırdıyor ama lezzeti de kıpır kıpır, kabul.",
+   "Canlı yemek mi? Bıyığımı ısırmazsa sorun yok."
+  ],
+  "living_escaped": [
+   "Yemeği önce yakalamak lazım, sonra sunmak! Sıra önemli!",
+   "Tabağın yarısı kaçmış. Kalan yarısı da kaçmayı düşünüyor.",
+   "Bıyığıma bir şey zıpladı! Bu kabul edilemez!"
+  ],
+  "cursed": [
+   "Bu tabakta bir lanet var, ama sosu fena değil.",
+   "Tadında bir büyü kokusu var. Mutfağımda büyü istemem!",
+   "Kim bu yemeğe turşu kattı? Gülizar Nine mi buradaydı?"
+  ],
+  "mystery": [
+   "Gizemli malzemeyi kullanmışsın. Cesur bir hamle!",
+   "Şu {ing} ile başa çıkmak kolay değil, aferin.",
+   "Gizemi çözmüşsün, şimdi lezzeti çözelim."
+  ],
+  "like": [
+   "İşte! Klasik mutfağın kokusu burnuma geldi!",
+   "Tam benim sevdiğim türden. Hamur, peynir, sos... cennet!",
+   "Bu malzemeleri görünce gözlerim parladı.",
+   "Gelenekten güç alan bir tabak. Saygılar!"
+  ],
+  "dislike": [
+   "Tabağımda cıvata mı var? Ben robot muyum?",
+   "Bu jöle benimle konuşuyor. Hayır, teşekkürler.",
+   "Fermente şeylerden korkarım. Bu da korkunç.",
+   "Bu malzemeler mutfağa değil, garaja ait."
+  ],
+  "toxic": [
+   "Zehir dozu yüksek! Midem alarm veriyor!",
+   "Bu yemek bana değil, bir laboratuvara gönderilmeli.",
+   "Biraz zehirli mi bu? Biraz değil, epey!"
+  ],
+  "method": {
+   "bake": [
+    "Fırının sıcaklığını iyi ayarlamışsın, kabuğu harika.",
+    "Fırından yeni çıkmış kokusu beni benden aldı."
+   ],
+   "fry": [
+    "Çıtırlığı kulağıma müzik gibi geldi.",
+    "Kızartma ustası mısın? Yağ seni seviyor."
+   ],
+   "freeze": [
+    "Soğuk ama kalpsiz değil. Güzel.",
+    "Dondurmayı severim, beyin donmasını sevmem."
+   ],
+   "boil": [
+    "Kaynatmak sabır ister, sende sabır var.",
+    "Bu çorba ruhumu ısıttı."
+   ],
+   "grill": [
+    "Izgara izleri birer sanat eseri.",
+    "Közün kokusu... köyüme döndüm sanki."
+   ],
+   "magic": [
+    "Büyülü pişirme mi? Hımm... sonuç fena değil.",
+    "Mutfağımda büyüye karşıyım ama bu tadı affediyorum."
+   ]
+  },
+  "mutation": {
+   "frog": [
+    "Vrak! Yani... lezzetli! Vrak!",
+    "Şimdi canım bir sinek çekti. Bunu neden söyledim?"
+   ],
+   "vampire_teeth": [
+    "Dişlerim çok sivri, peynir kesmek kolay oldu.",
+    "Güneşi kapatın! Ve bana biraz daha sos verin."
+   ],
+   "robot_eyes": [
+    "TAT ANALİZİ: KABUL EDİLEBİLİR. BIYIK: HÂLÂ GÜZEL.",
+    "Gözlerim lazer gibi, pişirme hatalarını görüyorum!"
+   ],
+   "giant_ears": [
+    "Yemeğin cızırtısını üç sokak öteden duydum!",
+    "Kulaklarım dev ama tat alma duyum aynı, merak etme."
+   ],
+   "flaming_hair": [
+    "Saçlarım yanıyor ama bu yemek daha da yakıyor!",
+    "Acı getirin! Saçım zaten alevde, kaybedecek bir şeyim yok!"
+   ],
+   "alien_antennas": [
+    "Antenlerim bir sinyal alıyor: 'Daha çok tuz koy.'",
+    "Uzaydan mesaj var: Bu tabak dünyalılar için uygun."
+   ],
+   "ghost_form": [
+    "Lokma içimden geçti... tadını zar zor aldım.",
+    "Hayalet olmak zor, yemek tadamıyorum! Buuu!"
+   ],
+   "giant_tongue": [
+    "Dilim o kadar büyük ki her tadı iki kere alıyorum!",
+    "Bu dille tabağı tek seferde yalayabilirim. Yapmayacağım. Belki."
+   ]
+  },
+  "argue_high": [
+   "Bu tabak klasik mutfağa saygının ta kendisi!",
+   "Ben burada lezzet görüyorum, siz ne görüyorsunuz?",
+   "Bu yemeği eleştiren önce bir yumurta kırmayı öğrensin!",
+   "Lezzet her şeydir! Gerisi süs!",
+   "Annem bu tabağı görse gururla ağlardı!",
+   "Bıyığım üzerine yemin ederim, bu harika!"
+  ],
+  "argue_low": [
+   "Gerçek yemek böyle olmaz! Bu bir trajedi!",
+   "Bunu övmek için ya aç ya da kör olmak lazım!",
+   "Siz buna lezzet mi diyorsunuz? Ben buna kaza diyorum!",
+   "Bu tabakla bıyığımı bile silmem!",
+   "Gösteriş var, lezzet yok! Bu bir sahne dekoru!",
+   "Benim mutfağımda bu tabak kapıdan bile girmez!"
+  ],
+  "argue_third": [
+   "Ben ikinize de katılmıyorum! Ortada bir yerdeyim!",
+   "Durun, durun! Bıyığımı karıştırmayın bu işe!",
+   "Bence ikiniz de abartıyorsunuz. Biraz tuz atın kendinize!",
+   "Tartışmayı kesin, çorba soğuyor!"
+  ]
+ },
+ "mira": {
+  "high": [
+   "Deneysel bir deha! Not alıyorum!",
+   "Bilim adına muhteşem!",
+   "Bu tabak bir Nobel hak ediyor!",
+   "Hipotezim doğrulandı: Sen bir dâhisin.",
+   "Laboratuvarımda üç yıldır bunu arıyordum!",
+   "Moleküller dans ediyor! Bunu bir makaleye dönüştürmeliyim.",
+   "Bu, mutfak bilimi için yeni bir çağın başlangıcı.",
+   "Defterim yetmedi, kolumun üstüne not alıyorum.",
+   "Deney başarılı! Patlama yok, sadece lezzet.",
+   "Bu tabağı müzeye koyalım, yanına da bir bilim insanı heykeli.",
+   "Beklenmedik, cüretkâr, mükemmel. Üç kelime, tek tabak.",
+   "Sonuçlar istatistiksel olarak anlamlı: Bu çok iyi!",
+   "Bu karışımın formülünü bana yaz, lütfen!",
+   "Beynimdeki nöronlar alkış tutuyor.",
+   "Bu ismi bilim tarihine yazacağım: {dish}.",
+   "Şu {ing} kullanımı tam bir paradigma değişimi!",
+   "Gözlüklerim buğulandı. Heyecandan, buhardan değil.",
+   "Sıradanlığın ilacını bulmuşsun!",
+   "Bu tabak sınırları zorlamanın ödülü.",
+   "Bunu yedikten sonra evren biraz daha anlamlı geldi.",
+   "Teorik olarak imkânsız, pratikte nefis!",
+   "Kafamda yeni bir ampul yandı. Tabağına teşekkürler!",
+   "Bu deneyi tekrar etmek için her şeyimi veririm.",
+   "Tebrikler! Laboratuvar önlüğünü hak ettin.",
+   "Zihnim açıldı, damağım aydınlandı!",
+   "Bu tabak, hakemli bir dergide kapak olur.",
+   "Şimdiye kadar gördüğüm en güzel kaos!"
+  ],
+  "mid": [
+   "İlginç bir hipotez, ama kanıt yetersiz.",
+   "Biraz daha cesur olabilirdin.",
+   "Fikir güzel, uygulama tartışmalı.",
+   "Deney yarıda kalmış gibi. Devamı nerede?",
+   "Veriler karışık. Biraz tatlı, biraz şaşkın.",
+   "Umut verici bir prototip. Bir sonraki sürümü bekliyorum.",
+   "Kontrol grubuna göre fark var, ama çok küçük.",
+   "Bu tabağın yaratıcılık oranı %50. Diğer yarısı uyuyor.",
+   "Tuhaflığı sevdim, ama yeterince tuhaf değil.",
+   "Formül doğru, sonuç biraz sönük.",
+   "Bir taslak gibi duruyor: {dish}. Bir revizyon daha!",
+   "Şu {ing} daha iyi kullanılabilirdi, potansiyeli büyük.",
+   "Bir adım ileri, bir adım geri. Bilim böyledir.",
+   "Notum: 'İyi ama devrimci değil.'",
+   "Laboratuvarda ilk denemede bu çıkardı. Sonra geliştirirdik.",
+   "Merakımı uyandırdın ama tamamen tatmin etmedin.",
+   "Daha fazla risk, daha fazla ödül demektir.",
+   "Ne patladı ne parladı. Ortada bir tepkime.",
+   "Ortalama bir deney. Hakemler 'küçük düzeltme' istiyor.",
+   "Gözlem: Lezzet var. Sonuç: Heyecan yok.",
+   "Bu tabak güvenli oynuyor. Bilim güvenli oynamaz!",
+   "Tasarım güzel, sürpriz faktörü düşük.",
+   "Bir sonraki adımda daha fazla kaos öneririm.",
+   "Fena değil. Ama fena değil, iyi değil demektir.",
+   "Bu karışımda bir şey eksik. Belki bir şimşek?",
+   "Yarım bir keşif. Diğer yarısı hâlâ bilinmiyor.",
+   "Değişkenler doğru, oranlar yanlış."
+  ],
+  "low": [
+   "Sıkıcı. Bunu 1800'lerde de yapıyorlardı.",
+   "Hiç risk yok, hiç keşif yok.",
+   "Uykum geldi, kusura bakma.",
+   "Bu tabak bilime hiçbir şey katmadı.",
+   "Hipotez çürütüldü. Hem de fena hâlde.",
+   "Deney başarısız. Laboratuvarı havalandırın.",
+   "Bu yemek bir ders kitabının en sıkıcı sayfası gibi.",
+   "Yaratıcılık sıfıra bölündü: Tanımsız.",
+   "Hiçbir dergi bunu kabul etmez: {dish}.",
+   "Şu {ing} burada boşa harcanmış.",
+   "Merak duygum bu tabağa bakınca öldü.",
+   "Bunu bir robot da yapardı. Hem de daha heyecanlı.",
+   "Tahmin edilebilir, sıradan, ruhsuz.",
+   "Gözlüklerimi çıkardım ki daha az göreyim.",
+   "Bu tabak sınavdan kaldı. Bütünlemede görüşürüz.",
+   "Moleküller bile sıkılmış, hiç hareket etmiyorlar.",
+   "Bu bir deney değil, bir alışkanlık.",
+   "Laboratuvar faresi bile bunu reddederdi.",
+   "Kimyasal tepkime yok, duygusal tepkime de yok.",
+   "Bunu yiyince zaman yavaşladı. Kötü anlamda.",
+   "Not: Bu tarifi asla tekrarlamayın.",
+   "İnovasyon nerede? Aradım, bulamadım.",
+   "Bu tabak beni yirmi yıl geriye götürdü.",
+   "Bilimsel yöntem: Gözlem, deney... ve hayal kırıklığı.",
+   "Patlamasını bekledim, o bile olmadı.",
+   "Bu tabağın tek keşfi sabrımın sınırı oldu.",
+   "Raporuma tek kelime yazıyorum: 'Hayır.'"
+  ],
+  "first": [
+   "Daha önce kimse bunu denememişti! Tarihe tanıklık ediyorum.",
+   "Yeni bir keşif! Adını sen koyduğun için şanslısın.",
+   "İlk deneme ve şimdiden ilginç. Seri üretime geçelim!",
+   "Literatürde böyle bir tarif yok. Artık var!"
+  ],
+  "repeat": [
+   "Bunu zaten yemiştim. Tekrar eden deney yeni bilgi vermez.",
+   "Aynı sonuç, aynı tabak. Değişkeni değiştirmeyi unuttun mu?",
+   "Tekrarlanabilirlik bilimde iyidir, mutfakta sıkıcıdır."
+  ],
+  "living_caught": [
+   "Yemek canlı! Bu yeni bir yaşam formu mu? Defterim nerede!",
+   "Kıpırdayan tabak! Biyoloji bölümü bunu duymalı.",
+   "Canlı ve evcil. Muhteşem bir başarı!"
+  ],
+  "living_escaped": [
+   "Deney kaçtı! Bu kadar canlılık biraz fazla oldu.",
+   "Yemek kaçmış, ama bu da bir veri! Hız: çok yüksek.",
+   "Tabak boş... Ah, şurada perdeye tırmanıyor. İlginç!"
+  ],
+  "cursed": [
+   "Lanetli bir malzeme! Büyünün kimyası beni büyülüyor.",
+   "Bu tabakta beklenmedik bir değişken var. Sabotaj mı?",
+   "Fermente sürpriz! Mikrobiyolojik açıdan büyüleyici."
+  ],
+  "mystery": [
+   "Gizemli malzemeyi böyle yorumlamak... akıllıca!",
+   "Şu {ing} ile yapılan deney bilinmeyeni bilinen yaptı.",
+   "Gizem çözüldü, lezzet keşfedildi."
+  ],
+  "like": [
+   "Deneysel malzemelere bayılırım!",
+   "Büyü, uzay, elektrik... Tam benim ilgi alanım!",
+   "Bu malzemelerle her şey mümkün.",
+   "İşte gerçek bir laboratuvar mutfağı!"
+  ],
+  "dislike": [
+   "Klasik... çok klasik...",
+   "Bunu büyükannem de yapardı. O da sıkılırdı.",
+   "Bu kadar güvenli bir seçim beni üzüyor.",
+   "Ezber tarifler beni uyutuyor."
+  ],
+  "toxic": [],
+  "method": {
+   "bake": [
+    "Fırın, kontrollü bir tepkime odası. İyi kullanmışsın.",
+    "Kabarma oranı etkileyici, ölçüm yapmam lazım."
+   ],
+   "fry": [
+    "Kızgın yağda Maillard tepkimesi, harika!",
+    "Çıtırlık frekansı tam istediğim aralıkta."
+   ],
+   "freeze": [
+    "Kristalleşme süreci kusursuz yönetilmiş.",
+    "Soğuk bilim! En sevdiğim tür."
+   ],
+   "boil": [
+    "Kaynama noktasını iyi yakalamışsın.",
+    "Buhar, bilimin nefesidir."
+   ],
+   "grill": [
+    "Izgara izleri birer veri çizelgesi gibi.",
+    "Doğrudan ısı, doğrudan sonuç. Basit ama etkili."
+   ],
+   "magic": [
+    "Büyülü pişirme! Henüz açıklayamadığım bir enerji kullanıyor.",
+    "Büyü, henüz anlaşılmamış bilimdir. Bunu seviyorum!"
+   ]
+  },
+  "mutation": {
+   "frog": [
+    "Vrak! Bilimsel olarak ilginç: Artık sinek tadını alabiliyorum.",
+    "Dilim çok uzun ve yapışkan. Not ediyorum. Vrak!"
+   ],
+   "vampire_teeth": [
+    "Bu dişler kan şekerimi ölçebiliyor mu acaba?",
+    "Gece kuşu oldum. Tam laboratuvar saatleri!"
+   ],
+   "robot_eyes": [
+    "VERİ AKIŞI BAŞLADI. YARATICILIK: HESAPLANIYOR.",
+    "Robot gözlerle her molekülü görüyorum. Harika!"
+   ],
+   "giant_ears": [
+    "Moleküllerin fısıldaşmasını duyuyorum!",
+    "Kulaklarım dev oldu, bilimsel olarak açıklayamıyorum. Henüz."
+   ],
+   "flaming_hair": [
+    "Saçlarım yanıyor! Ama yanma tepkimesi nefis kokuyor.",
+    "Alev saç: Isı deneyleri için çok pratik!"
+   ],
+   "alien_antennas": [
+    "Antenler başka galaksilerden tarif alıyor!",
+    "Zorp'un gezegeninden selam var, bu tabağı beğenmişler!"
+   ],
+   "ghost_form": [
+    "Fiziksel bedenim yok ama yaratıcılığı hâlâ hissediyorum.",
+    "Hayalet olmak kuantum gastronomisi için büyük fırsat!"
+   ],
+   "giant_tongue": [
+    "Dil yüzeyim üç kat arttı! Tat verileri muazzam.",
+    "Bu dille tat almaçlarını tek tek sayabilirim."
+   ]
+  },
+  "argue_high": [
+   "Bu bir vizyon! Mutfağın geleceği bu tabakta!",
+   "Siz sadece tabağa bakıyorsunuz, ben fikre bakıyorum!",
+   "Bu cesaret ödüllendirilmeli!",
+   "Gelecekte herkes bunu yiyecek, görürsünüz!",
+   "Bilimin ilerlemesi için risk şart!",
+   "Klasik diye diye mutfağı müzeye çevirdiniz!"
+  ],
+  "argue_low": [
+   "Hiçbir yenilik yok, tamamen ezber!",
+   "Bu tabak bilimin değil, alışkanlığın ürünü!",
+   "Güzel görünmesi yaratıcı olduğu anlamına gelmez!",
+   "Bunu övmek ilerlemeye ihanettir!",
+   "Bu bir deney değil, bir tekrar!",
+   "Sıradanlığı alkışlamayacağım!"
+  ],
+  "argue_third": [
+   "İkiniz de önyargılısınız! Verilere bakalım!",
+   "Bilimsel olarak ikiniz de kısmen haklısınız.",
+   "Tartışma güzel, ama hipotezlerinizi kanıtlayın!",
+   "Lütfen sakin olun, gözlüklerim buğulanıyor!"
+  ]
+ },
+ "max": {
+  "high": [
+   "Zarafetin tanımı! Monoklüm düştü!",
+   "Bu tabak bir sanat eseri!",
+   "Şatomun duvarına asardım.",
+   "Uşağım bunu görse gözyaşlarına boğulurdu.",
+   "İşte asalet! İşte zarafet!",
+   "Bu sunum yedi şatomun yedisinde de baş köşeye konur.",
+   "Tabağın açısı kusursuz. Üç derece bile kaymamış.",
+   "Kraliyet ziyafetlerinde bile böylesini görmedim.",
+   "Renk uyumu bir tabloyu andırıyor. Yenebilen bir tablo!",
+   "Bu tabağın önünde reverans yapmak istiyorum.",
+   "Monoklümü parlattım, daha iyi görmek için. Değdi!",
+   "Bir sanatçının elinden çıkmış gibi. Belki de çıkmıştır.",
+   "Zarif, asil, kusursuz. Tıpkı benim gibi.",
+   "Bu tabakla bir balo bile düzenlenir: {dish}!",
+   "Şu {ing} detayı tam bir aristokrat dokunuşu.",
+   "Bu tabak bir opera gibi: Her detayı alkış hak ediyor.",
+   "Altın çatalımı çıkarıyorum, buna layık.",
+   "Görüyor musunuz? Zarafet öğrenilebilir!",
+   "Ressamlar bu tabağı yüzyıllarca resmedecek.",
+   "Sunum o kadar güzel ki yemeye kıyamıyorum. Yine de yiyeceğim.",
+   "Bu tabak için şatomun bir kanadını verirdim. Küçük olanı.",
+   "Mükemmel! Ailemin armasına bu tabağı ekleteceğim.",
+   "Böyle bir zarafet ancak kraliyet kanında olur.",
+   "Bravo! Görgü kurallarına harfiyen uygun.",
+   "İpek kadar yumuşak, elmas kadar parlak.",
+   "Bu sunumu görünce ayağa kalkıp alkışlamak istedim.",
+   "Kristal avizelerimin altında bile parlardı."
+  ],
+  "mid": [
+   "Hoş, ama asil değil.",
+   "Tabak biraz daha parlayabilirdi.",
+   "Kabul edilebilir. Zar zor.",
+   "Güzel bir deneme. Henüz bir başyapıt değil.",
+   "Sunum sıradan bir akşam yemeği gibi.",
+   "Monoklüm tereddüt etti. Düşmedi ama kıpırdadı.",
+   "Biraz daha özen, biraz daha incelik.",
+   "Uşağım bunu servis ederdi. İsteksizce.",
+   "Renkler biraz kararsız. Bir karar verin!",
+   "Tabağın kenarında bir leke mi var? Neyse, görmezden geliyorum.",
+   "Bir prova gibi duruyor: {dish}. Gösteri günü daha iyi olur.",
+   "Şu {ing} daha zarif sunulabilirdi.",
+   "Fena değil. Ama ben 'fena değil' için şatodan çıkmadım.",
+   "Asaletin kapısına kadar gelmiş, içeri girememiş.",
+   "Düzenli ama ruhsuz. Bir muhasebe tablosu gibi.",
+   "Biraz altın varak her şeyi değiştirirdi.",
+   "Orta karar. Tıpkı bir pazartesi sabahı gibi.",
+   "Görünüşü bir şey vaat ediyor ama tam teslim etmiyor.",
+   "Sofra adabına uygun ama heyecan verici değil.",
+   "Tabağın merkezi kaymış. Kalbim de biraz kaydı.",
+   "Bu sunum bir taslak. Sanatçı nerede?",
+   "Zarafet var, ama kibarca uzaktan el sallıyor.",
+   "Kraliyet ziyafetine değil, bir pikniğe uygun.",
+   "Özen var, ama ustalık henüz yolda.",
+   "Yarım bir senfoni gibi. İkinci perde nerede?",
+   "Şık bir ceket ama düğmeleri yanlış iliklenmiş.",
+   "Neredeyse zarif. Neredeyse."
+  ],
+  "low": [
+   "Sunum tam bir hakaret!",
+   "Gözlerim! Monoklüm çatladı!",
+   "Bunu köpeğime bile vermem.",
+   "Bu tabak şatomun kapısından geçemez.",
+   "Uşağım bunu görse istifa ederdi.",
+   "Bu sunum bir trafik kazası gibi.",
+   "Zarafet burada değil. Muhtemelen başka bir ülkede.",
+   "Tabakta savaş çıkmış ve herkes yenilmiş.",
+   "Bu bir sanat eseri değil, bir suç mahalli: {dish}.",
+   "Şu {ing} tabağa fırlatılmış gibi duruyor.",
+   "Görgü kurallarının hepsi aynı anda çiğnenmiş.",
+   "Bunu görünce soy ağacım titredi.",
+   "Monoklümü çıkarıyorum. Bazı şeyleri görmemek gerek.",
+   "Bu tabak kraliyetten değil, kaostan gelmiş.",
+   "İpek bir mendile ihtiyacım var. Gözlerimi silmek için.",
+   "Bu sunum bir sirk çadırında bile sırıtır.",
+   "Renkler kavga etmiş, kimse kazanmamış.",
+   "Bunu yiyeceğim ama kimseye söylemeyin.",
+   "Atalarım mezarlarında döndü.",
+   "Bu tabağı ancak çok aç bir korsan beğenir.",
+   "Bataklıktan mı geldi bu? Kokusu öyle diyor.",
+   "Zevkimi değil, sabrımı test ediyorsun.",
+   "Çatalımı masaya bıraktım. Bu bir protestodur.",
+   "Bunu kırmızı halıda görse fotoğrafçılar kaçardı.",
+   "Bir tabakta bu kadar düzensizlik nasıl olur?",
+   "Bu sunum için şatomdan özür dilemem gerekecek.",
+   "Gözlerimi kapatıp yesem bile bu dağınıklığı hissederim."
+  ],
+  "first": [
+   "Yeni bir tarif! Asil ailelere ilk ben tanıtacağım.",
+   "Daha önce hiç görülmemiş bir tabak. Moda öncüsüsün.",
+   "İlk kez yapılmış ve şimdiden şık. Takdir ettim.",
+   "Bu yeniliği şatomdaki koleksiyona ekliyorum."
+  ],
+  "repeat": [
+   "Bunu zaten görmüştüm. Aynı elbiseyle iki baloya gidilmez.",
+   "Tekrar mı? Benim gardırobumda bile tekrar yoktur.",
+   "Aynı tabak... Aristokratlar sürpriz sever, biliyorsun."
+  ],
+  "living_caught": [
+   "Dans eden yemek mi? Çok şık!",
+   "Yemek bana reverans yaptı! Görgülü bir tabak.",
+   "Canlı ama terbiyeli. Takdir ediyorum."
+  ],
+  "living_escaped": [
+   "Yemek tabaktan kaçmış, ne rezalet!",
+   "Sos ceketime sıçradı! Bu ipekti!",
+   "Yemek kaçarken monoklüme çarptı. Affedilemez!"
+  ],
+  "cursed": [
+   "Bu tabakta karanlık bir aura var. Gotik ama dağınık.",
+   "Lanetli mi? Ailemde de birkaç lanet vardı. Şık değildi.",
+   "Turşu kokusu mu alıyorum? Burası bir kiler değil!"
+  ],
+  "mystery": [
+   "Gizemli malzemeyi zarifçe kullanmışsın.",
+   "Şu {ing} bile bu tabakta asil görünüyor.",
+   "Gizemi şıklıkla çözmüşsün, tebrikler."
+  ],
+  "like": [
+   "İşte asil bir malzeme!",
+   "Trüf, kristal, çiçek... Zevkli seçimler!",
+   "Bu malzemeler bir lorda yakışır.",
+   "Meyve mi? Benim en büyük zaafım!"
+  ],
+  "dislike": [
+   "Bataklık kokusu mu alıyorum?",
+   "Böcek mi? Tabağımda mı? Şaka olmalı.",
+   "Bu jöle titriyor. Ben titremem.",
+   "Fermente şeyler asalete yakışmaz."
+  ],
+  "toxic": [],
+  "method": {
+   "bake": [
+    "Fırından çıkan bu altın renk... çok aristokrat.",
+    "Kabarık ve gururlu. Tıpkı bir lord gibi."
+   ],
+   "fry": [
+    "Çıtır ama kaba değil. Zor bir denge.",
+    "Kızartma bile zarif olabilirmiş, öğrendim."
+   ],
+   "freeze": [
+    "Buz gibi şık. Kristal bir saray gibi.",
+    "Soğuk zarafet, en sevdiğim tür."
+   ],
+   "boil": [
+    "Çorbada zarafet zordur, ama başarmışsın.",
+    "Buharı bile asil bir dansla yükseliyor."
+   ],
+   "grill": [
+    "Izgara izleri bir şato bahçesi gibi düzenli.",
+    "Köz kokusu biraz kaba ama tabak şık."
+   ],
+   "magic": [
+    "Büyülü pişirme! Bir peri masalı tabağı.",
+    "Işıltısı bir taç kadar etkileyici."
+   ]
+  },
+  "mutation": {
+   "frog": [
+    "Vrak! Bir kurbağa bile zarafetten anlar. Vrak!",
+    "Kurbağa prens oldum! Biri beni öpsün. Hayır, aslında öpmeyin."
+   ],
+   "vampire_teeth": [
+    "Vampir dişleri bana çok yakıştı. Asil bir görünüm.",
+    "Gece ziyafetlerine hazırım. Karanlık ve şık!"
+   ],
+   "robot_eyes": [
+    "SUNUM TARAMASI: MONOKL UYUMSUZ. YİNE DE ZARİF.",
+    "Robot gözler bile bu tabağın açısını ölçüyor."
+   ],
+   "giant_ears": [
+    "Kulaklarım dev ama saçım hâlâ kusursuz. Önemli olan bu.",
+    "Uşağımın fısıltısını üç oda öteden duyuyorum!"
+   ],
+   "flaming_hair": [
+    "Saçlarım yanıyor! Bu tarzı moda yapabilirim.",
+    "Alevli bir lord! Ne dramatik, ne şık!"
+   ],
+   "alien_antennas": [
+    "Antenler monoklümle uyumlu değil, ama idare eder.",
+    "Uzaydan gelmiş bir aristokrat gibi hissediyorum."
+   ],
+   "ghost_form": [
+    "Hayalet bir lord olarak şatolarımda dolaşabilirim. Buuu!",
+    "Saydam olmak bile zarif olabilir, değil mi?"
+   ],
+   "giant_tongue": [
+    "Bu dil hiç aristokrat değil! Lütfen bakmayın!",
+    "Dilim tabağa değdi. Görgü kuralı ihlali, biliyorum."
+   ]
+  },
+  "argue_high": [
+   "Bu sunum saray sofralarına layık!",
+   "Zarafeti görmeyen monoklünü taksın!",
+   "Bu tabak bir sanat eseri, saygı gösterin!",
+   "Göze hitap etmeyen yemek kalbe de hitap etmez!",
+   "Asalet tartışılmaz, bu tabak asil!",
+   "Bu sunumu küçümsemek sanatı küçümsemektir!"
+  ],
+  "argue_low": [
+   "Bu sunum zarafete açılmış bir savaştır!",
+   "Bu tabağı övmek görgüsüzlüktür!",
+   "Lezzeti umurumda değil, bu tabak çirkin!",
+   "Bu dağınıklık kabul edilemez!",
+   "Şatomda bu tabağı servis eden işini kaybederdi!",
+   "Bu kadar özensizlik bir lordu küstürür!"
+  ],
+  "argue_third": [
+   "Beyler, hanımlar, lütfen! Biraz nezaket!",
+   "Bu tartışma hiç zarif değil. İkinize de katılmıyorum.",
+   "Bağırmak yerine çay içelim, olmaz mı?",
+   "Monoklüm titriyor, sakin olun lütfen!"
+  ]
+ }
+}

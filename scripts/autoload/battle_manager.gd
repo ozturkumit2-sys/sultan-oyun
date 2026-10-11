@@ -435,6 +435,8 @@ func judge_round() -> Dictionary:
 		var oev := JudgeSystem.evaluate(dish, octx)
 		var ojr := JudgeSystem.judge_all(dish, oev, mutations, {"rules": rules, "round": round_no,
 			"charmed": rules.has("judges_charmed"), "living": living})
+		JudgeSystem.assign_quips(ojr["judges"], dish, {"mutations": mutations, "living": living,
+			"mystery": str(cur.get("mystery", "")) if mystery_ok(dish) else ""})
 		var omut := MutationSystem.check(dish, _scores(ojr), _merged_mut(), {"rules": rules, "round": round_no})
 		if not omut.is_empty():
 			pending_mutations[omut["judge"]] = omut["mutation"]
@@ -460,6 +462,8 @@ func judge_round() -> Dictionary:
 		pev["notes"].append("no_mystery")
 	var pjr := JudgeSystem.judge_all(pdish, pev, mutations, {"rules": rules, "round": round_no, "is_player": true,
 		"specs": specs, "first": pl["first"], "repeat": repeat, "living": pl["living"]})
+	JudgeSystem.assign_quips(pjr["judges"], pdish, {"mutations": mutations, "living": pl["living"],
+		"first": pl["first"], "repeat": repeat, "mystery": str(cur.get("mystery", "")) if mystery_ok(pdish) else ""})
 	var pmut := MutationSystem.check(pdish, _scores(pjr), _merged_mut(), {"rules": rules, "round": round_no,
 		"is_player": true, "specs": specs})
 	if not pmut.is_empty():

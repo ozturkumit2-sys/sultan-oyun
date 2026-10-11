@@ -18,6 +18,7 @@ var dish: DishView
 var contestant: CharacterFigure
 var _fast := false
 var _skip := false
+var _said: Array = []   # bu sahnede söylenen tartışma replikleri
 
 
 func _ready() -> void:
@@ -282,8 +283,9 @@ func _taste(who: String) -> void:
 		var line := UIKit.wrap_label("%s: \"%s\"" % [IngredientDatabase.judge_map[jid2]["name"], jr.get("quip", "")], 21, UIKit.INK, false, HORIZONTAL_ALIGNMENT_LEFT)
 		panel_v.add_child(line)
 		var gp := f3.position + Vector2(0, -250 * f3.scale.y)
-		SpeechBubble.show_at(bubble_layer, gp, jr.get("quip", ""), 1.1 * (0.6 if _fast else 1.0), 0.0, Color.WHITE, 230)
-		await _wait(minf(d, 1.3) + 0.2)
+		var q: String = jr.get("quip", "")
+		SpeechBubble.show_at(bubble_layer, gp, q, clampf(0.8 + q.length() * 0.022, 1.2, 2.2) * (0.6 if _fast else 1.0), 0.0, Color.WHITE, 230)
+		await _wait(minf(d, 1.3) + 0.45)
 	await _wait(0.5)
 
 
@@ -334,16 +336,32 @@ func _argument_banter(r: Dictionary) -> void:
 			hi = k
 	_clear_panel()
 	_say("TARTIŞMA ÇIKTI!", 34, UIKit.RED)
-	await _judge_line(hi, IngredientDatabase.judge_map[hi].get("argue_high", ""))
-	await _judge_line(lo, IngredientDatabase.judge_map[lo].get("argue_low", ""))
+	await _judge_line(hi, _line(hi, "argue_high"), "laugh")
+	await _judge_line(lo, _line(lo, "argue_low"), "angry")
 	_say("Rakip omuz silkti. Puanlar değişmedi.", 22, Color("#6a4a3a"))
 	await _wait(1.0)
 
 
-func _judge_line(jid: String, text: String) -> void:
+## Jürinin replik havuzundan (data/judge_lines.json) yakın zamanda söylenmemiş rastgele bir satır.
+func _line(jid: String, key: String) -> String:
+	var pool: Array = IngredientDatabase.judge_lines.get(jid, {}).get(key, [])
+	if pool.is_empty():
+		pool = [str(IngredientDatabase.judge_map.get(jid, {}).get(key, "..."))]
+	var fresh: Array = []
+	for l in pool:
+		if not _said.has(l):
+			fresh.append(l)
+	if fresh.is_empty():
+		fresh = pool
+	var pick: String = fresh[randi() % fresh.size()]
+	_said.append(pick)
+	return pick
+
+
+func _judge_line(jid: String, text: String, expr := "laugh") -> void:
 	var f: CharacterFigure = judges[jid]
 	f.talk(1.4)
-	f.set_expression("angry" if "felaket" in text or "hakaret" in text or "ezber" in text else "laugh", 1.6)
+	f.set_expression(expr, 1.6)
 	var gp := f.position + Vector2(0, -330 * f.scale.y)
 	SpeechBubble.show_at(bubble_layer, gp + Vector2(0, 150), text, 2.0 * (0.6 if _fast else 1.0), 0.0, Color("#fff2c4"), 230)
 	AudioManager.sfx_r("surprise" if randf() < 0.5 else "yuck", 0.1, -4.0)
@@ -361,14 +379,14 @@ func _argument_player() -> void:
 			hi = k
 	_clear_panel()
 	_say("JÜRİ BİRBİRİNE GİRDİ!", 34, UIKit.RED)
-	await _judge_line(lo, IngredientDatabase.judge_map[lo].get("argue_low", ""))
-	await _judge_line(hi, IngredientDatabase.judge_map[hi].get("argue_high", ""))
+	await _judge_line(lo, _line(lo, "argue_low"), "angry")
+	await _judge_line(hi, _line(hi, "argue_high"), "laugh")
 	var third := ""
 	for k in JUDGE_IDS:
 		if k != lo and k != hi:
 			third = k
 	if third != "":
-		await _judge_line(third, "Ben ikinize de katılmıyorum!")
+		await _judge_line(third, _line(third, "argue_third"), "surprised")
 	_clear_panel()
 	_say("Ne yapacaksın?", 30, UIKit.INK)
 	var grid := GridContainer.new()
