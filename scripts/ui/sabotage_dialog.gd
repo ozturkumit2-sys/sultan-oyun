@@ -11,6 +11,7 @@ var _busy := false
 
 
 func _init() -> void:
+	add_to_group("ui_blocker")
 	set_anchors_preset(Control.PRESET_FULL_RECT)
 	mouse_filter = Control.MOUSE_FILTER_STOP
 	z_index = 78
@@ -37,12 +38,12 @@ func open(ab: String, opponent: Dictionary, target_item := "") -> void:
 	var head := UIKit.hbox(10)
 	head.alignment = BoxContainer.ALIGNMENT_CENTER
 	head.add_child(UIKit.icon("skull", 54))
-	head.add_child(UIKit.title("SABOTAJ!", 50, Color("#ff4f5e"), UIKit.INK, 12))
+	head.add_child(UIKit.title(Loc.t("SABOTAJ!"), 50, Color("#ff4f5e"), UIKit.INK, 12))
 	v.add_child(head)
 	var nm := UIKit.chip(info.get("name", ab), col, 26)
 	nm.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 	v.add_child(nm)
-	var line: String = opponent.get("warn", "Rakip bir şeyler planlıyor!")
+	var line: String = opponent.get("warn", Loc.t("Rakip bir şeyler planlıyor!"))
 	v.add_child(UIKit.wrap_label(line, 24, Color("#7a3a3a"), true))
 	if ab == "ingredient_theft" and target_item != "":
 		var row := UIKit.hbox(8)
@@ -51,14 +52,14 @@ func open(ab: String, opponent: Dictionary, target_item := "") -> void:
 		ic.custom_minimum_size = Vector2(70, 70)
 		ic.set_item(target_item)
 		row.add_child(ic)
-		row.add_child(UIKit.label("Hedef: %s" % FusionEngine.item(target_item)["name"], 24, UIKit.INK))
+		row.add_child(UIKit.label(Loc.t("Hedef: %s") % FusionEngine.item(target_item)["name"], 24, UIKit.INK))
 		v.add_child(row)
-	v.add_child(_option("SAVUN", info.get("defend", ""), UIKit.BLUE, "shield", "defend"))
-	v.add_child(_option("UYUM SAĞLA", info.get("adapt", ""), UIKit.GREEN, "refresh", "adapt"))
+	v.add_child(_option(Loc.t("SAVUN"), info.get("defend", ""), UIKit.BLUE, "shield", "defend"))
+	v.add_child(_option(Loc.t("UYUM SAĞLA"), info.get("adapt", ""), UIKit.GREEN, "refresh", "adapt"))
 	var acc_text: String = info.get("accept", "")
 	if ProgressionManager.spec_tier("chaos") >= 3:
 		acc_text = acc_text.replace("%20", "%40")
-	v.add_child(_option("RİSKİ KABUL ET", acc_text, UIKit.ORANGE, "fire", "accept"))
+	v.add_child(_option(Loc.t("RİSKİ KABUL ET"), acc_text, UIKit.ORANGE, "fire", "accept"))
 	modulate.a = 0.0
 	var tw := create_tween()
 	tw.tween_property(self, "modulate:a", 1.0, 0.2)
@@ -116,8 +117,8 @@ func _pick_jar() -> String:
 		c.queue_free()
 	var v := UIKit.vbox(12)
 	_panel.add_child(v)
-	v.add_child(UIKit.title("Kavanozunu Seç", 40, Color.WHITE, UIKit.INK, 10))
-	v.add_child(UIKit.wrap_label("Gülizar Nine bir kavanoz ekleyecek. Hangisi olsun?", 24))
+	v.add_child(UIKit.title(Loc.t("Kavanozunu Seç"), 40, Color.WHITE, UIKit.INK, 10))
+	v.add_child(UIKit.wrap_label(Loc.t("Gülizar Nine bir kavanoz ekleyecek. Hangisi olsun?"), 24))
 	var row := UIKit.hbox(10)
 	row.alignment = BoxContainer.ALIGNMENT_CENTER
 	v.add_child(row)
@@ -135,7 +136,7 @@ func _pick_jar() -> String:
 		ic.set_item(fid)
 		cv.add_child(ic)
 		var l := UIKit.label(IngredientDatabase.ingredients[fid]["name"], 18)
-		l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		l.autowrap_mode = UIKit.wrap_mode()
 		l.custom_minimum_size.x = 150
 		cv.add_child(l)
 		var f2: String = fid

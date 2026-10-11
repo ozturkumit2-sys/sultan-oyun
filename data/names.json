@@ -512,6 +512,4269 @@
     ]
    },
    "lore": "{origin} {effect}"
+  },
+  "en": {
+   "templates": [
+    {
+     "w": 3,
+     "t": "{adj} {role} {persona}"
+    },
+    {
+     "w": 2,
+     "t": "{adj} {persona}: {sequel}"
+    }
+   ],
+   "persona": {
+    "ghost": [
+     "Ghost",
+     "Spirit"
+    ],
+    "alien": [
+     "Alien",
+     "Martian"
+    ],
+    "robot": [
+     "Robot",
+     "Android"
+    ],
+    "mechanical": [
+     "Robot",
+     "Machine"
+    ],
+    "monster": [
+     "Monster",
+     "Creature"
+    ],
+    "frog": [
+     "Frog",
+     "Swamp King"
+    ],
+    "insect": [
+     "Beetle",
+     "Ladybug"
+    ],
+    "gothic": [
+     "Vampire",
+     "Bat"
+    ],
+    "sea": [
+     "Kraken",
+     "Mermaid"
+    ],
+    "cosmic": [
+     "Comet",
+     "Galaxy"
+    ],
+    "slime": [
+     "Jelly",
+     "Goo"
+    ],
+    "electric": [
+     "Lightning",
+     "Storm"
+    ],
+    "fire": [
+     "Dragon",
+     "Volcano"
+    ],
+    "cold": [
+     "Snowman",
+     "Frost Giant"
+    ],
+    "magic": [
+     "Wizard",
+     "Witch"
+    ],
+    "flower": [
+     "Fairy",
+     "Rose"
+    ],
+    "fermented": [
+     "Pickle",
+     "Mummy"
+    ],
+    "luxury": [
+     "King",
+     "Emperor"
+    ],
+    "candy": [
+     "Candy",
+     "Lollipop"
+    ],
+    "meat": [
+     "Bull",
+     "Barbecue"
+    ],
+    "swamp": [
+     "Crocodile",
+     "Bog"
+    ],
+    "crystal": [
+     "Crystal",
+     "Diamond"
+    ],
+    "nature": [
+     "Treeman",
+     "Forest"
+    ],
+    "fruit": [
+     "Fruit",
+     "Orchard"
+    ],
+    "dough": [
+     "Dough",
+     "Cookie"
+    ],
+    "dairy": [
+     "Cow",
+     "Cheese"
+    ],
+    "vegetable": [
+     "Cabbage",
+     "Veggie"
+    ],
+    "grain": [
+     "Wheat Ear",
+     "Rice Grain"
+    ],
+    "sweet": [
+     "Cake",
+     "Sugar"
+    ],
+    "savory": [
+     "Pot",
+     "Pan"
+    ],
+    "animal": [
+     "Creature",
+     "Beast"
+    ],
+    "default": [
+     "Mystery",
+     "Thing"
+    ]
+   },
+   "role": {
+    "fire": [
+     "Ninja",
+     "Samurai"
+    ],
+    "spicy": [
+     "Ninja",
+     "Matador"
+    ],
+    "electric": [
+     "Rocker",
+     "DJ"
+    ],
+    "sea": [
+     "Pirate",
+     "Captain"
+    ],
+    "luxury": [
+     "Lord",
+     "Prince"
+    ],
+    "frog": [
+     "Prince",
+     "Cowboy"
+    ],
+    "insect": [
+     "Gladiator",
+     "Knight"
+    ],
+    "cold": [
+     "Skier",
+     "Polar Explorer"
+    ],
+    "gothic": [
+     "Count",
+     "Detective"
+    ],
+    "magic": [
+     "Sorcerer",
+     "Apprentice"
+    ],
+    "alien": [
+     "Astronaut",
+     "Pilot"
+    ],
+    "mechanical": [
+     "Cyborg",
+     "Engineer"
+    ],
+    "robot": [
+     "Cyborg",
+     "Engineer"
+    ],
+    "ghost": [
+     "Shadow",
+     "Spy"
+    ],
+    "monster": [
+     "Barbarian",
+     "Wrestler"
+    ],
+    "cosmic": [
+     "Astronaut",
+     "Explorer"
+    ],
+    "flower": [
+     "Gardener",
+     "Ballerina"
+    ],
+    "fermented": [
+     "Alchemist",
+     "Granny"
+    ],
+    "candy": [
+     "Princess",
+     "Clown"
+    ],
+    "meat": [
+     "Cowboy",
+     "Butcher"
+    ],
+    "crunchy": [
+     "Karate",
+     "Ninja"
+    ],
+    "crystal": [
+     "Princess",
+     "Jeweler"
+    ],
+    "slime": [
+     "Juggler",
+     "Clown"
+    ],
+    "swamp": [
+     "Hunter",
+     "Explorer"
+    ],
+    "dough": [
+     "Baker",
+     "Pastry Chef"
+    ],
+    "dairy": [
+     "Shepherd",
+     "Milkman"
+    ],
+    "fruit": [
+     "Juggler",
+     "Gardener"
+    ],
+    "nature": [
+     "Scout",
+     "Gardener"
+    ],
+    "vegetable": [
+     "Farmer",
+     "Gardener"
+    ],
+    "default": [
+     "Superhero",
+     "Detective"
+    ]
+   },
+   "adj": {
+    "sweet": [
+     "Sweet",
+     "Sugary",
+     "Pink"
+    ],
+    "spicy": [
+     "Spicy",
+     "Fiery",
+     "Furious"
+    ],
+    "fresh": [
+     "Fresh",
+     "Cool",
+     "Green"
+    ],
+    "weird": [
+     "Weird",
+     "Crazy",
+     "Wacky"
+    ],
+    "magic": [
+     "Magic",
+     "Mysterious",
+     "Sparkly"
+    ],
+    "toxic": [
+     "Toxic",
+     "Shady",
+     "Pitch-Black"
+    ],
+    "volatile": [
+     "Exploding",
+     "Stormy",
+     "Rowdy"
+    ],
+    "life": [
+     "Wiggly",
+     "Living",
+     "Sleepless"
+    ]
+   },
+   "sequel": [
+    "The Return",
+    "The Last Bite",
+    "Kitchen Wars",
+    "Midnight Attack",
+    "Revenge of the Pot",
+    "The Great Escape",
+    "A Legend Is Born",
+    "Plate Crisis",
+    "The Lost Recipe",
+    "Age of the Oven",
+    "Curse of Flavor",
+    "The Final Tasting"
+   ],
+   "origin": {
+    "ghost": [
+     "It appeared on its own in an empty kitchen at midnight.",
+     "It hid for centuries in the pantry of an old castle."
+    ],
+    "alien": [
+     "It crawled out of a meteorite that fell into the kitchen.",
+     "It was a banned recipe on a distant planet."
+    ],
+    "robot": [
+     "It was born from a toaster's short circuit.",
+     "It was a secret code erased from a robot's memory."
+    ],
+    "monster": [
+     "It grew at the bottom of the pot and lifted the lid itself.",
+     "It escaped from the basement freezer."
+    ],
+    "frog": [
+     "It hopped into the pot while waiting in a swamp to become a prince.",
+     "It was born from a ribbit that escaped a witch's cauldron."
+    ],
+    "insect": [
+     "An army of ants secretly carried it into the kitchen.",
+     "It was the royal feast of a beetle colony."
+    ],
+    "gothic": [
+     "It was cooked under a full moon in a dark castle.",
+     "It was delivered at midnight on the back of a bat."
+    ],
+    "sea": [
+     "It was pulled from a sunken pirate ship.",
+     "A captain won it from a kraken in a card game."
+    ],
+    "cosmic": [
+     "It formed when a shooting star fell into the pan.",
+     "It escaped from the menu of the farthest restaurant in the galaxy."
+    ],
+    "slime": [
+     "It overflowed its container in a lab accident.",
+     "Nobody made it; it simply gathered itself together."
+    ],
+    "electric": [
+     "It appeared when lightning struck the kitchen on a stormy night.",
+     "It spent years storing up energy inside a battery."
+    ],
+    "fire": [
+     "They say it was cooked by a dragon's sneeze.",
+     "It was heated in the mouth of a volcano."
+    ],
+    "cold": [
+     "It was found frozen inside a glacier.",
+     "It was a snowman's secret recipe."
+    ],
+    "magic": [
+     "It was born from a wizard's misread spell.",
+     "It was hidden on the last page of a spellbook."
+    ],
+    "flower": [
+     "It was gathered at dawn in a fairy garden.",
+     "It grew among the thorns of a rose."
+    ],
+    "fermented": [
+     "It waited a hundred years in a granny's pantry.",
+     "It quietly ripened inside a jar."
+    ],
+    "luxury": [
+     "It was secretly taken from a palace banquet table.",
+     "It was left as an inheritance in a lord's will."
+    ],
+    "candy": [
+     "It was produced when a candy factory machine went haywire.",
+     "It was born from a birthday cake's dream."
+    ],
+    "meat": [
+     "It cooked all night over a cowboy campfire.",
+     "It was a grill master's last and most secret recipe."
+    ],
+    "default": [
+     "Nobody knows where it came from.",
+     "It appeared in a chef's dream.",
+     "It was invented completely by accident in the kitchen."
+    ]
+   },
+   "effect": {
+    "sweet": [
+     "One bite, a week of smiles.",
+     "Your teeth will adore it."
+    ],
+    "spicy": [
+     "It makes smoke pour out of the eater's ears.",
+     "The judges' mustaches may catch fire."
+    ],
+    "fresh": [
+     "Spring arrives in a single bite.",
+     "The eater's hair flutters in the wind."
+    ],
+    "weird": [
+     "Everyone who eats it walks backwards for a while.",
+     "Words fail to describe its taste."
+    ],
+    "magic": [
+     "It grants the eater the power of flight for a short time.",
+     "When the plate is empty, you get one wish."
+    ],
+    "toxic": [
+     "Keeping a doctor nearby is recommended.",
+     "The faint-hearted should only sniff it."
+    ],
+    "volatile": [
+     "Don't touch it with a fork; it might explode.",
+     "A little fireworks show in every bite."
+    ],
+    "life": [
+     "It won't stay on the plate; it keeps dancing.",
+     "You may need to ask its permission before eating."
+    ]
+   },
+   "lore": "{origin} {effect}",
+   "dish1": "{a} {dish}",
+   "dish2": "{a} & {b} {dish}",
+   "fusion2": "{b} {main}",
+   "cursed": "Cursed {name}",
+   "tainted": "{name} with {ing}",
+   "dish": {
+    "Kek": "Cake",
+    "Turta": "Pie",
+    "Sufle": "Soufflé",
+    "Kızartma": "Fritters",
+    "Lokma": "Puffs",
+    "Cips": "Chips",
+    "Dondurma": "Ice Cream",
+    "Sorbe": "Sorbet",
+    "Parfe": "Parfait",
+    "Çorba": "Soup",
+    "Güveç": "Stew",
+    "Makarna": "Pasta",
+    "Şiş": "Skewer",
+    "Tost": "Toast",
+    "Izgara": "Grill",
+    "İksir": "Potion",
+    "Büyü Tabağı": "Spell Plate",
+    "Rüya": "Dream"
+   }
+  },
+  "es": {
+   "templates": [
+    {
+     "w": 3,
+     "t": "{persona} {role} {adj}"
+    },
+    {
+     "w": 2,
+     "t": "{persona} {adj}: {sequel}"
+    }
+   ],
+   "persona": {
+    "ghost": [
+     {
+      "t": "Fantasma",
+      "g": "m"
+     },
+     {
+      "t": "Espíritu",
+      "g": "m"
+     }
+    ],
+    "alien": [
+     {
+      "t": "Alienígena",
+      "g": "m"
+     },
+     {
+      "t": "Marciano",
+      "g": "m"
+     }
+    ],
+    "robot": [
+     {
+      "t": "Robot",
+      "g": "m"
+     },
+     {
+      "t": "Androide",
+      "g": "m"
+     }
+    ],
+    "mechanical": [
+     {
+      "t": "Robot",
+      "g": "m"
+     },
+     {
+      "t": "Máquina",
+      "g": "f"
+     }
+    ],
+    "monster": [
+     {
+      "t": "Monstruo",
+      "g": "m"
+     },
+     {
+      "t": "Criatura",
+      "g": "f"
+     }
+    ],
+    "frog": [
+     {
+      "t": "Rana",
+      "g": "f"
+     },
+     {
+      "t": "Rey del Pantano",
+      "g": "m"
+     }
+    ],
+    "insect": [
+     {
+      "t": "Escarabajo",
+      "g": "m"
+     },
+     {
+      "t": "Mariquita",
+      "g": "f"
+     }
+    ],
+    "gothic": [
+     {
+      "t": "Vampiro",
+      "g": "m"
+     },
+     {
+      "t": "Murciélago",
+      "g": "m"
+     }
+    ],
+    "sea": [
+     {
+      "t": "Kraken",
+      "g": "m"
+     },
+     {
+      "t": "Sirena",
+      "g": "f"
+     }
+    ],
+    "cosmic": [
+     {
+      "t": "Cometa",
+      "g": "m"
+     },
+     {
+      "t": "Galaxia",
+      "g": "f"
+     }
+    ],
+    "slime": [
+     {
+      "t": "Gelatina",
+      "g": "f"
+     },
+     {
+      "t": "Baba",
+      "g": "f"
+     }
+    ],
+    "electric": [
+     {
+      "t": "Rayo",
+      "g": "m"
+     },
+     {
+      "t": "Tormenta",
+      "g": "f"
+     }
+    ],
+    "fire": [
+     {
+      "t": "Dragón",
+      "g": "m"
+     },
+     {
+      "t": "Volcán",
+      "g": "m"
+     }
+    ],
+    "cold": [
+     {
+      "t": "Muñeco de Nieve",
+      "g": "m"
+     },
+     {
+      "t": "Gigante de Hielo",
+      "g": "m"
+     }
+    ],
+    "magic": [
+     {
+      "t": "Hechicero",
+      "g": "m"
+     },
+     {
+      "t": "Bruja",
+      "g": "f"
+     }
+    ],
+    "flower": [
+     {
+      "t": "Hada",
+      "g": "f"
+     },
+     {
+      "t": "Rosa",
+      "g": "f"
+     }
+    ],
+    "fermented": [
+     {
+      "t": "Encurtido",
+      "g": "m"
+     },
+     {
+      "t": "Momia",
+      "g": "f"
+     }
+    ],
+    "luxury": [
+     {
+      "t": "Rey",
+      "g": "m"
+     },
+     {
+      "t": "Emperador",
+      "g": "m"
+     }
+    ],
+    "candy": [
+     {
+      "t": "Caramelo",
+      "g": "m"
+     },
+     {
+      "t": "Piruleta",
+      "g": "f"
+     }
+    ],
+    "meat": [
+     {
+      "t": "Toro",
+      "g": "m"
+     },
+     {
+      "t": "Parrilla",
+      "g": "f"
+     }
+    ],
+    "swamp": [
+     {
+      "t": "Cocodrilo",
+      "g": "m"
+     },
+     {
+      "t": "Pantano",
+      "g": "m"
+     }
+    ],
+    "crystal": [
+     {
+      "t": "Cristal",
+      "g": "m"
+     },
+     {
+      "t": "Diamante",
+      "g": "m"
+     }
+    ],
+    "nature": [
+     {
+      "t": "Hombre Árbol",
+      "g": "m"
+     },
+     {
+      "t": "Bosque",
+      "g": "m"
+     }
+    ],
+    "fruit": [
+     {
+      "t": "Fruta",
+      "g": "f"
+     },
+     {
+      "t": "Huerto",
+      "g": "m"
+     }
+    ],
+    "dough": [
+     {
+      "t": "Masa",
+      "g": "f"
+     },
+     {
+      "t": "Galleta",
+      "g": "f"
+     }
+    ],
+    "dairy": [
+     {
+      "t": "Vaca",
+      "g": "f"
+     },
+     {
+      "t": "Queso",
+      "g": "m"
+     }
+    ],
+    "vegetable": [
+     {
+      "t": "Col",
+      "g": "f"
+     },
+     {
+      "t": "Verdura",
+      "g": "f"
+     }
+    ],
+    "grain": [
+     {
+      "t": "Espiga",
+      "g": "f"
+     },
+     {
+      "t": "Grano de Arroz",
+      "g": "m"
+     }
+    ],
+    "sweet": [
+     {
+      "t": "Tarta",
+      "g": "f"
+     },
+     {
+      "t": "Azúcar",
+      "g": "m"
+     }
+    ],
+    "savory": [
+     {
+      "t": "Olla",
+      "g": "f"
+     },
+     {
+      "t": "Sartén",
+      "g": "f"
+     }
+    ],
+    "animal": [
+     {
+      "t": "Criatura",
+      "g": "f"
+     },
+     {
+      "t": "Bestia",
+      "g": "f"
+     }
+    ],
+    "default": [
+     {
+      "t": "Misterio",
+      "g": "m"
+     },
+     {
+      "t": "Cosa",
+      "g": "f"
+     }
+    ]
+   },
+   "role": {
+    "fire": [
+     "Ninja",
+     "Samurái"
+    ],
+    "spicy": [
+     "Ninja",
+     "Matador"
+    ],
+    "electric": [
+     "Rockero",
+     "DJ"
+    ],
+    "sea": [
+     "Pirata",
+     "Capitán"
+    ],
+    "luxury": [
+     "Lord",
+     "Príncipe"
+    ],
+    "frog": [
+     "Príncipe",
+     "Vaquero"
+    ],
+    "insect": [
+     "Gladiador",
+     "Caballero"
+    ],
+    "cold": [
+     "Esquiador",
+     "Explorador Polar"
+    ],
+    "gothic": [
+     "Conde",
+     "Detective"
+    ],
+    "magic": [
+     "Mago",
+     "Aprendiz"
+    ],
+    "alien": [
+     "Astronauta",
+     "Piloto"
+    ],
+    "mechanical": [
+     "Cíborg",
+     "Ingeniero"
+    ],
+    "robot": [
+     "Cíborg",
+     "Ingeniero"
+    ],
+    "ghost": [
+     "Sombra",
+     "Espía"
+    ],
+    "monster": [
+     "Bárbaro",
+     "Luchador"
+    ],
+    "cosmic": [
+     "Astronauta",
+     "Explorador"
+    ],
+    "flower": [
+     "Jardinero",
+     "Bailarín"
+    ],
+    "fermented": [
+     "Alquimista",
+     "Abuela"
+    ],
+    "candy": [
+     "Princesa",
+     "Payaso"
+    ],
+    "meat": [
+     "Vaquero",
+     "Carnicero"
+    ],
+    "crunchy": [
+     "Karateca",
+     "Ninja"
+    ],
+    "crystal": [
+     "Princesa",
+     "Joyero"
+    ],
+    "slime": [
+     "Malabarista",
+     "Payaso"
+    ],
+    "swamp": [
+     "Cazador",
+     "Explorador"
+    ],
+    "dough": [
+     "Panadero",
+     "Pastelero"
+    ],
+    "dairy": [
+     "Pastor",
+     "Lechero"
+    ],
+    "fruit": [
+     "Malabarista",
+     "Jardinero"
+    ],
+    "nature": [
+     "Explorador",
+     "Jardinero"
+    ],
+    "vegetable": [
+     "Granjero",
+     "Jardinero"
+    ],
+    "default": [
+     "Superhéroe",
+     "Detective"
+    ]
+   },
+   "adj": {
+    "sweet": [
+     "Dulce",
+     {
+      "m": "Azucarado",
+      "f": "Azucarada"
+     },
+     {
+      "m": "Rosado",
+      "f": "Rosada"
+     }
+    ],
+    "spicy": [
+     "Picante",
+     "Ardiente",
+     {
+      "m": "Furioso",
+      "f": "Furiosa"
+     }
+    ],
+    "fresh": [
+     {
+      "m": "Fresco",
+      "f": "Fresca"
+     },
+     {
+      "m": "Helado",
+      "f": "Helada"
+     },
+     "Verde"
+    ],
+    "weird": [
+     {
+      "m": "Raro",
+      "f": "Rara"
+     },
+     {
+      "m": "Loco",
+      "f": "Loca"
+     },
+     {
+      "m": "Chiflado",
+      "f": "Chiflada"
+     }
+    ],
+    "magic": [
+     {
+      "m": "Mágico",
+      "f": "Mágica"
+     },
+     {
+      "m": "Misterioso",
+      "f": "Misteriosa"
+     },
+     "Brillante"
+    ],
+    "toxic": [
+     {
+      "m": "Tóxico",
+      "f": "Tóxica"
+     },
+     {
+      "m": "Sospechoso",
+      "f": "Sospechosa"
+     },
+     {
+      "m": "Siniestro",
+      "f": "Siniestra"
+     }
+    ],
+    "volatile": [
+     {
+      "m": "Explosivo",
+      "f": "Explosiva"
+     },
+     {
+      "m": "Tormentoso",
+      "f": "Tormentosa"
+     },
+     {
+      "m": "Ruidoso",
+      "f": "Ruidosa"
+     }
+    ],
+    "life": [
+     {
+      "m": "Inquieto",
+      "f": "Inquieta"
+     },
+     {
+      "m": "Vivo",
+      "f": "Viva"
+     },
+     "Insomne"
+    ]
+   },
+   "sequel": [
+    "El Regreso",
+    "El Último Bocado",
+    "La Guerra de las Cocinas",
+    "Ataque a Medianoche",
+    "La Venganza de la Olla",
+    "La Gran Fuga",
+    "Nace una Leyenda",
+    "Crisis en el Plato",
+    "La Receta Perdida",
+    "La Era del Horno",
+    "La Maldición del Sabor",
+    "La Prueba Final"
+   ],
+   "origin": {
+    "ghost": [
+     "Apareció solo en una cocina vacía a medianoche.",
+     "Pasó siglos escondido en la despensa de un viejo castillo."
+    ],
+    "alien": [
+     "Salió de un meteorito que cayó en la cocina.",
+     "Era una receta prohibida en un planeta lejano."
+    ],
+    "robot": [
+     "Nació del cortocircuito de una tostadora.",
+     "Era un código secreto borrado de la memoria de un robot."
+    ],
+    "monster": [
+     "Creció en el fondo de la olla y levantó la tapa él solo.",
+     "Se escapó del congelador del sótano."
+    ],
+    "frog": [
+     "Saltó a la olla mientras esperaba en un pantano a convertirse en príncipe.",
+     "Nació de un croac que escapó del caldero de una bruja."
+    ],
+    "insect": [
+     "Un ejército de hormigas lo llevó a escondidas a la cocina.",
+     "Era el banquete real de una colonia de escarabajos."
+    ],
+    "gothic": [
+     "Se cocinó bajo la luna llena en un castillo oscuro.",
+     "Llegó a medianoche a lomos de un murciélago."
+    ],
+    "sea": [
+     "Lo sacaron de un barco pirata hundido.",
+     "Un capitán se lo ganó a un kraken jugando a las cartas."
+    ],
+    "cosmic": [
+     "Se formó cuando una estrella fugaz cayó en la sartén.",
+     "Se escapó del menú del restaurante más lejano de la galaxia."
+    ],
+    "slime": [
+     "Se desbordó de su recipiente en un accidente de laboratorio.",
+     "Nadie lo hizo; se juntó él solito."
+    ],
+    "electric": [
+     "Apareció cuando un rayo cayó en la cocina una noche de tormenta.",
+     "Pasó años acumulando energía dentro de una pila."
+    ],
+    "fire": [
+     "Dicen que lo coció el estornudo de un dragón.",
+     "Se calentó en la boca de un volcán."
+    ],
+    "cold": [
+     "Lo encontraron congelado dentro de un glaciar.",
+     "Era la receta secreta de un muñeco de nieve."
+    ],
+    "magic": [
+     "Nació de un hechizo mal leído por un mago.",
+     "Estaba escondido en la última página de un libro de hechizos."
+    ],
+    "flower": [
+     "Se recogió al amanecer en un jardín de hadas.",
+     "Creció entre las espinas de una rosa."
+    ],
+    "fermented": [
+     "Esperó cien años en la despensa de una abuela.",
+     "Maduró en silencio dentro de un frasco."
+    ],
+    "luxury": [
+     "Lo sacaron a escondidas de la mesa de un banquete real.",
+     "Fue dejado en herencia en el testamento de un lord."
+    ],
+    "candy": [
+     "Se fabricó cuando una máquina de una fábrica de caramelos se volvió loca.",
+     "Nació del sueño de una tarta de cumpleaños."
+    ],
+    "meat": [
+     "Se cocinó toda la noche en la hoguera de un campamento vaquero.",
+     "Fue la última y más secreta receta de un maestro parrillero."
+    ],
+    "default": [
+     "Nadie sabe de dónde salió.",
+     "Apareció en el sueño de un chef.",
+     "Se inventó en la cocina completamente por accidente."
+    ]
+   },
+   "effect": {
+    "sweet": [
+     "Un bocado, una semana de sonrisas.",
+     "Tus dientes lo adorarán."
+    ],
+    "spicy": [
+     "A quien lo come le sale humo por las orejas.",
+     "Al jurado se le puede prender el bigote."
+    ],
+    "fresh": [
+     "La primavera llega en un solo bocado.",
+     "Al que lo come se le vuela el pelo con el viento."
+    ],
+    "weird": [
+     "Quien lo come camina hacia atrás un buen rato.",
+     "No hay palabras para describir su sabor."
+    ],
+    "magic": [
+     "Concede el poder de volar durante un rato.",
+     "Cuando el plato se vacía, concede un deseo."
+    ],
+    "toxic": [
+     "Se recomienda tener un médico cerca.",
+     "Los menos valientes deberían limitarse a olerlo."
+    ],
+    "volatile": [
+     "No lo toques con el tenedor: podría explotar.",
+     "Un pequeño espectáculo de fuegos artificiales en cada bocado."
+    ],
+    "life": [
+     "No se queda quieto en el plato; no para de bailar.",
+     "Puede que tengas que pedirle permiso antes de comértelo."
+    ]
+   },
+   "lore": "{origin} {effect}",
+   "dish1": "{dish} de {a}",
+   "dish2": "{dish} de {a} y {b}",
+   "fusion2": "{main} con {b}",
+   "cursed": "{name} con maldición",
+   "tainted": "{name} con {ing}",
+   "dish": {
+    "Kek": "Pastel",
+    "Turta": "Tarta",
+    "Sufle": "Suflé",
+    "Kızartma": "Fritura",
+    "Lokma": "Buñuelos",
+    "Cips": "Chips",
+    "Dondurma": "Helado",
+    "Sorbe": "Sorbete",
+    "Parfe": "Parfait",
+    "Çorba": "Sopa",
+    "Güveç": "Guiso",
+    "Makarna": "Pasta",
+    "Şiş": "Brocheta",
+    "Tost": "Tostada",
+    "Izgara": "Parrillada",
+    "İksir": "Poción",
+    "Büyü Tabağı": "Plato Hechizado",
+    "Rüya": "Sueño"
+   }
+  },
+  "de": {
+   "templates": [
+    {
+     "w": 3,
+     "t": "{adj} {role}-{persona}"
+    },
+    {
+     "w": 2,
+     "t": "{adj} {persona}: {sequel}"
+    }
+   ],
+   "persona": {
+    "ghost": [
+     {
+      "t": "Geist",
+      "g": "m"
+     },
+     {
+      "t": "Gespenst",
+      "g": "n"
+     }
+    ],
+    "alien": [
+     {
+      "t": "Alien",
+      "g": "n"
+     },
+     {
+      "t": "Marsmensch",
+      "g": "m"
+     }
+    ],
+    "robot": [
+     {
+      "t": "Roboter",
+      "g": "m"
+     },
+     {
+      "t": "Android",
+      "g": "m"
+     }
+    ],
+    "mechanical": [
+     {
+      "t": "Roboter",
+      "g": "m"
+     },
+     {
+      "t": "Maschine",
+      "g": "f"
+     }
+    ],
+    "monster": [
+     {
+      "t": "Monster",
+      "g": "n"
+     },
+     {
+      "t": "Ungeheuer",
+      "g": "n"
+     }
+    ],
+    "frog": [
+     {
+      "t": "Frosch",
+      "g": "m"
+     },
+     {
+      "t": "Sumpfkönig",
+      "g": "m"
+     }
+    ],
+    "insect": [
+     {
+      "t": "Käfer",
+      "g": "m"
+     },
+     {
+      "t": "Marienkäfer",
+      "g": "m"
+     }
+    ],
+    "gothic": [
+     {
+      "t": "Vampir",
+      "g": "m"
+     },
+     {
+      "t": "Fledermaus",
+      "g": "f"
+     }
+    ],
+    "sea": [
+     {
+      "t": "Krake",
+      "g": "m"
+     },
+     {
+      "t": "Meerjungfrau",
+      "g": "f"
+     }
+    ],
+    "cosmic": [
+     {
+      "t": "Komet",
+      "g": "m"
+     },
+     {
+      "t": "Galaxie",
+      "g": "f"
+     }
+    ],
+    "slime": [
+     {
+      "t": "Glibber",
+      "g": "m"
+     },
+     {
+      "t": "Schleim",
+      "g": "m"
+     }
+    ],
+    "electric": [
+     {
+      "t": "Blitz",
+      "g": "m"
+     },
+     {
+      "t": "Sturm",
+      "g": "m"
+     }
+    ],
+    "fire": [
+     {
+      "t": "Drache",
+      "g": "m"
+     },
+     {
+      "t": "Vulkan",
+      "g": "m"
+     }
+    ],
+    "cold": [
+     {
+      "t": "Schneemann",
+      "g": "m"
+     },
+     {
+      "t": "Eisriese",
+      "g": "m"
+     }
+    ],
+    "magic": [
+     {
+      "t": "Zauberer",
+      "g": "m"
+     },
+     {
+      "t": "Hexe",
+      "g": "f"
+     }
+    ],
+    "flower": [
+     {
+      "t": "Fee",
+      "g": "f"
+     },
+     {
+      "t": "Rose",
+      "g": "f"
+     }
+    ],
+    "fermented": [
+     {
+      "t": "Gurke",
+      "g": "f"
+     },
+     {
+      "t": "Mumie",
+      "g": "f"
+     }
+    ],
+    "luxury": [
+     {
+      "t": "König",
+      "g": "m"
+     },
+     {
+      "t": "Kaiser",
+      "g": "m"
+     }
+    ],
+    "candy": [
+     {
+      "t": "Bonbon",
+      "g": "n"
+     },
+     {
+      "t": "Lolli",
+      "g": "m"
+     }
+    ],
+    "meat": [
+     {
+      "t": "Stier",
+      "g": "m"
+     },
+     {
+      "t": "Grill",
+      "g": "m"
+     }
+    ],
+    "swamp": [
+     {
+      "t": "Krokodil",
+      "g": "n"
+     },
+     {
+      "t": "Sumpf",
+      "g": "m"
+     }
+    ],
+    "crystal": [
+     {
+      "t": "Kristall",
+      "g": "m"
+     },
+     {
+      "t": "Diamant",
+      "g": "m"
+     }
+    ],
+    "nature": [
+     {
+      "t": "Baummensch",
+      "g": "m"
+     },
+     {
+      "t": "Wald",
+      "g": "m"
+     }
+    ],
+    "fruit": [
+     {
+      "t": "Obstkorb",
+      "g": "m"
+     },
+     {
+      "t": "Garten",
+      "g": "m"
+     }
+    ],
+    "dough": [
+     {
+      "t": "Teig",
+      "g": "m"
+     },
+     {
+      "t": "Keks",
+      "g": "m"
+     }
+    ],
+    "dairy": [
+     {
+      "t": "Kuh",
+      "g": "f"
+     },
+     {
+      "t": "Käse",
+      "g": "m"
+     }
+    ],
+    "vegetable": [
+     {
+      "t": "Kohl",
+      "g": "m"
+     },
+     {
+      "t": "Gemüse",
+      "g": "n"
+     }
+    ],
+    "grain": [
+     {
+      "t": "Ähre",
+      "g": "f"
+     },
+     {
+      "t": "Reiskorn",
+      "g": "n"
+     }
+    ],
+    "sweet": [
+     {
+      "t": "Torte",
+      "g": "f"
+     },
+     {
+      "t": "Zucker",
+      "g": "m"
+     }
+    ],
+    "savory": [
+     {
+      "t": "Topf",
+      "g": "m"
+     },
+     {
+      "t": "Pfanne",
+      "g": "f"
+     }
+    ],
+    "animal": [
+     {
+      "t": "Kreatur",
+      "g": "f"
+     },
+     {
+      "t": "Biest",
+      "g": "n"
+     }
+    ],
+    "default": [
+     {
+      "t": "Rätsel",
+      "g": "n"
+     },
+     {
+      "t": "Ding",
+      "g": "n"
+     }
+    ]
+   },
+   "role": {
+    "fire": [
+     "Ninja",
+     "Samurai"
+    ],
+    "spicy": [
+     "Ninja",
+     "Matador"
+    ],
+    "electric": [
+     "Rocker",
+     "DJ"
+    ],
+    "sea": [
+     "Piraten",
+     "Kapitäns"
+    ],
+    "luxury": [
+     "Lord",
+     "Prinzen"
+    ],
+    "frog": [
+     "Prinzen",
+     "Cowboy"
+    ],
+    "insect": [
+     "Gladiator",
+     "Ritter"
+    ],
+    "cold": [
+     "Ski",
+     "Polar"
+    ],
+    "gothic": [
+     "Grafen",
+     "Detektiv"
+    ],
+    "magic": [
+     "Magier",
+     "Lehrlings"
+    ],
+    "alien": [
+     "Astronauten",
+     "Piloten"
+    ],
+    "mechanical": [
+     "Cyborg",
+     "Ingenieurs"
+    ],
+    "robot": [
+     "Cyborg",
+     "Ingenieurs"
+    ],
+    "ghost": [
+     "Schatten",
+     "Spion"
+    ],
+    "monster": [
+     "Barbaren",
+     "Ringer"
+    ],
+    "cosmic": [
+     "Astronauten",
+     "Entdecker"
+    ],
+    "flower": [
+     "Gärtner",
+     "Ballett"
+    ],
+    "fermented": [
+     "Alchemisten",
+     "Oma"
+    ],
+    "candy": [
+     "Prinzessinnen",
+     "Clowns"
+    ],
+    "meat": [
+     "Cowboy",
+     "Metzger"
+    ],
+    "crunchy": [
+     "Karate",
+     "Ninja"
+    ],
+    "crystal": [
+     "Prinzessinnen",
+     "Juwelier"
+    ],
+    "slime": [
+     "Jongleur",
+     "Clowns"
+    ],
+    "swamp": [
+     "Jäger",
+     "Entdecker"
+    ],
+    "dough": [
+     "Bäcker",
+     "Konditor"
+    ],
+    "dairy": [
+     "Hirten",
+     "Milchmann"
+    ],
+    "fruit": [
+     "Jongleur",
+     "Gärtner"
+    ],
+    "nature": [
+     "Pfadfinder",
+     "Gärtner"
+    ],
+    "vegetable": [
+     "Bauern",
+     "Gärtner"
+    ],
+    "default": [
+     "Superhelden",
+     "Detektiv"
+    ]
+   },
+   "adj": {
+    "sweet": [
+     {
+      "m": "Süßer",
+      "f": "Süße",
+      "n": "Süßes"
+     },
+     {
+      "m": "Zuckriger",
+      "f": "Zuckrige",
+      "n": "Zuckriges"
+     },
+     "Rosa"
+    ],
+    "spicy": [
+     {
+      "m": "Scharfer",
+      "f": "Scharfe",
+      "n": "Scharfes"
+     },
+     {
+      "m": "Feuriger",
+      "f": "Feurige",
+      "n": "Feuriges"
+     },
+     {
+      "m": "Wütender",
+      "f": "Wütende",
+      "n": "Wütendes"
+     }
+    ],
+    "fresh": [
+     {
+      "m": "Frischer",
+      "f": "Frische",
+      "n": "Frisches"
+     },
+     {
+      "m": "Kühler",
+      "f": "Kühle",
+      "n": "Kühles"
+     },
+     {
+      "m": "Grüner",
+      "f": "Grüne",
+      "n": "Grünes"
+     }
+    ],
+    "weird": [
+     {
+      "m": "Seltsamer",
+      "f": "Seltsame",
+      "n": "Seltsames"
+     },
+     {
+      "m": "Verrückter",
+      "f": "Verrückte",
+      "n": "Verrücktes"
+     },
+     {
+      "m": "Schräger",
+      "f": "Schräge",
+      "n": "Schräges"
+     }
+    ],
+    "magic": [
+     {
+      "m": "Magischer",
+      "f": "Magische",
+      "n": "Magisches"
+     },
+     {
+      "m": "Geheimnisvoller",
+      "f": "Geheimnisvolle",
+      "n": "Geheimnisvolles"
+     },
+     {
+      "m": "Funkelnder",
+      "f": "Funkelnde",
+      "n": "Funkelndes"
+     }
+    ],
+    "toxic": [
+     {
+      "m": "Giftiger",
+      "f": "Giftige",
+      "n": "Giftiges"
+     },
+     {
+      "m": "Verdächtiger",
+      "f": "Verdächtige",
+      "n": "Verdächtiges"
+     },
+     {
+      "m": "Finsterer",
+      "f": "Finstere",
+      "n": "Finsteres"
+     }
+    ],
+    "volatile": [
+     {
+      "m": "Explosiver",
+      "f": "Explosive",
+      "n": "Explosives"
+     },
+     {
+      "m": "Stürmischer",
+      "f": "Stürmische",
+      "n": "Stürmisches"
+     },
+     {
+      "m": "Lauter",
+      "f": "Laute",
+      "n": "Lautes"
+     }
+    ],
+    "life": [
+     {
+      "m": "Zappeliger",
+      "f": "Zappelige",
+      "n": "Zappeliges"
+     },
+     {
+      "m": "Lebendiger",
+      "f": "Lebendige",
+      "n": "Lebendiges"
+     },
+     {
+      "m": "Schlafloser",
+      "f": "Schlaflose",
+      "n": "Schlafloses"
+     }
+    ]
+   },
+   "sequel": [
+    "Die Rückkehr",
+    "Der letzte Bissen",
+    "Krieg der Küchen",
+    "Mitternachtsangriff",
+    "Die Rache des Topfes",
+    "Die große Flucht",
+    "Eine Legende wird geboren",
+    "Tellerkrise",
+    "Das verlorene Rezept",
+    "Das Ofenzeitalter",
+    "Der Fluch des Geschmacks",
+    "Die letzte Verkostung"
+   ],
+   "origin": {
+    "ghost": [
+     "Es erschien um Mitternacht ganz von selbst in einer leeren Küche.",
+     "Es versteckte sich jahrhundertelang in der Vorratskammer eines alten Schlosses."
+    ],
+    "alien": [
+     "Es kroch aus einem Meteoriten, der in die Küche gefallen war.",
+     "Auf einem fernen Planeten war es ein verbotenes Rezept."
+    ],
+    "robot": [
+     "Es entstand aus dem Kurzschluss eines Toasters.",
+     "Es war ein geheimer Code, der aus dem Speicher eines Roboters gelöscht wurde."
+    ],
+    "monster": [
+     "Es wuchs am Boden des Topfes und hob den Deckel selbst an.",
+     "Es ist aus der Kühltruhe im Keller entkommen."
+    ],
+    "frog": [
+     "Es hüpfte in den Topf, während es im Sumpf darauf wartete, ein Prinz zu werden.",
+     "Es entstand aus einem Quaken, das aus dem Kessel einer Hexe entwischt war."
+    ],
+    "insect": [
+     "Eine Ameisenarmee hat es heimlich in die Küche getragen.",
+     "Es war das Königsmahl einer Käferkolonie."
+    ],
+    "gothic": [
+     "Es wurde bei Vollmond in einem dunklen Schloss gekocht.",
+     "Es wurde um Mitternacht auf dem Rücken einer Fledermaus geliefert."
+    ],
+    "sea": [
+     "Es wurde aus einem gesunkenen Piratenschiff geborgen.",
+     "Ein Kapitän hat es einem Kraken beim Kartenspiel abgewonnen."
+    ],
+    "cosmic": [
+     "Es entstand, als eine Sternschnuppe in die Pfanne fiel.",
+     "Es ist von der Speisekarte des entferntesten Restaurants der Galaxie geflohen."
+    ],
+    "slime": [
+     "Bei einem Laborunfall ist es aus seinem Behälter übergelaufen.",
+     "Niemand hat es gemacht; es hat sich einfach selbst zusammengefunden."
+    ],
+    "electric": [
+     "Es tauchte auf, als in einer Gewitternacht der Blitz in die Küche einschlug.",
+     "Es hat jahrelang Energie in einer Batterie gesammelt."
+    ],
+    "fire": [
+     "Man sagt, es wurde vom Niesen eines Drachen gegart.",
+     "Es wurde im Schlund eines Vulkans erhitzt."
+    ],
+    "cold": [
+     "Es wurde eingefroren in einem Gletscher gefunden.",
+     "Es war das Geheimrezept eines Schneemanns."
+    ],
+    "magic": [
+     "Es entstand aus einem falsch gelesenen Zauberspruch.",
+     "Es war auf der letzten Seite eines Zauberbuchs versteckt."
+    ],
+    "flower": [
+     "Es wurde im Morgengrauen in einem Feengarten gepflückt.",
+     "Es wuchs zwischen den Dornen einer Rose."
+    ],
+    "fermented": [
+     "Es hat hundert Jahre in Omas Vorratskammer gewartet.",
+     "Es ist still und leise in einem Glas gereift."
+    ],
+    "luxury": [
+     "Es wurde heimlich von der Festtafel eines Palastes genommen.",
+     "Es wurde im Testament eines Lords vererbt."
+    ],
+    "candy": [
+     "Es entstand, als eine Maschine in einer Bonbonfabrik verrücktspielte.",
+     "Es wurde aus dem Traum einer Geburtstagstorte geboren."
+    ],
+    "meat": [
+     "Es garte die ganze Nacht am Lagerfeuer eines Cowboycamps.",
+     "Es war das letzte und geheimste Rezept eines Grillmeisters."
+    ],
+    "default": [
+     "Niemand weiß, woher es kommt.",
+     "Es erschien im Traum eines Kochs.",
+     "Es wurde in der Küche ganz aus Versehen erfunden."
+    ]
+   },
+   "effect": {
+    "sweet": [
+     "Ein Bissen, eine Woche Lächeln.",
+     "Deine Zähne werden es lieben."
+    ],
+    "spicy": [
+     "Wer es isst, dem steigt Rauch aus den Ohren.",
+     "Der Schnurrbart der Jury könnte Feuer fangen."
+    ],
+    "fresh": [
+     "Mit einem Bissen kommt der Frühling.",
+     "Wer es isst, dem weht der Wind durchs Haar."
+    ],
+    "weird": [
+     "Wer es isst, läuft eine Weile rückwärts.",
+     "Für seinen Geschmack fehlen die Worte."
+    ],
+    "magic": [
+     "Es verleiht für kurze Zeit die Fähigkeit zu fliegen.",
+     "Ist der Teller leer, hat man einen Wunsch frei."
+    ],
+    "toxic": [
+     "Es empfiehlt sich, einen Arzt in der Nähe zu haben.",
+     "Zartbesaitete sollten nur daran riechen."
+    ],
+    "volatile": [
+     "Nicht mit der Gabel berühren, es könnte explodieren.",
+     "In jedem Bissen ein kleines Feuerwerk."
+    ],
+    "life": [
+     "Es bleibt nicht auf dem Teller, es tanzt ständig.",
+     "Vielleicht musst du es vor dem Essen um Erlaubnis bitten."
+    ]
+   },
+   "lore": "{origin} {effect}",
+   "dish1": "{dish} mit {a}",
+   "dish2": "{dish} mit {a} und {b}",
+   "fusion2": "{main} mit {b}",
+   "cursed": "{name} (verflucht)",
+   "tainted": "{name} mit {ing}",
+   "dish": {
+    "Kek": "Kuchen",
+    "Turta": "Tarte",
+    "Sufle": "Soufflé",
+    "Kızartma": "Frittiertes",
+    "Lokma": "Teigbällchen",
+    "Cips": "Chips",
+    "Dondurma": "Eis",
+    "Sorbe": "Sorbet",
+    "Parfe": "Parfait",
+    "Çorba": "Suppe",
+    "Güveç": "Eintopf",
+    "Makarna": "Pasta",
+    "Şiş": "Spieß",
+    "Tost": "Toast",
+    "Izgara": "Grillteller",
+    "İksir": "Trank",
+    "Büyü Tabağı": "Zauberteller",
+    "Rüya": "Traum"
+   }
+  },
+  "ar": {
+   "templates": [
+    {
+     "w": 3,
+     "t": "{persona} {role} {adj}"
+    },
+    {
+     "w": 2,
+     "t": "{persona} {adj}: {sequel}"
+    }
+   ],
+   "persona": {
+    "ghost": [
+     {
+      "t": "الشبح",
+      "g": "m"
+     },
+     {
+      "t": "الروح",
+      "g": "f"
+     }
+    ],
+    "alien": [
+     {
+      "t": "الفضائي",
+      "g": "m"
+     },
+     {
+      "t": "المريخي",
+      "g": "m"
+     }
+    ],
+    "robot": [
+     {
+      "t": "الروبوت",
+      "g": "m"
+     },
+     {
+      "t": "الآلي",
+      "g": "m"
+     }
+    ],
+    "mechanical": [
+     {
+      "t": "الروبوت",
+      "g": "m"
+     },
+     {
+      "t": "الآلة",
+      "g": "f"
+     }
+    ],
+    "monster": [
+     {
+      "t": "الوحش",
+      "g": "m"
+     },
+     {
+      "t": "المخلوق",
+      "g": "m"
+     }
+    ],
+    "frog": [
+     {
+      "t": "الضفدع",
+      "g": "m"
+     },
+     {
+      "t": "ملك المستنقع",
+      "g": "m"
+     }
+    ],
+    "insect": [
+     {
+      "t": "الخنفساء",
+      "g": "f"
+     },
+     {
+      "t": "الدعسوقة",
+      "g": "f"
+     }
+    ],
+    "gothic": [
+     {
+      "t": "مصاص الدماء",
+      "g": "m"
+     },
+     {
+      "t": "الخفاش",
+      "g": "m"
+     }
+    ],
+    "sea": [
+     {
+      "t": "الكراكن",
+      "g": "m"
+     },
+     {
+      "t": "حورية البحر",
+      "g": "f"
+     }
+    ],
+    "cosmic": [
+     {
+      "t": "المذنّب",
+      "g": "m"
+     },
+     {
+      "t": "المجرة",
+      "g": "f"
+     }
+    ],
+    "slime": [
+     {
+      "t": "الهلام",
+      "g": "m"
+     },
+     {
+      "t": "الوحل",
+      "g": "m"
+     }
+    ],
+    "electric": [
+     {
+      "t": "البرق",
+      "g": "m"
+     },
+     {
+      "t": "العاصفة",
+      "g": "f"
+     }
+    ],
+    "fire": [
+     {
+      "t": "التنين",
+      "g": "m"
+     },
+     {
+      "t": "البركان",
+      "g": "m"
+     }
+    ],
+    "cold": [
+     {
+      "t": "رجل الثلج",
+      "g": "m"
+     },
+     {
+      "t": "عملاق الجليد",
+      "g": "m"
+     }
+    ],
+    "magic": [
+     {
+      "t": "الساحر",
+      "g": "m"
+     },
+     {
+      "t": "الساحرة",
+      "g": "f"
+     }
+    ],
+    "flower": [
+     {
+      "t": "الجنية",
+      "g": "f"
+     },
+     {
+      "t": "الوردة",
+      "g": "f"
+     }
+    ],
+    "fermented": [
+     {
+      "t": "المخلل",
+      "g": "m"
+     },
+     {
+      "t": "المومياء",
+      "g": "f"
+     }
+    ],
+    "luxury": [
+     {
+      "t": "الملك",
+      "g": "m"
+     },
+     {
+      "t": "الإمبراطور",
+      "g": "m"
+     }
+    ],
+    "candy": [
+     {
+      "t": "الحلوى",
+      "g": "f"
+     },
+     {
+      "t": "المصاصة",
+      "g": "f"
+     }
+    ],
+    "meat": [
+     {
+      "t": "الثور",
+      "g": "m"
+     },
+     {
+      "t": "الشواء",
+      "g": "m"
+     }
+    ],
+    "swamp": [
+     {
+      "t": "التمساح",
+      "g": "m"
+     },
+     {
+      "t": "المستنقع",
+      "g": "m"
+     }
+    ],
+    "crystal": [
+     {
+      "t": "الكريستال",
+      "g": "m"
+     },
+     {
+      "t": "الماسة",
+      "g": "f"
+     }
+    ],
+    "nature": [
+     {
+      "t": "رجل الشجرة",
+      "g": "m"
+     },
+     {
+      "t": "الغابة",
+      "g": "f"
+     }
+    ],
+    "fruit": [
+     {
+      "t": "الفاكهة",
+      "g": "f"
+     },
+     {
+      "t": "البستان",
+      "g": "m"
+     }
+    ],
+    "dough": [
+     {
+      "t": "العجين",
+      "g": "m"
+     },
+     {
+      "t": "البسكويتة",
+      "g": "f"
+     }
+    ],
+    "dairy": [
+     {
+      "t": "البقرة",
+      "g": "f"
+     },
+     {
+      "t": "الجبن",
+      "g": "m"
+     }
+    ],
+    "vegetable": [
+     {
+      "t": "الملفوف",
+      "g": "m"
+     },
+     {
+      "t": "الخضار",
+      "g": "m"
+     }
+    ],
+    "grain": [
+     {
+      "t": "السنبلة",
+      "g": "f"
+     },
+     {
+      "t": "حبة الأرز",
+      "g": "f"
+     }
+    ],
+    "sweet": [
+     {
+      "t": "الكعكة",
+      "g": "f"
+     },
+     {
+      "t": "السكر",
+      "g": "m"
+     }
+    ],
+    "savory": [
+     {
+      "t": "القدر",
+      "g": "m"
+     },
+     {
+      "t": "المقلاة",
+      "g": "f"
+     }
+    ],
+    "animal": [
+     {
+      "t": "المخلوق",
+      "g": "m"
+     },
+     {
+      "t": "الوحش",
+      "g": "m"
+     }
+    ],
+    "default": [
+     {
+      "t": "اللغز",
+      "g": "m"
+     },
+     {
+      "t": "الشيء",
+      "g": "m"
+     }
+    ]
+   },
+   "role": {
+    "fire": [
+     "النينجا",
+     "الساموراي"
+    ],
+    "spicy": [
+     "النينجا",
+     "المصارع"
+    ],
+    "electric": [
+     "الروكر",
+     "الدي جي"
+    ],
+    "sea": [
+     "القرصان",
+     "القبطان"
+    ],
+    "luxury": [
+     "اللورد",
+     "الأمير"
+    ],
+    "frog": [
+     "الأمير",
+     "راعي البقر"
+    ],
+    "insect": [
+     "المجالد",
+     "الفارس"
+    ],
+    "cold": [
+     "المتزلج",
+     "المستكشف القطبي"
+    ],
+    "gothic": [
+     "الكونت",
+     "المحقق"
+    ],
+    "magic": [
+     "المشعوذ",
+     "المتدرب"
+    ],
+    "alien": [
+     "رائد الفضاء",
+     "الطيار"
+    ],
+    "mechanical": [
+     "السايبورغ",
+     "المهندس"
+    ],
+    "robot": [
+     "السايبورغ",
+     "المهندس"
+    ],
+    "ghost": [
+     "الظل",
+     "الجاسوس"
+    ],
+    "monster": [
+     "البربري",
+     "المصارع"
+    ],
+    "cosmic": [
+     "رائد الفضاء",
+     "المستكشف"
+    ],
+    "flower": [
+     "البستاني",
+     "الراقص"
+    ],
+    "fermented": [
+     "الخيميائي",
+     "الجدة"
+    ],
+    "candy": [
+     "الأميرة",
+     "المهرج"
+    ],
+    "meat": [
+     "راعي البقر",
+     "الجزار"
+    ],
+    "crunchy": [
+     "لاعب الكاراتيه",
+     "النينجا"
+    ],
+    "crystal": [
+     "الأميرة",
+     "الجواهري"
+    ],
+    "slime": [
+     "البهلوان",
+     "المهرج"
+    ],
+    "swamp": [
+     "الصياد",
+     "المستكشف"
+    ],
+    "dough": [
+     "الخباز",
+     "الحلواني"
+    ],
+    "dairy": [
+     "الراعي",
+     "بائع الحليب"
+    ],
+    "fruit": [
+     "البهلوان",
+     "البستاني"
+    ],
+    "nature": [
+     "الكشاف",
+     "البستاني"
+    ],
+    "vegetable": [
+     "المزارع",
+     "البستاني"
+    ],
+    "default": [
+     "البطل الخارق",
+     "المحقق"
+    ]
+   },
+   "adj": {
+    "sweet": [
+     {
+      "m": "الحلو",
+      "f": "الحلوة"
+     },
+     {
+      "m": "المسكّر",
+      "f": "المسكّرة"
+     },
+     {
+      "m": "الوردي",
+      "f": "الوردية"
+     }
+    ],
+    "spicy": [
+     {
+      "m": "الحار",
+      "f": "الحارة"
+     },
+     {
+      "m": "الناري",
+      "f": "النارية"
+     },
+     {
+      "m": "الغاضب",
+      "f": "الغاضبة"
+     }
+    ],
+    "fresh": [
+     {
+      "m": "الطازج",
+      "f": "الطازجة"
+     },
+     {
+      "m": "المنعش",
+      "f": "المنعشة"
+     },
+     {
+      "m": "الأخضر",
+      "f": "الخضراء"
+     }
+    ],
+    "weird": [
+     {
+      "m": "الغريب",
+      "f": "الغريبة"
+     },
+     {
+      "m": "المجنون",
+      "f": "المجنونة"
+     },
+     {
+      "m": "العجيب",
+      "f": "العجيبة"
+     }
+    ],
+    "magic": [
+     {
+      "m": "السحري",
+      "f": "السحرية"
+     },
+     {
+      "m": "الغامض",
+      "f": "الغامضة"
+     },
+     {
+      "m": "المتلألئ",
+      "f": "المتلألئة"
+     }
+    ],
+    "toxic": [
+     {
+      "m": "السام",
+      "f": "السامة"
+     },
+     {
+      "m": "المريب",
+      "f": "المريبة"
+     },
+     {
+      "m": "القاتم",
+      "f": "القاتمة"
+     }
+    ],
+    "volatile": [
+     {
+      "m": "المتفجر",
+      "f": "المتفجرة"
+     },
+     {
+      "m": "العاصف",
+      "f": "العاصفة"
+     },
+     {
+      "m": "الصاخب",
+      "f": "الصاخبة"
+     }
+    ],
+    "life": [
+     {
+      "m": "النشيط",
+      "f": "النشيطة"
+     },
+     {
+      "m": "الحي",
+      "f": "الحية"
+     },
+     {
+      "m": "الساهر",
+      "f": "الساهرة"
+     }
+    ]
+   },
+   "sequel": [
+    "العودة",
+    "اللقمة الأخيرة",
+    "حرب المطابخ",
+    "هجوم منتصف الليل",
+    "انتقام القدر",
+    "الهروب الكبير",
+    "ولادة أسطورة",
+    "أزمة الطبق",
+    "الوصفة المفقودة",
+    "عصر الفرن",
+    "لعنة النكهة",
+    "التذوق الأخير"
+   ],
+   "origin": {
+    "ghost": [
+     "ظهر من تلقاء نفسه في مطبخ فارغ عند منتصف الليل.",
+     "اختبأ لقرون في مخزن قلعة قديمة."
+    ],
+    "alien": [
+     "خرج من نيزك سقط في المطبخ.",
+     "كان وصفة محظورة على كوكب بعيد."
+    ],
+    "robot": [
+     "وُلد من ماس كهربائي في محمصة خبز.",
+     "كان شيفرة سرية مُحيت من ذاكرة روبوت."
+    ],
+    "monster": [
+     "نما في قاع القدر ورفع الغطاء بنفسه.",
+     "هرب من مجمّد القبو."
+    ],
+    "frog": [
+     "قفز إلى القدر بينما كان ينتظر في المستنقع أن يصبح أميرًا.",
+     "وُلد من نقيق هرب من قِدر ساحرة."
+    ],
+    "insect": [
+     "حمله جيش من النمل خلسة إلى المطبخ.",
+     "كان الوليمة الملكية لمستعمرة خنافس."
+    ],
+    "gothic": [
+     "طُبخ تحت البدر في قلعة مظلمة.",
+     "سُلّم عند منتصف الليل على ظهر خفاش."
+    ],
+    "sea": [
+     "انتُشل من سفينة قراصنة غارقة.",
+     "ربحه قبطان من كراكن في لعبة ورق."
+    ],
+    "cosmic": [
+     "تشكّل حين سقط نجم شهاب في المقلاة.",
+     "هرب من قائمة أبعد مطعم في المجرة."
+    ],
+    "slime": [
+     "فاض من وعائه في حادث مختبر.",
+     "لم يصنعه أحد؛ تجمّع من تلقاء نفسه."
+    ],
+    "electric": [
+     "ظهر حين ضربت صاعقة المطبخ في ليلة عاصفة.",
+     "ظل سنوات يخزّن الطاقة داخل بطارية."
+    ],
+    "fire": [
+     "يُقال إنه طُبخ بعطسة تنين.",
+     "سُخّن في فوهة بركان."
+    ],
+    "cold": [
+     "وُجد متجمدًا داخل نهر جليدي.",
+     "كان الوصفة السرية لرجل ثلج."
+    ],
+    "magic": [
+     "وُلد من تعويذة قرأها ساحر خطأً.",
+     "كان مخبأً في الصفحة الأخيرة من كتاب سحر."
+    ],
+    "flower": [
+     "قُطف عند الفجر في حديقة جنيات.",
+     "نما بين أشواك وردة."
+    ],
+    "fermented": [
+     "انتظر مئة عام في مخزن جدة.",
+     "نضج بهدوء داخل برطمان."
+    ],
+    "luxury": [
+     "أُخذ خلسة من مائدة وليمة في قصر.",
+     "تُرك إرثًا في وصية لورد."
+    ],
+    "candy": [
+     "صُنع حين جُنّت آلة في مصنع حلوى.",
+     "وُلد من حلم كعكة عيد ميلاد."
+    ],
+    "meat": [
+     "طُهي طوال الليل على نار مخيم رعاة البقر.",
+     "كان آخر وأسرّ وصفة لأستاذ شواء."
+    ],
+    "default": [
+     "لا أحد يعرف من أين جاء.",
+     "ظهر في حلم أحد الطهاة.",
+     "اختُرع في المطبخ بالصدفة تمامًا."
+    ]
+   },
+   "effect": {
+    "sweet": [
+     "قضمة واحدة وأسبوع من الابتسامات.",
+     "ستعشقه أسنانك."
+    ],
+    "spicy": [
+     "يُخرج الدخان من أذني من يأكله.",
+     "قد تشتعل شوارب الحكام."
+    ],
+    "fresh": [
+     "يأتي الربيع في لقمة واحدة.",
+     "يتطاير شعر من يأكله في الريح."
+    ],
+    "weird": [
+     "كل من يأكله يمشي إلى الخلف لبعض الوقت.",
+     "تعجز الكلمات عن وصف طعمه."
+    ],
+    "magic": [
+     "يمنح آكله قدرة الطيران لفترة قصيرة.",
+     "حين يفرغ الطبق تحصل على أمنية."
+    ],
+    "toxic": [
+     "يُنصح بوجود طبيب بالقرب منك.",
+     "على غير الشجعان أن يكتفوا بشمّه."
+    ],
+    "volatile": [
+     "لا تلمسه بالشوكة، فقد ينفجر.",
+     "عرض ألعاب نارية صغير في كل لقمة."
+    ],
+    "life": [
+     "لا يبقى في الطبق؛ يرقص باستمرار.",
+     "قد تحتاج إلى استئذانه قبل أكله."
+    ]
+   },
+   "lore": "{origin} {effect}",
+   "dish1": "{dish} مع {a}",
+   "dish2": "{dish} مع {a} و{b}",
+   "fusion2": "{main} مع {b}",
+   "cursed": "{name} (ملعون)",
+   "tainted": "{name} مع {ing}",
+   "dish": {
+    "Kek": "كعكة",
+    "Turta": "فطيرة",
+    "Sufle": "سوفليه",
+    "Kızartma": "مقليات",
+    "Lokma": "لقيمات",
+    "Cips": "رقائق",
+    "Dondurma": "آيس كريم",
+    "Sorbe": "سوربيه",
+    "Parfe": "بارفيه",
+    "Çorba": "حساء",
+    "Güveç": "يخنة",
+    "Makarna": "معكرونة",
+    "Şiş": "سيخ",
+    "Tost": "توست",
+    "Izgara": "مشويات",
+    "İksir": "جرعة",
+    "Büyü Tabağı": "طبق سحري",
+    "Rüya": "حلم"
+   }
+  },
+  "hi": {
+   "templates": [
+    {
+     "w": 3,
+     "t": "{adj} {role} {persona}"
+    },
+    {
+     "w": 2,
+     "t": "{adj} {persona}: {sequel}"
+    }
+   ],
+   "persona": {
+    "ghost": [
+     {
+      "t": "भूत",
+      "g": "m"
+     },
+     {
+      "t": "आत्मा",
+      "g": "f"
+     }
+    ],
+    "alien": [
+     {
+      "t": "एलियन",
+      "g": "m"
+     },
+     {
+      "t": "मंगलवासी",
+      "g": "m"
+     }
+    ],
+    "robot": [
+     {
+      "t": "रोबोट",
+      "g": "m"
+     },
+     {
+      "t": "एंड्रॉइड",
+      "g": "m"
+     }
+    ],
+    "mechanical": [
+     {
+      "t": "रोबोट",
+      "g": "m"
+     },
+     {
+      "t": "मशीन",
+      "g": "f"
+     }
+    ],
+    "monster": [
+     {
+      "t": "राक्षस",
+      "g": "m"
+     },
+     {
+      "t": "दानव",
+      "g": "m"
+     }
+    ],
+    "frog": [
+     {
+      "t": "मेंढक",
+      "g": "m"
+     },
+     {
+      "t": "दलदल का राजा",
+      "g": "m"
+     }
+    ],
+    "insect": [
+     {
+      "t": "भृंग",
+      "g": "m"
+     },
+     {
+      "t": "लेडीबग",
+      "g": "f"
+     }
+    ],
+    "gothic": [
+     {
+      "t": "पिशाच",
+      "g": "m"
+     },
+     {
+      "t": "चमगादड़",
+      "g": "m"
+     }
+    ],
+    "sea": [
+     {
+      "t": "क्रैकन",
+      "g": "m"
+     },
+     {
+      "t": "जलपरी",
+      "g": "f"
+     }
+    ],
+    "cosmic": [
+     {
+      "t": "धूमकेतु",
+      "g": "m"
+     },
+     {
+      "t": "आकाशगंगा",
+      "g": "f"
+     }
+    ],
+    "slime": [
+     {
+      "t": "जेली",
+      "g": "f"
+     },
+     {
+      "t": "कीचड़",
+      "g": "m"
+     }
+    ],
+    "electric": [
+     {
+      "t": "बिजली",
+      "g": "f"
+     },
+     {
+      "t": "तूफ़ान",
+      "g": "m"
+     }
+    ],
+    "fire": [
+     {
+      "t": "ड्रैगन",
+      "g": "m"
+     },
+     {
+      "t": "ज्वालामुखी",
+      "g": "m"
+     }
+    ],
+    "cold": [
+     {
+      "t": "हिममानव",
+      "g": "m"
+     },
+     {
+      "t": "बर्फ़ दानव",
+      "g": "m"
+     }
+    ],
+    "magic": [
+     {
+      "t": "जादूगर",
+      "g": "m"
+     },
+     {
+      "t": "चुड़ैल",
+      "g": "f"
+     }
+    ],
+    "flower": [
+     {
+      "t": "परी",
+      "g": "f"
+     },
+     {
+      "t": "गुलाब",
+      "g": "m"
+     }
+    ],
+    "fermented": [
+     {
+      "t": "अचार",
+      "g": "m"
+     },
+     {
+      "t": "ममी",
+      "g": "f"
+     }
+    ],
+    "luxury": [
+     {
+      "t": "राजा",
+      "g": "m"
+     },
+     {
+      "t": "सम्राट",
+      "g": "m"
+     }
+    ],
+    "candy": [
+     {
+      "t": "टॉफ़ी",
+      "g": "f"
+     },
+     {
+      "t": "लॉलीपॉप",
+      "g": "m"
+     }
+    ],
+    "meat": [
+     {
+      "t": "साँड",
+      "g": "m"
+     },
+     {
+      "t": "तंदूर",
+      "g": "m"
+     }
+    ],
+    "swamp": [
+     {
+      "t": "मगरमच्छ",
+      "g": "m"
+     },
+     {
+      "t": "दलदल",
+      "g": "m"
+     }
+    ],
+    "crystal": [
+     {
+      "t": "क्रिस्टल",
+      "g": "m"
+     },
+     {
+      "t": "हीरा",
+      "g": "m"
+     }
+    ],
+    "nature": [
+     {
+      "t": "पेड़-मानव",
+      "g": "m"
+     },
+     {
+      "t": "जंगल",
+      "g": "m"
+     }
+    ],
+    "fruit": [
+     {
+      "t": "फल",
+      "g": "m"
+     },
+     {
+      "t": "बाग़",
+      "g": "m"
+     }
+    ],
+    "dough": [
+     {
+      "t": "आटा",
+      "g": "m"
+     },
+     {
+      "t": "बिस्कुट",
+      "g": "m"
+     }
+    ],
+    "dairy": [
+     {
+      "t": "गाय",
+      "g": "f"
+     },
+     {
+      "t": "पनीर",
+      "g": "m"
+     }
+    ],
+    "vegetable": [
+     {
+      "t": "पत्तागोभी",
+      "g": "f"
+     },
+     {
+      "t": "सब्ज़ी",
+      "g": "f"
+     }
+    ],
+    "grain": [
+     {
+      "t": "बाली",
+      "g": "f"
+     },
+     {
+      "t": "चावल का दाना",
+      "g": "m"
+     }
+    ],
+    "sweet": [
+     {
+      "t": "केक",
+      "g": "m"
+     },
+     {
+      "t": "चीनी",
+      "g": "f"
+     }
+    ],
+    "savory": [
+     {
+      "t": "पतीला",
+      "g": "m"
+     },
+     {
+      "t": "कड़ाही",
+      "g": "f"
+     }
+    ],
+    "animal": [
+     {
+      "t": "जीव",
+      "g": "m"
+     },
+     {
+      "t": "जानवर",
+      "g": "m"
+     }
+    ],
+    "default": [
+     {
+      "t": "रहस्य",
+      "g": "m"
+     },
+     {
+      "t": "चीज़",
+      "g": "f"
+     }
+    ]
+   },
+   "role": {
+    "fire": [
+     "निंजा",
+     "समुराई"
+    ],
+    "spicy": [
+     "निंजा",
+     "मैटाडोर"
+    ],
+    "electric": [
+     "रॉकस्टार",
+     "डीजे"
+    ],
+    "sea": [
+     "समुद्री डाकू",
+     "कप्तान"
+    ],
+    "luxury": [
+     "लॉर्ड",
+     "राजकुमार"
+    ],
+    "frog": [
+     "राजकुमार",
+     "काउबॉय"
+    ],
+    "insect": [
+     "योद्धा",
+     "शूरवीर"
+    ],
+    "cold": [
+     "स्कीयर",
+     "ध्रुवीय खोजी"
+    ],
+    "gothic": [
+     "काउंट",
+     "जासूस"
+    ],
+    "magic": [
+     "मायावी",
+     "शागिर्द"
+    ],
+    "alien": [
+     "अंतरिक्ष यात्री",
+     "पायलट"
+    ],
+    "mechanical": [
+     "साइबोर्ग",
+     "इंजीनियर"
+    ],
+    "robot": [
+     "साइबोर्ग",
+     "इंजीनियर"
+    ],
+    "ghost": [
+     "छाया",
+     "गुप्तचर"
+    ],
+    "monster": [
+     "बर्बर",
+     "पहलवान"
+    ],
+    "cosmic": [
+     "अंतरिक्ष यात्री",
+     "खोजी"
+    ],
+    "flower": [
+     "माली",
+     "नर्तक"
+    ],
+    "fermented": [
+     "कीमियागर",
+     "दादी"
+    ],
+    "candy": [
+     "राजकुमारी",
+     "जोकर"
+    ],
+    "meat": [
+     "काउबॉय",
+     "कसाई"
+    ],
+    "crunchy": [
+     "कराटे",
+     "निंजा"
+    ],
+    "crystal": [
+     "राजकुमारी",
+     "जौहरी"
+    ],
+    "slime": [
+     "बाज़ीगर",
+     "जोकर"
+    ],
+    "swamp": [
+     "शिकारी",
+     "खोजी"
+    ],
+    "dough": [
+     "नानबाई",
+     "हलवाई"
+    ],
+    "dairy": [
+     "चरवाहा",
+     "दूधवाला"
+    ],
+    "fruit": [
+     "बाज़ीगर",
+     "माली"
+    ],
+    "nature": [
+     "स्काउट",
+     "माली"
+    ],
+    "vegetable": [
+     "किसान",
+     "माली"
+    ],
+    "default": [
+     "सुपरहीरो",
+     "जासूस"
+    ]
+   },
+   "adj": {
+    "sweet": [
+     {
+      "m": "मीठा",
+      "f": "मीठी"
+     },
+     {
+      "m": "रसीला",
+      "f": "रसीली"
+     },
+     "गुलाबी"
+    ],
+    "spicy": [
+     {
+      "m": "तीखा",
+      "f": "तीखी"
+     },
+     {
+      "m": "जलता",
+      "f": "जलती"
+     },
+     "गुस्सैल"
+    ],
+    "fresh": [
+     {
+      "m": "ताज़ा",
+      "f": "ताज़ी"
+     },
+     {
+      "m": "ठंडा",
+      "f": "ठंडी"
+     },
+     {
+      "m": "हरा",
+      "f": "हरी"
+     }
+    ],
+    "weird": [
+     "अजीब",
+     "पागल",
+     "सनकी"
+    ],
+    "magic": [
+     "जादुई",
+     "रहस्यमयी",
+     {
+      "m": "चमकीला",
+      "f": "चमकीली"
+     }
+    ],
+    "toxic": [
+     {
+      "m": "ज़हरीला",
+      "f": "ज़हरीली"
+     },
+     "संदिग्ध",
+     {
+      "m": "काला",
+      "f": "काली"
+     }
+    ],
+    "volatile": [
+     "विस्फोटक",
+     "तूफ़ानी",
+     {
+      "m": "शोरीला",
+      "f": "शोरीली"
+     }
+    ],
+    "life": [
+     {
+      "m": "चुलबुला",
+      "f": "चुलबुली"
+     },
+     "ज़िंदा",
+     "बेचैन"
+    ]
+   },
+   "sequel": [
+    "वापसी",
+    "आख़िरी कौर",
+    "रसोई युद्ध",
+    "आधी रात का हमला",
+    "पतीले का बदला",
+    "महा पलायन",
+    "एक किंवदंती का जन्म",
+    "प्लेट संकट",
+    "खोई हुई रेसिपी",
+    "ओवन युग",
+    "स्वाद का श्राप",
+    "आख़िरी चखाई"
+   ],
+   "origin": {
+    "ghost": [
+     "आधी रात को एक खाली रसोई में अपने आप प्रकट हुआ।",
+     "सदियों तक एक पुराने महल के भंडार में छिपा रहा।"
+    ],
+    "alien": [
+     "रसोई में गिरे एक उल्कापिंड से निकला।",
+     "किसी दूर के ग्रह पर यह एक प्रतिबंधित रेसिपी थी।"
+    ],
+    "robot": [
+     "एक टोस्टर के शॉर्ट सर्किट से पैदा हुआ।",
+     "यह एक रोबोट की याददाश्त से मिटाया गया गुप्त कोड था।"
+    ],
+    "monster": [
+     "पतीले की तली में बड़ा हुआ और ढक्कन खुद उठा दिया।",
+     "तहखाने के फ़्रीज़र से भाग निकला।"
+    ],
+    "frog": [
+     "दलदल में राजकुमार बनने का इंतज़ार करते हुए पतीले में कूद पड़ा।",
+     "एक चुड़ैल की कड़ाही से भागी टर्र से पैदा हुआ।"
+    ],
+    "insect": [
+     "चींटियों की एक सेना इसे चुपके से रसोई में ले आई।",
+     "यह भृंगों की एक बस्ती का शाही भोज था।"
+    ],
+    "gothic": [
+     "एक अँधेरे महल में पूर्णिमा की रात पकाया गया।",
+     "आधी रात को एक चमगादड़ की पीठ पर पहुँचाया गया।"
+    ],
+    "sea": [
+     "एक डूबे हुए समुद्री डाकू जहाज़ से निकाला गया।",
+     "एक कप्तान ने इसे ताश के खेल में क्रैकन से जीता।"
+    ],
+    "cosmic": [
+     "एक टूटता तारा कड़ाही में गिरा तो यह बना।",
+     "आकाशगंगा के सबसे दूर के रेस्तराँ के मेन्यू से भाग आया।"
+    ],
+    "slime": [
+     "एक लैब हादसे में अपने बर्तन से उफन पड़ा।",
+     "किसी ने इसे नहीं बनाया; यह अपने आप जुड़ गया।"
+    ],
+    "electric": [
+     "एक तूफ़ानी रात रसोई पर बिजली गिरी तो यह प्रकट हुआ।",
+     "सालों तक एक बैटरी के अंदर ऊर्जा जमा करता रहा।"
+    ],
+    "fire": [
+     "कहते हैं, यह एक ड्रैगन की छींक से पका था।",
+     "इसे एक ज्वालामुखी के मुँह में गरम किया गया।"
+    ],
+    "cold": [
+     "यह एक हिमनद के अंदर जमा हुआ मिला।",
+     "यह एक हिममानव की गुप्त रेसिपी थी।"
+    ],
+    "magic": [
+     "एक जादूगर के गलत पढ़े मंत्र से पैदा हुआ।",
+     "यह एक जादुई किताब के आख़िरी पन्ने पर छिपा था।"
+    ],
+    "flower": [
+     "इसे भोर में एक परी बगीचे से तोड़ा गया।",
+     "यह एक गुलाब के काँटों के बीच उगा।"
+    ],
+    "fermented": [
+     "सौ साल तक एक नानी के भंडार में इंतज़ार करता रहा।",
+     "एक जार के अंदर चुपचाप पकता रहा।"
+    ],
+    "luxury": [
+     "एक महल की दावत की मेज़ से चुपके से उठा लिया गया।",
+     "एक लॉर्ड की वसीयत में विरासत के रूप में छोड़ा गया।"
+    ],
+    "candy": [
+     "एक टॉफ़ी कारखाने की मशीन पागल हुई तो यह बना।",
+     "एक जन्मदिन के केक के सपने से पैदा हुआ।"
+    ],
+    "meat": [
+     "काउबॉय कैंप की आग पर रात भर पका।",
+     "यह एक ग्रिल उस्ताद की आख़िरी और सबसे गुप्त रेसिपी थी।"
+    ],
+    "default": [
+     "कोई नहीं जानता यह कहाँ से आया।",
+     "यह एक शेफ़ के सपने में प्रकट हुआ।",
+     "रसोई में बिल्कुल गलती से इसका आविष्कार हो गया।"
+    ]
+   },
+   "effect": {
+    "sweet": [
+     "एक कौर, एक हफ़्ते की मुस्कान।",
+     "तुम्हारे दाँत इसके दीवाने हो जाएँगे।"
+    ],
+    "spicy": [
+     "खाने वाले के कानों से धुआँ निकाल देता है।",
+     "जजों की मूँछों में आग लग सकती है।"
+    ],
+    "fresh": [
+     "एक कौर में बसंत आ जाता है।",
+     "खाने वाले के बाल हवा में लहराने लगते हैं।"
+    ],
+    "weird": [
+     "इसे खाने वाला कुछ देर उल्टा चलता है।",
+     "इसके स्वाद का बयान करने को शब्द कम पड़ते हैं।"
+    ],
+    "magic": [
+     "खाने वाले को थोड़ी देर उड़ने की ताकत देता है।",
+     "प्लेट खाली होते ही एक मुराद पूरी होती है।"
+    ],
+    "toxic": [
+     "पास में एक डॉक्टर रखने की सलाह दी जाती है।",
+     "कमज़ोर दिल वाले बस इसे सूँघें।"
+    ],
+    "volatile": [
+     "काँटे से मत छूना, फट सकता है।",
+     "हर कौर में एक छोटी आतिशबाज़ी।"
+    ],
+    "life": [
+     "प्लेट पर टिकता नहीं, लगातार नाचता है।",
+     "खाने से पहले शायद इससे इजाज़त माँगनी पड़े।"
+    ]
+   },
+   "lore": "{origin} {effect}",
+   "dish1": "{a} {dish}",
+   "dish2": "{a}-{b} {dish}",
+   "fusion2": "{b}-{main}",
+   "cursed": "शापित {name}",
+   "tainted": "{name} ({ing} के साथ)",
+   "dish": {
+    "Kek": "केक",
+    "Turta": "पाई",
+    "Sufle": "सूफ़्ले",
+    "Kızartma": "पकौड़े",
+    "Lokma": "गुलगुले",
+    "Cips": "चिप्स",
+    "Dondurma": "आइसक्रीम",
+    "Sorbe": "शर्बत",
+    "Parfe": "पारफ़े",
+    "Çorba": "सूप",
+    "Güveç": "स्टू",
+    "Makarna": "पास्ता",
+    "Şiş": "सीख",
+    "Tost": "टोस्ट",
+    "Izgara": "ग्रिल",
+    "İksir": "काढ़ा",
+    "Büyü Tabağı": "जादुई थाली",
+    "Rüya": "सपना"
+   }
+  },
+  "zh": {
+   "templates": [
+    {
+     "w": 3,
+     "t": "{adj}{role}{persona}"
+    },
+    {
+     "w": 2,
+     "t": "{adj}{persona}：{sequel}"
+    }
+   ],
+   "persona": {
+    "ghost": [
+     "幽灵",
+     "魂魄"
+    ],
+    "alien": [
+     "外星人",
+     "火星人"
+    ],
+    "robot": [
+     "机器人",
+     "仿生人"
+    ],
+    "mechanical": [
+     "机器人",
+     "机械"
+    ],
+    "monster": [
+     "怪兽",
+     "怪物"
+    ],
+    "frog": [
+     "青蛙",
+     "沼泽之王"
+    ],
+    "insect": [
+     "甲虫",
+     "瓢虫"
+    ],
+    "gothic": [
+     "吸血鬼",
+     "蝙蝠"
+    ],
+    "sea": [
+     "海怪",
+     "美人鱼"
+    ],
+    "cosmic": [
+     "彗星",
+     "银河"
+    ],
+    "slime": [
+     "果冻",
+     "史莱姆"
+    ],
+    "electric": [
+     "闪电",
+     "风暴"
+    ],
+    "fire": [
+     "巨龙",
+     "火山"
+    ],
+    "cold": [
+     "雪人",
+     "冰巨人"
+    ],
+    "magic": [
+     "巫师",
+     "女巫"
+    ],
+    "flower": [
+     "仙女",
+     "玫瑰"
+    ],
+    "fermented": [
+     "泡菜",
+     "木乃伊"
+    ],
+    "luxury": [
+     "国王",
+     "皇帝"
+    ],
+    "candy": [
+     "糖果",
+     "棒棒糖"
+    ],
+    "meat": [
+     "公牛",
+     "烤炉"
+    ],
+    "swamp": [
+     "鳄鱼",
+     "沼泽"
+    ],
+    "crystal": [
+     "水晶",
+     "钻石"
+    ],
+    "nature": [
+     "树人",
+     "森林"
+    ],
+    "fruit": [
+     "水果",
+     "果园"
+    ],
+    "dough": [
+     "面团",
+     "饼干"
+    ],
+    "dairy": [
+     "奶牛",
+     "奶酪"
+    ],
+    "vegetable": [
+     "卷心菜",
+     "蔬菜"
+    ],
+    "grain": [
+     "麦穗",
+     "米粒"
+    ],
+    "sweet": [
+     "蛋糕",
+     "砂糖"
+    ],
+    "savory": [
+     "铁锅",
+     "平底锅"
+    ],
+    "animal": [
+     "生物",
+     "野兽"
+    ],
+    "default": [
+     "谜团",
+     "东西"
+    ]
+   },
+   "role": {
+    "fire": [
+     "忍者",
+     "武士"
+    ],
+    "spicy": [
+     "忍者",
+     "斗牛士"
+    ],
+    "electric": [
+     "摇滚",
+     "DJ"
+    ],
+    "sea": [
+     "海盗",
+     "船长"
+    ],
+    "luxury": [
+     "勋爵",
+     "王子"
+    ],
+    "frog": [
+     "王子",
+     "牛仔"
+    ],
+    "insect": [
+     "角斗士",
+     "骑士"
+    ],
+    "cold": [
+     "滑雪",
+     "极地探险"
+    ],
+    "gothic": [
+     "伯爵",
+     "侦探"
+    ],
+    "magic": [
+     "魔术师",
+     "学徒"
+    ],
+    "alien": [
+     "宇航员",
+     "飞行员"
+    ],
+    "mechanical": [
+     "赛博",
+     "工程师"
+    ],
+    "robot": [
+     "赛博",
+     "工程师"
+    ],
+    "ghost": [
+     "暗影",
+     "间谍"
+    ],
+    "monster": [
+     "蛮族",
+     "摔跤"
+    ],
+    "cosmic": [
+     "宇航员",
+     "探险家"
+    ],
+    "flower": [
+     "园丁",
+     "芭蕾"
+    ],
+    "fermented": [
+     "炼金术士",
+     "奶奶"
+    ],
+    "candy": [
+     "公主",
+     "小丑"
+    ],
+    "meat": [
+     "牛仔",
+     "屠夫"
+    ],
+    "crunchy": [
+     "空手道",
+     "忍者"
+    ],
+    "crystal": [
+     "公主",
+     "珠宝"
+    ],
+    "slime": [
+     "杂耍",
+     "小丑"
+    ],
+    "swamp": [
+     "猎人",
+     "探险家"
+    ],
+    "dough": [
+     "面包师",
+     "甜点师"
+    ],
+    "dairy": [
+     "牧人",
+     "送奶工"
+    ],
+    "fruit": [
+     "杂耍",
+     "园丁"
+    ],
+    "nature": [
+     "童子军",
+     "园丁"
+    ],
+    "vegetable": [
+     "农夫",
+     "园丁"
+    ],
+    "default": [
+     "超级英雄",
+     "侦探"
+    ]
+   },
+   "adj": {
+    "sweet": [
+     "甜蜜",
+     "糖霜",
+     "粉红"
+    ],
+    "spicy": [
+     "麻辣",
+     "火爆",
+     "暴怒"
+    ],
+    "fresh": [
+     "清新",
+     "冰凉",
+     "翠绿"
+    ],
+    "weird": [
+     "古怪",
+     "疯狂",
+     "离谱"
+    ],
+    "magic": [
+     "魔法",
+     "神秘",
+     "闪亮"
+    ],
+    "toxic": [
+     "剧毒",
+     "可疑",
+     "漆黑"
+    ],
+    "volatile": [
+     "爆裂",
+     "狂风",
+     "吵闹"
+    ],
+    "life": [
+     "蹦跳",
+     "鲜活",
+     "失眠"
+    ]
+   },
+   "sequel": [
+    "归来",
+    "最后一口",
+    "厨房大战",
+    "午夜突袭",
+    "铁锅的复仇",
+    "大逃亡",
+    "传奇诞生",
+    "餐盘危机",
+    "失落的食谱",
+    "烤箱纪元",
+    "美味诅咒",
+    "终极品尝"
+   ],
+   "origin": {
+    "ghost": [
+     "它在午夜空荡荡的厨房里自己冒了出来。",
+     "它在一座古堡的储藏室里藏了几百年。"
+    ],
+    "alien": [
+     "它从掉进厨房的一颗陨石里爬了出来。",
+     "在遥远的星球上，它是一道禁忌食谱。"
+    ],
+    "robot": [
+     "它诞生于一台烤面包机的短路。",
+     "它是从机器人记忆里被删除的秘密代码。"
+    ],
+    "monster": [
+     "它在锅底长大，自己掀开了锅盖。",
+     "它从地下室的冰柜里逃了出来。"
+    ],
+    "frog": [
+     "它在沼泽里等着变成王子时跳进了锅里。",
+     "它诞生于从女巫坩埚里逃出来的一声呱。"
+    ],
+    "insect": [
+     "一支蚂蚁大军偷偷把它运进了厨房。",
+     "它曾是甲虫王国的皇家盛宴。"
+    ],
+    "gothic": [
+     "它在黑暗城堡里的满月之夜被烹制。",
+     "它在午夜由一只蝙蝠驮着送达。"
+    ],
+    "sea": [
+     "它是从一艘沉没的海盗船里打捞出来的。",
+     "一位船长在牌局上从海怪手里赢来了它。"
+    ],
+    "cosmic": [
+     "一颗流星掉进平底锅时，它就诞生了。",
+     "它从银河系最远的餐厅菜单上逃了出来。"
+    ],
+    "slime": [
+     "它在一次实验室事故中从容器里溢了出来。",
+     "没人做过它，它是自己聚起来的。"
+    ],
+    "electric": [
+     "一个暴风雨夜，闪电劈中厨房，它出现了。",
+     "它在电池里积蓄了好多年能量。"
+    ],
+    "fire": [
+     "据说它是被一条龙的喷嚏烤熟的。",
+     "它在火山口里被加热过。"
+    ],
+    "cold": [
+     "人们在冰川里发现了冻住的它。",
+     "它是一个雪人的秘方。"
+    ],
+    "magic": [
+     "它诞生于一位巫师念错的咒语。",
+     "它藏在魔法书的最后一页。"
+    ],
+    "flower": [
+     "它在黎明时分采自仙女花园。",
+     "它生长在玫瑰的刺丛之间。"
+    ],
+    "fermented": [
+     "它在奶奶的储藏室里等了一百年。",
+     "它在罐子里静静地发酵成熟。"
+    ],
+    "luxury": [
+     "它是从宫廷宴席上被偷偷拿走的。",
+     "它是一位勋爵遗嘱里留下的遗产。"
+    ],
+    "candy": [
+     "糖果工厂的机器发疯时生产出了它。",
+     "它诞生于一个生日蛋糕的梦。"
+    ],
+    "meat": [
+     "它在牛仔营地的篝火上烤了一整夜。",
+     "它是一位烧烤大师最后也最秘密的食谱。"
+    ],
+    "default": [
+     "没人知道它从哪里来。",
+     "它出现在一位厨师的梦里。",
+     "它是在厨房里完全意外发明的。"
+    ]
+   },
+   "effect": {
+    "sweet": [
+     "吃一口，笑一周。",
+     "你的牙齿会爱上它。"
+    ],
+    "spicy": [
+     "吃的人耳朵会冒烟。",
+     "评委的胡子可能会着火。"
+    ],
+    "fresh": [
+     "一口下去，春天就来了。",
+     "吃的人头发会随风飘扬。"
+    ],
+    "weird": [
+     "吃过的人都会倒着走一阵子。",
+     "它的味道无法用语言形容。"
+    ],
+    "magic": [
+     "能让吃的人短暂获得飞行能力。",
+     "盘子吃空时，可以许一个愿望。"
+    ],
+    "toxic": [
+     "建议身边备一位医生。",
+     "胆小的人最好只闻一闻。"
+    ],
+    "volatile": [
+     "别用叉子碰它，可能会爆炸。",
+     "每一口都是一场小型烟火表演。"
+    ],
+    "life": [
+     "它在盘子里待不住，一直在跳舞。",
+     "吃之前你可能得先征得它的同意。"
+    ]
+   },
+   "lore": "{origin}{effect}",
+   "dish1": "{a}{dish}",
+   "dish2": "{a}{b}{dish}",
+   "fusion2": "{b}{main}",
+   "cursed": "被诅咒的{name}",
+   "tainted": "{ing}味{name}",
+   "dish": {
+    "Kek": "蛋糕",
+    "Turta": "派",
+    "Sufle": "舒芙蕾",
+    "Kızartma": "炸物",
+    "Lokma": "炸丸子",
+    "Cips": "薯片",
+    "Dondurma": "冰淇淋",
+    "Sorbe": "雪葩",
+    "Parfe": "芭菲",
+    "Çorba": "汤",
+    "Güveç": "炖菜",
+    "Makarna": "意面",
+    "Şiş": "烤串",
+    "Tost": "吐司",
+    "Izgara": "烧烤",
+    "İksir": "药水",
+    "Büyü Tabağı": "魔法拼盘",
+    "Rüya": "梦"
+   }
+  },
+  "ja": {
+   "templates": [
+    {
+     "w": 3,
+     "t": "{adj}{role}{persona}"
+    },
+    {
+     "w": 2,
+     "t": "{adj}{persona}：{sequel}"
+    }
+   ],
+   "persona": {
+    "ghost": [
+     "ゴースト",
+     "亡霊"
+    ],
+    "alien": [
+     "エイリアン",
+     "火星人"
+    ],
+    "robot": [
+     "ロボ",
+     "アンドロイド"
+    ],
+    "mechanical": [
+     "ロボ",
+     "マシン"
+    ],
+    "monster": [
+     "モンスター",
+     "怪物"
+    ],
+    "frog": [
+     "カエル",
+     "沼の王"
+    ],
+    "insect": [
+     "カブトムシ",
+     "テントウムシ"
+    ],
+    "gothic": [
+     "ヴァンパイア",
+     "コウモリ"
+    ],
+    "sea": [
+     "クラーケン",
+     "人魚"
+    ],
+    "cosmic": [
+     "彗星",
+     "ギャラクシー"
+    ],
+    "slime": [
+     "ゼリー",
+     "スライム"
+    ],
+    "electric": [
+     "イナズマ",
+     "嵐"
+    ],
+    "fire": [
+     "ドラゴン",
+     "火山"
+    ],
+    "cold": [
+     "雪だるま",
+     "氷の巨人"
+    ],
+    "magic": [
+     "魔法使い",
+     "魔女"
+    ],
+    "flower": [
+     "妖精",
+     "バラ"
+    ],
+    "fermented": [
+     "ピクルス",
+     "ミイラ"
+    ],
+    "luxury": [
+     "王様",
+     "皇帝"
+    ],
+    "candy": [
+     "キャンディ",
+     "ペロペロキャンディ"
+    ],
+    "meat": [
+     "猛牛",
+     "バーベキュー"
+    ],
+    "swamp": [
+     "ワニ",
+     "沼"
+    ],
+    "crystal": [
+     "クリスタル",
+     "ダイヤ"
+    ],
+    "nature": [
+     "樹人",
+     "森"
+    ],
+    "fruit": [
+     "フルーツ",
+     "果樹園"
+    ],
+    "dough": [
+     "生地",
+     "クッキー"
+    ],
+    "dairy": [
+     "牛",
+     "チーズ"
+    ],
+    "vegetable": [
+     "キャベツ",
+     "野菜"
+    ],
+    "grain": [
+     "稲穂",
+     "米粒"
+    ],
+    "sweet": [
+     "ケーキ",
+     "シュガー"
+    ],
+    "savory": [
+     "鍋",
+     "フライパン"
+    ],
+    "animal": [
+     "生き物",
+     "獣"
+    ],
+    "default": [
+     "ナゾ",
+     "なにか"
+    ]
+   },
+   "role": {
+    "fire": [
+     "忍者",
+     "侍"
+    ],
+    "spicy": [
+     "忍者",
+     "マタドール"
+    ],
+    "electric": [
+     "ロッカー",
+     "DJ"
+    ],
+    "sea": [
+     "海賊",
+     "船長"
+    ],
+    "luxury": [
+     "卿",
+     "王子"
+    ],
+    "frog": [
+     "王子",
+     "カウボーイ"
+    ],
+    "insect": [
+     "剣闘士",
+     "騎士"
+    ],
+    "cold": [
+     "スキーヤー",
+     "極地探検家"
+    ],
+    "gothic": [
+     "伯爵",
+     "探偵"
+    ],
+    "magic": [
+     "魔術師",
+     "見習い"
+    ],
+    "alien": [
+     "宇宙飛行士",
+     "パイロット"
+    ],
+    "mechanical": [
+     "サイボーグ",
+     "技師"
+    ],
+    "robot": [
+     "サイボーグ",
+     "技師"
+    ],
+    "ghost": [
+     "影",
+     "スパイ"
+    ],
+    "monster": [
+     "蛮族",
+     "レスラー"
+    ],
+    "cosmic": [
+     "宇宙飛行士",
+     "探検家"
+    ],
+    "flower": [
+     "庭師",
+     "バレリーナ"
+    ],
+    "fermented": [
+     "錬金術師",
+     "おばあちゃん"
+    ],
+    "candy": [
+     "お姫様",
+     "ピエロ"
+    ],
+    "meat": [
+     "カウボーイ",
+     "肉屋"
+    ],
+    "crunchy": [
+     "空手家",
+     "忍者"
+    ],
+    "crystal": [
+     "お姫様",
+     "宝石職人"
+    ],
+    "slime": [
+     "曲芸師",
+     "ピエロ"
+    ],
+    "swamp": [
+     "ハンター",
+     "探検家"
+    ],
+    "dough": [
+     "パン職人",
+     "パティシエ"
+    ],
+    "dairy": [
+     "羊飼い",
+     "牛乳屋"
+    ],
+    "fruit": [
+     "曲芸師",
+     "庭師"
+    ],
+    "nature": [
+     "スカウト",
+     "庭師"
+    ],
+    "vegetable": [
+     "農家",
+     "庭師"
+    ],
+    "default": [
+     "スーパーヒーロー",
+     "探偵"
+    ]
+   },
+   "adj": {
+    "sweet": [
+     "甘々",
+     "シュガー",
+     "ピンクの"
+    ],
+    "spicy": [
+     "激辛",
+     "灼熱の",
+     "怒りの"
+    ],
+    "fresh": [
+     "爽やか",
+     "ひんやり",
+     "緑の"
+    ],
+    "weird": [
+     "奇妙な",
+     "クレイジー",
+     "へんてこ"
+    ],
+    "magic": [
+     "魔法の",
+     "ミステリアス",
+     "キラキラ"
+    ],
+    "toxic": [
+     "猛毒",
+     "あやしい",
+     "漆黒の"
+    ],
+    "volatile": [
+     "爆発",
+     "嵐の",
+     "騒がしい"
+    ],
+    "life": [
+     "ぴちぴち",
+     "生きてる",
+     "眠れない"
+    ]
+   },
+   "sequel": [
+    "帰還",
+    "最後のひと口",
+    "キッチン大戦争",
+    "真夜中の襲撃",
+    "鍋の逆襲",
+    "大脱走",
+    "伝説の誕生",
+    "皿の危機",
+    "失われたレシピ",
+    "オーブンの時代",
+    "味の呪い",
+    "最後の試食"
+   ],
+   "origin": {
+    "ghost": [
+     "真夜中の誰もいないキッチンに、ひとりでに現れた。",
+     "古城の食料庫に何百年も隠れていた。"
+    ],
+    "alien": [
+     "キッチンに落ちた隕石の中から這い出てきた。",
+     "遠い惑星では禁じられたレシピだった。"
+    ],
+    "robot": [
+     "トースターのショートから生まれた。",
+     "ロボットの記憶から消された秘密のコードだった。"
+    ],
+    "monster": [
+     "鍋の底で育ち、自分でフタを開けた。",
+     "地下室の冷凍庫から逃げ出した。"
+    ],
+    "frog": [
+     "沼で王子になるのを待つうちに鍋へ飛び込んだ。",
+     "魔女の大釜から逃げたケロッという声から生まれた。"
+    ],
+    "insect": [
+     "アリの大軍がこっそりキッチンへ運び込んだ。",
+     "甲虫の王国の宮廷料理だった。"
+    ],
+    "gothic": [
+     "暗い城で満月の夜に料理された。",
+     "真夜中にコウモリの背に乗って届けられた。"
+    ],
+    "sea": [
+     "沈んだ海賊船から引き揚げられた。",
+     "ある船長がクラーケンとのカード勝負で勝ち取った。"
+    ],
+    "cosmic": [
+     "流れ星がフライパンに落ちたときに生まれた。",
+     "銀河で一番遠いレストランのメニューから逃げてきた。"
+    ],
+    "slime": [
+     "研究室の事故で容器からあふれ出した。",
+     "誰も作っていない。勝手に集まってできた。"
+    ],
+    "electric": [
+     "嵐の夜、キッチンに雷が落ちたときに現れた。",
+     "何年も電池の中でエネルギーをためていた。"
+    ],
+    "fire": [
+     "ドラゴンのくしゃみで焼き上がったという。",
+     "火山の火口で温められた。"
+    ],
+    "cold": [
+     "氷河の中で凍った状態で見つかった。",
+     "雪だるまの秘伝レシピだった。"
+    ],
+    "magic": [
+     "魔法使いが呪文を読み間違えて生まれた。",
+     "呪文の書の最後のページに隠されていた。"
+    ],
+    "flower": [
+     "夜明けに妖精の庭で摘まれた。",
+     "バラのトゲの間で育った。"
+    ],
+    "fermented": [
+     "おばあちゃんの食料庫で百年待っていた。",
+     "瓶の中で静かに熟成した。"
+    ],
+    "luxury": [
+     "宮殿の晩餐会の食卓からこっそり持ち出された。",
+     "ある卿の遺言で遺産として残された。"
+    ],
+    "candy": [
+     "お菓子工場の機械が暴走して生まれた。",
+     "誕生日ケーキの夢から生まれた。"
+    ],
+    "meat": [
+     "カウボーイのキャンプファイヤーで一晩中焼かれた。",
+     "グリル名人の最後にして最も秘密のレシピだった。"
+    ],
+    "default": [
+     "どこから来たのか誰も知らない。",
+     "あるシェフの夢の中に現れた。",
+     "キッチンでまったくの偶然から発明された。"
+    ]
+   },
+   "effect": {
+    "sweet": [
+     "ひと口で一週間笑顔になれる。",
+     "歯がこの味に夢中になる。"
+    ],
+    "spicy": [
+     "食べた人の耳から煙が出る。",
+     "審査員のひげに火がつくかもしれない。"
+    ],
+    "fresh": [
+     "ひと口で春がやってくる。",
+     "食べた人の髪が風になびく。"
+    ],
+    "weird": [
+     "食べた人はしばらく後ろ向きに歩く。",
+     "その味は言葉では言い表せない。"
+    ],
+    "magic": [
+     "食べた人に少しの間、空を飛ぶ力を与える。",
+     "皿が空になると、願いがひとつ叶う。"
+    ],
+    "toxic": [
+     "近くに医者を待機させることを推奨。",
+     "気の弱い人はにおいをかぐだけにしよう。"
+    ],
+    "volatile": [
+     "フォークで触らないで。爆発するかも。",
+     "ひと口ごとに小さな花火ショー。"
+    ],
+    "life": [
+     "皿の上でじっとせず、踊り続ける。",
+     "食べる前に許可を取る必要があるかも。"
+    ]
+   },
+   "lore": "{origin}{effect}",
+   "dish1": "{a}{dish}",
+   "dish2": "{a}と{b}の{dish}",
+   "fusion2": "{b}入り{main}",
+   "cursed": "呪われた{name}",
+   "tainted": "{ing}入り{name}",
+   "dish": {
+    "Kek": "ケーキ",
+    "Turta": "パイ",
+    "Sufle": "スフレ",
+    "Kızartma": "フライ",
+    "Lokma": "ドーナツボール",
+    "Cips": "チップス",
+    "Dondurma": "アイス",
+    "Sorbe": "シャーベット",
+    "Parfe": "パフェ",
+    "Çorba": "スープ",
+    "Güveç": "シチュー",
+    "Makarna": "パスタ",
+    "Şiş": "串焼き",
+    "Tost": "トースト",
+    "Izgara": "グリル",
+    "İksir": "ポーション",
+    "Büyü Tabağı": "魔法プレート",
+    "Rüya": "ドリーム"
+   }
   }
  }
 }

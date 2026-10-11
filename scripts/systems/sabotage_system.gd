@@ -4,7 +4,7 @@ extends RefCounted
 ## Savun (mini oyun), Uyum Sağla (etkiyi dönüştür), Riski Kabul Et (tam etki ama geri tepme şansı).
 ## Hiçbir sabotaj kaçınılmaz yenilgiye yol açmaz: en kötü etki bir turda birkaç puandır.
 
-const ABILITIES := {
+const ABILITIES := {  # i18n
 	"hex": {"name": "Lanetli Malzeme", "phase": "before_cook", "color": "#a25cff", "icon": "hex",
 		"defend": "Büyü rünlerine zamanında dokun ve laneti engelle!",
 		"adapt": "Laneti kucakla: daha az zehir, daha çok büyü ve +1 yaratıcılık.",
@@ -39,8 +39,13 @@ const OBSCURA_POOL := ["hex", "precision_lock", "rotten_surprise", "midnight_kit
 const FERMENTED := ["eye_pickle", "moldy_spirit", "century_pickle"]
 
 
+## Yeteneğin aktif dile çevrilmiş kopyası.
 static func ability(id: String) -> Dictionary:
-	return ABILITIES.get(id, {})
+	var a: Dictionary = ABILITIES.get(id, {}).duplicate()
+	for k in ["name", "defend", "adapt", "accept"]:
+		if a.has(k):
+			a[k] = Loc.t(str(a[k]))
+	return a
 
 
 static func phase_of(id: String) -> String:
@@ -49,20 +54,20 @@ static func phase_of(id: String) -> String:
 
 ## Sonuç türleri: blocked, reflected, half, full, adapt, backfire
 static func result_text(id: String, result: String) -> String:
-	var n: String = ABILITIES.get(id, {}).get("name", "Sabotaj")
+	var n: String = ability(id).get("name", Loc.t("Sabotaj"))
 	match result:
 		"blocked":
-			return "%s engellendi! Kalkanın dimdik." % n
+			return Loc.t("%s engellendi! Kalkanın dimdik.") % n
 		"reflected":
-			return "AYNA KALKANI! %s rakibe geri döndü!" % n
+			return Loc.t("AYNA KALKANI! %s rakibe geri döndü!") % n
 		"half":
-			return "%s kısmen işledi. Etkisi yarıya indi." % n
+			return Loc.t("%s kısmen işledi. Etkisi yarıya indi.") % n
 		"full":
-			return "%s tam isabet!" % n
+			return Loc.t("%s tam isabet!") % n
 		"adapt":
-			return "Uyum sağladın! %s seni farklı bir yöne götürdü." % n
+			return Loc.t("Uyum sağladın! %s seni farklı bir yöne götürdü.") % n
 		"backfire":
-			return "GERİ TEPTİ! %s rakibin kendi başına patladı!" % n
+			return Loc.t("GERİ TEPTİ! %s rakibin kendi başına patladı!") % n
 	return n
 
 

@@ -1,0 +1,2378 @@
+{
+"bdefcad6": [
+"New fusion: %s!",
+"¡Nueva fusión: %s!",
+"Neue Fusion: %s!",
+"دمج جديد: %s!",
+"नया फ़्यूज़न: %s!",
+"新融合物：%s！",
+"新しいフュージョン：%s！"
+],
+"880308bf": [
+"NEW!",
+"¡NUEVO!",
+"NEU!",
+"جديد!",
+"नया!",
+"新！",
+"NEW！"
+],
+"3b4578cd": [
+"SPECIAL",
+"ESPECIAL",
+"SPEZIAL",
+"خاص",
+"खास",
+"特别",
+"特別"
+],
+"4527624a": [
+"ALIVE",
+"VIVO",
+"LEBENDIG",
+"حي",
+"ज़िंदा",
+"活的",
+"生きてる"
+],
+"29bf226e": [
+"%s %s",
+"%s %s",
+"%s %s",
+"%s %s",
+"%s %s",
+"%s %s",
+"%s %s"
+],
+"664ab51c": [
+"Judge estimate (no theme): ",
+"Estimación del jurado (sin tema): ",
+"Jury-Schätzung (ohne Thema): ",
+"تقدير لجنة التحكيم (بلا موضوع): ",
+"जजों का अनुमान (बिना थीम): ",
+"评委预估（无主题）：",
+"審査員の予想（テーマなし）："
+],
+"a71e75f1": [
+"JUDGING",
+"VALORACIÓN DEL JURADO",
+"JURY-BEWERTUNG",
+"تقييم لجنة التحكيم",
+"जजों का फ़ैसला",
+"评委打分",
+"審査タイム"
+],
+"cac1284a": [
+"Fast mode",
+"Modo rápido",
+"Schnellmodus",
+"الوضع السريع",
+"तेज़ मोड",
+"快速模式",
+"高速モード"
+],
+"fc44c248": [
+"Purify: judge mutations cleared!",
+"Purificación: ¡mutaciones del jurado eliminadas!",
+"Reinigung: Jury-Mutationen entfernt!",
+"التطهير: أُزيلت تحوّرات لجنة التحكيم!",
+"शुद्धिकरण: जजों के म्यूटेशन हट गए!",
+"净化：评委变异已清除！",
+"浄化：審査員の変異が消えた！"
+],
+"554e8450": [
+"%s presents",
+"%s presenta",
+"%s präsentiert",
+"%s يقدّم",
+"%s पेश करता है",
+"%s 上菜",
+"%s の一皿"
+],
+"067e0c5e": [
+"Cooking %d%%",
+"Cocción %d%%",
+"Garen %d%%",
+"الطهي %d%%",
+"पकाना %d%%",
+"烹饪 %d%%",
+"調理 %d%%"
+],
+"e7e64aa6": [
+"FIRST DISCOVERY",
+"PRIMER DESCUBRIMIENTO",
+"ERSTENTDECKUNG",
+"اكتشاف أول",
+"पहली खोज",
+"首次发现",
+"初発見"
+],
+"4ada0a04": [
+"SPECIAL RECIPE",
+"RECETA ESPECIAL",
+"SPEZIALREZEPT",
+"وصفة خاصة",
+"खास रेसिपी",
+"特别食谱",
+"特別レシピ"
+],
+"579d7f48": [
+"ALIVE & CAUGHT",
+"VIVO Y ATRAPADO",
+"LEBENDIG & GEFANGEN",
+"حي وتم الإمساك به",
+"ज़िंदा और पकड़ा गया",
+"活体 & 已抓住",
+"生きてる＆捕獲"
+],
+"b79e7f89": [
+"MESSY (ESCAPED)",
+"DESORDEN (SE ESCAPÓ)",
+"CHAOTISCH (ENTKOMMEN)",
+"فوضوي (هرب)",
+"बिखरा (भाग गया)",
+"一团糟（逃跑了）",
+"ぐちゃぐちゃ（逃走）"
+],
+"30c056c6": [
+"MYSTERY NOT USED",
+"MISTERIO SIN USAR",
+"GEHEIMZUTAT FEHLT",
+"لم يُستخدم المكوّن الغامض",
+"रहस्य इस्तेमाल नहीं हुआ",
+"未使用神秘食材",
+"ミステリー未使用"
+],
+"e54e08b5": [
+"REPEAT",
+"REPETIDO",
+"WIEDERHOLUNG",
+"مكرر",
+"दोहराया",
+"重复",
+"リピート"
+],
+"f902c1d4": [
+"Backfire: ",
+"Rebote: ",
+"Rückschlag: ",
+"ارتداد: ",
+"उल्टा वार: ",
+"反噬：",
+"反動："
+],
+"b1984a16": [
+"The judges are tasting...",
+"El jurado está probando...",
+"Die Jury probiert...",
+"لجنة التحكيم تتذوق...",
+"जज चख रहे हैं...",
+"评委正在品尝……",
+"審査員が試食中…"
+],
+"3962d206": [
+"Judges' comments",
+"Comentarios del jurado",
+"Kommentare der Jury",
+"تعليقات لجنة التحكيم",
+"जजों की टिप्पणियाँ",
+"评委点评",
+"審査員のコメント"
+],
+"d025ce03": [
+"%s: \"%s\"",
+"%s: «%s»",
+"%s: „%s“",
+"%s: «%s»",
+"%s: \"%s\"",
+"%s：“%s”",
+"%s：「%s」"
+],
+"2281012b": [
+"MUTATION!",
+"¡MUTACIÓN!",
+"MUTATION!",
+"تحوّر!",
+"म्यूटेशन!",
+"变异！",
+"変異！"
+],
+"9c6eec54": [
+"(Active from next round · %s)",
+"(Activo desde la próxima ronda · %s)",
+"(Ab der nächsten Runde aktiv · %s)",
+"(يسري من الجولة التالية · %s)",
+"(अगले राउंड से असर · %s)",
+"（下一回合起生效 · %s）",
+"（次のラウンドから有効 · %s）"
+],
+"f0d5bf52": [
+"AN ARGUMENT BROKE OUT!",
+"¡ESTALLÓ UNA DISCUSIÓN!",
+"STREIT BRICHT AUS!",
+"اندلع جدال!",
+"बहस छिड़ गई!",
+"吵起来了！",
+"口論が始まった！"
+],
+"47d622ec": [
+"Your rival shrugged. The scores stay the same.",
+"Tu rival se encogió de hombros. Las puntuaciones no cambian.",
+"Dein Rivale zuckt mit den Schultern. Die Punkte bleiben gleich.",
+"هزّ منافسك كتفيه. النتائج لم تتغير.",
+"प्रतिद्वंद्वी ने कंधे उचका दिए। अंक नहीं बदले।",
+"对手耸了耸肩。分数没有变化。",
+"ライバルは肩をすくめた。点数は変わらない。"
+],
+"cb59fdf7": [
+"THE JUDGES ARE FIGHTING!",
+"¡EL JURADO SE PELEA!",
+"DIE JURY STREITET!",
+"لجنة التحكيم تتشاجر!",
+"जज आपस में भिड़ गए!",
+"评委们吵翻了！",
+"審査員が大げんか！"
+],
+"f1f7007f": [
+"What will you do?",
+"¿Qué vas a hacer?",
+"Was tust du?",
+"ماذا ستفعل؟",
+"तुम क्या करोगे?",
+"你要怎么做？",
+"どうする？"
+],
+"7f6c0642": [
+"Defend the Dish",
+"Defender el plato",
+"Gericht verteidigen",
+"دافع عن الطبق",
+"पकवान का बचाव",
+"为菜辩护",
+"料理を弁護"
+],
+"1ba123bc": [
+"Taste Again",
+"Volver a probar",
+"Nochmal probieren",
+"تذوّق مجددًا",
+"फिर से चखाओ",
+"再尝一次",
+"もう一度試食"
+],
+"93ca6604": [
+"Explain the Recipe",
+"Explicar la receta",
+"Rezept erklären",
+"اشرح الوصفة",
+"रेसिपी समझाओ",
+"讲解食谱",
+"レシピを説明"
+],
+"2a0f788b": [
+"End the Argument",
+"Terminar la discusión",
+"Streit beenden",
+"أنهِ الجدال",
+"बहस खत्म करो",
+"结束争论",
+"口論を終える"
+],
+"f5faa82a": [
+"YOU",
+"TÚ",
+"DU",
+"أنت",
+"तुम",
+"你",
+"あなた"
+],
+"7468d44e": [
+"%s: %s / 30",
+"%s: %s / 30",
+"%s: %s / 30",
+"%s: %s / 30",
+"%s: %s / 30",
+"%s：%s / 30",
+"%s：%s / 30"
+],
+"75428d0f": [
+"YOUR DAILY SCORE",
+"TU PUNTUACIÓN DIARIA",
+"DEIN TAGESERGEBNIS",
+"نتيجتك اليومية",
+"तुम्हारा दैनिक स्कोर",
+"你的每日得分",
+"今日のスコア"
+],
+"f8faef6b": [
+"ROUND %d RESULT",
+"RESULTADO DE LA RONDA %d",
+"ERGEBNIS RUNDE %d",
+"نتيجة الجولة %d",
+"राउंड %d का नतीजा",
+"第%d回合结果",
+"ラウンド%dの結果"
+],
+"f06b77ab": [
+"YOU %s",
+"TÚ %s",
+"DU %s",
+"أنت %s",
+"तुम %s",
+"你 %s",
+"あなた %s"
+],
+"8e589074": [
+"YOU WON THE ROUND!",
+"¡GANASTE LA RONDA!",
+"RUNDE GEWONNEN!",
+"فزت بالجولة!",
+"राउंड जीत लिया!",
+"你赢下了本回合！",
+"ラウンド勝利！"
+],
+"7a45c761": [
+"YOU LOST THE ROUND",
+"PERDISTE LA RONDA",
+"RUNDE VERLOREN",
+"خسرت الجولة",
+"राउंड हार गए",
+"本回合输了",
+"ラウンド敗北"
+],
+"4e61bc66": [
+"DRAW!",
+"¡EMPATE!",
+"UNENTSCHIEDEN!",
+"تعادل!",
+"बराबरी!",
+"平局！",
+"引き分け！"
+],
+"d2e954b1": [
+"Total: You %s · Rival %s",
+"Total: Tú %s · Rival %s",
+"Gesamt: Du %s · Rivale %s",
+"المجموع: أنت %s · المنافس %s",
+"कुल: तुम %s · प्रतिद्वंद्वी %s",
+"总分：你 %s · 对手 %s",
+"合計：あなた %s · ライバル %s"
+],
+"04ed0c53": [
+"RESULTS",
+"RESULTADOS",
+"ERGEBNISSE",
+"النتائج",
+"नतीजे",
+"结果",
+"結果"
+],
+"47699e30": [
+"NEXT ROUND",
+"SIGUIENTE RONDA",
+"NÄCHSTE RUNDE",
+"الجولة التالية",
+"अगला राउंड",
+"下一回合",
+"次のラウンド"
+],
+"1e520add": [
+"ROUND 1/3",
+"RONDA 1/3",
+"RUNDE 1/3",
+"الجولة 1/3",
+"राउंड 1/3",
+"第1/3回合",
+"ラウンド 1/3"
+],
+"1061991d": [
+"DAILY",
+"RETO",
+"TÄGLICHE",
+"التحدي",
+"आज की",
+"每日",
+"デイリー"
+],
+"731ba123": [
+"CHALLENGE",
+"DIARIO",
+"HERAUSFORDERUNG",
+"اليومي",
+"चुनौती",
+"挑战",
+"チャレンジ"
+],
+"95da4535": [
+"DAILY CHALLENGE",
+"RETO DIARIO",
+"TÄGLICHE HERAUSFORDERUNG",
+"التحدي اليومي",
+"दैनिक चुनौती",
+"每日挑战",
+"デイリーチャレンジ"
+],
+"1b54b270": [
+"MATCH %d%s",
+"DUELO %d%s",
+"MATCH %d%s",
+"المباراة %d%s",
+"मैच %d%s",
+"第%d场%s",
+"第%d試合%s"
+],
+"3b57df6d": [
+"  ·  BOSS",
+"  ·  JEFE",
+"  ·  BOSS",
+"  ·  الزعيم",
+"  ·  बॉस",
+"  ·  首领战",
+"  ·  ボス"
+],
+"c0e29041": [
+"%s — %s",
+"%s — %s",
+"%s — %s",
+"%s — %s",
+"%s — %s",
+"%s — %s",
+"%s — %s"
+],
+"4f18dc57": [
+"Special ability: %s — %s",
+"Habilidad especial: %s — %s",
+"Spezialfähigkeit: %s — %s",
+"قدرة خاصة: %s — %s",
+"खास क्षमता: %s — %s",
+"特殊技能：%s — %s",
+"特殊能力：%s — %s"
+],
+"2eec86b8": [
+"Single round · Target %s points",
+"Una ronda · Objetivo %s puntos",
+"Eine Runde · Ziel %s Punkte",
+"جولة واحدة · الهدف %s نقطة",
+"एक राउंड · लक्ष्य %s अंक",
+"单回合 · 目标 %s 分",
+"1ラウンド · 目標 %s点"
+],
+"76d5da11": [
+"Tap ingredients in the pantry to add them to the bowl. Hint: Frog Essence + Sugar = ?",
+"Toca los ingredientes de la despensa para añadirlos al tazón. Pista: Esencia de rana + Azúcar = ?",
+"Tippe Zutaten in der Vorratskammer an, um sie in die Schüssel zu geben. Tipp: Froschessenz + Zucker = ?",
+"انقر على المكونات في المخزن لإضافتها إلى الوعاء. تلميح: خلاصة الضفدع + سكر = ؟",
+"भंडार की सामग्री को टैप करके कटोरे में डालो। संकेत: मेंढक का अर्क + चीनी = ?",
+"点击储藏室里的食材放进碗里。提示：青蛙精华 + 糖 = ？",
+"食料庫の食材をタップしてボウルへ。ヒント：カエルエキス＋砂糖＝？"
+],
+"6784bac3": [
+"ROUND %d/%d",
+"RONDA %d/%d",
+"RUNDE %d/%d",
+"الجولة %d/%d",
+"राउंड %d/%d",
+"第%d/%d回合",
+"ラウンド %d/%d"
+],
+"231c0b78": [
+"%s %d+",
+"%s %d+",
+"%s %d+",
+"%s %d+",
+"%s %d+",
+"%s %d+",
+"%s %d+"
+],
+"d21eb947": [
+"%s ≤%d",
+"%s ≤%d",
+"%s ≤%d",
+"%s ≤%d",
+"%s ≤%d",
+"%s ≤%d",
+"%s ≤%d"
+],
+"58dc5ea5": [
+"%s %d-%d",
+"%s %d-%d",
+"%s %d-%d",
+"%s %d-%d",
+"%s %d-%d",
+"%s %d-%d",
+"%s %d-%d"
+],
+"86bd6c78": [
+"Target %s",
+"Objetivo %s",
+"Ziel %s",
+"الهدف %s",
+"लक्ष्य %s",
+"目标 %s",
+"目標 %s"
+],
+"48ab025c": [
+"You %s · %s %s",
+"Tú %s · %s %s",
+"Du %s · %s %s",
+"أنت %s · %s %s",
+"तुम %s · %s %s",
+"你 %s · %s %s",
+"あなた %s · %s %s"
+],
+"1c2371ad": [
+"ROUND %d",
+"RONDA %d",
+"RUNDE %d",
+"الجولة %d",
+"राउंड %d",
+"第%d回合",
+"ラウンド%d"
+],
+"4f841cd9": [
+"MYSTERY INGREDIENT",
+"INGREDIENTE MISTERIOSO",
+"GEHEIMZUTAT",
+"المكوّن الغامض",
+"रहस्यमयी सामग्री",
+"神秘食材",
+"ミステリー食材"
+],
+"0b5a4ed4": [
+"You must use it in your dish!",
+"¡Debes usarlo en tu plato!",
+"Du musst sie in deinem Gericht verwenden!",
+"يجب أن تستخدمه في طبقك!",
+"इसे अपने पकवान में इस्तेमाल करना होगा!",
+"你必须把它用进菜里！",
+"料理に必ず使ってね！"
+],
+"18822071": [
+"Tap to continue",
+"Toca para continuar",
+"Tippen zum Fortfahren",
+"انقر للمتابعة",
+"आगे बढ़ने के लिए टैप करो",
+"点击继续",
+"タップして続ける"
+],
+"c0801834": [
+"Time's up!",
+"¡Se acabó el tiempo!",
+"Zeit ist um!",
+"انتهى الوقت!",
+"समय खत्म!",
+"时间到！",
+"時間切れ！"
+],
+"7b4df232": [
+"Great! Press FUSE to make a fusion, or pick a method and press COOK.",
+"¡Genial! Pulsa FUSIONAR para hacer una fusión, o elige un método y pulsa COCINA.",
+"Super! Drück FUSIONIEREN für eine Fusion oder wähle eine Methode und drück KOCHEN.",
+"رائع! اضغط ادمج لصنع دمج، أو اختر طريقة واضغط اطبخ.",
+"शानदार! फ़्यूज़न के लिए मिलाओ दबाओ, या कोई तरीका चुनकर पकाओ दबाओ।",
+"太棒了！点“融合”制作融合物，或选择烹饪方式后点“烹饪”。",
+"いいね！「合体」でフュージョン、または調理法を選んで「料理開始」を押そう。"
+],
+"cd96f5d0": [
+"NEW FUSION!",
+"¡NUEVA FUSIÓN!",
+"NEUE FUSION!",
+"دمج جديد!",
+"नया फ़्यूज़न!",
+"新融合物！",
+"新フュージョン！"
+],
+"f1daebf1": [
+"Mystery Forgotten!",
+"¡Olvidaste el misterio!",
+"Geheimzutat vergessen!",
+"نسيت المكوّن الغامض!",
+"रहस्य भूल गए!",
+"忘了神秘食材！",
+"ミステリーを忘れた！"
+],
+"6ef04e98": [
+"This round's mystery ingredient (%s) isn't in your dish. Your theme score will drop. Cook anyway?",
+"El ingrediente misterioso de esta ronda (%s) no está en tu plato. Tu puntuación de tema bajará. ¿Cocinar igualmente?",
+"Die Geheimzutat dieser Runde (%s) fehlt in deinem Gericht. Deine Themenwertung sinkt. Trotzdem kochen?",
+"المكوّن الغامض لهذه الجولة (%s) ليس في طبقك. ستنخفض نقاط الموضوع. هل تطبخ على أي حال؟",
+"इस राउंड की रहस्यमयी सामग्री (%s) तुम्हारे पकवान में नहीं है। थीम अंक घटेंगे। फिर भी पकाएँ?",
+"本回合的神秘食材（%s）不在你的菜里。主题分会下降。还要烹饪吗？",
+"このラウンドのミステリー食材（%s）が入っていないよ。テーマ点が下がる。それでも料理する？"
+],
+"4b565b27": [
+"Go Back",
+"Volver",
+"Zurück",
+"رجوع",
+"वापस जाओ",
+"返回",
+"戻る"
+],
+"8668298f": [
+"Cook",
+"Cocinar",
+"Kochen",
+"اطبخ",
+"पकाओ",
+"烹饪",
+"料理する"
+],
+"682d4d09": [
+"Auto-cooking: quality %d%%",
+"Cocción automática: calidad %d%%",
+"Automatisch gekocht: Qualität %d%%",
+"طهي تلقائي: الجودة %d%%",
+"ऑटो-पकाना: गुणवत्ता %d%%",
+"自动烹饪：品质 %d%%",
+"オート調理：クオリティ %d%%"
+],
+"e28d28aa": [
+"Pick a plate and garnish: ones that match the theme and the dish boost your presentation score!",
+"Elige plato y guarnición: ¡los que combinan con el tema y el plato suben tu puntuación de presentación!",
+"Wähle Teller und Garnitur: Passende Wahl zu Thema und Gericht steigert deine Präsentationswertung!",
+"اختر الطبق والزينة: ما يناسب الموضوع والطبق يرفع نقاط التقديم!",
+"प्लेट और सजावट चुनो: थीम और पकवान से मेल खाने वाले प्रस्तुति अंक बढ़ाते हैं!",
+"选择盘子和装饰：与主题和菜品相配的会提高摆盘分！",
+"お皿と飾りを選ぼう：テーマや料理に合うと盛り付け点がアップ！"
+],
+"4ca8c4b2": [
+"NEW RECIPE!",
+"¡NUEVA RECETA!",
+"NEUES REZEPT!",
+"وصفة جديدة!",
+"नई रेसिपी!",
+"新食谱！",
+"新レシピ！"
+],
+"513f6b22": [
+"SECRET RECIPE!",
+"¡RECETA SECRETA!",
+"GEHEIMREZEPT!",
+"وصفة سرية!",
+"गुप्त रेसिपी!",
+"秘密食谱！",
+"秘密のレシピ！"
+],
+"8775e27f": [
+"Cooking: %d%%",
+"Cocción: %d%%",
+"Garen: %d%%",
+"الطهي: %d%%",
+"पकाना: %d%%",
+"烹饪：%d%%",
+"調理：%d%%"
+],
+"f03708b1": [
+"Stolen: %s",
+"Robado: %s",
+"Gestohlen: %s",
+"سُرق: %s",
+"चोरी हुआ: %s",
+"被偷走：%s",
+"盗まれた：%s"
+],
+"e372f7fc": [
+"PAUSED",
+"EN PAUSA",
+"PAUSIERT",
+"متوقف مؤقتًا",
+"रुका हुआ",
+"已暂停",
+"一時停止"
+],
+"a5fc3a57": [
+"Continue",
+"Continuar",
+"Weiter",
+"متابعة",
+"जारी रखो",
+"继续",
+"続ける"
+],
+"5a11af5b": [
+"Sound: %s",
+"Sonido: %s",
+"Ton: %s",
+"الصوت: %s",
+"आवाज़: %s",
+"声音：%s",
+"サウンド：%s"
+],
+"365fc1a7": [
+"On",
+"Sí",
+"An",
+"تشغيل",
+"चालू",
+"开",
+"オン"
+],
+"2ccb05fb": [
+"Off",
+"No",
+"Aus",
+"إيقاف",
+"बंद",
+"关",
+"オフ"
+],
+"0a85e046": [
+"Quit Match",
+"Salir del duelo",
+"Match verlassen",
+"اترك المباراة",
+"मैच छोड़ो",
+"退出比赛",
+"試合をやめる"
+],
+"73013ad3": [
+"Are you sure?",
+"¿Seguro?",
+"Bist du sicher?",
+"هل أنت متأكد؟",
+"पक्का?",
+"确定吗？",
+"本当に？"
+],
+"f29d0612": [
+"If you quit, this match's progress will be lost.",
+"Si sales, perderás el progreso de este duelo.",
+"Wenn du gehst, geht der Fortschritt dieses Matches verloren.",
+"إذا خرجت فسيضيع تقدّم هذه المباراة.",
+"छोड़ने पर इस मैच की प्रगति खो जाएगी।",
+"退出的话，本场比赛进度会丢失。",
+"やめるとこの試合の進行状況は失われるよ。"
+],
+"996c9281": [
+"Quit",
+"Salir",
+"Verlassen",
+"خروج",
+"छोड़ो",
+"退出",
+"やめる"
+],
+"642c4f34": [
+"+%d points",
+"+%d puntos",
+"+%d Punkte",
+"+%d نقاط",
+"+%d अंक",
+"+%d点",
+"+%dポイント"
+],
+"8dc62019": [
+"Next: %s · %s",
+"Siguiente: %s · %s",
+"Als Nächstes: %s · %s",
+"التالي: %s · %s",
+"अगला: %s · %s",
+"下一场：%s · %s",
+"次：%s · %s"
+],
+"c1617e8b": [
+"Chaos Lab",
+"Lab. del Caos",
+"Chaos-Labor",
+"مختبر الفوضى",
+"केओस लैब",
+"混沌实验室",
+"カオスラボ"
+],
+"18de979d": [
+"Daily",
+"Diario",
+"Täglich",
+"يومي",
+"दैनिक",
+"每日",
+"デイリー"
+],
+"55359b1c": [
+"Recipe Book",
+"Recetario",
+"Rezeptbuch",
+"كتاب الوصفات",
+"रेसिपी बुक",
+"食谱书",
+"レシピ帳"
+],
+"c6c0baab": [
+"Shop",
+"Tienda",
+"Laden",
+"المتجر",
+"दुकान",
+"商店",
+"ショップ"
+],
+"3902dca6": [
+"My Chef",
+"Mi chef",
+"Mein Koch",
+"طاهيّ",
+"मेरा शेफ़",
+"我的厨师",
+"マイシェフ"
+],
+"b9015a1d": [
+"Quit",
+"Salir",
+"Beenden",
+"خروج",
+"बाहर निकलो",
+"退出",
+"終了"
+],
+"eb6c6f63": [
+"Do you want to quit the game? Your progress has been saved.",
+"¿Quieres salir del juego? Tu progreso está guardado.",
+"Willst du das Spiel beenden? Dein Fortschritt ist gespeichert.",
+"هل تريد الخروج من اللعبة؟ تم حفظ تقدّمك.",
+"क्या तुम खेल छोड़ना चाहते हो? तुम्हारी प्रगति सेव हो गई है।",
+"要退出游戏吗？进度已保存。",
+"ゲームを終了する？進行状況は保存済みだよ。"
+],
+"9298d209": [
+"Stay",
+"Quedarme",
+"Bleiben",
+"ابقَ",
+"रुको",
+"留下",
+"残る"
+],
+"f36cfc54": [
+"RECIPE BOOK",
+"RECETARIO",
+"REZEPTBUCH",
+"كتاب الوصفات",
+"रेसिपी बुक",
+"食谱书",
+"レシピ帳"
+],
+"dc08679a": [
+"%d recipes · %d / %d special recipes",
+"%d recetas · %d / %d recetas especiales",
+"%d Rezepte · %d / %d Spezialrezepte",
+"%d وصفة · %d / %d وصفات خاصة",
+"%d रेसिपी · %d / %d खास रेसिपी",
+"%d个食谱 · 特别食谱 %d / %d",
+"レシピ%d個 · 特別レシピ %d / %d"
+],
+"abdff0b4": [
+"Recipes",
+"Recetas",
+"Rezepte",
+"الوصفات",
+"रेसिपी",
+"食谱",
+"レシピ"
+],
+"1b867f3b": [
+"Experiments",
+"Experimentos",
+"Experimente",
+"التجارب",
+"प्रयोग",
+"实验",
+"実験"
+],
+"1725d8ea": [
+"Characters",
+"Personajes",
+"Figuren",
+"الشخصيات",
+"किरदार",
+"角色",
+"キャラ"
+],
+"b1ba20ae": [
+"Mutations",
+"Mutaciones",
+"Mutationen",
+"التحوّرات",
+"म्यूटेशन",
+"变异",
+"変異"
+],
+"f24b6d5b": [
+"Achievements",
+"Logros",
+"Erfolge",
+"الإنجازات",
+"उपलब्धियाँ",
+"成就",
+"実績"
+],
+"ce7c4efb": [
+"Dishes",
+"Platos",
+"Gerichte",
+"الأطباق",
+"पकवान",
+"菜品",
+"料理"
+],
+"eac74336": [
+"Get hint (%d)",
+"Pista (%d)",
+"Hinweis (%d)",
+"خذ تلميحًا (%d)",
+"संकेत लो (%d)",
+"获取提示（%d）",
+"ヒント（%d）"
+],
+"ca2254db": [
+"Buy Hint?",
+"¿Comprar pista?",
+"Hinweis kaufen?",
+"شراء تلميح؟",
+"संकेत खरीदें?",
+"购买提示？",
+"ヒントを買う？"
+],
+"203d5fb9": [
+"You can see this recipe's hint for %d Chef Coins.",
+"Puedes ver la pista de esta receta por %d monedas de chef.",
+"Für %d Kochmünzen siehst du den Hinweis zu diesem Rezept.",
+"يمكنك رؤية تلميح هذه الوصفة مقابل %d عملة طاهٍ.",
+"%d शेफ़ सिक्कों में इस रेसिपी का संकेत देख सकते हो।",
+"花费%d厨师币即可查看这个食谱的提示。",
+"%dシェフコインでこのレシピのヒントが見られるよ。"
+],
+"197cdcc5": [
+"Buy",
+"Comprar",
+"Kaufen",
+"شراء",
+"खरीदो",
+"购买",
+"買う"
+],
+"7fb9e7f3": [
+"Chain: %d steps",
+"Cadena: %d pasos",
+"Kette: %d Schritte",
+"السلسلة: %d خطوات",
+"चेन: %d कदम",
+"链条：%d步",
+"チェーン：%d段階"
+],
+"e3f505a3": [
+"Living dish!",
+"¡Plato vivo!",
+"Lebendiges Gericht!",
+"طبق حي!",
+"ज़िंदा पकवान!",
+"活体料理！",
+"生きている料理！"
+],
+"dad39b40": [
+"No experiments yet. Combine ingredients freely in the Chaos Lab!",
+"Aún no hay experimentos. ¡Combina ingredientes libremente en el Laboratorio del Caos!",
+"Noch keine Experimente. Kombiniere Zutaten frei im Chaos-Labor!",
+"لا توجد تجارب بعد. اخلط المكونات بحرية في مختبر الفوضى!",
+"अभी कोई प्रयोग नहीं। केओस लैब में सामग्री खुलकर मिलाओ!",
+"还没有实验。去混沌实验室自由组合食材吧！",
+"まだ実験がないよ。カオスラボで自由に食材を組み合わせよう！"
+],
+"74d6a2c4": [
+"Experimental Dishes (%d)",
+"Platos experimentales (%d)",
+"Experimentelle Gerichte (%d)",
+"أطباق تجريبية (%d)",
+"प्रायोगिक पकवान (%d)",
+"实验菜品（%d）",
+"実験料理（%d）"
+],
+"54582d53": [
+"Experimental Fusions (%d)",
+"Fusiones experimentales (%d)",
+"Experimentelle Fusionen (%d)",
+"دمجات تجريبية (%d)",
+"प्रायोगिक फ़्यूज़न (%d)",
+"实验融合物（%d）",
+"実験フュージョン（%d）"
+],
+"e9f6d3b9": [
+"Collection: %d / %d",
+"Colección: %d / %d",
+"Sammlung: %d / %d",
+"المجموعة: %d / %d",
+"संग्रह: %d / %d",
+"收集：%d / %d",
+"コレクション：%d / %d"
+],
+"aeae7b2d": [
+"YOU WIN!",
+"¡GANASTE!",
+"GEWONNEN!",
+"فزت!",
+"तुम जीत गए!",
+"你赢了！",
+"勝利！"
+],
+"2921cb66": [
+"YOU LOST",
+"PERDISTE",
+"VERLOREN",
+"خسرت",
+"तुम हार गए",
+"你输了",
+"敗北"
+],
+"de26860c": [
+"Round",
+"Ronda",
+"Runde",
+"الجولة",
+"राउंड",
+"回合",
+"ラウンド"
+],
+"2f0e6fc1": [
+"You",
+"Tú",
+"Du",
+"أنت",
+"तुम",
+"你",
+"あなた"
+],
+"a2cd60e6": [
+"Rival",
+"Rival",
+"Rivale",
+"المنافس",
+"प्रतिद्वंद्वी",
+"对手",
+"ライバル"
+],
+"1d00ccc4": [
+"TOTAL",
+"TOTAL",
+"GESAMT",
+"المجموع",
+"कुल",
+"总计",
+"合計"
+],
+"ca3cde8e": [
+"Total %d+ points",
+"Total %d+ puntos",
+"Insgesamt %d+ Punkte",
+"مجموع %d+ نقطة",
+"कुल %d+ अंक",
+"总分 %d+",
+"合計%d点以上"
+],
+"bf6a0028": [
+"+%d XP",
+"+%d XP",
+"+%d EP",
+"+%d نقطة خبرة",
+"+%d XP",
+"+%d 经验",
+"+%d XP"
+],
+"bf0cb659": [
+"LEVEL UP! Level %d · Spend your skill point on the My Chef screen.",
+"¡SUBISTE DE NIVEL! Nivel %d · Usa tu punto de especialidad en Mi chef.",
+"LEVEL UP! Level %d · Setze deinen Fähigkeitspunkt unter „Mein Koch“ ein.",
+"ارتقيت مستوى! المستوى %d · استخدم نقطة التخصص في شاشة طاهيّ.",
+"लेवल बढ़ा! लेवल %d · विशेषज्ञता अंक मेरा शेफ़ स्क्रीन पर इस्तेमाल करो।",
+"升级了！等级 %d · 去“我的厨师”使用专精点数。",
+"レベルアップ！レベル%d · スキルポイントはマイシェフ画面で使おう。"
+],
+"7509afc3": [
+"LEAGUE COMPLETE! +%d bonus coins",
+"¡LIGA COMPLETADA! +%d monedas extra",
+"LIGA ABGESCHLOSSEN! +%d Bonusmünzen",
+"اكتمل الدوري! +%d عملة إضافية",
+"लीग पूरी! +%d बोनस सिक्के",
+"联赛完成！奖励 +%d 金币",
+"リーグ制覇！ボーナス +%dコイン"
+],
+"912f3ece": [
+"New ingredient: %s",
+"Nuevo ingrediente: %s",
+"Neue Zutat: %s",
+"مكوّن جديد: %s",
+"नई सामग्री: %s",
+"新食材：%s",
+"新しい食材：%s"
+],
+"d71493da": [
+"Third bowl slot unlocked! You can now make 3-ingredient recipes.",
+"¡Tercer hueco del tazón desbloqueado! Ya puedes hacer recetas de 3 ingredientes.",
+"Dritter Schüsselplatz frei! Jetzt sind Rezepte mit 3 Zutaten möglich.",
+"فُتحت خانة الوعاء الثالثة! يمكنك الآن صنع وصفات من 3 مكونات.",
+"तीसरा कटोरा खाना खुल गया! अब 3 सामग्री वाली रेसिपी बना सकते हो।",
+"第三个碗位已解锁！现在可以做3种食材的食谱了。",
+"ボウルの3つ目の枠が解放！3種類の食材でレシピが作れるよ。"
+],
+"3853d320": [
+"New league unlocked: %s",
+"Nueva liga desbloqueada: %s",
+"Neue Liga freigeschaltet: %s",
+"فُتح دوري جديد: %s",
+"नई लीग खुली: %s",
+"新联赛已解锁：%s",
+"新リーグ解放：%s"
+],
+"2902f8b7": [
+"Retry",
+"Repetir",
+"Nochmal",
+"أعد المحاولة",
+"फिर से",
+"再来",
+"もう一度"
+],
+"ced1b10e": [
+"Continue",
+"Continuar",
+"Weiter",
+"متابعة",
+"जारी रखो",
+"继续",
+"続ける"
+],
+"cde4384b": [
+"DAILY SCORE",
+"PUNTUACIÓN DIARIA",
+"TAGESERGEBNIS",
+"النتيجة اليومية",
+"दैनिक स्कोर",
+"每日得分",
+"デイリースコア"
+],
+"fb481296": [
+"NEW PERSONAL BEST!",
+"¡NUEVO RÉCORD PERSONAL!",
+"NEUE BESTLEISTUNG!",
+"رقم قياسي شخصي جديد!",
+"नया निजी रिकॉर्ड!",
+"新的个人纪录！",
+"自己ベスト更新！"
+],
+"cfd0c995": [
+"Today's best: %s · Target: %s",
+"Mejor de hoy: %s · Objetivo: %s",
+"Heute bester: %s · Ziel: %s",
+"أفضل نتيجة اليوم: %s · الهدف: %s",
+"आज का सर्वश्रेष्ठ: %s · लक्ष्य: %s",
+"今日最佳：%s · 目标：%s",
+"今日のベスト：%s · 目標：%s"
+],
+"bd2a697d": [
+"CLAIM REWARD (+%d)",
+"RECLAMAR PREMIO (+%d)",
+"BELOHNUNG HOLEN (+%d)",
+"استلم الجائزة (+%d)",
+"इनाम लो (+%d)",
+"领取奖励（+%d）",
+"報酬を受け取る（+%d）"
+],
+"d084afbe": [
+"Today's reward claimed. New challenge tomorrow!",
+"Premio de hoy reclamado. ¡Mañana, nuevo reto!",
+"Heutige Belohnung abgeholt. Morgen gibt es eine neue Herausforderung!",
+"تم استلام جائزة اليوم. تحدٍّ جديد غدًا!",
+"आज का इनाम मिल गया। कल नई चुनौती!",
+"今日奖励已领取。明天有新挑战！",
+"今日の報酬は受け取り済み。明日は新しいチャレンジ！"
+],
+"cde0ab0a": [
+"You need at least %s points for the reward. You can try again!",
+"Necesitas al menos %s puntos para el premio. ¡Puedes intentarlo otra vez!",
+"Für die Belohnung brauchst du mindestens %s Punkte. Versuch es nochmal!",
+"تحتاج إلى %s نقطة على الأقل للجائزة. يمكنك المحاولة مجددًا!",
+"इनाम के लिए कम से कम %s अंक चाहिए। फिर से कोशिश कर सकते हो!",
+"至少需要 %s 分才能领奖。可以再试一次！",
+"報酬には最低%s点が必要。もう一度挑戦できるよ！"
+],
+"4dfd9e31": [
+"OK",
+"Vale",
+"OK",
+"حسنًا",
+"ठीक है",
+"好的",
+"OK"
+],
+"f576856f": [
+"SETTINGS",
+"AJUSTES",
+"EINSTELLUNGEN",
+"الإعدادات",
+"सेटिंग्स",
+"设置",
+"設定"
+],
+"0e9afd49": [
+"Music",
+"Música",
+"Musik",
+"الموسيقى",
+"संगीत",
+"音乐",
+"音楽"
+],
+"d2cadd8a": [
+"Sound FX",
+"Efectos",
+"Effekte",
+"المؤثرات",
+"इफ़ेक्ट्स",
+"音效",
+"効果音"
+],
+"1747f75e": [
+"Vibration",
+"Vibración",
+"Vibration",
+"الاهتزاز",
+"वाइब्रेशन",
+"振动",
+"振動"
+],
+"bb5081ef": [
+"Fast animations",
+"Animaciones rápidas",
+"Schnelle Animationen",
+"رسوم متحركة سريعة",
+"तेज़ एनिमेशन",
+"快速动画",
+"高速アニメーション"
+],
+"21760eaf": [
+"How to Play?",
+"¿Cómo se juega?",
+"Wie spielt man?",
+"كيف تلعب؟",
+"कैसे खेलें?",
+"玩法说明",
+"遊び方"
+],
+"159aaac4": [
+"About",
+"Acerca de",
+"Über",
+"حول اللعبة",
+"जानकारी",
+"关于",
+"このゲームについて"
+],
+"9d2561e0": [
+"Reset Progress",
+"Reiniciar progreso",
+"Fortschritt zurücksetzen",
+"إعادة ضبط التقدّم",
+"प्रगति रीसेट करो",
+"重置进度",
+"進行状況をリセット"
+],
+"f1773789": [
+"Version %s · Content v%d",
+"Versión %s · Contenido v%d",
+"Version %s · Inhalt v%d",
+"الإصدار %s · المحتوى v%d",
+"संस्करण %s · सामग्री v%d",
+"版本 %s · 内容 v%d",
+"バージョン %s · コンテンツ v%d"
+],
+"786cbbbe": [
+"Language",
+"Idioma",
+"Sprache",
+"اللغة",
+"भाषा",
+"语言",
+"言語"
+],
+"e98595b4": [
+"ON",
+"SÍ",
+"AN",
+"تشغيل",
+"चालू",
+"开",
+"オン"
+],
+"9acf67d8": [
+"OFF",
+"NO",
+"AUS",
+"إيقاف",
+"बंद",
+"关",
+"オフ"
+],
+"fefcf3f2": [
+"1) Tap ingredients in the pantry to add them to the bowl.\n2) Press FUSE to make a fusion: Sugar + Frog Essence = Candy Frog! You can fuse fusions again.\n3) Pick a cooking method and press COOK; nail the timing game.\n4) Living dishes can escape: catch them!\n5) Choose a plate and garnish that fit the theme, then SERVE.\n6) The three judges look for different things: Bruno flavor, Mira creativity, Max presentation.\n7) Rivals sabotage you: Defend, Adapt or Take the Risk.\n8) Some dishes mutate the judges and change their tastes!",
+"1) Toca ingredientes de la despensa para añadirlos al tazón.\n2) Pulsa FUSIONAR para crear una fusión: Azúcar + Esencia de rana = ¡Rana de caramelo! Puedes volver a fusionar las fusiones.\n3) Elige un método de cocción y pulsa COCINA; clava el juego de tiempo.\n4) Los platos vivos pueden escapar: ¡atrápalos!\n5) Elige plato y guarnición según el tema y pulsa SERVIR.\n6) Los tres jueces miran cosas distintas: Bruno el sabor, Mira la creatividad, Max la presentación.\n7) Los rivales sabotean: Defender, Adaptarse o Arriesgarse.\n8) ¡Algunos platos mutan al jurado y cambian sus gustos!",
+"1) Tippe Zutaten in der Vorratskammer an, um sie in die Schüssel zu geben.\n2) Drück FUSIONIEREN für eine Fusion: Zucker + Froschessenz = Zuckerfrosch! Fusionen lassen sich erneut fusionieren.\n3) Wähle eine Garmethode und drück KOCHEN; triff das Timing.\n4) Lebende Gerichte können fliehen: Fang sie!\n5) Wähle Teller und Garnitur passend zum Thema und SERVIERE.\n6) Die drei Juroren achten auf Verschiedenes: Bruno auf Geschmack, Mira auf Kreativität, Max auf Präsentation.\n7) Rivalen sabotieren: Abwehren, Anpassen oder Risiko eingehen.\n8) Manche Gerichte lassen die Jury mutieren und verändern ihren Geschmack!",
+"1) انقر على المكونات في المخزن لإضافتها إلى الوعاء.\n2) اضغط ادمج لصنع دمج: سكر + خلاصة الضفدع = ضفدع حلوى! يمكنك دمج الدمجات مرة أخرى.\n3) اختر طريقة طهي واضغط اطبخ؛ أتقن لعبة التوقيت.\n4) الأطباق الحية قد تهرب: أمسك بها!\n5) اختر الطبق والزينة حسب الموضوع ثم اضغط قدّم.\n6) يهتم الحكام الثلاثة بأشياء مختلفة: برونو بالنكهة، ميرا بالإبداع، ماكس بالتقديم.\n7) المنافسون يخرّبون: دافع أو تكيّف أو خاطر.\n8) بعض الأطباق تُحدث تحوّرات في الحكام وتغيّر أذواقهم!",
+"1) भंडार की सामग्री टैप करके कटोरे में डालो।\n2) मिलाओ दबाकर फ़्यूज़न बनाओ: चीनी + मेंढक का अर्क = कैंडी मेंढक! फ़्यूज़न को दोबारा भी मिला सकते हो।\n3) पकाने का तरीका चुनो और पकाओ दबाओ; टाइमिंग गेम में सही रहो।\n4) ज़िंदा पकवान भाग सकते हैं: पकड़ो!\n5) थीम के हिसाब से प्लेट और सजावट चुनो, फिर परोसो।\n6) तीनों जज अलग चीज़ें देखते हैं: ब्रूनो स्वाद, मीरा रचनात्मकता, मैक्स प्रस्तुति।\n7) प्रतिद्वंद्वी तोड़फोड़ करते हैं: बचाव, ढल जाओ या जोखिम लो।\n8) कुछ पकवान जजों में म्यूटेशन कर देते हैं और उनका स्वाद बदल देते हैं!",
+"1) 点击储藏室里的食材，放进碗里。\n2) 点“融合”制作融合物：糖 + 青蛙精华 = 糖果青蛙！融合物还可以再融合。\n3) 选择烹饪方式并点“烹饪”，把握好时机小游戏。\n4) 活体料理会逃跑：抓住它们！\n5) 按主题选择盘子和装饰，然后上菜。\n6) 三位评委各有所好：布鲁诺看味道，米拉看创意，马克斯看摆盘。\n7) 对手会捣乱：防御、顺势而为或冒险接受。\n8) 有些菜会让评委变异，改变他们的口味！",
+"1) 食料庫の食材をタップしてボウルに入れよう。\n2) 「合体」でフュージョン：砂糖＋カエルエキス＝キャンディガエル！フュージョン同士もまた合体できるよ。\n3) 調理法を選んで「料理開始」、タイミングゲームを決めよう。\n4) 生きている料理は逃げる：捕まえよう！\n5) テーマに合うお皿と飾りを選んで「出す」。\n6) 審査員3人は見るところが違う：ブルーノは味、ミラは創造性、マックスは盛り付け。\n7) ライバルは妨害してくる：守る、適応する、リスクを取る。\n8) 料理によっては審査員が変異して好みが変わる！"
+],
+"0fcbb837": [
+"Got it!",
+"¡Entendido!",
+"Verstanden!",
+"فهمت!",
+"समझ गया!",
+"明白了！",
+"わかった！"
+],
+"989641d2": [
+"FUSE CHEF: Crazy Cooking Battle\nMade with Godot 4.\nAll characters, art, music and sounds were created originally for this game.\nFont: Baloo 2 (SIL Open Font License).",
+"FUSE CHEF: Batalla de cocina loca\nHecho con Godot 4.\nTodos los personajes, gráficos, música y sonidos se crearon originalmente para este juego.\nFuente: Baloo 2 (SIL Open Font License).",
+"FUSE CHEF: Verrückte Kochschlacht\nEntwickelt mit Godot 4.\nAlle Figuren, Grafiken, Musik und Sounds wurden eigens für dieses Spiel erstellt.\nSchrift: Baloo 2 (SIL Open Font License).",
+"FUSE CHEF: معركة الطبخ المجنونة\nصُنعت باستخدام Godot 4.\nكل الشخصيات والرسومات والموسيقى والأصوات صُممت خصيصًا لهذه اللعبة.\nالخط: Baloo 2 (SIL Open Font License).",
+"FUSE CHEF: पागल कुकिंग जंग\nGodot 4 से बनाया गया।\nसभी किरदार, चित्र, संगीत और आवाज़ें इस खेल के लिए खास तौर पर बनाई गईं।\nफ़ॉन्ट: Baloo 2 (SIL Open Font License)।",
+"FUSE CHEF：疯狂料理大战\n使用 Godot 4 制作。\n所有角色、美术、音乐和音效均为本游戏原创。\n字体：Baloo 2（SIL Open Font License）。",
+"FUSE CHEF：クレイジー料理バトル\nGodot 4で制作。\nキャラクター、グラフィック、音楽、効果音はすべてこのゲームのためのオリジナルです。\nフォント：Baloo 2（SIL Open Font License）。"
+],
+"a9b27685": [
+"All progress, coins and recipes will be deleted. This can't be undone!",
+"Se borrará todo el progreso, monedas y recetas. ¡No se puede deshacer!",
+"Aller Fortschritt, alle Münzen und Rezepte werden gelöscht. Das lässt sich nicht rückgängig machen!",
+"سيُحذف كل التقدّم والعملات والوصفات. لا يمكن التراجع عن ذلك!",
+"सारी प्रगति, सिक्के और रेसिपी मिट जाएँगी। यह वापस नहीं होगा!",
+"所有进度、金币和食谱都会被删除。此操作无法撤销！",
+"進行状況、コイン、レシピがすべて消えるよ。元に戻せません！"
+],
+"491dea9b": [
+"Delete",
+"Borrar",
+"Löschen",
+"حذف",
+"मिटाओ",
+"删除",
+"消す"
+],
+"9e45c4f9": [
+"Final Confirmation",
+"Confirmación final",
+"Letzte Bestätigung",
+"التأكيد الأخير",
+"अंतिम पुष्टि",
+"最终确认",
+"最終確認"
+],
+"293661ed": [
+"Do you really want to reset everything?",
+"¿De verdad quieres reiniciarlo todo?",
+"Willst du wirklich alles zurücksetzen?",
+"هل تريد حقًا إعادة ضبط كل شيء؟",
+"क्या सच में सब कुछ रीसेट करना है?",
+"真的要重置一切吗？",
+"本当にすべてリセットする？"
+],
+"9f336ee8": [
+"No",
+"No",
+"Nein",
+"لا",
+"नहीं",
+"不",
+"いいえ"
+],
+"f23ee6b6": [
+"Yes, reset",
+"Sí, reiniciar",
+"Ja, zurücksetzen",
+"نعم، أعد الضبط",
+"हाँ, रीसेट करो",
+"是的，重置",
+"はい、リセット"
+],
+"2d3ac896": [
+"SHOP",
+"TIENDA",
+"LADEN",
+"المتجر",
+"दुकान",
+"商店",
+"ショップ"
+],
+"7191d709": [
+"Ingredients",
+"Ingredientes",
+"Zutaten",
+"المكونات",
+"सामग्री",
+"食材",
+"食材"
+],
+"47c82292": [
+"Kitchen",
+"Cocina",
+"Küche",
+"المطبخ",
+"रसोई",
+"厨房",
+"キッチン"
+],
+"39381c4a": [
+"Owned",
+"Tuyo",
+"Gehört dir",
+"تملكه",
+"तुम्हारा",
+"已拥有",
+"所持"
+],
+"28ebf7de": [
+"Locked",
+"Bloqueado",
+"Gesperrt",
+"مقفل",
+"बंद",
+"未解锁",
+"ロック中"
+],
+"56715053": [
+"Beat: %s",
+"Vence a: %s",
+"Besiege: %s",
+"اهزم: %s",
+"हराओ: %s",
+"击败：%s",
+"倒す：%s"
+],
+"e96fd667": [
+"Win a match",
+"Gana un duelo",
+"Gewinne ein Match",
+"فز بمباراة",
+"मैच जीतो",
+"赢得一场比赛",
+"試合に勝つ"
+],
+"d456c845": [
+"Unlocks in League %d",
+"Se desbloquea en la liga %d",
+"Ab Liga %d",
+"يُفتح في الدوري %d",
+"लीग %d में खुलेगा",
+"联赛%d解锁",
+"リーグ%dで解放"
+],
+"e42f9346": [
+"%s added to your pantry!",
+"¡%s añadido a tu despensa!",
+"%s ist jetzt in deiner Vorratskammer!",
+"أُضيف %s إلى مخزنك!",
+"%s तुम्हारे भंडार में जुड़ गया!",
+"%s 已加入储藏室！",
+"%s が食料庫に入った！"
+],
+"8d108b2a": [
+"In use",
+"En uso",
+"Im Einsatz",
+"قيد الاستخدام",
+"इस्तेमाल में",
+"使用中",
+"使用中"
+],
+"66e57782": [
+"Select",
+"Elegir",
+"Wählen",
+"اختر",
+"चुनो",
+"选择",
+"選ぶ"
+],
+"0b659147": [
+"HA HA!",
+"¡JA JA!",
+"HA HA!",
+"ها ها!",
+"हा हा!",
+"哈哈！",
+"ハハッ！"
+],
+"8819b1ea": [
+"Warning: alive!",
+"¡Cuidado: está vivo!",
+"Achtung: lebendig!",
+"تحذير: إنه حي!",
+"सावधान: ज़िंदा है!",
+"注意：是活的！",
+"注意：生きてる！"
+],
+"6a58088a": [
+"sweet",
+"dulce",
+"süß",
+"حلو",
+"मीठा",
+"甜",
+"甘い"
+],
+"775a4974": [
+"spicy",
+"picante",
+"scharf",
+"حار",
+"तीखा",
+"辣",
+"辛い"
+],
+"f9656cd5": [
+"magical",
+"mágico",
+"magisch",
+"سحري",
+"जादुई",
+"神奇",
+"魔法っぽい"
+],
+"08ae1f28": [
+"suspicious",
+"sospechoso",
+"verdächtig",
+"مريب",
+"संदिग्ध",
+"可疑",
+"あやしい"
+],
+"71096a45": [
+"ready to explode",
+"a punto de explotar",
+"explosionsbereit",
+"على وشك الانفجار",
+"फटने को तैयार",
+"随时会爆炸",
+"爆発寸前"
+],
+"44b394dc": [
+"wiggly",
+"inquieto",
+"zappelig",
+"يتلوّى",
+"कुलबुलाता",
+"扭来扭去",
+"ぴちぴち"
+],
+"b95781b9": [
+"Very %s, a bit %s.",
+"Muy %s, un poco %s.",
+"Sehr %s, etwas %s.",
+"%s جدًا، و%s قليلًا.",
+"बहुत %s, थोड़ा %s।",
+"非常%s，有点%s。",
+"とても%s、少し%s。"
+],
+"168155ae": [
+"Flavor",
+"Sabor",
+"Geschmack",
+"النكهة",
+"स्वाद",
+"味道",
+"味"
+],
+"22aa8b2e": [
+"Cooking",
+"Cocción",
+"Garen",
+"الطهي",
+"पकाना",
+"火候",
+"調理"
+],
+"f055088f": [
+"Theme",
+"Tema",
+"Thema",
+"الموضوع",
+"थीम",
+"主题",
+"テーマ"
+],
+"cbb103cd": [
+"Presentation",
+"Presentación",
+"Präsentation",
+"التقديم",
+"प्रस्तुति",
+"摆盘",
+"盛り付け"
+],
+"9d7af896": [
+"Creativity",
+"Creatividad",
+"Kreativität",
+"الإبداع",
+"रचनात्मकता",
+"创意",
+"創造性"
+],
+"46dd5b8e": [
+"(Mutation effect: %s%.1f)",
+"(Efecto de mutación: %s%.1f)",
+"(Mutationseffekt: %s%.1f)",
+"(أثر التحوّر: %s%.1f)",
+"(म्यूटेशन असर: %s%.1f)",
+"（变异影响：%s%.1f）",
+"（変異の影響：%s%.1f）"
+],
+"96bcb764": [
+"this dish",
+"este plato",
+"dieses Gericht",
+"هذا الطبق",
+"यह पकवान",
+"这道菜",
+"この料理"
+],
+"9d626f5e": [
+"%s: %s.",
+"%s: %s.",
+"%s: %s.",
+"%s: %s.",
+"%s: %s।",
+"%s：%s。",
+"%s：%s。"
+],
+"d6d59184": [
+"excellent",
+"excelente",
+"hervorragend",
+"ممتاز",
+"बेहतरीन",
+"非常好",
+"最高"
+],
+"e633148f": [
+"weak",
+"flojo",
+"schwach",
+"ضعيف",
+"कमज़ोर",
+"偏弱",
+"いまいち"
+],
+"7b5ef3c4": [
+"IT'S JUMPING!",
+"¡ESTÁ SALTANDO!",
+"ES HÜPFT!",
+"إنه يقفز!",
+"उछल रहा है!",
+"在乱跳！",
+"跳ねてる！"
+],
+"f3f828f5": [
+"IT'S RUNNING AWAY!",
+"¡SE ESCAPA!",
+"ES HAUT AB!",
+"إنه يهرب!",
+"भाग रहा है!",
+"在逃跑！",
+"逃げてる！"
+],
+"bb9fa24d": [
+"IT HID!",
+"¡SE ESCONDIÓ!",
+"ES HAT SICH VERSTECKT!",
+"اختبأ!",
+"छिप गया!",
+"躲起来了！",
+"隠れた！"
+],
+"c922b5cc": [
+"IT'S FLYING!",
+"¡ESTÁ VOLANDO!",
+"ES FLIEGT!",
+"إنه يطير!",
+"उड़ रहा है!",
+"飞起来了！",
+"飛んでる！"
+],
+"8229c269": [
+"IT STOLE THE FORKS!",
+"¡ROBÓ LOS TENEDORES!",
+"ES HAT DIE GABELN GEKLAUT!",
+"سرق الشوك!",
+"काँटे चुरा लिए!",
+"偷走了叉子！",
+"フォークを盗んだ！"
+],
+"67967f5d": [
+"IT'S IN DISGUISE!",
+"¡SE DISFRAZÓ!",
+"ES HAT SICH VERKLEIDET!",
+"تنكّر!",
+"भेस बदल लिया!",
+"伪装起来了！",
+"変装した！"
+],
+"79e83158": [
+"Tap the jumping dish 3 times!",
+"¡Toca el plato saltarín 3 veces!",
+"Tippe das hüpfende Gericht 3× an!",
+"انقر على الطبق القافز 3 مرات!",
+"उछलते पकवान को 3 बार टैप करो!",
+"点击乱跳的菜3次！",
+"跳ねる料理を3回タップ！"
+],
+"eb569df1": [
+"Tap the running dish 3 times!",
+"¡Toca el plato fugitivo 3 veces!",
+"Tippe das flüchtende Gericht 3× an!",
+"انقر على الطبق الهارب 3 مرات!",
+"भागते पकवान को 3 बार टैप करो!",
+"点击逃跑的菜3次！",
+"逃げる料理を3回タップ！"
+],
+"ac41a75d": [
+"Watch the lids shuffle, then tap the one hiding the dish!",
+"¡Mira cómo se mezclan las tapas y toca la que esconde el plato!",
+"Beobachte die Deckel beim Mischen und tippe auf den mit dem Gericht!",
+"راقب الأغطية وهي تختلط، ثم انقر على الغطاء الذي يخفي الطبق!",
+"ढक्कनों के घूमने पर नज़र रखो, फिर पकवान वाले ढक्कन को टैप करो!",
+"盯住盖子交换位置，然后点击藏着菜的那个！",
+"フタがシャッフルされるのを見て、料理が隠れているフタをタップ！"
+],
+"89d8935a": [
+"Tap the floating dish quickly to pull it down!",
+"¡Toca rápido el plato flotante para bajarlo!",
+"Tippe schnell auf das schwebende Gericht, um es herunterzuholen!",
+"انقر بسرعة على الطبق الطائر لإنزاله!",
+"तैरते पकवान को जल्दी-जल्दी टैप करके नीचे खींचो!",
+"快速点击飘浮的菜把它拉下来！",
+"浮かぶ料理を素早くタップして引き下ろそう！"
+],
+"55ba46df": [
+"First collect the 4 kitchen tools, then catch the dish!",
+"¡Primero recoge los 4 utensilios y luego atrapa el plato!",
+"Sammle zuerst die 4 Küchengeräte, dann fang das Gericht!",
+"اجمع أدوات المطبخ الأربع أولًا، ثم أمسك بالطبق!",
+"पहले रसोई के 4 औज़ार इकट्ठे करो, फिर पकवान पकड़ो!",
+"先收集4件厨具，再抓住这道菜！",
+"まずキッチン道具を4つ集めて、料理を捕まえよう！"
+],
+"ab0f2388": [
+"The real dish winked! Find it after the shuffle!",
+"¡El plato de verdad guiñó un ojo! ¡Encuéntralo tras la mezcla!",
+"Das echte Gericht hat gezwinkert! Finde es nach dem Mischen!",
+"الطبق الحقيقي غمز! جده بعد الخلط!",
+"असली पकवान ने आँख मारी! फेरबदल के बाद उसे ढूँढो!",
+"真正的菜眨了眨眼！交换后找到它！",
+"本物の料理がウインクした！シャッフル後に見つけよう！"
+],
+"ec02d4f3": [
+"The dish escaped the kitchen but landed in a waiter's arms!",
+"¡El plato escapó de la cocina, pero cayó en brazos de un camarero!",
+"Das Gericht floh aus der Küche, landete aber in den Armen eines Kellners!",
+"هرب الطبق من المطبخ لكنه سقط في حضن نادل!",
+"पकवान रसोई से भागा, पर एक वेटर की गोद में जा गिरा!",
+"这道菜逃出了厨房，却掉进了服务员怀里！",
+"料理はキッチンから逃げたけど、ウェイターの腕に落ちた！"
+],
+"743f56c0": [
+"The dish ran to the door, then came back. A bit messy!",
+"El plato corrió hasta la puerta y volvió. ¡Un poco desordenado!",
+"Das Gericht rannte bis zur Tür und kam zurück. Etwas chaotisch!",
+"ركض الطبق حتى الباب ثم عاد. فوضوي قليلًا!",
+"पकवान दरवाज़े तक भागा, फिर लौट आया। थोड़ा बिखरा हुआ!",
+"这道菜跑到门口又回来了。有点乱！",
+"料理はドアまで走って戻ってきた。ちょっと散らかった！"
+],
+"98ba2e16": [
+"The dish climbed the curtains! You got it down, but there's sauce everywhere.",
+"¡El plato trepó por las cortinas! Lo bajaste, pero hay salsa por todas partes.",
+"Das Gericht kletterte die Vorhänge hoch! Du hast es heruntergeholt, aber überall ist Soße.",
+"تسلّق الطبق الستائر! أنزلته أخيرًا لكن الصلصة في كل مكان.",
+"पकवान पर्दे पर चढ़ गया! आखिरकार उतार लिया, पर हर जगह सॉस है।",
+"这道菜爬上了窗帘！终于弄下来了，但到处都是酱汁。",
+"料理がカーテンをよじ登った！なんとか下ろしたけど、ソースがあちこちに。"
+],
+"1e06ab62": [
+"The dish hid in a judge's hat. A disgrace, but funny!",
+"El plato se escondió en el sombrero de un juez. ¡Un escándalo, pero divertido!",
+"Das Gericht versteckte sich im Hut eines Jurors. Skandalös, aber lustig!",
+"اختبأ الطبق في قبعة أحد الحكام. فضيحة لكنها مضحكة!",
+"पकवान एक जज की टोपी में छिप गया। शर्मनाक, पर मज़ेदार!",
+"这道菜躲进了评委的帽子里。太丢人了，但很好笑！",
+"料理が審査員の帽子に隠れた。大失態だけど笑える！"
+],
+"f8b7988e": [
+"Dish",
+"Plato",
+"Gericht",
+"الطبق",
+"पकवान",
+"菜",
+"料理"
+],
+"0623dd86": [
+"CAUGHT!",
+"¡ATRAPADO!",
+"GEFANGEN!",
+"أمسكته!",
+"पकड़ लिया!",
+"抓住了！",
+"捕まえた！"
+],
+"90d12c34": [
+"IT ESCAPED!",
+"¡SE ESCAPÓ!",
+"ENTKOMMEN!",
+"هرب!",
+"भाग गया!",
+"逃走了！",
+"逃げられた！"
+],
+"194b455c": [
+"Cosmetic",
+"Visual",
+"Optisch",
+"شكلي",
+"दिखावटी",
+"外观",
+"見た目"
+],
+"c026f661": [
+"Taste Shift",
+"Cambio de gusto",
+"Geschmackswandel",
+"تغيّر الذوق",
+"स्वाद बदलाव",
+"口味改变",
+"味覚変化"
+],
+"fd5906b9": [
+"Chaos",
+"Caos",
+"Chaos",
+"فوضى",
+"केओस",
+"混沌",
+"カオス"
+],
+"d467455b": [
+"Tap the magic runes in time to block the curse!",
+"¡Toca las runas mágicas a tiempo y bloquea la maldición!",
+"Tippe rechtzeitig auf die Zauberrunen und wehre den Fluch ab!",
+"انقر على رموز السحر في الوقت المناسب واصدّ اللعنة!",
+"जादुई रूनों को समय पर टैप करो और श्राप रोको!",
+"及时点击魔法符文，挡住诅咒！",
+"魔法のルーンをタイミングよくタップして呪いを防ごう！"
+],
+"9396bbc5": [
+"Embrace the curse: less poison, more magic and +1 creativity.",
+"Acepta la maldición: menos veneno, más magia y +1 de creatividad.",
+"Nimm den Fluch an: weniger Gift, mehr Magie und +1 Kreativität.",
+"تقبّل اللعنة: سمّ أقل وسحر أكثر و+1 إبداع.",
+"श्राप अपनाओ: कम ज़हर, ज़्यादा जादू और +1 रचनात्मकता।",
+"拥抱诅咒：毒性更低，魔力更高，创意+1。",
+"呪いを受け入れる：毒が減り、魔力が増え、創造性+1。"
+],
+"f0d7c103": [
+"Your dish gets cursed: poison and weirdness go up. (20% backfire chance)",
+"Tu plato queda maldito: suben el veneno y lo raro. (20% de rebote)",
+"Dein Gericht wird verflucht: Gift und Seltsamkeit steigen. (20% Rückschlagchance)",
+"يُلعن طبقك: يزيد السم والغرابة. (فرصة ارتداد 20%)",
+"पकवान शापित हो जाता है: ज़हर और अजीबपन बढ़ते हैं। (20% उल्टा वार की संभावना)",
+"你的菜会被诅咒：毒性和怪异度上升。（20%反噬几率）",
+"料理が呪われる：毒と奇妙さがアップ。（20%で反動）"
+],
+"4bb2a2f8": [
+"Tap the signal nodes to break the lock!",
+"¡Toca los nodos de señal para romper el bloqueo!",
+"Tippe die Signalknoten an, um die Sperre zu knacken!",
+"انقر على عُقد الإشارة لكسر القفل!",
+"सिग्नल नोड टैप करके ताला तोड़ो!",
+"点击信号节点破解锁定！",
+"シグナルノードをタップしてロックを壊そう！"
+],
+"68a919da": [
+"Auto-cook: the mini-game is skipped, quality fixed at 70%.",
+"Cocción automática: se salta el minijuego, calidad fija del 70%.",
+"Automatisch kochen: Minispiel entfällt, Qualität fest bei 70%.",
+"طهي تلقائي: تُتخطى اللعبة المصغرة وتثبت الجودة على 70%.",
+"ऑटो-पकाना: मिनी गेम छूटेगा, गुणवत्ता 70% तय।",
+"自动烹饪：跳过小游戏，品质固定为70%。",
+"オート調理：ミニゲームなし、クオリティは70%固定。"
+],
+"1448ccd8": [
+"The cooking gauge speeds up and the target shrinks. (20% backfire chance)",
+"El indicador de cocción se acelera y el objetivo se estrecha. (20% de rebote)",
+"Die Koch-Anzeige wird schneller und das Ziel schmaler. (20% Rückschlagchance)",
+"يتسارع مؤشر الطهي ويضيق الهدف. (فرصة ارتداد 20%)",
+"पकाने का मीटर तेज़ होगा और लक्ष्य छोटा। (20% उल्टा वार की संभावना)",
+"烹饪指针变快，目标区缩小。（20%反噬几率）",
+"調理ゲージが速くなり、ターゲットが狭くなる。（20%で反動）"
+],
+"69116b08": [
+"Catch the jars in time and send them back!",
+"¡Atrapa los frascos a tiempo y devuélvelos!",
+"Fang die Gläser rechtzeitig und schick sie zurück!",
+"أمسك البرطمانات في الوقت المناسب وأعدها!",
+"जार समय पर पकड़ो और वापस भेजो!",
+"及时接住罐子并扔回去！",
+"瓶をタイミングよくキャッチして送り返そう！"
+],
+"530dc34b": [
+"You choose which jar gets added: +1 creativity.",
+"Tú eliges qué frasco se añade: +1 de creatividad.",
+"Du wählst, welches Glas hinzukommt: +1 Kreativität.",
+"أنت تختار أي برطمان يُضاف: +1 إبداع.",
+"कौन-सा जार डलेगा, तुम चुनो: +1 रचनात्मकता।",
+"由你选择加入哪个罐子：创意+1。",
+"どの瓶を入れるか自分で選ぶ：創造性+1。"
+],
+"663cd53f": [
+"A random fermented ingredient gets mixed into your dish. (20% backfire chance)",
+"Un ingrediente fermentado al azar se mezcla en tu plato. (20% de rebote)",
+"Eine zufällige fermentierte Zutat landet in deinem Gericht. (20% Rückschlagchance)",
+"يُخلط مكوّن مخمّر عشوائي في طبقك. (فرصة ارتداد 20%)",
+"कोई भी खमीरी सामग्री तुम्हारे पकवान में मिल जाएगी। (20% उल्टा वार की संभावना)",
+"一种随机发酵食材会混入你的菜。（20%反噬几率）",
+"ランダムな発酵食材が料理に混ざる。（20%で反動）"
+],
+"a2c621ce": [
+"Chase the bats away and keep the lights on!",
+"¡Ahuyenta a los murciélagos y mantén las luces encendidas!",
+"Verscheuch die Fledermäuse und lass das Licht an!",
+"اطرد الخفافيش وأبقِ الأضواء مضاءة!",
+"चमगादड़ भगाओ और रोशनी जलाए रखो!",
+"赶走蝙蝠，保持灯光明亮！",
+"コウモリを追い払って明かりを守ろう！"
+],
+"45abf722": [
+"Light a candle: full vision but presentation -0.5 (candle drips!).",
+"Enciende una vela: visión completa, pero presentación -0,5 (¡goteo de cera!).",
+"Zünde eine Kerze an: volle Sicht, aber Präsentation -0,5 (Wachstropfen!).",
+"أشعل شمعة: رؤية كاملة لكن التقديم -0.5 (قطرات الشمع!).",
+"मोमबत्ती जलाओ: पूरा दिखेगा, पर प्रस्तुति -0.5 (मोम टपकेगा!)।",
+"点蜡烛：视野完整，但摆盘-0.5（蜡油滴落！）。",
+"ロウソクをともす：視界は完全、でも盛り付け-0.5（ロウがたれる！）。"
+],
+"ae27a0b5": [
+"The kitchen goes dark while you cook. (20% backfire chance)",
+"La cocina se queda a oscuras mientras cocinas. (20% de rebote)",
+"Beim Kochen wird die Küche dunkel. (20% Rückschlagchance)",
+"يُظلم المطبخ أثناء الطهي. (فرصة ارتداد 20%)",
+"पकाते समय रसोई में अँधेरा हो जाएगा। (20% उल्टा वार की संभावना)",
+"烹饪时厨房会变黑。（20%反噬几率）",
+"料理中にキッチンが暗くなる。（20%で反動）"
+],
+"9a9f8888": [
+"Hit the hook in time and protect your ingredient!",
+"¡Golpea el gancho a tiempo y protege tu ingrediente!",
+"Triff den Haken rechtzeitig und schütze deine Zutat!",
+"اضرب الخطاف في الوقت المناسب واحمِ مكوّنك!",
+"हुक को समय पर मारो और अपनी सामग्री बचाओ!",
+"及时击中钩子，保护你的食材！",
+"フックをタイミングよく弾いて食材を守ろう！"
+],
+"72428f45": [
+"Trade: your ingredient goes, but Pirate Spice comes in.",
+"Intercambio: se va tu ingrediente, pero llega la Especia pirata.",
+"Tausch: Deine Zutat geht, dafür kommt Piratengewürz.",
+"مقايضة: يذهب مكوّنك ويأتي بدلًا منه بهار القراصنة.",
+"अदला-बदली: तुम्हारी सामग्री जाएगी, बदले में समुद्री डाकू मसाला आएगा।",
+"交换：你的食材被拿走，但换来海盗香料。",
+"交換：食材を取られる代わりに海賊スパイスが来る。"
+],
+"288e2918": [
+"Your most valuable ingredient is stolen for this round. (20% backfire chance)",
+"Te roban tu ingrediente más valioso esta ronda. (20% de rebote)",
+"Deine wertvollste Zutat wird für diese Runde gestohlen. (20% Rückschlagchance)",
+"يُسرق أثمن مكوّن لديك في هذه الجولة. (فرصة ارتداد 20%)",
+"इस राउंड तुम्हारी सबसे कीमती सामग्री चोरी होगी। (20% उल्टा वार की संभावना)",
+"本回合你最值钱的食材会被偷走。（20%反噬几率）",
+"このラウンド、一番貴重な食材が盗まれる。（20%で反動）"
+],
+"aebbccee": [
+"Catch the flying ingredients and bring them down!",
+"¡Atrapa los ingredientes voladores y bájalos!",
+"Fang die fliegenden Zutaten und hol sie herunter!",
+"أمسك المكونات الطائرة وأنزلها!",
+"उड़ती सामग्री पकड़ो और नीचे लाओ!",
+"抓住飞起来的食材，把它们拉回来！",
+"飛んでいく食材を捕まえて下ろそう！"
+],
+"1b9c8fb9": [
+"Zero-gravity plating: presentation -0.5 but +1 creativity.",
+"Emplatado sin gravedad: presentación -0,5 pero +1 de creatividad.",
+"Schwerelos anrichten: Präsentation -0,5, aber +1 Kreativität.",
+"تقديم بلا جاذبية: التقديم -0.5 لكن +1 إبداع.",
+"शून्य गुरुत्व प्रस्तुति: प्रस्तुति -0.5, पर +1 रचनात्मकता।",
+"零重力摆盘：摆盘-0.5，但创意+1。",
+"無重力盛り付け：盛り付け-0.5、でも創造性+1。"
+],
+"18d508bf": [
+"The plate tumbles through the air: presentation -1.5. (20% backfire chance)",
+"El plato sale volando: presentación -1,5. (20% de rebote)",
+"Der Teller wirbelt durch die Luft: Präsentation -1,5. (20% Rückschlagchance)",
+"يتطاير الطبق في الهواء: التقديم -1.5. (فرصة ارتداد 20%)",
+"प्लेट हवा में उछलेगी: प्रस्तुति -1.5। (20% उल्टा वार की संभावना)",
+"盘子在空中乱飞：摆盘-1.5。（20%反噬几率）",
+"お皿が宙を舞う：盛り付け-1.5。（20%で反動）"
+],
+"df1b74ca": [
+"Blow the purifying dust away!",
+"¡Sopla el polvo purificador para dispersarlo!",
+"Puste den Reinigungsstaub weg!",
+"انفخ غبار التطهير لتبديده!",
+"शुद्धि की धूल फूँककर उड़ाओ!",
+"把净化粉尘吹散！",
+"浄化の粉を吹き飛ばそう！"
+],
+"c85d21ff": [
+"Half purification: effects are halved and judge mutations stay.",
+"Purificación a medias: los efectos se reducen a la mitad y las mutaciones se mantienen.",
+"Halbe Reinigung: Effekte halbiert, Jury-Mutationen bleiben.",
+"تطهير جزئي: تنخفض الآثار للنصف وتبقى تحوّرات الحكام.",
+"आधी शुद्धि: असर आधा होगा और जजों के म्यूटेशन बने रहेंगे।",
+"半净化：效果减半，评委变异保留。",
+"半分の浄化：効果は半減、審査員の変異は残る。"
+],
+"9928a791": [
+"Magic, weirdness and poison drop; judge mutations are cleared. (20% backfire chance)",
+"Bajan la magia, lo raro y el veneno; se eliminan las mutaciones del jurado. (20% de rebote)",
+"Magie, Seltsamkeit und Gift sinken; Jury-Mutationen verschwinden. (20% Rückschlagchance)",
+"ينخفض السحر والغرابة والسم؛ وتُزال تحوّرات الحكام. (فرصة ارتداد 20%)",
+"जादू, अजीबपन और ज़हर घटेंगे; जजों के म्यूटेशन मिटेंगे। (20% उल्टा वार की संभावना)",
+"魔力、怪异度和毒性降低；评委变异被清除。（20%反噬几率）",
+"魔力・奇妙さ・毒が下がり、審査員の変異が消える。（20%で反動）"
+],
+"a0147e8d": [
+"Sabotage",
+"Sabotaje",
+"Sabotage",
+"تخريب",
+"तोड़फोड़",
+"捣乱",
+"妨害"
+],
+"4995a554": [
+"%s blocked! Your shield holds strong.",
+"¡%s bloqueado! Tu escudo aguanta firme.",
+"%s abgewehrt! Dein Schild hält.",
+"تم صد %s! درعك صامد.",
+"%s रोक दिया! तुम्हारी ढाल मज़बूत है।",
+"%s 被挡住了！护盾稳如泰山。",
+"%s をブロック！シールドはびくともしない。"
+],
+"555a2524": [
+"MIRROR SHIELD! %s bounced back to your rival!",
+"¡ESCUDO ESPEJO! ¡%s rebotó hacia tu rival!",
+"SPIEGELSCHILD! %s prallt auf deinen Rivalen zurück!",
+"درع المرآة! ارتد %s إلى منافسك!",
+"दर्पण ढाल! %s प्रतिद्वंद्वी पर लौट गया!",
+"镜面护盾！%s 被反弹给了对手！",
+"ミラーシールド！%s がライバルに跳ね返った！"
+],
+"23f133fc": [
+"%s partly worked. Its effect was halved.",
+"%s funcionó a medias. Su efecto se redujo a la mitad.",
+"%s wirkte teilweise. Der Effekt wurde halbiert.",
+"نجح %s جزئيًا. انخفض أثره للنصف.",
+"%s आंशिक रूप से चला। असर आधा हुआ।",
+"%s 部分生效，效果减半。",
+"%s は一部だけ効いた。効果は半分に。"
+],
+"ea0a189c": [
+"%s hit dead on!",
+"¡%s dio de lleno!",
+"%s trifft voll!",
+"%s أصاب تمامًا!",
+"%s सीधा लगा!",
+"%s 正中目标！",
+"%s が直撃！"
+],
+"18409578": [
+"You adapted! %s took you in a new direction.",
+"¡Te adaptaste! %s te llevó en otra dirección.",
+"Angepasst! %s hat dich in eine neue Richtung gebracht.",
+"تكيّفت! أخذك %s في اتجاه مختلف.",
+"तुम ढल गए! %s तुम्हें नई दिशा में ले गया।",
+"你顺势而为！%s 把你带向了新方向。",
+"適応した！%s で新しい方向へ。"
+],
+"0a4afc59": [
+"BACKFIRE! %s blew up in your rival's face!",
+"¡REBOTE! ¡%s le explotó a tu rival en la cara!",
+"RÜCKSCHLAG! %s ist deinem Rivalen um die Ohren geflogen!",
+"ارتداد! انفجر %s في وجه منافسك!",
+"उल्टा वार! %s प्रतिद्वंद्वी के ही सिर फटा!",
+"反噬！%s 在对手自己面前炸开了！",
+"反動！%s がライバルの目の前で爆発！"
+],
+"b801b5b0": [
+"Free Cooking",
+"Cocina libre",
+"Freies Kochen",
+"طهي حر",
+"आज़ाद पकाना",
+"自由烹饪",
+"フリー調理"
+],
+"f3f63af8": [
+"Mystery Ingredient",
+"Ingrediente misterioso",
+"Geheimzutat",
+"المكوّن الغامض",
+"रहस्यमयी सामग्री",
+"神秘食材",
+"ミステリー食材"
+],
+"a85a79ad": [
+"Grand Final",
+"Gran final",
+"Großes Finale",
+"النهائي الكبير",
+"महा फ़ाइनल",
+"总决赛",
+"グランドフィナーレ"
+],
+"c7a27c0a": [
+"Daily Challenge",
+"Reto diario",
+"Tägliche Herausforderung",
+"التحدي اليومي",
+"दैनिक चुनौती",
+"每日挑战",
+"デイリーチャレンジ"
+],
+"4caad0a4": [
+" + Mystery",
+" + Misterio",
+" + Geheimzutat",
+" + غموض",
+" + रहस्य",
+" + 神秘",
+" + ミステリー"
+],
+"badaee55": [
+"Auto Shield activated!",
+"¡Escudo automático activado!",
+"Auto-Schild aktiviert!",
+"تم تفعيل الدرع التلقائي!",
+"ऑटो ढाल चालू!",
+"自动护盾启动！",
+"オートシールド発動！"
+],
+"adfca8bf": [
+"%s was convinced: \"Hmm... you may be right about the %s.\"",
+"%s quedó convencido: «Mmm... puede que tengas razón con el %s.»",
+"%s ist überzeugt: „Hm... beim %s könntest du recht haben.“",
+"اقتنع %s: «هممم... قد تكون محقًا بشأن %s.»",
+"%s मान गया: \"हम्म... %s के मामले में तुम सही हो सकते हो।\"",
+"%s 被说服了：“嗯……关于%s，你可能是对的。”",
+"%s は納得した：「ふむ…%sについては君が正しいかも」"
+],
+"2beae084": [
+"%s got even angrier: \"The %s was awful, don't defend it!\"",
+"%s se enfadó aún más: «¡El %s fue horrible, no lo defiendas!»",
+"%s wird noch wütender: „Der %s war furchtbar, verteidige das nicht!“",
+"ازداد %s غضبًا: «%s كان سيئًا، لا تدافع عنه!»",
+"%s और भड़क गया: \"%s बेकार था, बचाव मत करो!\"",
+"%s 更生气了：“%s 糟透了，别狡辩！”",
+"%s はさらに怒った：「%sはひどかった、かばうな！」"
+],
+"deb56e9d": [
+"%s took another bite... \"Maybe I was too harsh the first time.\" %s looks thoughtful.",
+"%s probó otro bocado... «Quizá fui muy duro la primera vez.» %s se queda pensativo.",
+"%s nimmt noch einen Bissen... „Vielleicht war ich beim ersten Mal zu streng.“ %s wirkt nachdenklich.",
+"أخذ %s لقمة أخرى... «ربما كنت قاسيًا في المرة الأولى.» أما %s فبدا متأملًا.",
+"%s ने एक और कौर लिया... \"शायद पहली बार मैं ज़्यादा सख्त था।\" %s सोच में पड़ गया।",
+"%s 又尝了一口……“也许第一次我太严厉了。”%s 若有所思。",
+"%s はもう一口…「最初は厳しすぎたかも」%s は考え込んでいる。"
+],
+"c8415c0f": [
+"You told the story behind your recipe. Professor Mira takes notes, and %s softens.",
+"Contaste la historia de tu receta. La profesora Mira toma notas y %s se ablanda.",
+"Du erzählst die Geschichte deines Rezepts. Professorin Mira macht Notizen, %s wird milder.",
+"رويت قصة وصفتك. البروفيسورة ميرا تدوّن الملاحظات، و%s لان قليلًا.",
+"तुमने अपनी रेसिपी की कहानी सुनाई। प्रोफ़ेसर मीरा नोट्स ले रही हैं, %s नरम पड़ गया।",
+"你讲述了食谱背后的故事。米拉教授在做笔记，%s 的态度软化了。",
+"レシピの物語を語った。ミラ教授はメモを取り、%s は態度を和らげた。"
+],
+"b8b3724c": [
+"Your explanation impressed Professor Mira.",
+"Tu explicación impresionó a la profesora Mira.",
+"Deine Erklärung beeindruckte Professorin Mira.",
+"أعجب شرحك البروفيسورة ميرا.",
+"तुम्हारी व्याख्या से प्रोफ़ेसर मीरा प्रभावित हुईं।",
+"你的讲解打动了米拉教授。",
+"君の説明はミラ教授を感心させた。"
+],
+"a0c9fbca": [
+"Your explanation didn't impress anyone. \"So... flour and eggs?\"",
+"Tu explicación no impresionó a nadie. «O sea... ¿harina y huevo?»",
+"Deine Erklärung beeindruckte niemanden. „Also... Mehl und Eier?“",
+"لم يُعجب شرحك أحدًا. «يعني... دقيق وبيض؟»",
+"तुम्हारी व्याख्या से कोई प्रभावित नहीं हुआ। \"मतलब... आटा और अंडा?\"",
+"你的讲解没打动任何人。“所以……就是面粉和鸡蛋？”",
+"説明は誰の心にも響かなかった。「つまり…小麦粉と卵？」"
+],
+"b690557c": [
+"You ended the argument politely. Lord Max adjusted his monocle: \"How mature.\"",
+"Terminaste la discusión con educación. Lord Max se ajustó el monóculo: «Qué madurez.»",
+"Du beendest den Streit höflich. Lord Max rückt sein Monokel zurecht: „Wie reif.“",
+"أنهيت الجدال بلطف. عدّل اللورد ماكس نظارته الأحادية: «يا له من نضج.»",
+"तुमने बहस शालीनता से खत्म की। लॉर्ड मैक्स ने अपना मोनोकल ठीक किया: \"कितनी परिपक्वता।\"",
+"你礼貌地结束了争论。马克斯勋爵扶了扶单片眼镜：“真成熟。”",
+"口論を丁寧に終わらせた。マックス卿はモノクルを直した：「なんと大人な」"
+],
+"c3c8a34e": [
+"A tie! The Grand Final score decided it.",
+"¡Empate! Decidió la puntuación de la gran final.",
+"Gleichstand! Die Wertung des Finales entscheidet.",
+"تعادل! حسمت نتيجة النهائي الكبير الأمر.",
+"बराबरी! महा फ़ाइनल के अंकों ने फ़ैसला किया।",
+"平局！由总决赛得分决定。",
+"同点！グランドフィナーレの点数で決着。"
+],
+"c0336e28": [
+"A perfect tie! The total flavor score decided it.",
+"¡Empate perfecto! Decidió la puntuación total de sabor.",
+"Exakter Gleichstand! Die Gesamt-Geschmackswertung entscheidet.",
+"تعادل تام! حسم مجموع نقاط النكهة الأمر.",
+"पूरी बराबरी! कुल स्वाद अंकों ने फ़ैसला किया।",
+"完全平局！由总味道分决定。",
+"完全に同点！味の合計点で決着。"
+],
+"9dc6e7c8": [
+"An incredible tie! Chef Bruno twirled his mustache and made the call.",
+"¡Un empate increíble! El chef Bruno se retorció el bigote y decidió.",
+"Unglaublicher Gleichstand! Chef Bruno zwirbelte seinen Schnurrbart und entschied.",
+"تعادل لا يُصدق! فتل الشيف برونو شاربه وحسم القرار.",
+"अविश्वसनीय बराबरी! शेफ़ ब्रूनो ने मूँछ ऐंठी और फ़ैसला सुनाया।",
+"难以置信的平局！布鲁诺主厨捻了捻胡子，做出了裁决。",
+"まさかの同点！ブルーノシェフがひげをひねって判定を下した。"
+],
+"f63f14ac": [
+"Judge of the Day",
+"Juez del día",
+"Juror des Tages",
+"حكم اليوم",
+"आज का जज",
+"今日评委",
+"今日の審査員"
+],
+"0cb74383": [
+"Achievement: %s  (+%d)",
+"Logro: %s  (+%d)",
+"Erfolg: %s  (+%d)",
+"إنجاز: %s  (+%d)",
+"उपलब्धि: %s  (+%d)",
+"成就：%s（+%d）",
+"実績：%s（+%d）"
+],
+"5adac8e6": [
+"Secret character unlocked: %s!",
+"¡Personaje secreto desbloqueado: %s!",
+"Geheime Figur freigeschaltet: %s!",
+"فُتحت شخصية سرية: %s!",
+"गुप्त किरदार खुला: %s!",
+"解锁秘密角色：%s！",
+"秘密キャラ解放：%s！"
+],
+"acbc89e0": [
+"Level %d! +1 skill point",
+"¡Nivel %d! +1 punto de especialidad",
+"Level %d! +1 Fähigkeitspunkt",
+"المستوى %d! +1 نقطة تخصص",
+"लेवल %d! +1 विशेषज्ञता अंक",
+"等级 %d！专精点数+1",
+"レベル%d！スキルポイント+1"
+],
+"3163bbbf": [
+"Sweetness",
+"Dulzor",
+"Süße",
+"الحلاوة",
+"मिठास",
+"甜度",
+"甘さ"
+],
+"bff00543": [
+"Spiciness",
+"Picor",
+"Schärfe",
+"الحرارة",
+"तीखापन",
+"辣度",
+"辛さ"
+],
+"90c8e9a6": [
+"Freshness",
+"Frescura",
+"Frische",
+"الطزاجة",
+"ताज़गी",
+"新鲜度",
+"新鮮さ"
+],
+"ef48b774": [
+"Weirdness",
+"Extrañeza",
+"Seltsamkeit",
+"الغرابة",
+"अजीबपन",
+"怪异度",
+"奇妙さ"
+],
+"6fed3382": [
+"Magic",
+"Magia",
+"Magie",
+"السحر",
+"जादू",
+"魔力",
+"魔力"
+],
+"4904fa3b": [
+"Poison",
+"Veneno",
+"Gift",
+"السم",
+"ज़हर",
+"毒性",
+"毒"
+],
+"5f76a5da": [
+"Volatility",
+"Volatilidad",
+"Explosivität",
+"التقلّب",
+"अस्थिरता",
+"不稳定",
+"不安定さ"
+],
+"80ac24ad": [
+"Liveliness",
+"Vitalidad",
+"Lebendigkeit",
+"الحيوية",
+"जीवंतता",
+"活力",
+"生命力"
+],
+"61114302": [
+"Rarity",
+"Rareza",
+"Seltenheit",
+"الندرة",
+"दुर्लभता",
+"稀有度",
+"レア度"
+]
+}

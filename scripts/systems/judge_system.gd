@@ -4,7 +4,7 @@ extends RefCounted
 ## Beş eksen (0-10): Lezzet, Pişirme, Tema, Sunum, Yaratıcılık. Her jüri bunları kendi ağırlıklarıyla toplar.
 
 const AXES := ["flavor", "cooking", "theme", "presentation", "creativity"]
-const AXIS_NAMES := {"flavor": "Lezzet", "cooking": "Pişirme", "theme": "Tema", "presentation": "Sunum", "creativity": "Yaratıcılık"}
+const AXIS_NAMES := {"flavor": "Lezzet", "cooking": "Pişirme", "theme": "Tema", "presentation": "Sunum", "creativity": "Yaratıcılık"}  # i18n
 const AXIS_COLORS := {"flavor": Color("#ff6b5a"), "cooking": Color("#ffb020"), "theme": Color("#4a9dff"),
 	"presentation": Color("#ff5fa2"), "creativity": Color("#a25cff")}
 
@@ -267,7 +267,7 @@ static func judge_score(judge: Dictionary, ev: Dictionary, dish: Dictionary, mut
 		if texts.size() >= 2:
 			break
 	if not mutation.is_empty() and absf(mut_effect) > 0.05:
-		texts.append("(Mutasyon etkisi: %s%.1f)" % ["+" if mut_effect > 0 else "", mut_effect])
+		texts.append(Loc.t("(Mutasyon etkisi: %s%.1f)") % ["+" if mut_effect > 0 else "", mut_effect])
 	var tier := "high" if score >= 7.5 else ("mid" if score >= 4.5 else "low")
 	var lines: Array = IngredientDatabase.judge_lines.get(judge["id"], {}).get(tier, [])
 	if lines.is_empty():
@@ -379,7 +379,7 @@ static func _pick_weighted(jid: String, cands: Array) -> String:
 ## Yer tutucuları doldurur: {dish} yemek adı, {ing} yemekteki bir malzeme, {method} pişirme yöntemi.
 static func _fill(line: String, dish: Dictionary, ing: String) -> String:
 	if line.contains("{dish}"):
-		line = line.replace("{dish}", str(dish.get("name", "bu yemek")))
+		line = line.replace("{dish}", str(dish.get("name", Loc.t("bu yemek"))))
 	if line.contains("{ing}"):
 		if ing == "":
 			var bases: Array = []
@@ -411,10 +411,10 @@ static func _generic_reason(key: String) -> String:
 	var parts := key.split("_")
 	if parts.size() != 2:
 		return ""
-	var ax: String = AXIS_NAMES.get(parts[0], "")
+	var ax: String = Loc.t(str(AXIS_NAMES.get(parts[0], "")))
 	if ax == "":
 		return ""
-	return "%s %s." % [ax, "çok iyi" if parts[1] == "hi" else "zayıf"]
+	return Loc.t("%s %s.") % [ax, Loc.t("çok iyi") if parts[1] == "hi" else Loc.t("zayıf")]
 
 
 static func pick_reaction(judge: Dictionary, score: float, dish: Dictionary, liked: bool) -> String:

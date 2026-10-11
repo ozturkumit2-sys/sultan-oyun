@@ -13,7 +13,7 @@ var _sp_label: Label
 func _ready() -> void:
 	first_run = bool(GameManager.params.get("first", false))
 	setup_screen("sunburst", Color("#7fd3ff"), Color("#a25cff"))
-	make_header("ŞEF OLUŞTUR" if first_run else "ŞEFİM", not first_run, true)
+	make_header(Loc.t("ŞEF OLUŞTUR") if first_run else Loc.t("ŞEFİM"), not first_run, true)
 	# önizleme
 	var top := UIKit.hbox(12)
 	root_v.add_child(top)
@@ -33,26 +33,26 @@ func _ready() -> void:
 	var info := UIKit.vbox(8)
 	info.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	top.add_child(info)
-	info.add_child(UIKit.label("Şef Adı", 22, Color.WHITE))
+	info.add_child(UIKit.label(Loc.t("Şef Adı"), 22, Color.WHITE))
 	name_edit = LineEdit.new()
-	name_edit.text = SaveManager.data["profile"].get("name", "Şef")
+	name_edit.text = SaveManager.player_name()
 	name_edit.max_length = 14
 	name_edit.custom_minimum_size = Vector2(0, 64)
 	name_edit.text_changed.connect(func(t: String):
 		SaveManager.data["profile"]["name"] = t.strip_edges() if t.strip_edges() != "" else "Şef"
 		SaveManager.mark_dirty())
 	info.add_child(name_edit)
-	var lv := UIKit.label("Seviye %d" % ProgressionManager.level(), 26, Color.WHITE)
+	var lv := UIKit.label(Loc.t("Seviye %d") % ProgressionManager.level(), 26, Color.WHITE)
 	info.add_child(UIKit.outlined(lv, UIKit.INK, 6))
 	_sp_label = UIKit.label("", 22, Color("#fff1a8"))
 	info.add_child(UIKit.outlined(_sp_label, UIKit.INK, 6))
-	var rnd := UIKit.button("Rastgele", UIKit.PINK, Vector2(0, 64), 24, "refresh")
+	var rnd := UIKit.button(Loc.t("Rastgele"), UIKit.PINK, Vector2(0, 64), 24, "refresh")
 	rnd.pressed.connect(_randomize)
 	info.add_child(rnd)
 	# sekmeler
 	var tabs := UIKit.hbox(6)
 	root_v.add_child(tabs)
-	for t in [["look", "Görünüm"], ["outfit", "Kıyafet"], ["spec", "Uzmanlık"], ["assist", "Asistan"]]:
+	for t in [["look", Loc.t("Görünüm")], ["outfit", Loc.t("Kıyafet")], ["spec", Loc.t("Uzmanlık")], ["assist", Loc.t("Asistan")]]:
 		var b := UIKit.button(t[1], Color("#c9b8a6"), Vector2(0, 60), 22)
 		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		var key: String = t[0]
@@ -66,11 +66,11 @@ func _ready() -> void:
 	sc.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	root_v.add_child(sc)
 	if first_run:
-		var go := UIKit.button("BAŞLA!", UIKit.GREEN, Vector2(0, 92), 36, "play")
+		var go := UIKit.button(Loc.t("BAŞLA!"), UIKit.GREEN, Vector2(0, 92), 36, "play")
 		go.pressed.connect(func():
 			SaveManager.data["profile"]["created"] = true
 			SaveManager.mark_dirty(true)
-			GameManager.toast("Hoş geldin, %s!" % SaveManager.data["profile"]["name"], UIKit.GREEN, "chef")
+			GameManager.toast(Loc.t("Hoş geldin, %s!") % SaveManager.player_name(), UIKit.GREEN, "chef")
 			GameManager.goto("career", {}, false))
 		root_v.add_child(go)
 	_refresh_preview()
@@ -79,7 +79,7 @@ func _ready() -> void:
 
 func _refresh_preview() -> void:
 	preview.setup(CharacterFigure.chef_spec(ProgressionManager.chef()))
-	_sp_label.text = "Uzmanlık puanı: %d" % ProgressionManager.skill_points()
+	_sp_label.text = Loc.t("Uzmanlık puanı: %d") % ProgressionManager.skill_points()
 
 
 func _set_tab(t: String) -> void:
@@ -90,15 +90,15 @@ func _set_tab(t: String) -> void:
 		c.queue_free()
 	match t:
 		"look":
-			_swatches("Ten Rengi", "skin", IngredientDatabase.content.get("skin_tones", []))
-			_options("Saç Modeli", "hair")
-			_swatches("Saç Rengi", "hair_color", IngredientDatabase.content.get("hair_colors", []))
-			_options("İfade", "expression")
+			_swatches(Loc.t("Ten Rengi"), "skin", IngredientDatabase.content.get("skin_tones", []))
+			_options(Loc.t("Saç Modeli"), "hair")
+			_swatches(Loc.t("Saç Rengi"), "hair_color", IngredientDatabase.content.get("hair_colors", []))
+			_options(Loc.t("İfade"), "expression")
 		"outfit":
-			_options("Şapka", "hat")
-			_options("Ceket", "jacket")
-			_options("Önlük", "apron")
-			_options("Aksesuar", "accessory")
+			_options(Loc.t("Şapka"), "hat")
+			_options(Loc.t("Ceket"), "jacket")
+			_options(Loc.t("Önlük"), "apron")
+			_options(Loc.t("Aksesuar"), "accessory")
 		"spec":
 			_specs()
 		"assist":
@@ -171,13 +171,13 @@ func _pick(slot: String, id: String) -> void:
 		var prev: String = ProgressionManager.chef().get(slot, "")
 		ProgressionManager.chef()[slot] = id
 		_refresh_preview()
-		var m := UIKit.modal(self, "Satın Al?", "%s — %d Şef Parası" % [ProgressionManager.item_def(slot, id).get("name", id), price],
-			[["Vazgeç", "no", UIKit.GRAY], ["Satın Al", "yes", UIKit.GREEN]])
+		var m := UIKit.modal(self, Loc.t("Satın Al?"), Loc.t("%s — %d Şef Parası") % [ProgressionManager.item_def(slot, id).get("name", id), price],
+			[[Loc.t("Vazgeç"), "no", UIKit.GRAY], [Loc.t("Satın Al"), "yes", UIKit.GREEN]])
 		var ch: String = await m.closed
 		if ch != "yes" or not ProgressionManager.buy(slot, id):
 			ProgressionManager.chef()[slot] = prev
 			if ch == "yes":
-				GameManager.toast("Yeterli Şef Parası yok!", UIKit.RED, "coin")
+				GameManager.toast(Loc.t("Yeterli Şef Parası yok!"), UIKit.RED, "coin")
 			_refresh_preview()
 			_set_tab(tab)
 			return
@@ -189,7 +189,7 @@ func _pick(slot: String, id: String) -> void:
 
 
 func _specs() -> void:
-	content.add_child(UIKit.wrap_label("Her seviye atlayışında 1 uzmanlık puanı kazanırsın. Yetenekler oyunu kolaylaştırır ama tek başına kazandırmaz.", 22, Color("#6a4a3a")))
+	content.add_child(UIKit.wrap_label(Loc.t("Her seviye atlayışında 1 uzmanlık puanı kazanırsın. Yetenekler oyunu kolaylaştırır ama tek başına kazandırmaz."), 22, Color("#6a4a3a")))
 	for sp in IngredientDatabase.specializations:
 		var col := Color(sp.get("color", "#ff9b3d"))
 		var p := UIKit.panel(col.lightened(0.8), 22, col.darkened(0.3), 4, 12)
@@ -210,12 +210,12 @@ func _specs() -> void:
 			var row := UIKit.hbox(8)
 			var ic := UIKit.icon("check" if got else "lock", 30)
 			row.add_child(ic)
-			var tl := UIKit.wrap_label("%s: %s" % [tiers[i]["name"], tiers[i]["desc"]], 20, UIKit.INK if got else Color("#8a7a6a"), got, HORIZONTAL_ALIGNMENT_LEFT)
+			var tl := UIKit.wrap_label(Loc.t("%s: %s") % [tiers[i]["name"], tiers[i]["desc"]], 20, UIKit.INK if got else Color("#8a7a6a"), got, HORIZONTAL_ALIGNMENT_LEFT)
 			tl.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 			row.add_child(tl)
 			v.add_child(row)
 		if tier < 3:
-			var b := UIKit.button("Geliştir (1 puan)", col, Vector2(0, 62), 24, "levelup")
+			var b := UIKit.button(Loc.t("Geliştir (1 puan)"), col, Vector2(0, 62), 24, "levelup")
 			b.disabled = ProgressionManager.skill_points() <= 0
 			var sid: String = sp["id"]
 			b.pressed.connect(func():
@@ -228,7 +228,7 @@ func _specs() -> void:
 
 
 func _assistants() -> void:
-	content.add_child(UIKit.wrap_label("Gizli karakterler mutfakta sana eşlik eden asistanlara dönüşür. Kilidi açmak için Tarif Kitabı'ndaki ipuçlarını takip et!", 22, Color("#6a4a3a")))
+	content.add_child(UIKit.wrap_label(Loc.t("Gizli karakterler mutfakta sana eşlik eden asistanlara dönüşür. Kilidi açmak için Tarif Kitabı'ndaki ipuçlarını takip et!"), 22, Color("#6a4a3a")))
 	var cur := ProgressionManager.assistant()
 	var flow := HFlowContainer.new()
 	flow.add_theme_constant_override("h_separation", 10)
@@ -236,7 +236,7 @@ func _assistants() -> void:
 	content.add_child(flow)
 	var none := TapCard.new()
 	none.custom_minimum_size = Vector2(200, 200)
-	none.add_child(UIKit.label("Asistan yok", 22))
+	none.add_child(UIKit.label(Loc.t("Asistan yok"), 22))
 	none.selected = cur == ""
 	none.tapped.connect(func():
 		ProgressionManager.set_chef_value("assistant", "")
@@ -269,7 +269,7 @@ func _assistants() -> void:
 		var s2: String = sid
 		card.tapped.connect(func():
 			if not ProgressionManager.has_secret(s2):
-				GameManager.toast("İpucu: " + str(IngredientDatabase.secrets[s2].get("hint", "")), UIKit.PURPLE, "bulb")
+				GameManager.toast(Loc.t("İpucu: ") + str(IngredientDatabase.secrets[s2].get("hint", "")), UIKit.PURPLE, "bulb")
 				return
 			ProgressionManager.set_chef_value("assistant", s2)
 			_set_tab("assist"))

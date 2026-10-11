@@ -8,8 +8,8 @@ extends Control
 
 signal finished(quality: float)
 
-const TITLES := {"bake": "FIRINLA!", "fry": "KIZART!", "freeze": "DONDUR!", "boil": "KAYNAT!", "grill": "IZGARALA!", "magic": "BÜYÜLE!"}
-const TIPS := {"timing": "İbre yeşil bölgedeyken dokun! (3 kez)", "hold": "Ekrana basılı tut, seviyeyi parlayan bantta tut!", "runes": "Beliren rünlere sönmeden dokun!"}
+const TITLES := {"bake": "FIRINLA!", "fry": "KIZART!", "freeze": "DONDUR!", "boil": "KAYNAT!", "grill": "IZGARALA!", "magic": "BÜYÜLE!"}  # i18n
+const TIPS := {"timing": "İbre yeşil bölgedeyken dokun! (3 kez)", "hold": "Ekrana basılı tut, seviyeyi parlayan bantta tut!", "runes": "Beliren rünlere sönmeden dokun!"}  # i18n
 
 var method := "bake"
 var mods: Dictionary = {}
@@ -49,9 +49,11 @@ var _bubbles: Array = []
 
 
 func _init() -> void:
+	add_to_group("ui_blocker")
 	set_anchors_preset(Control.PRESET_FULL_RECT)
 	mouse_filter = Control.MOUSE_FILTER_STOP
 	z_index = 70
+	layout_direction = Control.LAYOUT_DIRECTION_LTR   # mutlak konumlu oyun alanı: sağdan sola dillerde aynalanmaz
 
 
 func start(m: String, md: Dictionary) -> void:
@@ -73,14 +75,14 @@ func start(m: String, md: Dictionary) -> void:
 	_band_w *= zone
 	_rune_w /= spd
 	_zone_c = _rng.randf_range(0.35, 0.65)
-	_title = UIKit.title(TITLES.get(m, "PİŞİR!"), 60, Color.WHITE, UIKit.INK, 14)
+	_title = UIKit.title(Loc.t(str(TITLES.get(m, Loc.t("PİŞİR!")))), 60, Color.WHITE, UIKit.INK, 14)
 	_title.set_anchors_preset(Control.PRESET_TOP_WIDE)
 	_title.offset_top = GameManager.screen_size.y * 0.16
 	add_child(_title)
-	_tip = UIKit.title(TIPS[kind], 26, Color("#fff1a8"), UIKit.INK, 8)
+	_tip = UIKit.title(Loc.t(str(TIPS[kind])), 26, Color("#fff1a8"), UIKit.INK, 8)
 	_tip.set_anchors_preset(Control.PRESET_TOP_WIDE)
 	_tip.offset_top = GameManager.screen_size.y * 0.16 + 80
-	_tip.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	_tip.autowrap_mode = UIKit.wrap_mode()
 	add_child(_tip)
 	if float(mods.get("dark", 0.0)) > 0.0:
 		_dark_rect = ColorRect.new()
@@ -147,7 +149,7 @@ func _process(delta: float) -> void:
 					_needle = clampf(_needle + _rng.randf_range(-0.1, 0.1), 0.0, 1.0)
 			_flip = maxf(0.0, _flip - delta * 3.0)
 			if _t - _last_tap > 4.5:
-				_register_tap(0.25, "Yandı!")
+				_register_tap(0.25, Loc.t("Yandı!"))
 			_focus = Vector2(_gauge.position.x + _needle * _gauge.size.x, _gauge.get_center().y)
 		"hold":
 			var rise := 0.6 if method == "boil" else 0.5
@@ -170,7 +172,7 @@ func _process(delta: float) -> void:
 				var age: float = _t - float(r["t0"])
 				if r["hit"] < 0.0 and age > _rune_w:
 					r["hit"] = 0.0
-					_feedback = "Kaçtı!"
+					_feedback = Loc.t("Kaçtı!")
 					_feedback_col = Color("#ff8a8a")
 					_feedback_t = 0.6
 				if r["hit"] < 0.0 and age >= 0.0:
@@ -229,16 +231,16 @@ func _gui_input(event: InputEvent) -> void:
 func _tap_timing() -> void:
 	var d := absf(_needle - _zone_c)
 	var acc := 0.2
-	var txt := "Kötü!"
+	var txt := Loc.t("Kötü!")
 	if d <= _perfect_w * 0.5:
 		acc = 1.0
-		txt = "KUSURSUZ!"
+		txt = Loc.t("KUSURSUZ!")
 	elif d <= _zone_w * 0.5:
 		acc = lerpf(0.92, 0.74, (d - _perfect_w * 0.5) / maxf(0.001, _zone_w * 0.5 - _perfect_w * 0.5))
-		txt = "Harika!"
+		txt = Loc.t("Harika!")
 	elif d <= _zone_w:
 		acc = 0.5
-		txt = "İdare eder"
+		txt = Loc.t("İdare eder")
 	_register_tap(acc, txt)
 
 
@@ -272,7 +274,7 @@ func _tap_rune(pos: Vector2) -> void:
 		if rp.distance_to(pos) < 80.0:
 			var acc := 1.0 - (age / _rune_w) * 0.45
 			r["hit"] = acc
-			_feedback = "KUSURSUZ!" if acc > 0.85 else "İyi!"
+			_feedback = Loc.t("KUSURSUZ!") if acc > 0.85 else Loc.t("İyi!")
 			_feedback_col = Color("#7dffb0") if acc > 0.85 else Color("#fff1a8")
 			_feedback_t = 0.6
 			AudioManager.sfx("star", 1.0 + _rune_i * 0.08)
@@ -287,23 +289,23 @@ func _finish(q: float) -> void:
 	_done = true
 	AudioManager.loop_stop("sizzle")
 	AudioManager.loop_stop("bubble")
-	var txt := "Yandı!"
+	var txt := Loc.t("Yandı!")
 	var col := Color("#ff8a8a")
 	if q >= 0.95:
-		txt = "KUSURSUZ!"
+		txt = Loc.t("KUSURSUZ!")
 		col = Color("#7dffb0")
 		AudioManager.sfx("perfect")
 		FxBurst.spawn(self, size * Vector2(0.5, 0.45), "confetti", 30)
 	elif q >= 0.8:
-		txt = "HARİKA!"
+		txt = Loc.t("HARİKA!")
 		col = Color("#7dffb0")
 		AudioManager.sfx("ding")
 	elif q >= 0.6:
-		txt = "İYİ!"
+		txt = Loc.t("İYİ!")
 		col = Color("#fff1a8")
 		AudioManager.sfx("ding", 0.9)
 	elif q >= 0.4:
-		txt = "İDARE EDER"
+		txt = Loc.t("İDARE EDER")
 		col = Color("#ffd28a")
 		AudioManager.sfx("ding", 0.8)
 	else:
@@ -314,7 +316,7 @@ func _finish(q: float) -> void:
 	res.size = Vector2(600, 90)
 	add_child(res)
 	UIKit.pop_in(res)
-	var pct := UIKit.title("Pişirme kalitesi: %%%d" % int(roundf(q * 100.0)), 30, Color.WHITE, UIKit.INK, 8)
+	var pct := UIKit.title(Loc.t("Pişirme kalitesi: %%%d") % int(roundf(q * 100.0)), 30, Color.WHITE, UIKit.INK, 8)
 	pct.position = Vector2(size.x * 0.5 - 300, size.y * 0.62 + 84)
 	pct.size = Vector2(600, 50)
 	add_child(pct)

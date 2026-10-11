@@ -56,6 +56,7 @@ func _ready() -> void:
 	ProgressionManager.achievement_unlocked.connect(_on_achievement)
 	ProgressionManager.secret_unlocked.connect(_on_secret)
 	ProgressionManager.level_up.connect(_on_level)
+	Loc.language_changed.connect(func(_c: String): apply_fonts())
 	get_tree().root.size_changed.connect(_on_resize)
 	_on_resize()
 	var cs := get_tree().current_scene
@@ -105,6 +106,32 @@ func _build_fonts() -> void:
 	font_reg = FontVariation.new()
 	font_reg.base_font = font_base
 	font_reg.variation_opentype = {"wght": 520}
+	apply_fonts()
+
+
+const FALLBACK_FONTS := {"ar": "res://assets/fonts/BalooBhaijaan2.ttf", "zh": "res://assets/fonts/NotoSansSC.ttf",
+	"ja": "res://assets/fonts/MPLUSRounded1c.ttf"}
+var _fallback_cache: Dictionary = {}
+
+
+## Arapça ve Çince/Japonca karakterler için yedek yazı tipleri. Han karakterleri iki dilde ortak
+## olduğundan aktif dilin yazı tipi önce gelir (Japoncada Japon, Çincede Çin glif biçimleri).
+func apply_fonts() -> void:
+	var order: Array = ["ar", "zh", "ja"]
+	if Loc.lang == "ja":
+		order = ["ja", "zh", "ar"]
+	elif Loc.lang == "zh":
+		order = ["zh", "ja", "ar"]
+	var fb: Array[Font] = []
+	for k in order:
+		if not _fallback_cache.has(k):
+			var path: String = FALLBACK_FONTS[k]
+			_fallback_cache[k] = load(path) if ResourceLoader.exists(path) else null
+		if _fallback_cache[k] != null:
+			fb.append(_fallback_cache[k])
+	for f in [font_base, font_bold, font_semi, font_reg]:
+		if f != null:
+			f.fallbacks = fb
 
 
 func _sb(bg: Color, radius := 22, border := Color(0, 0, 0, 0), bw := 0, bottom := 0) -> StyleBoxFlat:
@@ -349,7 +376,7 @@ func _next_toast() -> void:
 	lbl.add_theme_font_override("font", font_bold)
 	lbl.add_theme_font_size_override("font_size", 26)
 	lbl.add_theme_color_override("font_color", Color.WHITE)
-	lbl.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	lbl.autowrap_mode = UIKit.wrap_mode()
 	lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	lbl.custom_minimum_size = Vector2(minf(screen_size.x - 140, 540), 0)
 	row.add_child(lbl)
@@ -370,18 +397,18 @@ func _next_toast() -> void:
 
 func _on_achievement(id: String) -> void:
 	var a: Dictionary = IngredientDatabase.achievements.get(id, {})
-	toast("Başarım: %s  (+%d)" % [a.get("name", id), int(a.get("coins", 0))], C_ORANGE, "trophy")
+	toast(Loc.t("Başarım: %s  (+%d)") % [a.get("name", id), int(a.get("coins", 0))], C_ORANGE, "trophy")
 	AudioManager.sfx("unlock")
 
 
 func _on_secret(id: String) -> void:
 	var s: Dictionary = IngredientDatabase.secrets.get(id, {})
-	toast("Gizli karakter açıldı: %s!" % s.get("name", id), C_PINK, "sparkle")
+	toast(Loc.t("Gizli karakter açıldı: %s!") % s.get("name", id), C_PINK, "sparkle")
 	AudioManager.sfx("unlock", 1.2)
 
 
 func _on_level(lvl: int) -> void:
-	toast("Seviye %d! +1 uzmanlık puanı" % lvl, C_GREEN, "levelup")
+	toast(Loc.t("Seviye %d! +1 uzmanlık puanı") % lvl, C_GREEN, "levelup")
 	AudioManager.sfx("levelup")
 
 

@@ -7,13 +7,13 @@ var scroll: ScrollContainer
 
 func _ready() -> void:
 	setup_screen("map", Color("#ffe9c7"), Color("#ffd29a"))
-	make_header("KARİYER", true, true)
+	make_header(Loc.t("KARİYER"), true, true)
 	AudioManager.music("menu")
 	var info := UIKit.hbox(12)
 	info.alignment = BoxContainer.ALIGNMENT_CENTER
 	root_v.add_child(info)
-	info.add_child(UIKit.icon_label("star", "%d / %d" % [ProgressionManager.total_stars(), IngredientDatabase.match_order.size() * 3], 28, UIKit.INK, 44))
-	info.add_child(UIKit.icon_label("book", "%d tarif" % RecipeBookManager.count_all(), 26, UIKit.INK, 40))
+	info.add_child(UIKit.icon_label("star", Loc.t("%d / %d") % [ProgressionManager.total_stars(), IngredientDatabase.match_order.size() * 3], 28, UIKit.INK, 44))
+	info.add_child(UIKit.icon_label("book", Loc.t("%d tarif") % RecipeBookManager.count_all(), 26, UIKit.INK, 40))
 	list = UIKit.vbox(18)
 	scroll = UIKit.scroll(list)
 	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
@@ -60,9 +60,9 @@ func _league_block(l: Dictionary) -> Control:
 	for m in l.get("matches", []):
 		row.add_child(_match_node(m, col, col2))
 	if not unlocked:
-		v.add_child(UIKit.label("Önceki ligi tamamlayınca açılır", 20, Color("#7a6a5a")))
+		v.add_child(UIKit.label(Loc.t("Önceki ligi tamamlayınca açılır"), 20, Color("#7a6a5a")))
 	else:
-		v.add_child(UIKit.icon_label("coin", "Lig ödülü: %d" % int(l.get("reward", 0)), 20, Color("#8a5a3b"), 28))
+		v.add_child(UIKit.icon_label("coin", Loc.t("Lig ödülü: %d") % int(l.get("reward", 0)), 20, Color("#8a5a3b"), 28))
 	return p
 
 
@@ -95,7 +95,7 @@ func _match_node(m: Dictionary, col: Color, col2: Color) -> Control:
 		lk.position = Vector2(65, 45)
 		portrait.add_child(lk)
 	if m.get("boss", false):
-		var b := UIKit.chip("BOSS", UIKit.RED, 16)
+		var b := UIKit.chip(Loc.t("BOSS"), UIKit.RED, 16)
 		b.position = Vector2(4, 4)
 		portrait.add_child(b)
 	var nm := UIKit.label(IngredientDatabase.opponents[m["opponent"]]["name"] if unlocked else "???", 19, UIKit.INK)
@@ -113,7 +113,7 @@ func _match_node(m: Dictionary, col: Color, col2: Color) -> Control:
 
 func _open_match(mid: String) -> void:
 	if not ProgressionManager.is_match_unlocked(mid):
-		GameManager.toast("Önce önceki maçı kazan!", UIKit.ORANGE, "lock")
+		GameManager.toast(Loc.t("Önce önceki maçı kazan!"), UIKit.ORANGE, "lock")
 		AudioManager.sfx("fail", 1.3, -8.0)
 		return
 	var m: Dictionary = IngredientDatabase.matches[mid]
@@ -139,29 +139,29 @@ func _open_match(mid: String) -> void:
 	top.add_child(tv)
 	tv.add_child(UIKit.label(o.get("title", ""), 22, UIKit.PURPLE, true, HORIZONTAL_ALIGNMENT_LEFT))
 	tv.add_child(UIKit.wrap_label(o.get("personality", ""), 19, UIKit.INK, false, HORIZONTAL_ALIGNMENT_LEFT))
-	tv.add_child(UIKit.wrap_label("Strateji: " + o.get("strategy", ""), 19, Color("#6a4a3a"), false, HORIZONTAL_ALIGNMENT_LEFT))
+	tv.add_child(UIKit.wrap_label(Loc.t("Strateji: %s") % o.get("strategy", ""), 19, Color("#6a4a3a"), false, HORIZONTAL_ALIGNMENT_LEFT))
 	var ab: Dictionary = o.get("ability", {})
-	extra.add_child(UIKit.wrap_label("Yetenek — %s: %s" % [ab.get("name", ""), ab.get("desc", "")], 20, Color("#a23a5a"), true, HORIZONTAL_ALIGNMENT_LEFT))
+	extra.add_child(UIKit.wrap_label(Loc.t("Yetenek — %s: %s") % [ab.get("name", ""), ab.get("desc", "")], 20, Color("#a23a5a"), true, HORIZONTAL_ALIGNMENT_LEFT))
 	var rules: Array = m.get("rules", []).duplicate()
 	if m.get("boss", false) and not rules.has(o.get("boss_rule", "")):
 		rules.append(o.get("boss_rule", ""))
 	for r in rules:
 		var rd: Dictionary = IngredientDatabase.rules.get(r, {})
 		if not rd.is_empty():
-			extra.add_child(UIKit.wrap_label("• %s: %s" % [rd["name"], rd["desc"]], 19, UIKit.INK, false, HORIZONTAL_ALIGNMENT_LEFT))
+			extra.add_child(UIKit.wrap_label(Loc.t("• %s: %s") % [rd["name"], rd["desc"]], 19, UIKit.INK, false, HORIZONTAL_ALIGNMENT_LEFT))
 	var themes := []
 	for t in m.get("themes", []):
 		themes.append(IngredientDatabase.theme(t).get("name", t))
-	extra.add_child(UIKit.wrap_label("Temalar: " + ", ".join(PackedStringArray(themes)), 19, Color("#6a4a3a"), false, HORIZONTAL_ALIGNMENT_LEFT))
-	var star_texts := ["Maçı kazan", "Toplam %d+ puan al" % int(lg.get("score_star", 60)), m.get("challenge", {}).get("text", "")]
+	extra.add_child(UIKit.wrap_label(Loc.t("Temalar: %s") % Loc.list_sep().join(PackedStringArray(themes)), 19, Color("#6a4a3a"), false, HORIZONTAL_ALIGNMENT_LEFT))
+	var star_texts := [Loc.t("Maçı kazan"), Loc.t("Toplam %d+ puan al") % int(lg.get("score_star", 60)), m.get("challenge", {}).get("text", "")]
 	for i in 3:
 		var row := UIKit.hbox(8)
 		row.add_child(UIKit.icon("star" if rec["stars"][i] else "star_empty", 34))
 		row.add_child(UIKit.label(star_texts[i], 21, UIKit.INK, true, HORIZONTAL_ALIGNMENT_LEFT))
 		extra.add_child(row)
 	if rec["plays"] > 0:
-		extra.add_child(UIKit.label("En iyi skor: %s · Oynanma: %d" % [UIKit.fmt(rec["best"]), rec["plays"]], 19, Color("#6a4a3a")))
-	var md := UIKit.modal(self, o["name"], "", [["Kapat", "close", UIKit.GRAY], ["BAŞLA!", "go", UIKit.GREEN]], extra)
+		extra.add_child(UIKit.label(Loc.t("En iyi skor: %s · Oynanma: %d") % [UIKit.fmt(rec["best"]), rec["plays"]], 19, Color("#6a4a3a")))
+	var md := UIKit.modal(self, o["name"], "", [[Loc.t("Kapat"), "close", UIKit.GRAY], [Loc.t("BAŞLA!"), "go", UIKit.GREEN]], extra)
 	var ch: String = await md.closed
 	if ch == "go":
 		BattleManager.start_career(mid)

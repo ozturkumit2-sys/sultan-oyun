@@ -3,7 +3,7 @@ extends Node
 ## Tur akışı: begin_round → (sabotaj aşamaları) → oyuncu yemeği → judge_round → (tartışma) → finish_round.
 ## Oyun mantığı burada; görsel sunum KitchenBattle / JudgingStage / Results sahnelerinde.
 
-const ROUND_TITLES := ["Serbest Pişirme", "Gizemli Malzeme", "Büyük Final"]
+const ROUND_TITLES := ["Serbest Pişirme", "Gizemli Malzeme", "Büyük Final"]  # i18n
 const ROUND_TIME := 120.0
 const SHORT_ROUND_TIME := 80.0
 
@@ -130,10 +130,10 @@ func is_daily() -> bool:
 
 func round_title() -> String:
 	if is_daily():
-		return "Günlük Meydan Okuma"
-	var t: String = ROUND_TITLES[clampi(round_no - 1, 0, 2)]
+		return Loc.t("Günlük Meydan Okuma")
+	var t: String = Loc.t(str(ROUND_TITLES[clampi(round_no - 1, 0, 2)]))
 	if round_no == 3 and mystery_by_round.has(3):
-		t += " + Gizem"
+		t += Loc.t(" + Gizem")
 	return t
 
 
@@ -276,7 +276,7 @@ func resolve_sabotage(ab: String, choice: String, hits := 0, perfect := false, e
 	if result == "full" and defender >= 3 and not auto_shield_used:
 		result = "half"
 		auto_shield_used = true
-		note = "Otomatik Kalkan devreye girdi!"
+		note = Loc.t("Otomatik Kalkan devreye girdi!")
 	if ab == "rotten_surprise" and extra == "":
 		extra = rotten_pick()
 	cur["results"][ab] = {"result": result, "choice": choice, "extra": extra}
@@ -300,7 +300,7 @@ func resolve_sabotage(ab: String, choice: String, hits := 0, perfect := false, e
 					cur["extra"].append("pirate_spice")
 	var text := SabotageSystem.result_text(ab, result)
 	if note != "":
-		text = note + " " + text
+		text = note + Loc.sp() + text
 	return {"result": result, "text": text, "extra": extra}
 
 
@@ -511,10 +511,10 @@ func apply_argument(choice: String) -> Dictionary:
 			var v: float = res["ev"]["axes"][best_axis]
 			if v >= 5.5:
 				delta[low] = 1.0
-				text = "%s ikna oldu: \"Hmm... %s açısından haklı olabilirsin.\"" % [low_name, JudgeSystem.AXIS_NAMES[best_axis]]
+				text = Loc.t("%s ikna oldu: \"Hmm... %s açısından haklı olabilirsin.\"") % [low_name, Loc.t(str(JudgeSystem.AXIS_NAMES[best_axis]))]
 			else:
 				delta[low] = -0.5
-				text = "%s daha da sinirlendi: \"%s berbattı, savunma yapma!\"" % [low_name, JudgeSystem.AXIS_NAMES[best_axis]]
+				text = Loc.t("%s daha da sinirlendi: \"%s berbattı, savunma yapma!\"") % [low_name, Loc.t(str(JudgeSystem.AXIS_NAMES[best_axis]))]
 		"retaste":
 			var others := 0.0
 			var n := 0
@@ -534,21 +534,21 @@ func apply_argument(choice: String) -> Dictionary:
 						m += 1
 				rest /= maxf(1.0, m)
 				delta[high] = -clampf(roundf((float(judges[high]["score"]) - rest) * 0.15 * 2.0) / 2.0, 0.0, 0.5)
-			text = "%s bir lokma daha aldı... \"Belki ilk seferde çok sertti.\" %s ise düşünceli." % [low_name, high_name]
+			text = Loc.t("%s bir lokma daha aldı... \"Belki ilk seferde çok sertti.\" %s ise düşünceli.") % [low_name, high_name]
 		"explain":
 			var dish: Dictionary = res["dish"]
 			if dish.get("handcrafted", false) or int(dish.get("depth", 1)) >= 2:
 				delta["mira"] = 0.5
 				if low != "mira":
 					delta[low] = float(delta.get(low, 0.0)) + 0.5
-				text = "Tarifinin hikâyesini anlattın. Profesör Mira not alıyor, %s yumuşadı." % low_name
+				text = Loc.t("Tarifinin hikâyesini anlattın. Profesör Mira not alıyor, %s yumuşadı.") % low_name
 			elif res["ev"]["axes"]["creativity"] >= 6.0:
 				delta["mira"] = 0.5
-				text = "Açıklaman Profesör Mira'yı etkiledi."
+				text = Loc.t("Açıklaman Profesör Mira'yı etkiledi.")
 			else:
-				text = "Açıklaman pek kimseyi etkilemedi. \"Yani... un ve yumurta?\""
+				text = Loc.t("Açıklaman pek kimseyi etkilemedi. \"Yani... un ve yumurta?\"")
 		_:
-			text = "Tartışmayı kibarca bitirdin. Lord Max monoklünü düzeltti: \"Ne olgun bir davranış.\""
+			text = Loc.t("Tartışmayı kibarca bitirdin. Lord Max monoklünü düzeltti: \"Ne olgun bir davranış.\"")
 	var pos := 0.0
 	for k in delta.keys():
 		if delta[k] > 0:
@@ -645,7 +645,7 @@ func finalize() -> Dictionary:
 		var o3: float = rounds[rounds.size() - 1]["opp"]
 		if absf(p3 - o3) > 0.001:
 			won = p3 > o3
-			tiebreak = "Eşitlik! Büyük Final puanı belirleyici oldu."
+			tiebreak = Loc.t("Eşitlik! Büyük Final puanı belirleyici oldu.")
 		else:
 			var pf := 0.0
 			var of := 0.0
@@ -654,10 +654,10 @@ func finalize() -> Dictionary:
 				of += float(r["opp_flavor"])
 			if absf(pf - of) > 0.001:
 				won = pf > of
-				tiebreak = "Tam eşitlik! Toplam lezzet puanı belirleyici oldu."
+				tiebreak = Loc.t("Tam eşitlik! Toplam lezzet puanı belirleyici oldu.")
 			else:
 				won = seed_value % 2 == 0
-				tiebreak = "İnanılmaz eşitlik! Şef Bruno bıyığını çevirdi ve kararı verdi."
+				tiebreak = Loc.t("İnanılmaz eşitlik! Şef Bruno bıyığını çevirdi ve kararı verdi.")
 	var lid := int(match_data["league"])
 	var stars := [won, player_total >= float(league.get("score_star", 60)), won and _challenge_met()]
 	var rec := ProgressionManager.record_match(match_id, won, player_total, stars)
@@ -709,4 +709,4 @@ func _finalize_daily() -> Dictionary:
 
 
 func opponent_name() -> String:
-	return opponent.get("name", "Günün Jürisi")
+	return opponent.get("name", Loc.t("Günün Jürisi"))

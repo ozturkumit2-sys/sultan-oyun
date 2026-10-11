@@ -239,3 +239,9 @@ func setting(key: String, def: Variant = null) -> Variant:
 func set_setting(key: String, value: Variant) -> void:
 	data["settings"][key] = value
 	mark_dirty()
+
+
+## Oyuncunun şef adı (varsayılan "Şef" adı etkin dile çevrilir).
+func player_name() -> String:
+	var n := str(data.get("profile", {}).get("name", "Şef")).strip_edges()
+	return Loc.t("Şef") if n == "" or n == "Şef" else n

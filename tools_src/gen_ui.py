@@ -626,7 +626,24 @@ def s_chaos(c):
     stroke(c, pth, 7, skia.ColorWHITE)
 
 
-ICONS = {"star": i_star, "star_empty": i_star_empty, "coin": i_coin, "lock": i_lock, "check": i_check, "cross": i_cross,
+
+def i_globe(c):
+    shape(c, circle_path(64, 62, 48), "#4ad6ff")
+    land = poly([(40, 30), (58, 26), (62, 40), (50, 50), (54, 64), (40, 72), (30, 60), (28, 44)])
+    fill(c, land, "#5fd16b", 10, 118, 0.15)
+    stroke(c, land, 4)
+    land2 = poly([(74, 50), (92, 54), (98, 72), (84, 92), (72, 84), (76, 68)])
+    fill(c, land2, "#5fd16b", 10, 118, 0.15)
+    stroke(c, land2, 4)
+    ring = skia.Path()
+    ring.addOval(skia.Rect.MakeXYWH(40, 14, 48, 96))
+    stroke(c, ring, 4, skia.Color(59, 36, 23, 120))
+    stroke(c, poly([(16, 62), (112, 62)], False), 4, skia.Color(59, 36, 23, 120))
+    stroke(c, circle_path(64, 62, 48), 7)
+    shine(c, 46, 36, 10, 6, 110)
+
+
+ICONS = {"globe": i_globe, "star": i_star, "star_empty": i_star_empty, "coin": i_coin, "lock": i_lock, "check": i_check, "cross": i_cross,
          "heart": i_heart, "clock": i_clock, "pause": i_pause, "back": i_back, "play": i_play, "gear": i_gear, "book": i_book,
          "trophy": i_trophy, "flask": i_flask, "calendar": i_calendar, "chef": i_chef, "bag": i_bag, "music": i_music,
          "sound": i_sound, "vibrate": i_vibrate, "refresh": i_refresh, "home": i_home, "sparkle": i_sparkle, "levelup": i_levelup,

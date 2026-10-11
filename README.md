@@ -10,7 +10,9 @@ APK her zaman bu dalın `apk/` klasöründe en güncel hâliyle durur. İndirdik
 ## Oyunda neler var?
 
 - **Füzyon motoru:** 56 malzeme (tavuk, balık, et, karides, sucuk gibi normal malzemeler ve ejder yumurtası, kara delik tuzu gibi garip malzemeler; 3'ü laboratuvara özel), 50 el yapımı tarif (5 tanesi gizli), sınırsız dinamik tarif. Aynı malzemeler + aynı yöntem = her zaman aynı tarif; malzeme sırası önemsiz. Keşfedilen füzyonlar tekrar malzeme olarak kullanılabilir (zincir sınırı 2, uzmanlıkla 3).
-- **Hikâyeli isimler:** 3 ve daha fazla malzemeli karışımlar malzemeleri saymayan, yemeğin karakterinden doğan bir isim ("Acı Ninja Hayalet", "Serin Yarasa: Tencerenin İntikamı") ve kısa bir efsane alır.
+- **Hikâyeli isimler:** 3 ve daha fazla malzemeli karışımlar malzemeleri saymayan, yemeğin karakterinden doğan bir isim ("Acı Ninja Hayalet", "Serin Yarasa: Tencerenin İntikamı") ve kısa bir efsane alır. İsimler her dilde o dilin dil bilgisine göre üretilir ("Spicy Ghost: The Return", "Fantasma Picante: El Regreso", "激辛ゴースト：帰還").
+- **8 dil:** Türkçe, English, Español, Deutsch, العربية, हिन्दी, 简体中文, 日本語. İlk açılışta cihaz dili seçilir (desteklenmiyorsa İngilizce); **Ayarlar → Dil** ile istenildiği an değiştirilir. Arayüz, malzemeler, tarifler, jüri yorumları ve rakip replikleri dahil tüm metinler çevrilidir. Arapçada arayüz sağdan sola aynalanır; Arapça, Çince ve Japonca için ek yazı tipleri gömülüdür.
+- **Dokunmatik kaydırma:** Tüm listeler parmakla yukarı/aşağı (ve yatay listeler sağa/sola) sürüklenerek, ataletle kaydırılır; kaydırırken kartlara yanlışlıkla dokunulmaz.
 - **6 pişirme yöntemi** ve her biri için etkileşimli mini oyun (zamanlama, basılı tutma, rün yakalama).
 - **8 rakip:** Cadı Morgana, Robot X-3000, Zombi Nine Gülizar, Kont Velvet, Kaptan Barbunya, Uzaylı Zorp, Peri Lila ve son boss Şef Obscura. Her birinin kişiliği, tercih ettiği malzemeleri, özel sabotajı, boss kuralı ve zafer/yenilgi replikleri var. Yapay zekâ temaya, skor durumuna ve jüri mutasyonlarına göre karar verir.
 - **Sabotaj sistemi:** Her sabotaj önceden uyarılır; *Savun* (mini oyun), *Uyum Sağla* veya *Riski Kabul Et* (geri tepme şansı). Hiçbir sabotaj kaçınılmaz yenilgi yaratmaz.
@@ -49,20 +51,34 @@ Mimari: `arm64-v8a` (2017 sonrası telefonların neredeyse tamamı). Paket adı:
 
 ```
 data/                 Oyun içeriği (JSON): malzemeler, tarifler, temalar, jüri ve jüri replikleri, rakipler, ligler, kozmetikler
+data/i18n/            Çeviriler: {"Türkçe kaynak metin": "çeviri"} (en, es, de, ar, hi, zh, ja)
+data/names.json       Hikâyeli isim tabloları (her dil için; tools_src/names.py ile üretilir)
 scenes/               Gerekli sahneler (Boot, MainMenu, ChefCustomization, CareerMap, KitchenBattle,
                       FusionLab, JudgingStage, Results, RecipeBook, DailyChallenge, Settings, Shop)
-scripts/autoload/     GameManager, SaveManager, AudioManager, IngredientDatabase, RecipeBookManager,
+scripts/autoload/     GameManager, SaveManager, Loc (dil), AudioManager, IngredientDatabase, RecipeBookManager,
                       ProgressionManager, BattleManager, DailyChallengeManager, MonetizationService
 scripts/systems/      FusionEngine, JudgeSystem, MutationSystem, SabotageSystem, OpponentAI, LivingFoodController
 scripts/visual/       DrawKit, CharacterFigure, CharacterAnimationController, DishView, IngredientIcon, Backdrop, FxBurst
 scripts/ui/           Arayüz bileşenleri (KitchenStation, CookingMinigame, DefendMinigame, SabotageDialog, ...)
 scripts/ui/scenes/    Sahne betikleri
-assets/               Yazı tipi (Baloo 2, OFL), UI ikonları, ses ve müzik
-tools_src/            Ses/ikon üretim ve jüri repliği betikleri (Python)
+assets/               Yazı tipleri (OFL), UI ikonları, ses ve müzik
+tools_src/            Ses/ikon/yazı tipi üretimi, jüri replikleri, isim tabloları ve çeviri betikleri (Python)
 _dev/                 Geliştirme testleri (dışa aktarıma dahil edilmez)
 ```
 
 Oyun mantığı (`scripts/systems`, `scripts/autoload`) görsel sunumdan ayrıdır. Yeni tarif, tema veya rakip eklemek için çoğu zaman sadece `data/` altındaki JSON dosyalarını düzenlemek yeterlidir.
+
+### Çeviri iş akışı
+
+Kaynak dil Türkçedir; koddaki görünür metinler `Loc.t("...")` ile, veri metinleri yüklenirken otomatik çevrilir.
+
+```bash
+python3 tools_src/i18n/extract.py .          # tüm Türkçe metinleri topla -> tools_src/i18n/keys.json
+python3 tools_src/i18n/listing.py --stats    # eksik çevirileri listele
+python3 tools_src/i18n/build.py . --strict   # tools_src/i18n/chunks/*.json -> data/i18n/*.json (yer tutucu denetimiyle)
+python3 tools_src/names.py .                 # hikâyeli isim tabloları -> data/names.json
+python3 tools_src/fonts.py <kaynak> .        # Arapça/Çince/Japonca yazı tipi alt kümeleri
+```
 
 ## Geliştirme testleri
 
@@ -70,6 +86,8 @@ Oyun mantığı (`scripts/systems`, `scripts/autoload`) görsel sunumdan ayrıd�
 godot --headless res://_dev/sim.tscn          # mantık testi: determinizm, puanlama, tüm kariyerin bot ile simülasyonu
 godot --headless res://_dev/check_all.tscn    # tüm betiklerin derlenme kontrolü
 godot --headless res://_dev/flow.tscn -- soak # gerçek arayüz akışlarıyla rastgele maçlar oynayan dayanıklılık testi
+godot --headless res://_dev/flow.tscn -- menus ar   # ekran görüntüleri (ikinci argüman: dil)
+godot --headless res://_dev/names_test.tscn -- ja   # bir dilde hikâyeli isim örnekleri
 ```
 
 ## Bilinen sınırlamalar
@@ -80,5 +98,5 @@ godot --headless res://_dev/flow.tscn -- soak # gerçek arayüz akışlarıyla r
 
 ## Lisans notları
 
-- Yazı tipi: Baloo 2 — SIL Open Font License 1.1 (`assets/fonts/Baloo2-OFL.txt`).
+- Yazı tipleri (hepsi SIL Open Font License 1.1, lisans metinleri `assets/fonts/` içinde): Baloo 2 (Latin, Devanagari), Baloo Bhaijaan 2 (Arapça), Noto Sans SC (Çince), M PLUS Rounded 1c (Japonca). CJK/Arapça yazı tipleri oyunda kullanılan karakterlere ve sık kullanılan karakter tablolarına göre alt kümelenmiştir.
 - Diğer tüm görsel ve işitsel içerik bu proje için üretilmiştir.

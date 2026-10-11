@@ -12,7 +12,7 @@ signal bowl_changed
 const METHODS := ["bake", "fry", "freeze", "boil", "grill", "magic"]
 const METHOD_COLORS := {"bake": Color("#e8734a"), "fry": Color("#ffb020"), "freeze": Color("#4ad6ff"),
 	"boil": Color("#4a7dff"), "grill": Color("#7d6b5d"), "magic": Color("#a25cff")}
-const METHOD_VERBS := {"bake": "FIRINLA!", "fry": "KIZART!", "freeze": "DONDUR!", "boil": "KAYNAT!", "grill": "IZGARALA!", "magic": "BÜYÜLE!"}
+const METHOD_VERBS := {"bake": "FIRINLA!", "fry": "KIZART!", "freeze": "DONDUR!", "boil": "KAYNAT!", "grill": "IZGARALA!", "magic": "BÜYÜLE!"}  # i18n
 
 var mode := "battle"
 var slots: Array = []
@@ -70,10 +70,10 @@ func _build_work() -> void:
 	row.add_child(_slot_row)
 	var col := UIKit.vbox(8)
 	row.add_child(col)
-	_fuse_btn = UIKit.button("KARIŞTIR", UIKit.PURPLE, Vector2(176, 66), 24, "fuse")
+	_fuse_btn = UIKit.button(Loc.t("KARIŞTIR"), UIKit.PURPLE, Vector2(176, 66), 24, "fuse")
 	_fuse_btn.pressed.connect(do_fuse)
 	col.add_child(_fuse_btn)
-	_clear_btn = UIKit.button("Boşalt", Color("#c9b8a6"), Vector2(176, 44), 20, "trash")
+	_clear_btn = UIKit.button(Loc.t("Boşalt"), Color("#c9b8a6"), Vector2(176, 44), 20, "trash")
 	_clear_btn.pressed.connect(clear_bowl)
 	col.add_child(_clear_btn)
 	_info = UIKit.label("", 21, UIKit.INK, true)
@@ -91,17 +91,17 @@ func _build_work() -> void:
 		b.pressed.connect(func(): select_method(mm))
 		mrow.add_child(b)
 		_method_btns[m] = b
-	_cook_btn = UIKit.button("PİŞİR!", UIKit.ORANGE, Vector2(0, 80), 28, "fire")
+	_cook_btn = UIKit.button(Loc.t("PİŞİR!"), UIKit.ORANGE, Vector2(0, 80), 28, "fire")
 	_cook_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	_cook_btn.pressed.connect(request_cook)
 	mrow.add_child(_cook_btn)
 	var tabs := UIKit.hbox(8)
 	_work.add_child(tabs)
-	_tab_ing = UIKit.button("Malzemeler", UIKit.ORANGE, Vector2(0, 52), 22)
+	_tab_ing = UIKit.button(Loc.t("Malzemeler"), UIKit.ORANGE, Vector2(0, 52), 22)
 	_tab_ing.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	_tab_ing.pressed.connect(func(): _set_tab("ing"))
 	tabs.add_child(_tab_ing)
-	_tab_fus = UIKit.button("Füzyonlar", Color("#c9b8a6"), Vector2(0, 52), 22)
+	_tab_fus = UIKit.button(Loc.t("Füzyonlar"), Color("#c9b8a6"), Vector2(0, 52), 22)
 	_tab_fus.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	_tab_fus.pressed.connect(func(): _set_tab("fus"))
 	tabs.add_child(_tab_fus)
@@ -121,8 +121,8 @@ func _build_plating() -> void:
 	_plating = UIKit.vbox(10)
 	_plating.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	add_child(_plating)
-	_plating.add_child(UIKit.label("SUNUM ZAMANI", 30, UIKit.INK))
-	_plating.add_child(UIKit.label("Tabak", 22, Color("#8a6a50"), true, HORIZONTAL_ALIGNMENT_LEFT))
+	_plating.add_child(UIKit.label(Loc.t("SUNUM ZAMANI"), 30, UIKit.INK))
+	_plating.add_child(UIKit.label(Loc.t("Tabak"), 22, Color("#8a6a50"), true, HORIZONTAL_ALIGNMENT_LEFT))
 	var prow := UIKit.hbox(8)
 	var ps := UIKit.scroll(prow, true)
 	ps.custom_minimum_size.y = 128
@@ -144,14 +144,14 @@ func _build_plating() -> void:
 		dv.show_shadow = false
 		holder.add_child(dv)
 		var nm := UIKit.label(IngredientDatabase.plates[pid]["name"], 15, UIKit.INK)
-		nm.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		nm.autowrap_mode = UIKit.wrap_mode()
 		nm.custom_minimum_size.x = 100
 		v.add_child(nm)
 		var p2: String = pid
 		card.tapped.connect(func(): _pick_plate(p2))
 		prow.add_child(card)
 		_plate_cards[pid] = card
-	_plating.add_child(UIKit.label("Süsleme", 22, Color("#8a6a50"), true, HORIZONTAL_ALIGNMENT_LEFT))
+	_plating.add_child(UIKit.label(Loc.t("Süsleme"), 22, Color("#8a6a50"), true, HORIZONTAL_ALIGNMENT_LEFT))
 	var grow := HFlowContainer.new()
 	grow.add_theme_constant_override("h_separation", 8)
 	grow.add_theme_constant_override("v_separation", 8)
@@ -168,7 +168,7 @@ func _build_plating() -> void:
 		card2.tapped.connect(func(): _pick_garnish(g2))
 		grow.add_child(card2)
 		_garnish_cards[gid] = card2
-	var serve := UIKit.button("SUN!", UIKit.GREEN, Vector2(0, 88), 34, "plate")
+	var serve := UIKit.button(Loc.t("SUN!"), UIKit.GREEN, Vector2(0, 88), 34, "plate")
 	serve.pressed.connect(func():
 		if locked:
 			return
@@ -200,9 +200,9 @@ func refresh_pantry() -> void:
 	for c in _grid.get_children():
 		c.queue_free()
 	var list: Array = pantry_ing if _tab == "ing" else pantry_fus
-	_tab_fus.text = "Füzyonlar (%d)" % pantry_fus.size()
+	_tab_fus.text = Loc.t("Füzyonlar (%d)") % pantry_fus.size()
 	if list.is_empty():
-		var l := UIKit.wrap_label("Henüz füzyon yok. İki malzemeyi kaseye koyup KARIŞTIR'a bas!" if _tab == "fus" else "Kiler boş!", 22, Color("#8a6a50"))
+		var l := UIKit.wrap_label(Loc.t("Henüz füzyon yok. İki malzemeyi kaseye koyup KARIŞTIR'a bas!") if _tab == "fus" else Loc.t("Kiler boş!"), 22, Color("#8a6a50"))
 		l.custom_minimum_size.x = 640
 		_grid.add_child(l)
 		return
@@ -223,14 +223,14 @@ func _pantry_card(id: String) -> TapCard:
 	v.add_child(ic)
 	ic.set_item(id)
 	var nm := UIKit.label(it["name"], 15, UIKit.INK)
-	nm.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	nm.autowrap_mode = UIKit.wrap_mode()
 	nm.custom_minimum_size = Vector2(94, 38)
 	nm.vertical_alignment = VERTICAL_ALIGNMENT_TOP
 	nm.max_lines_visible = 2
 	v.add_child(nm)
 	if id == mystery:
 		card.set_colors(Color("#e9d6ff"), UIKit.PURPLE)
-		var tag := UIKit.chip("GİZEM", UIKit.PURPLE, 14)
+		var tag := UIKit.chip(Loc.t("GİZEM"), UIKit.PURPLE, 14)
 		tag.position = Vector2(2, -6)
 		card.add_child(tag)
 		tag.top_level = false
@@ -240,7 +240,7 @@ func _pantry_card(id: String) -> TapCard:
 		card.set_colors(Color("#ffe8f3"), Color("#c2407a"))
 	var depth := int(it.get("depth", 0))
 	if depth >= ProgressionManager.max_chain_depth() and it.get("kind", "") != "ingredient":
-		card.tooltip_text = "Zincir sınırında: sadece pişirilebilir"
+		card.tooltip_text = Loc.t("Zincir sınırında: sadece pişirilebilir")
 	var idc: String = id
 	card.tapped.connect(func(): add_to_bowl(idc, card))
 	return card
@@ -271,7 +271,7 @@ func add_to_bowl(id: String, from: Control = null) -> void:
 	if locked:
 		return
 	if slots.size() >= max_slots:
-		GameManager.toast("Kase dolu! Bir malzemeyi çıkarmak için ona dokun.", UIKit.ORANGE, "info")
+		GameManager.toast(Loc.t("Kase dolu! Bir malzemeyi çıkarmak için ona dokun."), UIKit.ORANGE, "info")
 		AudioManager.sfx("fail", 1.4, -8.0)
 		return
 	if slots.has(id) and IngredientDatabase.ingredients.has(id):
@@ -337,14 +337,14 @@ func do_fuse() -> void:
 	if locked:
 		return
 	if slots.size() < 2:
-		GameManager.toast("Füzyon için kasede en az iki malzeme olmalı.", UIKit.PURPLE, "info")
+		GameManager.toast(Loc.t("Füzyon için kasede en az iki malzeme olmalı."), UIKit.PURPLE, "info")
 		return
 	for s in slots:
 		if int(FusionEngine.item(s).get("depth", 0)) >= ProgressionManager.max_chain_depth():
-			GameManager.toast("%s zincir sınırında; artık sadece pişirilebilir." % FusionEngine.item(s)["name"], UIKit.PURPLE, "info")
+			GameManager.toast(Loc.t("%s zincir sınırında; artık sadece pişirilebilir.") % FusionEngine.item(s)["name"], UIKit.PURPLE, "info")
 			return
 	if fusion_limit >= 0 and fusions_used >= fusion_limit:
-		GameManager.toast("Bu turdaki füzyon hakkın bitti. Şimdi pişirme zamanı!", UIKit.PURPLE, "info")
+		GameManager.toast(Loc.t("Bu turdaki füzyon hakkın bitti. Şimdi pişirme zamanı!"), UIKit.PURPLE, "info")
 		return
 	var it := FusionEngine.fuse(slots)
 	fusions_used += 1
@@ -372,7 +372,7 @@ func select_method(m: String) -> void:
 	if locked:
 		return
 	if banned.has(m):
-		GameManager.toast("%s bu maçta yasak!" % IngredientDatabase.method_name(m), UIKit.RED, "cross")
+		GameManager.toast(Loc.t("%s bu maçta yasak!") % IngredientDatabase.method_name(m), UIKit.RED, "cross")
 		AudioManager.sfx("fail", 1.3, -8.0)
 		return
 	method = m
@@ -385,11 +385,11 @@ func request_cook() -> void:
 	if locked:
 		return
 	if slots.is_empty():
-		GameManager.toast("Önce kaseye malzeme koy!", UIKit.ORANGE, "info")
+		GameManager.toast(Loc.t("Önce kaseye malzeme koy!"), UIKit.ORANGE, "info")
 		AudioManager.sfx("fail", 1.4, -8.0)
 		return
 	if method == "":
-		GameManager.toast("Bir pişirme yöntemi seç!", UIKit.ORANGE, "info")
+		GameManager.toast(Loc.t("Bir pişirme yöntemi seç!"), UIKit.ORANGE, "info")
 		AudioManager.sfx("fail", 1.4, -8.0)
 		var tw := create_tween()
 		for b in _method_btns.values():
@@ -410,29 +410,29 @@ func _update_ui() -> void:
 			c = Color("#d8cbbb")
 		UIKit.style_button(b, c, 24, 24)
 		b.modulate = Color(1, 1, 1, 0.45) if banned.has(m) else Color.WHITE
-	_cook_btn.text = METHOD_VERBS.get(method, "PİŞİR!")
+	_cook_btn.text = Loc.t(str(METHOD_VERBS.get(method, Loc.t("PİŞİR!"))))
 	_fuse_btn.disabled = not can_fuse()
 	var txt := ""
 	if slots.size() >= 2:
 		var rid := FusionEngine.peek_recipe(slots, "")
 		var known := rid != "" and RecipeBookManager.is_known(rid)
 		if known:
-			txt = "Karıştır → %s" % IngredientDatabase.recipes[rid]["name"]
+			txt = Loc.t("Karıştır → %s") % IngredientDatabase.recipes[rid]["name"]
 		elif rid != "" and ProgressionManager.spec_tier("fusion") >= 3:
-			txt = "Radar: Bu karışım gizli bir tarif!"
+			txt = Loc.t("Radar: Bu karışım gizli bir tarif!")
 	if method != "" and not slots.is_empty():
 		var rid2 := FusionEngine.peek_recipe(slots, method)
 		if rid2 != "" and RecipeBookManager.is_known(rid2):
-			txt = "%s → %s" % [IngredientDatabase.method_name(method), IngredientDatabase.recipes[rid2]["name"]]
+			txt = Loc.t("%s → %s") % [IngredientDatabase.method_name(method), IngredientDatabase.recipes[rid2]["name"]]
 		elif rid2 != "" and ProgressionManager.spec_tier("fusion") >= 3:
-			txt = "Radar: %s ile özel bir tarif çıkacak!" % IngredientDatabase.method_name(method)
+			txt = Loc.t("Radar: %s ile özel bir tarif çıkacak!") % IngredientDatabase.method_name(method)
 		elif txt == "":
-			txt = "%s · %d malzeme" % [IngredientDatabase.method_name(method), slots.size()]
+			txt = Loc.t("%s · %d malzeme") % [IngredientDatabase.method_name(method), slots.size()]
 	if txt == "":
 		if fusion_limit >= 0:
-			txt = "Füzyon hakkı: %d" % maxi(0, fusion_limit - fusions_used)
+			txt = Loc.t("Füzyon hakkı: %d") % maxi(0, fusion_limit - fusions_used)
 		else:
-			txt = "Malzemelere dokun, kaseye ekle"
+			txt = Loc.t("Malzemelere dokun, kaseye ekle")
 	_info.text = txt
 
 
@@ -453,7 +453,7 @@ func show_plating(on: bool) -> void:
 
 func _pick_plate(pid: String, silent := false) -> void:
 	if not ProgressionManager.owns("plates", pid):
-		GameManager.toast("%s dükkânda %d paraya satılıyor." % [IngredientDatabase.plates[pid]["name"], ProgressionManager.price("plates", pid)], UIKit.ORANGE, "lock")
+		GameManager.toast(Loc.t("%s dükkânda %d paraya satılıyor.") % [IngredientDatabase.plates[pid]["name"], ProgressionManager.price("plates", pid)], UIKit.ORANGE, "lock")
 		return
 	_plate = pid
 	for k in _plate_cards.keys():
@@ -466,7 +466,7 @@ func _pick_plate(pid: String, silent := false) -> void:
 
 func _pick_garnish(gid: String, silent := false) -> void:
 	if not ProgressionManager.owns("garnishes", gid):
-		GameManager.toast("%s dükkânda %d paraya satılıyor." % [IngredientDatabase.garnishes[gid]["name"], ProgressionManager.price("garnishes", gid)], UIKit.ORANGE, "lock")
+		GameManager.toast(Loc.t("%s dükkânda %d paraya satılıyor.") % [IngredientDatabase.garnishes[gid]["name"], ProgressionManager.price("garnishes", gid)], UIKit.ORANGE, "lock")
 		return
 	_garnish = gid
 	for k in _garnish_cards.keys():

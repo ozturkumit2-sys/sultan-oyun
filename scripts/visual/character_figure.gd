@@ -1426,7 +1426,7 @@ func react(kind: String) -> float:
 		"laugh":
 			set_expression("laugh", 1.7)
 			AudioManager.sfx_r("laugh", 0.06)
-			var t := FxBurst.spawn(self, head + Vector2(70, -10), "text", 1, Color.WHITE, "HA HA!")
+			var t := FxBurst.spawn(self, head + Vector2(70, -10), "text", 1, Color.WHITE, Loc.t("HA HA!"))
 			t.text_color = Color("#ffd23f")
 			for k in 6:
 				tw.tween_method(_set_rot, 0.0 if k == 0 else (0.05 if k % 2 == 1 else -0.05), (-0.05 if k % 2 == 0 else 0.05), 0.12)

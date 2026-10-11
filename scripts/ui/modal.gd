@@ -12,6 +12,7 @@ var _closing := false
 
 
 func _init() -> void:
+	add_to_group("ui_blocker")
 	set_anchors_preset(Control.PRESET_FULL_RECT)
 	mouse_filter = Control.MOUSE_FILTER_STOP
 	z_index = 80
@@ -34,7 +35,7 @@ func build(title_text: String, body: String, buttons: Array, extra: Control = nu
 	panel.add_child(content)
 	if title_text != "":
 		var t := UIKit.title(title_text, 42, Color.WHITE, UIKit.INK, 12)
-		t.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		t.autowrap_mode = UIKit.wrap_mode()
 		t.custom_minimum_size.x = 300
 		content.add_child(t)
 	if body != "":

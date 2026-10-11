@@ -9,6 +9,13 @@ func _ready() -> void:
 	var args := OS.get_cmdline_user_args()
 	if args.size() > 0:
 		mode = args[0]
+	if args.size() > 1:
+		var lg: String = args[1]
+		out = "/tmp/claude-0/shots_%s/" % lg
+		Loc._load(lg)
+		IngredientDatabase.apply_language()
+		FusionEngine.clear_cache()
+		GameManager.apply_fonts()
 	DirAccess.make_dir_recursive_absolute(out)
 	get_parent().remove_child.call_deferred(self)
 	get_tree().root.add_child.call_deferred(self)
@@ -58,7 +65,7 @@ func find_button(text: String) -> Button:
 
 
 func _find(n: Node, text: String) -> Button:
-	if n is Button and n.visible and text in n.text:
+	if n is Button and n.visible and (text in n.text or Loc.t(text) in n.text):
 		return n
 	for c in n.get_children():
 		var r := _find(c, text)

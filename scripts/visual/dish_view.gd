@@ -32,11 +32,11 @@ func _init() -> void:
 static func companion(id: String) -> Dictionary:
 	match id:
 		"cookie_wizard":
-			return {"id": "a_cw", "name": "Kurabiye Büyücüsü", "visual": {"base": "cookie_wizard", "c1": "#e0a85a", "c2": "#7a4bd6", "decor": ["wizard_hat"]}}
+			return {"id": "a_cw", "name": Loc.t("Kurabiye Büyücüsü"), "visual": {"base": "cookie_wizard", "c1": "#e0a85a", "c2": "#7a4bd6", "decor": ["wizard_hat"]}}
 		"toaster_bot":
-			return {"id": "a_tb", "name": "Tost Robotu", "visual": {"base": "toast", "c1": "#d9a35a", "c2": "#9aa6b2", "decor": ["antenna", "bolts"]}}
+			return {"id": "a_tb", "name": Loc.t("Tost Robotu"), "visual": {"base": "toast", "c1": "#d9a35a", "c2": "#9aa6b2", "decor": ["antenna", "bolts"]}}
 		"jelly_dragon":
-			return {"id": "a_jd", "name": "Jöle Ejderi", "visual": {"base": "jelly", "c1": "#7cff6b", "c2": "#ff6a1a", "decor": ["flames"]}}
+			return {"id": "a_jd", "name": Loc.t("Jöle Ejderi"), "visual": {"base": "jelly", "c1": "#7cff6b", "c2": "#ff6a1a", "decor": ["flames"]}}
 	return {"id": "a", "visual": {"base": "dough", "c1": "#f2c05a", "c2": "#ff7ab8"}}
 
 

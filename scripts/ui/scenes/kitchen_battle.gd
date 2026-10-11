@@ -72,7 +72,7 @@ func _build() -> void:
 	var rv := UIKit.vbox(-6)
 	rv.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	r1.add_child(rv)
-	round_label = UIKit.title("TUR 1/3", 34, Color.WHITE, UIKit.INK, 8)
+	round_label = UIKit.title(Loc.t("TUR 1/3"), 34, Color.WHITE, UIKit.INK, 8)
 	rv.add_child(round_label)
 	round_sub = UIKit.label("", 22, Color("#ffd23f"))
 	rv.add_child(round_sub)
@@ -86,7 +86,7 @@ func _build() -> void:
 	tcard.add_child(tv)
 	var trow := UIKit.hbox(8)
 	tv.add_child(trow)
-	trow.add_child(UIKit.label("TEMA:", 22, Color("#a25cff")))
+	trow.add_child(UIKit.label(Loc.t("TEMA:"), 22, Color("#a25cff")))
 	theme_name = UIKit.label("", 26, UIKit.INK, true, HORIZONTAL_ALIGNMENT_LEFT)
 	theme_name.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	trow.add_child(theme_name)
@@ -102,6 +102,7 @@ func _build() -> void:
 	tv.add_child(chips_row)
 	# --- sahne
 	scene_area = Control.new()
+	scene_area.layout_direction = Control.LAYOUT_DIRECTION_LTR
 	scene_area.custom_minimum_size = Vector2(0, SCENE_H)
 	scene_area.clip_contents = true
 	v.add_child(scene_area)
@@ -141,8 +142,8 @@ func _build() -> void:
 		var sign := UIKit.panel(Color("#2f3b2f"), 16, Color("#8a5a3b"), 8, 12)
 		var sv := UIKit.vbox(0)
 		sign.add_child(sv)
-		sv.add_child(UIKit.label("GÜNÜN", 24, Color("#fff1a8")))
-		sv.add_child(UIKit.label("MEYDAN OKUMASI", 22, Color.WHITE))
+		sv.add_child(UIKit.label(Loc.t("GÜNÜN"), 24, Color("#fff1a8")))
+		sv.add_child(UIKit.label(Loc.t("MEYDAN OKUMASI"), 22, Color.WHITE))
 		sv.add_child(UIKit.label(DailyChallengeManager.today_key(), 18, Color("#c9e0c9")))
 		sign.position = Vector2(w * 0.62, SCENE_H * 0.18)
 		sign.rotation = 0.05
@@ -218,7 +219,7 @@ func _vs_intro() -> void:
 	holder.add_child(pf)
 	var pf_x := sz.x * (0.5 if BattleManager.is_daily() else 0.25)
 	var of: CharacterFigure = null
-	var title_text := "GÜNLÜK MEYDAN OKUMA"
+	var title_text := Loc.t("GÜNLÜK MEYDAN OKUMA")
 	if not BattleManager.is_daily():
 		of = CharacterFigure.new()
 		of.setup(CharacterFigure.preset(BattleManager.opponent["id"]))
@@ -236,8 +237,9 @@ func _vs_intro() -> void:
 	box.add_child(UIKit.title(title_text, 36, Color("#fff1a8"), UIKit.INK, 10))
 	if of != null:
 		var mi: int = int(BattleManager.match_data.get("index", 0)) + 1
-		box.add_child(UIKit.title("MAÇ %d%s" % [mi, "  ·  BOSS" if BattleManager.match_data.get("boss", false) else ""], 30, Color.WHITE, UIKit.INK, 8))
+		box.add_child(UIKit.title(Loc.t("MAÇ %d%s") % [mi, Loc.t("  ·  BOSS") if BattleManager.match_data.get("boss", false) else ""], 30, Color.WHITE, UIKit.INK, 8))
 	var vs := UIKit.title("VS" if of != null else "", 120, Color("#ffd23f"), UIKit.INK, 22)
+	vs.layout_direction = Control.LAYOUT_DIRECTION_LTR
 	vs.position = Vector2(sz.x * 0.5 - 150, sz.y * 0.28)
 	vs.size = Vector2(300, 140)
 	vs.pivot_offset = Vector2(150, 70)
@@ -255,10 +257,10 @@ func _vs_intro() -> void:
 	p.add_child(pv)
 	if of != null:
 		var o: Dictionary = BattleManager.opponent
-		pv.add_child(UIKit.label("%s — %s" % [o["name"], o.get("title", "")], 28, UIKit.INK))
+		pv.add_child(UIKit.label(Loc.t("%s — %s") % [o["name"], o.get("title", "")], 28, UIKit.INK))
 		pv.add_child(UIKit.wrap_label(o.get("personality", ""), 21))
 		var ab: Dictionary = o.get("ability", {})
-		pv.add_child(UIKit.wrap_label("Özel yetenek: %s — %s" % [ab.get("name", ""), ab.get("desc", "")], 21, Color("#a23a5a"), true))
+		pv.add_child(UIKit.wrap_label(Loc.t("Özel yetenek: %s — %s") % [ab.get("name", ""), ab.get("desc", "")], 21, Color("#a23a5a"), true))
 		var rules_row := HFlowContainer.new()
 		rules_row.add_theme_constant_override("h_separation", 6)
 		for r in BattleManager.rules:
@@ -269,9 +271,9 @@ func _vs_intro() -> void:
 	else:
 		var ch: Dictionary = BattleManager.daily
 		var cond: Dictionary = ch.get("condition", {})
-		pv.add_child(UIKit.label("Tek tur · Hedef %s puan" % UIKit.fmt(float(ch.get("target", 18))), 28))
-		pv.add_child(UIKit.wrap_label("%s bugün %s!" % [IngredientDatabase.judge_map[cond["judge"]]["name"], MutationSystem.mutation_name(cond["mutation"])], 22, Color("#a23a5a"), true))
-	var go := UIKit.button("BAŞLA!", UIKit.GREEN, Vector2(0, 90), 36, "play")
+		pv.add_child(UIKit.label(Loc.t("Tek tur · Hedef %s puan") % UIKit.fmt(float(ch.get("target", 18))), 28))
+		pv.add_child(UIKit.wrap_label(Loc.t("%s bugün %s!") % [IngredientDatabase.judge_map[cond["judge"]]["name"], MutationSystem.mutation_name(cond["mutation"])], 22, Color("#a23a5a"), true))
+	var go := UIKit.button(Loc.t("BAŞLA!"), UIKit.GREEN, Vector2(0, 90), 36, "play")
 	info.add_child(go)
 	var tw := create_tween()
 	tw.tween_property(pf, "position:x", pf_x, 0.5).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
@@ -321,7 +323,7 @@ func _start_round() -> void:
 	if opp_ctrl:
 		opp_ctrl.active = true
 	if _tutorial:
-		_tut("Kilerdeki malzemelere dokunarak kaseye ekle. İpucu: Kurbağa Özü + Şeker = ?")
+		_tut(Loc.t("Kilerdeki malzemelere dokunarak kaseye ekle. İpucu: Kurbağa Özü + Şeker = ?"))
 
 
 func _refresh_pantry() -> void:
@@ -332,9 +334,9 @@ func _refresh_pantry() -> void:
 func _update_hud() -> void:
 	var cur: Dictionary = BattleManager.cur
 	if BattleManager.is_daily():
-		round_label.text = "GÜNLÜK"
+		round_label.text = Loc.t("GÜNLÜK")
 	else:
-		round_label.text = "TUR %d/%d" % [BattleManager.round_no, BattleManager.max_rounds]
+		round_label.text = Loc.t("TUR %d/%d") % [BattleManager.round_no, BattleManager.max_rounds]
 	round_sub.text = BattleManager.round_title()
 	var th: Dictionary = cur.get("theme", {})
 	theme_name.text = th.get("name", "")
@@ -344,22 +346,22 @@ func _update_hud() -> void:
 	var target: Dictionary = th.get("target", {})
 	for k in target.keys():
 		var rng: Array = target[k]
-		var nm: String = IngredientDatabase.STAT_NAMES.get(k, k)
-		var txt := "%s %d+" % [nm, int(rng[0])] if float(rng[0]) > 0 else "%s ≤%d" % [nm, int(rng[1])]
+		var nm: String = Loc.t(str(IngredientDatabase.STAT_NAMES.get(k, k)))
+		var txt := Loc.t("%s %d+") % [nm, int(rng[0])] if float(rng[0]) > 0 else Loc.t("%s ≤%d") % [nm, int(rng[1])]
 		if float(rng[0]) > 0 and float(rng[1]) < 100:
-			txt = "%s %d-%d" % [nm, int(rng[0]), int(rng[1])]
+			txt = Loc.t("%s %d-%d") % [nm, int(rng[0]), int(rng[1])]
 		chips_row.add_child(UIKit.chip(txt, IngredientDatabase.STAT_COLORS.get(k, UIKit.ORANGE), 16))
 	for m in th.get("methods", []):
 		chips_row.add_child(UIKit.chip(IngredientDatabase.method_name(m), KitchenStation.METHOD_COLORS.get(m, UIKit.GRAY), 16))
 	var mys: String = cur.get("mystery", "")
 	if mys != "":
-		chips_row.add_child(UIKit.chip("Gizem: " + FusionEngine.item(mys)["name"], UIKit.PURPLE, 16))
+		chips_row.add_child(UIKit.chip(Loc.t("Gizem: %s") % FusionEngine.item(mys)["name"], UIKit.PURPLE, 16))
 	for j in BattleManager.mutations.keys():
-		chips_row.add_child(UIKit.chip("%s: %s" % [IngredientDatabase.judge_map[j]["name"].split(" ")[-1], MutationSystem.mutation_name(BattleManager.mutations[j])], Color("#2fbf71"), 16))
+		chips_row.add_child(UIKit.chip(Loc.t("%s: %s") % [IngredientDatabase.judge_map[j]["name"].split(" ")[-1], MutationSystem.mutation_name(BattleManager.mutations[j])], Color("#2fbf71"), 16))
 	if BattleManager.is_daily():
-		score_label.text = "Hedef %s" % UIKit.fmt(float(BattleManager.daily.get("target", 18)))
+		score_label.text = Loc.t("Hedef %s") % UIKit.fmt(float(BattleManager.daily.get("target", 18)))
 	else:
-		score_label.text = "Sen %s · %s %s" % [UIKit.fmt(BattleManager.player_total), UIKit.fmt(BattleManager.opp_total), BattleManager.opponent["name"].split(" ")[-1]]
+		score_label.text = Loc.t("Sen %s · %s %s") % [UIKit.fmt(BattleManager.player_total), UIKit.fmt(BattleManager.opp_total), BattleManager.opponent["name"].split(" ")[-1]]
 
 
 func _round_banner(cur: Dictionary) -> void:
@@ -382,11 +384,11 @@ func _round_banner(cur: Dictionary) -> void:
 	center.add_child(p)
 	var v := UIKit.vbox(10)
 	p.add_child(v)
-	var big := "GÜNLÜK MEYDAN OKUMA" if BattleManager.is_daily() else "TUR %d" % BattleManager.round_no
+	var big := Loc.t("GÜNLÜK MEYDAN OKUMA") if BattleManager.is_daily() else Loc.t("TUR %d") % BattleManager.round_no
 	v.add_child(UIKit.title(big, 58, Color("#ff9b3d"), UIKit.INK, 14))
 	v.add_child(UIKit.label(BattleManager.round_title(), 30, UIKit.PURPLE))
 	var th: Dictionary = cur.get("theme", {})
-	v.add_child(UIKit.label("Tema: " + th.get("name", ""), 34, UIKit.INK))
+	v.add_child(UIKit.label(Loc.t("Tema: %s") % th.get("name", ""), 34, UIKit.INK))
 	v.add_child(UIKit.wrap_label(th.get("desc", ""), 24))
 	var mys: String = cur.get("mystery", "")
 	if mys != "":
@@ -397,13 +399,13 @@ func _round_banner(cur: Dictionary) -> void:
 		ic.set_item(mys)
 		row.add_child(ic)
 		var mv := UIKit.vbox(0)
-		mv.add_child(UIKit.label("GİZEMLİ MALZEME", 22, UIKit.PURPLE))
+		mv.add_child(UIKit.label(Loc.t("GİZEMLİ MALZEME"), 22, UIKit.PURPLE))
 		mv.add_child(UIKit.label(FusionEngine.item(mys)["name"], 30, UIKit.INK))
-		mv.add_child(UIKit.label("Yemeğinde kullanmalısın!", 20, Color("#a23a5a")))
+		mv.add_child(UIKit.label(Loc.t("Yemeğinde kullanmalısın!"), 20, Color("#a23a5a")))
 		row.add_child(mv)
 		v.add_child(row)
 		AudioManager.sfx("magic")
-	v.add_child(UIKit.label("Devam etmek için dokun", 20, Color("#8a6a50"), false))
+	v.add_child(UIKit.label(Loc.t("Devam etmek için dokun"), 20, Color("#8a6a50"), false))
 	UIKit.pop_in(p)
 	AudioManager.sfx("score_big" if BattleManager.round_no == 3 else "whoosh")
 	var tapped := [false]
@@ -446,7 +448,7 @@ func _process(delta: float) -> void:
 
 func _on_timeout() -> void:
 	AudioManager.sfx("timeout")
-	GameManager.toast("Süre doldu!", UIKit.RED, "clock")
+	GameManager.toast(Loc.t("Süre doldu!"), UIKit.RED, "clock")
 	if phase == "select":
 		var inputs: Array = station.slots.duplicate()
 		var p := BattleManager.player_pantry()
@@ -475,12 +477,12 @@ func _on_timeout() -> void:
 # ------------------------------------------------------------------ kiler olayları
 func _on_bowl_changed() -> void:
 	if _tutorial and phase == "select" and station.slots.size() >= 2:
-		_tut("Harika! KARIŞTIR ile füzyon yap ya da bir yöntem seçip PİŞİR'e bas.")
+		_tut(Loc.t("Harika! KARIŞTIR ile füzyon yap ya da bir yöntem seçip PİŞİR'e bas."))
 
 
 func _on_fused(it: Dictionary, is_new: bool) -> void:
 	if is_new:
-		_banner("YENİ FÜZYON!", it["name"], UIKit.PURPLE)
+		_banner(Loc.t("YENİ FÜZYON!"), it["name"], UIKit.PURPLE)
 		if opp_fig and randf() < 0.6:
 			opp_fig.react("surprised")
 	player_fig.react("jump")
@@ -492,8 +494,8 @@ func _on_cook(inputs: Array, method: String) -> void:
 		return
 	var probe := FusionEngine.cook(inputs, method)
 	if not BattleManager.mystery_ok(probe):
-		var m := UIKit.modal(self, "Gizem Unutuldu!", "Bu turun gizemli malzemesi (%s) yemeğinde yok. Tema puanın düşer. Yine de pişirilsin mi?" % FusionEngine.item(BattleManager.cur["mystery"])["name"],
-			[["Geri Dön", "no", UIKit.GRAY], ["Pişir", "yes", UIKit.ORANGE]])
+		var m := UIKit.modal(self, Loc.t("Gizem Unutuldu!"), Loc.t("Bu turun gizemli malzemesi (%s) yemeğinde yok. Tema puanın düşer. Yine de pişirilsin mi?") % FusionEngine.item(BattleManager.cur["mystery"])["name"],
+			[[Loc.t("Geri Dön"), "no", UIKit.GRAY], [Loc.t("Pişir"), "yes", UIKit.ORANGE]])
 		var ch: String = await m.closed
 		if ch != "yes":
 			return
@@ -516,7 +518,7 @@ func _cook(inputs: Array, method: String, forced_q: float) -> void:
 		q = forced_q
 	elif mods.has("auto"):
 		q = float(mods["auto"])
-		GameManager.toast("Otomatik pişirme: kalite %%%d" % int(q * 100), UIKit.BLUE, "gear")
+		GameManager.toast(Loc.t("Otomatik pişirme: kalite %%%d") % int(q * 100), UIKit.BLUE, "gear")
 		AudioManager.sfx("robot")
 		await get_tree().create_timer(0.8).timeout
 	else:
@@ -550,7 +552,7 @@ func _cook(inputs: Array, method: String, forced_q: float) -> void:
 	if opp_ctrl:
 		opp_ctrl.active = true
 	if _tutorial:
-		_tut("Tabak ve süsleme seç: temaya ve yemeğe uyanlar sunum puanını artırır!")
+		_tut(Loc.t("Tabak ve süsleme seç: temaya ve yemeğe uyanlar sunum puanını artırır!"))
 
 
 func _reveal_dish(dish: Dictionary, first: bool, q: float) -> void:
@@ -564,12 +566,12 @@ func _reveal_dish(dish: Dictionary, first: bool, q: float) -> void:
 	FxBurst.spawn(scene_area, dish_view.position + Vector2(0, -50), "sparkles", 12, Color("#ffd23f"))
 	AudioManager.sfx("discover" if first else "pop")
 	if first:
-		_banner("YENİ TARİF!" if not dish.get("secret", false) else "GİZLİ TARİF!", dish["name"], UIKit.PINK)
+		_banner(Loc.t("YENİ TARİF!") if not dish.get("secret", false) else Loc.t("GİZLİ TARİF!"), dish["name"], UIKit.PINK)
 		player_fig.react("cheer")
 		if opp_fig:
 			opp_fig.react("surprised")
 	else:
-		_banner(dish["name"], "Pişirme: %%%d" % int(q * 100), UIKit.ORANGE)
+		_banner(dish["name"], Loc.t("Pişirme: %%%d") % int(q * 100), UIKit.ORANGE)
 		player_fig.react("smug" if q >= 0.8 else "jump")
 	if dish.get("tainted", "") != "" or dish.get("tags", []).has("cursed"):
 		FxBurst.spawn(scene_area, dish_view.position + Vector2(0, -60), "smoke", 10, Color(0.6, 0.9, 0.4))
@@ -698,7 +700,7 @@ func _sabotage_feedback(ab: String, res: Dictionary) -> void:
 		"adapt":
 			player_fig.react("smug")
 	if ab == "ingredient_theft" and BattleManager.cur.get("stolen", "") != "":
-		GameManager.toast("Çalındı: %s" % FusionEngine.item(BattleManager.cur["stolen"])["name"], UIKit.ORANGE, "cross")
+		GameManager.toast(Loc.t("Çalındı: %s") % FusionEngine.item(BattleManager.cur["stolen"])["name"], UIKit.ORANGE, "cross")
 	if ab == "gravity_shift" and result in ["full", "half", "adapt"] and dish_view.visible:
 		var tw := create_tween()
 		tw.tween_property(dish_view, "position:y", dish_view.position.y - 60, 0.6).set_trans(Tween.TRANS_SINE)
@@ -745,7 +747,7 @@ func _clear_tut() -> void:
 func _pause_menu() -> void:
 	var was := timer_on
 	timer_on = false
-	var m := UIKit.modal(self, "DURAKLATILDI", "", [["Devam Et", "close", UIKit.GREEN], ["Ses: %s" % ("Açık" if float(SaveManager.setting("music", 0.7)) > 0.01 else "Kapalı"), "sound", UIKit.BLUE], ["Maçtan Çık", "quit", UIKit.RED]])
+	var m := UIKit.modal(self, Loc.t("DURAKLATILDI"), "", [[Loc.t("Devam Et"), "close", UIKit.GREEN], [Loc.t("Ses: %s") % (Loc.t("Açık") if float(SaveManager.setting("music", 0.7)) > 0.01 else Loc.t("Kapalı")), "sound", UIKit.BLUE], [Loc.t("Maçtan Çık"), "quit", UIKit.RED]])
 	var ch: String = await m.closed
 	if ch == "sound":
 		var on := float(SaveManager.setting("music", 0.7)) > 0.01
@@ -755,7 +757,7 @@ func _pause_menu() -> void:
 		timer_on = was
 		return
 	if ch == "quit":
-		var m2 := UIKit.modal(self, "Emin misin?", "Maçtan çıkarsan bu maçın ilerlemesi kaybolur.", [["Vazgeç", "no", UIKit.GRAY], ["Çık", "yes", UIKit.RED]])
+		var m2 := UIKit.modal(self, Loc.t("Emin misin?"), Loc.t("Maçtan çıkarsan bu maçın ilerlemesi kaybolur."), [[Loc.t("Vazgeç"), "no", UIKit.GRAY], [Loc.t("Çık"), "yes", UIKit.RED]])
 		var c2: String = await m2.closed
 		if c2 == "yes":
 			BattleManager.active = false

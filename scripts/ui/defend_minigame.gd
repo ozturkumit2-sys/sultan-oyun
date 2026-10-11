@@ -16,9 +16,11 @@ var _fast := 0
 
 
 func _init() -> void:
+	add_to_group("ui_blocker")
 	set_anchors_preset(Control.PRESET_FULL_RECT)
 	mouse_filter = Control.MOUSE_FILTER_STOP
 	z_index = 75
+	layout_direction = Control.LAYOUT_DIRECTION_LTR   # mutlak konumlu oyun alanı: sağdan sola dillerde aynalanmaz
 
 
 func start(ab_color: Color, ab_name: String) -> void:
@@ -29,11 +31,11 @@ func start(ab_color: Color, ab_name: String) -> void:
 		window *= 1.4
 	for i in 3:
 		_runes.append({"p": Vector2(_rng.randf_range(0.18, 0.82), _rng.randf_range(0.34, 0.74)), "t0": 0.7 + i * window * 0.85, "hit": -1.0})
-	var t := UIKit.title("SAVUN!", 64, Color.WHITE, UIKit.INK, 14)
+	var t := UIKit.title(Loc.t("SAVUN!"), 64, Color.WHITE, UIKit.INK, 14)
 	t.set_anchors_preset(Control.PRESET_TOP_WIDE)
 	t.offset_top = GameManager.screen_size.y * 0.14
 	add_child(t)
-	var tip := UIKit.title("Kalkan rünlerine sönmeden dokun!", 28, Color("#fff1a8"), UIKit.INK, 8)
+	var tip := UIKit.title(Loc.t("Kalkan rünlerine sönmeden dokun!"), 28, Color("#fff1a8"), UIKit.INK, 8)
 	tip.set_anchors_preset(Control.PRESET_TOP_WIDE)
 	tip.offset_top = GameManager.screen_size.y * 0.14 + 80
 	add_child(tip)
@@ -89,7 +91,7 @@ func _finish() -> void:
 		return
 	_done = true
 	var perfect := _hits >= 3 and _fast >= 3
-	var txt := "KUSURSUZ SAVUNMA!" if perfect else ("ENGELLENDİ!" if _hits >= 3 else ("KISMEN!" if _hits == 2 else "DELİNDİ!"))
+	var txt := Loc.t("KUSURSUZ SAVUNMA!") if perfect else (Loc.t("ENGELLENDİ!") if _hits >= 3 else (Loc.t("KISMEN!") if _hits == 2 else Loc.t("DELİNDİ!")))
 	var res := UIKit.title(txt, 56, Color("#7dffb0") if _hits >= 3 else (Color("#fff1a8") if _hits == 2 else Color("#ff8a8a")), UIKit.INK, 14)
 	res.position = Vector2(0, size.y * 0.6)
 	res.size = Vector2(size.x, 80)

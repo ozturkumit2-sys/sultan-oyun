@@ -3,7 +3,7 @@ extends Node
 ## kozmetikler) JSON dosyalarından yükler ve hızlı erişim için dizinler.
 
 const STAT_KEYS := ["sweet", "spicy", "fresh", "weird", "magic", "toxic", "volatile", "life", "rarity"]
-const STAT_NAMES := {"sweet": "Tatlılık", "spicy": "Acılık", "fresh": "Tazelik", "weird": "Tuhaflık",
+const STAT_NAMES := {"sweet": "Tatlılık", "spicy": "Acılık", "fresh": "Tazelik", "weird": "Tuhaflık",  # i18n
 	"magic": "Büyü", "toxic": "Zehir", "volatile": "Oynaklık", "life": "Canlılık", "rarity": "Nadirlik"}
 const STAT_COLORS := {"sweet": Color("#ff7ab8"), "spicy": Color("#ff4f3a"), "fresh": Color("#3ddc84"),
 	"weird": Color("#b35ad8"), "magic": Color("#7c6bff"), "toxic": Color("#8fbf3a"), "volatile": Color("#ffb020"),
@@ -156,8 +156,10 @@ func load_all() -> void:
 		for e in load_errors:
 			push_warning("[Veri] " + str(e))
 	_slots.clear()
-	for root in [ingredients, categories, recipes, methods, themes, judges, reactions, judge_lines, opponents, leagues, rules, content]:
-		_collect(root, 0)
+	for root in [ingredients, categories, recipes, methods, themes, judges, reactions, opponents, leagues, rules, content,
+			content.get("decor", [])]:
+		_collect(root, 0, true)
+	_collect(judge_lines, 0, false)   # replik havuzlarının tamamı metindir (mutation/method alt sözlükleri dahil)
 	apply_language()
 
 
@@ -170,23 +172,23 @@ const NO_TR := {"id": 1, "tags": 1, "inputs": 1, "method": 1, "color": 1, "color
 	"themes": 1, "mystery": 1, "preferred": 1, "methods": 1, "likes_tags": 1, "noun": 1, "adj": 1, "weights": 1,
 	"target": 1, "stats": 1, "bonus": 1, "tags_add": 1, "visual": 1, "category": 1, "skin_tones": 1, "hair_colors": 1,
 	"kind": 1, "slot": 1, "judge": 1, "mutation": 1, "ability": 0, "weight_shift": 1, "rule": 1, "hat": 1, "shape": 1,
-	"style": 1, "pose": 1, "preset": 1, "reaction": 1, "anim": 1, "sfx": 1, "key": 1, "stat": 1, "tag": 1, "effect": 0}
+	"style": 1, "pose": 1, "preset": 1, "reaction": 1, "anim": 1, "sfx": 1, "key": 1, "stat": 1, "tag": 1, "effect": 0, "dish": 1}
 
 
-func _collect(v: Variant, depth: int) -> void:
+func _collect(v: Variant, depth: int, strict: bool) -> void:
 	if depth > 12:
 		return
 	if v is Dictionary:
 		var d: Dictionary = v
 		for k in d.keys():
-			if NO_TR.get(str(k), 0) == 1:
+			if strict and NO_TR.get(str(k), 0) == 1:
 				continue
 			var x: Variant = d[k]
 			if x is String:
 				if _translatable(x):
 					_slots.append([d, k, x])
 			elif x is Dictionary or x is Array:
-				_collect(x, depth + 1)
+				_collect(x, depth + 1, strict)
 	elif v is Array:
 		var a: Array = v
 		for i in a.size():
@@ -195,7 +197,7 @@ func _collect(v: Variant, depth: int) -> void:
 				if _translatable(x):
 					_slots.append([a, i, x])
 			elif x is Dictionary or x is Array:
-				_collect(x, depth + 1)
+				_collect(x, depth + 1, strict)
 
 
 ## Kimlik gibi görünen (boşluksuz küçük harf/rakam/alt çizgi) ve renk kodu metinlerini atla.
@@ -204,7 +206,7 @@ static func _translatable(s: String) -> bool:
 		return false
 	var idlike := true
 	for c in s:
-		if not ((c >= "a" and c <= "z") or (c >= "0" and c <= "9") or c == "_"):
+		if not ((c >= "a" and c <= "z") or (c >= "0" and c <= "9") or c == "_" or c == ":" or c == "-"):
 			idlike = false
 			break
 	return not idlike

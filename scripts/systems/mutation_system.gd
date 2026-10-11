@@ -4,7 +4,7 @@ extends RefCounted
 ## Her jüride aynı anda en fazla bir mutasyon olabilir (sınırsız birikme yok).
 ## Normal maçta mutasyonlar tur sonunda etkinleşir ve maç bitince silinir.
 
-const CATEGORY_NAMES := {"cosmetic": "Görsel", "taste": "Damak Değişimi", "chaos": "Kaos"}
+const CATEGORY_NAMES := {"cosmetic": "Görsel", "taste": "Damak Değişimi", "chaos": "Kaos"}  # i18n
 
 
 static func chaos_level(dish: Dictionary) -> float:

@@ -120,6 +120,7 @@ static func simple_dish(main: Dictionary, second: Dictionary, dish: String) -> S
 			cand = str(main["adj"]) + " " + dish
 		return cand
 	var L := _L()
+	dish = str(L.get("dish", {}).get(dish, Loc.t(dish)))
 	var a := _short(main)
 	if second["id"] == main["id"]:
 		return str(L.get("dish1", "{a} {dish}")).replace("{a}", a).replace("{dish}", dish)

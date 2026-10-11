@@ -55,7 +55,7 @@ func _figures(area: Control, h: float, won: bool) -> void:
 
 func _build_career() -> void:
 	var won: bool = r["won"]
-	var t := UIKit.title("KAZANDIN!" if won else "KAYBETTİN", 70, Color("#fff1a8") if won else Color("#ffd0d0"), UIKit.INK, 16)
+	var t := UIKit.title(Loc.t("KAZANDIN!") if won else Loc.t("KAYBETTİN"), 70, Color("#fff1a8") if won else Color("#ffd0d0"), UIKit.INK, 16)
 	root_v.add_child(t)
 	UIKit.pop_in(t, 0.2)
 	var fig_area := Control.new()
@@ -73,7 +73,7 @@ func _build_career() -> void:
 	grid.columns = 3
 	grid.add_theme_constant_override("h_separation", 12)
 	content.add_child(grid)
-	for h in ["Tur", "Sen", BattleManager.opponent_name().split(" ")[-1] if r.get("opponent", "") != "" else "Rakip"]:
+	for h in [Loc.t("Tur"), Loc.t("Sen"), BattleManager.opponent_name().split(" ")[-1] if r.get("opponent", "") != "" else Loc.t("Rakip")]:
 		grid.add_child(UIKit.label(h, 22, Color("#8a6a50")))
 	for rr in r["rounds"]:
 		grid.add_child(UIKit.label(str(rr["round"]), 24))
@@ -83,14 +83,14 @@ func _build_career() -> void:
 		var ol := UIKit.label(UIKit.fmt(rr["opp"]), 26, UIKit.RED if rr["winner"] == "opp" else UIKit.INK)
 		ol.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		grid.add_child(ol)
-	grid.add_child(UIKit.label("TOPLAM", 24, UIKit.PURPLE))
+	grid.add_child(UIKit.label(Loc.t("TOPLAM"), 24, UIKit.PURPLE))
 	grid.add_child(UIKit.label(UIKit.fmt(r["player_total"]), 30, UIKit.PURPLE))
 	grid.add_child(UIKit.label(UIKit.fmt(r["opp_total"]), 30, UIKit.PURPLE))
 	if r.get("tiebreak", "") != "":
 		content.add_child(UIKit.wrap_label(r["tiebreak"], 22, Color("#a23a5a"), true))
 	# yıldızlar
 	var lg: Dictionary = IngredientDatabase.league(int(IngredientDatabase.matches[r["match_id"]]["league"]))
-	var star_texts := ["Maçı kazan", "Toplam %d+ puan" % int(lg.get("score_star", 60)), r.get("challenge", "")]
+	var star_texts := [Loc.t("Maçı kazan"), Loc.t("Toplam %d+ puan") % int(lg.get("score_star", 60)), r.get("challenge", "")]
 	var srow := UIKit.hbox(8)
 	srow.alignment = BoxContainer.ALIGNMENT_CENTER
 	content.add_child(srow)
@@ -111,11 +111,11 @@ func _build_career() -> void:
 	rew.alignment = BoxContainer.ALIGNMENT_CENTER
 	content.add_child(rew)
 	rew.add_child(UIKit.icon_label("coin", "+%d" % int(r["coins"]), 32, Color("#c98a14"), 48))
-	rew.add_child(UIKit.icon_label("levelup", "+%d XP" % int(r["xp"]), 30, UIKit.GREEN, 44))
+	rew.add_child(UIKit.icon_label("levelup", Loc.t("+%d XP") % int(r["xp"]), 30, UIKit.GREEN, 44))
 	if int(r.get("levels", 0)) > 0:
-		content.add_child(UIKit.wrap_label("SEVİYE ATLADIN! Seviye %d · Uzmanlık puanını Şefim ekranında kullan." % ProgressionManager.level(), 22, UIKit.GREEN, true))
+		content.add_child(UIKit.wrap_label(Loc.t("SEVİYE ATLADIN! Seviye %d · Uzmanlık puanını Şefim ekranında kullan.") % ProgressionManager.level(), 22, UIKit.GREEN, true))
 	if int(r.get("league_completed", 0)) > 0:
-		content.add_child(UIKit.wrap_label("LİG TAMAMLANDI! +%d bonus para" % int(r.get("league_bonus", 0)), 26, UIKit.PURPLE, true))
+		content.add_child(UIKit.wrap_label(Loc.t("LİG TAMAMLANDI! +%d bonus para") % int(r.get("league_bonus", 0)), 26, UIKit.PURPLE, true))
 	for u in r.get("unlocked", []):
 		var row := UIKit.hbox(10)
 		row.alignment = BoxContainer.ALIGNMENT_CENTER
@@ -125,24 +125,24 @@ func _build_career() -> void:
 				ic.custom_minimum_size = Vector2(64, 64)
 				ic.set_item(u["id"])
 				row.add_child(ic)
-				row.add_child(UIKit.label("Yeni malzeme: %s" % IngredientDatabase.ingredients[u["id"]]["name"], 24, UIKit.INK))
+				row.add_child(UIKit.label(Loc.t("Yeni malzeme: %s") % IngredientDatabase.ingredients[u["id"]]["name"], 24, UIKit.INK))
 			"feature":
 				row.add_child(UIKit.icon("plus", 52))
-				row.add_child(UIKit.wrap_label("Üçüncü kase yuvası açıldı! Artık 3 malzemeli tarifler yapabilirsin.", 22, UIKit.INK, true))
+				row.add_child(UIKit.wrap_label(Loc.t("Üçüncü kase yuvası açıldı! Artık 3 malzemeli tarifler yapabilirsin."), 22, UIKit.INK, true))
 			"league":
 				row.add_child(UIKit.icon("map", 52))
-				row.add_child(UIKit.label("Yeni lig açıldı: %s" % IngredientDatabase.league(int(u["id"])).get("name", ""), 24, UIKit.INK))
+				row.add_child(UIKit.label(Loc.t("Yeni lig açıldı: %s") % IngredientDatabase.league(int(u["id"])).get("name", ""), 24, UIKit.INK))
 		content.add_child(row)
 	ProgressionManager.add_coins(0)
 	var btns := UIKit.hbox(10)
 	root_v.add_child(btns)
-	var again := UIKit.button("Tekrar", UIKit.ORANGE, Vector2(0, 86), 26, "refresh")
+	var again := UIKit.button(Loc.t("Tekrar"), UIKit.ORANGE, Vector2(0, 86), 26, "refresh")
 	again.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	again.pressed.connect(func():
 		BattleManager.start_career(r["match_id"])
 		GameManager.goto("kitchen", {}, false))
 	btns.add_child(again)
-	var cont := UIKit.button("Devam", UIKit.GREEN, Vector2(0, 86), 30, "map")
+	var cont := UIKit.button(Loc.t("Devam"), UIKit.GREEN, Vector2(0, 86), 30, "map")
 	cont.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	cont.pressed.connect(func(): GameManager.goto("career", {}, false))
 	btns.add_child(cont)
@@ -160,7 +160,7 @@ func _star_anim(st: Control, delay: float) -> void:
 
 func _build_daily() -> void:
 	var won: bool = r["won"]
-	var t := UIKit.title("GÜNLÜK SKOR", 60, Color("#fff1a8"), UIKit.INK, 14)
+	var t := UIKit.title(Loc.t("GÜNLÜK SKOR"), 60, Color("#fff1a8"), UIKit.INK, 14)
 	root_v.add_child(t)
 	var fig_area := Control.new()
 	fig_area.custom_minimum_size = Vector2(0, 280)
@@ -173,34 +173,34 @@ func _build_daily() -> void:
 	p.add_child(v)
 	v.add_child(UIKit.title(UIKit.fmt(r["player_total"]) + " / 30", 60, Color("#ff9b3d"), UIKit.INK, 12))
 	if r.get("new_best", false):
-		var nb := UIKit.chip("YENİ KİŞİSEL REKOR!", UIKit.PINK, 26)
+		var nb := UIKit.chip(Loc.t("YENİ KİŞİSEL REKOR!"), UIKit.PINK, 26)
 		nb.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 		v.add_child(nb)
-	v.add_child(UIKit.label("Bugünkü en iyi: %s · Hedef: %s" % [UIKit.fmt(r["best"]), UIKit.fmt(float(r["target"]))], 24))
-	v.add_child(UIKit.icon_label("levelup", "+%d XP" % int(r["xp"]), 26, UIKit.GREEN, 40))
+	v.add_child(UIKit.label(Loc.t("Bugünkü en iyi: %s · Hedef: %s") % [UIKit.fmt(r["best"]), UIKit.fmt(float(r["target"]))], 24))
+	v.add_child(UIKit.icon_label("levelup", Loc.t("+%d XP") % int(r["xp"]), 26, UIKit.GREEN, 40))
 	if DailyChallengeManager.can_claim():
-		var claim := UIKit.button("ÖDÜLÜ AL (+%d)" % DailyChallengeManager.REWARD, UIKit.YELLOW, Vector2(0, 86), 30, "coin")
+		var claim := UIKit.button(Loc.t("ÖDÜLÜ AL (+%d)") % DailyChallengeManager.REWARD, UIKit.YELLOW, Vector2(0, 86), 30, "coin")
 		claim.pressed.connect(func():
 			if DailyChallengeManager.claim():
 				AudioManager.sfx("coins")
 				FxBurst.spawn(claim, claim.size * 0.5, "coins", 20)
 				claim.disabled = true
-				claim.text = "ALINDI!")
+				claim.text = Loc.t("ALINDI!"))
 		v.add_child(claim)
 	elif DailyChallengeManager.claimed_today():
-		v.add_child(UIKit.label("Bugünün ödülü alındı. Yarın yeni meydan okuma!", 22, Color("#6a4a3a")))
+		v.add_child(UIKit.label(Loc.t("Bugünün ödülü alındı. Yarın yeni meydan okuma!"), 22, Color("#6a4a3a")))
 	else:
-		v.add_child(UIKit.wrap_label("Ödül için en az %s puan gerekli. Tekrar deneyebilirsin!" % UIKit.fmt(float(r["target"])), 22, Color("#a23a5a"), true))
+		v.add_child(UIKit.wrap_label(Loc.t("Ödül için en az %s puan gerekli. Tekrar deneyebilirsin!") % UIKit.fmt(float(r["target"])), 22, Color("#a23a5a"), true))
 	root_v.add_child(UIKit.expander())
 	var btns := UIKit.hbox(10)
 	root_v.add_child(btns)
-	var again := UIKit.button("Tekrar", UIKit.ORANGE, Vector2(0, 86), 26, "refresh")
+	var again := UIKit.button(Loc.t("Tekrar"), UIKit.ORANGE, Vector2(0, 86), 26, "refresh")
 	again.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	again.pressed.connect(func():
 		BattleManager.start_daily(DailyChallengeManager.challenge())
 		GameManager.goto("kitchen", {}, false))
 	btns.add_child(again)
-	var cont := UIKit.button("Tamam", UIKit.GREEN, Vector2(0, 86), 30, "check")
+	var cont := UIKit.button(Loc.t("Tamam"), UIKit.GREEN, Vector2(0, 86), 30, "check")
 	cont.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	cont.pressed.connect(func(): GameManager.goto("daily", {}, false))
 	btns.add_child(cont)

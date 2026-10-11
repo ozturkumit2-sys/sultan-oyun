@@ -9,15 +9,15 @@ var _tabs: Dictionary = {}
 
 func _ready() -> void:
 	setup_screen("sunburst", Color("#8fb4ff"), Color("#5b4bd6"))
-	make_header("TARİF KİTABI", true, true)
-	var info := UIKit.label("%d tarif · %d / %d özel tarif" % [RecipeBookManager.count_all(), RecipeBookManager.count_handcrafted(), IngredientDatabase.recipes.size()], 22, Color.WHITE)
+	make_header(Loc.t("TARİF KİTABI"), true, true)
+	var info := UIKit.label(Loc.t("%d tarif · %d / %d özel tarif") % [RecipeBookManager.count_all(), RecipeBookManager.count_handcrafted(), IngredientDatabase.recipes.size()], 22, Color.WHITE)
 	root_v.add_child(UIKit.outlined(info, UIKit.INK, 6))
 	var tabs := HFlowContainer.new()
 	tabs.add_theme_constant_override("h_separation", 6)
 	tabs.add_theme_constant_override("v_separation", 6)
 	tabs.alignment = FlowContainer.ALIGNMENT_CENTER
 	root_v.add_child(tabs)
-	for t in [["recipes", "Tarifler"], ["experiments", "Deneyler"], ["secrets", "Karakterler"], ["mutations", "Mutasyonlar"], ["achievements", "Başarımlar"]]:
+	for t in [["recipes", Loc.t("Tarifler")], ["experiments", Loc.t("Deneyler")], ["secrets", Loc.t("Karakterler")], ["mutations", Loc.t("Mutasyonlar")], ["achievements", Loc.t("Başarımlar")]]:
 		var b := UIKit.button(t[1], Color("#c9b8a6"), Vector2(134, 54), 19)
 		var key: String = t[0]
 		b.pressed.connect(func(): _set_tab(key))
@@ -61,7 +61,7 @@ func _flow() -> HFlowContainer:
 
 
 func _recipes() -> void:
-	holder.add_child(UIKit.label("Füzyonlar", 26, Color("#8a5a3b"), true, HORIZONTAL_ALIGNMENT_LEFT))
+	holder.add_child(UIKit.label(Loc.t("Füzyonlar"), 26, Color("#8a5a3b"), true, HORIZONTAL_ALIGNMENT_LEFT))
 	var f1 := _flow()
 	var f2: HFlowContainer
 	var dishes_started := false
@@ -69,7 +69,7 @@ func _recipes() -> void:
 		var r: Dictionary = IngredientDatabase.recipes[rid]
 		if r.get("kind", "") == "dish" and not dishes_started:
 			dishes_started = true
-			holder.add_child(UIKit.label("Yemekler", 26, Color("#8a5a3b"), true, HORIZONTAL_ALIGNMENT_LEFT))
+			holder.add_child(UIKit.label(Loc.t("Yemekler"), 26, Color("#8a5a3b"), true, HORIZONTAL_ALIGNMENT_LEFT))
 			f2 = _flow()
 		var card := _recipe_card(rid)
 		if dishes_started:
@@ -119,13 +119,13 @@ func _recipe_card(rid: String) -> Control:
 		v.add_child(ins)
 		var best := RecipeBookManager.best_score(rid)
 		if best > 0:
-			v.add_child(UIKit.label("En iyi: %s" % UIKit.fmt(best), 17, Color("#8a5a3b"), false, HORIZONTAL_ALIGNMENT_LEFT))
+			v.add_child(UIKit.label(Loc.t("En iyi: %s") % UIKit.fmt(best), 17, Color("#8a5a3b"), false, HORIZONTAL_ALIGNMENT_LEFT))
 	elif RecipeBookManager.hint_visible(rid):
-		var hl := UIKit.wrap_label("İpucu: " + str(r.get("hint", "")), 17, UIKit.PURPLE, false, HORIZONTAL_ALIGNMENT_LEFT)
+		var hl := UIKit.wrap_label(Loc.t("İpucu: ") + str(r.get("hint", "")), 17, UIKit.PURPLE, false, HORIZONTAL_ALIGNMENT_LEFT)
 		hl.custom_minimum_size.x = 180
 		v.add_child(hl)
 	else:
-		v.add_child(UIKit.icon_label("bulb", "İpucu al (%d)" % RecipeBookManager.HINT_PRICE, 17, Color("#c98a14"), 26))
+		v.add_child(UIKit.icon_label("bulb", Loc.t("İpucu al (%d)") % RecipeBookManager.HINT_PRICE, 17, Color("#c98a14"), 26))
 	card.tapped.connect(func(): _recipe_tap(rid))
 	return card
 
@@ -136,13 +136,13 @@ func _recipe_tap(rid: String) -> void:
 		return
 	if RecipeBookManager.hint_visible(rid):
 		return
-	var m := UIKit.modal(self, "İpucu Al?", "%d Şef Parası karşılığında bu tarifin ipucunu görebilirsin." % RecipeBookManager.HINT_PRICE, [["Vazgeç", "no", UIKit.GRAY], ["Al", "yes", UIKit.GREEN]])
+	var m := UIKit.modal(self, Loc.t("İpucu Al?"), Loc.t("%d Şef Parası karşılığında bu tarifin ipucunu görebilirsin.") % RecipeBookManager.HINT_PRICE, [[Loc.t("Vazgeç"), "no", UIKit.GRAY], [Loc.t("Al"), "yes", UIKit.GREEN]])
 	var ch: String = await m.closed
 	if ch == "yes":
 		if RecipeBookManager.buy_hint(rid):
 			AudioManager.sfx("unlock")
 		else:
-			GameManager.toast("Yeterli Şef Parası yok!", UIKit.RED, "coin")
+			GameManager.toast(Loc.t("Yeterli Şef Parası yok!"), UIKit.RED, "coin")
 		_set_tab("recipes")
 
 
@@ -163,7 +163,7 @@ func _details(it: Dictionary) -> void:
 	grid.add_theme_constant_override("h_separation", 10)
 	extra.add_child(grid)
 	for k in IngredientDatabase.STAT_KEYS:
-		var l := UIKit.label(IngredientDatabase.STAT_NAMES[k], 19, UIKit.INK, true, HORIZONTAL_ALIGNMENT_LEFT)
+		var l := UIKit.label(Loc.t(str(IngredientDatabase.STAT_NAMES[k])), 19, UIKit.INK, true, HORIZONTAL_ALIGNMENT_LEFT)
 		l.custom_minimum_size.x = 130
 		grid.add_child(l)
 		var b := UIKit.bar(it["stats"][k], 100, IngredientDatabase.STAT_COLORS[k], 16, 320)
@@ -172,11 +172,11 @@ func _details(it: Dictionary) -> void:
 	var meta := []
 	if it.get("method", "") != "":
 		meta.append(IngredientDatabase.method_name(it["method"]))
-	meta.append("Zincir: %d adım" % int(it.get("depth", 1)))
+	meta.append(Loc.t("Zincir: %d adım") % int(it.get("depth", 1)))
 	if str(it.get("living", "")) != "":
-		meta.append("Canlı yemek!")
+		meta.append(Loc.t("Canlı yemek!"))
 	extra.add_child(UIKit.label(" · ".join(PackedStringArray(meta)), 19, UIKit.PURPLE))
-	UIKit.modal(self, it.get("name", ""), "", [["Kapat", "close", UIKit.GREEN]], extra)
+	UIKit.modal(self, it.get("name", ""), "", [[Loc.t("Kapat"), "close", UIKit.GREEN]], extra)
 
 
 func _experiments() -> void:
@@ -186,13 +186,13 @@ func _experiments() -> void:
 			fus.append(id)
 	var dishes := RecipeBookManager.known_generic_dishes()
 	if fus.is_empty() and dishes.is_empty():
-		holder.add_child(UIKit.wrap_label("Henüz deney yok. Kaos Lab'da malzemeleri serbestçe birleştir!", 24, Color("#8a6a50")))
+		holder.add_child(UIKit.wrap_label(Loc.t("Henüz deney yok. Kaos Lab'da malzemeleri serbestçe birleştir!"), 24, Color("#8a6a50")))
 		return
-	holder.add_child(UIKit.label("Deneysel Yemekler (%d)" % dishes.size(), 24, Color("#8a5a3b"), true, HORIZONTAL_ALIGNMENT_LEFT))
+	holder.add_child(UIKit.label(Loc.t("Deneysel Yemekler (%d)") % dishes.size(), 24, Color("#8a5a3b"), true, HORIZONTAL_ALIGNMENT_LEFT))
 	var f := _flow()
 	for id in dishes.slice(0, 60):
 		f.add_child(_small_card(id))
-	holder.add_child(UIKit.label("Deneysel Füzyonlar (%d)" % fus.size(), 24, Color("#8a5a3b"), true, HORIZONTAL_ALIGNMENT_LEFT))
+	holder.add_child(UIKit.label(Loc.t("Deneysel Füzyonlar (%d)") % fus.size(), 24, Color("#8a5a3b"), true, HORIZONTAL_ALIGNMENT_LEFT))
 	var f2 := _flow()
 	for id in fus.slice(0, 60):
 		f2.add_child(_small_card(id))
@@ -215,7 +215,7 @@ func _small_card(id: String) -> Control:
 	dv.position = Vector2(95, 100)
 	pic.add_child(dv)
 	var l := UIKit.label(it["name"], 17, UIKit.INK)
-	l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	l.autowrap_mode = UIKit.wrap_mode()
 	l.custom_minimum_size.x = 190
 	v.add_child(l)
 	card.tapped.connect(func(): _details(it))
@@ -267,7 +267,7 @@ func _secrets() -> void:
 		v.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		h.add_child(v)
 		v.add_child(UIKit.label(s["name"] if got else "???", 22, UIKit.INK, true, HORIZONTAL_ALIGNMENT_LEFT))
-		var d := UIKit.wrap_label(s["desc"] if got else "İpucu: " + str(s.get("hint", "")), 17, UIKit.INK if got else UIKit.PURPLE, false, HORIZONTAL_ALIGNMENT_LEFT)
+		var d := UIKit.wrap_label(s["desc"] if got else Loc.t("İpucu: ") + str(s.get("hint", "")), 17, UIKit.INK if got else UIKit.PURPLE, false, HORIZONTAL_ALIGNMENT_LEFT)
 		d.custom_minimum_size.x = 180
 		v.add_child(d)
 		f.add_child(card)
@@ -275,7 +275,7 @@ func _secrets() -> void:
 
 func _mutations() -> void:
 	var seen: Array = SaveManager.data["mutations_seen"]
-	holder.add_child(UIKit.label("Koleksiyon: %d / %d" % [seen.size(), IngredientDatabase.mutation_order.size()], 24, Color("#8a5a3b")))
+	holder.add_child(UIKit.label(Loc.t("Koleksiyon: %d / %d") % [seen.size(), IngredientDatabase.mutation_order.size()], 24, Color("#8a5a3b")))
 	var f := _flow()
 	var judges := ["bruno", "mira", "max"]
 	var i := 0
@@ -308,7 +308,7 @@ func _mutations() -> void:
 		v.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		h.add_child(v)
 		v.add_child(UIKit.label(m["name"] if got else "???", 21, UIKit.INK, true, HORIZONTAL_ALIGNMENT_LEFT))
-		v.add_child(UIKit.chip(MutationSystem.CATEGORY_NAMES.get(m.get("category", ""), ""), Color("#2fbf71") if m.get("category", "") == "taste" else (UIKit.PINK if m.get("category", "") == "chaos" else UIKit.BLUE), 15))
+		v.add_child(UIKit.chip(Loc.t(str(MutationSystem.CATEGORY_NAMES.get(m.get("category", ""), ""))), Color("#2fbf71") if m.get("category", "") == "taste" else (UIKit.PINK if m.get("category", "") == "chaos" else UIKit.BLUE), 15))
 		if got:
 			var d := UIKit.wrap_label(m.get("desc", ""), 16, UIKit.INK, false, HORIZONTAL_ALIGNMENT_LEFT)
 			d.custom_minimum_size.x = 180

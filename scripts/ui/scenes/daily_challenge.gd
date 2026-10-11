@@ -5,7 +5,7 @@ extends BaseScreen
 
 func _ready() -> void:
 	setup_screen("sunburst", Color("#ff9fd0"), Color("#a25cff"))
-	make_header("GÜNLÜK", true, true)
+	make_header(Loc.t("GÜNLÜK"), true, true)
 	var ch := DailyChallengeManager.challenge()
 	var p := UIKit.panel(UIKit.CREAM, 28, UIKit.INK, 4, 18)
 	var v := UIKit.vbox(12)
@@ -17,7 +17,7 @@ func _ready() -> void:
 	var th: Dictionary = IngredientDatabase.theme(ch["theme"])
 	v.add_child(UIKit.title(th.get("name", ""), 46, Color("#ff9b3d"), UIKit.INK, 12))
 	v.add_child(UIKit.wrap_label(th.get("desc", ""), 22))
-	v.add_child(UIKit.label("Bugünün 5 malzemesi", 24, Color("#8a5a3b")))
+	v.add_child(UIKit.label(Loc.t("Bugünün 5 malzemesi"), 24, Color("#8a5a3b")))
 	var row := HFlowContainer.new()
 	row.alignment = FlowContainer.ALIGNMENT_CENTER
 	row.add_theme_constant_override("h_separation", 8)
@@ -30,7 +30,7 @@ func _ready() -> void:
 		cv.add_child(ic)
 		var l := UIKit.label(IngredientDatabase.ingredients[id]["name"], 16)
 		l.custom_minimum_size.x = 110
-		l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		l.autowrap_mode = UIKit.wrap_mode()
 		cv.add_child(l)
 		row.add_child(cv)
 	var cond: Dictionary = ch["condition"]
@@ -51,26 +51,26 @@ func _ready() -> void:
 	var jv := UIKit.vbox(4)
 	jv.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	jrow.add_child(jv)
-	jv.add_child(UIKit.label("Jüri koşulu", 22, Color("#8a5a3b"), true, HORIZONTAL_ALIGNMENT_LEFT))
-	jv.add_child(UIKit.wrap_label("%s bugün %s!" % [IngredientDatabase.judge_map[cond["judge"]]["name"], MutationSystem.mutation_name(cond["mutation"])], 24, UIKit.PURPLE, true, HORIZONTAL_ALIGNMENT_LEFT))
+	jv.add_child(UIKit.label(Loc.t("Jüri koşulu"), 22, Color("#8a5a3b"), true, HORIZONTAL_ALIGNMENT_LEFT))
+	jv.add_child(UIKit.wrap_label(Loc.t("%s bugün %s!") % [IngredientDatabase.judge_map[cond["judge"]]["name"], MutationSystem.mutation_name(cond["mutation"])], 24, UIKit.PURPLE, true, HORIZONTAL_ALIGNMENT_LEFT))
 	jv.add_child(UIKit.wrap_label(MutationSystem.describe(cond["mutation"]), 19, UIKit.INK, false, HORIZONTAL_ALIGNMENT_LEFT))
 	var stats := UIKit.hbox(16)
 	stats.alignment = BoxContainer.ALIGNMENT_CENTER
 	v.add_child(stats)
-	stats.add_child(UIKit.icon_label("trophy", "En iyi: %s" % UIKit.fmt(DailyChallengeManager.best_today()), 24, UIKit.INK, 40))
-	stats.add_child(UIKit.icon_label("star", "Hedef: %s" % UIKit.fmt(float(ch["target"])), 24, UIKit.INK, 40))
-	var rew := UIKit.icon_label("coin", "Ödül: %d (günde bir kez)" % int(ch["reward"]), 22, Color("#c98a14"), 36)
+	stats.add_child(UIKit.icon_label("trophy", Loc.t("En iyi: %s") % UIKit.fmt(DailyChallengeManager.best_today()), 24, UIKit.INK, 40))
+	stats.add_child(UIKit.icon_label("star", Loc.t("Hedef: %s") % UIKit.fmt(float(ch["target"])), 24, UIKit.INK, 40))
+	var rew := UIKit.icon_label("coin", Loc.t("Ödül: %d (günde bir kez)") % int(ch["reward"]), 22, Color("#c98a14"), 36)
 	v.add_child(rew)
 	if DailyChallengeManager.can_claim():
-		var claim := UIKit.button("ÖDÜLÜ AL!", UIKit.YELLOW, Vector2(0, 80), 30, "coin")
+		var claim := UIKit.button(Loc.t("ÖDÜLÜ AL!"), UIKit.YELLOW, Vector2(0, 80), 30, "coin")
 		claim.pressed.connect(func():
 			if DailyChallengeManager.claim():
 				AudioManager.sfx("coins")
 				claim.disabled = true
-				claim.text = "ALINDI!")
+				claim.text = Loc.t("ALINDI!"))
 		v.add_child(claim)
 	elif DailyChallengeManager.claimed_today():
-		v.add_child(UIKit.label("Bugünün ödülü alındı!", 22, UIKit.GREEN))
+		v.add_child(UIKit.label(Loc.t("Bugünün ödülü alındı!"), 22, UIKit.GREEN))
 	var hist: Dictionary = DailyChallengeManager.history_best()
 	if not hist.is_empty():
 		var keys: Array = hist.keys()
@@ -78,10 +78,10 @@ func _ready() -> void:
 		keys.reverse()
 		var hs: Array = []
 		for k in keys.slice(0, 5):
-			hs.append("%s: %s" % [k, UIKit.fmt(float(hist[k]))])
-		v.add_child(UIKit.wrap_label("Geçmiş: " + " · ".join(PackedStringArray(hs)), 18, Color("#8a6a50")))
-	v.add_child(UIKit.wrap_label("Not: Günlük meydan okuma cihaz saatine göre çalışır ve tamamen çevrimdışıdır.", 16, Color("#9d8b78")))
-	var go := UIKit.button("BAŞLA!", UIKit.GREEN, Vector2(0, 92), 36, "play")
+			hs.append(Loc.t("%s: %s") % [k, UIKit.fmt(float(hist[k]))])
+		v.add_child(UIKit.wrap_label(Loc.t("Geçmiş: ") + " · ".join(PackedStringArray(hs)), 18, Color("#8a6a50")))
+	v.add_child(UIKit.wrap_label(Loc.t("Not: Günlük meydan okuma cihaz saatine göre çalışır ve tamamen çevrimdışıdır."), 16, Color("#9d8b78")))
+	var go := UIKit.button(Loc.t("BAŞLA!"), UIKit.GREEN, Vector2(0, 92), 36, "play")
 	go.pressed.connect(func():
 		BattleManager.start_daily(ch)
 		GameManager.goto("kitchen"))
@@ -92,5 +92,10 @@ func _pretty_date(d: String) -> String:
 	var parts := d.split("-")
 	if parts.size() != 3:
 		return d
-	var months := ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]
-	return "%d %s %s" % [int(parts[2]), months[clampi(int(parts[1]) - 1, 0, 11)], parts[0]]
+	if Loc.is_cjk():
+		return "%s年%d月%d日" % [parts[0], int(parts[1]), int(parts[2])]
+	if Loc.lang == "en":
+		var en := ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+		return "%s %d, %s" % [en[clampi(int(parts[1]) - 1, 0, 11)], int(parts[2]), parts[0]]
+	var months := [Loc.t("Ocak"), Loc.t("Şubat"), Loc.t("Mart"), Loc.t("Nisan"), Loc.t("Mayıs"), Loc.t("Haziran"), Loc.t("Temmuz"), Loc.t("Ağustos"), Loc.t("Eylül"), Loc.t("Ekim"), Loc.t("Kasım"), Loc.t("Aralık")]
+	return Loc.t("%d %s %s") % [int(parts[2]), months[clampi(int(parts[1]) - 1, 0, 11)], parts[0]]

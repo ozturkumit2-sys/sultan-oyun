@@ -1,0 +1,4758 @@
+{
+"Tatlı": [
+"data/ingredients"
+],
+"Tuzlu": [
+"data/ingredients"
+],
+"Meyve": [
+"data/ingredients"
+],
+"Sebze": [
+"data/ingredients"
+],
+"Hayvan Özü": [
+"data/ingredients"
+],
+"Büyülü": [
+"data/ingredients",
+"data/recipes"
+],
+"Mekanik": [
+"data/ingredients"
+],
+"Uzaylı": [
+"data/ingredients"
+],
+"Deneysel": [
+"data/ingredients"
+],
+"Şeker": [
+"data/ingredients"
+],
+"Her şeyi tatlandırır. Kurbağaları bile.": [
+"data/ingredients"
+],
+"Çikolata": [
+"data/ingredients"
+],
+"Klasik, karanlık ve tehlikeli derecede sevilen.": [
+"data/ingredients"
+],
+"Çilek": [
+"data/ingredients"
+],
+"Kırmızı, taze ve jüri Max'in gizli aşkı.": [
+"data/ingredients"
+],
+"Limon": [
+"data/ingredients"
+],
+"Ekşi bir yüz ifadesi garantili.": [
+"data/ingredients"
+],
+"Domates": [
+"data/ingredients"
+],
+"Sos, pizza, çorba... ve bazen fırlatmalık.": [
+"data/ingredients"
+],
+"Acı Biber": [
+"data/ingredients"
+],
+"Jürinin kulaklarından duman çıkarır.": [
+"data/ingredients"
+],
+"Peynir": [
+"data/ingredients"
+],
+"Delikli olanı daha lezzetli. Kanıtlanmadı.": [
+"data/ingredients"
+],
+"Süt": [
+"data/ingredients"
+],
+"Dondurmanın en iyi arkadaşı.": [
+"data/ingredients"
+],
+"Un": [
+"data/ingredients"
+],
+"Sıkıcı görünür ama her şeyin temeli.": [
+"data/ingredients"
+],
+"Yumurta": [
+"data/ingredients"
+],
+"İçinden ne çıkacağı belli olmaz.": [
+"data/ingredients"
+],
+"Bal": [
+"data/ingredients"
+],
+"Arılar bu yarışmaya itiraz etti.": [
+"data/ingredients"
+],
+"Kurbağa Özü": [
+"data/ingredients"
+],
+"Şişeden zıplamaya çalışıyor. Vrak!": [
+"data/ingredients"
+],
+"Çıtır Böcek": [
+"data/ingredients"
+],
+"Protein dolu. Bacakları da dahil.": [
+"data/ingredients"
+],
+"Hayalet Tozu": [
+"data/ingredients"
+],
+"Kavanozun içinde biri fısıldıyor.": [
+"data/ingredients"
+],
+"Paslı Cıvata": [
+"data/ingredients"
+],
+"Robotlar için atıştırmalık. İnsanlar için... cesaret.": [
+"data/ingredients"
+],
+"Ejder Ateşi": [
+"data/ingredients"
+],
+"Şişede tutulan küçük bir volkan.": [
+"data/ingredients"
+],
+"Büyülü Un": [
+"data/ingredients"
+],
+"Yoğururken parıldıyor ve kıkırdıyor.": [
+"data/ingredients"
+],
+"Uzaylı Jölesi": [
+"data/ingredients"
+],
+"Zorp'un gezegeninden. Kendi kendine titriyor.": [
+"data/ingredients"
+],
+"Zıplayan Mantar": [
+"data/ingredients"
+],
+"Tencerede durmuyor. Sürekli zıplıyor.": [
+"data/ingredients"
+],
+"Vampir Gülü": [
+"data/ingredients"
+],
+"Sadece gece yarısı açar. Biraz ısırır.": [
+"data/ingredients"
+],
+"Kraken Mürekkebi": [
+"data/ingredients"
+],
+"Kaptan Barbunya bunu bir kavgada kazandı.": [
+"data/ingredients"
+],
+"Korsan Baharatı": [
+"data/ingredients"
+],
+"Yedi denizden toplanmış. Bir de tuz.": [
+"data/ingredients"
+],
+"Gece Böğürtleni": [
+"data/ingredients"
+],
+"Ay ışığında toplanır, gölgede yenir.": [
+"data/ingredients"
+],
+"Ay Peyniri": [
+"data/ingredients"
+],
+"Ayın bir parçası. Kraterleri dahil.": [
+"data/ingredients"
+],
+"Şimşek Şurubu": [
+"data/ingredients"
+],
+"Bir yudum, saçlar dimdik.": [
+"data/ingredients"
+],
+"Nano Serpme": [
+"data/ingredients"
+],
+"Minik robotlar pastanı süslüyor.": [
+"data/ingredients"
+],
+"Buz Kristali": [
+"data/ingredients"
+],
+"Asla erimeyen, hep tıngırdayan buz.": [
+"data/ingredients"
+],
+"Peri Nektarı": [
+"data/ingredients"
+],
+"Peri Lila'nın bahçesinden. İzin alınmadan.": [
+"data/ingredients"
+],
+"Kara Trüf": [
+"data/ingredients"
+],
+"Lord Max'in banka hesabı kadar değerli.": [
+"data/ingredients"
+],
+"Yıldız Tozu": [
+"data/ingredients"
+],
+"Kayan bir yıldızdan kazındı. Dilek tutmayı unutma.": [
+"data/ingredients"
+],
+"Tavuk": [
+"data/ingredients"
+],
+"Gıdaklamayı bıraktı, artık sahneye hazır.": [
+"data/ingredients"
+],
+"Balık": [
+"data/ingredients"
+],
+"Hâlâ denizin hayalini kuruyor.": [
+"data/ingredients"
+],
+"Kırmızı Et": [
+"data/ingredients"
+],
+"Şef Bruno görünce bıyığını sıvazlıyor.": [
+"data/ingredients"
+],
+"Patates": [
+"data/ingredients"
+],
+"Kızartılmak için doğdu.": [
+"data/ingredients"
+],
+"Pirinç": [
+"data/ingredients"
+],
+"Bir tanesi bile boşa gitmez.": [
+"data/ingredients"
+],
+"Soğan": [
+"data/ingredients"
+],
+"Jüriyi ağlatmanın en kolay yolu.": [
+"data/ingredients"
+],
+"Sarımsak": [
+"data/ingredients"
+],
+"Vampirler bu tezgâhtan uzak duruyor.": [
+"data/ingredients"
+],
+"Havuç": [
+"data/ingredients"
+],
+"Gözlerine iyi gelir, jürinin değil.": [
+"data/ingredients"
+],
+"Mısır": [
+"data/ingredients"
+],
+"Biraz ısıtınca patlamaya hazır.": [
+"data/ingredients"
+],
+"Muz": [
+"data/ingredients"
+],
+"Kabuğuna basan jüri üyesinden sorumlu değiliz.": [
+"data/ingredients"
+],
+"Tereyağı": [
+"data/ingredients"
+],
+"Her şeyi daha iyi yapar. Kalbi hariç.": [
+"data/ingredients"
+],
+"Karides": [
+"data/ingredients"
+],
+"Küçük ama kendini ıstakoz sanıyor.": [
+"data/ingredients"
+],
+"Sucuk": [
+"data/ingredients"
+],
+"Kahvaltının kralı, yarışmanın sürprizi.": [
+"data/ingredients"
+],
+"Lav Sosu": [
+"data/ingredients"
+],
+"Tabağı eritmemesi için dua et.": [
+"data/ingredients"
+],
+"Robot Yağı": [
+"data/ingredients"
+],
+"X-3000'in favori sosu. Hafif vidalı.": [
+"data/ingredients"
+],
+"Yarasa Kanadı": [
+"data/ingredients"
+],
+"Gece yarısı kendi kendine çırpınıyor.": [
+"data/ingredients"
+],
+"Canavar Dokunacı": [
+"data/ingredients"
+],
+"Kendi kendine el sallıyor. Merhaba!": [
+"data/ingredients"
+],
+"Ejder Yumurtası": [
+"data/ingredients"
+],
+"Arada bir çatlıyor ve öksürüyor.": [
+"data/ingredients"
+],
+"Bulut Pamuğu": [
+"data/ingredients"
+],
+"Ağzında hafif bir yağmur yağıyor.": [
+"data/ingredients"
+],
+"Gökkuşağı Sütü": [
+"data/ingredients"
+],
+"Tek boynuzlu bir attan, kibarca rica edilerek.": [
+"data/ingredients"
+],
+"Deniz Kızı Pulu": [
+"data/ingredients"
+],
+"Kulağına dalga sesleri fısıldıyor.": [
+"data/ingredients"
+],
+"Kara Delik Tuzu": [
+"data/ingredients"
+],
+"Bir tutam atınca tabak biraz küçülüyor.": [
+"data/ingredients"
+],
+"Altın Elma": [
+"data/ingredients"
+],
+"Bir ısırık, bir dilek. Diş sigortası önerilir.": [
+"data/ingredients"
+],
+"Fermente Göz Turşusu": [
+"data/ingredients"
+],
+"Gülizar Nine'nin kilerinden. Sana bakıyor.": [
+"data/ingredients"
+],
+"Küflü Peynir Ruhu": [
+"data/ingredients"
+],
+"Bir zamanlar peynirdi. Şimdi bir ruh.": [
+"data/ingredients"
+],
+"Yüzyıllık Turşu": [
+"data/ingredients"
+],
+"Osmanlı'dan kalma, söylentiye göre.": [
+"data/ingredients"
+],
+"Şeker Kurbağa": [
+"data/recipes"
+],
+"Tatlı, yapışkan ve sürekli zıplıyor.": [
+"data/recipes"
+],
+"Şeker ve bir bataklık sakini...": [
+"data/recipes"
+],
+"Çikolatalı Kurbağa": [
+"data/recipes"
+],
+"Şeker Kurbağa'nın çikolata zırhı giymiş hali.": [
+"data/recipes"
+],
+"Zıplayan bir tatlıyı çikolataya bula.": [
+"data/recipes"
+],
+"Taze Hamur": [
+"data/recipes"
+],
+"Pizza mı olur, makarna mı, kek mi? Sen karar ver.": [
+"data/recipes"
+],
+"Her fırının sevdiği iki temel malzeme.": [
+"data/recipes"
+],
+"Hayalet Hamuru": [
+"data/recipes"
+],
+"Yoğurdukça elinin içinden geçiyor.": [
+"data/recipes"
+],
+"Unu öteki dünyadan bir tozla karıştır.": [
+"data/recipes"
+],
+"Ejder Balı": [
+"data/recipes"
+],
+"Tatlı başlar, kulak memelerinde biter.": [
+"data/recipes"
+],
+"Arıların en çok korktuğu ateş.": [
+"data/recipes"
+],
+"Robot Pralin": [
+"data/recipes"
+],
+"Çikolata kaplı cıvata. X-3000'in favorisi.": [
+"data/recipes"
+],
+"Karanlık tatlıyı biraz metalle buluştur.": [
+"data/recipes"
+],
+"Ballı Böcek": [
+"data/recipes"
+],
+"Çıtır, yapışkan ve hâlâ kaçmaya çalışıyor.": [
+"data/recipes"
+],
+"Bir böceği arıların hazinesine batır.": [
+"data/recipes"
+],
+"Kozmik Süt": [
+"data/recipes"
+],
+"Samanyolu buradan çıkmış olabilir.": [
+"data/recipes"
+],
+"Uzay jölesini sıradan bir içecekle yatıştır.": [
+"data/recipes"
+],
+"Ateş Sosu": [
+"data/recipes"
+],
+"Bruno'nun bıyıklarını kıvıran sos.": [
+"data/recipes"
+],
+"Kırmızı ve daha kırmızı.": [
+"data/recipes"
+],
+"Büyülü Hamur": [
+"data/recipes"
+],
+"Kendi kendine kabarıyor ve şarkı söylüyor.": [
+"data/recipes"
+],
+"Parıldayan unu bir yumurtayla tanıştır.": [
+"data/recipes"
+],
+"Volkanik Kurbağa Keki": [
+"data/recipes"
+],
+"Tepesinden lav fışkıran zıplayan bir efsane.": [
+"data/recipes"
+],
+"Çikolatalı bir zıplayanı ejder nefesiyle fırınla.": [
+"data/recipes"
+],
+"Koşan Pizza": [
+"data/recipes"
+],
+"Fırından çıkar çıkmaz kapıya koştu.": [
+"data/recipes"
+],
+"Taze hamur, eriyen peynir, sıcak fırın.": [
+"data/recipes"
+],
+"Makarna Canavarı": [
+"data/recipes"
+],
+"Tabağın altına saklanıyor ve çatal çalıyor.": [
+"data/recipes"
+],
+"Hamuru ateşli bir sosla kaynat.": [
+"data/recipes"
+],
+"Ejder Dondurması": [
+"data/recipes"
+],
+"Hem yakıyor hem donduruyor. Bilim bunu açıklayamıyor.": [
+"data/recipes"
+],
+"Ateşi dondurmayı denedin mi?": [
+"data/recipes"
+],
+"Hayalet Pasta": [
+"data/recipes"
+],
+"Dilimlediğinde 'Buuu!' diyor.": [
+"data/recipes"
+],
+"Hayaletli hamuru şekerle fırına ver.": [
+"data/recipes"
+],
+"Robot Kek": [
+"data/recipes"
+],
+"Kaşıkları toplayıp kendine bir vücut yapıyor.": [
+"data/recipes"
+],
+"Robot pralini büyülü hamurla fırınla.": [
+"data/recipes"
+],
+"Çilekli Bulut Dondurma": [
+"data/recipes"
+],
+"Bulut kadar hafif, çilek kadar kırmızı.": [
+"data/recipes"
+],
+"Klasik bir yaz tatlısı: meyve ve süt, soğuk.": [
+"data/recipes"
+],
+"Ballı Böcek Şiş": [
+"data/recipes"
+],
+"Bataklık sakinlerinin bayram yemeği.": [
+"data/recipes"
+],
+"Ballı böceği acıyla şişe diz.": [
+"data/recipes"
+],
+"Lav Çorbası": [
+"data/recipes"
+],
+"Kaşık eriyebilir. Lütfen dikkat.": [
+"data/recipes"
+],
+"Domatesi ejder nefesinde kaynat.": [
+"data/recipes"
+],
+"Galaksi Puding": [
+"data/recipes"
+],
+"İçinde küçük yıldızlar dönüyor.": [
+"data/recipes"
+],
+"Kozmik sütü şekerle dondur.": [
+"data/recipes"
+],
+"Hayalet Limon Sorbesi": [
+"data/recipes"
+],
+"Ekşi bir ürperti.": [
+"data/recipes"
+],
+"Hayalet tozuna biraz ekşilik kat ve dondur.": [
+"data/recipes"
+],
+"Ejder Tostu": [
+"data/recipes"
+],
+"Peyniri ejder nefesiyle eritilmiş tost.": [
+"data/recipes"
+],
+"Peyniri ejderle ızgaraya at.": [
+"data/recipes"
+],
+"Zıplayan Kurbağa Suflesi": [
+"data/recipes"
+],
+"Fırında kabarıyor, tabakta zıplıyor.": [
+"data/recipes"
+],
+"Kurbağa ve yumurta: fırında kabarsın.": [
+"data/recipes"
+],
+"Büyülü Çilek Tartı": [
+"data/recipes"
+],
+"Her dilimde başka bir çilek tadı.": [
+"data/recipes"
+],
+"Çileği parıldayan unla büyüle.": [
+"data/recipes"
+],
+"Altın Ballı Kek": [
+"data/recipes"
+],
+"Bruno'nun annesinin tarifi. İddiaya göre.": [
+"data/recipes"
+],
+"Taze hamur ve arıların altını.": [
+"data/recipes"
+],
+"Paslı Pralin Fondü": [
+"data/recipes"
+],
+"Robotlar bunu bayramlarda içiyor.": [
+"data/recipes"
+],
+"Robot pralini sütle kaynat.": [
+"data/recipes"
+],
+"Kurabiye Büyücüsü": [
+"data/recipes",
+"data/content",
+"scripts/visual/dish_view.gd"
+],
+"Fırından şapkasıyla çıktı ve büyü yapmaya başladı!": [
+"data/recipes"
+],
+"Şeker, hayalet ve büyü... üçü bir fırında.": [
+"data/recipes"
+],
+"Tost Robotu": [
+"data/recipes",
+"data/content",
+"scripts/visual/dish_view.gd"
+],
+"Kendini kızartan, kendini servis eden tost.": [
+"data/recipes"
+],
+"Hamur, peynir ve bir cıvata ızgarada buluşursa...": [
+"data/recipes"
+],
+"Jöle Ejderi": [
+"data/recipes",
+"data/content",
+"scripts/visual/dish_view.gd"
+],
+"Titreyerek ateş püskürten minik bir ejder.": [
+"data/recipes"
+],
+"Uzay jölesi, ejder ateşi ve şeker: buzda.": [
+"data/recipes"
+],
+"Gece Yarısı Gül Tartı": [
+"data/recipes"
+],
+"Kont Velvet bile kıskandı.": [
+"data/recipes"
+],
+"İki karanlık meyve, bir fırın.": [
+"data/recipes"
+],
+"Kraken Makarnası": [
+"data/recipes"
+],
+"Dokunaçlarıyla çatalını geri istiyor.": [
+"data/recipes"
+],
+"Hamuru derinlerin mürekkebiyle kaynat.": [
+"data/recipes"
+],
+"Peri Bulutu": [
+"data/recipes"
+],
+"Kaşığa değmeden ağzında eriyor.": [
+"data/recipes"
+],
+"Peri nektarını süt bulutuna dönüştür.": [
+"data/recipes"
+],
+"Yıldız Suflesi": [
+"data/recipes"
+],
+"Kabardıkça tavana doğru süzülüyor.": [
+"data/recipes"
+],
+"Yıldız tozunu bir yumurtayla büyüle.": [
+"data/recipes"
+],
+"Ay Fondüsü": [
+"data/recipes"
+],
+"Zorp'un düğün yemeği.": [
+"data/recipes"
+],
+"Ay peynirini karanlık bir tatlıyla erit.": [
+"data/recipes"
+],
+"Gök Gürültüsü Şekeri": [
+"data/recipes"
+],
+"Ağızda patlıyor, kulakta gürlüyor.": [
+"data/recipes"
+],
+"Şimşeği şekerle dondur.": [
+"data/recipes"
+],
+"Lordun Trüflü Tostu": [
+"data/recipes"
+],
+"Lord Max bunun için tahtını satardı.": [
+"data/recipes"
+],
+"Kara elması peynirle ızgarada buluştur.": [
+"data/recipes"
+],
+"Çıtır Tavuk": [
+"data/recipes"
+],
+"Dışı çıtır, içi gıdak gıdak sulu.": [
+"data/recipes"
+],
+"Tavuğu una bula ve kızgın yağa at.": [
+"data/recipes"
+],
+"Ejder Kanatları": [
+"data/recipes"
+],
+"Bir ısırık ve kulaklardan ateş fışkırır.": [
+"data/recipes"
+],
+"Tavuğu ejderin nefesiyle ızgarala.": [
+"data/recipes"
+],
+"Balık ve Patates": [
+"data/recipes"
+],
+"Denizle toprağın çıtır dostluğu.": [
+"data/recipes"
+],
+"Denizden bir şeyi topraktan bir yumruyla kızart.": [
+"data/recipes"
+],
+"Korsan Balık Çorbası": [
+"data/recipes"
+],
+"Kaptan Barbunya'nın gizli tarifi. Tuzlu ve maceralı.": [
+"data/recipes"
+],
+"Balığı korsanların baharatıyla kaynat.": [
+"data/recipes"
+],
+"Kraliyet Bifteği": [
+"data/recipes"
+],
+"Lord Max tek gözlüğüyle inceledi ve onayladı.": [
+"data/recipes"
+],
+"Eti en pahalı mantarla ızgarala.": [
+"data/recipes"
+],
+"Lav Bifteği": [
+"data/recipes"
+],
+"Tabağa konunca masa hafifçe eridi.": [
+"data/recipes"
+],
+"Eti bir yanardağın sosuyla ızgarala.": [
+"data/recipes"
+],
+"Canavar Burger": [
+"data/recipes"
+],
+"Üç kat lezzet, bir kat cesaret.": [
+"data/recipes"
+],
+"Et, hamur ve peyniri birlikte ızgarala.": [
+"data/recipes"
+],
+"Hayalet Pilavı": [
+"data/recipes"
+],
+"Tabakta kayboluyor, midede beliriyor.": [
+"data/recipes"
+],
+"Pirinci hayaletlerin tozuyla kaynat.": [
+"data/recipes"
+],
+"Robot Kebabı": [
+"data/recipes"
+],
+"X-3000 bunu 'yüksek voltajlı kebap' diye kodladı.": [
+"data/recipes"
+],
+"Eti makinelerin yağıyla ızgarala.": [
+"data/recipes"
+],
+"Kraken Karides Makarnası": [
+"data/recipes"
+],
+"Simsiyah makarnanın içinde pembe sürprizler.": [
+"data/recipes"
+],
+"Karidesi bir deniz canavarının mürekkebiyle kaynat.": [
+"data/recipes"
+],
+"Altın Elmalı Turta": [
+"data/recipes"
+],
+"Her dilim bir dilek. Kırıntıları bile parlıyor.": [
+"data/recipes"
+],
+"Efsanevi meyveyi hamurla fırınla.": [
+"data/recipes"
+],
+"Bulut Dondurma": [
+"data/recipes"
+],
+"Kaşığı daldırınca üstüne minik bir yağmur yağıyor.": [
+"data/recipes"
+],
+"Gökyüzünden bir tutamı çilekle dondur.": [
+"data/recipes"
+],
+"Kont'un Gece Yarısı İksiri": [
+"data/recipes"
+],
+"Kont Velvet bir yudum aldı, ayna ona göz kırptı.": [
+"data/recipes"
+],
+"Gecenin kanatlısını vampirin çiçeğiyle büyüle.": [
+"data/recipes"
+],
+"Kristal Sorbe": [
+"data/recipes"
+],
+"Işığı kırarak gökkuşağı yapıyor.": [
+"data/recipes"
+],
+"Buz kristalini ekşi bir meyveyle dondur.": [
+"data/recipes"
+],
+"Fırınlama": [
+"data/recipes"
+],
+"Fırınla": [
+"data/recipes"
+],
+"Fırın": [
+"data/recipes"
+],
+"Kızartma": [
+"data/recipes"
+],
+"Kızart": [
+"data/recipes"
+],
+"Çıtır": [
+"data/recipes"
+],
+"Dondurma": [
+"data/recipes"
+],
+"Dondur": [
+"data/recipes"
+],
+"Buzlu": [
+"data/recipes"
+],
+"Haşlama": [
+"data/recipes"
+],
+"Kaynat": [
+"data/recipes"
+],
+"Kaynar": [
+"data/recipes"
+],
+"Izgara": [
+"data/recipes"
+],
+"Izgarala": [
+"data/recipes"
+],
+"Közlenmiş": [
+"data/recipes"
+],
+"Büyülü Pişirme": [
+"data/recipes"
+],
+"Büyüle": [
+"data/recipes"
+],
+"Tatlı Rüya": [
+"data/themes"
+],
+"Jüri şekerden bir rüya istiyor.": [
+"data/themes"
+],
+"Ateş Çemberi": [
+"data/themes"
+],
+"Acı, alev ve gözyaşı!": [
+"data/themes"
+],
+"Bataklık Partisi": [
+"data/themes"
+],
+"Vrak vrak! Bataklıktan gelen lezzetler.": [
+"data/themes"
+],
+"Büyülü Sofra": [
+"data/themes"
+],
+"Tabaklar havada uçmalı.": [
+"data/themes"
+],
+"Taze ve Doğal": [
+"data/themes"
+],
+"Bahçeden tabağa, cıvatasız.": [
+"data/themes"
+],
+"Robot Pikniği": [
+"data/themes"
+],
+"Metal midelere uygun bir menü.": [
+"data/themes"
+],
+"Gotik Gece": [
+"data/themes"
+],
+"Karanlık, şık ve biraz ürkütücü.": [
+"data/themes"
+],
+"Kaos Tabağı": [
+"data/themes"
+],
+"Mantık yasak. Ne kadar çılgın, o kadar iyi.": [
+"data/themes"
+],
+"Canlı Ziyafet": [
+"data/themes"
+],
+"Yemek tabakta dans etmeli!": [
+"data/themes"
+],
+"Buz Devri": [
+"data/themes"
+],
+"Her şey donmuş olmalı. Jüri dahil.": [
+"data/themes"
+],
+"Uzay Mutfağı": [
+"data/themes",
+"data/content"
+],
+"Dünya dışı bir tat.": [
+"data/themes"
+],
+"Nine Usulü": [
+"data/themes"
+],
+"Eski usul, bol sevgi, biraz küf.": [
+"data/themes"
+],
+"Klasik Lezzet": [
+"data/themes"
+],
+"Bruno'nun çocukluğunu hatırlat.": [
+"data/themes"
+],
+"Ürkütücü Tatlılar": [
+"data/themes"
+],
+"Tatlı ama arkana bakmadan yeme.": [
+"data/themes"
+],
+"Kraliyet Ziyafeti": [
+"data/themes"
+],
+"Sadece en nadir malzemeler.": [
+"data/themes"
+],
+"Korsan Şöleni": [
+"data/themes"
+],
+"Tuzlu deniz, acı baharat, bol kahkaha.": [
+"data/themes"
+],
+"Mangal Keyfi": [
+"data/themes"
+],
+"Közün dumanı, etin cızırtısı!": [
+"data/themes"
+],
+"Peri Bahçesi": [
+"data/themes"
+],
+"Çiçekler, nektar ve biraz sihir.": [
+"data/themes"
+],
+"Galaktik Final": [
+"data/themes"
+],
+"Evrenin en iyi yemeği. Baskı yok.": [
+"data/themes"
+],
+"Şef Bruno": [
+"data/judges"
+],
+"Lezzet Ustası": [
+"data/judges"
+],
+"Otuz yıldır tadına baktığı her şeye 'daha fazla tuz' diyor. Bıyıkları kendi fan kulübüne sahip.": [
+"data/judges"
+],
+"Mamma mia! Bu bir şaheser!": [
+"data/judges",
+"data/judge_lines"
+],
+"Damağımda bir orkestra çalıyor!": [
+"data/judges",
+"data/judge_lines"
+],
+"Annemin yemeklerinden bile iyi... Ona söylemeyin.": [
+"data/judges",
+"data/judge_lines"
+],
+"Fena değil, ama ruhu eksik.": [
+"data/judges",
+"data/judge_lines"
+],
+"Tuzunu biraz daha düşünmeliydin.": [
+"data/judges",
+"data/judge_lines"
+],
+"Yenir. Yani... yenir.": [
+"data/judges",
+"data/judge_lines"
+],
+"Bu bir felaket!": [
+"data/judges",
+"data/judge_lines"
+],
+"Bıyıklarım titredi, iyi anlamda değil.": [
+"data/judges",
+"data/judge_lines"
+],
+"Bunu kim pişirdi? Bir ejderha mı?": [
+"data/judges",
+"data/judge_lines"
+],
+"Lezzet dengesi harika.": [
+"data/judges"
+],
+"Tatlar birbiriyle kavga ediyor.": [
+"data/judges"
+],
+"Pişirme kusursuz.": [
+"data/judges"
+],
+"Pişirme özensiz.": [
+"data/judges"
+],
+"Fazla zehirli, midem bulandı.": [
+"data/judges"
+],
+"Temayla pek ilgisi yok.": [
+"data/judges"
+],
+"Temaya çok yakışmış.": [
+"data/judges"
+],
+"Tam benim sevdiğim türden!": [
+"data/judges"
+],
+"Bu malzemelerden hiç hoşlanmam.": [
+"data/judges"
+],
+"Bu tabak klasik mutfağa saygının ta kendisi!": [
+"data/judges",
+"data/judge_lines"
+],
+"Bu bir felaket! Gerçek yemek böyle olmaz!": [
+"data/judges"
+],
+"Profesör Mira": [
+"data/judges"
+],
+"Deney Dehası": [
+"data/judges"
+],
+"Moleküler gastronomi profesörü. Laboratuvarında üç kez patlama, iki kez zaman yarığı oldu.": [
+"data/judges"
+],
+"Deneysel bir deha! Not alıyorum!": [
+"data/judges",
+"data/judge_lines"
+],
+"Bilim adına muhteşem!": [
+"data/judges",
+"data/judge_lines"
+],
+"Bu tabak bir Nobel hak ediyor!": [
+"data/judges",
+"data/judge_lines"
+],
+"İlginç bir hipotez, ama kanıt yetersiz.": [
+"data/judges",
+"data/judge_lines"
+],
+"Biraz daha cesur olabilirdin.": [
+"data/judges",
+"data/judge_lines"
+],
+"Fikir güzel, uygulama tartışmalı.": [
+"data/judges",
+"data/judge_lines"
+],
+"Sıkıcı. Bunu 1800'lerde de yapıyorlardı.": [
+"data/judges",
+"data/judge_lines"
+],
+"Hiç risk yok, hiç keşif yok.": [
+"data/judges",
+"data/judge_lines"
+],
+"Uykum geldi, kusura bakma.": [
+"data/judges",
+"data/judge_lines"
+],
+"Yaratıcılık tavan yapmış!": [
+"data/judges"
+],
+"Fazla sıradan, hiç sürpriz yok.": [
+"data/judges"
+],
+"Temayı çok zekice yorumlamış.": [
+"data/judges"
+],
+"Tema tamamen unutulmuş.": [
+"data/judges"
+],
+"Daha önce kimse bunu denememişti!": [
+"data/judges"
+],
+"Bunu zaten yemiştim...": [
+"data/judges"
+],
+"Deneysel malzemelere bayılırım!": [
+"data/judges",
+"data/judge_lines"
+],
+"Klasik... çok klasik...": [
+"data/judges",
+"data/judge_lines"
+],
+"Bu deneysel bir deha! Mutfağın geleceği!": [
+"data/judges"
+],
+"Hiçbir yenilik yok, tamamen ezber!": [
+"data/judges",
+"data/judge_lines"
+],
+"Lord Max": [
+"data/judges"
+],
+"Zarafet Lordu": [
+"data/judges"
+],
+"Yedi şatosu, on iki monoklü var. Tabağın açısı 3 derece kaysa bayılabilir.": [
+"data/judges"
+],
+"Zarafetin tanımı! Monoklüm düştü!": [
+"data/judges",
+"data/judge_lines"
+],
+"Bu tabak bir sanat eseri!": [
+"data/judges",
+"data/judge_lines"
+],
+"Şatomun duvarına asardım.": [
+"data/judges",
+"data/judge_lines"
+],
+"Hoş, ama asil değil.": [
+"data/judges",
+"data/judge_lines"
+],
+"Tabak biraz daha parlayabilirdi.": [
+"data/judges",
+"data/judge_lines"
+],
+"Kabul edilebilir. Zar zor.": [
+"data/judges",
+"data/judge_lines"
+],
+"Sunum tam bir hakaret!": [
+"data/judges",
+"data/judge_lines"
+],
+"Gözlerim! Monoklüm çatladı!": [
+"data/judges",
+"data/judge_lines"
+],
+"Bunu köpeğime bile vermem.": [
+"data/judges",
+"data/judge_lines"
+],
+"Sunum göz kamaştırıcı.": [
+"data/judges"
+],
+"Sunum dağınık ve özensiz.": [
+"data/judges"
+],
+"Temaya kusursuz uyum.": [
+"data/judges"
+],
+"Temayla alakasız.": [
+"data/judges"
+],
+"Yemek tabaktan kaçmış, ne rezalet!": [
+"data/judges",
+"data/judge_lines"
+],
+"Dans eden yemek mi? Çok şık!": [
+"data/judges",
+"data/judge_lines"
+],
+"İşte asil bir malzeme!": [
+"data/judges",
+"data/judge_lines"
+],
+"Bataklık kokusu mu alıyorum?": [
+"data/judges",
+"data/judge_lines"
+],
+"Bu sunum saray sofralarına layık!": [
+"data/judges",
+"data/judge_lines"
+],
+"Bıyıklarım mutluluktan kıvrıldı!": [
+"data/judge_lines"
+],
+"İşte buna yemek denir. Gerisi sadece kalori.": [
+"data/judge_lines"
+],
+"Bir lokma daha alabilir miyim? Sadece bilimsel amaçlı.": [
+"data/judge_lines"
+],
+"Otuz yıllık meslek hayatımda böylesini az gördüm.": [
+"data/judge_lines"
+],
+"Bu tabağı çerçeveletip mutfağıma asacağım.": [
+"data/judge_lines"
+],
+"Tuzu tam yerinde. Sen tuzun dilinden anlıyorsun!": [
+"data/judge_lines"
+],
+"Gözlerim doldu. Soğandan değil, gururdan.": [
+"data/judge_lines"
+],
+"Bu tadı rüyamda görsem uyanmak istemezdim.": [
+"data/judge_lines"
+],
+"Bravo! Tencere ve sen tek yürek olmuşsunuz.": [
+"data/judge_lines"
+],
+"Bunu yiyince çocukluğuma döndüm. Güzel günlerdi.": [
+"data/judge_lines"
+],
+"Kusursuz! Bıyığıma bile bulaşmadı, o kadar zarif.": [
+"data/judge_lines"
+],
+"Lezzet dengesi o kadar iyi ki terazim kıskandı.": [
+"data/judge_lines"
+],
+"Bu yemeğe saygı duruşunda bulunmak istiyorum.": [
+"data/judge_lines"
+],
+"Ağzımda havai fişek patladı, ama lezzetli olanından.": [
+"data/judge_lines"
+],
+"Bundan sonra herkese bu tabağı anlatacağım. Herkese!": [
+"data/judge_lines"
+],
+"Mutfak tanrıları bugün seninle, evlat.": [
+"data/judge_lines"
+],
+"Böyle bir yemek için dağları aşarım: {dish}!": [
+"data/judge_lines"
+],
+"Şu {ing} dokunuşu... dahiyane, gerçekten dahiyane!": [
+"data/judge_lines"
+],
+"Tabağı yalamamak için kendimi zor tutuyorum.": [
+"data/judge_lines"
+],
+"Sana bir sır vereyim: Bu benim gizli tarifimden iyi.": [
+"data/judge_lines"
+],
+"Bunu yiyen bir daha hazır çorba içmez.": [
+"data/judge_lines"
+],
+"Her lokmada biraz daha aşık oluyorum. Yemeğe tabii.": [
+"data/judge_lines"
+],
+"Tadı o kadar iyi ki bıyığımı bile taramayı unuttum.": [
+"data/judge_lines"
+],
+"Bu tabağın kokusu bile ödül almalı.": [
+"data/judge_lines"
+],
+"İyi bir başlangıç, ama şef olmak için biraz daha ateş lazım.": [
+"data/judge_lines"
+],
+"Bıyıklarım kararsız kaldı. Biri sağa, biri sola baktı.": [
+"data/judge_lines"
+],
+"Sıradan bir pazar öğlesi yemeği gibi. Kötü değil, hatırlanmaz da.": [
+"data/judge_lines"
+],
+"Bir şeyler eksik. Belki sevgi, belki tuz. Muhtemelen tuz.": [
+"data/judge_lines"
+],
+"Fikir güzel, uygulamada biraz tökezlemişsin.": [
+"data/judge_lines"
+],
+"Annem olsa 'Daha çok çalış evladım' derdi. Ben de diyorum.": [
+"data/judge_lines"
+],
+"Lezzetin yarısı burada, diğer yarısı yolda kaybolmuş.": [
+"data/judge_lines"
+],
+"Tadı idare eder, ama kokusu daha çok söz veriyordu.": [
+"data/judge_lines"
+],
+"Bu tabak biraz daha cesaret isterdi: {dish} daha iyi olabilir.": [
+"data/judge_lines"
+],
+"Ne aşık oldum ne ayrıldım. Arkadaş kalalım.": [
+"data/judge_lines"
+],
+"Biraz daha ateş, biraz daha sabır... olurdu.": [
+"data/judge_lines"
+],
+"Ilık. Hem sıcaklığı hem duygusu.": [
+"data/judge_lines"
+],
+"Tabakta potansiyel görüyorum. Ağzımda pek görmüyorum.": [
+"data/judge_lines"
+],
+"Şu {ing} biraz yalnız kalmış, ona arkadaş lazım.": [
+"data/judge_lines"
+],
+"Puanım kibar, ama kalbim daha fazlasını bekliyordu.": [
+"data/judge_lines"
+],
+"İkinci lokmayı istemem. Ama ilkine de kızmadım.": [
+"data/judge_lines"
+],
+"Bu yemek yarı yolda durmuş, arızalı bir otobüs gibi.": [
+"data/judge_lines"
+],
+"Teknik olarak doğru, duygusal olarak eksik.": [
+"data/judge_lines"
+],
+"Bıyığım 'olur' diyor, midem 'bakalım' diyor.": [
+"data/judge_lines"
+],
+"Pişirme fena değil ama lezzetler birbirini tanımıyor.": [
+"data/judge_lines"
+],
+"Bir dahaki sefere daha çok tat, daha az korku.": [
+"data/judge_lines"
+],
+"Ortada bir yerde. Tıpkı benim sabahki ruh hâlim gibi.": [
+"data/judge_lines"
+],
+"Yemek güzel bir şarkının sadece nakaratı gibi. Gerisi nerede?": [
+"data/judge_lines"
+],
+"Bunu sevmek istiyorum, gerçekten. Biraz yardım et.": [
+"data/judge_lines"
+],
+"Annem bunu görse terliğini fırlatırdı.": [
+"data/judge_lines"
+],
+"Lezzet burada nefes almaya çalışıyor, yardım edin!": [
+"data/judge_lines"
+],
+"Bu tabak mutfak tarihine kara bir leke olarak geçecek.": [
+"data/judge_lines"
+],
+"Ağzımda bir savaş çıktı ve herkes kaybetti.": [
+"data/judge_lines"
+],
+"Su! Biri bana su getirsin! Ve bir avukat!": [
+"data/judge_lines"
+],
+"Bunu yemektense bıyığımı tıraş ederim.": [
+"data/judge_lines"
+],
+"Buna yemek denmez, ceza denir: {dish}.": [
+"data/judge_lines"
+],
+"Damak zevkim istifa dilekçesini verdi.": [
+"data/judge_lines"
+],
+"Tencere bunu yapmana nasıl izin verdi?": [
+"data/judge_lines"
+],
+"Bunu tadınca otuz yıllık kariyerim gözümün önünden geçti.": [
+"data/judge_lines"
+],
+"Şu {ing} burada ne arıyor? Kaybolmuş olmalı.": [
+"data/judge_lines"
+],
+"Tuz nerede? Sevgi nerede? Mantık nerede?": [
+"data/judge_lines"
+],
+"Bu tabağı yere değil, tarihe gömelim.": [
+"data/judge_lines"
+],
+"Midem bana küstü, bir hafta konuşmayacak.": [
+"data/judge_lines"
+],
+"Bunu ancak çok kızgın bir korsan yer.": [
+"data/judge_lines"
+],
+"Tatlar birbirinin saçını başını yolmuş.": [
+"data/judge_lines"
+],
+"Bu bir yemek değil, bir uyarı levhası.": [
+"data/judge_lines"
+],
+"Bunu yedikten sonra en az üç gün dinlenmem lazım.": [
+"data/judge_lines"
+],
+"Gözlerim yaşardı, ama acıdan değil, üzüntüden.": [
+"data/judge_lines"
+],
+"Bunu çöpe atmak bile çöpe saygısızlık olur.": [
+"data/judge_lines"
+],
+"Lütfen bir daha deneme. Ya da dene ama bana getirme.": [
+"data/judge_lines"
+],
+"Bu mutfakta suç işlendi ve delil tabakta.": [
+"data/judge_lines"
+],
+"Çatalım bükülmek istedi, ben de.": [
+"data/judge_lines"
+],
+"Bu tadı unutmak için bir ömür yetmez.": [
+"data/judge_lines"
+],
+"Daha önce hiç böyle bir şey tatmadım. Şaşırttın!": [
+"data/judge_lines"
+],
+"Yeni bir tarif mi? Cesaretine şapka çıkarıyorum. Şef şapkamı!": [
+"data/judge_lines"
+],
+"Bu tarifi defterime yazıyorum. Kurşun kalemle, ne olur ne olmaz.": [
+"data/judge_lines"
+],
+"İlk kez yapılan bir yemek için gayet olgun bir tat.": [
+"data/judge_lines"
+],
+"Bunu zaten yemiştim. İkinci kez yemek ilk aşk gibi değil.": [
+"data/judge_lines"
+],
+"Aynı tabak, aynı tat... Biraz sürpriz bekliyordum.": [
+"data/judge_lines"
+],
+"Tekrar mı? Annem de her pazar aynı yemeği yapardı ama o annemdi.": [
+"data/judge_lines"
+],
+"Yemek tabakta dans ediyor! Hiç olmazsa taze olduğu kesin.": [
+"data/judge_lines"
+],
+"Kıpırdıyor ama lezzeti de kıpır kıpır, kabul.": [
+"data/judge_lines"
+],
+"Canlı yemek mi? Bıyığımı ısırmazsa sorun yok.": [
+"data/judge_lines"
+],
+"Yemeği önce yakalamak lazım, sonra sunmak! Sıra önemli!": [
+"data/judge_lines"
+],
+"Tabağın yarısı kaçmış. Kalan yarısı da kaçmayı düşünüyor.": [
+"data/judge_lines"
+],
+"Bıyığıma bir şey zıpladı! Bu kabul edilemez!": [
+"data/judge_lines"
+],
+"Bu tabakta bir lanet var, ama sosu fena değil.": [
+"data/judge_lines"
+],
+"Tadında bir büyü kokusu var. Mutfağımda büyü istemem!": [
+"data/judge_lines"
+],
+"Kim bu yemeğe turşu kattı? Gülizar Nine mi buradaydı?": [
+"data/judge_lines"
+],
+"Gizemli malzemeyi kullanmışsın. Cesur bir hamle!": [
+"data/judge_lines"
+],
+"Şu {ing} ile başa çıkmak kolay değil, aferin.": [
+"data/judge_lines"
+],
+"Gizemi çözmüşsün, şimdi lezzeti çözelim.": [
+"data/judge_lines"
+],
+"İşte! Klasik mutfağın kokusu burnuma geldi!": [
+"data/judge_lines"
+],
+"Tam benim sevdiğim türden. Hamur, peynir, sos... cennet!": [
+"data/judge_lines"
+],
+"Bu malzemeleri görünce gözlerim parladı.": [
+"data/judge_lines"
+],
+"Gelenekten güç alan bir tabak. Saygılar!": [
+"data/judge_lines"
+],
+"Tabağımda cıvata mı var? Ben robot muyum?": [
+"data/judge_lines"
+],
+"Bu jöle benimle konuşuyor. Hayır, teşekkürler.": [
+"data/judge_lines"
+],
+"Fermente şeylerden korkarım. Bu da korkunç.": [
+"data/judge_lines"
+],
+"Bu malzemeler mutfağa değil, garaja ait.": [
+"data/judge_lines"
+],
+"Zehir dozu yüksek! Midem alarm veriyor!": [
+"data/judge_lines"
+],
+"Bu yemek bana değil, bir laboratuvara gönderilmeli.": [
+"data/judge_lines"
+],
+"Biraz zehirli mi bu? Biraz değil, epey!": [
+"data/judge_lines"
+],
+"Fırının sıcaklığını iyi ayarlamışsın, kabuğu harika.": [
+"data/judge_lines"
+],
+"Fırından yeni çıkmış kokusu beni benden aldı.": [
+"data/judge_lines"
+],
+"Çıtırlığı kulağıma müzik gibi geldi.": [
+"data/judge_lines"
+],
+"Kızartma ustası mısın? Yağ seni seviyor.": [
+"data/judge_lines"
+],
+"Soğuk ama kalpsiz değil. Güzel.": [
+"data/judge_lines"
+],
+"Dondurmayı severim, beyin donmasını sevmem.": [
+"data/judge_lines"
+],
+"Kaynatmak sabır ister, sende sabır var.": [
+"data/judge_lines"
+],
+"Bu çorba ruhumu ısıttı.": [
+"data/judge_lines"
+],
+"Izgara izleri birer sanat eseri.": [
+"data/judge_lines"
+],
+"Közün kokusu... köyüme döndüm sanki.": [
+"data/judge_lines"
+],
+"Büyülü pişirme mi? Hımm... sonuç fena değil.": [
+"data/judge_lines"
+],
+"Mutfağımda büyüye karşıyım ama bu tadı affediyorum.": [
+"data/judge_lines"
+],
+"Vrak! Yani... lezzetli! Vrak!": [
+"data/judge_lines"
+],
+"Şimdi canım bir sinek çekti. Bunu neden söyledim?": [
+"data/judge_lines"
+],
+"Dişlerim çok sivri, peynir kesmek kolay oldu.": [
+"data/judge_lines"
+],
+"Güneşi kapatın! Ve bana biraz daha sos verin.": [
+"data/judge_lines"
+],
+"TAT ANALİZİ: KABUL EDİLEBİLİR. BIYIK: HÂLÂ GÜZEL.": [
+"data/judge_lines"
+],
+"Gözlerim lazer gibi, pişirme hatalarını görüyorum!": [
+"data/judge_lines"
+],
+"Yemeğin cızırtısını üç sokak öteden duydum!": [
+"data/judge_lines"
+],
+"Kulaklarım dev ama tat alma duyum aynı, merak etme.": [
+"data/judge_lines"
+],
+"Saçlarım yanıyor ama bu yemek daha da yakıyor!": [
+"data/judge_lines"
+],
+"Acı getirin! Saçım zaten alevde, kaybedecek bir şeyim yok!": [
+"data/judge_lines"
+],
+"Antenlerim bir sinyal alıyor: 'Daha çok tuz koy.'": [
+"data/judge_lines"
+],
+"Uzaydan mesaj var: Bu tabak dünyalılar için uygun.": [
+"data/judge_lines"
+],
+"Lokma içimden geçti... tadını zar zor aldım.": [
+"data/judge_lines"
+],
+"Hayalet olmak zor, yemek tadamıyorum! Buuu!": [
+"data/judge_lines"
+],
+"Dilim o kadar büyük ki her tadı iki kere alıyorum!": [
+"data/judge_lines"
+],
+"Bu dille tabağı tek seferde yalayabilirim. Yapmayacağım. Belki.": [
+"data/judge_lines"
+],
+"Ben burada lezzet görüyorum, siz ne görüyorsunuz?": [
+"data/judge_lines"
+],
+"Bu yemeği eleştiren önce bir yumurta kırmayı öğrensin!": [
+"data/judge_lines"
+],
+"Lezzet her şeydir! Gerisi süs!": [
+"data/judge_lines"
+],
+"Annem bu tabağı görse gururla ağlardı!": [
+"data/judge_lines"
+],
+"Bıyığım üzerine yemin ederim, bu harika!": [
+"data/judge_lines"
+],
+"Gerçek yemek böyle olmaz! Bu bir trajedi!": [
+"data/judge_lines"
+],
+"Bunu övmek için ya aç ya da kör olmak lazım!": [
+"data/judge_lines"
+],
+"Siz buna lezzet mi diyorsunuz? Ben buna kaza diyorum!": [
+"data/judge_lines"
+],
+"Bu tabakla bıyığımı bile silmem!": [
+"data/judge_lines"
+],
+"Gösteriş var, lezzet yok! Bu bir sahne dekoru!": [
+"data/judge_lines"
+],
+"Benim mutfağımda bu tabak kapıdan bile girmez!": [
+"data/judge_lines"
+],
+"Ben ikinize de katılmıyorum! Ortada bir yerdeyim!": [
+"data/judge_lines"
+],
+"Durun, durun! Bıyığımı karıştırmayın bu işe!": [
+"data/judge_lines"
+],
+"Bence ikiniz de abartıyorsunuz. Biraz tuz atın kendinize!": [
+"data/judge_lines"
+],
+"Tartışmayı kesin, çorba soğuyor!": [
+"data/judge_lines"
+],
+"Hipotezim doğrulandı: Sen bir dâhisin.": [
+"data/judge_lines"
+],
+"Laboratuvarımda üç yıldır bunu arıyordum!": [
+"data/judge_lines"
+],
+"Moleküller dans ediyor! Bunu bir makaleye dönüştürmeliyim.": [
+"data/judge_lines"
+],
+"Bu, mutfak bilimi için yeni bir çağın başlangıcı.": [
+"data/judge_lines"
+],
+"Defterim yetmedi, kolumun üstüne not alıyorum.": [
+"data/judge_lines"
+],
+"Deney başarılı! Patlama yok, sadece lezzet.": [
+"data/judge_lines"
+],
+"Bu tabağı müzeye koyalım, yanına da bir bilim insanı heykeli.": [
+"data/judge_lines"
+],
+"Beklenmedik, cüretkâr, mükemmel. Üç kelime, tek tabak.": [
+"data/judge_lines"
+],
+"Sonuçlar istatistiksel olarak anlamlı: Bu çok iyi!": [
+"data/judge_lines"
+],
+"Bu karışımın formülünü bana yaz, lütfen!": [
+"data/judge_lines"
+],
+"Beynimdeki nöronlar alkış tutuyor.": [
+"data/judge_lines"
+],
+"Bu ismi bilim tarihine yazacağım: {dish}.": [
+"data/judge_lines"
+],
+"Şu {ing} kullanımı tam bir paradigma değişimi!": [
+"data/judge_lines"
+],
+"Gözlüklerim buğulandı. Heyecandan, buhardan değil.": [
+"data/judge_lines"
+],
+"Sıradanlığın ilacını bulmuşsun!": [
+"data/judge_lines"
+],
+"Bu tabak sınırları zorlamanın ödülü.": [
+"data/judge_lines"
+],
+"Bunu yedikten sonra evren biraz daha anlamlı geldi.": [
+"data/judge_lines"
+],
+"Teorik olarak imkânsız, pratikte nefis!": [
+"data/judge_lines"
+],
+"Kafamda yeni bir ampul yandı. Tabağına teşekkürler!": [
+"data/judge_lines"
+],
+"Bu deneyi tekrar etmek için her şeyimi veririm.": [
+"data/judge_lines"
+],
+"Tebrikler! Laboratuvar önlüğünü hak ettin.": [
+"data/judge_lines"
+],
+"Zihnim açıldı, damağım aydınlandı!": [
+"data/judge_lines"
+],
+"Bu tabak, hakemli bir dergide kapak olur.": [
+"data/judge_lines"
+],
+"Şimdiye kadar gördüğüm en güzel kaos!": [
+"data/judge_lines"
+],
+"Deney yarıda kalmış gibi. Devamı nerede?": [
+"data/judge_lines"
+],
+"Veriler karışık. Biraz tatlı, biraz şaşkın.": [
+"data/judge_lines"
+],
+"Umut verici bir prototip. Bir sonraki sürümü bekliyorum.": [
+"data/judge_lines"
+],
+"Kontrol grubuna göre fark var, ama çok küçük.": [
+"data/judge_lines"
+],
+"Bu tabağın yaratıcılık oranı %50. Diğer yarısı uyuyor.": [
+"data/judge_lines"
+],
+"Tuhaflığı sevdim, ama yeterince tuhaf değil.": [
+"data/judge_lines"
+],
+"Formül doğru, sonuç biraz sönük.": [
+"data/judge_lines"
+],
+"Bir taslak gibi duruyor: {dish}. Bir revizyon daha!": [
+"data/judge_lines"
+],
+"Şu {ing} daha iyi kullanılabilirdi, potansiyeli büyük.": [
+"data/judge_lines"
+],
+"Bir adım ileri, bir adım geri. Bilim böyledir.": [
+"data/judge_lines"
+],
+"Notum: 'İyi ama devrimci değil.'": [
+"data/judge_lines"
+],
+"Laboratuvarda ilk denemede bu çıkardı. Sonra geliştirirdik.": [
+"data/judge_lines"
+],
+"Merakımı uyandırdın ama tamamen tatmin etmedin.": [
+"data/judge_lines"
+],
+"Daha fazla risk, daha fazla ödül demektir.": [
+"data/judge_lines"
+],
+"Ne patladı ne parladı. Ortada bir tepkime.": [
+"data/judge_lines"
+],
+"Ortalama bir deney. Hakemler 'küçük düzeltme' istiyor.": [
+"data/judge_lines"
+],
+"Gözlem: Lezzet var. Sonuç: Heyecan yok.": [
+"data/judge_lines"
+],
+"Bu tabak güvenli oynuyor. Bilim güvenli oynamaz!": [
+"data/judge_lines"
+],
+"Tasarım güzel, sürpriz faktörü düşük.": [
+"data/judge_lines"
+],
+"Bir sonraki adımda daha fazla kaos öneririm.": [
+"data/judge_lines"
+],
+"Fena değil. Ama fena değil, iyi değil demektir.": [
+"data/judge_lines"
+],
+"Bu karışımda bir şey eksik. Belki bir şimşek?": [
+"data/judge_lines"
+],
+"Yarım bir keşif. Diğer yarısı hâlâ bilinmiyor.": [
+"data/judge_lines"
+],
+"Değişkenler doğru, oranlar yanlış.": [
+"data/judge_lines"
+],
+"Bu tabak bilime hiçbir şey katmadı.": [
+"data/judge_lines"
+],
+"Hipotez çürütüldü. Hem de fena hâlde.": [
+"data/judge_lines"
+],
+"Deney başarısız. Laboratuvarı havalandırın.": [
+"data/judge_lines"
+],
+"Bu yemek bir ders kitabının en sıkıcı sayfası gibi.": [
+"data/judge_lines"
+],
+"Yaratıcılık sıfıra bölündü: Tanımsız.": [
+"data/judge_lines"
+],
+"Hiçbir dergi bunu kabul etmez: {dish}.": [
+"data/judge_lines"
+],
+"Şu {ing} burada boşa harcanmış.": [
+"data/judge_lines"
+],
+"Merak duygum bu tabağa bakınca öldü.": [
+"data/judge_lines"
+],
+"Bunu bir robot da yapardı. Hem de daha heyecanlı.": [
+"data/judge_lines"
+],
+"Tahmin edilebilir, sıradan, ruhsuz.": [
+"data/judge_lines"
+],
+"Gözlüklerimi çıkardım ki daha az göreyim.": [
+"data/judge_lines"
+],
+"Bu tabak sınavdan kaldı. Bütünlemede görüşürüz.": [
+"data/judge_lines"
+],
+"Moleküller bile sıkılmış, hiç hareket etmiyorlar.": [
+"data/judge_lines"
+],
+"Bu bir deney değil, bir alışkanlık.": [
+"data/judge_lines"
+],
+"Laboratuvar faresi bile bunu reddederdi.": [
+"data/judge_lines"
+],
+"Kimyasal tepkime yok, duygusal tepkime de yok.": [
+"data/judge_lines"
+],
+"Bunu yiyince zaman yavaşladı. Kötü anlamda.": [
+"data/judge_lines"
+],
+"Not: Bu tarifi asla tekrarlamayın.": [
+"data/judge_lines"
+],
+"İnovasyon nerede? Aradım, bulamadım.": [
+"data/judge_lines"
+],
+"Bu tabak beni yirmi yıl geriye götürdü.": [
+"data/judge_lines"
+],
+"Bilimsel yöntem: Gözlem, deney... ve hayal kırıklığı.": [
+"data/judge_lines"
+],
+"Patlamasını bekledim, o bile olmadı.": [
+"data/judge_lines"
+],
+"Bu tabağın tek keşfi sabrımın sınırı oldu.": [
+"data/judge_lines"
+],
+"Raporuma tek kelime yazıyorum: 'Hayır.'": [
+"data/judge_lines"
+],
+"Daha önce kimse bunu denememişti! Tarihe tanıklık ediyorum.": [
+"data/judge_lines"
+],
+"Yeni bir keşif! Adını sen koyduğun için şanslısın.": [
+"data/judge_lines"
+],
+"İlk deneme ve şimdiden ilginç. Seri üretime geçelim!": [
+"data/judge_lines"
+],
+"Literatürde böyle bir tarif yok. Artık var!": [
+"data/judge_lines"
+],
+"Bunu zaten yemiştim. Tekrar eden deney yeni bilgi vermez.": [
+"data/judge_lines"
+],
+"Aynı sonuç, aynı tabak. Değişkeni değiştirmeyi unuttun mu?": [
+"data/judge_lines"
+],
+"Tekrarlanabilirlik bilimde iyidir, mutfakta sıkıcıdır.": [
+"data/judge_lines"
+],
+"Yemek canlı! Bu yeni bir yaşam formu mu? Defterim nerede!": [
+"data/judge_lines"
+],
+"Kıpırdayan tabak! Biyoloji bölümü bunu duymalı.": [
+"data/judge_lines"
+],
+"Canlı ve evcil. Muhteşem bir başarı!": [
+"data/judge_lines"
+],
+"Deney kaçtı! Bu kadar canlılık biraz fazla oldu.": [
+"data/judge_lines"
+],
+"Yemek kaçmış, ama bu da bir veri! Hız: çok yüksek.": [
+"data/judge_lines"
+],
+"Tabak boş... Ah, şurada perdeye tırmanıyor. İlginç!": [
+"data/judge_lines"
+],
+"Lanetli bir malzeme! Büyünün kimyası beni büyülüyor.": [
+"data/judge_lines"
+],
+"Bu tabakta beklenmedik bir değişken var. Sabotaj mı?": [
+"data/judge_lines"
+],
+"Fermente sürpriz! Mikrobiyolojik açıdan büyüleyici.": [
+"data/judge_lines"
+],
+"Gizemli malzemeyi böyle yorumlamak... akıllıca!": [
+"data/judge_lines"
+],
+"Şu {ing} ile yapılan deney bilinmeyeni bilinen yaptı.": [
+"data/judge_lines"
+],
+"Gizem çözüldü, lezzet keşfedildi.": [
+"data/judge_lines"
+],
+"Büyü, uzay, elektrik... Tam benim ilgi alanım!": [
+"data/judge_lines"
+],
+"Bu malzemelerle her şey mümkün.": [
+"data/judge_lines"
+],
+"İşte gerçek bir laboratuvar mutfağı!": [
+"data/judge_lines"
+],
+"Bunu büyükannem de yapardı. O da sıkılırdı.": [
+"data/judge_lines"
+],
+"Bu kadar güvenli bir seçim beni üzüyor.": [
+"data/judge_lines"
+],
+"Ezber tarifler beni uyutuyor.": [
+"data/judge_lines"
+],
+"Fırın, kontrollü bir tepkime odası. İyi kullanmışsın.": [
+"data/judge_lines"
+],
+"Kabarma oranı etkileyici, ölçüm yapmam lazım.": [
+"data/judge_lines"
+],
+"Kızgın yağda Maillard tepkimesi, harika!": [
+"data/judge_lines"
+],
+"Çıtırlık frekansı tam istediğim aralıkta.": [
+"data/judge_lines"
+],
+"Kristalleşme süreci kusursuz yönetilmiş.": [
+"data/judge_lines"
+],
+"Soğuk bilim! En sevdiğim tür.": [
+"data/judge_lines"
+],
+"Kaynama noktasını iyi yakalamışsın.": [
+"data/judge_lines"
+],
+"Buhar, bilimin nefesidir.": [
+"data/judge_lines"
+],
+"Izgara izleri birer veri çizelgesi gibi.": [
+"data/judge_lines"
+],
+"Doğrudan ısı, doğrudan sonuç. Basit ama etkili.": [
+"data/judge_lines"
+],
+"Büyülü pişirme! Henüz açıklayamadığım bir enerji kullanıyor.": [
+"data/judge_lines"
+],
+"Büyü, henüz anlaşılmamış bilimdir. Bunu seviyorum!": [
+"data/judge_lines"
+],
+"Vrak! Bilimsel olarak ilginç: Artık sinek tadını alabiliyorum.": [
+"data/judge_lines"
+],
+"Dilim çok uzun ve yapışkan. Not ediyorum. Vrak!": [
+"data/judge_lines"
+],
+"Bu dişler kan şekerimi ölçebiliyor mu acaba?": [
+"data/judge_lines"
+],
+"Gece kuşu oldum. Tam laboratuvar saatleri!": [
+"data/judge_lines"
+],
+"VERİ AKIŞI BAŞLADI. YARATICILIK: HESAPLANIYOR.": [
+"data/judge_lines"
+],
+"Robot gözlerle her molekülü görüyorum. Harika!": [
+"data/judge_lines"
+],
+"Moleküllerin fısıldaşmasını duyuyorum!": [
+"data/judge_lines"
+],
+"Kulaklarım dev oldu, bilimsel olarak açıklayamıyorum. Henüz.": [
+"data/judge_lines"
+],
+"Saçlarım yanıyor! Ama yanma tepkimesi nefis kokuyor.": [
+"data/judge_lines"
+],
+"Alev saç: Isı deneyleri için çok pratik!": [
+"data/judge_lines"
+],
+"Antenler başka galaksilerden tarif alıyor!": [
+"data/judge_lines"
+],
+"Zorp'un gezegeninden selam var, bu tabağı beğenmişler!": [
+"data/judge_lines"
+],
+"Fiziksel bedenim yok ama yaratıcılığı hâlâ hissediyorum.": [
+"data/judge_lines"
+],
+"Hayalet olmak kuantum gastronomisi için büyük fırsat!": [
+"data/judge_lines"
+],
+"Dil yüzeyim üç kat arttı! Tat verileri muazzam.": [
+"data/judge_lines"
+],
+"Bu dille tat almaçlarını tek tek sayabilirim.": [
+"data/judge_lines"
+],
+"Bu bir vizyon! Mutfağın geleceği bu tabakta!": [
+"data/judge_lines"
+],
+"Siz sadece tabağa bakıyorsunuz, ben fikre bakıyorum!": [
+"data/judge_lines"
+],
+"Bu cesaret ödüllendirilmeli!": [
+"data/judge_lines"
+],
+"Gelecekte herkes bunu yiyecek, görürsünüz!": [
+"data/judge_lines"
+],
+"Bilimin ilerlemesi için risk şart!": [
+"data/judge_lines"
+],
+"Klasik diye diye mutfağı müzeye çevirdiniz!": [
+"data/judge_lines"
+],
+"Bu tabak bilimin değil, alışkanlığın ürünü!": [
+"data/judge_lines"
+],
+"Güzel görünmesi yaratıcı olduğu anlamına gelmez!": [
+"data/judge_lines"
+],
+"Bunu övmek ilerlemeye ihanettir!": [
+"data/judge_lines"
+],
+"Bu bir deney değil, bir tekrar!": [
+"data/judge_lines"
+],
+"Sıradanlığı alkışlamayacağım!": [
+"data/judge_lines"
+],
+"İkiniz de önyargılısınız! Verilere bakalım!": [
+"data/judge_lines"
+],
+"Bilimsel olarak ikiniz de kısmen haklısınız.": [
+"data/judge_lines"
+],
+"Tartışma güzel, ama hipotezlerinizi kanıtlayın!": [
+"data/judge_lines"
+],
+"Lütfen sakin olun, gözlüklerim buğulanıyor!": [
+"data/judge_lines"
+],
+"Uşağım bunu görse gözyaşlarına boğulurdu.": [
+"data/judge_lines"
+],
+"İşte asalet! İşte zarafet!": [
+"data/judge_lines"
+],
+"Bu sunum yedi şatomun yedisinde de baş köşeye konur.": [
+"data/judge_lines"
+],
+"Tabağın açısı kusursuz. Üç derece bile kaymamış.": [
+"data/judge_lines"
+],
+"Kraliyet ziyafetlerinde bile böylesini görmedim.": [
+"data/judge_lines"
+],
+"Renk uyumu bir tabloyu andırıyor. Yenebilen bir tablo!": [
+"data/judge_lines"
+],
+"Bu tabağın önünde reverans yapmak istiyorum.": [
+"data/judge_lines"
+],
+"Monoklümü parlattım, daha iyi görmek için. Değdi!": [
+"data/judge_lines"
+],
+"Bir sanatçının elinden çıkmış gibi. Belki de çıkmıştır.": [
+"data/judge_lines"
+],
+"Zarif, asil, kusursuz. Tıpkı benim gibi.": [
+"data/judge_lines"
+],
+"Bu tabakla bir balo bile düzenlenir: {dish}!": [
+"data/judge_lines"
+],
+"Şu {ing} detayı tam bir aristokrat dokunuşu.": [
+"data/judge_lines"
+],
+"Bu tabak bir opera gibi: Her detayı alkış hak ediyor.": [
+"data/judge_lines"
+],
+"Altın çatalımı çıkarıyorum, buna layık.": [
+"data/judge_lines"
+],
+"Görüyor musunuz? Zarafet öğrenilebilir!": [
+"data/judge_lines"
+],
+"Ressamlar bu tabağı yüzyıllarca resmedecek.": [
+"data/judge_lines"
+],
+"Sunum o kadar güzel ki yemeye kıyamıyorum. Yine de yiyeceğim.": [
+"data/judge_lines"
+],
+"Bu tabak için şatomun bir kanadını verirdim. Küçük olanı.": [
+"data/judge_lines"
+],
+"Mükemmel! Ailemin armasına bu tabağı ekleteceğim.": [
+"data/judge_lines"
+],
+"Böyle bir zarafet ancak kraliyet kanında olur.": [
+"data/judge_lines"
+],
+"Bravo! Görgü kurallarına harfiyen uygun.": [
+"data/judge_lines"
+],
+"İpek kadar yumuşak, elmas kadar parlak.": [
+"data/judge_lines"
+],
+"Bu sunumu görünce ayağa kalkıp alkışlamak istedim.": [
+"data/judge_lines"
+],
+"Kristal avizelerimin altında bile parlardı.": [
+"data/judge_lines"
+],
+"Güzel bir deneme. Henüz bir başyapıt değil.": [
+"data/judge_lines"
+],
+"Sunum sıradan bir akşam yemeği gibi.": [
+"data/judge_lines"
+],
+"Monoklüm tereddüt etti. Düşmedi ama kıpırdadı.": [
+"data/judge_lines"
+],
+"Biraz daha özen, biraz daha incelik.": [
+"data/judge_lines"
+],
+"Uşağım bunu servis ederdi. İsteksizce.": [
+"data/judge_lines"
+],
+"Renkler biraz kararsız. Bir karar verin!": [
+"data/judge_lines"
+],
+"Tabağın kenarında bir leke mi var? Neyse, görmezden geliyorum.": [
+"data/judge_lines"
+],
+"Bir prova gibi duruyor: {dish}. Gösteri günü daha iyi olur.": [
+"data/judge_lines"
+],
+"Şu {ing} daha zarif sunulabilirdi.": [
+"data/judge_lines"
+],
+"Fena değil. Ama ben 'fena değil' için şatodan çıkmadım.": [
+"data/judge_lines"
+],
+"Asaletin kapısına kadar gelmiş, içeri girememiş.": [
+"data/judge_lines"
+],
+"Düzenli ama ruhsuz. Bir muhasebe tablosu gibi.": [
+"data/judge_lines"
+],
+"Biraz altın varak her şeyi değiştirirdi.": [
+"data/judge_lines"
+],
+"Orta karar. Tıpkı bir pazartesi sabahı gibi.": [
+"data/judge_lines"
+],
+"Görünüşü bir şey vaat ediyor ama tam teslim etmiyor.": [
+"data/judge_lines"
+],
+"Sofra adabına uygun ama heyecan verici değil.": [
+"data/judge_lines"
+],
+"Tabağın merkezi kaymış. Kalbim de biraz kaydı.": [
+"data/judge_lines"
+],
+"Bu sunum bir taslak. Sanatçı nerede?": [
+"data/judge_lines"
+],
+"Zarafet var, ama kibarca uzaktan el sallıyor.": [
+"data/judge_lines"
+],
+"Kraliyet ziyafetine değil, bir pikniğe uygun.": [
+"data/judge_lines"
+],
+"Özen var, ama ustalık henüz yolda.": [
+"data/judge_lines"
+],
+"Yarım bir senfoni gibi. İkinci perde nerede?": [
+"data/judge_lines"
+],
+"Şık bir ceket ama düğmeleri yanlış iliklenmiş.": [
+"data/judge_lines"
+],
+"Neredeyse zarif. Neredeyse.": [
+"data/judge_lines"
+],
+"Bu tabak şatomun kapısından geçemez.": [
+"data/judge_lines"
+],
+"Uşağım bunu görse istifa ederdi.": [
+"data/judge_lines"
+],
+"Bu sunum bir trafik kazası gibi.": [
+"data/judge_lines"
+],
+"Zarafet burada değil. Muhtemelen başka bir ülkede.": [
+"data/judge_lines"
+],
+"Tabakta savaş çıkmış ve herkes yenilmiş.": [
+"data/judge_lines"
+],
+"Bu bir sanat eseri değil, bir suç mahalli: {dish}.": [
+"data/judge_lines"
+],
+"Şu {ing} tabağa fırlatılmış gibi duruyor.": [
+"data/judge_lines"
+],
+"Görgü kurallarının hepsi aynı anda çiğnenmiş.": [
+"data/judge_lines"
+],
+"Bunu görünce soy ağacım titredi.": [
+"data/judge_lines"
+],
+"Monoklümü çıkarıyorum. Bazı şeyleri görmemek gerek.": [
+"data/judge_lines"
+],
+"Bu tabak kraliyetten değil, kaostan gelmiş.": [
+"data/judge_lines"
+],
+"İpek bir mendile ihtiyacım var. Gözlerimi silmek için.": [
+"data/judge_lines"
+],
+"Bu sunum bir sirk çadırında bile sırıtır.": [
+"data/judge_lines"
+],
+"Renkler kavga etmiş, kimse kazanmamış.": [
+"data/judge_lines"
+],
+"Bunu yiyeceğim ama kimseye söylemeyin.": [
+"data/judge_lines"
+],
+"Atalarım mezarlarında döndü.": [
+"data/judge_lines"
+],
+"Bu tabağı ancak çok aç bir korsan beğenir.": [
+"data/judge_lines"
+],
+"Bataklıktan mı geldi bu? Kokusu öyle diyor.": [
+"data/judge_lines"
+],
+"Zevkimi değil, sabrımı test ediyorsun.": [
+"data/judge_lines"
+],
+"Çatalımı masaya bıraktım. Bu bir protestodur.": [
+"data/judge_lines"
+],
+"Bunu kırmızı halıda görse fotoğrafçılar kaçardı.": [
+"data/judge_lines"
+],
+"Bir tabakta bu kadar düzensizlik nasıl olur?": [
+"data/judge_lines"
+],
+"Bu sunum için şatomdan özür dilemem gerekecek.": [
+"data/judge_lines"
+],
+"Gözlerimi kapatıp yesem bile bu dağınıklığı hissederim.": [
+"data/judge_lines"
+],
+"Yeni bir tarif! Asil ailelere ilk ben tanıtacağım.": [
+"data/judge_lines"
+],
+"Daha önce hiç görülmemiş bir tabak. Moda öncüsüsün.": [
+"data/judge_lines"
+],
+"İlk kez yapılmış ve şimdiden şık. Takdir ettim.": [
+"data/judge_lines"
+],
+"Bu yeniliği şatomdaki koleksiyona ekliyorum.": [
+"data/judge_lines"
+],
+"Bunu zaten görmüştüm. Aynı elbiseyle iki baloya gidilmez.": [
+"data/judge_lines"
+],
+"Tekrar mı? Benim gardırobumda bile tekrar yoktur.": [
+"data/judge_lines"
+],
+"Aynı tabak... Aristokratlar sürpriz sever, biliyorsun.": [
+"data/judge_lines"
+],
+"Yemek bana reverans yaptı! Görgülü bir tabak.": [
+"data/judge_lines"
+],
+"Canlı ama terbiyeli. Takdir ediyorum.": [
+"data/judge_lines"
+],
+"Sos ceketime sıçradı! Bu ipekti!": [
+"data/judge_lines"
+],
+"Yemek kaçarken monoklüme çarptı. Affedilemez!": [
+"data/judge_lines"
+],
+"Bu tabakta karanlık bir aura var. Gotik ama dağınık.": [
+"data/judge_lines"
+],
+"Lanetli mi? Ailemde de birkaç lanet vardı. Şık değildi.": [
+"data/judge_lines"
+],
+"Turşu kokusu mu alıyorum? Burası bir kiler değil!": [
+"data/judge_lines"
+],
+"Gizemli malzemeyi zarifçe kullanmışsın.": [
+"data/judge_lines"
+],
+"Şu {ing} bile bu tabakta asil görünüyor.": [
+"data/judge_lines"
+],
+"Gizemi şıklıkla çözmüşsün, tebrikler.": [
+"data/judge_lines"
+],
+"Trüf, kristal, çiçek... Zevkli seçimler!": [
+"data/judge_lines"
+],
+"Bu malzemeler bir lorda yakışır.": [
+"data/judge_lines"
+],
+"Meyve mi? Benim en büyük zaafım!": [
+"data/judge_lines"
+],
+"Böcek mi? Tabağımda mı? Şaka olmalı.": [
+"data/judge_lines"
+],
+"Bu jöle titriyor. Ben titremem.": [
+"data/judge_lines"
+],
+"Fermente şeyler asalete yakışmaz.": [
+"data/judge_lines"
+],
+"Fırından çıkan bu altın renk... çok aristokrat.": [
+"data/judge_lines"
+],
+"Kabarık ve gururlu. Tıpkı bir lord gibi.": [
+"data/judge_lines"
+],
+"Çıtır ama kaba değil. Zor bir denge.": [
+"data/judge_lines"
+],
+"Kızartma bile zarif olabilirmiş, öğrendim.": [
+"data/judge_lines"
+],
+"Buz gibi şık. Kristal bir saray gibi.": [
+"data/judge_lines"
+],
+"Soğuk zarafet, en sevdiğim tür.": [
+"data/judge_lines"
+],
+"Çorbada zarafet zordur, ama başarmışsın.": [
+"data/judge_lines"
+],
+"Buharı bile asil bir dansla yükseliyor.": [
+"data/judge_lines"
+],
+"Izgara izleri bir şato bahçesi gibi düzenli.": [
+"data/judge_lines"
+],
+"Köz kokusu biraz kaba ama tabak şık.": [
+"data/judge_lines"
+],
+"Büyülü pişirme! Bir peri masalı tabağı.": [
+"data/judge_lines"
+],
+"Işıltısı bir taç kadar etkileyici.": [
+"data/judge_lines"
+],
+"Vrak! Bir kurbağa bile zarafetten anlar. Vrak!": [
+"data/judge_lines"
+],
+"Kurbağa prens oldum! Biri beni öpsün. Hayır, aslında öpmeyin.": [
+"data/judge_lines"
+],
+"Vampir dişleri bana çok yakıştı. Asil bir görünüm.": [
+"data/judge_lines"
+],
+"Gece ziyafetlerine hazırım. Karanlık ve şık!": [
+"data/judge_lines"
+],
+"SUNUM TARAMASI: MONOKL UYUMSUZ. YİNE DE ZARİF.": [
+"data/judge_lines"
+],
+"Robot gözler bile bu tabağın açısını ölçüyor.": [
+"data/judge_lines"
+],
+"Kulaklarım dev ama saçım hâlâ kusursuz. Önemli olan bu.": [
+"data/judge_lines"
+],
+"Uşağımın fısıltısını üç oda öteden duyuyorum!": [
+"data/judge_lines"
+],
+"Saçlarım yanıyor! Bu tarzı moda yapabilirim.": [
+"data/judge_lines"
+],
+"Alevli bir lord! Ne dramatik, ne şık!": [
+"data/judge_lines"
+],
+"Antenler monoklümle uyumlu değil, ama idare eder.": [
+"data/judge_lines"
+],
+"Uzaydan gelmiş bir aristokrat gibi hissediyorum.": [
+"data/judge_lines"
+],
+"Hayalet bir lord olarak şatolarımda dolaşabilirim. Buuu!": [
+"data/judge_lines"
+],
+"Saydam olmak bile zarif olabilir, değil mi?": [
+"data/judge_lines"
+],
+"Bu dil hiç aristokrat değil! Lütfen bakmayın!": [
+"data/judge_lines"
+],
+"Dilim tabağa değdi. Görgü kuralı ihlali, biliyorum.": [
+"data/judge_lines"
+],
+"Zarafeti görmeyen monoklünü taksın!": [
+"data/judge_lines"
+],
+"Bu tabak bir sanat eseri, saygı gösterin!": [
+"data/judge_lines"
+],
+"Göze hitap etmeyen yemek kalbe de hitap etmez!": [
+"data/judge_lines"
+],
+"Asalet tartışılmaz, bu tabak asil!": [
+"data/judge_lines"
+],
+"Bu sunumu küçümsemek sanatı küçümsemektir!": [
+"data/judge_lines"
+],
+"Bu sunum zarafete açılmış bir savaştır!": [
+"data/judge_lines"
+],
+"Bu tabağı övmek görgüsüzlüktür!": [
+"data/judge_lines"
+],
+"Lezzeti umurumda değil, bu tabak çirkin!": [
+"data/judge_lines"
+],
+"Bu dağınıklık kabul edilemez!": [
+"data/judge_lines"
+],
+"Şatomda bu tabağı servis eden işini kaybederdi!": [
+"data/judge_lines"
+],
+"Bu kadar özensizlik bir lordu küstürür!": [
+"data/judge_lines"
+],
+"Beyler, hanımlar, lütfen! Biraz nezaket!": [
+"data/judge_lines"
+],
+"Bu tartışma hiç zarif değil. İkinize de katılmıyorum.": [
+"data/judge_lines"
+],
+"Bağırmak yerine çay içelim, olmaz mı?": [
+"data/judge_lines"
+],
+"Monoklüm titriyor, sakin olun lütfen!": [
+"data/judge_lines"
+],
+"Cadı Morgana": [
+"data/opponents"
+],
+"Kazan Kraliçesi": [
+"data/opponents"
+],
+"Kendini beğenmiş, dramatik ve kahkahası üç sokak öteden duyuluyor.": [
+"data/opponents"
+],
+"Büyülü pişirme ve kurbağalı tariflerle jürinin aklını karıştırır.": [
+"data/opponents"
+],
+"Lanetli Malzeme": [
+"data/opponents",
+"scripts/systems/sabotage_system.gd"
+],
+"Kasendeki bir malzemeyi lanetli bir versiyona dönüştürür.": [
+"data/opponents"
+],
+"Hi hi hiii! Demek benim kazanıma meydan okuyacak çaylak sensin?": [
+"data/opponents"
+],
+"Kurbağalarım seni bekliyor, şefçik!": [
+"data/opponents"
+],
+"Kazanım fokurduyor!": [
+"data/opponents"
+],
+"Bir kurbağa daha, bir kurbağa daha...": [
+"data/opponents"
+],
+"Bu büyü seni şaşırtacak!": [
+"data/opponents"
+],
+"Morgana asasını sallıyor: 'Abra-kurbağa-dabra!'": [
+"data/opponents"
+],
+"Büyü sekti! Morgana'nın kazanı lanetlendi!": [
+"data/opponents"
+],
+"Hi hi hiii! Büyü her zaman kazanır!": [
+"data/opponents"
+],
+"Bir dahaki sefere seni kurbağaya çeviririm!": [
+"data/opponents"
+],
+"Olamaz! Kazanım beni yüzüstü bıraktı!": [
+"data/opponents"
+],
+"Bu... bu sadece şanstı! Büyü defterimi getirin!": [
+"data/opponents"
+],
+"Robot X-3000": [
+"data/opponents"
+],
+"Hassas Pişirme Ünitesi": [
+"data/opponents"
+],
+"Duygusuz, kusursuzluk takıntılı ama gizlice dondurmaya bayılıyor.": [
+"data/opponents"
+],
+"Hesaplanmış klasik tarifler ve kusursuz pişirme kalitesi.": [
+"data/opponents"
+],
+"Hassasiyet Kilidi": [
+"data/opponents",
+"scripts/systems/sabotage_system.gd"
+],
+"Pişirme kontrollerini kısa süre bozar.": [
+"data/opponents"
+],
+"BİP BOP. RAKİP TESPİT EDİLDİ. KAZANMA OLASILIĞINIZ: %3,7.": [
+"data/opponents"
+],
+"YEMEK ALGORİTMASI YÜKLENİYOR...": [
+"data/opponents"
+],
+"HESAPLANIYOR...": [
+"data/opponents"
+],
+"SICAKLIK: KUSURSUZ.": [
+"data/opponents"
+],
+"BİP. BOP. BİP.": [
+"data/opponents"
+],
+"X-3000'in gözleri kırmızıya döndü: 'KONTROL PROTOKOLÜ BAŞLATILIYOR.'": [
+"data/opponents"
+],
+"KISA DEVRE! X-3000 kendi fırınını kilitledi!": [
+"data/opponents"
+],
+"ZAFER HESAPLANDI. DUYGU MODÜLÜ: MUTLU.": [
+"data/opponents"
+],
+"İNSAN MUTFAĞI VERİMSİZ. BİP.": [
+"data/opponents"
+],
+"HATA! HATA! BU OLASILIK HESAPLANMAMIŞTI!": [
+"data/opponents"
+],
+"DUYGU MODÜLÜ: ÜZGÜN. YENİDEN BAŞLATILIYOR...": [
+"data/opponents"
+],
+"Zombi Nine Gülizar": [
+"data/opponents"
+],
+"Fermente Lezzetler Ustası": [
+"data/opponents"
+],
+"Tatlı, dalgın ve 200 yaşında. Herkese 'yavrum' diyor, kulağı düşebiliyor.": [
+"data/opponents"
+],
+"Turşular, küfler ve tuhaf fermente malzemelerle cesur tarifler.": [
+"data/opponents"
+],
+"Çürük Sürpriz": [
+"data/opponents",
+"scripts/systems/sabotage_system.gd"
+],
+"Tarifine gizlice tuhaf bir fermente malzeme ekler.": [
+"data/opponents"
+],
+"Gel yavrum gel, nineciğin sana turşu yaptı...": [
+"data/opponents"
+],
+"Benim zamanımda yemekler daha... canlıydı. Hı hı hı.": [
+"data/opponents"
+],
+"Bir tutam küf, bir tutam sevgi...": [
+"data/opponents"
+],
+"Ah belim! Yok, o kolumdu.": [
+"data/opponents"
+],
+"Yavrum, şu kavanozu uzatsana.": [
+"data/opponents"
+],
+"Gülizar Nine kilerinden bir kavanoz çıkarıyor: 'Bunu da ekle yavrum!'": [
+"data/opponents"
+],
+"Kavanoz devrildi! Gülizar Nine kendi turşusuna bulandı!": [
+"data/opponents"
+],
+"Hı hı hı, ninenin eli değince olur böyle!": [
+"data/opponents"
+],
+"Gel yavrum, sana da bir kavanoz vereyim.": [
+"data/opponents"
+],
+"Vay benim çürük kalbim! Aferin yavrum.": [
+"data/opponents"
+],
+"Benim zamanımda jüri böyle değildi...": [
+"data/opponents"
+],
+"Kont Velvet": [
+"data/opponents"
+],
+"Gece Yarısı Pastacısı": [
+"data/opponents"
+],
+"Kibar, şık ve dramatik. Güneş ışığından ve sarımsaklı ekmekten nefret eder.": [
+"data/opponents"
+],
+"Gotik, karanlık ve son derece zarif tatlılar.": [
+"data/opponents"
+],
+"Gece Yarısı Mutfağı": [
+"data/opponents",
+"scripts/systems/sabotage_system.gd"
+],
+"Pişirme alanını geçici olarak karartır.": [
+"data/opponents"
+],
+"İyi akşamlar... Mutfağıma hoş geldiniz. Işıkları kısalım mı?": [
+"data/opponents"
+],
+"Pastalarım kadar tatlı bir yenilgi dilerim.": [
+"data/opponents"
+],
+"Mmm, karanlık çikolata...": [
+"data/opponents"
+],
+"Muhteşem bir gece, değil mi?": [
+"data/opponents"
+],
+"Pelerinim un oldu!": [
+"data/opponents"
+],
+"Kont Velvet pelerinini savuruyor: 'Işıklar... sönsün!'": [
+"data/opponents"
+],
+"Pelerin takıldı! Kont Velvet karanlıkta kendi pastasına daldı!": [
+"data/opponents"
+],
+"Muhteşem... Karanlık her zaman kazanır.": [
+"data/opponents"
+],
+"Pastam kadar zarif bir zafer.": [
+"data/opponents"
+],
+"Ah! Güneş doğmuş olmalı... Tebrikler.": [
+"data/opponents"
+],
+"Pelerinimi kaldırın, eve gidiyorum.": [
+"data/opponents"
+],
+"Kaptan Barbunya": [
+"data/opponents"
+],
+"Yedi Denizin Aşçısı": [
+"data/opponents"
+],
+"Gürültücü, cömert ve sinsi. Her şeyi çalar, sonra özür diler, sonra yine çalar.": [
+"data/opponents"
+],
+"Acı baharatlar, deniz lezzetleri ve ızgara.": [
+"data/opponents"
+],
+"Malzeme Hırsızlığı": [
+"data/opponents",
+"scripts/systems/sabotage_system.gd"
+],
+"Kilerindeki bir malzemeyi bu tur için çalmaya çalışır.": [
+"data/opponents"
+],
+"Yo ho hooo! Kilerine göz diktim, tayfa!": [
+"data/opponents"
+],
+"Bugünün ganimeti: senin malzemelerin! Har har!": [
+"data/opponents"
+],
+"Har har har!": [
+"data/opponents"
+],
+"Bu tava benim artık!": [
+"data/opponents"
+],
+"Rüzgâr arkamdan esiyor!": [
+"data/opponents"
+],
+"Kaptan Barbunya kılıcını kaptı: 'Şu malzeme benim olacak!'": [
+"data/opponents"
+],
+"Barbunya ayağı kayıp kendi tezgâhını devirdi! Har... har?": [
+"data/opponents"
+],
+"Yo ho! Hazine benim!": [
+"data/opponents"
+],
+"Bir dahaki sefere kilerini kilitle, tayfa!": [
+"data/opponents"
+],
+"Lanet olsun! Gemim battı!": [
+"data/opponents"
+],
+"Har har... Pekâlâ, bu sefer sen kazandın.": [
+"data/opponents"
+],
+"Uzaylı Zorp": [
+"data/opponents"
+],
+"Galaksiler Arası Gurme": [
+"data/opponents"
+],
+"Meraklı, neşeli ve Dünya yemeklerini çok komik buluyor. Kahkahası bip sesi gibi.": [
+"data/opponents"
+],
+"Dünya dışı malzemeler ve fizik kurallarını bozan tarifler.": [
+"data/opponents"
+],
+"Yerçekimi Kayması": [
+"data/opponents",
+"scripts/systems/sabotage_system.gd"
+],
+"Malzemeler ve tabaklar havada süzülmeye başlar.": [
+"data/opponents"
+],
+"Zorp selamlar, Dünyalı! Yemeklerin çok... ilkel. Bayıldım!": [
+"data/opponents"
+],
+"Gezegenimde kurbağalar uçar. Burada neden yürüyor?": [
+"data/opponents"
+],
+"Blip blop!": [
+"data/opponents"
+],
+"Bu 'yumurta' denen şey çok tuhaf!": [
+"data/opponents"
+],
+"Zorp acıktı!": [
+"data/opponents"
+],
+"Zorp bir düğmeye bastı: 'Yerçekimi... iptal!'": [
+"data/opponents"
+],
+"Zorp kendi yerçekimine kapıldı ve tavana yapıştı!": [
+"data/opponents"
+],
+"Zorp kazandı! Gezegenime anlatacağım!": [
+"data/opponents"
+],
+"Blip! Dünyalılar çok tatlı.": [
+"data/opponents"
+],
+"Zorp'un antenleri düştü... Tebrikler Dünyalı!": [
+"data/opponents"
+],
+"Gezegenime bu tarifi götürebilir miyim?": [
+"data/opponents"
+],
+"Peri Lila": [
+"data/opponents"
+],
+"Doğanın Şefi": [
+"data/opponents"
+],
+"Nazik, iyimser ama rekabete gelince bir kaplan kadar acımasız.": [
+"data/opponents"
+],
+"Taze, doğal ve sihirli tatlılar. Zararlı her şeyi arındırır.": [
+"data/opponents"
+],
+"Arındırma": [
+"data/opponents",
+"scripts/systems/sabotage_system.gd"
+],
+"Yemeğindeki büyüyü ve zehri arındırır, jürideki mutasyonları siler.": [
+"data/opponents"
+],
+"Merhaba! Ne güzel bir gün! Seni nazikçe ezeceğim.": [
+"data/opponents"
+],
+"Çiçeklerim senin için açtı... Yenilgin için.": [
+"data/opponents"
+],
+"La la la!": [
+"data/opponents"
+],
+"Doğa her zaman kazanır.": [
+"data/opponents"
+],
+"Ne tatlı bir çabaa!": [
+"data/opponents"
+],
+"Peri Lila kanatlarını çırpıyor: 'Her şey saf ve temiz olsun!'": [
+"data/opponents"
+],
+"Arındırma tozu Lila'nın burnuna kaçtı! Hapşuu!": [
+"data/opponents"
+],
+"Yaşasın doğa! Ve yaşasın ben!": [
+"data/opponents"
+],
+"Üzülme, sana bir çiçek vereyim.": [
+"data/opponents"
+],
+"Kanatlarım titriyor... Harikaydın!": [
+"data/opponents"
+],
+"Doğa bazen kaybetmeyi de öğretir. Hıh.": [
+"data/opponents"
+],
+"Şef Obscura": [
+"data/opponents"
+],
+"Gölge Mutfağın Efendisi": [
+"data/opponents"
+],
+"Gizemli, soğuk ve tüm rakiplerin tekniklerini çalmış bir usta.": [
+"data/opponents"
+],
+"Her rakibin en güçlü tekniğini birleştirir. Aynı anda iki sabotaj kullanabilir.": [
+"data/opponents"
+],
+"Gölge Kombosu": [
+"data/opponents",
+"data/leagues"
+],
+"Diğer rakiplerin yeteneklerinden ikisini aynı turda kullanabilir.": [
+"data/opponents"
+],
+"Demek buraya kadar geldin... Bütün şefler önümde diz çöktü.": [
+"data/opponents"
+],
+"Mutfak bir savaş alanıdır. Ve ben onun hükümdarıyım.": [
+"data/opponents"
+],
+"Gölgeler fokurduyor...": [
+"data/opponents"
+],
+"Teknikleri tanıdın mı?": [
+"data/opponents"
+],
+"Sıkıcı.": [
+"data/opponents"
+],
+"Şef Obscura'nın gözleri parlıyor: 'Gölge kombosu!'": [
+"data/opponents"
+],
+"Gölgeler döndü! Obscura kendi tuzağına düştü!": [
+"data/opponents"
+],
+"Beklendiği gibi. Mutfak benimdir.": [
+"data/opponents"
+],
+"Yeterince iyi değilsin. Henüz.": [
+"data/opponents"
+],
+"İmkânsız... Gölgeler dağılıyor...": [
+"data/opponents"
+],
+"Sen... gerçek bir şefsin. Galaksinin en iyisi.": [
+"data/opponents"
+],
+"Durmak Yok": [
+"data/leagues"
+],
+"Rakip her turda sabotaj yapar.": [
+"data/leagues"
+],
+"Çifte Gizem": [
+"data/leagues"
+],
+"2. ve 3. turda gizemli malzeme var.": [
+"data/leagues"
+],
+"Mutasyon Fırtınası": [
+"data/leagues"
+],
+"Jüri mutasyonları çok daha kolay tetiklenir.": [
+"data/leagues"
+],
+"Kaotik Jüri": [
+"data/leagues"
+],
+"Jüriden biri maça mutasyonlu başlar ve mutasyon maç boyunca kalır.": [
+"data/leagues"
+],
+"Canlı Sahne": [
+"data/leagues"
+],
+"Canlı yemekler +1 yaratıcılık kazanır.": [
+"data/leagues"
+],
+"Hızlı Mutfak": [
+"data/leagues"
+],
+"Tur süresi 80 saniye.": [
+"data/leagues"
+],
+"Büyülenmiş Jüri": [
+"data/leagues"
+],
+"Rakip Lord Max'i büyüledi: rakibe +0,5 puan.": [
+"data/leagues"
+],
+"Hassas Mutfak": [
+"data/leagues"
+],
+"Tüm jüriler pişirme kalitesine daha çok önem verir.": [
+"data/leagues"
+],
+"Rakip aynı turda iki sabotaj kullanabilir.": [
+"data/leagues"
+],
+"Dondurucu Bozuk": [
+"data/leagues"
+],
+"Bu maçta Dondurma yöntemi kullanılamaz.": [
+"data/leagues"
+],
+"Fırın Bozuk": [
+"data/leagues"
+],
+"Bu maçta Fırınlama yöntemi kullanılamaz.": [
+"data/leagues"
+],
+"Büyü Yasak": [
+"data/leagues"
+],
+"Bu maçta Büyülü Pişirme kullanılamaz.": [
+"data/leagues"
+],
+"Sokak Mutfağı": [
+"data/leagues"
+],
+"Her şef bir yerden başlar. Burada başlangıç: seyyar tezgâhlar ve kurbağalar.": [
+"data/leagues"
+],
+"Bir özel tarif hazırla": [
+"data/leagues"
+],
+"Bir sabotajı savuştur": [
+"data/leagues"
+],
+"Kaçan bir yemeği yakala": [
+"data/leagues"
+],
+"Tuhaf Şefler Ligi": [
+"data/leagues"
+],
+"Vampirler, korsanlar ve kurallara uymayan mutfaklar.": [
+"data/leagues"
+],
+"Bir turda 24+ puan al": [
+"data/leagues"
+],
+"Bir jüriyi mutasyona uğrat": [
+"data/leagues"
+],
+"Maç sırasında yeni bir tarif keşfet": [
+"data/leagues"
+],
+"Kaos Kupası": [
+"data/leagues"
+],
+"Yerçekimi yok, mantık yok, kural... biraz var.": [
+"data/leagues"
+],
+"İki canlı yemek yakala": [
+"data/leagues"
+],
+"Üç turu da kazan": [
+"data/leagues"
+],
+"Kusursuz bir pişirme yap": [
+"data/leagues"
+],
+"Kara Kaşık Şampiyonası": [
+"data/leagues"
+],
+"Sadece en cesur şeflerin girebildiği karanlık ve şık arena.": [
+"data/leagues"
+],
+"Hiçbir sabotajı kabullenmeden kazan": [
+"data/leagues"
+],
+"İki farklı mutasyon tetikle": [
+"data/leagues"
+],
+"Bir turda 26+ puan al": [
+"data/leagues"
+],
+"Galaktik Şef Finalleri": [
+"data/leagues"
+],
+"Evrenin dört bir yanından şefler. Ve bir gölge.": [
+"data/leagues"
+],
+"Üç özel tarif hazırla": [
+"data/leagues"
+],
+"Bir turda 27+ puan al": [
+"data/leagues"
+],
+"Kısa": [
+"data/content"
+],
+"Kıvırcık": [
+"data/content"
+],
+"Topuz": [
+"data/content"
+],
+"Uzun": [
+"data/content"
+],
+"Mohikan": [
+"data/content"
+],
+"Afro": [
+"data/content"
+],
+"Çifte Örgü": [
+"data/content"
+],
+"Kel": [
+"data/content"
+],
+"Neşeli": [
+"data/content"
+],
+"Kararlı": [
+"data/content"
+],
+"Havalı": [
+"data/content"
+],
+"Şapşal": [
+"data/content"
+],
+"Göz Kırpan": [
+"data/content"
+],
+"Beyaz Ceket": [
+"data/content"
+],
+"Kırmızı Ceket": [
+"data/content"
+],
+"Siyah Ceket": [
+"data/content"
+],
+"Mavi Ceket": [
+"data/content"
+],
+"Yeşil Ceket": [
+"data/content"
+],
+"Pembe Ceket": [
+"data/content"
+],
+"Altın Ceket": [
+"data/content"
+],
+"Önlüksüz": [
+"data/content"
+],
+"Klasik Önlük": [
+"data/content"
+],
+"Çizgili Önlük": [
+"data/content"
+],
+"Pembe Önlük": [
+"data/content"
+],
+"Deri Önlük": [
+"data/content"
+],
+"Gökkuşağı Önlük": [
+"data/content"
+],
+"Yok": [
+"data/content"
+],
+"Bıyık": [
+"data/content"
+],
+"Gözlük": [
+"data/content"
+],
+"Monokl": [
+"data/content"
+],
+"Papyon": [
+"data/content"
+],
+"Fular": [
+"data/content"
+],
+"Küpe": [
+"data/content"
+],
+"Çiller": [
+"data/content"
+],
+"Göz Bandı": [
+"data/content"
+],
+"Klasik Beyaz": [
+"data/content"
+],
+"Mavi Porselen": [
+"data/content"
+],
+"Ahşap Tahta": [
+"data/content"
+],
+"Gotik Arduvaz": [
+"data/content"
+],
+"Altın Yaldızlı": [
+"data/content"
+],
+"Kristal Cam": [
+"data/content"
+],
+"Galaksi Tabağı": [
+"data/content"
+],
+"Dev Yaprak": [
+"data/content"
+],
+"Süssüz": [
+"data/content"
+],
+"Nane Yaprağı": [
+"data/content"
+],
+"Renkli Serpme": [
+"data/content"
+],
+"Sos Kıvrımı": [
+"data/content"
+],
+"Pul Biber": [
+"data/content"
+],
+"Yenilebilir Çiçek": [
+"data/content"
+],
+"Altın Varak": [
+"data/content"
+],
+"Parıltı Tozu": [
+"data/content"
+],
+"Şeker Örümcek Ağı": [
+"data/content"
+],
+"Kurbağa Dönüşümü": [
+"data/content"
+],
+"Kurbağaya döndü! Artık böcekli ve bataklık yemeklerine bayılıyor.": [
+"data/content"
+],
+"Vampir Dişleri": [
+"data/content"
+],
+"Vampir dişleri çıktı! Artık karanlık, gotik yemekleri istiyor.": [
+"data/content"
+],
+"Robot Gözler": [
+"data/content"
+],
+"Gözleri robotlaştı! Artık sadece hassas pişirmeye bakıyor.": [
+"data/content"
+],
+"Dev Kulaklar": [
+"data/content"
+],
+"Kulakları dev gibi oldu! Cızırtıları duyuyor ama tadı değişmedi.": [
+"data/content"
+],
+"Alev Saçlar": [
+"data/content"
+],
+"Saçları alev aldı! Artık acı ve ateşli yemekler istiyor.": [
+"data/content"
+],
+"Uzaylı Antenleri": [
+"data/content"
+],
+"Uzaylı antenleri çıktı! Galaksiden radyo yayını alıyor.": [
+"data/content"
+],
+"Hayalet Formu": [
+"data/content"
+],
+"Hayalete dönüştü! Katı lezzetleri zor tadıyor, yaratıcılığa odaklanıyor.": [
+"data/content"
+],
+"Dev Dil": [
+"data/content"
+],
+"Dili dev gibi uzadı! Her tadı iki kat güçlü hissediyor.": [
+"data/content"
+],
+"Mutfakta sana eşlik eden minik bir büyücü kurabiye. Büyücü şapkası da senin!": [
+"data/content"
+],
+"Tarif: Şeker + Hayalet Tozu + Büyülü Un, fırında.": [
+"data/content"
+],
+"Kendini kızartan neşeli bir robot asistan.": [
+"data/content"
+],
+"Tarif: Hamur, peynir ve bir cıvata ızgarada buluşursa...": [
+"data/content"
+],
+"Titreyen, ateş hapşıran tatlı bir ejder yavrusu.": [
+"data/content"
+],
+"Tarif: Uzay jölesi, ejder ateşi ve şeker, buzda.": [
+"data/content"
+],
+"Hayalet Şef": [
+"data/content"
+],
+"Hayalet örtüsü kostümü. Buuu!": [
+"data/content"
+],
+"Jüride 4 farklı mutasyon gör.": [
+"data/content"
+],
+"Altın Şef": [
+"data/content"
+],
+"Parıldayan altın ceket. Sadece efsaneler için.": [
+"data/content"
+],
+"Kariyerde toplam 30 yıldız topla.": [
+"data/content"
+],
+"İlk Füzyon": [
+"data/content"
+],
+"İlk kez iki malzemeyi birleştir.": [
+"data/content"
+],
+"İlk Zafer": [
+"data/content"
+],
+"İlk maçını kazan.": [
+"data/content"
+],
+"Meraklı Şef": [
+"data/content"
+],
+"10 tarif keşfet.": [
+"data/content"
+],
+"Tarif Avcısı": [
+"data/content"
+],
+"25 tarif keşfet.": [
+"data/content"
+],
+"Usta Elleri": [
+"data/content"
+],
+"10 özel tarif keşfet.": [
+"data/content"
+],
+"Yakaladım Seni!": [
+"data/content"
+],
+"Kaçan bir yemeği yakala.": [
+"data/content"
+],
+"Yemek Terbiyecisi": [
+"data/content"
+],
+"5 canlı yemek yakala.": [
+"data/content"
+],
+"Jüri Bozuldu": [
+"data/content"
+],
+"Bir jüriyi mutasyona uğrat.": [
+"data/content"
+],
+"Mutasyon Koleksiyoncusu": [
+"data/content"
+],
+"8 mutasyonun hepsini gör.": [
+"data/content"
+],
+"Sekme!": [
+"data/content"
+],
+"Bir sabotajı rakibe geri teptir.": [
+"data/content"
+],
+"Kusursuz Isı": [
+"data/content"
+],
+"Pişirmede kusursuz sonuç al.": [
+"data/content"
+],
+"Jüri Ayakta": [
+"data/content"
+],
+"Bir turda 27+ puan al.": [
+"data/content"
+],
+"Sokakların Şefi": [
+"data/content"
+],
+"Sokak Mutfağı'nı tamamla.": [
+"data/content"
+],
+"Galaksinin En İyisi": [
+"data/content"
+],
+"Şef Obscura'yı yen.": [
+"data/content"
+],
+"Günün Şefi": [
+"data/content"
+],
+"Bir günlük meydan okuma ödülü al.": [
+"data/content"
+],
+"Gizli Misafir": [
+"data/content"
+],
+"Bir gizli karakterin kilidini aç.": [
+"data/content"
+],
+"Füzyon Ustası": [
+"data/content"
+],
+"Usta Damak": [
+"data/content"
+],
+"Özel tariflerde +0,5 lezzet.": [
+"data/content"
+],
+"Zincir Ustası": [
+"data/content"
+],
+"Tur başına +1 füzyon hakkı ve füzyon zincirinde +1 adım.": [
+"data/content"
+],
+"Tarif Radarı": [
+"data/content"
+],
+"Kasedeki kombinasyon bilinen bir tarifse seni uyarır; ilk keşiflerde +0,5 yaratıcılık.": [
+"data/content"
+],
+"Büyü Savunucusu": [
+"data/content"
+],
+"Hızlı Kalkan": [
+"data/content"
+],
+"Savunma mini oyununda %40 daha fazla süre.": [
+"data/content"
+],
+"Ayna Kalkanı": [
+"data/content"
+],
+"Kusursuz savunma, sabotajı rakibe geri teptirir.": [
+"data/content"
+],
+"Otomatik Kalkan": [
+"data/content"
+],
+"Her maçta ilk sabotaj kendiliğinden yarı yarıya engellenir.": [
+"data/content"
+],
+"Sunum Sanatçısı": [
+"data/content"
+],
+"Göz Zevki": [
+"data/content"
+],
+"Tüm yemeklerde +0,5 sunum.": [
+"data/content"
+],
+"Usta Süsleme": [
+"data/content"
+],
+"Uyumlu süslemeler +0,5 ek sunum verir.": [
+"data/content"
+],
+"Yemek Fısıldayan": [
+"data/content"
+],
+"Canlı yemek oyunlarında %30 daha fazla süre; yakalanan yemek +0,5 sunum.": [
+"data/content"
+],
+"Kaos Uzmanı": [
+"data/content"
+],
+"Uyum Sanatı": [
+"data/content"
+],
+"'Uyum Sağla' seçeneği +0,5 ek yaratıcılık verir.": [
+"data/content"
+],
+"Mutant Sevgisi": [
+"data/content"
+],
+"Mutasyonları tetiklemek kolaylaşır; mutasyonlu jüriler yemeklerine +0,3 verir.": [
+"data/content"
+],
+"Risk Ustası": [
+"data/content"
+],
+"'Riski Kabul Et' seçeneğinde sabotajın geri tepme şansı +%20.": [
+"data/content"
+],
+"Klasik Mutfak": [
+"data/content"
+],
+"Şeker Mutfağı": [
+"data/content"
+],
+"Gotik Mutfak": [
+"data/content"
+],
+"Gemi Mutfağı": [
+"data/content"
+],
+"Bataklık Mutfağı": [
+"data/content"
+],
+"FIRINLA!": [
+"scripts/ui/cooking_minigame.gd",
+"scripts/ui/kitchen_station.gd"
+],
+"KIZART!": [
+"scripts/ui/cooking_minigame.gd",
+"scripts/ui/kitchen_station.gd"
+],
+"DONDUR!": [
+"scripts/ui/cooking_minigame.gd",
+"scripts/ui/kitchen_station.gd"
+],
+"KAYNAT!": [
+"scripts/ui/cooking_minigame.gd",
+"scripts/ui/kitchen_station.gd"
+],
+"IZGARALA!": [
+"scripts/ui/cooking_minigame.gd",
+"scripts/ui/kitchen_station.gd"
+],
+"BÜYÜLE!": [
+"scripts/ui/cooking_minigame.gd",
+"scripts/ui/kitchen_station.gd"
+],
+"İbre yeşil bölgedeyken dokun! (3 kez)": [
+"scripts/ui/cooking_minigame.gd"
+],
+"Ekrana basılı tut, seviyeyi parlayan bantta tut!": [
+"scripts/ui/cooking_minigame.gd"
+],
+"Beliren rünlere sönmeden dokun!": [
+"scripts/ui/cooking_minigame.gd"
+],
+"PİŞİR!": [
+"scripts/ui/cooking_minigame.gd",
+"scripts/ui/kitchen_station.gd"
+],
+"Yandı!": [
+"scripts/ui/cooking_minigame.gd"
+],
+"Kaçtı!": [
+"scripts/ui/cooking_minigame.gd"
+],
+"Kötü!": [
+"scripts/ui/cooking_minigame.gd"
+],
+"KUSURSUZ!": [
+"scripts/ui/cooking_minigame.gd"
+],
+"Harika!": [
+"scripts/ui/cooking_minigame.gd"
+],
+"İdare eder": [
+"scripts/ui/cooking_minigame.gd"
+],
+"İyi!": [
+"scripts/ui/cooking_minigame.gd"
+],
+"HARİKA!": [
+"scripts/ui/cooking_minigame.gd"
+],
+"İYİ!": [
+"scripts/ui/cooking_minigame.gd"
+],
+"İDARE EDER": [
+"scripts/ui/cooking_minigame.gd"
+],
+"Pişirme kalitesi: %%%d": [
+"scripts/ui/cooking_minigame.gd"
+],
+"SAVUN!": [
+"scripts/ui/defend_minigame.gd"
+],
+"Kalkan rünlerine sönmeden dokun!": [
+"scripts/ui/defend_minigame.gd"
+],
+"KUSURSUZ SAVUNMA!": [
+"scripts/ui/defend_minigame.gd"
+],
+"ENGELLENDİ!": [
+"scripts/ui/defend_minigame.gd"
+],
+"KISMEN!": [
+"scripts/ui/defend_minigame.gd"
+],
+"DELİNDİ!": [
+"scripts/ui/defend_minigame.gd"
+],
+"KARIŞTIR": [
+"scripts/ui/kitchen_station.gd"
+],
+"Boşalt": [
+"scripts/ui/kitchen_station.gd"
+],
+"Malzemeler": [
+"scripts/ui/kitchen_station.gd"
+],
+"Füzyonlar": [
+"scripts/ui/kitchen_station.gd",
+"scripts/ui/scenes/recipe_book.gd"
+],
+"SUNUM ZAMANI": [
+"scripts/ui/kitchen_station.gd"
+],
+"Tabak": [
+"scripts/ui/kitchen_station.gd",
+"scripts/ui/scenes/shop.gd"
+],
+"Süsleme": [
+"scripts/ui/kitchen_station.gd",
+"scripts/ui/scenes/shop.gd"
+],
+"SUN!": [
+"scripts/ui/kitchen_station.gd"
+],
+"Füzyonlar (%d)": [
+"scripts/ui/kitchen_station.gd"
+],
+"Henüz füzyon yok. İki malzemeyi kaseye koyup KARIŞTIR'a bas!": [
+"scripts/ui/kitchen_station.gd"
+],
+"Kiler boş!": [
+"scripts/ui/kitchen_station.gd"
+],
+"GİZEM": [
+"scripts/ui/kitchen_station.gd"
+],
+"Zincir sınırında: sadece pişirilebilir": [
+"scripts/ui/kitchen_station.gd"
+],
+"Kase dolu! Bir malzemeyi çıkarmak için ona dokun.": [
+"scripts/ui/kitchen_station.gd"
+],
+"Füzyon için kasede en az iki malzeme olmalı.": [
+"scripts/ui/kitchen_station.gd"
+],
+"%s zincir sınırında; artık sadece pişirilebilir.": [
+"scripts/ui/kitchen_station.gd"
+],
+"Bu turdaki füzyon hakkın bitti. Şimdi pişirme zamanı!": [
+"scripts/ui/kitchen_station.gd"
+],
+"%s bu maçta yasak!": [
+"scripts/ui/kitchen_station.gd"
+],
+"Önce kaseye malzeme koy!": [
+"scripts/ui/kitchen_station.gd"
+],
+"Bir pişirme yöntemi seç!": [
+"scripts/ui/kitchen_station.gd"
+],
+"Karıştır → %s": [
+"scripts/ui/kitchen_station.gd"
+],
+"Radar: Bu karışım gizli bir tarif!": [
+"scripts/ui/kitchen_station.gd"
+],
+"%s → %s": [
+"scripts/ui/kitchen_station.gd"
+],
+"Radar: %s ile özel bir tarif çıkacak!": [
+"scripts/ui/kitchen_station.gd"
+],
+"%s · %d malzeme": [
+"scripts/ui/kitchen_station.gd"
+],
+"Füzyon hakkı: %d": [
+"scripts/ui/kitchen_station.gd"
+],
+"Malzemelere dokun, kaseye ekle": [
+"scripts/ui/kitchen_station.gd"
+],
+"%s dükkânda %d paraya satılıyor.": [
+"scripts/ui/kitchen_station.gd"
+],
+"SABOTAJ!": [
+"scripts/ui/sabotage_dialog.gd"
+],
+"Rakip bir şeyler planlıyor!": [
+"scripts/ui/sabotage_dialog.gd"
+],
+"Hedef: %s": [
+"scripts/ui/sabotage_dialog.gd",
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"SAVUN": [
+"scripts/ui/sabotage_dialog.gd"
+],
+"UYUM SAĞLA": [
+"scripts/ui/sabotage_dialog.gd"
+],
+"RİSKİ KABUL ET": [
+"scripts/ui/sabotage_dialog.gd"
+],
+"Kavanozunu Seç": [
+"scripts/ui/sabotage_dialog.gd"
+],
+"Gülizar Nine bir kavanoz ekleyecek. Hangisi olsun?": [
+"scripts/ui/sabotage_dialog.gd"
+],
+"FUSE CHEF": [
+"scripts/ui/scenes/boot.gd",
+"scripts/ui/scenes/main_menu.gd"
+],
+"ÇILGIN MUTFAK SAVAŞI": [
+"scripts/ui/scenes/boot.gd",
+"scripts/ui/scenes/main_menu.gd"
+],
+"Veri uyarısı: %s": [
+"scripts/ui/scenes/boot.gd"
+],
+"Kayıt dosyası onarıldı (yedekten yüklendi).": [
+"scripts/ui/scenes/boot.gd"
+],
+"KARİYER": [
+"scripts/ui/scenes/career_map.gd",
+"scripts/ui/scenes/main_menu.gd"
+],
+"%d / %d": [
+"scripts/ui/scenes/career_map.gd"
+],
+"%d tarif": [
+"scripts/ui/scenes/career_map.gd"
+],
+"Önceki ligi tamamlayınca açılır": [
+"scripts/ui/scenes/career_map.gd"
+],
+"Lig ödülü: %d": [
+"scripts/ui/scenes/career_map.gd"
+],
+"BOSS": [
+"scripts/ui/scenes/career_map.gd"
+],
+"Önce önceki maçı kazan!": [
+"scripts/ui/scenes/career_map.gd"
+],
+"Strateji: %s": [
+"scripts/ui/scenes/career_map.gd"
+],
+"Yetenek — %s: %s": [
+"scripts/ui/scenes/career_map.gd"
+],
+"• %s: %s": [
+"scripts/ui/scenes/career_map.gd"
+],
+"Temalar: %s": [
+"scripts/ui/scenes/career_map.gd"
+],
+"Maçı kazan": [
+"scripts/ui/scenes/career_map.gd",
+"scripts/ui/scenes/results.gd"
+],
+"Toplam %d+ puan al": [
+"scripts/ui/scenes/career_map.gd"
+],
+"En iyi skor: %s · Oynanma: %d": [
+"scripts/ui/scenes/career_map.gd"
+],
+"Kapat": [
+"scripts/ui/scenes/career_map.gd",
+"scripts/ui/scenes/recipe_book.gd",
+"scripts/ui/scenes/settings.gd"
+],
+"BAŞLA!": [
+"scripts/ui/scenes/career_map.gd",
+"scripts/ui/scenes/chef_customization.gd",
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"ŞEF OLUŞTUR": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"ŞEFİM": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Şef Adı": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Seviye %d": [
+"scripts/ui/scenes/chef_customization.gd",
+"scripts/ui/scenes/main_menu.gd"
+],
+"Rastgele": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Görünüm": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Kıyafet": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Uzmanlık": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Asistan": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Hoş geldin, %s!": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Uzmanlık puanı: %d": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Ten Rengi": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Saç Modeli": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Saç Rengi": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"İfade": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Şapka": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Ceket": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Önlük": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Aksesuar": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Satın Al?": [
+"scripts/ui/scenes/chef_customization.gd",
+"scripts/ui/scenes/shop.gd"
+],
+"%s — %d Şef Parası": [
+"scripts/ui/scenes/chef_customization.gd",
+"scripts/ui/scenes/shop.gd"
+],
+"Vazgeç": [
+"scripts/ui/scenes/chef_customization.gd",
+"scripts/ui/scenes/kitchen_battle.gd",
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Satın Al": [
+"scripts/ui/scenes/chef_customization.gd",
+"scripts/ui/scenes/shop.gd"
+],
+"Yeterli Şef Parası yok!": [
+"scripts/ui/scenes/chef_customization.gd",
+"scripts/ui/scenes/recipe_book.gd",
+"scripts/ui/scenes/shop.gd"
+],
+"Her seviye atlayışında 1 uzmanlık puanı kazanırsın. Yetenekler oyunu kolaylaştırır ama tek başına kazandırmaz.": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"%s: %s": [
+"scripts/ui/scenes/chef_customization.gd",
+"scripts/ui/scenes/daily_challenge.gd",
+"scripts/ui/scenes/judging_stage.gd"
+],
+"Geliştir (1 puan)": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Gizli karakterler mutfakta sana eşlik eden asistanlara dönüşür. Kilidi açmak için Tarif Kitabı'ndaki ipuçlarını takip et!": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"Asistan yok": [
+"scripts/ui/scenes/chef_customization.gd"
+],
+"İpucu: ": [
+"scripts/ui/scenes/chef_customization.gd",
+"scripts/ui/scenes/recipe_book.gd"
+],
+"GÜNLÜK": [
+"scripts/ui/scenes/daily_challenge.gd",
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Bugünün 5 malzemesi": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Jüri koşulu": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"%s bugün %s!": [
+"scripts/ui/scenes/daily_challenge.gd",
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"En iyi: %s": [
+"scripts/ui/scenes/daily_challenge.gd",
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Ödül: %d (günde bir kez)": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"ÖDÜLÜ AL!": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"ALINDI!": [
+"scripts/ui/scenes/daily_challenge.gd",
+"scripts/ui/scenes/results.gd"
+],
+"Bugünün ödülü alındı!": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Geçmiş: ": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Not: Günlük meydan okuma cihaz saatine göre çalışır ve tamamen çevrimdışıdır.": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Ocak": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Şubat": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Mart": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Nisan": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Mayıs": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Haziran": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Temmuz": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Ağustos": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Eylül": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Ekim": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Kasım": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"Aralık": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"%d %s %s": [
+"scripts/ui/scenes/daily_challenge.gd"
+],
+"KAOS LAB": [
+"scripts/ui/scenes/fusion_lab.gd"
+],
+"Mini oyun: AÇIK": [
+"scripts/ui/scenes/fusion_lab.gd"
+],
+"Mini oyun: KAPALI": [
+"scripts/ui/scenes/fusion_lab.gd"
+],
+"Burada süre yok, rakip yok! Her şeyi karıştır, bakalım ne çıkacak.": [
+"scripts/ui/scenes/fusion_lab.gd"
+],
+"%d tarif keşfedildi · %d özel": [
+"scripts/ui/scenes/fusion_lab.gd"
+],
+"Yeni füzyon: %s!": [
+"scripts/ui/scenes/fusion_lab.gd"
+],
+"YENİ!": [
+"scripts/ui/scenes/fusion_lab.gd"
+],
+"ÖZEL": [
+"scripts/ui/scenes/fusion_lab.gd"
+],
+"CANLI": [
+"scripts/ui/scenes/fusion_lab.gd"
+],
+"%s %s": [
+"scripts/ui/scenes/fusion_lab.gd",
+"scripts/ui/scenes/judging_stage.gd",
+"scripts/systems/living_food_controller.gd"
+],
+"Jüri tahmini (temasız): ": [
+"scripts/ui/scenes/fusion_lab.gd"
+],
+"JÜRİ DEĞERLENDİRMESİ": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"Hızlı mod": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"Arındırma: jüri mutasyonları silindi!": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"%s sunuyor": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"Pişirme %%%d": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"İLK KEŞİF": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"ÖZEL TARİF": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"CANLI & YAKALANDI": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"DAĞINIK (KAÇTI)": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"GİZEM KULLANILMADI": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"TEKRAR": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"Geri tepme: ": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"Jüri tadıyor...": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"Jüri yorumları": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"%s: \"%s\"": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"MUTASYON!": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"(Sonraki turdan itibaren etkili · %s)": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"TARTIŞMA ÇIKTI!": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"Rakip omuz silkti. Puanlar değişmedi.": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"JÜRİ BİRBİRİNE GİRDİ!": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"Ne yapacaksın?": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"Yemeği Savun": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"Tekrar Tattır": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"Tarifi Açıkla": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"Tartışmayı Bitir": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"SEN": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"%s: %s / 30": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"GÜNLÜK SKORUN": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"TUR %d SONUCU": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"SEN %s": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"TURU KAZANDIN!": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"TURU KAYBETTİN": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"BERABERE!": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"Toplam: Sen %s · Rakip %s": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"SONUÇLAR": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"SONRAKİ TUR": [
+"scripts/ui/scenes/judging_stage.gd"
+],
+"TUR 1/3": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"TEMA:": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"GÜNÜN": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"MEYDAN OKUMASI": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"GÜNLÜK MEYDAN OKUMA": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"MAÇ %d%s": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"  ·  BOSS": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"%s — %s": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Özel yetenek: %s — %s": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Tek tur · Hedef %s puan": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Kilerdeki malzemelere dokunarak kaseye ekle. İpucu: Kurbağa Özü + Şeker = ?": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"TUR %d/%d": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"%s %d+": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"%s ≤%d": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"%s %d-%d": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Gizem: %s": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Hedef %s": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Sen %s · %s %s": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"TUR %d": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Tema: %s": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"GİZEMLİ MALZEME": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Yemeğinde kullanmalısın!": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Devam etmek için dokun": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Süre doldu!": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Harika! KARIŞTIR ile füzyon yap ya da bir yöntem seçip PİŞİR'e bas.": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"YENİ FÜZYON!": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Gizem Unutuldu!": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Bu turun gizemli malzemesi (%s) yemeğinde yok. Tema puanın düşer. Yine de pişirilsin mi?": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Geri Dön": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Pişir": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Otomatik pişirme: kalite %%%d": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Tabak ve süsleme seç: temaya ve yemeğe uyanlar sunum puanını artırır!": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"YENİ TARİF!": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"GİZLİ TARİF!": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Pişirme: %%%d": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Çalındı: %s": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"DURAKLATILDI": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Devam Et": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Ses: %s": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Açık": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Kapalı": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Maçtan Çık": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Emin misin?": [
+"scripts/ui/scenes/kitchen_battle.gd",
+"scripts/ui/scenes/settings.gd"
+],
+"Maçtan çıkarsan bu maçın ilerlemesi kaybolur.": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Çık": [
+"scripts/ui/scenes/kitchen_battle.gd",
+"scripts/ui/scenes/main_menu.gd"
+],
+"+%d puan": [
+"scripts/ui/scenes/main_menu.gd"
+],
+"Sıradaki: %s · %s": [
+"scripts/ui/scenes/main_menu.gd"
+],
+"Kaos Lab": [
+"scripts/ui/scenes/main_menu.gd"
+],
+"Günlük": [
+"scripts/ui/scenes/main_menu.gd"
+],
+"Tarif Kitabı": [
+"scripts/ui/scenes/main_menu.gd"
+],
+"Dükkân": [
+"scripts/ui/scenes/main_menu.gd"
+],
+"Şefim": [
+"scripts/ui/scenes/main_menu.gd"
+],
+"Çıkış": [
+"scripts/ui/scenes/main_menu.gd"
+],
+"Oyundan çıkmak istiyor musun? İlerlemen kaydedildi.": [
+"scripts/ui/scenes/main_menu.gd"
+],
+"Kal": [
+"scripts/ui/scenes/main_menu.gd"
+],
+"TARİF KİTABI": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"%d tarif · %d / %d özel tarif": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Tarifler": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Deneyler": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Karakterler": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Mutasyonlar": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Başarımlar": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Yemekler": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"İpucu al (%d)": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"İpucu Al?": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"%d Şef Parası karşılığında bu tarifin ipucunu görebilirsin.": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Al": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Zincir: %d adım": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Canlı yemek!": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Henüz deney yok. Kaos Lab'da malzemeleri serbestçe birleştir!": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Deneysel Yemekler (%d)": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Deneysel Füzyonlar (%d)": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"Koleksiyon: %d / %d": [
+"scripts/ui/scenes/recipe_book.gd"
+],
+"KAZANDIN!": [
+"scripts/ui/scenes/results.gd"
+],
+"KAYBETTİN": [
+"scripts/ui/scenes/results.gd"
+],
+"Tur": [
+"scripts/ui/scenes/results.gd"
+],
+"Sen": [
+"scripts/ui/scenes/results.gd"
+],
+"Rakip": [
+"scripts/ui/scenes/results.gd"
+],
+"TOPLAM": [
+"scripts/ui/scenes/results.gd"
+],
+"Toplam %d+ puan": [
+"scripts/ui/scenes/results.gd"
+],
+"+%d XP": [
+"scripts/ui/scenes/results.gd"
+],
+"SEVİYE ATLADIN! Seviye %d · Uzmanlık puanını Şefim ekranında kullan.": [
+"scripts/ui/scenes/results.gd"
+],
+"LİG TAMAMLANDI! +%d bonus para": [
+"scripts/ui/scenes/results.gd"
+],
+"Yeni malzeme: %s": [
+"scripts/ui/scenes/results.gd"
+],
+"Üçüncü kase yuvası açıldı! Artık 3 malzemeli tarifler yapabilirsin.": [
+"scripts/ui/scenes/results.gd"
+],
+"Yeni lig açıldı: %s": [
+"scripts/ui/scenes/results.gd"
+],
+"Tekrar": [
+"scripts/ui/scenes/results.gd"
+],
+"Devam": [
+"scripts/ui/scenes/results.gd"
+],
+"GÜNLÜK SKOR": [
+"scripts/ui/scenes/results.gd"
+],
+"YENİ KİŞİSEL REKOR!": [
+"scripts/ui/scenes/results.gd"
+],
+"Bugünkü en iyi: %s · Hedef: %s": [
+"scripts/ui/scenes/results.gd"
+],
+"ÖDÜLÜ AL (+%d)": [
+"scripts/ui/scenes/results.gd"
+],
+"Bugünün ödülü alındı. Yarın yeni meydan okuma!": [
+"scripts/ui/scenes/results.gd"
+],
+"Ödül için en az %s puan gerekli. Tekrar deneyebilirsin!": [
+"scripts/ui/scenes/results.gd"
+],
+"Tamam": [
+"scripts/ui/scenes/results.gd",
+"scripts/ui/scenes/settings.gd"
+],
+"AYARLAR": [
+"scripts/ui/scenes/settings.gd"
+],
+"Müzik": [
+"scripts/ui/scenes/settings.gd"
+],
+"Efektler": [
+"scripts/ui/scenes/settings.gd"
+],
+"Titreşim": [
+"scripts/ui/scenes/settings.gd"
+],
+"Hızlı animasyonlar": [
+"scripts/ui/scenes/settings.gd"
+],
+"Nasıl Oynanır?": [
+"scripts/ui/scenes/settings.gd"
+],
+"Hakkında": [
+"scripts/ui/scenes/settings.gd"
+],
+"İlerlemeyi Sıfırla": [
+"scripts/ui/scenes/settings.gd"
+],
+"Sürüm %s · İçerik v%d": [
+"scripts/ui/scenes/settings.gd"
+],
+"Dil": [
+"scripts/ui/scenes/settings.gd"
+],
+"AÇIK": [
+"scripts/ui/scenes/settings.gd"
+],
+"KAPALI": [
+"scripts/ui/scenes/settings.gd"
+],
+"1) Kilerden malzemelere dokunarak kaseye ekle.\n2) KARIŞTIR ile füzyon yap: Şeker + Kurbağa Özü = Şeker Kurbağa! Füzyonları tekrar karıştırabilirsin.\n3) Bir pişirme yöntemi seç ve PİŞİR'e bas; zamanlama oyununda iyi dur.\n4) Canlı yemekler kaçabilir: yakala!\n5) Tabak ve süslemeyi temaya göre seç ve SUN.\n6) Üç jüri farklı şeylere bakar: Bruno lezzet, Mira yaratıcılık, Max sunum.\n7) Rakipler sabotaj yapar: Savun, Uyum Sağla ya da Riski Kabul Et.\n8) Bazı yemekler jüriyi mutasyona uğratır ve zevklerini değiştirir!": [
+"scripts/ui/scenes/settings.gd"
+],
+"Anladım!": [
+"scripts/ui/scenes/settings.gd"
+],
+"FUSE CHEF: Çılgın Mutfak Savaşı\nGodot 4 ile geliştirildi.\nTüm karakterler, görseller, müzik ve sesler bu oyun için özgün olarak üretildi.\nYazı tipi: Baloo 2 (SIL Open Font License).": [
+"scripts/ui/scenes/settings.gd"
+],
+"Tüm ilerleme, paralar ve tarifler silinecek. Bu işlem geri alınamaz!": [
+"scripts/ui/scenes/settings.gd"
+],
+"Sil": [
+"scripts/ui/scenes/settings.gd"
+],
+"Son Onay": [
+"scripts/ui/scenes/settings.gd"
+],
+"Gerçekten her şeyi sıfırlamak istiyor musun?": [
+"scripts/ui/scenes/settings.gd"
+],
+"Hayır": [
+"scripts/ui/scenes/settings.gd"
+],
+"Evet, sıfırla": [
+"scripts/ui/scenes/settings.gd"
+],
+"DÜKKÂN": [
+"scripts/ui/scenes/shop.gd"
+],
+"Malzeme": [
+"scripts/ui/scenes/shop.gd"
+],
+"Mutfak": [
+"scripts/ui/scenes/shop.gd"
+],
+"Sende": [
+"scripts/ui/scenes/shop.gd"
+],
+"Kilitli": [
+"scripts/ui/scenes/shop.gd"
+],
+"Yen: %s": [
+"scripts/ui/scenes/shop.gd"
+],
+"Maç kazan": [
+"scripts/ui/scenes/shop.gd"
+],
+"Lig %d'de açılır": [
+"scripts/ui/scenes/shop.gd"
+],
+"%s kilerine eklendi!": [
+"scripts/ui/scenes/shop.gd"
+],
+"Kullanılıyor": [
+"scripts/ui/scenes/shop.gd"
+],
+"Seç": [
+"scripts/ui/scenes/shop.gd"
+],
+"HA HA!": [
+"scripts/visual/character_figure.gd"
+],
+"Dikkat: canlı!": [
+"scripts/systems/fusion_engine.gd"
+],
+"tatlı": [
+"scripts/systems/fusion_engine.gd"
+],
+"acı": [
+"scripts/systems/fusion_engine.gd"
+],
+"taze": [
+"scripts/systems/fusion_engine.gd"
+],
+"tuhaf": [
+"scripts/systems/fusion_engine.gd"
+],
+"büyülü": [
+"scripts/systems/fusion_engine.gd"
+],
+"şüpheli": [
+"scripts/systems/fusion_engine.gd"
+],
+"patlamaya hazır": [
+"scripts/systems/fusion_engine.gd"
+],
+"kıpır kıpır": [
+"scripts/systems/fusion_engine.gd"
+],
+"Çok %s, biraz %s.": [
+"scripts/systems/fusion_engine.gd"
+],
+"Lezzet": [
+"scripts/systems/judge_system.gd"
+],
+"Pişirme": [
+"scripts/systems/judge_system.gd"
+],
+"Tema": [
+"scripts/systems/judge_system.gd"
+],
+"Sunum": [
+"scripts/systems/judge_system.gd"
+],
+"Yaratıcılık": [
+"scripts/systems/judge_system.gd"
+],
+"(Mutasyon etkisi: %s%.1f)": [
+"scripts/systems/judge_system.gd"
+],
+"bu yemek": [
+"scripts/systems/judge_system.gd"
+],
+"%s %s.": [
+"scripts/systems/judge_system.gd"
+],
+"çok iyi": [
+"scripts/systems/judge_system.gd"
+],
+"zayıf": [
+"scripts/systems/judge_system.gd"
+],
+"ZIPLIYOR!": [
+"scripts/systems/living_food_controller.gd"
+],
+"KAÇIYOR!": [
+"scripts/systems/living_food_controller.gd"
+],
+"SAKLANDI!": [
+"scripts/systems/living_food_controller.gd"
+],
+"UÇUYOR!": [
+"scripts/systems/living_food_controller.gd"
+],
+"ÇATALLARI ÇALDI!": [
+"scripts/systems/living_food_controller.gd"
+],
+"KILIK DEĞİŞTİRDİ!": [
+"scripts/systems/living_food_controller.gd"
+],
+"Zıplayan yemeğe 3 kez dokun!": [
+"scripts/systems/living_food_controller.gd"
+],
+"Koşan yemeğe 3 kez dokun!": [
+"scripts/systems/living_food_controller.gd"
+],
+"Kapaklar karışırken izle, yemeğin altında olduğu kapağa dokun!": [
+"scripts/systems/living_food_controller.gd"
+],
+"Süzülen yemeğe hızlıca dokunarak aşağı çek!": [
+"scripts/systems/living_food_controller.gd"
+],
+"Önce 4 mutfak aletini topla, sonra yemeği yakala!": [
+"scripts/systems/living_food_controller.gd"
+],
+"Gerçek yemek göz kırptı! Karışınca onu bul!": [
+"scripts/systems/living_food_controller.gd"
+],
+"Yemek mutfaktan kaçtı ama bir garsonun kucağına düştü!": [
+"scripts/systems/living_food_controller.gd"
+],
+"Yemek kapıya kadar koştu, sonra geri döndü. Biraz dağınık!": [
+"scripts/systems/living_food_controller.gd"
+],
+"Yemek perdeye tırmandı! Sonunda indirdiniz ama sos her yerde.": [
+"scripts/systems/living_food_controller.gd"
+],
+"Yemek jürinin şapkasına saklandı. Rezalet ama komik!": [
+"scripts/systems/living_food_controller.gd"
+],
+"Yemek": [
+"scripts/systems/living_food_controller.gd"
+],
+"YAKALANDI!": [
+"scripts/systems/living_food_controller.gd"
+],
+"KAÇTI!": [
+"scripts/systems/living_food_controller.gd"
+],
+"Görsel": [
+"scripts/systems/mutation_system.gd"
+],
+"Damak Değişimi": [
+"scripts/systems/mutation_system.gd"
+],
+"Kaos": [
+"scripts/systems/mutation_system.gd"
+],
+"Büyü rünlerine zamanında dokun ve laneti engelle!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Laneti kucakla: daha az zehir, daha çok büyü ve +1 yaratıcılık.": [
+"scripts/systems/sabotage_system.gd"
+],
+"Yemeğin lanetlenir: zehir ve tuhaflık artar. (%20 geri tepme şansı)": [
+"scripts/systems/sabotage_system.gd"
+],
+"Sinyal düğümlerine dokunarak kilidi kır!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Otomatik pişirme: mini oyun atlanır, kalite sabit %70.": [
+"scripts/systems/sabotage_system.gd"
+],
+"Pişirme göstergesi hızlanır ve hedef daralır. (%20 geri tepme şansı)": [
+"scripts/systems/sabotage_system.gd"
+],
+"Kavanozları zamanında yakala ve geri yolla!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Hangi kavanozun ekleneceğini sen seç: +1 yaratıcılık.": [
+"scripts/systems/sabotage_system.gd"
+],
+"Rastgele bir fermente malzeme yemeğine karışır. (%20 geri tepme şansı)": [
+"scripts/systems/sabotage_system.gd"
+],
+"Yarasaları kovalayıp ışıkları açık tut!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Mum yak: görüş tam ama sunum -0,5 (mum damlası!).": [
+"scripts/systems/sabotage_system.gd"
+],
+"Pişirme sırasında mutfak kararır. (%20 geri tepme şansı)": [
+"scripts/systems/sabotage_system.gd"
+],
+"Kancayı zamanında vur ve malzemeni koru!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Takas et: malzemen gider ama yerine Korsan Baharatı gelir.": [
+"scripts/systems/sabotage_system.gd"
+],
+"En değerli malzemen bu tur için çalınır. (%20 geri tepme şansı)": [
+"scripts/systems/sabotage_system.gd"
+],
+"Uçan malzemeleri yakalayıp yere indir!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Sıfır yerçekimi sunumu: sunum -0,5 ama +1 yaratıcılık.": [
+"scripts/systems/sabotage_system.gd"
+],
+"Tabak havada savrulur: sunum -1,5. (%20 geri tepme şansı)": [
+"scripts/systems/sabotage_system.gd"
+],
+"Arındırma tozunu üfleyerek dağıt!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Yarı arınma: etkiler yarıya iner ve jüri mutasyonları korunur.": [
+"scripts/systems/sabotage_system.gd"
+],
+"Büyü, tuhaflık ve zehir azalır; jüri mutasyonları silinir. (%20 geri tepme şansı)": [
+"scripts/systems/sabotage_system.gd"
+],
+"Sabotaj": [
+"scripts/systems/sabotage_system.gd"
+],
+"%s engellendi! Kalkanın dimdik.": [
+"scripts/systems/sabotage_system.gd"
+],
+"AYNA KALKANI! %s rakibe geri döndü!": [
+"scripts/systems/sabotage_system.gd"
+],
+"%s kısmen işledi. Etkisi yarıya indi.": [
+"scripts/systems/sabotage_system.gd"
+],
+"%s tam isabet!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Uyum sağladın! %s seni farklı bir yöne götürdü.": [
+"scripts/systems/sabotage_system.gd"
+],
+"GERİ TEPTİ! %s rakibin kendi başına patladı!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Serbest Pişirme": [
+"scripts/autoload/battle_manager.gd"
+],
+"Gizemli Malzeme": [
+"scripts/autoload/battle_manager.gd"
+],
+"Büyük Final": [
+"scripts/autoload/battle_manager.gd"
+],
+"Günlük Meydan Okuma": [
+"scripts/autoload/battle_manager.gd"
+],
+" + Gizem": [
+"scripts/autoload/battle_manager.gd"
+],
+"Otomatik Kalkan devreye girdi!": [
+"scripts/autoload/battle_manager.gd"
+],
+"%s ikna oldu: \"Hmm... %s açısından haklı olabilirsin.\"": [
+"scripts/autoload/battle_manager.gd"
+],
+"%s daha da sinirlendi: \"%s berbattı, savunma yapma!\"": [
+"scripts/autoload/battle_manager.gd"
+],
+"%s bir lokma daha aldı... \"Belki ilk seferde çok sertti.\" %s ise düşünceli.": [
+"scripts/autoload/battle_manager.gd"
+],
+"Tarifinin hikâyesini anlattın. Profesör Mira not alıyor, %s yumuşadı.": [
+"scripts/autoload/battle_manager.gd"
+],
+"Açıklaman Profesör Mira'yı etkiledi.": [
+"scripts/autoload/battle_manager.gd"
+],
+"Açıklaman pek kimseyi etkilemedi. \"Yani... un ve yumurta?\"": [
+"scripts/autoload/battle_manager.gd"
+],
+"Tartışmayı kibarca bitirdin. Lord Max monoklünü düzeltti: \"Ne olgun bir davranış.\"": [
+"scripts/autoload/battle_manager.gd"
+],
+"Eşitlik! Büyük Final puanı belirleyici oldu.": [
+"scripts/autoload/battle_manager.gd"
+],
+"Tam eşitlik! Toplam lezzet puanı belirleyici oldu.": [
+"scripts/autoload/battle_manager.gd"
+],
+"İnanılmaz eşitlik! Şef Bruno bıyığını çevirdi ve kararı verdi.": [
+"scripts/autoload/battle_manager.gd"
+],
+"Günün Jürisi": [
+"scripts/autoload/battle_manager.gd"
+],
+"Başarım: %s  (+%d)": [
+"scripts/autoload/game_manager.gd"
+],
+"Gizli karakter açıldı: %s!": [
+"scripts/autoload/game_manager.gd"
+],
+"Seviye %d! +1 uzmanlık puanı": [
+"scripts/autoload/game_manager.gd"
+],
+"Tatlılık": [
+"scripts/autoload/ingredient_database.gd"
+],
+"Acılık": [
+"scripts/autoload/ingredient_database.gd"
+],
+"Tazelik": [
+"scripts/autoload/ingredient_database.gd"
+],
+"Tuhaflık": [
+"scripts/autoload/ingredient_database.gd"
+],
+"Büyü": [
+"scripts/autoload/ingredient_database.gd"
+],
+"Zehir": [
+"scripts/autoload/ingredient_database.gd"
+],
+"Oynaklık": [
+"scripts/autoload/ingredient_database.gd"
+],
+"Canlılık": [
+"scripts/autoload/ingredient_database.gd"
+],
+"Nadirlik": [
+"scripts/autoload/ingredient_database.gd"
+],
+"Şef": [
+"scripts/autoload/save_manager.gd"
+]
+}

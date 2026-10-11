@@ -41,13 +41,13 @@ func _ready() -> void:
 	var tv := UIKit.vbox(-4)
 	tv.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	hr.add_child(tv)
-	tv.add_child(UIKit.title("KAOS LAB", 38, Color("#7cff6b"), UIKit.INK, 10))
+	tv.add_child(UIKit.title(Loc.t("KAOS LAB"), 38, Color("#7cff6b"), UIKit.INK, 10))
 	count_label = UIKit.label("", 20, Color("#e9d6ff"))
 	tv.add_child(count_label)
-	_quick_btn = UIKit.button("Mini oyun: AÇIK", UIKit.BLUE, Vector2(200, 60), 20)
+	_quick_btn = UIKit.button(Loc.t("Mini oyun: AÇIK"), UIKit.BLUE, Vector2(200, 60), 20)
 	_quick_btn.pressed.connect(func():
 		quick = not quick
-		_quick_btn.text = "Mini oyun: KAPALI" if quick else "Mini oyun: AÇIK"
+		_quick_btn.text = Loc.t("Mini oyun: KAPALI") if quick else Loc.t("Mini oyun: AÇIK")
 		UIKit.style_button(_quick_btn, UIKit.GRAY if quick else UIKit.BLUE, 26, 20))
 	hr.add_child(_quick_btn)
 	scene_area = Control.new()
@@ -117,7 +117,7 @@ func _ready() -> void:
 	_refresh()
 	if not ProgressionManager.tutorial_done("lab"):
 		ProgressionManager.set_tutorial_done("lab")
-		SpeechBubble.show_at(_bubble_layer, player_fig.position + Vector2(100, -200), "Burada süre yok, rakip yok! Her şeyi karıştır, bakalım ne çıkacak.", 4.0, -0.6, Color("#e9d6ff"), 380)
+		SpeechBubble.show_at(_bubble_layer, player_fig.position + Vector2(100, -200), Loc.t("Burada süre yok, rakip yok! Her şeyi karıştır, bakalım ne çıkacak."), 4.0, -0.6, Color("#e9d6ff"), 380)
 
 
 func _refresh() -> void:
@@ -126,13 +126,13 @@ func _refresh() -> void:
 		if not ings.has(f):
 			ings.append(f)
 	station.set_pantry(ings, RecipeBookManager.known_fusions())
-	count_label.text = "%d tarif keşfedildi · %d özel" % [RecipeBookManager.count_all(), RecipeBookManager.count_handcrafted()]
+	count_label.text = Loc.t("%d tarif keşfedildi · %d özel") % [RecipeBookManager.count_all(), RecipeBookManager.count_handcrafted()]
 
 
 func _on_fused(it: Dictionary, is_new: bool) -> void:
 	player_fig.react("cheer" if is_new else "jump")
 	if is_new:
-		SpeechBubble.show_at(_bubble_layer, player_fig.position + Vector2(100, -200), "Yeni füzyon: %s!" % it["name"], 2.2, -0.6)
+		SpeechBubble.show_at(_bubble_layer, player_fig.position + Vector2(100, -200), Loc.t("Yeni füzyon: %s!") % it["name"], 2.2, -0.6)
 	_refresh()
 
 
@@ -183,11 +183,11 @@ func _show_info(dish: Dictionary, first: bool, q: float) -> void:
 	nm.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
 	head.add_child(nm)
 	if first:
-		head.add_child(UIKit.chip("YENİ!", UIKit.PINK, 18))
+		head.add_child(UIKit.chip(Loc.t("YENİ!"), UIKit.PINK, 18))
 	if dish.get("handcrafted", false):
-		head.add_child(UIKit.chip("ÖZEL", UIKit.PURPLE, 18))
+		head.add_child(UIKit.chip(Loc.t("ÖZEL"), UIKit.PURPLE, 18))
 	if str(dish.get("living", "")) != "":
-		head.add_child(UIKit.chip("CANLI", UIKit.GREEN, 18))
+		head.add_child(UIKit.chip(Loc.t("CANLI"), UIKit.GREEN, 18))
 	var close := UIKit.icon_button("cross", UIKit.CREAM, 50)
 	close.pressed.connect(func(): info_box.visible = false)
 	head.add_child(close)
@@ -201,7 +201,7 @@ func _show_info(dish: Dictionary, first: bool, q: float) -> void:
 	grid.add_theme_constant_override("v_separation", 2)
 	info_box.add_child(grid)
 	for k in ["sweet", "spicy", "fresh", "weird", "magic", "toxic"]:
-		var l := UIKit.label(IngredientDatabase.STAT_NAMES[k].substr(0, 5), 15, UIKit.INK, true, HORIZONTAL_ALIGNMENT_LEFT)
+		var l := UIKit.label(Loc.t(str(IngredientDatabase.STAT_NAMES[k])).substr(0, 5), 15, UIKit.INK, true, HORIZONTAL_ALIGNMENT_LEFT)
 		l.custom_minimum_size.x = 62
 		grid.add_child(l)
 		grid.add_child(UIKit.bar(dish["stats"][k], 100, IngredientDatabase.STAT_COLORS[k], 12, 140))
@@ -209,8 +209,8 @@ func _show_info(dish: Dictionary, first: bool, q: float) -> void:
 	var jr := JudgeSystem.judge_all(dish, ev, {}, {})
 	var jt := []
 	for j in IngredientDatabase.judges:
-		jt.append("%s %s" % [j["name"].split(" ")[-1], UIKit.fmt(jr["judges"][j["id"]]["score"])])
-	info_box.add_child(UIKit.label("Jüri tahmini (temasız): " + " · ".join(PackedStringArray(jt)) + " = " + UIKit.fmt(jr["total"]), 18, UIKit.INK))
+		jt.append(Loc.t("%s %s") % [j["name"].split(" ")[-1], UIKit.fmt(jr["judges"][j["id"]]["score"])])
+	info_box.add_child(UIKit.label(Loc.t("Jüri tahmini (temasız): ") + " · ".join(PackedStringArray(jt)) + " = " + UIKit.fmt(jr["total"]), 18, UIKit.INK))
 
 
 func on_back() -> bool:

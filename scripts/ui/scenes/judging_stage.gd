@@ -37,6 +37,8 @@ func _ready() -> void:
 # ------------------------------------------------------------------ kurulum
 func _build() -> void:
 	var sz := GameManager.screen_size
+	# Jüri masası mutlak konumlu: sağdan sola dillerde aynalanmaz, yalnızca alt panel aynalanır.
+	layout_direction = Control.LAYOUT_DIRECTION_LTR
 	var bd := Backdrop.new()
 	bd.kind = "stage"
 	add_child(bd)
@@ -63,9 +65,9 @@ func _build() -> void:
 		var plate := UIKit.panel(Color("#fff2c4"), 12, UIKit.INK, 3, 6)
 		var l := UIKit.label(IngredientDatabase.judge_map[jid2]["name"], 18, UIKit.INK)
 		plate.add_child(l)
+		plate.custom_minimum_size = Vector2(180, 0)
 		add_child(plate)
 		plate.position = Vector2(sz.x * (0.19 + 0.31 * i) - 90, table_y + 80)
-		plate.custom_minimum_size = Vector2(180, 0)
 		plates[jid2] = plate
 	dish = DishView.new()
 	dish.position = Vector2(sz.x * 0.5, table_y + 34)
@@ -101,17 +103,19 @@ func _build() -> void:
 	topbar.offset_left = 16
 	topbar.offset_right = -16
 	add_child(topbar)
-	top_label = UIKit.title("JÜRİ DEĞERLENDİRMESİ", 30, Color("#fff1a8"), UIKit.INK, 8)
+	top_label = UIKit.title(Loc.t("JÜRİ DEĞERLENDİRMESİ"), 30, Color("#fff1a8"), UIKit.INK, 8)
 	top_label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	topbar.add_child(top_label)
 	var ff := UIKit.icon_button("fast", UIKit.CREAM, 64)
 	ff.pressed.connect(func():
 		_fast = true
 		_skip = true
-		GameManager.toast("Hızlı mod", UIKit.BLUE, "fast"))
+		GameManager.toast(Loc.t("Hızlı mod"), UIKit.BLUE, "fast"))
 	topbar.add_child(ff)
 	# alt panel
 	bottom = PanelContainer.new()
+	if Loc.is_rtl():
+		bottom.layout_direction = Control.LAYOUT_DIRECTION_RTL
 	var bs := UIKit.sb(UIKit.CREAM, 30, UIKit.INK, 5, 0, 18)
 	bs.content_margin_bottom = 18 + GameManager.safe_bottom()
 	bottom.add_theme_stylebox_override("panel", bs)
@@ -124,7 +128,7 @@ func _build() -> void:
 	panel_v = UIKit.vbox(10)
 	bottom.add_child(panel_v)
 	if res.get("mutations_cleared", false):
-		GameManager.toast("Arındırma: jüri mutasyonları silindi!", Color("#ff7ab8"), "leaf")
+		GameManager.toast(Loc.t("Arındırma: jüri mutasyonları silindi!"), Color("#ff7ab8"), "leaf")
 
 
 func _wait(t: float) -> void:
@@ -180,8 +184,8 @@ func _present(who: String) -> void:
 	dv.setup(r["dish"], r["plate"], r["garnish"])
 	dv.scale = Vector2(0.4, 0.4)
 	contestant.hold(dv)
-	var name_txt: String = ProgressionManager.d()["profile"].get("name", "Şef") if is_player else BattleManager.opponent["name"]
-	top_label.text = "%s sunuyor" % name_txt
+	var name_txt: String = SaveManager.player_name() if is_player else BattleManager.opponent["name"]
+	top_label.text = Loc.t("%s sunuyor") % name_txt
 	_say("%s" % r["dish"]["name"], 32, UIKit.PURPLE)
 	var desc: String = r["dish"].get("desc", "")
 	if desc != "":
@@ -191,21 +195,21 @@ func _present(who: String) -> void:
 	tags.alignment = FlowContainer.ALIGNMENT_CENTER
 	panel_v.add_child(tags)
 	tags.add_child(UIKit.chip(IngredientDatabase.method_name(r["dish"].get("method", "")), KitchenStation.METHOD_COLORS.get(r["dish"].get("method", ""), UIKit.GRAY), 18))
-	tags.add_child(UIKit.chip("Pişirme %%%d" % int(float(r["quality"]) * 100), UIKit.ORANGE, 18))
+	tags.add_child(UIKit.chip(Loc.t("Pişirme %%%d") % int(float(r["quality"]) * 100), UIKit.ORANGE, 18))
 	if r.get("first", false):
-		tags.add_child(UIKit.chip("İLK KEŞİF", UIKit.PINK, 18))
+		tags.add_child(UIKit.chip(Loc.t("İLK KEŞİF"), UIKit.PINK, 18))
 	if r["dish"].get("handcrafted", false):
-		tags.add_child(UIKit.chip("ÖZEL TARİF", UIKit.PURPLE, 18))
+		tags.add_child(UIKit.chip(Loc.t("ÖZEL TARİF"), UIKit.PURPLE, 18))
 	if r.get("living", "none") == "caught":
-		tags.add_child(UIKit.chip("CANLI & YAKALANDI", UIKit.GREEN, 18))
+		tags.add_child(UIKit.chip(Loc.t("CANLI & YAKALANDI"), UIKit.GREEN, 18))
 	elif r.get("living", "none") == "escaped":
-		tags.add_child(UIKit.chip("DAĞINIK (KAÇTI)", UIKit.RED, 18))
+		tags.add_child(UIKit.chip(Loc.t("DAĞINIK (KAÇTI)"), UIKit.RED, 18))
 	if r.get("mystery_missing", false):
-		tags.add_child(UIKit.chip("GİZEM KULLANILMADI", UIKit.RED, 18))
+		tags.add_child(UIKit.chip(Loc.t("GİZEM KULLANILMADI"), UIKit.RED, 18))
 	if r.get("repeat", false):
-		tags.add_child(UIKit.chip("TEKRAR", UIKit.GRAY, 18))
+		tags.add_child(UIKit.chip(Loc.t("TEKRAR"), UIKit.GRAY, 18))
 	for pen in r.get("penalized", []):
-		tags.add_child(UIKit.chip("Geri tepme: " + SabotageSystem.ability(pen).get("name", ""), UIKit.RED, 18))
+		tags.add_child(UIKit.chip(Loc.t("Geri tepme: ") + SabotageSystem.ability(pen).get("name", ""), UIKit.RED, 18))
 	AudioManager.sfx("whoosh")
 	var tw := create_tween()
 	tw.tween_property(contestant, "position:x", to_x, 0.6 * (0.5 if _fast else 1.0)).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
@@ -259,7 +263,7 @@ func _living_chaos() -> void:
 
 func _taste(who: String) -> void:
 	var r: Dictionary = res[who]
-	top_label.text = "Jüri tadıyor..."
+	top_label.text = Loc.t("Jüri tadıyor...")
 	AudioManager.sfx("drumroll", 1.0, -6.0)
 	for jid in JUDGE_IDS:
 		var f: CharacterFigure = judges[jid]
@@ -270,7 +274,7 @@ func _taste(who: String) -> void:
 		f2.react("chew")
 	await _wait(1.2)
 	_clear_panel()
-	_say("Jüri yorumları", 26, UIKit.PURPLE)
+	_say(Loc.t("Jüri yorumları"), 26, UIKit.PURPLE)
 	for i in 3:
 		var jid2: String = JUDGE_IDS[i]
 		var jr: Dictionary = r["judges"][jid2]
@@ -280,7 +284,7 @@ func _taste(who: String) -> void:
 		var card: ScoreCard = cards[jid2]
 		card.show_score(jr["score"], jr.get("reason", ""))
 		AudioManager.sfx("score_big" if jr["score"] >= 9.0 else "tick", 1.0, 0.0 if jr["score"] >= 9.0 else -2.0)
-		var line := UIKit.wrap_label("%s: \"%s\"" % [IngredientDatabase.judge_map[jid2]["name"], jr.get("quip", "")], 21, UIKit.INK, false, HORIZONTAL_ALIGNMENT_LEFT)
+		var line := UIKit.wrap_label(Loc.t("%s: \"%s\"") % [IngredientDatabase.judge_map[jid2]["name"], jr.get("quip", "")], 21, UIKit.INK, false, HORIZONTAL_ALIGNMENT_LEFT)
 		panel_v.add_child(line)
 		var gp := f3.position + Vector2(0, -250 * f3.scale.y)
 		var q: String = jr.get("quip", "")
@@ -308,13 +312,13 @@ func _mutation(mu: Dictionary) -> void:
 	layer.add_theme_stylebox_override("panel", UIKit.sb(Color("#2fbf71"), 26, UIKit.INK, 4, 0, 16))
 	var v := UIKit.vbox(2)
 	layer.add_child(v)
-	v.add_child(UIKit.title("MUTASYON!", 44, Color.WHITE, UIKit.INK, 10))
-	v.add_child(UIKit.outlined(UIKit.label("%s: %s" % [IngredientDatabase.judge_map[jid]["name"], m.get("name", mid)], 28, Color.WHITE), Color("#1f6b3a"), 6))
+	v.add_child(UIKit.title(Loc.t("MUTASYON!"), 44, Color.WHITE, UIKit.INK, 10))
+	v.add_child(UIKit.outlined(UIKit.label(Loc.t("%s: %s") % [IngredientDatabase.judge_map[jid]["name"], m.get("name", mid)], 28, Color.WHITE), Color("#1f6b3a"), 6))
 	var d := UIKit.wrap_label(m.get("desc", ""), 22, Color.WHITE, true)
 	d.custom_minimum_size.x = 520
 	v.add_child(UIKit.outlined(d, Color("#1f6b3a"), 5))
 	if BattleManager.round_no < BattleManager.max_rounds and not BattleManager.persistent.has(jid):
-		v.add_child(UIKit.outlined(UIKit.label("(Sonraki turdan itibaren etkili · %s)" % MutationSystem.CATEGORY_NAMES.get(m.get("category", ""), ""), 18, Color("#eaffdf")), Color("#1f6b3a"), 4))
+		v.add_child(UIKit.outlined(UIKit.label(Loc.t("(Sonraki turdan itibaren etkili · %s)") % Loc.t(str(MutationSystem.CATEGORY_NAMES.get(m.get("category", ""), ""))), 18, Color("#eaffdf")), Color("#1f6b3a"), 4))
 	layer.z_index = 50
 	add_child(layer)
 	await get_tree().process_frame
@@ -335,10 +339,10 @@ func _argument_banter(r: Dictionary) -> void:
 		if hi == "" or r["judges"][k]["score"] > r["judges"][hi]["score"]:
 			hi = k
 	_clear_panel()
-	_say("TARTIŞMA ÇIKTI!", 34, UIKit.RED)
+	_say(Loc.t("TARTIŞMA ÇIKTI!"), 34, UIKit.RED)
 	await _judge_line(hi, _line(hi, "argue_high"), "laugh")
 	await _judge_line(lo, _line(lo, "argue_low"), "angry")
-	_say("Rakip omuz silkti. Puanlar değişmedi.", 22, Color("#6a4a3a"))
+	_say(Loc.t("Rakip omuz silkti. Puanlar değişmedi."), 22, Color("#6a4a3a"))
 	await _wait(1.0)
 
 
@@ -378,7 +382,7 @@ func _argument_player() -> void:
 		if hi == "" or r["judges"][k]["score"] > r["judges"][hi]["score"]:
 			hi = k
 	_clear_panel()
-	_say("JÜRİ BİRBİRİNE GİRDİ!", 34, UIKit.RED)
+	_say(Loc.t("JÜRİ BİRBİRİNE GİRDİ!"), 34, UIKit.RED)
 	await _judge_line(lo, _line(lo, "argue_low"), "angry")
 	await _judge_line(hi, _line(hi, "argue_high"), "laugh")
 	var third := ""
@@ -388,14 +392,14 @@ func _argument_player() -> void:
 	if third != "":
 		await _judge_line(third, _line(third, "argue_third"), "surprised")
 	_clear_panel()
-	_say("Ne yapacaksın?", 30, UIKit.INK)
+	_say(Loc.t("Ne yapacaksın?"), 30, UIKit.INK)
 	var grid := GridContainer.new()
 	grid.columns = 2
 	grid.add_theme_constant_override("h_separation", 10)
 	grid.add_theme_constant_override("v_separation", 10)
 	panel_v.add_child(grid)
 	var chosen := [""]
-	var opts := [["Yemeği Savun", "defend", UIKit.BLUE], ["Tekrar Tattır", "retaste", UIKit.ORANGE], ["Tarifi Açıkla", "explain", UIKit.PURPLE], ["Tartışmayı Bitir", "end", UIKit.GRAY]]
+	var opts := [[Loc.t("Yemeği Savun"), "defend", UIKit.BLUE], [Loc.t("Tekrar Tattır"), "retaste", UIKit.ORANGE], [Loc.t("Tarifi Açıkla"), "explain", UIKit.PURPLE], [Loc.t("Tartışmayı Bitir"), "end", UIKit.GRAY]]
 	for o in opts:
 		var b := UIKit.button(o[0], o[2], Vector2(0, 76), 24)
 		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -423,8 +427,8 @@ func _argument_player() -> void:
 func _totals(who: String) -> void:
 	var r: Dictionary = res[who]
 	_clear_panel()
-	var name_txt: String = "SEN" if who == "player" else BattleManager.opponent["name"]
-	var tl := UIKit.title("%s: %s / 30" % [name_txt, UIKit.fmt(r["total"])], 40, Color("#ff9b3d") if who == "player" else Color("#a25cff"), UIKit.INK, 10)
+	var name_txt: String = Loc.t("SEN") if who == "player" else BattleManager.opponent["name"]
+	var tl := UIKit.title(Loc.t("%s: %s / 30") % [name_txt, UIKit.fmt(r["total"])], 40, Color("#ff9b3d") if who == "player" else Color("#a25cff"), UIKit.INK, 10)
 	panel_v.add_child(tl)
 	UIKit.pop_in(tl)
 	AudioManager.sfx("coins" if r["total"] >= 20 else "tick")
@@ -435,7 +439,7 @@ func _totals(who: String) -> void:
 	grid.add_theme_constant_override("v_separation", 6)
 	panel_v.add_child(grid)
 	for k in JudgeSystem.AXES:
-		var l := UIKit.label(JudgeSystem.AXIS_NAMES[k], 21, UIKit.INK, true, HORIZONTAL_ALIGNMENT_LEFT)
+		var l := UIKit.label(Loc.t(str(JudgeSystem.AXIS_NAMES[k])), 21, UIKit.INK, true, HORIZONTAL_ALIGNMENT_LEFT)
 		l.custom_minimum_size.x = 150
 		grid.add_child(l)
 		var b := UIKit.bar(ax[k], 10.0, JudgeSystem.AXIS_COLORS[k], 20, 360)
@@ -451,21 +455,21 @@ func _summary() -> void:
 	var winner := BattleManager.finish_round()
 	var last_round := BattleManager.is_over()
 	if BattleManager.is_daily():
-		top_label.text = "GÜNLÜK SKORUN"
+		top_label.text = Loc.t("GÜNLÜK SKORUN")
 		panel_v.add_child(UIKit.title(UIKit.fmt(p["total"]) + " / 30", 54, Color("#ff9b3d"), UIKit.INK, 12))
 	else:
-		top_label.text = "TUR %d SONUCU" % (BattleManager.round_no - 1)
+		top_label.text = Loc.t("TUR %d SONUCU") % (BattleManager.round_no - 1)
 		var row := UIKit.hbox(20)
 		row.alignment = BoxContainer.ALIGNMENT_CENTER
 		panel_v.add_child(row)
-		row.add_child(UIKit.title("SEN %s" % UIKit.fmt(p["total"]), 38, Color("#ff9b3d"), UIKit.INK, 10))
+		row.add_child(UIKit.title(Loc.t("SEN %s") % UIKit.fmt(p["total"]), 38, Color("#ff9b3d"), UIKit.INK, 10))
 		row.add_child(UIKit.title("–", 38, Color.WHITE, UIKit.INK, 10))
-		row.add_child(UIKit.title("%s %s" % [UIKit.fmt(res["opp"]["total"]), BattleManager.opponent["name"].split(" ")[-1].to_upper()], 38, Color("#a25cff"), UIKit.INK, 10))
-		var wt := "TURU KAZANDIN!" if winner == "player" else ("TURU KAYBETTİN" if winner == "opp" else "BERABERE!")
+		row.add_child(UIKit.title(Loc.t("%s %s") % [UIKit.fmt(res["opp"]["total"]), BattleManager.opponent["name"].split(" ")[-1].to_upper()], 38, Color("#a25cff"), UIKit.INK, 10))
+		var wt := Loc.t("TURU KAZANDIN!") if winner == "player" else (Loc.t("TURU KAYBETTİN") if winner == "opp" else Loc.t("BERABERE!"))
 		var wl := UIKit.title(wt, 44, Color("#3ddc84") if winner == "player" else (Color("#ff6b6b") if winner == "opp" else Color("#ffd23f")), UIKit.INK, 12)
 		panel_v.add_child(wl)
 		UIKit.pop_in(wl)
-		panel_v.add_child(UIKit.label("Toplam: Sen %s · Rakip %s" % [UIKit.fmt(BattleManager.player_total), UIKit.fmt(BattleManager.opp_total)], 24))
+		panel_v.add_child(UIKit.label(Loc.t("Toplam: Sen %s · Rakip %s") % [UIKit.fmt(BattleManager.player_total), UIKit.fmt(BattleManager.opp_total)], 24))
 		if winner == "player":
 			AudioManager.sfx("cheer")
 			for f in judges.values():
@@ -473,7 +477,7 @@ func _summary() -> void:
 		elif winner == "opp":
 			AudioManager.sfx("aww")
 	contestant.visible = false
-	var btn := UIKit.button("SONUÇLAR" if last_round else "SONRAKİ TUR", UIKit.GREEN, Vector2(0, 88), 32, "arrow")
+	var btn := UIKit.button(Loc.t("SONUÇLAR") if last_round else Loc.t("SONRAKİ TUR"), UIKit.GREEN, Vector2(0, 88), 32, "arrow")
 	panel_v.add_child(btn)
 	await btn.pressed
 	if last_round:
@@ -513,7 +517,9 @@ class ScoreCard extends Control:
 			_rsn = UIKit.wrap_label("", 15, UIKit.INK, true)
 			_rsn.position = Vector2(8, 68)
 			_rsn.size = Vector2(size.x - 16, 70)
-			_rsn.max_lines_visible = 3
+			# Çince/Japonca yazı tiplerinin satır yüksekliği daha büyük: kartın dışına taşmasın
+			_rsn.max_lines_visible = 2 if Loc.is_cjk() else 3
+			_rsn.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
 			add_child(_rsn)
 		_lbl.text = UIKit.fmt(s)
 		var col := Color("#3ddc84") if s >= 7.5 else (Color("#ffd23f") if s >= 4.5 else Color("#ff6b6b"))

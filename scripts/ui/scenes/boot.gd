@@ -25,7 +25,7 @@ func _ready() -> void:
 	var letters := UIKit.hbox(0)
 	letters.alignment = BoxContainer.ALIGNMENT_CENTER
 	v.add_child(letters)
-	var word := "FUSE CHEF"
+	var word := Loc.t("FUSE CHEF")
 	var cols := [Color("#ffd23f"), Color("#ff9b3d"), Color("#ff5fa2"), Color("#a25cff"), Color("#ffffff"), Color("#3ddc84"), Color("#4ad6ff"), Color("#ffd23f"), Color("#ff9b3d")]
 	var labels: Array = []
 	for i in word.length():
@@ -34,7 +34,7 @@ func _ready() -> void:
 		letters.add_child(l)
 		labels.append(l)
 		l.modulate.a = 0.0
-	var sub := UIKit.title("ÇILGIN MUTFAK SAVAŞI", 34, Color.WHITE, UIKit.INK, 10)
+	var sub := UIKit.title(Loc.t("ÇILGIN MUTFAK SAVAŞI"), 34, Color.WHITE, UIKit.INK, 10)
 	sub.modulate.a = 0.0
 	v.add_child(sub)
 	var bar := UIKit.bar(0, 100, UIKit.GREEN, 22, 420)
@@ -59,10 +59,10 @@ func _ready() -> void:
 	tw.parallel().tween_property(bar, "value", 100.0, 1.0)
 	await tw.finished
 	if not IngredientDatabase.load_errors.is_empty():
-		var err := UIKit.wrap_label("Veri uyarısı: " + str(IngredientDatabase.load_errors[0]), 18, Color("#ffd0d0"))
+		var err := UIKit.wrap_label(Loc.t("Veri uyarısı: %s") % str(IngredientDatabase.load_errors[0]), 18, Color("#ffd0d0"))
 		v.add_child(err)
 	if SaveManager.loaded_from == "backup":
-		GameManager.toast("Kayıt dosyası onarıldı (yedekten yüklendi).", UIKit.ORANGE, "info")
+		GameManager.toast(Loc.t("Kayıt dosyası onarıldı (yedekten yüklendi)."), UIKit.ORANGE, "info")
 	await get_tree().create_timer(0.3).timeout
 	AudioManager.music("menu")
 	if not bool(SaveManager.data["profile"].get("created", false)):

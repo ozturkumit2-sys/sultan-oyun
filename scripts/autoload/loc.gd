@@ -53,7 +53,11 @@ func _load(code: String) -> void:
 		for k in _table.keys():
 			_translation.add_message(k, str(_table[k]))
 		TranslationServer.add_translation(_translation)
-	TranslationServer.set_locale(lang)
+	# Sağdan sola yerleşim, yerel ayardan değil kök pencereden belirlenir: Godot, ağaca eklenmemiş
+	# kontrollerde yönü yerel ayardan okur ve add_child'dan önce verilen konumları yanlış aynalar.
+	TranslationServer.set_locale("en" if is_rtl() else lang)
+	if is_inside_tree():
+		get_tree().root.set_layout_direction(Window.LAYOUT_DIRECTION_RTL if is_rtl() else Window.LAYOUT_DIRECTION_LTR)
 
 
 ## Dili değiştirir, kaydeder ve veri metinlerini yeniler.
@@ -93,3 +97,15 @@ func is_rtl() -> bool:
 ## Boşluksuz yazılan diller (isim birleştirme ve satır kırma için).
 func is_cjk() -> bool:
 	return lang == "zh" or lang == "ja"
+
+
+## Liste ayracı ("a, b, c").
+func list_sep() -> String:
+	if is_cjk():
+		return "、"
+	return "، " if lang == "ar" else ", "
+
+
+## Cümleleri birleştirirken kullanılacak ayraç (Çince/Japonca'da boşluk yok).
+func sp() -> String:
+	return "" if is_cjk() else " "

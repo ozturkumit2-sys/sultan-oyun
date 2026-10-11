@@ -9,10 +9,10 @@ var _tabs: Dictionary = {}
 
 func _ready() -> void:
 	setup_screen("sunburst", Color("#7dffb0"), Color("#2fbf71"))
-	make_header("DÜKKÂN", true, true)
+	make_header(Loc.t("DÜKKÂN"), true, true)
 	var tabs := UIKit.hbox(6)
 	root_v.add_child(tabs)
-	for t in [["ing", "Malzeme"], ["plates", "Tabak"], ["garnishes", "Süsleme"], ["decor", "Mutfak"]]:
+	for t in [["ing", Loc.t("Malzeme")], ["plates", Loc.t("Tabak")], ["garnishes", Loc.t("Süsleme")], ["decor", Loc.t("Mutfak")]]:
 		var b := UIKit.button(t[1], Color("#c9b8a6"), Vector2(0, 60), 22)
 		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		var key: String = t[0]
@@ -81,18 +81,18 @@ func _ing_card(id: String) -> Control:
 	v.add_child(d)
 	match st:
 		"owned":
-			v.add_child(UIKit.icon_label("check", "Sende", 20, UIKit.GREEN, 28))
+			v.add_child(UIKit.icon_label("check", Loc.t("Sende"), 20, UIKit.GREEN, 28))
 		"buyable":
 			v.add_child(UIKit.icon_label("coin", str(ProgressionManager.ingredient_price(id)), 22, Color("#c98a14"), 30))
 			card.set_colors(Color("#fff2c4"), Color("#c98a14"))
 		_:
 			var u: Dictionary = ing.get("unlock", {})
-			var txt := "Kilitli"
+			var txt := Loc.t("Kilitli")
 			if u.get("type", "") == "win":
 				var m: Dictionary = IngredientDatabase.matches.get(u.get("match", ""), {})
-				txt = ("Yen: %s" % IngredientDatabase.opponents.get(m.get("opponent", ""), {}).get("name", "?")) if not m.is_empty() else "Maç kazan"
+				txt = (Loc.t("Yen: %s") % IngredientDatabase.opponents.get(m.get("opponent", ""), {}).get("name", "?")) if not m.is_empty() else Loc.t("Maç kazan")
 			elif u.get("type", "") == "league":
-				txt = "Lig %d'de açılır" % int(u.get("league", 0))
+				txt = Loc.t("Lig %d'de açılır") % int(u.get("league", 0))
 			v.add_child(UIKit.icon_label("lock", txt, 17, Color("#8a7a6a"), 26))
 			card.disabled = true
 	card.tapped.connect(func(): _buy_ing(id))
@@ -103,14 +103,14 @@ func _buy_ing(id: String) -> void:
 	if ProgressionManager.ingredient_state(id) != "buyable":
 		return
 	var price := ProgressionManager.ingredient_price(id)
-	var m := UIKit.modal(self, "Satın Al?", "%s — %d Şef Parası" % [IngredientDatabase.ingredients[id]["name"], price], [["Vazgeç", "no", UIKit.GRAY], ["Satın Al", "yes", UIKit.GREEN]])
+	var m := UIKit.modal(self, Loc.t("Satın Al?"), Loc.t("%s — %d Şef Parası") % [IngredientDatabase.ingredients[id]["name"], price], [[Loc.t("Vazgeç"), "no", UIKit.GRAY], [Loc.t("Satın Al"), "yes", UIKit.GREEN]])
 	var ch: String = await m.closed
 	if ch == "yes":
 		if ProgressionManager.buy_ingredient(id):
 			AudioManager.sfx("coins")
-			GameManager.toast("%s kilerine eklendi!" % IngredientDatabase.ingredients[id]["name"], UIKit.GREEN, "check")
+			GameManager.toast(Loc.t("%s kilerine eklendi!") % IngredientDatabase.ingredients[id]["name"], UIKit.GREEN, "check")
 		else:
-			GameManager.toast("Yeterli Şef Parası yok!", UIKit.RED, "coin")
+			GameManager.toast(Loc.t("Yeterli Şef Parası yok!"), UIKit.RED, "coin")
 		_set_tab(tab)
 
 
@@ -148,10 +148,10 @@ func _item_card(slot: String, id: String) -> Control:
 	if owned:
 		if slot == "decor":
 			var active: bool = SaveManager.data.get("decor", "classic") == id
-			v.add_child(UIKit.icon_label("check", "Kullanılıyor" if active else "Seç", 20, UIKit.GREEN if active else UIKit.BLUE, 28))
+			v.add_child(UIKit.icon_label("check", Loc.t("Kullanılıyor") if active else Loc.t("Seç"), 20, UIKit.GREEN if active else UIKit.BLUE, 28))
 			card.selected = active
 		else:
-			v.add_child(UIKit.icon_label("check", "Sende", 20, UIKit.GREEN, 28))
+			v.add_child(UIKit.icon_label("check", Loc.t("Sende"), 20, UIKit.GREEN, 28))
 	else:
 		v.add_child(UIKit.icon_label("coin", str(int(def.get("price", 0))), 22, Color("#c98a14"), 30))
 		card.set_colors(Color("#fff2c4"), Color("#c98a14"))
@@ -168,7 +168,7 @@ func _buy_item(slot: String, id: String) -> void:
 			_set_tab(tab)
 		return
 	var def := ProgressionManager.item_def(slot, id)
-	var m := UIKit.modal(self, "Satın Al?", "%s — %d Şef Parası" % [def.get("name", id), int(def.get("price", 0))], [["Vazgeç", "no", UIKit.GRAY], ["Satın Al", "yes", UIKit.GREEN]])
+	var m := UIKit.modal(self, Loc.t("Satın Al?"), Loc.t("%s — %d Şef Parası") % [def.get("name", id), int(def.get("price", 0))], [[Loc.t("Vazgeç"), "no", UIKit.GRAY], [Loc.t("Satın Al"), "yes", UIKit.GREEN]])
 	var ch: String = await m.closed
 	if ch == "yes":
 		if ProgressionManager.buy(slot, id):
@@ -177,7 +177,7 @@ func _buy_item(slot: String, id: String) -> void:
 				SaveManager.data["decor"] = id
 				SaveManager.mark_dirty()
 		else:
-			GameManager.toast("Yeterli Şef Parası yok!", UIKit.RED, "coin")
+			GameManager.toast(Loc.t("Yeterli Şef Parası yok!"), UIKit.RED, "coin")
 		_set_tab(tab)
 
 

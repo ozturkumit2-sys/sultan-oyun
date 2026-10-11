@@ -322,14 +322,14 @@ static func _build(id: String, inputs: Array, method: String, recipe: Dictionary
 	if handcrafted:
 		res["desc"] = str(recipe.get("desc", ""))
 	elif story:
-		res["desc"] = str(res["lore"]) + ((" " + Loc.t("Dikkat: canlı!")) if living != "" and is_dish else "")
+		res["desc"] = str(res["lore"]) + ((Loc.sp() + Loc.t("Dikkat: canlı!")) if living != "" and is_dish else "")
 	else:
 		res["desc"] = describe(stats, is_dish, living != "" and is_dish)
 	res["hint"] = str(recipe.get("hint", ""))
 	return res
 
 
-const DESC_WORDS := {"sweet": "tatlı", "spicy": "acı", "fresh": "taze", "weird": "tuhaf", "magic": "büyülü",
+const DESC_WORDS := {"sweet": "tatlı", "spicy": "acı", "fresh": "taze", "weird": "tuhaf", "magic": "büyülü",  # i18n
 	"toxic": "şüpheli", "volatile": "patlamaya hazır", "life": "kıpır kıpır"}
 
 
@@ -341,7 +341,7 @@ static func describe(stats: Dictionary, is_dish: bool, living: bool) -> String:
 		return a < b)
 	var t := Loc.t("Çok %s, biraz %s.") % [Loc.t(DESC_WORDS[keys[0]]), Loc.t(DESC_WORDS[keys[1]])]
 	if living:
-		t += " " + Loc.t("Dikkat: canlı!")
+		t += Loc.sp() + Loc.t("Dikkat: canlı!")
 	return t
 
 

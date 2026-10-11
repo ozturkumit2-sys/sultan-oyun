@@ -7,7 +7,7 @@ config_version=5
 
 config/name="FUSE CHEF"
 config/description="Çılgın füzyon yemek yarışması: malzemeleri birleştir, sabotajlara karşı koy, jüriden sağ çık!"
-config/version="1.1.0"
+config/version="1.2.0"
 run/main_scene="res://scenes/Boot.tscn"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 boot_splash/bg_color=Color(0.17, 0.09, 0.26, 1)
@@ -47,6 +47,10 @@ common/drop_mouse_on_gui_input_disabled=true
 
 pointing/emulate_mouse_from_touch=true
 pointing/emulate_touch_from_mouse=false
+
+[internationalization]
+
+locale/include_text_server_data=true
 
 [physics]
 

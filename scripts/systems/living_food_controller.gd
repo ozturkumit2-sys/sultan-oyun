@@ -8,10 +8,10 @@ signal resolved(result: String)
 
 enum State {WAKE, ESCAPE, CAUGHT, ESCAPED, DONE}
 
-const NAMES := {"jump": "ZIPLIYOR!", "run": "KAÇIYOR!", "hide": "SAKLANDI!", "float": "UÇUYOR!", "steal": "ÇATALLARI ÇALDI!", "change": "KILIK DEĞİŞTİRDİ!"}
-const TIPS := {"jump": "Zıplayan yemeğe 3 kez dokun!", "run": "Koşan yemeğe 3 kez dokun!", "hide": "Kapaklar karışırken izle, yemeğin altında olduğu kapağa dokun!",
+const NAMES := {"jump": "ZIPLIYOR!", "run": "KAÇIYOR!", "hide": "SAKLANDI!", "float": "UÇUYOR!", "steal": "ÇATALLARI ÇALDI!", "change": "KILIK DEĞİŞTİRDİ!"}  # i18n
+const TIPS := {"jump": "Zıplayan yemeğe 3 kez dokun!", "run": "Koşan yemeğe 3 kez dokun!", "hide": "Kapaklar karışırken izle, yemeğin altında olduğu kapağa dokun!",  # i18n
 	"float": "Süzülen yemeğe hızlıca dokunarak aşağı çek!", "steal": "Önce 4 mutfak aletini topla, sonra yemeği yakala!", "change": "Gerçek yemek göz kırptı! Karışınca onu bul!"}
-const ESCAPE_LINES := ["Yemek mutfaktan kaçtı ama bir garsonun kucağına düştü!", "Yemek kapıya kadar koştu, sonra geri döndü. Biraz dağınık!",
+const ESCAPE_LINES := ["Yemek mutfaktan kaçtı ama bir garsonun kucağına düştü!", "Yemek kapıya kadar koştu, sonra geri döndü. Biraz dağınık!",  # i18n
 	"Yemek perdeye tırmandı! Sonunda indirdiniz ama sos her yerde.", "Yemek jürinin şapkasına saklandı. Rezalet ama komik!"]
 
 var behavior := "jump"
@@ -39,9 +39,11 @@ var _info := ""
 
 
 func _init() -> void:
+	add_to_group("ui_blocker")
 	set_anchors_preset(Control.PRESET_FULL_RECT)
 	mouse_filter = Control.MOUSE_FILTER_STOP
 	z_index = 72
+	layout_direction = Control.LAYOUT_DIRECTION_LTR   # mutlak konumlu oyun alanı: sağdan sola dillerde aynalanmaz
 
 
 func start(it: Dictionary, beh: String) -> void:
@@ -53,15 +55,15 @@ func start(it: Dictionary, beh: String) -> void:
 		_tries = 2
 	await get_tree().process_frame
 	_area = Rect2(40, size.y * 0.32, size.x - 80, size.y * 0.42)
-	_title = UIKit.title("%s %s" % [it.get("name", "Yemek"), NAMES[behavior]], 40, Color("#fff1a8"), UIKit.INK, 12)
+	_title = UIKit.title(Loc.t("%s %s") % [it.get("name", Loc.t("Yemek")), Loc.t(str(NAMES[behavior]))], 40, Color("#fff1a8"), UIKit.INK, 12)
 	_title.set_anchors_preset(Control.PRESET_TOP_WIDE)
 	_title.offset_top = size.y * 0.13
-	_title.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	_title.autowrap_mode = UIKit.wrap_mode()
 	add_child(_title)
-	_tip = UIKit.title(TIPS[behavior], 26, Color.WHITE, UIKit.INK, 8)
+	_tip = UIKit.title(Loc.t(str(TIPS[behavior])), 26, Color.WHITE, UIKit.INK, 8)
 	_tip.set_anchors_preset(Control.PRESET_TOP_WIDE)
 	_tip.offset_top = size.y * 0.13 + 110
-	_tip.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	_tip.autowrap_mode = UIKit.wrap_mode()
 	add_child(_tip)
 	_dish = DishView.new()
 	_dish.setup(it)
@@ -320,7 +322,7 @@ func _resolve(caught: bool) -> void:
 			dd["node"].visible = false
 		else:
 			dd["node"].face_mood = "happy" if caught else "scared"
-	var txt := "YAKALANDI!" if caught else "KAÇTI!"
+	var txt := Loc.t("YAKALANDI!") if caught else Loc.t("KAÇTI!")
 	var res := UIKit.title(txt, 64, Color("#7dffb0") if caught else Color("#ff8a8a"), UIKit.INK, 14)
 	res.position = Vector2(0, size.y * 0.76)
 	res.size = Vector2(size.x, 80)
@@ -334,9 +336,9 @@ func _resolve(caught: bool) -> void:
 			_dish.redraw()
 	else:
 		AudioManager.sfx("escape")
-		_info = ESCAPE_LINES[_rng.randi() % ESCAPE_LINES.size()]
+		_info = Loc.t(str(ESCAPE_LINES[_rng.randi() % ESCAPE_LINES.size()]))
 		var l := UIKit.title(_info, 26, Color.WHITE, UIKit.INK, 8)
-		l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		l.autowrap_mode = UIKit.wrap_mode()
 		l.position = Vector2(30, size.y * 0.76 + 80)
 		l.size = Vector2(size.x - 60, 80)
 		add_child(l)

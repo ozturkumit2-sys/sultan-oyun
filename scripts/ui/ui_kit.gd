@@ -47,7 +47,7 @@ static func label(text: String, size := 26, color := INK, bold := true, align :=
 
 static func wrap_label(text: String, size := 24, color := INK, bold := false, align := HORIZONTAL_ALIGNMENT_CENTER) -> Label:
 	var l := label(text, size, color, bold, align)
-	l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	l.autowrap_mode = UIKit.wrap_mode()
 	l.custom_minimum_size.x = 100
 	return l
 
@@ -98,7 +98,7 @@ static func button(text: String, color := ORANGE, min_size := Vector2(0, 86), fo
 	b.custom_minimum_size = min_size
 	style_button(b, color, 26, font_size)
 	if icon != "":
-		b.icon = GameManager.icon_tex(icon)
+		b.icon = _dir_tex(icon)
 		b.expand_icon = false
 	_juice(b)
 	return b
@@ -110,6 +110,7 @@ static func icon_button(icon_name: String, color := CREAM, sz := 84) -> Button:
 	style_button(b, color, int(sz * 0.32), 24)
 	var tr := TextureRect.new()
 	tr.texture = GameManager.icon_tex(icon_name)
+	tr.flip_h = _mirror(icon_name)
 	tr.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	tr.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	tr.set_anchors_preset(Control.PRESET_FULL_RECT)
@@ -179,9 +180,35 @@ static func expander() -> Control:
 	return c
 
 
+## Sağdan sola dillerde yön bildiren simgeler aynalanır.
+const DIRECTIONAL_ICONS := ["back", "arrow", "play", "fast"]
+
+
+static func _mirror(icon_name: String) -> bool:
+	return Loc.is_rtl() and DIRECTIONAL_ICONS.has(icon_name)
+
+
+static var _flipped := {}
+
+
+## Düğme simgesi; sağdan sola dillerde yön simgeleri aynalı doku olarak döner.
+static func _dir_tex(icon_name: String) -> Texture2D:
+	var t: Texture2D = GameManager.icon_tex(icon_name)
+	if t == null or not _mirror(icon_name):
+		return t
+	if not _flipped.has(icon_name):
+		var img := t.get_image()
+		if img.is_compressed():
+			img.decompress()
+		img.flip_x()
+		_flipped[icon_name] = ImageTexture.create_from_image(img)
+	return _flipped[icon_name]
+
+
 static func icon(icon_name: String, sz := 40.0) -> TextureRect:
 	var t := TextureRect.new()
 	t.texture = GameManager.icon_tex(icon_name)
+	t.flip_h = _mirror(icon_name)
 	t.custom_minimum_size = Vector2(sz, sz)
 	t.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	t.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
@@ -230,7 +257,8 @@ static func bar(value: float, max_v: float, color: Color, h := 18.0, w := 200.0)
 
 
 static func scroll(child: Control, horizontal := false) -> ScrollContainer:
-	var s := ScrollContainer.new()
+	var s := DragScroll.new()
+	s.horizontal = horizontal
 	s.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_SHOW_NEVER if horizontal else ScrollContainer.SCROLL_MODE_DISABLED
 	s.vertical_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED if horizontal else ScrollContainer.SCROLL_MODE_AUTO
 	s.scroll_deadzone = 14
@@ -249,14 +277,25 @@ static func modal(parent: Node, title_text: String, body: String, buttons: Array
 	return m
 
 
+## Ondalık virgül kullanan diller (diğerlerinde nokta).
+static func _comma_lang() -> bool:
+	return ["tr", "de", "es"].has(Loc.lang)
+
+
 static func coin_text(n: int) -> String:
 	var s := str(n)
 	if n >= 1000:
-		s = "%d.%03d" % [n / 1000, n % 1000]
+		s = ("%d.%03d" if _comma_lang() else "%d,%03d") % [n / 1000, n % 1000]
 	return s
 
 
 static func fmt(v: float) -> String:
 	if absf(v - roundf(v)) < 0.01:
 		return str(int(roundf(v)))
-	return ("%.1f" % v).replace(".", ",")
+	var s := "%.1f" % v
+	return s.replace(".", ",") if _comma_lang() else s
+
+
+## Satır kırma kipi (Çince/Japonca dahil sözcük sınırlarında; ICU sözlükleri dışa aktarıma dahil).
+static func wrap_mode() -> TextServer.AutowrapMode:
+	return TextServer.AUTOWRAP_WORD_SMART   # Çince/Japonca satır kırma ICU verisiyle (include_text_server_data)
