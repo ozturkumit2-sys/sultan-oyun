@@ -1,0 +1,61 @@
+; Engine configuration file.
+; FUSE CHEF: Çılgın Mutfak Savaşı — Godot 4.5 (Compatibility renderer, 2D, dikey)
+
+config_version=5
+
+[application]
+
+config/name="FUSE CHEF"
+config/description="Çılgın füzyon yemek yarışması: malzemeleri birleştir, sabotajlara karşı koy, jüriden sağ çık!"
+config/version="1.0.0"
+run/main_scene="res://scenes/Boot.tscn"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+boot_splash/bg_color=Color(0.17, 0.09, 0.26, 1)
+boot_splash/show_image=false
+config/icon="res://icon.png"
+config/quit_on_go_back=false
+
+[autoload]
+
+SaveManager="*res://scripts/autoload/save_manager.gd"
+IngredientDatabase="*res://scripts/autoload/ingredient_database.gd"
+ProgressionManager="*res://scripts/autoload/progression_manager.gd"
+RecipeBookManager="*res://scripts/autoload/recipe_book_manager.gd"
+AudioManager="*res://scripts/autoload/audio_manager.gd"
+DailyChallengeManager="*res://scripts/autoload/daily_challenge_manager.gd"
+BattleManager="*res://scripts/autoload/battle_manager.gd"
+MonetizationService="*res://scripts/autoload/monetization_service.gd"
+GameManager="*res://scripts/autoload/game_manager.gd"
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=1280
+window/size/window_width_override=405
+window/size/window_height_override=780
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+window/energy_saving/keep_screen_on=true
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[input_devices]
+
+pointing/emulate_mouse_from_touch=true
+pointing/emulate_touch_from_mouse=false
+
+[physics]
+
+common/physics_ticks_per_second=60
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+textures/canvas_textures/default_texture_filter=1
+environment/defaults/default_clear_color=Color(0.17, 0.09, 0.26, 1)
+2d/snap/snap_2d_transforms_to_pixel=false

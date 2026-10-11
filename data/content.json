@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "skin_tones": ["#ffe0c7", "#f7c9a0", "#e5a878", "#c98656", "#9c6440", "#6e432b"],
+  "hair_colors": ["#2b1d16", "#5a3420", "#a0612f", "#e8c25a", "#d9471f", "#f2f2f2", "#ff6fb5", "#4a7dff", "#3ddc84"],
+  "cosmetics": {
+    "hair": [
+      {"id": "short", "name": "Kısa", "price": 0},
+      {"id": "curly", "name": "Kıvırcık", "price": 0},
+      {"id": "bun", "name": "Topuz", "price": 0},
+      {"id": "long", "name": "Uzun", "price": 0},
+      {"id": "mohawk", "name": "Mohikan", "price": 80},
+      {"id": "afro", "name": "Afro", "price": 80},
+      {"id": "pigtails", "name": "Çifte Örgü", "price": 80},
+      {"id": "bald", "name": "Kel", "price": 0}
+    ],
+    "expression": [
+      {"id": "happy", "name": "Neşeli", "price": 0},
+      {"id": "determined", "name": "Kararlı", "price": 0},
+      {"id": "smug", "name": "Havalı", "price": 0},
+      {"id": "goofy", "name": "Şapşal", "price": 60},
+      {"id": "wink", "name": "Göz Kırpan", "price": 60}
+    ],
+    "hat": [
+      {"id": "toque", "name": "Klasik Şef Şapkası", "price": 0},
+      {"id": "beret", "name": "Bere", "price": 60},
+      {"id": "bandana", "name": "Bandana", "price": 60},
+      {"id": "mushroom", "name": "Mantar Şapka", "price": 150},
+      {"id": "cat_ears", "name": "Kedi Kulakları", "price": 150},
+      {"id": "crown", "name": "Altın Taç", "price": 400},
+      {"id": "none", "name": "Şapkasız", "price": 0},
+      {"id": "wizard", "name": "Büyücü Şapkası", "price": -1, "secret": "cookie_wizard"},
+      {"id": "ghost_sheet", "name": "Hayalet Örtüsü", "price": -1, "secret": "ghost_chef"}
+    ],
+    "jacket": [
+      {"id": "white", "name": "Beyaz Ceket", "color": "#f7f7f2", "price": 0},
+      {"id": "red", "name": "Kırmızı Ceket", "color": "#e0444f", "price": 50},
+      {"id": "black", "name": "Siyah Ceket", "color": "#2b2b38", "price": 80},
+      {"id": "blue", "name": "Mavi Ceket", "color": "#3f7bff", "price": 50},
+      {"id": "green", "name": "Yeşil Ceket", "color": "#2fbf71", "price": 50},
+      {"id": "pink", "name": "Pembe Ceket", "color": "#ff7ab8", "price": 80},
+      {"id": "gold", "name": "Altın Ceket", "color": "#f2c14e", "price": -1, "secret": "golden_chef"}
+    ],
+    "apron": [
+      {"id": "none", "name": "Önlüksüz", "color": "", "price": 0},
+      {"id": "classic", "name": "Klasik Önlük", "color": "#e9e2d0", "price": 0},
+      {"id": "striped", "name": "Çizgili Önlük", "color": "#3a6ea5", "price": 60},
+      {"id": "pink", "name": "Pembe Önlük", "color": "#ff9fd0", "price": 60},
+      {"id": "leather", "name": "Deri Önlük", "color": "#8a5a3b", "price": 120},
+      {"id": "rainbow", "name": "Gökkuşağı Önlük", "color": "#ff5f5f", "price": 250}
+    ],
+    "accessory": [
+      {"id": "none", "name": "Yok", "price": 0},
+      {"id": "mustache", "name": "Bıyık", "price": 0},
+      {"id": "glasses", "name": "Gözlük", "price": 50},
+      {"id": "monocle", "name": "Monokl", "price": 120},
+      {"id": "bowtie", "name": "Papyon", "price": 80},
+      {"id": "scarf", "name": "Fular", "price": 80},
+      {"id": "earring", "name": "Küpe", "price": 60},
+      {"id": "freckles", "name": "Çiller", "price": 40},
+      {"id": "eyepatch", "name": "Göz Bandı", "price": 150}
+    ]
+  },
+  "plates": [
+    {"id": "classic", "name": "Klasik Beyaz", "color": "#f4f4f0", "rim": "#d9d9d2", "elegance": 1.0, "tags": ["classic"], "price": 0},
+    {"id": "porcelain", "name": "Mavi Porselen", "color": "#f2f6ff", "rim": "#3f6fd8", "elegance": 1.5, "tags": ["classic", "luxury", "cold"], "price": 0},
+    {"id": "wood", "name": "Ahşap Tahta", "color": "#c8955c", "rim": "#8f5f33", "elegance": 1.0, "tags": ["nature", "rustic", "swamp", "savory", "dough"], "price": 0},
+    {"id": "slate", "name": "Gotik Arduvaz", "color": "#3a3a44", "rim": "#1f1f26", "elegance": 1.5, "tags": ["gothic", "dark", "spooky"], "price": 120},
+    {"id": "gold", "name": "Altın Yaldızlı", "color": "#fff8e6", "rim": "#e2b33c", "elegance": 2.2, "tags": ["luxury", "classic"], "price": 250},
+    {"id": "crystal", "name": "Kristal Cam", "color": "#e3f7ff", "rim": "#9edcff", "elegance": 2.0, "tags": ["cold", "crystal", "magic"], "price": 200},
+    {"id": "cosmic", "name": "Galaksi Tabağı", "color": "#2d2366", "rim": "#9d7cff", "elegance": 2.0, "tags": ["cosmic", "alien", "magic"], "price": 220},
+    {"id": "leaf", "name": "Dev Yaprak", "color": "#6cc25a", "rim": "#3f8f36", "elegance": 1.4, "tags": ["nature", "flower", "fruit", "swamp", "fresh"], "price": 150}
+  ],
+  "garnishes": [
+    {"id": "none", "name": "Süssüz", "tags": [], "bad": [], "price": 0},
+    {"id": "mint", "name": "Nane Yaprağı", "tags": ["fresh", "fruit", "cold", "nature", "classic"], "bad": ["spooky", "mechanical"], "price": 0},
+    {"id": "sprinkles", "name": "Renkli Serpme", "tags": ["sweet", "candy", "cold"], "bad": ["savory", "sea"], "price": 0},
+    {"id": "sauce", "name": "Sos Kıvrımı", "tags": ["classic", "savory", "sauce", "dough", "pasta"], "bad": ["cold"], "price": 0},
+    {"id": "chili_flakes", "name": "Pul Biber", "tags": ["spicy", "fire", "savory", "sea"], "bad": ["sweet", "cold", "candy"], "price": 40},
+    {"id": "flower", "name": "Yenilebilir Çiçek", "tags": ["flower", "nature", "fruit", "luxury", "magic"], "bad": ["mechanical", "fire"], "price": 80},
+    {"id": "gold_leaf", "name": "Altın Varak", "tags": ["luxury", "classic", "gothic", "dark"], "bad": ["swamp", "fermented"], "price": 150},
+    {"id": "stardust", "name": "Parıltı Tozu", "tags": ["magic", "cosmic", "alien", "ghost", "electric"], "bad": ["classic", "savory"], "price": 120},
+    {"id": "cobweb", "name": "Şeker Örümcek Ağı", "tags": ["spooky", "gothic", "ghost", "dark"], "bad": ["fresh", "nature"], "price": 100}
+  ],
+  "decor": [
+    {"id": "classic", "name": "Klasik Mutfak", "wall": "#ffe7c2", "wall2": "#ffd59a", "counter": "#e8734a", "tile": "#fff6e8", "price": 0},
+    {"id": "candy", "name": "Şeker Mutfağı", "wall": "#ffd6ec", "wall2": "#ffb3da", "counter": "#7fd3ff", "tile": "#fff0f8", "price": 200},
+    {"id": "gothic", "name": "Gotik Mutfak", "wall": "#4a3150", "wall2": "#33213a", "counter": "#8e1236", "tile": "#5d4466", "price": 300},
+    {"id": "space", "name": "Uzay Mutfağı", "wall": "#1f2a5c", "wall2": "#141c42", "counter": "#7cff6b", "tile": "#2d3b7a", "price": 350},
+    {"id": "pirate", "name": "Gemi Mutfağı", "wall": "#b7895a", "wall2": "#946a40", "counter": "#3a6ea5", "tile": "#caa070", "price": 250},
+    {"id": "jungle", "name": "Bataklık Mutfağı", "wall": "#c4e8a8", "wall2": "#9fd17e", "counter": "#7a5230", "tile": "#e3f4d3", "price": 250}
+  ],
+  "mutations": [
+    {"id": "frog", "name": "Kurbağa Dönüşümü", "category": "taste", "desc": "Kurbağaya döndü! Artık böcekli ve bataklık yemeklerine bayılıyor.",
+     "likes": ["insect", "swamp", "frog"], "like_bonus": 2.0, "dislikes": [], "rule": {"tags_any": ["frog"], "min": {"life": 50}}},
+    {"id": "vampire_teeth", "name": "Vampir Dişleri", "category": "taste", "desc": "Vampir dişleri çıktı! Artık karanlık, gotik yemekleri istiyor.",
+     "likes": ["dark", "gothic"], "like_bonus": 2.0, "dislikes": ["fresh", "nature"], "rule": {"tags_any": ["gothic", "dark"], "min": {"magic": 35}}},
+    {"id": "robot_eyes", "name": "Robot Gözler", "category": "taste", "desc": "Gözleri robotlaştı! Artık sadece hassas pişirmeye bakıyor.",
+     "likes": [], "like_bonus": 0, "dislikes": [], "weight_shift": {"cooking": 0.35}, "rule": {"tags_any": ["mechanical", "robot"], "min": {"weird": 30}}},
+    {"id": "giant_ears", "name": "Dev Kulaklar", "category": "cosmetic", "desc": "Kulakları dev gibi oldu! Cızırtıları duyuyor ama tadı değişmedi.",
+     "likes": [], "like_bonus": 0, "dislikes": [], "rule": {"tags_any": [], "min": {"volatile": 65}}},
+    {"id": "flaming_hair", "name": "Alev Saçlar", "category": "taste", "desc": "Saçları alev aldı! Artık acı ve ateşli yemekler istiyor.",
+     "likes": ["fire", "spicy"], "like_bonus": 2.0, "dislikes": ["cold"], "rule": {"tags_any": ["fire"], "min": {"spicy": 60}}},
+    {"id": "alien_antennas", "name": "Uzaylı Antenleri", "category": "cosmetic", "desc": "Uzaylı antenleri çıktı! Galaksiden radyo yayını alıyor.",
+     "likes": ["alien", "cosmic"], "like_bonus": 0.5, "dislikes": [], "rule": {"tags_any": ["alien", "cosmic"], "min": {"magic": 30}}},
+    {"id": "ghost_form", "name": "Hayalet Formu", "category": "chaos", "desc": "Hayalete dönüştü! Katı lezzetleri zor tadıyor, yaratıcılığa odaklanıyor.",
+     "likes": ["ghost", "spooky"], "like_bonus": 1.5, "dislikes": [], "weight_shift": {"flavor": -0.5, "creativity": 0.5}, "rule": {"tags_any": ["ghost"], "min": {}}},
+    {"id": "giant_tongue", "name": "Dev Dil", "category": "chaos", "desc": "Dili dev gibi uzadı! Her tadı iki kat güçlü hissediyor.",
+     "likes": [], "like_bonus": 0, "dislikes": [], "amplify": 1.6, "rule": {"tags_any": ["fermented"], "min": {"toxic": 35}}}
+  ],
+  "secrets": [
+    {"id": "cookie_wizard", "name": "Kurabiye Büyücüsü", "type": "assistant", "desc": "Mutfakta sana eşlik eden minik bir büyücü kurabiye. Büyücü şapkası da senin!",
+     "hint": "Tarif: Şeker + Hayalet Tozu + Büyülü Un, fırında.", "how": "recipe", "recipe": "cookie_wizard"},
+    {"id": "toaster_bot", "name": "Tost Robotu", "type": "assistant", "desc": "Kendini kızartan neşeli bir robot asistan.",
+     "hint": "Tarif: Hamur, peynir ve bir cıvata ızgarada buluşursa...", "how": "recipe", "recipe": "toaster_bot"},
+    {"id": "jelly_dragon", "name": "Jöle Ejderi", "type": "assistant", "desc": "Titreyen, ateş hapşıran tatlı bir ejder yavrusu.",
+     "hint": "Tarif: Uzay jölesi, ejder ateşi ve şeker, buzda.", "how": "recipe", "recipe": "jelly_dragon"},
+    {"id": "ghost_chef", "name": "Hayalet Şef", "type": "skin", "desc": "Hayalet örtüsü kostümü. Buuu!",
+     "hint": "Jüride 4 farklı mutasyon gör.", "how": "mutations", "value": 4},
+    {"id": "golden_chef", "name": "Altın Şef", "type": "skin", "desc": "Parıldayan altın ceket. Sadece efsaneler için.",
+     "hint": "Kariyerde toplam 30 yıldız topla.", "how": "stars", "value": 30}
+  ],
+  "achievements": [
+    {"id": "first_fusion", "name": "İlk Füzyon", "desc": "İlk kez iki malzemeyi birleştir.", "coins": 30},
+    {"id": "first_win", "name": "İlk Zafer", "desc": "İlk maçını kazan.", "coins": 50},
+    {"id": "recipes_10", "name": "Meraklı Şef", "desc": "10 tarif keşfet.", "coins": 60},
+    {"id": "recipes_25", "name": "Tarif Avcısı", "desc": "25 tarif keşfet.", "coins": 120},
+    {"id": "special_10", "name": "Usta Elleri", "desc": "10 özel tarif keşfet.", "coins": 150},
+    {"id": "living_catch", "name": "Yakaladım Seni!", "desc": "Kaçan bir yemeği yakala.", "coins": 40},
+    {"id": "living_5", "name": "Yemek Terbiyecisi", "desc": "5 canlı yemek yakala.", "coins": 100},
+    {"id": "mutation_1", "name": "Jüri Bozuldu", "desc": "Bir jüriyi mutasyona uğrat.", "coins": 40},
+    {"id": "mutation_all", "name": "Mutasyon Koleksiyoncusu", "desc": "8 mutasyonun hepsini gör.", "coins": 250},
+    {"id": "backfire", "name": "Sekme!", "desc": "Bir sabotajı rakibe geri teptir.", "coins": 60},
+    {"id": "perfect_cook", "name": "Kusursuz Isı", "desc": "Pişirmede kusursuz sonuç al.", "coins": 40},
+    {"id": "round_27", "name": "Jüri Ayakta", "desc": "Bir turda 27+ puan al.", "coins": 100},
+    {"id": "league_1", "name": "Sokakların Şefi", "desc": "Sokak Mutfağı'nı tamamla.", "coins": 100},
+    {"id": "league_5", "name": "Galaksinin En İyisi", "desc": "Şef Obscura'yı yen.", "coins": 500},
+    {"id": "daily_1", "name": "Günün Şefi", "desc": "Bir günlük meydan okuma ödülü al.", "coins": 50},
+    {"id": "secret_1", "name": "Gizli Misafir", "desc": "Bir gizli karakterin kilidini aç.", "coins": 80}
+  ],
+  "specializations": [
+    {"id": "fusion", "name": "Füzyon Ustası", "color": "#ff9b3d", "tiers": [
+      {"name": "Usta Damak", "desc": "Özel tariflerde +0,5 lezzet."},
+      {"name": "Zincir Ustası", "desc": "Tur başına +1 füzyon hakkı ve füzyon zincirinde +1 adım."},
+      {"name": "Tarif Radarı", "desc": "Kasedeki kombinasyon bilinen bir tarifse seni uyarır; ilk keşiflerde +0,5 yaratıcılık."}]},
+    {"id": "defender", "name": "Büyü Savunucusu", "color": "#4a7dff", "tiers": [
+      {"name": "Hızlı Kalkan", "desc": "Savunma mini oyununda %40 daha fazla süre."},
+      {"name": "Ayna Kalkanı", "desc": "Kusursuz savunma, sabotajı rakibe geri teptirir."},
+      {"name": "Otomatik Kalkan", "desc": "Her maçta ilk sabotaj kendiliğinden yarı yarıya engellenir."}]},
+    {"id": "artist", "name": "Sunum Sanatçısı", "color": "#ff5fa2", "tiers": [
+      {"name": "Göz Zevki", "desc": "Tüm yemeklerde +0,5 sunum."},
+      {"name": "Usta Süsleme", "desc": "Uyumlu süslemeler +0,5 ek sunum verir."},
+      {"name": "Yemek Fısıldayan", "desc": "Canlı yemek oyunlarında %30 daha fazla süre; yakalanan yemek +0,5 sunum."}]},
+    {"id": "chaos", "name": "Kaos Uzmanı", "color": "#3ddc84", "tiers": [
+      {"name": "Uyum Sanatı", "desc": "'Uyum Sağla' seçeneği +0,5 ek yaratıcılık verir."},
+      {"name": "Mutant Sevgisi", "desc": "Mutasyonları tetiklemek kolaylaşır; mutasyonlu jüriler yemeklerine +0,3 verir."},
+      {"name": "Risk Ustası", "desc": "'Riski Kabul Et' seçeneğinde sabotajın geri tepme şansı +%20."}]}
+  ]
+}

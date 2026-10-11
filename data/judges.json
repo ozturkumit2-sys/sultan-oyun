@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "judges": [
+    {"id": "bruno", "name": "Şef Bruno", "title": "Lezzet Ustası",
+     "weights": {"flavor": 0.50, "cooking": 0.25, "theme": 0.15, "presentation": 0.10, "creativity": 0.0},
+     "likes": ["classic", "savory", "dough", "dairy", "sauce"], "dislikes": ["mechanical", "slime", "fermented"],
+     "bio": "Otuz yıldır tadına baktığı her şeye 'daha fazla tuz' diyor. Bıyıkları kendi fan kulübüne sahip.",
+     "lines": {
+       "high": ["Mamma mia! Bu bir şaheser!", "Damağımda bir orkestra çalıyor!", "Annemin yemeklerinden bile iyi... Ona söylemeyin."],
+       "mid": ["Fena değil, ama ruhu eksik.", "Tuzunu biraz daha düşünmeliydin.", "Yenir. Yani... yenir."],
+       "low": ["Bu bir felaket!", "Bıyıklarım titredi, iyi anlamda değil.", "Bunu kim pişirdi? Bir ejderha mı?"]
+     },
+     "reasons": {
+       "flavor_hi": "Lezzet dengesi harika.", "flavor_lo": "Tatlar birbiriyle kavga ediyor.",
+       "cooking_hi": "Pişirme kusursuz.", "cooking_lo": "Pişirme özensiz.",
+       "toxic": "Fazla zehirli, midem bulandı.", "theme_lo": "Temayla pek ilgisi yok.", "theme_hi": "Temaya çok yakışmış.",
+       "like": "Tam benim sevdiğim türden!", "dislike": "Bu malzemelerden hiç hoşlanmam."
+     },
+     "argue_high": "Bu tabak klasik mutfağa saygının ta kendisi!", "argue_low": "Bu bir felaket! Gerçek yemek böyle olmaz!"},
+    {"id": "mira", "name": "Profesör Mira", "title": "Deney Dehası",
+     "weights": {"flavor": 0.20, "cooking": 0.0, "theme": 0.25, "presentation": 0.10, "creativity": 0.45},
+     "likes": ["experimental", "magic", "alien", "monster", "secret", "electric"], "dislikes": ["classic"],
+     "bio": "Moleküler gastronomi profesörü. Laboratuvarında üç kez patlama, iki kez zaman yarığı oldu.",
+     "lines": {
+       "high": ["Deneysel bir deha! Not alıyorum!", "Bilim adına muhteşem!", "Bu tabak bir Nobel hak ediyor!"],
+       "mid": ["İlginç bir hipotez, ama kanıt yetersiz.", "Biraz daha cesur olabilirdin.", "Fikir güzel, uygulama tartışmalı."],
+       "low": ["Sıkıcı. Bunu 1800'lerde de yapıyorlardı.", "Hiç risk yok, hiç keşif yok.", "Uykum geldi, kusura bakma."]
+     },
+     "reasons": {
+       "creativity_hi": "Yaratıcılık tavan yapmış!", "creativity_lo": "Fazla sıradan, hiç sürpriz yok.",
+       "theme_hi": "Temayı çok zekice yorumlamış.", "theme_lo": "Tema tamamen unutulmuş.",
+       "first": "Daha önce kimse bunu denememişti!", "repeat": "Bunu zaten yemiştim...",
+       "like": "Deneysel malzemelere bayılırım!", "dislike": "Klasik... çok klasik..."
+     },
+     "argue_high": "Bu deneysel bir deha! Mutfağın geleceği!", "argue_low": "Hiçbir yenilik yok, tamamen ezber!"},
+    {"id": "max", "name": "Lord Max", "title": "Zarafet Lordu",
+     "weights": {"flavor": 0.0, "cooking": 0.15, "theme": 0.25, "presentation": 0.45, "creativity": 0.15},
+     "likes": ["luxury", "crystal", "gothic", "flower", "fruit"], "dislikes": ["swamp", "fermented", "insect", "slime"],
+     "bio": "Yedi şatosu, on iki monoklü var. Tabağın açısı 3 derece kaysa bayılabilir.",
+     "lines": {
+       "high": ["Zarafetin tanımı! Monoklüm düştü!", "Bu tabak bir sanat eseri!", "Şatomun duvarına asardım."],
+       "mid": ["Hoş, ama asil değil.", "Tabak biraz daha parlayabilirdi.", "Kabul edilebilir. Zar zor."],
+       "low": ["Sunum tam bir hakaret!", "Gözlerim! Monoklüm çatladı!", "Bunu köpeğime bile vermem."]
+     },
+     "reasons": {
+       "presentation_hi": "Sunum göz kamaştırıcı.", "presentation_lo": "Sunum dağınık ve özensiz.",
+       "theme_hi": "Temaya kusursuz uyum.", "theme_lo": "Temayla alakasız.",
+       "messy": "Yemek tabaktan kaçmış, ne rezalet!", "living_ok": "Dans eden yemek mi? Çok şık!",
+       "like": "İşte asil bir malzeme!", "dislike": "Bataklık kokusu mu alıyorum?"
+     },
+     "argue_high": "Bu sunum saray sofralarına layık!", "argue_low": "Sunum tam bir hakaret!"}
+  ],
+  "reactions": ["laugh", "cry", "cheer", "cough", "faint", "float", "transform", "disgust", "surprised", "love"]
+}

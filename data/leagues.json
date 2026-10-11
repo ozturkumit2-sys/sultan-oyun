@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "rules": {
+    "sabotage_every_round": {"name": "Durmak Yok", "desc": "Rakip her turda sabotaj yapar."},
+    "mystery_twice": {"name": "Çifte Gizem", "desc": "2. ve 3. turda gizemli malzeme var."},
+    "mutations_plus": {"name": "Mutasyon Fırtınası", "desc": "Jüri mutasyonları çok daha kolay tetiklenir."},
+    "chaos_judges": {"name": "Kaotik Jüri", "desc": "Jüriden biri maça mutasyonlu başlar ve mutasyon maç boyunca kalır."},
+    "living_bonus": {"name": "Canlı Sahne", "desc": "Canlı yemekler +1 yaratıcılık kazanır."},
+    "short_timer": {"name": "Hızlı Mutfak", "desc": "Tur süresi 80 saniye."},
+    "judges_charmed": {"name": "Büyülenmiş Jüri", "desc": "Rakip Lord Max'i büyüledi: rakibe +0,5 puan."},
+    "precise_cooking": {"name": "Hassas Mutfak", "desc": "Tüm jüriler pişirme kalitesine daha çok önem verir."},
+    "double_ability": {"name": "Gölge Kombosu", "desc": "Rakip aynı turda iki sabotaj kullanabilir."},
+    "banned_method:freeze": {"name": "Dondurucu Bozuk", "desc": "Bu maçta Dondurma yöntemi kullanılamaz."},
+    "banned_method:bake": {"name": "Fırın Bozuk", "desc": "Bu maçta Fırınlama yöntemi kullanılamaz."},
+    "banned_method:magic": {"name": "Büyü Yasak", "desc": "Bu maçta Büyülü Pişirme kullanılamaz."}
+  },
+  "leagues": [
+    {"id": 1, "name": "Sokak Mutfağı", "desc": "Her şef bir yerden başlar. Burada başlangıç: seyyar tezgâhlar ve kurbağalar.",
+     "color": "#ff9b3d", "color2": "#ffd166", "reward": 300, "score_star": 55,
+     "mystery": ["frog_essence", "dragon_fire", "ghost_dust", "crunchy_beetle"],
+     "matches": [
+       {"id": "l1_m1", "opponent": "morgana", "difficulty": 1, "boss": false, "rules": [],
+        "themes": ["sweet_dream", "classic_comfort", "swamp_party"],
+        "challenge": {"type": "handcrafted", "value": 1, "text": "Bir özel tarif hazırla"}},
+       {"id": "l1_m2", "opponent": "x3000", "difficulty": 1, "boss": false, "rules": [],
+        "themes": ["ring_of_fire", "robot_picnic", "fresh_natural"],
+        "challenge": {"type": "defend_sabotage", "value": 1, "text": "Bir sabotajı savuştur"}},
+       {"id": "l1_m3", "opponent": "gulizar", "difficulty": 2, "boss": true, "rules": [],
+        "themes": ["granny_style", "spooky_sweets", "living_feast"],
+        "challenge": {"type": "catch_living", "value": 1, "text": "Kaçan bir yemeği yakala"}}
+     ]},
+    {"id": 2, "name": "Tuhaf Şefler Ligi", "desc": "Vampirler, korsanlar ve kurallara uymayan mutfaklar.",
+     "color": "#a25cff", "color2": "#ff7ad9", "reward": 400, "score_star": 60,
+     "mystery": ["vampire_rose", "kraken_ink", "bouncing_mushroom", "alien_goo"],
+     "matches": [
+       {"id": "l2_m1", "opponent": "velvet", "difficulty": 2, "boss": false, "rules": [],
+        "themes": ["gothic_night", "sweet_dream", "royal_feast"],
+        "challenge": {"type": "round_score", "value": 24, "text": "Bir turda 24+ puan al"}},
+       {"id": "l2_m2", "opponent": "barbunya", "difficulty": 2, "boss": false, "rules": ["banned_method:freeze"],
+        "themes": ["pirate_feast", "ring_of_fire", "chaos_plate"],
+        "challenge": {"type": "mutation", "value": 1, "text": "Bir jüriyi mutasyona uğrat"}},
+       {"id": "l2_m3", "opponent": "morgana", "difficulty": 3, "boss": true, "rules": ["mutations_plus"],
+        "themes": ["magic_table", "swamp_party", "spooky_sweets"],
+        "challenge": {"type": "discover", "value": 1, "text": "Maç sırasında yeni bir tarif keşfet"}}
+     ]},
+    {"id": 3, "name": "Kaos Kupası", "desc": "Yerçekimi yok, mantık yok, kural... biraz var.",
+     "color": "#3ddc84", "color2": "#4ad6ff", "reward": 500, "score_star": 64,
+     "mystery": ["moon_cheese", "lightning_syrup", "nano_sprinkles", "eye_pickle"],
+     "matches": [
+       {"id": "l3_m1", "opponent": "zorp", "difficulty": 3, "boss": false, "rules": ["living_bonus"],
+        "themes": ["space_kitchen", "living_feast", "chaos_plate"],
+        "challenge": {"type": "catch_living", "value": 2, "text": "İki canlı yemek yakala"}},
+       {"id": "l3_m2", "opponent": "gulizar", "difficulty": 3, "boss": false, "rules": ["chaos_judges"],
+        "themes": ["granny_style", "chaos_plate", "swamp_party"],
+        "challenge": {"type": "win_all_rounds", "value": 3, "text": "Üç turu da kazan"}},
+       {"id": "l3_m3", "opponent": "x3000", "difficulty": 4, "boss": true, "rules": ["short_timer"],
+        "themes": ["robot_picnic", "ice_age", "classic_comfort"],
+        "challenge": {"type": "perfect_cook", "value": 1, "text": "Kusursuz bir pişirme yap"}}
+     ]},
+    {"id": 4, "name": "Kara Kaşık Şampiyonası", "desc": "Sadece en cesur şeflerin girebildiği karanlık ve şık arena.",
+     "color": "#e0444f", "color2": "#2b1a2e", "reward": 650, "score_star": 68,
+     "mystery": ["ice_crystal", "fairy_nectar", "black_truffle", "century_pickle"],
+     "matches": [
+       {"id": "l4_m1", "opponent": "lila", "difficulty": 4, "boss": false, "rules": [],
+        "themes": ["fairy_garden", "fresh_natural", "royal_feast"],
+        "challenge": {"type": "no_accept", "value": 1, "text": "Hiçbir sabotajı kabullenmeden kazan"}},
+       {"id": "l4_m2", "opponent": "barbunya", "difficulty": 4, "boss": false, "rules": ["mutations_plus", "banned_method:bake"],
+        "themes": ["pirate_feast", "gothic_night", "living_feast"],
+        "challenge": {"type": "mutation", "value": 2, "text": "İki farklı mutasyon tetikle"}},
+       {"id": "l4_m3", "opponent": "velvet", "difficulty": 5, "boss": true, "rules": [],
+        "themes": ["gothic_night", "ice_age", "royal_feast"],
+        "challenge": {"type": "round_score", "value": 26, "text": "Bir turda 26+ puan al"}}
+     ]},
+    {"id": 5, "name": "Galaktik Şef Finalleri", "desc": "Evrenin dört bir yanından şefler. Ve bir gölge.",
+     "color": "#4a7dff", "color2": "#c77dff", "reward": 1000, "score_star": 72,
+     "mystery": ["star_dust", "moldy_spirit", "ice_crystal", "lightning_syrup"],
+     "matches": [
+       {"id": "l5_m1", "opponent": "zorp", "difficulty": 5, "boss": false, "rules": ["chaos_judges"],
+        "themes": ["space_kitchen", "chaos_plate", "magic_table"],
+        "challenge": {"type": "handcrafted", "value": 3, "text": "Üç özel tarif hazırla"}},
+       {"id": "l5_m2", "opponent": "lila", "difficulty": 5, "boss": true, "rules": ["banned_method:magic"],
+        "themes": ["fairy_garden", "ice_age", "royal_feast"],
+        "challenge": {"type": "win_all_rounds", "value": 3, "text": "Üç turu da kazan"}},
+       {"id": "l5_m3", "opponent": "obscura", "difficulty": 5, "boss": true, "rules": [],
+        "themes": ["royal_feast", "chaos_plate", "galactic_final"],
+        "challenge": {"type": "round_score", "value": 27, "text": "Bir turda 27+ puan al"}}
+     ]}
+  ]
+}
