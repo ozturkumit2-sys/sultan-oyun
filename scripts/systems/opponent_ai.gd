@@ -222,7 +222,7 @@ func decide_sabotage(round_no: int, state: Dictionary) -> Array:
 		var count := 1
 		if rules.has("double_ability") and round_no >= 2:
 			count = 2
-		var pool: Array = SabotageSystem.OBSCURA_POOL.duplicate()
+		var pool: Array = (SabotageSystem.OBSCURA_REVENGE_POOL if str(data.get("revenge_of", "")) != "" else SabotageSystem.OBSCURA_POOL).duplicate()
 		for a in last_abilities:
 			pool.erase(a)
 		var used_phases: Array = []

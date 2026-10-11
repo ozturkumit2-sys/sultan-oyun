@@ -114,6 +114,9 @@ func _build_career() -> void:
 	rew.add_child(UIKit.icon_label("levelup", Loc.t("+%d XP") % int(r["xp"]), 30, UIKit.GREEN, 44))
 	if int(r.get("levels", 0)) > 0:
 		content.add_child(UIKit.wrap_label(Loc.t("SEVİYE ATLADIN! Seviye %d · Uzmanlık puanını Şefim ekranında kullan.") % ProgressionManager.level(), 22, UIKit.GREEN, true))
+	if int(r.get("rematch_bonus", 0)) > 0:
+		var rt := Loc.t("İNTİKAM DURDURULDU! +%d bonus para") if r.get("rematch", "") == "revenge" else Loc.t("RÖVANŞ ALINDI! +%d bonus para")
+		content.add_child(UIKit.wrap_label(rt % int(r["rematch_bonus"]), 26, Color("#e0244f"), true))
 	if int(r.get("league_completed", 0)) > 0:
 		content.add_child(UIKit.wrap_label(Loc.t("LİG TAMAMLANDI! +%d bonus para") % int(r.get("league_bonus", 0)), 26, UIKit.PURPLE, true))
 	for u in r.get("unlocked", []):

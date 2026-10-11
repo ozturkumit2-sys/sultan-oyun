@@ -34,6 +34,11 @@ var served: Array = []
 var daily: Dictionary = {}
 var results: Dictionary = {}
 var auto_shield_used := false
+## Tekrar oynanan maçlarda: "revenge" (rakip geçen sefer kaybetti, intikam peşinde, daha güçlü)
+## ya da "rematch" (oyuncu geçen sefer kaybetti, rövanş). İlk oynayışta boş.
+var rematch := ""
+const GENERIC_REVENGE := ["Geçen seferki yenilgimin hesabını sormaya geldim!", "Bu sefer hazırlıklıyım. İntikam zamanı!"]  # i18n
+const GENERIC_REMATCH := ["Yine mi sen? Sonuç değişmeyecek!", "Bir kere yendim, yine yenerim!"]  # i18n
 var seen_mutations: Array = []
 
 
@@ -50,6 +55,7 @@ func _reset() -> void:
 	results = {}
 	cur = {}
 	auto_shield_used = false
+	rematch = ""
 	seen_mutations.clear()
 	mystery_by_round = {}
 	track = {"living_caught": 0, "defended": 0, "accepted": 0, "handcrafted": 0, "mutations": [],
@@ -73,10 +79,17 @@ func start_career(mid: String) -> bool:
 			rules.append(br)
 	themes = match_data.get("themes", ["sweet_dream", "classic_comfort", "magic_table"]).duplicate()
 	max_rounds = 3
-	var plays: int = ProgressionManager.match_record(mid)["plays"]
+	var rec0 := ProgressionManager.match_record(mid)
+	var plays: int = rec0["plays"]
+	if plays > 0:
+		rematch = "revenge" if rec0["last"] == "won" else "rematch"
 	seed_value = FusionEngine.fnv(mid + ":" + str(plays))
 	rng.seed = seed_value
 	ai = OpponentAI.new(opponent, difficulty, seed_value ^ 0x1234567)
+	if rematch == "revenge":
+		# İntikam modu: rakip biraz daha usta ve daha akıllı oynar
+		ai.skill = minf(0.95, ai.skill + 0.03)
+		ai.smart = minf(0.95, ai.smart + 0.06)
 	var pool: Array = league.get("mystery", ["frog_essence"]).duplicate()
 	var m2: String = pool[rng.randi() % pool.size()]
 	mystery_by_round[2] = m2
@@ -159,7 +172,7 @@ func _ai_state() -> Dictionary:
 func begin_round() -> Dictionary:
 	var tid: String = themes[clampi(round_no - 1, 0, themes.size() - 1)]
 	cur = {"theme_id": tid, "theme": IngredientDatabase.theme(tid), "mystery": str(mystery_by_round.get(round_no, "")),
-		"sabotages": [], "results": {}, "stolen": "", "extra": [], "opp_penalties": [], "player_mods": {},
+		"sabotages": [], "results": {}, "stolen": "", "knocked": [], "extra": [], "opp_penalties": [], "player_mods": {},
 		"player": {}, "opp_plan": {}, "judged": {}, "fusions_used": 0, "argued": false, "clear_mutations": false}
 	if ai != null:
 		var st := _ai_state()
@@ -190,12 +203,15 @@ func player_pantry() -> Dictionary:
 	for e in cur.get("extra", []):
 		if not ing.has(e):
 			ing.append(e)
+	var gone: Array = cur.get("knocked", []).duplicate()
 	var stolen: String = cur.get("stolen", "")
 	if stolen != "":
-		ing.erase(stolen)
+		gone.append(stolen)
+	for g in gone:
+		ing.erase(g)
 		var keep: Array = []
 		for f in fus:
-			if not FusionEngine.contains_ingredient(f, stolen):
+			if not FusionEngine.contains_ingredient(f, g):
 				keep.append(f)
 		fus = keep
 	return {"ingredients": ing, "fusions": fus}
@@ -248,6 +264,22 @@ func _theft_common() -> String:
 	return best
 
 
+## Kuyruk Darbesi: kilerden n malzeme devrilir (gizemli malzeme ve eklenen malzemeler hariç).
+func _knock_targets(n: int) -> Array:
+	var p := player_pantry()
+	var cands: Array = []
+	for id in p["ingredients"]:
+		if id != cur.get("mystery", "") and not cur.get("extra", []).has(id):
+			cands.append(id)
+	cands.sort()
+	var res: Array = []
+	while res.size() < n and cands.size() > 3:
+		var pick: String = cands[rng.randi() % cands.size()]
+		cands.erase(pick)
+		res.append(pick)
+	return res
+
+
 func rotten_pick() -> String:
 	return SabotageSystem.FERMENTED[rng.randi() % SabotageSystem.FERMENTED.size()]
 
@@ -298,6 +330,16 @@ func resolve_sabotage(ab: String, choice: String, hits := 0, perfect := false, e
 				cur["stolen"] = theft_target()
 				if not cur["extra"].has("pirate_spice"):
 					cur["extra"].append("pirate_spice")
+	if ab == "tail_whip":
+		match result:
+			"full":
+				cur["knocked"] = _knock_targets(2)
+			"half":
+				cur["knocked"] = _knock_targets(1)
+			"adapt":
+				cur["knocked"] = _knock_targets(1)
+				if not cur["extra"].has("dragon_egg"):
+					cur["extra"].append("dragon_egg")
 	var text := SabotageSystem.result_text(ab, result)
 	if note != "":
 		text = note + Loc.sp() + text
@@ -672,6 +714,11 @@ func finalize() -> Dictionary:
 			if u.get("type", "") == "win" and u.get("match", "") == match_id:
 				if ProgressionManager.unlock_ingredient(iid):
 					unlocked.append({"kind": "ingredient", "id": iid})
+	var rm_bonus := 0
+	if won and rematch != "":
+		rm_bonus = rematch_bonus()
+		coins += rm_bonus
+		ProgressionManager.unlock_achievement("revenge_win" if rematch == "revenge" else "rematch_win")
 	var league_bonus := 0
 	if int(rec["league_completed"]) > 0:
 		league_bonus = int(league.get("reward", 300))
@@ -681,7 +728,9 @@ func finalize() -> Dictionary:
 			unlocked.append({"kind": "feature", "id": "third_slot"})
 		if lid == 5:
 			ProgressionManager.unlock_achievement("league_5")
-		if lid < 5:
+		if lid == 6:
+			ProgressionManager.unlock_achievement("league_6")
+		if lid < IngredientDatabase.leagues.size():
 			unlocked.append({"kind": "league", "id": str(lid + 1)})
 	ProgressionManager.add_coins(coins, "match")
 	var levels := ProgressionManager.add_xp(xp)
@@ -692,6 +741,7 @@ func finalize() -> Dictionary:
 		"tiebreak": tiebreak, "stars": stars, "new_stars": rec["new_stars"], "coins": coins, "xp": xp, "levels": levels,
 		"unlocked": unlocked, "league_completed": rec["league_completed"], "league_bonus": league_bonus,
 		"opponent": opponent.get("id", ""), "line": line, "match_id": match_id,
+		"rematch": rematch, "rematch_bonus": rm_bonus,
 		"challenge": match_data.get("challenge", {}).get("text", ""), "challenge_met": _challenge_met()}
 	SaveManager.mark_dirty(true)
 	return results
@@ -706,6 +756,24 @@ func _finalize_daily() -> Dictionary:
 		"stars": [], "unlocked": [], "levels": 0, "line": "", "tiebreak": ""}
 	SaveManager.mark_dirty(true)
 	return results
+
+
+## Tekrar maçında rakibin söyleyeceği giriş repliği (rakibe özel yoksa genel).
+func rematch_line() -> String:
+	if rematch == "":
+		return ""
+	var arr: Array = opponent.get(rematch, [])
+	if arr.is_empty():
+		var gen: Array = GENERIC_REVENGE if rematch == "revenge" else GENERIC_REMATCH
+		return Loc.t(str(gen[absi(seed_value) % gen.size()]))
+	return str(arr[absi(seed_value) % arr.size()])
+
+
+## Tekrar maçını kazanma bonusu.
+func rematch_bonus() -> int:
+	if rematch == "" or league.is_empty():
+		return 0
+	return 20 + 10 * int(league.get("id", 1))
 
 
 func opponent_name() -> String:

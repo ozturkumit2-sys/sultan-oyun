@@ -238,6 +238,14 @@ func _vs_intro() -> void:
 	if of != null:
 		var mi: int = int(BattleManager.match_data.get("index", 0)) + 1
 		box.add_child(UIKit.title(Loc.t("MAÇ %d%s") % [mi, Loc.t("  ·  BOSS") if BattleManager.match_data.get("boss", false) else ""], 30, Color.WHITE, UIKit.INK, 8))
+		if BattleManager.rematch != "":
+			var rv := BattleManager.rematch == "revenge"
+			var badge := UIKit.title(Loc.t("İNTİKAM MAÇI!") if rv else Loc.t("RÖVANŞ!"), 34, Color("#ff5a6e") if rv else Color("#ffd23f"), UIKit.INK, 10)
+			box.add_child(badge)
+			badge.pivot_offset = Vector2(GameManager.screen_size.x * 0.5 - 20, 24)
+			var btw := badge.create_tween().set_loops(4)
+			btw.tween_property(badge, "scale", Vector2(1.08, 1.08), 0.25)
+			btw.tween_property(badge, "scale", Vector2.ONE, 0.25)
 	var vs := UIKit.title("VS" if of != null else "", 120, Color("#ffd23f"), UIKit.INK, 22)
 	vs.layout_direction = Control.LAYOUT_DIRECTION_LTR
 	vs.position = Vector2(sz.x * 0.5 - 150, sz.y * 0.28)
@@ -250,6 +258,7 @@ func _vs_intro() -> void:
 	info.offset_top = -330 - GameManager.safe_bottom()
 	info.offset_left = 24
 	info.offset_right = -24
+	info.grow_vertical = Control.GROW_DIRECTION_BEGIN
 	layer.add_child(info)
 	var p := UIKit.panel(UIKit.CREAM, 28, UIKit.INK, 4, 18)
 	info.add_child(p)
@@ -258,6 +267,10 @@ func _vs_intro() -> void:
 	if of != null:
 		var o: Dictionary = BattleManager.opponent
 		pv.add_child(UIKit.label(Loc.t("%s — %s") % [o["name"], o.get("title", "")], 28, UIKit.INK))
+		if BattleManager.rematch != "":
+			var rv2 := BattleManager.rematch == "revenge"
+			pv.add_child(UIKit.wrap_label(Loc.t("Rakip geçen seferki yenilginin hesabını sormaya geldi: bu sefer daha güçlü!") if rv2
+				else Loc.t("Geçen sefer kaybettin. Kazanırsan rövanş bonusu senin!"), 21, Color("#e0244f"), true))
 		pv.add_child(UIKit.wrap_label(o.get("personality", ""), 21))
 		var ab: Dictionary = o.get("ability", {})
 		pv.add_child(UIKit.wrap_label(Loc.t("Özel yetenek: %s — %s") % [ab.get("name", ""), ab.get("desc", "")], 21, Color("#a23a5a"), true))
@@ -286,8 +299,9 @@ func _vs_intro() -> void:
 	if of != null:
 		of.react("smug")
 		var lines: Array = BattleManager.opponent.get("intro", [])
-		if not lines.is_empty():
-			SpeechBubble.show_at(layer, Vector2(sz.x * 0.75, sz.y * 0.5 - 300 * 0.9), lines[0], 3.0, 0.4)
+		var intro_line: String = BattleManager.rematch_line() if BattleManager.rematch != "" else (str(lines[0]) if not lines.is_empty() else "")
+		if intro_line != "":
+			SpeechBubble.show_at(layer, Vector2(sz.x * 0.75, sz.y * 0.5 - 300 * 0.9), intro_line, 3.0, 0.4)
 			of.talk(2.0)
 	pf.react("cheer")
 	await go.pressed
@@ -672,6 +686,20 @@ func _ability_sound(ab: String) -> String:
 			return "gravity"
 		"purify":
 			return "purify"
+		"confetti_prank":
+			return "pop"
+		"tail_whip":
+			return "boing"
+		"smoke_bomb":
+			return "whoosh"
+		"blizzard":
+			return "freeze"
+		"ancient_curse":
+			return "ghost"
+		"palace_protocol":
+			return "page"
+		"dragon_breath":
+			return "sizzle"
 	return "warning"
 
 
@@ -701,6 +729,11 @@ func _sabotage_feedback(ab: String, res: Dictionary) -> void:
 			player_fig.react("smug")
 	if ab == "ingredient_theft" and BattleManager.cur.get("stolen", "") != "":
 		GameManager.toast(Loc.t("Çalındı: %s") % FusionEngine.item(BattleManager.cur["stolen"])["name"], UIKit.ORANGE, "cross")
+	if ab == "tail_whip" and not BattleManager.cur.get("knocked", []).is_empty():
+		var names: Array = []
+		for k in BattleManager.cur["knocked"]:
+			names.append(FusionEngine.item(k)["name"])
+		GameManager.toast(Loc.t("Devrildi: %s") % Loc.list_sep().join(PackedStringArray(names)), UIKit.ORANGE, "cross")
 	if ab == "gravity_shift" and result in ["full", "half", "adapt"] and dish_view.visible:
 		var tw := create_tween()
 		tw.tween_property(dish_view, "position:y", dish_view.position.y - 60, 0.6).set_trans(Tween.TRANS_SINE)

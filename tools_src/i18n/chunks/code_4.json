@@ -1,0 +1,380 @@
+{
+"75ae9bb0": [
+"REVENGE MATCH!",
+"¡DUELO DE VENGANZA!",
+"RACHE-DUELL!",
+"مباراة الانتقام!",
+"बदले का मैच!",
+"复仇之战！",
+"リベンジマッチ！"
+],
+"27413d45": [
+"REMATCH!",
+"¡REVANCHA!",
+"REVANCHE!",
+"مباراة الثأر!",
+"रीमैच!",
+"雪耻之战！",
+"再戦！"
+],
+"3c38f2f1": [
+"Your rival is back to settle the score for last time: stronger than before!",
+"Tu rival vuelve a cobrarse la derrota de la última vez: ¡ahora es más fuerte!",
+"Dein Rivale will sich für die letzte Niederlage rächen – diesmal stärker!",
+"عاد خصمك ليثأر لهزيمته الماضية: وهو أقوى هذه المرة!",
+"विरोधी पिछली हार का हिसाब चुकाने आया है: इस बार और ताकतवर!",
+"对手为上次的失败前来复仇：这次更强了！",
+"ライバルが前回の雪辱を果たしに来た：今回はさらに強いぞ！"
+],
+"4791b033": [
+"You lost last time. Win and the rematch bonus is yours!",
+"La última vez perdiste. ¡Si ganas, el bono de revancha es tuyo!",
+"Letztes Mal hast du verloren. Gewinnst du, gehört der Revanche-Bonus dir!",
+"خسرت في المرة الماضية. إن فزت فمكافأة الثأر لك!",
+"पिछली बार तुम हार गए थे। जीतोगे तो रीमैच बोनस तुम्हारा!",
+"上次你输了。赢下这场，雪耻奖励就是你的！",
+"前回は負けた。勝てば再戦ボーナスがもらえる！"
+],
+"7562279a": [
+"Knocked over: %s",
+"Derribado: %s",
+"Umgeworfen: %s",
+"انقلب: %s",
+"गिर गया: %s",
+"被打翻：%s",
+"ひっくり返った：%s"
+],
+"10b9089a": [
+"REVENGE STOPPED! +%d bonus coins",
+"¡VENGANZA DETENIDA! +%d monedas extra",
+"RACHE VEREITELT! +%d Bonusmünzen",
+"أُحبط الانتقام! +%d عملة إضافية",
+"बदला रोक दिया! +%d बोनस सिक्के",
+"复仇被挡下！+%d 奖励金币",
+"リベンジ阻止！ボーナス +%d コイン"
+],
+"f225f9bc": [
+"REMATCH WON! +%d bonus coins",
+"¡REVANCHA GANADA! +%d monedas extra",
+"REVANCHE GEGLÜCKT! +%d Bonusmünzen",
+"أخذت ثأرك! +%d عملة إضافية",
+"रीमैच जीत लिया! +%d बोनस सिक्के",
+"雪耻成功！+%d 奖励金币",
+"再戦に勝利！ボーナス +%d コイン"
+],
+"09639c9f": [
+"Stop the confetti bombs before they pop!",
+"¡Detén las bombas de confeti antes de que estallen!",
+"Stopp die Konfettibomben, bevor sie platzen!",
+"أوقف كرات القصاصات الملونة قبل أن تنفجر!",
+"कंफ़ेटी बम फटने से पहले रोक दो!",
+"在彩纸炸弹爆开前拦住它们！",
+"紙吹雪ボムが弾ける前に止めろ！"
+],
+"8e60c0bf": [
+"Join the joke: weirdness goes up, presentation -0.5 but +1 creativity.",
+"Únete a la broma: sube lo raro, presentación -0,5 pero +1 de creatividad.",
+"Mach den Spaß mit: Seltsamkeit steigt, Präsentation -0,5, aber +1 Kreativität.",
+"شارك في المزحة: تزيد الغرابة، العرض -0.5 لكن +1 إبداع.",
+"मज़ाक में शामिल हो जाओ: अजीबपन बढ़ेगा, प्रस्तुति -0.5 पर +1 रचनात्मकता।",
+"一起玩闹：怪异度上升，摆盘 -0.5，但创意 +1。",
+"ジョークに乗る：奇妙さアップ、見た目 -0.5 だが創造性 +1。"
+],
+"c14b22c5": [
+"Your dish is buried in confetti: weirdness up, presentation -1. (20% backfire chance)",
+"Tu plato queda cubierto de confeti: sube lo raro, presentación -1. (20% de rebote)",
+"Dein Gericht versinkt im Konfetti: Seltsamkeit steigt, Präsentation -1. (20% Rückschlagchance)",
+"يغرق طبقك في القصاصات: تزيد الغرابة، العرض -1. (فرصة ارتداد 20%)",
+"पकवान कंफ़ेटी में ढक जाता है: अजीबपन बढ़ता है, प्रस्तुति -1। (20% उल्टा वार की संभावना)",
+"你的菜被彩纸淹没：怪异度上升，摆盘 -1。（20%反噬几率）",
+"料理が紙吹雪まみれに：奇妙さアップ、見た目 -1。（20%で反動）"
+],
+"5f867428": [
+"Raise your shield against the tail and protect your pantry!",
+"¡Pon el escudo frente a la cola y protege tu despensa!",
+"Halte den Schild gegen den Schwanz und schütze deine Vorräte!",
+"ارفع درعك أمام الذيل واحمِ مخزنك!",
+"पूँछ के आगे ढाल लगाओ, अपना भंडार बचाओ!",
+"举盾挡住尾巴，保护你的食材柜！",
+"しっぽの前に盾を構えて食料庫を守れ！"
+],
+"306712a4": [
+"Pick up the mess: you lose one ingredient but find a Dragon Egg instead.",
+"Recoge el desastre: pierdes un ingrediente pero encuentras un Huevo de dragón.",
+"Räum auf: Du verlierst eine Zutat, findest aber ein Drachenei.",
+"اجمع ما تبعثر: تخسر مكوّنًا واحدًا لكنك تجد بيضة تنين بدلًا منه.",
+"बिखरा सामान समेटो: एक सामग्री खो जाएगी पर बदले में ड्रैगन का अंडा मिलेगा।",
+"收拾残局：失去一种食材，但会找到一颗龙蛋。",
+"片付ける：食材を1つ失うが、代わりにドラゴンの卵が見つかる。"
+],
+"2b807ba1": [
+"Your pantry gets knocked over: two ingredients are unusable this round. (20% backfire chance)",
+"Tu despensa se viene abajo: dos ingredientes no se pueden usar esta ronda. (20% de rebote)",
+"Deine Vorräte fallen um: Zwei Zutaten sind diese Runde nicht nutzbar. (20% Rückschlagchance)",
+"ينقلب مخزنك: لا يمكن استخدام مكوّنين في هذه الجولة. (فرصة ارتداد 20%)",
+"भंडार उलट जाता है: इस राउंड दो सामग्रियाँ इस्तेमाल नहीं होंगी। (20% उल्टा वार की संभावना)",
+"食材柜被打翻：本回合有两种食材无法使用。（20%反噬几率）",
+"食料庫がひっくり返る：このラウンドは食材2つが使えない。（20%で反動）"
+],
+"e399d57d": [
+"Tap the shield runes to clear the smoke!",
+"¡Toca las runas de escudo para disipar el humo!",
+"Tippe die Schildrunen an, um den Rauch zu vertreiben!",
+"انقر على رموز الدرع لتبديد الدخان!",
+"धुआँ हटाने के लिए ढाल रूनों पर टैप करो!",
+"点击护盾符文驱散烟雾！",
+"盾のルーンをタップして煙を払え！"
+],
+"c58c2b87": [
+"Use the smoke: your dish gets a smoky aroma, flavor +0.5 but presentation -0.5.",
+"Aprovecha el humo: tu plato gana aroma ahumado, sabor +0,5 pero presentación -0,5.",
+"Nutze den Rauch: rauchiges Aroma, Geschmack +0,5, aber Präsentation -0,5.",
+"استغل الدخان: يكتسب طبقك نكهة مدخنة، المذاق +0.5 لكن العرض -0.5.",
+"धुएँ का फ़ायदा उठाओ: पकवान में धुएँदार खुशबू, स्वाद +0.5 पर प्रस्तुति -0.5।",
+"利用烟雾：菜品带上烟熏香，味道 +0.5，但摆盘 -0.5。",
+"煙を利用：燻製の香りがついて味 +0.5、ただし見た目 -0.5。"
+],
+"ecd27d06": [
+"The kitchen fills with smoke while you cook and the gauge speeds up. (20% backfire chance)",
+"La cocina se llena de humo mientras cocinas y el indicador se acelera. (20% de rebote)",
+"Beim Kochen füllt sich die Küche mit Rauch und die Anzeige wird schneller. (20% Rückschlagchance)",
+"يمتلئ المطبخ بالدخان أثناء الطهي ويتسارع المؤشر. (فرصة ارتداد 20%)",
+"पकाते समय रसोई धुएँ से भर जाती है और सुई तेज़ हो जाती है। (20% उल्टा वार की संभावना)",
+"烹饪时厨房烟雾弥漫，指针加速。（20%反噬几率）",
+"調理中キッチンが煙で満ち、ゲージが速くなる。（20%で反動）"
+],
+"fec50333": [
+"Stop the blizzard with your shield before your hands freeze!",
+"¡Detén la tormenta de nieve con tu escudo antes de que se te congelen las manos!",
+"Stopp den Schneesturm mit dem Schild, bevor deine Hände einfrieren!",
+"أوقف العاصفة الثلجية بدرعك قبل أن تتجمد يداك!",
+"ढाल से बर्फ़ीला तूफ़ान रोको, कहीं हाथ न जम जाएँ!",
+"用护盾挡住暴风雪，别让双手冻僵！",
+"盾で吹雪を止めろ、手が凍える前に！"
+],
+"264e9fb9": [
+"Icy plating: spiciness drops, freshness rises, presentation +0.5 but flavor -0.5.",
+"Presentación helada: baja el picante, sube la frescura, presentación +0,5 pero sabor -0,5.",
+"Eisige Präsentation: weniger Schärfe, mehr Frische, Präsentation +0,5, aber Geschmack -0,5.",
+"عرض مثلج: يقل الحر ويزيد الانتعاش، العرض +0.5 لكن المذاق -0.5.",
+"बर्फ़ीली प्रस्तुति: तीखापन घटेगा, ताज़गी बढ़ेगी, प्रस्तुति +0.5 पर स्वाद -0.5।",
+"冰霜摆盘：辣度下降、新鲜度上升，摆盘 +0.5，但味道 -0.5。",
+"氷の盛り付け：辛さダウン、新鮮さアップ、見た目 +0.5 だが味 -0.5。"
+],
+"88ef9165": [
+"Your hands go numb: the cooking target shrinks and your dish loses spice and sweetness. (20% backfire chance)",
+"Se te entumecen las manos: la zona objetivo se estrecha y tu plato pierde picante y dulzor. (20% de rebote)",
+"Deine Hände werden klamm: Die Zielzone schrumpft, dein Gericht verliert Schärfe und Süße. (20% Rückschlagchance)",
+"تتجمد يداك: تضيق منطقة الهدف ويفقد طبقك الحرارة والحلاوة. (فرصة ارتداد 20%)",
+"हाथ ठिठुर जाते हैं: पकाने का निशाना छोटा होगा, पकवान का तीखापन और मिठास घटेगी। (20% उल्टा वार की संभावना)",
+"双手冻僵：烹饪目标区变窄，菜品失去辣度和甜度。（20%反噬几率）",
+"手がかじかむ：調理の目標ゾーンが狭まり、辛さと甘さが消える。（20%で反動）"
+],
+"935c807e": [
+"Blow the ancient dust away!",
+"¡Sopla y dispersa el polvo antiguo!",
+"Puste den uralten Staub weg!",
+"انفخ الغبار القديم وبدّده!",
+"प्राचीन धूल को फूँक मारकर उड़ा दो!",
+"把远古尘埃吹散！",
+"古代の塵を吹き飛ばせ！"
+],
+"49d9ed72": [
+"Ancient recipe: freshness drops but magic rises and +1 creativity.",
+"Receta antigua: baja la frescura, pero sube la magia y +1 de creatividad.",
+"Uraltes Rezept: Frische sinkt, aber Magie steigt und +1 Kreativität.",
+"وصفة قديمة: يقل الانتعاش لكن يزيد السحر و+1 إبداع.",
+"प्राचीन रेसिपी: ताज़गी घटेगी पर जादू बढ़ेगा और +1 रचनात्मकता।",
+"远古配方：新鲜度下降，但魔力上升，创意 +1。",
+"古代レシピ：新鮮さは下がるが魔力アップ、創造性 +1。"
+],
+"02212b68": [
+"Your dish goes stale: freshness plummets and a little magic and poison seep in. (20% backfire chance)",
+"Tu plato se pone rancio: la frescura cae en picado y se cuela algo de magia y veneno. (20% de rebote)",
+"Dein Gericht wird alt: Frische stürzt ab, etwas Magie und Gift sickern ein. (20% Rückschlagchance)",
+"يصبح طبقك قديمًا: ينهار الانتعاش ويتسرب قليل من السحر والسم. (فرصة ارتداد 20%)",
+"पकवान बासी हो जाता है: ताज़गी बहुत गिरती है, थोड़ा जादू और ज़हर रिसता है। (20% उल्टा वार की संभावना)",
+"你的菜变陈了：新鲜度骤降，还渗入一点魔力和毒性。（20%反噬几率）",
+"料理が古びる：新鮮さが激減し、少し魔力と毒が染み込む。（20%で反動）"
+],
+"342d31b0": [
+"Grab the decree before it's read!",
+"¡Atrapa el decreto antes de que lo lean!",
+"Schnapp dir den Erlass, bevor er verlesen wird!",
+"التقط الفرمان قبل أن يُقرأ!",
+"फ़रमान पढ़े जाने से पहले छीन लो!",
+"在诏书宣读前抢下它！",
+"勅令が読み上げられる前に奪え！"
+],
+"e69c2408": [
+"Follow protocol: weirdness drops, presentation +0.5 but creativity -0.25.",
+"Sigue el protocolo: baja lo raro, presentación +0,5 pero creatividad -0,25.",
+"Halte das Protokoll ein: weniger Seltsamkeit, Präsentation +0,5, aber Kreativität -0,25.",
+"التزم بالبروتوكول: تقل الغرابة، العرض +0.5 لكن الإبداع -0.25.",
+"प्रोटोकॉल मानो: अजीबपन घटेगा, प्रस्तुति +0.5 पर रचनात्मकता -0.25।",
+"遵守礼制：怪异度下降，摆盘 +0.5，但创意 -0.25。",
+"作法に従う：奇妙さダウン、見た目 +0.5 だが創造性 -0.25。"
+],
+"d84bad40": [
+"Palace rules: weirdness and magic are suppressed, creativity -1. (20% backfire chance)",
+"Normas de palacio: se reprimen lo raro y la magia, creatividad -1. (20% de rebote)",
+"Palastregeln: Seltsamkeit und Magie werden unterdrückt, Kreativität -1. (20% Rückschlagchance)",
+"قواعد القصر: تُكبت الغرابة والسحر، الإبداع -1. (فرصة ارتداد 20%)",
+"महल के नियम: अजीबपन और जादू दबा दिए जाते हैं, रचनात्मकता -1। (20% उल्टा वार की संभावना)",
+"宫廷规矩：怪异与魔力被压制，创意 -1。（20%反噬几率）",
+"宮廷の掟：奇妙さと魔力が抑えられ、創造性 -1。（20%で反動）"
+],
+"b49d9c4d": [
+"Raise your shield against the flames!",
+"¡Levanta el escudo contra las llamas!",
+"Heb den Schild gegen die Flammen!",
+"ارفع درعك في وجه النيران!",
+"आग के सामने अपनी ढाल उठाओ!",
+"举起护盾抵挡烈焰！",
+"炎に向かって盾を構えろ！"
+],
+"60063c7c": [
+"Embrace the fire: spiciness rises and +1 creativity.",
+"Abraza el fuego: sube el picante y +1 de creatividad.",
+"Umarme das Feuer: mehr Schärfe und +1 Kreativität.",
+"احتضن النار: يزيد الحر و+1 إبداع.",
+"आग को गले लगाओ: तीखापन बढ़ेगा और +1 रचनात्मकता।",
+"拥抱火焰：辣度上升，创意 +1。",
+"炎を受け入れる：辛さアップ、創造性 +1。"
+],
+"54cf99ab": [
+"Your stove flares up: cooking speeds up, your dish gets spicier and more explosive. (20% backfire chance)",
+"Tu fogón se aviva: la cocción se acelera y tu plato se vuelve más picante y explosivo. (20% de rebote)",
+"Dein Herd lodert auf: Das Kochen wird schneller, dein Gericht schärfer und explosiver. (20% Rückschlagchance)",
+"يشتعل موقدك: يتسارع الطهي ويزداد طبقك حرارة وقابلية للانفجار. (فرصة ارتداد 20%)",
+"चूल्हा भड़क उठता है: पकाना तेज़ होगा, पकवान और तीखा व विस्फोटक बनेगा। (20% उल्टा वार की संभावना)",
+"灶火猛窜：烹饪加速，菜品更辣、更易爆。（20%反噬几率）",
+"コンロが燃え上がる：調理が速まり、料理の辛さと爆発性がアップ。（20%で反動）"
+],
+"6fcbe877": [
+"I'm here to settle the score for last time!",
+"¡Vengo a cobrarme la derrota de la última vez!",
+"Ich bin hier, um mich für das letzte Mal zu rächen!",
+"جئت لأثأر لهزيمتي الماضية!",
+"पिछली हार का हिसाब चुकाने आया हूँ!",
+"我是来为上次的失败讨个说法的！",
+"前回の借りを返しに来たぞ！"
+],
+"a326c1eb": [
+"This time I'm ready. Revenge time!",
+"Esta vez estoy preparado. ¡Hora de la venganza!",
+"Diesmal bin ich vorbereitet. Zeit für Rache!",
+"هذه المرة أنا مستعد. حان وقت الانتقام!",
+"इस बार मैं तैयार हूँ। बदले का वक़्त!",
+"这次我有备而来。复仇时刻到了！",
+"今度は準備万端だ。リベンジの時間だ！"
+],
+"7e9d79ea": [
+"You again? The result won't change!",
+"¿Tú otra vez? ¡El resultado no va a cambiar!",
+"Du schon wieder? Am Ergebnis ändert sich nichts!",
+"أنت مجددًا؟ النتيجة لن تتغير!",
+"फिर तुम? नतीजा नहीं बदलेगा!",
+"又是你？结果不会变的！",
+"またお前か？結果は変わらないぞ！"
+],
+"9733eb2f": [
+"I beat you once, I'll beat you again!",
+"Te gané una vez, ¡te ganaré otra!",
+"Ich habe dich einmal besiegt, ich schaffe es wieder!",
+"هزمتك مرة وسأهزمك مجددًا!",
+"एक बार हराया है, फिर हराऊँगा!",
+"我赢过你一次，就能再赢一次！",
+"一度勝ったんだ、また勝つさ！"
+],
+"712df60e": [
+"Rematch League",
+"Liga de la Revancha",
+"Revanche-Liga",
+"دوري الثأر",
+"रीमैच लीग",
+"雪耻联赛",
+"リベンジリーグ"
+],
+"6aa7947e": [
+"The bosses you beat are back, stronger and angrier. Revenge time!",
+"Los jefes que venciste han vuelto, más fuertes y furiosos. ¡Hora de la venganza!",
+"Die Bosse, die du besiegt hast, sind zurück – stärker und wütender. Zeit für Rache!",
+"عاد الزعماء الذين هزمتهم أقوى وأشد غضبًا. حان وقت الانتقام!",
+"जिन बॉस को तुमने हराया था, वे और ताकतवर और गुस्से में लौट आए हैं। बदले का वक़्त!",
+"被你打败的头目们回来了，更强也更愤怒。复仇时刻到了！",
+"倒したボスたちが、より強く、より怒って帰ってきた。リベンジの時間だ！"
+],
+"76a14bfc": [
+"Fend off two sabotages",
+"Rechaza dos sabotajes",
+"Wehre zwei Sabotagen ab",
+"صدّ عمليتي تخريب",
+"दो तोड़फोड़ नाकाम करो",
+"挡下两次破坏",
+"妨害を2回防ぐ"
+],
+"c463ff92": [
+"Cook perfectly twice",
+"Cocina a la perfección dos veces",
+"Koche zweimal perfekt",
+"اطهُ بإتقان مرتين",
+"दो बार परफ़ेक्ट पकाओ",
+"完美烹饪两次",
+"パーフェクト調理を2回"
+],
+"486d966e": [
+"Revenge Is a Dish Best Served Cold",
+"La venganza se sirve fría",
+"Rache wird kalt serviert",
+"الانتقام طبق يُقدَّم باردًا",
+"बदला ठंडा परोसा जाता है",
+"复仇是一道冷盘",
+"復讐は冷めた料理で"
+],
+"4fdb3e75": [
+"Complete the Rematch League and defeat Crimson Obscura.",
+"Completa la Liga de la Revancha y derrota a Obscura Carmesí.",
+"Schließe die Revanche-Liga ab und besiege Purpur-Obscura.",
+"أكمل دوري الثأر واهزم أوبسكورا القرمزية.",
+"रीमैच लीग पूरी करो और लाल ऑब्स्कुरा को हराओ।",
+"完成雪耻联赛并击败赤红奥布斯库拉。",
+"リベンジリーグを制覇して紅のオブスキュラを倒す。"
+],
+"a4d3557b": [
+"Rematch Master",
+"Maestro de la Revancha",
+"Revanche-Meister",
+"سيد الثأر",
+"रीमैच उस्ताद",
+"雪耻大师",
+"再戦の達人"
+],
+"ed2faecf": [
+"Replay a match you lost before and win it.",
+"Repite un duelo que perdiste y gánalo.",
+"Spiele ein verlorenes Duell erneut und gewinne es.",
+"أعد لعب مباراة خسرتها من قبل وافز بها.",
+"पहले हारा हुआ मैच दोबारा खेलकर जीतो।",
+"重玩一场输过的比赛并获胜。",
+"負けた試合をもう一度プレイして勝つ。"
+],
+"3f4ca1bc": [
+"Revenge Denied",
+"Venganza frustrada",
+"Rache vereitelt",
+"إحباط الانتقام",
+"बदला नाकाम",
+"复仇落空",
+"リベンジ阻止"
+],
+"cad2cbd2": [
+"Defeat a rival in revenge mode.",
+"Derrota a un rival en modo venganza.",
+"Besiege einen Rivalen im Rachemodus.",
+"اهزم خصمًا في وضع الانتقام.",
+"बदले के मोड वाले विरोधी को हराओ।",
+"击败处于复仇模式的对手。",
+"リベンジモードのライバルを倒す。"
+]
+}

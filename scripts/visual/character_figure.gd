@@ -333,8 +333,13 @@ func _draw_rig() -> void:
 	if _has_extra("aura"):
 		var pulse := 0.4 + 0.12 * sin(_t * 3.0)
 		DrawKit.glow(r, HC + Vector2(0, 30), 250, Color(0.55, 0.25, 1.0, pulse))
+	if _has_extra("aura_red"):
+		var pulse2 := 0.45 + 0.15 * sin(_t * 3.4)
+		DrawKit.glow(r, HC + Vector2(0, 30), 260, Color(1.0, 0.15, 0.25, pulse2))
 	if _has_extra("wings"):
 		_wings(r)
+	if _has_extra("dragon_wings"):
+		_dragon_wings(r)
 	_body_back(r)
 	_hair_back(r)
 	if mutation == "giant_ears":
@@ -358,6 +363,49 @@ func _draw_rig() -> void:
 
 
 # ------------------------------------------------------------------ arka katman
+func _dragon_wings(r: CanvasItem) -> void:
+	var c := _col("body_color", "#9c1c2a").darkened(0.15)
+	var flap := sin(_t * 2.6) * 6.0
+	for s in [-1.0, 1.0]:
+		var sh := Vector2(s * 70, -118)
+		var tips := [Vector2(s * 150, -300 - flap), Vector2(s * 196, -262 - flap * 0.7), Vector2(s * 206, -190 - flap * 0.4), Vector2(s * 178, -112)]
+		var pts := PackedVector2Array([sh, Vector2(s * 104, -230 - flap)])
+		pts.append(tips[0])
+		pts.append(Vector2(s * 170, -246 - flap * 0.8))
+		pts.append(tips[1])
+		pts.append(Vector2(s * 176, -200 - flap * 0.5))
+		pts.append(tips[2])
+		pts.append(Vector2(s * 160, -150))
+		pts.append(tips[3])
+		pts.append(Vector2(s * 120, -104))
+		DrawKit.shape(r, pts, c, W, 0.2, _ink())
+		for t in tips:
+			r.draw_line(sh, t, Color(c.darkened(0.35), 0.8), 3.0, true)
+		DrawKit.circle(r, Vector2(s * 104, -230 - flap), 6, Color("#f2c14e"), 2.5, 0.0)
+
+
+func _stripes(r: CanvasItem, poly: PackedVector2Array, c1: Color, c2: Color, step: float, y0: float, y1: float) -> void:
+	DrawKit.fill(r, poly, c1, 0.1)
+	var y := y0
+	var i := 0
+	while y < y1:
+		if i % 2 == 1:
+			_clip_fill(r, PackedVector2Array([Vector2(-260, y), Vector2(260, y), Vector2(260, y + step), Vector2(-260, y + step)]), poly, c2)
+		y += step
+		i += 1
+	DrawKit.outline(r, poly, _ink(), W)
+
+
+func _horn(r: CanvasItem, base: Vector2, ctrl: Vector2, tip: Vector2, w: float, col: Color) -> void:
+	var nrm := (tip - base).orthogonal().normalized() * w
+	var left := DrawKit.quad(base + nrm, ctrl + nrm * 0.5, tip, 10)
+	var right := DrawKit.quad(tip, ctrl - nrm * 0.5, base - nrm, 10)
+	var pts := PackedVector2Array()
+	pts.append_array(left)
+	pts.append_array(right)
+	DrawKit.shape(r, pts, col, 3.5, 0.2, _ink())
+
+
 func _wings(r: CanvasItem) -> void:
 	var flap := sin(_t * 6.0) * 0.12
 	for s in [-1.0, 1.0]:
@@ -389,6 +437,21 @@ func _body_back(r: CanvasItem) -> void:
 		var sheet := DrawKit.smooth(PackedVector2Array([HC + Vector2(-100, 70), HC + Vector2(-104, -20), HC + Vector2(-80, -96), HC + Vector2(0, -126),
 			HC + Vector2(80, -96), HC + Vector2(104, -20), HC + Vector2(100, 70), HC + Vector2(60, 96), HC + Vector2(-60, 96)]), 2)
 		DrawKit.shape(r, sheet, Color("#f4f6ff"), W, 0.08, _ink())
+	if str(_sv("hat", "")) == "dino_hood":
+		var hc := _col("hat_color", "#5fbf4a")
+		var top := _head_top()
+		for i in 5:
+			var x := -48.0 + i * 24.0
+			var hgt := 34.0 if i == 2 else (28.0 if i % 2 == 1 else 22.0)
+			var sp := PackedVector2Array([Vector2(x - 13, top - 14), Vector2(x, top - 14 - hgt), Vector2(x + 13, top - 14)])
+			DrawKit.shape(r, sp, _col("hat_color2", "#ffe9a8").darkened(0.05), 3.5, 0.15, _ink())
+		var hood := DrawKit.ellipse(HC + Vector2(0, -2), _head_rx() + 26, 106, 48)
+		DrawKit.shape(r, hood, hc, W, 0.15, _ink())
+	if str(_sv("hat", "")) == "nemes":
+		var top2 := _head_top()
+		var back := DrawKit.smooth(PackedVector2Array([Vector2(-80, top2 + 34), Vector2(-60, top2 - 6), Vector2(0, top2 - 16), Vector2(60, top2 - 6),
+			Vector2(80, top2 + 34), Vector2(108, -124), Vector2(-108, -124)]), 2)
+		_stripes(r, back, _col("hat_color", "#2f5fbf"), _col("hat_color2", "#f2c14e"), 14.0, top2 - 20, -110)
 	if str(_sv("hat", "")) == "headscarf":
 		var sc := _col("hat_color", "#7a3b8f")
 		var back := DrawKit.smooth(PackedVector2Array([HC + Vector2(-92, 50), HC + Vector2(-98, -20), HC + Vector2(-74, -86), HC + Vector2(0, -104),
@@ -440,6 +503,11 @@ func _hair_back(r: CanvasItem) -> void:
 				var tail := DrawKit.ellipse(HC + Vector2(s * 96, 46), 24, 44, 24, s * 0.35)
 				DrawKit.shape(r, tail, hcol, W, 0.2, _ink())
 				DrawKit.circle(r, HC + Vector2(s * 84, 8), 9, Color("#ff5fa2"), 3.0)
+		"clown":
+			for s in [-1.0, 1.0]:
+				DrawKit.shape(r, DrawKit.blob(HC + Vector2(s * 88, -12), 46, 7 if s < 0 else 11, 0.14, 12), hcol, W, 0.2, _ink())
+		"yeti_fur":
+			DrawKit.shape(r, DrawKit.blob(HC + Vector2(0, -4), 112, 5, 0.09, 18), hcol, W, 0.12, _ink())
 		"bun", "granny_bun", "bun_pencil":
 			if not _hat_covers_top():
 				if hs == "bun_pencil":
@@ -450,7 +518,8 @@ func _hair_back(r: CanvasItem) -> void:
 
 
 func _hat_covers_top() -> bool:
-	return ["toque", "small_toque", "witch", "tricorne", "headscarf", "dark_toque", "wizard", "mushroom", "ghost_sheet", "beret"].has(str(_sv("hat", "none")))
+	return ["toque", "small_toque", "witch", "tricorne", "headscarf", "dark_toque", "wizard", "mushroom", "ghost_sheet", "beret",
+		"ninja_mask", "nemes", "dino_hood", "kavuk"].has(str(_sv("hat", "none")))
 
 
 func _giant_ears(r: CanvasItem, sk: Color) -> void:
@@ -569,6 +638,85 @@ func _body(r: CanvasItem) -> void:
 				DrawKit.poly_line(r, PackedVector2Array([Vector2(s * 62, -120), Vector2(s * 18, -50)]), c2, 4.0)
 			for y in [-40, -16]:
 				DrawKit.circle(r, Vector2(30, y), 5, c2, 2.0, 0.0)
+		"clown":
+			DrawKit.shape(r, torso, c, W, 0.15, ink)
+			_pattern_dots(r, torso, c2, 34.0, 9.0)
+			DrawKit.outline(r, torso, ink, W)
+			for y in [-104, -68, -32]:
+				DrawKit.circle(r, Vector2(0, y), 10, Color("#ffffff"), 3.0, 0.2)
+		"dino":
+			DrawKit.shape(r, torso, c, W, 0.15, ink)
+			var belly := DrawKit.ellipse(Vector2(0, -46), 58, 74, 32)
+			for bp in Geometry2D.intersect_polygons(belly, torso):
+				DrawKit.shape(r, bp, c2, 3.5, 0.1, ink)
+			for y in [-90, -66, -42, -18]:
+				r.draw_line(Vector2(-40, y), Vector2(40, y), Color(c2.darkened(0.2), 0.8), 3.0, true)
+			for p in [Vector2(-78, -96), Vector2(-66, -70), Vector2(78, -96), Vector2(68, -66), Vector2(-84, -40), Vector2(84, -36)]:
+				DrawKit.fill(r, DrawKit.ellipse(p, 8, 6, 12), c.darkened(0.18))
+		"ninja":
+			DrawKit.shape(r, torso, c, W, 0.2, ink)
+			DrawKit.stroke(r, PackedVector2Array([Vector2(-44, -138), Vector2(16, -52)]), c.lightened(0.22), 12.0, ink, 3.0)
+			DrawKit.stroke(r, PackedVector2Array([Vector2(44, -138), Vector2(-4, -70)]), c.lightened(0.22), 12.0, ink, 3.0)
+			_clip_fill(r, PackedVector2Array([Vector2(-130, -40), Vector2(130, -40), Vector2(130, -20), Vector2(-130, -20)]), torso, c2)
+			DrawKit.outline(r, torso, ink, W)
+			DrawKit.shape(r, PackedVector2Array([Vector2(30, -36), Vector2(56, -8), Vector2(40, -6), Vector2(26, -24)]), c2, 3.0, 0.1, ink)
+			DrawKit.fill(r, DrawKit.star_pts(Vector2(-58, -86), 12, 4, 4, 0.3), Color("#c9d1de"))
+		"fur":
+			DrawKit.shape(r, torso, c, W, 0.1, ink)
+			for i in 9:
+				var a := PI + PI * (i + 0.5) / 9.0
+				var p := Vector2(cos(a) * 92, -60 + sin(a) * 70)
+				DrawKit.fill(r, DrawKit.blob(p, 16, i, 0.2, 7), c.lightened(0.04))
+			for y in [-110, -80, -50, -20]:
+				for x in [-60, -20, 20, 60]:
+					DrawKit.poly_line(r, DrawKit.arc(Vector2(x + (12 if (y / 30) % 2 == 0 else 0), y), 10, 7, 0.2, PI - 0.2, 6), Color(c2, 0.7), 3.0)
+			DrawKit.outline(r, torso, ink, W)
+		"mummy":
+			DrawKit.shape(r, torso, c, W, 0.12, ink)
+			var k := -150.0
+			while k < 20.0:
+				var strip := PackedVector2Array([Vector2(-130, k), Vector2(130, k - 30), Vector2(130, k - 22), Vector2(-130, k + 8)])
+				_clip_fill(r, strip, torso, c.darkened(0.12))
+				k += 26.0
+			DrawKit.outline(r, torso, ink, W)
+			var cols := [c2, Color("#2f5fbf"), c2, Color("#d64545")]
+			for i in 4:
+				var col_poly := DrawKit.ellipse(Vector2(0, -142), 86 - i * 15, 46 - i * 9, 36)
+				for cp in Geometry2D.intersect_polygons(col_poly, torso):
+					DrawKit.shape(r, cp, cols[i], 3.0, 0.15, ink)
+		"kaftan":
+			DrawKit.shape(r, torso, c, W, 0.15, ink)
+			_pattern_dots(r, torso, Color(c2, 0.55), 30.0, 3.0)
+			var opening := PackedVector2Array([Vector2(-30, -142), Vector2(30, -142), Vector2(12, 0), Vector2(-12, 0)])
+			_clip_fill(r, opening, torso, Color("#fbf6ec"))
+			DrawKit.poly_line(r, PackedVector2Array([Vector2(-30, -142), Vector2(-12, 0)]), c2, 7.0)
+			DrawKit.poly_line(r, PackedVector2Array([Vector2(30, -142), Vector2(12, 0)]), c2, 7.0)
+			for y in [-112, -88, -64]:
+				var hw: float = 28.0 + float(y) * 0.12
+				DrawKit.line(r, Vector2(-hw - 6, y), Vector2(hw + 6, y), c2, 5.0)
+				DrawKit.circle(r, Vector2(-hw - 6, y), 5, c2, 2.0, 0.0)
+				DrawKit.circle(r, Vector2(hw + 6, y), 5, c2, 2.0, 0.0)
+			_clip_fill(r, PackedVector2Array([Vector2(-130, -40), Vector2(130, -40), Vector2(130, -18), Vector2(-130, -18)]), torso, Color("#2f5fbf"))
+			_clip_fill(r, PackedVector2Array([Vector2(-130, -33), Vector2(130, -33), Vector2(130, -26), Vector2(-130, -26)]), torso, c2)
+			DrawKit.outline(r, torso, ink, W)
+		"dragon":
+			DrawKit.shape(r, torso, c, W, 0.18, ink)
+			var vneck := PackedVector2Array([Vector2(-30, -142), Vector2(30, -142), Vector2(0, -84)])
+			var yy := -128.0
+			var row := 0
+			while yy < 0.0:
+				var xx := -100.0 + (11.0 if row % 2 == 1 else 0.0)
+				while xx < 100.0:
+					var p := Vector2(xx, yy)
+					if Geometry2D.is_point_in_polygon(p, torso) and not Geometry2D.is_point_in_polygon(p, vneck):
+						DrawKit.poly_line(r, DrawKit.arc(p, 10, 8, 0.15, PI - 0.15, 6), Color(c.lightened(0.18), 0.9), 2.5)
+					xx += 22.0
+				yy += 16.0
+				row += 1
+			_clip_fill(r, vneck, torso, _skin().darkened(0.04))
+			DrawKit.poly_line(r, PackedVector2Array([Vector2(-32, -140), Vector2(0, -80), Vector2(32, -140)]), c2, 6.0)
+			DrawKit.circle(r, Vector2(0, -84), 8, Color("#ff6a2a"), 2.5, 0.2)
+			DrawKit.outline(r, torso, ink, W)
 		_:
 			DrawKit.shape(r, torso, c, W, 0.12, ink)
 			DrawKit.shape(r, DrawKit.rrect(Rect2(-38, -152, 76, 22), 8), c.darkened(0.04), 3.5, 0.0, ink)
@@ -633,6 +781,17 @@ func _neck_acc(r: CanvasItem) -> void:
 		DrawKit.shape(r, PackedVector2Array([Vector2(-30, -150), Vector2(0, -138), Vector2(-30, -124)]), bc, 3.5, 0.15, ink)
 		DrawKit.shape(r, PackedVector2Array([Vector2(30, -150), Vector2(0, -138), Vector2(30, -124)]), bc, 3.5, 0.15, ink)
 		DrawKit.circle(r, Vector2(0, -138), 7, bc.darkened(0.15), 3.0)
+	if _has_acc("ruffle"):
+		var zz := PackedVector2Array()
+		for i in 28:
+			var a := TAU * i / 28.0
+			var rad := 66.0 if i % 2 == 0 else 46.0
+			zz.append(Vector2(0, -146) + Vector2(cos(a) * rad, sin(a) * rad * 0.36))
+		DrawKit.shape(r, zz, Color("#ffffff"), 3.5, 0.15, ink)
+		for i in 14:
+			var a2 := TAU * i / 14.0
+			if sin(a2) > -0.2:
+				r.draw_line(Vector2(0, -146) + Vector2(cos(a2) * 30, sin(a2) * 11), Vector2(0, -146) + Vector2(cos(a2) * 62, sin(a2) * 22), Color(_col("acc_color", "#ff4f7a"), 0.8), 3.0, true)
 	if _has_acc("scarf"):
 		var sc := _col("acc_color", "#4a9dff")
 		DrawKit.shape(r, DrawKit.rrect(Rect2(-44, -158, 88, 26), 12), sc, 3.5, 0.15, ink)
@@ -647,7 +806,7 @@ func _ears(r: CanvasItem, sk: Color) -> void:
 		return
 	if hk == "alien" or _has_extra("hood") or mutation == "giant_ears":
 		return
-	if ["headscarf", "ghost_sheet"].has(str(_sv("hat", ""))):
+	if ["headscarf", "ghost_sheet", "ninja_mask", "nemes", "dino_hood"].has(str(_sv("hat", ""))) or str(_sv("hair", "")) == "yeti_fur":
 		return
 	var rx := _head_rx()
 	for s in [-1.0, 1.0]:
@@ -701,6 +860,11 @@ func _face(r: CanvasItem, sk: Color, ex: Array, eyes_mode: String) -> void:
 			DrawKit.poly_line(r, DrawKit.quad(mc + Vector2(s * 3, -14), mc + Vector2(s * 16, -20), mc + Vector2(s * 28, -10)), _col("hair_color", "#c9a040").darkened(0.15), 5.0)
 	elif facial == "beard_big":
 		_mustache(r, mc, 0.85)
+	elif facial == "handlebar":
+		for s in [-1.0, 1.0]:
+			var hb := DrawKit.smooth(PackedVector2Array([mc + Vector2(s * 3, -12), mc + Vector2(s * 22, -16), mc + Vector2(s * 40, -15),
+				mc + Vector2(s * 50, -22), mc + Vector2(s * 47, -30), mc + Vector2(s * 40, -27)]), 2, false)
+			DrawKit.stroke(r, hb, _col("hair_color", "#2a1d16"), 7.0, _ink(), 2.5)
 	if _has_acc("mustache"):
 		_mustache(r, mc, 0.7)
 	_nose(r, sk)
@@ -1005,6 +1169,31 @@ func _beard(r: CanvasItem) -> void:
 
 func _face_acc(r: CanvasItem, ec: Array) -> void:
 	var ink := _ink()
+	if _has_extra("face_paint"):
+		for i in 2:
+			for dy in [-34.0, 30.0]:
+				var dc: Vector2 = ec[i] + Vector2(0, dy)
+				DrawKit.fill(r, PackedVector2Array([dc + Vector2(0, -10), dc + Vector2(6, 0), dc + Vector2(0, 10), dc + Vector2(-6, 0)]), Color("#4a9dff"))
+	if _has_extra("scales"):
+		var sk2 := Color("#e0705a")
+		for s in [-1.0, 1.0]:
+			for p in [Vector2(56, -2), Vector2(62, 8), Vector2(50, 10)]:
+				DrawKit.poly_line(r, DrawKit.arc(HC + Vector2(s * p.x, p.y), 5, 4, 0.2, PI - 0.2, 6), sk2, 2.0)
+	if _has_extra("bandages"):
+		var head := _head_pts()
+		var ey: float = ec[0].y
+		var bc := _col("body_color", "#efe3c6")
+		for st in [[ey - 50.0, ey - 30.0, -0.08], [ey + 20.0, ey + 32.0, 0.06], [ey + 58.0, ey + 78.0, -0.05], [ey - 84.0, ey - 62.0, 0.1]]:
+			var y0: float = st[0]
+			var y1: float = st[1]
+			var tilt: float = st[2] * 100.0
+			var strip := PackedVector2Array([Vector2(-120, y0 - tilt), Vector2(120, y0 + tilt), Vector2(120, y1 + tilt), Vector2(-120, y1 - tilt)])
+			for sp in Geometry2D.intersect_polygons(strip, head):
+				DrawKit.shape(r, sp, bc, 3.0, 0.1, ink)
+	if _has_acc("clown_nose"):
+		var np := HC + Vector2(0, 14)
+		DrawKit.circle(r, np, 16, Color("#ff2d3d"), 3.5, 0.25)
+		DrawKit.shine(r, np + Vector2(-5, -6), 6, 4, 0.7)
 	if _has_acc("glasses") or _has_acc("glasses_round"):
 		var rr := 21.0 if _has_acc("glasses_round") else 18.0
 		var fc := Color("#6b3d1f") if _has_acc("glasses_round") else ink
@@ -1105,8 +1294,8 @@ func _glow_face(r: CanvasItem, mouth_mode: String) -> void:
 # ------------------------------------------------------------------ saç & şapka
 func _hair_front(r: CanvasItem) -> void:
 	var hs: String = _sv("hair", "short")
-	if hs == "none" or hs == "bald" or _head_kind() == "robot" or _head_kind() == "alien":
-		if hs == "bald":
+	if hs == "none" or hs == "bald" or hs == "clown" or _head_kind() == "robot" or _head_kind() == "alien":
+		if hs == "bald" or hs == "clown":
 			DrawKit.shine(r, HC + Vector2(-26, -56), 18, 9, 0.45)
 		return
 	if ["headscarf", "ghost_sheet"].has(str(_sv("hat", ""))):
@@ -1123,7 +1312,7 @@ func _hair_front(r: CanvasItem) -> void:
 			fringe = [Vector2(rx, -8), Vector2(46, -46), Vector2(0, -26), Vector2(-46, -46), Vector2(-rx, -8)]
 		"swoop":
 			fringe = [Vector2(rx, -2), Vector2(56, -36), Vector2(10, -52), Vector2(-30, -40), Vector2(-62, -22), Vector2(-rx, 0)]
-		"curly", "afro":
+		"curly", "afro", "yeti_fur":
 			fringe = [Vector2(rx, -4), Vector2(56, -30), Vector2(36, -40), Vector2(18, -32), Vector2(0, -42), Vector2(-18, -32), Vector2(-36, -40), Vector2(-56, -30), Vector2(-rx, -4)]
 		"granny_bun", "bun", "bun_pencil":
 			fringe = [Vector2(rx, 0), Vector2(50, -38), Vector2(0, -50), Vector2(-50, -38), Vector2(-rx, 0)]
@@ -1138,7 +1327,7 @@ func _hair_front(r: CanvasItem) -> void:
 	for f in fringe:
 		pts.append(HC + f)
 	var sm := DrawKit.smooth(pts, 1)
-	if hs == "curly" or hs == "afro":
+	if hs == "curly" or hs == "afro" or hs == "yeti_fur":
 		for i in 9:
 			var a2 := PI + PI * (i + 0.5) / 9.0
 			DrawKit.circle(r, HC + Vector2(cos(a2) * rx * 0.96, sin(a2) * ry * 0.96), 20, hcol, W, 0.2, _ink())
@@ -1268,6 +1457,87 @@ func _hat(r: CanvasItem) -> void:
 			DrawKit.shape(r, wc, Color("#5b4bd6"), W, 0.2, ink)
 			for p in [Vector2(-20, top - 20), Vector2(18, top - 60), Vector2(-4, top - 100)]:
 				DrawKit.fill(r, DrawKit.star_pts(p, 11, 5), Color("#ffd23f"))
+		"ninja_mask":
+			var hood := DrawKit.ellipse(HC + (Vector2(0, 4) if _head_kind() == "wide" else Vector2.ZERO), _head_rx() + 7, HC.y - top + 7, 48)
+			var ey: float = _eye_centers()[0].y
+			var cap_clip := PackedVector2Array([Vector2(-220, -700), Vector2(220, -700), Vector2(220, ey - 34), Vector2(-220, ey - 34)])
+			var low_clip := PackedVector2Array([Vector2(-220, ey + 20), Vector2(220, ey + 20), Vector2(220, 0), Vector2(-220, 0)])
+			for clip in [cap_clip, low_clip]:
+				for p in Geometry2D.intersect_polygons(hood, clip):
+					DrawKit.shape(r, p, hc, W, 0.12, ink)
+			var band_clip := PackedVector2Array([Vector2(-220, ey - 62), Vector2(220, ey - 62), Vector2(220, ey - 40), Vector2(-220, ey - 40)])
+			for bp in Geometry2D.intersect_polygons(hood, band_clip):
+				DrawKit.shape(r, bp, _col("hat_color2", "#e0244f"), 3.5, 0.1, ink)
+			var kx := _head_rx() + 2
+			for k in 2:
+				var tail := PackedVector2Array([Vector2(kx, ey - 56), Vector2(kx + 52, ey - 64 + k * 22), Vector2(kx + 46, ey - 46 + k * 26), Vector2(kx, ey - 46)])
+				DrawKit.shape(r, tail, _col("hat_color2", "#e0244f"), 3.5, 0.15, ink)
+			r.draw_line(Vector2(-30, ey + 40), Vector2(30, ey + 40), Color(hc.lightened(0.2), 0.7), 3.0, true)
+		"nemes":
+			var cap := PackedVector2Array()
+			var rx3 := _head_rx() + 8
+			for i in 21:
+				var a := PI + PI * i / 20.0
+				cap.append(HC + Vector2(cos(a) * rx3, sin(a) * (HC.y - top + 10)))
+			cap.append(HC + Vector2(rx3 - 6, -28))
+			cap.append(HC + Vector2(0, -44))
+			cap.append(HC + Vector2(-rx3 + 6, -28))
+			_stripes(r, DrawKit.smooth(cap, 1), hc, _col("hat_color2", "#f2c14e"), 12.0, top - 20, HC.y)
+			var band3 := DrawKit.smooth(PackedVector2Array([HC + Vector2(-rx3 + 4, -30), HC + Vector2(0, -48), HC + Vector2(rx3 - 4, -30),
+				HC + Vector2(rx3 - 6, -18), HC + Vector2(0, -34), HC + Vector2(-rx3 + 6, -18)]), 1)
+			DrawKit.shape(r, band3, _col("hat_color2", "#f2c14e"), 3.5, 0.2, ink)
+			DrawKit.circle(r, HC + Vector2(0, -44), 8, Color("#d64545"), 2.5, 0.2)
+			for s in [-1.0, 1.0]:
+				var lap := PackedVector2Array([HC + Vector2(s * (rx3 - 12), -24), HC + Vector2(s * (rx3 + 10), -30), Vector2(s * 104, -112), Vector2(s * 70, -112)])
+				_stripes(r, lap, hc, _col("hat_color2", "#f2c14e"), 12.0, HC.y - 30, -100)
+		"dino_hood":
+			var hc2 := _col("hat_color", "#5fbf4a")
+			var oc := HC + Vector2(0, -2)
+			var orx := _head_rx() + 26
+			var outer := DrawKit.arc(oc, orx, 106, PI * 0.94, PI * 2.06, 30)
+			var inner := DrawKit.arc(HC + Vector2(0, 8), _head_rx() - 6, 72, PI * 0.94, PI * 2.06, 30)
+			var cres := PackedVector2Array(outer)
+			var inner_rev := PackedVector2Array()
+			for i in range(inner.size() - 1, -1, -1):
+				inner_rev.append(inner[i])
+			cres.append_array(inner_rev)
+			DrawKit.shape(r, cres, hc2, W, 0.12, ink)
+			for i in 7:
+				var a := PI * 1.18 + PI * 0.64 * i / 6.0
+				var b := HC + Vector2(8, 8) * 0 + Vector2(cos(a) * (_head_rx() - 6), 8 + sin(a) * 72)
+				var dirv := (HC + Vector2(0, 10) - b).normalized()
+				var tooth := PackedVector2Array([b + dirv.orthogonal() * 7, b - dirv.orthogonal() * 7, b + dirv * 15])
+				DrawKit.shape(r, tooth, Color("#ffffff"), 2.5, 0.05, ink)
+			for s in [-1.0, 1.0]:
+				var ep := oc + Vector2(s * 38, -98)
+				DrawKit.circle(r, ep, 17, hc2, W, 0.15, ink)
+				DrawKit.circle(r, ep + Vector2(0, -2), 11, Color("#ffffff"), 3.0, 0.0, ink)
+				r.draw_circle(ep + Vector2(s * 2, -1), 5, ink, true, -1.0, true)
+				r.draw_circle(oc + Vector2(s * 12, -76), 3.5, hc2.darkened(0.4), true, -1.0, true)
+		"kavuk":
+			var hc3 := _col("hat_color", "#fbf6ec")
+			var tall := DrawKit.smooth(PackedVector2Array([Vector2(-56, top + 26), Vector2(-64, top - 40), Vector2(-60, top - 100), Vector2(-40, top - 128),
+				Vector2(0, top - 136), Vector2(40, top - 128), Vector2(60, top - 100), Vector2(64, top - 40), Vector2(56, top + 26)]), 2)
+			DrawKit.shape(r, tall, hc3, W, 0.12, ink)
+			for x in [-36, -12, 12, 36]:
+				DrawKit.poly_line(r, DrawKit.quad(Vector2(x, top + 10), Vector2(x * 1.12, top - 60), Vector2(x * 0.8, top - 118), 10), Color(hc3.darkened(0.12), 0.9), 3.0)
+			var wrap := DrawKit.rrect(Rect2(-84, top - 2, 168, 46), 22)
+			DrawKit.shape(r, wrap, hc3.darkened(0.04), W, 0.12, ink)
+			for i in 6:
+				var x0 := -72.0 + i * 26.0
+				_clip_fill(r, PackedVector2Array([Vector2(x0, top - 4), Vector2(x0 + 8, top - 4), Vector2(x0 + 24, top + 46), Vector2(x0 + 16, top + 46)]), wrap, hc3.darkened(0.14))
+			DrawKit.outline(r, wrap, ink, W)
+			DrawKit.circle(r, Vector2(0, top + 20), 10, Color("#f2c14e"), 3.0, 0.2)
+			DrawKit.circle(r, Vector2(0, top + 20), 5, _col("hat_color2", "#c9302c"), 2.0, 0.0)
+		"party_hat":
+			var base4 := Vector2(18, top + 14)
+			var cone := PackedVector2Array([base4 + Vector2(-40, 0), base4 + Vector2(26, -100), base4 + Vector2(40, 0)])
+			DrawKit.shape(r, cone, hc, W, 0.15, ink)
+			for k in 3:
+				var y4 := base4.y - 18 - k * 28
+				_clip_fill(r, PackedVector2Array([Vector2(-80, y4 + 6), Vector2(120, y4 - 6), Vector2(120, y4 + 4), Vector2(-80, y4 + 16)]), cone, _col("hat_color2", "#ffd23f"))
+			DrawKit.outline(r, cone, ink, W)
+			DrawKit.circle(r, base4 + Vector2(26, -104), 13, _col("hat_color2", "#ffd23f"), 3.5, 0.2)
 		"ghost_sheet":
 			var gs := PackedVector2Array()
 			var rx2 := _head_rx() + 14
@@ -1292,6 +1562,14 @@ func _extras_front(r: CanvasItem) -> void:
 			DrawKit.glow(r, Vector2(-40, top - 44), 24, Color(1, 0.3, 0.3, 0.6))
 	if _has_extra("antennas_alien"):
 		_antennas(r, top, Color("#c6ff6b"))
+	if _has_extra("horns"):
+		var hcol := _col("horn_color", "#3a2230")
+		for s in [-1.0, 1.0]:
+			_horn(r, Vector2(s * 36, top + 22), Vector2(s * 52, top - 30), Vector2(s * 86, top - 64), 12.0, hcol)
+	if _has_extra("horns_small"):
+		var hcol2 := _col("horn_color", "#c9b8a0")
+		for s in [-1.0, 1.0]:
+			_horn(r, Vector2(s * 66, top + 40), Vector2(s * 84, top + 22), Vector2(s * 96, top - 4), 9.0, hcol2)
 	if _has_extra("hood"):
 		var rim := DrawKit.arc(HC + Vector2(0, 6), 96, 100, PI * 1.08, PI * 1.92, 20)
 		DrawKit.poly_line(r, rim, _ink(), 18.0)
@@ -1563,7 +1841,24 @@ func react(kind: String) -> float:
 
 
 # ------------------------------------------------------------------ hazır karakterler
+## Rövanş Ligi'nde dönen bossların "intikam" görünümü (temel görünüm + renk/efekt değişiklikleri).
+const REVENGE_LOOK := {
+	"morgana_r": {"skin": "#4f9a3c", "hat_color": "#1a0d22", "hat_color2": "#ff3355", "body_color": "#1a0d22", "body_color2": "#ff3355",
+		"iris": "#ff3355", "hair_color": "#0e0814", "extras": ["aura_red"], "expression": "evil"},
+	"x3000_r": {"skin": "#3d4454", "body_color": "#2b313d", "led_color": "#ff3355", "hat": "dark_toque", "hat_color": "#1a1426",
+		"hat_color2": "#ff3355", "extras": ["antenna", "no_brows", "aura_red"]},
+	"obscura_r": {"hat_color2": "#ff3355", "body_color2": "#ff3355", "led_color": "#ff3355", "extras": ["aura_red", "hood", "no_brows"]},
+}
+
+
 static func preset(id: String) -> Dictionary:
+	if REVENGE_LOOK.has(id):
+		var base := preset(id.trim_suffix("_r"))
+		var look: Dictionary = REVENGE_LOOK[id]
+		for k in look.keys():
+			var v: Variant = look[k]
+			base[k] = Color(v) if v is String and str(v).begins_with("#") else v
+		return base
 	match id:
 		"bruno":
 			return {"skin": Color("#e5a878"), "head": "wide", "hair": "short", "hair_color": Color("#3a2a20"), "facial": "big_mustache",
@@ -1612,6 +1907,36 @@ static func preset(id: String) -> Dictionary:
 				"hat_color": Color("#1a1426"), "hat_color2": Color("#c77dff"), "body": "cloak", "body_color": Color("#1a1426"),
 				"body_color2": Color("#7c3bd6"), "extras": ["aura", "hood", "no_brows"], "nose": "none", "led_color": Color("#c77dff"),
 				"expression": "neutral", "blush": false}
+		"pofuduk":
+			return {"skin": Color("#fff4ea"), "head": "round", "hair": "clown", "hair_color": Color("#ff5a3c"), "hat": "party_hat",
+				"hat_color": Color("#4a9dff"), "hat_color2": Color("#ffd23f"), "body": "clown", "body_color": Color("#ffd23f"),
+				"body_color2": Color("#ff4f7a"), "acc": ["clown_nose", "ruffle"], "acc_color": Color("#ff4f7a"), "extras": ["face_paint"],
+				"nose": "none", "iris": Color("#3a6bd6"), "expression": "grin"}
+		"rexi":
+			return {"skin": Color("#ffd7b5"), "head": "round", "hair": "none", "hat": "dino_hood", "hat_color": Color("#5fbf4a"),
+				"hat_color2": Color("#ffe9a8"), "body": "dino", "body_color": Color("#5fbf4a"), "body_color2": Color("#ffe9a8"),
+				"nose": "button", "iris": Color("#4a3020"), "expression": "grin"}
+		"kage":
+			return {"skin": Color("#f1c7a0"), "head": "round", "hair": "none", "hat": "ninja_mask", "hat_color": Color("#262b3b"),
+				"hat_color2": Color("#e0244f"), "body": "ninja", "body_color": Color("#262b3b"), "body_color2": Color("#e0244f"),
+				"nose": "none", "iris": Color("#2a1a10"), "expression": "determined", "blush": false}
+		"kartopu":
+			return {"skin": Color("#cfe4ff"), "head": "wide", "hair": "yeti_fur", "hair_color": Color("#fafdff"), "hat": "small_toque",
+				"hat_color": Color("#bfe6ff"), "body": "fur", "body_color": Color("#f4f9ff"), "body_color2": Color("#9fd8ff"),
+				"acc": ["scarf"], "acc_color": Color("#4a9dff"), "extras": ["horns_small"], "horn_color": Color("#cdbb9c"),
+				"nose": "big", "iris": Color("#3a7bd5"), "expression": "happy"}
+		"nefer":
+			return {"skin": Color("#d9c7a0"), "head": "round", "hair": "none", "hat": "nemes", "hat_color": Color("#2f5fbf"),
+				"hat_color2": Color("#f2c14e"), "body": "mummy", "body_color": Color("#efe3c6"), "body_color2": Color("#f2c14e"),
+				"extras": ["bandages"], "nose": "small", "iris": Color("#3fb8ff"), "expression": "neutral", "blush": false}
+		"kavukcu":
+			return {"skin": Color("#e2a878"), "head": "wide", "hair": "short", "hair_color": Color("#2a1d16"), "facial": "handlebar",
+				"hat": "kavuk", "hat_color": Color("#fbf6ec"), "hat_color2": Color("#c9302c"), "body": "kaftan", "body_color": Color("#c9302c"),
+				"body_color2": Color("#f2c14e"), "nose": "big", "iris": Color("#3a2a20"), "expression": "smug"}
+		"alevna":
+			return {"skin": Color("#f6c8a4"), "head": "long", "hair": "long", "hair_color": Color("#8e1a28"), "hat": "none",
+				"body": "dragon", "body_color": Color("#9c1c2a"), "body_color2": Color("#f2c14e"), "extras": ["horns", "dragon_wings", "scales"],
+				"horn_color": Color("#3a2230"), "acc": ["earring_gold"], "nose": "small", "iris": Color("#ffb000"), "expression": "smug"}
 	return {}
 
 

@@ -43,6 +43,8 @@ func _ready() -> void:
 			await _first()
 		"soak":
 			await _soak()
+		"rivals":
+			await _rivals()
 	print("FLOW DONE")
 	get_tree().quit()
 
@@ -355,6 +357,8 @@ func _soak() -> void:
 	rng.seed = 42
 	Engine.time_scale = 4.0
 	var list := ["l3_m2", "l1_m3", "l5_m3", "l2_m1"]
+	if OS.get_cmdline_user_args().has("new"):
+		list = ["l2_m3", "l3_m3", "l4_m2", "l4_m3", "l5_m1", "l5_m2", "l6_m1", "l6_m1", "l6_m2", "l6_m3"]
 	for mid in list:
 		# kilitleri aç (test için)
 		while GameManager.busy:
@@ -373,7 +377,7 @@ func _soak() -> void:
 				continue
 			var key := GameManager.current_key
 			if key == "results":
-				print("match ", mid, " done in ", (Time.get_ticks_msec() - t0) / 1000.0, "s won=", BattleManager.results.get("won"), " ", BattleManager.results.get("player_total"), "-", BattleManager.results.get("opp_total"))
+				print("match ", mid, " done in ", (Time.get_ticks_msec() - t0) / 1000.0, "s won=", BattleManager.results.get("won"), " ", BattleManager.results.get("player_total"), "-", BattleManager.results.get("opp_total"), " rematch=", BattleManager.results.get("rematch", ""), " bonus=", BattleManager.results.get("rematch_bonus", 0))
 				break
 			if GameManager.busy:
 				continue
@@ -487,3 +491,57 @@ func _bot_judging() -> void:
 		press("SONRAKİ TUR")
 	elif find_button("SONUÇLAR"):
 		press("SONUÇLAR")
+
+
+func _rivals() -> void:
+	# tüm ligleri aç
+	for lg in IngredientDatabase.leagues:
+		for m in lg["matches"]:
+			SaveManager.data["career"]["matches"][m["id"]] = {"stars": [true, false, false], "best": 60.0, "wins": 1, "plays": 1, "last": "won"}
+		if int(lg["id"]) < 6:
+			SaveManager.data["career"]["leagues_done"].append(int(lg["id"]))
+	await go("career")
+	await shot("80_career_top", 0.8)
+	var sc := find_type(get_tree().current_scene, "DragScroll") as ScrollContainer
+	if sc:
+		sc.scroll_vertical = 1500
+		await shot("81_career_mid", 0.5)
+		sc.scroll_vertical = 99999
+		await shot("82_career_end", 0.5)
+	SaveManager.data["career"]["matches"].erase("l3_m3")
+	BattleManager.start_career("l3_m3")
+	await go("kitchen")
+	await shot("83_vs_kage", 1.4)
+	BattleManager.start_career("l6_m1")
+	await go("kitchen")
+	await shot("84_vs_revenge", 1.6)
+	SaveManager.data["career"]["matches"]["l2_m3"] = {"stars": [false, false, false], "best": 40.0, "wins": 0, "plays": 1, "last": "lost"}
+	BattleManager.start_career("l2_m3")
+	await go("kitchen")
+	await shot("85_vs_rematch", 1.6)
+	press("BAŞLA!")
+	await get_tree().create_timer(1.2).timeout
+	var kb := get_tree().current_scene
+	var ev := InputEventMouseButton.new()
+	ev.button_index = MOUSE_BUTTON_LEFT
+	ev.pressed = true
+	for c in kb.get_children():
+		if c is Control and c.z_index == 60:
+			c.gui_input.emit(ev)
+	await get_tree().create_timer(1.0).timeout
+	for i in 3:
+		var sd0 := find_type(get_tree().root, "SabotageDialog")
+		if sd0:
+			sd0._choose("adapt")
+			await get_tree().create_timer(1.5).timeout
+	await shot("86_kitchen_clown", 0.4)
+	var dlg := SabotageDialog.new()
+	kb.add_child(dlg)
+	dlg.open("tail_whip", IngredientDatabase.opponents["rexi"], "")
+	await shot("87_sab_tail", 0.8)
+	dlg.queue_free()
+	var dlg2 := SabotageDialog.new()
+	kb.add_child(dlg2)
+	dlg2.open("dragon_breath", IngredientDatabase.opponents["alevna"], "")
+	await shot("88_sab_dragon", 0.8)
+	dlg2.queue_free()

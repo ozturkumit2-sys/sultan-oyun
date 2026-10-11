@@ -9,8 +9,10 @@ func _ready() -> void:
 		mode = args[0]
 	RenderingServer.set_default_clear_color(Color("#f6e7d2"))
 	match mode:
-		"chars":
+		"chars", "chars2":
 			var ids := ["bruno", "mira", "max", "morgana", "x3000", "gulizar", "velvet", "barbunya", "zorp", "lila", "obscura", "player"]
+			if mode == "chars2":
+				ids = ["pofuduk", "rexi", "kage", "kartopu", "nefer", "kavukcu", "alevna", "morgana_r", "x3000_r", "obscura_r", "kage", "alevna"]
 			for i in ids.size():
 				var f := CharacterFigure.new()
 				var sp: Dictionary

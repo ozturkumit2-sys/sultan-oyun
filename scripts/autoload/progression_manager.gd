@@ -223,12 +223,15 @@ func set_chef_value(key: String, value: Variant) -> void:
 func match_record(mid: String) -> Dictionary:
 	var m: Dictionary = d()["career"]["matches"]
 	if not m.has(mid):
-		return {"stars": [false, false, false], "best": 0.0, "wins": 0, "plays": 0}
+		return {"stars": [false, false, false], "best": 0.0, "wins": 0, "plays": 0, "last": ""}
 	var r: Dictionary = m[mid]
 	var stars: Array = r.get("stars", [false, false, false])
 	while stars.size() < 3:
 		stars.append(false)
-	return {"stars": stars, "best": float(r.get("best", 0.0)), "wins": int(r.get("wins", 0)), "plays": int(r.get("plays", 0))}
+	var last := str(r.get("last", ""))
+	if last == "" and int(r.get("plays", 0)) > 0:
+		last = "won" if int(r.get("wins", 0)) > 0 else "lost"   # eski kayıtlar
+	return {"stars": stars, "best": float(r.get("best", 0.0)), "wins": int(r.get("wins", 0)), "plays": int(r.get("plays", 0)), "last": last}
 
 
 func match_stars(mid: String) -> int:
@@ -300,6 +303,7 @@ func record_match(mid: String, won: bool, total: float, stars: Array) -> Diction
 	rec["plays"] = int(rec["plays"]) + 1
 	if won:
 		rec["wins"] = int(rec["wins"]) + 1
+	rec["last"] = "won" if won else "lost"
 	d()["career"]["matches"][mid] = rec
 	var league_completed := 0
 	var m: Dictionary = IngredientDatabase.matches[mid]

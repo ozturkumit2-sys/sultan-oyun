@@ -2540,6 +2540,18 @@
 "Bu... bu sadece şanstı! Büyü defterimi getirin!": [
 "data/opponents"
 ],
+"Hi hi... Geçen seferki yenilgimi unuttun mu sandın? Kazanım unutmadı!": [
+"data/opponents"
+],
+"Büyü defterime yeni sayfalar ekledim. Bu sefer kurbağa sen olacaksın!": [
+"data/opponents"
+],
+"Yine mi geldin çaylak? Kurbağalarım seni özlemiş!": [
+"data/opponents"
+],
+"Hi hi hiii! Bir kere yendim, bin kere yenerim!": [
+"data/opponents"
+],
 "Robot X-3000": [
 "data/opponents"
 ],
@@ -2590,6 +2602,18 @@
 "data/opponents"
 ],
 "DUYGU MODÜLÜ: ÜZGÜN. YENİDEN BAŞLATILIYOR...": [
+"data/opponents"
+],
+"YENİLGİ VERİSİ ANALİZ EDİLDİ. YAZILIM GÜNCELLENDİ. İNTİKAM MODU: AÇIK.": [
+"data/opponents"
+],
+"GEÇEN MAÇ: HATA. BU MAÇ: DÜZELTME.": [
+"data/opponents"
+],
+"RAKİP TEKRAR TESPİT EDİLDİ. SONUÇ DEĞİŞMEYECEK.": [
+"data/opponents"
+],
+"ÖNCEKİ ZAFER KAYITLI. TEKRAR OYNATILIYOR...": [
 "data/opponents"
 ],
 "Zombi Nine Gülizar": [
@@ -2644,6 +2668,18 @@
 "Benim zamanımda jüri böyle değildi...": [
 "data/opponents"
 ],
+"Geçen sefer nineni üzdün yavrum... Bu sefer turşuyu iki kat kurdum.": [
+"data/opponents"
+],
+"Ah ah, gençler... Nineyi yenmek kolay sanırsınız. Hı hı hı.": [
+"data/opponents"
+],
+"Yine mi geldin yavrum? Nineciğin seni yine doyuracak.": [
+"data/opponents"
+],
+"Bir kere yedin, yine mi istedin? Hı hı hı.": [
+"data/opponents"
+],
 "Kont Velvet": [
 "data/opponents"
 ],
@@ -2694,6 +2730,18 @@
 "data/opponents"
 ],
 "Pelerinimi kaldırın, eve gidiyorum.": [
+"data/opponents"
+],
+"Geçen sefer ışıklarımı söndürdünüz... Şimdi karanlık daha derin.": [
+"data/opponents"
+],
+"Bir vampir asla unutmaz. Asla affetmez. Pastasını da paylaşmaz.": [
+"data/opponents"
+],
+"Tekrar mı geldiniz? Ne kadar... iştah açıcı.": [
+"data/opponents"
+],
+"İkinci ısırık her zaman daha tatlıdır.": [
 "data/opponents"
 ],
 "Kaptan Barbunya": [
@@ -2748,6 +2796,18 @@
 "Har har... Pekâlâ, bu sefer sen kazandın.": [
 "data/opponents"
 ],
+"Yo ho! Geçen sefer gemimi batırdın! Bu sefer kilerin benim olacak!": [
+"data/opponents"
+],
+"Yedi denizde intikam aradım, sonunda buldum: sen!": [
+"data/opponents"
+],
+"Har har! Yine mi ganimet getirdin bana?": [
+"data/opponents"
+],
+"Bir kere soydum seni tayfa, yine soyarım!": [
+"data/opponents"
+],
 "Uzaylı Zorp": [
 "data/opponents"
 ],
@@ -2798,6 +2858,18 @@
 "data/opponents"
 ],
 "Gezegenime bu tarifi götürebilir miyim?": [
+"data/opponents"
+],
+"Zorp yenilgiyi gezegenine rapor etti. Gezegen kızdı. Zorp geri döndü!": [
+"data/opponents"
+],
+"Uzay gemimde antrenman yaptım. Yerçekimi artık benim emrimde!": [
+"data/opponents"
+],
+"Dünyalı yine mi burada? Zorp çok mutlu! Zorp yine kazanacak!": [
+"data/opponents"
+],
+"Seni bir kere uçurdum, tekrar uçurabilirim!": [
 "data/opponents"
 ],
 "Peri Lila": [
@@ -2852,6 +2924,18 @@
 "Doğa bazen kaybetmeyi de öğretir. Hıh.": [
 "data/opponents"
 ],
+"Geçen sefer çiçeklerim soldu... Bu sefer dikenleriyle geldim.": [
+"data/opponents"
+],
+"Doğa her zaman geri döner. Ben de öyle.": [
+"data/opponents"
+],
+"Yine mi? Ne tatlı! Seni yine nazikçe ezeceğim.": [
+"data/opponents"
+],
+"Çiçeklerim seni yeniden karşılamaya hazır!": [
+"data/opponents"
+],
 "Şef Obscura": [
 "data/opponents"
 ],
@@ -2902,6 +2986,619 @@
 "data/opponents"
 ],
 "Sen... gerçek bir şefsin. Galaksinin en iyisi.": [
+"data/opponents"
+],
+"Bir kez düştüm... Ve gölgelerde daha güçlü doğdum.": [
+"data/opponents"
+],
+"Tahtımı geri almaya geldim. Mutfak yeniden karanlığa gömülecek.": [
+"data/opponents"
+],
+"Yine mi önümdesin? Diz çökmeyi öğrenmedin mi?": [
+"data/opponents"
+],
+"Gölgeler seni bir kez yuttu. Yine yutar.": [
+"data/opponents"
+],
+"Palyaço Pofuduk": [
+"data/opponents"
+],
+"Kahkaha Mutfağının Yıldızı": [
+"data/opponents"
+],
+"Her şeye güler, en çok da kendi şakalarına. Tabakları jonglörlük yaparak servis eder.": [
+"data/opponents"
+],
+"Tuhaf ve renkli tariflerle jüriyi güldürmeye, konfetiyle dikkatlerini dağıtmaya çalışır.": [
+"data/opponents"
+],
+"Konfeti Şakası": [
+"data/opponents",
+"scripts/systems/sabotage_system.gd"
+],
+"Tabağına konfeti patlatır: yemek tuhaflaşır, sunum dağılır.": [
+"data/opponents"
+],
+"Ta-daaa! Gösteri başlasın! Kaybeden pastayı yüzüne yer!": [
+"data/opponents"
+],
+"Bip bip! Burnuma bas, şansın artsın! Şaka şaka, artmaz.": [
+"data/opponents"
+],
+"Hop! Bir tabak daha havada!": [
+"data/opponents"
+],
+"Gülme krizine hazır mısın?": [
+"data/opponents"
+],
+"Konfeti mi? Hep cebimde!": [
+"data/opponents"
+],
+"Pofuduk kocaman bir konfeti topu şişiriyor: 'Sürprizzz!'": [
+"data/opponents"
+],
+"Konfeti topu Pofuduk'un suratında patladı! Bu sefer kahkahalar ona!": [
+"data/opponents"
+],
+"Ha ha haa! Gösteri bitti, alkışlar bana!": [
+"data/opponents"
+],
+"Seni güldürmeye geldim, ağlatarak gidiyorum!": [
+"data/opponents"
+],
+"Bu şaka hiç komik değildi... Burnum söndü.": [
+"data/opponents"
+],
+"Peki peki, bu sefer sen güldün. Ama son gülen...": [
+"data/opponents"
+],
+"Geçen sefer gülen sendin. Bu sefer kahkahalar benim!": [
+"data/opponents"
+],
+"Konfetilerimi iki katına çıkardım. Şaka yapmıyorum!": [
+"data/opponents"
+],
+"Yine mi sen? Gösterinin tekrarına mı geldin?": [
+"data/opponents"
+],
+"Seni bir kere güldürdüm, bir kere daha güldürürüm!": [
+"data/opponents"
+],
+"Dino Rexi": [
+"data/opponents"
+],
+"Kısa Kollu Dev": [
+"data/opponents"
+],
+"Dinozor kostümünü hiç çıkarmayan, kükremeyi seven koca yürekli bir şef. Kolları kısa ama hevesi büyük.": [
+"data/opponents"
+],
+"Etli, doyurucu yemekler ve ızgarayla jürinin midesini fetheder; kuyruğuyla rakibin kilerini dağıtır.": [
+"data/opponents"
+],
+"Kuyruk Darbesi": [
+"data/opponents",
+"scripts/systems/sabotage_system.gd"
+],
+"Kuyruğunu savurup kilerini devirir: bazı malzemeler bu tur kullanılamaz.": [
+"data/opponents"
+],
+"RAAAWR! Yani... merhaba! Mutfağa hoş geldin, küçük şef!": [
+"data/opponents"
+],
+"Kollarım kısa olabilir ama lezzetim kocaman!": [
+"data/opponents"
+],
+"RAWR! Izgara kızışıyor!": [
+"data/opponents"
+],
+"Kuyruğum biraz kaşınıyor...": [
+"data/opponents"
+],
+"Bu et, bir dinozorun gururudur!": [
+"data/opponents"
+],
+"Rexi kuyruğunu sallıyor: 'Ups! Kilerin çok yakındaydı!'": [
+"data/opponents"
+],
+"Rexi kendi kuyruğuna takılıp tezgâha kapaklandı! RAWR... ay.": [
+"data/opponents"
+],
+"RAAAAWR! Zafer dansı! Kısa kollarla bile!": [
+"data/opponents"
+],
+"Dinozorlar geri döndü, hem de mutfakta!": [
+"data/opponents"
+],
+"Rawr... Galiba nesli tükenen bendim.": [
+"data/opponents"
+],
+"Kostümümün içinde ağlıyorum, haberin olsun.": [
+"data/opponents"
+],
+"Geçen sefer kuyruğuma bastın! Bu sefer kükreme sırası bende!": [
+"data/opponents"
+],
+"65 milyon yıl bekledim, birkaç gün daha bekleyemez miydim? Hayır! RAWR!": [
+"data/opponents"
+],
+"Yine mi geldin? Taze bir kükreme ister misin?": [
+"data/opponents"
+],
+"Seni bir kere yendim, yine yenerim! RAWR!": [
+"data/opponents"
+],
+"Ninja Kage": [
+"data/opponents"
+],
+"Gölge Bıçağı": [
+"data/opponents"
+],
+"Sessiz, hızlı ve gizemli. Konuşmaktan çok doğramayı sever; bıçağı bir saniyede yüz dilim keser.": [
+"data/opponents"
+],
+"Hızlı ve kusursuz pişirmeyle zamanı lehine kullanır; duman bombasıyla rakibini kör eder.": [
+"data/opponents"
+],
+"Duman Bombası": [
+"data/opponents",
+"scripts/systems/sabotage_system.gd"
+],
+"Mutfağı dumana boğar: pişirirken görüşün kararır ve gösterge hızlanır.": [
+"data/opponents"
+],
+"Sessizlik... Bıçaklar konuşsun.": [
+"data/opponents"
+],
+"Beni göremeyeceksin bile. Yalnızca yemeğimin tadını hatırlayacaksın.": [
+"data/opponents"
+],
+"Şşşt.": [
+"data/opponents"
+],
+"Bir kesik, bir lezzet.": [
+"data/opponents"
+],
+"Gölgeler hızlıdır.": [
+"data/opponents"
+],
+"Kage avucunda küçük bir küre çeviriyor... 'Duman.'": [
+"data/opponents"
+],
+"Duman bombası Kage'nin elinde patladı! Öksürüyor... Ninjalar da öksürürmüş.": [
+"data/opponents"
+],
+"Görev tamamlandı.": [
+"data/opponents"
+],
+"Bıçak kınına döner. Sen de evine dön.": [
+"data/opponents"
+],
+"Gölgelerim... beni yarı yolda bıraktı.": [
+"data/opponents"
+],
+"Onurlu bir yenilgi. Antrenmana dönüyorum.": [
+"data/opponents"
+],
+"Geçen sefer gölgemi yakaladın. Bir daha olmayacak.": [
+"data/opponents"
+],
+"Bin gece çalıştım. Bu gece benim gecem.": [
+"data/opponents"
+],
+"Geri döndün. Cesaret mi, aptallık mı?": [
+"data/opponents"
+],
+"Bir kez kestim. İkinci kez daha hızlı keserim.": [
+"data/opponents"
+],
+"Yeti Kartopu": [
+"data/opponents"
+],
+"Buzulların Aşçısı": [
+"data/opponents"
+],
+"Dağların tepesinde yaşayan, kocaman ve tüylü ama çok utangaç bir aşçı. Sıcak havada hemen terler.": [
+"data/opponents"
+],
+"Dondurulmuş tatlılar ve serin tariflerle jüriyi ferahlatır; kar fırtınasıyla rakibin elini dondurur.": [
+"data/opponents"
+],
+"Kar Fırtınası": [
+"data/opponents",
+"scripts/systems/sabotage_system.gd"
+],
+"Mutfağa kar yağdırır: ellerin üşür, yemeğin acısı ve sıcaklığı söner.": [
+"data/opponents"
+],
+"Ö-öhm... merhaba. Buralar biraz sıcak, değil mi?": [
+"data/opponents"
+],
+"Bir kartopu ister misin? Yoksa bir kar fırtınası mı?": [
+"data/opponents"
+],
+"Brrr... İşte böyle, serin serin.": [
+"data/opponents"
+],
+"Buz gibi bir lezzet geliyor!": [
+"data/opponents"
+],
+"Terlemeye başladım, acele et!": [
+"data/opponents"
+],
+"Kartopu derin bir nefes alıyor... Mutfağa kar taneleri süzülüyor!": [
+"data/opponents"
+],
+"Kar fırtınası geri döndü! Kartopu kendi kar yığınının altında kaldı!": [
+"data/opponents"
+],
+"Yaşasın! Buz gibi bir zafer!": [
+"data/opponents"
+],
+"Dağlara dönüp herkese anlatacağım!": [
+"data/opponents"
+],
+"Erimek üzereyim... duygusal olarak.": [
+"data/opponents"
+],
+"Tamam... Buzdolabına dönüp biraz ağlayacağım.": [
+"data/opponents"
+],
+"Geçen sefer beni erittin. Bu sefer buzullarım daha kalın!": [
+"data/opponents"
+],
+"Kış geldi. Hem de intikam kokan bir kış!": [
+"data/opponents"
+],
+"Yine mi? Bu sefer daha sıkı giyin derim.": [
+"data/opponents"
+],
+"Seni bir kere dondurdum, ikinci kar daha soğuk yağar!": [
+"data/opponents"
+],
+"Mumya Nefer": [
+"data/opponents"
+],
+"Bin Yıllık Aşçı": [
+"data/opponents"
+],
+"Üç bin yıl önce firavunlara yemek yapmış, sargılarının arasından tarif kâğıtları sarkan yaşlı bir usta.": [
+"data/opponents"
+],
+"Antik baharatlar ve büyülü tariflerle jürinin aklını çeler; bin yıllık tozuyla yemekleri bayatlatır.": [
+"data/opponents"
+],
+"Bin Yıllık Toz": [
+"data/opponents",
+"scripts/systems/sabotage_system.gd"
+],
+"Yemeğine antik toz serper: tazeliği kaçar ama içine eski bir büyü sızar.": [
+"data/opponents"
+],
+"Üç bin yıldır uyuyordum... Ve beni bir çaylak mı uyandırdı?": [
+"data/opponents"
+],
+"Firavunlar benim yemeklerimle beslendi. Sen kimsin?": [
+"data/opponents"
+],
+"Sargılarım çözülüyor... Sabır.": [
+"data/opponents"
+],
+"Bu tarif piramitten bile eski.": [
+"data/opponents"
+],
+"Kum saati işliyor, şefçik.": [
+"data/opponents"
+],
+"Nefer sargılarının arasından bir avuç altın toz çıkarıyor...": [
+"data/opponents"
+],
+"Antik toz Nefer'in yüzüne savruldu! Hapşırırken sargıları çözülüyor!": [
+"data/opponents"
+],
+"Bin yıllık tecrübe, bin yıllık zafer!": [
+"data/opponents"
+],
+"Lahdime dönebilirim. Huzur içinde.": [
+"data/opponents"
+],
+"Üç bin yıl bekledim... Bunun için mi?": [
+"data/opponents"
+],
+"Sargılarımı toplayıp piramide dönüyorum.": [
+"data/opponents"
+],
+"Bir kez yenildim, bin yıl unutmam!": [
+"data/opponents"
+],
+"Lahdimden intikam için çıktım. Bu sefer lanetim daha eski!": [
+"data/opponents"
+],
+"Yine mi sen? Kum saatin tekrar mı döndü?": [
+"data/opponents"
+],
+"Bin yıldır kimse bana iki kez meydan okumadı.": [
+"data/opponents"
+],
+"Aşçıbaşı Kavukçu": [
+"data/opponents"
+],
+"Saray Mutfağının Ustası": [
+"data/opponents"
+],
+"Saray mutfaklarında yetişmiş, kavuğu kadar gururlu ve titiz bir usta. Tabağa bir damla fazla sos düşse kaşını kaldırır.": [
+"data/opponents"
+],
+"Klasik, görkemli ve kusursuz sunumlu yemeklerle jüriyi etkiler; saray protokolüyle tuhaf tarifleri bastırır.": [
+"data/opponents"
+],
+"Saray Protokolü": [
+"data/opponents",
+"scripts/systems/sabotage_system.gd"
+],
+"Saray kurallarını ilan eder: tuhaflık ve büyü bastırılır, yaratıcılık puanın düşer.": [
+"data/opponents"
+],
+"Efendim, mutfağa hoş geldiniz. Lütfen önlüğünüzü düzeltin.": [
+"data/opponents"
+],
+"Saray mutfağında kırk yıl... Senin gibi nicelerini gördüm.": [
+"data/opponents"
+],
+"Usul, erkân, lezzet.": [
+"data/opponents"
+],
+"Bu ne telaş? Saray mutfağında koşulmaz.": [
+"data/opponents"
+],
+"Kavuğum titriyor... Bu iyiye işaret değil.": [
+"data/opponents"
+],
+"Kavukçu bir ferman açıyor: 'Saray Protokolü yürürlüktedir!'": [
+"data/opponents"
+],
+"Ferman ters okundu! Kavukçu kendi kurallarına takıldı, kavuğu yamuldu!": [
+"data/opponents"
+],
+"Usulüne uygun bir zafer. Teşekkür ederim.": [
+"data/opponents"
+],
+"Saray sofrası bir kez daha kusursuz.": [
+"data/opponents"
+],
+"Kırk yıllık kavuğum... Böyle bir utanç görmedi.": [
+"data/opponents"
+],
+"Peki. Usta, çırağına yenildi. Tebrikler.": [
+"data/opponents"
+],
+"Geçen seferki yenilgi saray kayıtlarına geçti. Silmeye geldim.": [
+"data/opponents"
+],
+"Kavuğumu yeniden kolalattım. Bu sefer usul benden yana!": [
+"data/opponents"
+],
+"Tekrar mı? Saray kapıları sabırlıdır, ben değilim.": [
+"data/opponents"
+],
+"Bir kez ders verdim. İkinci ders daha uzun sürer.": [
+"data/opponents"
+],
+"Ejder Leydi Alevna": [
+"data/opponents"
+],
+"Volkan Mutfağının Hanımı": [
+"data/opponents"
+],
+"Kanatlarını açınca mutfağın ısısı on derece artar. Zarif, gururlu ve öfkelenince ağzından kıvılcım çıkar.": [
+"data/opponents"
+],
+"Acı, ateşli ve patlayıcı tariflerle jüriyi terletir; ejder nefesiyle rakibin ocağını kontrolden çıkarır.": [
+"data/opponents"
+],
+"Ejder Nefesi": [
+"data/opponents",
+"scripts/systems/sabotage_system.gd"
+],
+"Ocağına ateş üfler: pişirme hızlanır, yemeğin acısı ve patlayıcılığı artar.": [
+"data/opponents"
+],
+"Mutfağım sıcaktır, şef. Dayanamayan çıkıp gitsin.": [
+"data/opponents"
+],
+"Bir ejderhaya yemek yarışında meydan okumak... Ne cesur, ne aptal.": [
+"data/opponents"
+],
+"Hissediyor musun? Isı artıyor.": [
+"data/opponents"
+],
+"Biraz kıvılcım kimseye zarar vermez. Genelde.": [
+"data/opponents"
+],
+"Kanatlarım ocağı körüklüyor!": [
+"data/opponents"
+],
+"Alevna kanatlarını açıyor, gözleri kor gibi parlıyor...": [
+"data/opponents"
+],
+"Ejder nefesi geri tepti! Alevna'nın kendi tencere kapağı fırladı!": [
+"data/opponents"
+],
+"Küllerinden bir şef doğar mı? Bekleyip göreceğiz.": [
+"data/opponents"
+],
+"Ateş her zaman kazanır.": [
+"data/opponents"
+],
+"Alevim... söndü mü? İmkânsız!": [
+"data/opponents"
+],
+"Bu yenilgiyi volkanıma gömeceğim.": [
+"data/opponents"
+],
+"Geçen sefer alevimi söndürdün. Şimdi volkan uyandı!": [
+"data/opponents"
+],
+"Kanatlarımı yeniden biledim. Bu sefer küllerini toplayacaklar!": [
+"data/opponents"
+],
+"Yine mi? Yanığın hâlâ geçmedi mi?": [
+"data/opponents"
+],
+"Bir kere yaktım seni. Ateş unutmaz.": [
+"data/opponents"
+],
+"Kara Morgana": [
+"data/opponents"
+],
+"Lanetler Kraliçesi": [
+"data/opponents"
+],
+"Yenilgisinden sonra kara büyüye gömüldü. Kahkahası artık üç değil, yedi sokak öteden duyuluyor.": [
+"data/opponents"
+],
+"Kara büyü ve lanetli tariflerle her turda saldırır; kazanı artık hiç soğumuyor.": [
+"data/opponents"
+],
+"Kara Lanet": [
+"data/opponents"
+],
+"Kasendeki bir malzemeyi lanetler. Bu sefer lanet çok daha kara!": [
+"data/opponents"
+],
+"Hatırladın mı beni? Bir zamanlar kurbağa yapan bir cadıydım. Şimdi... çok daha fazlası!": [
+"data/opponents"
+],
+"Kazanım kapkara kaynıyor. Senin için!": [
+"data/opponents"
+],
+"Kara büyü, kara kazan, kara sonun!": [
+"data/opponents"
+],
+"Hi hi hiii... Bu sefer kahkaham daha uzun!": [
+"data/opponents"
+],
+"Laneti hisset!": [
+"data/opponents"
+],
+"Kara Morgana'nın asası kıpkırmızı parlıyor: 'Abra-kara-dabra!'": [
+"data/opponents"
+],
+"Kara lanet sekti! Morgana'nın şapkası alev aldı!": [
+"data/opponents"
+],
+"İntikam tatlıdır... Ama kara büyü daha tatlı!": [
+"data/opponents"
+],
+"Sonunda! Kazanım bayram ediyor!": [
+"data/opponents"
+],
+"Yine mi?! Kara büyüm bile yetmedi mi?!": [
+"data/opponents"
+],
+"Bu kadarı da fazla... Büyü defterimi yakıyorum!": [
+"data/opponents"
+],
+"X-9000 Omega": [
+"data/opponents"
+],
+"Yenilmez Pişirme Makinesi": [
+"data/opponents"
+],
+"X-3000'in yenilgi verilerinden inşa edilen yeni nesil robot. Hata payı: sıfır. Mizah modülü: hâlâ kayıp.": [
+"data/opponents"
+],
+"Kusursuz hassasiyet ve hesaplanmış tariflerle oynar; her yenilgiden bir şey öğrenmiştir.": [
+"data/opponents"
+],
+"Omega Kilidi": [
+"data/opponents"
+],
+"Pişirme göstergeni kilitler. Omega sürümü daha hızlı ve daha acımasız.": [
+"data/opponents"
+],
+"X-3000 YENİLGİSİ ANALİZ EDİLDİ. X-9000 OMEGA ÇEVRİMİÇİ.": [
+"data/opponents"
+],
+"KAZANMA OLASILIĞINIZ GÜNCELLENDİ: %0,9.": [
+"data/opponents"
+],
+"HESAPLANIYOR... HESAPLANDI.": [
+"data/opponents"
+],
+"OMEGA PROTOKOLÜ AKTİF.": [
+"data/opponents"
+],
+"DUYGU MODÜLÜ: KAPALI. LEZZET MODÜLÜ: MAKSİMUM.": [
+"data/opponents"
+],
+"X-9000'in gözleri kırmızıya dönüyor: 'OMEGA KİLİDİ HAZIRLANIYOR.'": [
+"data/opponents"
+],
+"SİSTEM HATASI! OMEGA KİLİDİ KENDİ İŞLEMCİSİNİ KİLİTLEDİ!": [
+"data/opponents"
+],
+"GÖREV TAMAMLANDI. X-3000'İN ONURU KURTARILDI.": [
+"data/opponents"
+],
+"SONUÇ: BEKLENDİĞİ GİBİ.": [
+"data/opponents"
+],
+"İMKÂNSIZ... HESAPLAMALARIMDA HATA... YOK... ANLAŞILAMADI.": [
+"data/opponents"
+],
+"YENİLGİ VERİSİ KAYDEDİLİYOR. X-27000 YOLDA.": [
+"data/opponents"
+],
+"Kızıl Obscura": [
+"data/opponents"
+],
+"Gölgelerden Dönen Hükümdar": [
+"data/opponents"
+],
+"Yenilgisinden sonra gölgelerin en derinine çekildi ve kızıl bir öfkeyle geri döndü. Tek amacı tahtını geri almak.": [
+"data/opponents"
+],
+"Bütün rakiplerin sabotajlarını öğrendi; her turda iki farklı saldırıyı birleştirir.": [
+"data/opponents"
+],
+"Kızıl Kombo": [
+"data/opponents"
+],
+"Diğer şeflerin bütün sabotajlarını öğrendi ve her turda ikisini birden kullanabilir.": [
+"data/opponents"
+],
+"Beni yendiğini sandın... Oysa sadece uyandırdın.": [
+"data/opponents"
+],
+"Gölgelerin ötesinden döndüm. Bu sefer mutfak benimle birlikte yanacak.": [
+"data/opponents"
+],
+"Kızıl gölgeler yükseliyor...": [
+"data/opponents"
+],
+"Her sabotaj bir ders. Hepsini öğrendim.": [
+"data/opponents"
+],
+"Tahtım beni bekliyor.": [
+"data/opponents"
+],
+"Kızıl Obscura'nın pelerini dalgalanıyor, mutfak kıpkırmızı bir karanlığa gömülüyor...": [
+"data/opponents"
+],
+"Kızıl kombo çöktü! Gölgeler Obscura'nın kendisine döndü!": [
+"data/opponents"
+],
+"Taht yeniden benim. Diz çök, şef.": [
+"data/opponents"
+],
+"Gölgeler her zaman geri döner.": [
+"data/opponents"
+],
+"İkinci kez mi...? Gölgelerim... beni terk etti.": [
+"data/opponents"
+],
+"Peki... Tahtın senin. Şimdilik. Sadece şimdilik.": [
 "data/opponents"
 ],
 "Durmak Yok": [
@@ -3043,6 +3740,18 @@
 "data/leagues"
 ],
 "Bir turda 27+ puan al": [
+"data/leagues"
+],
+"Rövanş Ligi": [
+"data/leagues"
+],
+"Yendiğin bosslar daha güçlü ve daha öfkeli geri döndü. İntikam zamanı!": [
+"data/leagues"
+],
+"İki sabotajı savuştur": [
+"data/leagues"
+],
+"İki kusursuz pişirme yap": [
 "data/leagues"
 ],
 "Kısa": [
@@ -3367,6 +4076,24 @@
 "data/content"
 ],
 "Şef Obscura'yı yen.": [
+"data/content"
+],
+"İntikam Soğuk Yenir": [
+"data/content"
+],
+"Rövanş Ligi'ni tamamla ve Kızıl Obscura'yı yen.": [
+"data/content"
+],
+"Rövanş Ustası": [
+"data/content"
+],
+"Daha önce kaybettiğin bir maçı tekrar oynayıp kazan.": [
+"data/content"
+],
+"İntikamı Durdur": [
+"data/content"
+],
+"İntikam modundaki bir rakibi yen.": [
 "data/content"
 ],
 "Günün Şefi": [
@@ -4089,6 +4816,18 @@
 "  ·  BOSS": [
 "scripts/ui/scenes/kitchen_battle.gd"
 ],
+"İNTİKAM MAÇI!": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"RÖVANŞ!": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Rakip geçen seferki yenilginin hesabını sormaya geldi: bu sefer daha güçlü!": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Geçen sefer kaybettin. Kazanırsan rövanş bonusu senin!": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
 "%s — %s": [
 "scripts/ui/scenes/kitchen_battle.gd"
 ],
@@ -4174,6 +4913,9 @@
 "scripts/ui/scenes/kitchen_battle.gd"
 ],
 "Çalındı: %s": [
+"scripts/ui/scenes/kitchen_battle.gd"
+],
+"Devrildi: %s": [
 "scripts/ui/scenes/kitchen_battle.gd"
 ],
 "DURAKLATILDI": [
@@ -4314,6 +5056,12 @@
 "scripts/ui/scenes/results.gd"
 ],
 "SEVİYE ATLADIN! Seviye %d · Uzmanlık puanını Şefim ekranında kullan.": [
+"scripts/ui/scenes/results.gd"
+],
+"İNTİKAM DURDURULDU! +%d bonus para": [
+"scripts/ui/scenes/results.gd"
+],
+"RÖVANŞ ALINDI! +%d bonus para": [
 "scripts/ui/scenes/results.gd"
 ],
 "LİG TAMAMLANDI! +%d bonus para": [
@@ -4644,6 +5392,69 @@
 "Büyü, tuhaflık ve zehir azalır; jüri mutasyonları silinir. (%20 geri tepme şansı)": [
 "scripts/systems/sabotage_system.gd"
 ],
+"Konfeti toplarını patlamadan önce durdur!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Şakaya ortak ol: tuhaflık artar, sunum -0,5 ama +1 yaratıcılık.": [
+"scripts/systems/sabotage_system.gd"
+],
+"Yemeğin konfetiye bulanır: tuhaflık artar, sunum -1. (%20 geri tepme şansı)": [
+"scripts/systems/sabotage_system.gd"
+],
+"Kuyruğun önüne kalkan çek, kilerini koru!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Dağılanları topla: bir malzemen kaybolur ama yerine Ejder Yumurtası bulursun.": [
+"scripts/systems/sabotage_system.gd"
+],
+"Kilerin devrilir: iki malzemen bu tur kullanılamaz. (%20 geri tepme şansı)": [
+"scripts/systems/sabotage_system.gd"
+],
+"Dumanı dağıtmak için kalkan rünlerine dokun!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Dumanı kullan: yemeğe isli bir aroma gelir, lezzet +0,5 ama sunum -0,5.": [
+"scripts/systems/sabotage_system.gd"
+],
+"Pişirirken mutfak dumanla dolar ve gösterge hızlanır. (%20 geri tepme şansı)": [
+"scripts/systems/sabotage_system.gd"
+],
+"Kar fırtınasını kalkanla durdur, ellerin donmasın!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Buzlu sunum: acılık azalır, tazelik artar, sunum +0,5 ama lezzet -0,5.": [
+"scripts/systems/sabotage_system.gd"
+],
+"Ellerin üşür: pişirme hedefi daralır, yemeğin acısı ve tatlılığı söner. (%20 geri tepme şansı)": [
+"scripts/systems/sabotage_system.gd"
+],
+"Antik tozu üfleyip dağıt!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Antik tarif: tazelik düşer ama büyü artar ve +1 yaratıcılık.": [
+"scripts/systems/sabotage_system.gd"
+],
+"Yemeğin bayatlar: tazelik çok düşer, biraz büyü ve zehir sızar. (%20 geri tepme şansı)": [
+"scripts/systems/sabotage_system.gd"
+],
+"Fermanı okunmadan yakala!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Protokole uy: tuhaflık azalır, sunum +0,5 ama yaratıcılık -0,25.": [
+"scripts/systems/sabotage_system.gd"
+],
+"Saray kuralları: tuhaflık ve büyü bastırılır, yaratıcılık -1. (%20 geri tepme şansı)": [
+"scripts/systems/sabotage_system.gd"
+],
+"Ateşe karşı kalkanını kaldır!": [
+"scripts/systems/sabotage_system.gd"
+],
+"Ateşi kucakla: acılık artar ve +1 yaratıcılık.": [
+"scripts/systems/sabotage_system.gd"
+],
+"Ocak alevlenir: pişirme hızlanır, yemeğin acısı ve patlayıcılığı artar. (%20 geri tepme şansı)": [
+"scripts/systems/sabotage_system.gd"
+],
 "Sabotaj": [
 "scripts/systems/sabotage_system.gd"
 ],
@@ -4672,6 +5483,18 @@
 "scripts/autoload/battle_manager.gd"
 ],
 "Büyük Final": [
+"scripts/autoload/battle_manager.gd"
+],
+"Geçen seferki yenilgimin hesabını sormaya geldim!": [
+"scripts/autoload/battle_manager.gd"
+],
+"Bu sefer hazırlıklıyım. İntikam zamanı!": [
+"scripts/autoload/battle_manager.gd"
+],
+"Yine mi sen? Sonuç değişmeyecek!": [
+"scripts/autoload/battle_manager.gd"
+],
+"Bir kere yendim, yine yenerim!": [
 "scripts/autoload/battle_manager.gd"
 ],
 "Günlük Meydan Okuma": [

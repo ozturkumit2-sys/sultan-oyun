@@ -134,6 +134,9 @@
     {"id": "round_27", "name": "Jüri Ayakta", "desc": "Bir turda 27+ puan al.", "coins": 100},
     {"id": "league_1", "name": "Sokakların Şefi", "desc": "Sokak Mutfağı'nı tamamla.", "coins": 100},
     {"id": "league_5", "name": "Galaksinin En İyisi", "desc": "Şef Obscura'yı yen.", "coins": 500},
+    {"id": "league_6", "name": "İntikam Soğuk Yenir", "desc": "Rövanş Ligi'ni tamamla ve Kızıl Obscura'yı yen.", "coins": 800},
+    {"id": "rematch_win", "name": "Rövanş Ustası", "desc": "Daha önce kaybettiğin bir maçı tekrar oynayıp kazan.", "coins": 60},
+    {"id": "revenge_win", "name": "İntikamı Durdur", "desc": "İntikam modundaki bir rakibi yen.", "coins": 60},
     {"id": "daily_1", "name": "Günün Şefi", "desc": "Bir günlük meydan okuma ödülü al.", "coins": 50},
     {"id": "secret_1", "name": "Gizli Misafir", "desc": "Bir gizli karakterin kilidini aç.", "coins": 80}
   ],

@@ -33,9 +33,40 @@ const ABILITIES := {  # i18n
 		"defend": "Arındırma tozunu üfleyerek dağıt!",
 		"adapt": "Yarı arınma: etkiler yarıya iner ve jüri mutasyonları korunur.",
 		"accept": "Büyü, tuhaflık ve zehir azalır; jüri mutasyonları silinir. (%20 geri tepme şansı)"},
+	"confetti_prank": {"name": "Konfeti Şakası", "phase": "before_judging", "color": "#ff7ad9", "icon": "confetti",
+		"defend": "Konfeti toplarını patlamadan önce durdur!",
+		"adapt": "Şakaya ortak ol: tuhaflık artar, sunum -0,5 ama +1 yaratıcılık.",
+		"accept": "Yemeğin konfetiye bulanır: tuhaflık artar, sunum -1. (%20 geri tepme şansı)"},
+	"tail_whip": {"name": "Kuyruk Darbesi", "phase": "round_start", "color": "#5fbf4a", "icon": "tail",
+		"defend": "Kuyruğun önüne kalkan çek, kilerini koru!",
+		"adapt": "Dağılanları topla: bir malzemen kaybolur ama yerine Ejder Yumurtası bulursun.",
+		"accept": "Kilerin devrilir: iki malzemen bu tur kullanılamaz. (%20 geri tepme şansı)"},
+	"smoke_bomb": {"name": "Duman Bombası", "phase": "before_cook", "color": "#8a90a3", "icon": "smoke",
+		"defend": "Dumanı dağıtmak için kalkan rünlerine dokun!",
+		"adapt": "Dumanı kullan: yemeğe isli bir aroma gelir, lezzet +0,5 ama sunum -0,5.",
+		"accept": "Pişirirken mutfak dumanla dolar ve gösterge hızlanır. (%20 geri tepme şansı)"},
+	"blizzard": {"name": "Kar Fırtınası", "phase": "before_cook", "color": "#9fe3ff", "icon": "snow",
+		"defend": "Kar fırtınasını kalkanla durdur, ellerin donmasın!",
+		"adapt": "Buzlu sunum: acılık azalır, tazelik artar, sunum +0,5 ama lezzet -0,5.",
+		"accept": "Ellerin üşür: pişirme hedefi daralır, yemeğin acısı ve tatlılığı söner. (%20 geri tepme şansı)"},
+	"ancient_curse": {"name": "Bin Yıllık Toz", "phase": "before_judging", "color": "#d9b45a", "icon": "dust",
+		"defend": "Antik tozu üfleyip dağıt!",
+		"adapt": "Antik tarif: tazelik düşer ama büyü artar ve +1 yaratıcılık.",
+		"accept": "Yemeğin bayatlar: tazelik çok düşer, biraz büyü ve zehir sızar. (%20 geri tepme şansı)"},
+	"palace_protocol": {"name": "Saray Protokolü", "phase": "before_judging", "color": "#c9302c", "icon": "scroll",
+		"defend": "Fermanı okunmadan yakala!",
+		"adapt": "Protokole uy: tuhaflık azalır, sunum +0,5 ama yaratıcılık -0,25.",
+		"accept": "Saray kuralları: tuhaflık ve büyü bastırılır, yaratıcılık -1. (%20 geri tepme şansı)"},
+	"dragon_breath": {"name": "Ejder Nefesi", "phase": "before_cook", "color": "#ff6a2a", "icon": "fire",
+		"defend": "Ateşe karşı kalkanını kaldır!",
+		"adapt": "Ateşi kucakla: acılık artar ve +1 yaratıcılık.",
+		"accept": "Ocak alevlenir: pişirme hızlanır, yemeğin acısı ve patlayıcılığı artar. (%20 geri tepme şansı)"},
 }
 const PHASES := ["round_start", "before_cook", "before_plating", "before_judging"]
 const OBSCURA_POOL := ["hex", "precision_lock", "rotten_surprise", "midnight_kitchen", "gravity_shift", "purify"]
+## Kızıl Obscura (Rövanş Ligi) diğer şeflerin yeni sabotajlarını da öğrendi.
+const OBSCURA_REVENGE_POOL := ["hex", "precision_lock", "rotten_surprise", "midnight_kitchen", "gravity_shift", "purify",
+	"confetti_prank", "smoke_bomb", "blizzard", "ancient_curse", "palace_protocol", "dragon_breath"]
 const FERMENTED := ["eye_pickle", "moldy_spirit", "century_pickle"]
 
 
@@ -87,6 +118,24 @@ static func cooking_mods(id: String, result: String) -> Dictionary:
 				return {"dark": 1.0}
 			"half":
 				return {"dark": 0.55}
+	if id == "smoke_bomb":
+		match result:
+			"full":
+				return {"dark": 0.75, "speed": 1.3}
+			"half":
+				return {"dark": 0.4, "speed": 1.1}
+	if id == "blizzard":
+		match result:
+			"full":
+				return {"zone": 0.7, "jitter": true}
+			"half":
+				return {"zone": 0.85}
+	if id == "dragon_breath":
+		match result:
+			"full":
+				return {"speed": 1.5}
+			"half":
+				return {"speed": 1.25}
 	return {}
 
 
@@ -135,6 +184,62 @@ static func apply_to_dish(id: String, result: String, dish: Dictionary, choice_e
 					clear_mut = true
 				"half", "adapt":
 					d = FusionEngine.modify(dish, {"magic": -15, "weird": -10, "toxic": -15, "volatile": -10}, ["purified"])
+		"confetti_prank":
+			match result:
+				"full":
+					d = FusionEngine.modify(dish, {"weird": 30}, ["confetti"])
+					mods["presentation"] = -1.0
+				"half":
+					d = FusionEngine.modify(dish, {"weird": 15}, ["confetti"])
+					mods["presentation"] = -0.5
+				"adapt":
+					d = FusionEngine.modify(dish, {"weird": 20}, ["confetti"])
+					mods["presentation"] = -0.5
+					mods["creativity"] = adapt_bonus
+		"smoke_bomb":
+			if result == "adapt":
+				mods["flavor"] = 0.5
+				mods["presentation"] = -0.5
+		"blizzard":
+			match result:
+				"full":
+					d = FusionEngine.modify(dish, {"spicy": -25, "sweet": -10, "fresh": 10}, ["frosty"])
+				"half":
+					d = FusionEngine.modify(dish, {"spicy": -12, "fresh": 5}, ["frosty"])
+				"adapt":
+					d = FusionEngine.modify(dish, {"spicy": -15, "fresh": 20}, ["frosty"])
+					mods["presentation"] = 0.5
+					mods["flavor"] = -0.5
+		"ancient_curse":
+			match result:
+				"full":
+					d = FusionEngine.modify(dish, {"fresh": -24, "magic": 12, "toxic": 6}, ["ancient"])
+				"half":
+					d = FusionEngine.modify(dish, {"fresh": -12, "magic": 6}, ["ancient"])
+				"adapt":
+					d = FusionEngine.modify(dish, {"fresh": -15, "magic": 20}, ["ancient", "magic"])
+					mods["creativity"] = adapt_bonus
+		"palace_protocol":
+			match result:
+				"full":
+					d = FusionEngine.modify(dish, {"weird": -15, "magic": -10}, [])
+					mods["creativity"] = -1.0
+				"half":
+					d = FusionEngine.modify(dish, {"weird": -8}, [])
+					mods["creativity"] = -0.5
+				"adapt":
+					d = FusionEngine.modify(dish, {"weird": -20}, ["classic"])
+					mods["presentation"] = 0.5
+					mods["creativity"] = -0.25
+		"dragon_breath":
+			match result:
+				"full":
+					d = FusionEngine.modify(dish, {"spicy": 25, "volatile": 15}, ["scorched"])
+				"half":
+					d = FusionEngine.modify(dish, {"spicy": 12, "volatile": 6}, ["scorched"])
+				"adapt":
+					d = FusionEngine.modify(dish, {"spicy": 20, "volatile": 5}, ["fire"])
+					mods["creativity"] = adapt_bonus
 	return {"dish": d, "mods": mods, "clear_mutations": clear_mut}
 
 
@@ -151,4 +256,14 @@ static func opponent_penalty(id: String) -> Dictionary:
 			return {"taint": true, "quality": -0.05}
 		"purify":
 			return {"stats": {"magic": -25, "weird": -15}, "presentation": -0.5}
+		"confetti_prank":
+			return {"stats": {"weird": 25}, "presentation": -1.0}
+		"tail_whip", "palace_protocol":
+			return {"presentation": -1.0, "quality": -0.05}
+		"smoke_bomb", "dragon_breath":
+			return {"quality": -0.22}
+		"blizzard":
+			return {"quality": -0.18}
+		"ancient_curse":
+			return {"stats": {"fresh": -25}, "quality": -0.05}
 	return {"quality": -0.15}
