@@ -134,6 +134,16 @@ static func _top_y(base: String) -> float:
 			return -88.0
 		"cookie_wizard":
 			return -120.0
+		"drumstick":
+			return -112.0
+		"steak":
+			return -68.0
+		"fish":
+			return -70.0
+		"burger":
+			return -124.0
+		"rice":
+			return -70.0
 	return -74.0
 
 
@@ -522,6 +532,79 @@ func _base(r: CanvasItem, base: String, c1: Color, c2: Color) -> void:
 			DrawKit.shape(r, DrawKit.ellipse(Vector2(0, -46), 50, 46, 32), c1, W, 0.18, ink)
 			for p8 in [Vector2(-20, -30), Vector2(18, -24), Vector2(4, -64)]:
 				DrawKit.fill(r, DrawKit.blob(p8, 5, int(p8.x), 0.3, 6), Color("#6b3a1e"))
+		"drumstick":
+			var bone := Color("#fbf3e4")
+			var meat_l := PackedVector2Array([Vector2(-26, 4), Vector2(-22, -14), Vector2(-9, -26), Vector2(9, -26), Vector2(22, -14), Vector2(26, 4), Vector2(15, 24), Vector2(0, 29), Vector2(-15, 24)])
+			meat_l = DrawKit.smooth(meat_l, 2)
+			for spec in [[Vector2(-38, -30), -0.85], [Vector2(38, -28), 0.85], [Vector2(0, -42), 0.12]]:
+				var cpos: Vector2 = spec[0]
+				var rot: float = spec[1]
+				var ba := cpos + Vector2(0, -20).rotated(rot)
+				var bb := cpos + Vector2(0, -54).rotated(rot)
+				for sx in [-6.0, 6.0]:
+					DrawKit.circle(r, cpos + Vector2(sx, -58).rotated(rot), 7.5, bone, 3.0, 0.0, ink)
+				DrawKit.line(r, ba, bb, INK, 15.0)
+				DrawKit.line(r, ba, bb, bone, 9.0)
+				var mp := DrawKit.transform_pts(meat_l, cpos, Vector2(1.15, 1.15), rot)
+				DrawKit.shape(r, mp, c1, W, 0.25, ink)
+				for k in 4:
+					var cp2 := cpos + Vector2(-12 + (k % 2) * 20, -8 + (k / 2) * 16).rotated(rot)
+					DrawKit.fill(r, DrawKit.blob(cp2, 4.5, k + int(cpos.x), 0.35, 6), c1.darkened(0.18))
+				DrawKit.poly_line(r, DrawKit.transform_pts(DrawKit.arc(Vector2.ZERO, 14, 8, PI * 1.1, PI * 1.9, 8), cpos + Vector2(0, -2).rotated(rot), Vector2.ONE, rot), c2, 4.0)
+				DrawKit.shine(r, cpos + Vector2(-10, -14).rotated(rot), 7, 4, 0.45, rot - 0.5)
+		"steak":
+			var stk := DrawKit.smooth(PackedVector2Array([Vector2(-78, -22), Vector2(-60, -50), Vector2(-10, -60), Vector2(50, -54), Vector2(80, -32), Vector2(70, -8), Vector2(20, 2), Vector2(-50, -2)]), 2)
+			DrawKit.shape(r, DrawKit.transform_pts(stk, Vector2(0, 10)), c1.darkened(0.35), W, 0.1, ink)
+			DrawKit.shape(r, stk, c1, W, 0.15, ink)
+			DrawKit.poly_line(r, DrawKit.smooth(PackedVector2Array([Vector2(-70, -32), Vector2(-56, -48), Vector2(-14, -56)]), 2, false), c2, 6.0)
+			for i in 4:
+				_clip_line(r, Vector2(-64 + i * 36, -70), Vector2(-34 + i * 36, 6), stk, Color(0.2, 0.08, 0.03, 0.7), 6.0)
+			for lp in [[Vector2(46, -50), -0.5], [Vector2(58, -44), 0.4]]:
+				DrawKit.shape(r, DrawKit.ellipse(lp[0], 10, 5, 12, lp[1]), Color("#5fbf4a"), 2.5, 0.1, ink)
+			DrawKit.shine(r, Vector2(-30, -40), 16, 5, 0.35, -0.1)
+		"fish":
+			DrawKit.shape(r, DrawKit.smooth(PackedVector2Array([Vector2(50, -30), Vector2(90, -60), Vector2(82, -30), Vector2(92, -2)]), 1), c2, W, 0.15, ink)
+			DrawKit.shape(r, DrawKit.smooth(PackedVector2Array([Vector2(-26, -54), Vector2(0, -76), Vector2(24, -54)]), 1), c2, 3.0, 0.1, ink)
+			var fb := DrawKit.ellipse(Vector2(-6, -30), 66, 28, 40)
+			DrawKit.shape(r, fb, c1, W, 0.25, ink)
+			for i in 4:
+				_clip_line(r, Vector2(-30 + i * 22, -62), Vector2(-8 + i * 22, 4), fb, c1.darkened(0.4), 5.0)
+			DrawKit.poly_line(r, DrawKit.arc(Vector2(-40, -30), 10, 20, -PI * 0.4, PI * 0.4, 8), c1.darkened(0.3), 3.5)
+			DrawKit.circle(r, Vector2(-52, -36), 7, Color.WHITE, 3.0, 0.0, ink)
+			r.draw_circle(Vector2(-53, -36), 3.2, INK, true, -1.0, true)
+			DrawKit.circle(r, Vector2(-64, -4), 14, Color("#ffd93a"), 3.0, 0.1, ink)
+			for k in 3:
+				var la := PI * k / 3.0
+				r.draw_line(Vector2(-64, -4) + Vector2(cos(la), sin(la)) * 10, Vector2(-64, -4) - Vector2(cos(la), sin(la)) * 10, Color("#fff6c0"), 2.0, true)
+			DrawKit.shine(r, Vector2(-20, -44), 18, 5, 0.4, -0.1)
+		"burger":
+			DrawKit.shape(r, DrawKit.smooth(PackedVector2Array([Vector2(-70, -28), Vector2(70, -28), Vector2(64, -4), Vector2(-64, -4)]), 1), Color("#e0a050"), W, 0.15, ink)
+			var lettuce := PackedVector2Array()
+			for i in 15:
+				lettuce.append(Vector2(-80 + i * 11.4, -36 + (8.0 if i % 2 == 0 else 0.0)))
+			lettuce.append(Vector2(78, -24))
+			lettuce.append(Vector2(-78, -24))
+			DrawKit.shape(r, lettuce, Color("#6fcf4a"), 3.0, 0.1, ink)
+			DrawKit.shape(r, DrawKit.rrect(Rect2(-76, -60, 152, 26), 12), c1, W, 0.2, ink)
+			var ch := PackedVector2Array([Vector2(-72, -62), Vector2(72, -62), Vector2(68, -54), Vector2(40, -50), Vector2(34, -38), Vector2(26, -50), Vector2(-20, -50), Vector2(-28, -36), Vector2(-36, -50), Vector2(-68, -54)])
+			DrawKit.shape(r, ch, c2, 3.0, 0.1, ink)
+			var bun := DrawKit.arc(Vector2(0, -64), 74, 56, PI, TAU, 24)
+			DrawKit.shape(r, bun, Color("#f0b060"), W, 0.2, ink)
+			for sp in [Vector2(-34, -96), Vector2(0, -108), Vector2(30, -94), Vector2(-12, -84), Vector2(18, -78), Vector2(-46, -76), Vector2(48, -78)]:
+				DrawKit.fill(r, DrawKit.ellipse(sp, 4, 2.4, 8, 0.5), Color("#fff4dc"))
+			DrawKit.shine(r, Vector2(-30, -100), 14, 6, 0.45, -0.4)
+		"rice":
+			var rm := DrawKit.smooth(PackedVector2Array([Vector2(-80, -6), Vector2(-62, -44), Vector2(-20, -66), Vector2(20, -66), Vector2(62, -44), Vector2(80, -6), Vector2(0, 2)]), 2)
+			DrawKit.shape(r, rm, c1, W, 0.12, ink)
+			var rr := RandomNumberGenerator.new()
+			rr.seed = 11
+			for i in 34:
+				var gp := Vector2(rr.randf_range(-66, 66), rr.randf_range(-58, -6))
+				if Geometry2D.is_point_in_polygon(gp, rm):
+					DrawKit.fill(r, DrawKit.ellipse(gp, 5, 2.4, 8, rr.randf_range(-1.0, 1.0)), c1.darkened(0.1))
+			for p9 in [Vector2(-24, -52), Vector2(10, -60), Vector2(30, -44), Vector2(-6, -40)]:
+				DrawKit.fill(r, DrawKit.blob(p9, 6, int(p9.x), 0.3, 6), c2)
+			DrawKit.shine(r, Vector2(-26, -50), 14, 6, 0.4, -0.4)
 		_:
 			DrawKit.shape(r, DrawKit.blob(Vector2(0, -40), 50, 2, 0.1, 10), c1, W, 0.18, ink)
 

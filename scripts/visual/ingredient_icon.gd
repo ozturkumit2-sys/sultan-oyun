@@ -328,6 +328,188 @@ func _paint(id: String, c1: Color, c2: Color) -> void:
 			DrawKit.shape(self, pk, c1, 2.5, 0.2, INK)
 			for k in 3:
 				draw_circle(Vector2(-3 + (k % 2) * 6, -2 + k * 9), 1.8, c1.darkened(0.3), true, -1.0, true)
+		"chicken":
+			var bone := Color("#fbf3e4")
+			for o in [Vector2(26, 38), Vector2(38, 26)]:
+				DrawKit.circle(self, o, 7, bone, 2.5, 0.0)
+			DrawKit.line(self, Vector2(4, 4), Vector2(30, 30), INK, 14.0)
+			DrawKit.line(self, Vector2(4, 4), Vector2(30, 30), bone, 8.0)
+			var leg := DrawKit.smooth(PackedVector2Array([Vector2(-38, -10), Vector2(-30, -34), Vector2(-6, -42), Vector2(14, -28), Vector2(16, -4), Vector2(8, 12), Vector2(-12, 10), Vector2(-32, 8)]), 2)
+			DrawKit.shape(self, leg, c1, W, 0.2, INK)
+			for p in [Vector2(-20, -20), Vector2(-4, -26), Vector2(-14, -4)]:
+				DrawKit.fill(self, DrawKit.ellipse(p, 3, 2, 8), c2)
+			DrawKit.shine(self, Vector2(-18, -26), 9, 5, 0.5, -0.5)
+		"fish":
+			DrawKit.shape(self, DrawKit.smooth(PackedVector2Array([Vector2(24, 0), Vector2(46, -20), Vector2(40, 0), Vector2(46, 20)]), 1), c2, W, 0.15, INK)
+			DrawKit.shape(self, DrawKit.smooth(PackedVector2Array([Vector2(-16, -18), Vector2(0, -34), Vector2(10, -18)]), 1), c2, 2.5, 0.1, INK)
+			DrawKit.shape(self, DrawKit.ellipse(Vector2(-6, 0), 34, 22, 32), c1, W, 0.25, INK)
+			DrawKit.poly_line(self, DrawKit.arc(Vector2(-22, 0), 8, 14, -PI * 0.4, PI * 0.4, 8), c1.darkened(0.3), 3.0)
+			for p in [Vector2(-2, 6), Vector2(8, -6), Vector2(12, 8)]:
+				DrawKit.poly_line(self, DrawKit.arc(p, 5, 5, -PI * 0.5, PI * 0.5, 6), c1.lightened(0.3), 2.0)
+			DrawKit.circle(self, Vector2(-28, -6), 5, Color.WHITE, 2.0, 0.0)
+			draw_circle(Vector2(-29, -6), 2.4, INK, true, -1.0, true)
+			DrawKit.shine(self, Vector2(-8, -11), 10, 4, 0.45, -0.1)
+		"meat":
+			var st := DrawKit.smooth(PackedVector2Array([Vector2(-40, -6), Vector2(-30, -30), Vector2(0, -36), Vector2(30, -26), Vector2(40, 0), Vector2(30, 28), Vector2(-4, 32), Vector2(-34, 20)]), 2)
+			DrawKit.shape(self, st, c2, W, 0.1, INK)
+			DrawKit.fill(self, DrawKit.transform_pts(st, Vector2(2, 0), Vector2(0.8, 0.76)), c1, 0.2)
+			for k in 3:
+				DrawKit.poly_line(self, DrawKit.quad(Vector2(-24 + k * 13, -16), Vector2(-16 + k * 13, -2), Vector2(-22 + k * 13, 14)), c2.lightened(0.1), 2.5)
+			DrawKit.circle(self, Vector2(18, 4), 8, Color("#fbf3e4"), 2.5, 0.0)
+			draw_circle(Vector2(18, 4), 3.5, Color("#e2cfb2"), true, -1.0, true)
+		"potato":
+			var pt := DrawKit.transform_pts(DrawKit.blob(Vector2.ZERO, 34, 5, 0.12, 10), Vector2(0, 4), Vector2(1.18, 0.86))
+			DrawKit.shape(self, pt, c1, W, 0.25, INK)
+			for p in [Vector2(-18, -6), Vector2(10, -12), Vector2(22, 10), Vector2(-6, 16)]:
+				DrawKit.poly_line(self, DrawKit.arc(p, 3, 2, 0.0, PI, 5), c2, 2.5)
+			DrawKit.shine(self, Vector2(-14, -12), 9, 5, 0.45, -0.4)
+		"rice":
+			var mound := DrawKit.smooth(PackedVector2Array([Vector2(-34, 0), Vector2(-26, -24), Vector2(0, -34), Vector2(26, -24), Vector2(34, 0)]), 2)
+			DrawKit.shape(self, mound, c1, W, 0.1, INK)
+			for p in [Vector2(-16, -12), Vector2(0, -22), Vector2(14, -10), Vector2(-4, -6), Vector2(18, -20), Vector2(-22, -2)]:
+				DrawKit.fill(self, DrawKit.ellipse(p, 4, 2, 8, 0.6), c2)
+			DrawKit.shape(self, DrawKit.arc(Vector2(0, 0), 40, 38, 0.0, PI, 20), Color("#4a9dff"), W, 0.2, INK)
+			DrawKit.poly_line(self, DrawKit.arc(Vector2(0, 0), 32, 24, PI * 0.25, PI * 0.75, 10), Color(1, 1, 1, 0.7), 3.0)
+		"onion":
+			var on := DrawKit.smooth(PackedVector2Array([Vector2(0, -40), Vector2(10, -24), Vector2(34, -6), Vector2(36, 18), Vector2(18, 36), Vector2(-18, 36), Vector2(-36, 18), Vector2(-34, -6), Vector2(-10, -24)]), 2)
+			DrawKit.shape(self, on, c1, W, 0.25, INK)
+			for k in [-1.0, 0.0, 1.0]:
+				DrawKit.poly_line(self, DrawKit.quad(Vector2(k * 5, -28), Vector2(k * 26, 2), Vector2(k * 12, 34)), c2, 2.5)
+			DrawKit.poly_line(self, PackedVector2Array([Vector2(-6, 38), Vector2(-2, 45), Vector2(2, 38), Vector2(6, 45)]), Color("#b9a27a"), 2.5)
+		"garlic":
+			DrawKit.shape(self, DrawKit.rrect(Rect2(-4, -46, 8, 14), 3), c2, 2.5, 0.0, INK)
+			var gb := DrawKit.smooth(PackedVector2Array([Vector2(0, -36), Vector2(8, -22), Vector2(32, -8), Vector2(36, 16), Vector2(20, 34), Vector2(-20, 34), Vector2(-36, 16), Vector2(-32, -8), Vector2(-8, -22)]), 2)
+			DrawKit.shape(self, gb, c1, W, 0.2, INK)
+			for k in [-1.0, 0.0, 1.0]:
+				DrawKit.poly_line(self, DrawKit.quad(Vector2(k * 4, -24), Vector2(k * 20 + (2.0 if k == 0.0 else 0.0), 2), Vector2(k * 10, 32)), c2, 2.5)
+		"carrot":
+			for k in 3:
+				var a := -PI / 2 + (k - 1) * 0.45
+				DrawKit.shape(self, DrawKit.ellipse(Vector2(cos(a) * 14, -24 + sin(a) * 14), 6, 13, 14, a + PI / 2), c2, 2.5, 0.1, INK)
+			var cr := DrawKit.smooth(PackedVector2Array([Vector2(-17, -22), Vector2(17, -22), Vector2(11, 10), Vector2(0, 44), Vector2(-11, 10)]), 1)
+			DrawKit.shape(self, cr, c1, W, 0.25, INK)
+			for y in [-8.0, 6.0, 20.0]:
+				draw_line(Vector2(-10 + y * 0.2, y), Vector2(-2, y + 2), c1.darkened(0.25), 2.5, true)
+		"corn":
+			DrawKit.shape(self, DrawKit.ellipse(Vector2(0, -4), 17, 40, 24), c1, W, 0.2, INK)
+			for i in 3:
+				for j in 6:
+					DrawKit.fill(self, DrawKit.ellipse(Vector2(-9 + i * 9, -32 + j * 10), 3.5, 4, 8), c1.lightened(0.25))
+			for s in [-1.0, 1.0]:
+				DrawKit.shape(self, DrawKit.smooth(PackedVector2Array([Vector2(0, 42), Vector2(s * 30, 20), Vector2(s * 26, -16), Vector2(s * 6, 12)]), 1), c2, W, 0.15, INK)
+		"banana":
+			var outer := DrawKit.arc(Vector2(0, -20), 40, 50, PI * 0.15, PI * 0.85, 16)
+			outer.append_array(DrawKit.arc(Vector2(0, -30), 30, 40, PI * 0.8, PI * 0.2, 16))
+			DrawKit.shape(self, DrawKit.smooth(outer, 1), c1, W, 0.2, INK)
+			DrawKit.shape(self, DrawKit.rrect(Rect2(30, -10, 8, 12), 2), c2, 2.5, 0.0, INK)
+			draw_circle(Vector2(-33, 1), 3.5, c2, true, -1.0, true)
+			DrawKit.shine(self, Vector2(-10, 20), 12, 3, 0.5, 0.1)
+		"butter":
+			DrawKit.shape(self, DrawKit.ellipse(Vector2(0, 24), 44, 14, 30), Color("#dfe9f5"), W, 0.1, INK)
+			DrawKit.shape(self, PackedVector2Array([Vector2(-30, -6), Vector2(10, 2), Vector2(10, 24), Vector2(-30, 16)]), c1, W, 0.1, INK)
+			DrawKit.shape(self, PackedVector2Array([Vector2(10, 2), Vector2(32, -12), Vector2(32, 10), Vector2(10, 24)]), c2, W, 0.1, INK)
+			DrawKit.shape(self, PackedVector2Array([Vector2(-30, -6), Vector2(-8, -20), Vector2(32, -12), Vector2(10, 2)]), c1.lightened(0.2), W, 0.0, INK)
+			DrawKit.shine(self, Vector2(-6, -8), 10, 3, 0.5, 0.2)
+		"shrimp":
+			var body := DrawKit.arc(Vector2.ZERO, 30, 30, -PI * 0.75, PI * 0.6, 20)
+			body.append_array(DrawKit.arc(Vector2(4, 2), 14, 14, PI * 0.6, -PI * 0.75, 16))
+			DrawKit.shape(self, PackedVector2Array([Vector2(-6, 26), Vector2(-24, 40), Vector2(-12, 45), Vector2(-2, 36)]), c2, 2.5, 0.1, INK)
+			DrawKit.shape(self, DrawKit.smooth(body, 1), c1, W, 0.2, INK)
+			for k in 4:
+				var a2 := -PI * 0.45 + k * 0.5
+				draw_line(Vector2(cos(a2), sin(a2)) * 17, Vector2(cos(a2), sin(a2)) * 29, c1.darkened(0.25), 2.5, true)
+			draw_circle(Vector2(-17, -17), 3.2, INK, true, -1.0, true)
+			DrawKit.poly_line(self, DrawKit.quad(Vector2(-22, -24), Vector2(-30, -46), Vector2(-2, -46)), INK, 2.0)
+		"sausage":
+			var arcp := DrawKit.arc(Vector2(0, 14), 30, 30, PI * 1.08, PI * 1.92, 16)
+			DrawKit.stroke(self, arcp, c1, 22.0, INK, 3.5)
+			for i in [2, 5, 8, 11, 14]:
+				draw_circle(arcp[i] + Vector2(2, (i % 3) - 1), 2.6, c2, true, -1.0, true)
+			for e in [arcp[0], arcp[arcp.size() - 1]]:
+				draw_line(e + Vector2(0, 8), e + Vector2(0, 18), Color("#c8955c"), 3.0, true)
+		"lava_sauce":
+			_jar(c1, Color("#5a2a1a"), 0.7)
+			for p in [Vector2(-10, 20), Vector2(8, 10), Vector2(12, 28)]:
+				draw_arc(p, 4, 0, TAU, 10, c2, 2.0, true)
+			DrawKit.fill(self, DrawKit.smooth(PackedVector2Array([Vector2(-22, -26), Vector2(-14, -26), Vector2(-14, -12), Vector2(-18, -7), Vector2(-22, -12)]), 1), c1)
+			DrawKit.glow(self, Vector2(0, 16), 44, Color(1, 0.4, 0.1, 0.35))
+		"robot_oil":
+			DrawKit.stroke(self, PackedVector2Array([Vector2(12, -6), Vector2(40, -34)]), Color("#9aa6b2"), 7.0, INK, 3.0)
+			DrawKit.shape(self, DrawKit.rrect(Rect2(-30, -14, 46, 52), 8), c1, W, 0.25, INK)
+			DrawKit.shape(self, DrawKit.rrect(Rect2(-20, -26, 22, 13), 3), Color("#9aa6b2"), W, 0.1, INK)
+			DrawKit.fill(self, DrawKit.rrect(Rect2(-24, 2, 34, 18), 4), c2)
+			DrawKit.circle(self, Vector2(-7, 11), 5, c1, 2.0, 0.0)
+			DrawKit.fill(self, DrawKit.ellipse(Vector2(42, -24), 3, 5, 10), c2)
+		"bat_wing":
+			var wing := PackedVector2Array([Vector2(-40, -20), Vector2(-10, -36), Vector2(20, -30), Vector2(42, -14), Vector2(36, 8), Vector2(24, 0), Vector2(14, 16), Vector2(2, 6), Vector2(-10, 22), Vector2(-20, 6), Vector2(-34, 14)])
+			DrawKit.shape(self, wing, c1, W, 0.25, INK)
+			for t in [Vector2(36, 8), Vector2(14, 16), Vector2(-10, 22)]:
+				draw_line(Vector2(-34, -20), t, c1.lightened(0.25), 2.5, true)
+			DrawKit.fill(self, PackedVector2Array([Vector2(-12, -35), Vector2(-6, -47), Vector2(-2, -34)]), INK)
+			DrawKit.fill(self, DrawKit.ellipse(Vector2(26, 26), 4, 6, 10), c2)
+		"monster_tentacle":
+			var tp2 := DrawKit.bezier(Vector2(-18, 44), Vector2(-42, 0), Vector2(32, 8), Vector2(8, -34), 16)
+			DrawKit.stroke(self, tp2, c1, 24.0, INK, 3.5)
+			var curl := DrawKit.arc(Vector2(16, -36), 8, 8, PI, PI * 2.6, 10)
+			DrawKit.stroke(self, curl, c1, 12.0, INK, 3.0)
+			for i in [2, 5, 8, 11, 14]:
+				DrawKit.circle(self, tp2[i] + Vector2(-4, 2), 4, c2, 2.0, 0.0)
+		"dragon_egg":
+			DrawKit.fill(self, DrawKit.smooth(PackedVector2Array([Vector2(-7, -38), Vector2(0, -54 - sin(_t * 8.0) * 3.0), Vector2(7, -38)]), 1), Color("#ffb020"))
+			var de := DrawKit.smooth(PackedVector2Array([Vector2(0, -40), Vector2(28, -20), Vector2(34, 12), Vector2(20, 38), Vector2(0, 42), Vector2(-20, 38), Vector2(-34, 12), Vector2(-28, -20)]), 2)
+			DrawKit.shape(self, de, c1, W, 0.25, INK)
+			for j in 3:
+				for i in 3:
+					DrawKit.poly_line(self, DrawKit.arc(Vector2(-16 + i * 16 + (j % 2) * 8 - 4, -6 + j * 13), 7, 6, 0.0, PI, 6), c2, 2.5)
+			DrawKit.poly_line(self, PackedVector2Array([Vector2(-20, -22), Vector2(-10, -14), Vector2(-4, -24), Vector2(6, -16), Vector2(14, -26)]), INK, 2.5)
+			DrawKit.shine(self, Vector2(-14, -18), 6, 10, 0.5, 0.3)
+		"cloud_cotton":
+			var cs := [[Vector2(-20, 0), 20.0], [Vector2(4, -12), 24.0], [Vector2(26, 2), 18.0], [Vector2(2, 10), 20.0]]
+			for c in cs:
+				draw_circle(c[0], c[1] + 3.0, INK, true, -1.0, true)
+			for c in cs:
+				draw_circle(c[0], c[1], c1, true, -1.0, true)
+			DrawKit.shine(self, Vector2(-4, -20), 10, 5, 0.6, -0.3)
+			for k in 3:
+				var dp := Vector2(-14 + k * 14, 40 + (k % 2) * 4)
+				DrawKit.fill(self, DrawKit.smooth(PackedVector2Array([dp + Vector2(0, -6), dp + Vector2(4, 2), dp + Vector2(0, 6), dp + Vector2(-4, 2)]), 1), c2)
+		"rainbow_milk":
+			var rb := _bottle(Color.WHITE, Color("#ff9fd0"))
+			var cols2 := [Color("#ff5f5f"), Color("#ffb020"), Color("#ffe066"), Color("#5fd16b"), Color("#4a9dff"), Color("#a25cff")]
+			for i in cols2.size():
+				var y0 := 4.0 + i * 5.5
+				for part in Geometry2D.intersect_polygons(PackedVector2Array([Vector2(-40, y0), Vector2(40, y0), Vector2(40, y0 + 5.6), Vector2(-40, y0 + 5.6)]), rb):
+					DrawKit.fill(self, part, cols2[i])
+			DrawKit.outline(self, rb, INK, W)
+			DrawKit.fill(self, DrawKit.star_pts(Vector2(28, -30), 8, 3, 5), Color("#fff1a8"))
+		"mermaid_scale":
+			var ms := DrawKit.smooth(PackedVector2Array([Vector2(0, 40), Vector2(-36, 8), Vector2(-30, -26), Vector2(0, -38), Vector2(30, -26), Vector2(36, 8)]), 2)
+			DrawKit.shape(self, ms, c1, W, 0.3, INK)
+			for k in 3:
+				DrawKit.poly_line(self, DrawKit.arc(Vector2(0, 30), 12 + k * 9, 12 + k * 13, PI * 1.15, PI * 1.85, 12), c2.lerp(Color.WHITE, k * 0.25), 3.0)
+			DrawKit.fill(self, DrawKit.star_pts(Vector2(26, -32), 8, 3, 4), Color.WHITE)
+			DrawKit.shine(self, Vector2(-14, -16), 6, 12, 0.55, 0.3)
+		"black_hole_salt":
+			var shk := DrawKit.smooth(PackedVector2Array([Vector2(-20, -22), Vector2(20, -22), Vector2(26, 38), Vector2(-26, 38)]), 1)
+			DrawKit.shape(self, shk, c1, W, 0.2, INK)
+			DrawKit.shape(self, DrawKit.ellipse(Vector2(0, -26), 21, 10, 20), Color("#9aa6b2"), W, 0.1, INK)
+			for k in 3:
+				draw_circle(Vector2(-8 + k * 8, -27), 2.0, INK, true, -1.0, true)
+			DrawKit.glow(self, Vector2(0, 10), 30, Color(c2, 0.5))
+			var sw := PackedVector2Array()
+			for i in 26:
+				var a3 := i * 0.5
+				sw.append(Vector2(0, 10) + Vector2(cos(a3), sin(a3)) * (2.0 + i * 0.6))
+			DrawKit.poly_line(self, sw, c2, 3.0)
+			draw_circle(Vector2(0, 10), 4.0, Color.BLACK, true, -1.0, true)
+		"golden_apple":
+			draw_line(Vector2(0, -26), Vector2(4, -42), Color("#6b3a1e"), 4.0, true)
+			DrawKit.shape(self, DrawKit.ellipse(Vector2(16, -38), 12, 6, 14, -0.4), Color("#5fbf4a"), 2.5, 0.1, INK)
+			var ap := DrawKit.smooth(PackedVector2Array([Vector2(0, -24), Vector2(22, -34), Vector2(38, -14), Vector2(34, 18), Vector2(14, 38), Vector2(0, 32), Vector2(-14, 38), Vector2(-34, 18), Vector2(-38, -14), Vector2(-22, -34)]), 2)
+			DrawKit.shape(self, ap, c1, W, 0.3, INK)
+			DrawKit.shine(self, Vector2(-16, -10), 8, 14, 0.6, 0.3)
+			for p in [Vector2(-32, -34), Vector2(36, 30)]:
+				DrawKit.fill(self, DrawKit.star_pts(p, 7, 2.5, 4), Color("#fffbe0"))
 		_:
 			DrawKit.circle(self, Vector2.ZERO, 34, c1, W, 0.2)
 			DrawKit.text(self, "?", Vector2(0, 0), 40, Color.WHITE, true, INK, 6)

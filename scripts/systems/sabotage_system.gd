@@ -95,11 +95,11 @@ static func apply_to_dish(id: String, result: String, dish: Dictionary, choice_e
 		"hex":
 			match result:
 				"full":
-					d = FusionEngine.modify(dish, {"toxic": 30, "weird": 25, "magic": 20}, ["cursed", "spooky"], "Lanetli ")
+					d = FusionEngine.modify(dish, {"toxic": 30, "weird": 25, "magic": 20}, ["cursed", "spooky"], "cursed")
 				"half":
-					d = FusionEngine.modify(dish, {"toxic": 15, "weird": 12, "magic": 10}, ["cursed"], "Lanetli ")
+					d = FusionEngine.modify(dish, {"toxic": 15, "weird": 12, "magic": 10}, ["cursed"], "cursed")
 				"adapt":
-					d = FusionEngine.modify(dish, {"toxic": 8, "weird": 20, "magic": 25}, ["cursed", "magic"], "Lanetli ")
+					d = FusionEngine.modify(dish, {"toxic": 8, "weird": 20, "magic": 25}, ["cursed", "magic"], "cursed")
 					mods["creativity"] = adapt_bonus
 		"rotten_surprise":
 			var ferm: String = choice_extra if FERMENTED.has(choice_extra) else str(FERMENTED[FusionEngine.fnv(str(dish["id"])) % 3])

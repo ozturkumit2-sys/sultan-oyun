@@ -7,7 +7,7 @@ config_version=5
 
 config/name="FUSE CHEF"
 config/description="Çılgın füzyon yemek yarışması: malzemeleri birleştir, sabotajlara karşı koy, jüriden sağ çık!"
-config/version="1.0.1"
+config/version="1.1.0"
 run/main_scene="res://scenes/Boot.tscn"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 boot_splash/bg_color=Color(0.17, 0.09, 0.26, 1)
@@ -18,6 +18,7 @@ config/quit_on_go_back=false
 [autoload]
 
 SaveManager="*res://scripts/autoload/save_manager.gd"
+Loc="*res://scripts/autoload/loc.gd"
 IngredientDatabase="*res://scripts/autoload/ingredient_database.gd"
 ProgressionManager="*res://scripts/autoload/progression_manager.gd"
 RecipeBookManager="*res://scripts/autoload/recipe_book_manager.gd"

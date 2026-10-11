@@ -209,10 +209,15 @@ static func adj_of(phrase: String) -> String:
 static func _build(id: String, inputs: Array, method: String, recipe: Dictionary) -> Dictionary:
 	var items: Array = []
 	var depth := 0
+	var bases: Array = []
 	for inp in inputs:
 		var it := item(str(inp))
 		items.append(it)
 		depth = maxi(depth, int(it.get("depth", 0)))
+		for b in it.get("bases", [it["id"]]):
+			if not bases.has(b):
+				bases.append(b)
+	bases.sort()
 	depth += 1
 	var stats := combine_stats(items)
 	var tags: Array = []
@@ -250,30 +255,25 @@ static func _build(id: String, inputs: Array, method: String, recipe: Dictionary
 		"inputs": _sorted(inputs), "method": method, "handcrafted": handcrafted,
 		"secret": bool(recipe.get("secret", false)), "unlocks": str(recipe.get("unlocks", "")),
 	}
-	# ---- isim
+	res["bases"] = bases
+	# ---- isim (3+ temel malzemede hikâyeli isim)
 	var name := ""
+	var story := not handcrafted and bases.size() >= NameGen.STORY_MIN_BASES
+	if is_dish:
+		var dishes: Array = md.get("dish", ["Yemek"])
+		res["dish_index"] = h % dishes.size()
 	if handcrafted:
 		name = recipe["name"]
+	elif story:
+		var st := NameGen.story(id, stats, tags)
+		name = st["name"]
+		res["story"] = true
+		res["lore"] = st["lore"]
 	elif is_dish:
-		var dishes: Array = md.get("dish", ["Yemek"])
-		var idx := h % dishes.size()
-		var adjs: Array = [main["adj"]]
-		if ordered.size() > 1 and second["id"] != main["id"]:
-			adjs.append(second["adj"])
-		var cand := " ".join(PackedStringArray(adjs)) + " " + str(dishes[idx])
-		if cand.split(" ").size() > 4:
-			cand = str(main["adj"]) + " " + str(dishes[idx])
-		name = cand
-		res["dish_index"] = idx
+		var dishes2: Array = md.get("dish", ["Yemek"])
+		name = NameGen.simple_dish(main, second, str(dishes2[int(res["dish_index"])]))
 	else:
-		var parts: Array = []
-		for k in range(ordered.size() - 1, 0, -1):
-			parts.append(ordered[k]["adj"])
-		parts.append(main["noun"])
-		var cand2 := " ".join(PackedStringArray(parts))
-		if cand2.split(" ").size() > 4:
-			cand2 = str(second["adj"]) + " " + str(main["noun"])
-		name = cand2
+		name = NameGen.simple_fusion(ordered)
 	res["name"] = name
 	if handcrafted and recipe.has("noun"):
 		res["noun"] = recipe["noun"]
@@ -291,8 +291,8 @@ static func _build(id: String, inputs: Array, method: String, recipe: Dictionary
 	else:
 		var base := "blob"
 		if is_dish:
-			var bases: Array = md.get("base", ["cake"])
-			base = str(bases[int(res.get("dish_index", 0)) % bases.size()])
+			var vbases: Array = md.get("base", ["cake"])
+			base = str(vbases[int(res.get("dish_index", 0)) % vbases.size()])
 		var c1 := Color(main["color"])
 		var c2 := Color(second["color"]) if second["id"] != main["id"] else Color(main["color2"])
 		if not is_dish:
@@ -319,22 +319,29 @@ static func _build(id: String, inputs: Array, method: String, recipe: Dictionary
 				living = pair[1]
 				break
 	res["living"] = living if is_dish else ""
-	res["desc"] = str(recipe.get("desc", "")) if handcrafted else describe(stats, is_dish, living != "")
+	if handcrafted:
+		res["desc"] = str(recipe.get("desc", ""))
+	elif story:
+		res["desc"] = str(res["lore"]) + ((" " + Loc.t("Dikkat: canlı!")) if living != "" and is_dish else "")
+	else:
+		res["desc"] = describe(stats, is_dish, living != "" and is_dish)
 	res["hint"] = str(recipe.get("hint", ""))
 	return res
 
 
+const DESC_WORDS := {"sweet": "tatlı", "spicy": "acı", "fresh": "taze", "weird": "tuhaf", "magic": "büyülü",
+	"toxic": "şüpheli", "volatile": "patlamaya hazır", "life": "kıpır kıpır"}
+
+
 static func describe(stats: Dictionary, is_dish: bool, living: bool) -> String:
-	var words := {"sweet": "tatlı", "spicy": "acı", "fresh": "taze", "weird": "tuhaf", "magic": "büyülü",
-		"toxic": "şüpheli", "volatile": "patlamaya hazır", "life": "kıpır kıpır"}
-	var keys: Array = words.keys()
+	var keys: Array = DESC_WORDS.keys()
 	keys.sort_custom(func(a, b):
 		if absf(stats[a] - stats[b]) > 0.01:
 			return stats[a] > stats[b]
 		return a < b)
-	var t := "%s ve %s bir %s." % [str(words[keys[0]]).capitalize(), words[keys[1]], "yemek" if is_dish else "karışım"]
+	var t := Loc.t("Çok %s, biraz %s.") % [Loc.t(DESC_WORDS[keys[0]]), Loc.t(DESC_WORDS[keys[1]])]
 	if living:
-		t += " Dikkat: canlı!"
+		t += " " + Loc.t("Dikkat: canlı!")
 	return t
 
 
@@ -348,8 +355,9 @@ static func modify(dish: Dictionary, stat_mods: Dictionary, add_tags: Array = []
 	for t in add_tags:
 		if not d["tags"].has(t):
 			d["tags"].append(t)
-	if prefix != "" and not str(d["name"]).begins_with(prefix):
-		d["name"] = prefix + str(d["name"])
+	if prefix == "cursed" and not d.get("cursed_name", false):
+		d["name"] = NameGen.cursed(str(d["name"]))
+		d["cursed_name"] = true
 	return d
 
 
@@ -367,9 +375,8 @@ static func taint(dish: Dictionary, ingredient_id: String, weight: float) -> Dic
 		if not d["tags"].has(t):
 			d["tags"].append(t)
 	d["tags"].erase("classic")
-	var adj: String = ing["adj"]
-	if not str(d["name"]).begins_with(adj):
-		d["name"] = adj + " " + str(d["name"])
+	if not d.has("tainted"):
+		d["name"] = NameGen.tainted(str(d["name"]), ing)
 	d["tainted"] = ingredient_id
 	return d
 

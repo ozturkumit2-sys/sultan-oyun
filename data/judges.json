@@ -3,7 +3,7 @@
   "judges": [
     {"id": "bruno", "name": "Şef Bruno", "title": "Lezzet Ustası",
      "weights": {"flavor": 0.50, "cooking": 0.25, "theme": 0.15, "presentation": 0.10, "creativity": 0.0},
-     "likes": ["classic", "savory", "dough", "dairy", "sauce"], "dislikes": ["mechanical", "slime", "fermented"],
+     "likes": ["classic", "savory", "dough", "dairy", "sauce", "meat"], "dislikes": ["mechanical", "slime", "fermented"],
      "bio": "Otuz yıldır tadına baktığı her şeye 'daha fazla tuz' diyor. Bıyıkları kendi fan kulübüne sahip.",
      "lines": {
        "high": ["Mamma mia! Bu bir şaheser!", "Damağımda bir orkestra çalıyor!", "Annemin yemeklerinden bile iyi... Ona söylemeyin."],

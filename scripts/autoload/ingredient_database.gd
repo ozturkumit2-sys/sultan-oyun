@@ -22,6 +22,7 @@ var theme_order: Array = []
 var judges: Array = []
 var judge_map: Dictionary = {}
 var judge_lines: Dictionary = {}   # jüri id -> bağlamsal replik havuzları (data/judge_lines.json)
+var names: Dictionary = {}         # hikâyeli isim tabloları (data/names.json)
 var reactions: Array = []
 var opponents: Dictionary = {}
 var opponent_order: Array = []
@@ -150,9 +151,70 @@ func load_all() -> void:
 		decor[d["id"]] = d
 		decor_order.append(d["id"])
 	specializations = content.get("specializations", [])
+	names = _load_json("res://data/names.json")
 	if not load_errors.is_empty():
 		for e in load_errors:
 			push_warning("[Veri] " + str(e))
+	_slots.clear()
+	for root in [ingredients, categories, recipes, methods, themes, judges, reactions, judge_lines, opponents, leagues, rules, content]:
+		_collect(root, 0)
+	apply_language()
+
+
+# ------------------------------------------------------------------ çeviri
+## Veri içindeki görünür metinlerin konumları: [kap, anahtar/indeks, Türkçe asıl]
+var _slots: Array = []
+## Çevrilmeyen (kimlik/renk/etiket) alanlar
+const NO_TR := {"id": 1, "tags": 1, "inputs": 1, "method": 1, "color": 1, "color2": 1, "c1": 1, "c2": 1, "base": 1,
+	"decor": 1, "likes": 1, "dislikes": 1, "icon": 1, "type": 1, "living": 1, "unlocks": 1, "match": 1, "opponent": 1,
+	"themes": 1, "mystery": 1, "preferred": 1, "methods": 1, "likes_tags": 1, "noun": 1, "adj": 1, "weights": 1,
+	"target": 1, "stats": 1, "bonus": 1, "tags_add": 1, "visual": 1, "category": 1, "skin_tones": 1, "hair_colors": 1,
+	"kind": 1, "slot": 1, "judge": 1, "mutation": 1, "ability": 0, "weight_shift": 1, "rule": 1, "hat": 1, "shape": 1,
+	"style": 1, "pose": 1, "preset": 1, "reaction": 1, "anim": 1, "sfx": 1, "key": 1, "stat": 1, "tag": 1, "effect": 0}
+
+
+func _collect(v: Variant, depth: int) -> void:
+	if depth > 12:
+		return
+	if v is Dictionary:
+		var d: Dictionary = v
+		for k in d.keys():
+			if NO_TR.get(str(k), 0) == 1:
+				continue
+			var x: Variant = d[k]
+			if x is String:
+				if _translatable(x):
+					_slots.append([d, k, x])
+			elif x is Dictionary or x is Array:
+				_collect(x, depth + 1)
+	elif v is Array:
+		var a: Array = v
+		for i in a.size():
+			var x: Variant = a[i]
+			if x is String:
+				if _translatable(x):
+					_slots.append([a, i, x])
+			elif x is Dictionary or x is Array:
+				_collect(x, depth + 1)
+
+
+## Kimlik gibi görünen (boşluksuz küçük harf/rakam/alt çizgi) ve renk kodu metinlerini atla.
+static func _translatable(s: String) -> bool:
+	if s.strip_edges() == "" or s.begins_with("#") or s.begins_with("res://"):
+		return false
+	var idlike := true
+	for c in s:
+		if not ((c >= "a" and c <= "z") or (c >= "0" and c <= "9") or c == "_"):
+			idlike = false
+			break
+	return not idlike
+
+
+## Tüm veri metinlerini aktif dile göre yeniden yazar.
+func apply_language() -> void:
+	for sl in _slots:
+		var c: Variant = sl[0]
+		c[sl[1]] = Loc.t(str(sl[2]))
 
 
 func _recipe_id_listed(rec: Dictionary, id: String) -> bool:

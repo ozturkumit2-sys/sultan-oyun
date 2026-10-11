@@ -9,7 +9,8 @@ APK her zaman bu dalın `apk/` klasöründe en güncel hâliyle durur. İndirdik
 
 ## Oyunda neler var?
 
-- **Füzyon motoru:** 33 malzeme (+3 laboratuvara özel fermente malzeme), 37 el yapımı tarif (5 tanesi gizli), sınırsız dinamik tarif. Aynı malzemeler + aynı yöntem = her zaman aynı tarif; malzeme sırası önemsiz. Keşfedilen füzyonlar tekrar malzeme olarak kullanılabilir (zincir sınırı 2, uzmanlıkla 3).
+- **Füzyon motoru:** 56 malzeme (tavuk, balık, et, karides, sucuk gibi normal malzemeler ve ejder yumurtası, kara delik tuzu gibi garip malzemeler; 3'ü laboratuvara özel), 50 el yapımı tarif (5 tanesi gizli), sınırsız dinamik tarif. Aynı malzemeler + aynı yöntem = her zaman aynı tarif; malzeme sırası önemsiz. Keşfedilen füzyonlar tekrar malzeme olarak kullanılabilir (zincir sınırı 2, uzmanlıkla 3).
+- **Hikâyeli isimler:** 3 ve daha fazla malzemeli karışımlar malzemeleri saymayan, yemeğin karakterinden doğan bir isim ("Acı Ninja Hayalet", "Serin Yarasa: Tencerenin İntikamı") ve kısa bir efsane alır.
 - **6 pişirme yöntemi** ve her biri için etkileşimli mini oyun (zamanlama, basılı tutma, rün yakalama).
 - **8 rakip:** Cadı Morgana, Robot X-3000, Zombi Nine Gülizar, Kont Velvet, Kaptan Barbunya, Uzaylı Zorp, Peri Lila ve son boss Şef Obscura. Her birinin kişiliği, tercih ettiği malzemeleri, özel sabotajı, boss kuralı ve zafer/yenilgi replikleri var. Yapay zekâ temaya, skor durumuna ve jüri mutasyonlarına göre karar verir.
 - **Sabotaj sistemi:** Her sabotaj önceden uyarılır; *Savun* (mini oyun), *Uyum Sağla* veya *Riski Kabul Et* (geri tepme şansı). Hiçbir sabotaj kaçınılmaz yenilgi yaratmaz.

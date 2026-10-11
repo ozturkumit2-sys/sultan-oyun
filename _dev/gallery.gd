@@ -47,6 +47,8 @@ func _ready() -> void:
 			for rid in IngredientDatabase.recipe_order:
 				ids.append(rid)
 			var plates: Array = IngredientDatabase.plate_order
+			var start := int(OS.get_cmdline_user_args()[1]) if OS.get_cmdline_user_args().size() > 1 else 0
+			ids = ids.slice(start)
 			for i in mini(ids.size(), 30):
 				var d := DishView.new()
 				d.setup(FusionEngine.item(ids[i]), plates[i % plates.size()], IngredientDatabase.garnish_order[i % IngredientDatabase.garnish_order.size()])
@@ -58,17 +60,17 @@ func _ready() -> void:
 			var ids: Array = IngredientDatabase.ingredient_order
 			for i in ids.size():
 				var ic := IngredientIcon.new()
-				ic.size = Vector2(110, 110)
-				ic.position = Vector2(15 + (i % 6) * 118, 20 + (i / 6) * 150)
+				ic.size = Vector2(92, 92)
+				ic.position = Vector2(8 + (i % 7) * 101, 14 + (i / 7) * 156)
 				ic.set_item(ids[i])
 				add_child(ic)
 				var l := Label.new()
 				l.text = IngredientDatabase.ingredients[ids[i]]["name"]
-				l.position = ic.position + Vector2(0, 108)
-				l.add_theme_font_size_override("font_size", 16)
+				l.position = ic.position + Vector2(0, 92)
+				l.add_theme_font_size_override("font_size", 13)
 				add_child(l)
 	await get_tree().create_timer(0.6).timeout
 	var img := get_viewport().get_texture().get_image()
-	img.save_png("/tmp/claude-0/shots/gallery_%s.png" % mode)
+	img.save_png("/tmp/claude-0/shots/gallery_%s%s.png" % [mode, "_" + OS.get_cmdline_user_args()[1] if OS.get_cmdline_user_args().size() > 1 else ""])
 	print("saved ", mode)
 	get_tree().quit()

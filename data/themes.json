@@ -33,6 +33,7 @@
      "target": {"rarity": [50, 100]}, "tags": ["luxury", "crystal"], "methods": ["bake", "magic"]},
     {"id": "pirate_feast", "name": "Korsan Şöleni", "desc": "Tuzlu deniz, acı baharat, bol kahkaha.",
      "target": {"spicy": [35, 100]}, "tags": ["sea", "spicy"], "methods": ["grill", "boil"]},
+    {"id": "bbq_party", "name": "Mangal Keyfi", "desc": "Közün dumanı, etin cızırtısı!", "target": {"spicy": [30, 100], "fresh": [25, 80]}, "tags": ["meat", "savory", "spicy"], "methods": ["grill", "fry"]},
     {"id": "fairy_garden", "name": "Peri Bahçesi", "desc": "Çiçekler, nektar ve biraz sihir.",
      "target": {"magic": [30, 100], "fresh": [55, 100]}, "tags": ["nature", "flower", "fruit"], "methods": ["freeze", "magic"]},
     {"id": "galactic_final", "name": "Galaktik Final", "desc": "Evrenin en iyi yemeği. Baskı yok.",

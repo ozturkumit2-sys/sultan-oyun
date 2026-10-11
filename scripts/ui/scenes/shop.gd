@@ -38,11 +38,18 @@ func _set_tab(t: String) -> void:
 		c.queue_free()
 	match t:
 		"ing":
+			# önce satın alınabilenler (ucuzdan pahalıya), sonra kilitliler, en sonda sahip olunanlar
+			var rows: Array = []
 			for id in IngredientDatabase.ingredient_order:
 				var u: Dictionary = IngredientDatabase.ingredients[id].get("unlock", {})
 				if u.get("type", "") == "special":
 					continue
-				grid.add_child(_ing_card(id))
+				var st := ProgressionManager.ingredient_state(id)
+				var grp := 0 if st == "buyable" else (1 if st == "locked" else 2)
+				rows.append([grp, int(u.get("league", 0)), ProgressionManager.ingredient_price(id), rows.size(), id])
+			rows.sort()
+			for row in rows:
+				grid.add_child(_ing_card(row[4]))
 		"plates":
 			for pid in IngredientDatabase.plate_order:
 				grid.add_child(_item_card("plates", pid))
