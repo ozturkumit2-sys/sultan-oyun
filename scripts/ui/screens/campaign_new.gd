@@ -28,21 +28,46 @@ func setup(p: Dictionary) -> void:
 func build() -> void:
 	var c := G.pc()
 	var prods := G.company_products(G.pid(), ["active", "dev"])
+	# the campaign as it will look, with the promoted perfume in it
+	var preview := {"kind": st["kind"], "product": st["product"], "media": st["media"]}
+	body.add_child(load("res://scripts/ui/screens/marketing.gd").art_for(preview, 330.0))
 	UI.section(body, "Type")
 	var ko: Array = []
 	for k in DB.biz["campaigns"]:
 		ko.append([k["name"], k["id"]])
 	ko.append(["Influencer", "influencer"])
 	ko.append(["Celebrity ambassador", "celebrity"])
-	body.add_child(UI.seg(ko, st["kind"], func(v):
-		st["kind"] = v
-		st["media"] = "" if not (v == "influencer" or v == "celebrity") else st["media"]
-		var t: Dictionary = DB.campaigns.get(v, {})
-		if not t.is_empty():
-			st["weekly"] = maxf(float(st["weekly"]), float(t["min"]))
-			if t.get("oneoff", false):
-				st["weeks"] = 1
-		rebuild(), 18))
+	var sc := DragScroll.new()
+	sc.horizontal = true
+	sc.vertical_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	sc.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_SHOW_NEVER
+	sc.custom_minimum_size = Vector2(0, 200)
+	var row := UI.hbox(10)
+	sc.add_child(row)
+	for o in ko:
+		var kid: String = o[1]
+		var on: bool = kid == st["kind"]
+		var tp := GradPanel.new().colors(Color("#fdf0f3") if on else Color("#fffdf9"), Color("#f6dce4") if on else Color("#f6eee6")).set_pad(8)
+		tp.border = UI.BURGUNDY if on else Color(UI.BURGUNDY, 0.12)
+		tp.custom_minimum_size = Vector2(210, 190)
+		tp.tapped = func(): _pick_kind(kid)
+		var tv := UI.vbox(4)
+		tp.add_child(tv)
+		var art_name := kid
+		if kid == "influencer":
+			art_name = "social"
+		elif kid == "celebrity":
+			art_name = "pr"
+		var ca := CampaignArt.new().setup(art_name, G.product(st["product"]))
+		ca.custom_minimum_size = Vector2(0, 128)
+		ca.radius = 12.0
+		tv.add_child(ca)
+		var tl := UI.lbl(str(o[0]), 17, UI.BURGUNDY if on else UI.CREAM, "semi", HORIZONTAL_ALIGNMENT_CENTER)
+		tl.clip_text = true
+		tl.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
+		tv.add_child(tl)
+		row.add_child(tp)
+	body.add_child(sc)
 	var t: Dictionary = DB.campaigns.get(st["kind"], {})
 	if not t.is_empty():
 		body.add_child(UI.para(str(t["desc"]), 18))
@@ -109,6 +134,17 @@ func build() -> void:
 			Router.back(), "primary", 23, 80))
 
 
+func _pick_kind(v: String) -> void:
+	st["kind"] = v
+	st["media"] = "" if not (v == "influencer" or v == "celebrity") else st["media"]
+	var t: Dictionary = DB.campaigns.get(v, {})
+	if not t.is_empty():
+		st["weekly"] = maxf(float(st["weekly"]), float(t["min"]))
+		if t.get("oneoff", false):
+			st["weeks"] = 1
+	rebuild()
+
+
 func _media(b: Dictionary) -> void:
 	var kind: String = st["kind"]
 	var p := G.product(st["product"])
@@ -116,11 +152,13 @@ func _media(b: Dictionary) -> void:
 		UI.section(body, "Choose a personality")
 		var ms: Array = G.s["media"].values().filter(func(m): return m["kind"] == kind)
 		ms.sort_custom(func(a, b2): return _fit(p, a) > _fit(p, b2))
+		var mg := UI.grid(2, 12)
 		for m in ms:
 			var mid: String = m["id"]
-			MediaRow.add(body, m, func():
+			mg.add_child(MediaRow.card(m, func():
 				st["media"] = mid
-				rebuild())
+				rebuild()))
+		body.add_child(mg)
 		return
 	var m2: Dictionary = G.s["media"][st["media"]]
 	UI.section(body, "Selected")

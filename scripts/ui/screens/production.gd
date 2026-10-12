@@ -8,6 +8,10 @@ func page_title() -> String:
 	return "Production & inventory"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "factory", "title": "Production & inventory", "sub": "Batches, quality control and stock", "focus": Vector2(0.5, 0.6), "h": 250.0}
+
+
 func build() -> void:
 	var c := G.pc()
 	body.add_child(UI.seg([["Orders", "orders"], ["Finished goods", "fg"], ["Raw materials", "raw"], ["Factory", "factory"]], tab, func(v):
@@ -36,7 +40,7 @@ func build() -> void:
 				var avg := Rivals.avg_units(p, 4) if not p["wk"].is_empty() else 0.0
 				var pid: String = p["id"]
 				UI.row_card(body, p["name"], "%s units · unit cost %s · %s" % [G.group_int(int(p["inv"])), G.money(float(p["unit_cost"]), 2), ("%.1f weeks cover" % (float(p["inv"]) / avg)) if avg > 0.0 else "no sales yet"],
-					G.money(val), func(): Router.go("product_detail", {"id": pid}), null, UI.RED if int(p["inv"]) <= 0 else UI.GOLD2)
+					G.money(val), func(): Router.go("product_detail", {"id": pid}), _mini(p), UI.RED if int(p["inv"]) <= 0 else UI.GOLD2)
 			UI.kv(body, "Finished goods inventory value", G.money(tot), UI.GOLD2)
 		"raw":
 			var raw: Dictionary = c["raw"]
@@ -49,7 +53,7 @@ func build() -> void:
 				var a: Array = raw[id]
 				tot2 += float(a[0]) * float(a[1])
 				var iid: String = id
-				UI.row_card(body, FormulaEngine.short_name(DB.ing(id)), "%.2f kg · avg cost %s/kg · market %s/kg" % [float(a[0]), G.money(float(a[1])), G.money(G.ing_price(id))], G.money(float(a[0]) * float(a[1])), func(): IngredientInfo.show(iid))
+				UI.row_card(body, FormulaEngine.short_name(DB.ing(id)), "%.2f kg · avg cost %s/kg · market %s/kg" % [float(a[0]), G.money(float(a[1])), G.money(G.ing_price(id))], G.money(float(a[0]) * float(a[1])), func(): IngredientInfo.show(iid), Art.ing_icon(iid, 64))
 			UI.kv(body, "Raw material inventory value", G.money(tot2), UI.GOLD2)
 			body.add_child(UI.btn("Ingredient market", func(): Router.go("ingredient_market", {}), "secondary", 22))
 		"factory":
@@ -90,3 +94,11 @@ func build() -> void:
 				var mc := UI.card(body, "flat", 4)
 				mc.add_child(UI.lbl(m["name"], 21, UI.CREAM, "semi"))
 				mc.add_child(UI.lbl("Fill %s/unit · min %s · %s/wk · lead %d wk · reliability %d%%" % [G.money(float(m["fill"]), 2), G.group_int(int(m["moq"])), G.group_int(int(m["cap"])), int(m["lead"]), int(float(m["rel"]) * 100)], 17, UI.MUTED))
+
+
+func _mini(p: Dictionary) -> Control:
+	var bv := BottleView.new().setup(p["bottle"], "", "", MarketEngine.product_ev(p).get("profile", PackedFloat32Array()))
+	bv.show_label = false
+	bv.vivid = true
+	bv.custom_minimum_size = Vector2(56, 84)
+	return bv

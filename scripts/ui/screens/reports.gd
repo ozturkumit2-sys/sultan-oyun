@@ -5,6 +5,10 @@ func page_title() -> String:
 	return "Weekly reports"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "office", "title": "Weekly reports", "sub": "How the house performed", "focus": Vector2(0.75, 0.5), "h": 250.0}
+
+
 func build() -> void:
 	var reps: Array = G.s["reports"]
 	if reps.is_empty():

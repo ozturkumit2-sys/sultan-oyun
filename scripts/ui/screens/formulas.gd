@@ -8,6 +8,10 @@ func page_title() -> String:
 	return "Formula library"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "stilllife", "title": "Formula library", "sub": "Your formulas, versions and accords", "focus": Vector2(0.5, 0.65), "h": 250.0}
+
+
 func build() -> void:
 	body.add_child(UI.seg([["Formulas", "formulas"], ["Accords", "accords"], ["Archived", "archived"]], show, func(v):
 		show = v
@@ -38,8 +42,11 @@ func build() -> void:
 		var sub := "%s · v%d · %d materials · by %s" % [ev.get("family", "?"), f["versions"].size(), fv["items"].size(), author]
 		if used > 0:
 			sub += " · %d product%s" % [used, "s" if used > 1 else ""]
-		var dot := ColorRect.new()
-		var tops := FormulaEngine.top_dims(ev.get("profile", PackedFloat32Array()), 1)
-		dot.color = UI.dim_color(tops[0]) if not tops.is_empty() else UI.GOLD
-		dot.custom_minimum_size = Vector2(10, 60)
-		UI.row_card(body, f["name"], sub, G.money(float(ev.get("cost_kg", 0.0))) + "/kg", func(): Router.go("formula_editor", {"fid": fid}), dot)
+		var look := {"shape": absi(hash(fid)) % 10, "cap": absi(hash(fid + "c")) % 8, "glass": 0, "label": 0, "accent": "#c9a55a", "tint": "natural"}
+		for k in f.get("look", {}):
+			look[k] = f["look"][k]
+		var bv := BottleView.new().setup(look, "", "", ev.get("profile", PackedFloat32Array()))
+		bv.show_label = false
+		bv.vivid = true
+		bv.custom_minimum_size = Vector2(56, 88)
+		UI.row_card(body, f["name"], sub, G.money(float(ev.get("cost_kg", 0.0))) + "/kg", func(): Router.go("formula_editor", {"fid": fid}), bv)

@@ -11,6 +11,8 @@ var sub_lbl: Label
 var back_btn: Button
 var inbox_ico: Ico
 var tab_btns := {}
+var backdrop: Backdrop
+var nb_btn: Button
 var _safe := Vector4.ZERO
 
 
@@ -23,9 +25,9 @@ func _ready() -> void:
 	bg.set_anchors_preset(Control.PRESET_FULL_RECT)
 	bg.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(bg)
-	var glow := Backdrop.new()
-	glow.set_anchors_preset(Control.PRESET_FULL_RECT)
-	add_child(glow)
+	backdrop = Backdrop.new()
+	backdrop.set_anchors_preset(Control.PRESET_FULL_RECT)
+	add_child(backdrop)
 	var col := UI.vbox(0)
 	col.set_anchors_preset(Control.PRESET_FULL_RECT)
 	col.mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -71,8 +73,9 @@ func safe_bottom() -> float:
 
 func _build_top(col: VBoxContainer) -> void:
 	top_bar = PanelContainer.new()
-	var st := UI.sb(Color(0.06, 0.05, 0.07, 0.96), 0, UI.LINE, 0, 14)
+	var st := UI.sb(Color(1, 0.985, 0.965, 0.9), 0, UI.LINE, 0, 14)
 	st.border_width_bottom = 1
+	UI.shadowed(st, 6, 0.8)
 	st.content_margin_top = 10 + safe_top()
 	st.content_margin_bottom = 10
 	top_bar.add_theme_stylebox_override("panel", st)
@@ -81,7 +84,7 @@ func _build_top(col: VBoxContainer) -> void:
 	back_btn = UI.btn("", func(): Router.back(), "ghost", 24, 70)
 	back_btn.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
 	back_btn.custom_minimum_size = Vector2(62, 70)
-	var bi := UI.icon("back", 34, UI.GOLD2)
+	var bi := UI.icon("back", 34, UI.BURGUNDY)
 	bi.position = Vector2(14, 18)
 	back_btn.add_child(bi)
 	h.add_child(back_btn)
@@ -98,11 +101,12 @@ func _build_top(col: VBoxContainer) -> void:
 	var ib := UI.btn("", func(): Router.go("inbox"), "ghost", 20, 70)
 	ib.size_flags_horizontal = Control.SIZE_SHRINK_END
 	ib.custom_minimum_size = Vector2(66, 70)
-	inbox_ico = UI.icon("mail", 40, UI.GOLD2)
+	inbox_ico = UI.icon("mail", 40, UI.BURGUNDY)
 	inbox_ico.position = Vector2(13, 15)
 	ib.add_child(inbox_ico)
 	h.add_child(ib)
 	var nb := UI.btn("Next week ▸", func(): Router.next_week(), "primary", 21, 70)
+	nb_btn = nb
 	nb.custom_minimum_size.x = 176
 	nb.size_flags_horizontal = Control.SIZE_SHRINK_END
 	h.add_child(nb)
@@ -111,9 +115,12 @@ func _build_top(col: VBoxContainer) -> void:
 
 func _build_nav(col: VBoxContainer) -> void:
 	nav_bar = PanelContainer.new()
-	var st := UI.sb(Color(0.06, 0.05, 0.07, 0.98), 0, UI.LINE, 0, 6)
+	var st := UI.sb(Color(1, 0.985, 0.965, 0.96), 0, UI.LINE, 0, 6)
 	st.border_width_top = 1
 	st.border_width_bottom = 0
+	st.shadow_color = Color(UI.SHADOW, 0.12)
+	st.shadow_size = 12
+	st.shadow_offset = Vector2(0, -2)
 	st.content_margin_bottom = 6 + safe_bottom()
 	nav_bar.add_theme_stylebox_override("panel", st)
 	var h := UI.hbox(0)
@@ -125,6 +132,15 @@ func _build_nav(col: VBoxContainer) -> void:
 		b.focus_mode = Control.FOCUS_NONE
 		b.custom_minimum_size = Vector2(0, 96)
 		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		var pill := Panel.new()
+		pill.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		pill.add_theme_stylebox_override("panel", UI.sb(Color("#f4d8db"), 22, Color(0, 0, 0, 0), 0, 0))
+		pill.set_anchors_preset(Control.PRESET_FULL_RECT)
+		pill.offset_left = 10
+		pill.offset_right = -10
+		pill.offset_top = 6
+		pill.offset_bottom = -6
+		b.add_child(pill)
 		var v := UI.vbox(2)
 		v.set_anchors_preset(Control.PRESET_FULL_RECT)
 		v.alignment = BoxContainer.ALIGNMENT_CENTER
@@ -139,7 +155,7 @@ func _build_nav(col: VBoxContainer) -> void:
 			Snd.click()
 			Router.go_tab(id))
 		h.add_child(b)
-		tab_btns[id] = [ic, l]
+		tab_btns[id] = [ic, l, pill]
 	col.add_child(nav_bar)
 
 
@@ -160,8 +176,10 @@ func update_bars() -> void:
 	inbox_ico.badge = G.inbox_open().size()
 	for id in tab_btns:
 		var on: bool = id == Router.tab
-		(tab_btns[id][0] as Ico).color = UI.GOLD if on else UI.MUTED
-		(tab_btns[id][1] as Label).add_theme_color_override("font_color", UI.GOLD2 if on else UI.MUTED)
+		(tab_btns[id][0] as Ico).color = UI.BURGUNDY if on else UI.MUTED
+		(tab_btns[id][1] as Label).add_theme_color_override("font_color", UI.BURGUNDY if on else UI.MUTED)
+		(tab_btns[id][2] as Panel).visible = on
+	backdrop.set_env(cur.env() if cur != null else "home")
 
 
 func _notification(what: int) -> void:

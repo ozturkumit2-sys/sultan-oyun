@@ -67,12 +67,12 @@ func _draw() -> void:
 		lo -= pad
 	for gi in 4:
 		var y := area.position.y + area.size.y * float(gi) / 3.0
-		draw_line(Vector2(area.position.x, y), Vector2(area.end.x, y), Color(1, 1, 1, 0.06), 1.0)
+		draw_line(Vector2(area.position.x, y), Vector2(area.end.x, y), Color(0.4, 0.25, 0.3, 0.08), 1.0)
 		var v := hi - (hi - lo) * float(gi) / 3.0
 		draw_string(f, Vector2(0, y + 6), _fmt(v), HORIZONTAL_ALIGNMENT_RIGHT, lw - 8, fs, UI.MUTED)
 	if lo < 0.0 and hi > 0.0:
 		var y0 := area.position.y + area.size.y * (hi / (hi - lo))
-		draw_line(Vector2(area.position.x, y0), Vector2(area.end.x, y0), Color(1, 1, 1, 0.18), 1.0)
+		draw_line(Vector2(area.position.x, y0), Vector2(area.end.x, y0), Color(0.4, 0.25, 0.3, 0.22), 1.0)
 	for si in series.size():
 		var s: Dictionary = series[si]
 		var vals: Array = Array(s["v"])

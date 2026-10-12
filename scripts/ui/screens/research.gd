@@ -8,6 +8,10 @@ func page_title() -> String:
 	return "Consumer research"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "office", "title": "Consumer research", "sub": "Blind and branded surveys", "focus": Vector2(0.3, 0.4), "h": 250.0}
+
+
 func setup(p: Dictionary) -> void:
 	params = p
 	var c := G.pc()
@@ -35,6 +39,7 @@ func setup(p: Dictionary) -> void:
 	if st["brand"] == "" and not bs.is_empty():
 		st["brand"] = bs[0]["id"]
 	_make()
+	_pre_build()
 	build()
 
 

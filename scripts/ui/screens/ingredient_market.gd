@@ -8,6 +8,10 @@ func page_title() -> String:
 	return "Ingredient market"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "garden", "title": "Ingredient market", "sub": "Harvests, prices and supply contracts", "focus": Vector2(0.55, 0.65), "h": 250.0}
+
+
 func build() -> void:
 	var c := G.pc()
 	body.add_child(UI.seg([["Prices", "prices"], ["Supply contracts", "contracts"], ["Deliveries", "deliveries"]], tab, func(v):
@@ -41,14 +45,14 @@ func build() -> void:
 			if ks.is_empty():
 				UI.empty(body, "No supply contracts.")
 			for k in ks:
-				UI.row_card(body, FormulaEngine.short_name(DB.ing(k["ing"])), "%.1f kg/week at %s/kg · %d weeks left" % [float(k["kg"]), G.money(float(k["price"])), int(k["weeks_left"])], G.money(float(k["kg"]) * float(k["price"])) + "/wk", Callable())
+				UI.row_card(body, FormulaEngine.short_name(DB.ing(k["ing"])), "%.1f kg/week at %s/kg · %d weeks left" % [float(k["kg"]), G.money(float(k["price"])), int(k["weeks_left"])], G.money(float(k["kg"]) * float(k["price"])) + "/wk", Callable(), Art.ing_icon(k["ing"], 64))
 			body.add_child(UI.btn("+ New supply contract", _new_contract, "primary", 22))
 		"deliveries":
 			var ds = G.s["deliveries"].filter(func(d): return d["company"] == G.pid())
 			if ds.is_empty():
 				UI.empty(body, "Nothing in transit.")
 			for d in ds:
-				UI.row_card(body, FormulaEngine.short_name(DB.ing(d["ing"])), "%.2f kg · arrives in %d week(s)" % [float(d["kg"]), int(d["weeks"])], G.money(float(d["value"])), Callable())
+				UI.row_card(body, FormulaEngine.short_name(DB.ing(d["ing"])), "%.2f kg · arrives in %d week(s)" % [float(d["kg"]), int(d["weeks"])], G.money(float(d["value"])), Callable(), Art.ing_icon(d["ing"], 64))
 
 
 func _row(c: Dictionary, id: String) -> void:
@@ -61,7 +65,7 @@ func _row(c: Dictionary, id: String) -> void:
 	var sub := "index %.2f %s · stock %.2f kg" % [idx, arrow, FinanceEngine.raw_kg(c, id)]
 	if int(m["short"]) > 0:
 		sub += " · SHORTAGE"
-	UI.row_card(body, FormulaEngine.short_name(rec), sub, G.money(G.ing_price(id)) + "/kg", func(): BuyDialog.open(id), null, UI.RED if idx > 1.15 else UI.GOLD2)
+	UI.row_card(body, FormulaEngine.short_name(rec), sub, G.money(G.ing_price(id)) + "/kg", func(): BuyDialog.open(id), Art.ing_icon(id, 64), UI.RED if idx > 1.15 else UI.GOLD2)
 
 
 func _new_contract() -> void:

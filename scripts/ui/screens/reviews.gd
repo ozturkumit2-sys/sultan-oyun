@@ -8,6 +8,10 @@ func page_title() -> String:
 	return "ScentNotes"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "stilllife", "title": "ScentNotes", "sub": "What wearers and critics say", "focus": Vector2(0.5, 0.6), "h": 250.0}
+
+
 func build() -> void:
 	body.add_child(UI.seg([["My products", "mine"], ["Whole market", "all"], ["Critics", "critics"]], scope, func(v):
 		scope = v

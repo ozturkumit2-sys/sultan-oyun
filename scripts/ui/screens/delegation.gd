@@ -5,6 +5,10 @@ func page_title() -> String:
 	return "Delegation"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "office", "title": "Delegation", "sub": "Let your managers run routine work", "focus": Vector2(0.6, 0.5), "h": 250.0}
+
+
 func build() -> void:
 	var c := G.pc()
 	body.add_child(UI.para("Managers act each week using their real skill and your company data. Major decisions — new brands, acquisitions, large investments, IPO and strategic launches — always stay with you.", 19))

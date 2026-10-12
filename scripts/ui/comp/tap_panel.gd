@@ -19,9 +19,12 @@ func _gui_input(event: InputEvent) -> void:
 		if mb.pressed:
 			_down = true
 			_start = mb.global_position
-			modulate = Color(1.15, 1.1, 1.0)
+			modulate = Color(0.93, 0.9, 0.92)
+			scale = Vector2(0.985, 0.985)
+			pivot_offset = size * 0.5
 		else:
 			modulate = Color.WHITE
+			scale = Vector2.ONE
 			if _down and get_global_rect().has_point(mb.global_position) and mb.global_position.distance_to(_start) < 24.0:
 				_down = false
 				Snd.click()
@@ -31,3 +34,4 @@ func _gui_input(event: InputEvent) -> void:
 		if (event as InputEventMouseMotion).global_position.distance_to(_start) > 24.0:
 			_down = false
 			modulate = Color.WHITE
+			scale = Vector2.ONE

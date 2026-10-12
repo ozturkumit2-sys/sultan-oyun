@@ -9,6 +9,10 @@ func page_title() -> String:
 	return "Discovery set"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "stilllife", "title": "Discovery set", "sub": "Miniatures that turn testers into customers", "focus": Vector2(0.5, 0.7), "h": 250.0}
+
+
 func build() -> void:
 	var c := G.pc()
 	var b := G.brand(params.get("brand", G.company_brands(G.pid())[0]["id"]))

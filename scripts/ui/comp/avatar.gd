@@ -1,49 +1,81 @@
 class_name Avatar
 extends Control
-## Simple stylized portrait generated from a name.
+## Illustrated portrait (assets/art/people), chosen deterministically from the person's name.
+## kind: "std" (office staff), "lab" (perfumers & chemists in lab coats), "glam" (influencers, celebrities).
 
-var seed_text := "x"
+const COUNTS := {"std": 18, "lab": 10, "glam": 10}
+
+var seed_text := "x":
+	set(v):
+		seed_text = v
+		queue_redraw()
 var fem := false
+var kind := "std"
+var ring := Color(1, 1, 1, 0.95)
+var _mat: ShaderMaterial
+static var _shader: Shader
 
 
 func _ready() -> void:
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
+	size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	if _shader == null:
+		_shader = load("res://assets/shaders/rounded.gdshader")
+	_mat = ShaderMaterial.new()
+	_mat.shader = _shader
+	material = _mat
+	resized.connect(queue_redraw)
+
+
+## Configure from an employee record (portrait set follows the role).
+func for_employee(e: Dictionary) -> Avatar:
+	seed_text = str(e.get("name", "x"))
+	fem = e.get("fem", false)
+	kind = kind_for_role(str(e.get("role", "")))
+	return self
+
+
+## Configure for an influencer or celebrity.
+func for_media(m: Dictionary) -> Avatar:
+	seed_text = str(m.get("name", "x"))
+	fem = guess_fem(seed_text)
+	kind = "glam"
+	return self
+
+
+static func kind_for_role(role: String) -> String:
+	return "lab" if role in ["perfumer", "chemist", "research_manager"] else "std"
+
+
+## First names come from per-country pools of feminine and masculine names.
+static func guess_fem(full_name: String) -> bool:
+	var first := full_name.split(" ")[0]
+	for pool in DB.names.get("people", {}).values():
+		if (pool as Dictionary).get("f", []).has(first):
+			return true
+		if (pool as Dictionary).get("m", []).has(first):
+			return false
+	return absi(hash(full_name)) % 2 == 0
+
+
+static func path_for(nm: String, is_fem: bool, k: String) -> String:
+	var n: int = COUNTS.get(k, 18)
+	return "res://assets/art/people/%s_%s_%02d.svg" % [k, "f" if is_fem else "m", absi(hash(nm)) % n]
 
 
 func _draw() -> void:
-	var r := RandomNumberGenerator.new()
-	r.seed = hash(seed_text)
 	var s := minf(size.x, size.y)
-	var c := size * 0.5
-	var bgs := [Color("#3a2f45"), Color("#2f3a45"), Color("#45362f"), Color("#2f4538"), Color("#45302f")]
-	draw_circle(c, s * 0.5, bgs[r.randi_range(0, bgs.size() - 1)])
-	var skins := [Color("#f1d3b8"), Color("#e2b48f"), Color("#c68a5e"), Color("#9a6440"), Color("#6e4428")]
-	var skin: Color = skins[r.randi_range(0, skins.size() - 1)]
-	var hairs := [Color("#2a1d16"), Color("#5a3a22"), Color("#a8743f"), Color("#d8c08a"), Color("#888080"), Color("#141010")]
-	var hair: Color = hairs[r.randi_range(0, hairs.size() - 1)]
-	# shoulders
-	var bgp := _circle(c, s * 0.5)
-	var sh_col := Color("#c9a55a").darkened(r.randf() * 0.5)
-	for poly in Geometry2D.intersect_polygons(_circle(c + Vector2(0, s * 0.52), s * 0.36), bgp):
-		draw_colored_polygon(poly, sh_col)
-	if fem and r.randf() < 0.8:
-		draw_circle(c + Vector2(0, s * 0.02), s * 0.25, hair)
-		var hr := PackedVector2Array([c + Vector2(-s * 0.25, 0), c + Vector2(s * 0.25, 0), c + Vector2(s * 0.25, s * 0.22), c + Vector2(-s * 0.25, s * 0.22)])
-		for poly in Geometry2D.intersect_polygons(hr, bgp):
-			draw_colored_polygon(poly, hair)
-	draw_circle(c + Vector2(0, -s * 0.02), s * 0.2, skin)
-	if not fem or r.randf() < 0.2:
-		draw_arc(c + Vector2(0, -s * 0.05), s * 0.2, PI * 1.05, PI * 1.95, 12, hair, s * 0.09)
+	if s <= 2.0:
+		return
+	var o := (size - Vector2(s, s)) * 0.5
+	if _mat != null:
+		_mat.set_shader_parameter("rect_size", Vector2(s, s))
+		_mat.set_shader_parameter("rect_pos", o)
+		_mat.set_shader_parameter("radius", s * 0.5)
+	var t := Art.tex(path_for(seed_text, fem, kind))
+	if t != null:
+		draw_texture_rect(t, Rect2(o, Vector2(s, s)), false)
 	else:
-		draw_arc(c + Vector2(0, -s * 0.04), s * 0.21, PI * 1.0, PI * 2.0, 12, hair, s * 0.1)
-	draw_circle(c + Vector2(-s * 0.07, -s * 0.03), s * 0.022, Color("#1b1720"))
-	draw_circle(c + Vector2(s * 0.07, -s * 0.03), s * 0.022, Color("#1b1720"))
-	draw_arc(c + Vector2(0, s * 0.04), s * 0.06, 0.3, PI - 0.3, 8, Color("#7a3a3a"), 2.0)
-
-
-func _circle(center: Vector2, rad: float) -> PackedVector2Array:
-	var pts := PackedVector2Array()
-	for i in 40:
-		var a := TAU * float(i) / 40.0
-		pts.append(center + Vector2(cos(a), sin(a)) * rad)
-	return pts
+		draw_circle(o + Vector2(s, s) * 0.5, s * 0.5, UI.BLUSH)
+	if ring.a > 0.0:
+		draw_arc(o + Vector2(s, s) * 0.5, s * 0.5 - maxf(1.0, s * 0.02), 0, TAU, 48, ring, maxf(2.0, s * 0.04), true)

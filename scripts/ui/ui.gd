@@ -2,23 +2,40 @@ class_name UI
 extends RefCounted
 ## Luxury design system: palette, typography and reusable building blocks for every screen.
 
-const BG := Color("#0f0d12")
-const BG2 := Color("#16131a")
-const PANEL := Color("#1d1922")
-const PANEL2 := Color("#25202b")
-const LINE := Color(0.79, 0.65, 0.35, 0.22)
-const GOLD := Color("#c9a55a")
-const GOLD2 := Color("#e6cf95")
-const CREAM := Color("#f3ebdd")
-const TEXT := Color("#eee6d8")
-const MUTED := Color("#a59b8e")
-const DIM := Color("#6f665d")
-const INK := Color("#17131b")
-const GREEN := Color("#7cc79a")
-const RED := Color("#e5786e")
-const ROSE := Color("#d99aa5")
-const BLUE := Color("#86acd9")
-const AMBER := Color("#e3a857")
+const BG := Color("#f6efe6")
+const BG2 := Color("#efe3d3")
+const PANEL := Color("#fffbf6")
+const PANEL2 := Color("#f7ede3")
+const LINE := Color(0.55, 0.38, 0.36, 0.16)
+const GOLD := Color("#b5873b")
+const GOLD2 := Color("#8a3d55")
+const CREAM := Color("#3a2433")
+const TEXT := Color("#3b2c34")
+const MUTED := Color("#85717a")
+const DIM := Color("#b3a2a5")
+const INK := Color("#fffaf3")
+const GREEN := Color("#3b875c")
+const RED := Color("#c0463e")
+const ROSE := Color("#c4677f")
+const BLUE := Color("#4a79b0")
+const AMBER := Color("#bb7720")
+# luxury accents
+const BURGUNDY := Color("#7b2742")
+const PLUM := Color("#6d3f73")
+const LAVENDER := Color("#a08cc8")
+const BLUSH := Color("#efc6c8")
+const SAGE := Color("#7f9f7a")
+const CHAMPAGNE := Color("#ecdcc0")
+const SHADOW := Color(0.42, 0.22, 0.28, 0.10)
+## Section environments: [background top, background bottom, glow A, glow B, accent]
+const ENV := {
+	"home": ["#f8efe4", "#f3e2da", "#f1c9c4", "#efd9b0", "#7b2742"],
+	"lab": ["#f3effa", "#ebe3f3", "#cdbde8", "#f2d1dc", "#6d3f73"],
+	"products": ["#fbf0ee", "#f4e0e0", "#f0bfc6", "#f3dcc0", "#9b3550"],
+	"company": ["#f1f3ea", "#e6ebdc", "#c3d6b9", "#efdcc0", "#4f6f4b"],
+	"finance": ["#f7f1e6", "#ece2d2", "#e8d3a6", "#d8c8e4", "#7b5a2a"],
+	"world": ["#eef4f5", "#e2ecee", "#bcd8dc", "#f1d9c9", "#2f6670"],
+}
 const DIM_COLORS := {"citrus": "#f2d24b", "aromatic": "#8fc1a0", "green": "#6fae5a", "aquatic": "#6db6d9", "floral": "#e79ab3",
 	"fruity": "#f08a5d", "gourmand": "#c98b5a", "spicy": "#d0573f", "woody": "#9b7a52", "amber": "#d6953a", "musk": "#c9bfd6",
 	"powdery": "#d9c7e8", "animalic": "#7a5240"}
@@ -38,6 +55,18 @@ static func font(kind := "body") -> Font:
 
 static func dim_color(d: String) -> Color:
 	return Color(DIM_COLORS.get(d, "#888888"))
+
+
+static func env(key: String) -> Array:
+	var e: Array = ENV.get(key, ENV["home"])
+	return e.map(func(x): return Color(x))
+
+
+static func shadowed(s: StyleBoxFlat, size := 10, alpha := 1.0) -> StyleBoxFlat:
+	s.shadow_color = Color(SHADOW, SHADOW.a * alpha)
+	s.shadow_size = size
+	s.shadow_offset = Vector2(0, 4)
+	return s
 
 
 static func sb(bg: Color, radius := 18, border := Color(0, 0, 0, 0), bw := 0, pad := 16.0) -> StyleBoxFlat:
@@ -118,17 +147,19 @@ static func panel(style := "dark", pad := 18.0) -> PanelContainer:
 	var p := PanelContainer.new()
 	match style:
 		"dark":
-			p.add_theme_stylebox_override("panel", sb(PANEL, 18, LINE, 1, pad))
+			p.add_theme_stylebox_override("panel", shadowed(sb(PANEL, 22, LINE, 1, pad)))
 		"gold":
-			p.add_theme_stylebox_override("panel", sb(Color(0.79, 0.65, 0.35, 0.12), 18, Color(0.79, 0.65, 0.35, 0.55), 1, pad))
+			p.add_theme_stylebox_override("panel", shadowed(sb(Color("#fbf3e3"), 22, Color(GOLD, 0.55), 1, pad)))
 		"cream":
-			p.add_theme_stylebox_override("panel", sb(CREAM, 18, Color(0, 0, 0, 0), 0, pad))
+			p.add_theme_stylebox_override("panel", sb(CHAMPAGNE, 22, Color(0, 0, 0, 0), 0, pad))
 		"flat":
-			p.add_theme_stylebox_override("panel", sb(PANEL2, 14, Color(0, 0, 0, 0), 0, pad))
+			p.add_theme_stylebox_override("panel", sb(PANEL2, 16, Color(0, 0, 0, 0), 0, pad))
 		"warn":
-			p.add_theme_stylebox_override("panel", sb(Color(0.9, 0.47, 0.43, 0.12), 14, Color(0.9, 0.47, 0.43, 0.5), 1, pad))
+			p.add_theme_stylebox_override("panel", sb(Color("#fbe7e2"), 16, Color(RED, 0.45), 1, pad))
 		"good":
-			p.add_theme_stylebox_override("panel", sb(Color(0.49, 0.78, 0.6, 0.1), 14, Color(0.49, 0.78, 0.6, 0.45), 1, pad))
+			p.add_theme_stylebox_override("panel", sb(Color("#e6f1e7"), 16, Color(GREEN, 0.4), 1, pad))
+		"glass":
+			p.add_theme_stylebox_override("panel", shadowed(sb(Color(1, 0.99, 0.97, 0.86), 22, Color(1, 1, 1, 0.9), 1, pad)))
 	return p
 
 
@@ -161,51 +192,64 @@ static func section(parent: Control, text: String, right: Control = null) -> HBo
 
 
 static func style_btn(b: Button, style := "primary", size := 24) -> void:
-	var c_bg := GOLD
+	var c_bg := BURGUNDY
 	var c_fg := INK
-	var border := Color(0, 0, 0, 0)
+	var border := Color(BURGUNDY.darkened(0.2), 0.0)
 	var bw := 0
+	var shadow := true
 	match style:
 		"secondary":
-			c_bg = Color(0.79, 0.65, 0.35, 0.08)
-			c_fg = GOLD2
-			border = Color(0.79, 0.65, 0.35, 0.7)
+			c_bg = Color(1, 0.98, 0.96, 0.92)
+			c_fg = BURGUNDY
+			border = Color(BURGUNDY, 0.45)
 			bw = 2
+			shadow = false
 		"ghost":
 			c_bg = Color(1, 1, 1, 0.0)
-			c_fg = GOLD2
+			c_fg = BURGUNDY
+			shadow = false
 		"danger":
-			c_bg = Color(0.9, 0.47, 0.43, 0.14)
+			c_bg = Color("#fbe9e5")
 			c_fg = RED
-			border = Color(0.9, 0.47, 0.43, 0.6)
+			border = Color(RED, 0.5)
 			bw = 2
+			shadow = false
 		"dark":
-			c_bg = PANEL2
+			c_bg = PANEL
 			c_fg = TEXT
 			border = LINE
 			bw = 1
+			shadow = false
+		"gold":
+			c_bg = GOLD
+			c_fg = INK
 		"chip":
-			c_bg = PANEL2
+			c_bg = Color(1, 0.99, 0.97, 0.9)
 			c_fg = TEXT
-			border = Color(1, 1, 1, 0.08)
+			border = Color(BURGUNDY, 0.16)
 			bw = 1
+			shadow = false
 		"chip_on":
-			c_bg = Color(0.79, 0.65, 0.35, 0.25)
-			c_fg = GOLD2
-			border = GOLD
+			c_bg = Color("#f4d8db")
+			c_fg = BURGUNDY
+			border = Color(ROSE, 0.9)
 			bw = 2
-	var rad := 999 if style.begins_with("chip") else 16
+			shadow = false
+	var rad := 999 if style.begins_with("chip") else 18
 	var n := sb(c_bg, rad, border, bw, 18)
-	var h := sb(c_bg.lightened(0.08) if c_bg.a > 0.5 else Color(c_bg.r, c_bg.g, c_bg.b, c_bg.a + 0.08), rad, border, bw, 18)
-	var p := sb(c_bg.darkened(0.12) if c_bg.a > 0.5 else Color(c_bg.r, c_bg.g, c_bg.b, c_bg.a + 0.15), rad, border, bw, 18)
-	var d := sb(Color(0.3, 0.28, 0.3, 0.5), rad, Color(0, 0, 0, 0), 0, 18)
+	var h := sb(c_bg.lightened(0.06) if c_bg.a > 0.5 else Color(c_bg.r, c_bg.g, c_bg.b, c_bg.a + 0.06), rad, border, bw, 18)
+	var p := sb(c_bg.darkened(0.1) if c_bg.a > 0.5 else Color(BURGUNDY, 0.1), rad, border, bw, 18)
+	if shadow:
+		shadowed(n, 8, 1.6)
+		shadowed(h, 8, 1.6)
+	var d := sb(Color("#e9e0da"), rad, Color(0, 0, 0, 0), 0, 18)
 	for st in [["normal", n], ["hover", h], ["pressed", p], ["disabled", d], ["hover_pressed", p], ["focus", n]]:
 		b.add_theme_stylebox_override(st[0], st[1])
 	b.add_theme_font_override("font", font("semi"))
 	b.add_theme_font_size_override("font_size", size)
 	for k in ["font_color", "font_hover_color", "font_pressed_color", "font_focus_color", "font_hover_pressed_color"]:
 		b.add_theme_color_override(k, c_fg)
-	b.add_theme_color_override("font_disabled_color", Color(0.75, 0.72, 0.7, 0.6))
+	b.add_theme_color_override("font_disabled_color", Color(0.55, 0.48, 0.5, 0.8))
 	b.focus_mode = Control.FOCUS_NONE
 
 
@@ -279,17 +323,17 @@ static func stat(label: String, value: String, sub := "", color := CREAM, sub_co
 
 static func pill(text: String, color := GOLD, size := 17) -> PanelContainer:
 	var p := PanelContainer.new()
-	var s := sb(Color(color.r, color.g, color.b, 0.16), 999, Color(color.r, color.g, color.b, 0.6), 1, 10)
+	var s := sb(Color(color.r, color.g, color.b, 0.13), 999, Color(color.r, color.g, color.b, 0.5), 1, 10)
 	s.content_margin_top = 3
 	s.content_margin_bottom = 3
 	p.add_theme_stylebox_override("panel", s)
-	p.add_child(lbl(text, size, color.lightened(0.15), "semi"))
+	p.add_child(lbl(text, size, color.darkened(0.25), "semi"))
 	p.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	p.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	return p
 
 
-static func bar(value: float, color := GOLD, h := 10.0, bg := Color(1, 1, 1, 0.07)) -> Control:
+static func bar(value: float, color := GOLD, h := 10.0, bg := Color(0.45, 0.28, 0.33, 0.1)) -> Control:
 	var b := MeterBar.new()
 	b.value = clampf(value, 0.0, 1.0)
 	b.color = color
@@ -310,7 +354,7 @@ static func divider(parent: Control) -> void:
 ## A tappable row card: title, subtitle, right value, optional leading control.
 static func row_card(parent: Control, title_text: String, sub: String, right: String, cb: Callable, lead: Control = null, right_color := GOLD2) -> PanelContainer:
 	var p := TapPanel.new()
-	p.add_theme_stylebox_override("panel", sb(PANEL, 16, LINE, 1, 16))
+	p.add_theme_stylebox_override("panel", shadowed(sb(PANEL, 20, LINE, 1, 16), 8))
 	p.tapped = cb
 	var h := hbox(14)
 	p.add_child(h)
@@ -348,10 +392,10 @@ static func slider(minv: float, maxv: float, step: float, val: float, cb: Callab
 	s.value = val
 	s.custom_minimum_size = Vector2(120, 48)
 	s.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	var track := sb(Color(1, 1, 1, 0.1), 999, Color(0, 0, 0, 0), 0, 0)
+	var track := sb(Color(0.45, 0.28, 0.33, 0.12), 999, Color(0, 0, 0, 0), 0, 0)
 	track.content_margin_top = 4
 	track.content_margin_bottom = 4
-	var fill := sb(GOLD, 999, Color(0, 0, 0, 0), 0, 0)
+	var fill := sb(ROSE, 999, Color(0, 0, 0, 0), 0, 0)
 	fill.content_margin_top = 4
 	fill.content_margin_bottom = 4
 	s.add_theme_stylebox_override("slider", track)
@@ -375,7 +419,7 @@ static func _knob() -> Texture2D:
 		for x in 40:
 			var d := Vector2(x - 19.5, y - 19.5).length()
 			var a := clampf(18.0 - d, 0.0, 1.0)
-			var c := GOLD2 if d < 13.0 else GOLD
+			var c := Color("#fffaf5") if d < 11.0 else BURGUNDY
 			img.set_pixel(x, y, Color(c.r, c.g, c.b, a))
 	_knob_tex = ImageTexture.create_from_image(img)
 	return _knob_tex
@@ -391,8 +435,8 @@ static func line_edit(text: String, placeholder := "", size := 26) -> LineEdit:
 	e.add_theme_color_override("font_color", TEXT)
 	e.add_theme_color_override("font_placeholder_color", DIM)
 	e.add_theme_color_override("caret_color", GOLD)
-	e.add_theme_stylebox_override("normal", sb(PANEL2, 14, LINE, 1, 16))
-	e.add_theme_stylebox_override("focus", sb(PANEL2, 14, GOLD, 2, 16))
+	e.add_theme_stylebox_override("normal", sb(PANEL, 16, Color(BURGUNDY, 0.2), 1, 16))
+	e.add_theme_stylebox_override("focus", sb(PANEL, 16, ROSE, 2, 16))
 	e.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	return e
 
@@ -420,6 +464,28 @@ static func icon(name: String, size := 40.0, color := GOLD) -> Control:
 	return i
 
 
+## Icon inside a soft tinted circle.
+static func icon_bubble(ic: String, col: Color, sz := 40.0) -> Control:
+	var wrap := PanelContainer.new()
+	wrap.add_theme_stylebox_override("panel", sb(Color(col, 0.14), 999, Color(0, 0, 0, 0), 0, 0))
+	wrap.custom_minimum_size = Vector2(sz, sz)
+	wrap.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	wrap.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	var i := icon(ic, sz * 0.6, col)
+	i.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+	i.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	wrap.add_child(i)
+	return wrap
+
+
+## Pastel background colours derived from a product's scent profile.
+static func scent_tint(profile: PackedFloat32Array) -> Array:
+	var liq := BottleView.liquid_color(profile) if profile.size() == DB.dims.size() else Color("#f1dfa0")
+	var top := liq.lerp(Color("#fffaf4"), 0.72)
+	var bot := liq.lerp(Color("#f6e6dc"), 0.5)
+	return [top, bot, liq]
+
+
 static func dims_bars(parent: Control, v: PackedFloat32Array, n := 5) -> void:
 	var idx: Array = []
 	for i in v.size():
@@ -440,7 +506,7 @@ static func dims_bars(parent: Control, v: PackedFloat32Array, n := 5) -> void:
 
 static func tile(parent: Control, icon_name: String, title_text: String, sub: String, cb: Callable, badge := 0) -> PanelContainer:
 	var p := TapPanel.new()
-	p.add_theme_stylebox_override("panel", sb(PANEL, 18, LINE, 1, 16))
+	p.add_theme_stylebox_override("panel", shadowed(sb(PANEL, 22, LINE, 1, 16), 8))
 	p.tapped = cb
 	p.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	p.custom_minimum_size = Vector2(0, 150)
@@ -459,3 +525,28 @@ static func tile(parent: Control, icon_name: String, title_text: String, sub: St
 
 static func back_row(parent: Control, text: String, cb: Callable) -> void:
 	parent.add_child(btn(text, cb, "secondary", 22, 64))
+
+
+## Compact figure card: icon bubble, label, large value (tappable).
+static func kpi(ic: String, label: String, value: String, col: Color, cb: Callable = Callable(), sub := "") -> Control:
+	var p := GradPanel.new().colors(Color("#fffdf9"), Color("#f8efe6")).set_pad(12)
+	if cb.is_valid():
+		p.tapped = cb
+	p.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	var v := vbox(2)
+	p.add_child(v)
+	var top := hbox(6)
+	top.add_child(icon_bubble(ic, col, 34))
+	var l := lbl(label, 15, MUTED, "semi")
+	l.clip_text = true
+	l.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	top.add_child(l)
+	v.add_child(top)
+	var vl := lbl(value, 27, CREAM, "title")
+	vl.clip_text = true
+	v.add_child(vl)
+	if sub != "":
+		var sl := lbl(sub, 15, MUTED, "medium")
+		sl.clip_text = true
+		v.add_child(sl)
+	return p

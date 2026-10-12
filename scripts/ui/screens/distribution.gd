@@ -8,6 +8,10 @@ func page_title() -> String:
 	return "Distribution"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "boutique", "title": "Retail & distribution", "sub": "Where your perfumes meet their buyers", "focus": Vector2(0.5, 0.6), "h": 250.0}
+
+
 func build() -> void:
 	var c := G.pc()
 	if cid == "":
@@ -26,7 +30,8 @@ func build() -> void:
 		UI.empty(body, "None yet.")
 	for a in ags:
 		var chd: Dictionary = DB.channels[a["ch"]]
-		var cc := UI.card(body, "flat", 4)
+		var cc := UI.card(body, "flat", 6)
+		cc.add_child(_art(a["ch"], 120.0))
 		var h := UI.hbox(8)
 		h.add_child(UI.lbl("%s · %s" % [a["partner"], chd["name"]], 21, UI.CREAM, "semi"))
 		h.add_child(UI.expand(UI.spacer()))
@@ -59,6 +64,7 @@ func build() -> void:
 				break
 			reasons.append("%s: %s" % [b["name"], rq])
 		var cc2 := UI.card(body)
+		cc2.add_child(_art(ch, 150.0))
 		cc2.add_child(UI.lbl("%s — %s" % [chd2["name"], off["partner"]], 21, UI.CREAM, "semi"))
 		cc2.add_child(UI.lbl("Retailer margin %s · listing fee %s · reach quality %d" % [G.pct(float(off["margin"])), G.money(float(off["fee"])), int(float(off["q"]) * 100)], 17, UI.MUTED))
 		var pos: Array = chd2.get("posit", [])
@@ -73,3 +79,16 @@ func build() -> void:
 				var e := CompanyEngine.sign_channel(G.pc(), cid, chid, off)
 				Router.toast(e if e != "" else "Agreement signed.", "bad" if e != "" else "good")
 				G.touch(), "primary", 20, 62))
+
+
+## Illustration of a retail channel.
+func _art(ch: String, h: float) -> Control:
+	if ch == "perfumery":
+		var b := Art.banner("boutique", h, "", 16)
+		b.focus = Vector2(0.5, 0.45)
+		return b
+	var name: String = {"marketplace": "online", "dtc": "online", "beauty": "store", "dept": "dept", "mass": "drugstore", "distributor": "distributor"}.get(ch, "store")
+	var a := CampaignArt.new().setup("ch/" + name)
+	a.custom_minimum_size = Vector2(0, h)
+	a.radius = 16.0
+	return a

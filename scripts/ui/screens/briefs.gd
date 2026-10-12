@@ -8,6 +8,10 @@ func page_title() -> String:
 	return "Project briefs"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "office", "title": "Project briefs", "sub": "Commission a fragrance from your perfumers", "focus": Vector2(0.2, 0.4), "h": 250.0}
+
+
 func build() -> void:
 	var perfs := G.company_employees(G.pid(), "perfumer")
 	body.add_child(UI.para("Project slots in use: %d of %d. Your perfumers use the same ingredients and formulation model as you — skill improves consistency, not guaranteed success." % [Lab.active_projects(G.pid()), Lab.project_slots(G.pid())], 19))

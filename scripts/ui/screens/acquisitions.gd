@@ -5,6 +5,10 @@ func page_title() -> String:
 	return "Acquisitions"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "hq4", "title": "Mergers & acquisitions", "sub": "Buy a rival house — brands, people and all", "focus": Vector2(0.5, 0.35), "h": 250.0}
+
+
 func build() -> void:
 	var c := G.pc()
 	body.add_child(UI.para("Buying a rival transfers its brands, products, formulas, stock, staff, offices, retail agreements, cash and debts — exactly once. Expect integration costs and some staff unrest.", 19))

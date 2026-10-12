@@ -8,6 +8,22 @@ dikey ekranlı, tamamen çevrimdışı bir Android işletme simülasyonu. Godot 
 APK her zaman bu dalın `apk/` klasöründe en güncel hâliyle durur. İndirdikten sonra dosyayı aç; Android
 "bilinmeyen kaynak" izni isterse bu kurulum için izin ver.
 
+## v1.1 — Görsel yenileme
+
+- Koyu "finans paneli" görünümü kaldırıldı: fildişi/şampanya zemin, pudra pembe, lavanta, adaçayı yeşili ve
+  bordo vurgularla aydınlık, lüks bir tasarım; her bölümün kendi atmosferi var.
+- Tamamı bu proje için üretilmiş özgün vektör çizimler: laboratuvar, 4 farklı genel merkez binası (yükseldikçe
+  değişir), fabrika, butik, fotoğraf stüdyosu, lavanta tarlası, ofis, şehir silüeti, çiçekli kaide sahnesi.
+- 68 malzemenin her biri için ayrı illüstrasyon (gül, ud, yasemin, vanilya, bergamot, lavanta…).
+- 76 karakter portresi: ofis çalışanları, laboratuvar önlüklü parfümörler, kurgusal influencer ve ünlüler.
+- 9 reklam kampanyası görseli ve 5 satış kanalı sahnesi; kampanyalarda senin ürününün şişesi görünür.
+- Laboratuvar artık oyunun merkezinde: büyük şişe formüle göre anlık renk alır, malzemeler şişeye "dökülür",
+  sıvı çalkalanır; şişe şekli, kapağı ve sıvı rengi seçilebilir.
+- Ürün portföyü şişe galerisi, ürün sayfası çiçekli kaide üzerinde vitrin, dünya haritası açık renk + ofis
+  pinleri + genişleme rotaları.
+
+Ekonomi ve simülasyon değişmedi; eski kayıtlar açılır.
+
 ## Oyunda neler var?
 
 - **Formülasyon:** 68 malzeme (doğal yağlar, absolütler, sentetik moleküller, akorlar, çözücüler ve yardımcılar),

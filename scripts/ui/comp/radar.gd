@@ -26,10 +26,10 @@ func _draw() -> void:
 		for i in n + 1:
 			var a := -PI / 2 + TAU * float(i % n) / float(n)
 			pts.append(c + Vector2(cos(a), sin(a)) * r * ring)
-		draw_polyline(pts, Color(1, 1, 1, 0.08), 1.0, true)
+		draw_polyline(pts, Color(0.4, 0.25, 0.3, 0.12), 1.0, true)
 	for i in n:
 		var a := -PI / 2 + TAU * float(i) / float(n)
-		draw_line(c, c + Vector2(cos(a), sin(a)) * r, Color(1, 1, 1, 0.05), 1.0)
+		draw_line(c, c + Vector2(cos(a), sin(a)) * r, Color(0.4, 0.25, 0.3, 0.08), 1.0)
 		var d: String = DB.dims[i]
 		var lp := c + Vector2(cos(a), sin(a)) * (r + 24)
 		var t := d.capitalize()

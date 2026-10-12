@@ -5,6 +5,10 @@ func page_title() -> String:
 	return "Perfumer transfers"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "lab", "title": "Perfumer transfers", "sub": "The most sought-after noses in the industry", "focus": Vector2(0.85, 0.45), "h": 250.0}
+
+
 func build() -> void:
 	body.add_child(UI.para("Rival perfumers weigh salary, signing bonus, your prestige and headquarters, their loyalty and motivation. Contracts still running require a buyout paid to their employer.", 19))
 	var list: Array = []
@@ -17,8 +21,7 @@ func build() -> void:
 		var left := maxi(0, int(e["contract_end"]) - G.week())
 		var sub := "%s · skill %d · %s/yr · contract %s" % [G.company(e["employer"])["name"], int(Staff.perfumer_skill(e) * 100), G.money(float(e["salary"])), ("%d wks" % left) if left > 0 else "expired"]
 		var av = Avatar.new()
-		av.seed_text = e["name"]
-		av.fem = e.get("fem", false)
+		av.for_employee(e)
 		av.custom_minimum_size = Vector2(64, 64)
 		UI.row_card(body, e["name"], sub, "Approach", func(): _approach(eid), av)
 

@@ -6,6 +6,16 @@ static func show(id: String) -> void:
 	var rec := DB.ing(id)
 	var c := G.pc()
 	Router.modal(rec["name"], func(v: VBoxContainer):
+		var hero := UI.hbox(12)
+		var art := Art.ing_icon(id, 190)
+		hero.add_child(art)
+		var hv := UI.vbox(6)
+		hv.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		hv.alignment = BoxContainer.ALIGNMENT_CENTER
+		hv.add_child(UI.lbl(str(rec.get("origin", "")) if str(rec.get("origin", "")) != "" else "Created in the laboratory", 18, UI.MUTED, "medium", HORIZONTAL_ALIGNMENT_LEFT, true))
+		hv.add_child(UI.lbl(G.money(G.ing_price(id)) + " / kg", 30, UI.BURGUNDY, "title"))
+		hero.add_child(hv)
+		v.add_child(hero)
 		var h := UI.hbox(8)
 		h.add_child(UI.pill(str(rec["cat"]), UI.GOLD))
 		h.add_child(UI.pill("Natural" if rec.get("nat", false) else "Synthetic", UI.GREEN if rec.get("nat", false) else UI.BLUE))

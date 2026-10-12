@@ -8,6 +8,10 @@ func page_title() -> String:
 	return "Competitors"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "skyline", "title": "The fragrance industry", "sub": "Rival houses and the rankings", "focus": Vector2(0.5, 0.5), "h": 250.0}
+
+
 func build() -> void:
 	body.add_child(UI.seg([["Revenue", "rev"], ["Profit", "net"], ["Units", "units"], ["Valuation", "val"], ["Prestige", "prestige"]], sort, func(v):
 		sort = v

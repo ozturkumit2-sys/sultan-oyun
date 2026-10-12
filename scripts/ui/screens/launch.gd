@@ -28,6 +28,10 @@ func setup(p: Dictionary) -> void:
 		if st["v"] < 0:
 			st["v"] = f["versions"].size() - 1
 		st["audience"] = f.get("audience", "any")
+		var lk: Dictionary = f.get("look", {})
+		for k in ["shape", "cap", "tint"]:
+			if lk.has(k):
+				st["bottle"][k] = lk[k]
 	if st["parent"] != "":
 		var par := G.product(st["parent"])
 		for k in ["brand", "audience", "fmt", "conc", "pack", "markets"]:
@@ -153,10 +157,16 @@ func _step_bottle() -> void:
 	var b := G.brand(st["brand"])
 	var fv := G.formula_version(st["fid"], st["v"])
 	var ev := FormulaEngine.evaluate(fv["items"], st["fmt"], st["conc"])
-	var pv := UI.card(body, "gold")
-	var bv := BottleView.new().setup(st["bottle"], b.get("name", ""), st["name"], ev["profile"])
-	bv.custom_minimum_size = Vector2(0, 380)
-	pv.add_child(bv)
+	var sh := Showcase.new().setup(st["bottle"], b.get("name", ""), st["name"], ev["profile"])
+	sh.custom_minimum_size = Vector2(0, 460)
+	body.add_child(sh)
+	UI.section(body, "Juice colour")
+	var topts: Array = []
+	for t in BottleView.TINTS.keys():
+		topts.append([str(t).capitalize(), t])
+	body.add_child(UI.seg(topts, st["bottle"].get("tint", "natural"), func(v):
+		st["bottle"]["tint"] = v
+		rebuild(), 19))
 	if st["kind"] == "full":
 		UI.section(body, "Format")
 		var fopts: Array = []

@@ -12,6 +12,7 @@ func build() -> void:
 	if role_f == "" and params.has("role"):
 		role_f = params["role"]
 	var c := G.pc()
+	Art.hero(body, "office", "Talent scouting", "%d candidates this month" % G.s["candidates"].size(), 260, Vector2(0.2, 0.45))
 	body.add_child(UI.para("Staff %d / %d. New candidates arrive every 4 weeks; better reputation and headquarters attract stronger people. Recruitment fee ≈ %d%% of annual salary." % [Staff.count(G.pid()), Staff.capacity(c), int(round((0.15 - 0.07 * Staff.best_skill(G.pid(), "hr_manager")) * 100))], 19))
 	var ro: Array = [["All", ""]]
 	for r in DB.biz["roles"]:
@@ -20,21 +21,25 @@ func build() -> void:
 		role_f = v
 		rebuild(), 18))
 	var any := false
+	var grid := UI.grid(2, 12)
+	body.add_child(grid)
 	for id in G.s["candidates"]:
 		var e := G.employee(id)
 		if e.is_empty() or (role_f != "" and e["role"] != role_f):
 			continue
 		any = true
 		var eid: String = id
-		EmpRow.add(body, e, func(): _offer(eid), "Hire")
+		grid.add_child(EmpRow.card(e, func(): _offer(eid), "Hire"))
 	if not any:
 		UI.empty(body, "No candidates for this role right now. Check again in a few weeks.")
 	var free = G.s["employees"].values().filter(func(x): return x.get("employer", "") == "" and x.get("status", "") == "free" and (role_f == "" or x["role"] == role_f))
 	if not free.is_empty():
 		UI.section(body, "Free agents (left other companies)")
+		var fg := UI.grid(2, 12)
+		body.add_child(fg)
 		for e in free.slice(0, 10):
 			var eid2: String = e["id"]
-			EmpRow.add(body, e, func(): _offer(eid2), "Hire")
+			fg.add_child(EmpRow.card(e, func(): _offer(eid2), "Hire"))
 
 
 func _offer(eid: String) -> void:

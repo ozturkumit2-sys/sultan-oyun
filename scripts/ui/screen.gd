@@ -18,7 +18,20 @@ func _init() -> void:
 func setup(p: Dictionary) -> void:
 	params = p
 	_make()
+	_pre_build()
 	build()
+
+
+## Optional illustrated header: {"scene", "title", "sub", "focus", "h", "plaque"}.
+func hero_spec() -> Dictionary:
+	return {}
+
+
+func _pre_build() -> void:
+	var h := hero_spec()
+	if h.is_empty() or body == null:
+		return
+	Art.hero(body, str(h.get("scene", "lab")), str(h.get("title", "")), str(h.get("sub", "")), float(h.get("h", 260.0)), h.get("focus", Vector2(0.5, 0.5)), str(h.get("plaque", "")))
 
 
 func _make() -> void:
@@ -55,6 +68,7 @@ func rebuild() -> void:
 	for ch in body.get_children():
 		body.remove_child(ch)
 		ch.queue_free()
+	_pre_build()
 	build()
 	if scroll != null and y > 0:
 		await get_tree().process_frame
@@ -77,3 +91,10 @@ func on_shown() -> void:
 
 func page_title() -> String:
 	return title_text
+
+
+## Visual environment of this screen (background palette); defaults to the active tab.
+func env() -> String:
+	if params.has("env"):
+		return str(params["env"])
+	return {"home": "home", "lab": "lab", "products": "products", "company": "company", "finance": "finance"}.get(Router.tab, "home")

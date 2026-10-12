@@ -5,6 +5,10 @@ func page_title() -> String:
 	return "Loans & credit"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "hq2", "title": "Loans & credit", "sub": "Borrow to grow — carefully", "focus": Vector2(0.5, 0.4), "h": 250.0}
+
+
 func build() -> void:
 	var c := G.pc()
 	var lim := FinanceEngine.credit_limit(c)

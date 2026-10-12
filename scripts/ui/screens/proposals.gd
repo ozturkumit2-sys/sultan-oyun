@@ -8,6 +8,10 @@ func page_title() -> String:
 	return "Perfumer proposals"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "lab", "title": "Perfumer proposals", "sub": "Formulas your team created", "focus": Vector2(0.9, 0.45), "h": 250.0}
+
+
 func build() -> void:
 	body.add_child(UI.seg([["Open", "open"], ["Revising", "revising"], ["Postponed", "postponed"], ["Decided", "decided"]], show, func(v):
 		show = v

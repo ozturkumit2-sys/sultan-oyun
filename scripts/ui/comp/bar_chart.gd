@@ -48,4 +48,4 @@ func _draw() -> void:
 		var lb := str(b[0])
 		var lw := f.get_string_size(lb, HORIZONTAL_ALIGNMENT_LEFT, -1, 16).x
 		draw_string(f, Vector2(x + w * 0.32 - lw * 0.5, size.y - 6), lb, HORIZONTAL_ALIGNMENT_LEFT, -1, 16, UI.MUTED)
-	draw_line(Vector2(0, zero_y), Vector2(size.x, zero_y), Color(1, 1, 1, 0.15), 1.0)
+	draw_line(Vector2(0, zero_y), Vector2(size.x, zero_y), Color(0.4, 0.25, 0.3, 0.2), 1.0)

@@ -5,6 +5,14 @@ func page_title() -> String:
 	return G.company(params.get("id", "")).get("name", "Company")
 
 
+func hero_spec() -> Dictionary:
+	var c := G.company(params.get("id", ""))
+	if c.is_empty():
+		return {}
+	var tier := clampi(int(c.get("hq", {}).get("tier", 3)), 1, 4)
+	return {"scene": Art.hq_scene(tier), "title": "", "sub": "", "focus": Vector2(0.5, 0.35), "h": 300.0, "plaque": c["name"]}
+
+
 func build() -> void:
 	var c := G.company(params["id"])
 	if c.is_empty():

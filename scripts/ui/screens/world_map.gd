@@ -26,9 +26,9 @@ func _make() -> void:
 		rebuild())
 	var zb := UI.vbox(8)
 	zb.position = Vector2(10, 10)
-	var zi := UI.btn("+", func(): map.set_zoom(map.zoom * 1.3), "dark", 30, 60)
+	var zi := UI.btn("+", func(): map.set_zoom(map.zoom * 1.3), "secondary", 30, 60)
 	zi.custom_minimum_size.x = 60
-	var zo := UI.btn("−", func(): map.set_zoom(map.zoom / 1.3), "dark", 30, 60)
+	var zo := UI.btn("−", func(): map.set_zoom(map.zoom / 1.3), "secondary", 30, 60)
 	zo.custom_minimum_size.x = 60
 	zb.add_child(zi)
 	zb.add_child(zo)
@@ -65,7 +65,42 @@ func build() -> void:
 	map.status = st
 	map.selected = sel
 	map.queue_redraw()
+	_expansion(c)
 	if sel == "":
 		body.add_child(UI.para("Tap a market on the map.", 20))
 		return
 	CountryPanel.build(body, sel)
+
+
+## Expansion progress: markets with offices, markets where you sell, and the rest still to conquer.
+func _expansion(c: Dictionary) -> void:
+	var offices: int = c["offices"].size()
+	var p := GradPanel.new().colors(Color("#f4f9fa"), Color("#e6f0f2")).set_pad(16)
+	p.border = Color(UI.BLUE, 0.2)
+	body.add_child(p)
+	var v := UI.vbox(10)
+	p.add_child(v)
+	var h := UI.hbox(10)
+	h.add_child(UI.icon_bubble("globe", UI.BLUE, 48))
+	var hv := UI.vbox(0)
+	hv.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	hv.add_child(UI.lbl("Global expansion", 22, UI.CREAM, "semi"))
+	hv.add_child(UI.lbl("%d of %d markets with an office" % [offices, DB.countries.size()], 17, UI.MUTED, "medium"))
+	h.add_child(hv)
+	h.add_child(UI.title("%d%%" % int(100.0 * offices / float(DB.countries.size())), 30, UI.BURGUNDY))
+	v.add_child(h)
+	v.add_child(UI.bar(float(offices) / float(DB.countries.size()), UI.BURGUNDY, 12))
+	var fl := HFlowContainer.new()
+	fl.add_theme_constant_override("h_separation", 8)
+	fl.add_theme_constant_override("v_separation", 8)
+	for ct in DB.countries:
+		var id: String = ct["id"]
+		var off := CompanyEngine.office_level(G.pid(), id)
+		var col := UI.BURGUNDY if off > 0 else (UI.ROSE if map.status.get(id, {}).get("sells", false) else UI.DIM)
+		var b := UI.chip(("● " if off > 0 else "○ ") + str(ct["name"]), id == sel, func():
+			sel = id
+			map.focus(id)
+			rebuild(), 17)
+		b.add_theme_color_override("font_color", col)
+		fl.add_child(b)
+	v.add_child(fl)

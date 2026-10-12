@@ -27,7 +27,7 @@ static func add(parent: Control, t: Dictionary) -> void:
 		var thr: Array = []
 		for x in FormulaEngine.T_POINTS:
 			thr.append(float(DB.bal["perf"]["detect"]))
-		series.append({"v": thr, "c": Color(1, 1, 1, 0.3)})
+		series.append({"v": thr, "c": Color(0.4, 0.25, 0.3, 0.35)})
 		ch.fill = true
 		ch.set_data(series, xl, "raw")
 		c.add_child(ch)

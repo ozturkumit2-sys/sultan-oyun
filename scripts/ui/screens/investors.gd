@@ -5,6 +5,10 @@ func page_title() -> String:
 	return "Investors & board"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "hq4", "title": "Investors & board", "sub": "Funding, IPO and dividends", "focus": Vector2(0.5, 0.3), "h": 250.0}
+
+
 func build() -> void:
 	var c := G.pc()
 	UI.section(body, "Ownership")

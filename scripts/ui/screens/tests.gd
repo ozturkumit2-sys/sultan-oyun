@@ -11,6 +11,10 @@ func page_title() -> String:
 	return "Technical tests"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "lab", "title": "Technical tests", "sub": "Longevity, projection, stability, safety", "focus": Vector2(0.45, 0.7), "h": 250.0}
+
+
 func setup(p: Dictionary) -> void:
 	params = p
 	fid = p.get("fid", "")
@@ -22,6 +26,7 @@ func setup(p: Dictionary) -> void:
 		if not forms.is_empty():
 			_select(forms[forms.size() - 1]["id"])
 	_make()
+	_pre_build()
 	build()
 
 

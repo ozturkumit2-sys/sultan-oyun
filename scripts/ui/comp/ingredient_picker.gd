@@ -8,7 +8,7 @@ const FILTERS := [["All", "all"], ["Top", "top"], ["Heart", "heart"], ["Base", "
 static func open(cb: Callable) -> void:
 	var state := {"f": "all"}
 	Router.modal("Add a material", func(v: VBoxContainer):
-		var list := UI.vbox(8)
+		var list := UI.grid(3, 10)
 		var fill := func(): pass
 		fill = func():
 			for ch in list.get_children():
@@ -31,20 +31,13 @@ static func open(cb: Callable) -> void:
 				if not ok:
 					continue
 				var avail := G.ing_available(G.pid(), id)
-				var tops := FormulaEngine.top_dims(rec["vec"], 2)
-				var sub := ", ".join(tops.map(func(d): return str(d).capitalize())) if not tops.is_empty() else str(rec["cat"])
-				sub += " · " + ("natural" if rec.get("nat", false) else "synthetic")
-				var dot := ColorRect.new()
-				dot.color = UI.dim_color(tops[0]) if not tops.is_empty() else UI.BLUE
-				dot.custom_minimum_size = Vector2(8, 52)
-				var right := G.money(G.ing_price(id)) + "/kg" if avail else "🔒 Qualify"
 				var iid: String = id
-				UI.row_card(list, FormulaEngine.short_name(rec), sub, right, func():
+				list.add_child(IngredientCard.make(id, func():
 					if avail:
 						Router.close_modal()
 						cb.call(iid)
 					else:
-						IngredientInfo.show(iid), dot, UI.GOLD2 if avail else UI.MUTED)
+						IngredientInfo.show(iid)))
 		var seg := UI.seg(FILTERS, state["f"], func(x): pass, 19)
 		v.add_child(seg)
 		for b in seg.get_children():

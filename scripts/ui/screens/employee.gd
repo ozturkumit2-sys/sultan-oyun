@@ -10,12 +10,15 @@ func build() -> void:
 	if e.is_empty():
 		return
 	var mine: bool = e.get("employer", "") == G.pid()
-	var hc := UI.card(body, "gold")
+	var hcp := GradPanel.new().colors(Color("#fdf6f0"), Color("#f3e6ea")).set_pad(18)
+	hcp.border = Color(UI.GOLD, 0.4)
+	body.add_child(hcp)
+	var hc := UI.vbox(10)
+	hcp.add_child(hc)
 	var h := UI.hbox(14)
 	var av := Avatar.new()
-	av.seed_text = e["name"]
-	av.fem = e.get("fem", false)
-	av.custom_minimum_size = Vector2(110, 110)
+	av.for_employee(e)
+	av.custom_minimum_size = Vector2(150, 150)
 	h.add_child(av)
 	var v := UI.vbox(2)
 	v.size_flags_horizontal = Control.SIZE_EXPAND_FILL

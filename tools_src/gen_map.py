@@ -63,21 +63,25 @@ def draw_ring(dr, ext, fill, outline, width):
         if max(xs) < 0 or min(xs) > W * 2:
             continue
         dr.polygon(pts, fill=fill, outline=outline, width=width)
-img = Image.new("RGBA", (W * 2, H * 2), (16, 13, 19, 255))
+img = Image.new("RGBA", (W * 2, H * 2), (214, 233, 238, 255))
 d = ImageDraw.Draw(img)
+# soft ocean gradient (light theme)
+for yy in range(H * 2):
+    t = yy / (H * 2)
+    d.line([(0, yy), (W * 2, yy)], fill=(int(226 - 22 * t), int(240 - 16 * t), int(244 - 12 * t), 255))
 # graticule
 for lon in range(-180, 181, 30):
     x = proj(lon, 0)[0] * W * 2
-    d.line([(x, 0), (x, H * 2)], fill=(201, 165, 90, 18), width=2)
+    d.line([(x, 0), (x, H * 2)], fill=(255, 255, 255, 110), width=2)
 for lat in range(-60, 81, 20):
     y = proj(0, lat)[1] * H * 2
-    d.line([(0, y), (W * 2, y)], fill=(201, 165, 90, 18), width=2)
+    d.line([(0, y), (W * 2, y)], fill=(255, 255, 255, 110), width=2)
 out = {"lat_top": LAT_TOP, "lat_bot": LAT_BOT, "countries": {}}
 for c in countries:
     for poly in geom(c):
         if len(poly[0]) < 3:
             continue
-        draw_ring(d, poly[0], (42, 35, 46, 255), (92, 78, 70, 255), 2)
+        draw_ring(d, poly[0], (247, 239, 226, 255), (226, 208, 188, 255), 2)
     cid = str(c.get("id", ""))
     if cid in IDS:
         code = IDS[cid]
@@ -110,7 +114,7 @@ for g in land["objects"]["land"]["geometries"]:
             ext = unwrap(r)
             for off in (-360, 0, 360):
                 pts = [(proj(lo + off, la)[0] * W * 2, proj(lo + off, la)[1] * H * 2) for lo, la in ext]
-                d.line(pts + [pts[0]], fill=(176, 142, 78, 230), width=3)
+                d.line(pts + [pts[0]], fill=(196, 168, 138, 235), width=3)
 img = img.resize((W, H), Image.LANCZOS)
 img.convert("RGB").save(OUT_PNG, optimize=True)
 json.dump(out, open(OUT_JSON, "w"), separators=(",", ":"))

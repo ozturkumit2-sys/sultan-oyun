@@ -5,6 +5,10 @@ func page_title() -> String:
 	return "Inbox"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "office", "title": "CEO desk", "sub": "Decisions that need you", "focus": Vector2(0.75, 0.55), "h": 250.0}
+
+
 func build() -> void:
 	var open := G.inbox_open()
 	var props = G.s["proposals"].filter(func(p): return p["company"] == G.pid() and p["status"] == "open").size()

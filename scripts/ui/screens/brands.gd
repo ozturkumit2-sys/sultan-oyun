@@ -5,6 +5,10 @@ func page_title() -> String:
 	return "Brands"
 
 
+func hero_spec() -> Dictionary:
+	return {"scene": "boutique", "title": "Your brands", "sub": "Each brand has its own positioning and prestige", "focus": Vector2(0.5, 0.45), "h": 250.0}
+
+
 func build() -> void:
 	var c := G.pc()
 	var bs := G.company_brands(G.pid())

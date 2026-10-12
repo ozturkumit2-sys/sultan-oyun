@@ -7,7 +7,7 @@ var value := 0.0:
 		value = v
 		queue_redraw()
 var color := Color("#c9a55a")
-var bg := Color(1, 1, 1, 0.07)
+var bg := Color(0.45, 0.28, 0.33, 0.1)
 
 
 func _ready() -> void:

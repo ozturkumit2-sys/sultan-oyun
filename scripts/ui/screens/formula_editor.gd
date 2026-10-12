@@ -25,6 +25,9 @@ var totals_box: VBoxContainer
 var rows_box: VBoxContainer
 var _timer: Timer
 var _value_lbls: Array = []
+var stage: LabStage
+var look: Dictionary = {}
+var _last_ids: Array = []
 
 
 func page_title() -> String:
@@ -49,6 +52,13 @@ func setup(p: Dictionary) -> void:
 		fname = p.get("name", "New Formula")
 		fmt = p.get("fmt", "edp")
 		conc = float(p.get("conc", DB.formats[fmt]["def"]))
+	look = {"shape": 6, "cap": 1, "glass": 0, "label": 0, "accent": G.pc().get("color", "#c9a55a"), "tint": "natural"}
+	if fid != "":
+		var lk: Dictionary = G.formula(fid).get("look", {})
+		for k in lk:
+			look[k] = lk[k]
+	for it in items:
+		_last_ids.append(it[0])
 	_timer = Timer.new()
 	_timer.one_shot = true
 	_timer.wait_time = 0.18
@@ -60,6 +70,15 @@ func setup(p: Dictionary) -> void:
 
 func build() -> void:
 	_value_lbls.clear()
+	# the bench: big bottle with the live juice colour and the leading materials
+	stage = LabStage.new()
+	stage.look = look.duplicate()
+	var bs := G.company_brands(G.pid())
+	stage.brand_name = str(bs[0]["name"]) if not bs.is_empty() else ""
+	stage.product_name = fname if fname != "New Formula" else ""
+	body.add_child(stage)
+	if not is_accord:
+		_look_controls()
 	# header
 	var hc := UI.card(body, "gold")
 	var hh := UI.hbox(10)
@@ -149,6 +168,68 @@ func build() -> void:
 			Router.back(), "ghost", 20, 60))
 
 
+## Juice colour and flask shape for the bench (also the starting bottle when you launch).
+func _look_controls() -> void:
+	var p := GradPanel.new().colors(Color("#f6f1fb"), Color("#efe6f6")).set_pad(14)
+	p.border = Color(UI.PLUM, 0.18)
+	body.add_child(p)
+	var v := UI.vbox(10)
+	p.add_child(v)
+	var r1 := UI.hbox(8)
+	r1.add_child(UI.lbl("Juice", 19, UI.PLUM, "semi"))
+	var sw := HFlowContainer.new()
+	sw.add_theme_constant_override("h_separation", 8)
+	sw.add_theme_constant_override("v_separation", 8)
+	sw.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	for t in BottleView.TINTS.keys():
+		var tn: String = t
+		sw.add_child(_swatch(tn, str(look.get("tint", "natural")) == tn))
+	r1.add_child(sw)
+	v.add_child(r1)
+	var r2 := UI.hbox(8)
+	r2.add_child(UI.lbl("Flask", 19, UI.PLUM, "semi"))
+	var shapes: Array = DB.biz["shapes"]
+	var cur := int(look.get("shape", 0)) % shapes.size()
+	var prev := UI.btn("‹", func(): _set_look("shape", (cur + shapes.size() - 1) % shapes.size()), "secondary", 26, 52)
+	prev.custom_minimum_size.x = 56
+	prev.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+	r2.add_child(prev)
+	var nm := UI.lbl(str(shapes[cur]), 21, UI.CREAM, "title", HORIZONTAL_ALIGNMENT_CENTER)
+	nm.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	r2.add_child(nm)
+	var nxt := UI.btn("›", func(): _set_look("shape", (cur + 1) % shapes.size()), "secondary", 26, 52)
+	nxt.custom_minimum_size.x = 56
+	nxt.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+	r2.add_child(nxt)
+	var caps: Array = DB.biz["caps"]
+	var cc := int(look.get("cap", 0)) % caps.size()
+	var capb := UI.btn("Cap: " + str(caps[cc]), func(): _set_look("cap", (cc + 1) % caps.size()), "chip", 18, 52)
+	r2.add_child(capb)
+	v.add_child(r2)
+
+
+func _swatch(t: String, on: bool) -> Control:
+	var b := TapPanel.new()
+	var col := Color(BottleView.TINTS[t]) if BottleView.TINTS[t] != "" else Color("#e9d9a8")
+	var st := UI.sb(col, 999, UI.BURGUNDY if on else Color(1, 1, 1, 0.9), 4 if on else 2, 0)
+	b.add_theme_stylebox_override("panel", UI.shadowed(st, 4))
+	b.custom_minimum_size = Vector2(48, 48)
+	b.tapped = func(): _set_look("tint", t)
+	if t == "natural":
+		var l := UI.lbl("N", 18, UI.CREAM, "semi", HORIZONTAL_ALIGNMENT_CENTER)
+		b.add_child(l)
+	return b
+
+
+func _set_look(k: String, v: Variant) -> void:
+	look[k] = v
+	if fid != "":
+		G.formula(fid)["look"] = look.duplicate()
+	rebuild()
+	if stage != null:
+		stage.bottle.stir(0.6)
+
+
 func _build_rows() -> void:
 	for ch in rows_box.get_children():
 		ch.queue_free()
@@ -172,23 +253,31 @@ func _build_rows() -> void:
 func _row(i: int) -> void:
 	var it: Array = items[i]
 	var rec := DB.ing(it[0])
-	var p := UI.panel("dark", 14)
-	var v := UI.vbox(6)
-	p.add_child(v)
-	var h := UI.hbox(8)
-	var nm := UI.lbl(FormulaEngine.short_name(rec), 23, UI.CREAM, "semi")
+	var tops := FormulaEngine.top_dims(rec["vec"], 1)
+	var dcol := UI.dim_color(tops[0]) if not tops.is_empty() else Color("#9fcfe0")
+	var p := GradPanel.new().colors(dcol.lerp(Color("#fffdf9"), 0.86), dcol.lerp(Color("#f8efe8"), 0.72)).set_pad(12)
+	p.border = Color(dcol.darkened(0.3), 0.22)
+	var outer := UI.hbox(10)
+	p.add_child(outer)
+	var art := Art.ing_icon(it[0], 84)
+	art.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	outer.add_child(art)
+	var v := UI.vbox(4)
+	v.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	outer.add_child(v)
+	var h := UI.hbox(6)
+	var nm := UI.lbl(FormulaEngine.short_name(rec), 22, UI.CREAM, "semi")
 	nm.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	nm.clip_text = true
+	nm.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
 	h.add_child(nm)
 	var role: String = rec.get("role", "aromatic")
 	var tag: String = rec.get("note", "") if role == "aromatic" else role
 	var tcol = {"top": UI.AMBER, "heart": UI.ROSE, "base": UI.GOLD, "solvent": UI.BLUE, "carrier": UI.BLUE, "auxiliary": UI.BLUE}.get(tag, UI.MUTED)
-	h.add_child(UI.pill(tag.capitalize(), tcol, 16))
-	if rec.get("nat", false):
-		h.add_child(UI.pill("Natural", UI.GREEN, 16))
+	h.add_child(UI.pill(tag.capitalize(), tcol, 15))
 	var idx := i
 	var info := UI.btn("i", func(): IngredientInfo.show(rec["id"]), "ghost", 20, 48)
-	info.custom_minimum_size.x = 44
+	info.custom_minimum_size.x = 40
 	h.add_child(info)
 	var x := UI.btn("✕", func():
 		items.remove_at(idx)
@@ -203,18 +292,20 @@ func _row(i: int) -> void:
 		maxv = 10.0
 	if it[0] == "bht" or it[0] == "uv_absorber":
 		maxv = 2.0
-	var vl := UI.lbl("%.2f%%" % float(it[1]), 22, UI.GOLD2, "semi", HORIZONTAL_ALIGNMENT_RIGHT)
-	vl.custom_minimum_size.x = 104
+	var vl := UI.lbl("%.2f%%" % float(it[1]), 21, UI.BURGUNDY, "semi", HORIZONTAL_ALIGNMENT_RIGHT)
+	vl.custom_minimum_size.x = 92
 	var fin := UI.lbl("", 16, UI.MUTED, "body", HORIZONTAL_ALIGNMENT_RIGHT)
 	var sl := UI.slider(0.0, maxv, 0.05 if maxv <= 10.0 else 0.1, float(it[1]), func(val):
 		items[idx][1] = snappedf(val, 0.01)
 		vl.text = "%.2f%%" % val
 		_fin_text(fin, idx)
 		_queue())
-	var minus := UI.btn("−", func(): sl.value = maxf(0.0, sl.value - (0.1 if maxv <= 10.0 else 0.5)), "dark", 24, 52)
-	minus.custom_minimum_size.x = 52
-	var plus := UI.btn("+", func(): sl.value = sl.value + (0.1 if maxv <= 10.0 else 0.5), "dark", 24, 52)
-	plus.custom_minimum_size.x = 52
+	var minus := UI.btn("−", func(): sl.value = maxf(0.0, sl.value - (0.1 if maxv <= 10.0 else 0.5)), "secondary", 24, 52)
+	minus.custom_minimum_size.x = 50
+	minus.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+	var plus := UI.btn("+", func(): sl.value = sl.value + (0.1 if maxv <= 10.0 else 0.5), "secondary", 24, 52)
+	plus.custom_minimum_size.x = 50
+	plus.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
 	r.add_child(minus)
 	r.add_child(sl)
 	r.add_child(plus)
@@ -279,6 +370,7 @@ func _refresh_preview() -> void:
 	th.add_child(tl)
 	if items.is_empty():
 		tc.add_child(th)
+		_stage_update({})
 		return
 	var cost := FormulaEngine.concentrate_cost(items)
 	th.add_child(UI.lbl("%s/kg" % G.money(cost), 22, UI.GOLD2, "semi"))
@@ -289,8 +381,10 @@ func _refresh_preview() -> void:
 	if not ok:
 		tc.add_child(UI.lbl("Adjust to exactly 100% (use 'Scale to 100%' or 'Fill with DPG').", 18, UI.RED))
 	if is_accord:
+		_stage_update(FormulaEngine.evaluate(FormulaEngine.normalize_items(items), "edp", 18.0))
 		return
 	var ev := FormulaEngine.evaluate(FormulaEngine.normalize_items(items) if not ok else items, fmt, conc)
+	_stage_update(ev)
 	var pc := UI.card(preview_box)
 	var ph := UI.hbox(10)
 	ph.add_child(UI.title(str(ev["family"]), 30, UI.GOLD2))
@@ -348,6 +442,17 @@ func _refresh_preview() -> void:
 			wc.add_child(UI.para("• " + str(w), 19, UI.AMBER))
 	if not ev["allergens"].is_empty():
 		preview_box.add_child(UI.para("Allergen labeling required: " + ", ".join(ev["allergens"].map(func(a): return FormulaEngine.short_name(DB.ing(a)))), 17, UI.DIM))
+
+
+func _stage_update(ev: Dictionary) -> void:
+	if stage == null or not is_instance_valid(stage):
+		return
+	var ids: Array = []
+	for it in items:
+		ids.append(it[0])
+	stage.set_look(look)
+	stage.update_formula(items, ev, _last_ids)
+	_last_ids = ids
 
 
 func _matching_test() -> Dictionary:
@@ -491,6 +596,7 @@ func _create(accord: bool) -> void:
 		f["accord"] = accord
 		f["fmt"] = fmt
 		f["conc"] = conc
+		f["look"] = look.duplicate()
 		if not accord:
 			fid = f["id"]
 			base_v = 0
@@ -524,6 +630,7 @@ func _after_save(next: Callable) -> void:
 		var f := CompanyEngine.make_formula(G.pid(), n, _clean_items(), "ceo", "Original")
 		f["fmt"] = fmt
 		f["conc"] = conc
+		f["look"] = look.duplicate()
 		fid = f["id"]
 		base_v = 0
 		fname = n
