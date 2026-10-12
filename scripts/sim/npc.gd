@@ -1,0 +1,328 @@
+class_name NPC
+extends RefCounted
+## One office worker: personality, needs, relationships (NPCRelationshipSystem),
+## memories (NPCMemorySystem), knowledge, intents and current activity state.
+
+enum S { OUTSIDE, WALKING, ACTING, GONE }
+
+var id := ""
+var def: Dictionary = {}
+var name := ""
+var traits: Dictionary = {}
+var prefs: Dictionary = {}
+
+# --- live state
+var present := false
+var state: int = S.OUTSIDE
+var pos := Vector2(15.4, 11.5)
+var face_front := true
+var face_right := true
+var pose := "stand"        # stand, walk, sit, type, phone, coffee, fix, talk, search, eat, read
+var expr := "normal"       # normal, happy, angry, surprised, sad
+var expr_timer := 0.0      # real seconds
+var emote := ""
+var emote_timer := 0.0
+
+# --- needs & feelings (0..100 / -100..100)
+var mood := 20.0
+var stress := 15.0
+var coffee_need := 20.0
+var social_need := 30.0
+
+# --- activity
+var act := ""
+var act_place := ""
+var act_target := ""
+var act_dur := 0.0
+var act_t := 0.0
+var act_data: Dictionary = {}
+var phase := ""             # "walk", "do"
+var path := PackedVector2Array()
+var path_i := 0
+var hold_until := -1.0      # abs minute; frozen in a scene until then
+var hold_face := ""
+var repath_t := 0.0
+var current_activity_label := ""
+
+# --- mind
+var rel: Dictionary = {}          # other_id -> {"trust":, "friendship":, "rivalry":}
+var memories: Array = []          # dicts
+var known: Dictionary = {}        # fact_id -> day learned
+var intents: Array = []           # dicts {type, target, event, prio, until, place, data}
+var goal := ""
+var tasks: Array = []             # {id, name, total, left, deadline, print, printed, usb}
+var meeting_belief := -1.0        # minute they think the meeting starts; -2 = believes cancelled
+var meeting_state := ""           # "", "waiting", "in", "done", "missed"
+var meeting_wait := 0.0
+var arrive_at := 0.0
+var leave_at := 525.0
+var lunch_at := 220.0
+var lunch_done := false
+var coffee_count := 0
+var last_desk_check := -100.0
+var promoted := false
+var title_override := ""
+var today_flags: Dictionary = {}
+var pending_notif := ""
+var speaking := 0.0               # real seconds of active speech (for mouth anim)
+var reviewed_today := false
+
+
+func setup(d: Dictionary) -> void:
+	def = d
+	id = d["id"]
+	name = d["name"]
+	traits = d["traits"].duplicate()
+	prefs = d.get("prefs", {}).duplicate()
+
+
+func t(k: String) -> float:
+	return float(traits.get(k, 0.5))
+
+
+func role_title() -> String:
+	if title_override != "":
+		return title_override
+	return def.get("role", "")
+
+
+# ------------------------------------------------------------------ relationships
+
+func r(other: String) -> Dictionary:
+	if not rel.has(other):
+		rel[other] = {"trust": 10.0, "friendship": 5.0, "rivalry": 0.0}
+	return rel[other]
+
+
+func get_rel(other: String, stat: String) -> float:
+	if other == id or other == "":
+		return 0.0
+	return float(r(other).get(stat, 0.0))
+
+
+func change_rel(other: String, stat: String, d: float) -> float:
+	if other == id or other == "":
+		return 0.0
+	var cur := r(other)
+	var before: float = cur[stat]
+	var lo := 0.0 if stat == "rivalry" else -100.0
+	cur[stat] = clampf(before + d, lo, 100.0)
+	return cur[stat] - before
+
+
+## Overall disposition toward someone, roughly -100..100.
+func affinity(other: String) -> float:
+	if other == id or other == "":
+		return 0.0
+	var x := r(other)
+	return x["friendship"] * 0.55 + x["trust"] * 0.35 - x["rivalry"] * 0.45 + mem_bias(other) * 18.0
+
+
+# ------------------------------------------------------------------ memory (NPCMemorySystem)
+
+func remember(kind: String, about: String, val: float, weight: float, text: String, args: Dictionary, day: int, minute: float, imp := 1) -> void:
+	# merge with a same-day identical memory
+	for m in memories:
+		if m["kind"] == kind and m["about"] == about and m["day"] == day:
+			m["w"] = clampf(m["w"] + weight * 0.5, 0.0, 1.5)
+			m["t"] = minute
+			if text != "":
+				m["text"] = text
+				m["args"] = args
+			return
+	memories.append({"kind": kind, "about": about, "val": val, "w": weight, "text": text, "args": args, "day": day, "t": minute, "imp": imp})
+	if memories.size() > 48:
+		# forget the faintest
+		var wi := 0
+		var wv := 1e9
+		for i in memories.size():
+			var s: float = abs(memories[i]["val"]) * memories[i]["w"]
+			if s < wv:
+				wv = s
+				wi = i
+		memories.remove_at(wi)
+
+
+func mem_bias(about: String) -> float:
+	var s := 0.0
+	for m in memories:
+		if m["about"] == about:
+			s += float(m["val"]) * float(m["w"])
+	return clampf(s, -2.0, 2.0)
+
+
+func has_memory(kind: String, about := "", since_day := -1) -> bool:
+	for m in memories:
+		if m["kind"] == kind and (about == "" or m["about"] == about) and m["day"] >= since_day:
+			return true
+	return false
+
+
+func recent_memories(n: int) -> Array:
+	var withtext: Array = []
+	for m in memories:
+		if m.get("text", "") != "":
+			withtext.append(m)
+	withtext.sort_custom(func(a, b):
+		if a["day"] != b["day"]:
+			return a["day"] > b["day"]
+		return a["t"] > b["t"])
+	return withtext.slice(0, n)
+
+
+## Overnight fading. Unforgiving people hold grudges longer.
+func decay_memories() -> void:
+	var keep: Array = []
+	var forgive := t("forgiveness")
+	for m in memories:
+		var f := 0.86
+		if float(m["val"]) < 0.0:
+			f = lerpf(0.94, 0.78, forgive)
+		m["w"] = float(m["w"]) * f
+		if m["w"] > 0.06:
+			keep.append(m)
+	memories = keep
+
+
+# ------------------------------------------------------------------ knowledge
+
+func knows(fact: String) -> bool:
+	return known.has(fact)
+
+
+# ------------------------------------------------------------------ intents
+
+func add_intent(it: Dictionary) -> void:
+	# replace same type+target
+	for i in range(intents.size() - 1, -1, -1):
+		if intents[i]["type"] == it["type"] and intents[i].get("target", "") == it.get("target", ""):
+			intents.remove_at(i)
+	intents.append(it)
+
+
+func top_intent(now: float) -> Dictionary:
+	var best: Dictionary = {}
+	for i in range(intents.size() - 1, -1, -1):
+		var it: Dictionary = intents[i]
+		if it.get("until", 1e12) < now:
+			intents.remove_at(i)
+			continue
+		if float(it.get("wait_until", -1.0)) > now:
+			continue
+		if best.is_empty() or it["prio"] > best["prio"]:
+			best = it
+	return best
+
+
+func remove_intent(it: Dictionary) -> void:
+	intents.erase(it)
+
+
+# ------------------------------------------------------------------ tasks
+
+func current_task() -> Dictionary:
+	for tk in tasks:
+		if tk["left"] > 0.0:
+			return tk
+	return {}
+
+
+func task_needing_print() -> Dictionary:
+	for tk in tasks:
+		if tk.get("print", false) and tk["left"] <= 0.0 and not tk.get("printed", false):
+			return tk
+	return {}
+
+
+func work_left() -> float:
+	var s := 0.0
+	for tk in tasks:
+		s += tk["left"]
+	return s
+
+
+# ------------------------------------------------------------------ expression
+
+func set_expr(e: String, secs := 4.0) -> void:
+	expr = e
+	expr_timer = secs
+
+
+func set_emote(e: String, secs := 2.6) -> void:
+	emote = e
+	emote_timer = secs
+
+
+func base_expr() -> String:
+	if stress > 78:
+		return "sad" if mood < 0 else "surprised"
+	if mood > 45:
+		return "happy"
+	if mood < -45:
+		return "angry" if stress > 50 else "sad"
+	if mood < -20:
+		return "sad"
+	return "normal"
+
+
+func mood_word() -> String:
+	if mood > 60: return "mood.ecstatic"
+	if mood > 30: return "mood.happy"
+	if mood > 5: return "mood.content"
+	if mood > -20: return "mood.meh"
+	if mood > -45: return "mood.grumpy"
+	if mood > -70: return "mood.upset"
+	return "mood.furious"
+
+
+# ------------------------------------------------------------------ save
+
+func to_dict() -> Dictionary:
+	return {
+		"id": id, "present": present, "state": state, "pos": [pos.x, pos.y],
+		"mood": mood, "stress": stress, "coffee_need": coffee_need, "social_need": social_need,
+		"rel": rel.duplicate(true), "memories": memories.duplicate(true), "known": known.duplicate(true),
+		"intents": intents.duplicate(true), "goal": goal, "tasks": tasks.duplicate(true),
+		"meeting_belief": meeting_belief, "meeting_state": meeting_state, "arrive_at": arrive_at,
+		"leave_at": leave_at, "lunch_at": lunch_at, "lunch_done": lunch_done, "traits": traits.duplicate(),
+		"promoted": promoted, "title_override": title_override, "today_flags": today_flags.duplicate(true),
+		"coffee_count": coffee_count, "reviewed_today": reviewed_today, "pending_notif": pending_notif,
+	}
+
+
+func from_dict(d: Dictionary) -> void:
+	present = d.get("present", false)
+	state = int(d.get("state", S.OUTSIDE))
+	var p: Array = d.get("pos", [15.4, 11.5])
+	pos = Vector2(p[0], p[1])
+	mood = d.get("mood", 20.0)
+	stress = d.get("stress", 15.0)
+	coffee_need = d.get("coffee_need", 20.0)
+	social_need = d.get("social_need", 30.0)
+	rel = d.get("rel", {})
+	memories = d.get("memories", [])
+	known = d.get("known", {})
+	intents = d.get("intents", [])
+	goal = d.get("goal", "")
+	tasks = d.get("tasks", [])
+	meeting_belief = d.get("meeting_belief", -1.0)
+	meeting_state = d.get("meeting_state", "")
+	arrive_at = d.get("arrive_at", 0.0)
+	leave_at = d.get("leave_at", 525.0)
+	lunch_at = d.get("lunch_at", 220.0)
+	lunch_done = d.get("lunch_done", false)
+	if d.has("traits"):
+		traits = d["traits"]
+	promoted = d.get("promoted", false)
+	title_override = d.get("title_override", "")
+	today_flags = d.get("today_flags", {})
+	coffee_count = int(d.get("coffee_count", 0))
+	reviewed_today = d.get("reviewed_today", false)
+	pending_notif = d.get("pending_notif", "")
+	# activity is re-decided after loading
+	act = ""
+	phase = ""
+	path = PackedVector2Array()
+	hold_until = -1.0
+	if present:
+		state = S.ACTING

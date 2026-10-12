@@ -1,0 +1,182 @@
+{
+ "burak_job_hunt": {
+  "subject": "burak",
+  "secret": true,
+  "juicy": 0.9,
+  "chance": 1.0,
+  "knowers": {
+   "burak": 1.0,
+   "mert": 0.55
+  },
+  "on_learn": [
+   {
+    "who": "@ahmet",
+    "stat": "trust",
+    "d": -24
+   },
+   {
+    "who": "@ahmet",
+    "favor": -12
+   },
+   {
+    "who": "@mert",
+    "stat": "friendship",
+    "d": -3
+   }
+  ]
+ },
+ "ece_relative": {
+  "subject": "ece",
+  "secret": true,
+  "juicy": 0.85,
+  "chance": 1.0,
+  "knowers": {
+   "ece": 1.0,
+   "ahmet": 1.0,
+   "ceren": 0.9
+  },
+  "on_learn": [
+   {
+    "who": "*",
+    "stat": "trust",
+    "d": -9
+   },
+   {
+    "who": "@selin",
+    "stat": "rivalry",
+    "d": 10
+   },
+   {
+    "who": "@deniz",
+    "stat": "rivalry",
+    "d": 14
+   },
+   {
+    "who": "*",
+    "about": "@ahmet",
+    "stat": "trust",
+    "d": -6
+   }
+  ]
+ },
+ "mert_crush": {
+  "subject": "mert",
+  "secret": true,
+  "juicy": 0.7,
+  "chance": 1.0,
+  "knowers": {
+   "mert": 1.0,
+   "burak": 0.75,
+   "ceren": 0.8
+  },
+  "on_learn": [
+   {
+    "who": "@ceren",
+    "about": "@mert",
+    "stat": "friendship",
+    "d": 4
+   }
+  ]
+ },
+ "ahmet_review": {
+  "subject": "ahmet",
+  "secret": true,
+  "juicy": 0.8,
+  "chance": 0.8,
+  "knowers": {
+   "ceren": 1.0
+  },
+  "on_learn": [
+   {
+    "who": "subject",
+    "stress": 25,
+    "mood": -20
+   },
+   {
+    "who": "*",
+    "stat": "trust",
+    "d": -5
+   }
+  ]
+ },
+ "zeynep_mistake": {
+  "subject": "zeynep",
+  "secret": true,
+  "juicy": 0.75,
+  "chance": 0.65,
+  "knowers": {
+   "zeynep": 1.0,
+   "ceren": 0.35
+  },
+  "on_learn": [
+   {
+    "who": "@ahmet",
+    "stat": "trust",
+    "d": -20
+   },
+   {
+    "who": "@ahmet",
+    "favor": -15
+   },
+   {
+    "who": "*",
+    "stat": "trust",
+    "d": -6
+   }
+  ]
+ },
+ "selin_offer": {
+  "subject": "selin",
+  "secret": true,
+  "juicy": 0.7,
+  "chance": 0.5,
+  "knowers": {
+   "selin": 1.0,
+   "ceren": 0.3,
+   "zeynep": 0.3
+  },
+  "on_learn": [
+   {
+    "who": "@ahmet",
+    "stat": "trust",
+    "d": -10
+   },
+   {
+    "who": "@deniz",
+    "stat": "rivalry",
+    "d": 6
+   }
+  ]
+ },
+ "deniz_shortcut": {
+  "subject": "deniz",
+  "secret": true,
+  "juicy": 0.8,
+  "chance": 0.6,
+  "knowers": {
+   "deniz": 1.0,
+   "zeynep": 0.5
+  },
+  "on_learn": [
+   {
+    "who": "@ahmet",
+    "stat": "trust",
+    "d": -20
+   },
+   {
+    "who": "@ahmet",
+    "favor": -16
+   },
+   {
+    "who": "@selin",
+    "stat": "rivalry",
+    "d": 10
+   },
+   {
+    "who": "*",
+    "stat": "trust",
+    "d": -8
+   }
+  ]
+ }
+}

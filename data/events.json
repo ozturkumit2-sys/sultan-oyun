@@ -1,0 +1,11292 @@
+[
+ {
+  "id": "printer_broken",
+  "trigger": "object_failed",
+  "filter": {
+   "obj": "printer"
+  },
+  "priority": 70,
+  "scope": "actor",
+  "cooldown": 20,
+  "roles": [
+   {
+    "name": "helper",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     }
+    ],
+    "score": [
+     {
+      "s": "is",
+      "who": "self",
+      "v": 2.4,
+      "id": "burak"
+     },
+     {
+      "s": "affinity",
+      "a": "actor",
+      "b": "self",
+      "w": 0.02
+     },
+     {
+      "s": "dist",
+      "a": "actor",
+      "b": "self",
+      "w": -0.07
+     },
+     {
+      "s": "trait",
+      "who": "self",
+      "t": "empathy",
+      "w": 0.5
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "optional": true,
+    "available": true,
+    "pick": "best",
+    "pool": "present"
+   }
+  ],
+  "effects": [
+   {
+    "e": "expr",
+    "who": "actor",
+    "v": "surprised",
+    "secs": 3
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "exclaim"
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "printer_dead"
+   },
+   {
+    "e": "stress",
+    "who": "actor",
+    "d": 8
+   },
+   {
+    "e": "mem",
+    "who": "actor",
+    "about": "",
+    "kind": "printer_broken",
+    "val": -0.2,
+    "w": 0.5,
+    "text": "",
+    "imp": 1
+   },
+   {
+    "e": "sfx",
+    "id": "printer_fail"
+   },
+   {
+    "e": "log",
+    "text": "log.printer_broken",
+    "imp": 2,
+    "cat": "malfunction",
+    "who": "actor"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "self_fix",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "printer_selffix",
+      "delay": 1.2
+     },
+     {
+      "e": "call",
+      "fn": "fix_intent",
+      "obj": "printer",
+      "requester": "actor",
+      "prio": 66
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 5
+     }
+    ],
+    "when": [
+     {
+      "c": "is",
+      "who": "actor",
+      "id": "burak"
+     }
+    ]
+   },
+   {
+    "id": "ask_help",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "printer_need_help",
+      "delay": 1.2
+     },
+     {
+      "e": "intent",
+      "who": "actor",
+      "type": "go_npc",
+      "prio": 66,
+      "ttl": 60,
+      "target": "helper",
+      "event": "help_request",
+      "roles": {
+       "requester": "actor"
+      }
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1.0
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "sociability",
+      "w": 0.6
+     },
+     {
+      "s": "if",
+      "cond": {
+       "c": "is",
+       "who": "helper",
+       "id": "burak"
+      },
+      "v": 0.4,
+      "else": 0.0
+     }
+    ],
+    "when": [
+     {
+      "c": "present",
+      "who": "helper"
+     }
+    ]
+   },
+   {
+    "id": "kick",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "printer_kick",
+      "delay": 1.0
+     },
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "anger",
+      "delay": 1.0
+     },
+     {
+      "e": "sfx",
+      "id": "thump",
+      "delay": 1.0
+     },
+     {
+      "e": "fx",
+      "v": "shake",
+      "who": "actor",
+      "delay": 1.0
+     },
+     {
+      "e": "stress",
+      "who": "actor",
+      "d": 5
+     },
+     {
+      "e": "call",
+      "fn": "give_up_printing"
+     },
+     {
+      "e": "witness",
+      "near": "actor",
+      "r": 5,
+      "exclude": [
+       "actor",
+       "target"
+      ],
+      "effects": [
+       {
+        "e": "say",
+        "who": "self",
+        "line": "witness_kick",
+        "delay": 2.0,
+        "p": 0.5
+       }
+      ],
+      "max": 8
+     },
+     {
+      "e": "log",
+      "text": "log.printer_kicked",
+      "imp": 2,
+      "cat": "malfunction",
+      "who": "actor",
+      "delay": 1.0
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "temper",
+      "w": 1.3
+     },
+     {
+      "s": "stress",
+      "who": "actor",
+      "w": 0.01
+     }
+    ],
+    "when": [
+     {
+      "c": "trait",
+      "who": "actor",
+      "t": "temper",
+      "gt": 0.45
+     }
+    ]
+   },
+   {
+    "id": "give_up",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "printer_giveup",
+      "delay": 1.4
+     },
+     {
+      "e": "call",
+      "fn": "give_up_printing"
+     },
+     {
+      "e": "mood",
+      "who": "actor",
+      "d": -5
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.3
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "diligence",
+      "w": -0.3
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "help_request",
+  "trigger": "",
+  "priority": 80,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 4.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "ask_help_obj",
+    "to": "target"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "helps",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "agree_help",
+      "delay": 1.5
+     },
+     {
+      "e": "emote",
+      "who": "target",
+      "v": "ok",
+      "delay": 1.5
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 6
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "trust",
+      "d": 5
+     },
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "friendship",
+      "d": 3
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "target",
+      "kind": "helped_me",
+      "val": 0.6,
+      "w": 0.8,
+      "text": "mem.helped_me",
+      "imp": 2
+     },
+     {
+      "e": "mem",
+      "who": "target",
+      "about": "actor",
+      "kind": "i_helped",
+      "val": 0.3,
+      "w": 0.5,
+      "text": "",
+      "imp": 1
+     },
+     {
+      "e": "stat",
+      "key": "helps",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "call",
+      "fn": "fix_intent",
+      "who": "target",
+      "obj": "$obj",
+      "requester": "actor",
+      "prio": 68,
+      "delay": 1.6
+     },
+     {
+      "e": "log",
+      "text": "log.help_agreed",
+      "imp": 2,
+      "cat": "help",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "affinity",
+      "a": "target",
+      "b": "actor",
+      "w": 0.025
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "empathy",
+      "w": 1.2
+     },
+     {
+      "s": "is",
+      "who": "target",
+      "v": 0.5,
+      "id": "burak"
+     },
+     {
+      "s": "stress",
+      "who": "target",
+      "w": -0.012
+     },
+     {
+      "s": "mem",
+      "who": "target",
+      "about": "actor",
+      "w": 0.8
+     },
+     {
+      "s": "const",
+      "v": 0.4
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "refuses",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "refuse_help",
+      "delay": 1.5
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "react_refused",
+      "delay": 3.0
+     },
+     {
+      "e": "expr",
+      "who": "actor",
+      "v": "angry",
+      "secs": 5,
+      "delay": 3.0
+     },
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "anger",
+      "delay": 3.0
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": -10
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "trust",
+      "d": -8
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "target",
+      "kind": "refused_help",
+      "val": -0.7,
+      "w": 0.9,
+      "text": "mem.refused_help",
+      "imp": 3
+     },
+     {
+      "e": "stat",
+      "key": "refusals",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "rumor",
+      "kind": "refused_help",
+      "a": "target",
+      "b": "actor",
+      "juicy": 0.45,
+      "knowers": [
+       "actor"
+      ]
+     },
+     {
+      "e": "witness",
+      "near": "actor",
+      "r": 4.5,
+      "exclude": [
+       "actor",
+       "target"
+      ],
+      "effects": [
+       {
+        "e": "learn",
+        "who": "self",
+        "fact": "$rumor"
+       }
+      ],
+      "max": 8
+     },
+     {
+      "e": "call",
+      "fn": "give_up_printing"
+     },
+     {
+      "e": "log",
+      "text": "log.help_refused",
+      "imp": 3,
+      "cat": "conflict",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "rivalry",
+      "w": 0.02
+     },
+     {
+      "s": "stress",
+      "who": "target",
+      "w": 0.015
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "empathy",
+      "w": -0.9
+     },
+     {
+      "s": "affinity",
+      "a": "target",
+      "b": "actor",
+      "w": -0.015
+     },
+     {
+      "s": "mem",
+      "who": "target",
+      "about": "actor",
+      "w": -0.9
+     },
+     {
+      "s": "if",
+      "cond": {
+       "c": "goal",
+       "who": "target",
+       "goal": "find_new_job"
+      },
+      "v": 0.3,
+      "else": 0.0
+     },
+     {
+      "s": "const",
+      "v": 0.45
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "later",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "help_later",
+      "delay": 1.5
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "fine_wait",
+      "delay": 3.0
+     },
+     {
+      "e": "call",
+      "fn": "fix_intent",
+      "who": "target",
+      "obj": "$obj",
+      "requester": "actor",
+      "prio": 55,
+      "delay": 12
+     },
+     {
+      "e": "log",
+      "text": "log.help_later",
+      "imp": 1,
+      "cat": "help",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.25
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "diligence",
+      "w": 0.35
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "lights_restored",
+  "trigger": "fix_done",
+  "filter": {
+   "obj": "lights"
+  },
+  "priority": 75,
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "lights_fixed_me"
+   },
+   {
+    "e": "stat",
+    "key": "helps",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "each",
+    "effects": [
+     {
+      "e": "say",
+      "who": "self",
+      "line": "lights_back",
+      "p": 0.45
+     },
+     {
+      "e": "rel",
+      "a": "self",
+      "b": "actor",
+      "stat": "friendship",
+      "d": 3
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "stagger": 0.35
+   },
+   {
+    "e": "log",
+    "text": "log.lights_fixed",
+    "imp": 2,
+    "cat": "help",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "fix_done",
+  "trigger": "fix_done",
+  "priority": 60,
+  "outcomes": [
+   {
+    "id": "thanked",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "fixed_it",
+      "to": "requester"
+     },
+     {
+      "e": "say",
+      "who": "requester",
+      "line": "thanks_fix",
+      "to": "actor",
+      "delay": 1.5
+     },
+     {
+      "e": "rel",
+      "a": "requester",
+      "b": "actor",
+      "stat": "friendship",
+      "d": 8
+     },
+     {
+      "e": "rel",
+      "a": "requester",
+      "b": "actor",
+      "stat": "trust",
+      "d": 4
+     },
+     {
+      "e": "log",
+      "text": "log.fixed_for",
+      "imp": 2,
+      "cat": "help",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 2
+     }
+    ],
+    "when": [
+     {
+      "c": "present",
+      "who": "requester"
+     },
+     {
+      "c": "near",
+      "a": "actor",
+      "b": "requester",
+      "lt": 6.0
+     },
+     {
+      "c": "is",
+      "who": "requester",
+      "id": "",
+      "not": true
+     }
+    ]
+   },
+   {
+    "id": "solo",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "fixed_solo"
+     },
+     {
+      "e": "log",
+      "text": "log.fixed",
+      "imp": 1,
+      "cat": "help",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "coffee_broken",
+  "trigger": "object_failed",
+  "filter": {
+   "obj": "coffee"
+  },
+  "priority": 70,
+  "scope": "actor",
+  "cooldown": 30,
+  "roles": [
+   {
+    "name": "helper",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     }
+    ],
+    "score": [
+     {
+      "s": "is",
+      "who": "self",
+      "v": 2.4,
+      "id": "burak"
+     },
+     {
+      "s": "affinity",
+      "a": "actor",
+      "b": "self",
+      "w": 0.02
+     },
+     {
+      "s": "dist",
+      "a": "actor",
+      "b": "self",
+      "w": -0.07
+     },
+     {
+      "s": "trait",
+      "who": "self",
+      "t": "empathy",
+      "w": 0.5
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "optional": true,
+    "available": true,
+    "pick": "best",
+    "pool": "present"
+   }
+  ],
+  "vars": [
+   {
+    "name": "suspect",
+    "fn": "suspect",
+    "optional": true,
+    "loc": "coffee"
+   }
+  ],
+  "effects": [
+   {
+    "e": "expr",
+    "who": "actor",
+    "v": "surprised",
+    "secs": 3
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "exclaim"
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "coffee_dead"
+   },
+   {
+    "e": "stress",
+    "who": "actor",
+    "d": 10
+   },
+   {
+    "e": "mood",
+    "who": "actor",
+    "d": -8
+   },
+   {
+    "e": "mem",
+    "who": "actor",
+    "about": "",
+    "kind": "coffee_broken",
+    "val": -0.3,
+    "w": 0.5,
+    "text": "",
+    "imp": 1
+   },
+   {
+    "e": "log",
+    "text": "log.coffee_broken",
+    "imp": 2,
+    "cat": "malfunction",
+    "who": "actor"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "ece_tries",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "ece_try_fix",
+      "delay": 1.2
+     },
+     {
+      "e": "hold",
+      "who": [
+       "actor"
+      ],
+      "dur": 4
+     },
+     {
+      "e": "pick",
+      "of": [
+       [
+        {
+         "e": "obj",
+         "obj": "coffee",
+         "key": "broken",
+         "v": false
+        },
+        {
+         "e": "say",
+         "who": "actor",
+         "line": "ece_fix_success",
+         "delay": 3.5
+        },
+        {
+         "e": "sfx",
+         "id": "fixed",
+         "delay": 3.5
+        },
+        {
+         "e": "witness",
+         "near": "actor",
+         "r": 6,
+         "exclude": [
+          "actor",
+          "target"
+         ],
+         "effects": [
+          {
+           "e": "rel",
+           "a": "self",
+           "b": "actor",
+           "stat": "friendship",
+           "d": 5
+          },
+          {
+           "e": "say",
+           "who": "self",
+           "line": "praise_ece",
+           "delay": 4.5,
+           "p": 0.5
+          }
+         ],
+         "max": 8
+        },
+        {
+         "e": "log",
+         "text": "log.ece_fixed",
+         "imp": 3,
+         "cat": "help",
+         "who": "actor",
+         "delay": 3.5
+        }
+       ],
+       [
+        {
+         "e": "say",
+         "who": "actor",
+         "line": "ece_fix_fail",
+         "delay": 3.5
+        },
+        {
+         "e": "emote",
+         "who": "actor",
+         "v": "sweat",
+         "delay": 3.5
+        },
+        {
+         "e": "stress",
+         "who": "actor",
+         "d": 10
+        },
+        {
+         "e": "fx",
+         "v": "spill",
+         "who": "actor",
+         "delay": 3.5
+        },
+        {
+         "e": "sfx",
+         "id": "splash",
+         "delay": 3.5
+        },
+        {
+         "e": "witness",
+         "near": "actor",
+         "r": 5,
+         "exclude": [
+          "actor",
+          "target"
+         ],
+         "effects": [
+          {
+           "e": "say",
+           "who": "self",
+           "line": "witness_spill",
+           "delay": 4.5,
+           "p": 0.5
+          }
+         ],
+         "max": 8
+        },
+        {
+         "e": "log",
+         "text": "log.ece_spill",
+         "imp": 2,
+         "cat": "malfunction",
+         "who": "actor",
+         "delay": 3.5
+        }
+       ],
+       [
+        {
+         "e": "say",
+         "who": "actor",
+         "line": "ece_fix_fail",
+         "delay": 3.5
+        },
+        {
+         "e": "emote",
+         "who": "actor",
+         "v": "sweat",
+         "delay": 3.5
+        },
+        {
+         "e": "stress",
+         "who": "actor",
+         "d": 10
+        },
+        {
+         "e": "fx",
+         "v": "spill",
+         "who": "actor",
+         "delay": 3.5
+        },
+        {
+         "e": "sfx",
+         "id": "splash",
+         "delay": 3.5
+        },
+        {
+         "e": "log",
+         "text": "log.ece_spill",
+         "imp": 2,
+         "cat": "malfunction",
+         "who": "actor",
+         "delay": 3.5
+        }
+       ]
+      ]
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 4
+     }
+    ],
+    "when": [
+     {
+      "c": "is",
+      "who": "actor",
+      "id": "ece"
+     }
+    ]
+   },
+   {
+    "id": "rage",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "coffee_rage",
+      "delay": 1.2
+     },
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "anger",
+      "delay": 1.2
+     },
+     {
+      "e": "sfx",
+      "id": "thump",
+      "delay": 1.2
+     },
+     {
+      "e": "fx",
+      "v": "shake",
+      "who": "actor",
+      "delay": 1.2
+     },
+     {
+      "e": "witness",
+      "near": "actor",
+      "r": 4.5,
+      "exclude": [
+       "actor",
+       "target"
+      ],
+      "effects": [
+       {
+        "e": "say",
+        "who": "self",
+        "line": "witness_coffee_rage",
+        "delay": 2.5,
+        "p": 0.5
+       }
+      ],
+      "max": 8
+     },
+     {
+      "e": "intent",
+      "who": "actor",
+      "type": "go_npc",
+      "prio": 55,
+      "ttl": 60,
+      "target": "helper",
+      "event": "help_request",
+      "roles": {
+       "requester": "actor"
+      },
+      "when": [
+       {
+        "c": "present",
+        "who": "helper"
+       }
+      ]
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "temper",
+      "w": 1.2
+     },
+     {
+      "s": "stress",
+      "who": "actor",
+      "w": 0.01
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "blame",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "coffee_blame",
+      "delay": 1.2
+     },
+     {
+      "e": "stat",
+      "key": "blames",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "rumor",
+      "kind": "blamed",
+      "a": "$suspect",
+      "b": "actor",
+      "juicy": 0.4,
+      "knowers": [
+       "actor"
+      ]
+     },
+     {
+      "e": "witness",
+      "near": "actor",
+      "r": 4.5,
+      "exclude": [
+       "actor",
+       "target"
+      ],
+      "effects": [
+       {
+        "e": "learn",
+        "who": "self",
+        "fact": "$rumor"
+       }
+      ],
+      "max": 8
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "$suspect",
+      "kind": "suspect_coffee",
+      "val": -0.4,
+      "w": 0.7,
+      "text": "mem.suspect_coffee",
+      "imp": 2
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "$suspect",
+      "stat": "trust",
+      "d": -6
+     },
+     {
+      "e": "intent",
+      "who": "actor",
+      "type": "go_npc",
+      "prio": 58,
+      "ttl": 80,
+      "target": "$suspect",
+      "event": "accusation"
+     },
+     {
+      "e": "log",
+      "text": "log.coffee_blame",
+      "imp": 2,
+      "cat": "conflict",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "rel",
+      "a": "actor",
+      "b": "$suspect",
+      "stat": "rivalry",
+      "w": 0.02
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "forgiveness",
+      "w": -0.6
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "gossip",
+      "w": 0.3
+     },
+     {
+      "s": "const",
+      "v": 0.3
+     }
+    ],
+    "when": [
+     {
+      "c": "rolefilled",
+      "who": "$suspect"
+     },
+     {
+      "c": "rel",
+      "a": "actor",
+      "b": "$suspect",
+      "stat": "trust",
+      "lt": 25
+     },
+     {
+      "c": "present",
+      "who": "$suspect"
+     }
+    ]
+   },
+   {
+    "id": "ask_fix",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "coffee_ask_fix",
+      "delay": 1.2
+     },
+     {
+      "e": "intent",
+      "who": "actor",
+      "type": "go_npc",
+      "prio": 56,
+      "ttl": 60,
+      "target": "helper",
+      "event": "help_request",
+      "roles": {
+       "requester": "actor"
+      }
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "empathy",
+      "w": 0.5
+     },
+     {
+      "s": "const",
+      "v": 0.35
+     }
+    ],
+    "when": [
+     {
+      "c": "present",
+      "who": "helper"
+     }
+    ]
+   },
+   {
+    "id": "sad",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "coffee_sad",
+      "delay": 1.2
+     },
+     {
+      "e": "mood",
+      "who": "actor",
+      "d": -6
+     },
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "cloud",
+      "delay": 1.2
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "temper",
+      "w": -0.8
+     },
+     {
+      "s": "const",
+      "v": 0.3
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "coffee_ghost",
+  "trigger": "coffee_ghost",
+  "priority": 65,
+  "roles": [
+   {
+    "name": "credited",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     }
+    ],
+    "score": [
+     {
+      "s": "is",
+      "who": "self",
+      "v": 1.5,
+      "id": "burak"
+     },
+     {
+      "s": "affinity",
+      "a": "actor",
+      "b": "self",
+      "w": 0.01
+     },
+     {
+      "s": "is",
+      "who": "self",
+      "v": 0.5,
+      "id": "ece"
+     },
+     {
+      "s": "rand",
+      "v": 0.8
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "optional": true,
+    "available": true,
+    "pick": "best",
+    "pool": "present"
+   }
+  ],
+  "effects": [
+   {
+    "e": "expr",
+    "who": "actor",
+    "v": "surprised",
+    "secs": 3
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "coffee_works_again"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "credit",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "coffee_who_fixed",
+      "delay": 1.5
+     },
+     {
+      "e": "intent",
+      "who": "actor",
+      "type": "go_npc",
+      "prio": 45,
+      "ttl": 40,
+      "target": "credited",
+      "event": "thank_wrong_person",
+      "delay": 1.5
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1.0
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "sociability",
+      "w": 0.4
+     }
+    ],
+    "when": [
+     {
+      "c": "present",
+      "who": "credited"
+     }
+    ]
+   },
+   {
+    "id": "spooky",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "coffee_spooky",
+      "delay": 1.5
+     },
+     {
+      "e": "ghost",
+      "d": 1
+     },
+     {
+      "e": "call",
+      "fn": "ghost_theory"
+     },
+     {
+      "e": "log",
+      "text": "log.coffee_mystery",
+      "imp": 2,
+      "cat": "ghost",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "curiosity",
+      "w": 1.0
+     },
+     {
+      "s": "const",
+      "v": 0.2
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "thank_wrong_person",
+  "trigger": "",
+  "priority": 70,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 4
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "thanks_coffee_fix",
+    "to": "target"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "takes_credit",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "take_credit",
+      "delay": 1.5
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 8
+     },
+     {
+      "e": "stat",
+      "key": "wrong_rewards",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "mem",
+      "who": "target",
+      "about": "actor",
+      "kind": "took_credit",
+      "val": 0.2,
+      "w": 0.4,
+      "text": "",
+      "imp": 1
+     },
+     {
+      "e": "log",
+      "text": "log.wrong_credit",
+      "imp": 3,
+      "cat": "reward",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "cunning",
+      "w": 1.0
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "honesty",
+      "w": -1.0
+     },
+     {
+      "s": "const",
+      "v": 0.3
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "honest",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "not_me",
+      "delay": 1.5
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "then_who",
+      "delay": 3.0
+     },
+     {
+      "e": "ghost",
+      "d": 1
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "trust",
+      "d": 3
+     },
+     {
+      "e": "log",
+      "text": "log.not_me",
+      "imp": 2,
+      "cat": "ghost",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "honesty",
+      "w": 1.0
+     },
+     {
+      "s": "const",
+      "v": 0.2
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "it_patrol",
+  "trigger": "tick",
+  "priority": 30,
+  "cooldown": 24,
+  "chance": 0.65,
+  "roles": [
+   {
+    "name": "actor",
+    "where": [
+     {
+      "c": "is",
+      "who": "self",
+      "id": "burak"
+     },
+     {
+      "c": "available",
+      "who": "self"
+     }
+    ],
+    "score": [],
+    "exclude": [
+     "actor",
+     "target"
+    ],
+    "optional": false,
+    "available": true,
+    "pick": "best",
+    "pool": "present"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "fix_printer",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "burak_sigh_fix"
+     },
+     {
+      "e": "call",
+      "fn": "fix_intent",
+      "obj": "printer",
+      "requester": "",
+      "prio": 50
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1
+     }
+    ],
+    "when": [
+     {
+      "c": "office",
+      "key": "printer.broken",
+      "eq": true
+     },
+     {
+      "c": "office",
+      "key": "printer.discovered",
+      "eq": true
+     },
+     {
+      "c": "office",
+      "key": "printer.fixing",
+      "eq": ""
+     }
+    ]
+   },
+   {
+    "id": "fix_coffee",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "burak_sigh_fix_coffee"
+     },
+     {
+      "e": "call",
+      "fn": "fix_intent",
+      "obj": "coffee",
+      "requester": "",
+      "prio": 50
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.9
+     }
+    ],
+    "when": [
+     {
+      "c": "office",
+      "key": "coffee.broken",
+      "eq": true
+     },
+     {
+      "c": "office",
+      "key": "coffee.discovered",
+      "eq": true
+     },
+     {
+      "c": "office",
+      "key": "coffee.fixing",
+      "eq": ""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lights_off_panic",
+  "trigger": "lights_off",
+  "priority": 90,
+  "roles": [
+   {
+    "name": "fixer",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     }
+    ],
+    "score": [
+     {
+      "s": "is",
+      "who": "self",
+      "v": 2.5,
+      "id": "burak"
+     },
+     {
+      "s": "is",
+      "who": "self",
+      "v": 1.0,
+      "id": "ceren"
+     },
+     {
+      "s": "is",
+      "who": "self",
+      "v": 0.6,
+      "id": "ahmet"
+     },
+     {
+      "s": "trait",
+      "who": "self",
+      "t": "diligence",
+      "w": 0.5
+     },
+     {
+      "s": "rand",
+      "v": 0.3
+     }
+    ],
+    "exclude": [
+     "actor",
+     "target"
+    ],
+    "optional": true,
+    "available": true,
+    "pick": "best",
+    "pool": "present"
+   }
+  ],
+  "effects": [
+   {
+    "e": "each",
+    "effects": [
+     {
+      "e": "expr",
+      "who": "self",
+      "v": "surprised",
+      "secs": 4
+     },
+     {
+      "e": "emote",
+      "who": "self",
+      "v": "exclaim"
+     },
+     {
+      "e": "say",
+      "who": "self",
+      "line": "lights_out_react",
+      "p": 0.6
+     }
+    ],
+    "exclude": [],
+    "stagger": 0.3
+   },
+   {
+    "e": "ghost",
+    "d": 1
+   },
+   {
+    "e": "log",
+    "text": "log.lights_out",
+    "imp": 3,
+    "cat": "ghost",
+    "who": "fixer"
+   },
+   {
+    "e": "say",
+    "who": "fixer",
+    "line": "lights_will_fix",
+    "delay": 2.6
+   },
+   {
+    "e": "call",
+    "fn": "lights_fixer",
+    "who": "fixer",
+    "delay": 2.6
+   },
+   {
+    "e": "chain",
+    "event": "ece_spill",
+    "roles": {
+     "actor": "@ece"
+    },
+    "delay": 1.4
+   },
+   {
+    "e": "chain",
+    "event": "dark_scheme",
+    "roles": {
+     "actor": "@deniz"
+    },
+    "delay": 2.2
+   }
+  ]
+ },
+ {
+  "id": "ece_spill",
+  "trigger": [
+   "encounter"
+  ],
+  "priority": 22,
+  "scope": "actor",
+  "cooldown": 200,
+  "roles": [
+   {
+    "name": "target",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     }
+    ],
+    "score": [
+     {
+      "s": "dist",
+      "a": "actor",
+      "b": "self",
+      "w": -1.0
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "optional": false,
+    "available": true,
+    "pick": "best",
+    "pool": "present",
+    "near": "actor",
+    "r": 3.2
+   }
+  ],
+  "conditions": [
+   {
+    "c": "is",
+    "who": "actor",
+    "id": "ece"
+   },
+   {
+    "c": "trait",
+    "who": "actor",
+    "t": "clumsiness",
+    "gt": 0.55
+   },
+   {
+    "c": "chance",
+    "p": 0.2
+   },
+   {
+    "c": "available",
+    "who": "actor"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 3.5
+   },
+   {
+    "e": "fx",
+    "v": "spill",
+    "who": "target"
+   },
+   {
+    "e": "sfx",
+    "id": "splash"
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "ece_spill_oops",
+    "to": "target"
+   },
+   {
+    "e": "stress",
+    "who": "actor",
+    "d": 10
+   },
+   {
+    "e": "mood",
+    "who": "actor",
+    "d": -6
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "forgive",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "spill_forgive",
+      "delay": 1.6
+     },
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "friendship",
+      "d": 4
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 5
+     },
+     {
+      "e": "log",
+      "text": "log.spill_forgiven",
+      "imp": 2,
+      "cat": "friendship",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "forgiveness",
+      "w": 1.0
+     },
+     {
+      "s": "affinity",
+      "a": "target",
+      "b": "actor",
+      "w": 0.015
+     },
+     {
+      "s": "const",
+      "v": 0.2
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "angry",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "spill_angry",
+      "delay": 1.6
+     },
+     {
+      "e": "expr",
+      "who": "target",
+      "v": "angry",
+      "secs": 5,
+      "delay": 1.6
+     },
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "friendship",
+      "d": -8
+     },
+     {
+      "e": "stress",
+      "who": "target",
+      "d": 8
+     },
+     {
+      "e": "mem",
+      "who": "target",
+      "about": "actor",
+      "kind": "spilled_on_me",
+      "val": -0.4,
+      "w": 0.6,
+      "text": "mem.spilled",
+      "imp": 2
+     },
+     {
+      "e": "log",
+      "text": "log.spill_angry",
+      "imp": 2,
+      "cat": "conflict",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "temper",
+      "w": 1.0
+     },
+     {
+      "s": "stress",
+      "who": "target",
+      "w": 0.01
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "dark_scheme",
+  "trigger": "",
+  "priority": 50,
+  "conditions": [
+   {
+    "c": "chance",
+    "p": 0.55
+   },
+   {
+    "c": "trait",
+    "who": "actor",
+    "t": "cunning",
+    "gt": 0.6
+   },
+   {
+    "c": "available",
+    "who": "actor"
+   },
+   {
+    "c": "present",
+    "who": "@selin"
+   },
+   {
+    "c": "office",
+    "key": "lights.on",
+    "eq": false
+   }
+  ],
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "dark_scheme_whisper"
+   },
+   {
+    "e": "call",
+    "fn": "npc_move_item",
+    "item": "usb",
+    "to": "desk_deniz"
+   },
+   {
+    "e": "flag",
+    "key": "thief_usb",
+    "v": "deniz",
+    "day": false
+   },
+   {
+    "e": "log",
+    "text": "log.dark_scheme",
+    "imp": 3,
+    "cat": "scheme",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "lights_on_ghost",
+  "trigger": "lights_on_ghost",
+  "priority": 60,
+  "effects": [
+   {
+    "e": "each",
+    "effects": [
+     {
+      "e": "emote",
+      "who": "self",
+      "v": "question"
+     },
+     {
+      "e": "say",
+      "who": "self",
+      "line": "lights_ghost_on",
+      "p": 0.45
+     }
+    ],
+    "exclude": [],
+    "stagger": 0.3
+   },
+   {
+    "e": "ghost",
+    "d": 1
+   },
+   {
+    "e": "call",
+    "fn": "ghost_theory"
+   },
+   {
+    "e": "log",
+    "text": "log.lights_ghost_on",
+    "imp": 2,
+    "cat": "ghost",
+    "who": ""
+   }
+  ]
+ },
+ {
+  "id": "dark_bonding",
+  "trigger": "dark_pair",
+  "priority": 40,
+  "scope": "pair",
+  "cooldown": 80,
+  "max_day": 4,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "actor"
+   },
+   {
+    "c": "available",
+    "who": "target"
+   },
+   {
+    "c": "affinity",
+    "a": "actor",
+    "b": "target",
+    "gt": -25
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 3.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "dark_scared",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "dark_comfort",
+    "to": "actor",
+    "delay": 1.5
+   },
+   {
+    "e": "rel",
+    "a": "actor",
+    "b": "target",
+    "stat": "friendship",
+    "d": 8,
+    "both": true
+   },
+   {
+    "e": "mem",
+    "who": "actor",
+    "about": "target",
+    "kind": "dark_bond",
+    "val": 0.4,
+    "w": 0.6,
+    "text": "mem.dark_bond",
+    "imp": 2
+   },
+   {
+    "e": "mem",
+    "who": "target",
+    "about": "actor",
+    "kind": "dark_bond",
+    "val": 0.4,
+    "w": 0.6,
+    "text": "mem.dark_bond",
+    "imp": 2
+   },
+   {
+    "e": "log",
+    "text": "log.dark_bond",
+    "imp": 2,
+    "cat": "friendship",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "temp_changed",
+  "trigger": "temp_changed",
+  "priority": 60,
+  "effects": [
+   {
+    "e": "each",
+    "effects": [
+     {
+      "e": "say",
+      "who": "self",
+      "line": "too_cold",
+      "p": 0.55,
+      "when": [
+       {
+        "c": "var",
+        "key": "temp",
+        "lt": 21
+       }
+      ]
+     },
+     {
+      "e": "emote",
+      "who": "self",
+      "v": "shiver",
+      "when": [
+       {
+        "c": "var",
+        "key": "temp",
+        "lt": 21
+       }
+      ]
+     },
+     {
+      "e": "say",
+      "who": "self",
+      "line": "too_hot",
+      "p": 0.55,
+      "when": [
+       {
+        "c": "var",
+        "key": "temp",
+        "gt": 23
+       }
+      ]
+     },
+     {
+      "e": "emote",
+      "who": "self",
+      "v": "sweat",
+      "when": [
+       {
+        "c": "var",
+        "key": "temp",
+        "gt": 23
+       }
+      ]
+     }
+    ],
+    "exclude": [],
+    "stagger": 0.5,
+    "where": [
+     {
+      "c": "discomfort",
+      "who": "self",
+      "gt": 18
+     }
+    ]
+   },
+   {
+    "e": "ghost",
+    "d": 1
+   },
+   {
+    "e": "log",
+    "text": "log.temp_changed",
+    "imp": 2,
+    "cat": "ghost",
+    "who": ""
+   }
+  ]
+ },
+ {
+  "id": "thermo_complaint",
+  "trigger": "thermo_discomfort",
+  "priority": 50,
+  "scope": "actor",
+  "cooldown": 60,
+  "outcomes": [
+   {
+    "id": "go_fix",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "temp_complain"
+     },
+     {
+      "e": "call",
+      "fn": "thermostat_intent",
+      "prio": 52
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "temper",
+      "w": 1.0
+     },
+     {
+      "s": "discomfort",
+      "who": "actor",
+      "w": 0.01
+     },
+     {
+      "s": "const",
+      "v": 0.2
+     }
+    ],
+    "when": [
+     {
+      "c": "discomfort",
+      "who": "actor",
+      "gt": 28
+     }
+    ]
+   },
+   {
+    "id": "suffer",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "temp_suffer"
+     },
+     {
+      "e": "stress",
+      "who": "actor",
+      "d": 3
+     },
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "cloud"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "temper",
+      "w": -0.6
+     },
+     {
+      "s": "const",
+      "v": 0.5
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "thermostat_war",
+  "trigger": "thermostat_changed",
+  "priority": 55,
+  "cooldown": 100,
+  "roles": [
+   {
+    "name": "target",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     },
+     {
+      "c": "discomfort",
+      "who": "self",
+      "gt": 22
+     }
+    ],
+    "score": [
+     {
+      "s": "rel",
+      "a": "self",
+      "b": "actor",
+      "stat": "rivalry",
+      "w": 0.02
+     },
+     {
+      "s": "trait",
+      "who": "self",
+      "t": "temper",
+      "w": 1.0
+     },
+     {
+      "s": "rand",
+      "v": 0.3
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "optional": false,
+    "available": true,
+    "pick": "best",
+    "pool": "present"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "argue",
+    "effects": [
+     {
+      "e": "intent",
+      "who": "target",
+      "type": "go_npc",
+      "prio": 55,
+      "ttl": 30,
+      "target": "actor",
+      "event": "thermo_argument"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "temper",
+      "w": 1.2
+     },
+     {
+      "s": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "rivalry",
+      "w": 0.02
+     }
+    ],
+    "when": [
+     {
+      "c": "trait",
+      "who": "target",
+      "t": "temper",
+      "gt": 0.35
+     }
+    ]
+   },
+   {
+    "id": "grumble",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "thermo_grumble"
+     },
+     {
+      "e": "mem",
+      "who": "target",
+      "about": "actor",
+      "kind": "thermostat",
+      "val": -0.3,
+      "w": 0.5,
+      "text": "",
+      "imp": 1
+     },
+     {
+      "e": "log",
+      "text": "log.thermo_grumble",
+      "imp": 1,
+      "cat": "conflict",
+      "who": "target"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.5
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "thermo_argument",
+  "trigger": "",
+  "priority": 70,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "thermo_argue_1",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "thermo_argue_2",
+    "to": "actor",
+    "delay": 1.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "thermo_argue_3",
+    "to": "target",
+    "delay": 3.0
+   },
+   {
+    "e": "rel",
+    "a": "actor",
+    "b": "target",
+    "stat": "friendship",
+    "d": -6,
+    "both": true
+   },
+   {
+    "e": "rel",
+    "a": "actor",
+    "b": "target",
+    "stat": "rivalry",
+    "d": 5,
+    "both": true
+   },
+   {
+    "e": "stat",
+    "key": "arguments",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "rumor",
+    "kind": "argument",
+    "a": "actor",
+    "b": "target",
+    "juicy": 0.4,
+    "knowers": [
+     "actor",
+     "target"
+    ]
+   },
+   {
+    "e": "witness",
+    "near": "actor",
+    "r": 4.5,
+    "exclude": [
+     "actor",
+     "target"
+    ],
+    "effects": [
+     {
+      "e": "learn",
+      "who": "self",
+      "fact": "$rumor"
+     }
+    ],
+    "max": 8
+   },
+   {
+    "e": "sfx",
+    "id": "argue",
+    "delay": 1.5
+   },
+   {
+    "e": "log",
+    "text": "log.thermo_war",
+    "imp": 3,
+    "cat": "conflict",
+    "who": "actor"
+   },
+   {
+    "e": "call",
+    "fn": "thermostat_intent",
+    "prio": 56,
+    "delay": 4,
+    "p": 0.35
+   }
+  ]
+ },
+ {
+  "id": "desk_messed",
+  "trigger": "desk_messed",
+  "priority": 75,
+  "vars": [
+   {
+    "name": "suspect",
+    "fn": "suspect",
+    "optional": true,
+    "desk": true
+   }
+  ],
+  "effects": [
+   {
+    "e": "expr",
+    "who": "actor",
+    "v": "angry",
+    "secs": 5
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "exclaim"
+   },
+   {
+    "e": "stress",
+    "who": "actor",
+    "d": 12
+   },
+   {
+    "e": "mood",
+    "who": "actor",
+    "d": -10
+   },
+   {
+    "e": "work",
+    "who": "actor",
+    "d": -8
+   },
+   {
+    "e": "mem",
+    "who": "actor",
+    "about": "",
+    "kind": "desk_ransacked",
+    "val": -0.3,
+    "w": 0.6,
+    "text": "mem.desk_messed",
+    "imp": 2
+   },
+   {
+    "e": "stat",
+    "key": "pranks_found",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "sfx",
+    "id": "papers"
+   },
+   {
+    "e": "log",
+    "text": "log.files_messed",
+    "imp": 2,
+    "cat": "prank",
+    "who": "actor"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "spooky",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "files_flew"
+     },
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "question",
+      "delay": 1.0
+     },
+     {
+      "e": "ghost",
+      "d": 1
+     },
+     {
+      "e": "call",
+      "fn": "ghost_theory"
+     },
+     {
+      "e": "witness",
+      "near": "actor",
+      "r": 6,
+      "exclude": [
+       "actor",
+       "target"
+      ],
+      "effects": [
+       {
+        "e": "emote",
+        "who": "self",
+        "v": "exclaim"
+       },
+       {
+        "e": "say",
+        "who": "self",
+        "line": "witness_ghost",
+        "delay": 1.5,
+        "p": 0.6
+       }
+      ],
+      "max": 8
+     },
+     {
+      "e": "log",
+      "text": "log.files_flew",
+      "imp": 3,
+      "cat": "ghost",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 9
+     }
+    ],
+    "when": [
+     {
+      "c": "var",
+      "key": "live",
+      "eq": true
+     }
+    ]
+   },
+   {
+    "id": "confront",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "who_did_this"
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "suspect_named",
+      "delay": 1.4
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "$suspect",
+      "kind": "suspect_files",
+      "val": -0.6,
+      "w": 0.8,
+      "text": "mem.suspects_files",
+      "imp": 2
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "$suspect",
+      "stat": "trust",
+      "d": -10
+     },
+     {
+      "e": "stat",
+      "key": "blames",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "intent",
+      "who": "actor",
+      "type": "go_npc",
+      "prio": 64,
+      "ttl": 80,
+      "target": "$suspect",
+      "event": "accusation"
+     },
+     {
+      "e": "log",
+      "text": "log.suspects",
+      "imp": 2,
+      "cat": "conflict",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "temper",
+      "w": 1.0
+     },
+     {
+      "s": "rel",
+      "a": "actor",
+      "b": "$suspect",
+      "stat": "rivalry",
+      "w": 0.02
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "forgiveness",
+      "w": -0.3
+     }
+    ],
+    "when": [
+     {
+      "c": "rolefilled",
+      "who": "$suspect"
+     },
+     {
+      "c": "present",
+      "who": "$suspect"
+     },
+     {
+      "c": "any",
+      "of": [
+       {
+        "c": "trait",
+        "who": "actor",
+        "t": "temper",
+        "gt": 0.45
+       },
+       {
+        "c": "rel",
+        "a": "actor",
+        "b": "$suspect",
+        "stat": "rivalry",
+        "gt": 30
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "ask_around",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "who_did_this"
+     },
+     {
+      "e": "witness",
+      "near": "actor",
+      "r": 5,
+      "exclude": [
+       "actor",
+       "target"
+      ],
+      "effects": [
+       {
+        "e": "say",
+        "who": "self",
+        "line": "dont_look_at_me",
+        "delay": 1.6,
+        "p": 0.6
+       }
+      ],
+      "max": 8
+     },
+     {
+      "e": "rumor",
+      "kind": "blamed",
+      "a": "$suspect",
+      "b": "actor",
+      "juicy": 0.35,
+      "knowers": [
+       "actor"
+      ]
+     },
+     {
+      "e": "chain",
+      "event": "zeynep_knows",
+      "roles": {
+       "actor": "@zeynep",
+       "target": "actor"
+      },
+      "delay": 2.5
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "sociability",
+      "w": 0.8
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "gossip",
+      "w": 0.4
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "quiet",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "tidy_sigh"
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "$suspect",
+      "kind": "suspect_files",
+      "val": -0.3,
+      "w": 0.6,
+      "text": "mem.quiet_grudge",
+      "imp": 2,
+      "when": [
+       {
+        "c": "rolefilled",
+        "who": "$suspect"
+       }
+      ]
+     },
+     {
+      "e": "log",
+      "text": "log.quiet_grudge",
+      "imp": 2,
+      "cat": "conflict",
+      "who": "actor",
+      "when": [
+       {
+        "c": "rolefilled",
+        "who": "$suspect"
+       }
+      ]
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "temper",
+      "w": -1.0
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "diligence",
+      "w": 0.3
+     },
+     {
+      "s": "const",
+      "v": 0.5
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "ece_helps",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "who_did_this"
+     },
+     {
+      "e": "chain",
+      "event": "ece_tidy_help",
+      "roles": {
+       "actor": "@ece",
+       "target": "actor"
+      },
+      "delay": 1.6
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.9
+     },
+     {
+      "s": "rand",
+      "v": 0.6
+     }
+    ],
+    "when": [
+     {
+      "c": "is",
+      "who": "actor",
+      "id": "ece",
+      "not": true
+     },
+     {
+      "c": "available",
+      "who": "@ece"
+     },
+     {
+      "c": "near",
+      "a": "actor",
+      "b": "@ece",
+      "lt": 7
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ece_tidy_help",
+  "trigger": "",
+  "priority": 60,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "actor"
+   },
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "intent",
+    "who": "actor",
+    "type": "go_npc",
+    "prio": 58,
+    "ttl": 30,
+    "target": "target",
+    "event": "ece_tidy_scene"
+   }
+  ]
+ },
+ {
+  "id": "ece_tidy_scene",
+  "trigger": "",
+  "priority": 70,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 4
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "ece_offer_tidy",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "ece_tidy_thanks",
+    "to": "actor",
+    "delay": 1.6
+   },
+   {
+    "e": "rel",
+    "a": "target",
+    "b": "actor",
+    "stat": "friendship",
+    "d": 10
+   },
+   {
+    "e": "rel",
+    "a": "target",
+    "b": "actor",
+    "stat": "trust",
+    "d": 6
+   },
+   {
+    "e": "work",
+    "who": "target",
+    "d": 6
+   },
+   {
+    "e": "mem",
+    "who": "target",
+    "about": "actor",
+    "kind": "helped_me",
+    "val": 0.6,
+    "w": 0.7,
+    "text": "mem.ece_tidied",
+    "imp": 2
+   },
+   {
+    "e": "stat",
+    "key": "helps",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "log",
+    "text": "log.ece_tidy",
+    "imp": 2,
+    "cat": "solidarity",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "zeynep_knows",
+  "trigger": "",
+  "priority": 55,
+  "vars": [
+   {
+    "name": "suspect",
+    "fn": "suspect",
+    "optional": false,
+    "of": "target",
+    "desk": true
+   }
+  ],
+  "conditions": [
+   {
+    "c": "available",
+    "who": "actor"
+   },
+   {
+    "c": "available",
+    "who": "target"
+   },
+   {
+    "c": "near",
+    "a": "actor",
+    "b": "target",
+    "lt": 8
+   },
+   {
+    "c": "is",
+    "who": "target",
+    "id": "zeynep",
+    "not": true
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 4.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "i_think_i_know",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "who_was_it",
+    "to": "actor",
+    "delay": 1.4
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "zeynep_accuse",
+    "to": "target",
+    "delay": 2.8
+   },
+   {
+    "e": "rel",
+    "a": "target",
+    "b": "$suspect",
+    "stat": "trust",
+    "d": -8
+   },
+   {
+    "e": "mem",
+    "who": "target",
+    "about": "$suspect",
+    "kind": "zeynep_said",
+    "val": -0.4,
+    "w": 0.6,
+    "text": "mem.zeynep_pointed",
+    "imp": 2
+   },
+   {
+    "e": "rumor",
+    "kind": "blamed",
+    "a": "$suspect",
+    "b": "target",
+    "juicy": 0.45,
+    "knowers": [
+     "actor",
+     "target"
+    ]
+   },
+   {
+    "e": "stat",
+    "key": "rumors",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "log",
+    "text": "log.zeynep_points",
+    "imp": 3,
+    "cat": "rumor",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "accusation",
+  "trigger": "",
+  "priority": 85,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 5.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "accuse_files",
+    "to": "target",
+    "when": [
+     {
+      "c": "var",
+      "key": "incident",
+      "in": [
+       "",
+       "files"
+      ]
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "accuse_coffee",
+    "to": "target",
+    "when": [
+     {
+      "c": "var",
+      "key": "incident",
+      "eq": "coffee"
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "accuse_item",
+    "to": "target",
+    "when": [
+     {
+      "c": "var",
+      "key": "incident",
+      "eq": "item"
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "accuse_promo",
+    "to": "target",
+    "when": [
+     {
+      "c": "var",
+      "key": "incident",
+      "eq": "promo"
+     }
+    ]
+   },
+   {
+    "e": "chain",
+    "event": "defense",
+    "delay": 1.2
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "guilty_deny",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "smooth_deny",
+      "delay": 1.5
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "not_convinced",
+      "delay": 3.0
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "trust",
+      "d": -12
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "rivalry",
+      "d": 8
+     },
+     {
+      "e": "log",
+      "text": "log.guilty_denies",
+      "imp": 3,
+      "cat": "scheme",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 9
+     }
+    ],
+    "when": [
+     {
+      "c": "is",
+      "who": "target",
+      "id": "deniz"
+     },
+     {
+      "c": "var",
+      "key": "item",
+      "eq": "usb"
+     },
+     {
+      "c": "flag",
+      "key": "thief_usb",
+      "eq": "deniz"
+     }
+    ]
+   },
+   {
+    "id": "angry_denial",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "deny_angry",
+      "to": "actor",
+      "delay": 1.4
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "insist",
+      "to": "target",
+      "delay": 2.8
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "deny_angry2",
+      "to": "actor",
+      "delay": 4.2
+     },
+     {
+      "e": "expr",
+      "who": "actor",
+      "v": "angry",
+      "secs": 6
+     },
+     {
+      "e": "expr",
+      "who": "target",
+      "v": "angry",
+      "secs": 6,
+      "delay": 1.4
+     },
+     {
+      "e": "emote",
+      "who": "target",
+      "v": "anger",
+      "delay": 1.4
+     },
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "anger",
+      "delay": 2.8
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": -14,
+      "both": true
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "trust",
+      "d": -10,
+      "both": true
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "rivalry",
+      "d": 10,
+      "both": true
+     },
+     {
+      "e": "stress",
+      "who": "actor",
+      "d": 10
+     },
+     {
+      "e": "stress",
+      "who": "target",
+      "d": 12
+     },
+     {
+      "e": "stat",
+      "key": "arguments",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "mem",
+      "who": "target",
+      "about": "actor",
+      "kind": "falsely_accused",
+      "val": -0.8,
+      "w": 0.9,
+      "text": "mem.falsely_accused",
+      "imp": 3
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "target",
+      "kind": "argued",
+      "val": -0.5,
+      "w": 0.7,
+      "text": "mem.argued",
+      "imp": 2
+     },
+     {
+      "e": "rumor",
+      "kind": "argument",
+      "a": "actor",
+      "b": "target",
+      "juicy": 0.55,
+      "knowers": [
+       "actor",
+       "target"
+      ]
+     },
+     {
+      "e": "witness",
+      "near": "actor",
+      "r": 5.5,
+      "exclude": [
+       "actor",
+       "target"
+      ],
+      "effects": [
+       {
+        "e": "learn",
+        "who": "self",
+        "fact": "$rumor"
+       },
+       {
+        "e": "say",
+        "who": "self",
+        "line": "witness_argument",
+        "delay": 3.0,
+        "p": 0.35
+       }
+      ],
+      "max": 8
+     },
+     {
+      "e": "sfx",
+      "id": "argue",
+      "delay": 1.4
+     },
+     {
+      "e": "fx",
+      "v": "anger",
+      "who": "target",
+      "delay": 1.4
+     },
+     {
+      "e": "log",
+      "text": "log.argument",
+      "imp": 3,
+      "cat": "conflict",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "temper",
+      "w": 1.4
+     },
+     {
+      "s": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "rivalry",
+      "w": 0.02
+     },
+     {
+      "s": "affinity",
+      "a": "target",
+      "b": "actor",
+      "w": -0.01
+     },
+     {
+      "s": "is",
+      "who": "target",
+      "v": 0.6,
+      "id": "burak"
+     },
+     {
+      "s": "stress",
+      "who": "target",
+      "w": 0.006
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "calm_denial",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "deny_calm",
+      "to": "actor",
+      "delay": 1.4
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "sorry_accuse",
+      "to": "target",
+      "delay": 2.9
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "trust",
+      "d": 4
+     },
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "trust",
+      "d": -4
+     },
+     {
+      "e": "mem",
+      "who": "target",
+      "about": "actor",
+      "kind": "accused_me",
+      "val": -0.3,
+      "w": 0.6,
+      "text": "mem.accused_me",
+      "imp": 2
+     },
+     {
+      "e": "log",
+      "text": "log.accuse_calm",
+      "imp": 2,
+      "cat": "conflict",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "empathy",
+      "w": 1.0
+     },
+     {
+      "s": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "trust",
+      "w": 0.02
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "forgiveness",
+      "w": 0.5
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "take_blame",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "take_blame",
+      "to": "actor",
+      "delay": 1.5
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "accept_apology",
+      "to": "target",
+      "delay": 3.0
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "trust",
+      "d": -3
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 4
+     },
+     {
+      "e": "mood",
+      "who": "target",
+      "d": -8
+     },
+     {
+      "e": "stress",
+      "who": "target",
+      "d": 6
+     },
+     {
+      "e": "mem",
+      "who": "target",
+      "about": "actor",
+      "kind": "took_blame",
+      "val": -0.1,
+      "w": 0.5,
+      "text": "mem.took_blame",
+      "imp": 3
+     },
+     {
+      "e": "stat",
+      "key": "took_blame",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "rumor",
+      "kind": "took_blame",
+      "a": "target",
+      "b": "actor",
+      "juicy": 0.5,
+      "knowers": [
+       "actor",
+       "target"
+      ]
+     },
+     {
+      "e": "witness",
+      "near": "actor",
+      "r": 4.5,
+      "exclude": [
+       "actor",
+       "target"
+      ],
+      "effects": [
+       {
+        "e": "learn",
+        "who": "self",
+        "fact": "$rumor"
+       }
+      ],
+      "max": 8
+     },
+     {
+      "e": "log",
+      "text": "log.took_blame",
+      "imp": 3,
+      "cat": "drama",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "is",
+      "who": "target",
+      "v": 0.8,
+      "id": "ece"
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "empathy",
+      "w": 0.6
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "temper",
+      "w": -1.0
+     },
+     {
+      "s": "goal",
+      "who": "target",
+      "goal": "be_liked",
+      "v": 0.5
+     }
+    ],
+    "when": [
+     {
+      "c": "any",
+      "of": [
+       {
+        "c": "is",
+        "who": "target",
+        "id": "ece"
+       },
+       {
+        "c": "trait",
+        "who": "target",
+        "t": "empathy",
+        "gt": 0.7
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "defense",
+  "trigger": "",
+  "priority": 70,
+  "allow_absent": true,
+  "roles": [
+   {
+    "name": "defender",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     },
+     {
+      "c": "rel",
+      "a": "self",
+      "b": "target",
+      "stat": "friendship",
+      "gt": 26
+     }
+    ],
+    "score": [
+     {
+      "s": "affinity",
+      "a": "self",
+      "b": "target",
+      "w": 0.02
+     },
+     {
+      "s": "trait",
+      "who": "self",
+      "t": "empathy",
+      "w": 0.5
+     },
+     {
+      "s": "trait",
+      "who": "self",
+      "t": "temper",
+      "w": 0.2
+     },
+     {
+      "s": "affinity",
+      "a": "self",
+      "b": "actor",
+      "w": -0.01
+     }
+    ],
+    "exclude": [
+     "actor",
+     "target"
+    ],
+    "optional": false,
+    "available": true,
+    "pick": "best",
+    "pool": "present",
+    "near": "target",
+    "r": 5.5
+   }
+  ],
+  "conditions": [
+   {
+    "c": "chance",
+    "p": 0.65
+   },
+   {
+    "c": "present",
+    "who": "actor"
+   },
+   {
+    "c": "present",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "say",
+    "who": "defender",
+    "line": "defend",
+    "to": "actor",
+    "delay": 3.0
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "stay_out",
+    "to": "defender",
+    "delay": 4.6,
+    "when": [
+     {
+      "c": "trait",
+      "who": "actor",
+      "t": "temper",
+      "gt": 0.5
+     }
+    ]
+   },
+   {
+    "e": "rel",
+    "a": "target",
+    "b": "defender",
+    "stat": "friendship",
+    "d": 12
+   },
+   {
+    "e": "rel",
+    "a": "target",
+    "b": "defender",
+    "stat": "trust",
+    "d": 10
+   },
+   {
+    "e": "rel",
+    "a": "actor",
+    "b": "defender",
+    "stat": "trust",
+    "d": -8
+   },
+   {
+    "e": "rel",
+    "a": "defender",
+    "b": "target",
+    "stat": "friendship",
+    "d": 4
+   },
+   {
+    "e": "mem",
+    "who": "target",
+    "about": "defender",
+    "kind": "defended_me",
+    "val": 0.8,
+    "w": 0.9,
+    "text": "mem.defended_me",
+    "imp": 3
+   },
+   {
+    "e": "stat",
+    "key": "defenses",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "log",
+    "text": "log.defended",
+    "imp": 3,
+    "cat": "solidarity",
+    "who": "defender",
+    "delay": 3.0
+   }
+  ]
+ },
+ {
+  "id": "big_fight",
+  "trigger": "argument",
+  "priority": 60,
+  "cooldown": 200,
+  "also": true,
+  "max_day": 1,
+  "conditions": [
+   {
+    "c": "stat",
+    "key": "arguments",
+    "gte": 3
+   },
+   {
+    "c": "chance",
+    "p": 0.4
+   },
+   {
+    "c": "time",
+    "after": "10:00"
+   }
+  ],
+  "effects": [
+   {
+    "e": "each",
+    "effects": [
+     {
+      "e": "say",
+      "who": "self",
+      "line": "fight_crowd",
+      "delay": 1.0,
+      "p": 0.55
+     },
+     {
+      "e": "emote",
+      "who": "self",
+      "v": "exclaim"
+     },
+     {
+      "e": "stress",
+      "who": "self",
+      "d": 6
+     }
+    ],
+    "exclude": [
+     "actor",
+     "target"
+    ],
+    "stagger": 0.3,
+    "where": [
+     {
+      "c": "near",
+      "a": "self",
+      "b": "actor",
+      "lt": 7
+     }
+    ]
+   },
+   {
+    "e": "stat",
+    "key": "big_fights",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "sfx",
+    "id": "crowd"
+   },
+   {
+    "e": "log",
+    "text": "log.big_fight",
+    "imp": 4,
+    "cat": "conflict",
+    "who": "actor"
+   },
+   {
+    "e": "chain",
+    "event": "manager_outburst",
+    "roles": {
+     "actor": "@ahmet",
+     "target": "actor",
+     "other": "target"
+    },
+    "delay": 4
+   }
+  ]
+ },
+ {
+  "id": "manager_outburst",
+  "trigger": "",
+  "priority": 80,
+  "allow_absent": true,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "actor"
+   },
+   {
+    "c": "is",
+    "who": "target",
+    "id": "ahmet",
+    "not": true
+   }
+  ],
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "boss_outburst"
+   },
+   {
+    "e": "expr",
+    "who": "actor",
+    "v": "angry",
+    "secs": 7
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "anger"
+   },
+   {
+    "e": "sfx",
+    "id": "slam"
+   },
+   {
+    "e": "each",
+    "effects": [
+     {
+      "e": "stress",
+      "who": "self",
+      "d": 8
+     },
+     {
+      "e": "expr",
+      "who": "self",
+      "v": "sad",
+      "secs": 4
+     },
+     {
+      "e": "emote",
+      "who": "self",
+      "v": "sweat"
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "stagger": 0.2
+   },
+   {
+    "e": "rel",
+    "a": "target",
+    "b": "actor",
+    "stat": "friendship",
+    "d": -6
+   },
+   {
+    "e": "rel",
+    "a": "other",
+    "b": "actor",
+    "stat": "friendship",
+    "d": -6
+   },
+   {
+    "e": "stat",
+    "key": "scoldings",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "mem",
+    "who": "target",
+    "about": "actor",
+    "kind": "scolded",
+    "val": -0.5,
+    "w": 0.7,
+    "text": "mem.boss_yelled",
+    "imp": 2
+   },
+   {
+    "e": "mem",
+    "who": "other",
+    "about": "actor",
+    "kind": "scolded",
+    "val": -0.5,
+    "w": 0.7,
+    "text": "mem.boss_yelled",
+    "imp": 2
+   },
+   {
+    "e": "log",
+    "text": "log.boss_outburst",
+    "imp": 4,
+    "cat": "boss",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "item_missing",
+  "trigger": "item_missing",
+  "priority": 70,
+  "effects": [
+   {
+    "e": "expr",
+    "who": "actor",
+    "v": "surprised",
+    "secs": 4
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "question"
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "missing_glasses",
+    "when": [
+     {
+      "c": "var",
+      "key": "item",
+      "eq": "glasses"
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "missing_usb",
+    "when": [
+     {
+      "c": "var",
+      "key": "item",
+      "eq": "usb"
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "missing_mug",
+    "when": [
+     {
+      "c": "var",
+      "key": "item",
+      "eq": "mug"
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "missing_planner",
+    "when": [
+     {
+      "c": "var",
+      "key": "item",
+      "eq": "planner"
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "missing_charger",
+    "when": [
+     {
+      "c": "var",
+      "key": "item",
+      "eq": "charger"
+     }
+    ]
+   },
+   {
+    "e": "stress",
+    "who": "actor",
+    "d": 6
+   },
+   {
+    "e": "log",
+    "text": "log.item_missing",
+    "imp": 2,
+    "cat": "prank",
+    "who": "actor"
+   },
+   {
+    "e": "call",
+    "fn": "search_item",
+    "prio": 60
+   }
+  ]
+ },
+ {
+  "id": "item_found",
+  "trigger": "item_found",
+  "priority": 70,
+  "allow_absent": true,
+  "outcomes": [
+   {
+    "id": "suspect_owner",
+    "effects": [
+     {
+      "e": "expr",
+      "who": "actor",
+      "v": "angry",
+      "secs": 5
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "found_at_desk"
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "owner",
+      "kind": "took_my_item",
+      "val": -0.6,
+      "w": 0.8,
+      "text": "mem.took_item",
+      "imp": 2
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "owner",
+      "stat": "trust",
+      "d": -10
+     },
+     {
+      "e": "stat",
+      "key": "blames",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "set",
+      "key": "incident",
+      "v": "item"
+     },
+     {
+      "e": "intent",
+      "who": "actor",
+      "type": "go_npc",
+      "prio": 62,
+      "ttl": 60,
+      "target": "owner",
+      "event": "accusation"
+     },
+     {
+      "e": "log",
+      "text": "log.item_found_desk",
+      "imp": 3,
+      "cat": "conflict",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "rel",
+      "a": "actor",
+      "b": "owner",
+      "stat": "rivalry",
+      "w": 0.02
+     },
+     {
+      "s": "rel",
+      "a": "actor",
+      "b": "owner",
+      "stat": "trust",
+      "w": -0.012
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "temper",
+      "w": 0.6
+     },
+     {
+      "s": "const",
+      "v": 0.4
+     }
+    ],
+    "when": [
+     {
+      "c": "rolefilled",
+      "who": "owner"
+     },
+     {
+      "c": "present",
+      "who": "owner"
+     }
+    ]
+   },
+   {
+    "id": "laugh_off",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "found_at_friend"
+     },
+     {
+      "e": "log",
+      "text": "log.item_found_friend",
+      "imp": 2,
+      "cat": "prank",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "affinity",
+      "a": "actor",
+      "b": "owner",
+      "w": 0.02
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "humor",
+      "w": 0.5
+     }
+    ],
+    "when": [
+     {
+      "c": "rolefilled",
+      "who": "owner"
+     }
+    ]
+   },
+   {
+    "id": "weird_place",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "found_weird_place"
+     },
+     {
+      "e": "ghost",
+      "d": 1
+     },
+     {
+      "e": "log",
+      "text": "log.item_found_weird",
+      "imp": 2,
+      "cat": "ghost",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1.0
+     }
+    ],
+    "when": [
+     {
+      "c": "rolefilled",
+      "who": "owner",
+      "not": true
+     }
+    ]
+   },
+   {
+    "id": "relief",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "found_item_relief"
+     },
+     {
+      "e": "log",
+      "text": "log.item_found",
+      "imp": 1,
+      "cat": "prank",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.1
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "foreign_item",
+  "trigger": "foreign_item",
+  "priority": 60,
+  "allow_absent": true,
+  "outcomes": [
+   {
+    "id": "pocket",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "pocket_item"
+     },
+     {
+      "e": "flag",
+      "key": "thief_usb",
+      "v": "deniz",
+      "day": false
+     },
+     {
+      "e": "log",
+      "text": "log.item_pocketed",
+      "imp": 3,
+      "cat": "scheme",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 3
+     }
+    ],
+    "when": [
+     {
+      "c": "is",
+      "who": "actor",
+      "id": "deniz"
+     },
+     {
+      "c": "var",
+      "key": "item",
+      "eq": "usb"
+     },
+     {
+      "c": "chance",
+      "p": 0.6
+     }
+    ]
+   },
+   {
+    "id": "return_kindly",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "found_foreign_item"
+     },
+     {
+      "e": "call",
+      "fn": "return_item"
+     },
+     {
+      "e": "log",
+      "text": "log.item_return_start",
+      "imp": 1,
+      "cat": "prank",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "empathy",
+      "w": 1.2
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "honesty",
+      "w": 0.6
+     },
+     {
+      "s": "affinity",
+      "a": "actor",
+      "b": "owner",
+      "w": 0.01
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "ignore",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "whose_is_this"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.4
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "empathy",
+      "w": -0.4
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "item_returned",
+  "trigger": "",
+  "priority": 75,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 3.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "return_item_line",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "thanks_return",
+    "to": "actor",
+    "delay": 1.5
+   },
+   {
+    "e": "rel",
+    "a": "target",
+    "b": "actor",
+    "stat": "friendship",
+    "d": 14
+   },
+   {
+    "e": "rel",
+    "a": "target",
+    "b": "actor",
+    "stat": "trust",
+    "d": 10
+   },
+   {
+    "e": "rel",
+    "a": "actor",
+    "b": "target",
+    "stat": "friendship",
+    "d": 4
+   },
+   {
+    "e": "mem",
+    "who": "target",
+    "about": "actor",
+    "kind": "returned_item",
+    "val": 0.8,
+    "w": 0.9,
+    "text": "mem.returned_item",
+    "imp": 3
+   },
+   {
+    "e": "stat",
+    "key": "helps",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "cancel",
+    "who": "target",
+    "type": "search"
+   },
+   {
+    "e": "emote",
+    "who": "target",
+    "v": "love",
+    "delay": 1.5
+   },
+   {
+    "e": "log",
+    "text": "log.item_returned",
+    "imp": 3,
+    "cat": "friendship",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "email_all_scene",
+  "trigger": "",
+  "priority": 90,
+  "allow_absent": true,
+  "effects": [
+   {
+    "e": "expr",
+    "who": "actor",
+    "v": "surprised",
+    "secs": 7
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "exclaim"
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "email_oops",
+    "delay": 0.4
+   },
+   {
+    "e": "sfx",
+    "id": "gasp",
+    "delay": 0.4
+   },
+   {
+    "e": "each",
+    "effects": [
+     {
+      "e": "emote",
+      "who": "self",
+      "v": "exclaim",
+      "delay": 0.6
+     },
+     {
+      "e": "say",
+      "who": "self",
+      "line": "email_read_all",
+      "delay": 0.8,
+      "p": 0.5
+     }
+    ],
+    "exclude": [
+     "actor",
+     "subject"
+    ],
+    "stagger": 0.7
+   },
+   {
+    "e": "say",
+    "who": "subject",
+    "line": "secret_exposed",
+    "delay": 3.0,
+    "when": [
+     {
+      "c": "var",
+      "key": "etype",
+      "in": [
+       "secret",
+       "gossip_digest"
+      ]
+     },
+     {
+      "c": "present",
+      "who": "subject"
+     },
+     {
+      "c": "is",
+      "who": "subject",
+      "id": "",
+      "not": true
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "own_secret_out",
+    "delay": 2.2,
+    "when": [
+     {
+      "c": "var",
+      "key": "etype",
+      "eq": "secret"
+     }
+    ]
+   },
+   {
+    "e": "stress",
+    "who": "subject",
+    "d": 18,
+    "when": [
+     {
+      "c": "var",
+      "key": "etype",
+      "in": [
+       "secret",
+       "gossip_digest"
+      ]
+     }
+    ]
+   },
+   {
+    "e": "rel",
+    "a": "subject",
+    "b": "actor",
+    "stat": "friendship",
+    "d": -18,
+    "when": [
+     {
+      "c": "var",
+      "key": "etype",
+      "eq": "gossip_digest"
+     }
+    ]
+   },
+   {
+    "e": "rel",
+    "a": "subject",
+    "b": "actor",
+    "stat": "trust",
+    "d": -28,
+    "when": [
+     {
+      "c": "var",
+      "key": "etype",
+      "eq": "gossip_digest"
+     }
+    ]
+   },
+   {
+    "e": "intent",
+    "who": "subject",
+    "type": "go_npc",
+    "prio": 66,
+    "ttl": 60,
+    "target": "actor",
+    "event": "email_confront",
+    "delay": 4,
+    "when": [
+     {
+      "c": "var",
+      "key": "etype",
+      "in": [
+       "gossip_digest",
+       "rant",
+       "scheme"
+      ]
+     },
+     {
+      "c": "present",
+      "who": "subject"
+     }
+    ]
+   },
+   {
+    "e": "chain",
+    "event": "crush_exposed",
+    "roles": {
+     "actor": "@ceren",
+     "target": "@mert"
+    },
+    "delay": 3,
+    "when": [
+     {
+      "c": "var",
+      "key": "etype",
+      "eq": "love"
+     }
+    ]
+   },
+   {
+    "e": "call",
+    "fn": "scold",
+    "target": "actor",
+    "reason": "email",
+    "prio": 66,
+    "delay": 3,
+    "when": [
+     {
+      "c": "var",
+      "key": "etype",
+      "eq": "complaint_boss"
+     }
+    ]
+   },
+   {
+    "e": "each",
+    "effects": [
+     {
+      "e": "say",
+      "who": "self",
+      "line": "team_complaint_react",
+      "delay": 2,
+      "p": 0.5
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "stagger": 0.6,
+    "where": [
+     {
+      "c": "var",
+      "key": "etype",
+      "eq": "complaint_team"
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "boss_backpedal",
+    "delay": 4.5,
+    "when": [
+     {
+      "c": "var",
+      "key": "etype",
+      "eq": "complaint_team"
+     }
+    ]
+   },
+   {
+    "e": "stat",
+    "key": "secrets_revealed",
+    "n": 0,
+    "a": "actor",
+    "b": "target"
+   }
+  ]
+ },
+ {
+  "id": "email_redirect_scene",
+  "trigger": "",
+  "priority": 90,
+  "allow_absent": true,
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "email_sent_wrong",
+    "delay": 0.5
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "sweat",
+    "delay": 0.5
+   },
+   {
+    "e": "emote",
+    "who": "target",
+    "v": "exclaim",
+    "delay": 1.6
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "email_redirect_read",
+    "delay": 1.8
+   },
+   {
+    "e": "intent",
+    "who": "target",
+    "type": "go_npc",
+    "prio": 66,
+    "ttl": 60,
+    "target": "actor",
+    "event": "email_confront",
+    "delay": 3.5,
+    "when": [
+     {
+      "c": "any",
+      "of": [
+       {
+        "c": "same",
+        "a": "target",
+        "b": "subject"
+       }
+      ]
+     },
+     {
+      "c": "var",
+      "key": "etype",
+      "in": [
+       "rant",
+       "scheme",
+       "gossip_digest"
+      ]
+     }
+    ]
+   },
+   {
+    "e": "call",
+    "fn": "scold",
+    "target": "actor",
+    "reason": "email",
+    "prio": 66,
+    "delay": 3,
+    "when": [
+     {
+      "c": "var",
+      "key": "etype",
+      "eq": "complaint_boss"
+     },
+     {
+      "c": "is",
+      "who": "target",
+      "id": "ahmet"
+     }
+    ]
+   },
+   {
+    "e": "chain",
+    "event": "crush_exposed",
+    "roles": {
+     "actor": "@ceren",
+     "target": "@mert"
+    },
+    "delay": 3,
+    "when": [
+     {
+      "c": "var",
+      "key": "etype",
+      "eq": "love"
+     },
+     {
+      "c": "is",
+      "who": "target",
+      "id": "ceren"
+     }
+    ]
+   },
+   {
+    "e": "intent",
+    "who": "target",
+    "type": "go_npc",
+    "prio": 30,
+    "ttl": 60,
+    "target": "actor",
+    "event": "tease_crush",
+    "delay": 5,
+    "when": [
+     {
+      "c": "var",
+      "key": "etype",
+      "eq": "love"
+     },
+     {
+      "c": "is",
+      "who": "target",
+      "id": "ceren",
+      "not": true
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "email_confront",
+  "trigger": "",
+  "priority": 82,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "email_confront",
+    "to": "target"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "apology",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "email_apology",
+      "to": "actor",
+      "delay": 1.6
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "email_apology_accept",
+      "to": "target",
+      "delay": 3.2
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 6
+     },
+     {
+      "e": "log",
+      "text": "log.email_apology",
+      "imp": 2,
+      "cat": "conflict",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "empathy",
+      "w": 1.0
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "honesty",
+      "w": 0.5
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "forgiveness",
+      "w": 0.6
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "argument",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "email_defiant",
+      "to": "actor",
+      "delay": 1.6
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "email_furious",
+      "to": "target",
+      "delay": 3.2
+     },
+     {
+      "e": "expr",
+      "who": "actor",
+      "v": "angry",
+      "secs": 6
+     },
+     {
+      "e": "expr",
+      "who": "target",
+      "v": "angry",
+      "secs": 6,
+      "delay": 1.6
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": -12,
+      "both": true
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "rivalry",
+      "d": 8,
+      "both": true
+     },
+     {
+      "e": "stat",
+      "key": "arguments",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "rumor",
+      "kind": "argument",
+      "a": "actor",
+      "b": "target",
+      "juicy": 0.6,
+      "knowers": [
+       "actor",
+       "target"
+      ]
+     },
+     {
+      "e": "witness",
+      "near": "actor",
+      "r": 4.5,
+      "exclude": [
+       "actor",
+       "target"
+      ],
+      "effects": [
+       {
+        "e": "learn",
+        "who": "self",
+        "fact": "$rumor"
+       },
+       {
+        "e": "say",
+        "who": "self",
+        "line": "witness_argument",
+        "delay": 3.5,
+        "p": 0.3
+       }
+      ],
+      "max": 8
+     },
+     {
+      "e": "sfx",
+      "id": "argue",
+      "delay": 1.6
+     },
+     {
+      "e": "log",
+      "text": "log.argument_email",
+      "imp": 3,
+      "cat": "conflict",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "temper",
+      "w": 1.0
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "cunning",
+      "w": 0.4
+     },
+     {
+      "s": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "rivalry",
+      "w": 0.02
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "crush_exposed",
+  "trigger": "",
+  "priority": 75,
+  "allow_absent": true,
+  "conditions": [
+   {
+    "c": "present",
+    "who": "actor"
+   },
+   {
+    "c": "present",
+    "who": "target"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "flattered",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "crush_flattered"
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "mert_blush",
+      "delay": 1.6
+     },
+     {
+      "e": "emote",
+      "who": "target",
+      "v": "love",
+      "delay": 1.6
+     },
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "love"
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 12,
+      "both": true
+     },
+     {
+      "e": "log",
+      "text": "log.crush_sweet",
+      "imp": 3,
+      "cat": "romance",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "affinity",
+      "a": "actor",
+      "b": "target",
+      "w": 0.03
+     },
+     {
+      "s": "mood",
+      "who": "actor",
+      "w": 0.01
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "awkward",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "crush_awkward"
+     },
+     {
+      "e": "expr",
+      "who": "target",
+      "v": "sad",
+      "secs": 6,
+      "delay": 1.0
+     },
+     {
+      "e": "mood",
+      "who": "target",
+      "d": -15
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": -6
+     },
+     {
+      "e": "log",
+      "text": "log.crush_awkward",
+      "imp": 3,
+      "cat": "romance",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.8
+     },
+     {
+      "s": "affinity",
+      "a": "actor",
+      "b": "target",
+      "w": -0.01
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "tease_crush",
+  "trigger": "",
+  "priority": 50,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 3
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "tease_crush_line",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "mert_blush",
+    "to": "actor",
+    "delay": 1.5
+   },
+   {
+    "e": "emote",
+    "who": "target",
+    "v": "sweat",
+    "delay": 1.5
+   },
+   {
+    "e": "rel",
+    "a": "actor",
+    "b": "target",
+    "stat": "friendship",
+    "d": 2
+   },
+   {
+    "e": "log",
+    "text": "log.tease_crush",
+    "imp": 2,
+    "cat": "romance",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "board_noticed",
+  "trigger": "board_noticed",
+  "priority": 55,
+  "outcomes": [
+   {
+    "id": "ceren_alarm",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "board_who_moved"
+     },
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "question"
+     },
+     {
+      "e": "ghost",
+      "d": 1
+     },
+     {
+      "e": "log",
+      "text": "log.ceren_noticed_board",
+      "imp": 2,
+      "cat": "meeting",
+      "who": "actor"
+     },
+     {
+      "e": "intent",
+      "who": "actor",
+      "type": "go_npc",
+      "prio": 50,
+      "ttl": 60,
+      "target": "@ahmet",
+      "event": "inform_boss_meeting"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 5
+     }
+    ],
+    "when": [
+     {
+      "c": "is",
+      "who": "actor",
+      "id": "ceren"
+     },
+     {
+      "c": "present",
+      "who": "@ahmet"
+     }
+    ]
+   },
+   {
+    "id": "noted",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "board_moved_note",
+      "p": 0.6
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "inform_boss_meeting",
+  "trigger": "",
+  "priority": 70,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 3.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "tell_boss_meeting_moved",
+    "to": "target"
+   },
+   {
+    "e": "meet",
+    "who": "target",
+    "v": "board"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "fine",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "boss_meeting_moved_ok",
+      "to": "actor",
+      "delay": 1.5
+     },
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "trust",
+      "d": 2
+     }
+    ],
+    "score": [
+     {
+      "s": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "trust",
+      "w": 0.02
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "temper",
+      "w": -0.5
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "blames_her",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "boss_meeting_moved_blame",
+      "to": "actor",
+      "delay": 1.5
+     },
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "trust",
+      "d": -6
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": -5
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "target",
+      "kind": "blamed_me",
+      "val": -0.4,
+      "w": 0.6,
+      "text": "mem.boss_blamed",
+      "imp": 2
+     },
+     {
+      "e": "stat",
+      "key": "blames",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "log",
+      "text": "log.boss_blames_ceren",
+      "imp": 3,
+      "cat": "boss",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "temper",
+      "w": 1.0
+     },
+     {
+      "s": "stress",
+      "who": "target",
+      "w": 0.01
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "board_changed",
+  "trigger": "board_changed",
+  "priority": 40,
+  "roles": [
+   {
+    "name": "actor",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     },
+     {
+      "c": "zone",
+      "who": "self",
+      "in": [
+       "meeting"
+      ]
+     }
+    ],
+    "score": [],
+    "exclude": [
+     "actor",
+     "target"
+    ],
+    "optional": false,
+    "available": true,
+    "pick": "best",
+    "pool": "present"
+   }
+  ],
+  "effects": [
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "question"
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "board_changed_live"
+   },
+   {
+    "e": "meet",
+    "who": "actor",
+    "v": "board"
+   },
+   {
+    "e": "ghost",
+    "d": 1
+   }
+  ]
+ },
+ {
+  "id": "meeting_start",
+  "trigger": "meeting_start",
+  "priority": 50,
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "meeting_open"
+   }
+  ]
+ },
+ {
+  "id": "meeting_boss_late",
+  "trigger": "meeting_boss_late",
+  "priority": 60,
+  "effects": [
+   {
+    "e": "each",
+    "effects": [
+     {
+      "e": "say",
+      "who": "self",
+      "line": "boss_finally",
+      "p": 0.45
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "stagger": 0.5,
+    "where": [
+     {
+      "c": "activity",
+      "who": "self",
+      "in": [
+       "meeting"
+      ]
+     }
+    ]
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "blame_ceren",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "boss_blames_calendar",
+      "delay": 2.0
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "@ceren",
+      "stat": "trust",
+      "d": -8
+     },
+     {
+      "e": "rel",
+      "a": "@ceren",
+      "b": "actor",
+      "stat": "friendship",
+      "d": -8
+     },
+     {
+      "e": "mem",
+      "who": "@ceren",
+      "about": "actor",
+      "kind": "blamed_me",
+      "val": -0.5,
+      "w": 0.7,
+      "text": "mem.boss_blamed",
+      "imp": 2
+     },
+     {
+      "e": "stat",
+      "key": "blames",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "log",
+      "text": "log.boss_late_blame",
+      "imp": 3,
+      "cat": "meeting",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "temper",
+      "w": 1.2
+     },
+     {
+      "s": "const",
+      "v": 0.1
+     }
+    ],
+    "when": [
+     {
+      "c": "present",
+      "who": "@ceren"
+     }
+    ]
+   },
+   {
+    "id": "laugh",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "boss_late_laugh",
+      "delay": 2.0
+     },
+     {
+      "e": "log",
+      "text": "log.boss_late",
+      "imp": 2,
+      "cat": "meeting",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.6
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "meeting_late",
+  "trigger": "meeting_late",
+  "priority": 70,
+  "effects": [
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "sweat"
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "late_excuse",
+    "to": "target"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "blame_board",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "board_said_other_time",
+      "to": "target",
+      "delay": 1.4
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "who_changed_board",
+      "delay": 2.8
+     },
+     {
+      "e": "ghost",
+      "d": 1
+     },
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "@ceren",
+      "stat": "trust",
+      "d": -4
+     },
+     {
+      "e": "log",
+      "text": "log.late_board_confusion",
+      "imp": 3,
+      "cat": "ghost",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1.4
+     }
+    ],
+    "when": [
+     {
+      "c": "office",
+      "key": "board.changed",
+      "eq": true
+     },
+     {
+      "c": "chance",
+      "p": 0.75
+     }
+    ]
+   },
+   {
+    "id": "scold",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "boss_scold_late",
+      "to": "actor",
+      "delay": 1.4
+     },
+     {
+      "e": "expr",
+      "who": "actor",
+      "v": "sad",
+      "secs": 5,
+      "delay": 1.4
+     },
+     {
+      "e": "stress",
+      "who": "actor",
+      "d": 12
+     },
+     {
+      "e": "mood",
+      "who": "actor",
+      "d": -10
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": -6
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "target",
+      "kind": "scolded",
+      "val": -0.5,
+      "w": 0.7,
+      "text": "mem.scolded_late",
+      "imp": 2
+     },
+     {
+      "e": "stat",
+      "key": "scoldings",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "favor",
+      "about": "actor",
+      "d": -4
+     },
+     {
+      "e": "rumor",
+      "kind": "late",
+      "a": "actor",
+      "b": "target",
+      "juicy": 0.3,
+      "knowers": []
+     },
+     {
+      "e": "witness",
+      "near": "actor",
+      "r": 6,
+      "exclude": [
+       "actor",
+       "target"
+      ],
+      "effects": [
+       {
+        "e": "learn",
+        "who": "self",
+        "fact": "$rumor"
+       }
+      ],
+      "max": 8
+     },
+     {
+      "e": "log",
+      "text": "log.late_scolded",
+      "imp": 3,
+      "cat": "meeting",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "temper",
+      "w": 1.2
+     },
+     {
+      "s": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "trust",
+      "w": -0.015
+     },
+     {
+      "s": "stress",
+      "who": "target",
+      "w": 0.01
+     },
+     {
+      "s": "is",
+      "who": "actor",
+      "v": 0.4,
+      "id": "mert"
+     }
+    ],
+    "when": [
+     {
+      "c": "is",
+      "who": "actor",
+      "id": "ece",
+      "not": true
+     }
+    ]
+   },
+   {
+    "id": "let_go",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "boss_sit_down",
+      "to": "actor",
+      "delay": 1.4
+     },
+     {
+      "e": "log",
+      "text": "log.late",
+      "imp": 2,
+      "cat": "meeting",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.5
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "meeting_wait_timeout",
+  "trigger": "meeting_wait_timeout",
+  "priority": 50,
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "where_is_everyone"
+   },
+   {
+    "e": "mood",
+    "who": "actor",
+    "d": -6
+   },
+   {
+    "e": "stress",
+    "who": "actor",
+    "d": 5
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "question"
+   },
+   {
+    "e": "mem",
+    "who": "actor",
+    "about": "",
+    "kind": "missed_meeting",
+    "val": -0.2,
+    "w": 0.5,
+    "text": "",
+    "imp": 1
+   },
+   {
+    "e": "log",
+    "text": "log.meeting_wait",
+    "imp": 2,
+    "cat": "meeting",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "meeting_absent",
+  "trigger": "meeting_absent",
+  "priority": 55,
+  "allow_absent": true,
+  "conditions": [
+   {
+    "c": "chance",
+    "p": 0.85
+   },
+   {
+    "c": "present",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "mem",
+    "who": "target",
+    "about": "actor",
+    "kind": "no_show",
+    "val": -0.6,
+    "w": 0.8,
+    "text": "",
+    "imp": 1
+   },
+   {
+    "e": "favor",
+    "about": "actor",
+    "d": -6
+   },
+   {
+    "e": "rel",
+    "a": "target",
+    "b": "actor",
+    "stat": "trust",
+    "d": -10
+   },
+   {
+    "e": "call",
+    "fn": "scold",
+    "target": "actor",
+    "reason": "meeting",
+    "prio": 60
+   },
+   {
+    "e": "log",
+    "text": "log.meeting_absent",
+    "imp": 2,
+    "cat": "meeting",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "boss_scold",
+  "trigger": "",
+  "priority": 80,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 4.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "scold_meeting",
+    "to": "target",
+    "when": [
+     {
+      "c": "var",
+      "key": "reason",
+      "eq": "meeting"
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "scold_email",
+    "to": "target",
+    "when": [
+     {
+      "c": "var",
+      "key": "reason",
+      "eq": "email"
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "scold_deadline",
+    "to": "target",
+    "when": [
+     {
+      "c": "var",
+      "key": "reason",
+      "eq": "deadline"
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "scold_general",
+    "to": "target",
+    "when": [
+     {
+      "c": "var",
+      "key": "reason",
+      "in": [
+       "general",
+       ""
+      ]
+     }
+    ]
+   },
+   {
+    "e": "stat",
+    "key": "scoldings",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "expr",
+    "who": "actor",
+    "v": "angry",
+    "secs": 5
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "takes_it",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "sorry_boss",
+      "to": "actor",
+      "delay": 1.6
+     },
+     {
+      "e": "stress",
+      "who": "target",
+      "d": 10
+     },
+     {
+      "e": "mood",
+      "who": "target",
+      "d": -8
+     },
+     {
+      "e": "mem",
+      "who": "target",
+      "about": "actor",
+      "kind": "scolded",
+      "val": -0.4,
+      "w": 0.6,
+      "text": "mem.scolded",
+      "imp": 2
+     },
+     {
+      "e": "log",
+      "text": "log.scolded",
+      "imp": 3,
+      "cat": "boss",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "temper",
+      "w": -1.0
+     },
+     {
+      "s": "const",
+      "v": 0.6
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "talks_back",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "talk_back",
+      "to": "actor",
+      "delay": 1.6
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "boss_how_dare",
+      "to": "target",
+      "delay": 3.0
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "trust",
+      "d": -8,
+      "both": true
+     },
+     {
+      "e": "stress",
+      "who": "actor",
+      "d": 6
+     },
+     {
+      "e": "stress",
+      "who": "target",
+      "d": 8
+     },
+     {
+      "e": "favor",
+      "about": "target",
+      "d": -6
+     },
+     {
+      "e": "mem",
+      "who": "target",
+      "about": "actor",
+      "kind": "scolded",
+      "val": -0.6,
+      "w": 0.8,
+      "text": "mem.talked_back",
+      "imp": 3
+     },
+     {
+      "e": "log",
+      "text": "log.talked_back",
+      "imp": 3,
+      "cat": "boss",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "temper",
+      "w": 1.2
+     },
+     {
+      "s": "goal",
+      "who": "target",
+      "goal": "find_new_job",
+      "v": 0.5
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "meeting_present",
+  "trigger": "meeting_present",
+  "priority": 80,
+  "allow_absent": true,
+  "outcomes": [
+   {
+    "id": "great",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "present_good"
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "boss_praise",
+      "to": "actor",
+      "delay": 2.0
+     },
+     {
+      "e": "favor",
+      "about": "actor",
+      "d": 10
+     },
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "trust",
+      "d": 6
+     },
+     {
+      "e": "mood",
+      "who": "actor",
+      "d": 12
+     },
+     {
+      "e": "stat",
+      "key": "praises",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "target",
+      "kind": "praised",
+      "val": 0.5,
+      "w": 0.7,
+      "text": "mem.praised",
+      "imp": 2
+     },
+     {
+      "e": "log",
+      "text": "log.present_good",
+      "imp": 2,
+      "cat": "meeting",
+      "who": "actor"
+     },
+     {
+      "e": "say",
+      "who": "other",
+      "line": "rival_jealous",
+      "delay": 3.6,
+      "when": [
+       {
+        "c": "present",
+        "who": "other"
+       }
+      ]
+     },
+     {
+      "e": "rel",
+      "a": "other",
+      "b": "actor",
+      "stat": "rivalry",
+      "d": 6,
+      "when": [
+       {
+        "c": "present",
+        "who": "other"
+       }
+      ]
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 2
+     }
+    ],
+    "when": [
+     {
+      "c": "var",
+      "key": "prepared",
+      "eq": true
+     }
+    ]
+   },
+   {
+    "id": "no_usb",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "present_no_usb"
+     },
+     {
+      "e": "expr",
+      "who": "actor",
+      "v": "surprised",
+      "secs": 6
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "boss_unimpressed",
+      "to": "actor",
+      "delay": 2.0
+     },
+     {
+      "e": "favor",
+      "about": "actor",
+      "d": -8
+     },
+     {
+      "e": "stress",
+      "who": "actor",
+      "d": 15
+     },
+     {
+      "e": "mood",
+      "who": "actor",
+      "d": -10
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "",
+      "kind": "lost_usb_presentation",
+      "val": -0.5,
+      "w": 0.7,
+      "text": "mem.no_usb",
+      "imp": 3
+     },
+     {
+      "e": "log",
+      "text": "log.present_no_usb",
+      "imp": 3,
+      "cat": "meeting",
+      "who": "actor"
+     },
+     {
+      "e": "chain",
+      "event": "credit_steal",
+      "roles": {
+       "actor": "other",
+       "target": "actor"
+      },
+      "delay": 2.5,
+      "when": [
+       {
+        "c": "present",
+        "who": "other"
+       }
+      ]
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 3
+     }
+    ],
+    "when": [
+     {
+      "c": "var",
+      "key": "has_usb",
+      "eq": false
+     }
+    ]
+   },
+   {
+    "id": "unprepared",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "present_bad"
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "boss_unimpressed",
+      "to": "actor",
+      "delay": 2.0
+     },
+     {
+      "e": "favor",
+      "about": "actor",
+      "d": -8
+     },
+     {
+      "e": "stress",
+      "who": "actor",
+      "d": 12
+     },
+     {
+      "e": "mood",
+      "who": "actor",
+      "d": -8
+     },
+     {
+      "e": "log",
+      "text": "log.present_bad",
+      "imp": 2,
+      "cat": "meeting",
+      "who": "actor"
+     },
+     {
+      "e": "chain",
+      "event": "credit_steal",
+      "roles": {
+       "actor": "other",
+       "target": "actor"
+      },
+      "delay": 2.5,
+      "when": [
+       {
+        "c": "present",
+        "who": "other"
+       }
+      ]
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1
+     }
+    ],
+    "when": [
+     {
+      "c": "var",
+      "key": "prepared",
+      "eq": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "credit_steal",
+  "trigger": "",
+  "priority": 75,
+  "allow_absent": true,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "actor"
+   },
+   {
+    "c": "present",
+    "who": "@ahmet"
+   },
+   {
+    "c": "trait",
+    "who": "actor",
+    "t": "cunning",
+    "gt": 0.55
+   },
+   {
+    "c": "chance",
+    "p": 0.75
+   }
+  ],
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "credit_steal_pitch",
+    "to": "@ahmet"
+   },
+   {
+    "e": "say",
+    "who": "@ahmet",
+    "line": "boss_impressed_thief",
+    "to": "actor",
+    "delay": 2.0
+   },
+   {
+    "e": "favor",
+    "about": "actor",
+    "d": 12
+   },
+   {
+    "e": "favor",
+    "about": "target",
+    "d": -4
+   },
+   {
+    "e": "rumor",
+    "kind": "credit_steal",
+    "a": "actor",
+    "b": "target",
+    "juicy": 0.8,
+    "knowers": [
+     "actor"
+    ]
+   },
+   {
+    "e": "witness",
+    "near": "actor",
+    "r": 5,
+    "exclude": [
+     "actor",
+     "target"
+    ],
+    "effects": [
+     {
+      "e": "learn",
+      "who": "self",
+      "fact": "$rumor"
+     }
+    ],
+    "max": 8
+   },
+   {
+    "e": "stat",
+    "key": "wrong_rewards",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "log",
+    "text": "log.credit_steal",
+    "imp": 4,
+    "cat": "scheme",
+    "who": "actor"
+   },
+   {
+    "e": "chain",
+    "event": "credit_fight",
+    "roles": {
+     "actor": "target",
+     "target": "actor"
+    },
+    "delay": 3.5,
+    "when": [
+     {
+      "c": "present",
+      "who": "target"
+     },
+     {
+      "c": "near",
+      "a": "actor",
+      "b": "target",
+      "lt": 6
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "credit_fight",
+  "trigger": "",
+  "priority": 78,
+  "conditions": [
+   {
+    "c": "present",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "that_was_my_work",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "prove_it",
+    "to": "actor",
+    "delay": 1.6
+   },
+   {
+    "e": "expr",
+    "who": "actor",
+    "v": "angry",
+    "secs": 6
+   },
+   {
+    "e": "rel",
+    "a": "actor",
+    "b": "target",
+    "stat": "rivalry",
+    "d": 15,
+    "both": true
+   },
+   {
+    "e": "rel",
+    "a": "actor",
+    "b": "target",
+    "stat": "friendship",
+    "d": -15,
+    "both": true
+   },
+   {
+    "e": "stat",
+    "key": "arguments",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "mem",
+    "who": "actor",
+    "about": "target",
+    "kind": "credit_stolen",
+    "val": -0.9,
+    "w": 1.0,
+    "text": "mem.credit_stolen",
+    "imp": 3
+   },
+   {
+    "e": "log",
+    "text": "log.credit_fight",
+    "imp": 4,
+    "cat": "conflict",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "meeting_opportunity",
+  "trigger": "meeting_opportunity",
+  "priority": 70,
+  "allow_absent": true,
+  "conditions": [
+   {
+    "c": "chance",
+    "p": 0.7
+   },
+   {
+    "c": "trait",
+    "who": "actor",
+    "t": "cunning",
+    "gt": 0.6
+   },
+   {
+    "c": "present",
+    "who": "actor"
+   }
+  ],
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "credit_steal_pitch",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "boss_impressed_thief",
+    "to": "actor",
+    "delay": 2.0
+   },
+   {
+    "e": "favor",
+    "about": "actor",
+    "d": 12
+   },
+   {
+    "e": "rumor",
+    "kind": "credit_steal",
+    "a": "actor",
+    "b": "victim",
+    "juicy": 0.8,
+    "knowers": [
+     "actor"
+    ]
+   },
+   {
+    "e": "witness",
+    "near": "actor",
+    "r": 5,
+    "exclude": [
+     "actor",
+     "target"
+    ],
+    "effects": [
+     {
+      "e": "learn",
+      "who": "self",
+      "fact": "$rumor"
+     }
+    ],
+    "max": 8
+   },
+   {
+    "e": "stat",
+    "key": "wrong_rewards",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "log",
+    "text": "log.credit_steal_absent",
+    "imp": 4,
+    "cat": "scheme",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "meeting_banter",
+  "trigger": "meeting_banter",
+  "priority": 30,
+  "roles": [
+   {
+    "name": "joker",
+    "where": [
+     {
+      "c": "activity",
+      "who": "self",
+      "in": [
+       "meeting"
+      ]
+     },
+     {
+      "c": "is",
+      "who": "self",
+      "id": "ahmet",
+      "not": true
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "self",
+      "t": "humor",
+      "w": 1.0
+     },
+     {
+      "s": "rand",
+      "v": 0.4
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "optional": false,
+    "available": false,
+    "pick": "best",
+    "pool": "present"
+   }
+  ],
+  "effects": [
+   {
+    "e": "say",
+    "who": "joker",
+    "line": "meeting_joke"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "laugh",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "boss_laughs",
+      "delay": 1.6
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "joker",
+      "stat": "friendship",
+      "d": 3
+     },
+     {
+      "e": "mood",
+      "who": "actor",
+      "d": 5
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "humor",
+      "w": 1.0
+     },
+     {
+      "s": "mood",
+      "who": "actor",
+      "w": 0.01
+     },
+     {
+      "s": "rand",
+      "v": 0.4
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "annoyed",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "boss_not_funny",
+      "delay": 1.6
+     },
+     {
+      "e": "favor",
+      "about": "joker",
+      "d": -2
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "temper",
+      "w": 0.6
+     },
+     {
+      "s": "stress",
+      "who": "actor",
+      "w": 0.01
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "promo_reviewed",
+  "trigger": "promo_reviewed",
+  "priority": 70,
+  "allow_absent": true,
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "promo_reading"
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "idea"
+   },
+   {
+    "e": "log",
+    "text": "log.promo_reviewed",
+    "imp": 3,
+    "cat": "promotion",
+    "who": "actor"
+   },
+   {
+    "e": "chain",
+    "event": "ceren_notices_promo",
+    "roles": {
+     "actor": "@ceren",
+     "victim": "victim",
+     "credited": "credited"
+    },
+    "delay": 30
+   }
+  ]
+ },
+ {
+  "id": "promo_reviewed_clean",
+  "trigger": "promo_reviewed_clean",
+  "priority": 20,
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "promo_reading_clean",
+    "p": 0.6
+   }
+  ]
+ },
+ {
+  "id": "ceren_notices_promo",
+  "trigger": "",
+  "priority": 50,
+  "allow_absent": true,
+  "conditions": [
+   {
+    "c": "chance",
+    "p": 0.55
+   },
+   {
+    "c": "present",
+    "who": "actor"
+   },
+   {
+    "c": "present",
+    "who": "victim"
+   },
+   {
+    "c": "is",
+    "who": "victim",
+    "id": "",
+    "not": true
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "tell",
+    "effects": [
+     {
+      "e": "intent",
+      "who": "actor",
+      "type": "go_npc",
+      "prio": 48,
+      "ttl": 90,
+      "target": "victim",
+      "event": "ceren_tells_victim",
+      "roles": {
+       "credited": "credited"
+      }
+     },
+     {
+      "e": "log",
+      "text": "log.ceren_notices_promo",
+      "imp": 2,
+      "cat": "promotion",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "affinity",
+      "a": "actor",
+      "b": "victim",
+      "w": 0.02
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "honesty",
+      "w": 0.6
+     }
+    ],
+    "when": [
+     {
+      "c": "affinity",
+      "a": "actor",
+      "b": "victim",
+      "gt": 15
+     }
+    ]
+   },
+   {
+    "id": "quiet",
+    "effects": [
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "",
+      "kind": "promo_secret",
+      "val": 0.0,
+      "w": 0.5,
+      "text": "",
+      "imp": 1
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.4
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "ceren_tells_victim",
+  "trigger": "",
+  "priority": 72,
+  "allow_absent": true,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 4
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "promo_tip",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "promo_outraged",
+    "to": "actor",
+    "delay": 1.6
+   },
+   {
+    "e": "expr",
+    "who": "target",
+    "v": "angry",
+    "secs": 6,
+    "delay": 1.6
+   },
+   {
+    "e": "rel",
+    "a": "target",
+    "b": "credited",
+    "stat": "trust",
+    "d": -15
+   },
+   {
+    "e": "rel",
+    "a": "target",
+    "b": "credited",
+    "stat": "rivalry",
+    "d": 12
+   },
+   {
+    "e": "rel",
+    "a": "target",
+    "b": "actor",
+    "stat": "friendship",
+    "d": 8
+   },
+   {
+    "e": "mem",
+    "who": "target",
+    "about": "credited",
+    "kind": "sabotaged_promo",
+    "val": -0.8,
+    "w": 0.9,
+    "text": "mem.sabotaged_promo",
+    "imp": 3
+   },
+   {
+    "e": "log",
+    "text": "log.promo_tip",
+    "imp": 3,
+    "cat": "promotion",
+    "who": "actor"
+   },
+   {
+    "e": "set",
+    "key": "incident",
+    "v": "promo"
+   },
+   {
+    "e": "intent",
+    "who": "target",
+    "type": "go_npc",
+    "prio": 60,
+    "ttl": 90,
+    "target": "credited",
+    "event": "accusation",
+    "delay": 2,
+    "when": [
+     {
+      "c": "present",
+      "who": "credited"
+     },
+     {
+      "c": "is",
+      "who": "credited",
+      "id": "",
+      "not": true
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "promotion",
+  "trigger": "promotion",
+  "priority": 95,
+  "allow_absent": true,
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "promo_announce",
+    "when": [
+     {
+      "c": "var",
+      "key": "kind",
+      "eq": "promotion"
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "award_announce",
+    "when": [
+     {
+      "c": "var",
+      "key": "kind",
+      "eq": "award"
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "winner",
+    "line": "promo_winner",
+    "delay": 2.4
+   },
+   {
+    "e": "emote",
+    "who": "winner",
+    "v": "love",
+    "delay": 2.4
+   },
+   {
+    "e": "mood",
+    "who": "winner",
+    "d": 25
+   },
+   {
+    "e": "stress",
+    "who": "winner",
+    "d": -10
+   },
+   {
+    "e": "each",
+    "effects": [
+     {
+      "e": "say",
+      "who": "self",
+      "line": "promo_clap",
+      "delay": 3.2,
+      "p": 0.35
+     }
+    ],
+    "exclude": [
+     "actor",
+     "winner",
+     "loser"
+    ],
+    "stagger": 0.4
+   },
+   {
+    "e": "log",
+    "text": "log.promotion",
+    "imp": 4,
+    "cat": "promotion",
+    "who": "winner",
+    "when": [
+     {
+      "c": "var",
+      "key": "kind",
+      "eq": "promotion"
+     }
+    ]
+   },
+   {
+    "e": "log",
+    "text": "log.award",
+    "imp": 3,
+    "cat": "promotion",
+    "who": "winner",
+    "when": [
+     {
+      "c": "var",
+      "key": "kind",
+      "eq": "award"
+     }
+    ]
+   },
+   {
+    "e": "say",
+    "who": "loser",
+    "line": "promo_loser",
+    "delay": 4.2,
+    "when": [
+     {
+      "c": "present",
+      "who": "loser"
+     }
+    ]
+   },
+   {
+    "e": "mood",
+    "who": "loser",
+    "d": -20
+   },
+   {
+    "e": "stress",
+    "who": "loser",
+    "d": 12
+   },
+   {
+    "e": "rel",
+    "a": "loser",
+    "b": "winner",
+    "stat": "rivalry",
+    "d": 15
+   },
+   {
+    "e": "mem",
+    "who": "loser",
+    "about": "winner",
+    "kind": "lost_promo",
+    "val": -0.6,
+    "w": 0.8,
+    "text": "mem.lost_promo",
+    "imp": 3
+   },
+   {
+    "e": "log",
+    "text": "log.promotion_rigged",
+    "imp": 5,
+    "cat": "promotion",
+    "who": "winner",
+    "delay": 0.5,
+    "when": [
+     {
+      "c": "var",
+      "key": "rigged",
+      "eq": true
+     }
+    ]
+   },
+   {
+    "e": "stat",
+    "key": "wrong_rewards",
+    "n": 1,
+    "a": "actor",
+    "b": "target",
+    "when": [
+     {
+      "c": "var",
+      "key": "rigged",
+      "eq": true
+     }
+    ]
+   },
+   {
+    "e": "chain",
+    "event": "promo_grudge",
+    "roles": {
+     "actor": "loser",
+     "target": "winner"
+    },
+    "delay": 12,
+    "when": [
+     {
+      "c": "is",
+      "who": "loser",
+      "id": "selin"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "promo_grudge",
+  "trigger": "",
+  "priority": 55,
+  "allow_absent": true,
+  "conditions": [
+   {
+    "c": "present",
+    "who": "actor"
+   },
+   {
+    "c": "present",
+    "who": "target"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "confront",
+    "effects": [
+     {
+      "e": "set",
+      "key": "incident",
+      "v": "promo"
+     },
+     {
+      "e": "intent",
+      "who": "actor",
+      "type": "go_npc",
+      "prio": 55,
+      "ttl": 60,
+      "target": "target",
+      "event": "accusation"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "temper",
+      "w": 1.0
+     },
+     {
+      "s": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "rivalry",
+      "w": 0.01
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "cold",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "cold_grudge"
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "target",
+      "kind": "grudge",
+      "val": -0.6,
+      "w": 0.9,
+      "text": "mem.grudge",
+      "imp": 3
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.6
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "notif_boss",
+  "trigger": "notif",
+  "filter": {
+   "kind": "boss"
+  },
+  "priority": 70,
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "notif_boss_read"
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "sweat"
+   },
+   {
+    "e": "stress",
+    "who": "actor",
+    "d": 6
+   },
+   {
+    "e": "intent",
+    "who": "actor",
+    "type": "go_place",
+    "prio": 74,
+    "ttl": 40,
+    "event": "boss_confused",
+    "place": "boss_front",
+    "roles": {
+     "target": "@ahmet"
+    }
+   },
+   {
+    "e": "log",
+    "text": "log.notif_boss",
+    "imp": 2,
+    "cat": "ghost",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "notif_food",
+  "trigger": "notif",
+  "filter": {
+   "kind": "food"
+  },
+  "priority": 70,
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "notif_food_read"
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "love"
+   },
+   {
+    "e": "intent",
+    "who": "actor",
+    "type": "go_place",
+    "prio": 55,
+    "ttl": 40,
+    "event": "no_food",
+    "place": "fridge"
+   },
+   {
+    "e": "log",
+    "text": "log.notif_food",
+    "imp": 2,
+    "cat": "ghost",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "notif_cancel",
+  "trigger": "notif",
+  "filter": {
+   "kind": "cancel"
+  },
+  "priority": 70,
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "notif_cancel_read"
+   },
+   {
+    "e": "call",
+    "fn": "meeting_cancel_belief"
+   },
+   {
+    "e": "log",
+    "text": "log.notif_cancel",
+    "imp": 2,
+    "cat": "ghost",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "notif_admirer",
+  "trigger": "notif",
+  "filter": {
+   "kind": "admirer"
+  },
+  "priority": 70,
+  "roles": [
+   {
+    "name": "crush",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     }
+    ],
+    "score": [
+     {
+      "s": "affinity",
+      "a": "actor",
+      "b": "self",
+      "w": 0.02
+     },
+     {
+      "s": "trait",
+      "who": "self",
+      "t": "humor",
+      "w": 0.3
+     },
+     {
+      "s": "rand",
+      "v": 0.8
+     },
+     {
+      "s": "if",
+      "cond": {
+       "c": "is",
+       "who": "actor",
+       "id": "ceren"
+      },
+      "v": 0.0,
+      "else": 0.0
+     },
+     {
+      "s": "if",
+      "cond": {
+       "c": "all",
+       "of": [
+        {
+         "c": "is",
+         "who": "actor",
+         "id": "ceren"
+        },
+        {
+         "c": "is",
+         "who": "self",
+         "id": "mert"
+        }
+       ]
+      },
+      "v": 2.0,
+      "else": 0.0
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "optional": true,
+    "available": true,
+    "pick": "best",
+    "pool": "present"
+   }
+  ],
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "notif_admirer_read"
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "love"
+   },
+   {
+    "e": "mood",
+    "who": "actor",
+    "d": 15
+   },
+   {
+    "e": "log",
+    "text": "log.notif_admirer",
+    "imp": 2,
+    "cat": "romance",
+    "who": "actor"
+   },
+   {
+    "e": "intent",
+    "who": "actor",
+    "type": "go_npc",
+    "prio": 45,
+    "ttl": 50,
+    "target": "crush",
+    "event": "admirer_ask",
+    "delay": 2,
+    "when": [
+     {
+      "c": "present",
+      "who": "crush"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "boss_confused",
+  "trigger": "",
+  "priority": 80,
+  "allow_absent": true,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 4.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "you_wanted_me",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "i_didnt_call",
+    "to": "actor",
+    "delay": 1.5
+   },
+   {
+    "e": "ghost",
+    "d": 1
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "annoyed",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "boss_get_back_to_work",
+      "to": "actor",
+      "delay": 3.0
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": -4
+     },
+     {
+      "e": "stress",
+      "who": "actor",
+      "d": 6
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "target",
+      "kind": "boss_snapped",
+      "val": -0.3,
+      "w": 0.5,
+      "text": "",
+      "imp": 1
+     },
+     {
+      "e": "log",
+      "text": "log.boss_confused_annoyed",
+      "imp": 2,
+      "cat": "ghost",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "temper",
+      "w": 1.0
+     },
+     {
+      "s": "stress",
+      "who": "target",
+      "w": 0.01
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "friendly",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "boss_since_youre_here",
+      "to": "actor",
+      "delay": 3.0
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 6,
+      "both": true
+     },
+     {
+      "e": "favor",
+      "about": "actor",
+      "d": 4
+     },
+     {
+      "e": "log",
+      "text": "log.boss_confused_friendly",
+      "imp": 2,
+      "cat": "friendship",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "trust",
+      "w": 0.02
+     },
+     {
+      "s": "mood",
+      "who": "target",
+      "w": 0.01
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "no_food",
+  "trigger": "",
+  "priority": 60,
+  "vars": [
+   {
+    "name": "suspect",
+    "fn": "suspect",
+    "optional": true
+   }
+  ],
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "no_food_here"
+   },
+   {
+    "e": "mood",
+    "who": "actor",
+    "d": -8
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "cloud"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "blame_prank",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "who_pranked",
+      "delay": 1.6
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "$suspect",
+      "kind": "pranked_me",
+      "val": -0.3,
+      "w": 0.6,
+      "text": "mem.pranked",
+      "imp": 2
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "$suspect",
+      "stat": "trust",
+      "d": -5
+     },
+     {
+      "e": "log",
+      "text": "log.no_food_blame",
+      "imp": 2,
+      "cat": "prank",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "temper",
+      "w": 0.8
+     },
+     {
+      "s": "const",
+      "v": 0.3
+     }
+    ],
+    "when": [
+     {
+      "c": "rolefilled",
+      "who": "$suspect"
+     }
+    ]
+   },
+   {
+    "id": "sigh",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "fridge_sigh",
+      "delay": 1.6
+     },
+     {
+      "e": "log",
+      "text": "log.no_food",
+      "imp": 2,
+      "cat": "prank",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.5
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "admirer_ask",
+  "trigger": "",
+  "priority": 60,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 3.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "admirer_was_it_you",
+    "to": "target"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "sweet",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "admirer_maybe",
+      "to": "actor",
+      "delay": 1.6
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 10,
+      "both": true
+     },
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "love",
+      "delay": 1.6
+     },
+     {
+      "e": "log",
+      "text": "log.admirer_sweet",
+      "imp": 3,
+      "cat": "romance",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "affinity",
+      "a": "target",
+      "b": "actor",
+      "w": 0.025
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "humor",
+      "w": 0.3
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "awkward",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "admirer_no",
+      "to": "actor",
+      "delay": 1.6
+     },
+     {
+      "e": "mood",
+      "who": "actor",
+      "d": -6
+     },
+     {
+      "e": "log",
+      "text": "log.admirer_awkward",
+      "imp": 2,
+      "cat": "romance",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.7
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "boss_learns_job_hunt",
+  "trigger": "fact_learned",
+  "filter": {
+   "fact": "burak_job_hunt",
+   "actor": "ahmet"
+  },
+  "priority": 70,
+  "allow_absent": true,
+  "conditions": [
+   {
+    "c": "present",
+    "who": "actor"
+   },
+   {
+    "c": "present",
+    "who": "@burak"
+   }
+  ],
+  "effects": [
+   {
+    "e": "expr",
+    "who": "actor",
+    "v": "angry",
+    "secs": 6
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "boss_job_hunt_discovered"
+   },
+   {
+    "e": "log",
+    "text": "log.boss_learns_job",
+    "imp": 4,
+    "cat": "secret",
+    "who": "actor"
+   },
+   {
+    "e": "call",
+    "fn": "summon",
+    "target": "@burak",
+    "event": "job_hunt_talk",
+    "prio": 76,
+    "delay": 2
+   }
+  ]
+ },
+ {
+  "id": "job_hunt_talk",
+  "trigger": "",
+  "priority": 80,
+  "allow_absent": true,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 5.5
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "boss_job_hunt_confront",
+    "to": "actor"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "counteroffer",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "boss_counteroffer",
+      "to": "actor",
+      "delay": 2.0
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "burak_surprised_stay",
+      "to": "target",
+      "delay": 3.6
+     },
+     {
+      "e": "mood",
+      "who": "actor",
+      "d": 20
+     },
+     {
+      "e": "goal",
+      "who": "actor",
+      "v": "get_recognition"
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 15
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "trust",
+      "d": 12
+     },
+     {
+      "e": "log",
+      "text": "log.counteroffer",
+      "imp": 4,
+      "cat": "boss",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "trust",
+      "w": 0.02
+     },
+     {
+      "s": "mem",
+      "who": "target",
+      "about": "actor",
+      "w": 0.8
+     },
+     {
+      "s": "const",
+      "v": 0.2
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "clash",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "burak_defiant",
+      "to": "target",
+      "delay": 2.0
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "boss_cold",
+      "to": "actor",
+      "delay": 3.6
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": -15,
+      "both": true
+     },
+     {
+      "e": "stress",
+      "who": "actor",
+      "d": 12
+     },
+     {
+      "e": "favor",
+      "about": "actor",
+      "d": -10
+     },
+     {
+      "e": "log",
+      "text": "log.job_hunt_clash",
+      "imp": 4,
+      "cat": "boss",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "temper",
+      "w": 0.8
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "temper",
+      "w": 0.8
+     },
+     {
+      "s": "stress",
+      "who": "actor",
+      "w": 0.01
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "nepotism_reveal",
+  "trigger": "fact_learned",
+  "filter": {
+   "fact": "ece_relative"
+  },
+  "priority": 50,
+  "allow_absent": true,
+  "conditions": [
+   {
+    "c": "dayflag",
+    "key": "nepotism_scene",
+    "not": true
+   },
+   {
+    "c": "present",
+    "who": "actor"
+   },
+   {
+    "c": "is",
+    "who": "actor",
+    "in": [
+     "ece",
+     "ahmet"
+    ],
+    "not": true
+   }
+  ],
+  "effects": [
+   {
+    "e": "flag",
+    "key": "nepotism_scene",
+    "v": true,
+    "day": true
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "nepotism_mutter"
+   },
+   {
+    "e": "expr",
+    "who": "@ece",
+    "v": "sad",
+    "secs": 6
+   },
+   {
+    "e": "mood",
+    "who": "@ece",
+    "d": -15
+   },
+   {
+    "e": "stress",
+    "who": "@ece",
+    "d": 12
+   },
+   {
+    "e": "log",
+    "text": "log.nepotism",
+    "imp": 3,
+    "cat": "secret",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "review_shock",
+  "trigger": "fact_learned",
+  "filter": {
+   "fact": "ahmet_review",
+   "actor": "ahmet"
+  },
+  "priority": 60,
+  "allow_absent": true,
+  "conditions": [
+   {
+    "c": "present",
+    "who": "actor"
+   }
+  ],
+  "effects": [
+   {
+    "e": "expr",
+    "who": "actor",
+    "v": "surprised",
+    "secs": 6
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "boss_review_shock"
+   },
+   {
+    "e": "goal",
+    "who": "actor",
+    "v": "impress_hq"
+   },
+   {
+    "e": "log",
+    "text": "log.boss_review",
+    "imp": 4,
+    "cat": "secret",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "secret_call",
+  "trigger": "secret_call",
+  "priority": 45,
+  "max_day": 3,
+  "roles": [
+   {
+    "name": "listener",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "self",
+      "t": "curiosity",
+      "w": 1.0
+     },
+     {
+      "s": "dist",
+      "a": "actor",
+      "b": "self",
+      "w": -0.2
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "optional": true,
+    "available": true,
+    "pick": "best",
+    "pool": "present",
+    "near": "actor",
+    "r": 3.8
+   }
+  ],
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "secret_call_line"
+   },
+   {
+    "e": "reveal",
+    "fact": "burak_job_hunt"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "overheard",
+    "effects": [
+     {
+      "e": "learn",
+      "who": "listener",
+      "fact": "burak_job_hunt",
+      "from": "actor"
+     },
+     {
+      "e": "emote",
+      "who": "listener",
+      "v": "exclaim",
+      "delay": 1.4
+     },
+     {
+      "e": "say",
+      "who": "listener",
+      "line": "overheard_call",
+      "delay": 1.6
+     },
+     {
+      "e": "log",
+      "text": "log.overheard_call",
+      "imp": 3,
+      "cat": "secret",
+      "who": "listener"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1
+     }
+    ],
+    "when": [
+     {
+      "c": "present",
+      "who": "listener"
+     },
+     {
+      "c": "knows",
+      "who": "listener",
+      "fact": "burak_job_hunt",
+      "not": true
+     }
+    ]
+   },
+   {
+    "id": "alone",
+    "effects": [],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.1
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "gossip_share",
+  "trigger": [
+   "encounter",
+   "chat",
+   "desk_chat"
+  ],
+  "priority": 62,
+  "scope": "pair",
+  "cooldown": 100,
+  "max_day": 10,
+  "vars": [
+   {
+    "name": "gossip",
+    "fn": "gossip_fact",
+    "optional": false
+   }
+  ],
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   },
+   {
+    "c": "trait",
+    "who": "actor",
+    "t": "gossip",
+    "gt": 0.3
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 4.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "gossip_open",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "gossip_tell",
+    "to": "target",
+    "delay": 1.5
+   },
+   {
+    "e": "learn",
+    "who": "target",
+    "fact": "$gossip",
+    "from": "actor"
+   },
+   {
+    "e": "rel",
+    "a": "actor",
+    "b": "target",
+    "stat": "friendship",
+    "d": 2
+   },
+   {
+    "e": "stat",
+    "key": "rumors",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "log",
+    "text": "log.gossip",
+    "imp": 2,
+    "cat": "rumor",
+    "who": "actor"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "shocked",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "gossip_react",
+      "to": "actor",
+      "delay": 3.0
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.6
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "disapprove",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "gossip_disapprove",
+      "to": "actor",
+      "delay": 3.0
+     },
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "trust",
+      "d": -5
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "honesty",
+      "w": 1.0
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "gossip",
+      "w": -1.0
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "eager",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "gossip_eager",
+      "to": "actor",
+      "delay": 3.0
+     },
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "friendship",
+      "d": 4
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "gossip",
+      "w": 1.2
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "curiosity",
+      "w": 0.4
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "flirt",
+  "trigger": [
+   "encounter",
+   "chat"
+  ],
+  "priority": 55,
+  "scope": "pair",
+  "cooldown": 120,
+  "max_day": 3,
+  "conditions": [
+   {
+    "c": "is",
+    "who": "actor",
+    "id": "mert"
+   },
+   {
+    "c": "is",
+    "who": "target",
+    "id": "ceren"
+   },
+   {
+    "c": "goal",
+    "who": "actor",
+    "goal": "win_ceren"
+   },
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 4
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "flirt_line",
+    "to": "target"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "charmed",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "flirt_charmed",
+      "to": "actor",
+      "delay": 1.6
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 4,
+      "both": true
+     },
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "love",
+      "delay": 1.6
+     },
+     {
+      "e": "log",
+      "text": "log.flirt_good",
+      "imp": 2,
+      "cat": "romance",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "affinity",
+      "a": "target",
+      "b": "actor",
+      "w": 0.015
+     },
+     {
+      "s": "mood",
+      "who": "target",
+      "w": 0.01
+     },
+     {
+      "s": "rand",
+      "v": 0.5
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "brushed",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "flirt_brush",
+      "to": "actor",
+      "delay": 1.6
+     },
+     {
+      "e": "mood",
+      "who": "actor",
+      "d": -6
+     },
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "cloud",
+      "delay": 1.6
+     },
+     {
+      "e": "log",
+      "text": "log.flirt_bad",
+      "imp": 2,
+      "cat": "romance",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.5
+     },
+     {
+      "s": "stress",
+      "who": "target",
+      "w": 0.01
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "couple_forms",
+  "trigger": [
+   "encounter",
+   "chat"
+  ],
+  "priority": 66,
+  "max_day": 1,
+  "conditions": [
+   {
+    "c": "is",
+    "who": "actor",
+    "in": [
+     "mert",
+     "ceren"
+    ]
+   },
+   {
+    "c": "is",
+    "who": "target",
+    "in": [
+     "mert",
+     "ceren"
+    ]
+   },
+   {
+    "c": "flag",
+    "key": "couple",
+    "not": true
+   },
+   {
+    "c": "day",
+    "gte": 3
+   },
+   {
+    "c": "rel",
+    "a": "actor",
+    "b": "target",
+    "stat": "friendship",
+    "gt": 68
+   },
+   {
+    "c": "rel",
+    "a": "target",
+    "b": "actor",
+    "stat": "friendship",
+    "gt": 62
+   },
+   {
+    "c": "chance",
+    "p": 0.5
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 4
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "date_ask",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "date_yes",
+    "to": "actor",
+    "delay": 1.6
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "love",
+    "delay": 1.6
+   },
+   {
+    "e": "emote",
+    "who": "target",
+    "v": "love",
+    "delay": 1.6
+   },
+   {
+    "e": "flag",
+    "key": "couple",
+    "v": true,
+    "day": false
+   },
+   {
+    "e": "rumor",
+    "kind": "couple",
+    "a": "actor",
+    "b": "target",
+    "juicy": 0.85,
+    "knowers": [
+     "actor",
+     "target"
+    ]
+   },
+   {
+    "e": "reveal",
+    "fact": "$rumor"
+   },
+   {
+    "e": "mood",
+    "who": "actor",
+    "d": 20
+   },
+   {
+    "e": "mood",
+    "who": "target",
+    "d": 15
+   },
+   {
+    "e": "log",
+    "text": "log.secret_couple",
+    "imp": 4,
+    "cat": "romance",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "secret_friends_spotted",
+  "trigger": [
+   "encounter",
+   "chat"
+  ],
+  "priority": 35,
+  "scope": "pair",
+  "cooldown": 400,
+  "max_day": 2,
+  "roles": [
+   {
+    "name": "spotter",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     },
+     {
+      "c": "trait",
+      "who": "self",
+      "t": "gossip",
+      "gt": 0.5
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "self",
+      "t": "gossip",
+      "w": 1.0
+     }
+    ],
+    "exclude": [
+     "actor",
+     "target"
+    ],
+    "optional": false,
+    "available": true,
+    "pick": "best",
+    "pool": "present",
+    "near": "actor",
+    "r": 4.5
+   }
+  ],
+  "conditions": [
+   {
+    "c": "affinity",
+    "a": "actor",
+    "b": "target",
+    "gt": 48
+   },
+   {
+    "c": "affinity",
+    "a": "target",
+    "b": "actor",
+    "gt": 48
+   },
+   {
+    "c": "chance",
+    "p": 0.4
+   }
+  ],
+  "effects": [
+   {
+    "e": "rumor",
+    "kind": "secret_friends",
+    "a": "actor",
+    "b": "target",
+    "juicy": 0.5,
+    "knowers": [
+     "spotter"
+    ]
+   },
+   {
+    "e": "say",
+    "who": "spotter",
+    "line": "spotted_secret_friends"
+   },
+   {
+    "e": "emote",
+    "who": "spotter",
+    "v": "idea"
+   },
+   {
+    "e": "log",
+    "text": "log.secret_friends",
+    "imp": 2,
+    "cat": "rumor",
+    "who": "spotter"
+   }
+  ]
+ },
+ {
+  "id": "jealousy",
+  "trigger": [
+   "encounter",
+   "desk_chat"
+  ],
+  "priority": 45,
+  "scope": "pair",
+  "cooldown": 120,
+  "conditions": [
+   {
+    "c": "rel",
+    "a": "actor",
+    "b": "target",
+    "stat": "rivalry",
+    "gt": 32
+   },
+   {
+    "c": "mem",
+    "who": "target",
+    "kind": "praised",
+    "days": 0
+   },
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "jealous_jab",
+    "to": "target"
+   },
+   {
+    "e": "rel",
+    "a": "actor",
+    "b": "target",
+    "stat": "rivalry",
+    "d": 6
+   },
+   {
+    "e": "stat",
+    "key": "jealousy",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   },
+   {
+    "e": "log",
+    "text": "log.jealousy",
+    "imp": 2,
+    "cat": "conflict",
+    "who": "actor"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "smug",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "jealous_smug",
+      "to": "actor",
+      "delay": 1.6
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "rivalry",
+      "d": 4
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "cunning",
+      "w": 1.0
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "hurt",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "jealous_hurt",
+      "to": "actor",
+      "delay": 1.6
+     },
+     {
+      "e": "mood",
+      "who": "target",
+      "d": -6
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "empathy",
+      "w": 0.8
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "reconciliation",
+  "trigger": [
+   "encounter",
+   "chat",
+   "desk_chat"
+  ],
+  "priority": 64,
+  "scope": "pair",
+  "cooldown": 240,
+  "conditions": [
+   {
+    "c": "affinity",
+    "a": "actor",
+    "b": "target",
+    "gt": -48,
+    "lt": 6
+   },
+   {
+    "c": "rel",
+    "a": "actor",
+    "b": "target",
+    "stat": "friendship",
+    "lt": 10
+   },
+   {
+    "c": "mood",
+    "who": "actor",
+    "gt": -10
+   },
+   {
+    "c": "stress",
+    "who": "actor",
+    "lt": 60
+   },
+   {
+    "c": "any",
+    "of": [
+     {
+      "c": "trait",
+      "who": "actor",
+      "t": "forgiveness",
+      "gt": 0.35
+     },
+     {
+      "c": "trait",
+      "who": "actor",
+      "t": "empathy",
+      "gt": 0.6
+     }
+    ]
+   },
+   {
+    "c": "any",
+    "of": [
+     {
+      "c": "mem",
+      "who": "actor",
+      "kind": "argued",
+      "days": 3
+     },
+     {
+      "c": "mem",
+      "who": "actor",
+      "kind": "falsely_accused",
+      "days": 3
+     },
+     {
+      "c": "mem",
+      "who": "actor",
+      "kind": "refused_help",
+      "days": 3
+     },
+     {
+      "c": "mem",
+      "who": "actor",
+      "kind": "accused_me",
+      "days": 3
+     },
+     {
+      "c": "mem",
+      "who": "actor",
+      "kind": "thermostat",
+      "days": 3
+     }
+    ]
+   },
+   {
+    "c": "chance",
+    "p": 0.55
+   },
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 4.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "apology_offer",
+    "to": "target"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "makeup",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "apology_accept",
+      "to": "actor",
+      "delay": 1.6
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 20,
+      "both": true
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "trust",
+      "d": 10,
+      "both": true
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "rivalry",
+      "d": -10,
+      "both": true
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "target",
+      "kind": "made_up",
+      "val": 0.6,
+      "w": 0.8,
+      "text": "mem.made_up",
+      "imp": 3
+     },
+     {
+      "e": "mem",
+      "who": "target",
+      "about": "actor",
+      "kind": "made_up",
+      "val": 0.6,
+      "w": 0.8,
+      "text": "mem.made_up",
+      "imp": 3
+     },
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "love",
+      "delay": 1.6
+     },
+     {
+      "e": "stat",
+      "key": "reconciliations",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "log",
+      "text": "log.reconcile",
+      "imp": 3,
+      "cat": "friendship",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "forgiveness",
+      "w": 1.2
+     },
+     {
+      "s": "mood",
+      "who": "target",
+      "w": 0.01
+     },
+     {
+      "s": "const",
+      "v": 0.2
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "rebuffed",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "apology_reject",
+      "to": "actor",
+      "delay": 1.6
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": -4
+     },
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "cloud",
+      "delay": 1.6
+     },
+     {
+      "e": "log",
+      "text": "log.reconcile_fail",
+      "imp": 2,
+      "cat": "conflict",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "forgiveness",
+      "w": -1.0
+     },
+     {
+      "s": "stress",
+      "who": "target",
+      "w": 0.01
+     },
+     {
+      "s": "const",
+      "v": 0.3
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "grudge_flare",
+  "trigger": [
+   "encounter",
+   "desk_chat"
+  ],
+  "priority": 50,
+  "scope": "pair",
+  "cooldown": 150,
+  "conditions": [
+   {
+    "c": "affinity",
+    "a": "actor",
+    "b": "target",
+    "lt": -28
+   },
+   {
+    "c": "stress",
+    "who": "actor",
+    "gt": 35
+   },
+   {
+    "c": "trait",
+    "who": "actor",
+    "t": "temper",
+    "gt": 0.38
+   },
+   {
+    "c": "chance",
+    "p": 0.5
+   },
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 4.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "grudge_jab",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "grudge_reply",
+    "to": "actor",
+    "delay": 1.5
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "argument",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "grudge_escalate",
+      "to": "target",
+      "delay": 3.0
+     },
+     {
+      "e": "expr",
+      "who": "actor",
+      "v": "angry",
+      "secs": 5
+     },
+     {
+      "e": "expr",
+      "who": "target",
+      "v": "angry",
+      "secs": 5,
+      "delay": 1.5
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": -8,
+      "both": true
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "rivalry",
+      "d": 6,
+      "both": true
+     },
+     {
+      "e": "stat",
+      "key": "arguments",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "rumor",
+      "kind": "argument",
+      "a": "actor",
+      "b": "target",
+      "juicy": 0.5,
+      "knowers": [
+       "actor",
+       "target"
+      ]
+     },
+     {
+      "e": "witness",
+      "near": "actor",
+      "r": 4.5,
+      "exclude": [
+       "actor",
+       "target"
+      ],
+      "effects": [
+       {
+        "e": "learn",
+        "who": "self",
+        "fact": "$rumor"
+       }
+      ],
+      "max": 8
+     },
+     {
+      "e": "sfx",
+      "id": "argue",
+      "delay": 1.5
+     },
+     {
+      "e": "log",
+      "text": "log.argument_grudge",
+      "imp": 3,
+      "cat": "conflict",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "temper",
+      "w": 1.2
+     },
+     {
+      "s": "stress",
+      "who": "target",
+      "w": 0.01
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "walk_away",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "walk_away",
+      "to": "actor",
+      "delay": 3.0
+     },
+     {
+      "e": "log",
+      "text": "log.cold",
+      "imp": 1,
+      "cat": "conflict",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.5
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "small_talk",
+  "trigger": [
+   "encounter",
+   "chat",
+   "desk_chat"
+  ],
+  "priority": 10,
+  "scope": "pair",
+  "cooldown": 20,
+  "vars": [
+   {
+    "name": "topic",
+    "fn": "topic",
+    "optional": false
+   }
+  ],
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "call",
+    "fn": "share_board",
+    "target": "target"
+   },
+   {
+    "e": "call",
+    "fn": "share_board",
+    "who": "target",
+    "target": "actor"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "joke",
+    "effects": [
+     {
+      "e": "hold",
+      "who": [
+       "actor",
+       "target"
+      ],
+      "dur": 3.5
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "joke",
+      "to": "target"
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "joke_laugh",
+      "to": "actor",
+      "delay": 1.5
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 3,
+      "both": true
+     },
+     {
+      "e": "mood",
+      "who": "target",
+      "d": 4
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "humor",
+      "w": 1.2
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "humor",
+      "w": 0.4
+     },
+     {
+      "s": "mood",
+      "who": "target",
+      "w": 0.006
+     }
+    ],
+    "when": [
+     {
+      "c": "trait",
+      "who": "actor",
+      "t": "humor",
+      "gt": 0.6
+     }
+    ]
+   },
+   {
+    "id": "groan",
+    "effects": [
+     {
+      "e": "hold",
+      "who": [
+       "actor",
+       "target"
+      ],
+      "dur": 3.5
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "joke",
+      "to": "target"
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "joke_groan",
+      "to": "actor",
+      "delay": 1.5
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "humor",
+      "w": 0.6
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "humor",
+      "w": -0.8
+     },
+     {
+      "s": "stress",
+      "who": "target",
+      "w": 0.006
+     }
+    ],
+    "when": [
+     {
+      "c": "trait",
+      "who": "actor",
+      "t": "humor",
+      "gt": 0.6
+     }
+    ]
+   },
+   {
+    "id": "chat",
+    "effects": [
+     {
+      "e": "hold",
+      "who": [
+       "actor",
+       "target"
+      ],
+      "dur": 3.5
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "topic_open",
+      "to": "target"
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "topic_reply",
+      "to": "actor",
+      "delay": 1.5
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 2,
+      "both": true
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.6
+     },
+     {
+      "s": "affinity",
+      "a": "target",
+      "b": "actor",
+      "w": 0.005
+     }
+    ],
+    "when": [
+     {
+      "c": "affinity",
+      "a": "target",
+      "b": "actor",
+      "gt": -25
+     }
+    ]
+   },
+   {
+    "id": "nod",
+    "effects": [
+     {
+      "e": "emote",
+      "who": "actor",
+      "v": "wave"
+     },
+     {
+      "e": "emote",
+      "who": "target",
+      "v": "wave",
+      "delay": 0.8
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 1,
+      "both": true
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.55
+     },
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "sociability",
+      "w": -0.4
+     }
+    ],
+    "when": [
+     {
+      "c": "affinity",
+      "a": "target",
+      "b": "actor",
+      "gt": -25
+     }
+    ]
+   },
+   {
+    "id": "cold",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "topic_open",
+      "to": "target"
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "cold_shoulder",
+      "to": "actor",
+      "delay": 1.4
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": -2
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 2
+     }
+    ],
+    "when": [
+     {
+      "c": "affinity",
+      "a": "target",
+      "b": "actor",
+      "lt": -25
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "coffee_gift",
+  "trigger": "",
+  "priority": 60,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 3.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "coffee_gift_offer",
+    "to": "target"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "delighted",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "coffee_gift_thanks",
+      "to": "actor",
+      "delay": 1.5
+     },
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "friendship",
+      "d": 9
+     },
+     {
+      "e": "mood",
+      "who": "target",
+      "d": 6
+     },
+     {
+      "e": "stress",
+      "who": "target",
+      "d": -5
+     },
+     {
+      "e": "log",
+      "text": "log.coffee_gift",
+      "imp": 2,
+      "cat": "friendship",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1.0
+     },
+     {
+      "s": "affinity",
+      "a": "target",
+      "b": "actor",
+      "w": 0.005
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "spill",
+    "effects": [
+     {
+      "e": "fx",
+      "v": "spill",
+      "who": "target",
+      "delay": 1.0
+     },
+     {
+      "e": "sfx",
+      "id": "splash",
+      "delay": 1.0
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "ece_spill_oops",
+      "to": "target",
+      "delay": 1.0
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "spill_forgive",
+      "to": "actor",
+      "delay": 2.4,
+      "when": [
+       {
+        "c": "trait",
+        "who": "target",
+        "t": "forgiveness",
+        "gt": 0.45
+       }
+      ]
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "spill_angry",
+      "to": "actor",
+      "delay": 2.4,
+      "when": [
+       {
+        "c": "trait",
+        "who": "target",
+        "t": "forgiveness",
+        "lt": 0.45
+       }
+      ]
+     },
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "friendship",
+      "d": -5,
+      "when": [
+       {
+        "c": "trait",
+        "who": "target",
+        "t": "forgiveness",
+        "lt": 0.45
+       }
+      ]
+     },
+     {
+      "e": "log",
+      "text": "log.coffee_gift_spill",
+      "imp": 2,
+      "cat": "prank",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "clumsiness",
+      "w": 0.9
+     },
+     {
+      "s": "rand",
+      "v": 0.5
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "ceren_briefing",
+  "trigger": "",
+  "priority": 55,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "vars": [
+   {
+    "name": "gossip",
+    "fn": "gossip_fact",
+    "optional": true
+   }
+  ],
+  "effects": [
+   {
+    "e": "npcflag",
+    "who": "actor",
+    "key": "briefed",
+    "v": true
+   },
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 3.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "ceren_brief",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "boss_brief_reply",
+    "to": "actor",
+    "delay": 1.5
+   },
+   {
+    "e": "call",
+    "fn": "share_board",
+    "target": "target"
+   },
+   {
+    "e": "rel",
+    "a": "target",
+    "b": "actor",
+    "stat": "trust",
+    "d": 2
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "snitch",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "ceren_snitch",
+      "to": "target",
+      "delay": 3.0
+     },
+     {
+      "e": "learn",
+      "who": "target",
+      "fact": "$gossip",
+      "from": "actor"
+     },
+     {
+      "e": "log",
+      "text": "log.ceren_snitch",
+      "imp": 3,
+      "cat": "secret",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1
+     }
+    ],
+    "when": [
+     {
+      "c": "rolefilled",
+      "who": "$gossip"
+     },
+     {
+      "c": "goal",
+      "who": "actor",
+      "goal": "stay_informed"
+     },
+     {
+      "c": "chance",
+      "p": 0.3
+     }
+    ]
+   },
+   {
+    "id": "routine",
+    "effects": [],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.5
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "deniz_pitch",
+  "trigger": "",
+  "priority": 55,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "vars": [
+   {
+    "name": "gossip",
+    "fn": "gossip_fact",
+    "optional": true
+   }
+  ],
+  "effects": [
+   {
+    "e": "npcflag",
+    "who": "actor",
+    "key": "sucked_up",
+    "v": true
+   },
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 3.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "deniz_suckup",
+    "to": "target"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "snitch",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "deniz_snitch",
+      "to": "target",
+      "delay": 1.6
+     },
+     {
+      "e": "learn",
+      "who": "target",
+      "fact": "$gossip",
+      "from": "actor"
+     },
+     {
+      "e": "favor",
+      "about": "actor",
+      "d": 3
+     },
+     {
+      "e": "log",
+      "text": "log.deniz_snitch",
+      "imp": 4,
+      "cat": "scheme",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1.5
+     }
+    ],
+    "when": [
+     {
+      "c": "rolefilled",
+      "who": "$gossip"
+     },
+     {
+      "c": "chance",
+      "p": 0.4
+     }
+    ]
+   },
+   {
+    "id": "works",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "boss_pleased",
+      "to": "actor",
+      "delay": 1.6
+     },
+     {
+      "e": "favor",
+      "about": "actor",
+      "d": 5
+     }
+    ],
+    "score": [
+     {
+      "s": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "trust",
+      "w": 0.02
+     },
+     {
+      "s": "mood",
+      "who": "target",
+      "w": 0.01
+     },
+     {
+      "s": "rand",
+      "v": 0.5
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "annoyed",
+    "effects": [
+     {
+      "e": "say",
+      "who": "target",
+      "line": "boss_too_ambitious",
+      "to": "actor",
+      "delay": 1.6
+     },
+     {
+      "e": "favor",
+      "about": "actor",
+      "d": -2
+     }
+    ],
+    "score": [
+     {
+      "s": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "rivalry",
+      "w": 0.03
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "temper",
+      "w": 0.4
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "manager_check",
+  "trigger": "patrol_check",
+  "priority": 50,
+  "scope": "pair",
+  "cooldown": 60,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "praise",
+    "effects": [
+     {
+      "e": "hold",
+      "who": [
+       "actor",
+       "target"
+      ],
+      "dur": 3
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "boss_check_good",
+      "to": "target"
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "thanks_boss",
+      "to": "actor",
+      "delay": 1.4
+     },
+     {
+      "e": "favor",
+      "about": "target",
+      "d": 3
+     },
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "friendship",
+      "d": 3
+     },
+     {
+      "e": "stat",
+      "key": "praises",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "mem",
+      "who": "target",
+      "about": "actor",
+      "kind": "praised",
+      "val": 0.4,
+      "w": 0.6,
+      "text": "mem.boss_praised",
+      "imp": 2
+     },
+     {
+      "e": "log",
+      "text": "log.boss_praise",
+      "imp": 1,
+      "cat": "boss",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "trust",
+      "w": 0.02
+     },
+     {
+      "s": "trait",
+      "who": "target",
+      "t": "diligence",
+      "w": 0.8
+     }
+    ],
+    "when": [
+     {
+      "c": "activity",
+      "who": "target",
+      "in": [
+       "work"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "scold_idle",
+    "effects": [
+     {
+      "e": "hold",
+      "who": [
+       "actor",
+       "target"
+      ],
+      "dur": 3.5
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "boss_check_idle",
+      "to": "target"
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "idle_excuse",
+      "to": "actor",
+      "delay": 1.4
+     },
+     {
+      "e": "stress",
+      "who": "target",
+      "d": 8
+     },
+     {
+      "e": "favor",
+      "about": "target",
+      "d": -3
+     },
+     {
+      "e": "stat",
+      "key": "scoldings",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "mem",
+      "who": "target",
+      "about": "actor",
+      "kind": "scolded",
+      "val": -0.4,
+      "w": 0.6,
+      "text": "mem.scolded_idle",
+      "imp": 2
+     },
+     {
+      "e": "log",
+      "text": "log.boss_idle_scold",
+      "imp": 2,
+      "cat": "boss",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "actor",
+      "t": "temper",
+      "w": 1.0
+     },
+     {
+      "s": "stress",
+      "who": "actor",
+      "w": 0.01
+     },
+     {
+      "s": "const",
+      "v": 0.3
+     }
+    ],
+    "when": [
+     {
+      "c": "activity",
+      "who": "target",
+      "in": [
+       "coffee",
+       "chat",
+       "water",
+       "rest",
+       "wander",
+       "phone"
+      ]
+     },
+     {
+      "c": "is",
+      "who": "target",
+      "in": [
+       "ece",
+       "ceren"
+      ],
+      "not": true
+     }
+    ]
+   },
+   {
+    "id": "nag",
+    "effects": [
+     {
+      "e": "hold",
+      "who": [
+       "actor",
+       "target"
+      ],
+      "dur": 3
+     },
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "boss_check_nag",
+      "to": "target"
+     },
+     {
+      "e": "say",
+      "who": "target",
+      "line": "yes_boss",
+      "to": "actor",
+      "delay": 1.4
+     },
+     {
+      "e": "stress",
+      "who": "target",
+      "d": 3
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.4
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "workload_vent",
+  "trigger": "stressed",
+  "priority": 40,
+  "scope": "actor",
+  "cooldown": 70,
+  "roles": [
+   {
+    "name": "listener",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     }
+    ],
+    "score": [
+     {
+      "s": "affinity",
+      "a": "actor",
+      "b": "self",
+      "w": 0.02
+     },
+     {
+      "s": "dist",
+      "a": "actor",
+      "b": "self",
+      "w": -0.1
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "optional": false,
+    "available": true,
+    "pick": "best",
+    "pool": "present",
+    "near": "actor",
+    "r": 5.5
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "listener"
+    ],
+    "dur": 3.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "stress_vent",
+    "to": "listener"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "comfort",
+    "effects": [
+     {
+      "e": "say",
+      "who": "listener",
+      "line": "comfort",
+      "to": "actor",
+      "delay": 1.5
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "listener",
+      "stat": "friendship",
+      "d": 5,
+      "both": true
+     },
+     {
+      "e": "stress",
+      "who": "actor",
+      "d": -10
+     },
+     {
+      "e": "log",
+      "text": "log.vent_comfort",
+      "imp": 1,
+      "cat": "friendship",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "listener",
+      "t": "empathy",
+      "w": 1.2
+     },
+     {
+      "s": "affinity",
+      "a": "listener",
+      "b": "actor",
+      "w": 0.01
+     }
+    ],
+    "when": []
+   },
+   {
+    "id": "not_now",
+    "effects": [
+     {
+      "e": "say",
+      "who": "listener",
+      "line": "not_now",
+      "to": "actor",
+      "delay": 1.5
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "listener",
+      "stat": "friendship",
+      "d": -3
+     }
+    ],
+    "score": [
+     {
+      "s": "stress",
+      "who": "listener",
+      "w": 0.012
+     },
+     {
+      "s": "trait",
+      "who": "listener",
+      "t": "empathy",
+      "w": -0.5
+     },
+     {
+      "s": "const",
+      "v": 0.3
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "unexpected_solidarity",
+  "trigger": "deadline_near",
+  "priority": 60,
+  "scope": "actor",
+  "cooldown": 240,
+  "roles": [
+   {
+    "name": "helper",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     },
+     {
+      "c": "is",
+      "who": "self",
+      "id": "ahmet",
+      "not": true
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "self",
+      "t": "empathy",
+      "w": 1.2
+     },
+     {
+      "s": "trait",
+      "who": "self",
+      "t": "diligence",
+      "w": 0.4
+     },
+     {
+      "s": "rel",
+      "a": "self",
+      "b": "actor",
+      "stat": "friendship",
+      "w": 0.005
+     },
+     {
+      "s": "rand",
+      "v": 0.5
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "optional": true,
+    "available": true,
+    "pick": "best",
+    "pool": "present"
+   }
+  ],
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "deadline_panic"
+   },
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "sweat"
+   },
+   {
+    "e": "stress",
+    "who": "actor",
+    "d": 10
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "help",
+    "effects": [
+     {
+      "e": "intent",
+      "who": "helper",
+      "type": "go_npc",
+      "prio": 52,
+      "ttl": 40,
+      "target": "actor",
+      "event": "solidarity_help"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1
+     }
+    ],
+    "when": [
+     {
+      "c": "present",
+      "who": "helper"
+     },
+     {
+      "c": "trait",
+      "who": "helper",
+      "t": "empathy",
+      "gt": 0.42
+     },
+     {
+      "c": "chance",
+      "p": 0.65
+     }
+    ]
+   },
+   {
+    "id": "alone",
+    "effects": [
+     {
+      "e": "say",
+      "who": "actor",
+      "line": "deadline_alone",
+      "delay": 1.4
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.2
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "solidarity_help",
+  "trigger": "",
+  "priority": 70,
+  "conditions": [
+   {
+    "c": "available",
+    "who": "target"
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 4.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "offer_help_work",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "accept_help_work",
+    "to": "actor",
+    "delay": 1.5
+   },
+   {
+    "e": "work",
+    "who": "target",
+    "d": 18
+   },
+   {
+    "e": "rel",
+    "a": "target",
+    "b": "actor",
+    "stat": "trust",
+    "d": 12
+   },
+   {
+    "e": "mem",
+    "who": "target",
+    "about": "actor",
+    "kind": "helped_deadline",
+    "val": 0.8,
+    "w": 0.9,
+    "text": "mem.helped_deadline",
+    "imp": 3
+   },
+   {
+    "e": "stat",
+    "key": "helps",
+    "n": 1,
+    "a": "actor",
+    "b": "target"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "unexpected",
+    "effects": [
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "friendship",
+      "d": 20
+     },
+     {
+      "e": "rel",
+      "a": "actor",
+      "b": "target",
+      "stat": "friendship",
+      "d": 8
+     },
+     {
+      "e": "log",
+      "text": "log.unexpected_help",
+      "imp": 3,
+      "cat": "solidarity",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 2
+     }
+    ],
+    "when": [
+     {
+      "c": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "friendship",
+      "lt": 18
+     }
+    ]
+   },
+   {
+    "id": "friendly",
+    "effects": [
+     {
+      "e": "rel",
+      "a": "target",
+      "b": "actor",
+      "stat": "friendship",
+      "d": 10
+     },
+     {
+      "e": "log",
+      "text": "log.help_deadline",
+      "imp": 2,
+      "cat": "solidarity",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "deadline_missed",
+  "trigger": "task_missed",
+  "priority": 50,
+  "effects": [
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "deadline_missed_line"
+   },
+   {
+    "e": "stress",
+    "who": "actor",
+    "d": 8
+   },
+   {
+    "e": "mood",
+    "who": "actor",
+    "d": -10
+   },
+   {
+    "e": "favor",
+    "about": "actor",
+    "d": -6
+   },
+   {
+    "e": "call",
+    "fn": "scold",
+    "target": "actor",
+    "reason": "deadline",
+    "prio": 55,
+    "when": [
+     {
+      "c": "present",
+      "who": "@ahmet"
+     },
+     {
+      "c": "chance",
+      "p": 0.6
+     }
+    ]
+   },
+   {
+    "e": "log",
+    "text": "log.deadline_missed",
+    "imp": 2,
+    "cat": "work",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "late_to_work",
+  "trigger": "late_to_work",
+  "priority": 50,
+  "effects": [
+   {
+    "e": "emote",
+    "who": "actor",
+    "v": "sweat"
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "late_morning"
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "boss_sees",
+    "effects": [
+     {
+      "e": "say",
+      "who": "@ahmet",
+      "line": "boss_late_morning",
+      "delay": 1.6
+     },
+     {
+      "e": "stat",
+      "key": "late_arrivals",
+      "n": 1,
+      "a": "actor",
+      "b": "target"
+     },
+     {
+      "e": "favor",
+      "about": "actor",
+      "d": -3
+     },
+     {
+      "e": "mem",
+      "who": "actor",
+      "about": "@ahmet",
+      "kind": "scolded",
+      "val": -0.3,
+      "w": 0.5,
+      "text": "mem.late_morning",
+      "imp": 2
+     },
+     {
+      "e": "log",
+      "text": "log.late_morning",
+      "imp": 2,
+      "cat": "boss",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 1
+     }
+    ],
+    "when": [
+     {
+      "c": "present",
+      "who": "@ahmet"
+     },
+     {
+      "c": "is",
+      "who": "actor",
+      "id": "ahmet",
+      "not": true
+     },
+     {
+      "c": "chance",
+      "p": 0.7
+     }
+    ]
+   },
+   {
+    "id": "sneak",
+    "effects": [
+     {
+      "e": "log",
+      "text": "log.sneak_in",
+      "imp": 1,
+      "cat": "boss",
+      "who": "actor"
+     }
+    ],
+    "score": [
+     {
+      "s": "const",
+      "v": 0.2
+     }
+    ],
+    "when": []
+   }
+  ]
+ },
+ {
+  "id": "office_ghost_theory",
+  "trigger": "tick",
+  "priority": 35,
+  "max_day": 1,
+  "roles": [
+   {
+    "name": "actor",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     }
+    ],
+    "score": [
+     {
+      "s": "trait",
+      "who": "self",
+      "t": "curiosity",
+      "w": 1.0
+     },
+     {
+      "s": "rand",
+      "v": 0.3
+     }
+    ],
+    "exclude": [
+     "actor",
+     "target"
+    ],
+    "optional": false,
+    "available": true,
+    "pick": "best",
+    "pool": "present"
+   },
+   {
+    "name": "target",
+    "where": [
+     {
+      "c": "available",
+      "who": "self"
+     }
+    ],
+    "score": [
+     {
+      "s": "dist",
+      "a": "actor",
+      "b": "self",
+      "w": -0.2
+     },
+     {
+      "s": "rand",
+      "v": 0.3
+     }
+    ],
+    "exclude": [
+     "actor"
+    ],
+    "optional": false,
+    "available": true,
+    "pick": "best",
+    "pool": "present",
+    "near": "actor",
+    "r": 6
+   }
+  ],
+  "conditions": [
+   {
+    "c": "ghost",
+    "gte": 4
+   }
+  ],
+  "effects": [
+   {
+    "e": "hold",
+    "who": [
+     "actor",
+     "target"
+    ],
+    "dur": 4.5
+   },
+   {
+    "e": "say",
+    "who": "actor",
+    "line": "ghost_theory",
+    "to": "target"
+   },
+   {
+    "e": "say",
+    "who": "target",
+    "line": "ghost_reply",
+    "to": "actor",
+    "delay": 1.6
+   },
+   {
+    "e": "emote",
+    "who": "target",
+    "v": "sweat",
+    "delay": 1.6
+   },
+   {
+    "e": "call",
+    "fn": "ghost_theory"
+   },
+   {
+    "e": "rumor",
+    "kind": "haunted",
+    "a": "actor",
+    "b": "target",
+    "juicy": 0.4,
+    "knowers": [
+     "actor",
+     "target"
+    ]
+   },
+   {
+    "e": "log",
+    "text": "log.ghost_theory",
+    "imp": 3,
+    "cat": "ghost",
+    "who": "actor"
+   }
+  ]
+ },
+ {
+  "id": "clique_lunch",
+  "trigger": "lunch_start",
+  "priority": 30,
+  "allow_absent": true,
+  "effects": [
+   {
+    "e": "call",
+    "fn": "cliques",
+    "delay": 8
+   }
+  ]
+ }
+]

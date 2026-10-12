@@ -1,0 +1,1039 @@
+[
+ {
+  "id": "ahmet",
+  "name": "Ahmet",
+  "age": 45,
+  "role": "Office Manager",
+  "gender": "m",
+  "bio": [
+   "Authoritarian",
+   "Controlling",
+   "Loves discipline",
+   "Trusts Selin",
+   "Thinks Deniz is too ambitious"
+  ],
+  "traits": {
+   "diligence": 0.7,
+   "sociability": 0.35,
+   "gossip": 0.1,
+   "honesty": 0.6,
+   "temper": 0.78,
+   "empathy": 0.3,
+   "cunning": 0.35,
+   "clumsiness": 0.1,
+   "ambition": 0.5,
+   "curiosity": 0.3,
+   "forgiveness": 0.4,
+   "humor": 0.2
+  },
+  "prefs": {
+   "temp": 19,
+   "coffee": 0.95
+  },
+  "speed": 0.92,
+  "schedule": {
+   "arrive": [
+    0,
+    9
+   ],
+   "lunch": [
+    225,
+    245
+   ],
+   "leave": [
+    528,
+    536
+   ]
+  },
+  "goals": [
+   {
+    "id": "keep_control",
+    "w": 0.7
+   },
+   {
+    "id": "impress_hq",
+    "w": 0.3
+   }
+  ],
+  "tasks": [
+   {
+    "id": "approvals",
+    "units": [
+     40,
+     60
+    ],
+    "deadline": "17:30"
+   }
+  ],
+  "relations": {
+   "selin": {
+    "trust": 60,
+    "friendship": 25,
+    "rivalry": 0
+   },
+   "deniz": {
+    "trust": 8,
+    "friendship": 8,
+    "rivalry": 14
+   },
+   "ece": {
+    "trust": 55,
+    "friendship": 50,
+    "rivalry": 0
+   },
+   "ceren": {
+    "trust": 62,
+    "friendship": 28,
+    "rivalry": 0
+   },
+   "burak": {
+    "trust": 22,
+    "friendship": 0,
+    "rivalry": 0
+   },
+   "mert": {
+    "trust": 15,
+    "friendship": 14,
+    "rivalry": 0
+   },
+   "zeynep": {
+    "trust": 25,
+    "friendship": 10,
+    "rivalry": 0
+   }
+  },
+  "drafts": [
+   {
+    "type": "complaint_team"
+   },
+   {
+    "type": "rant"
+   }
+  ],
+  "look": {
+   "skin": "#E2B48C",
+   "hair": "#4A4545",
+   "hair2": "#A9A6A3",
+   "hair_style": "side_part",
+   "top": "suit",
+   "top_color": "#34416B",
+   "shirt": "#F7F7F2",
+   "accent": "#C94040",
+   "pants": "#2B3048",
+   "shoes": "#2A2222",
+   "extras": [
+    "mustache"
+   ],
+   "build": 1.1
+  }
+ },
+ {
+  "id": "selin",
+  "name": "Selin",
+  "age": 29,
+  "role": "Senior Specialist",
+  "gender": "f",
+  "bio": [
+   "Hard-working",
+   "Ambitious",
+   "Strong sense of justice",
+   "Waiting for a promotion",
+   "Rivals Deniz",
+   "Slow to forgive"
+  ],
+  "traits": {
+   "diligence": 0.9,
+   "sociability": 0.45,
+   "gossip": 0.15,
+   "honesty": 0.85,
+   "temper": 0.55,
+   "empathy": 0.5,
+   "cunning": 0.2,
+   "clumsiness": 0.1,
+   "ambition": 0.9,
+   "curiosity": 0.4,
+   "forgiveness": 0.12,
+   "humor": 0.35
+  },
+  "prefs": {
+   "temp": 22,
+   "coffee": 0.6
+  },
+  "speed": 1.05,
+  "schedule": {
+   "arrive": [
+    0,
+    6
+   ],
+   "lunch": [
+    215,
+    235
+   ],
+   "leave": [
+    535,
+    540
+   ]
+  },
+  "goals": [
+   {
+    "id": "earn_promotion",
+    "w": 1
+   }
+  ],
+  "tasks": [
+   {
+    "id": "presentation",
+    "units": [
+     42,
+     56
+    ],
+    "deadline": "meeting",
+    "print": true,
+    "usb": true
+   },
+   {
+    "id": "client_report",
+    "units": [
+     36,
+     50
+    ],
+    "deadline": "16:30"
+   }
+  ],
+  "relations": {
+   "deniz": {
+    "trust": 0,
+    "friendship": -15,
+    "rivalry": 58
+   },
+   "ahmet": {
+    "trust": 42,
+    "friendship": 15,
+    "rivalry": 0
+   },
+   "ceren": {
+    "trust": 35,
+    "friendship": 30,
+    "rivalry": 0
+   },
+   "burak": {
+    "trust": 25,
+    "friendship": 15,
+    "rivalry": 0
+   },
+   "zeynep": {
+    "trust": 5,
+    "friendship": 10,
+    "rivalry": 0
+   },
+   "ece": {
+    "trust": 20,
+    "friendship": 20,
+    "rivalry": 0
+   },
+   "mert": {
+    "trust": 15,
+    "friendship": 18,
+    "rivalry": 0
+   }
+  },
+  "drafts": [
+   {
+    "type": "rant"
+   },
+   {
+    "type": "secret",
+    "fact": "selin_offer"
+   }
+  ],
+  "look": {
+   "skin": "#F1C7A3",
+   "hair": "#3A2418",
+   "hair_style": "ponytail",
+   "top": "blazer",
+   "top_color": "#8E3B57",
+   "shirt": "#F6E9D8",
+   "accent": "#E8B04B",
+   "pants": "#3B3340",
+   "shoes": "#5A2A35",
+   "extras": [
+    "earrings"
+   ],
+   "build": 0.95
+  }
+ },
+ {
+  "id": "mert",
+  "name": "Mert",
+  "age": 31,
+  "role": "Sales Specialist",
+  "gender": "m",
+  "bio": [
+   "Social",
+   "Funny",
+   "Laid-back",
+   "Has a crush on Ceren",
+   "Friends with Burak",
+   "Leaves things to the last minute"
+  ],
+  "traits": {
+   "diligence": 0.35,
+   "sociability": 0.95,
+   "gossip": 0.45,
+   "honesty": 0.65,
+   "temper": 0.25,
+   "empathy": 0.65,
+   "cunning": 0.35,
+   "clumsiness": 0.3,
+   "ambition": 0.4,
+   "curiosity": 0.5,
+   "forgiveness": 0.8,
+   "humor": 0.95
+  },
+  "prefs": {
+   "temp": 21,
+   "coffee": 0.8
+  },
+  "speed": 1.0,
+  "schedule": {
+   "arrive": [
+    6,
+    28
+   ],
+   "lunch": [
+    205,
+    225
+   ],
+   "leave": [
+    508,
+    524
+   ]
+  },
+  "goals": [
+   {
+    "id": "win_ceren",
+    "w": 0.7
+   },
+   {
+    "id": "hit_sales",
+    "w": 0.3
+   }
+  ],
+  "tasks": [
+   {
+    "id": "sales_calls",
+    "units": [
+     48,
+     66
+    ],
+    "deadline": "17:00",
+    "phone": true
+   },
+   {
+    "id": "sales_report",
+    "units": [
+     24,
+     34
+    ],
+    "deadline": "15:30",
+    "print": true
+   }
+  ],
+  "relations": {
+   "ceren": {
+    "trust": 35,
+    "friendship": 48,
+    "rivalry": 0
+   },
+   "burak": {
+    "trust": 55,
+    "friendship": 60,
+    "rivalry": 0
+   },
+   "ahmet": {
+    "trust": 12,
+    "friendship": 8,
+    "rivalry": 0
+   },
+   "zeynep": {
+    "trust": 20,
+    "friendship": 28,
+    "rivalry": 0
+   },
+   "selin": {
+    "trust": 18,
+    "friendship": 15,
+    "rivalry": 0
+   },
+   "deniz": {
+    "trust": 10,
+    "friendship": 12,
+    "rivalry": 0
+   },
+   "ece": {
+    "trust": 25,
+    "friendship": 30,
+    "rivalry": 0
+   }
+  },
+  "drafts": [
+   {
+    "type": "love"
+   },
+   {
+    "type": "complaint_boss"
+   }
+  ],
+  "look": {
+   "skin": "#D9A273",
+   "hair": "#8A5A30",
+   "hair_style": "quiff",
+   "top": "shirt_rolled",
+   "top_color": "#79B8E8",
+   "shirt": "#79B8E8",
+   "accent": "#F2C14E",
+   "pants": "#B8A27A",
+   "shoes": "#6B4A2E",
+   "extras": [
+    "stubble"
+   ],
+   "build": 1.0
+  }
+ },
+ {
+  "id": "zeynep",
+  "name": "Zeynep",
+  "age": 36,
+  "role": "Accountant",
+  "gender": "f",
+  "bio": [
+   "Curious",
+   "Gossipy",
+   "Sharp observer",
+   "Knows many secrets",
+   "Uses information for her own ends"
+  ],
+  "traits": {
+   "diligence": 0.6,
+   "sociability": 0.8,
+   "gossip": 0.95,
+   "honesty": 0.45,
+   "temper": 0.4,
+   "empathy": 0.45,
+   "cunning": 0.6,
+   "clumsiness": 0.15,
+   "ambition": 0.35,
+   "curiosity": 0.95,
+   "forgiveness": 0.5,
+   "humor": 0.55
+  },
+  "prefs": {
+   "temp": 26,
+   "coffee": 0.85
+  },
+  "speed": 0.98,
+  "schedule": {
+   "arrive": [
+    2,
+    10
+   ],
+   "lunch": [
+    215,
+    232
+   ],
+   "leave": [
+    524,
+    534
+   ]
+  },
+  "goals": [
+   {
+    "id": "collect_secrets",
+    "w": 0.7
+   },
+   {
+    "id": "get_raise",
+    "w": 0.3
+   }
+  ],
+  "tasks": [
+   {
+    "id": "budget",
+    "units": [
+     42,
+     56
+    ],
+    "deadline": "15:00",
+    "print": true
+   },
+   {
+    "id": "expenses",
+    "units": [
+     26,
+     38
+    ],
+    "deadline": "17:00",
+    "archive": true
+   }
+  ],
+  "default_rel": {
+   "trust": 15,
+   "friendship": 20,
+   "rivalry": 3
+  },
+  "relations": {
+   "ahmet": {
+    "trust": 25,
+    "friendship": 12,
+    "rivalry": 0
+   },
+   "ceren": {
+    "trust": 20,
+    "friendship": 18,
+    "rivalry": 0
+   }
+  },
+  "drafts": [
+   {
+    "type": "gossip_digest"
+   },
+   {
+    "type": "secret",
+    "fact": "zeynep_mistake"
+   }
+  ],
+  "look": {
+   "skin": "#F3D0B0",
+   "hair": "#B5502B",
+   "hair_style": "curly_bob",
+   "top": "cardigan",
+   "top_color": "#E3B23C",
+   "shirt": "#FFFDF5",
+   "accent": "#C0392B",
+   "pants": "#3E6E6A",
+   "shoes": "#7A3E2E",
+   "extras": [
+    "glasses",
+    "necklace"
+   ],
+   "build": 1.02
+  }
+ },
+ {
+  "id": "burak",
+  "name": "Burak",
+  "age": 27,
+  "role": "IT Specialist",
+  "gender": "m",
+  "bio": [
+   "Quiet",
+   "Logical",
+   "Tech genius",
+   "Unhappy with his job",
+   "Secretly job hunting",
+   "Snaps when wrongly blamed"
+  ],
+  "traits": {
+   "diligence": 0.65,
+   "sociability": 0.2,
+   "gossip": 0.1,
+   "honesty": 0.8,
+   "temper": 0.62,
+   "empathy": 0.45,
+   "cunning": 0.3,
+   "clumsiness": 0.1,
+   "ambition": 0.55,
+   "curiosity": 0.35,
+   "forgiveness": 0.45,
+   "humor": 0.4
+  },
+  "prefs": {
+   "temp": 20,
+   "coffee": 0.5
+  },
+  "speed": 1.0,
+  "schedule": {
+   "arrive": [
+    3,
+    15
+   ],
+   "lunch": [
+    222,
+    240
+   ],
+   "leave": [
+    524,
+    534
+   ]
+  },
+  "goals": [
+   {
+    "id": "find_new_job",
+    "w": 0.75
+   },
+   {
+    "id": "get_recognition",
+    "w": 0.25
+   }
+  ],
+  "tasks": [
+   {
+    "id": "it_tickets",
+    "units": [
+     38,
+     52
+    ],
+    "deadline": "17:00"
+   },
+   {
+    "id": "server_update",
+    "units": [
+     24,
+     34
+    ],
+    "deadline": "13:00"
+   }
+  ],
+  "relations": {
+   "mert": {
+    "trust": 55,
+    "friendship": 55,
+    "rivalry": 0
+   },
+   "ahmet": {
+    "trust": 4,
+    "friendship": -10,
+    "rivalry": 0
+   },
+   "zeynep": {
+    "trust": 0,
+    "friendship": 5,
+    "rivalry": 0
+   },
+   "ceren": {
+    "trust": 30,
+    "friendship": 22,
+    "rivalry": 0
+   },
+   "selin": {
+    "trust": 28,
+    "friendship": 15,
+    "rivalry": 0
+   },
+   "deniz": {
+    "trust": 5,
+    "friendship": 0,
+    "rivalry": 0
+   },
+   "ece": {
+    "trust": 20,
+    "friendship": 18,
+    "rivalry": 0
+   }
+  },
+  "drafts": [
+   {
+    "type": "secret",
+    "fact": "burak_job_hunt"
+   },
+   {
+    "type": "complaint_boss"
+   }
+  ],
+  "look": {
+   "skin": "#C98F65",
+   "hair": "#1C1C22",
+   "hair_style": "messy",
+   "top": "hoodie",
+   "top_color": "#4C7A5A",
+   "shirt": "#3B5E47",
+   "accent": "#F2C14E",
+   "pants": "#3D5A80",
+   "shoes": "#E9E6E0",
+   "extras": [
+    "headphones"
+   ],
+   "build": 0.97
+  }
+ },
+ {
+  "id": "ece",
+  "name": "Ece",
+  "age": 23,
+  "role": "Intern",
+  "gender": "f",
+  "bio": [
+   "Energetic",
+   "Curious",
+   "A bit clumsy",
+   "Wants everyone to like her",
+   "Hides that she is the manager's niece"
+  ],
+  "traits": {
+   "diligence": 0.7,
+   "sociability": 0.85,
+   "gossip": 0.35,
+   "honesty": 0.7,
+   "temper": 0.15,
+   "empathy": 0.85,
+   "cunning": 0.15,
+   "clumsiness": 0.85,
+   "ambition": 0.5,
+   "curiosity": 0.9,
+   "forgiveness": 0.9,
+   "humor": 0.6
+  },
+  "prefs": {
+   "temp": 23,
+   "coffee": 0.5
+  },
+  "speed": 1.12,
+  "schedule": {
+   "arrive": [
+    0,
+    4
+   ],
+   "lunch": [
+    210,
+    230
+   ],
+   "leave": [
+    534,
+    540
+   ]
+  },
+  "goals": [
+   {
+    "id": "be_liked",
+    "w": 0.7
+   },
+   {
+    "id": "prove_herself",
+    "w": 0.3
+   }
+  ],
+  "tasks": [
+   {
+    "id": "data_entry",
+    "units": [
+     32,
+     46
+    ],
+    "deadline": "16:00"
+   },
+   {
+    "id": "filing",
+    "units": [
+     18,
+     28
+    ],
+    "deadline": "14:00",
+    "archive": true
+   }
+  ],
+  "default_rel": {
+   "trust": 18,
+   "friendship": 25,
+   "rivalry": 0
+  },
+  "relations": {
+   "ahmet": {
+    "trust": 70,
+    "friendship": 70,
+    "rivalry": 0
+   }
+  },
+  "drafts": [
+   {
+    "type": "secret",
+    "fact": "ece_relative"
+   }
+  ],
+  "look": {
+   "skin": "#F7D8BD",
+   "hair": "#E2B867",
+   "hair_style": "buns",
+   "top": "sweater",
+   "top_color": "#F4A3B9",
+   "shirt": "#FFFFFF",
+   "accent": "#5B8DEF",
+   "pants": "#8FB3D9",
+   "shoes": "#F7F2EA",
+   "extras": [
+    "lanyard"
+   ],
+   "build": 0.9
+  }
+ },
+ {
+  "id": "deniz",
+  "name": "Deniz",
+  "age": 34,
+  "role": "Specialist",
+  "gender": "m",
+  "bio": [
+   "Competitive",
+   "Cunning",
+   "Self-confident",
+   "Wants the promotion",
+   "Sees Selin as a rival",
+   "Takes credit for others' work"
+  ],
+  "traits": {
+   "diligence": 0.65,
+   "sociability": 0.55,
+   "gossip": 0.4,
+   "honesty": 0.2,
+   "temper": 0.45,
+   "empathy": 0.2,
+   "cunning": 0.95,
+   "clumsiness": 0.1,
+   "ambition": 0.95,
+   "curiosity": 0.55,
+   "forgiveness": 0.3,
+   "humor": 0.45
+  },
+  "prefs": {
+   "temp": 21,
+   "coffee": 0.6
+  },
+  "speed": 1.02,
+  "schedule": {
+   "arrive": [
+    0,
+    8
+   ],
+   "lunch": [
+    218,
+    238
+   ],
+   "leave": [
+    528,
+    538
+   ]
+  },
+  "goals": [
+   {
+    "id": "earn_promotion",
+    "w": 1
+   }
+  ],
+  "tasks": [
+   {
+    "id": "market_analysis",
+    "units": [
+     42,
+     56
+    ],
+    "deadline": "meeting",
+    "print": true
+   },
+   {
+    "id": "proposal",
+    "units": [
+     28,
+     38
+    ],
+    "deadline": "16:00"
+   }
+  ],
+  "relations": {
+   "selin": {
+    "trust": -5,
+    "friendship": -20,
+    "rivalry": 68
+   },
+   "ahmet": {
+    "trust": 30,
+    "friendship": 25,
+    "rivalry": 0
+   },
+   "zeynep": {
+    "trust": 15,
+    "friendship": 18,
+    "rivalry": 0
+   },
+   "mert": {
+    "trust": 10,
+    "friendship": 10,
+    "rivalry": 0
+   },
+   "burak": {
+    "trust": 5,
+    "friendship": 0,
+    "rivalry": 0
+   },
+   "ece": {
+    "trust": 10,
+    "friendship": 10,
+    "rivalry": 0
+   },
+   "ceren": {
+    "trust": 20,
+    "friendship": 15,
+    "rivalry": 0
+   }
+  },
+  "drafts": [
+   {
+    "type": "scheme"
+   },
+   {
+    "type": "secret",
+    "fact": "deniz_shortcut"
+   }
+  ],
+  "look": {
+   "skin": "#E6B793",
+   "hair": "#262428",
+   "hair_style": "slick",
+   "top": "suit_open",
+   "top_color": "#4B4F5C",
+   "shirt": "#7C5CC4",
+   "accent": "#C9C9D1",
+   "pants": "#3A3D48",
+   "shoes": "#1E1E22",
+   "extras": [
+    "watch"
+   ],
+   "build": 1.0
+  }
+ },
+ {
+  "id": "ceren",
+  "name": "Ceren",
+  "age": 30,
+  "role": "Executive Assistant",
+  "gender": "f",
+  "bio": [
+   "Smart",
+   "Calm",
+   "Reads people well",
+   "Knows Mert likes her",
+   "Knows the story behind many decisions"
+  ],
+  "traits": {
+   "diligence": 0.85,
+   "sociability": 0.6,
+   "gossip": 0.2,
+   "honesty": 0.8,
+   "temper": 0.2,
+   "empathy": 0.7,
+   "cunning": 0.5,
+   "clumsiness": 0.05,
+   "ambition": 0.4,
+   "curiosity": 0.6,
+   "forgiveness": 0.65,
+   "humor": 0.5
+  },
+  "prefs": {
+   "temp": 22,
+   "coffee": 0.55
+  },
+  "speed": 1.0,
+  "schedule": {
+   "arrive": [
+    0,
+    5
+   ],
+   "lunch": [
+    228,
+    248
+   ],
+   "leave": [
+    532,
+    540
+   ]
+  },
+  "goals": [
+   {
+    "id": "keep_peace",
+    "w": 0.6
+   },
+   {
+    "id": "stay_informed",
+    "w": 0.4
+   }
+  ],
+  "tasks": [
+   {
+    "id": "schedule",
+    "units": [
+     28,
+     38
+    ],
+    "deadline": "12:00"
+   },
+   {
+    "id": "memos",
+    "units": [
+     28,
+     38
+    ],
+    "deadline": "16:00",
+    "print": true
+   }
+  ],
+  "relations": {
+   "mert": {
+    "trust": 30,
+    "friendship": 30,
+    "rivalry": 0
+   },
+   "ahmet": {
+    "trust": 50,
+    "friendship": 25,
+    "rivalry": 0
+   },
+   "zeynep": {
+    "trust": 4,
+    "friendship": 10,
+    "rivalry": 0
+   },
+   "selin": {
+    "trust": 35,
+    "friendship": 28,
+    "rivalry": 0
+   },
+   "burak": {
+    "trust": 30,
+    "friendship": 25,
+    "rivalry": 0
+   },
+   "deniz": {
+    "trust": 12,
+    "friendship": 8,
+    "rivalry": 0
+   },
+   "ece": {
+    "trust": 40,
+    "friendship": 32,
+    "rivalry": 0
+   }
+  },
+  "drafts": [
+   {
+    "type": "secret",
+    "fact": "ahmet_review"
+   },
+   {
+    "type": "rant"
+   }
+  ],
+  "look": {
+   "skin": "#B97E5A",
+   "hair": "#16141A",
+   "hair_style": "bob",
+   "top": "blouse",
+   "top_color": "#2A9D8F",
+   "shirt": "#2A9D8F",
+   "accent": "#F4D35E",
+   "pants": "#2B2D42",
+   "shoes": "#2B2D42",
+   "extras": [
+    "headset"
+   ],
+   "build": 0.95
+  }
+ }
+]

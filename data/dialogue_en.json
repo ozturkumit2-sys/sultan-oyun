@@ -1,0 +1,2026 @@
+{
+ "printer_dead": {
+  "_": [
+   "The printer's dead. Of course it is.",
+   "Why is the printer blinking red?!",
+   "PAPER JAM?! There's no paper in it!",
+   "Come on, come on... print!"
+  ],
+  "ahmet": [
+   "This printer is a disgrace."
+  ],
+  "selin": [
+   "I need this printed NOW. Not later. Now."
+  ],
+  "mert": [
+   "Printer's having a moment, huh?"
+  ],
+  "zeynep": [
+   "Ugh, it's eating my pages!"
+  ],
+  "ece": [
+   "Did I break it? I didn't touch anything!"
+  ],
+  "deniz": [
+   "Typical."
+  ],
+  "ceren": [
+   "Hm. Out of order."
+  ]
+ },
+ "printer_selffix": {
+  "_": [
+   "Who did this to you, buddy? I'll fix it.",
+   "Classic. Give me five minutes."
+  ],
+  "burak": [
+   "Who kicked it this time? ...Fine. I'll fix it."
+  ]
+ },
+ "printer_need_help": {
+  "_": [
+   "I need someone who speaks printer.",
+   "{helper}! Can you help me with this thing?"
+  ],
+  "selin": [
+   "{helper} will know what to do."
+  ],
+  "ece": [
+   "I'll ask {helper}! Don't panic. I'm not panicking."
+  ]
+ },
+ "printer_kick": {
+  "_": [
+   "Work, you useless box!",
+   "*kicks printer*",
+   "Take THAT!"
+  ],
+  "ahmet": [
+   "I said PRINT!"
+  ],
+  "selin": [
+   "Unbelievable!"
+  ],
+  "burak": [
+   "...I'm not proud of that."
+  ]
+ },
+ "witness_kick": {
+  "_": [
+   "Did they just kick the printer?",
+   "Easy there, champ.",
+   "That's not how IT works."
+  ],
+  "mert": [
+   "Ten points for style!"
+  ],
+  "zeynep": [
+   "Ooh, someone's in a mood."
+  ]
+ },
+ "printer_giveup": {
+  "_": [
+   "Forget it. I'll do it later.",
+   "I give up. I'll show it on my laptop."
+  ],
+  "ece": [
+   "Okay! New plan! ...I have no plan."
+  ]
+ },
+ "ask_help_obj": {
+  "_": [
+   "{target}, the {obj} is broken. Can you take a look?",
+   "Hey {target}... any chance you could fix the {obj}?",
+   "{target}, I need your magic. The {obj} died."
+  ],
+  "selin": [
+   "{target}, I have a deadline. The {obj} is dead. Help?"
+  ],
+  "mert": [
+   "{target}, my friend, my hero, my {obj} whisperer..."
+  ],
+  "ece": [
+   "Sorry sorry sorry — {target}, could you help with the {obj}?"
+  ],
+  "ahmet": [
+   "{target}. The {obj}. Fix it."
+  ]
+ },
+ "agree_help": {
+  "_": [
+   "Sure, give me a minute.",
+   "Yeah, I got it.",
+   "On it."
+  ],
+  "burak": [
+   "Sigh. Yes. I'll fix it.",
+   "Did you try turning it off and on? ...Never mind, I'm coming."
+  ],
+  "ece": [
+   "Of course! I love helping!"
+  ],
+  "ceren": [
+   "No problem, I'll handle it."
+  ]
+ },
+ "refuse_help": {
+  "_": [
+   "Sorry, I'm swamped.",
+   "Not my job.",
+   "Can't right now."
+  ],
+  "burak": [
+   "Not today.",
+   "Open a ticket.",
+   "I'm not your personal tech support."
+  ],
+  "deniz": [
+   "Hm. I'd love to, but... no."
+  ],
+  "selin": [
+   "I have my own deadline, sorry."
+  ],
+  "ahmet": [
+   "Do I look like IT to you?"
+  ]
+ },
+ "react_refused": {
+  "_": [
+   "Wow. Thanks a lot.",
+   "Fine. FINE.",
+   "I'll remember that."
+  ],
+  "selin": [
+   "I will remember this.",
+   "Noted. Permanently."
+  ],
+  "mert": [
+   "Ouch. Okay."
+  ],
+  "ece": [
+   "Oh... okay. That's fine. Totally fine."
+  ]
+ },
+ "help_later": {
+  "_": [
+   "Later, okay? I'm in the middle of something.",
+   "Give me a bit. I'll come by."
+  ],
+  "burak": [
+   "After this ticket. Promise."
+  ]
+ },
+ "fine_wait": {
+  "_": [
+   "Okay... I'll wait.",
+   "Don't forget me!"
+  ]
+ },
+ "lights_fixed_me": {
+  "_": [
+   "And... let there be light!",
+   "Fixed. You're welcome."
+  ],
+  "burak": [
+   "Breaker tripped. Again. Nobody touch anything."
+  ]
+ },
+ "lights_back": {
+  "_": [
+   "Finally!",
+   "Thank you!",
+   "I can see again!",
+   "Oh thank goodness."
+  ],
+  "mert": [
+   "My hero!"
+  ],
+  "zeynep": [
+   "Took long enough."
+  ]
+ },
+ "fixed_it": {
+  "_": [
+   "Done. Should work now.",
+   "Fixed it for you.",
+   "Good as new."
+  ],
+  "burak": [
+   "It works. Please stop kicking it."
+  ]
+ },
+ "thanks_fix": {
+  "_": [
+   "Thank you so much!",
+   "You're a lifesaver.",
+   "I owe you one."
+  ],
+  "selin": [
+   "Thank you. Really."
+  ],
+  "mert": [
+   "I owe you a kebab."
+  ]
+ },
+ "fixed_solo": {
+  "_": [
+   "There. Fixed.",
+   "Back in business."
+  ],
+  "burak": [
+   "Another day, another miracle."
+  ]
+ },
+ "coffee_dead": {
+  "_": [
+   "No coffee?! NO COFFEE?!",
+   "The coffee machine is broken...",
+   "Why is it making that noise?"
+  ],
+  "ahmet": [
+   "Who broke the coffee machine?!"
+  ],
+  "mert": [
+   "Nooo, my fuel!"
+  ],
+  "zeynep": [
+   "How am I supposed to function?!"
+  ],
+  "deniz": [
+   "Wonderful. Just wonderful."
+  ],
+  "burak": [
+   "...I'm not fixing this."
+  ]
+ },
+ "ece_try_fix": {
+  "_": [
+   "I can fix it! I watched a video once!",
+   "Leave it to me! Hold this... no wait."
+  ]
+ },
+ "ece_fix_success": {
+  "_": [
+   "IT WORKS! I'm a genius!",
+   "Ta-da! Coffee for everyone!"
+  ]
+ },
+ "praise_ece": {
+  "_": [
+   "Wow, nice one Ece!",
+   "Ece, you're a legend.",
+   "The intern saved us!"
+  ]
+ },
+ "ece_fix_fail": {
+  "_": [
+   "Oops. Oh no. Oh no no no.",
+   "That... wasn't supposed to spray.",
+   "Why is it all over me?!"
+  ]
+ },
+ "witness_spill": {
+  "_": [
+   "Ece, are you okay?",
+   "Someone get a mop!",
+   "Oh dear."
+  ]
+ },
+ "coffee_rage": {
+  "_": [
+   "Who DID this?!",
+   "I swear I'll lose it.",
+   "Unbelievable! UNBELIEVABLE!"
+  ],
+  "ahmet": [
+   "This office is falling apart!"
+  ],
+  "selin": [
+   "Someone is going to answer for this."
+  ]
+ },
+ "witness_coffee_rage": {
+  "_": [
+   "Yikes.",
+   "Better stay out of their way.",
+   "Someone's grumpy."
+  ],
+  "mert": [
+   "Decaf for that one."
+  ]
+ },
+ "coffee_blame": {
+  "_": [
+   "Bet it was {suspect}. Always fiddling with it.",
+   "{suspect} was here last. Coincidence? No.",
+   "I KNOW {suspect} broke it."
+  ],
+  "zeynep": [
+   "It was {suspect}, I'd put money on it."
+  ],
+  "selin": [
+   "{suspect} again, I suppose."
+  ]
+ },
+ "coffee_ask_fix": {
+  "_": [
+   "Maybe {helper} can fix it...",
+   "I'll go get {helper}."
+  ]
+ },
+ "coffee_sad": {
+  "_": [
+   "Today is going to be long.",
+   "No coffee. No joy.",
+   "*sad sigh*"
+  ],
+  "ece": [
+   "It's fine! I'll drink water! ...Sad water."
+  ]
+ },
+ "coffee_works_again": {
+  "_": [
+   "Wait. It works again?",
+   "Huh? Someone fixed it?",
+   "The coffee machine is alive!"
+  ]
+ },
+ "coffee_who_fixed": {
+  "_": [
+   "Who fixed it? Must've been {credited}.",
+   "{credited} probably fixed it. I should say thanks."
+  ]
+ },
+ "coffee_spooky": {
+  "_": [
+   "Nobody touched it. It just... fixed itself.",
+   "Okay, this is creepy.",
+   "This office is haunted. I'm calling it."
+  ]
+ },
+ "thanks_coffee_fix": {
+  "_": [
+   "Thanks for fixing the coffee machine, {target}!",
+   "You fixed the coffee? You're the best!"
+  ]
+ },
+ "take_credit": {
+  "_": [
+   "Oh, that? Yeah. Anything for the team.",
+   "Heh. You're welcome.",
+   "It was nothing, really."
+  ],
+  "deniz": [
+   "Naturally. I take care of things."
+  ]
+ },
+ "not_me": {
+  "_": [
+   "Wasn't me, actually.",
+   "I didn't fix anything...",
+   "Nope. Not me."
+  ],
+  "burak": [
+   "I didn't touch it. Weird."
+  ]
+ },
+ "then_who": {
+  "_": [
+   "Then who did?",
+   "Wait... then who?!",
+   "Okay, now I'm scared."
+  ]
+ },
+ "burak_sigh_fix": {
+  "_": [
+   "Printer's still dead. Fine. I'll do it.",
+   "Nobody reported it. Of course."
+  ]
+ },
+ "burak_sigh_fix_coffee": {
+  "_": [
+   "The coffee machine again? Fine.",
+   "I'll fix the coffee. For the greater good."
+  ]
+ },
+ "lights_out_react": {
+  "_": [
+   "AAAH!",
+   "Who turned off the lights?!",
+   "Hey! I was typing!",
+   "Did we forget to pay the bill?"
+  ],
+  "ece": [
+   "I can't see! Is this a drill?!"
+  ],
+  "mert": [
+   "Ooooh, spooky!"
+  ],
+  "zeynep": [
+   "Someone's playing games..."
+  ],
+  "ahmet": [
+   "What is going on here?!"
+  ],
+  "deniz": [
+   "Interesting..."
+  ],
+  "selin": [
+   "My document! Did it save?!"
+  ],
+  "burak": [
+   "...Breaker."
+  ],
+  "ceren": [
+   "Everyone stay calm."
+  ]
+ },
+ "lights_will_fix": {
+  "_": [
+   "I'll check the breaker.",
+   "Hang on, I'll fix it.",
+   "Nobody move, I'm on it."
+  ],
+  "burak": [
+   "Breaker. I'll handle it."
+  ],
+  "ceren": [
+   "I'll take care of it."
+  ]
+ },
+ "ece_spill_oops": {
+  "_": [
+   "Oh no! I'm so sorry!",
+   "Oops! Your shirt...",
+   "AAH! Sorry sorry sorry!"
+  ]
+ },
+ "spill_forgive": {
+  "_": [
+   "It's okay, it's just a shirt.",
+   "Don't worry, accidents happen.",
+   "Ha! I needed a new look anyway."
+  ],
+  "mert": [
+   "Coffee-scented. Very trendy."
+  ]
+ },
+ "spill_angry": {
+  "_": [
+   "Are you serious?!",
+   "Watch where you're going!",
+   "This was clean!"
+  ],
+  "selin": [
+   "Ece. Really?"
+  ],
+  "ahmet": [
+   "Be more careful!"
+  ]
+ },
+ "dark_scheme_whisper": {
+  "_": [
+   "Perfect timing...",
+   "Nobody's looking...",
+   "Darkness is just opportunity without lighting."
+  ]
+ },
+ "lights_ghost_on": {
+  "_": [
+   "The lights came back on by themselves?",
+   "Who... did that?",
+   "Nobody touched the switch!"
+  ]
+ },
+ "dark_scared": {
+  "_": [
+   "I don't like this.",
+   "Is it just me or is it creepy in here?",
+   "Stay close, okay?"
+  ],
+  "ece": [
+   "Can I hold your sleeve? Just a little?"
+  ]
+ },
+ "dark_comfort": {
+  "_": [
+   "It's okay, I'm here.",
+   "Relax, it's just a blackout.",
+   "Ha, don't worry. I've got you."
+  ],
+  "mert": [
+   "Don't worry, I glow in the dark. Kidding."
+  ]
+ },
+ "too_cold": {
+  "_": [
+   "Brrr! Why is it so cold?",
+   "My fingers are freezing!",
+   "Is the AC set to Antarctica?"
+  ],
+  "zeynep": [
+   "I'm turning into an ice sculpture here!"
+  ],
+  "ece": [
+   "I can see my breath!"
+  ]
+ },
+ "too_hot": {
+  "_": [
+   "It's boiling in here!",
+   "Who turned on the sauna?",
+   "I'm melting..."
+  ],
+  "ahmet": [
+   "Who touched the AC?!"
+  ],
+  "burak": [
+   "The servers are going to cook."
+  ]
+ },
+ "temp_complain": {
+  "_": [
+   "That's it. I'm fixing the thermostat.",
+   "I can't work like this.",
+   "Who keeps changing the temperature?!"
+  ]
+ },
+ "temp_suffer": {
+  "_": [
+   "I'll just... suffer quietly.",
+   "*shivers*",
+   "*fans self with a folder*"
+  ]
+ },
+ "thermo_grumble": {
+  "_": [
+   "Who touched the thermostat?",
+   "Seriously? Again?",
+   "*mutters about the AC*"
+  ]
+ },
+ "thermo_argue_1": {
+  "_": [
+   "Why did you change the temperature?",
+   "Don't touch the thermostat!",
+   "It was perfect before!"
+  ],
+  "zeynep": [
+   "Some of us have blood circulation issues!"
+  ]
+ },
+ "thermo_argue_2": {
+  "_": [
+   "It was freezing!",
+   "It was a sauna!",
+   "I'm not the only one who works here!"
+  ],
+  "ahmet": [
+   "I am the manager. I set the temperature."
+  ]
+ },
+ "thermo_argue_3": {
+  "_": [
+   "Fine! Wear a sweater!",
+   "Unbelievable.",
+   "This is a war now."
+  ]
+ },
+ "files_flew": {
+  "_": [
+   "My papers just... flew?!",
+   "Did you see that?! The files moved on their own!",
+   "Okay. That's it. Ghosts."
+  ]
+ },
+ "witness_ghost": {
+  "_": [
+   "What was THAT?",
+   "I saw it too!",
+   "Nope. Nope nope nope."
+  ]
+ },
+ "who_did_this": {
+  "_": [
+   "Who messed up my documents?!",
+   "Who touched my desk?!",
+   "My files! Everything's out of order!"
+  ],
+  "selin": [
+   "Who. Touched. My. Files.",
+   "Someone has been at my desk."
+  ],
+  "ahmet": [
+   "Who dared to touch my desk?!"
+  ],
+  "burak": [
+   "My desk. My system. Ruined."
+  ],
+  "zeynep": [
+   "Someone's been snooping. And it's not me this time!"
+  ],
+  "deniz": [
+   "Someone's trying to sabotage me."
+  ]
+ },
+ "suspect_named": {
+  "_": [
+   "It was {suspect}. I just know it.",
+   "{suspect}... I'm going to have a word.",
+   "This has {suspect} written all over it."
+  ]
+ },
+ "dont_look_at_me": {
+  "_": [
+   "Don't look at me!",
+   "I didn't do it!",
+   "Wasn't me!",
+   "I've been at my desk all day!"
+  ],
+  "mert": [
+   "I'm innocent! Mostly."
+  ],
+  "burak": [
+   "I have an alibi. My code."
+  ]
+ },
+ "tidy_sigh": {
+  "_": [
+   "*sighs and starts sorting papers*",
+   "Back to square one.",
+   "Fine. I'll just redo it."
+  ],
+  "ceren": [
+   "Let's just tidy up quietly."
+  ]
+ },
+ "ece_offer_tidy": {
+  "_": [
+   "Let me help you sort these!",
+   "I'm great at filing! Mostly!"
+  ]
+ },
+ "ece_tidy_thanks": {
+  "_": [
+   "Thanks, Ece. You're sweet.",
+   "You didn't have to... thank you.",
+   "Okay, you're officially my favourite."
+  ]
+ },
+ "i_think_i_know": {
+  "_": [
+   "I think I know who did it...",
+   "Psst. I saw something.",
+   "Want to know what I saw?"
+  ],
+  "zeynep": [
+   "Oh, I know EXACTLY who did it."
+  ]
+ },
+ "who_was_it": {
+  "_": [
+   "Who?!",
+   "Tell me.",
+   "Spill it."
+  ]
+ },
+ "zeynep_accuse": {
+  "_": [
+   "{suspect}. I saw them near your desk.",
+   "It was {suspect}. Don't say I told you.",
+   "Let's just say {suspect} looked very suspicious."
+  ]
+ },
+ "accuse_files": {
+  "_": [
+   "Did you mess with my desk, {target}?",
+   "Was it you who touched my files?",
+   "{target}. My files. Explain."
+  ],
+  "selin": [
+   "I know it was you, {target}."
+  ]
+ },
+ "accuse_coffee": {
+  "_": [
+   "You broke the coffee machine, didn't you?",
+   "{target}, admit it. The coffee machine."
+  ]
+ },
+ "accuse_item": {
+  "_": [
+   "Why was my {item} on YOUR desk, {target}?",
+   "{target}, care to explain my {item}?"
+  ]
+ },
+ "accuse_promo": {
+  "_": [
+   "You messed with my promotion file, didn't you?",
+   "{target}, did you sabotage my promotion?"
+  ],
+  "selin": [
+   "You doctored that file, {target}. Admit it."
+  ]
+ },
+ "smooth_deny": {
+  "_": [
+   "Me? I would never. Must've been the ghost.",
+   "No idea what you're talking about.",
+   "Wow. Paranoid much?"
+  ]
+ },
+ "not_convinced": {
+  "_": [
+   "Mm-hm. Sure.",
+   "I'm watching you.",
+   "We'll see."
+  ]
+ },
+ "deny_angry": {
+  "_": [
+   "Excuse me?! I didn't do anything!",
+   "How DARE you accuse me!",
+   "Are you serious right now?!"
+  ],
+  "burak": [
+   "Don't you blame me for this!",
+   "I didn't touch it. Stop blaming me!"
+  ],
+  "ahmet": [
+   "You're accusing ME?"
+  ],
+  "deniz": [
+   "Wow. Jealous much?"
+  ]
+ },
+ "insist": {
+  "_": [
+   "Then who else?!",
+   "You were the only one near my desk!",
+   "Don't lie to me!"
+  ]
+ },
+ "deny_angry2": {
+  "_": [
+   "Get out of my face!",
+   "I'm done with this!",
+   "Think whatever you want!"
+  ]
+ },
+ "witness_argument": {
+  "_": [
+   "Whoa, whoa...",
+   "Here we go again.",
+   "Should someone stop them?"
+  ],
+  "zeynep": [
+   "Ooh, this is getting good."
+  ],
+  "mert": [
+   "Popcorn, anyone?"
+  ]
+ },
+ "deny_calm": {
+  "_": [
+   "It wasn't me, I promise.",
+   "I understand you're upset, but it wasn't me.",
+   "I'd never do that to you."
+  ],
+  "ceren": [
+   "I didn't, but I'll help you find out who did."
+  ]
+ },
+ "sorry_accuse": {
+  "_": [
+   "Okay... sorry. I'm just stressed.",
+   "You're right. Sorry.",
+   "My bad. I'm on edge."
+  ]
+ },
+ "take_blame": {
+  "_": [
+   "It... it was me. Sorry.",
+   "Okay, I'll take the blame. Let's just move on.",
+   "I'm sorry! Probably my fault!"
+  ],
+  "ece": [
+   "It was probably me! I'm clumsy! I'm so sorry!"
+  ]
+ },
+ "accept_apology": {
+  "_": [
+   "...Fine. Just don't do it again.",
+   "Okay. Thanks for being honest.",
+   "Apology accepted. Barely."
+  ]
+ },
+ "defend": {
+  "_": [
+   "Leave them alone, it wasn't them.",
+   "Hey! Back off. They didn't do it.",
+   "I was with them the whole time."
+  ],
+  "mert": [
+   "Come on, they'd never do that."
+  ],
+  "ceren": [
+   "Let's not accuse people without proof."
+  ]
+ },
+ "stay_out": {
+  "_": [
+   "Stay out of this!",
+   "Nobody asked you.",
+   "Mind your own business."
+  ]
+ },
+ "fight_crowd": {
+  "_": [
+   "What's going on?!",
+   "Not again!",
+   "Someone call Ahmet!",
+   "Everybody calm down!"
+  ],
+  "zeynep": [
+   "I'm getting this all in my memory."
+  ]
+ },
+ "boss_outburst": {
+  "_": [
+   "ENOUGH! This is an office, not a circus!",
+   "What is going on here?! Back to work, ALL of you!",
+   "One more fight and I'm cancelling everyone's lunch!"
+  ]
+ },
+ "missing_glasses": {
+  "_": [
+   "Where are my glasses?! I can't read a thing!",
+   "Has anyone seen my reading glasses?"
+  ]
+ },
+ "missing_usb": {
+  "_": [
+   "My USB stick! My whole presentation is on it!",
+   "Where's my USB?! It was right here!"
+  ]
+ },
+ "missing_mug": {
+  "_": [
+   "Where's my lucky mug? I can't drink coffee from a normal cup!",
+   "Who took my mug?!"
+  ]
+ },
+ "missing_planner": {
+  "_": [
+   "My planner's gone. My entire life is in that planner.",
+   "Where is my planner?"
+  ]
+ },
+ "missing_charger": {
+  "_": [
+   "My charger's gone. Laptop's at 3%.",
+   "Who took my charger? Who does that?"
+  ]
+ },
+ "found_at_desk": {
+  "_": [
+   "My {item}... on {owner}'s desk?!",
+   "Why is my {item} at {owner}'s desk?",
+   "So {owner} had my {item} all along."
+  ]
+ },
+ "found_at_friend": {
+  "_": [
+   "Ha! {owner}, you thief! Haha.",
+   "My {item} at {owner}'s place? Funny."
+  ]
+ },
+ "found_weird_place": {
+  "_": [
+   "How did my {item} end up here?",
+   "I never brought my {item} here...",
+   "Things keep moving in this office."
+  ]
+ },
+ "found_item_relief": {
+  "_": [
+   "Found it! Phew.",
+   "There you are!"
+  ]
+ },
+ "pocket_item": {
+  "_": [
+   "Finders keepers...",
+   "Hm. This could be useful.",
+   "*quietly slides it into a drawer*"
+  ]
+ },
+ "found_foreign_item": {
+  "_": [
+   "Why is {owner}'s {item} on my desk? I'll return it.",
+   "This is {owner}'s {item}... let me bring it back."
+  ]
+ },
+ "whose_is_this": {
+  "_": [
+   "Whose is this?",
+   "Not mine. Not my problem."
+  ]
+ },
+ "return_item_line": {
+  "_": [
+   "Found your {item} on my desk!",
+   "Here — your {item} was at my place.",
+   "I think this is yours."
+  ]
+ },
+ "thanks_return": {
+  "_": [
+   "Oh my god, thank you!",
+   "You're a lifesaver!",
+   "Thank you! I was going crazy!"
+  ],
+  "selin": [
+   "Thank you. Seriously. Thank you."
+  ],
+  "ahmet": [
+   "Hm. Thank you."
+  ]
+ },
+ "email_oops": {
+  "_": [
+   "Wait. Did that go to... EVERYONE?!",
+   "No. No no no no no.",
+   "Undo! UNDO! Where's undo?!"
+  ],
+  "ahmet": [
+   "That was NOT meant for the team."
+  ],
+  "mert": [
+   "Oh no. Oh no. I'm moving to another country."
+  ],
+  "burak": [
+   "...I'm going to need a new job. Faster."
+  ],
+  "ece": [
+   "I want to disappear."
+  ],
+  "deniz": [
+   "This is... a misunderstanding."
+  ],
+  "zeynep": [
+   "Well. That's awkward."
+  ],
+  "selin": [
+   "This wasn't for everyone."
+  ]
+ },
+ "email_read_all": {
+  "_": [
+   "Did everyone just get that email?",
+   "Oh. My. God.",
+   "I'm reading this twice.",
+   "Reply all? Reply ALL?"
+  ],
+  "zeynep": [
+   "Best email EVER.",
+   "I'm printing this and framing it."
+  ],
+  "mert": [
+   "Oh this is gold."
+  ],
+  "ceren": [
+   "Oh dear."
+  ],
+  "ahmet": [
+   "What is the meaning of this?"
+  ]
+ },
+ "secret_exposed": {
+  "_": [
+   "That was private!",
+   "Everyone knows now. Great.",
+   "How could you?!"
+  ]
+ },
+ "own_secret_out": {
+  "_": [
+   "Everyone knows now...",
+   "Great. Just great.",
+   "Well, the cat's out of the bag."
+  ]
+ },
+ "team_complaint_react": {
+  "_": [
+   "Lazy? WE'RE lazy?",
+   "Wow. Tell us how you really feel.",
+   "So that's what he thinks of us."
+  ]
+ },
+ "boss_backpedal": {
+  "_": [
+   "That was... a draft. A rough draft.",
+   "Let's all pretend that didn't happen."
+  ]
+ },
+ "email_sent_wrong": {
+  "_": [
+   "Wait... who did I send that to?",
+   "Did that just go to {target}?!",
+   "Wrong recipient... oh no."
+  ]
+ },
+ "email_redirect_read": {
+  "_": [
+   "Uh... {actor}, I don't think this was for me.",
+   "Well, THIS is interesting.",
+   "Hmm. Was I supposed to see this?"
+  ],
+  "ahmet": [
+   "{actor}. My office. Now. Actually, I'll come to you."
+  ],
+  "zeynep": [
+   "Ooh, this is juicy."
+  ]
+ },
+ "email_confront": {
+  "_": [
+   "I read your email, {target}.",
+   "So THAT'S what you think of me?",
+   "We need to talk about that email."
+  ]
+ },
+ "email_apology": {
+  "_": [
+   "I'm sorry. I was venting. I didn't mean it.",
+   "That was out of line. I'm sorry.",
+   "Can we start over?"
+  ]
+ },
+ "email_apology_accept": {
+  "_": [
+   "Okay. But it hurt.",
+   "Fine. Let's move on.",
+   "Apology accepted. For now."
+  ]
+ },
+ "email_defiant": {
+  "_": [
+   "I meant every word.",
+   "Maybe you needed to hear it.",
+   "Well, it's out there now."
+  ]
+ },
+ "email_furious": {
+  "_": [
+   "Unbelievable!",
+   "You're unbelievable!",
+   "We're done talking."
+  ]
+ },
+ "crush_flattered": {
+  "_": [
+   "Mert... that was actually kind of sweet.",
+   "So... you like me? That's... nice.",
+   "Well. That's one way to tell me."
+  ]
+ },
+ "mert_blush": {
+  "_": [
+   "Haha... yeah... about that...",
+   "I can explain! ...No I can't.",
+   "*turns bright red*"
+  ]
+ },
+ "crush_awkward": {
+  "_": [
+   "Mert, we work together. This is... awkward.",
+   "I... need a minute.",
+   "Let's just keep things professional."
+  ]
+ },
+ "tease_crush_line": {
+  "_": [
+   "So... Ceren, huh?",
+   "Saw your little love letter, Romeo.",
+   "Ceren? Bold move, my friend."
+  ]
+ },
+ "board_who_moved": {
+  "_": [
+   "Who moved the meeting? I didn't change that.",
+   "That's not the time I scheduled...",
+   "Someone's been messing with my calendar."
+  ]
+ },
+ "board_moved_note": {
+  "_": [
+   "Oh, the meeting moved?",
+   "New meeting time, noted.",
+   "Huh. Meeting's at a different time now."
+  ]
+ },
+ "tell_boss_meeting_moved": {
+  "_": [
+   "Sir, the meeting time was changed on the board.",
+   "Heads up — someone moved today's meeting."
+  ]
+ },
+ "boss_meeting_moved_ok": {
+  "_": [
+   "Fine. We'll go with the new time.",
+   "Noted. Thank you, Ceren."
+  ]
+ },
+ "boss_meeting_moved_blame": {
+  "_": [
+   "Changed? YOU manage the calendar, Ceren!",
+   "How does a meeting move by itself?!"
+  ]
+ },
+ "board_changed_live": {
+  "_": [
+   "Wait... the meeting time just changed?",
+   "Did the board just... change?",
+   "I'm not crazy. That said a different time."
+  ]
+ },
+ "meeting_open": {
+  "_": [
+   "Alright, let's begin.",
+   "Everyone sit. We're starting.",
+   "Phones down. Meeting starts now."
+  ]
+ },
+ "boss_finally": {
+  "_": [
+   "Finally!",
+   "Look who decided to show up.",
+   "We've been waiting forever."
+  ],
+  "mert": [
+   "The boss is late? Write that down!"
+  ]
+ },
+ "boss_blames_calendar": {
+  "_": [
+   "Ceren, why was my calendar wrong?!",
+   "Who scheduled this? Ceren?"
+  ]
+ },
+ "boss_late_laugh": {
+  "_": [
+   "Ahem. Let's pretend I was right on time.",
+   "Yes, yes. Even I get busy."
+  ]
+ },
+ "late_excuse": {
+  "_": [
+   "Sorry! Sorry I'm late!",
+   "I thought it was later!",
+   "Traffic! Office traffic!"
+  ],
+  "mert": [
+   "I was... networking. At the coffee machine."
+  ],
+  "ece": [
+   "I'm so sorry! I got lost! In the office!"
+  ]
+ },
+ "board_said_other_time": {
+  "_": [
+   "The board said a different time!",
+   "But the schedule said later!"
+  ]
+ },
+ "who_changed_board": {
+  "_": [
+   "Who keeps changing the board?!",
+   "Someone is messing with the schedule."
+  ]
+ },
+ "boss_scold_late": {
+  "_": [
+   "Late. Again.",
+   "Time is money. Yours is running out.",
+   "Do you think this is a café?"
+  ]
+ },
+ "boss_sit_down": {
+  "_": [
+   "Sit down. Quickly.",
+   "Just sit."
+  ]
+ },
+ "where_is_everyone": {
+  "_": [
+   "Where is everyone?",
+   "Was the meeting cancelled?",
+   "Am I in the wrong room?",
+   "Hello? Meeting?"
+  ]
+ },
+ "scold_meeting": {
+  "_": [
+   "You missed the meeting. Explain.",
+   "Where were you during the meeting?"
+  ]
+ },
+ "scold_email": {
+  "_": [
+   "About that email of yours...",
+   "I read your email. We need to talk."
+  ]
+ },
+ "scold_deadline": {
+  "_": [
+   "You missed your deadline.",
+   "Where's your work? It was due."
+  ]
+ },
+ "scold_general": {
+  "_": [
+   "We need to talk about your performance.",
+   "I expect better from you."
+  ]
+ },
+ "sorry_boss": {
+  "_": [
+   "Sorry, it won't happen again.",
+   "Yes, sir. Understood.",
+   "I'll fix it."
+  ],
+  "ece": [
+   "Sorry, Uncle— I mean, sir!"
+  ]
+ },
+ "talk_back": {
+  "_": [
+   "With respect, that's not fair.",
+   "Maybe if this office worked properly...",
+   "You know what? I'm tired of this."
+  ],
+  "burak": [
+   "Maybe I won't be here much longer anyway."
+  ]
+ },
+ "boss_how_dare": {
+  "_": [
+   "Watch your tone!",
+   "Excuse me?!",
+   "Careful."
+  ]
+ },
+ "present_good": {
+  "_": [
+   "As you can see, the numbers speak for themselves.",
+   "And that's our plan for next quarter.",
+   "Here are the results. All green."
+  ]
+ },
+ "boss_praise": {
+  "_": [
+   "Excellent work.",
+   "Now THAT is what I like to see.",
+   "Very good. Very good."
+  ]
+ },
+ "rival_jealous": {
+  "_": [
+   "*rolls eyes*",
+   "Show-off.",
+   "Anyone could have done that."
+  ]
+ },
+ "present_no_usb": {
+  "_": [
+   "My presentation was on my USB... and it's gone.",
+   "I... I can't find my slides."
+  ]
+ },
+ "boss_unimpressed": {
+  "_": [
+   "Unprepared. Disappointing.",
+   "This is not acceptable.",
+   "Come back when you're ready."
+  ]
+ },
+ "present_bad": {
+  "_": [
+   "Um... I'm not quite finished...",
+   "I'll have the full version tomorrow?",
+   "So... rough draft time."
+  ]
+ },
+ "credit_steal_pitch": {
+  "_": [
+   "Actually, sir, the core idea was mine. Let me walk you through it.",
+   "I can present that project — I did most of the work anyway.",
+   "Allow me. I know this project inside out."
+  ]
+ },
+ "boss_impressed_thief": {
+  "_": [
+   "Impressive, Deniz. Very impressive.",
+   "Now that's initiative.",
+   "Good. I like people who step up."
+  ]
+ },
+ "that_was_my_work": {
+  "_": [
+   "That was MY work!",
+   "You just presented my project!",
+   "Are you kidding me?! That's mine!"
+  ]
+ },
+ "prove_it": {
+  "_": [
+   "Prove it.",
+   "Funny, I don't see your name on it.",
+   "Teamwork, Selin. Teamwork."
+  ]
+ },
+ "meeting_joke": {
+  "_": [
+   "Can we make this meeting an email?",
+   "I have a question: when's lunch?",
+   "Great meeting. Ten out of ten."
+  ],
+  "mert": [
+   "Quick question: are snacks a budget item?"
+  ]
+ },
+ "boss_laughs": {
+  "_": [
+   "Ha! Okay, okay.",
+   "Very funny. Now, back to it."
+  ]
+ },
+ "boss_not_funny": {
+  "_": [
+   "This is not a comedy club.",
+   "Was that supposed to be funny?"
+  ]
+ },
+ "promo_reading": {
+  "_": [
+   "Hmm... I didn't know this person did so much.",
+   "Interesting. Very interesting.",
+   "This changes things."
+  ]
+ },
+ "promo_reading_clean": {
+  "_": [
+   "Hm. As expected.",
+   "Good, good."
+  ]
+ },
+ "promo_tip": {
+  "_": [
+   "Between us... someone changed your promotion file.",
+   "I saw the file. Your name was taken off the big project."
+  ]
+ },
+ "promo_outraged": {
+  "_": [
+   "WHAT?!",
+   "I knew something was off!",
+   "Who would do that?!"
+  ]
+ },
+ "promo_announce": {
+  "_": [
+   "Everyone, a moment please. We have a new Team Lead.",
+   "Attention! After careful review, I've decided on the promotion."
+  ]
+ },
+ "award_announce": {
+  "_": [
+   "Attention everyone! Employee of the Week is...",
+   "This week's star employee is..."
+  ]
+ },
+ "promo_winner": {
+  "_": [
+   "Thank you! I won't let you down!",
+   "Wow... me? Thank you!",
+   "Finally!"
+  ],
+  "deniz": [
+   "Naturally. Thank you, sir."
+  ],
+  "selin": [
+   "Thank you. I've worked so hard for this."
+  ]
+ },
+ "promo_clap": {
+  "_": [
+   "Congrats!",
+   "Well deserved... I guess.",
+   "*polite clapping*"
+  ],
+  "zeynep": [
+   "Hmm. Interesting choice."
+  ]
+ },
+ "promo_loser": {
+  "_": [
+   "...Unbelievable.",
+   "This is so unfair.",
+   "After everything I did?"
+  ],
+  "selin": [
+   "This is wrong. This is so wrong."
+  ],
+  "deniz": [
+   "This isn't over."
+  ]
+ },
+ "cold_grudge": {
+  "_": [
+   "*stares coldly*",
+   "I won't forget this.",
+   "Congratulations. Enjoy it while it lasts."
+  ]
+ },
+ "notif_boss_read": {
+  "_": [
+   "'Come to my office. Now.' ...Uh oh.",
+   "The boss wants to see me?!",
+   "Oh no. What did I do?"
+  ]
+ },
+ "notif_food_read": {
+  "_": [
+   "Free cake in the kitchen?! Say no more!",
+   "Free food! FREE FOOD!"
+  ]
+ },
+ "notif_cancel_read": {
+  "_": [
+   "Meeting cancelled? Nice!",
+   "No meeting today? Best news ever."
+  ]
+ },
+ "notif_admirer_read": {
+  "_": [
+   "'A secret admirer says hi'...?!",
+   "Someone here has a crush on me?!",
+   "Ooh, a secret admirer!"
+  ]
+ },
+ "you_wanted_me": {
+  "_": [
+   "You wanted to see me?",
+   "I got your message, sir.",
+   "I'm here! What did I do?"
+  ]
+ },
+ "i_didnt_call": {
+  "_": [
+   "I didn't call you.",
+   "What message? I sent nothing.",
+   "I never asked for you."
+  ]
+ },
+ "boss_get_back_to_work": {
+  "_": [
+   "Stop wasting my time. Back to work.",
+   "Since you're here doing nothing — go work."
+  ]
+ },
+ "boss_since_youre_here": {
+  "_": [
+   "Well, since you're here... good job lately.",
+   "Sit, sit. How are things going?"
+  ]
+ },
+ "no_food_here": {
+  "_": [
+   "There's no cake...",
+   "Where's the free food?",
+   "It's just old yogurt."
+  ]
+ },
+ "who_pranked": {
+  "_": [
+   "Very funny, {suspect}.",
+   "I bet {suspect} sent that.",
+   "Someone's pranking me. And I think I know who."
+  ]
+ },
+ "fridge_sigh": {
+  "_": [
+   "*closes fridge sadly*",
+   "Lies. All lies."
+  ]
+ },
+ "admirer_was_it_you": {
+  "_": [
+   "So... was it you? The secret admirer?",
+   "Did you send me that message?"
+  ]
+ },
+ "admirer_maybe": {
+  "_": [
+   "...Maybe. Would that be so bad?",
+   "Haha, maybe! Who knows?",
+   "A gentleman never tells."
+  ]
+ },
+ "admirer_no": {
+  "_": [
+   "What? No! Sorry...",
+   "Uh, no. Definitely not me.",
+   "That's... not me."
+  ]
+ },
+ "boss_job_hunt_discovered": {
+  "_": [
+   "Burak is looking for another job? Behind my back?",
+   "So that's why he's always on his phone."
+  ]
+ },
+ "boss_job_hunt_confront": {
+  "_": [
+   "I hear you're looking for another job.",
+   "Planning to leave us, Burak?"
+  ]
+ },
+ "boss_counteroffer": {
+  "_": [
+   "Look... you're valuable here. What would it take to keep you?",
+   "I'll be honest. I don't want to lose you."
+  ]
+ },
+ "burak_surprised_stay": {
+  "_": [
+   "Really? I... didn't expect that.",
+   "Well. Maybe I'll stay a little longer."
+  ]
+ },
+ "burak_defiant": {
+  "_": [
+   "Maybe I am. Maybe this place doesn't appreciate anyone.",
+   "I'm allowed to have options."
+  ]
+ },
+ "boss_cold": {
+  "_": [
+   "Then don't let the door hit you.",
+   "Fine. We'll see who needs whom."
+  ]
+ },
+ "nepotism_mutter": {
+  "_": [
+   "The intern is the boss's NIECE? Of course she is.",
+   "Well, that explains a lot.",
+   "Nepotism. Lovely."
+  ]
+ },
+ "boss_review_shock": {
+  "_": [
+   "Headquarters is reviewing ME?!",
+   "My position... is under review?"
+  ]
+ },
+ "secret_call_line": {
+  "_": [
+   "*whispers* Yes, Thursday works for the interview...",
+   "*whispers* I can start next month, if the offer's good.",
+   "*whispers* No, my boss doesn't know."
+  ]
+ },
+ "overheard_call": {
+  "_": [
+   "Was Burak just talking about an interview?",
+   "Did I just hear that right?!"
+  ],
+  "zeynep": [
+   "Ooh. Ooh! Burak is job hunting!"
+  ]
+ },
+ "gossip_open": {
+  "_": [
+   "Psst. Come here.",
+   "Did you hear?",
+   "Okay, you did NOT hear this from me..."
+  ],
+  "zeynep": [
+   "Sit down. You'll want to be sitting for this.",
+   "Oh, have I got news for you."
+  ]
+ },
+ "gossip_tell": {
+  "_": [
+   "{gossip}",
+   "Apparently... {gossip}",
+   "Don't tell anyone, but {gossip}",
+   "Word is... {gossip}"
+  ]
+ },
+ "gossip_react": {
+  "_": [
+   "No way!",
+   "Seriously?!",
+   "I knew it!",
+   "Get out!"
+  ]
+ },
+ "gossip_disapprove": {
+  "_": [
+   "We shouldn't be talking about this.",
+   "That's not our business.",
+   "Gossip isn't nice, you know."
+  ],
+  "ceren": [
+   "Let's not spread that around."
+  ]
+ },
+ "gossip_eager": {
+  "_": [
+   "Tell me EVERYTHING.",
+   "Ooh, what else?",
+   "I need details!"
+  ]
+ },
+ "flirt_line": {
+  "_": [
+   "Ceren, has anyone told you your spreadsheets are beautiful?",
+   "So... coffee later? Just as colleagues. Colleagues who drink coffee.",
+   "You look great today. Not that you don't always."
+  ]
+ },
+ "flirt_charmed": {
+  "_": [
+   "Haha, you're ridiculous, Mert.",
+   "Maybe. If you behave.",
+   "You're sweet. Weird, but sweet."
+  ]
+ },
+ "flirt_brush": {
+  "_": [
+   "Mert, I'm working.",
+   "Not now, Mert.",
+   "Nice try."
+  ]
+ },
+ "date_ask": {
+  "_": [
+   "So... dinner? A real one?",
+   "Would you go out with me? For real?"
+  ]
+ },
+ "date_yes": {
+  "_": [
+   "...Yes. But nobody can know.",
+   "Okay. Our little secret."
+  ]
+ },
+ "spotted_secret_friends": {
+  "_": [
+   "Well, well. Those two are awfully close.",
+   "Since when are those two friends?",
+   "Interesting... very interesting."
+  ]
+ },
+ "jealous_jab": {
+  "_": [
+   "Enjoying the spotlight?",
+   "Must be nice being the boss's favourite.",
+   "Don't get used to it."
+  ]
+ },
+ "jealous_smug": {
+  "_": [
+   "Jealous?",
+   "I am enjoying it, thanks.",
+   "Some of us earn it."
+  ]
+ },
+ "jealous_hurt": {
+  "_": [
+   "Why would you say that?",
+   "That's not fair.",
+   "...Okay."
+  ]
+ },
+ "apology_offer": {
+  "_": [
+   "Hey... about earlier. I'm sorry.",
+   "Can we talk? I think I overreacted.",
+   "Truce?"
+  ]
+ },
+ "apology_accept": {
+  "_": [
+   "Yeah. Me too.",
+   "Okay. Truce.",
+   "Let's forget it. Coffee?"
+  ]
+ },
+ "apology_reject": {
+  "_": [
+   "Too little, too late.",
+   "I'm not ready.",
+   "No."
+  ],
+  "selin": [
+   "I don't forgive that easily."
+  ]
+ },
+ "grudge_jab": {
+  "_": [
+   "Oh. It's you.",
+   "Look who it is.",
+   "Still here?"
+  ]
+ },
+ "grudge_reply": {
+  "_": [
+   "What's that supposed to mean?",
+   "Excuse me?",
+   "Got a problem?"
+  ]
+ },
+ "grudge_escalate": {
+  "_": [
+   "Yes, actually, I do!",
+   "You know exactly what I mean!",
+   "Don't play innocent!"
+  ]
+ },
+ "walk_away": {
+  "_": [
+   "I'm not doing this.",
+   "Whatever.",
+   "Not worth it."
+  ]
+ },
+ "joke": {
+  "_": [
+   "Why did the spreadsheet break up with the calculator? Too many issues.",
+   "I'm not lazy, I'm in energy-saving mode.",
+   "My boss told me to have a good day. So I went home.",
+   "I told my computer I needed a break. It said 'no problem, I'll go to sleep'.",
+   "Teamwork means never having to take all the blame yourself."
+  ],
+  "mert": [
+   "Knock knock. Who's there? Monday. Monday who? Exactly.",
+   "I'm on a seafood diet. I see food, I eat it."
+  ]
+ },
+ "joke_laugh": {
+  "_": [
+   "Hahaha!",
+   "Okay, that was good.",
+   "Stop it! Haha!"
+  ],
+  "ece": [
+   "HAHAHA! Wait, I don't get it. HAHAHA!"
+  ]
+ },
+ "joke_groan": {
+  "_": [
+   "Ugh.",
+   "Please stop.",
+   "That was terrible."
+  ],
+  "selin": [
+   "I have work to do."
+  ],
+  "ahmet": [
+   "Back to work."
+  ]
+ },
+ "topic_open": {
+  "_": [
+   "{topic}"
+  ]
+ },
+ "topic_reply": {
+  "_": [
+   "Oh, totally.",
+   "Ha, I know right?",
+   "Don't get me started.",
+   "Same here!",
+   "Hmm, not really."
+  ],
+  "burak": [
+   "Mm.",
+   "Sure."
+  ],
+  "zeynep": [
+   "Speaking of which, did you hear about...",
+   "Oh, I have opinions."
+  ],
+  "ece": [
+   "Yes! Oh my god, yes!"
+  ],
+  "ahmet": [
+   "Hm. Indeed."
+  ]
+ },
+ "cold_shoulder": {
+  "_": [
+   "...",
+   "I'm busy.",
+   "Mm-hm."
+  ]
+ },
+ "coffee_gift_offer": {
+  "_": [
+   "I brought you a coffee!",
+   "Surprise! Coffee, just how you like it. I think.",
+   "Coffee delivery!"
+  ]
+ },
+ "coffee_gift_thanks": {
+  "_": [
+   "Aww, thanks Ece!",
+   "You're an angel.",
+   "Exactly what I needed."
+  ],
+  "ahmet": [
+   "Hm. Good girl. I mean, good job."
+  ]
+ },
+ "ceren_brief": {
+  "_": [
+   "Your schedule for today, sir.",
+   "A few updates for you.",
+   "Quick briefing, sir."
+  ]
+ },
+ "boss_brief_reply": {
+  "_": [
+   "Good. Thank you.",
+   "Keep me informed.",
+   "Mm-hm."
+  ]
+ },
+ "ceren_snitch": {
+  "_": [
+   "You should probably know... {gossip}",
+   "One more thing: {gossip}"
+  ]
+ },
+ "deniz_suckup": {
+  "_": [
+   "Great tie today, sir.",
+   "Sir, I had a few ideas about the quarterly plan...",
+   "Have I mentioned how much I admire your leadership?"
+  ]
+ },
+ "deniz_snitch": {
+  "_": [
+   "Between us, sir... {gossip}",
+   "I thought you should know: {gossip}",
+   "I hate to say it, but {gossip}"
+  ]
+ },
+ "boss_pleased": {
+  "_": [
+   "Good, Deniz. Good.",
+   "I like your attitude.",
+   "Keep it up."
+  ]
+ },
+ "boss_too_ambitious": {
+  "_": [
+   "Less talking, more working, Deniz.",
+   "Your ambition is showing.",
+   "Is there anything else?"
+  ]
+ },
+ "boss_check_good": {
+  "_": [
+   "Good. Keep going.",
+   "Nice progress.",
+   "That's what I like to see."
+  ]
+ },
+ "thanks_boss": {
+  "_": [
+   "Thank you, sir.",
+   "Thanks!"
+  ]
+ },
+ "boss_check_idle": {
+  "_": [
+   "Is this a holiday?",
+   "Shouldn't you be working?",
+   "I pay you to work, not to chat."
+  ]
+ },
+ "idle_excuse": {
+  "_": [
+   "Just a quick break!",
+   "I was just going back!",
+   "It's work-related! Sort of."
+  ]
+ },
+ "boss_check_nag": {
+  "_": [
+   "How's it coming along?",
+   "Deadline's today, right?",
+   "Don't forget the report."
+  ]
+ },
+ "yes_boss": {
+  "_": [
+   "Yes, sir.",
+   "On it!",
+   "Almost done!"
+  ]
+ },
+ "stress_vent": {
+  "_": [
+   "I can't take this place anymore.",
+   "Is it just me or is today a nightmare?",
+   "I need a vacation. Or a new life."
+  ]
+ },
+ "comfort": {
+  "_": [
+   "Hey, you've got this.",
+   "Deep breaths. It'll be okay.",
+   "Want me to grab you a coffee?"
+  ]
+ },
+ "not_now": {
+  "_": [
+   "Not now, I'm drowning too.",
+   "Can we talk later?",
+   "I have my own problems."
+  ]
+ },
+ "deadline_panic": {
+  "_": [
+   "I'm never going to finish in time!",
+   "Deadline in an hour and I'm halfway done!",
+   "Help. Someone. Anyone."
+  ],
+  "mert": [
+   "Why did I leave this to the last minute? Again?"
+  ]
+ },
+ "deadline_alone": {
+  "_": [
+   "Fine. Me and caffeine against the world.",
+   "Nobody's coming. Okay."
+  ]
+ },
+ "offer_help_work": {
+  "_": [
+   "Need a hand?",
+   "I'll take half of that.",
+   "Give me those, I'll help."
+  ]
+ },
+ "accept_help_work": {
+  "_": [
+   "You'd do that? Thank you!",
+   "I didn't expect you of all people... thank you.",
+   "You're saving my life."
+  ]
+ },
+ "deadline_missed_line": {
+  "_": [
+   "And... I missed the deadline.",
+   "Well, that's late now.",
+   "Too late. Great."
+  ]
+ },
+ "late_morning": {
+  "_": [
+   "Morning! Was I late? I wasn't late.",
+   "Traffic was insane!",
+   "Am I late? Don't answer that."
+  ],
+  "mert": [
+   "The bus was late. And then I was late. Circle of life."
+  ]
+ },
+ "boss_late_morning": {
+  "_": [
+   "Good AFTERNOON.",
+   "Look who decided to come to work.",
+   "Do you know what time it is?"
+  ]
+ },
+ "ghost_theory": {
+  "_": [
+   "I'm telling you, this office is haunted.",
+   "Things keep moving by themselves. Explain THAT.",
+   "There's something in this office. Something... invisible."
+  ]
+ },
+ "ghost_reply": {
+  "_": [
+   "Don't say that! I have to stay late!",
+   "Ghosts aren't real. ...Right?",
+   "Okay, now I'm not sleeping tonight."
+  ]
+ }
+}

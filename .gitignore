@@ -1,0 +1,6 @@
+.godot/
+*.idsig
+*.keystore
+*.jks
+export_credentials.cfg
+__pycache__/
