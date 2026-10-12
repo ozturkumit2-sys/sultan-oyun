@@ -1,0 +1,808 @@
+{
+ "formats": [
+  {
+   "id": "mist",
+   "name": "Body Mist",
+   "min": 1,
+   "max": 3,
+   "def": 2,
+   "base": "alcohol",
+   "ref_mult": 0.35
+  },
+  {
+   "id": "edc",
+   "name": "Eau de Cologne",
+   "min": 3,
+   "max": 5,
+   "def": 4,
+   "base": "alcohol",
+   "ref_mult": 0.55
+  },
+  {
+   "id": "edt",
+   "name": "Eau de Toilette",
+   "min": 8,
+   "max": 12,
+   "def": 10,
+   "base": "alcohol",
+   "ref_mult": 0.8
+  },
+  {
+   "id": "edp",
+   "name": "Eau de Parfum",
+   "min": 15,
+   "max": 20,
+   "def": 18,
+   "base": "alcohol",
+   "ref_mult": 1.0
+  },
+  {
+   "id": "extrait",
+   "name": "Extrait de Parfum",
+   "min": 20,
+   "max": 30,
+   "def": 25,
+   "base": "alcohol",
+   "ref_mult": 1.35
+  },
+  {
+   "id": "oil",
+   "name": "Perfume Oil",
+   "min": 15,
+   "max": 30,
+   "def": 20,
+   "base": "oil",
+   "ref_mult": 0.95
+  }
+ ],
+ "volumes": [
+  2,
+  10,
+  30,
+  50,
+  75,
+  100,
+  125,
+  200
+ ],
+ "packaging": [
+  {
+   "id": "basic",
+   "name": "Basic",
+   "cost50": 1.1,
+   "value": 0.0,
+   "desc": "Stock bottle, sticker label, simple carton."
+  },
+  {
+   "id": "standard",
+   "name": "Standard",
+   "cost50": 2.7,
+   "value": 0.35,
+   "desc": "Quality glass, printed label, printed box."
+  },
+  {
+   "id": "premium",
+   "name": "Premium",
+   "cost50": 6.5,
+   "value": 0.7,
+   "desc": "Heavy glass, metal cap, embossed box."
+  },
+  {
+   "id": "luxury",
+   "name": "Luxury",
+   "cost50": 15.0,
+   "value": 1.0,
+   "desc": "Custom-molded glass, sculpted cap, rigid coffret."
+  }
+ ],
+ "shapes": [
+  "Classic",
+  "Flask",
+  "Column",
+  "Faceted",
+  "Orb",
+  "Square Block",
+  "Teardrop",
+  "Apothecary",
+  "Obelisk",
+  "Shell"
+ ],
+ "caps": [
+  "Cube",
+  "Sphere",
+  "Cylinder",
+  "Tall Facet",
+  "Wooden Block",
+  "Dome",
+  "Crown",
+  "Tassel"
+ ],
+ "glass": [
+  [
+   "Crystal Clear",
+   "#e8f0f4"
+  ],
+  [
+   "Frosted",
+   "#dfe3e6"
+  ],
+  [
+   "Amber",
+   "#c98a3a"
+  ],
+  [
+   "Rose",
+   "#e6a6b4"
+  ],
+  [
+   "Smoke",
+   "#7c7f86"
+  ],
+  [
+   "Cobalt",
+   "#3b5fae"
+  ],
+  [
+   "Emerald",
+   "#2f8a63"
+  ],
+  [
+   "Onyx",
+   "#1c1a20"
+  ],
+  [
+   "Gold Tint",
+   "#d8b665"
+  ],
+  [
+   "Lilac",
+   "#b6a2d8"
+  ]
+ ],
+ "labels": [
+  "Minimal",
+  "Classic Serif",
+  "Art Deco",
+  "Script",
+  "Stamp",
+  "Botanical"
+ ],
+ "positionings": [
+  {
+   "id": "budget",
+   "name": "Budget",
+   "ref_mult": 0.45,
+   "prestige_cap": 0.35
+  },
+  {
+   "id": "mass",
+   "name": "Mass Market",
+   "ref_mult": 0.75,
+   "prestige_cap": 0.55
+  },
+  {
+   "id": "premium",
+   "name": "Premium",
+   "ref_mult": 1.2,
+   "prestige_cap": 0.8
+  },
+  {
+   "id": "luxury",
+   "name": "Luxury",
+   "ref_mult": 2.0,
+   "prestige_cap": 1.0
+  },
+  {
+   "id": "niche",
+   "name": "Niche",
+   "ref_mult": 2.2,
+   "prestige_cap": 1.0
+  }
+ ],
+ "audiences": [
+  {
+   "id": "fem",
+   "name": "Feminine"
+  },
+  {
+   "id": "masc",
+   "name": "Masculine"
+  },
+  {
+   "id": "any",
+   "name": "Unisex"
+  }
+ ],
+ "channels": [
+  {
+   "id": "dtc",
+   "name": "Own Online Store",
+   "pref": "online",
+   "margin": 0.0,
+   "reach": 0.3,
+   "fee_pct": 0.03,
+   "unit_fee": 5.0,
+   "listing": 0,
+   "needs_office": false,
+   "min_prestige": 0,
+   "min_aw": 0,
+   "posit": []
+  },
+  {
+   "id": "marketplace",
+   "name": "Online Retailer",
+   "pref": "online",
+   "margin": 0.25,
+   "reach": 0.55,
+   "fee_pct": 0,
+   "unit_fee": 0,
+   "listing": 3000,
+   "needs_office": false,
+   "min_prestige": 0,
+   "min_aw": 0.02,
+   "posit": []
+  },
+  {
+   "id": "perfumery",
+   "name": "Specialty Perfumery",
+   "pref": "perf",
+   "margin": 0.45,
+   "reach": 0.55,
+   "fee_pct": 0,
+   "unit_fee": 0,
+   "listing": 8000,
+   "needs_office": false,
+   "min_prestige": 0.3,
+   "min_aw": 0,
+   "posit": [
+    "premium",
+    "luxury",
+    "niche"
+   ]
+  },
+  {
+   "id": "beauty",
+   "name": "Beauty Chain",
+   "pref": "beauty",
+   "margin": 0.45,
+   "reach": 0.62,
+   "fee_pct": 0,
+   "unit_fee": 0,
+   "listing": 25000,
+   "needs_office": true,
+   "min_prestige": 0.15,
+   "min_aw": 0.05,
+   "posit": [
+    "mass",
+    "premium",
+    "luxury"
+   ]
+  },
+  {
+   "id": "dept",
+   "name": "Department Store",
+   "pref": "dept",
+   "margin": 0.5,
+   "reach": 0.65,
+   "fee_pct": 0,
+   "unit_fee": 0,
+   "listing": 40000,
+   "needs_office": true,
+   "min_prestige": 0.45,
+   "min_aw": 0.06,
+   "posit": [
+    "premium",
+    "luxury",
+    "niche"
+   ]
+  },
+  {
+   "id": "mass",
+   "name": "Drugstore & Mass Retail",
+   "pref": "mass",
+   "margin": 0.4,
+   "reach": 0.7,
+   "fee_pct": 0,
+   "unit_fee": 0,
+   "listing": 15000,
+   "needs_office": true,
+   "min_prestige": 0,
+   "min_aw": 0.04,
+   "posit": [
+    "budget",
+    "mass"
+   ]
+  },
+  {
+   "id": "distributor",
+   "name": "Regional Distributor",
+   "pref": "multi",
+   "margin": 0.55,
+   "reach": 0.33,
+   "fee_pct": 0,
+   "unit_fee": 0,
+   "listing": 10000,
+   "needs_office": false,
+   "min_prestige": 0.05,
+   "min_aw": 0,
+   "posit": []
+  }
+ ],
+ "campaigns": [
+  {
+   "id": "social",
+   "name": "Social Media Ads",
+   "min": 500,
+   "eff": 1.0,
+   "prestige": 0.0,
+   "buzz": 0.25,
+   "conv": 0.0,
+   "attr": "social",
+   "desc": "Targeted reach among socially active buyers; fast-decaying buzz."
+  },
+  {
+   "id": "search",
+   "name": "Search Ads",
+   "min": 300,
+   "eff": 0.25,
+   "prestige": 0.0,
+   "buzz": 0.0,
+   "conv": 0.35,
+   "attr": "none",
+   "desc": "Captures buyers already looking: improves conversion of aware customers."
+  },
+  {
+   "id": "display",
+   "name": "Digital Display",
+   "min": 400,
+   "eff": 0.65,
+   "prestige": -0.002,
+   "buzz": 0.05,
+   "conv": 0.0,
+   "attr": "none",
+   "desc": "Cheap broad reach with low impact."
+  },
+  {
+   "id": "billboard",
+   "name": "Billboards",
+   "min": 5000,
+   "eff": 0.8,
+   "prestige": 0.002,
+   "buzz": 0.1,
+   "conv": 0.0,
+   "attr": "none",
+   "desc": "Broad local visibility in major cities."
+  },
+  {
+   "id": "magazine",
+   "name": "Magazine Advertising",
+   "min": 4000,
+   "eff": 0.6,
+   "prestige": 0.006,
+   "buzz": 0.05,
+   "conv": 0.0,
+   "attr": "pack",
+   "desc": "Builds prestige with luxury-minded readers."
+  },
+  {
+   "id": "tv",
+   "name": "Television Campaign",
+   "min": 40000,
+   "eff": 1.1,
+   "prestige": 0.003,
+   "buzz": 0.15,
+   "conv": 0.0,
+   "attr": "none",
+   "desc": "Massive broad reach. Expensive, best for mainstream products."
+  },
+  {
+   "id": "event",
+   "name": "Launch Event",
+   "min": 15000,
+   "eff": 0.5,
+   "prestige": 0.012,
+   "buzz": 0.6,
+   "conv": 0.0,
+   "attr": "social",
+   "oneoff": true,
+   "desc": "One-week press and influencer event: prestige and buzz spike."
+  },
+  {
+   "id": "pr",
+   "name": "Public Relations",
+   "min": 2500,
+   "eff": 0.35,
+   "prestige": 0.004,
+   "buzz": 0.2,
+   "conv": 0.0,
+   "attr": "none",
+   "desc": "Earned media: critics and journalists notice you."
+  },
+  {
+   "id": "sampling",
+   "name": "Sampling Campaign",
+   "min": 2000,
+   "eff": 0.4,
+   "prestige": 0.0,
+   "buzz": 0.05,
+   "conv": 0.0,
+   "attr": "none",
+   "trial": true,
+   "desc": "Puts samples in hands: creates real trial; conversion depends on whether people like it."
+  }
+ ],
+ "hq": [
+  {
+   "tier": 1,
+   "name": "Startup Laboratory",
+   "cost": 0,
+   "weeks": 0,
+   "upkeep": 1200,
+   "cap": 6,
+   "slots": 1,
+   "offices": 2,
+   "brands": 1,
+   "test": 1,
+   "depts": [
+    "lab",
+    "executive"
+   ],
+   "delegation": []
+  },
+  {
+   "tier": 2,
+   "name": "Regional Fragrance Company",
+   "cost": 250000,
+   "weeks": 4,
+   "upkeep": 4500,
+   "cap": 20,
+   "slots": 3,
+   "offices": 4,
+   "brands": 2,
+   "test": 2,
+   "depts": [
+    "lab",
+    "executive",
+    "production",
+    "marketing",
+    "sales"
+   ],
+   "delegation": [
+    "purchasing",
+    "production"
+   ]
+  },
+  {
+   "tier": 3,
+   "name": "International Headquarters",
+   "cost": 1500000,
+   "weeks": 8,
+   "upkeep": 16000,
+   "cap": 60,
+   "slots": 6,
+   "offices": 8,
+   "brands": 4,
+   "test": 3,
+   "depts": [
+    "lab",
+    "executive",
+    "production",
+    "marketing",
+    "sales",
+    "finance",
+    "hr"
+   ],
+   "delegation": [
+    "purchasing",
+    "production",
+    "pricing",
+    "marketing",
+    "distribution"
+   ]
+  },
+  {
+   "tier": 4,
+   "name": "Global Luxury Corporation",
+   "cost": 6000000,
+   "weeks": 12,
+   "upkeep": 42000,
+   "cap": 200,
+   "slots": 12,
+   "offices": 8,
+   "brands": 8,
+   "test": 3,
+   "depts": [
+    "lab",
+    "executive",
+    "production",
+    "marketing",
+    "sales",
+    "finance",
+    "hr"
+   ],
+   "delegation": [
+    "purchasing",
+    "production",
+    "pricing",
+    "marketing",
+    "distribution",
+    "recruitment"
+   ]
+  }
+ ],
+ "departments": {
+  "lab": {
+   "name": "Fragrance Laboratory",
+   "roles": [
+    "perfumer",
+    "chemist",
+    "research_manager"
+   ],
+   "upgrades": [
+    0,
+    60000,
+    250000
+   ],
+   "desc": "Formulation, testing and perfumer projects."
+  },
+  "production": {
+   "name": "Production & Quality",
+   "roles": [
+    "production_manager",
+    "chemist"
+   ],
+   "upgrades": [
+    0,
+    80000,
+    300000
+   ],
+   "desc": "Batches, QC, supply planning."
+  },
+  "marketing": {
+   "name": "Marketing",
+   "roles": [
+    "marketing_manager"
+   ],
+   "upgrades": [
+    0,
+    50000,
+    200000
+   ],
+   "desc": "Campaign planning and brand building."
+  },
+  "sales": {
+   "name": "Sales & Distribution",
+   "roles": [
+    "sales_manager",
+    "country_manager"
+   ],
+   "upgrades": [
+    0,
+    50000,
+    200000
+   ],
+   "desc": "Retail partners, pricing, country operations."
+  },
+  "finance": {
+   "name": "Finance",
+   "roles": [
+    "finance_manager"
+   ],
+   "upgrades": [
+    0,
+    40000,
+    150000
+   ],
+   "desc": "Funding, interest, tax planning."
+  },
+  "hr": {
+   "name": "Human Resources",
+   "roles": [
+    "hr_manager"
+   ],
+   "upgrades": [
+    0,
+    40000,
+    150000
+   ],
+   "desc": "Recruitment, retention, training."
+  },
+  "executive": {
+   "name": "Executive Office",
+   "roles": [
+    "executive_manager"
+   ],
+   "upgrades": [
+    0,
+    100000,
+    400000
+   ],
+   "desc": "Coordination and delegation."
+  }
+ },
+ "roles": {
+  "perfumer": {
+   "name": "Perfumer",
+   "salary": [
+    45000,
+    260000
+   ],
+   "dept": "lab"
+  },
+  "chemist": {
+   "name": "Chemist",
+   "salary": [
+    40000,
+    120000
+   ],
+   "dept": "lab"
+  },
+  "research_manager": {
+   "name": "Research Manager",
+   "salary": [
+    70000,
+    180000
+   ],
+   "dept": "lab"
+  },
+  "production_manager": {
+   "name": "Production Manager",
+   "salary": [
+    60000,
+    160000
+   ],
+   "dept": "production"
+  },
+  "marketing_manager": {
+   "name": "Marketing Manager",
+   "salary": [
+    60000,
+    200000
+   ],
+   "dept": "marketing"
+  },
+  "sales_manager": {
+   "name": "Sales Manager",
+   "salary": [
+    55000,
+    180000
+   ],
+   "dept": "sales"
+  },
+  "finance_manager": {
+   "name": "Finance Manager",
+   "salary": [
+    70000,
+    200000
+   ],
+   "dept": "finance"
+  },
+  "hr_manager": {
+   "name": "HR Manager",
+   "salary": [
+    50000,
+    140000
+   ],
+   "dept": "hr"
+  },
+  "country_manager": {
+   "name": "Country Manager",
+   "salary": [
+    65000,
+    180000
+   ],
+   "dept": "sales"
+  },
+  "executive_manager": {
+   "name": "Executive Manager",
+   "salary": [
+    120000,
+    400000
+   ],
+   "dept": "executive"
+  }
+ },
+ "manufacturers": [
+  {
+   "id": "quickfill",
+   "name": "QuickFill Labs",
+   "fill": 2.2,
+   "setup": 800,
+   "moq": 100,
+   "cap": 3000,
+   "lead": 1,
+   "rel": 0.9,
+   "qc": 0.55,
+   "desc": "Small-batch filler. Fast and flexible, pricey per unit."
+  },
+  {
+   "id": "meridian",
+   "name": "Meridian Contract Cosmetics",
+   "fill": 1.6,
+   "setup": 1500,
+   "moq": 1000,
+   "cap": 15000,
+   "lead": 2,
+   "rel": 0.95,
+   "qc": 0.7,
+   "desc": "Reliable mid-size contract manufacturer."
+  },
+  {
+   "id": "grasse",
+   "name": "Grasse Liquid Works",
+   "fill": 2.8,
+   "setup": 2500,
+   "moq": 300,
+   "cap": 8000,
+   "lead": 2,
+   "rel": 0.985,
+   "qc": 0.85,
+   "desc": "Premium craftsmanship and meticulous QC."
+  },
+  {
+   "id": "massblend",
+   "name": "MassBlend Industries",
+   "fill": 0.9,
+   "setup": 4000,
+   "moq": 5000,
+   "cap": 60000,
+   "lead": 3,
+   "rel": 0.9,
+   "qc": 0.6,
+   "desc": "High-volume, low-cost, long lead times."
+  }
+ ],
+ "factory": {
+  "cost": 1800000,
+  "weeks": 10,
+  "cap": 25000,
+  "fixed": 22000,
+  "fill": 0.55,
+  "rel": 0.97,
+  "qc": 0.75,
+  "upgrade_cost": 2500000,
+  "upgrade_cap": 60000,
+  "upgrade_fixed": 38000,
+  "min_hq": 2
+ },
+ "supplier_tiers": [
+  {
+   "cost": 0,
+   "lead": 1
+  },
+  {
+   "cost": 2500,
+   "lead": 1
+  },
+  {
+   "cost": 8000,
+   "lead": 2
+  },
+  {
+   "cost": 20000,
+   "lead": 3
+  }
+ ],
+ "office_levels": [
+  {
+   "name": "Sales Office",
+   "mult": 1.0,
+   "aw_bonus": 0.0005,
+   "reach_bonus": 0.0
+  },
+  {
+   "name": "Regional Office",
+   "mult": 2.2,
+   "aw_bonus": 0.0012,
+   "reach_bonus": 0.06,
+   "upgrade": 2.0
+  },
+  {
+   "name": "Country Headquarters",
+   "mult": 4.0,
+   "aw_bonus": 0.002,
+   "reach_bonus": 0.12,
+   "upgrade": 4.0
+  }
+ ]
+}

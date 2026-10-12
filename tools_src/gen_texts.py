@@ -1,0 +1,35 @@
+import json
+T = {
+ "dim_words": {
+  "citrus":["bright citrus","zesty citrus","sparkling citrus"],"aromatic":["herbal freshness","clean aromatic","lavender-fresh"],
+  "green":["crisp green","leafy green","bitter-green"],"aquatic":["marine freshness","ozonic","sea-breeze"],
+  "floral":["floral bouquet","pretty floral","lush florals"],"fruity":["juicy fruit","fruity sweetness","ripe fruit"],
+  "gourmand":["sweet vanilla","gourmand warmth","edible sweetness"],"spicy":["warm spice","peppery spice","spicy kick"],
+  "woody":["creamy woods","dry woods","smooth woody"],"amber":["golden amber","resinous amber","warm amber"],
+  "musk":["soft musk","clean musk","skin-like musk"],"powdery":["powdery softness","iris-like powder","vintage powder"],
+  "animalic":["leathery depth","animalic edge","smoky oud"]},
+ "open_pos":["The opening is beautiful","Love the first spray","Gorgeous start","What a lovely opening","The first minutes are stunning"],
+ "open_neg":["The opening isn't for me","Not a fan of the first spray","The start is a bit challenging","The opening feels off to me"],
+ "dry_pos":["the dry-down is gorgeous","it settles into something beautiful","the base is wonderfully comforting","it dries down really nicely"],
+ "dry_neg":["the dry-down disappoints","it turns flat on my skin","the base gets boring","it dries down into something I don't enjoy"],
+ "long_short":["but it fades too quickly","but it's gone after a couple of hours","sadly the longevity is poor","though I have to reapply constantly"],
+ "long_good":["and it lasts all day","with excellent longevity","and it's still there in the evening","lasting longer than I expected"],
+ "proj_loud":["though it's too intense for my office","but it fills the whole room — a bit much","though projection is overwhelming"],
+ "proj_soft":["but it stays very close to the skin","although nobody notices it","but projection is weak"],
+ "proj_good":["with just the right projection","with a nice scent trail","and I get compliments"],
+ "price_bad":["The price feels excessive.","Overpriced for what it is.","Hard to justify the price."],
+ "price_good":["Great value for money.","Amazing for the price.","Worth every penny."],
+ "sweet_bad":["Way too sweet for me.","Cloying after an hour.","The sweetness gets heavy."],
+ "harsh":["There's a harsh, sharp edge early on.","Something in it feels rough.","A bit raw and screechy at first."],
+ "tension":["An odd combination that doesn't quite blend.","The notes seem to fight each other.","Interesting, but disjointed."],
+ "novel_pos":["Smells unlike anything else I own.","Truly original.","Refreshingly different."],
+ "defect":{"cloud":"My bottle looked cloudy.","discolor":"The juice turned noticeably darker.","crystal":"There were crystals at the bottom of the bottle.","oxidation":"It smelled sour and off after a while.","fill":"The sprayer leaked out of the box.","lot":"This batch smells different from my last bottle."},
+ "version_worse":["I preferred the previous version.","They changed it and it's not the same.","Reformulated — and not for the better."],
+ "version_better":["The new version is an improvement.","Reformulation done right.","Better than the original, honestly."],
+ "anosmic":["I can barely smell it after an hour — maybe it's just me?","Friends notice it but I hardly smell it on myself."],
+ "stars_intro":{"5":["Instant favorite.","Masterpiece.","Absolutely love it."],"4":["Really nice.","Very pleasant.","A solid choice."],"3":["It's okay.","Decent, not amazing.","Mixed feelings."],"2":["Not for me.","Disappointing.","Expected more."],"1":["Couldn't wear it.","Scrubbed it off.","Sadly a miss."]},
+ "reviewer_names":["scentlover","perfumista","nosebook","sillage_fan","dailyspritz","fragrancefox","wanderingnose","notecollector","amberqueen","citrusboy","musk_mood","vintagepowder","ouddaddy","blind_buyer","sampler","dreamyjasmine","woodsy","sweettooth","officequiet","decantking"],
+ "critic_open":["A considered composition.","An ambitious release.","A crowd-pleaser in the making.","A curious proposition.","An elegant, assured work.","A safe but well-executed release."]
+}
+json.dump(T, open("data/texts.json","w"), ensure_ascii=False, indent=1)
+print("ok")

@@ -1,0 +1,344 @@
+{
+ "rivals": [
+  {
+   "id": "delacour",
+   "name": "Maison Delacour",
+   "home": "FR",
+   "cash": 38000000,
+   "style": "luxury",
+   "mkt": 0.14,
+   "risk": 0.3,
+   "offices": [
+    "FR",
+    "US",
+    "GB",
+    "AE",
+    "JP"
+   ],
+   "brands": [
+    {
+     "name": "Delacour Paris",
+     "posit": "luxury",
+     "color": "#c9a55a",
+     "prestige": 0.82,
+     "aw": 0.38,
+     "family": [
+      "floral",
+      "powdery",
+      "musk"
+     ],
+     "n": 5
+    },
+    {
+     "name": "Atelier Delacour",
+     "posit": "niche",
+     "color": "#6b4c8a",
+     "prestige": 0.7,
+     "aw": 0.12,
+     "family": [
+      "woody",
+      "animalic",
+      "spicy"
+     ],
+     "n": 3
+    }
+   ]
+  },
+  {
+   "id": "aurelia",
+   "name": "Aurelia Beauty Group",
+   "home": "US",
+   "cash": 52000000,
+   "style": "mass",
+   "mkt": 0.18,
+   "risk": 0.5,
+   "offices": [
+    "US",
+    "GB",
+    "DE",
+    "BR",
+    "FR"
+   ],
+   "brands": [
+    {
+     "name": "Aurelia",
+     "posit": "mass",
+     "color": "#e07a9b",
+     "prestige": 0.42,
+     "aw": 0.45,
+     "family": [
+      "fruity",
+      "gourmand",
+      "floral"
+     ],
+     "n": 6
+    },
+    {
+     "name": "Bloom & Co",
+     "posit": "budget",
+     "color": "#f2b45a",
+     "prestige": 0.22,
+     "aw": 0.35,
+     "family": [
+      "fruity",
+      "citrus",
+      "gourmand"
+     ],
+     "n": 5
+    }
+   ]
+  },
+  {
+   "id": "kintsugi",
+   "name": "Kintsugi Parfums",
+   "home": "JP",
+   "cash": 9000000,
+   "style": "niche",
+   "mkt": 0.12,
+   "risk": 0.4,
+   "offices": [
+    "JP",
+    "FR",
+    "US"
+   ],
+   "brands": [
+    {
+     "name": "Kintsugi",
+     "posit": "niche",
+     "color": "#2d6a6a",
+     "prestige": 0.66,
+     "aw": 0.14,
+     "family": [
+      "green",
+      "musk",
+      "woody"
+     ],
+     "n": 4
+    },
+    {
+     "name": "Hana Mist",
+     "posit": "mass",
+     "color": "#f0a8c0",
+     "prestige": 0.38,
+     "aw": 0.22,
+     "family": [
+      "floral",
+      "aquatic",
+      "musk"
+     ],
+     "n": 3
+    }
+   ]
+  },
+  {
+   "id": "alnoor",
+   "name": "House of Al Noor",
+   "home": "AE",
+   "cash": 21000000,
+   "style": "luxury",
+   "mkt": 0.15,
+   "risk": 0.4,
+   "offices": [
+    "AE",
+    "TR",
+    "GB",
+    "FR"
+   ],
+   "brands": [
+    {
+     "name": "Al Noor",
+     "posit": "luxury",
+     "color": "#8a5a2b",
+     "prestige": 0.74,
+     "aw": 0.3,
+     "family": [
+      "amber",
+      "animalic",
+      "woody"
+     ],
+     "n": 5
+    },
+    {
+     "name": "Saba Oud",
+     "posit": "premium",
+     "color": "#5a3d2b",
+     "prestige": 0.5,
+     "aw": 0.22,
+     "family": [
+      "amber",
+      "spicy",
+      "gourmand"
+     ],
+     "n": 4
+    }
+   ]
+  },
+  {
+   "id": "brightwell",
+   "name": "Brightwell & Finch",
+   "home": "GB",
+   "cash": 14000000,
+   "style": "premium",
+   "mkt": 0.12,
+   "risk": 0.3,
+   "offices": [
+    "GB",
+    "US",
+    "DE"
+   ],
+   "brands": [
+    {
+     "name": "Brightwell",
+     "posit": "premium",
+     "color": "#2b4a6b",
+     "prestige": 0.6,
+     "aw": 0.26,
+     "family": [
+      "aromatic",
+      "citrus",
+      "woody"
+     ],
+     "n": 5
+    },
+    {
+     "name": "Finch Street",
+     "posit": "mass",
+     "color": "#7aa36b",
+     "prestige": 0.36,
+     "aw": 0.24,
+     "family": [
+      "citrus",
+      "floral",
+      "fruity"
+     ],
+     "n": 4
+    }
+   ]
+  },
+  {
+   "id": "verdana",
+   "name": "Verdana Cosmetics",
+   "home": "BR",
+   "cash": 12000000,
+   "style": "mass",
+   "mkt": 0.13,
+   "risk": 0.5,
+   "offices": [
+    "BR",
+    "US"
+   ],
+   "brands": [
+    {
+     "name": "Verdana",
+     "posit": "premium",
+     "color": "#3f7d4f",
+     "prestige": 0.5,
+     "aw": 0.3,
+     "family": [
+      "green",
+      "citrus",
+      "floral"
+     ],
+     "n": 4
+    },
+    {
+     "name": "Brisa",
+     "posit": "budget",
+     "color": "#59b7c9",
+     "prestige": 0.2,
+     "aw": 0.32,
+     "family": [
+      "citrus",
+      "fruity",
+      "aquatic"
+     ],
+     "n": 5
+    }
+   ]
+  },
+  {
+   "id": "nordlicht",
+   "name": "Nordlicht Duftwerke",
+   "home": "DE",
+   "cash": 11000000,
+   "style": "premium",
+   "mkt": 0.11,
+   "risk": 0.3,
+   "offices": [
+    "DE",
+    "GB",
+    "FR"
+   ],
+   "brands": [
+    {
+     "name": "Nordlicht",
+     "posit": "premium",
+     "color": "#4a6b8a",
+     "prestige": 0.55,
+     "aw": 0.24,
+     "family": [
+      "aquatic",
+      "citrus",
+      "aromatic"
+     ],
+     "n": 4
+    },
+    {
+     "name": "Klar",
+     "posit": "mass",
+     "color": "#9bb8d0",
+     "prestige": 0.32,
+     "aw": 0.26,
+     "family": [
+      "musk",
+      "citrus",
+      "aquatic"
+     ],
+     "n": 4
+    }
+   ]
+  },
+  {
+   "id": "anatolia",
+   "name": "Anatolia Esans",
+   "home": "TR",
+   "cash": 6000000,
+   "style": "mass",
+   "mkt": 0.13,
+   "risk": 0.6,
+   "offices": [
+    "TR",
+    "AE",
+    "DE"
+   ],
+   "brands": [
+    {
+     "name": "Anatolia",
+     "posit": "mass",
+     "color": "#b5473a",
+     "prestige": 0.34,
+     "aw": 0.3,
+     "family": [
+      "floral",
+      "amber",
+      "gourmand"
+     ],
+     "n": 4
+    },
+    {
+     "name": "Lale Atelier",
+     "posit": "premium",
+     "color": "#7a2f4a",
+     "prestige": 0.5,
+     "aw": 0.12,
+     "family": [
+      "floral",
+      "spicy",
+      "amber"
+     ],
+     "n": 3
+    }
+   ]
+  }
+ ]
+}

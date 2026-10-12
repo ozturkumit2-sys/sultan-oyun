@@ -1,0 +1,756 @@
+{
+ "people": {
+  "FR": {
+   "f": [
+    "Camille",
+    "Élise",
+    "Margaux",
+    "Inès",
+    "Chloé",
+    "Juliette",
+    "Léa",
+    "Manon",
+    "Sophie",
+    "Amélie",
+    "Claire",
+    "Hélène"
+   ],
+   "m": [
+    "Antoine",
+    "Julien",
+    "Mathieu",
+    "Louis",
+    "Hugo",
+    "Pierre",
+    "Olivier",
+    "Thibault",
+    "Rémi",
+    "Lucien",
+    "Étienne",
+    "Gaspard"
+   ],
+   "l": [
+    "Delmas",
+    "Rousseau",
+    "Fontaine",
+    "Marchand",
+    "Lefèvre",
+    "Girard",
+    "Moreau",
+    "Bonnet",
+    "Duval",
+    "Laurent",
+    "Mercier",
+    "Chevalier",
+    "Garnier",
+    "Blanchet"
+   ]
+  },
+  "US": {
+   "f": [
+    "Emily",
+    "Madison",
+    "Hannah",
+    "Olivia",
+    "Grace",
+    "Ava",
+    "Lauren",
+    "Megan",
+    "Sarah",
+    "Brooke",
+    "Kayla",
+    "Natalie"
+   ],
+   "m": [
+    "Ethan",
+    "Mason",
+    "Jacob",
+    "Logan",
+    "Ryan",
+    "Tyler",
+    "Caleb",
+    "Nathan",
+    "Austin",
+    "Carter",
+    "Dylan",
+    "Owen"
+   ],
+   "l": [
+    "Carter",
+    "Hughes",
+    "Bennett",
+    "Reed",
+    "Brooks",
+    "Hayes",
+    "Morgan",
+    "Parker",
+    "Sullivan",
+    "Foster",
+    "Coleman",
+    "Price",
+    "Wallace",
+    "Bishop"
+   ]
+  },
+  "GB": {
+   "f": [
+    "Charlotte",
+    "Amelia",
+    "Isla",
+    "Poppy",
+    "Harriet",
+    "Imogen",
+    "Freya",
+    "Eleanor",
+    "Rosie",
+    "Matilda"
+   ],
+   "m": [
+    "Oliver",
+    "Harry",
+    "George",
+    "Alfie",
+    "Rupert",
+    "Edward",
+    "Freddie",
+    "Archie",
+    "Hugh",
+    "Callum"
+   ],
+   "l": [
+    "Whitfield",
+    "Ashworth",
+    "Pemberton",
+    "Harding",
+    "Fairfax",
+    "Thornton",
+    "Cavendish",
+    "Hollis",
+    "Prescott",
+    "Winslow",
+    "Kendall",
+    "Marlow"
+   ]
+  },
+  "DE": {
+   "f": [
+    "Lena",
+    "Hannah",
+    "Lea",
+    "Mia",
+    "Katharina",
+    "Johanna",
+    "Sophie",
+    "Anika",
+    "Greta",
+    "Clara"
+   ],
+   "m": [
+    "Lukas",
+    "Jonas",
+    "Felix",
+    "Maximilian",
+    "Tobias",
+    "Florian",
+    "Niklas",
+    "Moritz",
+    "Paul",
+    "Jan"
+   ],
+   "l": [
+    "Becker",
+    "Hoffmann",
+    "Schröder",
+    "Wagner",
+    "Krüger",
+    "Neumann",
+    "Brandt",
+    "Vogel",
+    "Keller",
+    "Lindner",
+    "Hartmann",
+    "Seidel"
+   ]
+  },
+  "TR": {
+   "f": [
+    "Elif",
+    "Zeynep",
+    "Defne",
+    "Ece",
+    "Selin",
+    "Ayşe",
+    "Melis",
+    "Derya",
+    "Nazlı",
+    "İpek",
+    "Cansu",
+    "Deniz"
+   ],
+   "m": [
+    "Emre",
+    "Can",
+    "Mert",
+    "Burak",
+    "Kerem",
+    "Arda",
+    "Onur",
+    "Kaan",
+    "Tolga",
+    "Selim",
+    "Barış",
+    "Efe"
+   ],
+   "l": [
+    "Yılmaz",
+    "Kaya",
+    "Demir",
+    "Şahin",
+    "Çelik",
+    "Aydın",
+    "Öztürk",
+    "Arslan",
+    "Doğan",
+    "Kılıç",
+    "Aksoy",
+    "Erdem",
+    "Tekin",
+    "Güneş"
+   ]
+  },
+  "JP": {
+   "f": [
+    "Yui",
+    "Haruka",
+    "Aoi",
+    "Sakura",
+    "Mio",
+    "Rina",
+    "Natsuki",
+    "Emi",
+    "Kaori",
+    "Yuna"
+   ],
+   "m": [
+    "Haruto",
+    "Ren",
+    "Sota",
+    "Daiki",
+    "Kenta",
+    "Yuto",
+    "Takumi",
+    "Riku",
+    "Kaito",
+    "Shun"
+   ],
+   "l": [
+    "Tanaka",
+    "Watanabe",
+    "Sato",
+    "Kobayashi",
+    "Nakamura",
+    "Yamamoto",
+    "Inoue",
+    "Kimura",
+    "Hayashi",
+    "Shimizu",
+    "Mori",
+    "Fujita"
+   ]
+  },
+  "BR": {
+   "f": [
+    "Ana",
+    "Beatriz",
+    "Larissa",
+    "Camila",
+    "Fernanda",
+    "Mariana",
+    "Juliana",
+    "Luana",
+    "Isabela",
+    "Gabriela"
+   ],
+   "m": [
+    "Lucas",
+    "Rafael",
+    "Thiago",
+    "Bruno",
+    "Gustavo",
+    "Felipe",
+    "Rodrigo",
+    "Mateus",
+    "Caio",
+    "Diego"
+   ],
+   "l": [
+    "Silva",
+    "Souza",
+    "Oliveira",
+    "Costa",
+    "Almeida",
+    "Ferreira",
+    "Ribeiro",
+    "Carvalho",
+    "Rocha",
+    "Mendes",
+    "Barbosa",
+    "Teixeira"
+   ]
+  },
+  "AE": {
+   "f": [
+    "Mariam",
+    "Noura",
+    "Aisha",
+    "Hessa",
+    "Layla",
+    "Fatima",
+    "Sara",
+    "Reem",
+    "Shamma",
+    "Alia"
+   ],
+   "m": [
+    "Omar",
+    "Khalid",
+    "Hamdan",
+    "Saeed",
+    "Rashid",
+    "Yousef",
+    "Ahmed",
+    "Faisal",
+    "Majid",
+    "Tariq"
+   ],
+   "l": [
+    "Al Mansouri",
+    "Al Hashimi",
+    "Al Nuaimi",
+    "Al Mazrouei",
+    "Al Suwaidi",
+    "Al Qassimi",
+    "Al Shamsi",
+    "Al Ketbi",
+    "Al Falasi",
+    "Al Marzooqi"
+   ]
+  },
+  "IT": {
+   "f": [
+    "Giulia",
+    "Francesca",
+    "Chiara",
+    "Alessia",
+    "Martina",
+    "Valentina"
+   ],
+   "m": [
+    "Marco",
+    "Luca",
+    "Matteo",
+    "Andrea",
+    "Davide",
+    "Stefano"
+   ],
+   "l": [
+    "Ricci",
+    "Conti",
+    "Romano",
+    "Esposito",
+    "Marino",
+    "Ferrari",
+    "Galli",
+    "Bellini",
+    "Rinaldi",
+    "Lombardi"
+   ]
+  },
+  "IN": {
+   "f": [
+    "Ananya",
+    "Priya",
+    "Kavya",
+    "Meera",
+    "Isha",
+    "Diya"
+   ],
+   "m": [
+    "Arjun",
+    "Rohan",
+    "Vikram",
+    "Aditya",
+    "Karan",
+    "Nikhil"
+   ],
+   "l": [
+    "Sharma",
+    "Iyer",
+    "Kapoor",
+    "Mehta",
+    "Nair",
+    "Reddy",
+    "Banerjee",
+    "Joshi",
+    "Malhotra",
+    "Desai"
+   ]
+  }
+ },
+ "name_words": {
+  "adj": [
+   "Velvet",
+   "Golden",
+   "Silent",
+   "Midnight",
+   "Wild",
+   "Secret",
+   "Liquid",
+   "Endless",
+   "Bare",
+   "Burning",
+   "Crystal",
+   "Hidden",
+   "Electric",
+   "Soft",
+   "Ivory",
+   "Black",
+   "White",
+   "Sacred",
+   "Lost",
+   "Infinite",
+   "Pale",
+   "Gilded",
+   "Smoked",
+   "Radiant",
+   "Second",
+   "Morning",
+   "Blue",
+   "Scarlet",
+   "Feral",
+   "Quiet",
+   "Sun-Kissed",
+   "Salted",
+   "Iced",
+   "Royal",
+   "Paper",
+   "Glass",
+   "Opal",
+   "Amber",
+   "Copper",
+   "Rose"
+  ],
+  "noun": [
+   "Dune",
+   "Garden",
+   "Ember",
+   "Tide",
+   "Orchard",
+   "Bloom",
+   "Reverie",
+   "Muse",
+   "Horizon",
+   "Oasis",
+   "Atelier",
+   "Promise",
+   "Hour",
+   "Comet",
+   "Lagoon",
+   "Veil",
+   "Grove",
+   "Nocturne",
+   "Odyssey",
+   "Mirage",
+   "Petal",
+   "Harbor",
+   "Canvas",
+   "Ritual",
+   "Cathedral",
+   "Meadow",
+   "Sonata",
+   "Desert",
+   "Island",
+   "Halo",
+   "Ballad",
+   "Archive",
+   "Fable",
+   "Prism",
+   "Monsoon",
+   "Valley",
+   "Embrace",
+   "Letter",
+   "Library",
+   "Thread"
+  ],
+  "french": [
+   "Nuit",
+   "Lumière",
+   "Rêve",
+   "Éclat",
+   "Ciel",
+   "Soie",
+   "Âme",
+   "Jardin",
+   "Ombre",
+   "Aube",
+   "Flamme",
+   "Plume",
+   "Brume",
+   "Désir",
+   "Fleur"
+  ],
+  "single": [
+   "Aurelia",
+   "Solenne",
+   "Nacre",
+   "Elyra",
+   "Corvus",
+   "Zephyr",
+   "Lysandre",
+   "Ambra",
+   "Noctis",
+   "Seraphine",
+   "Ondine",
+   "Kairos",
+   "Vespera",
+   "Iridia",
+   "Talisman",
+   "Aether",
+   "Cassia",
+   "Orion",
+   "Sable",
+   "Marisol",
+   "Verbena",
+   "Halcyon",
+   "Oriane",
+   "Calypso"
+  ]
+ },
+ "brand_words": [
+  "Maison",
+  "Atelier",
+  "House of",
+  "Studio",
+  "Parfums",
+  "Laboratoire",
+  "Essence",
+  "Officine",
+  "Le Cabinet",
+  "Archive"
+ ],
+ "partners": {
+  "marketplace": [
+   "ClickCart",
+   "ParfumDirect",
+   "ShopNest",
+   "Glowbox Online",
+   "eScent",
+   "BeautyBay Market"
+  ],
+  "perfumery": [
+   "Lumière Parfumerie",
+   "The Scent Room",
+   "Atelier Nez",
+   "Olfactory House",
+   "Le Flacon",
+   "Essenza Boutique"
+  ],
+  "beauty": [
+   "BeautyHub",
+   "GlowCo",
+   "Prism Beauty",
+   "Velvet & Co.",
+   "Bella Store",
+   "Radiance Beauty"
+  ],
+  "dept": [
+   "Hautville",
+   "Grand Maison",
+   "Kingsgate",
+   "Royal Arcade",
+   "Galeries Orion",
+   "Sterling & Hart"
+  ],
+  "mass": [
+   "DailyMart",
+   "FreshDrug",
+   "ValueBeauty",
+   "QuickCare",
+   "PharmaPlus",
+   "SmartShop"
+  ],
+  "distributor": [
+   "Continental Brands Dist.",
+   "Meridian Trade",
+   "Atlas Distribution",
+   "Silk Road Partners",
+   "Nova Import Group",
+   "Harbor Brands"
+  ]
+ },
+ "critics": [
+  {
+   "name": "Clarisse Moreau",
+   "outlet": "Le Nez Moderne",
+   "pref": "floral powdery",
+   "bias": {
+    "floral": 0.4,
+    "powdery": 0.4,
+    "gourmand": -0.3
+   },
+   "complexity": 0.6
+  },
+  {
+   "name": "Dan Whitaker",
+   "outlet": "Basenotes Weekly",
+   "pref": "woody amber",
+   "bias": {
+    "woody": 0.5,
+    "amber": 0.4,
+    "aquatic": -0.2
+   },
+   "complexity": 0.3
+  },
+  {
+   "name": "Yuki Sato",
+   "outlet": "Kaori Journal",
+   "pref": "minimal musks",
+   "bias": {
+    "musk": 0.5,
+    "green": 0.3,
+    "animalic": -0.4
+   },
+   "complexity": 0.1
+  },
+  {
+   "name": "Rafael Costa",
+   "outlet": "Cheiro Crítico",
+   "pref": "fresh citrus",
+   "bias": {
+    "citrus": 0.5,
+    "aromatic": 0.3,
+    "fruity": 0.2
+   },
+   "complexity": -0.1
+  },
+  {
+   "name": "Leyla Arslan",
+   "outlet": "Esans Review",
+   "pref": "oriental and oud",
+   "bias": {
+    "amber": 0.4,
+    "animalic": 0.4,
+    "spicy": 0.3
+   },
+   "complexity": 0.5
+  },
+  {
+   "name": "Margot Fairfax",
+   "outlet": "The Scent Ledger",
+   "pref": "avant-garde",
+   "bias": {
+    "green": 0.2,
+    "animalic": 0.3,
+    "powdery": 0.2
+   },
+   "complexity": 0.9
+  },
+  {
+   "name": "Hannah Brooks",
+   "outlet": "SweetNotes TV",
+   "pref": "gourmand fans",
+   "bias": {
+    "gourmand": 0.6,
+    "fruity": 0.3
+   },
+   "complexity": -0.2
+  }
+ ],
+ "handles_a": [
+  "scent",
+  "notes",
+  "sillage",
+  "nose",
+  "fume",
+  "bottle",
+  "spritz",
+  "juice",
+  "drydown",
+  "atomizer",
+  "musky",
+  "citrus",
+  "velvet",
+  "amber",
+  "oud"
+ ],
+ "handles_b": [
+  "diaries",
+  "daily",
+  "lab",
+  "queen",
+  "king",
+  "talks",
+  "journal",
+  "hunter",
+  "addict",
+  "club",
+  "stories",
+  "guru",
+  "world",
+  "vibes",
+  "edit"
+ ],
+ "celebs": [
+  "Aria Vale",
+  "Marco Lenz",
+  "Sofia Marchetti",
+  "Jonah Blake",
+  "Lila Moreau",
+  "Kenji Arata",
+  "Nadia Rahman",
+  "Theo Castillo",
+  "Isabelle Fontaine",
+  "Zara Okafor",
+  "Leo Hartmann",
+  "Camila Reyes",
+  "Elena Sorel",
+  "Ryan Ashby"
+ ],
+ "celeb_roles": [
+  "actress",
+  "actor",
+  "pop singer",
+  "football star",
+  "supermodel",
+  "tennis champion",
+  "chef & TV host",
+  "film director",
+  "jazz musician",
+  "Formula racer"
+ ],
+ "banks": [
+  "Northbridge Bank",
+  "Atlas Commercial",
+  "Crescent Capital Bank",
+  "Banque Lumière",
+  "Meridian Trust"
+ ],
+ "funds": [
+  "Aurum Ventures",
+  "Bluefield Partners",
+  "Sable Growth Capital",
+  "Lumen Equity",
+  "Orchid Holdings",
+  "Kestrel Capital"
+ ],
+ "board": [
+  "Victoria Hale",
+  "Robert Chen",
+  "Amira Haddad",
+  "Giles Montague",
+  "Sun-Hee Park",
+  "Daniel Okoye",
+  "Ingrid Larsen",
+  "Paolo Ferretti"
+ ]
+}
