@@ -38,7 +38,7 @@ func run(args: Array) -> void:
 	var cand: String = G.s["candidates"][0] if not G.s["candidates"].is_empty() else ""
 	var emp: String = G.company_employees(G.pid())[0]["id"]
 	var media: String = G.s["media"].keys()[0]
-	var screens := [["dashboard", {}], ["lab_hub", {}], ["formulas", {}], ["formula_editor", {"fid": f["id"]}], ["formula_editor", {}], ["ingredients", {}],
+	var screens := [["dashboard", {}], ["lab_hub", {}], ["scent_bar", {}], ["scent_bar", {"product": p["id"]}], ["scent_bar", {"fid": f["id"]}], ["formulas", {}], ["formula_editor", {"fid": f["id"]}], ["formula_editor", {}], ["ingredients", {}],
 		["ingredient_market", {}], ["tests", {"fid": f["id"], "v": 0}], ["research", {"fid": f["id"]}], ["research", {"product": p["id"]}], ["proposals", {}], ["briefs", {}],
 		["products_hub", {}], ["product_detail", {"id": p["id"]}], ["launch", {"fid": f["id"]}], ["launch", {"parent": p["id"], "kind": "travel"}], ["production", {}],
 		["reviews", {}], ["awards", {}], ["company_hub", {}], ["hq", {}], ["staff", {}], ["employee", {"id": emp}], ["recruit", {}], ["transfer", {}],

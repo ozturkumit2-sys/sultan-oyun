@@ -10,6 +10,13 @@ var liquid := Color("#f1dfa0")
 var show_label := true
 var shadow := true
 var vivid := false   # denser glass & liquid for busy or tinted backgrounds
+## How full the bottle is (0 = empty, 0.76 = a normal retail fill).
+var fill := 0.76:
+	set(v):
+		fill = clampf(v, 0.0, 1.0)
+		queue_redraw()
+var full_mark := -1.0    # draw a dashed "100%" line at this fill level (lab bench)
+var _shake := 0.0
 
 
 func _ready() -> void:
@@ -108,6 +115,8 @@ func _draw() -> void:
 	if s <= 4.0:
 		return
 	var o := Vector2((size.x - s) * 0.5, (size.y - s * asp) * 0.5)
+	if _shake > 0.0:
+		o.x += sin(_phase * 3.0) * _shake * s * 0.05
 	var T := func(p: Vector2) -> Vector2: return o + p * s
 	var shape := int(design.get("shape", 0)) % 10
 	var glass_arr: Array = DB.biz["glass"][int(design.get("glass", 0)) % DB.biz["glass"].size()]
@@ -155,8 +164,8 @@ func _draw() -> void:
 		var c := g_mid.lerp(g_edge, pow(clampf(e, 0.0, 1.0), 1.6))
 		return c.darkened(0.08 * f))
 	# liquid
-	if not opaque:
-		var lvl := lerpf(miny, maxy, 0.24)
+	if not opaque and fill > 0.005:
+		var lvl := lerpf(maxy - 0.03, miny + 0.01, fill)
 		var inset := 0.034
 		var lrows: Array = []
 		for r in _rows(body, 34, lvl, maxy - 0.03):
@@ -193,6 +202,22 @@ func _draw() -> void:
 				var br := float(b[2]) * s
 				draw_circle(T.call(Vector2(bx, by)), br, Color(1, 1, 1, 0.22))
 				draw_arc(T.call(Vector2(bx, by)), br, 0, TAU, 12, Color(1, 1, 1, 0.6), maxf(1.0, s * 0.004), true)
+	if full_mark > 0.0 and not opaque:
+		var fy := lerpf(maxy - 0.03, miny + 0.01, full_mark)
+		var fr := _row_at(rows, fy)
+		if not fr.is_empty():
+			var x0 := float(fr[1]) + 0.04
+			var x1 := float(fr[2]) - 0.04
+			var k := 0
+			var xx := x0
+			while xx < x1:
+				var xe := minf(x1, xx + 0.035)
+				if k % 2 == 0:
+					draw_line(T.call(Vector2(xx, fy)), T.call(Vector2(xe, fy)), Color(UI.BURGUNDY, 0.55), maxf(1.5, s * 0.008))
+				xx = xe
+				k += 1
+			var fnt := UI.font("semi")
+			draw_string(fnt, T.call(Vector2(x1 - 0.17, fy - 0.012)), "100%", HORIZONTAL_ALIGNMENT_LEFT, -1, maxi(9, int(s * 0.055)), Color(UI.BURGUNDY, 0.7))
 	# highlights: a long soft reflection on the left, a thin one on the right
 	_streak(T, rows, 0.16, 0.27, 0.5 if not opaque else 0.22)
 	_streak(T, rows, 0.78, 0.83, 0.26 if not opaque else 0.12)
@@ -232,6 +257,12 @@ static func tint_for(d: Dictionary, natural: Color) -> Color:
 	return natural
 
 
+## Refuse: a short sideways shake (e.g. the bottle is already full).
+func shake() -> void:
+	_shake = 1.0
+	set_process(true)
+
+
 ## Stir the juice: the surface sloshes and bubbles rise (formula changes, launches).
 func stir(strength := 1.0) -> void:
 	_slosh = clampf(_slosh + strength, 0.0, 1.4)
@@ -256,13 +287,14 @@ var idle_bubbles := false:
 func _process(delta: float) -> void:
 	_phase += delta * 7.0
 	_slosh = maxf(0.0, _slosh - delta * 0.9)
+	_shake = maxf(0.0, _shake - delta * 2.2)
 	for b in _bubbles:
 		b[1] = float(b[1]) + delta * float(b[3])
 	_bubbles = _bubbles.filter(func(b): return float(b[1]) < 1.0)
 	if idle_bubbles and _bubbles.size() < 4 and randf() < delta * 1.5:
 		_bubbles.append([randf(), 0.0, randf_range(0.006, 0.014), randf_range(0.12, 0.25)])
 	queue_redraw()
-	if _slosh <= 0.0 and _bubbles.is_empty() and not idle_bubbles:
+	if _slosh <= 0.0 and _shake <= 0.0 and _bubbles.is_empty() and not idle_bubbles:
 		set_process(false)
 
 

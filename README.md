@@ -8,6 +8,19 @@ dikey ekranlı, tamamen çevrimdışı bir Android işletme simülasyonu. Godot 
 APK her zaman bu dalın `apk/` klasöründe en güncel hâliyle durur. İndirdikten sonra dosyayı aç; Android
 "bilinmeyen kaynak" izni isterse bu kurulum için izin ver.
 
+## v1.2 — Sürükle-bırak laboratuvar ve parfüm deneme alanı
+
+- **Şişe en fazla %100 alır.** Formüldeki malzemelerin toplamı hiçbir şekilde %100'ü geçemez: kaydırıcılar,
+  +/− düğmeleri, elle girilen değerler ve eklenen malzemeler kalan boş yerle sınırlıdır. Şişe doldukça dolar;
+  doluyken yeni esans eklenmez, şişe sallanıp uyarı verir. Kaydetmek için tam %100 gerekir.
+- **Sürükle-bırak ile parfüm yapımı.** Tezgâhın altındaki *Esans rafından* bir esansı parmağınla sürükleyip
+  şişenin içine bırak: bir doz eklenir, damla şişeye dökülür ve sıvı karışır. Raf üst/kalp/dip nota,
+  doğal ve çözücü olarak filtrelenebilir; yana kaydırınca raf kayar, dokununca malzeme bilgisi açılır.
+- **Parfüm deneme alanı (Scent bar).** Taslağını, kendi formüllerini ya da rakiplerin çok satanlarını kâğıt
+  test şeridine sık; 0–36 saat boyunca kokunun nasıl değiştiğini izle (oynat/duraklat ya da zamanı kaydır):
+  o anki yoğunluk, açılış/kalp/dip evresi, hissedilen malzemeler, kısa tarif ve koku çarkı. Laboratuvar
+  ekranından, formül editöründen ("Try on a blotter") ve ürün sayfasından açılır.
+
 ## v1.1 — Görsel yenileme
 
 - Koyu "finans paneli" görünümü kaldırıldı: fildişi/şampanya zemin, pudra pembe, lavanta, adaçayı yeşili ve

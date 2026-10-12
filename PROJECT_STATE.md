@@ -3,7 +3,7 @@
 Godot 4.5 (GDScript, gl_compatibility) · Android portrait 720×1280 (expand) · English UI · fully offline.
 Package `com.perfumeempire.game` · save format version 3.
 
-## Status (v1.1.0 — visual redesign)
+## Status (v1.2.0 — drag & drop lab, 100% bottle, scent bar)
 
 Playable end-to-end: new company → formulate → test → launch → produce → sell in 8 markets → grow the HQ,
 staff, brands and offices → finance, investors, IPO, acquisitions. Every screen in the list below is
@@ -17,6 +17,7 @@ implemented and passes the automated smoke test. Not yet tested on a physical de
 | 10-year auto-play, accounting & integrity invariants every week | `_dev/t_validate.gd 10 11` | 0 issues; save/reload OK; post-load balance gap 0.00 |
 | Screenshot tours (real renderer under Xvfb): `tour`, `lab`, `modals`, `bottles` | `_dev/t_shots.gd` | reviewed by eye |
 | 3-year re-validation after the redesign | `_dev/t_validate.gd 3 11` | 0 issues; save/reload OK |
+| Drag & drop + 100% cap (synthetic touch input) | `_dev/t_shots.gd dnd` | drops stop at exactly 100%; sliders capped at 100% |
 
 Integrity invariants checked every simulated week for every company: assets − debt = paid-in + retained
 (inventory, WIP and in-transit materials valued from physical records), no NaN/Inf, no negative stock,
@@ -28,6 +29,24 @@ Performance (desktop, 10-year world with 8 rivals): ~250 ms per simulated week; 
 ### Balance snapshot (seed 11, naive auto-player)
 Year 1 revenue ≈ $0.5 M, year 3 ≈ $19 M, year 10 ≈ $33 M (auto-player caps itself at 12 products and 2 staff).
 Rivals at year 10: $81 M – $750 M revenue. A good human player should be able to reach mid-table.
+
+## Laboratory interaction (v1.2)
+
+- **The bottle holds at most 100%.** The concentrate can never exceed 100%: sliders, +/−, typed values,
+  picker additions, accord insertion and drops are all capped by the free room (`_free()/_cap()` in
+  `formula_editor.gd`). Saving still requires exactly 100%. The bench bottle fills as you compose, with a
+  dashed "100%" mark; a full bottle shakes and refuses further essences.
+- **Drag & drop composition.** `EssenceShelf` (under the bench) lists every available material as an
+  essence vial (filters: top/heart/base/naturals/solvents). Drag one into the bottle to add a dose
+  (5% aromatics, 1% very strong materials, 3% solvents, 0.2% antioxidants — or what still fits); the drop is
+  poured into the neck and the juice is stirred. Sideways swipes scroll the shelf; a tap shows the
+  material. `DragScroll.locked` stops page scrolling while an essence is being dragged.
+- **Scent bar** (`screens/scent_bar.gd`): spray a draft, your formulas or rivals' bestsellers on a paper
+  blotter (`BlotterView`) and scrub/play 0–36 h (`ScentTimeline`): perceived strength, phase (opening /
+  heart / dry-down / fading), the materials you notice, a description and the odour wheel at that moment.
+  It uses `FormulaEngine.blotter_mats/blotter_at` — the same evaporation model as `evaluate()`, slowed by
+  `PAPER` = 1.7 for paper. Skin longevity/projection numbers stay exclusive to the paid lab tests.
+  Entry points: lab hub card, formula editor ("Try on a blotter"), product page ("Smell it on a blotter").
 
 ## Visual identity (v1.1)
 

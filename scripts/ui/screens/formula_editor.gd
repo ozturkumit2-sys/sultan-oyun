@@ -26,6 +26,8 @@ var rows_box: VBoxContainer
 var _timer: Timer
 var _value_lbls: Array = []
 var stage: LabStage
+var shelf: EssenceShelf
+var _full_t := 0
 var look: Dictionary = {}
 var _last_ids: Array = []
 
@@ -57,6 +59,8 @@ func setup(p: Dictionary) -> void:
 		var lk: Dictionary = G.formula(fid).get("look", {})
 		for k in lk:
 			look[k] = lk[k]
+	if _total() > 100.05:
+		items = FormulaEngine.normalize_items(items)
 	for it in items:
 		_last_ids.append(it[0])
 	_timer = Timer.new()
@@ -77,6 +81,10 @@ func build() -> void:
 	stage.brand_name = str(bs[0]["name"]) if not bs.is_empty() else ""
 	stage.product_name = fname if fname != "New Formula" else ""
 	body.add_child(stage)
+	shelf = EssenceShelf.new()
+	shelf.stage = stage
+	shelf.on_drop = _drop_add
+	body.add_child(shelf)
 	if not is_accord:
 		_look_controls()
 	# header
@@ -156,6 +164,7 @@ func build() -> void:
 	sv.add_child(UI.btn("Save as new formula", _save_new, "secondary", 21, 76))
 	if not is_accord:
 		sv.add_child(UI.btn("Save as accord", _save_accord, "secondary", 21, 76))
+		sv.add_child(UI.btn("Try on a blotter", func(): Router.go("scent_bar", {"items": FormulaEngine.normalize_items(_clean_items()) if not _clean_items().is_empty() else [], "fmt": fmt, "conc": conc, "name": fname, "look": look.duplicate()}), "secondary", 21, 76))
 		sv.add_child(UI.btn("Lab test", func(): _after_save(func(f2, v2): Router.go("tests", {"fid": f2, "v": v2, "fmt": fmt, "conc": conc})), "secondary", 21, 76))
 		sv.add_child(UI.btn("Consumer survey", func(): _after_save(func(f2, v2): Router.go("research", {"fid": f2, "v": v2, "fmt": fmt, "conc": conc})), "secondary", 21, 76))
 		sv.add_child(UI.btn("Launch product", func(): _after_save(func(f2, v2): Router.go("launch", {"fid": f2, "v": v2, "fmt": fmt, "conc": conc})), "primary", 21, 76))
@@ -295,11 +304,18 @@ func _row(i: int) -> void:
 	var vl := UI.lbl("%.2f%%" % float(it[1]), 21, UI.BURGUNDY, "semi", HORIZONTAL_ALIGNMENT_RIGHT)
 	vl.custom_minimum_size.x = 92
 	var fin := UI.lbl("", 16, UI.MUTED, "body", HORIZONTAL_ALIGNMENT_RIGHT)
+	var ref := {}
 	var sl := UI.slider(0.0, maxv, 0.05 if maxv <= 10.0 else 0.1, float(it[1]), func(val):
+		var cap := _cap(idx)
+		if val > cap + 0.0001:
+			val = cap
+			(ref["sl"] as HSlider).set_value_no_signal(cap)
+			_bottle_full()
 		items[idx][1] = snappedf(val, 0.01)
 		vl.text = "%.2f%%" % val
 		_fin_text(fin, idx)
 		_queue())
+	ref["sl"] = sl
 	var minus := UI.btn("−", func(): sl.value = maxf(0.0, sl.value - (0.1 if maxv <= 10.0 else 0.5)), "secondary", 24, 52)
 	minus.custom_minimum_size.x = 50
 	minus.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
@@ -312,7 +328,8 @@ func _row(i: int) -> void:
 	var tap := TapPanel.new()
 	tap.add_theme_stylebox_override("panel", StyleBoxEmpty.new())
 	tap.add_child(vl)
-	tap.tapped = func(): Router.number(FormulaEngine.short_name(rec), float(items[idx][1]), 0.0, 100.0, 0.01, func(nv):
+	tap.tapped = func(): Router.number(FormulaEngine.short_name(rec), float(items[idx][1]), 0.0, _cap(idx), 0.01, func(nv):
+		nv = minf(nv, _cap(idx))
 		items[idx][1] = snappedf(nv, 0.01)
 		sl.set_value_no_signal(minf(nv, maxv))
 		vl.text = "%.2f%%" % nv
@@ -323,6 +340,55 @@ func _row(i: int) -> void:
 	_fin_text(fin, idx)
 	v.add_child(fin)
 	rows_box.add_child(p)
+
+
+## Free room left in the concentrate (the bottle can never hold more than 100%).
+func _free() -> float:
+	return maxf(0.0, 100.0 - _total())
+
+
+## Highest value material idx may take without the total exceeding 100%.
+func _cap(idx: int) -> float:
+	if idx >= items.size():
+		return 0.0
+	return floorf((float(items[idx][1]) + _free()) * 100.0 + 0.0001) / 100.0
+
+
+func _bottle_full() -> void:
+	if stage != null and is_instance_valid(stage):
+		stage.bottle.shake()
+	if Time.get_ticks_msec() - _full_t > 2500:
+		_full_t = Time.get_ticks_msec()
+		Router.toast("The bottle is full (100%). Lower another material first.", "bad")
+
+
+## Standard dose for one drop of a material into the bottle.
+func _dose(id: String) -> float:
+	var rec := DB.ing(id)
+	if id == "bht" or id == "uv_absorber":
+		return 0.2
+	if float(rec.get("str", 0)) >= 2.4:
+		return 1.0
+	if rec.get("role", "") != "aromatic":
+		return 3.0
+	return 5.0
+
+
+## Drag & drop from the essence shelf: one dose (or what still fits). Returns the amount added.
+func _drop_add(id: String) -> float:
+	var add := minf(_dose(id), floorf(_free() * 100.0 + 0.0001) / 100.0)
+	if add < 0.01:
+		return 0.0
+	var found := false
+	for it in items:
+		if it[0] == id:
+			it[1] = snappedf(float(it[1]) + add, 0.01)
+			found = true
+	if not found:
+		items.append([id, snappedf(add, 0.01)])
+	_build_rows()
+	_queue()
+	return add
 
 
 func _fin_text(l: Label, idx: int) -> void:
@@ -364,10 +430,13 @@ func _refresh_preview() -> void:
 	var tc := UI.card(totals_box, "flat", 6)
 	var th := UI.hbox(12)
 	var ok := absf(tot - 100.0) <= 0.05
-	th.add_child(UI.lbl("Total", 22, UI.MUTED))
-	var tl := UI.lbl("%.2f%%" % tot, 28, UI.GREEN if ok else UI.RED, "title")
-	tl.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	th.add_child(UI.lbl("Bottle", 22, UI.MUTED))
+	var tl := UI.lbl("%.2f%%" % tot, 28, UI.GREEN if ok else UI.BURGUNDY, "title")
 	th.add_child(tl)
+	var fl := UI.lbl("full" if ok else "%.2f%% free" % maxf(0.0, 100.0 - tot), 18, UI.GREEN if ok else UI.MUTED, "medium")
+	fl.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	th.add_child(fl)
+	tc.add_child(UI.bar(clampf(tot / 100.0, 0.0, 1.0), UI.GREEN if ok else UI.ROSE, 10))
 	if items.is_empty():
 		tc.add_child(th)
 		_stage_update({})
@@ -379,7 +448,7 @@ func _refresh_preview() -> void:
 		var jml := FormulaEngine.juice_cost_ml(items, fmt, conc)
 		tc.add_child(UI.lbl("Juice cost: %s per 50 ml · %s per 100 ml" % [G.money(jml * 50.0, 2), G.money(jml * 100.0, 2)], 19, UI.MUTED))
 	if not ok:
-		tc.add_child(UI.lbl("Adjust to exactly 100% (use 'Scale to 100%' or 'Fill with DPG').", 18, UI.RED))
+		tc.add_child(UI.lbl("Fill the bottle to exactly 100% to save (drag more essences, or use 'Scale to 100%' / 'Fill with DPG').", 17, UI.BURGUNDY, "body", HORIZONTAL_ALIGNMENT_LEFT, true))
 	if is_accord:
 		_stage_update(FormulaEngine.evaluate(FormulaEngine.normalize_items(items), "edp", 18.0))
 		return
@@ -487,6 +556,10 @@ func _pick_material() -> void:
 			amt = 0.2
 		if rec["role"] != "aromatic":
 			amt = 3.0
+		amt = minf(amt, floorf(_free() * 100.0 + 0.0001) / 100.0)
+		if amt < 0.01:
+			_bottle_full()
+			return
 		items.append([id, amt])
 		_build_rows()
 		_queue())
@@ -501,7 +574,10 @@ func _pick_accord() -> void:
 		Router.info("No accords yet", "Save a composition as an accord first (e.g. your signature rose or amber base), then insert it into any formula.")
 		return
 	Router.pick("Insert accord", opts, func(aid):
-		Router.number("Accord share of concentrate", 10.0, 1.0, 80.0, 0.5, func(share):
+		if _free() < 1.0:
+			_bottle_full()
+			return
+		Router.number("Accord share of concentrate", minf(10.0, _free()), 1.0, minf(80.0, floorf(_free())), 0.5, func(share):
 			var fv := G.formula_version(aid)
 			for it in fv["items"]:
 				var add = float(it[1]) * share / 100.0

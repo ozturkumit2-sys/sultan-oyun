@@ -127,6 +127,57 @@ func run(args: Array) -> void:
 			Router.current().map.set_zoom(3.0)
 			Router.current().map.focus("FR")
 			await snap("84_map_zoom")
+		"dnd":
+			var ed: Screen = Router.go("formula_editor", {})
+			await snap("90_editor_empty")
+			var shelf: EssenceShelf = ed.shelf
+			# drag the first three essences of the shelf into the bottle
+			for k in 3:
+				var it: Control = shelf._items[k]["node"]
+				var from := it.get_global_rect().get_center()
+				var to: Vector2 = ed.stage.bottle.get_global_rect().get_center()
+				await _drag(from, to)
+			await get_tree().create_timer(0.2).timeout
+			await snap("91_after_drops")
+			print("total after 3 drops: ", ed._total(), " items ", ed.items)
+			# fill up: keep dropping a strong dose until the bottle refuses
+			var refused := false
+			for k in 40:
+				var before: float = ed._total()
+				var it2: Control = shelf._items[k % 3]["node"]
+				await _drag(it2.get_global_rect().get_center(), ed.stage.bottle.get_global_rect().get_center())
+				if ed._total() <= before + 0.0001:
+					refused = true
+					break
+			print("filled: total ", ed._total(), " refused further drop: ", refused)
+			await get_tree().create_timer(0.7).timeout
+			await snap("92_full")
+			# slider cannot push the total past 100%
+			var sliders: Array = ed.rows_box.find_children("*", "HSlider", true, false)
+			(sliders[0] as HSlider).value = 0.0
+			(sliders[1] as HSlider).value = 0.0
+			print("after lowering two sliders: total ", ed._total())
+			(sliders[0] as HSlider).value = 60.0
+			print("after pushing slider 1 to 60: total ", ed._total())
+			(sliders[1] as HSlider).value = 60.0
+			print("after pushing slider 2 to 60: total ", ed._total(), " (must stay <= 100)")
+			Router.go("scent_bar", {"items": FormulaEngine.normalize_items([["bergamot",10],["iso_e_super",32],["cedarwood",14],["patchouli",6],["amber_accord",14],["hedione",10],["galaxolide",12],["dpg",2]]), "fmt": "edp", "conc": 18.0, "name": "Ember Dune"})
+			var sb: Screen = Router.current()
+			sb._spray()
+			sb.playing = false
+			sb.s = 0.08
+			sb._update_time()
+			await get_tree().create_timer(0.5).timeout
+			await snap("93_bar_open")
+			sb.s = 0.3
+			sb._update_time()
+			await snap("94_bar_heart")
+			sb.scroll.scroll_vertical = 700
+			sb.s = 0.55
+			sb._update_time()
+			await snap("95_bar_dry")
+			sb.scroll.scroll_vertical = 1500
+			await snap("96_bar_more")
 		"tour":
 			var av = load("res://_dev/t_validate.gd").new()
 			av._launch("Woody Amber", 600, "quickfill", 6000.0)
@@ -184,3 +235,31 @@ func run(args: Array) -> void:
 			for k in 4:
 				Router.current().scroll.scroll_vertical = 1000 * (k + 1)
 				await snap("30_home_%s" % ["b", "c", "d", "e"][k])
+
+
+func _drag(from: Vector2, to: Vector2) -> void:
+	var vp := get_viewport()
+	var e := InputEventMouseButton.new()
+	e.button_index = MOUSE_BUTTON_LEFT
+	e.pressed = true
+	e.position = from
+	e.global_position = from
+	vp.push_input(e)
+	await get_tree().process_frame
+	for i in 8:
+		var m := InputEventMouseMotion.new()
+		var p := from.lerp(to, float(i + 1) / 8.0)
+		m.position = p
+		m.global_position = p
+		m.button_mask = MOUSE_BUTTON_MASK_LEFT
+		m.relative = (to - from) / 8.0
+		vp.push_input(m)
+		await get_tree().process_frame
+	var u := InputEventMouseButton.new()
+	u.button_index = MOUSE_BUTTON_LEFT
+	u.pressed = false
+	u.position = to
+	u.global_position = to
+	vp.push_input(u)
+	await get_tree().process_frame
+	await get_tree().process_frame

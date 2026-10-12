@@ -528,3 +528,59 @@ static func normalize_items(items: Array, filler := "") -> Array:
 	if out.size() > 0:
 		out[0][1] = snappedf(float(out[0][1]) + 100.0 - t2, 0.01)
 	return out
+
+
+# ---------------------------------------------------------------- blotter (scent bar)
+const PAPER := 1.7   # a paper blotter holds a scent noticeably longer than skin does
+
+## Evaporation on a paper blotter, using the same material model as evaluate():
+## [[rec, x (fraction of the finished product), tau (hours)]] for every odorous material.
+static func blotter_mats(items: Array, fmt_id: String, conc: float) -> Array:
+	var P: Dictionary = DB.bal["perf"]
+	var fmt: Dictionary = DB.formats.get(fmt_id, DB.formats["edp"])
+	var c := clampf(conc, 0.5, 40.0) / 100.0
+	var oil: bool = fmt["base"] == "oil"
+	var tot := 0.0
+	for it in items:
+		tot += maxf(0.0, float(it[1]))
+	if tot <= 0.0:
+		return []
+	var F := 0.0
+	var arom: Array = []
+	for it in items:
+		var rec := DB.ing(str(it[0]))
+		if rec.is_empty() or float(it[1]) <= 0.0:
+			continue
+		var p := float(it[1]) / tot
+		F += float(rec["fix"]) * p
+		if rec["role"] == "aromatic" or float(rec.get("str", 0.0)) > 0.0:
+			arom.append([rec, p])
+	var out: Array = []
+	for a in arom:
+		var rec2: Dictionary = a[0]
+		var ten := maxf(0.2, float(rec2["ten"]))
+		var nv := clampf(log(1.0 + ten) / log(31.0), 0.0, 1.0)
+		var tau := float(P["skin_a"]) * pow(ten, float(P["skin_b"])) * (1.0 + minf(float(P["fix_cap"]), float(P["fix_k"]) * F * (1.0 - nv))) * PAPER
+		if oil:
+			tau *= float(P["oil_tau"])
+		out.append([rec2, float(a[1]) * c, tau])
+	return out
+
+
+## What a blotter smells like t hours after dipping: total odour units, materials by strength, profile.
+static func blotter_at(mats: Array, t: float) -> Dictionary:
+	var nd := DB.dims.size()
+	var v := PackedFloat32Array()
+	v.resize(nd)
+	var per: Array = []
+	var tot := 0.0
+	for m in mats:
+		var rec: Dictionary = m[0]
+		var ou := float(rec["str"]) * 100.0 * float(m[1]) * exp(-t / float(m[2]))
+		tot += ou
+		per.append([rec["id"], ou])
+		var vec: PackedFloat32Array = rec["vec"]
+		for i in nd:
+			v[i] += ou * vec[i]
+	per.sort_custom(func(a, b): return float(a[1]) > float(b[1]))
+	return {"total": tot, "per": per, "profile": G.vnorm(v), "detect": float(DB.bal["perf"]["detect"])}

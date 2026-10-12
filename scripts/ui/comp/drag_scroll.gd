@@ -14,6 +14,7 @@ const FRICTION := 4.0   # saniyede hız sönümü
 const MAX_VEL := 3500.0
 
 static var _owner: DragScroll = null   # aynı anda tek bir liste kaydırır
+static var locked := false             # bir öğe sürüklenirken (ör. esans şişeye) hiçbir liste kaydırmaz
 
 var horizontal := false
 var _down := false
@@ -121,6 +122,8 @@ func _input(event: InputEvent) -> void:
 			var d := mm.position - _start
 			var along := absf(_axis(d))
 			var across := absf(d.y if horizontal else d.x)
+			if locked:
+				return
 			if along >= THRESHOLD and along > across and (_owner == null or _owner == self) and _max_scroll() > 0.0:
 				_dragging = true
 				_owner = self

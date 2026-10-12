@@ -30,7 +30,7 @@ func build() -> void:
 	body.add_child(UI.btn("Settings", func(): Router.go("settings"), "ghost", 24, 70))
 	body.add_child(UI.spacer(30))
 	body.add_child(UI.lbl("All companies, brands, people and regulations in this game are fictional.", 17, UI.DIM, "body", HORIZONTAL_ALIGNMENT_CENTER, true))
-	body.add_child(UI.lbl("v1.1.0", 16, UI.DIM, "body", HORIZONTAL_ALIGNMENT_CENTER))
+	body.add_child(UI.lbl("v1.2.0", 16, UI.DIM, "body", HORIZONTAL_ALIGNMENT_CENTER))
 
 
 func _load(slot: String) -> void:

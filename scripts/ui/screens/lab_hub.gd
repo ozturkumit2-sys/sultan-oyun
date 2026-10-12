@@ -22,6 +22,23 @@ func build() -> void:
 	ks.add_child(UI.kpi("star", "Projects", "%d / %d" % [Lab.active_projects(G.pid()), Lab.project_slots(G.pid())], UI.GOLD, func(): Router.go("briefs")))
 	body.add_child(ks)
 	body.add_child(UI.btn("+ Compose a new formula", func(): Router.go("formula_editor", {}), "primary", 24, 84))
+	var sb := GradPanel.new().colors(Color("#fbf1f6"), Color("#efe0ee")).set_pad(12)
+	sb.border = Color(UI.PLUM, 0.25)
+	sb.tapped = func(): Router.go("scent_bar", {})
+	body.add_child(sb)
+	var sbh := UI.hbox(14)
+	sb.add_child(sbh)
+	var sth := Art.banner("lab", 150, "", 16)
+	sth.focus = Vector2(0.45, 0.78)
+	sth.custom_minimum_size = Vector2(230, 150)
+	sth.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+	sbh.add_child(sth)
+	var sbv := UI.vbox(4)
+	sbv.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	sbv.add_child(UI.lbl("SCENT BAR", 15, UI.PLUM, "semi"))
+	sbv.add_child(UI.title("Try it on a blotter", 26, UI.CREAM))
+	sbv.add_child(UI.para("Spray your formulas — or a rival's bestseller — and follow them from the first minute to the dry-down.", 16))
+	sbh.add_child(sbv)
 	if not forms.is_empty():
 		UI.section(body, "On your shelf", UI.btn("All", func(): Router.go("formulas"), "ghost", 19, 44))
 		var sc := DragScroll.new()

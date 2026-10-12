@@ -52,6 +52,8 @@ func build() -> void:
 	hero.add_child(hh)
 	if not mine:
 		hero.add_child(UI.lbl("Owned by " + G.company(p["company"])["name"], 19, UI.MUTED))
+	var pid0: String = p["id"]
+	hero.add_child(UI.btn("Smell it on a blotter", func(): Router.go("scent_bar", {"product": pid0}), "secondary", 20, 62))
 	body.add_child(UI.seg([["Overview", "overview"], ["Sales", "sales"], ["Reviews", "reviews"], ["History", "history"]], tab, func(v):
 		tab = v
 		rebuild()))

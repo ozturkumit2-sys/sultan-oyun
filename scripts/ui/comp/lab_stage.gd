@@ -13,6 +13,9 @@ var info_lbl: Label
 var _bench: SceneView
 var _medals: Array = []      # [{id, node, base: Vector2, phase}]
 var _t := 0.0
+var skip_pour_once := false   # the last addition was dropped by hand and already animated
+var _glow: Glow
+const FULL := 0.86            # bottle fill level that represents 100% of the concentrate
 
 
 func _init() -> void:
@@ -37,6 +40,7 @@ func _ready() -> void:
 	gl.offset_top = 40
 	gl.offset_bottom = 440
 	add_child(gl)
+	_glow = gl
 	bottle = BottleView.new()
 	bottle.vivid = true
 	bottle.idle_bubbles = true
@@ -47,6 +51,8 @@ func _ready() -> void:
 	bottle.offset_top = 70
 	bottle.offset_bottom = 470
 	bottle.setup(look, brand_name, product_name)
+	bottle.fill = 0.0
+	bottle.full_mark = FULL
 	add_child(bottle)
 	# caption panel
 	var cap := PanelContainer.new()
@@ -98,12 +104,47 @@ func update_formula(items: Array, ev: Dictionary, prev_ids: Array) -> void:
 	bottle.brand_name = brand_name
 	bottle.queue_redraw()
 	family_lbl.text = str(ev.get("family", "Empty flask")) if not items.is_empty() else "Empty flask"
-	var aromatic := 0
+	var total := 0.0
 	for it in items:
-		if DB.ing(it[0]).get("role", "") == "aromatic":
-			aromatic += 1
-	info_lbl.text = ("%d materials · %d aromatic" % [items.size(), aromatic]) if not items.is_empty() else "Add materials to begin"
+		total += float(it[1])
+	if items.is_empty():
+		info_lbl.text = "Drag essences into the bottle"
+		info_lbl.add_theme_color_override("font_color", UI.MUTED)
+	elif total >= 99.95:
+		info_lbl.text = "Full · 100%% · %d materials" % items.size()
+		info_lbl.add_theme_color_override("font_color", UI.GREEN)
+	else:
+		info_lbl.text = "Filled %.1f%% · %.1f%% free" % [total, 100.0 - total]
+		info_lbl.add_theme_color_override("font_color", UI.BURGUNDY)
+	var tw := create_tween()
+	tw.tween_property(bottle, "fill", FULL * clampf(total / 100.0, 0.0, 1.0), 0.55).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_OUT)
+	if skip_pour_once:
+		skip_pour_once = false
+		prev_ids = []
 	_rebuild_medals(items, prev_ids)
+
+
+## Global rectangle that accepts dropped essences (a little larger than the bottle).
+func drop_rect() -> Rect2:
+	if bottle == null:
+		return Rect2()
+	return bottle.get_global_rect().grow(36)
+
+
+func hover(on: bool) -> void:
+	if _glow != null:
+		_glow.strength = 3.2 if on else 1.8
+		_glow.color = Color("#ffe9f0") if on else Color("#fffaf0")
+		_glow.queue_redraw()
+
+
+## A dropped essence falls from the finger into the neck of the bottle.
+func pour_from(id: String, global_pos: Vector2) -> void:
+	skip_pour_once = true
+	_pour(id, global_pos - global_position, 0.0)
+	get_tree().create_timer(0.6).timeout.connect(func():
+		if is_instance_valid(bottle):
+			bottle.stir(1.0))
 
 
 func _rebuild_medals(items: Array, prev_ids: Array) -> void:

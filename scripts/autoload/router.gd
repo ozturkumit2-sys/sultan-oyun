@@ -279,9 +279,9 @@ func toast(text: String, kind := "info") -> void:
 		"good":
 			col = UI.GREEN
 			Snd.play("success", -8.0)
-	p.add_theme_stylebox_override("panel", UI.sb(Color(0.08, 0.07, 0.09, 0.96), 16, col, 2, 18))
+	p.add_theme_stylebox_override("panel", UI.shadowed(UI.sb(Color(1, 0.99, 0.975, 0.98), 18, col, 2, 18), 12, 2.0))
 	var vs := main.get_viewport_rect().size
-	var l := UI.lbl(text, 22, UI.TEXT, "medium", HORIZONTAL_ALIGNMENT_LEFT, true)
+	var l := UI.lbl(text, 22, col.darkened(0.25) if kind != "info" else UI.TEXT, "semi", HORIZONTAL_ALIGNMENT_LEFT, true)
 	l.custom_minimum_size = Vector2(vs.x - 100, 0)
 	p.add_child(l)
 	p.mouse_filter = Control.MOUSE_FILTER_IGNORE
