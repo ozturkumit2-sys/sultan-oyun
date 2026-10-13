@@ -1,0 +1,1345 @@
+[
+ {
+  "id": "stolen_idea",
+  "tier": "big",
+  "first": "pitch",
+  "stages": {
+   "pitch": {
+    "event": "si_pitch",
+    "mode": "visit",
+    "actor": "thief",
+    "wait": [
+     5,
+     20
+    ],
+    "ttl": 70,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss",
+    "window": [
+     "10:00",
+     "15:30"
+    ]
+   },
+   "praise": {
+    "event": "si_praise",
+    "mode": "visit",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "suspicion",
+    "prio": 62,
+    "default_end": "done",
+    "target": "thief"
+   },
+   "suspicion": {
+    "event": "si_suspicion",
+    "mode": "now",
+    "actor": "victim",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 150,
+    "fail": "end:faded",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "ask_confidant": {
+    "event": "si_ask",
+    "mode": "meet",
+    "actor": "victim",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:buried",
+    "prio": 62,
+    "default_end": "done",
+    "target": "confidant",
+    "area": "kitchen"
+   },
+   "evidence": {
+    "event": "si_evidence",
+    "mode": "visit",
+    "actor": "victim",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 70,
+    "fail": "end:hidden",
+    "prio": 62,
+    "default_end": "done",
+    "target": "@burak"
+   },
+   "showdown": {
+    "event": "si_showdown",
+    "mode": "meet",
+    "actor": "victim",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss",
+    "area": "boss"
+   }
+  },
+  "cooldown_days": 4,
+  "max_active": 1,
+  "cast": []
+ },
+ {
+  "id": "office_romance",
+  "tier": "big",
+  "first": "spark",
+  "stages": {
+   "spark": {
+    "event": "rom_spark",
+    "mode": "visit",
+    "actor": "lover",
+    "wait": [
+     5,
+     20
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "target": "crush"
+   },
+   "date": {
+    "event": "rom_date",
+    "mode": "meet",
+    "actor": "lover",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "target": "crush",
+    "area": "kitchen"
+   },
+   "second_date": {
+    "event": "rom_caught",
+    "mode": "meet",
+    "actor": "lover",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 70,
+    "fail": "decision",
+    "prio": 62,
+    "default_end": "done",
+    "target": "crush",
+    "window": [
+     "10:00",
+     "16:30"
+    ],
+    "area": "kitchen"
+   },
+   "rumor": {
+    "event": "rom_gossip_start",
+    "mode": "now",
+    "actor": "spotter",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "decision",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "decision": {
+    "event": "rom_decision",
+    "mode": "meet",
+    "actor": "lover",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "target": "crush",
+    "area": "lounge"
+   }
+  },
+  "cooldown_days": 5,
+  "max_active": 1,
+  "cast": []
+ },
+ {
+  "id": "headhunted",
+  "tier": "big",
+  "first": "call",
+  "stages": {
+   "call": {
+    "event": "hh_call",
+    "mode": "place",
+    "actor": "seeker",
+    "wait": [
+     5,
+     25
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "place": "phone4"
+   },
+   "excuse": {
+    "event": "hh_excuse",
+    "mode": "visit",
+    "actor": "seeker",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 70,
+    "fail": "away",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss",
+    "window": [
+     "09:40",
+     "14:30"
+    ]
+   },
+   "away": {
+    "event": "hh_leave",
+    "mode": "now",
+    "actor": "seeker",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "09:40",
+     "15:00"
+    ]
+   },
+   "questions": {
+    "event": "hh_suspicion",
+    "mode": "visit",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 150,
+    "fail": "offer",
+    "prio": 62,
+    "default_end": "done",
+    "target": "seeker"
+   },
+   "offer": {
+    "event": "hh_offer",
+    "mode": "meet",
+    "actor": "seeker",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss",
+    "window": [
+     "09:40",
+     "15:30"
+    ],
+    "area": "boss"
+   }
+  },
+  "cooldown_days": 6,
+  "max_active": 1,
+  "cast": []
+ },
+ {
+  "id": "resignation",
+  "tier": "big",
+  "first": "vent",
+  "stages": {
+   "vent": {
+    "event": "rs_vent",
+    "mode": "meet",
+    "actor": "quitter",
+    "wait": [
+     5,
+     20
+    ],
+    "ttl": 60,
+    "fail": "letter",
+    "prio": 62,
+    "default_end": "done",
+    "target": "friend",
+    "area": "kitchen"
+   },
+   "letter": {
+    "event": "rs_print",
+    "mode": "place",
+    "actor": "quitter",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "talk_out",
+    "prio": 62,
+    "default_end": "done",
+    "place": "printer"
+   },
+   "talk_out": {
+    "event": "rs_talk_out",
+    "mode": "visit",
+    "actor": "friend",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "boss_talk",
+    "prio": 62,
+    "default_end": "done",
+    "target": "quitter"
+   },
+   "boss_talk": {
+    "event": "rs_boss",
+    "mode": "meet",
+    "actor": "quitter",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss",
+    "area": "boss"
+   },
+   "aftermath": {
+    "event": "rs_after",
+    "mode": "now",
+    "actor": "quitter",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 200,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   }
+  },
+  "cooldown_days": 5,
+  "max_active": 1,
+  "cast": []
+ },
+ {
+  "id": "missing_contract",
+  "tier": "big",
+  "first": "panic",
+  "stages": {
+   "panic": {
+    "event": "mc_panic",
+    "mode": "now",
+    "actor": "owner",
+    "wait": [
+     2,
+     8
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "search": {
+    "event": "mc_search",
+    "mode": "place",
+    "actor": "owner",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 50,
+    "fail": "culprit_conscience",
+    "prio": 62,
+    "default_end": "done",
+    "place": "archive"
+   },
+   "accuse": {
+    "event": "mc_accuse",
+    "mode": "visit",
+    "actor": "owner",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "culprit_conscience",
+    "prio": 62,
+    "default_end": "done",
+    "target": "$suspect"
+   },
+   "culprit_conscience": {
+    "event": "mc_conscience",
+    "mode": "now",
+    "actor": "culprit",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:lost_forever",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "confession": {
+    "event": "mc_confess",
+    "mode": "visit",
+    "actor": "culprit",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "found_mystery",
+    "prio": 62,
+    "default_end": "done",
+    "target": "owner"
+   },
+   "found_mystery": {
+    "event": "mc_found",
+    "mode": "now",
+    "actor": "owner",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 150,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "found": {
+    "event": "mc_found_quick",
+    "mode": "now",
+    "actor": "owner",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   }
+  },
+  "cooldown_days": 4,
+  "max_active": 1,
+  "cast": []
+ },
+ {
+  "id": "deleted_folder",
+  "tier": "big",
+  "first": "oops",
+  "stages": {
+   "oops": {
+    "event": "df_oops",
+    "mode": "now",
+    "actor": "culprit",
+    "wait": [
+     1,
+     5
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "ask_it": {
+    "event": "df_ask",
+    "mode": "visit",
+    "actor": "culprit",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 45,
+    "fail": "alarm",
+    "prio": 62,
+    "default_end": "done",
+    "target": "it"
+   },
+   "alarm": {
+    "event": "df_alarm",
+    "mode": "now",
+    "actor": "culprit",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:quietly_lost",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "hunt": {
+    "event": "df_hunt",
+    "mode": "place",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "restore",
+    "prio": 62,
+    "default_end": "done",
+    "place": "announce"
+   },
+   "restore": {
+    "event": "df_restore",
+    "mode": "visit",
+    "actor": "it",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:restored_late",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   }
+  },
+  "cooldown_days": 6,
+  "max_active": 1,
+  "cast": []
+ },
+ {
+  "id": "layoff_panic",
+  "tier": "big",
+  "first": "overhear",
+  "stages": {
+   "overhear": {
+    "event": "lp_overhear",
+    "mode": "desk",
+    "actor": "ear",
+    "wait": [
+     3,
+     10
+    ],
+    "ttl": 40,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss",
+    "window": [
+     "09:50",
+     "15:00"
+    ]
+   },
+   "spread": {
+    "event": "lp_spread",
+    "mode": "meet",
+    "actor": "ear",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 50,
+    "fail": "panic",
+    "prio": 62,
+    "default_end": "done",
+    "target": "listener",
+    "area": "kitchen"
+   },
+   "panic": {
+    "event": "lp_panic",
+    "mode": "now",
+    "actor": "ear",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "announce",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "confront_boss": {
+    "event": "lp_confront",
+    "mode": "visit",
+    "actor": "brave",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "announce",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   },
+   "announce": {
+    "event": "lp_announce",
+    "mode": "place",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:faded",
+    "prio": 62,
+    "default_end": "done",
+    "place": "announce"
+   }
+  },
+  "cooldown_days": 7,
+  "max_active": 1,
+  "cast": []
+ },
+ {
+  "id": "secret_alliance",
+  "tier": "big",
+  "first": "proposal",
+  "stages": {
+   "proposal": {
+    "event": "sa_proposal",
+    "mode": "meet",
+    "actor": "schemer",
+    "wait": [
+     5,
+     25
+    ],
+    "ttl": 60,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "target": "partner",
+    "area": "archive"
+   },
+   "warning": {
+    "event": "sa_warning",
+    "mode": "visit",
+    "actor": "partner",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:kept_quiet",
+    "prio": 62,
+    "default_end": "done",
+    "target": "mark"
+   },
+   "trade": {
+    "event": "sa_trade",
+    "mode": "meet",
+    "actor": "schemer",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "target": "partner",
+    "area": "archive"
+   },
+   "strike": {
+    "event": "sa_strike",
+    "mode": "visit",
+    "actor": "schemer",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   },
+   "tip": {
+    "event": "sa_tip",
+    "mode": "visit",
+    "actor": "informant",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "end:success",
+    "prio": 62,
+    "default_end": "done",
+    "target": "mark"
+   },
+   "showdown": {
+    "event": "sa_showdown",
+    "mode": "visit",
+    "actor": "mark",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "end:simmering",
+    "prio": 62,
+    "default_end": "done",
+    "target": "partner"
+   }
+  },
+  "cooldown_days": 6,
+  "max_active": 1,
+  "cast": []
+ },
+ {
+  "id": "birthday",
+  "tier": "big",
+  "first": "plan",
+  "stages": {
+   "plan": {
+    "event": "bd_plan",
+    "mode": "now",
+    "actor": "organizer",
+    "wait": [
+     1,
+     5
+    ],
+    "ttl": 90,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "collect": {
+    "event": "bd_collect",
+    "mode": "visit",
+    "actor": "organizer",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 50,
+    "fail": "hide_cake",
+    "prio": 62,
+    "default_end": "done",
+    "target": "helper"
+   },
+   "hide_cake": {
+    "event": "bd_hide",
+    "mode": "place",
+    "actor": "organizer",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "surprise",
+    "prio": 62,
+    "default_end": "done",
+    "place": "fridge"
+   },
+   "surprise": {
+    "event": "bd_surprise",
+    "mode": "gather",
+    "actor": "organizer",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:no_party",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "13:20",
+     "16:50"
+    ],
+    "area": "kitchen",
+    "need": 4,
+    "must": [
+     "bday"
+    ]
+   }
+  },
+  "cooldown_days": 1,
+  "max_active": 1,
+  "cast": []
+ },
+ {
+  "id": "blame_game",
+  "tier": "big",
+  "first": "complaint",
+  "stages": {
+   "complaint": {
+    "event": "bg_complaint",
+    "mode": "now",
+    "actor": "boss",
+    "wait": [
+     2,
+     8
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "hunt": {
+    "event": "bg_hunt",
+    "mode": "place",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 50,
+    "fail": "culprit_move",
+    "prio": 62,
+    "default_end": "done",
+    "place": "announce"
+   },
+   "culprit_move": {
+    "event": "bg_move",
+    "mode": "now",
+    "actor": "culprit",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:blew_over",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "confession": {
+    "event": "bg_confess",
+    "mode": "visit",
+    "actor": "culprit",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:blew_over",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   },
+   "accusation": {
+    "event": "bg_accuse",
+    "mode": "visit",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 70,
+    "fail": "end:blew_over",
+    "prio": 62,
+    "default_end": "done",
+    "target": "$scapegoat"
+   },
+   "truth": {
+    "event": "bg_truth",
+    "mode": "visit",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:half_truth",
+    "prio": 62,
+    "default_end": "done",
+    "target": "culprit"
+   }
+  },
+  "cooldown_days": 5,
+  "max_active": 1,
+  "cast": []
+ },
+ {
+  "id": "mentor_protect",
+  "tier": "big",
+  "first": "mistake",
+  "stages": {
+   "mistake": {
+    "event": "mp_mistake",
+    "mode": "now",
+    "actor": "protege",
+    "wait": [
+     3,
+     12
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "cover": {
+    "event": "mp_cover",
+    "mode": "visit",
+    "actor": "mentor",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 70,
+    "fail": "end:never_covered",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   },
+   "exploit": {
+    "event": "mp_exploit",
+    "mode": "visit",
+    "actor": "rival",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "thanks",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   },
+   "protege_speaks": {
+    "event": "mp_confess",
+    "mode": "visit",
+    "actor": "protege",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 70,
+    "fail": "thanks",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   },
+   "thanks": {
+    "event": "mp_thanks",
+    "mode": "meet",
+    "actor": "protege",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "end:unspoken",
+    "prio": 62,
+    "default_end": "done",
+    "target": "mentor",
+    "area": "kitchen"
+   }
+  },
+  "cooldown_days": 5,
+  "max_active": 1,
+  "cast": []
+ },
+ {
+  "id": "promotion_push",
+  "tier": "big",
+  "first": "request",
+  "stages": {
+   "request": {
+    "event": "pp_request",
+    "mode": "meet",
+    "actor": "climber",
+    "wait": [
+     5,
+     20
+    ],
+    "ttl": 70,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss",
+    "area": "boss"
+   },
+   "grind": {
+    "event": "pp_grind",
+    "mode": "now",
+    "actor": "climber",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "present",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "sabotage": {
+    "event": "pp_sabotage",
+    "mode": "desk",
+    "actor": "rival",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "present",
+    "prio": 62,
+    "default_end": "done",
+    "target": "climber"
+   },
+   "present": {
+    "event": "pp_present",
+    "mode": "meet",
+    "actor": "climber",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 100,
+    "fail": "verdict",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss",
+    "area": "meeting"
+   },
+   "verdict": {
+    "event": "pp_verdict",
+    "mode": "meet",
+    "actor": "climber",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss",
+    "area": "boss"
+   }
+  },
+  "cooldown_days": 5,
+  "max_active": 1,
+  "cast": []
+ },
+ {
+  "id": "revenge_plot",
+  "tier": "big",
+  "first": "brood",
+  "stages": {
+   "brood": {
+    "event": "rv_brood",
+    "mode": "meet",
+    "actor": "avenger",
+    "wait": [
+     5,
+     20
+    ],
+    "ttl": 60,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "target": "accomplice",
+    "area": "kitchen"
+   },
+   "prank": {
+    "event": "rv_prank",
+    "mode": "desk",
+    "actor": "avenger",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "target": "victim"
+   },
+   "discovery": {
+    "event": "rv_discover",
+    "mode": "now",
+    "actor": "victim",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 200,
+    "fail": "end:unnoticed",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "confront": {
+    "event": "rv_confront",
+    "mode": "visit",
+    "actor": "victim",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:simmering",
+    "prio": 62,
+    "default_end": "done",
+    "target": "avenger"
+   }
+  },
+  "cooldown_days": 4,
+  "max_active": 1,
+  "cast": []
+ },
+ {
+  "id": "feud_mediation",
+  "tier": "big",
+  "first": "cold_day",
+  "stages": {
+   "cold_day": {
+    "event": "fm_cold",
+    "mode": "now",
+    "actor": "a",
+    "wait": [
+     600,
+     700
+    ],
+    "ttl": 300,
+    "fail": "end:faded",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "09:40",
+     "16:30"
+    ]
+   },
+   "talk_a": {
+    "event": "fm_talk_a",
+    "mode": "visit",
+    "actor": "mediator",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "end:nobody_helped",
+    "prio": 62,
+    "default_end": "done",
+    "target": "a"
+   },
+   "talk_b": {
+    "event": "fm_talk_b",
+    "mode": "visit",
+    "actor": "mediator",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "end:half_way",
+    "prio": 62,
+    "default_end": "done",
+    "target": "b"
+   },
+   "summit": {
+    "event": "fm_summit",
+    "mode": "meet",
+    "actor": "a",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "target": "b",
+    "area": "kitchen"
+   }
+  },
+  "cooldown_days": 2,
+  "max_active": 2,
+  "cast": []
+ },
+ {
+  "id": "boss_clash",
+  "tier": "big",
+  "first": "micromanage",
+  "stages": {
+   "micromanage": {
+    "event": "bc_hover",
+    "mode": "desk",
+    "actor": "boss",
+    "wait": [
+     5,
+     20
+    ],
+    "ttl": 60,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "target": "rebel"
+   },
+   "vent": {
+    "event": "bc_vent",
+    "mode": "meet",
+    "actor": "rebel",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "clash",
+    "prio": 62,
+    "default_end": "done",
+    "target": "ally",
+    "area": "kitchen"
+   },
+   "clash": {
+    "event": "bc_clash",
+    "mode": "visit",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "aftermath",
+    "prio": 62,
+    "default_end": "done",
+    "target": "rebel"
+   },
+   "sides": {
+    "event": "bc_sides",
+    "mode": "now",
+    "actor": "ally",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 20,
+    "fail": "aftermath",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "aftermath": {
+    "event": "bc_aftermath",
+    "mode": "meet",
+    "actor": "rebel",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "retry",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss",
+    "area": "boss"
+   }
+  },
+  "cooldown_days": 5,
+  "max_active": 1,
+  "cast": []
+ },
+ {
+  "id": "niece_secret",
+  "tier": "big",
+  "first": "slip",
+  "stages": {
+   "slip": {
+    "event": "ns_slip",
+    "mode": "visit",
+    "actor": "niece",
+    "wait": [
+     5,
+     20
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   },
+   "probe": {
+    "event": "ns_probe",
+    "mode": "meet",
+    "actor": "witness",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "verify",
+    "prio": 62,
+    "default_end": "done",
+    "target": "niece",
+    "area": "kitchen"
+   },
+   "verify": {
+    "event": "ns_verify",
+    "mode": "visit",
+    "actor": "witness",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:stalled",
+    "prio": 62,
+    "default_end": "done",
+    "target": "@ceren"
+   },
+   "spread": {
+    "event": "ns_spread",
+    "mode": "now",
+    "actor": "witness",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:kept",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "reckoning": {
+    "event": "ns_reckoning",
+    "mode": "now",
+    "actor": "niece",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 240,
+    "fail": "end:blew_over",
+    "prio": 62,
+    "default_end": "done"
+   }
+  },
+  "cooldown_days": 10,
+  "max_active": 1,
+  "cast": []
+ }
+]

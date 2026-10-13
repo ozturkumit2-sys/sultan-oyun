@@ -36,7 +36,252 @@ static func pick(w, fn: String, spec: Dictionary, ctx: Dictionary):
 			return w.office.item_owned_by(ev.who("actor", ctx))
 		"crush_target":
 			return "ceren"
+		"gossip_target":
+			var g := best_gossip(w, ev.who("actor", ctx))
+			return g.get("to", "")
+		"doubtful_rumor":
+			return doubtful_rumor(w, ev.who(spec.get("of", "actor"), ctx))
+		"doubtful_subject":
+			# picks a shaky rumour this person heard and returns who it's about
+			var df := doubtful_rumor(w, ev.who(spec.get("of", "actor"), ctx))
+			if df == "":
+				return ""
+			ctx["vars"]["fact"] = df
+			return w.fact_subject(df)
+		"rumor_subject":
+			return w.fact_subject(str(ev.val(spec.get("fact", "$fact"), ctx)))
+		"rumor_spreader":
+			return rumor_spreader(w, str(ev.val(spec.get("fact", "$fact"), ctx)), ev.who(spec.get("not", "actor"), ctx))
+		"crush_of":
+			return crush_of(w, ev.who(spec.get("of", "actor"), ctx), spec.get("taken", false))
+		"birthday_person":
+			return str(w.day_flags.get("birthday", ""))
+		"worst_of":
+			return extreme_of(w, ev.who(spec.get("of", "actor"), ctx), false, float(spec.get("lim", 0.0)), spec.get("avail", spec.get("available", true)))
+		"best_of":
+			return extreme_of(w, ev.who(spec.get("of", "actor"), ctx), true, float(spec.get("lim", 0.0)), spec.get("avail", spec.get("available", true)))
+		"plan_target":
+			var pn: NPC = w.npc(ev.who(spec.get("of", "actor"), ctx))
+			return pn.plan_target(spec["kind"]) if pn else ""
+		"mediator":
+			return mediator(w, ev.who(spec.get("a", "actor"), ctx), ev.who(spec.get("b", "target"), ctx))
+		"low_morale":
+			return low_morale(w, float(spec.get("lim", 40.0)), ev.who(spec.get("not", ""), ctx))
+		"rival_of":
+			return rival_of(w, ev.who(spec.get("of", "actor"), ctx), float(spec.get("lim", 30.0)))
+		"secret_about":
+			return secret_about(w, ev.who(spec.get("knower", "actor"), ctx), ev.who(spec.get("about", "target"), ctx))
+		"any_secret":
+			return any_secret(w, ev.who(spec.get("knower", "actor"), ctx), ev.who(spec.get("not", "target"), ctx))
+		"common_enemy":
+			return common_enemy(w, ev.who(spec.get("a", "actor"), ctx), ev.who(spec.get("b", "target"), ctx))
+		"own_item_of":
+			return w.office.item_owned_by(ev.who(spec.get("of", "target"), ctx))
+		"clumsy_one":
+			return clumsy_one(w, ev.who(spec.get("not", "actor"), ctx))
 	return ""
+
+
+## A rumour this person heard but isn't sure about, about someone who's here.
+static func doubtful_rumor(w, who_id: String) -> String:
+	var n: NPC = w.npc(who_id)
+	if n == null:
+		return ""
+	var best := ""
+	var bs := 0.0
+	for f in n.known:
+		if not w.dyn_facts.has(f):
+			continue
+		var c: float = n.certainty(f)
+		if c >= 0.8:
+			continue
+		var subj: String = w.fact_subject(f)
+		if subj == "" or subj == who_id or not w.available(subj):
+			continue
+		var s: float = w.fact_juice(f) * (1.0 - c) + absf(n.affinity(subj)) * 0.004 + w.rng.randf() * 0.2
+		if w.rumor_defs.get(w.dyn_facts[f]["kind"], {}).get("outrageous", false):
+			s += 0.3   # stories that sound too wild get double-checked
+		if s > bs:
+			bs = s
+			best = f
+	return best
+
+
+static func rumor_spreader(w, f: String, not_id: String) -> String:
+	if not w.dyn_facts.has(f):
+		return ""
+	var r: Dictionary = w.dyn_facts[f]
+	var cands: Array = r.get("spreaders", []).duplicate()
+	if r.get("origin", "") != "":
+		cands.append(r["origin"])
+	for c in cands:
+		if c != not_id and c != r.get("a", "") and w.npc(c) != null and w.npc(c).present:
+			return c
+	return ""
+
+
+## Who this person has a soft spot for (data "romance" weights + mutual liking).
+static func crush_of(w, who_id: String, taken := false) -> String:
+	var n: NPC = w.npc(who_id)
+	if n == null:
+		return ""
+	var prefs: Dictionary = n.def.get("romance", {})
+	var best := ""
+	var bs := 0.0
+	for id in prefs:
+		var o: NPC = w.npc(id)
+		if o == null or not o.present:
+			continue
+		if taken:
+			# only crushes who are already seeing someone else (for heartbreak)
+			var partners: Array = w.bonds_of(id, "romance")
+			if partners.is_empty() or partners.has(who_id):
+				continue
+		var s: float = float(prefs[id]) + n.affinity(id) * 0.01 + o.affinity(who_id) * 0.006
+		if w.has_bond(who_id, id, "romance"):
+			s += 2.0
+		if s > bs:
+			bs = s
+			best = id
+	return best
+
+
+static func extreme_of(w, who_id: String, best: bool, lim: float, need_avail: bool) -> String:
+	var n: NPC = w.npc(who_id)
+	if n == null:
+		return ""
+	var pick := ""
+	var bv := -1e9
+	for id in w.present_ids():
+		if id == who_id or (need_avail and not w.available(id)):
+			continue
+		var a: float = n.affinity(id) if best else -n.affinity(id)
+		a += w.rng.randf() * 4.0
+		if a > bv:
+			bv = a
+			pick = id
+	if pick == "":
+		return ""
+	var real: float = n.affinity(pick)
+	if best and real < lim:
+		return ""
+	if not best and real > lim:
+		return ""
+	return pick
+
+
+static func mediator(w, a: String, b: String) -> String:
+	var best := ""
+	var bs := 0.0
+	for id in w.present_ids():
+		if id == a or id == b or not w.available(id):
+			continue
+		var m: NPC = w.npc(id)
+		var s: float = minf(m.affinity(a), m.affinity(b)) * 0.03 + m.t("empathy") * 1.2
+		if m.goal == "keep_peace":
+			s += 1.0
+		if minf(m.affinity(a), m.affinity(b)) < 5.0:
+			continue
+		if s > bs:
+			bs = s
+			best = id
+	return best
+
+
+static func low_morale(w, lim: float, not_id: String) -> String:
+	var best := ""
+	var bv := lim
+	for id in w.present_ids():
+		if id == not_id or id == "ahmet":
+			continue
+		var n: NPC = w.npc(id)
+		if n.morale < bv:
+			bv = n.morale
+			best = id
+	return best
+
+
+static func rival_of(w, who_id: String, lim: float) -> String:
+	var n: NPC = w.npc(who_id)
+	if n == null:
+		return ""
+	var best := ""
+	var bv := lim
+	for id in w.present_ids():
+		if id == who_id:
+			continue
+		var r: float = n.get_rel(id, "rivalry")
+		if r > bv:
+			bv = r
+			best = id
+	return best
+
+
+## A real secret about `about` that `knower` knows (static facts only).
+static func secret_about(w, knower: String, about: String) -> String:
+	var n: NPC = w.npc(knower)
+	if n == null:
+		return ""
+	for f in n.known:
+		if w.fact_defs.has(f) and w.fact_subject(f) == about and w.fact_exists(f):
+			return f
+	return ""
+
+
+static func any_secret(w, knower: String, not_about: String) -> String:
+	var n: NPC = w.npc(knower)
+	if n == null:
+		return ""
+	var best := ""
+	var bs := 0.0
+	for f in n.known:
+		if not w.fact_defs.has(f) or not w.fact_exists(f):
+			continue
+		var subj: String = w.fact_subject(f)
+		if subj == knower or subj == not_id_safe(not_about):
+			continue
+		var s: float = w.fact_juice(f) + w.rng.randf() * 0.3 - n.affinity(subj) * 0.01
+		if s > bs:
+			bs = s
+			best = f
+	return best
+
+
+static func not_id_safe(x: String) -> String:
+	return x if x != "" else "#"
+
+
+static func common_enemy(w, a: String, b: String) -> String:
+	var na: NPC = w.npc(a)
+	var nb: NPC = w.npc(b)
+	if na == null or nb == null:
+		return ""
+	var best := ""
+	var bv := -8.0
+	for id in w.order:
+		if id == a or id == b or id == "ahmet":
+			continue
+		var s: float = -(na.affinity(id) + nb.affinity(id)) * 0.5 + na.get_rel(id, "rivalry") * 0.3
+		if na.affinity(id) > 12.0 or nb.affinity(id) > 22.0:
+			continue
+		if s > bv:
+			bv = s
+			best = id
+	return best
+
+
+static func clumsy_one(w, not_id: String) -> String:
+	var best := ""
+	var bv := -1e9
+	for id in w.present_ids():
+		if id == not_id:
+			continue
+		var n: NPC = w.npc(id)
+		var s: float = n.t("clumsiness") * 2.0 + (1.0 - n.t("diligence")) + w.rng.randf() * 0.8
+		if s > bv:
+			bv = s
+			best = id
+	return best
 
 
 ## Who does the victim blame? Based on rivalry, distrust, bad memories and who was around.
@@ -60,6 +305,8 @@ static func suspect_for(w, victim: String, exclude: String, loc: String) -> Stri
 		if not o.present:
 			s -= 0.6
 		s += o.t("humor") * 0.25 + o.t("cunning") * 0.2   # pranksters & schemers look guilty
+		if loc == "" or loc.begins_with("desk_"):
+			s += o.t("clumsiness") * 0.3                  # ...and the clumsy ones lose things
 		s += w.rng.randf() * 0.7
 		if s > bs:
 			bs = s
@@ -187,6 +434,41 @@ static func run(w, fn: String, e: Dictionary, ctx: Dictionary) -> void:
 				w.office_changed.emit("items")
 		"ghost_theory":
 			w.flags["ghost_belief"] = int(w.flags.get("ghost_belief", 0)) + 1
+		"mess_desk":
+			# someone quietly wrecks a desk; the owner will find it (and blame *someone*)
+			var vt := ev.who(e.get("target", "target"), ctx)
+			var desks: Dictionary = w.office.objects["desks"]
+			if desks.has(vt):
+				desks[vt]["messed"] = true
+				w.flags["desk_culprit_" + vt] = actor
+				w.office_changed.emit("desks")
+		"hide_item":
+			var item_id := str(ev.val(e.get("item", "$item"), ctx))
+			if w.office.items.has(item_id):
+				w.office.items[item_id]["at"] = str(e.get("to", "archive"))
+				w.flags["item_culprit_" + item_id] = actor
+				w.office_changed.emit("items")
+		"extra_work":
+			var et := ev.who(e.get("target", "target"), ctx)
+			var en: NPC = w.npc(et)
+			if en:
+				var u := float(e.get("units", 22.0))
+				en.tasks.append({"id": str(e.get("task", "urgent_report")), "total": u, "left": u, "deadline": str(e.get("deadline", "17:15")),
+					"print": false, "printed": false, "usb": false, "phone": false, "archive": false})
+		"lunch_sync":
+			# two people agree to go to lunch together: same time, and they'll pick seats near each other
+			var lt2 := ev.who(e.get("target", "target"), ctx)
+			var ln2: NPC = w.npc(lt2)
+			if n and ln2 and not n.lunch_done and not ln2.lunch_done:
+				var at: float = maxf(w.minute + 4.0, minf(n.lunch_at, ln2.lunch_at))
+				n.lunch_at = at
+				ln2.lunch_at = at + 0.5
+		"take_lunch":
+			# stolen from the fridge: the victim's afternoon gets worse
+			var lt := ev.who(e.get("target", "target"), ctx)
+			var ln: NPC = w.npc(lt)
+			if ln and not ln.lunch_done:
+				ln.today_flags["lunch_stolen"] = actor
 		_:
 			push_warning("Unknown special: " + fn)
 

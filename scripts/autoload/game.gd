@@ -11,6 +11,8 @@ var settings := {"sound": true, "music": true, "auto_next": false, "tips_seen": 
 var chars: Array = []
 var facts: Dictionary = {}
 var event_defs: Array = []
+var arc_defs: Array = []
+var rumor_defs: Dictionary = {}
 var speed := 1.0          # 0 = paused, 1 = normal, 2 = fast
 
 
@@ -30,11 +32,14 @@ func _load_data() -> void:
 	chars = _read("res://data/characters.json")
 	facts = _read("res://data/facts.json")
 	event_defs = _read("res://data/events.json")
+	arc_defs = _read("res://data/arcs.json")
+	rumor_defs = _read("res://data/rumors.json")
 
 
 func create_world() -> SimWorld:
 	var w := SimWorld.new()
 	w.load_data(chars, facts, event_defs, Loc.dialogue, Callable(Loc, "t"))
+	w.load_story(arc_defs, rumor_defs)
 	return w
 
 

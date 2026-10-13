@@ -28,6 +28,20 @@ func val(ref, ctx: Dictionary):
 	return ref
 
 
+## Flags can hold true/false, numbers, ids or results: "set" means non-empty and not false/0.
+static func truthy(v) -> bool:
+	match typeof(v):
+		TYPE_NIL:
+			return false
+		TYPE_BOOL:
+			return v
+		TYPE_INT, TYPE_FLOAT:
+			return float(v) != 0.0
+		TYPE_STRING, TYPE_STRING_NAME:
+			return str(v) != ""
+	return true
+
+
 ## Equality that never errors on mixed types (int/float compare by value).
 static func eq(a, b) -> bool:
 	var ta := typeof(a)
@@ -141,15 +155,15 @@ func _check(c: Dictionary, ctx: Dictionary) -> bool:
 			var fv = w.flags.get(c["key"], false)
 			if c.has("eq"):
 				return eq(fv, c["eq"])
-			return bool(fv)
+			return truthy(fv)
 		"dayflag":
 			var dv = w.day_flags.get(c["key"], false)
 			if c.has("eq"):
 				return eq(dv, c["eq"])
-			return bool(dv)
+			return truthy(dv)
 		"npcflag":
 			var n9 = w.npc(who(c.get("who", "actor"), ctx))
-			return n9 != null and bool(n9.today_flags.get(c["key"], false))
+			return n9 != null and truthy(n9.today_flags.get(c["key"], false))
 		"activity":
 			var n10 = w.npc(who(c.get("who", "actor"), ctx))
 			return n10 != null and n10.act in c["in"]
@@ -183,6 +197,56 @@ func _check(c: Dictionary, ctx: Dictionary) -> bool:
 		"promoted":
 			var n13 = w.npc(who(c.get("who", "actor"), ctx))
 			return n13 != null and n13.promoted
+		"sure":
+			# how certain someone is about a fact (rumours heard second-hand are shaky)
+			var ns = w.npc(who(c.get("who", "actor"), ctx))
+			if ns == null:
+				return false
+			var cv: float = ns.certainty(str(val(c["fact"], ctx)))
+			if not (c.has("gt") or c.has("lt") or c.has("gte") or c.has("lte")):
+				return cv >= 0.7
+			return cv > 0.0 and _cmp(cv, c)
+		"truth":
+			return eq(w.fact_true(str(val(c["fact"], ctx))), c.get("eq", true))
+		"bond":
+			var ba := who(c.get("a", "actor"), ctx)
+			var bb = c.get("b", "target")
+			if str(bb) == "*":
+				return not w.bonds_of(ba, c["kind"]).is_empty()
+			return w.has_bond(ba, who(bb, ctx), c["kind"])
+		"plan":
+			var np = w.npc(who(c.get("who", "actor"), ctx))
+			if np == null:
+				return false
+			var pt := who(c["target"], ctx) if c.has("target") else ""
+			return np.has_plan(c["kind"], pt)
+		"morale":
+			var nm = w.npc(who(c.get("who", "actor"), ctx))
+			return nm != null and _cmp(nm.morale, c)
+		"arc":
+			return w.director.active_of(c["arc"]) > 0
+		"picks":
+			# true when a code-side picker finds someone/something (cheap pre-check for initiatives)
+			var pv = w.pick_var(c["fn"], c, ctx)
+			return pv != null and str(pv) != ""
+		"can_arc":
+			var cast := {}
+			var cm: Dictionary = c.get("cast", {})
+			for k in cm:
+				cast[k] = who(cm[k], ctx)
+			return w.director.can_start(c["arc"], cast)
+		"in_story":
+			return _cmp(float(w.director.busy_count(who(c.get("who", "actor"), ctx))), c)
+		"fired":
+			var days: Array = w.director.history.get(c["event"], [])
+			var since := int(w.day) - int(c.get("days", 0))
+			for dd in days:
+				if int(dd) >= since:
+					return true
+			return false
+		"result":
+			var fv2 = w.flags.get("arc_%s_%s" % [c["arc"], c["result"]], null)
+			return fv2 != null and int(fv2) >= int(w.day) - int(c.get("days", 99))
 		"any":
 			for sub in c["of"]:
 				if check(sub, ctx):
@@ -248,4 +312,18 @@ func _term(tm: Dictionary, ctx: Dictionary) -> float:
 			return w.discomfort(n7) * wt if n7 else 0.0
 		"if":
 			return float(tm.get("v", 1.0)) if check(tm["cond"], ctx) else float(tm.get("else", 0.0))
+		"morale":
+			var n8 = w.npc(who(tm.get("who", "actor"), ctx))
+			return n8.morale * wt if n8 else 0.0
+		"plan":
+			var n9 = w.npc(who(tm.get("who", "actor"), ctx))
+			var pt := who(tm["target"], ctx) if tm.has("target") else ""
+			return float(tm.get("v", 1.0)) if (n9 and n9.has_plan(tm["kind"], pt)) else 0.0
+		"bond":
+			return float(tm.get("v", 1.0)) if w.has_bond(who(tm.get("a", "actor"), ctx), who(tm.get("b", "target"), ctx), tm["kind"]) else 0.0
+		"sure":
+			var n10 = w.npc(who(tm.get("who", "actor"), ctx))
+			return n10.certainty(str(val(tm["fact"], ctx))) * wt if n10 else 0.0
+		"busy":
+			return float(w.director.busy_count(who(tm.get("who", "actor"), ctx))) * wt
 	return 0.0

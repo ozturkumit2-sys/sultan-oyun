@@ -66,14 +66,16 @@ func _build() -> void:
 	v.add_child(head)
 	# --- mood & stress
 	var ms := Control.new()
-	ms.custom_minimum_size = Vector2(0, 74)
+	ms.custom_minimum_size = Vector2(0, 108)
 	ms.draw.connect(func():
 		var nn: NPC = w.npc(npc_id)
 		Hud._mood_face(ms, Vector2(32, 36), 28, nn.mood)
 		ms.draw_string(UiKit.font("hand"), Vector2(72, 26), Loc.t("ui.mood") + ":", HORIZONTAL_ALIGNMENT_LEFT, -1, 19, Color(0.3, 0.3, 0.35))
 		ms.draw_string(UiKit.font("marker"), Vector2(140, 28), Loc.t(nn.mood_word()), HORIZONTAL_ALIGNMENT_LEFT, -1, 24, UiKit.INK)
 		ms.draw_string(UiKit.font("hand"), Vector2(72, 62), Loc.t("ui.stress") + ":", HORIZONTAL_ALIGNMENT_LEFT, -1, 19, Color(0.3, 0.3, 0.35))
-		UiKit.draw_scribble_bar(ms, Rect2(140, 48, ms.size.x - 160, 16), nn.stress / 100.0, UiKit.RED if nn.stress > 60 else Color("f4a261")))
+		UiKit.draw_scribble_bar(ms, Rect2(140, 48, ms.size.x - 160, 16), nn.stress / 100.0, UiKit.RED if nn.stress > 60 else Color("f4a261"))
+		ms.draw_string(UiKit.font("hand"), Vector2(72, 96), Loc.t("ui.morale") + ":", HORIZONTAL_ALIGNMENT_LEFT, -1, 19, Color(0.3, 0.3, 0.35))
+		UiKit.draw_scribble_bar(ms, Rect2(240, 82, ms.size.x - 260, 16), nn.morale / 100.0, Color("2a9d8f") if nn.morale > 40 else UiKit.RED))
 	_live["ms"] = ms
 	v.add_child(ms)
 	# --- relationships
@@ -82,6 +84,20 @@ func _build() -> void:
 		if other == npc_id:
 			continue
 		v.add_child(_rel_row(n, other))
+	# --- ties & plans (things that carry over from day to day)
+	v.add_child(_section(Loc.t("ui.bonds")))
+	var ties := _ties(n)
+	if ties.is_empty():
+		v.add_child(Sheet.label(Loc.t("ui.no_bonds"), 20, "type", Color(0.4, 0.4, 0.45)))
+	for t in ties:
+		v.add_child(Sheet.label("• " + t, 20, "hand", UiKit.INK))
+	# --- what they have heard (and how sure they are)
+	v.add_child(_section(Loc.t("ui.beliefs")))
+	var heard := _heard(n)
+	if heard.is_empty():
+		v.add_child(Sheet.label(Loc.t("ui.no_beliefs"), 20, "type", Color(0.4, 0.4, 0.45)))
+	for hb in heard:
+		v.add_child(Sheet.label(hb, 19, "type", UiKit.INK))
 	# --- memories
 	v.add_child(_section(Loc.t("ui.memories")))
 	var mems := n.recent_memories(6)
@@ -115,6 +131,39 @@ func _build() -> void:
 	cbox.add_child(lb)
 	v.add_child(cbox)
 	_refresh_live()
+
+
+func _ties(n: NPC) -> Array:
+	var r: Array = []
+	for kind in ["romance", "alliance", "feud", "mentor"]:
+		for other in w.bonds_of(n.id, kind):
+			r.append(Loc.t("bond." + kind, {"name": w.npc(other).name}))
+	for p in n.plans:
+		var tgt: String = p.get("target", "")
+		var nm: String = w.npc(tgt).name if w.npc(tgt) != null else ""
+		var key := "plan." + str(p["kind"])
+		if Loc.has(key):
+			r.append(Loc.t(key, {"name": nm}))
+	return r
+
+
+## Rumours and (already leaked) secrets this person carries around.
+func _heard(n: NPC) -> Array:
+	var items: Array = []
+	for f in n.known:
+		var is_rumor: bool = w.dyn_facts.has(f)
+		if not is_rumor and not w.discovered.has(f):
+			continue   # secrets the player hasn't uncovered stay hidden here too
+		if is_rumor and w.fact_subject(f) == n.id:
+			continue
+		var c := n.certainty(f)
+		var tag := Loc.t("ui.sure") if c >= 0.8 else (Loc.t("ui.heard") if c >= 0.5 else Loc.t("ui.not_sure"))
+		items.append([float(n.known[f]) + c * 0.1, "“%s” (%s)" % [w.fact_text(f), tag]])
+	items.sort_custom(func(a, b): return a[0] > b[0])
+	var out: Array = []
+	for i in mini(5, items.size()):
+		out.append(items[i][1])
+	return out
 
 
 func _section(t: String) -> Control:

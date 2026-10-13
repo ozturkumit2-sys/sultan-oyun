@@ -113,6 +113,8 @@ func _draw() -> void:
 		lift = sin(react / 0.35 * PI) * 7.0
 	if pose == "walk":
 		lift += absf(sin(walk_phase)) * 1.6
+	if npc.emote == "cheer" and npc.emote_timer > 0.0 and not sitting:
+		lift += absf(sin(t * 9.0)) * 7.0          # little jumps of joy
 	var shake_x := 0.0
 	if ex == "angry" and npc.expr_timer > 0.0:
 		shake_x = sin(t * 40.0) * 1.2
@@ -628,6 +630,21 @@ func _draw_emote(sitting: bool) -> void:
 			for s in [-1, 1]:
 				var bx: float = s * 16.0
 				draw_polyline(PackedVector2Array([Vector2(bx, y + 30), Vector2(bx + 2 * s, y + 34), Vector2(bx, y + 38), Vector2(bx + 2 * s, y + 42)]), Color(0.45, 0.7, 1.0, a), 1.4, true)
+		"cheer":
+			# confetti burst around the head
+			var cols := [Color(1.0, 0.82, 0.25, a), Color(0.95, 0.4, 0.55, a), Color(0.35, 0.75, 0.95, a), Color(0.45, 0.85, 0.5, a)]
+			for k in 6:
+				var ang3 := t * 2.2 + k * TAU / 6.0
+				var rr := 13.0 + sin(t * 5.0 + k) * 3.0
+				var cp := p + Vector2(-16, 6) + Vector2(cos(ang3) * rr, sin(ang3) * rr * 0.6)
+				draw_rect(Rect2(cp - Vector2(1.6, 1.6), Vector2(3.2, 3.2)), cols[k % 4])
+			_sparkle(p + Vector2(2, -2), 5.5, Color(1.0, 0.85, 0.2, a))
+		"whisper":
+			# a hushed little bubble: "psst..."
+			Iso.ellipse(self, p + Vector2(2, 0), 11.0, 7.5, Color(0.96, 0.95, 0.99, a * 0.95), Color(Iso.INK.r, Iso.INK.g, Iso.INK.b, a * 0.6), 1.0)
+			for k in 3:
+				draw_circle(p + Vector2(-4 + k * 5, 0.5), 1.4, Color(0.35, 0.3, 0.5, a))
+			draw_line(p + Vector2(-6, 6), p + Vector2(-11, 11), Color(Iso.INK.r, Iso.INK.g, Iso.INK.b, a * 0.6), 1.2, true)
 		"phone":
 			Iso.rrect(self, Rect2(p + Vector2(-4, -7), Vector2(8, 13)), 2, Color(0.17, 0.18, 0.26, a), Color(0, 0, 0, 0))
 			draw_rect(Rect2(p + Vector2(-2.6, -5), Vector2(5.2, 8)), Color(0.66, 0.85, 1.0, a))

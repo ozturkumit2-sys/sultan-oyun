@@ -48,6 +48,11 @@ var current_activity_label := ""
 var rel: Dictionary = {}          # other_id -> {"trust":, "friendship":, "rivalry":}
 var memories: Array = []          # dicts
 var known: Dictionary = {}        # fact_id -> day learned
+var belief: Dictionary = {}       # fact_id -> certainty 0..1 (missing = sure)
+var plans: Array = []             # long-term intentions {kind, target, day, heat}
+var morale := 60.0                # job satisfaction 0..100, changes slowly over days
+var mood_acc := 0.0               # mood integrated over today (for morale)
+var mood_time := 0.0
 var intents: Array = []           # dicts {type, target, event, prio, until, place, data}
 var goal := ""
 var tasks: Array = []             # {id, name, total, left, deadline, print, printed, usb}
@@ -74,6 +79,7 @@ func setup(d: Dictionary) -> void:
 	name = d["name"]
 	traits = d["traits"].duplicate()
 	prefs = d.get("prefs", {}).duplicate()
+	morale = float(d.get("morale", 60.0))
 
 
 func t(k: String) -> float:
@@ -178,6 +184,8 @@ func decay_memories() -> void:
 		var f := 0.86
 		if float(m["val"]) < 0.0:
 			f = lerpf(0.94, 0.78, forgive)
+		if int(m.get("imp", 1)) >= 3:
+			f = sqrt(f)   # big moments stay with people for many days
 		m["w"] = float(m["w"]) * f
 		if m["w"] > 0.06:
 			keep.append(m)
@@ -190,12 +198,70 @@ func knows(fact: String) -> bool:
 	return known.has(fact)
 
 
+## How sure this person is about something they know (0 = never heard of it).
+func certainty(fact: String) -> float:
+	if not known.has(fact):
+		return 0.0
+	return float(belief.get(fact, 1.0))
+
+
+func forget_fact(fact: String) -> void:
+	known.erase(fact)
+	belief.erase(fact)
+
+
+# ------------------------------------------------------------------ plans (cross-day intentions)
+
+func has_plan(kind: String, target := "") -> bool:
+	for p in plans:
+		if p["kind"] == kind and (target == "" or p.get("target", "") == target):
+			return true
+	return false
+
+
+func plan_target(kind: String) -> String:
+	for p in plans:
+		if p["kind"] == kind:
+			return p.get("target", "")
+	return ""
+
+
+func add_plan(kind: String, target: String, day: int, heat := 1.0) -> void:
+	for i in range(plans.size() - 1, -1, -1):
+		var p: Dictionary = plans[i]
+		if p["kind"] == kind and p.get("target", "") == target:
+			p["heat"] = minf(3.0, float(p.get("heat", 1.0)) + heat)
+			if float(p["heat"]) <= 0.0:
+				plans.remove_at(i)
+			return
+	if heat <= 0.0:
+		return   # cooling off a plan that doesn't exist does nothing
+	plans.append({"kind": kind, "target": target, "day": day, "heat": heat})
+	if plans.size() > 6:
+		plans.pop_front()
+
+
+func drop_plan(kind: String, target := "") -> void:
+	for i in range(plans.size() - 1, -1, -1):
+		if plans[i]["kind"] == kind and (target == "" or plans[i].get("target", "") == target):
+			plans.remove_at(i)
+
+
+## Plans cool off overnight; hot ones linger for days.
+func decay_plans() -> void:
+	for i in range(plans.size() - 1, -1, -1):
+		plans[i]["heat"] = float(plans[i].get("heat", 1.0)) - 0.25
+		if plans[i]["heat"] <= 0.0:
+			plans.remove_at(i)
+
+
 # ------------------------------------------------------------------ intents
 
 func add_intent(it: Dictionary) -> void:
 	# replace same type+target
 	for i in range(intents.size() - 1, -1, -1):
-		if intents[i]["type"] == it["type"] and intents[i].get("target", "") == it.get("target", ""):
+		var o: Dictionary = intents[i]
+		if o["type"] == it["type"] and o.get("target", "") == it.get("target", "") and o.get("place", "") == it.get("place", "") and o.get("meetup", "") == it.get("meetup", ""):
 			intents.remove_at(i)
 	intents.append(it)
 
@@ -287,6 +353,8 @@ func to_dict() -> Dictionary:
 		"leave_at": leave_at, "lunch_at": lunch_at, "lunch_done": lunch_done, "traits": traits.duplicate(),
 		"promoted": promoted, "title_override": title_override, "today_flags": today_flags.duplicate(true),
 		"coffee_count": coffee_count, "reviewed_today": reviewed_today, "pending_notif": pending_notif,
+		"belief": belief.duplicate(), "plans": plans.duplicate(true), "morale": morale,
+		"mood_acc": mood_acc, "mood_time": mood_time,
 	}
 
 
@@ -319,6 +387,11 @@ func from_dict(d: Dictionary) -> void:
 	coffee_count = int(d.get("coffee_count", 0))
 	reviewed_today = d.get("reviewed_today", false)
 	pending_notif = d.get("pending_notif", "")
+	belief = d.get("belief", {})
+	plans = d.get("plans", [])
+	morale = float(d.get("morale", def.get("morale", 60.0)))
+	mood_acc = float(d.get("mood_acc", 0.0))
+	mood_time = float(d.get("mood_time", 0.0))
 	# activity is re-decided after loading
 	act = ""
 	phase = ""

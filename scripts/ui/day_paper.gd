@@ -83,6 +83,12 @@ func show_day(world: SimWorld, sm: Dictionary) -> void:
 		v.add_child(Sheet.label(Loc.t("paper.no_stories"), 22, "type"))
 	for st in stories:
 		v.add_child(_story(st))
+	# storylines: what's still unresolved (and what wrapped up today)
+	var arcs: Array = sm.get("arcs", [])
+	if not arcs.is_empty():
+		v.add_child(_rule(Loc.t("ui.storylines").to_upper()))
+		for a in arcs.slice(0, 4):
+			v.add_child(_arc_line(a))
 	# next day
 	next_btn = NoteButton.make(Loc.t("ui.next_day"), "", "sticky", UiKit.sticky("yellow"), Vector2(260, 84))
 	next_btn.font_size = 28
@@ -139,6 +145,18 @@ func _story(st: Dictionary) -> Control:
 	v.add_child(Sheet.label(st.get("text", ""), 22, "type", UiKit.INK))
 	h.add_child(v)
 	return h
+
+
+func _arc_line(a: Dictionary) -> Control:
+	var v := VBoxContainer.new()
+	v.add_theme_constant_override("separation", 0)
+	var done: bool = a.get("done", false)
+	var kicker := Loc.t("paper.concluded") if done else Loc.t("paper.continued")
+	var t := Sheet.label("%s — %s" % [Loc.t("arc." + str(a["arc"])), kicker], 22, "slab", UiKit.RED if not done else UiKit.INK)
+	v.add_child(t)
+	if str(a.get("beat", "")) != "":
+		v.add_child(Sheet.label(str(a["beat"]), 19, "type", Color(0.25, 0.25, 0.28)))
+	return v
 
 
 func _process(delta: float) -> void:

@@ -1,0 +1,47 @@
+# Rumour kinds -> data/rumors.json
+# A rumour is "{a} ... {b}". It can be TRUE (it came from something that really
+# happened) or FALSE (misheard, exaggerated, or a deliberate lie). People believe
+# rumours only as much as they trust whoever told them (see SimWorld.learn).
+#
+#   on_learn : what hearing it does to the listener (scaled by how sure they are)
+#   twist    : what a loose-lipped gossip turns it into when retelling (always false)
+#   life     : days before people stop talking about it
+
+RUMORS = {
+    "argument":       {"on_learn": [{"who": "*", "about": "a", "stat": "trust", "d": -2}], "twist": "fistfight"},
+    "fistfight":      {"outrageous": True, "on_learn": [{"who": "*", "about": "a", "stat": "trust", "d": -4}, {"who": "@ahmet", "about": "a", "favor": -3}]},
+    "refused_help":   {"on_learn": [{"who": "*", "about": "a", "stat": "friendship", "d": -4}], "twist": "dislikes"},
+    "scolded":        {"on_learn": [], "twist": "getting_fired"},
+    "getting_fired":  {"outrageous": True, "on_learn": [{"who": "subject", "stress": 16, "mood": -14}], "life": 2},
+    "late":           {"on_learn": [], "twist": "slacker"},
+    "slacker":        {"outrageous": True, "on_learn": [{"who": "*", "about": "a", "stat": "trust", "d": -4}, {"who": "@ahmet", "about": "a", "favor": -4}]},
+    "blamed":         {"on_learn": [{"who": "*", "about": "a", "stat": "trust", "d": -3}], "twist": "sabotage"},
+    "sabotage":       {"outrageous": True, "on_learn": [{"who": "*", "about": "a", "stat": "trust", "d": -7}, {"who": "b", "about": "a", "stat": "rivalry", "d": 12}], "life": 4},
+    "credit_steal":   {"on_learn": [{"who": "*", "about": "a", "stat": "trust", "d": -8}, {"who": "b", "about": "a", "stat": "rivalry", "d": 22},
+                                    {"who": "b", "about": "a", "stat": "trust", "d": -25}, {"who": "@ahmet", "about": "a", "favor": -10}], "life": 5},
+    "dislikes":       {"on_learn": [{"who": "b", "about": "a", "stat": "friendship", "d": -22}, {"who": "b", "about": "a", "stat": "trust", "d": -15}]},
+    "scheme":         {"on_learn": [{"who": "*", "about": "a", "stat": "trust", "d": -10}, {"who": "b", "about": "a", "stat": "rivalry", "d": 25},
+                                    {"who": "@ahmet", "about": "a", "favor": -18}], "life": 5},
+    "secret_friends": {"on_learn": [], "twist": "couple"},
+    "took_blame":     {"on_learn": [{"who": "*", "about": "a", "stat": "friendship", "d": 4}]},
+    "helped":         {"on_learn": [{"who": "*", "about": "a", "stat": "friendship", "d": 3}]},
+    "haunted":        {"on_learn": [], "life": 4},
+    "couple":         {"on_learn": [], "twist": "engaged", "life": 6},
+    "engaged":        {"outrageous": True, "on_learn": [{"who": "subject", "stress": 8}], "life": 4},
+    "crush":          {"on_learn": [{"who": "b", "about": "a", "stat": "friendship", "d": 3}], "twist": "couple", "life": 5},
+    "interview":      {"on_learn": [{"who": "@ahmet", "about": "a", "stat": "trust", "d": -14}, {"who": "@ahmet", "about": "a", "favor": -8}],
+                       "twist": "resigning", "life": 5},
+    "job_hunting":    {"on_learn": [{"who": "@ahmet", "about": "a", "stat": "trust", "d": -10}, {"who": "@ahmet", "about": "a", "favor": -6}],
+                       "twist": "resigning", "life": 5},
+    "resigning":      {"outrageous": True, "on_learn": [{"who": "@ahmet", "about": "a", "stat": "trust", "d": -8}, {"who": "*", "about": "a", "stat": "friendship", "d": -2}], "life": 3},
+    "layoffs":        {"outrageous": True, "on_learn": [{"who": "*", "stress": 12, "mood": -8}], "life": 2},
+    "nepotism_hint":  {"on_learn": [{"who": "*", "about": "a", "stat": "trust", "d": -3}], "life": 6},
+    "alliance":       {"on_learn": [{"who": "*", "about": "a", "stat": "trust", "d": -4}, {"who": "*", "about": "b", "stat": "trust", "d": -4}], "life": 5},
+    "lost_file":      {"on_learn": [{"who": "*", "about": "a", "stat": "trust", "d": -5}], "twist": "sabotage", "life": 3},
+    "stole_lunch":    {"on_learn": [{"who": "*", "about": "a", "stat": "friendship", "d": -3}], "life": 3},
+    "snores":         {"on_learn": [], "twist": "slacker", "life": 3},
+    "raise":          {"on_learn": [{"who": "*", "about": "a", "stat": "rivalry", "d": 5}], "life": 4},
+    "boss_pet":       {"on_learn": [{"who": "*", "about": "a", "stat": "rivalry", "d": 4}, {"who": "*", "about": "a", "stat": "trust", "d": -2}], "life": 3},
+    "threat":         {"on_learn": [{"who": "b", "stress": 10}, {"who": "*", "about": "a", "stat": "trust", "d": -4}], "life": 2},
+    "prank":          {"on_learn": [{"who": "b", "about": "a", "stat": "friendship", "d": -8}], "life": 3},
+}

@@ -6,7 +6,7 @@ def rel(trust, friendship, rivalry=0):
 
 CHARACTERS = [
     {
-        "id": "ahmet", "name": "Ahmet", "age": 45, "role": "Office Manager", "gender": "m",
+        "id": "ahmet", "morale": 64, "name": "Ahmet", "age": 45, "role": "Office Manager", "gender": "m",
         "bio": ["Authoritarian", "Controlling", "Loves discipline", "Trusts Selin", "Thinks Deniz is too ambitious"],
         "traits": {"diligence": .7, "sociability": .35, "gossip": .1, "honesty": .6, "temper": .78, "empathy": .3,
                    "cunning": .35, "clumsiness": .1, "ambition": .5, "curiosity": .3, "forgiveness": .4, "humor": .2},
@@ -25,7 +25,7 @@ CHARACTERS = [
                  "pants": "#2B3048", "shoes": "#2A2222", "extras": ["mustache"], "build": 1.1},
     },
     {
-        "id": "selin", "name": "Selin", "age": 29, "role": "Senior Specialist", "gender": "f",
+        "id": "selin", "morale": 60, "romance": {"burak": 0.3}, "name": "Selin", "age": 29, "role": "Senior Specialist", "gender": "f",
         "bio": ["Hard-working", "Ambitious", "Strong sense of justice", "Waiting for a promotion", "Rivals Deniz", "Slow to forgive"],
         "traits": {"diligence": .9, "sociability": .45, "gossip": .15, "honesty": .85, "temper": .55, "empathy": .5,
                    "cunning": .2, "clumsiness": .1, "ambition": .9, "curiosity": .4, "forgiveness": .12, "humor": .35},
@@ -47,7 +47,7 @@ CHARACTERS = [
                  "pants": "#3B3340", "shoes": "#5A2A35", "extras": ["earrings"], "build": 0.95},
     },
     {
-        "id": "mert", "name": "Mert", "age": 31, "role": "Sales Specialist", "gender": "m",
+        "id": "mert", "morale": 66, "romance": {"ceren": 1.0}, "name": "Mert", "age": 31, "role": "Sales Specialist", "gender": "m",
         "bio": ["Social", "Funny", "Laid-back", "Has a crush on Ceren", "Friends with Burak", "Leaves things to the last minute"],
         "traits": {"diligence": .35, "sociability": .95, "gossip": .45, "honesty": .65, "temper": .25, "empathy": .65,
                    "cunning": .35, "clumsiness": .3, "ambition": .4, "curiosity": .5, "forgiveness": .8, "humor": .95},
@@ -69,7 +69,7 @@ CHARACTERS = [
                  "pants": "#B8A27A", "shoes": "#6B4A2E", "extras": ["stubble"], "build": 1.0},
     },
     {
-        "id": "zeynep", "name": "Zeynep", "age": 36, "role": "Accountant", "gender": "f",
+        "id": "zeynep", "morale": 55, "romance": {"deniz": 0.35}, "name": "Zeynep", "age": 36, "role": "Accountant", "gender": "f",
         "bio": ["Curious", "Gossipy", "Sharp observer", "Knows many secrets", "Uses information for her own ends"],
         "traits": {"diligence": .6, "sociability": .8, "gossip": .95, "honesty": .45, "temper": .4, "empathy": .45,
                    "cunning": .6, "clumsiness": .15, "ambition": .35, "curiosity": .95, "forgiveness": .5, "humor": .55},
@@ -89,7 +89,7 @@ CHARACTERS = [
                  "pants": "#3E6E6A", "shoes": "#7A3E2E", "extras": ["glasses", "necklace"], "build": 1.02},
     },
     {
-        "id": "burak", "name": "Burak", "age": 27, "role": "IT Specialist", "gender": "m",
+        "id": "burak", "morale": 36, "romance": {"ceren": 0.45, "selin": 0.3}, "name": "Burak", "age": 27, "role": "IT Specialist", "gender": "m",
         "bio": ["Quiet", "Logical", "Tech genius", "Unhappy with his job", "Secretly job hunting", "Snaps when wrongly blamed"],
         "traits": {"diligence": .65, "sociability": .2, "gossip": .1, "honesty": .8, "temper": .62, "empathy": .45,
                    "cunning": .3, "clumsiness": .1, "ambition": .55, "curiosity": .35, "forgiveness": .45, "humor": .4},
@@ -111,7 +111,7 @@ CHARACTERS = [
                  "pants": "#3D5A80", "shoes": "#E9E6E0", "extras": ["headphones"], "build": 0.97},
     },
     {
-        "id": "ece", "name": "Ece", "age": 23, "role": "Intern", "gender": "f",
+        "id": "ece", "morale": 74, "name": "Ece", "age": 23, "role": "Intern", "gender": "f",
         "bio": ["Energetic", "Curious", "A bit clumsy", "Wants everyone to like her", "Hides that she is the manager's niece"],
         "traits": {"diligence": .7, "sociability": .85, "gossip": .35, "honesty": .7, "temper": .15, "empathy": .85,
                    "cunning": .15, "clumsiness": .85, "ambition": .5, "curiosity": .9, "forgiveness": .9, "humor": .6},
@@ -131,7 +131,7 @@ CHARACTERS = [
                  "pants": "#8FB3D9", "shoes": "#F7F2EA", "extras": ["lanyard"], "build": 0.9},
     },
     {
-        "id": "deniz", "name": "Deniz", "age": 34, "role": "Specialist", "gender": "m",
+        "id": "deniz", "morale": 58, "romance": {"zeynep": 0.3}, "name": "Deniz", "age": 34, "role": "Specialist", "gender": "m",
         "bio": ["Competitive", "Cunning", "Self-confident", "Wants the promotion", "Sees Selin as a rival", "Takes credit for others' work"],
         "traits": {"diligence": .65, "sociability": .55, "gossip": .4, "honesty": .2, "temper": .45, "empathy": .2,
                    "cunning": .95, "clumsiness": .1, "ambition": .95, "curiosity": .55, "forgiveness": .3, "humor": .45},
@@ -153,7 +153,7 @@ CHARACTERS = [
                  "pants": "#3A3D48", "shoes": "#1E1E22", "extras": ["watch"], "build": 1.0},
     },
     {
-        "id": "ceren", "name": "Ceren", "age": 30, "role": "Executive Assistant", "gender": "f",
+        "id": "ceren", "morale": 63, "romance": {"mert": 0.65, "burak": 0.25}, "name": "Ceren", "age": 30, "role": "Executive Assistant", "gender": "f",
         "bio": ["Smart", "Calm", "Reads people well", "Knows Mert likes her", "Knows the story behind many decisions"],
         "traits": {"diligence": .85, "sociability": .6, "gossip": .2, "honesty": .8, "temper": .2, "empathy": .7,
                    "cunning": .5, "clumsiness": .05, "ambition": .4, "curiosity": .6, "forgiveness": .65, "humor": .5},

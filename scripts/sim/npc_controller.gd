@@ -8,7 +8,7 @@ const DEFAULT_DUR := {
 	"arrive": 1.0, "work": 40.0, "coffee": 4.0, "water": 3.0, "chat": 1.0, "print": 3.0, "archive": 6.0,
 	"phone": 6.0, "rest": 9.0, "patrol": 1.0, "meeting": 70.0, "lunch": 38.0, "leave": 1.0, "review": 14.0,
 	"wander": 2.0, "thermostat": 1.0, "fix": 7.0, "go_npc": 0.6, "go_place": 2.0, "search": 1.2,
-	"idle": 2.0, "announce": 6.0, "return_item": 0.6, "gift_coffee": 3.0,
+	"idle": 2.0, "announce": 6.0, "return_item": 0.6, "gift_coffee": 3.0, "go_desk": 0.8, "away": 0.5,
 }
 
 
@@ -117,6 +117,10 @@ static func start_intent(w, n: NPC, it: Dictionary) -> void:
 			spec["act"] = "gift_coffee"
 			spec["place"] = "coffee"
 			spec["target"] = tgt
+		"go_desk":
+			spec["act"] = "go_desk"
+			spec["owner"] = tgt
+			spec["target"] = ""
 		_:
 			spec["act"] = "go_place"
 			spec["place"] = it.get("place", "")
@@ -187,6 +191,10 @@ static func _lunch_place(w, n: NPC) -> String:
 				var dd: float = o.place_pos(pid).distance_to(o.place_pos(on.act_place))
 				if dd < 2.6:
 					s += n.affinity(other) * 0.4
+					if w.has_bond(n.id, other, "feud"):
+						s -= 40.0
+					elif w.has_bond(n.id, other, "romance") or w.has_bond(n.id, other, "alliance"):
+						s += 25.0
 		if s > bs:
 			bs = s
 			best = pid
@@ -236,10 +244,15 @@ static func start(w, n: NPC, spec: Dictionary) -> void:
 		n.pos = OfficeEnv.OUTSIDE
 		n.path = PackedVector2Array([Vector2(13.6, 11.5)])
 		n.path.append_array(o.find_path(Vector2(13.5, 11.5), o.place_cell(place), o.place_pos(place)))
-	elif n.act == "leave":
+	elif n.act == "leave" or n.act == "away":
+		if place != "":
+			o.release(place, n.id)
+			n.act_place = ""
 		n.path = o.find_path(n.pos, o.place_cell("entrance"))
 		n.path.append(Vector2(14.2, 11.5))
 		n.path.append(OfficeEnv.OUTSIDE)
+	elif n.act == "go_desk":
+		n.path = o.find_path(n.pos, _desk_side(w, n, str(n.act_data.get("owner", ""))))
 	elif n.act_target != "" and place == "":
 		n.path = _path_to_npc(w, n, n.act_target)
 	elif n.act == "search":
@@ -259,6 +272,26 @@ static func start(w, n: NPC, spec: Dictionary) -> void:
 		_arrive(w, n)
 	else:
 		n.pose = "walk"
+
+
+## A free cell right next to someone's desk chair (to talk to them, snoop, leave a note...).
+static func _desk_side(w, n: NPC, owner: String) -> Vector2i:
+	var o: OfficeEnv = w.office
+	var pid := "desk_" + owner
+	if not o.places.has(pid):
+		return OfficeEnv.cell_of(n.pos)
+	var tc := o.place_cell(pid)
+	var best := tc
+	var bd := 1e9
+	for off in [Vector2i(1, 0), Vector2i(0, 1), Vector2i(-1, 0), Vector2i(0, -1), Vector2i(1, 1), Vector2i(-1, 1), Vector2i(1, -1), Vector2i(-1, -1)]:
+		var c: Vector2i = tc + off
+		if not o.walkable(c):
+			continue
+		var dd := (Vector2(c) + Vector2(0.5, 0.5)).distance_to(n.pos)
+		if dd < bd:
+			bd = dd
+			best = c
+	return best
 
 
 static func _path_to_npc(w, n: NPC, tid: String) -> PackedVector2Array:
@@ -362,7 +395,11 @@ static func _begin(w, n: NPC) -> void:
 	match n.act:
 		"arrive":
 			n.pose = "sit"
-			if w.minute > 22.0 and not n.today_flags.get("late_work", false):
+			if n.today_flags.has("away"):
+				var why: String = str(n.today_flags["away"])
+				n.today_flags.erase("away")
+				w.events.fire("returned", {"actor": n.id, "reason": why})
+			elif w.minute > 22.0 and not n.today_flags.get("late_work", false):
 				n.today_flags["late_work"] = true
 				w.events.fire("late_to_work", {"actor": n.id, "late": int(w.minute)})
 			_desk_checks(w, n)
@@ -454,6 +491,10 @@ static func _begin(w, n: NPC) -> void:
 			n.pose = "sit" if n.pose == "sit" else "stand"
 		"lunch":
 			n.lunch_done = true
+			if str(n.today_flags.get("lunch_stolen", "")) != "":
+				var thief: String = str(n.today_flags["lunch_stolen"])
+				n.today_flags.erase("lunch_stolen")
+				w.events.fire("lunch_stolen", {"actor": thief, "target": n.id})
 			n.pose = "eat" if n.pose == "sit" else "eat"
 			if not w.lunch_fired:
 				w.lunch_fired = true
@@ -471,15 +512,53 @@ static func _begin(w, n: NPC) -> void:
 					if not roles.has(k):
 						roles[k] = it["roles"][k]
 				w.events.run_event(it["event"], roles, it.get("vars", {}))
+			elif it.get("event", "") != "" and w.npc(tgt) != null and w.npc(tgt).present and float(it.get("until", 0.0)) > w.minute + 2.0 \
+					and int(it.get("retries", 0)) < 5:
+				# they're busy talking to someone else: wait a moment, then try again
+				var again: Dictionary = it.duplicate(true)
+				again["retries"] = int(it.get("retries", 0)) + 1
+				again["wait_until"] = w.minute + 1.5
+				n.add_intent(again)
+				n.act_dur = 1.2
 		"go_place":
 			var it2: Dictionary = n.act_data.get("intent", {})
-			if it2.get("event", "") != "":
+			if str(it2.get("meetup", "")) != "":
+				w.director.meetup_arrived(str(it2["meetup"]), n.id)
+			elif it2.get("event", "") != "":
 				var roles2: Dictionary = {"actor": n.id}
 				for k in it2.get("roles", {}):
 					roles2[k] = it2["roles"][k]
 				if it2.get("target", "") != "":
 					roles2["target"] = it2["target"]
 				w.events.run_event(it2["event"], roles2, it2.get("vars", {}))
+		"go_desk":
+			var owner: String = str(n.act_data.get("owner", ""))
+			var dp := "desk_" + owner
+			if w.office.places.has(dp):
+				var dv: Vector2 = w.office.place_pos(dp) - n.pos
+				if absf(dv.x - dv.y) > 0.05:
+					n.face_right = (dv.x - dv.y) > 0.0
+				n.face_front = (dv.x + dv.y) >= -0.05
+			var it3: Dictionary = n.act_data.get("intent", {})
+			if it3.get("event", "") != "":
+				var roles3: Dictionary = {"actor": n.id, "target": owner}
+				for k in it3.get("roles", {}):
+					if not roles3.has(k):
+						roles3[k] = it3["roles"][k]
+				w.events.run_event(it3["event"], roles3, it3.get("vars", {}))
+		"away":
+			# steps out of the building for a while (interview, "dentist", errand)
+			n.today_flags["late_work"] = true
+			n.today_flags["away"] = str(n.act_data.get("reason", "out"))
+			n.arrive_at = w.minute + float(n.act_data.get("minutes", 40.0))
+			w.office.release_all(n.id)
+			n.present = false
+			n.state = NPC.S.OUTSIDE
+			n.pos = OfficeEnv.OUTSIDE
+			n.act = ""
+			n.phase = ""
+			n.act_place = ""
+			w.events.fire("went_out", {"actor": n.id, "reason": n.today_flags["away"]})
 		"return_item":
 			var item: String = n.act_data.get("item", "")
 			if item != "" and o.items.has(item):

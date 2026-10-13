@@ -80,7 +80,7 @@ static func choose(w, n: NPC) -> Dictionary:
 				opts.append([1.25, {"act": "review"}])
 			opts.append([0.35, {"act": "phone", "at_desk": true, "dur": w.rng.randf_range(4.0, 8.0)}])
 		"burak":
-			if n.goal == "find_new_job" and int(n.today_flags.get("calls", 0)) < 3:
+			if n.goal == "find_new_job" and int(n.today_flags.get("calls", 0)) < 2:
 				opts.append([0.2, {"act": "phone", "secret": true, "dur": w.rng.randf_range(4.0, 7.0)}])
 		"mert":
 			opts.append([0.2, {"act": "phone", "at_desk": true, "dur": w.rng.randf_range(3.0, 6.0)}])
@@ -93,7 +93,7 @@ static func choose(w, n: NPC) -> Dictionary:
 			if w.available("ahmet") and not n.today_flags.get("briefed", false) and m > 60.0:
 				opts.append([0.4, {"act": "go_npc", "target": "ahmet", "prio": 20.0, "intent": {"event": "ceren_briefing", "roles": {}, "vars": {}}}])
 		"ece":
-			if n.goal == "be_liked" and n.coffee_count < 3 and not o.objects["coffee"]["broken"]:
+			if n.goal == "be_liked" and n.coffee_count < 2 and not o.objects["coffee"]["broken"]:
 				var fav := _gift_target(w, n)
 				if fav != "":
 					opts.append([0.32, {"act": "gift_coffee", "target": fav}])
@@ -136,6 +136,10 @@ static func _chat_partner(w, n: NPC) -> String:
 			s += 0.6
 		if n.affinity(id) < -25.0:
 			s -= 2.0
+		if w.has_bond(n.id, id, "feud"):
+			s -= 3.0          # not on speaking terms
+		elif w.has_bond(n.id, id, "romance") or w.has_bond(n.id, id, "alliance"):
+			s += 0.7
 		if s > bs:
 			bs = s
 			best = id

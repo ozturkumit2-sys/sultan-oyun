@@ -85,7 +85,7 @@ func apply(e: Dictionary, ctx: Dictionary) -> void:
 			var fact := str(ev.val(e["fact"], ctx))
 			if fact != "":
 				for id in _ids(e.get("who", "actor"), ctx):
-					w.learn(id, fact, ev.who(e.get("from", ""), ctx))
+					w.learn(id, fact, ev.who(e.get("from", ""), ctx), float(e.get("c", -1.0)))
 		"reveal":
 			var f2 := str(ev.val(e["fact"], ctx))
 			if f2 != "":
@@ -178,10 +178,88 @@ func apply(e: Dictionary, ctx: Dictionary) -> void:
 					else:
 						apply(se, sub2)
 		"rumor":
-			var fid: String = w.make_rumor(e["kind"], ev.who(e.get("a", "actor"), ctx), ev.who(e.get("b", "target"), ctx), float(e.get("juicy", 0.5)))
-			ctx["vars"]["rumor"] = fid
+			var truth: bool = e.get("truth", true)
+			var origin := ev.who(e.get("origin", "actor"), ctx)
+			var fid: String = w.make_rumor(e["kind"], ev.who(e.get("a", "actor"), ctx), ev.who(e.get("b", "target"), ctx), float(e.get("juicy", 0.5)), truth, origin)
+			ctx["vars"][e.get("key", "rumor")] = fid
 			for id in _ids(e.get("knowers", []), ctx):
-				w.learn(id, fid, "")
+				w.learn(id, fid, "", float(e.get("c", -1.0)))
+		"debunk":
+			var df := str(ev.val(e.get("fact", "$rumor"), ctx))
+			w.debunk(df, _ids(e.get("who", []), ctx), ev.who(e.get("by", "actor"), ctx))
+		"forget":
+			var ff := str(ev.val(e["fact"], ctx))
+			for id in _ids(e.get("who", "actor"), ctx):
+				var nf = w.npc(id)
+				if nf:
+					nf.forget_fact(ff)
+		"distort":
+			# a gossip with loose lips "improves" the story while passing it on
+			var src := str(ev.val(e.get("fact", "$gossip"), ctx))
+			var teller := ev.who(e.get("who", "actor"), ctx)
+			var nf2: String = w.distort(src, teller, float(e.get("p", 1.0)))
+			if nf2 != "" and nf2 != src:
+				ctx["vars"][e.get("key", "gossip")] = nf2
+				ctx["vars"]["twisted"] = true
+		"bond":
+			var ba := ev.who(e.get("a", "actor"), ctx)
+			var bb := ev.who(e.get("b", "target"), ctx)
+			w.set_bond(ba, bb, e["kind"], e.get("v", true), ev.who(e.get("by", "actor"), ctx))
+		"plan":
+			var pt := ev.who(e.get("target", ""), ctx)
+			for id in _ids(e.get("who", "actor"), ctx):
+				var npl = w.npc(id)
+				if npl == null:
+					continue
+				if e.get("v", true):
+					npl.add_plan(e["kind"], pt, w.day, float(e.get("heat", 1.0)))
+				else:
+					npl.drop_plan(e["kind"], pt)
+		"morale":
+			for id in _ids(e.get("who", "actor"), ctx):
+				var nmo = w.npc(id)
+				if nmo:
+					nmo.morale = clampf(nmo.morale + float(e["d"]), 0.0, 100.0)
+		"arc_start":
+			var cast := {}
+			var cm: Dictionary = e.get("cast", {})
+			for k in cm:
+				cast[k] = ev.who(cm[k], ctx)
+			var avars := {}
+			var vm: Dictionary = e.get("vars", {})
+			for k in vm:
+				avars[k] = ev.val(vm[k], ctx)
+			var uid: String = w.director.start_arc(e["arc"], cast, avars, e.get("stage", ""), e.get("force", false))
+			if uid != "":
+				ctx["vars"]["started_arc"] = uid
+		"arc_next":
+			var auid := str(ctx.get("vars", {}).get("_arc", ""))
+			if auid != "":
+				w.director.arc_next(auid, e["stage"], e.get("wait", null), int(e.get("days", 0)))
+		"arc_end":
+			var euid := str(ctx.get("vars", {}).get("_arc", ""))
+			if euid != "":
+				w.director.arc_end(euid, e.get("result", "done"))
+		"meetup":
+			var mids: Array = []
+			if str(e.get("who", "")) == "all":
+				var first := ev.who("actor", ctx)
+				if first != "":
+					mids.append(first)
+				for pid in w.present_ids():
+					if pid != first and w.available(pid):
+						mids.append(pid)
+			else:
+				mids = _ids(e.get("who", ["actor", "target"]), ctx)
+			var mroles := {}
+			var mrm: Dictionary = e.get("roles", {"actor": "actor", "target": "target"})
+			for k in mrm:
+				mroles[k] = ev.who(mrm[k], ctx)
+			var mvars: Dictionary = ctx.get("vars", {}).duplicate(true)
+			w.director.meetup(mids, e.get("area", "kitchen"), e["event"], mroles, mvars, float(e.get("ttl", 40)), float(e.get("prio", 58)), int(e.get("need", 0)))
+		"away":
+			for id in _ids(e.get("who", "actor"), ctx):
+				w.force_activity(id, "away", {"minutes": float(e.get("minutes", 40)), "reason": e.get("reason", ""), "prio": 80.0})
 		"favor":
 			var ab2 := ev.who(e.get("about", "actor"), ctx)
 			if ab2 != "":
@@ -235,8 +313,20 @@ func apply(e: Dictionary, ctx: Dictionary) -> void:
 				w.force_activity(id, e["act"], {"obj": str(ev.val(e.get("obj", ""), ctx)), "target": ev.who(e.get("target", ""), ctx), "place": str(ev.val(e.get("place", ""), ctx)), "dur": float(e.get("dur", 6))})
 		"call":
 			w.special(e["fn"], e, ctx)
+		"trigger":
+			var payload := {}
+			var tr: Dictionary = e.get("roles", {"actor": "actor", "target": "target"})
+			for k in tr:
+				payload[k] = ev.who(tr[k], ctx)
+			var tv: Dictionary = e.get("vars", {})
+			for k in tv:
+				payload[k] = ev.val(tv[k], ctx)
+			w.events.fire(e["name"], payload)
 		"set":
-			ctx["vars"][e["key"]] = ev.val(e["v"], ctx)
+			if e.has("who"):
+				ctx["vars"][e["key"]] = ev.who(e["who"], ctx)
+			else:
+				ctx["vars"][e["key"]] = ev.val(e["v"], ctx)
 		"pick":
 			# choose one of several effect lists at random (weights optional)
 			var opts: Array = e["of"]

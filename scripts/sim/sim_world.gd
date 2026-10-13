@@ -20,11 +20,14 @@ var npcs: Dictionary = {}
 var order: Array = []
 var office: OfficeEnv
 var events: EventManager
+var director: StoryDirector
 var dialogue: DialogueManager
 var stats := DayStats.new()
 var char_defs: Dictionary = {}
 var fact_defs: Dictionary = {}
-var dyn_facts: Dictionary = {}       # runtime rumors
+var dyn_facts: Dictionary = {}       # runtime rumors {kind, a, b, juicy, day, truth, origin, spreaders}
+var rumor_defs: Dictionary = {}      # rumor kind -> {on_learn, twist, life}
+var bonds: Dictionary = {}           # "a|b|kind" -> {since, by}  (feud, alliance, romance, mentor)
 var rumor_counter := 0
 var flags: Dictionary = {}
 var day_flags: Dictionary = {}
@@ -48,6 +51,7 @@ var tr_fn: Callable                  # (key, args) -> String, injected (Loc.t)
 func _init() -> void:
 	office = OfficeEnv.new()
 	events = EventManager.new(self)
+	director = StoryDirector.new(self)
 
 
 ## Load static data (characters, facts, events, dialogue).
@@ -59,6 +63,13 @@ func load_data(chars: Array, facts: Dictionary, event_defs: Array, dialogue_data
 	fact_defs = facts
 	events.load_defs(event_defs)
 	dialogue = DialogueManager.new(self, dialogue_data)
+	director.load_arcs([])
+
+
+## Story arcs and rumour kinds (data/arcs.json, data/rumors.json).
+func load_story(arc_defs_in: Array, rumors: Dictionary) -> void:
+	rumor_defs = rumors
+	director.load_arcs(arc_defs_in)
 
 
 func T(key: String, args: Dictionary = {}) -> String:
@@ -86,6 +97,9 @@ func new_game(seed_in := 0) -> void:
 	office.reset_objects()
 	events.cooldowns.clear()
 	events.fired_total.clear()
+	director.reset()
+	bonds.clear()
+	rumor_counter = 0
 	total_interventions = 0
 	promo_cycle = 1
 	for id in C.NPC_IDS:
@@ -126,6 +140,13 @@ func new_game(seed_in := 0) -> void:
 		favor[id] = 35.0 + rng.randf_range(-6, 6)
 	favor["selin"] = 54.0 + rng.randf_range(-8, 8)
 	favor["deniz"] = 50.0 + rng.randf_range(-8, 8)
+	# a few birthdays fall into the next couple of weeks
+	var bday_people: Array = order.duplicate()
+	shuffle(bday_people)
+	var bday_days: Array = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+	shuffle(bday_days)
+	for i in 3:
+		flags["bday_" + bday_people[i]] = bday_days[i]
 	begin_day(1)
 
 
@@ -136,7 +157,10 @@ func _heal_relations(n: NPC) -> void:
 	for other in n.rel:
 		var base: Dictionary = rels.get(other, defb)
 		var r: Dictionary = n.rel[other]
+		var feud := has_bond(n.id, other, "feud")
 		for st in ["trust", "friendship", "rivalry"]:
+			if feud and st != "trust":
+				continue   # people who aren't speaking don't drift back to normal
 			r[st] = float(r[st]) + (float(base.get(st, 0)) - float(r[st])) * 0.07
 
 
@@ -169,6 +193,10 @@ func begin_day(d: int) -> void:
 	pair_cool.clear()
 	stats.reset()
 	events.new_day()
+	director.new_day()
+	for id in order:
+		if int(flags.get("bday_" + id, -1)) == d:
+			day_flags["birthday"] = id
 	_enc_t = 0.0
 	_tick_t = 0.0
 	_deadline_t = 0.0
@@ -208,15 +236,17 @@ func begin_day(d: int) -> void:
 		n.emote = ""
 		if d > 1:
 			n.decay_memories()
+			n.decay_plans()
 			_heal_relations(n)
 			# overnight: stress eases, mood drifts back toward neutral
 			n.stress = n.stress * 0.55 + 6.0
 			n.mood = n.mood * 0.6 + 8.0
 			n.coffee_need = 25.0
 		NPCSchedule.plan_day(self, n)
-	# rumors older than 3 days fade
+	# rumors fade after a few days (juicy ones live longer)
 	for fid in dyn_facts.keys():
-		if day - int(dyn_facts[fid]["day"]) > 3:
+		var life := int(rumor_defs.get(dyn_facts[fid]["kind"], {}).get("life", 3))
+		if day - int(dyn_facts[fid]["day"]) > life:
 			dyn_facts.erase(fid)
 			for id in order:
 				npcs[id].known.erase(fid)
@@ -232,8 +262,10 @@ func _end_day() -> void:
 		if n.present:
 			n.present = false
 			n.state = NPC.S.GONE
+	_update_morale()
 	var sm := stats.summary(day)
 	sm["interventions"] = stats.get_count("interventions")
+	sm["arcs"] = story_summary()
 	stats.history.append(sm)
 	if stats.history.size() > 30:
 		stats.history.pop_front()
@@ -243,6 +275,46 @@ func _end_day() -> void:
 
 func next_day() -> void:
 	begin_day(day + 1)
+
+
+## Job satisfaction moves slowly: today's average mood plus the big moments.
+func _update_morale() -> void:
+	var weights := {"praised": 2.5, "scolded": -3.0, "boss_snapped": -2.0, "credit_stolen": -4.0, "lost_promo": -5.0,
+		"falsely_accused": -3.0, "sabotaged_promo": -4.0, "helped_me": 1.2, "defended_me": 2.0, "made_up": 1.5,
+		"party": 3.0, "humiliated": -3.0, "recognized": 4.0, "overworked": -2.5, "betrayed": -3.0}
+	for id in order:
+		var n: NPC = npcs[id]
+		var avg := n.mood
+		if n.mood_time > 1.0:
+			avg = n.mood_acc / n.mood_time
+		var dm := (avg - 28.0) * 0.1
+		for m in n.memories:
+			if int(m["day"]) == day:
+				dm += float(weights.get(m["kind"], 0.0))
+		n.morale = clampf(n.morale + dm, 0.0, 100.0)
+		var base := float(n.def.get("morale", 60.0))
+		n.morale += (base - n.morale) * 0.03
+		n.mood_acc = 0.0
+		n.mood_time = 0.0
+
+
+## Active and recently finished stories (for the newspaper and the board).
+func story_summary() -> Array:
+	var r: Array = []
+	for inst in director.arcs:
+		r.append({"arc": inst["arc"], "beat": story_beat(inst), "done": false, "chapter": inst["steps"].size() + 1})
+	for f in director.finished:
+		if int(f["day"]) == day:
+			r.append({"arc": f["arc"], "beat": story_beat(f), "done": true, "result": f["result"], "chapter": int(f.get("steps", 1))})
+	return r
+
+
+## The latest line of a story — or its teaser if nothing has happened yet.
+func story_beat(inst: Dictionary) -> String:
+	var b: String = str(inst.get("beat", ""))
+	if b != "":
+		return b
+	return dialogue.format(T("arc.%s.teaser" % inst["arc"]), {"roles": inst.get("cast", {}), "vars": {}})
 
 
 # =====================================================================
@@ -276,6 +348,7 @@ func _substep(d: float) -> void:
 	if _tick_t >= 12.0:
 		_tick_t = 0.0
 		_ambient_tick()
+	director.tick(d)
 	_deadline_t += d
 	if _deadline_t >= 5.0:
 		_deadline_t = 0.0
@@ -292,6 +365,8 @@ func abs_now() -> float:
 func _update_needs(n: NPC, d: float) -> void:
 	if not n.present:
 		return
+	n.mood_acc += n.mood * d
+	n.mood_time += d
 	n.coffee_need = minf(100.0, n.coffee_need + d * 0.22 * (0.4 + float(n.prefs.get("coffee", 0.5))))
 	n.social_need = minf(100.0, n.social_need + d * 0.16 * (0.3 + n.t("sociability")))
 	# temperature comfort
@@ -372,6 +447,12 @@ func fact_exists(f: String) -> bool:
 	return flags.get("fact_" + f, false) or dyn_facts.has(f)
 
 
+func fact_true(f: String) -> bool:
+	if dyn_facts.has(f):
+		return bool(dyn_facts[f].get("truth", true))
+	return fact_defs.has(f)
+
+
 func fact_subject(f: String) -> String:
 	if fact_defs.has(f):
 		return fact_defs[f].get("subject", "")
@@ -414,6 +495,8 @@ func display_var(k: String, v) -> String:
 			return T("loc." + str(v))
 	if typeof(v) == TYPE_STRING and npcs.has(v):
 		return npcs[v].name
+	if typeof(v) == TYPE_STRING and (fact_defs.has(v) or dyn_facts.has(v)):
+		return fact_text(str(v))
 	return str(v)
 
 
@@ -478,10 +561,15 @@ func change_rel(a: String, b: String, stat: String, d: float) -> void:
 	na.change_rel(b, stat, d)
 	if stat == "friendship":
 		var after := na.get_rel(b, "friendship")
+		var fk := "friends|" + (a + "|" + b if a < b else b + "|" + a)
 		# a "new friendship" = both now like each other well, and this crossed the line
-		if before < 45.0 and after >= 45.0 and before_back >= 35.0:
+		# (announced once per pair; it can be announced again only after they fell out)
+		if before < 45.0 and after >= 45.0 and before_back >= 35.0 and not flags.get(fk, false):
+			flags[fk] = true
 			stats.add("new_friendships")
 			log_event("log.new_friends", {"roles": {"actor": a, "target": b}}, 2, "friendship", [a, b])
+		elif after < 15.0 and flags.get(fk, false):
+			flags.erase(fk)
 
 
 func remember(id: String, kind: String, about: String, val: float, wgt: float, text: String, ctx: Dictionary, imp := 1) -> void:
@@ -509,13 +597,37 @@ func memory_text(m: Dictionary) -> String:
 	return T(m["text"], named)
 
 
-func learn(id: String, fact: String, from := "") -> void:
+## Someone learns a fact. First-hand (no `from`) means certainty 1; hearsay is
+## only as believable as the teller — and gets shakier every retelling.
+func learn(id: String, fact: String, from := "", cert := -1.0) -> void:
 	var n := npc(id)
-	if n == null or n.knows(fact) or not fact_exists(fact):
+	if n == null or not fact_exists(fact):
+		return
+	var c := cert
+	if c < 0.0:
+		if from == "" or from == id:
+			c = 1.0
+		else:
+			var tl := npc(from)
+			var tc := tl.certainty(fact) if tl else 0.6
+			if tc <= 0.0:
+				tc = 0.6
+			c = clampf(tc * (0.6 + n.get_rel(from, "trust") / 250.0), 0.15, 0.95)
+	if n.knows(fact):
+		# hearing it again from someone else makes it more believable
+		var old := n.certainty(fact)
+		n.belief[fact] = clampf(1.0 - (1.0 - old) * (1.0 - c * 0.6), 0.0, 1.0)
 		return
 	n.known[fact] = day
+	n.belief[fact] = c
 	var subj := fact_subject(fact)
-	# data-driven reactions to learning a fact
+	if dyn_facts.has(fact) and from != "" and from != id:
+		var sp: Array = dyn_facts[fact].get("spreaders", [])
+		if not sp.has(from):
+			sp.append(from)
+		dyn_facts[fact]["spreaders"] = sp
+	# data-driven reactions to learning a fact (weaker when it's just a rumour)
+	var k := lerpf(0.45, 1.0, c)
 	var fd: Dictionary = fact_defs.get(fact, {})
 	if dyn_facts.has(fact):
 		fd = _rumor_def(dyn_facts[fact])
@@ -540,19 +652,61 @@ func learn(id: String, fact: String, from := "") -> void:
 		elif eff.get("about", "subject").begins_with("@"):
 			about = eff["about"].substr(1)
 		if eff.has("stat") and about != id:
-			n.change_rel(about, eff["stat"], float(eff["d"]))
+			n.change_rel(about, eff["stat"], float(eff["d"]) * k)
 		if eff.has("mood"):
-			n.mood = C.clampf100(n.mood + float(eff["mood"]))
+			n.mood = C.clampf100(n.mood + float(eff["mood"]) * k)
 		if eff.has("stress"):
-			n.stress = clampf(n.stress + float(eff["stress"]), 0, 100)
+			n.stress = clampf(n.stress + float(eff["stress"]) * k, 0, 100)
 		if eff.has("favor"):
-			favor[about] = clampf(float(favor.get(about, 40.0)) + float(eff["favor"]), 0, 100)
+			favor[about] = clampf(float(favor.get(about, 40.0)) + float(eff["favor"]) * k, 0, 100)
 	if from != "" and from != id:
 		n.remember("heard", from, 0.05, 0.3, "", {}, day, minute)
 	events.fire("fact_learned", {"actor": id, "fact": fact, "subject": subj})
 
 
+## A false rumour is exposed: the listed people stop believing it and stop
+## trusting whoever passed it around.
+func debunk(fact: String, hearers: Array, by := "") -> void:
+	if not dyn_facts.has(fact) or bool(dyn_facts[fact].get("truth", true)):
+		return
+	var r: Dictionary = dyn_facts[fact]
+	if not r.get("debunked", false):
+		stats.add("debunked")
+	r["debunked"] = true
+	var liars: Array = r.get("spreaders", []).duplicate()
+	if r.get("origin", "") != "" and not liars.has(r["origin"]):
+		liars.append(r["origin"])
+	for id in hearers:
+		var n := npc(id)
+		if n == null:
+			continue
+		n.forget_fact(fact)
+		for s2 in liars:
+			if s2 != id and s2 != by:
+				n.change_rel(s2, "trust", -6.0)
+
+
+## A gossip "improves" a rumour while retelling it. Returns the new (false) rumour or "".
+func distort(fact: String, teller: String, p := 1.0) -> String:
+	if not dyn_facts.has(fact):
+		return ""
+	var r: Dictionary = dyn_facts[fact]
+	var tw: String = rumor_defs.get(r["kind"], {}).get("twist", "")
+	var n := npc(teller)
+	if tw == "" or n == null:
+		return ""
+	var chance := p * (n.t("gossip") * 0.55 + (1.0 - n.t("honesty")) * 0.45 - 0.2)
+	if rng.randf() > chance:
+		return ""
+	var nf := make_rumor(tw, r["a"], r["b"], minf(1.0, float(r.get("juicy", 0.5)) + 0.2), false, teller)
+	n.known[nf] = day
+	n.belief[nf] = 0.9
+	return nf
+
+
 func _rumor_def(r: Dictionary) -> Dictionary:
+	if rumor_defs.has(r["kind"]):
+		return rumor_defs[r["kind"]]
 	var kinds: Dictionary = {
 		"argument": [{"who": "*", "about": "a", "stat": "trust", "d": -2}],
 		"refused_help": [{"who": "*", "about": "a", "stat": "friendship", "d": -4}],
@@ -580,16 +734,56 @@ func reveal(fact: String) -> void:
 		secret_discovered.emit(fact)
 
 
-func make_rumor(kind: String, a: String, b: String, juicy: float) -> String:
+func make_rumor(kind: String, a: String, b: String, juicy: float, truth := true, origin := "") -> String:
 	# reuse an identical rumor from today
 	for fid in dyn_facts:
 		var r: Dictionary = dyn_facts[fid]
-		if r["kind"] == kind and r["a"] == a and r["b"] == b and int(r["day"]) == day:
+		if r["kind"] == kind and r["a"] == a and r["b"] == b and int(r["day"]) == day and bool(r.get("truth", true)) == truth:
 			return fid
 	rumor_counter += 1
 	var fid2 := "r%d" % rumor_counter
-	dyn_facts[fid2] = {"kind": kind, "a": a, "b": b, "juicy": juicy, "day": day}
+	dyn_facts[fid2] = {"kind": kind, "a": a, "b": b, "juicy": juicy, "day": day, "truth": truth, "origin": origin, "spreaders": []}
 	return fid2
+
+
+# =====================================================================
+# Bonds: lasting states between two people (feud, alliance, romance, mentor)
+# =====================================================================
+
+static func _bk(a: String, b: String, kind: String) -> String:
+	if a > b:
+		return "%s|%s|%s" % [b, a, kind]
+	return "%s|%s|%s" % [a, b, kind]
+
+
+func has_bond(a: String, b: String, kind: String) -> bool:
+	if a == "" or b == "" or a == b:
+		return false
+	return bonds.has(_bk(a, b, kind))
+
+
+func set_bond(a: String, b: String, kind: String, on: bool, by := "") -> void:
+	if a == "" or b == "" or a == b:
+		return
+	var k := _bk(a, b, kind)
+	if on:
+		if not bonds.has(k):
+			bonds[k] = {"since": day, "by": by}
+	else:
+		bonds.erase(k)
+
+
+func bonds_of(id: String, kind: String) -> Array:
+	var r: Array = []
+	for k in bonds:
+		var p: PackedStringArray = k.split("|")
+		if p[2] != kind:
+			continue
+		if p[0] == id:
+			r.append(p[1])
+		elif p[1] == id:
+			r.append(p[0])
+	return r
 
 
 func fact_juice(f: String) -> float:
@@ -603,6 +797,7 @@ func fact_juice(f: String) -> float:
 func log_event(key: String, ctx: Dictionary, imp: int, cat: String, actors: Array) -> void:
 	var text := dialogue.format(T(key), ctx)
 	var entry := {"day": day, "minute": minute, "text": text, "imp": imp, "cat": cat, "actors": actors}
+	director.on_logged(entry, ctx)
 	log_entries.append(entry)
 	if log_entries.size() > 260:
 		log_entries.pop_front()
@@ -656,11 +851,13 @@ func force_activity(id: String, act: String, opts: Dictionary) -> void:
 			spec["place"] = {"printer": "printer", "coffee": "coffee", "lights": "breaker"}.get(opts.get("obj", ""), "printer")
 		"thermostat":
 			spec["place"] = "thermostat"
+		"away":
+			spec["place"] = "entrance"
 	NPCController.start(self, n, spec)
 
 
-func on_event_fired(_d: Dictionary, _ctx: Dictionary) -> void:
-	pass
+func on_event_fired(d: Dictionary, ctx: Dictionary) -> void:
+	director.on_event_fired(d, ctx)
 
 
 func pick_var(fn: String, spec: Dictionary, ctx: Dictionary):
@@ -802,6 +999,7 @@ func to_dict() -> Dictionary:
 	return {
 		"version": C.SAVE_VERSION, "seed": seed_value, "day": day, "minute": minute,
 		"npcs": n, "office": office.to_dict(), "events": events.to_dict(), "stats": stats.to_dict(),
+		"director": director.to_dict(), "bonds": bonds.duplicate(true),
 		"dyn_facts": dyn_facts.duplicate(true), "rumor_counter": rumor_counter, "flags": flags.duplicate(true),
 		"day_flags": day_flags.duplicate(true), "log": log_entries.duplicate(true), "discovered": discovered.duplicate(),
 		"meeting": meeting.duplicate(true), "favor": favor.duplicate(), "favor_ghost": favor_ghost.duplicate(),
@@ -830,6 +1028,7 @@ func from_dict(d: Dictionary) -> void:
 	events.from_dict(d.get("events", {}))
 	stats.from_dict(d.get("stats", {}))
 	dyn_facts = d.get("dyn_facts", {})
+	bonds = d.get("bonds", {})
 	rumor_counter = int(d.get("rumor_counter", 0))
 	flags = d.get("flags", {})
 	day_flags = d.get("day_flags", {})
@@ -843,6 +1042,7 @@ func from_dict(d: Dictionary) -> void:
 	total_interventions = int(d.get("total_interventions", 0))
 	lunch_fired = d.get("lunch_fired", false)
 	day_over = d.get("day_over", false)
+	director.from_dict(d.get("director", {}))
 	# people in the office resume from where they stood
 	for id in order:
 		var n2: NPC = npcs[id]

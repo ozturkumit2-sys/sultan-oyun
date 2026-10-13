@@ -161,6 +161,11 @@ static func places() -> Array:
 	p.append({"id": "boss_front", "cell": [12, 3], "facing": "NE", "pose": "stand", "tags": ["boss_front"]})
 	p.append({"id": "entrance", "cell": [13, 11], "facing": "NW", "pose": "stand", "tags": ["entrance"]})
 	p.append({"id": "announce", "cell": [7, 7], "facing": "SE", "pose": "stand", "tags": ["announce"]})
+	# huddle spots: where people meet to talk in private (kitchen, lounge, archive nook, hallway)
+	var huddles := [["hk1", 2, 10, "SE"], ["hk2", 3, 10, "SW"], ["hk3", 3, 11, "NW"], ["hl1", 2, 6, "SE"], ["hl2", 3, 6, "SW"],
+		["ha1", 7, 2, "SE"], ["ha2", 8, 2, "SW"], ["hh1", 11, 7, "SE"], ["hh2", 12, 7, "SW"]]
+	for hd in huddles:
+		p.append({"id": hd[0], "cell": [hd[1], hd[2]], "facing": hd[3], "pose": "stand", "tags": ["huddle"]})
 	var phones := [[4, 12, "SW"], [7, 3, "NE"], [3, 5, "SE"], [12, 12, "SE"], [13, 6, "SW"]]
 	for i in phones.size():
 		var ph = phones[i]

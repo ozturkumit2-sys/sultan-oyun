@@ -296,3 +296,5 @@ L("late_morning", ["Morning! Was I late? I wasn't late.", "Traffic was insane!",
 L("boss_late_morning", ["Good AFTERNOON.", "Look who decided to come to work.", "Do you know what time it is?"])
 L("ghost_theory", ["I'm telling you, this office is haunted.", "Things keep moving by themselves. Explain THAT.", "There's something in this office. Something... invisible."])
 L("ghost_reply", ["Don't say that! I have to stay late!", "Ghosts aren't real. ...Right?", "Okay, now I'm not sleeping tonight."])
+
+L("accuse_lunch", ["Did you eat my lunch? Be honest.", "My lunch is gone and you were in the kitchen.", "You ate my börek, didn't you."])

@@ -1,6 +1,7 @@
 [
  {
   "id": "ahmet",
+  "morale": 64,
   "name": "Ahmet",
   "age": 45,
   "role": "Office Manager",
@@ -129,6 +130,10 @@
  },
  {
   "id": "selin",
+  "morale": 60,
+  "romance": {
+   "burak": 0.3
+  },
   "name": "Selin",
   "age": 29,
   "role": "Senior Specialist",
@@ -264,6 +269,10 @@
  },
  {
   "id": "mert",
+  "morale": 66,
+  "romance": {
+   "ceren": 1.0
+  },
   "name": "Mert",
   "age": 31,
   "role": "Sales Specialist",
@@ -402,6 +411,10 @@
  },
  {
   "id": "zeynep",
+  "morale": 55,
+  "romance": {
+   "deniz": 0.35
+  },
   "name": "Zeynep",
   "age": 36,
   "role": "Accountant",
@@ -521,6 +534,11 @@
  },
  {
   "id": "burak",
+  "morale": 36,
+  "romance": {
+   "ceren": 0.45,
+   "selin": 0.3
+  },
   "name": "Burak",
   "age": 27,
   "role": "IT Specialist",
@@ -658,6 +676,7 @@
  },
  {
   "id": "ece",
+  "morale": 74,
   "name": "Ece",
   "age": 23,
   "role": "Intern",
@@ -767,6 +786,10 @@
  },
  {
   "id": "deniz",
+  "morale": 58,
+  "romance": {
+   "zeynep": 0.3
+  },
   "name": "Deniz",
   "age": 34,
   "role": "Specialist",
@@ -901,6 +924,11 @@
  },
  {
   "id": "ceren",
+  "morale": 63,
+  "romance": {
+   "mert": 0.65,
+   "burak": 0.25
+  },
   "name": "Ceren",
   "age": 30,
   "role": "Executive Assistant",

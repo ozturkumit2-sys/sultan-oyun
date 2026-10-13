@@ -92,6 +92,7 @@ class GossipBoard extends Sheet:
 		v.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		sc.add_child(v)
 		body.add_child(sc)
+		_storylines(v)
 		var entries: Array = w.log_entries.duplicate()
 		entries.reverse()
 		var last_day := -1
@@ -109,6 +110,70 @@ class GossipBoard extends Sheet:
 		if shown == 0:
 			v.add_child(Sheet.label(Loc.t("ui.no_events"), 22, "hand", Color("fffdf5")))
 		open()
+
+	## Running stories (and ones that ended today) pinned above the notes, so it's
+	## easy to follow "where is this going?".
+	func _storylines(v: VBoxContainer) -> void:
+		var items: Array = []
+		for inst in w.director.arcs:
+			items.append({"arc": inst["arc"], "beat": w.story_beat(inst), "part": inst["steps"].size() + 1, "done": false, "cast": inst["cast"]})
+		for f in w.director.finished:
+			if int(f["day"]) == w.day:
+				items.append({"arc": f["arc"], "beat": w.story_beat(f), "part": int(f.get("steps", 1)), "done": true, "cast": f["cast"]})
+		if items.is_empty():
+			return
+		var hl := Sheet.label("— " + Loc.t("ui.storylines").to_upper() + " —", 24, "marker", Color("fffdf5"))
+		hl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		v.add_child(hl)
+		for i in items.size():
+			v.add_child(_story_card(items[i], i))
+
+	func _story_card(it: Dictionary, i: int) -> Control:
+		var b := Button.new()
+		b.flat = true
+		b.focus_mode = Control.FOCUS_NONE
+		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		var beat: String = it["beat"]
+		var lines := 1 + int(UiKit.font("hand").get_string_size(beat, HORIZONTAL_ALIGNMENT_LEFT, -1, 20).x / 540.0)
+		b.custom_minimum_size = Vector2(0, 86 + (lines * 24 if beat != "" else 0))
+		var done: bool = it["done"]
+		var title := Loc.t("arc." + str(it["arc"]))
+		var tag := Loc.t("ui.story_done") if done else Loc.t("ui.story_chapter", {"n": int(it["part"])})
+		var tilt: float = [0.5, -0.7, 0.3][i % 3]
+		var n := Control.new()
+		n.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		n.set_anchors_preset(Control.PRESET_FULL_RECT)
+		n.draw.connect(func():
+			var r := Rect2(Vector2(10, 6), n.size - Vector2(20, 12))
+			n.draw_set_transform(r.get_center(), deg_to_rad(tilt), Vector2.ONE)
+			var rr := Rect2(-r.size * 0.5, r.size)
+			# a manila case card with a red thread, like a detective's board
+			UiKit.draw_note(n, rr, Color("f0d9a8") if not done else Color("e4e1d8"), true, false)
+			n.draw_line(rr.position + Vector2(0, 46), Vector2(rr.end.x, rr.position.y + 46), Color(0.55, 0.35, 0.2, 0.35), 1.2)
+			UiKit.draw_pin(n, rr.position + Vector2(18, 14), UiKit.RED)
+			n.draw_polyline(PackedVector2Array([rr.position + Vector2(18, 14), rr.position + Vector2(rr.size.x * 0.45, -6), rr.position + Vector2(rr.size.x - 16, 10)]),
+				Color(0.8, 0.15, 0.18, 0.75), 1.6, true)
+			n.draw_string(UiKit.font("marker"), rr.position + Vector2(34, 36), title, HORIZONTAL_ALIGNMENT_LEFT, rr.size.x - 210, 24, UiKit.INK)
+			n.draw_set_transform(r.get_center() + Vector2(rr.end.x - 92, rr.position.y + 26).rotated(deg_to_rad(tilt)), deg_to_rad(tilt) - 0.1, Vector2.ONE)
+			var stamp := UiKit.RED if not done else Color(0.3, 0.45, 0.35)
+			var sw: float = UiKit.font("slab").get_string_size(tag.to_upper(), HORIZONTAL_ALIGNMENT_LEFT, -1, 15).x + 20.0
+			n.draw_rect(Rect2(-sw * 0.5, -14, sw, 28), stamp, false, 2.5)
+			n.draw_string(UiKit.font("slab"), Vector2(-sw * 0.5, 7), tag.to_upper(), HORIZONTAL_ALIGNMENT_CENTER, sw, 15, stamp)
+			n.draw_set_transform(r.get_center(), deg_to_rad(tilt), Vector2.ONE)
+			if beat != "":
+				n.draw_multiline_string(UiKit.font("hand"), rr.position + Vector2(16, 70), beat, HORIZONTAL_ALIGNMENT_LEFT, rr.size.x - 32, 20, -1, UiKit.INK)
+			n.draw_set_transform(Vector2.ZERO, 0, Vector2.ONE))
+		b.add_child(n)
+		var cast: Dictionary = it["cast"]
+		var actors: Array = []
+		for k in cast:
+			if k != "boss" and str(cast[k]) != "":
+				actors.append(str(cast[k]))
+		b.pressed.connect(func():
+			Audio.play("click", -4.0)
+			focus_event.emit({"actors": actors})
+			close())
+		return b
 
 	func _note(e: Dictionary, i: int) -> Control:
 		var b := Button.new()

@@ -89,16 +89,25 @@ def each(effects, exclude=None, stagger=0.0, where=None):
     if where: r["where"] = where
     return r
 
-def learn(who, fact, frm=""):
+def learn(who, fact, frm="", c=None, when=None, delay=0):
     r = {"e": "learn", "who": who, "fact": fact}
     if frm: r["from"] = frm
+    if c is not None: r["c"] = c
+    if when: r["when"] = when
+    if delay: r["delay"] = delay
     return r
 
 def reveal(fact):
     return {"e": "reveal", "fact": fact}
 
-def rumor(kind, a="actor", b="target", juicy=0.5, knowers=None):
-    return {"e": "rumor", "kind": kind, "a": a, "b": b, "juicy": juicy, "knowers": knowers or []}
+def rumor(kind, a="actor", b="target", juicy=0.5, knowers=None, truth=True, origin="actor", key="rumor", c=None, when=None):
+    r = {"e": "rumor", "kind": kind, "a": a, "b": b, "juicy": juicy, "knowers": knowers or []}
+    if not truth: r["truth"] = False
+    if origin != "actor": r["origin"] = origin
+    if key != "rumor": r["key"] = key
+    if c is not None: r["c"] = c
+    if when: r["when"] = when
+    return r
 
 def call(fn, delay=0, when=None, **kw):
     r = {"e": "call", "fn": fn}
@@ -286,10 +295,12 @@ def s_goal(who, g, v): return {"s": "goal", "who": who, "goal": g, "v": v}
 def s_if(cond, v, else_=0.0): return {"s": "if", "cond": cond, "v": v, "else": else_}
 def s_disc(who, w): return {"s": "discomfort", "who": who, "w": w}
 
-def role(name, where=None, score=None, exclude=None, optional=False, near=None, r=5.0, avail=True, pick_="best", pool="present"):
-    d = {"name": name, "where": where or [], "score": score or [], "exclude": exclude or ["actor", "target"],
+def role(name, where=None, score=None, exclude=None, optional=False, near=None, r=5.0, avail=True, pick_="best", pool="present", fn=None, **kw):
+    d = {"name": name, "where": where or [], "score": score or [], "exclude": exclude if exclude is not None else ["actor", "target"],
          "optional": optional, "available": avail, "pick": pick_, "pool": pool}
     if near: d["near"] = near; d["r"] = r
+    if fn: d["fn"] = fn
+    d.update(kw)
     return d
 
 def var(name, fn, optional=False, **kw):
@@ -578,6 +589,7 @@ ev(id="accusation", trigger="", priority=85, conditions=[c_avail("target")],
             say("actor", "accuse_coffee", to="target", when=[c_var("incident", eq="coffee")]),
             say("actor", "accuse_item", to="target", when=[c_var("incident", eq="item")]),
             say("actor", "accuse_promo", to="target", when=[c_var("incident", eq="promo")]),
+            say("actor", "accuse_lunch", to="target", when=[c_var("incident", eq="lunch")]),
             chain("defense", delay=1.2)],
    outcomes=[
        out("guilty_deny", [say("target", "smooth_deny", delay=1.5), say("actor", "not_convinced", delay=3.0),
@@ -610,8 +622,9 @@ ev(id="accusation", trigger="", priority=85, conditions=[c_avail("target")],
    ])
 
 ev(id="defense", trigger="", priority=70, allow_absent=True,
-   roles=[role("defender", where=[c_avail("self"), c_rel("self", "target", "friendship", gt=26)],
-               score=[s_aff("self", "target", 0.02), s_trait("self", "empathy", 0.5), s_trait("self", "temper", 0.2), s_aff("self", "actor", -0.01)],
+   roles=[role("defender", where=[c_avail("self"), {"c": "any", "of": [c_rel("self", "target", "friendship", gt=26), {"c": "bond", "a": "self", "b": "target", "kind": "alliance"}]}],
+               score=[s_aff("self", "target", 0.02), s_trait("self", "empathy", 0.5), s_trait("self", "temper", 0.2), s_aff("self", "actor", -0.01),
+                      {"s": "bond", "a": "self", "b": "target", "kind": "alliance", "v": 1.5}],
                near="target", r=5.5)],
    conditions=[c_chance(0.65), c_present("actor"), c_present("target")],
    effects=[say("defender", "defend", to="actor", delay=3.0), say("actor", "stay_out", to="defender", delay=4.6, when=[c_trait("actor", "temper", gt=0.5)]),
@@ -806,7 +819,8 @@ ev(id="boss_scold", trigger="", priority=80, conditions=[c_avail("target")],
             say("actor", "scold_email", to="target", when=[c_var("reason", eq="email")]),
             say("actor", "scold_deadline", to="target", when=[c_var("reason", eq="deadline")]),
             say("actor", "scold_general", to="target", when=[c_var("reason", in_=["general", ""])]),
-            stat("scoldings"), expr("actor", "angry", 5)],
+            stat("scoldings"), expr("actor", "angry", 5),
+            {"e": "trigger", "name": "scolded", "roles": {"actor": "actor", "target": "target"}}],
    outcomes=[
        out("takes_it", [say("target", "sorry_boss", to="actor", delay=1.6), stress("target", 10), mood("target", -8),
                         mem("target", "actor", "scolded", -0.4, 0.6, "mem.scolded", 2), log("log.scolded", 3, "boss")],
@@ -995,7 +1009,7 @@ ev(id="review_shock", trigger="fact_learned", filter={"fact": "ahmet_review", "a
    conditions=[c_present("actor")],
    effects=[expr("actor", "surprised", 6), say("actor", "boss_review_shock"), goal("actor", "impress_hq"), log("log.boss_review", 4, "secret")])
 
-ev(id="secret_call", trigger="secret_call", priority=45, max_day=3,
+ev(id="secret_call", trigger="secret_call", priority=45, max_day=2,
    roles=[role("listener", where=[c_avail("self")], score=[s_trait("self", "curiosity", 1.0), s_dist("actor", "self", -0.2)],
                exclude=["actor"], near="actor", r=3.8, optional=True)],
    effects=[say("actor", "secret_call_line"), reveal("burak_job_hunt")],
@@ -1045,7 +1059,7 @@ ev(id="couple_forms", trigger=["encounter", "chat"], priority=66, max_day=1,
 ev(id="secret_friends_spotted", trigger=["encounter", "chat"], priority=35, scope="pair", cooldown=400, max_day=2,
    roles=[role("spotter", where=[c_avail("self"), c_trait("self", "gossip", gt=0.5)], score=[s_trait("self", "gossip", 1.0)],
                near="actor", r=4.5)],
-   conditions=[c_aff("actor", "target", gt=48), c_aff("target", "actor", gt=48), c_chance(0.4)],
+   conditions=[c_aff("actor", "target", gt=48), c_aff("target", "actor", gt=48), c_chance(0.15)],
    effects=[rumor("secret_friends", juicy=0.5, knowers=["spotter"]), say("spotter", "spotted_secret_friends"), emote("spotter", "idea"),
             log("log.secret_friends", 2, "rumor", who="spotter")])
 
@@ -1068,6 +1082,7 @@ ev(id="reconciliation", trigger=["encounter", "chat", "desk_chat"], priority=64,
        out("makeup", [say("target", "apology_accept", to="actor", delay=1.6), rel("actor", "target", "friendship", 20, both=True),
                       rel("actor", "target", "trust", 10, both=True), rel("actor", "target", "rivalry", -10, both=True),
                       mem("actor", "target", "made_up", 0.6, 0.8, "mem.made_up", 3), mem("target", "actor", "made_up", 0.6, 0.8, "mem.made_up", 3),
+                      {"e": "bond", "a": "actor", "b": "target", "kind": "feud", "v": False},
                       emote("actor", "love", delay=1.6), stat("reconciliations"), log("log.reconcile", 3, "friendship")],
            score=[s_trait("target", "forgiveness", 1.2), s_mood("target", 0.01), s_const(0.2)]),
        out("rebuffed", [say("target", "apology_reject", to="actor", delay=1.6), rel("actor", "target", "friendship", -4),

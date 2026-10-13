@@ -16,6 +16,7 @@ var queue: Array = []               # {at, effects, ctx}
 var cooldowns: Dictionary = {}      # key -> abs time when ready
 var day_counts: Dictionary = {}     # event id -> count today
 var fired_total: Dictionary = {}    # event id -> count ever (for tests/diagnostics)
+var outcome_total: Dictionary = {}  # "event/outcome" -> count ever (diagnostics, not saved)
 
 
 func _init(world) -> void:
@@ -63,23 +64,55 @@ func fire(trigger: String, payload: Dictionary = {}) -> bool:
 	return fired
 
 
-## Run a specific event directly (used by intents and chains). Roles given explicitly.
+## Run a specific event directly (used by intents, chains and story arcs).
+## Every key of `roles` is a role name (story casts use their own names).
 func run_event(id: String, roles: Dictionary, vars: Dictionary = {}) -> bool:
 	if not defs.has(id):
 		push_warning("Unknown event id %s" % id)
 		return false
-	var payload := roles.duplicate()
-	payload["_vars"] = vars
-	return _try(defs[id], payload, true)
+	return _try(defs[id], {"_roles": roles, "_vars": vars}, true)
 
 
-func _try(d: Dictionary, payload: Dictionary, direct := false) -> bool:
+## A character starts something on their own initiative (chosen by the StoryDirector).
+## The actor must still fit the event's "actor" requirements.
+func try_initiative(d: Dictionary, actor: String) -> bool:
+	for rs in d.get("roles", []):
+		if rs["name"] == "actor":
+			var sub := {"roles": {"self": actor, "actor": actor}, "vars": {}}
+			if rs.get("available", true) and not w.available(actor):
+				return false
+			if not ev.all(rs.get("where", []), sub):
+				return false
+	return _try(d, {"actor": actor}, false, true)
+
+
+## Daily cap and global cooldown (cheap pre-check for the director).
+func day_ok(d: Dictionary) -> bool:
+	if d.has("max_day") and int(day_counts.get(d["id"], 0)) >= int(d["max_day"]):
+		return false
+	if d.get("scope", "global") == "global" and cooldowns.has(d["id"]) and float(cooldowns[d["id"]]) > w.abs_now():
+		return false
+	return true
+
+
+## Per-actor cooldown pre-check.
+func cool_ok(d: Dictionary, actor: String) -> bool:
+	if d.get("scope", "global") != "actor":
+		return true
+	var k := "%s|%s" % [d["id"], actor]
+	return not (cooldowns.has(k) and float(cooldowns[k]) > w.abs_now())
+
+
+func _try(d: Dictionary, payload: Dictionary, direct := false, skip_chance := false) -> bool:
 	var ctx := {"event": d["id"], "roles": {}, "vars": {}}
 	# payload: npc ids for known role names go to roles, everything else to vars
 	for k in payload:
 		if k == "_vars":
 			for vk in payload[k]:
 				ctx["vars"][vk] = payload[k][vk]
+		elif k == "_roles":
+			for rk in payload[k]:
+				ctx["roles"][rk] = str(payload[k][rk])
 		elif k in ROLE_NAMES:
 			ctx["roles"][k] = payload[k]
 		else:
@@ -101,7 +134,7 @@ func _try(d: Dictionary, payload: Dictionary, direct := false) -> bool:
 	# daily cap & chance
 	if d.has("max_day") and int(day_counts.get(d["id"], 0)) >= int(d["max_day"]):
 		return false
-	if not direct and d.has("chance") and w.rng.randf() > float(d["chance"]):
+	if not direct and not skip_chance and d.has("chance") and w.rng.randf() > float(d["chance"]):
 		return false
 	# cooldown (checked with initial roles)
 	var ck := _cool_key(d, ctx)
@@ -152,12 +185,14 @@ func _try(d: Dictionary, payload: Dictionary, direct := false) -> bool:
 		if best.is_empty():
 			return false
 		ctx["vars"]["outcome"] = best.get("id", "")
+		var ok_key: String = d["id"] + "/" + str(best.get("id", ""))
+		outcome_total[ok_key] = int(outcome_total.get(ok_key, 0)) + 1
 		effects = effects + best.get("effects", [])
 	# commit
 	day_counts[d["id"]] = int(day_counts.get(d["id"], 0)) + 1
 	fired_total[d["id"]] = int(fired_total.get(d["id"], 0)) + 1
-	if d.has("cooldown"):
-		cooldowns[_cool_key(d, ctx)] = w.abs_now() + float(d["cooldown"])
+	if d.has("cooldown") or d.has("cooldown_days"):
+		cooldowns[_cool_key(d, ctx)] = w.abs_now() + float(d.get("cooldown", 0.0)) + float(d.get("cooldown_days", 0)) * 10000.0
 	var delay0 := float(d.get("delay", 0.0))
 	if delay0 > 0.0:
 		var shifted: Array = []
@@ -192,6 +227,19 @@ func _pick_role(rs: Dictionary, ctx: Dictionary) -> String:
 		var id := ev.who(x, ctx)
 		if id != "":
 			excl.append(id)
+	if rs.has("fn"):
+		# role filled by a code-side picker (e.g. "the person I'd gossip with")
+		var pv = w.pick_var(rs["fn"], rs, ctx)
+		var pid := str(pv) if pv != null else ""
+		if pid == "" or pid in excl or w.npc(pid) == null:
+			return ""
+		if rs.get("available", false) and not w.available(pid):
+			return ""
+		var sub0 := ctx.duplicate(true)
+		sub0["roles"]["self"] = pid
+		if not ev.all(rs.get("where", []), sub0):
+			return ""
+		return pid
 	var pool: Array = []
 	var source: String = rs.get("pool", "present")
 	if source == "all":
