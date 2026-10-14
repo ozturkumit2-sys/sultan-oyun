@@ -25,6 +25,7 @@ func set_style(s: String) -> void:
 		"manila": m = {"l": 26, "t": 60, "r": 26, "b": 18}
 		"cork": m = {"l": 26, "t": 56, "r": 26, "b": 22}
 		"newspaper": m = {"l": 24, "t": 20, "r": 24, "b": 20}
+		"journal": m = {"l": 40, "t": 34, "r": 34, "b": 30}
 	content.add_theme_constant_override("margin_left", m["l"])
 	content.add_theme_constant_override("margin_top", m["t"])
 	content.add_theme_constant_override("margin_right", m["r"])
@@ -97,3 +98,26 @@ func _draw() -> void:
 			draw_rect(r, UiKit.INK_SOFT, false, 1.2)
 		"sticky":
 			UiKit.draw_note(self, r, col)
+		"journal":
+			# a leather-bound field journal: green cover, stitched edge, cream page, red ribbon
+			draw_rect(Rect2(r.position + Vector2(6, 9), r.size), Color(0, 0, 0, 0.28))
+			draw_rect(r, Color("2f4a3a"))
+			var st := r.grow(-7)
+			var dash := 10.0
+			var x := st.position.x
+			while x < st.end.x - dash:
+				draw_line(Vector2(x, st.position.y), Vector2(x + dash * 0.6, st.position.y), Color("d8c79a"), 1.4)
+				draw_line(Vector2(x, st.end.y), Vector2(x + dash * 0.6, st.end.y), Color("d8c79a"), 1.4)
+				x += dash
+			var page := r.grow(-16)
+			page.position.x += 8
+			page.size.x -= 8
+			draw_rect(page, Color("f7f0dc"))
+			var y := page.position.y + 64.0
+			while y < page.end.y - 8:
+				draw_line(Vector2(page.position.x + 6, y), Vector2(page.end.x - 6, y), Color(0.45, 0.55, 0.7, 0.16), 1.0)
+				y += 34.0
+			draw_line(Vector2(page.position.x + 22, page.position.y), Vector2(page.position.x + 22, page.end.y), Color(0.85, 0.3, 0.3, 0.3), 1.2)
+			draw_rect(Rect2(page.position, Vector2(10, page.size.y)), Color(0, 0, 0, 0.08))
+			var rx := r.size.x - 120.0
+			draw_colored_polygon(PackedVector2Array([Vector2(rx, 0), Vector2(rx + 24, 0), Vector2(rx + 24, 58), Vector2(rx + 12, 48), Vector2(rx, 58)]), Color("b23a48"))

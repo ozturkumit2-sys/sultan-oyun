@@ -247,6 +247,34 @@ func _check(c: Dictionary, ctx: Dictionary) -> bool:
 		"result":
 			var fv2 = w.flags.get("arc_%s_%s" % [c["arc"], c["result"]], null)
 			return fv2 != null and int(fv2) >= int(w.day) - int(c.get("days", 99))
+		"ostate":
+			# object state by path, e.g. "ws.{owner}.locked" or "kitchen.reserved"
+			var path: String = w.events.res.fmt(str(c["path"]), ctx)
+			var ov = C.dict_get_path(w.office.objects, path)
+			if c.has("eq"):
+				var want = c["eq"]
+				if typeof(want) == TYPE_STRING and str(want).begins_with("%"):
+					want = who(str(want).substr(1), ctx)
+				return eq(ov, want)
+			if c.has("gt") or c.has("lt") or c.has("gte") or c.has("lte"):
+				return _cmp(float(ov if typeof(ov) in [TYPE_INT, TYPE_FLOAT] else 0), c)
+			return truthy(ov)
+		"iv":
+			# an intervention was used (today / within N days), optionally on the same person
+			var same := who(c["same"], ctx) if c.has("same") else ""
+			return w.iv.used_recently(str(c["id"]), int(c.get("days", 0)), same)
+		"trap":
+			return w.has_trap(w.events.res.fmt(str(c["key"]), ctx))
+		"in_meeting":
+			return w.in_meeting(who(c.get("who", "actor"), ctx))
+		"attends":
+			var aid := who(c.get("who", "actor"), ctx)
+			return not w.meeting.is_empty() and not w.meeting.get("ended", false) and aid in w.meeting.get("attendees", [])
+		"pins":
+			for pn in w.office.objects["notice"]["pins"]:
+				if pn["kind"] == c["kind"]:
+					return true
+			return false
 		"any":
 			for sub in c["of"]:
 				if check(sub, ctx):

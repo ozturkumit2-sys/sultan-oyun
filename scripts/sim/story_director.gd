@@ -23,6 +23,7 @@ const AREA_SPOTS := {
 	"meeting": ["m2", "m6", "m3", "m7", "m4", "m8", "m5"],
 	"boss": ["boss_guest", "boss_front"],
 	"open": ["announce", "w0", "w1", "w2", "w3", "w4", "w5", "w6"],
+	"reception": ["hr1", "hr2", "hr3", "hr4", "hr5", "hh1", "hh2", "w7", "w6", "w11"],
 }
 
 var w  # SimWorld
@@ -35,6 +36,9 @@ var starts_today := 0
 var tiers: Dictionary = {}          # tier -> count today
 var targets: Dictionary = {}        # tier -> today's natural target
 var history: Dictionary = {}        # event id -> [days it fired] (novelty)
+var actor_hist: Dictionary = {}     # "event|actor" -> [days] (the same person shouldn't keep starting the same thing)
+var last_init: Dictionary = {}      # actor -> abs time they last started something on their own
+var last_big := -1000.0             # abs time the last big story started today
 var meetups: Array = []
 var initiative: Array = []          # event defs with trigger "initiative"
 var _t_arc := 0.0
@@ -73,13 +77,18 @@ func reset() -> void:
 	arc_last_end.clear()
 	counter = 0
 	history.clear()
+	actor_hist.clear()
+	last_init.clear()
 	meetups.clear()
 	tiers.clear()
 
 
 func new_day() -> void:
 	tiers = {"small": 0, "medium": 0, "big": 0, "beat": 0}
-	targets = {"small": w.rng.randi_range(5, 8), "medium": w.rng.randi_range(1, 3), "big": 1}
+	# natural tempo targets (not quotas): ~8-12 small, 3-5 medium, 0-2 big developments a day
+	var rb: float = w.rng.randf()
+	targets = {"small": w.rng.randi_range(8, 12), "medium": w.rng.randi_range(3, 5), "big": 0 if rb < 0.18 else (2 if rb > 0.8 else 1)}
+	last_big = -1000.0
 	starts_today = 0
 	meetups.clear()
 	_t_arc = 0.0
@@ -91,12 +100,13 @@ func new_day() -> void:
 			inst["stage_t0"] = -1.0
 			inst["due"] = maxf(float(inst["due"]), w.abs_now() + 15.0)
 	# forget very old history
-	for k in history.keys():
-		var days: Array = history[k]
-		while not days.is_empty() and int(days[0]) < w.day - 4:
-			days.pop_front()
-		if days.is_empty():
-			history.erase(k)
+	for hd in [history, actor_hist]:
+		for k in hd.keys():
+			var days: Array = hd[k]
+			while not days.is_empty() and int(days[0]) < w.day - 4:
+				days.pop_front()
+			if days.is_empty():
+				hd.erase(k)
 
 
 # =====================================================================
@@ -111,6 +121,17 @@ func on_event_fired(d: Dictionary, ctx: Dictionary) -> void:
 	if not history.has(id):
 		history[id] = []
 	history[id].append(w.day)
+	var trig = d.get("trigger", "")
+	if (typeof(trig) == TYPE_STRING and trig == "initiative") or (typeof(trig) == TYPE_ARRAY and "initiative" in trig):
+		var who := str(ctx.get("roles", {}).get("actor", ""))
+		if who != "":
+			var ak := id + "|" + who
+			if not actor_hist.has(ak):
+				actor_hist[ak] = []
+			actor_hist[ak].append(w.day)
+			last_init[who] = w.abs_now()
+		if tier == "big":
+			last_big = w.abs_now()
 	var uid: String = str(ctx.get("vars", {}).get("_arc", ""))
 	if uid != "":
 		_stage_ran(uid, d, ctx)
@@ -149,7 +170,10 @@ func wants() -> Dictionary:
 	var r := {}
 	r["small"] = float(targets.get("small", 6)) * frac - float(tiers.get("small", 0))
 	r["medium"] = float(targets.get("medium", 2)) * clampf((m - 60.0) / 400.0, 0.0, 1.0) - float(tiers.get("medium", 0))
-	r["big"] = 1.0 if (int(tiers.get("big", 0)) == 0 and m > 50.0 and m < 430.0 and arcs.size() < MAX_ARCS and starts_today < MAX_STARTS_PER_DAY) else 0.0
+	# a second big development only later in the day and well after the first
+	var big_ok: bool = int(tiers.get("big", 0)) < int(targets.get("big", 1)) and m > 50.0 and m < 430.0 \
+		and arcs.size() < MAX_ARCS and starts_today < MAX_STARTS_PER_DAY and w.abs_now() - last_big > 150.0
+	r["big"] = 1.0 if big_ok else 0.0
 	return r
 
 
@@ -271,14 +295,24 @@ func candidates_for(d: Dictionary) -> Array:
 			break
 	var novelty := -0.55 * fired_recently(d["id"])
 	for id in w.present_ids():
-		if not w.available(id):
+		if not w.available(id) or w.npc(id).act == "meeting":
 			continue
 		if not w.events.cool_ok(d, id):
 			continue
+		# the same person doesn't keep starting the same thing, or start things back to back
+		var own := 0
+		for dd in actor_hist.get(d["id"] + "|" + id, []):
+			if int(dd) >= w.day - 2:
+				own += 1
+		if own >= 2:
+			continue
+		var pers := -0.9 * own
+		if w.abs_now() - float(last_init.get(id, -1000.0)) < 25.0:
+			pers -= 0.8
 		var sub := {"roles": {"self": id, "actor": id}, "vars": {}, "event": d["id"]}
 		if not ev.all(spec.get("where", []), sub):
 			continue
-		var s: float = 1.0 + ev.score(spec.get("score", []), sub) + novelty + w.rng.randf() * 0.35
+		var s: float = 1.0 + ev.score(spec.get("score", []), sub) + novelty + pers + w.rng.randf() * 0.35
 		out.append([s, d, id])
 	return out
 
@@ -344,6 +378,8 @@ func start_arc(arc_id: String, cast: Dictionary, vars: Dictionary = {}, stage :=
 	arcs.append(inst)
 	starts_today += 1
 	_trace(inst, "START " + str(cast))
+	if w.discovery != null:
+		w.discovery.on_arc_start(arc_id, vars)
 	return uid
 
 
@@ -415,6 +451,8 @@ func arc_end(uid: String, result: String) -> void:
 		w.flags["arc_%s_%s" % [inst["arc"], result]] = w.day
 	w.flags["arc_%s_last" % inst["arc"]] = result
 	finished.append({"uid": inst["uid"], "arc": inst["arc"], "result": result, "day": w.day, "cast": inst["cast"].duplicate(), "beat": inst.get("beat", ""), "steps": inst["steps"].size()})
+	if w.discovery != null:
+		w.discovery.on_arc_end(inst["arc"], result)
 	if finished.size() > 12:
 		finished.pop_front()
 	_cancel_intents(inst)
@@ -526,8 +564,11 @@ func _issue(inst: Dictionary, st: Dictionary, actor: String) -> bool:
 			if not meetup([actor, target], st.get("area", "kitchen"), st["event"], roles, vars, ttl, prio):
 				return false
 		"gather":
+			if st.get("area", "") == "meeting" and _meeting_room_busy():
+				return false
 			var ids: Array = []
-			if st.get("who", "all") == "all":
+			var who_spec = st.get("who", "all")
+			if typeof(who_spec) == TYPE_STRING and who_spec == "all":
 				for id in w.present_ids():
 					if w.available(id) or id == actor:
 						ids.append(id)
@@ -536,6 +577,8 @@ func _issue(inst: Dictionary, st: Dictionary, actor: String) -> bool:
 					var id2 := _who(inst, r)
 					if id2 != "" and w.npc(id2).present:
 						ids.append(id2)
+			for r4 in st.get("exclude", []):
+				ids.erase(_who(inst, r4))
 			if ids.size() < 2:
 				return false
 			var must: Array = []
@@ -648,7 +691,14 @@ func on_logged(entry: Dictionary, ctx: Dictionary) -> void:
 # Meetups: people walk to the same corner, the scene plays when all arrive
 # =====================================================================
 
-func meetup(ids: Array, area: String, event: String, roles: Dictionary, vars: Dictionary, ttl: float, prio := 60.0, need := 0, must: Array = []) -> bool:
+func meetup(ids_in: Array, area: String, event: String, roles: Dictionary, vars: Dictionary, ttl: float, prio := 60.0, need := 0, must: Array = []) -> bool:
+	var ids: Array = []
+	for mid0 in ids_in:
+		var mn = w.npc(str(mid0))
+		if mn != null and mn.present and not ids.has(str(mid0)) and mn.act != "meeting" and not (mn.meeting_state in ["waiting", "in"]):
+			ids.append(str(mid0))
+	if ids.size() < 2:
+		return false
 	var spots: Array = AREA_SPOTS.get(area, AREA_SPOTS["kitchen"]).duplicate()
 	var o: OfficeEnv = w.office
 	var free: Array = []
@@ -737,7 +787,7 @@ func _check_meetups() -> void:
 func to_dict() -> Dictionary:
 	return {"arcs": arcs.duplicate(true), "finished": finished.duplicate(true), "arc_last_end": arc_last_end.duplicate(),
 		"counter": counter, "starts_today": starts_today, "tiers": tiers.duplicate(), "targets": targets.duplicate(),
-		"history": history.duplicate(true), "meetups": meetups.duplicate(true)}
+		"history": history.duplicate(true), "meetups": meetups.duplicate(true), "actor_hist": actor_hist.duplicate(true)}
 
 
 func from_dict(d: Dictionary) -> void:
@@ -749,6 +799,7 @@ func from_dict(d: Dictionary) -> void:
 	tiers = d.get("tiers", {"small": 0, "medium": 0, "big": 0, "beat": 0})
 	targets = d.get("targets", {"small": 6, "medium": 2, "big": 1})
 	history = d.get("history", {})
+	actor_hist = d.get("actor_hist", {})
 	meetups = d.get("meetups", [])
 	# JSON turns ints into floats: normalise what we compare as ints
 	for inst in arcs:

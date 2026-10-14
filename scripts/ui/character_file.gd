@@ -107,7 +107,14 @@ func _build() -> void:
 		var txt := w.memory_text(m)
 		if txt == "":
 			continue
-		var row := Sheet.label("“%s”  — %s" % [txt, Loc.t("ui.day", {"day": int(m["day"])}).capitalize()], 19, "type", UiKit.INK)
+		var tags: Array = [Loc.t("ui.day", {"day": int(m["day"])}).capitalize()]
+		var emo := str(m.get("emo", ""))
+		if emo != "" and Loc.t("emo." + emo) != "":
+			tags.append(Loc.t("emo." + emo))
+		var cert := float(m.get("cert", 1.0))
+		if str(m.get("src", "")) == "heard" or cert < 0.8:
+			tags.append(Loc.t("ui.mem_heard") if cert >= 0.5 else Loc.t("ui.mem_doubt"))
+		var row := Sheet.label("“%s”  — %s" % [txt, " · ".join(tags)], 19, "type", UiKit.INK)
 		v.add_child(row)
 	# --- secrets
 	v.add_child(_section(Loc.t("ui.secrets")))
@@ -181,26 +188,29 @@ func _rel_row(n: NPC, other: String) -> Control:
 	var p := Portrait.make(w, other, Vector2(52, 52), false, 1.15)
 	h.add_child(p)
 	var c := Control.new()
-	c.custom_minimum_size = Vector2(0, 56)
+	c.custom_minimum_size = Vector2(0, 92)
 	c.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	c.draw.connect(func():
 		var nn: NPC = w.npc(npc_id)
 		var on: NPC = w.npc(other)
-		var tr := nn.get_rel(other, "trust")
-		var fr := nn.get_rel(other, "friendship")
 		var rv := nn.get_rel(other, "rivalry")
 		c.draw_string(UiKit.font("hand"), Vector2(0, 22), on.name, HORIZONTAL_ALIGNMENT_LEFT, -1, 22, UiKit.INK)
 		var op := Loc.t(opinion_key(nn.affinity(other), rv))
 		c.draw_string(UiKit.font("hand"), Vector2(0, 46), op, HORIZONTAL_ALIGNMENT_LEFT, -1, 17, Color(0.35, 0.35, 0.4))
+		if nn.get_rel(other, "suspicion") > 25.0:
+			c.draw_string(UiKit.font("hand"), Vector2(0, 70), Loc.t("ui.suspicion") + "!", HORIZONTAL_ALIGNMENT_LEFT, -1, 16, UiKit.RED)
+		# one-way feelings: what THIS person feels about the other (it needn't be mutual)
 		var bx := 128.0
 		var bw := (c.size.x - bx - 6) / 3.0 - 8
-		var labels := [Loc.t("ui.friendship"), Loc.t("ui.trust"), Loc.t("ui.rivalry")]
-		var vals := [(fr + 100) / 200.0, (tr + 100) / 200.0, rv / 100.0]
-		var cols := [Color("e0608a"), Color("2b6cb0"), Color("e76f51")]
-		for i in 3:
-			var x: float = bx + i * (bw + 8)
-			c.draw_string(UiKit.font("hand"), Vector2(x, 20), labels[i], HORIZONTAL_ALIGNMENT_LEFT, bw, 15, Color(0.35, 0.35, 0.4))
-			UiKit.draw_scribble_bar(c, Rect2(x, 28, bw, 12), vals[i], cols[i]))
+		var labels := [Loc.t("ui.friendship"), Loc.t("ui.trust"), Loc.t("ui.respect"), Loc.t("ui.rivalry"), Loc.t("ui.romance"), Loc.t("ui.resentment")]
+		var vals := [(nn.get_rel(other, "friendship") + 100) / 200.0, (nn.get_rel(other, "trust") + 100) / 200.0, (nn.get_rel(other, "respect") + 100) / 200.0,
+			rv / 100.0, nn.get_rel(other, "romance") / 100.0, nn.get_rel(other, "resentment") / 100.0]
+		var cols := [Color("e0608a"), Color("2b6cb0"), Color("2a9d8f"), Color("e76f51"), Color("d6336c"), Color("6b4fb3")]
+		for i in 6:
+			var x: float = bx + (i % 3) * (bw + 8)
+			var y: float = 0.0 if i < 3 else 44.0
+			c.draw_string(UiKit.font("hand"), Vector2(x, 18 + y), labels[i], HORIZONTAL_ALIGNMENT_LEFT, bw, 15, Color(0.35, 0.35, 0.4))
+			UiKit.draw_scribble_bar(c, Rect2(x, 26 + y, bw, 11), clampf(vals[i], 0.0, 1.0), cols[i]))
 	h.add_child(c)
 	return h
 

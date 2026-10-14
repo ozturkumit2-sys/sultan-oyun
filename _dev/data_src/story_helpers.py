@@ -29,9 +29,10 @@ def plan(who, kind, target="", v=True, heat=1.0, when=None):
     if when: r["when"] = when
     return r
 
-def morale(who, d, when=None):
+def morale(who, d, when=None, delay=0):
     r = {"e": "morale", "who": who, "d": d}
     if when: r["when"] = when
+    if delay: r["delay"] = delay
     return r
 
 def arc_start(arc, cast, vars=None, stage="", when=None, force=False):
@@ -55,7 +56,9 @@ def arc_end(result, when=None):
 
 def meetup(event, who=("actor", "target"), area="kitchen", roles=None, ttl=40, need=0, prio=58, when=None, delay=0):
     r = {"e": "meetup", "who": list(who), "area": area, "event": event, "ttl": ttl, "prio": prio}
-    if roles: r["roles"] = roles
+    if roles:
+        # extra roles come on top of the two people meeting (unless re-mapped explicitly)
+        r["roles"] = dict({"actor": "actor", "target": "target"}, **roles)
     if need: r["need"] = need
     if when: r["when"] = when
     if delay: r["delay"] = delay
@@ -83,15 +86,23 @@ def trigger(name, roles=None, vars=None, delay=0, when=None):
     if when: r["when"] = when
     return r
 
-def act(who, a, place="", obj="", dur=6, target=""):
+def act(who, a, place="", obj="", dur=6, target="", when=None, delay=0):
     r = {"e": "act", "who": who, "act": a, "dur": dur}
+    if when: r["when"] = when
+    if delay: r["delay"] = delay
     if place: r["place"] = place
     if obj: r["obj"] = obj
     if target: r["target"] = target
     return r
 
-def setv(key, v):
-    return {"e": "set", "key": key, "v": v}
+def setv(key, v, when=None):
+    r = {"e": "set", "key": key, "v": v}
+    if when: r["when"] = when
+    return r
+
+def storm(who, delay=0, when=None):
+    """Someone turns on their heel and marches back to their desk, fuming."""
+    return call("storm_off", who=who, delay=delay, when=when)
 
 def special(fn, **kw):
     return call(fn, **kw)
@@ -221,7 +232,7 @@ def arc(id, tier, first, stages, cooldown_days=3, max_active=1, cast=None):
               "max_active": max_active, "cast": cast or []})
 
 def stage(event, mode="now", actor="actor", target="", wait=(2, 10), ttl=90, window=None, fail="end:fizzled",
-          area="", place="", prio=62, who=None, need=0, fail_log="", default_end="done", must=None):
+          area="", place="", prio=62, who=None, need=0, fail_log="", default_end="done", must=None, exclude=None):
     st = {"event": event, "mode": mode, "actor": actor, "wait": list(wait), "ttl": ttl, "fail": fail, "prio": prio,
           "default_end": default_end}
     if target: st["target"] = target
@@ -231,5 +242,6 @@ def stage(event, mode="now", actor="actor", target="", wait=(2, 10), ttl=90, win
     if who: st["who"] = who
     if need: st["need"] = need
     if must: st["must"] = list(must)
+    if exclude: st["exclude"] = list(exclude)   # gather: people who must NOT be called over
     if fail_log: st["fail_log"] = fail_log
     return st

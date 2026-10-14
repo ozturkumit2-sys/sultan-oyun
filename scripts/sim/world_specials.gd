@@ -57,9 +57,9 @@ static func pick(w, fn: String, spec: Dictionary, ctx: Dictionary):
 		"birthday_person":
 			return str(w.day_flags.get("birthday", ""))
 		"worst_of":
-			return extreme_of(w, ev.who(spec.get("of", "actor"), ctx), false, float(spec.get("lim", 0.0)), spec.get("avail", spec.get("available", true)))
+			return extreme_of(w, ev.who(spec.get("of", "actor"), ctx), false, float(spec.get("lim", 0.0)), spec.get("avail", spec.get("available", true)), _excl(ev, spec, ctx))
 		"best_of":
-			return extreme_of(w, ev.who(spec.get("of", "actor"), ctx), true, float(spec.get("lim", 0.0)), spec.get("avail", spec.get("available", true)))
+			return extreme_of(w, ev.who(spec.get("of", "actor"), ctx), true, float(spec.get("lim", 0.0)), spec.get("avail", spec.get("available", true)), _excl(ev, spec, ctx))
 		"plan_target":
 			var pn: NPC = w.npc(ev.who(spec.get("of", "actor"), ctx))
 			return pn.plan_target(spec["kind"]) if pn else ""
@@ -79,6 +79,306 @@ static func pick(w, fn: String, spec: Dictionary, ctx: Dictionary):
 			return w.office.item_owned_by(ev.who(spec.get("of", "target"), ctx))
 		"clumsy_one":
 			return clumsy_one(w, ev.who(spec.get("not", "actor"), ctx))
+		"now_time":
+			return w.minute
+		"loves_music", "hates_music":
+			var mid := ev.who(spec.get("of", "self"), ctx)
+			var mn: NPC = w.npc(mid)
+			var genre: String = str(w.office.objects["music"].get("genre", ""))
+			if genre == "" and w.office.objects["lights"].get("party", false):
+				genre = "disco"
+			if mn == null or genre == "":
+				return ""
+			var taste := float(mn.prefs.get("music", {}).get(genre, 0.0))
+			if fn == "loves_music":
+				return mid if taste > 0.4 else ""
+			return mid if taste < -0.3 else ""
+		"false_rumor":
+			# a live false rumour with a known origin, about someone who's here
+			for f in w.dyn_facts:
+				var r: Dictionary = w.dyn_facts[f]
+				if bool(r.get("truth", true)) or r.get("debunked", false):
+					continue
+				var org: String = str(r.get("origin", ""))
+				var sub: String = str(r.get("a", ""))
+				if org == "" or sub == "" or org == sub or not w.npc(org).present or not w.npc(sub).present:
+					continue
+				ctx["vars"]["fact"] = f
+				ctx["vars"]["origin"] = org
+				ctx["vars"]["subject"] = sub
+				return f
+			return ""
+		"alliance_pair":
+			for k in w.bonds:
+				var p: PackedStringArray = str(k).split("|")
+				if p[2] == "alliance" and w.npc(p[0]).present and w.npc(p[1]).present:
+					ctx["vars"]["b"] = p[1]
+					return p[0]
+			return ""
+		"rival_pair":
+			var best_r := float(spec.get("lim", 25.0))
+			var ra := ""
+			var rb := ""
+			var ids: Array = w.present_ids()
+			for i in ids.size():
+				for j in range(i + 1, ids.size()):
+					var rv: float = maxf(w.npc(ids[i]).get_rel(ids[j], "rivalry"), w.npc(ids[j]).get_rel(ids[i], "rivalry")) \
+						+ maxf(w.npc(ids[i]).get_rel(ids[j], "resentment"), 0.0) * 0.5
+					if rv > best_r:
+						best_r = rv
+						ra = ids[i]
+						rb = ids[j]
+			if ra == "":
+				return ""
+			ctx["vars"]["b"] = rb
+			return ra
+		"has_secret":
+			# a real secret this person is the subject of
+			var hid := ev.who(spec.get("of", "target"), ctx)
+			for f2 in w.fact_defs:
+				if w.fact_exists(f2) and w.fact_subject(f2) == hid:
+					return f2
+			return ""
+		"upcoming_birthday":
+			for id in w.present_ids():
+				var bd := int(w.flags.get("bday_" + id, -100))
+				if bd > w.day and bd <= w.day + 3:
+					return id
+			return ""
+		"job_seeker":
+			# someone secretly applying elsewhere (Burak's known hunt, or anyone with that plan)
+			for id in w.present_ids():
+				var jn: NPC = w.npc(id)
+				if id != "ahmet" and (jn.has_plan("job_search") or (id == "burak" and w.fact_exists("burak_job_hunt") and not w.npc("ahmet").knows("burak_job_hunt"))):
+					return id
+			return ""
+		"promo_day":
+			return "yes" if MeetingFlow.promotion_today(w) else ""
+		"favored":
+			var fid := ev.who(spec.get("of", "self"), ctx)
+			return fid if float(w.favor.get(fid, 0.0)) >= 48.0 else ""
+		"disfavored":
+			var did := ev.who(spec.get("of", "self"), ctx)
+			return did if float(w.favor.get(did, 0.0)) < 40.0 else ""
+		"seat_pair":
+			# the most explosive (or the sweetest) pair sitting in today's meeting
+			var room: Array = []
+			for id in w.present_ids():
+				if id != "ahmet" and w.npc(id).act == "meeting":
+					room.append(id)
+			var best_s := 25.0
+			var pa := ""
+			var pb := ""
+			var kind := ""
+			for i in room.size():
+				for j in range(i + 1, room.size()):
+					var na: NPC = w.npc(room[i])
+					var rv: float = maxf(na.get_rel(room[j], "rivalry"), w.npc(room[j]).get_rel(room[i], "rivalry"))
+					var rm: float = minf(na.get_rel(room[j], "romance"), w.npc(room[j]).get_rel(room[i], "romance"))
+					if rv > best_s:
+						best_s = rv
+						pa = room[i]
+						pb = room[j]
+						kind = "rivals"
+					if rm * 1.4 > best_s:
+						best_s = rm * 1.4
+						pa = room[i]
+						pb = room[j]
+						kind = "crush"
+			if pa == "":
+				return ""
+			ctx["vars"]["b"] = pb
+			ctx["vars"]["pairkind"] = kind
+			return pa
+		"hater_of":
+			# the person who likes X the least (present or not)
+			var hx := ev.who(spec.get("of", "target"), ctx)
+			var hb := ""
+			var hv := float(spec.get("lim", 10.0))
+			for id in w.order:
+				if id == hx or id == ev.who(spec.get("not", ""), ctx):
+					continue
+				var hn: NPC = w.npc(id)
+				var a: float = hn.affinity(hx) + w.rng.randf() * 3.0
+				if a < hv and (hn.present or not spec.get("avail", true)):
+					hv = a
+					hb = id
+			return hb
+		"foe_of":
+			# someone X has a fresh grudge against (recent conflict, resentment or a feud)
+			var fx := ev.who(spec.get("of", "owner"), ctx)
+			var fnpc: NPC = w.npc(fx)
+			if fnpc == null:
+				return ""
+			var fb := ""
+			var fv := 8.0
+			for id in w.order:
+				if id == fx:
+					continue
+				var s2: float = fnpc.get_rel(id, "resentment") - fnpc.mem_bias(id) * 15.0
+				if w.has_bond(fx, id, "feud"):
+					s2 += 30.0
+				if s2 > fv:
+					fv = s2
+					fb = id
+			return fb
+		"boss_fav":
+			# whoever Ahmet currently favours most (excluding someone)
+			var nb := ev.who(spec.get("not", "target"), ctx)
+			var bb := ""
+			var bv := -1.0
+			for id in w.order:
+				if id == "ahmet" or id == nb:
+					continue
+				if float(w.favor.get(id, 0.0)) > bv:
+					bv = float(w.favor.get(id, 0.0))
+					bb = id
+			return bb
+		"slides_owner":
+			return str(w.meeting.get("swap", {}).get(ev.who(spec.get("of", "actor"), ctx), ""))
+		"triangle":
+			# X has a crush on C, and someone else (stored as $rival) has one too
+			var tx := ev.who(spec.get("of", "actor"), ctx)
+			var tn: NPC = w.npc(tx)
+			var tc := crush_of(w, tx)
+			if tn == null or tc == "" or tn.get_rel(tc, "romance") < float(spec.get("lim", 30.0)):
+				return ""
+			var trv := ""
+			var tbest := float(spec.get("rlim", 20.0))
+			for id in w.present_ids():
+				if id == tx or id == tc:
+					continue
+				var rr: float = w.npc(id).get_rel(tc, "romance")
+				if rr > tbest:
+					tbest = rr
+					trv = id
+			if trv == "":
+				return ""
+			ctx["vars"]["rival"] = trv
+			return tc
+		"unhappy_crowd":
+			var uc := 0
+			for id in w.present_ids():
+				if id != "ahmet" and w.npc(id).morale < float(spec.get("lim", 52.0)):
+					uc += 1
+			return "yes" if uc >= int(spec.get("n", 3)) else ""
+		"signed_count":
+			var sc := 0
+			for id in w.present_ids():
+				if EventConditionEvaluator.truthy(w.npc(id).today_flags.get(str(spec.get("key", "signed")), false)):
+					sc += 1
+			return "yes" if sc >= int(spec.get("n", 2)) else ""
+		"most_curious":
+			var mc_not := ev.who(spec.get("not", "actor"), ctx)
+			var mc := ""
+			var mcv := -1.0
+			for id in w.present_ids():
+				if id == mc_not or id == "ahmet" or not w.available(id):
+					continue
+				var cv: float = float(w.npc(id).traits.get("curiosity", 0.5)) + float(w.npc(id).traits.get("gossip", 0.5)) * 0.5 + w.rng.randf() * 0.25
+				if cv > mcv:
+					mcv = cv
+					mc = id
+			return mc
+		"lunch_culprit":
+			# whoever really ate this person's lunch (the fridge raid left a true rumour behind)
+			var lv := ev.who(spec.get("of", "victim"), ctx)
+			var lc := ""
+			var ld := -1
+			for f in w.dyn_facts:
+				var r: Dictionary = w.dyn_facts[f]
+				if r["kind"] != "stole_lunch" or str(r["b"]) != lv or not bool(r.get("truth", true)):
+					continue
+				var ln: NPC = w.npc(str(r["a"]))
+				if ln != null and ln.present and int(r["day"]) >= ld:
+					ld = int(r["day"])
+					lc = str(r["a"])
+			return lc
+		"ostate":
+			# a person stored in an object's state ("promo.credit", "ws.{owner}.love_note", ...)
+			var opath: String = w.events.res.fmt(str(spec.get("path", "")), ctx)
+			var ov = C.dict_get_path(w.office.objects, opath)
+			if typeof(ov) == TYPE_STRING and w.npc(str(ov)) != null:
+				return str(ov)
+			return ""
+		"iv_who":
+			# the owner/target of the most recent use of an intervention
+			for i in range(w.iv.used.size() - 1, -1, -1):
+				var u: Dictionary = w.iv.used[i]
+				if str(u["id"]) == str(spec.get("id", "")) and int(u["day"]) >= w.day - int(spec.get("days", 0)):
+					return str(u.get(str(spec.get("field", "target")), ""))
+			return ""
+		"promo_rightful":
+			# the real front-runner for the promotion (not the person the file was changed to)
+			var pr_not := ev.who(spec.get("not", "credited"), ctx)
+			var prb := ""
+			var prf := -1e9
+			for c in MeetingFlow.candidates(w):
+				if c == pr_not or not w.npc(c).present:
+					continue
+				if float(w.favor.get(c, 0.0)) > prf:
+					prf = float(w.favor.get(c, 0.0))
+					prb = c
+			return prb
+		"top_trait":
+			# who here has the most of a trait (optionally not the boss / not someone)
+			var tt_not := ev.who(spec.get("not", ""), ctx)
+			var ttb := ""
+			var ttv := -1e9
+			for id in w.present_ids():
+				if id == tt_not or (id == "ahmet" and not spec.get("boss", false)):
+					continue
+				if spec.get("avail", false) and not w.available(id):
+					continue
+				var tv2: float = float(w.npc(id).traits.get(str(spec.get("trait", "sociability")), 0.5)) + w.rng.randf() * 0.15
+				if tv2 > ttv:
+					ttv = tv2
+					ttb = id
+			return ttb
+		"most_stressed":
+			var ms_not := ev.who(spec.get("not", ""), ctx)
+			var msb := ""
+			var msv := -1e9
+			for id in w.present_ids():
+				if id == ms_not or id == "ahmet":
+					continue
+				var sv: float = w.npc(id).stress + float(w.npc(id).traits.get("temper", 0.5)) * 10.0
+				if sv > msv:
+					msv = sv
+					msb = id
+			return msb
+		"admirer_of":
+			# whoever has the biggest soft spot for X
+			var ax := ev.who(spec.get("of", "owner"), ctx)
+			var ab := ""
+			var av := float(spec.get("lim", 15.0))
+			for id in w.present_ids():
+				if id == ax:
+					continue
+				var rv3: float = w.npc(id).get_rel(ax, "romance") + w.rng.randf() * 4.0
+				if rv3 > av:
+					av = rv3
+					ab = id
+			return ab
+		"partner_of":
+			# someone this person has a bond with (romance by default) who is here today
+			var po := ev.who(spec.get("of", "actor"), ctx)
+			for pid in w.bonds_of(po, str(spec.get("kind", "romance"))):
+				if w.npc(pid) != null and w.npc(pid).present:
+					return pid
+			return ""
+		"good_vibes":
+			# a party only feels right when people are in a decent mood and the kitchen is free
+			if str(w.office.objects["kitchen"].get("reserved", "")) != "":
+				return ""
+			var gt := 0.0
+			var gn := 0
+			for id in w.present_ids():
+				gt += w.npc(id).mood
+				gn += 1
+			if gn < 4:
+				return ""
+			return "yes" if gt / gn > float(spec.get("lim", 5.0)) else ""
 	return ""
 
 
@@ -146,14 +446,27 @@ static func crush_of(w, who_id: String, taken := false) -> String:
 	return best
 
 
-static func extreme_of(w, who_id: String, best: bool, lim: float, need_avail: bool) -> String:
+## Ids a picker must skip: its "not" and, when it fills a role, the role's exclusions.
+static func _excl(ev, spec: Dictionary, ctx: Dictionary) -> Array:
+	var r: Array = []
+	var nid: String = ev.who(spec.get("not", ""), ctx)
+	if nid != "":
+		r.append(nid)
+	for x in spec.get("exclude", []):
+		var xid: String = ev.who(x, ctx)
+		if xid != "":
+			r.append(xid)
+	return r
+
+
+static func extreme_of(w, who_id: String, best: bool, lim: float, need_avail: bool, not_ids: Array = []) -> String:
 	var n: NPC = w.npc(who_id)
 	if n == null:
 		return ""
 	var pick := ""
 	var bv := -1e9
 	for id in w.present_ids():
-		if id == who_id or (need_avail and not w.available(id)):
+		if id == who_id or id in not_ids or (need_avail and not w.available(id)):
 			continue
 		var a: float = n.affinity(id) if best else -n.affinity(id)
 		a += w.rng.randf() * 4.0
@@ -463,6 +776,48 @@ static func run(w, fn: String, e: Dictionary, ctx: Dictionary) -> void:
 				var at: float = maxf(w.minute + 4.0, minf(n.lunch_at, ln2.lunch_at))
 				n.lunch_at = at
 				ln2.lunch_at = at + 0.5
+		"alarm_timer":
+			w.office.objects["alarm"]["on"] = true
+			w.office.objects["alarm"]["until"] = w.minute + float(e.get("minutes", 12))
+			w.office_changed.emit("alarm")
+		"storm_off":
+			# someone turns on their heel and marches back to their desk, fuming
+			for sid in w.events.res._ids(e.get("who", "actor"), ctx):
+				var sn: NPC = w.npc(sid)
+				if sn == null or not sn.present or sid == "ahmet" and sn.act == "meeting":
+					continue
+				sn.set_expr("angry", 6.0)
+				sn.hold_until = minf(sn.hold_until, w.minute)
+				w.force_activity(sid, "work", {"prio": 80.0, "storm": true})
+		"flicker":
+			w.office.objects["lights"]["flicker_until"] = w.minute + float(e.get("minutes", 20))
+			w.office_changed.emit("lights")
+		"clock_time":
+			ctx["vars"]["time"] = w.minute + float(w.office.objects["clock"].get("offset", 0))
+		"vars_to_roles":
+			for k in e.get("keys", []):
+				var vv = ctx["vars"].get(k, "")
+				if typeof(vv) == TYPE_STRING and vv != "":
+					ctx["roles"][k] = vv
+		"coffee_late":
+			w.office.objects["coffee"]["late_until"] = w.minute + float(e.get("minutes", 40))
+			w.office_changed.emit("coffee")
+		"swap_favor":
+			# two people's performance files trade places
+			var sa := ev.who(e.get("a", "owner"), ctx)
+			var sb := ev.who(e.get("b", "target"), ctx)
+			if sa != "" and sb != "":
+				var fa := float(w.favor.get(sa, 40.0))
+				w.favor[sa] = float(w.favor.get(sb, 40.0))
+				w.favor[sb] = fa
+		"pick_role":
+			# fill a role at apply time (after the player chose a target)
+			var rn: String = e["role"]
+			if e.get("keep", false) and str(ctx["roles"].get(rn, "")) != "":
+				return
+			var pv = pick(w, str(e["pfn"]), e, ctx)
+			if pv != null and str(pv) != "":
+				ctx["roles"][rn] = str(pv)
 		"take_lunch":
 			# stolen from the fridge: the victim's afternoon gets worse
 			var lt := ev.who(e.get("target", "target"), ctx)

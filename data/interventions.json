@@ -1,0 +1,11510 @@
+{
+ "cats": {
+  "A": "Computers & digital",
+  "B": "Email & messages",
+  "C": "Meetings & calendar",
+  "D": "Documents & paperwork",
+  "E": "Career, promotion & pay",
+  "F": "Phones & calls",
+  "G": "Kitchen & coffee",
+  "H": "Equipment & environment",
+  "I": "Social & gossip",
+  "J": "Hidden combinations"
+ },
+ "list": [
+  {
+   "id": "G01",
+   "key": "break_coffee",
+   "cat": "G",
+   "obj": "coffee_machine",
+   "name": "act.break_coffee",
+   "reuse": {
+    "cool": 60
+   },
+   "icon": "coffee",
+   "watch": [
+    "coffee_broken",
+    "help_request",
+    "fix_done",
+    "accusation"
+   ],
+   "legacy": "break_coffee"
+  },
+  {
+   "id": "G02",
+   "key": "fix_coffee",
+   "cat": "G",
+   "obj": "coffee_machine",
+   "name": "act.fix_coffee",
+   "reuse": {
+    "cool": 30
+   },
+   "icon": "coffee",
+   "watch": [
+    "coffee_ghost",
+    "thank_wrong_person"
+   ],
+   "test": {
+    "setup": [
+     {
+      "e": "obj",
+      "obj": "coffee",
+      "key": "broken",
+      "v": true
+     }
+    ]
+   },
+   "legacy": "fix_coffee"
+  },
+  {
+   "id": "H01",
+   "key": "break_printer",
+   "cat": "H",
+   "obj": "printer",
+   "name": "act.break_printer",
+   "reuse": {
+    "cool": 60
+   },
+   "icon": "printer",
+   "watch": [
+    "printer_broken",
+    "help_request",
+    "fix_done"
+   ],
+   "legacy": "break_printer"
+  },
+  {
+   "id": "C01",
+   "key": "move_meeting",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "act.move_meeting",
+   "reuse": {
+    "cool": 30
+   },
+   "icon": "board",
+   "watch": [
+    "board_noticed",
+    "board_changed",
+    "meeting_late",
+    "meeting_wait_timeout",
+    "meeting_absent"
+   ],
+   "legacy": "move_meeting"
+  },
+  {
+   "id": "H02",
+   "key": "set_temp",
+   "cat": "H",
+   "obj": "ac",
+   "name": "act.set_temp",
+   "reuse": {
+    "cool": 15
+   },
+   "icon": "thermo",
+   "watch": [
+    "temp_changed",
+    "thermo_complaint",
+    "thermostat_war",
+    "thermo_argument"
+   ],
+   "legacy": "set_temp"
+  },
+  {
+   "id": "H03",
+   "key": "lights_off",
+   "cat": "H",
+   "obj": "lights",
+   "name": "act.lights_off",
+   "reuse": {
+    "cool": 45
+   },
+   "icon": "bulb",
+   "watch": [
+    "lights_off_panic",
+    "dark_bonding",
+    "dark_scheme",
+    "ece_spill",
+    "lights_restored"
+   ],
+   "legacy": "lights_off"
+  },
+  {
+   "id": "H04",
+   "key": "lights_on",
+   "cat": "H",
+   "obj": "lights",
+   "name": "act.lights_on",
+   "reuse": {
+    "cool": 10
+   },
+   "icon": "bulb",
+   "watch": [
+    "lights_on_ghost"
+   ],
+   "test": {
+    "setup": [
+     {
+      "e": "obj",
+      "obj": "lights",
+      "key": "on",
+      "v": false
+     }
+    ]
+   },
+   "legacy": "lights_on"
+  },
+  {
+   "id": "E01",
+   "key": "edit_promo",
+   "cat": "E",
+   "obj": "promo_file",
+   "name": "act.edit_promo",
+   "reuse": {
+    "cool": 60
+   },
+   "icon": "file",
+   "watch": [
+    "promo_reviewed",
+    "promotion"
+   ],
+   "legacy": "edit_promo"
+  },
+  {
+   "id": "B01",
+   "key": "email_all",
+   "cat": "B",
+   "obj": "ws",
+   "name": "act.email_all",
+   "tab": "mail",
+   "reuse": {
+    "cool": 90
+   },
+   "icon": "email",
+   "watch": [
+    "email_all_scene"
+   ],
+   "legacy": "email_all"
+  },
+  {
+   "id": "B02",
+   "key": "email_redirect",
+   "cat": "B",
+   "obj": "ws",
+   "name": "act.email_redirect",
+   "tab": "mail",
+   "reuse": {
+    "cool": 90
+   },
+   "icon": "redirect",
+   "watch": [
+    "email_redirect_scene"
+   ],
+   "legacy": "email_redirect"
+  },
+  {
+   "id": "D01",
+   "key": "shuffle_files",
+   "cat": "D",
+   "obj": "ws",
+   "name": "act.shuffle_files",
+   "tab": "papers",
+   "reuse": {
+    "cool": 60
+   },
+   "icon": "papers",
+   "watch": [
+    "desk_messed",
+    "accusation"
+   ],
+   "legacy": "shuffle_files"
+  },
+  {
+   "id": "A01",
+   "key": "fake_notif",
+   "cat": "A",
+   "obj": "ws",
+   "name": "act.fake_notif",
+   "tab": "pc",
+   "reuse": {
+    "cool": 30
+   },
+   "icon": "phone",
+   "watch": [
+    "notif_boss",
+    "notif_food",
+    "notif_cancel",
+    "notif_admirer"
+   ],
+   "legacy": "fake_notif"
+  },
+  {
+   "id": "H05",
+   "key": "move_item",
+   "cat": "H",
+   "obj": "item",
+   "name": "act.move_item",
+   "reuse": {
+    "cool": 5
+   },
+   "icon": "item",
+   "watch": [
+    "item_missing",
+    "item_found",
+    "foreign_item",
+    "item_returned"
+   ],
+   "legacy": "move_item"
+  },
+  {
+   "id": "A02",
+   "key": "lock_pc",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.lock_pc",
+   "tab": "pc",
+   "conds": [
+    {
+     "c": "ostate",
+     "path": "ws.{owner}.locked",
+     "not": true,
+     "why": "why.already_locked"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.locked",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_lockpc_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "lockpc_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 90,
+    "day": 1
+   },
+   "icon": "lock",
+   "watch": [
+    "iv_lockpc_found",
+    "ivm_accuse",
+    "ivm_it_fix"
+   ],
+   "log": "log.iv.lock_pc"
+  },
+  {
+   "id": "A03",
+   "key": "misfile",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.misfile",
+   "tab": "pc",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.misfiled",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_misfile_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "misfile_{owner}"
+    },
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_misfile_boss",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_ahmet",
+     "who": "@ahmet",
+     "key": "misfile_boss_{owner}",
+     "after": 10
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "folder",
+   "watch": [
+    "iv_misfile_boss",
+    "iv_misfile_found",
+    "ivm_accuse",
+    "ivm_boss_talk",
+    "ivm_it_fix"
+   ],
+   "log": "log.iv.misfile"
+  },
+  {
+   "id": "A04",
+   "key": "change_author",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.change_author",
+   "tab": "pc",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "15:45",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.author",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_author_review",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_ahmet",
+     "who": "@ahmet",
+     "key": "author_{owner}",
+     "after": 5
+    }
+   ],
+   "reuse": {
+    "cool": 240,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "file",
+   "watch": [
+    "iv_author_praise",
+    "iv_author_review"
+   ],
+   "log": "log.iv.change_author"
+  },
+  {
+   "id": "A05",
+   "key": "swap_slides",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.swap_slides",
+   "tab": "pc",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    }
+   ],
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    },
+    {
+     "c": "attends",
+     "who": "owner",
+     "why": "why.not_attending"
+    }
+   ],
+   "state": [
+    {
+     "e": "meeting",
+     "key": "swap",
+     "v": "%target",
+     "who": "owner"
+    },
+    {
+     "e": "meeting",
+     "key": "first",
+     "v": "%owner"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_slides_swapped",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "replace": true,
+     "who": "owner",
+     "key": "slides_{owner}",
+     "on": "meeting_present"
+    }
+   ],
+   "reuse": {
+    "cool": 600,
+    "day": 1,
+    "per": "global"
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "board",
+   "watch": [
+    "iv_slides_swapped"
+   ],
+   "log": "log.iv.swap_slides"
+  },
+  {
+   "id": "A06",
+   "key": "pc_clock",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.pc_clock",
+   "tab": "pc",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "fast",
+     "label": "opt.iv.fast"
+    },
+    {
+     "v": "slow",
+     "label": "opt.iv.slow"
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "16:30",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.clock",
+     "v": "$choice"
+    },
+    {
+     "e": "set",
+     "key": "what",
+     "f": "clock_{choice}"
+    },
+    {
+     "e": "npcval",
+     "who": "owner",
+     "key": "leave_at",
+     "d": -45,
+     "when": [
+      {
+       "c": "var",
+       "key": "choice",
+       "eq": "fast"
+      }
+     ]
+    },
+    {
+     "e": "npcval",
+     "who": "owner",
+     "key": "leave_at",
+     "d": 30,
+     "when": [
+      {
+       "c": "var",
+       "key": "choice",
+       "eq": "slow"
+      }
+     ]
+    },
+    {
+     "e": "meeting",
+     "key": "belief",
+     "v": true,
+     "who": "owner",
+     "d": -20,
+     "when": [
+      {
+       "c": "var",
+       "key": "choice",
+       "eq": "fast"
+      }
+     ]
+    },
+    {
+     "e": "meeting",
+     "key": "belief",
+     "v": true,
+     "who": "owner",
+     "d": 25,
+     "when": [
+      {
+       "c": "var",
+       "key": "choice",
+       "eq": "slow"
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_clock_leave",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "who": "owner",
+     "key": "clock_{owner}",
+     "on": "leaving"
+    },
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_clock_late",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "who": "owner",
+     "key": "clockm_{owner}",
+     "on": "meeting_late"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "calendar",
+   "watch": [
+    "iv_clock_caught",
+    "iv_clock_late",
+    "iv_clock_leave"
+   ],
+   "log": "log.iv.pc_clock"
+  },
+  {
+   "id": "A07",
+   "key": "hide_doc",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.hide_doc",
+   "tab": "pc",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.hidden_doc",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_doc_hidden",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "hidedoc_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "folder",
+   "watch": [
+    "iv_doc_hidden",
+    "iv_doc_hunt_end",
+    "ivm_accuse"
+   ],
+   "log": "log.iv.hide_doc"
+  },
+  {
+   "id": "A08",
+   "key": "old_version",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.old_version",
+   "tab": "pc",
+   "conds": [
+    {
+     "c": "work_left",
+     "who": "owner",
+     "gt": 8,
+     "why": "why.no_work"
+    }
+   ],
+   "state": [
+    {
+     "e": "work",
+     "who": "owner",
+     "d": -18
+    },
+    {
+     "e": "oset",
+     "path": "ws.{owner}.oldver",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_oldver_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "oldver_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "file",
+   "watch": [
+    "iv_oldver_backup",
+    "iv_oldver_found",
+    "ivm_accuse"
+   ],
+   "log": "log.iv.old_version"
+  },
+  {
+   "id": "A09",
+   "key": "virus_alert",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.virus_alert",
+   "tab": "pc",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.virus",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_virus_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "virus_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "ghost",
+   "watch": [
+    "fix_done",
+    "iv_virus_found",
+    "iv_virus_it"
+   ],
+   "log": "log.iv.virus_alert"
+  },
+  {
+   "id": "A10",
+   "key": "file_elsewhere",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.file_elsewhere",
+   "tab": "pc",
+   "needs": "person",
+   "state": [
+    {
+     "e": "set",
+     "key": "fact",
+     "v": "$secret"
+    },
+    {
+     "e": "rumor",
+     "kind": "crush",
+     "a": "owner",
+     "b": "$crush",
+     "juicy": 0.7,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush"
+      }
+     ]
+    },
+    {
+     "e": "rumor",
+     "kind": "dislikes",
+     "a": "owner",
+     "b": "$worst",
+     "juicy": 0.6,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$worst"
+      }
+     ]
+    },
+    {
+     "e": "oset",
+     "path": "ws.{target}.foreign_file",
+     "v": "%owner"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_onscreen_read",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{target}",
+     "who": "target",
+     "key": "onscreen_{target}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "secret",
+     "fn": "secret_about",
+     "optional": true,
+     "knower": "owner",
+     "about": "owner"
+    },
+    {
+     "name": "crush",
+     "fn": "crush_of",
+     "optional": true,
+     "of": "owner"
+    },
+    {
+     "name": "worst",
+     "fn": "worst_of",
+     "optional": true,
+     "of": "owner",
+     "lim": 99,
+     "avail": false
+    }
+   ],
+   "icon": "redirect",
+   "watch": [
+    "hunt_rumor_source",
+    "iv_onscreen_read",
+    "ivm_secret",
+    "ivm_spread",
+    "ivm_tell_boss",
+    "kitchen_gossip_scene",
+    "overheard_by_subject",
+    "paranoid_confront",
+    "paranoid_passerby",
+    "rumor_check_scene",
+    "rumor_source_confront"
+   ],
+   "log": "log.iv.file_elsewhere"
+  },
+  {
+   "id": "A11",
+   "key": "wallpaper",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.wallpaper",
+   "tab": "pc",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "kittens",
+     "label": "opt.iv.kittens"
+    },
+    {
+     "v": "boss",
+     "label": "opt.iv.boss"
+    },
+    {
+     "v": "beach",
+     "label": "opt.iv.beach"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.wallpaper",
+     "v": "$choice"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_wallpaper_seen",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "wallpaper_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "watch": [
+    "iv_wallpaper_seen",
+    "ivm_accuse"
+   ],
+   "log": "log.iv.wallpaper"
+  },
+  {
+   "id": "A12",
+   "key": "autocorrect",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.autocorrect",
+   "tab": "pc",
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.autocorrect",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_bae_summon",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "bae_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 300,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "email",
+   "watch": [
+    "iv_bae_scene",
+    "iv_bae_summon"
+   ],
+   "log": "log.iv.autocorrect"
+  },
+  {
+   "id": "A13",
+   "key": "job_tab",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.job_tab",
+   "tab": "pc",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.jobtab",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "near",
+     "event": "iv_jobtab_seen",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "not": "owner",
+     "key": "jobtab_{owner}",
+     "r": 2.2
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "newspaper",
+   "watch": [
+    "hunt_rumor_source",
+    "iv_jobtab_seen",
+    "ivm_boss_talk",
+    "ivm_secret",
+    "ivm_spread",
+    "ivm_tell_boss",
+    "kitchen_gossip_scene",
+    "overheard_by_subject",
+    "paranoid_confront",
+    "paranoid_passerby",
+    "rumor_check_scene",
+    "rumor_source_confront"
+   ],
+   "log": "log.iv.job_tab"
+  },
+  {
+   "id": "A14",
+   "key": "unplug_monitor",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.unplug_monitor",
+   "tab": "pc",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.unplugged",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_unplug_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "unplug_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "bulb",
+   "watch": [
+    "iv_unplug_found",
+    "ivm_accuse",
+    "ivm_it_fix"
+   ],
+   "log": "log.iv.unplug_monitor"
+  },
+  {
+   "id": "A15",
+   "key": "print_private",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.print_private",
+   "tab": "pc",
+   "conds": [
+    {
+     "c": "office",
+     "key": "printer.broken",
+     "eq": false,
+     "why": "why.printer_broken"
+    }
+   ],
+   "state": [
+    {
+     "e": "set",
+     "key": "fact",
+     "v": "$secret"
+    },
+    {
+     "e": "rumor",
+     "kind": "crush",
+     "a": "owner",
+     "b": "$crush",
+     "juicy": 0.7,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush"
+      }
+     ]
+    },
+    {
+     "e": "rumor",
+     "kind": "dislikes",
+     "a": "owner",
+     "b": "$worst",
+     "juicy": 0.6,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$worst"
+      }
+     ]
+    },
+    {
+     "e": "oset",
+     "path": "printer.queue",
+     "v": "%owner"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_printjob",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "#printer",
+     "key": "printjob"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "secret",
+     "fn": "secret_about",
+     "optional": true,
+     "knower": "owner",
+     "about": "owner"
+    },
+    {
+     "name": "crush",
+     "fn": "crush_of",
+     "optional": true,
+     "of": "owner"
+    },
+    {
+     "name": "worst",
+     "fn": "worst_of",
+     "optional": true,
+     "of": "owner",
+     "lim": 99,
+     "avail": false
+    }
+   ],
+   "icon": "printer",
+   "watch": [
+    "hunt_rumor_source",
+    "iv_printjob",
+    "ivm_secret",
+    "ivm_spread",
+    "ivm_tell_boss",
+    "kitchen_gossip_scene",
+    "overheard_by_subject",
+    "paranoid_confront",
+    "paranoid_passerby",
+    "rumor_check_scene",
+    "rumor_source_confront"
+   ],
+   "log": "log.iv.print_private"
+  },
+  {
+   "id": "A16",
+   "key": "fake_appointment",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.fake_appointment",
+   "tab": "pc",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "dentist",
+     "label": "opt.iv.dentist"
+    },
+    {
+     "v": "interview",
+     "label": "opt.iv.interview"
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "after": "09:30",
+     "before": "15:30",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.calendar",
+     "v": "$choice"
+    },
+    {
+     "e": "set",
+     "key": "what",
+     "f": "appt_{choice}"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_cal_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "cal_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "calendar",
+   "watch": [
+    "iv_cal_found",
+    "iv_cal_missing"
+   ],
+   "log": "log.iv.fake_appointment"
+  },
+  {
+   "id": "A17",
+   "key": "slow_net",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.slow_net",
+   "tab": "pc",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.slow",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_slow_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "slow_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "gear",
+   "watch": [
+    "iv_slow_found",
+    "ivm_it_fix"
+   ],
+   "log": "log.iv.slow_net"
+  },
+  {
+   "id": "A18",
+   "key": "caps_lock",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.caps_lock",
+   "tab": "pc",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.caps",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_caps_sent",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "caps_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "friend",
+     "fn": "best_of",
+     "optional": false,
+     "of": "owner",
+     "lim": -50,
+     "role": true,
+     "avail": false
+    }
+   ],
+   "icon": "email",
+   "watch": [
+    "iv_caps_scene",
+    "iv_caps_sent"
+   ],
+   "log": "log.iv.caps_lock"
+  },
+  {
+   "id": "A19",
+   "key": "meow_keys",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.meow_keys",
+   "tab": "pc",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.meow",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_meow_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "meow_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "sound",
+   "watch": [
+    "iv_meow_found",
+    "ivm_accuse",
+    "ivm_it_fix"
+   ],
+   "log": "log.iv.meow_keys"
+  },
+  {
+   "id": "A20",
+   "key": "share_folder",
+   "cat": "A",
+   "obj": "ws",
+   "name": "iv.share_folder",
+   "tab": "pc",
+   "state": [
+    {
+     "e": "set",
+     "key": "fact",
+     "v": "$secret"
+    },
+    {
+     "e": "rumor",
+     "kind": "crush",
+     "a": "owner",
+     "b": "$crush",
+     "juicy": 0.7,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush"
+      }
+     ]
+    },
+    {
+     "e": "rumor",
+     "kind": "dislikes",
+     "a": "owner",
+     "b": "$worst",
+     "juicy": 0.6,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$worst"
+      }
+     ]
+    },
+    {
+     "e": "oset",
+     "path": "ws.{owner}.shared",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_folder_snoop",
+     "delay": 6,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "secret",
+     "fn": "secret_about",
+     "optional": true,
+     "knower": "owner",
+     "about": "owner"
+    },
+    {
+     "name": "crush",
+     "fn": "crush_of",
+     "optional": true,
+     "of": "owner"
+    },
+    {
+     "name": "worst",
+     "fn": "worst_of",
+     "optional": true,
+     "of": "owner",
+     "lim": 99,
+     "avail": false
+    }
+   ],
+   "icon": "folder",
+   "watch": [
+    "hunt_rumor_source",
+    "iv_folder_snoop",
+    "ivm_secret",
+    "ivm_spread",
+    "ivm_tell_boss",
+    "kitchen_gossip_scene",
+    "overheard_by_subject",
+    "paranoid_confront",
+    "paranoid_passerby",
+    "rumor_check_scene",
+    "rumor_source_confront"
+   ],
+   "absent_ok": true,
+   "log": "log.iv.share_folder"
+  },
+  {
+   "id": "B03",
+   "key": "change_subject",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.change_subject",
+   "tab": "mail",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "layoffs",
+     "label": "opt.iv.layoffs"
+    },
+    {
+     "v": "raise",
+     "label": "opt.iv.raise"
+    },
+    {
+     "v": "party",
+     "label": "opt.iv.party"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.subject",
+     "v": "$choice"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_subject_sent",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "subject_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "email",
+   "log": "log.iv.change_subject",
+   "watch": [
+    "iv_party_rsvp",
+    "iv_party_scene",
+    "iv_subject_sent",
+    "ivm_boss_talk"
+   ]
+  },
+  {
+   "id": "B04",
+   "key": "forward_chat",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.forward_chat",
+   "tab": "mail",
+   "conds": [
+    {
+     "c": "present",
+     "who": "$worst",
+     "why": "why.worst_absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "rumor",
+     "kind": "dislikes",
+     "a": "owner",
+     "b": "$worst",
+     "juicy": 0.7,
+     "knowers": [
+      "owner"
+     ],
+     "key": "fact"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_fwd_read",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{worst}",
+     "who": "$worst",
+     "key": "fwd_{owner}",
+     "roles": {
+      "owner": "owner"
+     }
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "worst",
+     "fn": "worst_of",
+     "optional": false,
+     "of": "owner",
+     "lim": 10,
+     "avail": false,
+     "why": "why.no_grudge"
+    }
+   ],
+   "icon": "redirect",
+   "log": "log.iv.forward_chat",
+   "watch": [
+    "iv_fwd_confront",
+    "iv_fwd_read"
+   ]
+  },
+  {
+   "id": "B05",
+   "key": "fake_approval",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.fake_approval",
+   "tab": "mail",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "raise",
+     "label": "opt.iv.raise"
+    },
+    {
+     "v": "dayoff",
+     "label": "opt.iv.dayoff"
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "15:30",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.approved",
+     "v": "$choice"
+    },
+    {
+     "e": "set",
+     "key": "what",
+     "v": "$choice"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_approve_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "approve_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "check",
+   "log": "log.iv.fake_approval",
+   "watch": [
+    "iv_approve_fallout",
+    "iv_approve_found",
+    "iv_approve_next_day",
+    "iv_approve_scene",
+    "ivm_boss_talk"
+   ]
+  },
+  {
+   "id": "B06",
+   "key": "spam_instruction",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.spam_instruction",
+   "tab": "mail",
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "15:00",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.spam_instruction",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_spam_check",
+     "delay": 50,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "email",
+   "log": "log.iv.spam_instruction",
+   "watch": [
+    "iv_spam_check",
+    "iv_spam_scene"
+   ]
+  },
+  {
+   "id": "B07",
+   "key": "fake_invite",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.fake_invite",
+   "tab": "mail",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "available",
+     "who": "self"
+    },
+    {
+     "c": "in_meeting",
+     "who": "self",
+     "not": true
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    },
+    {
+     "c": "in_meeting",
+     "who": "owner",
+     "not": true,
+     "why": "why.in_meeting"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.invite",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "meetup",
+     "who": [
+      "owner",
+      "target"
+     ],
+     "area": "kitchen",
+     "event": "iv_fake_date",
+     "ttl": 40,
+     "prio": 58,
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "calendar",
+   "log": "log.iv.fake_invite",
+   "watch": [
+    "iv_fake_date"
+   ]
+  },
+  {
+   "id": "B08",
+   "key": "old_promise",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.old_promise",
+   "tab": "mail",
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.old_promise",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_promise_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "promise_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 600,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "email",
+   "log": "log.iv.old_promise",
+   "watch": [
+    "iv_promise_found",
+    "iv_promise_scene"
+   ]
+  },
+  {
+   "id": "B09",
+   "key": "autoreply_quit",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.autoreply_quit",
+   "tab": "mail",
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.autoreply",
+     "v": "quit"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_quit_reply",
+     "delay": 20,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "email",
+   "log": "log.iv.autoreply_quit",
+   "watch": [
+    "iv_quit_reply",
+    "iv_quit_scene"
+   ]
+  },
+  {
+   "id": "B10",
+   "key": "unsend_apology",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.unsend_apology",
+   "tab": "mail",
+   "state": [
+    {
+     "e": "mem",
+     "who": "owner",
+     "about": "foe",
+     "kind": "apologised",
+     "val": 0.3,
+     "w": 0.6,
+     "text": "",
+     "imp": 1
+    },
+    {
+     "e": "rel",
+     "a": "owner",
+     "b": "foe",
+     "stat": "resentment",
+     "d": -10
+    },
+    {
+     "e": "oset",
+     "path": "ws.{owner}.unsent",
+     "v": "%foe"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "pair",
+     "event": "iv_unsent_meet",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "key": "unsent_{owner}",
+     "r": 2.6,
+     "pair": [
+      "owner",
+      "foe"
+     ]
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "foe",
+     "fn": "foe_of",
+     "optional": false,
+     "of": "owner",
+     "role": true,
+     "why": "why.no_foe"
+    }
+   ],
+   "icon": "redirect",
+   "log": "log.iv.unsend_apology",
+   "watch": [
+    "iv_unsent_meet"
+   ]
+  },
+  {
+   "id": "B11",
+   "key": "add_to_groupchat",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.add_to_groupchat",
+   "tab": "mail",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "picks",
+     "fn": "hater_of",
+     "of": "self",
+     "lim": 5
+    },
+    {
+     "c": "available",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "hater",
+     "pfn": "hater_of",
+     "of": "target",
+     "lim": 5
+    },
+    {
+     "e": "rumor",
+     "kind": "dislikes",
+     "a": "hater",
+     "b": "target",
+     "juicy": 0.6,
+     "knowers": [
+      "hater"
+     ],
+     "key": "fact"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_groupchat_read",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "people",
+   "log": "log.iv.add_to_groupchat",
+   "watch": [
+    "iv_groupchat_confront",
+    "iv_groupchat_read"
+   ]
+  },
+  {
+   "id": "B12",
+   "key": "typo_bomb",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.typo_bomb",
+   "tab": "mail",
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "16:00",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.typos",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_typo_call",
+     "delay": 40,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "deniz",
+    "ceren",
+    "zeynep"
+   ],
+   "icon": "papers",
+   "log": "log.iv.typo_bomb",
+   "watch": [
+    "iv_typo_call",
+    "iv_typo_scene"
+   ]
+  },
+  {
+   "id": "B13",
+   "key": "cc_boss",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.cc_boss",
+   "tab": "mail",
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.cc_boss",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_cc_read",
+     "delay": 8,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "redirect",
+   "log": "log.iv.cc_boss",
+   "watch": [
+    "iv_cc_read",
+    "iv_cc_scene"
+   ]
+  },
+  {
+   "id": "B14",
+   "key": "left_on_read",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.left_on_read",
+   "tab": "mail",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.seen",
+     "v": "%friend"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_seen_hurt",
+     "delay": 25,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "friend",
+     "fn": "best_of",
+     "optional": false,
+     "of": "owner",
+     "lim": 10,
+     "role": true,
+     "avail": false,
+     "why": "why.no_friend"
+    }
+   ],
+   "icon": "check",
+   "log": "log.iv.left_on_read",
+   "watch": [
+    "iv_seen_hurt",
+    "iv_seen_scene"
+   ]
+  },
+  {
+   "id": "B15",
+   "key": "signature",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.signature",
+   "tab": "mail",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "ceo",
+     "label": "opt.iv.ceo"
+    },
+    {
+     "v": "bath",
+     "label": "opt.iv.bath"
+    },
+    {
+     "v": "fav",
+     "label": "opt.iv.fav"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.signature",
+     "v": "$choice"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_sig_seen",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "sig_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "log": "log.iv.signature",
+   "watch": [
+    "iv_sig_seen"
+   ]
+  },
+  {
+   "id": "B16",
+   "key": "love_emoji",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.love_emoji",
+   "tab": "mail",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "available",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.hearts",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_heart_read",
+     "roles": {
+      "target": "target",
+      "owner": "owner"
+     },
+     "delay": 6,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "log": "log.iv.love_emoji",
+   "watch": [
+    "iv_heart_read",
+    "iv_heart_scene"
+   ]
+  },
+  {
+   "id": "B17",
+   "key": "forward_payroll",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.forward_payroll",
+   "tab": "mail",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "available",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "rich",
+     "pfn": "boss_fav",
+     "not": "target"
+    },
+    {
+     "e": "oset",
+     "path": "ws.zeynep.payroll_leak",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_payroll_read",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "zeynep"
+   ],
+   "icon": "file",
+   "absent_ok": true,
+   "log": "log.iv.forward_payroll",
+   "watch": [
+    "iv_payroll_demand",
+    "iv_payroll_read"
+   ]
+  },
+  {
+   "id": "B18",
+   "key": "boss_memo",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.boss_memo",
+   "tab": "mail",
+   "conds": [
+    {
+     "c": "arc",
+     "arc": "layoff_panic",
+     "not": true,
+     "why": "why.panic_running"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.ahmet.memo_sent",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_memo_sent",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "owners": [
+    "ahmet"
+   ],
+   "icon": "email",
+   "absent_ok": true,
+   "log": "log.iv.boss_memo",
+   "watch": [
+    "iv_memo_sent"
+   ]
+  },
+  {
+   "id": "B19",
+   "key": "newsletter",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.newsletter",
+   "tab": "mail",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "crush2",
+     "pfn": "crush_of",
+     "of": "target"
+    },
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "crush2",
+     "pfn": "best_of",
+     "keep": true,
+     "of": "target",
+     "lim": -80
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_news_out",
+     "delay": 12,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "ceren"
+   ],
+   "icon": "newspaper",
+   "absent_ok": true,
+   "log": "log.iv.newsletter",
+   "watch": [
+    "iv_news_out"
+   ]
+  },
+  {
+   "id": "B20",
+   "key": "garble_dictation",
+   "cat": "B",
+   "obj": "ws",
+   "name": "iv.garble_dictation",
+   "tab": "mail",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "available",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.garbled",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_garble_read",
+     "delay": 5,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "sound",
+   "log": "log.iv.garble_dictation",
+   "watch": [
+    "iv_garble_read",
+    "iv_garble_scene"
+   ]
+  },
+  {
+   "id": "C02",
+   "key": "invite_wrong",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.invite_wrong",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "attends",
+     "who": "self",
+     "not": true
+    },
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    }
+   ],
+   "state": [
+    {
+     "e": "meeting",
+     "key": "add",
+     "v": true,
+     "who": "target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_wrong_invitee",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "who": "@ahmet",
+     "key": "wronginv",
+     "on": "meeting_start"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "people",
+   "log": "log.iv.invite_wrong",
+   "watch": [
+    "iv_wrong_invitee"
+   ]
+  },
+  {
+   "id": "C03",
+   "key": "uninvite",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.uninvite",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "attends",
+     "who": "self"
+    },
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    }
+   ],
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    }
+   ],
+   "state": [
+    {
+     "e": "meeting",
+     "key": "remove",
+     "v": true,
+     "who": "target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_uninvited_notice",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "who": "@ahmet",
+     "key": "uninv",
+     "on": "meeting_start"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "people",
+   "log": "log.iv.uninvite",
+   "watch": [
+    "iv_uninvited_learn",
+    "iv_uninvited_notice",
+    "ivm_accuse"
+   ]
+  },
+  {
+   "id": "C04",
+   "key": "present_first",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.present_first",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "attends",
+     "who": "self"
+    },
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    }
+   ],
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    }
+   ],
+   "state": [
+    {
+     "e": "meeting",
+     "key": "first",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_first_presenter",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "replace": true,
+     "who": "target",
+     "key": "first",
+     "on": "meeting_present"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "board",
+   "log": "log.iv.present_first",
+   "watch": [
+    "iv_first_presenter"
+   ]
+  },
+  {
+   "id": "C05",
+   "key": "agenda",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.agenda",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "layoffs",
+     "label": "opt.iv.layoffs"
+    },
+    {
+     "v": "romance",
+     "label": "opt.iv.romance"
+    },
+    {
+     "v": "lunch",
+     "label": "opt.iv.lunch"
+    },
+    {
+     "v": "promo",
+     "label": "opt.iv.promo"
+    }
+   ],
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "board.agenda",
+     "v": "$choice"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_agenda_read",
+     "uses": 3,
+     "days": 0,
+     "as": "actor",
+     "key": "agenda",
+     "on": "agenda_seen"
+    },
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_agenda_boss",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "who": "@ahmet",
+     "key": "agenda_boss",
+     "on": "meeting_start"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "board",
+   "log": "log.iv.agenda",
+   "watch": [
+    "iv_agenda_boss",
+    "iv_agenda_read"
+   ]
+  },
+  {
+   "id": "C06",
+   "key": "move_room",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.move_room",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "kitchen",
+     "label": "opt.iv.kitchen"
+    },
+    {
+     "v": "lounge",
+     "label": "opt.iv.lounge"
+    }
+   ],
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    }
+   ],
+   "state": [
+    {
+     "e": "meeting",
+     "key": "room",
+     "v": "$choice"
+    },
+    {
+     "e": "set",
+     "key": "what",
+     "f": "room_{choice}"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_room_moved",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "who": "@ahmet",
+     "key": "room",
+     "on": "meeting_start"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "home",
+   "log": "log.iv.move_room",
+   "watch": [
+    "iv_room_moved"
+   ]
+  },
+  {
+   "id": "C07",
+   "key": "delete_invite",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.delete_invite",
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    }
+   ],
+   "state": [
+    {
+     "e": "each",
+     "effects": [
+      {
+       "e": "meet",
+       "who": "self",
+       "v": "cancel"
+      },
+      {
+       "e": "say",
+       "who": "self",
+       "line": "cancelled_think",
+       "p": 0.3
+      }
+     ],
+     "exclude": [
+      "@ahmet"
+     ],
+     "stagger": 0.0,
+     "where": [
+      {
+       "c": "attends",
+       "who": "self"
+      },
+      {
+       "c": "trait",
+       "who": "self",
+       "t": "diligence",
+       "lt": 0.85
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_empty_meeting",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "who": "@ahmet",
+     "key": "emptymeet",
+     "on": "meeting_start"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "close",
+   "log": "log.iv.delete_invite",
+   "watch": [
+    "iv_empty_meeting"
+   ]
+  },
+  {
+   "id": "C08",
+   "key": "double_book",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.double_book",
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "d1",
+     "pfn": "worst_of",
+     "of": "@ahmet",
+     "lim": 99
+    },
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "d2",
+     "pfn": "best_of",
+     "of": "d1",
+     "lim": -99,
+     "not": "@ahmet"
+    },
+    {
+     "e": "meet",
+     "who": [
+      "d1",
+      "d2"
+     ],
+     "v": "cancel"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_double_start",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "who": "@ahmet",
+     "key": "double",
+     "on": "meeting_start"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "calendar",
+   "log": "log.iv.double_book",
+   "watch": [
+    "iv_double_kitchen",
+    "iv_double_start"
+   ]
+  },
+  {
+   "id": "C09",
+   "key": "wrong_chair",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.wrong_chair",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "attends",
+     "who": "self"
+    },
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    }
+   ],
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    }
+   ],
+   "state": [
+    {
+     "e": "meeting",
+     "key": "chair",
+     "v": "%target"
+    },
+    {
+     "e": "oset",
+     "path": "board.chair",
+     "v": "%target"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "watch": [
+    "iv_boss_chair",
+    "iv_wrong_chair"
+   ],
+   "log": "log.iv.wrong_chair"
+  },
+  {
+   "id": "C10",
+   "key": "leak_secret_meeting",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.leak_secret_meeting",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "subject",
+     "pfn": "worst_of",
+     "of": "@ahmet",
+     "lim": 99,
+     "not": "target"
+    },
+    {
+     "e": "rumor",
+     "kind": "getting_fired",
+     "a": "subject",
+     "b": "target",
+     "juicy": 0.8,
+     "knowers": [],
+     "truth": false,
+     "key": "fact"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_secret_mtg",
+     "delay": 2,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "calendar",
+   "log": "log.iv.leak_secret_meeting",
+   "watch": [
+    "hunt_rumor_source",
+    "iv_secret_mtg",
+    "ivm_secret",
+    "ivm_spread",
+    "ivm_tell_boss",
+    "kitchen_gossip_scene",
+    "overheard_by_subject",
+    "paranoid_confront",
+    "paranoid_passerby",
+    "rumor_check_scene",
+    "rumor_source_confront"
+   ]
+  },
+  {
+   "id": "C11",
+   "key": "lock_door",
+   "cat": "C",
+   "obj": "meeting_table",
+   "name": "iv.lock_door",
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    },
+    {
+     "c": "ostate",
+     "path": "door.locked",
+     "not": true,
+     "why": "why.already_locked"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "door.locked",
+     "v": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "lock",
+   "watch": [
+    "iv_door_locked",
+    "iv_door_open"
+   ],
+   "test": {
+    "minutes": 260
+   },
+   "log": "log.iv.lock_door"
+  },
+  {
+   "id": "C12",
+   "key": "swap_seats",
+   "cat": "C",
+   "obj": "meeting_table",
+   "name": "iv.swap_seats",
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "door.cards",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_seats",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "who": "@ahmet",
+     "key": "seats",
+     "on": "meeting_start"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "people",
+   "log": "log.iv.swap_seats",
+   "watch": [
+    "iv_seats"
+   ]
+  },
+  {
+   "id": "C13",
+   "key": "short_meeting",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.short_meeting",
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    }
+   ],
+   "state": [
+    {
+     "e": "meeting",
+     "key": "short",
+     "v": true
+    },
+    {
+     "e": "oset",
+     "path": "board.title",
+     "v": "5 min!"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "board",
+   "watch": [
+    "iv_walkout"
+   ],
+   "log": "log.iv.short_meeting"
+  },
+  {
+   "id": "C14",
+   "key": "pizza",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.pizza",
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "board.title",
+     "v": "PIZZA!"
+    },
+    {
+     "e": "each",
+     "effects": [
+      {
+       "e": "say",
+       "who": "self",
+       "line": "pizza_hype",
+       "p": 0.4
+      },
+      {
+       "e": "mood",
+       "who": "self",
+       "d": 4
+      },
+      {
+       "e": "meeting",
+       "key": "belief",
+       "who": "self",
+       "d": -10
+      }
+     ],
+     "exclude": [
+      "@ahmet"
+     ],
+     "stagger": 0.0,
+     "where": [
+      {
+       "c": "attends",
+       "who": "self"
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_no_pizza",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "who": "@ahmet",
+     "key": "pizza",
+     "on": "meeting_start"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "coffee",
+   "log": "log.iv.pizza",
+   "watch": [
+    "iv_no_pizza"
+   ]
+  },
+  {
+   "id": "C15",
+   "key": "break_projector",
+   "cat": "C",
+   "obj": "meeting_table",
+   "name": "iv.break_projector",
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    },
+    {
+     "c": "ostate",
+     "path": "projector.broken",
+     "not": true,
+     "why": "why.already_broken"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "projector.broken",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_projector_dead",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "replace": true,
+     "key": "projector",
+     "on": "meeting_present"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "bulb",
+   "log": "log.iv.break_projector",
+   "watch": [
+    "iv_projector_dead"
+   ]
+  },
+  {
+   "id": "C16",
+   "key": "fake_minutes",
+   "cat": "C",
+   "obj": "meeting_table",
+   "name": "iv.fake_minutes",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "board.minutes",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_minutes_fan",
+     "delay": 6,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "papers",
+   "log": "log.iv.fake_minutes",
+   "watch": [
+    "iv_minutes_fan",
+    "iv_minutes_scene"
+   ]
+  },
+  {
+   "id": "C17",
+   "key": "boss_golf",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.boss_golf",
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    },
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "board.golf",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_golf_seen",
+     "delay": 2,
+     "all": true
+    },
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_golf_takeover",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "key": "golf_take",
+     "on": "meeting_wait_timeout"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "calendar",
+   "log": "log.iv.boss_golf",
+   "watch": [
+    "iv_golf_seen",
+    "iv_golf_takeover"
+   ]
+  },
+  {
+   "id": "C18",
+   "key": "surprise_review",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.surprise_review",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    },
+    {
+     "c": "in_meeting",
+     "who": "@ahmet",
+     "not": true,
+     "why": "why.boss_busy"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "board.review",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "call",
+     "fn": "summon",
+     "target": "target",
+     "event": "iv_review",
+     "prio": 72,
+     "delay": 2
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "calendar",
+   "log": "log.iv.surprise_review",
+   "watch": [
+    "iv_review"
+   ]
+  },
+  {
+   "id": "C19",
+   "key": "client_visit",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.client_visit",
+   "conds": [
+    {
+     "c": "time",
+     "before": "14:00",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "flag",
+     "key": "client_visit",
+     "v": true,
+     "day": true
+    },
+    {
+     "e": "oset",
+     "path": "board.title",
+     "v": "CLIENT!"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_client_prep",
+     "delay": 1,
+     "all": true
+    },
+    {
+     "e": "chain",
+     "event": "iv_client_none",
+     "delay": 60,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "people",
+   "log": "log.iv.client_visit",
+   "watch": [
+    "iv_client_none",
+    "iv_client_prep"
+   ]
+  },
+  {
+   "id": "C20",
+   "key": "farewell_meeting",
+   "cat": "C",
+   "obj": "meeting_board",
+   "name": "iv.farewell_meeting",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "attends",
+     "who": "self"
+    }
+   ],
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "board.title",
+     "v": "Farewell!"
+    },
+    {
+     "e": "rumor",
+     "kind": "resigning",
+     "a": "target",
+     "b": "target",
+     "juicy": 0.8,
+     "knowers": [],
+     "truth": false,
+     "key": "fact"
+    },
+    {
+     "e": "each",
+     "effects": [
+      {
+       "e": "learn",
+       "who": "self",
+       "fact": "$fact",
+       "c": 0.65
+      },
+      {
+       "e": "say",
+       "who": "self",
+       "line": "farewell_sad",
+       "delay": 1.0,
+       "p": 0.3
+      }
+     ],
+     "exclude": [
+      "target"
+     ],
+     "stagger": 0.5
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_farewell",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "who": "@ahmet",
+     "key": "farewell",
+     "on": "meeting_start"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "log": "log.iv.farewell_meeting",
+   "watch": [
+    "iv_farewell"
+   ]
+  },
+  {
+   "id": "D02",
+   "key": "swap_sigpage",
+   "cat": "D",
+   "obj": "ws",
+   "name": "iv.swap_sigpage",
+   "tab": "papers",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "15:30",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.sigpage",
+     "v": "%target"
+    },
+    {
+     "e": "set",
+     "key": "other",
+     "who": "target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_sigpage_check",
+     "delay": 35,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "papers",
+   "log": "log.iv.swap_sigpage",
+   "watch": [
+    "iv_sigpage_check",
+    "iv_sigpage_scene",
+    "ivm_accuse"
+   ]
+  },
+  {
+   "id": "D03",
+   "key": "archive_report",
+   "cat": "D",
+   "obj": "ws",
+   "name": "iv.archive_report",
+   "tab": "papers",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.report_at",
+     "v": "archive"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_archive_hide",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "archive_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "folder",
+   "log": "log.iv.archive_report",
+   "watch": [
+    "iv_archive_hide",
+    "iv_archive_hunt_end",
+    "ivm_accuse"
+   ]
+  },
+  {
+   "id": "D04",
+   "key": "relabel_folders",
+   "cat": "D",
+   "obj": "ws",
+   "name": "iv.relabel_folders",
+   "tab": "papers",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "dumb",
+     "label": "opt.iv.dumb"
+    },
+    {
+     "v": "plans",
+     "label": "opt.iv.plans"
+    },
+    {
+     "v": "love",
+     "label": "opt.iv.love"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.labels",
+     "v": "$choice"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "near",
+     "event": "iv_label_seen",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "not": "owner",
+     "key": "labels_{owner}",
+     "r": 2.2
+    },
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_label_owner",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "labels_own_{owner}",
+     "after": 20
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "folder",
+   "log": "log.iv.relabel_folders",
+   "watch": [
+    "hunt_rumor_source",
+    "iv_label_owner",
+    "iv_label_seen",
+    "ivm_secret",
+    "ivm_spread",
+    "ivm_tell_boss",
+    "kitchen_gossip_scene",
+    "overheard_by_subject",
+    "paranoid_confront",
+    "paranoid_passerby",
+    "rumor_check_scene",
+    "rumor_source_confront"
+   ]
+  },
+  {
+   "id": "D05",
+   "key": "print_500",
+   "cat": "D",
+   "obj": "printer",
+   "name": "iv.print_500",
+   "conds": [
+    {
+     "c": "office",
+     "key": "printer.broken",
+     "eq": false,
+     "why": "why.printer_broken"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "printer.queue",
+     "v": "baby"
+    },
+    {
+     "e": "oset",
+     "path": "printer.no_paper",
+     "v": true,
+     "delay": 6
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_baby_found",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "#printer",
+     "key": "baby"
+    }
+   ],
+   "reuse": {
+    "cool": 600,
+    "day": 1
+   },
+   "icon": "printer",
+   "log": "log.iv.print_500",
+   "watch": [
+    "iv_baby_boss",
+    "iv_baby_found"
+   ]
+  },
+  {
+   "id": "D06",
+   "key": "report_elsewhere",
+   "cat": "D",
+   "obj": "ws",
+   "name": "iv.report_elsewhere",
+   "tab": "papers",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "set",
+     "key": "fact",
+     "v": "$secret"
+    },
+    {
+     "e": "rumor",
+     "kind": "crush",
+     "a": "owner",
+     "b": "$crush",
+     "juicy": 0.7,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush"
+      }
+     ]
+    },
+    {
+     "e": "rumor",
+     "kind": "dislikes",
+     "a": "owner",
+     "b": "$worst",
+     "juicy": 0.6,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$worst"
+      }
+     ]
+    },
+    {
+     "e": "oset",
+     "path": "ws.{owner}.report_at",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_misplaced_find",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{target}",
+     "who": "target",
+     "key": "misplaced_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "vars": [
+    {
+     "name": "secret",
+     "fn": "secret_about",
+     "optional": true,
+     "knower": "owner",
+     "about": "owner"
+    },
+    {
+     "name": "crush",
+     "fn": "crush_of",
+     "optional": true,
+     "of": "owner"
+    },
+    {
+     "name": "worst",
+     "fn": "worst_of",
+     "optional": true,
+     "of": "owner",
+     "lim": 99,
+     "avail": false
+    }
+   ],
+   "icon": "papers",
+   "log": "log.iv.report_elsewhere",
+   "watch": [
+    "iv_misplaced_find",
+    "iv_misplaced_owner",
+    "iv_misplaced_return"
+   ]
+  },
+  {
+   "id": "D07",
+   "key": "shuffle_pages",
+   "cat": "D",
+   "obj": "ws",
+   "name": "iv.shuffle_pages",
+   "tab": "papers",
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    },
+    {
+     "c": "attends",
+     "who": "owner",
+     "why": "why.not_attending"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.pages",
+     "v": "shuffled"
+    },
+    {
+     "e": "meeting",
+     "key": "first",
+     "v": "%owner"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_pages_present",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "replace": true,
+     "who": "owner",
+     "key": "pages_{owner}",
+     "on": "meeting_present"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "papers",
+   "log": "log.iv.shuffle_pages",
+   "watch": [
+    "iv_pages_present"
+   ]
+  },
+  {
+   "id": "D08",
+   "key": "confidential_doc",
+   "cat": "D",
+   "obj": "file_cabinet",
+   "name": "iv.confidential_doc",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "salary",
+     "label": "opt.iv.salary"
+    },
+    {
+     "v": "layoff",
+     "label": "opt.iv.layoff"
+    },
+    {
+     "v": "promo",
+     "label": "opt.iv.promo"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "subject",
+     "pfn": "worst_of",
+     "of": "@ahmet",
+     "lim": 99
+    },
+    {
+     "e": "rumor",
+     "kind": "raise",
+     "a": "subject",
+     "b": "subject",
+     "juicy": 0.6,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "var",
+       "key": "choice",
+       "eq": "salary"
+      }
+     ]
+    },
+    {
+     "e": "rumor",
+     "kind": "getting_fired",
+     "a": "subject",
+     "b": "subject",
+     "juicy": 0.85,
+     "knowers": [],
+     "truth": false,
+     "key": "fact",
+     "when": [
+      {
+       "c": "var",
+       "key": "choice",
+       "eq": "layoff"
+      }
+     ]
+    },
+    {
+     "e": "rumor",
+     "kind": "shortlisted",
+     "a": "subject",
+     "b": "subject",
+     "juicy": 0.7,
+     "knowers": [],
+     "truth": false,
+     "key": "fact",
+     "when": [
+      {
+       "c": "var",
+       "key": "choice",
+       "eq": "promo"
+      }
+     ]
+    },
+    {
+     "e": "oset",
+     "path": "hr.open_doc",
+     "v": "$choice"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_conf_read",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "#archive",
+     "key": "confdoc"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "file",
+   "log": "log.iv.confidential_doc",
+   "watch": [
+    "hunt_rumor_source",
+    "iv_conf_read",
+    "ivm_secret",
+    "ivm_spread",
+    "ivm_tell_boss",
+    "kitchen_gossip_scene",
+    "overheard_by_subject",
+    "paranoid_confront",
+    "paranoid_passerby",
+    "rumor_check_scene",
+    "rumor_source_confront"
+   ]
+  },
+  {
+   "id": "D09",
+   "key": "swap_reviews",
+   "cat": "D",
+   "obj": "hr_cabinet",
+   "name": "iv.swap_reviews",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "15:30",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "owner",
+     "pfn": "rival_of",
+     "of": "target",
+     "lim": -1
+    },
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "owner",
+     "pfn": "worst_of",
+     "keep": true,
+     "of": "target",
+     "lim": 99
+    },
+    {
+     "e": "call",
+     "fn": "swap_favor",
+     "a": "owner",
+     "b": "target"
+    },
+    {
+     "e": "oset",
+     "path": "hr.swapped",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_swapreview_boss",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_ahmet",
+     "who": "@ahmet",
+     "key": "swapreview",
+     "after": 5
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "file",
+   "log": "log.iv.swap_reviews",
+   "watch": [
+    "iv_swapreview_bad",
+    "iv_swapreview_boss",
+    "iv_swapreview_good"
+   ]
+  },
+  {
+   "id": "D10",
+   "key": "recycle_contract",
+   "cat": "D",
+   "obj": "ws",
+   "name": "iv.recycle_contract",
+   "tab": "papers",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.contract_at",
+     "v": "kitchen"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_recycle_react",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "recycle_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "papers",
+   "log": "log.iv.recycle_contract",
+   "watch": [
+    "iv_recycle_end",
+    "iv_recycle_react",
+    "ivm_accuse"
+   ]
+  },
+  {
+   "id": "D11",
+   "key": "forge_signature",
+   "cat": "D",
+   "obj": "ws",
+   "name": "iv.forge_signature",
+   "tab": "papers",
+   "conds": [
+    {
+     "c": "present",
+     "who": "@zeynep",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.forged",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_forge_check",
+     "delay": 25,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "papers",
+   "log": "log.iv.forge_signature",
+   "watch": [
+    "iv_forge_check",
+    "iv_forge_scene",
+    "ivm_tell_boss"
+   ]
+  },
+  {
+   "id": "D12",
+   "key": "karaoke_expense",
+   "cat": "D",
+   "obj": "file_cabinet",
+   "name": "iv.karaoke_expense",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "zeynep",
+     "not": true
+    },
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "@zeynep",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "hr.karaoke",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_karaoke_audit",
+     "delay": 20,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "music",
+   "log": "log.iv.karaoke_expense",
+   "watch": [
+    "iv_karaoke_audit",
+    "iv_karaoke_scene"
+   ]
+  },
+  {
+   "id": "D13",
+   "key": "margin_note",
+   "cat": "D",
+   "obj": "ws",
+   "name": "iv.margin_note",
+   "tab": "papers",
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    },
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.margin",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_margin_read",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_ahmet",
+     "who": "@ahmet",
+     "key": "margin_{owner}",
+     "after": 6
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "papers",
+   "log": "log.iv.margin_note",
+   "watch": [
+    "iv_margin",
+    "iv_margin_read"
+   ]
+  },
+  {
+   "id": "D14",
+   "key": "jam_love_letter",
+   "cat": "D",
+   "obj": "printer",
+   "name": "iv.jam_love_letter",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "picks",
+     "fn": "crush_of",
+     "of": "self"
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "crush",
+     "pfn": "crush_of",
+     "of": "target"
+    },
+    {
+     "e": "oset",
+     "path": "printer.broken",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_jam_letter",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "#printer",
+     "key": "jamletter",
+     "roles": {
+      "writer": "target",
+      "crush": "crush"
+     }
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "log": "log.iv.jam_love_letter",
+   "watch": [
+    "iv_jam_letter"
+   ]
+  },
+  {
+   "id": "D15",
+   "key": "hoard_supplies",
+   "cat": "D",
+   "obj": "supply_shelf",
+   "name": "iv.hoard_supplies",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "supplies.at",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_supplies_need",
+     "delay": 6,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "papers",
+   "log": "log.iv.hoard_supplies",
+   "watch": [
+    "iv_supplies_found",
+    "iv_supplies_need",
+    "iv_supplies_search"
+   ]
+  },
+  {
+   "id": "D16",
+   "key": "misfile_archive",
+   "cat": "D",
+   "obj": "file_cabinet",
+   "name": "iv.misfile_archive",
+   "state": [
+    {
+     "e": "oset",
+     "path": "hr.archive_mess",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_archive_mess",
+     "uses": 2,
+     "days": 1,
+     "as": "actor",
+     "place": "#archive",
+     "key": "archmess"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "folder",
+   "log": "log.iv.misfile_archive",
+   "watch": [
+    "iv_archive_mess",
+    "ivm_accuse"
+   ]
+  },
+  {
+   "id": "D17",
+   "key": "resignation_draft",
+   "cat": "D",
+   "obj": "ws",
+   "name": "iv.resignation_draft",
+   "tab": "papers",
+   "conds": [
+    {
+     "c": "any",
+     "of": [
+      {
+       "c": "morale",
+       "who": "owner",
+       "lt": 55
+      },
+      {
+       "c": "plan",
+       "who": "owner",
+       "kind": "job_search"
+      },
+      {
+       "c": "goal",
+       "who": "owner",
+       "goal": "find_new_job"
+      }
+     ],
+     "why": "why.happy_here"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.resdraft",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "near",
+     "event": "iv_resdraft_seen",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "not": "owner",
+     "key": "resdraft_{owner}",
+     "r": 2.2
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "papers",
+   "log": "log.iv.resignation_draft",
+   "watch": [
+    "hunt_rumor_source",
+    "iv_quit_scene",
+    "iv_resdraft_seen",
+    "ivm_secret",
+    "ivm_spread",
+    "ivm_tell_boss",
+    "kitchen_gossip_scene",
+    "overheard_by_subject",
+    "paranoid_confront",
+    "paranoid_passerby",
+    "rumor_check_scene",
+    "rumor_source_confront"
+   ]
+  },
+  {
+   "id": "D18",
+   "key": "urgent_stamps",
+   "cat": "D",
+   "obj": "ws",
+   "name": "iv.urgent_stamps",
+   "tab": "papers",
+   "conds": [
+    {
+     "c": "time",
+     "before": "15:30",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.urgent",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_urgent_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "urgent_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "papers",
+   "log": "log.iv.urgent_stamps",
+   "watch": [
+    "iv_urgent_found",
+    "iv_urgent_help",
+    "iv_urgent_help_scene"
+   ]
+  },
+  {
+   "id": "D19",
+   "key": "org_chart",
+   "cat": "D",
+   "obj": "noticeboard",
+   "name": "iv.org_chart",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    }
+   ],
+   "state": [
+    {
+     "e": "pin",
+     "kind": "orgchart",
+     "about": "target",
+     "by": ""
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "near",
+     "event": "iv_orgchart_seen",
+     "uses": 3,
+     "days": 1,
+     "as": "actor",
+     "place": "notice",
+     "key": "orgchart",
+     "r": 3.2
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "pin",
+   "log": "log.iv.org_chart",
+   "watch": [
+    "iv_orgchart_scene",
+    "iv_orgchart_seen"
+   ]
+  },
+  {
+   "id": "D20",
+   "key": "missing_page",
+   "cat": "D",
+   "obj": "ws",
+   "name": "iv.missing_page",
+   "tab": "papers",
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    },
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "16:00",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.lastpage",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_lastpage_read",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_ahmet",
+     "who": "@ahmet",
+     "key": "lastpage_{owner}",
+     "after": 8
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "papers",
+   "log": "log.iv.missing_page",
+   "watch": [
+    "iv_lastpage",
+    "iv_lastpage_read",
+    "ivm_accuse"
+   ]
+  },
+  {
+   "id": "E02",
+   "key": "shortlist",
+   "cat": "E",
+   "obj": "hr_cabinet",
+   "name": "iv.shortlist",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "rumor",
+     "kind": "shortlisted",
+     "a": "target",
+     "b": "target",
+     "juicy": 0.7,
+     "knowers": [],
+     "truth": false,
+     "key": "fact"
+    },
+    {
+     "e": "oset",
+     "path": "hr.shortlist",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_shortlist_find",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "log": "log.iv.shortlist",
+   "watch": [
+    "iv_shortlist_brag",
+    "iv_shortlist_burst",
+    "iv_shortlist_burst_scene",
+    "iv_shortlist_find",
+    "iv_shortlist_tell"
+   ]
+  },
+  {
+   "id": "E03",
+   "key": "perf_report",
+   "cat": "E",
+   "obj": "hr_cabinet",
+   "name": "iv.perf_report",
+   "needs": "person",
+   "choices": [
+    {
+     "v": "glowing",
+     "label": "opt.iv.glowing"
+    },
+    {
+     "v": "terrible",
+     "label": "opt.iv.terrible"
+    }
+   ],
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "15:45",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "favor",
+     "about": "target",
+     "d": 12,
+     "when": [
+      {
+       "c": "var",
+       "key": "choice",
+       "eq": "glowing"
+      }
+     ]
+    },
+    {
+     "e": "favor",
+     "about": "target",
+     "d": -12,
+     "when": [
+      {
+       "c": "var",
+       "key": "choice",
+       "eq": "terrible"
+      }
+     ]
+    },
+    {
+     "e": "oset",
+     "path": "hr.perf",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_perf_read",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_ahmet",
+     "who": "@ahmet",
+     "key": "perf",
+     "after": 4
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "file",
+   "log": "log.iv.perf_report",
+   "watch": [
+    "iv_perf_read",
+    "iv_perf_talk"
+   ]
+  },
+  {
+   "id": "E04",
+   "key": "zero_raise",
+   "cat": "E",
+   "obj": "noticeboard",
+   "name": "iv.zero_raise",
+   "state": [
+    {
+     "e": "pin",
+     "kind": "zero",
+     "about": "@ahmet",
+     "by": ""
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_zero_read",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "icon": "pin",
+   "log": "log.iv.zero_raise",
+   "watch": [
+    "iv_zero_fix",
+    "iv_zero_fix_scene",
+    "iv_zero_read"
+   ]
+  },
+  {
+   "id": "E05",
+   "key": "raise_letter",
+   "cat": "E",
+   "obj": "hr_cabinet",
+   "name": "iv.raise_letter",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "@zeynep",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "rich",
+     "pfn": "boss_fav",
+     "not": "target"
+    },
+    {
+     "e": "oset",
+     "path": "hr.raise_letter",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_raiseletter",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "email",
+   "log": "log.iv.raise_letter",
+   "watch": [
+    "iv_raiseletter",
+    "iv_raiseletter_fix",
+    "iv_raiseletter_scene"
+   ]
+  },
+  {
+   "id": "E06",
+   "key": "expose_application",
+   "cat": "E",
+   "obj": "promo_file",
+   "name": "iv.expose_application",
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "rumor",
+     "kind": "job_hunting",
+     "a": "applicant",
+     "b": "@ahmet",
+     "juicy": 0.85,
+     "knowers": [
+      "applicant"
+     ],
+     "key": "fact"
+    },
+    {
+     "e": "oset",
+     "path": "hr.application",
+     "v": "%applicant"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_app_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_ahmet",
+     "who": "@ahmet",
+     "key": "application",
+     "after": 2
+    }
+   ],
+   "reuse": {
+    "cool": 600,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "applicant",
+     "fn": "job_seeker",
+     "optional": false,
+     "role": true,
+     "why": "why.no_seeker"
+    }
+   ],
+   "icon": "newspaper",
+   "log": "log.iv.expose_application",
+   "watch": [
+    "iv_app_found",
+    "iv_app_scene"
+   ]
+  },
+  {
+   "id": "E07",
+   "key": "early_announcement",
+   "cat": "E",
+   "obj": "promo_file",
+   "name": "iv.early_announcement",
+   "conds": [
+    {
+     "c": "picks",
+     "fn": "promo_day",
+     "why": "why.no_promo"
+    },
+    {
+     "c": "dayflag",
+     "key": "promotion_done",
+     "not": true,
+     "why": "why.promo_done"
+    },
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "16:00",
+     "why": "why.too_late"
+    },
+    {
+     "c": "in_meeting",
+     "who": "@ahmet",
+     "not": true,
+     "why": "why.boss_busy"
+    }
+   ],
+   "state": [
+    {
+     "e": "flag",
+     "key": "promo_early",
+     "v": true,
+     "day": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_early_promo",
+     "delay": 2,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "watch": [
+    "accusation",
+    "defense",
+    "iv_early_promo",
+    "promo_grudge",
+    "promotion"
+   ],
+   "test": {
+    "day": 2,
+    "at": "11:00"
+   },
+   "log": "log.iv.early_announcement"
+  },
+  {
+   "id": "E08",
+   "key": "sales_board",
+   "cat": "E",
+   "obj": "noticeboard",
+   "name": "iv.sales_board",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "mert",
+     "not": true
+    },
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "@mert",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "pin",
+     "kind": "sales",
+     "about": "target",
+     "by": ""
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_leader_seen",
+     "delay": 8,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "log": "log.iv.sales_board",
+   "watch": [
+    "iv_leader_seen",
+    "ivm_accuse"
+   ]
+  },
+  {
+   "id": "E09",
+   "key": "postpone_review",
+   "cat": "E",
+   "obj": "hr_cabinet",
+   "name": "iv.postpone_review",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "hr.postponed",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_postpone_read",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "calendar",
+   "log": "log.iv.postpone_review",
+   "watch": [
+    "iv_postpone_read",
+    "iv_postpone_scene"
+   ]
+  },
+  {
+   "id": "E10",
+   "key": "eotm_certificate",
+   "cat": "E",
+   "obj": "noticeboard",
+   "name": "iv.eotm_certificate",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "rich",
+     "pfn": "boss_fav",
+     "not": "target"
+    },
+    {
+     "e": "unpin",
+     "kind": "eotm"
+    },
+    {
+     "e": "pin",
+     "kind": "eotm",
+     "about": "target",
+     "by": ""
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_eotm",
+     "delay": 5,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "log": "log.iv.eotm_certificate",
+   "watch": [
+    "iv_eotm"
+   ]
+  },
+  {
+   "id": "E11",
+   "key": "thank_wrong",
+   "cat": "E",
+   "obj": "promo_file",
+   "name": "iv.thank_wrong",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "rich",
+     "pfn": "boss_fav",
+     "not": "target"
+    },
+    {
+     "e": "oset",
+     "path": "hr.thanks_note",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_thanks_note",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "email",
+   "log": "log.iv.thank_wrong",
+   "watch": [
+    "iv_thanks_note",
+    "iv_thanks_note_scene"
+   ]
+  },
+  {
+   "id": "E12",
+   "key": "pin_boss_notes",
+   "cat": "E",
+   "obj": "noticeboard",
+   "name": "iv.pin_boss_notes",
+   "state": [
+    {
+     "e": "pin",
+     "kind": "notes",
+     "about": "@ahmet",
+     "by": ""
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_notes_pinned",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "icon": "pin",
+   "log": "log.iv.pin_boss_notes",
+   "watch": [
+    "iv_notes_pinned"
+   ]
+  },
+  {
+   "id": "E13",
+   "key": "headhunter_card",
+   "cat": "E",
+   "obj": "ws",
+   "name": "iv.headhunter_card",
+   "tab": "papers",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.card",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_card_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "card_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "email",
+   "log": "log.iv.headhunter_card",
+   "watch": [
+    "iv_card_boss",
+    "iv_card_found"
+   ]
+  },
+  {
+   "id": "E14",
+   "key": "anger_course",
+   "cat": "E",
+   "obj": "hr_cabinet",
+   "name": "iv.anger_course",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "hr.course",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_course",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "papers",
+   "log": "log.iv.anger_course",
+   "watch": [
+    "iv_course"
+   ]
+  },
+  {
+   "id": "E15",
+   "key": "title_intern",
+   "cat": "E",
+   "obj": "hr_cabinet",
+   "name": "iv.title_intern",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ece",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "hr.intern",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_intern",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "file",
+   "log": "log.iv.title_intern",
+   "watch": [
+    "iv_intern",
+    "iv_intern_scene"
+   ]
+  },
+  {
+   "id": "E16",
+   "key": "transfer_request",
+   "cat": "E",
+   "obj": "hr_cabinet",
+   "name": "iv.transfer_request",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "hr.transfer",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_transfer",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "papers",
+   "log": "log.iv.transfer_request",
+   "watch": [
+    "iv_transfer",
+    "iv_transfer_scene"
+   ]
+  },
+  {
+   "id": "E17",
+   "key": "promo_criteria",
+   "cat": "E",
+   "obj": "noticeboard",
+   "name": "iv.promo_criteria",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "cake",
+     "label": "opt.iv.cake"
+    },
+    {
+     "v": "laugh",
+     "label": "opt.iv.laugh"
+    }
+   ],
+   "state": [
+    {
+     "e": "pin",
+     "kind": "criteria",
+     "about": "@ahmet",
+     "by": ""
+    },
+    {
+     "e": "oset",
+     "path": "notice.criteria",
+     "v": "$choice"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_criteria",
+     "delay": 6,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "pin",
+   "log": "log.iv.promo_criteria",
+   "watch": [
+    "iv_criteria",
+    "iv_criteria_cake",
+    "iv_criteria_laugh"
+   ]
+  },
+  {
+   "id": "E18",
+   "key": "reference_letter",
+   "cat": "E",
+   "obj": "promo_file",
+   "name": "iv.reference_letter",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "hr.reference",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_reference",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "email",
+   "log": "log.iv.reference_letter",
+   "watch": [
+    "iv_reference"
+   ]
+  },
+  {
+   "id": "E19",
+   "key": "overtime_list",
+   "cat": "E",
+   "obj": "noticeboard",
+   "name": "iv.overtime_list",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "pin",
+     "kind": "overtime",
+     "about": "target",
+     "by": ""
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_overtime",
+     "delay": 5,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "calendar",
+   "log": "log.iv.overtime_list",
+   "watch": [
+    "iv_overtime",
+    "iv_overtime_boss",
+    "ivm_accuse"
+   ]
+  },
+  {
+   "id": "E20",
+   "key": "nameplate",
+   "cat": "E",
+   "obj": "promo_file",
+   "name": "iv.nameplate",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "hr.nameplate",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_plate",
+     "delay": 4,
+     "all": true
+    },
+    {
+     "e": "chain",
+     "event": "iv_plate",
+     "delay": 22,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "home",
+   "log": "log.iv.nameplate",
+   "watch": [
+    "iv_plate",
+    "iv_plate_scene"
+   ]
+  },
+  {
+   "id": "F01",
+   "key": "swap_phones",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.swap_phones",
+   "tab": "phone",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "set",
+     "key": "fact",
+     "v": "$secret"
+    },
+    {
+     "e": "rumor",
+     "kind": "crush",
+     "a": "owner",
+     "b": "$crush",
+     "juicy": 0.7,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush"
+      }
+     ]
+    },
+    {
+     "e": "rumor",
+     "kind": "dislikes",
+     "a": "owner",
+     "b": "$worst",
+     "juicy": 0.6,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$worst"
+      }
+     ]
+    },
+    {
+     "e": "oset",
+     "path": "ws.{owner}.phone_swap",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_swapphone_read",
+     "delay": 4,
+     "all": true
+    },
+    {
+     "e": "trap",
+     "kind": "pair",
+     "event": "iv_swapphone_back",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "key": "swapphone_{owner}",
+     "r": 2.4,
+     "pair": [
+      "owner",
+      "target"
+     ]
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "secret",
+     "fn": "secret_about",
+     "optional": true,
+     "knower": "owner",
+     "about": "owner"
+    },
+    {
+     "name": "crush",
+     "fn": "crush_of",
+     "optional": true,
+     "of": "owner"
+    },
+    {
+     "name": "worst",
+     "fn": "worst_of",
+     "optional": true,
+     "of": "owner",
+     "lim": 99,
+     "avail": false
+    }
+   ],
+   "icon": "phone",
+   "log": "log.iv.swap_phones",
+   "watch": [
+    "hunt_rumor_source",
+    "iv_swapphone_back",
+    "iv_swapphone_read",
+    "ivm_secret",
+    "ivm_spread",
+    "ivm_tell_boss",
+    "kitchen_gossip_scene",
+    "overheard_by_subject",
+    "paranoid_confront",
+    "paranoid_passerby",
+    "rumor_check_scene",
+    "rumor_source_confront"
+   ]
+  },
+  {
+   "id": "F02",
+   "key": "caller_id",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.caller_id",
+   "tab": "phone",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "mom",
+     "label": "opt.iv.mom"
+    },
+    {
+     "v": "ex",
+     "label": "opt.iv.ex"
+    },
+    {
+     "v": "headhunter",
+     "label": "opt.iv.headhunter"
+    },
+    {
+     "v": "boss",
+     "label": "opt.iv.boss"
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.callerid",
+     "v": "$choice"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_callerid",
+     "delay": 2,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "phone",
+   "log": "log.iv.caller_id",
+   "watch": [
+    "iv_callerid"
+   ]
+  },
+  {
+   "id": "F03",
+   "key": "ringtone",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.ringtone",
+   "tab": "phone",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "siren",
+     "label": "opt.iv.siren"
+    },
+    {
+     "v": "love",
+     "label": "opt.iv.love"
+    },
+    {
+     "v": "baby",
+     "label": "opt.iv.baby"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.ringtone",
+     "v": "$choice"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_ringtone",
+     "delay": 12,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "sound",
+   "log": "log.iv.ringtone",
+   "watch": [
+    "iv_ringtone"
+   ]
+  },
+  {
+   "id": "F04",
+   "key": "forward_calls",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.forward_calls",
+   "tab": "phone",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.forward",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_fwdcall",
+     "delay": 8,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "deniz",
+    "ceren",
+    "zeynep"
+   ],
+   "icon": "redirect",
+   "log": "log.iv.forward_calls",
+   "watch": [
+    "iv_fwdcall",
+    "iv_fwdcall_help",
+    "iv_fwdcall_owner",
+    "ivm_accuse"
+   ]
+  },
+  {
+   "id": "F05",
+   "key": "notif_elsewhere",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.notif_elsewhere",
+   "tab": "phone",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "rumor",
+     "kind": "dislikes",
+     "a": "owner",
+     "b": "$worst",
+     "juicy": 0.6,
+     "knowers": [
+      "owner"
+     ],
+     "key": "fact"
+    },
+    {
+     "e": "oset",
+     "path": "ws.{owner}.mirror",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_notif_preview",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "worst",
+     "fn": "worst_of",
+     "optional": false,
+     "of": "owner",
+     "lim": 15,
+     "avail": false,
+     "why": "why.no_grudge"
+    }
+   ],
+   "icon": "phone",
+   "log": "log.iv.notif_elsewhere",
+   "watch": [
+    "hunt_rumor_source",
+    "iv_notif_preview",
+    "ivm_secret",
+    "ivm_spread",
+    "ivm_tell_boss",
+    "kitchen_gossip_scene",
+    "overheard_by_subject",
+    "paranoid_confront",
+    "paranoid_passerby",
+    "rumor_check_scene",
+    "rumor_source_confront"
+   ]
+  },
+  {
+   "id": "F06",
+   "key": "phone_in_fridge",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.phone_in_fridge",
+   "tab": "phone",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.phone_at",
+     "v": "fridge"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_fridgephone",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "fridgephone_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "phone",
+   "log": "log.iv.phone_in_fridge",
+   "watch": [
+    "iv_fridgephone",
+    "iv_fridgephone_end",
+    "ivm_accuse"
+   ]
+  },
+  {
+   "id": "F07",
+   "key": "fake_reminder",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.fake_reminder",
+   "tab": "phone",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "flowers",
+     "label": "opt.iv.flowers"
+    },
+    {
+     "v": "gym",
+     "label": "opt.iv.gym"
+    },
+    {
+     "v": "raise",
+     "label": "opt.iv.raise"
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "15:00",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.reminder",
+     "v": "$choice"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_remind",
+     "delay": 6,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "vars": [
+    {
+     "name": "crush",
+     "fn": "crush_of",
+     "optional": true,
+     "of": "owner",
+     "role": true
+    }
+   ],
+   "icon": "calendar",
+   "log": "log.iv.fake_reminder",
+   "watch": [
+    "iv_flowers_back",
+    "iv_flowers_give",
+    "iv_remind",
+    "iv_remind_raise"
+   ]
+  },
+  {
+   "id": "F08",
+   "key": "delay_callback",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.delay_callback",
+   "tab": "phone",
+   "conds": [
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    },
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.callback",
+     "v": "delayed"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_callback_lost",
+     "delay": 30,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "mert",
+    "selin",
+    "deniz"
+   ],
+   "icon": "phone",
+   "log": "log.iv.delay_callback",
+   "watch": [
+    "iv_callback_lost"
+   ]
+  },
+  {
+   "id": "F09",
+   "key": "voicemail_wrong",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.voicemail_wrong",
+   "tab": "phone",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "set",
+     "key": "fact",
+     "v": "$secret"
+    },
+    {
+     "e": "rumor",
+     "kind": "crush",
+     "a": "owner",
+     "b": "$crush",
+     "juicy": 0.7,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush"
+      }
+     ]
+    },
+    {
+     "e": "rumor",
+     "kind": "dislikes",
+     "a": "owner",
+     "b": "$worst",
+     "juicy": 0.6,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$worst"
+      }
+     ]
+    },
+    {
+     "e": "oset",
+     "path": "ws.{owner}.voicemail",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_voicemail",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "secret",
+     "fn": "secret_about",
+     "optional": true,
+     "knower": "owner",
+     "about": "owner"
+    },
+    {
+     "name": "crush",
+     "fn": "crush_of",
+     "optional": true,
+     "of": "owner"
+    },
+    {
+     "name": "worst",
+     "fn": "worst_of",
+     "optional": true,
+     "of": "owner",
+     "lim": 99,
+     "avail": false
+    }
+   ],
+   "icon": "sound",
+   "log": "log.iv.voicemail_wrong",
+   "watch": [
+    "hunt_rumor_source",
+    "iv_voicemail",
+    "ivm_misattrib",
+    "ivm_secret",
+    "ivm_spread",
+    "ivm_tell_boss",
+    "kitchen_gossip_scene",
+    "overheard_by_subject",
+    "paranoid_confront",
+    "paranoid_passerby",
+    "rumor_check_scene",
+    "rumor_source_confront"
+   ]
+  },
+  {
+   "id": "F10",
+   "key": "wrong_callback",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.wrong_callback",
+   "tab": "phone",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    },
+    {
+     "c": "available",
+     "who": "self"
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.missed",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_wrongcb",
+     "delay": 5,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "phone",
+   "log": "log.iv.wrong_callback",
+   "watch": [
+    "iv_wrongcb"
+   ]
+  },
+  {
+   "id": "F11",
+   "key": "speakerphone",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.speakerphone",
+   "tab": "phone",
+   "conds": [
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "set",
+     "key": "fact",
+     "v": "$secret"
+    },
+    {
+     "e": "rumor",
+     "kind": "crush",
+     "a": "owner",
+     "b": "$crush",
+     "juicy": 0.7,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush"
+      }
+     ]
+    },
+    {
+     "e": "rumor",
+     "kind": "dislikes",
+     "a": "owner",
+     "b": "$worst",
+     "juicy": 0.6,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$worst"
+      }
+     ]
+    },
+    {
+     "e": "oset",
+     "path": "ws.{owner}.speaker",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_speaker",
+     "delay": 8,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "secret",
+     "fn": "secret_about",
+     "optional": true,
+     "knower": "owner",
+     "about": "owner"
+    },
+    {
+     "name": "crush",
+     "fn": "crush_of",
+     "optional": true,
+     "of": "owner"
+    },
+    {
+     "name": "worst",
+     "fn": "worst_of",
+     "optional": true,
+     "of": "owner",
+     "lim": 99,
+     "avail": false
+    }
+   ],
+   "icon": "sound",
+   "log": "log.iv.speakerphone",
+   "watch": [
+    "iv_speaker"
+   ]
+  },
+  {
+   "id": "F12",
+   "key": "do_not_disturb",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.do_not_disturb",
+   "tab": "phone",
+   "conds": [
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    },
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.dnd",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_dnd_storm",
+     "delay": 15,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "close",
+   "log": "log.iv.do_not_disturb",
+   "watch": [
+    "iv_dnd_scene",
+    "iv_dnd_storm"
+   ]
+  },
+  {
+   "id": "F13",
+   "key": "prank_boss",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.prank_boss",
+   "tab": "phone",
+   "conds": [
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    },
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.prank_call",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_prankcall",
+     "delay": 2,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "phone",
+   "log": "log.iv.prank_boss",
+   "watch": [
+    "iv_prankcall",
+    "ivm_boss_talk"
+   ]
+  },
+  {
+   "id": "F14",
+   "key": "scramble_switchboard",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.scramble_switchboard",
+   "tab": "phone",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.ceren.switchboard",
+     "v": "scrambled"
+    },
+    {
+     "e": "oset",
+     "path": "ws.ceren.switchboard",
+     "v": "",
+     "delay": 60
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_switch_start",
+     "delay": 2,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "ceren"
+   ],
+   "icon": "redirect",
+   "absent_ok": true,
+   "log": "log.iv.scramble_switchboard",
+   "watch": [
+    "hunt_rumor_source",
+    "iv_switch_juicy",
+    "iv_switch_start",
+    "ivm_secret",
+    "ivm_spread",
+    "ivm_tell_boss",
+    "kitchen_gossip_scene",
+    "overheard_by_subject",
+    "paranoid_confront",
+    "paranoid_passerby",
+    "rumor_check_scene",
+    "rumor_source_confront"
+   ]
+  },
+  {
+   "id": "F15",
+   "key": "hold_music",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.hold_music",
+   "tab": "phone",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "metal",
+     "label": "opt.iv.metal"
+    },
+    {
+     "v": "ballad",
+     "label": "opt.iv.ballad"
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.ceren.hold_music",
+     "v": "$choice"
+    },
+    {
+     "e": "set",
+     "key": "what",
+     "f": "hold_{choice}"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_holdmusic",
+     "delay": 18,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "ceren"
+   ],
+   "icon": "music",
+   "absent_ok": true,
+   "log": "log.iv.hold_music",
+   "watch": [
+    "iv_holdmusic",
+    "iv_holdmusic_scene"
+   ]
+  },
+  {
+   "id": "F16",
+   "key": "phone_in_coat",
+   "cat": "F",
+   "obj": "coat_rack",
+   "name": "iv.phone_in_coat",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "coat",
+     "pfn": "rival_of",
+     "of": "target",
+     "lim": -1
+    },
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "coat",
+     "pfn": "worst_of",
+     "keep": true,
+     "of": "target",
+     "lim": 99
+    },
+    {
+     "e": "oset",
+     "path": "coats.phone",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_coatphone",
+     "delay": 10,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "phone",
+   "log": "log.iv.phone_in_coat",
+   "watch": [
+    "iv_coatphone",
+    "iv_coatphone_scene"
+   ]
+  },
+  {
+   "id": "F17",
+   "key": "we_need_to_talk",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.we_need_to_talk",
+   "tab": "phone",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.wntt",
+     "v": "%crush"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_wntt_read",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "crush",
+     "fn": "crush_of",
+     "optional": false,
+     "of": "owner",
+     "role": true,
+     "why": "why.no_crush"
+    }
+   ],
+   "icon": "phone",
+   "log": "log.iv.we_need_to_talk",
+   "watch": [
+    "iv_wntt_read",
+    "iv_wntt_scene"
+   ]
+  },
+  {
+   "id": "F18",
+   "key": "meeting_alarm",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.meeting_alarm",
+   "tab": "phone",
+   "conds": [
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    },
+    {
+     "c": "attends",
+     "who": "owner",
+     "why": "why.not_attending"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.alarm",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_alarm_meeting",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "who": "@ahmet",
+     "key": "malarm_{owner}",
+     "on": "meeting_start",
+     "roles": {
+      "owner": "owner"
+     }
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "sound",
+   "log": "log.iv.meeting_alarm",
+   "watch": [
+    "iv_alarm_meeting"
+   ]
+  },
+  {
+   "id": "F19",
+   "key": "drain_battery",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.drain_battery",
+   "tab": "phone",
+   "conds": [
+    {
+     "c": "present",
+     "who": "@burak",
+     "why": "why.no_burak"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.battery",
+     "v": 0
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_battery",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "battery_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "ece",
+    "deniz",
+    "ceren",
+    "ahmet"
+   ],
+   "icon": "bulb",
+   "watch": [
+    "accusation",
+    "defense",
+    "foreign_item",
+    "item_found",
+    "item_missing",
+    "iv_battery"
+   ],
+   "log": "log.iv.drain_battery"
+  },
+  {
+   "id": "F20",
+   "key": "group_photo",
+   "cat": "F",
+   "obj": "ws",
+   "name": "iv.group_photo",
+   "tab": "phone",
+   "conds": [
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.photo",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_photo",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "log": "log.iv.group_photo",
+   "watch": [
+    "iv_photo",
+    "ivm_accuse"
+   ]
+  },
+  {
+   "id": "G03",
+   "key": "swap_mugs",
+   "cat": "G",
+   "obj": "coffee_machine",
+   "name": "iv.swap_mugs",
+   "state": [
+    {
+     "e": "oset",
+     "path": "kitchen.mugs_swapped",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_mug_drink",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "#coffee",
+     "key": "mugs"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "coffee",
+   "log": "log.iv.swap_mugs",
+   "watch": [
+    "iv_mug_claim",
+    "iv_mug_drink"
+   ]
+  },
+  {
+   "id": "G04",
+   "key": "decaf",
+   "cat": "G",
+   "obj": "coffee_machine",
+   "name": "iv.decaf",
+   "conds": [
+    {
+     "c": "ostate",
+     "path": "coffee.decaf",
+     "not": true,
+     "why": "why.already"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "coffee.decaf",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_decaf_found",
+     "uses": 2,
+     "days": 0,
+     "as": "actor",
+     "place": "#coffee",
+     "key": "decaf"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "coffee",
+   "log": "log.iv.decaf",
+   "watch": [
+    "iv_decaf_found",
+    "iv_decaf_zeynep"
+   ]
+  },
+  {
+   "id": "G05",
+   "key": "move_lunch",
+   "cat": "G",
+   "obj": "fridge",
+   "name": "iv.move_lunch",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "conds": [
+    {
+     "c": "time",
+     "before": "12:30",
+     "why": "why.after_lunch"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "suspect",
+     "pfn": "suspect",
+     "of": "target"
+    },
+    {
+     "e": "set",
+     "key": "suspect",
+     "who": "suspect"
+    },
+    {
+     "e": "call",
+     "fn": "take_lunch",
+     "who": "suspect",
+     "target": "target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_lunchmove_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "#fridge",
+     "who": "target",
+     "key": "lunchmove",
+     "after": 30
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "coffee",
+   "watch": [
+    "accusation",
+    "defense",
+    "iv_lunchmove_found",
+    "lunch_gone"
+   ],
+   "log": "log.iv.move_lunch"
+  },
+  {
+   "id": "G06",
+   "key": "coffee_late",
+   "cat": "G",
+   "obj": "coffee_machine",
+   "name": "iv.coffee_late",
+   "conds": [
+    {
+     "c": "office",
+     "key": "coffee.broken",
+     "eq": false,
+     "why": "why.coffee_broken"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "coffee_late",
+     "minutes": 40
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "coffee",
+   "watch": [
+    "gossip_share",
+    "iv_coffee_wait"
+   ],
+   "log": "log.iv.coffee_late"
+  },
+  {
+   "id": "G07",
+   "key": "break_water",
+   "cat": "G",
+   "obj": "water_cooler",
+   "name": "iv.break_water",
+   "conds": [
+    {
+     "c": "ostate",
+     "path": "water.broken",
+     "not": true,
+     "why": "why.already_broken"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "water.broken",
+     "v": true
+    },
+    {
+     "e": "oset",
+     "path": "water.discovered",
+     "v": false
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "coffee",
+   "watch": [
+    "fix_done",
+    "iv_water_broken"
+   ],
+   "log": "log.iv.break_water"
+  },
+  {
+   "id": "G08",
+   "key": "hide_snacks",
+   "cat": "G",
+   "obj": "kitchen_table",
+   "name": "iv.hide_snacks",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "kitchen.snacks_at",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_snack_need",
+     "delay": 8,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "coffee",
+   "log": "log.iv.hide_snacks",
+   "watch": [
+    "iv_snack_found",
+    "iv_snack_need"
+   ]
+  },
+  {
+   "id": "G09",
+   "key": "cake_early",
+   "cat": "G",
+   "obj": "kitchen_table",
+   "name": "iv.cake_early",
+   "state": [
+    {
+     "e": "oset",
+     "path": "kitchen.cake_out",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_cake_early",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "#lunch",
+     "key": "cakeearly",
+     "roles": {
+      "bday": "bday"
+     }
+    },
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_cake_early",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "#coffee",
+     "key": "cakeearly2",
+     "roles": {
+      "bday": "bday"
+     }
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "bday",
+     "fn": "birthday_person",
+     "optional": false,
+     "role": true,
+     "why": "why.no_birthday"
+    }
+   ],
+   "icon": "star",
+   "test": {
+    "setup": [
+     {
+      "e": "flag",
+      "key": "birthday",
+      "v": "mert",
+      "day": true
+     }
+    ]
+   },
+   "log": "log.iv.cake_early",
+   "watch": [
+    "iv_cake_early"
+   ]
+  },
+  {
+   "id": "G10",
+   "key": "reserve_kitchen",
+   "cat": "G",
+   "obj": "kitchen_table",
+   "name": "iv.reserve_kitchen",
+   "conds": [
+    {
+     "c": "time",
+     "before": "12:30",
+     "why": "why.after_lunch"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "kitchen.reserved",
+     "v": "ahmet"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_reserved",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "key": "reserved",
+     "on": "lunch_start"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "lock",
+   "log": "log.iv.reserve_kitchen",
+   "watch": [
+    "iv_reserved"
+   ]
+  },
+  {
+   "id": "G11",
+   "key": "break_microwave",
+   "cat": "G",
+   "obj": "microwave",
+   "name": "iv.break_microwave",
+   "conds": [
+    {
+     "c": "time",
+     "before": "12:30",
+     "why": "why.after_lunch"
+    },
+    {
+     "c": "ostate",
+     "path": "microwave.broken",
+     "not": true,
+     "why": "why.already_broken"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "microwave.broken",
+     "v": true
+    },
+    {
+     "e": "oset",
+     "path": "microwave.discovered",
+     "v": false
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "bulb",
+   "watch": [
+    "fix_done",
+    "iv_microwave_broken",
+    "ivm_accuse"
+   ],
+   "log": "log.iv.break_microwave"
+  },
+  {
+   "id": "G12",
+   "key": "fish_label",
+   "cat": "G",
+   "obj": "fridge",
+   "name": "iv.fish_label",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "conds": [
+    {
+     "c": "time",
+     "before": "12:30",
+     "why": "why.after_lunch"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "fridge.fish",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_fish",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "key": "fish",
+     "on": "lunch_start",
+     "roles": {
+      "target": "target"
+     }
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "coffee",
+   "log": "log.iv.fish_label",
+   "watch": [
+    "iv_fish"
+   ]
+  },
+  {
+   "id": "G13",
+   "key": "salt_sugar",
+   "cat": "G",
+   "obj": "coffee_machine",
+   "name": "iv.salt_sugar",
+   "state": [
+    {
+     "e": "oset",
+     "path": "kitchen.salt",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_salt",
+     "uses": 2,
+     "days": 1,
+     "as": "actor",
+     "place": "#coffee",
+     "key": "salt"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "coffee",
+   "log": "log.iv.salt_sugar",
+   "watch": [
+    "iv_salt",
+    "ivm_accuse"
+   ]
+  },
+  {
+   "id": "G14",
+   "key": "fridge_note",
+   "cat": "G",
+   "obj": "fridge",
+   "name": "iv.fridge_note",
+   "needs": "person",
+   "state": [
+    {
+     "e": "oset",
+     "path": "fridge.note",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_fnote",
+     "uses": 2,
+     "days": 1,
+     "as": "actor",
+     "place": "#fridge",
+     "key": "fnote"
+    },
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_fnote",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "#coffee",
+     "key": "fnote2"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "pin",
+   "log": "log.iv.fridge_note",
+   "watch": [
+    "iv_fnote"
+   ]
+  },
+  {
+   "id": "G15",
+   "key": "fridge_purge",
+   "cat": "G",
+   "obj": "fridge",
+   "name": "iv.fridge_purge",
+   "conds": [
+    {
+     "c": "time",
+     "before": "12:30",
+     "why": "why.after_lunch"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "fridge.cleared",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_purge",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "#fridge",
+     "key": "purge"
+    },
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_purge",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "key": "purge2",
+     "on": "lunch_start"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "close",
+   "log": "log.iv.fridge_purge",
+   "watch": [
+    "iv_purge"
+   ]
+  },
+  {
+   "id": "G16",
+   "key": "strong_coffee",
+   "cat": "G",
+   "obj": "coffee_machine",
+   "name": "iv.strong_coffee",
+   "conds": [
+    {
+     "c": "ostate",
+     "path": "coffee.strong",
+     "not": true,
+     "why": "why.already"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "coffee.strong",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_strong",
+     "uses": 3,
+     "days": 0,
+     "as": "actor",
+     "place": "#coffee",
+     "key": "strong"
+    },
+    {
+     "e": "chain",
+     "event": "iv_jitter_fight",
+     "delay": 45,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "coffee",
+   "log": "log.iv.strong_coffee",
+   "watch": [
+    "iv_jitter_fight",
+    "iv_strong"
+   ]
+  },
+  {
+   "id": "G17",
+   "key": "tea_tray",
+   "cat": "G",
+   "obj": "kitchen_table",
+   "name": "iv.tea_tray",
+   "state": [
+    {
+     "e": "oset",
+     "path": "kitchen.tray",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_tray_call",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "coffee",
+   "log": "log.iv.tea_tray",
+   "watch": [
+    "iv_tray_call",
+    "iv_tray_party"
+   ]
+  },
+  {
+   "id": "G18",
+   "key": "last_cup",
+   "cat": "G",
+   "obj": "coffee_machine",
+   "name": "iv.last_cup",
+   "conds": [
+    {
+     "c": "office",
+     "key": "coffee.broken",
+     "eq": false,
+     "why": "why.coffee_broken"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "kitchen.last_cup",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_lastcup",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "#coffee",
+     "key": "lastcup"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "coffee",
+   "log": "log.iv.last_cup",
+   "watch": [
+    "iv_lastcup",
+    "iv_lastcup_scene"
+   ]
+  },
+  {
+   "id": "G19",
+   "key": "best_boss_mug",
+   "cat": "G",
+   "obj": "kitchen_table",
+   "name": "iv.best_boss_mug",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    },
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "kitchen.bestboss",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_bestboss",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_ahmet",
+     "who": "@ahmet",
+     "key": "bestboss",
+     "roles": {
+      "target": "target"
+     }
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "coffee",
+   "log": "log.iv.best_boss_mug",
+   "watch": [
+    "iv_bestboss",
+    "iv_bestboss_scene"
+   ]
+  },
+  {
+   "id": "G20",
+   "key": "spa_water",
+   "cat": "G",
+   "obj": "water_cooler",
+   "name": "iv.spa_water",
+   "conds": [
+    {
+     "c": "ostate",
+     "path": "water.broken",
+     "not": true,
+     "why": "why.water_broken"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "water.lemon",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_spa",
+     "uses": 3,
+     "days": 0,
+     "as": "actor",
+     "place": "#water",
+     "key": "spa"
+    },
+    {
+     "e": "chain",
+     "event": "iv_spa_boss",
+     "delay": 70,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "log": "log.iv.spa_water",
+   "watch": [
+    "iv_spa",
+    "iv_spa_boss"
+   ]
+  },
+  {
+   "id": "H06",
+   "key": "fix_printer",
+   "cat": "H",
+   "obj": "printer",
+   "name": "iv.fix_printer",
+   "conds": [
+    {
+     "c": "office",
+     "key": "printer.broken",
+     "eq": true,
+     "why": "why.printer_working"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "printer.broken",
+     "v": false
+    },
+    {
+     "e": "oset",
+     "path": "printer.fixing",
+     "v": ""
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_printer_ghostfix",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "#printer",
+     "key": "ghostfix"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "printer",
+   "test": {
+    "setup": [
+     {
+      "e": "obj",
+      "obj": "printer",
+      "key": "broken",
+      "v": true
+     }
+    ]
+   },
+   "log": "log.iv.fix_printer",
+   "watch": [
+    "iv_printer_ghostfix",
+    "thank_wrong_person"
+   ]
+  },
+  {
+   "id": "H07",
+   "key": "wobbly_chair",
+   "cat": "H",
+   "obj": "ws",
+   "name": "iv.wobbly_chair",
+   "tab": "papers",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.chair",
+     "v": "broken"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_chair_collapse",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "chair_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "people",
+   "log": "log.iv.wobbly_chair",
+   "watch": [
+    "iv_chair_collapse",
+    "ivm_accuse"
+   ]
+  },
+  {
+   "id": "H08",
+   "key": "pack_desk",
+   "cat": "H",
+   "obj": "ws",
+   "name": "iv.pack_desk",
+   "tab": "papers",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.packed",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_packed",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "who": "owner",
+     "key": "packed_{owner}"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "item",
+   "log": "log.iv.pack_desk",
+   "watch": [
+    "iv_packed",
+    "iv_packed_ask"
+   ]
+  },
+  {
+   "id": "H09",
+   "key": "no_paper",
+   "cat": "H",
+   "obj": "printer",
+   "name": "iv.no_paper",
+   "conds": [
+    {
+     "c": "ostate",
+     "path": "printer.no_paper",
+     "not": true,
+     "why": "why.already"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "printer.no_paper",
+     "v": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "papers",
+   "watch": [
+    "iv_nopaper",
+    "iv_nopaper_shelf"
+   ],
+   "log": "log.iv.no_paper"
+  },
+  {
+   "id": "H10",
+   "key": "office_music",
+   "cat": "H",
+   "obj": "speaker",
+   "name": "iv.office_music",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "classical",
+     "label": "opt.iv.classical"
+    },
+    {
+     "v": "arabesk",
+     "label": "opt.iv.arabesk"
+    },
+    {
+     "v": "disco",
+     "label": "opt.iv.disco"
+    },
+    {
+     "v": "pop",
+     "label": "opt.iv.pop"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "music.genre",
+     "v": "$choice"
+    },
+    {
+     "e": "set",
+     "key": "what",
+     "f": "music_{choice}"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_music_on",
+     "delay": 2,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 20,
+    "day": 4
+   },
+   "icon": "music",
+   "log": "log.iv.office_music",
+   "watch": [
+    "iv_music_off",
+    "iv_music_on"
+   ]
+  },
+  {
+   "id": "H11",
+   "key": "fire_alarm",
+   "cat": "H",
+   "obj": "alarm_panel",
+   "name": "iv.fire_alarm",
+   "conds": [
+    {
+     "c": "ostate",
+     "path": "alarm.on",
+     "not": true,
+     "why": "why.alarm_on"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "alarm.on",
+     "v": true
+    },
+    {
+     "e": "call",
+     "fn": "alarm_timer",
+     "minutes": 12
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_alarm_go",
+     "delay": 0.5,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 600,
+    "day": 1
+   },
+   "icon": "bulb",
+   "watch": [
+    "iv_alarm_gather",
+    "iv_alarm_go",
+    "iv_alarm_over"
+   ],
+   "sfx": "alarm",
+   "log": "log.iv.fire_alarm"
+  },
+  {
+   "id": "H12",
+   "key": "wall_clock",
+   "cat": "H",
+   "obj": "wall_clock",
+   "name": "iv.wall_clock",
+   "needs": "choice",
+   "choices": [
+    {
+     "v": "fast",
+     "label": "opt.iv.fast"
+    },
+    {
+     "v": "slow",
+     "label": "opt.iv.slow"
+    }
+   ],
+   "conds": [
+    {
+     "c": "time",
+     "after": "14:00",
+     "before": "16:45",
+     "why": "why.clock_time"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "clock.offset",
+     "v": 45,
+     "when": [
+      {
+       "c": "var",
+       "key": "choice",
+       "eq": "fast"
+      }
+     ]
+    },
+    {
+     "e": "oset",
+     "path": "clock.offset",
+     "v": -30,
+     "when": [
+      {
+       "c": "var",
+       "key": "choice",
+       "eq": "slow"
+      }
+     ]
+    },
+    {
+     "e": "set",
+     "key": "what",
+     "f": "clockwall_{choice}"
+    },
+    {
+     "e": "call",
+     "fn": "clock_time"
+    },
+    {
+     "e": "each",
+     "effects": [
+      {
+       "e": "npcval",
+       "who": "self",
+       "key": "leave_at",
+       "d": -45
+      },
+      {
+       "e": "say",
+       "who": "self",
+       "line": "wallclock_see",
+       "delay": 1.5,
+       "p": 0.3
+      }
+     ],
+     "exclude": [
+      "@ahmet"
+     ],
+     "stagger": 0.5,
+     "where": [
+      {
+       "c": "trait",
+       "who": "self",
+       "t": "diligence",
+       "lt": 0.75
+      },
+      {
+       "c": "var",
+       "key": "choice",
+       "eq": "fast"
+      }
+     ]
+    },
+    {
+     "e": "each",
+     "effects": [
+      {
+       "e": "npcval",
+       "who": "self",
+       "key": "leave_at",
+       "d": 25
+      }
+     ],
+     "exclude": [],
+     "stagger": 0.0,
+     "where": [
+      {
+       "c": "var",
+       "key": "choice",
+       "eq": "slow"
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_wallclock_leave",
+     "uses": 2,
+     "days": 0,
+     "as": "actor",
+     "key": "wallclock",
+     "on": "leaving"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "calendar",
+   "watch": [
+    "iv_wallclock_caught",
+    "iv_wallclock_leave"
+   ],
+   "test": {
+    "at": "14:30"
+   },
+   "log": "log.iv.wall_clock"
+  },
+  {
+   "id": "H13",
+   "key": "revive_plant",
+   "cat": "H",
+   "obj": "plant",
+   "name": "iv.revive_plant",
+   "conds": [
+    {
+     "c": "ostate",
+     "path": "plant.revived",
+     "not": true,
+     "why": "why.plant_ok"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "plant.revived",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "near",
+     "event": "iv_plant_seen",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "plant",
+     "key": "plant",
+     "r": 2.6
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "log": "log.iv.revive_plant",
+   "watch": [
+    "iv_plant_seen",
+    "iv_plant_thank"
+   ]
+  },
+  {
+   "id": "H14",
+   "key": "jam_door",
+   "cat": "H",
+   "obj": "front_door",
+   "name": "iv.jam_door",
+   "conds": [
+    {
+     "c": "time",
+     "after": "11:00",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "front_door.jammed",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_frontdoor",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "key": "frontdoor",
+     "on": "leaving"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "lock",
+   "test": {
+    "at": "16:40"
+   },
+   "log": "log.iv.jam_door",
+   "watch": [
+    "iv_frontdoor"
+   ]
+  },
+  {
+   "id": "H15",
+   "key": "lock_thermostat",
+   "cat": "H",
+   "obj": "ac",
+   "name": "iv.lock_thermostat",
+   "conds": [
+    {
+     "c": "ostate",
+     "path": "ac.locked",
+     "not": true,
+     "why": "why.already_locked"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ac.locked",
+     "v": true
+    },
+    {
+     "e": "set",
+     "key": "temp",
+     "v": 22
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "thermo",
+   "watch": [
+    "iv_thermo_locked",
+    "ivm_accuse",
+    "ivm_it_fix"
+   ],
+   "test": {
+    "setup": [
+     {
+      "e": "obj",
+      "obj": "ac",
+      "key": "temp",
+      "v": 16
+     }
+    ]
+   },
+   "log": "log.iv.lock_thermostat"
+  },
+  {
+   "id": "H16",
+   "key": "unplug_network",
+   "cat": "H",
+   "obj": "server_box",
+   "name": "iv.unplug_network",
+   "conds": [
+    {
+     "c": "ostate",
+     "path": "net.down",
+     "not": true,
+     "why": "why.net_down"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "net.down",
+     "v": true
+    },
+    {
+     "e": "oset",
+     "path": "net.broken",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_net_down",
+     "delay": 1,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 300,
+    "day": 1
+   },
+   "icon": "gear",
+   "watch": [
+    "fix_done",
+    "iv_net_down"
+   ],
+   "log": "log.iv.unplug_network"
+  },
+  {
+   "id": "H17",
+   "key": "swap_coats",
+   "cat": "H",
+   "obj": "coat_rack",
+   "name": "iv.swap_coats",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "other",
+     "pfn": "crush_of",
+     "of": "target"
+    },
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "other",
+     "pfn": "best_of",
+     "keep": true,
+     "of": "target",
+     "lim": -99
+    },
+    {
+     "e": "oset",
+     "path": "coats.swapped",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_coat_leave",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "who": "target",
+     "key": "coatleave",
+     "on": "leaving",
+     "roles": {
+      "target": "target",
+      "other": "other"
+     }
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "item",
+   "test": {
+    "at": "16:20",
+    "days": 2
+   },
+   "log": "log.iv.swap_coats",
+   "watch": [
+    "iv_coat_leave",
+    "iv_coat_morning"
+   ]
+  },
+  {
+   "id": "H18",
+   "key": "puddle",
+   "cat": "H",
+   "obj": "printer",
+   "name": "iv.puddle",
+   "state": [
+    {
+     "e": "oset",
+     "path": "printer.puddle",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_slip",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "#printer",
+     "key": "puddle"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "coffee",
+   "log": "log.iv.puddle",
+   "watch": [
+    "iv_slip"
+   ]
+  },
+  {
+   "id": "H19",
+   "key": "disco_lights",
+   "cat": "H",
+   "obj": "lights",
+   "name": "iv.disco_lights",
+   "conds": [
+    {
+     "c": "office",
+     "key": "lights.on",
+     "eq": true,
+     "why": "why.dark"
+    },
+    {
+     "c": "ostate",
+     "path": "lights.party",
+     "not": true,
+     "why": "why.already"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "lights.party",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_disco",
+     "delay": 1,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "music",
+   "log": "log.iv.disco_lights",
+   "watch": [
+    "iv_disco",
+    "iv_disco_off"
+   ]
+  },
+  {
+   "id": "H20",
+   "key": "flicker_lights",
+   "cat": "H",
+   "obj": "lights",
+   "name": "iv.flicker_lights",
+   "conds": [
+    {
+     "c": "office",
+     "key": "lights.on",
+     "eq": true,
+     "why": "why.dark"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "flicker",
+     "minutes": 20
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_flicker",
+     "delay": 1,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "ghost",
+   "log": "log.iv.flicker_lights",
+   "watch": [
+    "iv_flicker"
+   ]
+  },
+  {
+   "id": "I01",
+   "key": "kind_note",
+   "cat": "I",
+   "obj": "ws",
+   "name": "iv.kind_note",
+   "tab": "papers",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.kind_note",
+     "v": "%best"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "near",
+     "event": "iv_kindnote",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "desk_{owner}",
+     "not": "owner",
+     "key": "kindnote_{owner}",
+     "r": 2.2
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "best",
+     "fn": "best_of",
+     "optional": false,
+     "of": "owner",
+     "lim": 20,
+     "avail": false,
+     "role": true,
+     "why": "why.no_friend"
+    }
+   ],
+   "icon": "star",
+   "log": "log.iv.kind_note",
+   "watch": [
+    "iv_kindnote"
+   ]
+  },
+  {
+   "id": "I02",
+   "key": "gift_card",
+   "cat": "I",
+   "obj": "kitchen_table",
+   "name": "iv.gift_card",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "giver",
+     "pfn": "best_of",
+     "of": "target",
+     "lim": -99
+    },
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "intended",
+     "pfn": "best_of",
+     "of": "giver",
+     "lim": -99
+    },
+    {
+     "e": "oset",
+     "path": "kitchen.gift",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_giftcard",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "log": "log.iv.gift_card",
+   "watch": [
+    "iv_giftcard",
+    "iv_giftcard_scene"
+   ]
+  },
+  {
+   "id": "I03",
+   "key": "rumor_source",
+   "cat": "I",
+   "obj": "noticeboard",
+   "name": "iv.rumor_source",
+   "state": [
+    {
+     "e": "pin",
+     "kind": "source",
+     "about": "$origin",
+     "by": ""
+    },
+    {
+     "e": "call",
+     "fn": "vars_to_roles",
+     "keys": [
+      "origin",
+      "subject"
+     ]
+    },
+    {
+     "e": "oset",
+     "path": "notice.source_of",
+     "v": "$origin"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_source",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "fact",
+     "fn": "false_rumor",
+     "optional": false,
+     "why": "why.no_false_rumor"
+    }
+   ],
+   "icon": "pin",
+   "test": {
+    "setup": [
+     {
+      "e": "rumor",
+      "kind": "slacker",
+      "a": "@mert",
+      "b": "@zeynep",
+      "truth": false,
+      "origin": "@zeynep",
+      "juicy": 0.5,
+      "knowers": [
+       "@zeynep",
+       "@ece"
+      ]
+     }
+    ]
+   },
+   "log": "log.iv.rumor_source",
+   "watch": [
+    "iv_source",
+    "rumor_source_confront"
+   ]
+  },
+  {
+   "id": "I04",
+   "key": "swap_notes",
+   "cat": "I",
+   "obj": "ws",
+   "name": "iv.swap_notes",
+   "tab": "papers",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "12:30",
+     "why": "why.after_lunch"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.note_to",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_stickyswap",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "friend",
+     "fn": "best_of",
+     "optional": false,
+     "of": "owner",
+     "lim": -99,
+     "role": true,
+     "avail": false
+    }
+   ],
+   "icon": "pin",
+   "log": "log.iv.swap_notes",
+   "watch": [
+    "iv_stickyswap",
+    "iv_stickyswap_meet"
+   ]
+  },
+  {
+   "id": "I05",
+   "key": "apology_wrong",
+   "cat": "I",
+   "obj": "ws",
+   "name": "iv.apology_wrong",
+   "tab": "papers",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.apology_to",
+     "v": "%target"
+    },
+    {
+     "e": "mem",
+     "who": "owner",
+     "about": "foe",
+     "kind": "apologised",
+     "val": 0.3,
+     "w": 0.6,
+     "text": "",
+     "imp": 1
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_apology_wrong",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "foe",
+     "fn": "foe_of",
+     "optional": false,
+     "of": "owner",
+     "role": true,
+     "why": "why.no_foe"
+    }
+   ],
+   "icon": "email",
+   "log": "log.iv.apology_wrong",
+   "watch": [
+    "iv_apology_wrong",
+    "iv_apology_wrong_scene"
+   ]
+  },
+  {
+   "id": "I06",
+   "key": "birthday_collection",
+   "cat": "I",
+   "obj": "kitchen_table",
+   "name": "iv.birthday_collection",
+   "state": [
+    {
+     "e": "oset",
+     "path": "kitchen.collection",
+     "v": "%bdayp"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_collection",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "#lunch",
+     "who": "bdayp",
+     "key": "collection"
+    },
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_collection",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "#coffee",
+     "who": "bdayp",
+     "key": "collection2"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "bdayp",
+     "fn": "upcoming_birthday",
+     "optional": false,
+     "role": true,
+     "why": "why.no_upcoming"
+    }
+   ],
+   "icon": "email",
+   "log": "log.iv.birthday_collection",
+   "watch": [
+    "iv_collection"
+   ]
+  },
+  {
+   "id": "I07",
+   "key": "defense_message",
+   "cat": "I",
+   "obj": "ws",
+   "name": "iv.defense_message",
+   "tab": "papers",
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.defended",
+     "v": "%best"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_defend",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "best",
+     "fn": "best_of",
+     "optional": false,
+     "of": "owner",
+     "lim": 20,
+     "avail": false,
+     "role": true,
+     "why": "why.no_friend"
+    }
+   ],
+   "icon": "email",
+   "log": "log.iv.defense_message",
+   "watch": [
+    "iv_defend",
+    "iv_defend_scene"
+   ]
+  },
+  {
+   "id": "I08",
+   "key": "lunch_invite_wrong",
+   "cat": "I",
+   "obj": "ws",
+   "name": "iv.lunch_invite_wrong",
+   "tab": "mail",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "12:30",
+     "why": "why.after_lunch"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.lunch_inv",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_lunchinv",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "email",
+   "log": "log.iv.lunch_invite_wrong",
+   "watch": [
+    "iv_lunchinv"
+   ]
+  },
+  {
+   "id": "I09",
+   "key": "love_note_wrong",
+   "cat": "I",
+   "obj": "ws",
+   "name": "iv.love_note_wrong",
+   "tab": "papers",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.love_note",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_lovenote",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "crush",
+     "fn": "crush_of",
+     "optional": false,
+     "of": "owner",
+     "role": true,
+     "why": "why.no_crush"
+    }
+   ],
+   "icon": "star",
+   "log": "log.iv.love_note_wrong",
+   "watch": [
+    "iv_lovenote",
+    "ivm_misattrib"
+   ]
+  },
+  {
+   "id": "I10",
+   "key": "alliance_proof",
+   "cat": "I",
+   "obj": "file_cabinet",
+   "name": "iv.alliance_proof",
+   "state": [
+    {
+     "e": "oset",
+     "path": "hr.pact",
+     "v": "$a"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_pact",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "#archive",
+     "key": "pact"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "a",
+     "fn": "alliance_pair",
+     "optional": false,
+     "why": "why.no_alliance"
+    }
+   ],
+   "icon": "papers",
+   "test": {
+    "setup": [
+     {
+      "e": "bond",
+      "a": "@deniz",
+      "b": "@zeynep",
+      "kind": "alliance",
+      "v": true
+     }
+    ]
+   },
+   "log": "log.iv.alliance_proof",
+   "watch": [
+    "iv_pact"
+   ]
+  },
+  {
+   "id": "I11",
+   "key": "anon_compliment",
+   "cat": "I",
+   "obj": "noticeboard",
+   "name": "iv.anon_compliment",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "pin",
+     "kind": "compliment",
+     "about": "target",
+     "by": ""
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_compliment",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "log": "log.iv.anon_compliment",
+   "watch": [
+    "iv_compliment",
+    "ivm_misattrib"
+   ]
+  },
+  {
+   "id": "I12",
+   "key": "anon_complaint",
+   "cat": "I",
+   "obj": "noticeboard",
+   "name": "iv.anon_complaint",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "pin",
+     "kind": "complaint",
+     "about": "target",
+     "by": ""
+    },
+    {
+     "e": "oset",
+     "path": "notice.complaint_about",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_complaint",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "pin",
+   "log": "log.iv.anon_complaint",
+   "watch": [
+    "iv_complaint",
+    "ivm_accuse"
+   ]
+  },
+  {
+   "id": "I13",
+   "key": "rig_gift_draw",
+   "cat": "I",
+   "obj": "kitchen_table",
+   "name": "iv.rig_gift_draw",
+   "state": [
+    {
+     "e": "oset",
+     "path": "kitchen.gift_draw",
+     "v": "$a"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_santa",
+     "delay": 20,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "a",
+     "fn": "rival_pair",
+     "optional": false,
+     "lim": 25,
+     "why": "why.no_rivals"
+    }
+   ],
+   "icon": "star",
+   "log": "log.iv.rig_gift_draw",
+   "watch": [
+    "iv_santa",
+    "iv_santa_scene"
+   ]
+  },
+  {
+   "id": "I14",
+   "key": "lost_notebook",
+   "cat": "I",
+   "obj": "sofa",
+   "name": "iv.lost_notebook",
+   "needs": "person",
+   "state": [
+    {
+     "e": "set",
+     "key": "fact",
+     "v": "$secret"
+    },
+    {
+     "e": "rumor",
+     "kind": "crush",
+     "a": "target",
+     "b": "$crush",
+     "juicy": 0.7,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush"
+      }
+     ]
+    },
+    {
+     "e": "rumor",
+     "kind": "dislikes",
+     "a": "target",
+     "b": "$worst",
+     "juicy": 0.6,
+     "knowers": [],
+     "key": "fact",
+     "when": [
+      {
+       "c": "rolefilled",
+       "who": "$secret",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$crush",
+       "not": true
+      },
+      {
+       "c": "rolefilled",
+       "who": "$worst"
+      }
+     ]
+    },
+    {
+     "e": "oset",
+     "path": "plant.notebook",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_notebook",
+     "uses": 1,
+     "days": 1,
+     "as": "actor",
+     "place": "#rest",
+     "key": "notebook",
+     "roles": {
+      "target": "target"
+     }
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "secret",
+     "fn": "secret_about",
+     "optional": true,
+     "knower": "target",
+     "about": "target"
+    },
+    {
+     "name": "crush",
+     "fn": "crush_of",
+     "optional": true,
+     "of": "target"
+    },
+    {
+     "name": "worst",
+     "fn": "worst_of",
+     "optional": true,
+     "of": "target",
+     "lim": 99,
+     "avail": false
+    }
+   ],
+   "icon": "papers",
+   "log": "log.iv.lost_notebook",
+   "watch": [
+    "hunt_rumor_source",
+    "iv_notebook",
+    "iv_notebook_back",
+    "ivm_secret",
+    "ivm_spread",
+    "ivm_tell_boss",
+    "kitchen_gossip_scene",
+    "overheard_by_subject",
+    "paranoid_confront",
+    "paranoid_passerby",
+    "rumor_check_scene",
+    "rumor_source_confront"
+   ]
+  },
+  {
+   "id": "I15",
+   "key": "lunch_seating",
+   "cat": "I",
+   "obj": "kitchen_table",
+   "name": "iv.lunch_seating",
+   "conds": [
+    {
+     "c": "time",
+     "before": "12:30",
+     "why": "why.after_lunch"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "kitchen.seating",
+     "v": "$a"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "iv_lunchseat",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "key": "lunchseat",
+     "on": "lunch_start"
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "vars": [
+    {
+     "name": "a",
+     "fn": "rival_pair",
+     "optional": false,
+     "lim": 25,
+     "why": "why.no_rivals"
+    }
+   ],
+   "icon": "people",
+   "log": "log.iv.lunch_seating",
+   "watch": [
+    "iv_lunchseat"
+   ]
+  },
+  {
+   "id": "I16",
+   "key": "couple_photo",
+   "cat": "I",
+   "obj": "noticeboard",
+   "name": "iv.couple_photo",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "partner",
+     "pfn": "crush_of",
+     "of": "target"
+    },
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "partner",
+     "pfn": "best_of",
+     "keep": true,
+     "of": "target",
+     "lim": -99
+    },
+    {
+     "e": "pin",
+     "kind": "couple",
+     "about": "target",
+     "by": ""
+    },
+    {
+     "e": "oset",
+     "path": "notice.couple",
+     "v": "%target"
+    },
+    {
+     "e": "oset",
+     "path": "notice.couple_with",
+     "v": "%partner"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_couplephoto",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "star",
+   "log": "log.iv.couple_photo",
+   "watch": [
+    "iv_couplephoto"
+   ]
+  },
+  {
+   "id": "I17",
+   "key": "exclusion_invite",
+   "cat": "I",
+   "obj": "noticeboard",
+   "name": "iv.exclusion_invite",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "pick_role",
+     "role": "organizer",
+     "pfn": "hater_of",
+     "of": "target",
+     "lim": 99
+    },
+    {
+     "e": "pin",
+     "kind": "drinks",
+     "about": "target",
+     "by": ""
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_excluded",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "people",
+   "log": "log.iv.exclusion_invite",
+   "watch": [
+    "iv_excluded",
+    "iv_excluded_scene"
+   ]
+  },
+  {
+   "id": "I18",
+   "key": "tip_jar",
+   "cat": "I",
+   "obj": "kitchen_table",
+   "name": "iv.tip_jar",
+   "conds": [
+    {
+     "c": "present",
+     "who": "@burak",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "kitchen.tipjar",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_tipjar",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "icon": "star",
+   "log": "log.iv.tip_jar",
+   "watch": [
+    "iv_tipjar"
+   ]
+  },
+  {
+   "id": "I19",
+   "key": "suggestion_box",
+   "cat": "I",
+   "obj": "noticeboard",
+   "name": "iv.suggestion_box",
+   "needs": "person",
+   "choices": [
+    {
+     "v": "promote",
+     "label": "opt.iv.promote"
+    },
+    {
+     "v": "fire",
+     "label": "opt.iv.fire"
+    }
+   ],
+   "pick": [
+    {
+     "c": "is",
+     "who": "self",
+     "id": "ahmet",
+     "not": true
+    }
+   ],
+   "conds": [
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "notice.sbox",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "iv_sbox",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_ahmet",
+     "who": "@ahmet",
+     "key": "sbox",
+     "roles": {
+      "target": "target"
+     }
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "papers",
+   "log": "log.iv.suggestion_box",
+   "watch": [
+    "iv_sbox"
+   ]
+  },
+  {
+   "id": "I20",
+   "key": "i_know_note",
+   "cat": "I",
+   "obj": "coat_rack",
+   "name": "iv.i_know_note",
+   "needs": "person",
+   "pick": [
+    {
+     "c": "present",
+     "who": "self"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "coats.note",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "iv_iknow",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 120,
+    "day": 1
+   },
+   "icon": "email",
+   "log": "log.iv.i_know_note",
+   "watch": [
+    "iv_iknow"
+   ]
+  },
+  {
+   "id": "J01",
+   "key": "j_promo_meeting",
+   "cat": "J",
+   "obj": "meeting_board",
+   "name": "iv.j_promo_meeting",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "E01",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "C01",
+     "days": 0
+    },
+    {
+     "c": "meeting",
+     "key": "ended",
+     "eq": false,
+     "why": "why.meeting_over"
+    },
+    {
+     "c": "meeting",
+     "key": "started",
+     "eq": false,
+     "why": "why.meeting_started"
+    },
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "board.agenda",
+     "v": "promo"
+    },
+    {
+     "e": "oset",
+     "path": "board.title",
+     "v": "PROMOTION!"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "on",
+     "event": "j01_announce",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "who": "@ahmet",
+     "key": "j01",
+     "on": "meeting_start"
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "E01",
+    "C01"
+   ],
+   "vars": [
+    {
+     "name": "credited",
+     "fn": "ostate",
+     "optional": false,
+     "path": "promo.credit",
+     "role": true
+    },
+    {
+     "name": "rightful",
+     "fn": "promo_rightful",
+     "optional": false,
+     "role": true,
+     "not": "credited"
+    }
+   ],
+   "icon": "star",
+   "imp": 4,
+   "test": {
+    "at": "09:40",
+    "minutes": 420
+   },
+   "arc": "wrong_promotion",
+   "log": "log.iv.j_promo_meeting",
+   "watch": [
+    "j01_announce"
+   ]
+  },
+  {
+   "id": "J02",
+   "key": "j_candle_date",
+   "cat": "J",
+   "obj": "ws",
+   "name": "iv.j_candle_date",
+   "tab": "mail",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "I09",
+     "days": 0,
+     "same": "owner"
+    },
+    {
+     "c": "iv",
+     "id": "B07",
+     "days": 0,
+     "same": "owner"
+    },
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.candles",
+     "v": "%reader"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j02_setup",
+     "delay": 2,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "I09",
+    "B07"
+   ],
+   "vars": [
+    {
+     "name": "reader",
+     "fn": "ostate",
+     "optional": false,
+     "path": "ws.{owner}.love_note",
+     "role": true
+    },
+    {
+     "name": "crush",
+     "fn": "crush_of",
+     "optional": true,
+     "of": "owner",
+     "role": true
+    }
+   ],
+   "icon": "star",
+   "imp": 4,
+   "arc": "coffee_date_mixup",
+   "log": "log.iv.j_candle_date",
+   "watch": [
+    "j02_setup"
+   ]
+  },
+  {
+   "id": "J03",
+   "key": "j_staple_application",
+   "cat": "J",
+   "obj": "hr_cabinet",
+   "name": "iv.j_staple_application",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "E06",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "E03",
+     "days": 0,
+     "same": "applicant"
+    },
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "hr.stapled",
+     "v": "%applicant"
+    },
+    {
+     "e": "favor",
+     "about": "applicant",
+     "d": -4
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "j03_boss_reads",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_ahmet",
+     "who": "@ahmet",
+     "key": "j03",
+     "after": 2
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "E06",
+    "E03"
+   ],
+   "vars": [
+    {
+     "name": "applicant",
+     "fn": "ostate",
+     "optional": false,
+     "path": "hr.application",
+     "role": true
+    },
+    {
+     "name": "friend",
+     "fn": "best_of",
+     "optional": true,
+     "of": "applicant",
+     "lim": -99
+    }
+   ],
+   "icon": "papers",
+   "imp": 4,
+   "test": {
+    "prefer": "burak",
+    "minutes": 300
+   },
+   "arc": "resignation",
+   "log": "log.iv.j_staple_application",
+   "watch": [
+    "j03_boss_reads",
+    "j03_confront"
+   ]
+  },
+  {
+   "id": "J04",
+   "key": "j_send_old_figures",
+   "cat": "J",
+   "obj": "ws",
+   "name": "iv.j_send_old_figures",
+   "tab": "mail",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "A08",
+     "days": 0,
+     "same": "owner"
+    },
+    {
+     "c": "iv",
+     "id": "B13",
+     "days": 0,
+     "same": "owner"
+    },
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "15:30",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.sent_old",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j04_sent",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "A08",
+    "B13"
+   ],
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "icon": "email",
+   "imp": 4,
+   "arc": "blame_game",
+   "log": "log.iv.j_send_old_figures",
+   "watch": [
+    "j04_sent"
+   ]
+  },
+  {
+   "id": "J05",
+   "key": "j_restructure_qa",
+   "cat": "J",
+   "obj": "meeting_board",
+   "name": "iv.j_restructure_qa",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "B18",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "C05",
+     "days": 0
+    },
+    {
+     "c": "arc",
+     "arc": "layoff_panic",
+     "not": true,
+     "why": "why.panic_running"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "board.title",
+     "v": "RESTRUCTURING Q&A"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j05_panic",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "B18",
+    "C05"
+   ],
+   "vars": [
+    {
+     "name": "ear",
+     "fn": "most_curious",
+     "optional": false,
+     "role": true,
+     "not": "@ahmet"
+    }
+   ],
+   "icon": "board",
+   "imp": 4,
+   "arc": "layoff_panic",
+   "log": "log.iv.j_restructure_qa",
+   "watch": [
+    "j05_panic"
+   ]
+  },
+  {
+   "id": "J06",
+   "key": "j_acting_manager",
+   "cat": "J",
+   "obj": "meeting_board",
+   "name": "iv.j_acting_manager",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "C09",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "C17",
+     "days": 0
+    },
+    {
+     "c": "present",
+     "who": "usurper",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "board.title",
+     "v": "ACTING BOSS"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j06_usurp",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "C09",
+    "C17"
+   ],
+   "vars": [
+    {
+     "name": "usurper",
+     "fn": "ostate",
+     "optional": false,
+     "path": "board.chair",
+     "role": true
+    }
+   ],
+   "icon": "star",
+   "imp": 4,
+   "arc": "office_coup",
+   "log": "log.iv.j_acting_manager",
+   "watch": [
+    "j06_usurp"
+   ]
+  },
+  {
+   "id": "J07",
+   "key": "j_haunting",
+   "cat": "J",
+   "obj": "lights",
+   "name": "iv.j_haunting",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "H20",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "A09",
+     "days": 0
+    },
+    {
+     "c": "arc",
+     "arc": "ghost_hunt",
+     "not": true,
+     "why": "why.hunt_running"
+    }
+   ],
+   "state": [
+    {
+     "e": "call",
+     "fn": "flicker",
+     "minutes": 10
+    },
+    {
+     "e": "oset",
+     "path": "lights.synced",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j07_spooked",
+     "delay": 2,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "H20",
+    "A09"
+   ],
+   "vars": [
+    {
+     "name": "believer",
+     "fn": "most_curious",
+     "optional": false,
+     "role": true,
+     "not": "@burak"
+    }
+   ],
+   "icon": "ghost",
+   "imp": 4,
+   "arc": "ghost_hunt",
+   "log": "log.iv.j_haunting",
+   "watch": [
+    "j07_spooked"
+   ]
+  },
+  {
+   "id": "J08",
+   "key": "j_payroll_pin",
+   "cat": "J",
+   "obj": "noticeboard",
+   "name": "iv.j_payroll_pin",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "B17",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "E04",
+     "days": 0
+    },
+    {
+     "c": "present",
+     "who": "leader",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "pin",
+     "kind": "payroll",
+     "about": "@ahmet",
+     "by": ""
+    },
+    {
+     "e": "oset",
+     "path": "notice.payroll",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j08_rally",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "B17",
+    "E04"
+   ],
+   "vars": [
+    {
+     "name": "leader",
+     "fn": "ostate",
+     "optional": false,
+     "path": "ws.zeynep.payroll_leak",
+     "role": true
+    }
+   ],
+   "icon": "pin",
+   "imp": 4,
+   "arc": "salary_revolt",
+   "log": "log.iv.j_payroll_pin",
+   "watch": [
+    "j08_rally"
+   ]
+  },
+  {
+   "id": "J09",
+   "key": "j_party_mode",
+   "cat": "J",
+   "obj": "kitchen_table",
+   "name": "iv.j_party_mode",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "H10",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "H19",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "G17",
+     "days": 0
+    },
+    {
+     "c": "arc",
+     "arc": "office_party",
+     "not": true,
+     "why": "why.party_running"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "kitchen.party",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j09_kickoff",
+     "delay": 2,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "H10",
+    "H19",
+    "G17"
+   ],
+   "vars": [
+    {
+     "name": "host",
+     "fn": "top_trait",
+     "optional": false,
+     "trait": "sociability",
+     "role": true
+    },
+    {
+     "name": "helper",
+     "fn": "best_of",
+     "optional": true,
+     "of": "host",
+     "lim": -30,
+     "role": true
+    }
+   ],
+   "icon": "music",
+   "imp": 4,
+   "arc": "office_party",
+   "log": "log.iv.j_party_mode",
+   "watch": [
+    "j09_kickoff"
+   ]
+  },
+  {
+   "id": "J10",
+   "key": "j_loyalty_file",
+   "cat": "J",
+   "obj": "hr_cabinet",
+   "name": "iv.j_loyalty_file",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "E16",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "E18",
+     "days": 0,
+     "same": "target"
+    },
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "hr.loyalty",
+     "v": "%target"
+    }
+   ],
+   "react": [
+    {
+     "e": "trap",
+     "kind": "place",
+     "event": "j10_found",
+     "uses": 1,
+     "days": 0,
+     "as": "actor",
+     "place": "desk_ahmet",
+     "who": "@ahmet",
+     "key": "j10",
+     "after": 2
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "E16",
+    "E18"
+   ],
+   "vars": [
+    {
+     "name": "target",
+     "fn": "ostate",
+     "optional": false,
+     "path": "hr.transfer",
+     "role": true
+    },
+    {
+     "name": "friend",
+     "fn": "best_of",
+     "optional": true,
+     "of": "target",
+     "lim": -30,
+     "role": true
+    }
+   ],
+   "icon": "papers",
+   "imp": 4,
+   "arc": "loyalty_test",
+   "log": "log.iv.j_loyalty_file",
+   "watch": [
+    "j10_found"
+   ]
+  },
+  {
+   "id": "J11",
+   "key": "j_double_date",
+   "cat": "J",
+   "obj": "noticeboard",
+   "name": "iv.j_double_date",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "I16",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "I08",
+     "days": 0
+    },
+    {
+     "c": "time",
+     "before": "13:30",
+     "why": "why.after_lunch"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "notice.double_date",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j11_setup",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "I16",
+    "I08"
+   ],
+   "vars": [
+    {
+     "name": "a",
+     "fn": "ostate",
+     "optional": false,
+     "path": "notice.couple",
+     "role": true
+    },
+    {
+     "name": "b",
+     "fn": "ostate",
+     "optional": false,
+     "path": "notice.couple_with",
+     "role": true
+    },
+    {
+     "name": "c",
+     "fn": "iv_who",
+     "optional": false,
+     "id": "I08",
+     "field": "owner",
+     "role": true
+    },
+    {
+     "name": "d",
+     "fn": "ostate",
+     "optional": false,
+     "path": "ws.{c}.lunch_inv",
+     "role": true
+    }
+   ],
+   "icon": "star",
+   "imp": 4,
+   "test": {
+    "at": "10:30"
+   },
+   "arc": "double_date",
+   "log": "log.iv.j_double_date",
+   "watch": [
+    "j11_setup"
+   ]
+  },
+  {
+   "id": "J12",
+   "key": "j_callback_speaker",
+   "cat": "J",
+   "obj": "ws",
+   "name": "iv.j_callback_speaker",
+   "tab": "phone",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "F11",
+     "days": 0,
+     "same": "owner"
+    },
+    {
+     "c": "iv",
+     "id": "F17",
+     "days": 0,
+     "same": "owner"
+    },
+    {
+     "c": "present",
+     "who": "owner",
+     "why": "why.absent"
+    },
+    {
+     "c": "present",
+     "who": "crush",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.ringing",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j12_ring",
+     "delay": 2,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "F17",
+    "F11"
+   ],
+   "vars": [
+    {
+     "name": "crush",
+     "fn": "ostate",
+     "optional": false,
+     "path": "ws.{owner}.wntt",
+     "role": true
+    }
+   ],
+   "icon": "phone",
+   "imp": 4,
+   "arc": "speaker_confession",
+   "log": "log.iv.j_callback_speaker",
+   "watch": [
+    "j12_ring"
+   ]
+  },
+  {
+   "id": "J13",
+   "key": "j_client_presenter",
+   "cat": "J",
+   "obj": "meeting_table",
+   "name": "iv.j_client_presenter",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "C19",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "C15",
+     "days": 0
+    },
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    },
+    {
+     "c": "time",
+     "before": "15:00",
+     "why": "why.too_late"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "board.presenter",
+     "v": "%presenter"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j13_setup",
+     "delay": 2,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "C19",
+    "C15"
+   ],
+   "vars": [
+    {
+     "name": "presenter",
+     "fn": "boss_fav",
+     "optional": false,
+     "role": true,
+     "not": "@ahmet"
+    }
+   ],
+   "icon": "people",
+   "imp": 4,
+   "arc": "client_meltdown",
+   "log": "log.iv.j_client_presenter",
+   "watch": [
+    "j13_setup"
+   ]
+  },
+  {
+   "id": "J14",
+   "key": "j_jam_fire_exit",
+   "cat": "J",
+   "obj": "front_door",
+   "name": "iv.j_jam_fire_exit",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "H14",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "H11",
+     "days": 0
+    },
+    {
+     "c": "ostate",
+     "path": "alarm.on",
+     "eq": true
+    },
+    {
+     "c": "ostate",
+     "path": "front_door.jammed",
+     "eq": true
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "front_door.exit_jammed",
+     "v": true
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j14_trap",
+     "delay": 1,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "H14",
+    "H11"
+   ],
+   "vars": [
+    {
+     "name": "hero",
+     "fn": "top_trait",
+     "optional": false,
+     "trait": "diligence",
+     "role": true
+    },
+    {
+     "name": "panicker",
+     "fn": "most_stressed",
+     "optional": false,
+     "role": true,
+     "not": "hero"
+    }
+   ],
+   "icon": "lock",
+   "imp": 4,
+   "test": {
+    "at": "11:05"
+   },
+   "arc": "evacuation",
+   "log": "log.iv.j_jam_fire_exit",
+   "watch": [
+    "j14_trap"
+   ]
+  },
+  {
+   "id": "J15",
+   "key": "j_sign_the_purge",
+   "cat": "J",
+   "obj": "fridge",
+   "name": "iv.j_sign_the_purge",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "G15",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "G14",
+     "days": 0
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "fridge.confession",
+     "v": "%signer"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j15_war",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "G15",
+    "G14"
+   ],
+   "vars": [
+    {
+     "name": "signer",
+     "fn": "ostate",
+     "optional": false,
+     "path": "fridge.note",
+     "role": true
+    },
+    {
+     "name": "victim",
+     "fn": "top_trait",
+     "optional": false,
+     "trait": "temper",
+     "role": true,
+     "not": "signer"
+    }
+   ],
+   "icon": "pin",
+   "imp": 4,
+   "arc": "fridge_war",
+   "log": "log.iv.j_sign_the_purge",
+   "watch": [
+    "j15_war"
+   ]
+  },
+  {
+   "id": "J16",
+   "key": "j_cc_the_letter",
+   "cat": "J",
+   "obj": "ws",
+   "name": "iv.j_cc_the_letter",
+   "tab": "mail",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "D17",
+     "days": 0,
+     "same": "owner"
+    },
+    {
+     "c": "iv",
+     "id": "B09",
+     "days": 0,
+     "same": "owner"
+    },
+    {
+     "c": "present",
+     "who": "organiser",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.autoreply",
+     "v": "quit_letter"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j16_news",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "D17",
+    "B09"
+   ],
+   "owners": [
+    "selin",
+    "mert",
+    "zeynep",
+    "burak",
+    "ece",
+    "deniz",
+    "ceren"
+   ],
+   "vars": [
+    {
+     "name": "organiser",
+     "fn": "best_of",
+     "optional": false,
+     "of": "owner",
+     "lim": -30,
+     "role": true
+    }
+   ],
+   "icon": "email",
+   "imp": 4,
+   "arc": "farewell_mixup",
+   "log": "log.iv.j_cc_the_letter",
+   "watch": [
+    "j16_news"
+   ]
+  },
+  {
+   "id": "J17",
+   "key": "j_leak_to_folder",
+   "cat": "J",
+   "obj": "file_cabinet",
+   "name": "iv.j_leak_to_folder",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "A20",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "D08",
+     "days": 0
+    },
+    {
+     "c": "present",
+     "who": "@ahmet",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "hr.leaked_to",
+     "v": "%leaker"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j17_leak",
+     "delay": 4,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "A20",
+    "D08"
+   ],
+   "vars": [
+    {
+     "name": "leaker",
+     "fn": "iv_who",
+     "optional": false,
+     "id": "A20",
+     "field": "owner",
+     "role": true
+    },
+    {
+     "name": "finder",
+     "fn": "most_curious",
+     "optional": false,
+     "role": true,
+     "not": "leaker"
+    }
+   ],
+   "icon": "folder",
+   "imp": 4,
+   "arc": "leak_scandal",
+   "log": "log.iv.j_leak_to_folder",
+   "watch": [
+    "j17_leak"
+   ]
+  },
+  {
+   "id": "J18",
+   "key": "j_rigged_review",
+   "cat": "J",
+   "obj": "meeting_board",
+   "name": "iv.j_rigged_review",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "E03",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "C18",
+     "days": 0,
+     "same": "rebel"
+    },
+    {
+     "c": "present",
+     "who": "rebel",
+     "why": "why.absent"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "board.review_file",
+     "v": "%rebel"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j18_clash",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "E03",
+    "C18"
+   ],
+   "vars": [
+    {
+     "name": "rebel",
+     "fn": "ostate",
+     "optional": false,
+     "path": "hr.perf",
+     "role": true
+    },
+    {
+     "name": "ally",
+     "fn": "best_of",
+     "optional": true,
+     "of": "rebel",
+     "lim": -30,
+     "role": true
+    }
+   ],
+   "icon": "file",
+   "imp": 4,
+   "arc": "boss_clash",
+   "log": "log.iv.j_rigged_review",
+   "watch": [
+    "j18_clash"
+   ]
+  },
+  {
+   "id": "J19",
+   "key": "j_sign_complaint",
+   "cat": "J",
+   "obj": "noticeboard",
+   "name": "iv.j_sign_complaint",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "I03",
+     "days": 0
+    },
+    {
+     "c": "iv",
+     "id": "I12",
+     "days": 0
+    },
+    {
+     "c": "same",
+     "a": "gossip",
+     "b": "enemy",
+     "not": true
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "notice.signed_complaint",
+     "v": "%gossip"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j19_war",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "I03",
+    "I12"
+   ],
+   "vars": [
+    {
+     "name": "gossip",
+     "fn": "ostate",
+     "optional": false,
+     "path": "notice.source_of",
+     "role": true
+    },
+    {
+     "name": "enemy",
+     "fn": "ostate",
+     "optional": false,
+     "path": "notice.complaint_about",
+     "role": true
+    }
+   ],
+   "icon": "pin",
+   "imp": 4,
+   "test": {
+    "setup": [
+     {
+      "e": "rumor",
+      "kind": "slacker",
+      "a": "@mert",
+      "b": "@zeynep",
+      "truth": false,
+      "origin": "@zeynep",
+      "juicy": 0.5,
+      "knowers": [
+       "@zeynep",
+       "@ece"
+      ]
+     }
+    ]
+   },
+   "arc": "rumor_war",
+   "log": "log.iv.j_sign_complaint",
+   "watch": [
+    "j19_war"
+   ]
+  },
+  {
+   "id": "J20",
+   "key": "j_secret_admirer",
+   "cat": "J",
+   "obj": "ws",
+   "name": "iv.j_secret_admirer",
+   "tab": "papers",
+   "conds": [
+    {
+     "c": "iv",
+     "id": "I01",
+     "days": 0,
+     "same": "owner"
+    },
+    {
+     "c": "iv",
+     "id": "I11",
+     "days": 0,
+     "same": "owner"
+    }
+   ],
+   "state": [
+    {
+     "e": "oset",
+     "path": "ws.{owner}.admirer_note",
+     "v": "%admirer"
+    }
+   ],
+   "react": [
+    {
+     "e": "chain",
+     "event": "j20_admirer",
+     "delay": 3,
+     "all": true
+    }
+   ],
+   "reuse": {
+    "cool": 900,
+    "day": 1,
+    "per": "global"
+   },
+   "hidden": true,
+   "combo": [
+    "I01",
+    "I11"
+   ],
+   "vars": [
+    {
+     "name": "admirer",
+     "fn": "admirer_of",
+     "optional": false,
+     "of": "owner",
+     "lim": 10,
+     "role": true
+    }
+   ],
+   "icon": "star",
+   "imp": 4,
+   "arc": "secret_admirer",
+   "log": "log.iv.j_secret_admirer",
+   "watch": [
+    "j20_admirer"
+   ]
+  }
+ ]
+}

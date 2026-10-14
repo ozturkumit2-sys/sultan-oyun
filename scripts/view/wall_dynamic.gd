@@ -45,6 +45,49 @@ func _draw() -> void:
 	draw_string(hand, Vector2(8, 34), mt_text, HORIZONTAL_ALIGNMENT_LEFT, wd - 10, 17, Color("e63946") if o["board"].get("changed", false) else Color("2b2d42"))
 	if o["board"].get("changed", false) and not w.meeting.get("ended", false):
 		draw_line(Vector2(6, 38), Vector2(wd - 8, 36), Color(0.9, 0.2, 0.25, 0.6), 1.5)
+	# what the ghost wrote on the board: a title, the agenda, a 'chair'
+	var extra := ""
+	if str(o["board"].get("title", "")) != "":
+		extra = str(o["board"]["title"])
+	elif str(o["board"].get("agenda", "")) != "":
+		extra = "AGENDA: " + str(o["board"]["agenda"]).to_upper()
+	elif str(o["board"].get("chair", "")) != "" and w.npc(str(o["board"]["chair"])) != null:
+		extra = "CHAIR: " + w.npc(str(o["board"]["chair"])).name.to_upper()
+	if extra != "":
+		draw_string(hand, Vector2(wd * 0.45, 12), extra, HORIZONTAL_ALIGNMENT_LEFT, wd * 0.55 - 4, 7, Color("e63946"))
+	# --- fire alarm panel lamp
+	var al := _decor("alarm")
+	if not al.is_empty():
+		_wall_xf(al["side"], al["a"], al["b"], 84)
+		var ring: bool = o.get("alarm", {}).get("on", false)
+		var lit := ring and fmod(_t, 0.5) < 0.25
+		draw_circle(Vector2(8, 8), 3.4, Color("ff3b30") if lit else Color("7a1f1f"))
+		if ring:
+			for k in 2:
+				draw_arc(Vector2(8, 8), 6.0 + k * 3.0 + fmod(_t * 10.0, 3.0), -0.9, 0.9, 6, Color(1, 0.3, 0.3, 0.7), 1.2)
+				draw_arc(Vector2(8, 8), 6.0 + k * 3.0 + fmod(_t * 10.0, 3.0), PI - 0.9, PI + 0.9, 6, Color(1, 0.3, 0.3, 0.7), 1.2)
+	# --- speaker: floating notes while music plays
+	var sp := _decor("speaker")
+	if not sp.is_empty():
+		var wsp := _wall_xf(sp["side"], sp["a"], sp["b"], 88)
+		if str(o.get("music", {}).get("genre", "")) != "":
+			for k in 3:
+				var ph := fmod(_t * 0.7 + k * 0.33, 1.0)
+				var np := Vector2(wsp * 0.5 + sin(ph * 6.0 + k) * 6.0, 10.0 - ph * 26.0)
+				var nc := Color(0.17, 0.18, 0.26, 1.0 - ph)
+				draw_circle(np, 2.0, nc)
+				draw_line(np + Vector2(1.8, 0), np + Vector2(1.8, -6), nc, 1.0)
+	# --- notes pinned on the cork board (around the poster)
+	var pins: Array = o.get("notice", {}).get("pins", [])
+	if not pins.is_empty():
+		var po := _decor("poster")
+		var wp := _wall_xf(po["side"], po["a"], po["b"], 92)
+		var cols := [Color("fff07a"), Color("ffb3c6"), Color("a8d8ff"), Color("b8f2a0"), Color("ffcf96"), Color("d9c8ff")]
+		for i in mini(pins.size(), 6):
+			var px := -6.0 + (i % 3) * (wp * 0.5 + 3.0)
+			var py := 32.0 + (i / 3) * 9.0
+			draw_rect(Rect2(px, py, 8, 7), cols[i % cols.size()])
+			draw_circle(Vector2(px + 4, py + 1), 1.0, Color("e63946"))
 	# --- AC unit display + airflow
 	var ac := _decor("ac")
 	var wa := _wall_xf(ac["side"], ac["a"], ac["b"], 100)
@@ -71,7 +114,7 @@ func _draw() -> void:
 	for k in 12:
 		var aa := TAU * k / 12.0
 		draw_line(cc + Vector2(cos(aa), sin(aa)) * 10.5, cc + Vector2(cos(aa), sin(aa)) * 12.0, Iso.INK, 1.0)
-	var total := w.minute + C.DAY_START_HOUR * 60.0
+	var total := w.minute + float(o.get("clock", {}).get("offset", 0)) + C.DAY_START_HOUR * 60.0
 	var hr := fmod(total / 60.0, 12.0)
 	var mn := fmod(total, 60.0)
 	var ah := TAU * hr / 12.0 - PI * 0.5

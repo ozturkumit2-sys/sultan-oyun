@@ -3,6 +3,7 @@ extends Node
 
 const SAVE_PATH := "user://savegame.json"
 const SETTINGS_PATH := "user://settings.cfg"
+const JOURNAL_PATH := "user://journal.json"     # Discovery Journal: lifetime collection across games
 
 signal settings_changed
 
@@ -13,6 +14,8 @@ var facts: Dictionary = {}
 var event_defs: Array = []
 var arc_defs: Array = []
 var rumor_defs: Dictionary = {}
+var iv_data: Dictionary = {}
+var journal: Dictionary = {}
 var speed := 1.0          # 0 = paused, 1 = normal, 2 = fast
 
 
@@ -34,18 +37,25 @@ func _load_data() -> void:
 	event_defs = _read("res://data/events.json")
 	arc_defs = _read("res://data/arcs.json")
 	rumor_defs = _read("res://data/rumors.json")
+	iv_data = _read("res://data/interventions.json")
+	if FileAccess.file_exists(JOURNAL_PATH):
+		var j = JSON.parse_string(FileAccess.get_file_as_string(JOURNAL_PATH))
+		if typeof(j) == TYPE_DICTIONARY:
+			journal = j
 
 
 func create_world() -> SimWorld:
 	var w := SimWorld.new()
 	w.load_data(chars, facts, event_defs, Loc.dialogue, Callable(Loc, "t"))
 	w.load_story(arc_defs, rumor_defs)
+	w.load_interventions(iv_data)
 	return w
 
 
 func new_game(seed_in := 0) -> void:
 	world = create_world()
 	world.new_game(seed_in)
+	world.discovery.merge(journal)
 	speed = 1.0
 	save_game()
 
@@ -71,6 +81,7 @@ func save_game() -> bool:
 		return false
 	f.store_string(JSON.stringify(world.to_dict()))
 	f.close()
+	save_journal()
 	DirAccess.rename_absolute(ProjectSettings.globalize_path(SAVE_PATH + ".tmp"), ProjectSettings.globalize_path(SAVE_PATH))
 	return true
 
@@ -83,8 +94,21 @@ func load_game() -> bool:
 		return false
 	world = create_world()
 	world.from_dict(d)
+	world.discovery.merge(journal)
 	speed = 1.0
 	return true
+
+
+## The journal outlives any single office: merged into every game, saved with it.
+func save_journal() -> void:
+	if world == null:
+		return
+	journal = world.discovery.to_dict()
+	journal.erase("cascades")
+	var f := FileAccess.open(JOURNAL_PATH, FileAccess.WRITE)
+	if f:
+		f.store_string(JSON.stringify(journal))
+		f.close()
 
 
 func delete_save() -> void:

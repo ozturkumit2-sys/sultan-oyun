@@ -45,7 +45,9 @@ var repath_t := 0.0
 var current_activity_label := ""
 
 # --- mind
-var rel: Dictionary = {}          # other_id -> {"trust":, "friendship":, "rivalry":}
+const REL_STATS := ["trust", "friendship", "rivalry", "respect", "romance", "suspicion", "resentment"]
+const REL_POSITIVE := ["rivalry", "romance", "suspicion", "resentment"]   # 0..100; the rest are -100..100
+var rel: Dictionary = {}          # other_id -> {trust, friendship, rivalry, respect, romance, suspicion, resentment} (one-way)
 var memories: Array = []          # dicts
 var known: Dictionary = {}        # fact_id -> day learned
 var belief: Dictionary = {}       # fact_id -> certainty 0..1 (missing = sure)
@@ -96,8 +98,13 @@ func role_title() -> String:
 
 func r(other: String) -> Dictionary:
 	if not rel.has(other):
-		rel[other] = {"trust": 10.0, "friendship": 5.0, "rivalry": 0.0}
-	return rel[other]
+		rel[other] = {"trust": 10.0, "friendship": 5.0, "rivalry": 0.0, "respect": 10.0, "romance": 0.0, "suspicion": 0.0, "resentment": 0.0}
+	var x: Dictionary = rel[other]
+	if x.size() < REL_STATS.size():
+		for st in REL_STATS:
+			if not x.has(st):
+				x[st] = 10.0 if st == "respect" else 0.0
+	return x
 
 
 func get_rel(other: String, stat: String) -> float:
@@ -110,8 +117,10 @@ func change_rel(other: String, stat: String, d: float) -> float:
 	if other == id or other == "":
 		return 0.0
 	var cur := r(other)
+	if not cur.has(stat):
+		return 0.0
 	var before: float = cur[stat]
-	var lo := 0.0 if stat == "rivalry" else -100.0
+	var lo := 0.0 if stat in REL_POSITIVE else -100.0
 	cur[stat] = clampf(before + d, lo, 100.0)
 	return cur[stat] - before
 
@@ -121,12 +130,15 @@ func affinity(other: String) -> float:
 	if other == id or other == "":
 		return 0.0
 	var x := r(other)
-	return x["friendship"] * 0.55 + x["trust"] * 0.35 - x["rivalry"] * 0.45 + mem_bias(other) * 18.0
+	return x["friendship"] * 0.55 + x["trust"] * 0.35 - x["rivalry"] * 0.45 + x["respect"] * 0.12 \
+		- x["resentment"] * 0.4 - x["suspicion"] * 0.15 + mem_bias(other) * 18.0
 
 
 # ------------------------------------------------------------------ memory (NPCMemorySystem)
 
-func remember(kind: String, about: String, val: float, weight: float, text: String, args: Dictionary, day: int, minute: float, imp := 1) -> void:
+## A memory: what happened (kind/text), who it was about and who else was there,
+## who it helped or hurt, how it felt, how sure the person is, and when.
+func remember(kind: String, about: String, val: float, weight: float, text: String, args: Dictionary, day: int, minute: float, imp := 1, extra: Dictionary = {}) -> void:
 	# merge with a same-day identical memory
 	for m in memories:
 		if m["kind"] == kind and m["about"] == about and m["day"] == day:
@@ -135,8 +147,17 @@ func remember(kind: String, about: String, val: float, weight: float, text: Stri
 			if text != "":
 				m["text"] = text
 				m["args"] = args
+			if extra.has("cert"):
+				m["cert"] = maxf(float(m.get("cert", 1.0)), float(extra["cert"]))
 			return
-	memories.append({"kind": kind, "about": about, "val": val, "w": weight, "text": text, "args": args, "day": day, "t": minute, "imp": imp})
+	var m2 := {"kind": kind, "about": about, "val": val, "w": weight, "text": text, "args": args, "day": day, "t": minute, "imp": imp,
+		"with": extra.get("with", []), "emo": extra.get("emo", _emo_for(val)), "gain": extra.get("gain", ""), "harm": extra.get("harm", ""),
+		"cert": float(extra.get("cert", 1.0)), "src": extra.get("src", "saw")}
+	if m2["harm"] == "" and val < -0.25:
+		m2["harm"] = id
+	if m2["gain"] == "" and val > 0.25:
+		m2["gain"] = id
+	memories.append(m2)
 	if memories.size() > 48:
 		# forget the faintest
 		var wi := 0
@@ -147,6 +168,14 @@ func remember(kind: String, about: String, val: float, weight: float, text: Stri
 				wv = s
 				wi = i
 		memories.remove_at(wi)
+
+
+static func _emo_for(v: float) -> String:
+	if v <= -0.6: return "hurt"
+	if v <= -0.25: return "annoyed"
+	if v >= 0.6: return "grateful"
+	if v >= 0.25: return "pleased"
+	return "neutral"
 
 
 func mem_bias(about: String) -> float:
@@ -368,7 +397,11 @@ func from_dict(d: Dictionary) -> void:
 	coffee_need = d.get("coffee_need", 20.0)
 	social_need = d.get("social_need", 30.0)
 	rel = d.get("rel", {})
+	for o in rel:
+		r(o)
 	memories = d.get("memories", [])
+	for m in memories:
+		m["day"] = int(m.get("day", 1))   # JSON brings ints back as floats
 	known = d.get("known", {})
 	intents = d.get("intents", [])
 	goal = d.get("goal", "")

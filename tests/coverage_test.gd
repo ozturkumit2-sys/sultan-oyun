@@ -7,6 +7,7 @@ extends Node
 var seeds := 8
 var days := 10
 var meddle := false
+var meddled := {}
 
 
 func _ready() -> void:
@@ -96,6 +97,32 @@ func _ready() -> void:
 		if fired.has(id):
 			orig_fired += 1
 	print("original events fired: %d/%d" % [orig_fired, ORIGINAL.size()])
+	# independent NPC actions (initiatives) by domain
+	var dom_all := {}
+	var dom_fired := {}
+	var init_never: Array = []
+	for id in defs:
+		var dd: Dictionary = defs[id]
+		var tg = dd.get("trigger", "")
+		if not ((typeof(tg) == TYPE_STRING and tg == "initiative") or (typeof(tg) == TYPE_ARRAY and "initiative" in tg)):
+			continue
+		var dm: String = str(dd.get("domain", "?"))
+		dom_all[dm] = int(dom_all.get(dm, 0)) + 1
+		if fired.has(id):
+			dom_fired[dm] = int(dom_fired.get(dm, 0)) + 1
+		else:
+			init_never.append(id)
+	var dl: Array = []
+	var tot_i := 0
+	var tot_f := 0
+	for dm in dom_all:
+		dl.append("%s %d/%d" % [dm, int(dom_fired.get(dm, 0)), int(dom_all[dm])])
+		tot_i += int(dom_all[dm])
+		tot_f += int(dom_fired.get(dm, 0))
+	print("\n=== NPC ACTIONS: %d defined, %d happened on their own === %s" % [tot_i, tot_f, ", ".join(dl)])
+	print("NPC actions that never happened: " + ", ".join(init_never))
+	if meddle:
+		print("interventions used by the random meddler: %d" % meddled.size())
 	print("\n=== ARCS ===")
 	arc_ids.sort()
 	for a in arc_ids:
@@ -137,24 +164,32 @@ func _ready() -> void:
 
 
 func _random_meddle(w: SimWorld, rng: RandomNumberGenerator) -> void:
-	var spots := ["coffee_machine", "printer", "meeting_board", "ac", "lights", "promo_file"]
+	var spots: Array = []
+	for o in w.iv.by_obj.keys():
+		if o != "ws" and o != "item":
+			spots.append(o)
 	for id in C.NPC_IDS:
 		spots.append("ws_" + id)
 	for it in w.office.items:
 		spots.append("item_" + it)
 	var spot: String = spots[rng.randi() % spots.size()]
-	var acts := Interventions.actions_for(w, spot)
+	var acts: Array = w.iv.actions_for(spot)
 	var en: Array = acts.filter(func(a): return a["enabled"])
 	if en.is_empty():
 		return
 	var act: Dictionary = en[rng.randi() % en.size()]
+	act["spot"] = spot
 	var val = null
-	if act["needs"] != "":
-		var opts: Array = Interventions.options_for(w, act).filter(func(o): return o["enabled"])
+	if str(act.get("needs", "")) != "":
+		var opts: Array = w.iv.options_for(act).filter(func(o): return o["enabled"])
 		if opts.is_empty():
 			return
 		val = opts[rng.randi() % opts.size()]["value"]
-	Interventions.apply(w, act, val)
+		if InterventionManager.two_step(act.get("def", {})):
+			var second: Array = w.iv.options_for(act, val)
+			val = second[rng.randi() % second.size()]["value"]
+	if w.iv.apply(act, val):
+		meddled[str(act.get("iv", ""))] = true
 
 
 const ORIGINAL := ["printer_broken", "help_request", "lights_restored", "fix_done", "coffee_broken", "coffee_ghost", "thank_wrong_person", "it_patrol",

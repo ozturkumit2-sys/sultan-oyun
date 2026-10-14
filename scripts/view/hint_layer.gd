@@ -3,6 +3,7 @@ extends Node2D
 ## Soft pulsing sparkles marking things the player can meddle with.
 
 var anchors: Array = []     # world positions
+var marks: Array = []       # spots where a meddle is waiting to go off (little ghost wisps)
 var strength := 1.0
 var t := 0.0
 
@@ -17,6 +18,17 @@ func _process(delta: float) -> void:
 
 
 func _draw() -> void:
+	for i in marks.size():
+		var m: Vector2 = marks[i] + Vector2(0, -14)
+		var ph := t * 1.6 + i * 1.3
+		var bob := sin(ph) * 3.0
+		var a := 0.45 + 0.25 * sin(ph * 1.3)
+		# a tiny ghost: round head, wavy tail
+		var c := m + Vector2(0, bob)
+		draw_circle(c, 5.5, Color(0.86, 0.8, 1.0, a))
+		draw_colored_polygon(PackedVector2Array([c + Vector2(-5.5, 0), c + Vector2(5.5, 0), c + Vector2(5.5, 7), c + Vector2(2.7, 5), c + Vector2(0, 8), c + Vector2(-2.7, 5), c + Vector2(-5.5, 7)]), Color(0.86, 0.8, 1.0, a))
+		draw_circle(c + Vector2(-1.8, -0.5), 0.9, Color(0.25, 0.2, 0.4, a))
+		draw_circle(c + Vector2(1.8, -0.5), 0.9, Color(0.25, 0.2, 0.4, a))
 	if strength <= 0.01:
 		return
 	for i in anchors.size():

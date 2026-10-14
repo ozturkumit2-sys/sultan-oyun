@@ -1341,5 +1341,2351 @@
   "cooldown_days": 10,
   "max_active": 1,
   "cast": []
+ },
+ {
+  "id": "ghost_hunt",
+  "tier": "big",
+  "first": "whisper",
+  "stages": {
+   "whisper": {
+    "event": "gh_whisper",
+    "mode": "now",
+    "actor": "believer",
+    "wait": [
+     2,
+     8
+    ],
+    "ttl": 80,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "recruit": {
+    "event": "gh_recruit",
+    "mode": "visit",
+    "actor": "believer",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:dismissed",
+    "prio": 62,
+    "default_end": "done",
+    "target": "medium"
+   },
+   "seance": {
+    "event": "gh_seance",
+    "mode": "gather",
+    "actor": "believer",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 50,
+    "fail": "end:no_seance",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "12:30",
+     "16:30"
+    ],
+    "area": "meeting",
+    "who": [
+     "believer",
+     "medium"
+    ],
+    "need": 2,
+    "must": [
+     "believer"
+    ]
+   },
+   "debunk": {
+    "event": "gh_debunk",
+    "mode": "visit",
+    "actor": "skeptic",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 70,
+    "fail": "end:believers",
+    "prio": 62,
+    "default_end": "done",
+    "target": "believer"
+   }
+  },
+  "cooldown_days": 6,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "believer": "ece",
+   "skeptic": "burak"
+  }
+ },
+ {
+  "id": "office_coup",
+  "tier": "big",
+  "first": "announce",
+  "stages": {
+   "announce": {
+    "event": "coup_announce",
+    "mode": "place",
+    "actor": "usurper",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "place": "announce"
+   },
+   "ally": {
+    "event": "coup_ally",
+    "mode": "visit",
+    "actor": "usurper",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "boss_hears",
+    "prio": 62,
+    "default_end": "done",
+    "target": "ally"
+   },
+   "boss_hears": {
+    "event": "coup_confront",
+    "mode": "visit",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 200,
+    "fail": "end:unnoticed",
+    "prio": 62,
+    "default_end": "done",
+    "target": "usurper"
+   }
+  },
+  "cooldown_days": 8,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "usurper": "deniz",
+   "boss": "ahmet"
+  }
+ },
+ {
+  "id": "love_triangle",
+  "tier": "big",
+  "first": "notice",
+  "stages": {
+   "notice": {
+    "event": "lt_notice",
+    "mode": "now",
+    "actor": "rival",
+    "wait": [
+     5,
+     20
+    ],
+    "ttl": 90,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "warning": {
+    "event": "lt_warn",
+    "mode": "visit",
+    "actor": "rival",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "gesture",
+    "prio": 62,
+    "default_end": "done",
+    "target": "lover"
+   },
+   "gesture": {
+    "event": "lt_gesture",
+    "mode": "visit",
+    "actor": "lover",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 70,
+    "fail": "choice",
+    "prio": 62,
+    "default_end": "done",
+    "target": "crush"
+   },
+   "choice": {
+    "event": "lt_choice",
+    "mode": "meet",
+    "actor": "rival",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 70,
+    "fail": "end:unresolved",
+    "prio": 62,
+    "default_end": "done",
+    "target": "crush",
+    "area": "kitchen"
+   }
+  },
+  "cooldown_days": 5,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "lover": "mert",
+   "crush": "ceren",
+   "rival": "burak"
+  }
+ },
+ {
+  "id": "salary_revolt",
+  "tier": "big",
+  "first": "grumble",
+  "stages": {
+   "grumble": {
+    "event": "sr_grumble",
+    "mode": "gather",
+    "actor": "leader",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 50,
+    "fail": "petition",
+    "prio": 62,
+    "default_end": "done",
+    "area": "kitchen",
+    "need": 3,
+    "exclude": [
+     "boss"
+    ]
+   },
+   "petition": {
+    "event": "sr_petition",
+    "mode": "now",
+    "actor": "leader",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "tally": {
+    "event": "sr_tally",
+    "mode": "now",
+    "actor": "leader",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "march": {
+    "event": "sr_march",
+    "mode": "gather",
+    "actor": "leader",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:lost_nerve",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "10:00",
+     "16:30"
+    ],
+    "area": "boss",
+    "who": [
+     "leader",
+     "cosigner",
+     "boss"
+    ],
+    "need": 3,
+    "must": [
+     "leader",
+     "boss"
+    ]
+   }
+  },
+  "cooldown_days": 7,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "leader": "burak",
+   "boss": "ahmet"
+  }
+ },
+ {
+  "id": "lunch_mystery",
+  "tier": "big",
+  "first": "hire",
+  "stages": {
+   "hire": {
+    "event": "lm_hire",
+    "mode": "visit",
+    "actor": "victim",
+    "wait": [
+     5,
+     20
+    ],
+    "ttl": 70,
+    "fail": "end:gave_up",
+    "prio": 62,
+    "default_end": "done",
+    "target": "detective"
+   },
+   "stakeout": {
+    "event": "lm_stakeout",
+    "mode": "place",
+    "actor": "detective",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "end:unsolved",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "12:00",
+     "13:40"
+    ],
+    "place": "k4"
+   },
+   "bait": {
+    "event": "lm_bait",
+    "mode": "place",
+    "actor": "detective",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 70,
+    "fail": "end:unsolved",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "12:30",
+     "16:30"
+    ],
+    "place": "fridge"
+   },
+   "bite": {
+    "event": "lm_bite",
+    "mode": "place",
+    "actor": "$culprit",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:unsolved",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "09:40",
+     "16:50"
+    ],
+    "place": "fridge"
+   },
+   "confront": {
+    "event": "lm_confront_scene",
+    "mode": "visit",
+    "actor": "victim",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:unsolved",
+    "prio": 62,
+    "default_end": "done",
+    "target": "$culprit"
+   }
+  },
+  "cooldown_days": 5,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "victim": "burak",
+   "detective": "zeynep"
+  }
+ },
+ {
+  "id": "wrong_promotion",
+  "tier": "big",
+  "first": "announce",
+  "stages": {
+   "announce": {
+    "event": "wp_announce",
+    "mode": "now",
+    "actor": "boss",
+    "wait": [
+     1,
+     3
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "protest": {
+    "event": "wp_protest",
+    "mode": "visit",
+    "actor": "rightful",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:stands",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   },
+   "correction": {
+    "event": "wp_correct",
+    "mode": "place",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:quietly_fixed",
+    "prio": 62,
+    "default_end": "done",
+    "place": "announce"
+   }
+  },
+  "cooldown_days": 10,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "boss": "ahmet",
+   "credited": "ece",
+   "rightful": "selin"
+  }
+ },
+ {
+  "id": "secret_admirer",
+  "tier": "big",
+  "first": "note",
+  "stages": {
+   "note": {
+    "event": "sa_note",
+    "mode": "desk",
+    "actor": "admirer",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "target": "beloved"
+   },
+   "wonder": {
+    "event": "sa_wonder",
+    "mode": "now",
+    "actor": "beloved",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "reveal",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "guess": {
+    "event": "sa_guess",
+    "mode": "visit",
+    "actor": "beloved",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "reveal",
+    "prio": 62,
+    "default_end": "done",
+    "target": "suspect"
+   },
+   "reveal": {
+    "event": "sa_reveal",
+    "mode": "meet",
+    "actor": "admirer",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "end:never_told",
+    "prio": 62,
+    "default_end": "done",
+    "target": "beloved",
+    "area": "lounge"
+   }
+  },
+  "cooldown_days": 6,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "admirer": "mert",
+   "beloved": "ceren"
+  }
+ },
+ {
+  "id": "client_steal",
+  "tier": "big",
+  "first": "call",
+  "stages": {
+   "call": {
+    "event": "cs_call",
+    "mode": "place",
+    "actor": "thief",
+    "wait": [
+     5,
+     20
+    ],
+    "ttl": 80,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "09:40",
+     "15:00"
+    ],
+    "place": "phone1"
+   },
+   "victim_learns": {
+    "event": "cs_learn",
+    "mode": "now",
+    "actor": "victim",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:never_found_out",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "race": {
+    "event": "cs_ruling",
+    "mode": "visit",
+    "actor": "victim",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "end:thief_wins",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   }
+  },
+  "cooldown_days": 6,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "thief": "deniz",
+   "victim": "mert",
+   "boss": "ahmet"
+  }
+ },
+ {
+  "id": "expense_scandal",
+  "tier": "big",
+  "first": "spot",
+  "stages": {
+   "spot": {
+    "event": "es_spot",
+    "mode": "now",
+    "actor": "auditor",
+    "wait": [
+     5,
+     20
+    ],
+    "ttl": 80,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "ask": {
+    "event": "es_ask",
+    "mode": "visit",
+    "actor": "auditor",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 70,
+    "fail": "end:dropped",
+    "prio": 62,
+    "default_end": "done",
+    "target": "suspect"
+   },
+   "decide": {
+    "event": "es_decide",
+    "mode": "now",
+    "actor": "auditor",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:dropped",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "report": {
+    "event": "es_report_scene",
+    "mode": "visit",
+    "actor": "auditor",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:dropped",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   }
+  },
+  "cooldown_days": 7,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "auditor": "zeynep",
+   "suspect": "deniz",
+   "boss": "ahmet"
+  }
+ },
+ {
+  "id": "mentor_mismatch",
+  "tier": "big",
+  "first": "assign",
+  "stages": {
+   "assign": {
+    "event": "mm_assign",
+    "mode": "now",
+    "actor": "boss",
+    "wait": [
+     3,
+     15
+    ],
+    "ttl": 80,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "session": {
+    "event": "mm_session",
+    "mode": "desk",
+    "actor": "mentor",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "evaluation",
+    "prio": 62,
+    "default_end": "done",
+    "target": "mentee"
+   },
+   "evaluation": {
+    "event": "mm_eval",
+    "mode": "now",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 200,
+    "fail": "end:forgotten",
+    "prio": 62,
+    "default_end": "done"
+   }
+  },
+  "cooldown_days": 7,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "boss": "ahmet",
+   "mentor": "selin",
+   "mentee": "deniz"
+  }
+ },
+ {
+  "id": "rumor_war",
+  "tier": "big",
+  "first": "first",
+  "stages": {
+   "first": {
+    "event": "rw_first",
+    "mode": "now",
+    "actor": "gossip",
+    "wait": [
+     3,
+     12
+    ],
+    "ttl": 80,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "retaliate": {
+    "event": "rw_retaliate",
+    "mode": "now",
+    "actor": "enemy",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 150,
+    "fail": "end:ignored",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "sides": {
+    "event": "rw_sides",
+    "mode": "gather",
+    "actor": "gossip",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "end:simmering",
+    "prio": 62,
+    "default_end": "done",
+    "area": "kitchen",
+    "who": [
+     "gossip",
+     "enemy",
+     "mediator"
+    ],
+    "need": 3,
+    "must": [
+     "gossip",
+     "enemy"
+    ]
+   }
+  },
+  "cooldown_days": 5,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "gossip": "ceren",
+   "enemy": "deniz"
+  }
+ },
+ {
+  "id": "office_party",
+  "tier": "big",
+  "first": "pitch",
+  "stages": {
+   "pitch": {
+    "event": "op_pitch",
+    "mode": "visit",
+    "actor": "host",
+    "wait": [
+     3,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:vetoed",
+    "prio": 62,
+    "default_end": "done",
+    "target": "helper"
+   },
+   "prep": {
+    "event": "op_prep",
+    "mode": "place",
+    "actor": "helper",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 70,
+    "fail": "party",
+    "prio": 62,
+    "default_end": "done",
+    "place": "k1"
+   },
+   "party": {
+    "event": "op_party",
+    "mode": "gather",
+    "actor": "host",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:no_show",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "11:00",
+     "17:15"
+    ],
+    "area": "kitchen",
+    "need": 4,
+    "must": [
+     "host"
+    ]
+   }
+  },
+  "cooldown_days": 6,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "host": "mert",
+   "helper": "ceren",
+   "boss": "ahmet"
+  }
+ },
+ {
+  "id": "coffee_date_mixup",
+  "tier": "big",
+  "first": "date",
+  "stages": {
+   "date": {
+    "event": "cdm_date",
+    "mode": "meet",
+    "actor": "sender",
+    "wait": [
+     2,
+     6
+    ],
+    "ttl": 60,
+    "fail": "end:stood_up",
+    "prio": 62,
+    "default_end": "done",
+    "target": "reader",
+    "area": "kitchen"
+   },
+   "second": {
+    "event": "cdm_second",
+    "mode": "meet",
+    "actor": "sender",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "target": "reader",
+    "window": [
+     "11:30",
+     "15:30"
+    ],
+    "area": "lounge"
+   },
+   "jealous": {
+    "event": "cdm_jealous",
+    "mode": "visit",
+    "actor": "crush",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "end:new_couple",
+    "prio": 62,
+    "default_end": "done",
+    "target": "sender"
+   },
+   "fallout": {
+    "event": "cdm_fallout",
+    "mode": "now",
+    "actor": "reader",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "end:awkward",
+    "prio": 62,
+    "default_end": "done"
+   }
+  },
+  "cooldown_days": 4,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "sender": "mert",
+   "reader": "ece",
+   "crush": "ceren"
+  }
+ },
+ {
+  "id": "leak_scandal",
+  "tier": "big",
+  "first": "found",
+  "stages": {
+   "found": {
+    "event": "lk_found",
+    "mode": "now",
+    "actor": "finder",
+    "wait": [
+     2,
+     8
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "summon": {
+    "event": "lk_summon",
+    "mode": "visit",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "investigate",
+    "prio": 62,
+    "default_end": "done",
+    "target": "leaker"
+   },
+   "investigate": {
+    "event": "lk_investigate",
+    "mode": "place",
+    "actor": "it",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:under_a_cloud",
+    "prio": 62,
+    "default_end": "done",
+    "place": "server"
+   },
+   "apology": {
+    "event": "lk_apology",
+    "mode": "visit",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:never_apologised",
+    "prio": 62,
+    "default_end": "done",
+    "target": "leaker"
+   }
+  },
+  "cooldown_days": 5,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "leaker": "deniz",
+   "finder": "zeynep",
+   "boss": "ahmet",
+   "it": "burak"
+  }
+ },
+ {
+  "id": "loyalty_test",
+  "tier": "big",
+  "first": "suspect",
+  "stages": {
+   "suspect": {
+    "event": "lt2_suspect",
+    "mode": "now",
+    "actor": "boss",
+    "wait": [
+     2,
+     8
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "test": {
+    "event": "lt2_test",
+    "mode": "visit",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:forgotten",
+    "prio": 62,
+    "default_end": "done",
+    "target": "target"
+   },
+   "reward": {
+    "event": "lt2_reward",
+    "mode": "place",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:loyal",
+    "prio": 62,
+    "default_end": "done",
+    "place": "announce"
+   },
+   "friend_talk": {
+    "event": "lt2_friend",
+    "mode": "visit",
+    "actor": "friend",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:drifting_away",
+    "prio": 62,
+    "default_end": "done",
+    "target": "target"
+   }
+  },
+  "cooldown_days": 6,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "target": "selin",
+   "boss": "ahmet",
+   "friend": "zeynep"
+  }
+ },
+ {
+  "id": "double_date",
+  "tier": "big",
+  "first": "lunch",
+  "stages": {
+   "lunch": {
+    "event": "dd_lunch",
+    "mode": "gather",
+    "actor": "c",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:no_lunch",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "11:40",
+     "14:30"
+    ],
+    "area": "lounge",
+    "who": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "need": 3,
+    "must": [
+     "c"
+    ]
+   },
+   "photo_talk": {
+    "event": "dd_photo_talk",
+    "mode": "visit",
+    "actor": "a",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:just_friends",
+    "prio": 62,
+    "default_end": "done",
+    "target": "b"
+   },
+   "verdict": {
+    "event": "dd_verdict",
+    "mode": "visit",
+    "actor": "a",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:never_asked",
+    "prio": 62,
+    "default_end": "done",
+    "target": "b"
+   }
+  },
+  "cooldown_days": 5,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "a": "mert",
+   "b": "ceren",
+   "c": "selin",
+   "d": "burak"
+  }
+ },
+ {
+  "id": "speaker_confession",
+  "tier": "big",
+  "first": "call",
+  "stages": {
+   "call": {
+    "event": "spc_call",
+    "mode": "now",
+    "actor": "owner",
+    "wait": [
+     2,
+     6
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "tease": {
+    "event": "spc_tease",
+    "mode": "now",
+    "actor": "owner",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "face",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "face": {
+    "event": "spc_face",
+    "mode": "visit",
+    "actor": "crush",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:avoided",
+    "prio": 62,
+    "default_end": "done",
+    "target": "owner"
+   }
+  },
+  "cooldown_days": 5,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "owner": "mert",
+   "crush": "ceren"
+  }
+ },
+ {
+  "id": "client_meltdown",
+  "tier": "big",
+  "first": "panic",
+  "stages": {
+   "panic": {
+    "event": "cm_panic",
+    "mode": "now",
+    "actor": "boss",
+    "wait": [
+     1,
+     4
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "fix": {
+    "event": "cm_fix",
+    "mode": "place",
+    "actor": "it",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "improv",
+    "prio": 62,
+    "default_end": "done",
+    "place": "m2"
+   },
+   "pitch": {
+    "event": "cm_pitch",
+    "mode": "gather",
+    "actor": "presenter",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:client_left",
+    "prio": 62,
+    "default_end": "done",
+    "area": "meeting",
+    "who": [
+     "presenter",
+     "boss",
+     "it"
+    ],
+    "need": 2,
+    "must": [
+     "presenter"
+    ]
+   },
+   "improv": {
+    "event": "cm_improv",
+    "mode": "gather",
+    "actor": "presenter",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:client_left",
+    "prio": 62,
+    "default_end": "done",
+    "area": "meeting",
+    "who": [
+     "presenter",
+     "boss"
+    ],
+    "need": 2,
+    "must": [
+     "presenter"
+    ]
+   }
+  },
+  "cooldown_days": 6,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "presenter": "selin",
+   "boss": "ahmet",
+   "it": "burak"
+  }
+ },
+ {
+  "id": "evacuation",
+  "tier": "big",
+  "first": "stuck",
+  "stages": {
+   "stuck": {
+    "event": "ev_stuck",
+    "mode": "gather",
+    "actor": "hero",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 40,
+    "fail": "blame",
+    "prio": 62,
+    "default_end": "done",
+    "area": "reception",
+    "need": 3
+   },
+   "break_out": {
+    "event": "ev_break_out",
+    "mode": "place",
+    "actor": "hero",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 40,
+    "fail": "blame",
+    "prio": 62,
+    "default_end": "done",
+    "place": "hr1"
+   },
+   "blame": {
+    "event": "ev_blame",
+    "mode": "now",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:forgotten",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "debrief": {
+    "event": "ev_debrief",
+    "mode": "place",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:hero",
+    "prio": 62,
+    "default_end": "done",
+    "place": "announce"
+   }
+  },
+  "cooldown_days": 6,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "hero": "selin",
+   "panicker": "ece",
+   "boss": "ahmet"
+  }
+ },
+ {
+  "id": "fridge_war",
+  "tier": "big",
+  "first": "outrage",
+  "stages": {
+   "outrage": {
+    "event": "fw_outrage",
+    "mode": "now",
+    "actor": "victim",
+    "wait": [
+     2,
+     8
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "counter": {
+    "event": "fw_counter",
+    "mode": "place",
+    "actor": "victim",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "confront",
+    "prio": 62,
+    "default_end": "done",
+    "place": "fridge"
+   },
+   "confront": {
+    "event": "fw_confront",
+    "mode": "visit",
+    "actor": "victim",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:cold_war",
+    "prio": 62,
+    "default_end": "done",
+    "target": "signer"
+   }
+  },
+  "cooldown_days": 5,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "victim": "burak",
+   "signer": "deniz"
+  }
+ },
+ {
+  "id": "farewell_mixup",
+  "tier": "big",
+  "first": "news",
+  "stages": {
+   "news": {
+    "event": "fm_news",
+    "mode": "now",
+    "actor": "organiser",
+    "wait": [
+     2,
+     8
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "collection": {
+    "event": "fm_collection",
+    "mode": "now",
+    "actor": "organiser",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "counter",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "counter": {
+    "event": "fm_counter",
+    "mode": "visit",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "party",
+    "prio": 62,
+    "default_end": "done",
+    "target": "leaver"
+   },
+   "party": {
+    "event": "fm_party",
+    "mode": "gather",
+    "actor": "organiser",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "10:00",
+     "17:00"
+    ],
+    "area": "kitchen",
+    "need": 3,
+    "must": [
+     "organiser",
+     "leaver"
+    ]
+   }
+  },
+  "cooldown_days": 6,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "leaver": "burak",
+   "organiser": "ceren",
+   "boss": "ahmet"
+  }
+ },
+ {
+  "id": "breakup",
+  "tier": "big",
+  "first": "fight",
+  "stages": {
+   "fight": {
+    "event": "bu_fight",
+    "mode": "meet",
+    "actor": "a",
+    "wait": [
+     3,
+     12
+    ],
+    "ttl": 60,
+    "fail": "end:avoided",
+    "prio": 62,
+    "default_end": "done",
+    "target": "b",
+    "area": "lounge"
+   },
+   "sides": {
+    "event": "bu_sides",
+    "mode": "now",
+    "actor": "a",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "talk",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "talk": {
+    "event": "bu_talk",
+    "mode": "visit",
+    "actor": "a",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:cold",
+    "prio": 62,
+    "default_end": "done",
+    "target": "b"
+   }
+  },
+  "cooldown_days": 8,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "a": "mert",
+   "b": "ceren"
+  }
+ },
+ {
+  "id": "office_pet",
+  "tier": "big",
+  "first": "sneak",
+  "stages": {
+   "sneak": {
+    "event": "pet_sneak",
+    "mode": "now",
+    "actor": "smuggler",
+    "wait": [
+     2,
+     8
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "hide": {
+    "event": "pet_hide",
+    "mode": "visit",
+    "actor": "smuggler",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 70,
+    "fail": "found",
+    "prio": 62,
+    "default_end": "done",
+    "target": "accomplice"
+   },
+   "found": {
+    "event": "pet_found",
+    "mode": "now",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 240,
+    "fail": "end:never_found",
+    "prio": 62,
+    "default_end": "done"
+   }
+  },
+  "cooldown_days": 9,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "smuggler": "ceren",
+   "boss": "ahmet",
+   "accomplice": "ece"
+  }
+ },
+ {
+  "id": "prank_war",
+  "tier": "big",
+  "first": "first",
+  "stages": {
+   "first": {
+    "event": "pw_first",
+    "mode": "desk",
+    "actor": "p1",
+    "wait": [
+     3,
+     12
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "target": "p2"
+   },
+   "revenge": {
+    "event": "pw_revenge",
+    "mode": "desk",
+    "actor": "p2",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "finale",
+    "prio": 62,
+    "default_end": "done",
+    "target": "p1"
+   },
+   "finale": {
+    "event": "pw_finale",
+    "mode": "place",
+    "actor": "p1",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:ceasefire",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "10:00",
+     "16:30"
+    ],
+    "place": "boss_front"
+   }
+  },
+  "cooldown_days": 7,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "p1": "mert",
+   "p2": "burak",
+   "boss": "ahmet"
+  }
+ },
+ {
+  "id": "noise_war",
+  "tier": "big",
+  "first": "ask",
+  "stages": {
+   "ask": {
+    "event": "nw_ask",
+    "mode": "visit",
+    "actor": "quiet",
+    "wait": [
+     2,
+     8
+    ],
+    "ttl": 60,
+    "fail": "end:suffered_quietly",
+    "prio": 62,
+    "default_end": "done",
+    "target": "loud"
+   },
+   "music": {
+    "event": "nw_music",
+    "mode": "now",
+    "actor": "loud",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "showdown",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "showdown": {
+    "event": "nw_showdown",
+    "mode": "meet",
+    "actor": "quiet",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:simmering",
+    "prio": 62,
+    "default_end": "done",
+    "target": "loud",
+    "area": "kitchen"
+   }
+  },
+  "cooldown_days": 6,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "quiet": "zeynep",
+   "loud": "mert"
+  }
+ },
+ {
+  "id": "pitch_battle",
+  "tier": "big",
+  "first": "challenge",
+  "stages": {
+   "challenge": {
+    "event": "pb_challenge",
+    "mode": "visit",
+    "actor": "a",
+    "wait": [
+     3,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:backed_down",
+    "prio": 62,
+    "default_end": "done",
+    "target": "b"
+   },
+   "prep": {
+    "event": "pb_prep",
+    "mode": "now",
+    "actor": "a",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "pitch",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "pitch": {
+    "event": "pb_pitch",
+    "mode": "gather",
+    "actor": "a",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:no_show",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "14:30",
+     "16:50"
+    ],
+    "area": "boss",
+    "who": [
+     "a",
+     "b",
+     "boss"
+    ],
+    "need": 3,
+    "must": [
+     "a",
+     "b",
+     "boss"
+    ]
+   }
+  },
+  "cooldown_days": 6,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "a": "selin",
+   "b": "deniz",
+   "boss": "ahmet"
+  }
+ },
+ {
+  "id": "karaoke_night",
+  "tier": "big",
+  "first": "invite",
+  "stages": {
+   "invite": {
+    "event": "kn_invite",
+    "mode": "place",
+    "actor": "host",
+    "wait": [
+     3,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "place": "announce"
+   },
+   "rehearse": {
+    "event": "kn_rehearse",
+    "mode": "place",
+    "actor": "shy",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "night",
+    "prio": 62,
+    "default_end": "done",
+    "place": "archive"
+   },
+   "night": {
+    "event": "kn_night",
+    "mode": "gather",
+    "actor": "host",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 50,
+    "fail": "end:nobody_came",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "16:20",
+     "17:15"
+    ],
+    "area": "kitchen",
+    "need": 3,
+    "must": [
+     "host"
+    ]
+   }
+  },
+  "cooldown_days": 8,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "host": "mert",
+   "shy": "zeynep"
+  }
+ },
+ {
+  "id": "charity_drive",
+  "tier": "big",
+  "first": "launch",
+  "stages": {
+   "launch": {
+    "event": "cd_launch",
+    "mode": "place",
+    "actor": "organiser",
+    "wait": [
+     3,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "place": "k1"
+   },
+   "collect": {
+    "event": "cd_collect",
+    "mode": "now",
+    "actor": "organiser",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "count",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "count": {
+    "event": "cd_count",
+    "mode": "place",
+    "actor": "organiser",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:record",
+    "prio": 62,
+    "default_end": "done",
+    "place": "k1"
+   },
+   "accuse": {
+    "event": "cd_accuse",
+    "mode": "visit",
+    "actor": "organiser",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 80,
+    "fail": "end:unspoken",
+    "prio": 62,
+    "default_end": "done",
+    "target": "suspect"
+   }
+  },
+  "cooldown_days": 8,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "organiser": "ceren"
+  }
+ },
+ {
+  "id": "budget_cuts",
+  "tier": "big",
+  "first": "announce",
+  "stages": {
+   "announce": {
+    "event": "bc2_announce",
+    "mode": "place",
+    "actor": "boss",
+    "wait": [
+     2,
+     6
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "place": "announce"
+   },
+   "grumble": {
+    "event": "bc2_grumble",
+    "mode": "gather",
+    "actor": "leader",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 50,
+    "fail": "deal",
+    "prio": 62,
+    "default_end": "done",
+    "area": "kitchen",
+    "need": 3,
+    "exclude": [
+     "boss"
+    ]
+   },
+   "deal": {
+    "event": "bc2_deal",
+    "mode": "visit",
+    "actor": "leader",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:no_coffee",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   }
+  },
+  "cooldown_days": 10,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "boss": "ahmet"
+  }
+ },
+ {
+  "id": "side_hustle",
+  "tier": "big",
+  "first": "open",
+  "stages": {
+   "open": {
+    "event": "sh_open",
+    "mode": "now",
+    "actor": "seller",
+    "wait": [
+     3,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "boom": {
+    "event": "sh_boom",
+    "mode": "now",
+    "actor": "seller",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "caught",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "caught": {
+    "event": "sh_caught",
+    "mode": "desk",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 150,
+    "fail": "end:undetected",
+    "prio": 62,
+    "default_end": "done",
+    "target": "seller"
+   }
+  },
+  "cooldown_days": 9,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "seller": "deniz",
+   "boss": "ahmet"
+  }
+ },
+ {
+  "id": "mug_coverup",
+  "tier": "big",
+  "first": "crash",
+  "stages": {
+   "crash": {
+    "event": "mc_crash",
+    "mode": "place",
+    "actor": "breaker",
+    "wait": [
+     3,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "place": "k2"
+   },
+   "ask": {
+    "event": "mc_ask",
+    "mode": "visit",
+    "actor": "breaker",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "confess",
+    "prio": 62,
+    "default_end": "done",
+    "target": "friend"
+   },
+   "swap": {
+    "event": "mc_swap",
+    "mode": "place",
+    "actor": "friend",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 60,
+    "fail": "confess",
+    "prio": 62,
+    "default_end": "done",
+    "place": "boss_guest"
+   },
+   "boss_check": {
+    "event": "mc_boss_check",
+    "mode": "desk",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 200,
+    "fail": "end:got_away",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   },
+   "confess": {
+    "event": "mug_confess_scene",
+    "mode": "visit",
+    "actor": "breaker",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "end:hidden",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   }
+  },
+  "cooldown_days": 9,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "breaker": "ece",
+   "friend": "ceren",
+   "boss": "ahmet"
+  }
+ },
+ {
+  "id": "chair_race",
+  "tier": "big",
+  "first": "challenge",
+  "stages": {
+   "challenge": {
+    "event": "cr_challenge",
+    "mode": "visit",
+    "actor": "racer",
+    "wait": [
+     3,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:chickened_out",
+    "prio": 62,
+    "default_end": "done",
+    "target": "rival"
+   },
+   "race": {
+    "event": "cr_race",
+    "mode": "gather",
+    "actor": "racer",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 50,
+    "fail": "end:postponed",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "12:00",
+     "16:40"
+    ],
+    "area": "hall",
+    "need": 2,
+    "must": [
+     "racer",
+     "rival"
+    ],
+    "exclude": [
+     "boss"
+    ]
+   },
+   "boss": {
+    "event": "cr_boss",
+    "mode": "visit",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:got_away_with_it",
+    "prio": 62,
+    "default_end": "done",
+    "target": "racer"
+   }
+  },
+  "cooldown_days": 8,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "racer": "mert",
+   "rival": "burak",
+   "boss": "ahmet"
+  }
+ },
+ {
+  "id": "lottery_pool",
+  "tier": "big",
+  "first": "collect",
+  "stages": {
+   "collect": {
+    "event": "lp2_collect",
+    "mode": "now",
+    "actor": "organiser",
+    "wait": [
+     3,
+     10
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "rumor": {
+    "event": "lp2_rumor",
+    "mode": "now",
+    "actor": "dreamer",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "truth",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "truth": {
+    "event": "lp2_truth",
+    "mode": "place",
+    "actor": "organiser",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:forgotten",
+    "prio": 62,
+    "default_end": "done",
+    "place": "announce"
+   }
+  },
+  "cooldown_days": 9,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "organiser": "ceren",
+   "dreamer": "burak",
+   "boss": "ahmet"
+  }
+ },
+ {
+  "id": "forced_partners",
+  "tier": "big",
+  "first": "assign",
+  "stages": {
+   "assign": {
+    "event": "fp_assign",
+    "mode": "now",
+    "actor": "boss",
+    "wait": [
+     3,
+     12
+    ],
+    "ttl": 80,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done"
+   },
+   "work": {
+    "event": "fp_work",
+    "mode": "meet",
+    "actor": "a",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "deliver",
+    "prio": 62,
+    "default_end": "done",
+    "target": "b",
+    "area": "archive"
+   },
+   "deliver": {
+    "event": "fp_deliver",
+    "mode": "visit",
+    "actor": "a",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:missed_deadline",
+    "prio": 62,
+    "default_end": "done",
+    "target": "boss"
+   }
+  },
+  "cooldown_days": 8,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "boss": "ahmet",
+   "a": "selin",
+   "b": "deniz"
+  }
+ },
+ {
+  "id": "hq_inspection",
+  "tier": "big",
+  "first": "warn",
+  "stages": {
+   "warn": {
+    "event": "hq_warn",
+    "mode": "place",
+    "actor": "boss",
+    "wait": [
+     2,
+     8
+    ],
+    "ttl": 60,
+    "fail": "end:fizzled",
+    "prio": 62,
+    "default_end": "done",
+    "place": "announce"
+   },
+   "cleanup": {
+    "event": "hq_cleanup",
+    "mode": "now",
+    "actor": "slob",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 90,
+    "fail": "inspect",
+    "prio": 62,
+    "default_end": "done",
+    "window": [
+     "09:40",
+     "11:00"
+    ]
+   },
+   "inspect": {
+    "event": "hq_inspect",
+    "mode": "desk",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "verdict",
+    "prio": 62,
+    "default_end": "done",
+    "target": "slob"
+   },
+   "verdict": {
+    "event": "hq_verdict",
+    "mode": "place",
+    "actor": "boss",
+    "wait": [
+     2,
+     10
+    ],
+    "ttl": 120,
+    "fail": "end:no_verdict",
+    "prio": 62,
+    "default_end": "done",
+    "place": "announce"
+   }
+  },
+  "cooldown_days": 10,
+  "max_active": 1,
+  "cast": [],
+  "test": {
+   "boss": "ahmet",
+   "slob": "burak"
+  }
  }
 ]

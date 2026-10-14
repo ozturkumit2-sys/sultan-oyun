@@ -16,6 +16,7 @@ var gossip
 var today
 var settings_sheet
 var info
+var journal: DiscoveryJournal
 var paper: DayPaper
 var ui_layer: CanvasLayer
 var _save_t := 0.0
@@ -46,10 +47,11 @@ func _ready() -> void:
 	today = Boards.TodayCard.new()
 	settings_sheet = Boards.SettingsSheet.new()
 	info = Boards.InfoSheet.new()
+	journal = DiscoveryJournal.new()
 	paper = DayPaper.new()
-	for s in [menu, file, staff, gossip, today, settings_sheet, info, paper]:
+	for s in [menu, file, staff, gossip, today, settings_sheet, info, journal, paper]:
 		ui_layer.add_child(s)
-	for s in [menu, file, staff, gossip, today, settings_sheet, info]:
+	for s in [menu, file, staff, gossip, today, settings_sheet, info, journal]:
 		s.closed.connect(_on_sheet_closed)
 	# wiring
 	view.tapped_hotspot.connect(_on_hotspot)
@@ -70,6 +72,7 @@ func _ready() -> void:
 	hud.speed_changed.connect(_set_speed)
 	hud.toast_tapped.connect(_focus_entry)
 	hud.fit_pressed.connect(_toggle_fit)
+	hud.open_journal.connect(func(): _open_sheet(journal, func(): journal.open_for(w)))
 	settings_sheet.to_menu.connect(_to_menu)
 	settings_sheet.how_to.connect(func():
 		settings_sheet.close()
@@ -103,6 +106,8 @@ func _ui_covers(p: Vector2) -> bool:
 		return true
 	if Rect2(vs.x - 82, vs.y - Hud.BOTTOM_H - 78, 70, 70).has_point(p):
 		return true
+	if Rect2(12, vs.y - Hud.BOTTOM_H - 80, 70, 70).has_point(p):
+		return true
 	for t in hud.toasts:
 		if (t["node"] as Control).get_global_rect().has_point(p):
 			return true
@@ -112,14 +117,14 @@ func _ui_covers(p: Vector2) -> bool:
 
 
 func _any_sheet_open() -> bool:
-	for s in [menu, file, staff, gossip, today, settings_sheet, info]:
+	for s in [menu, file, staff, gossip, today, settings_sheet, info, journal]:
 		if s.is_open:
 			return true
 	return paper.visible
 
 
 func _open_sheet(s, opener: Callable) -> void:
-	for o in [menu, file, staff, gossip, today, settings_sheet, info]:
+	for o in [menu, file, staff, gossip, today, settings_sheet, info, journal]:
 		if o != s and o.is_open:
 			o.close()
 	opener.call()
@@ -211,7 +216,7 @@ func _process(delta: float) -> void:
 
 func _on_day_ended(sm: Dictionary) -> void:
 	bubbles.clear_all()
-	for s in [menu, file, staff, gossip, today, settings_sheet, info]:
+	for s in [menu, file, staff, gossip, today, settings_sheet, info, journal]:
 		if s.is_open:
 			s.close()
 	view.interactive = false
@@ -233,7 +238,7 @@ func _to_menu() -> void:
 
 func _on_back() -> void:
 	# Android back: close the top panel, otherwise open settings
-	for s in [info, menu, file, staff, gossip, today, settings_sheet]:
+	for s in [info, journal, menu, file, staff, gossip, today, settings_sheet]:
 		if s.is_open:
 			s.close()
 			return

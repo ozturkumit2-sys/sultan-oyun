@@ -200,6 +200,19 @@ func _draw_decor(d: Dictionary, off: Vector2) -> void:
 			draw_rect(Rect2(0, 0, wd5, 16), Iso.INK, false, 1.0)
 		"clock":
 			pass
+		"alarm":
+			var wda := _wall(side, a, b, 84, off)
+			draw_rect(Rect2(0, 0, wda, 26), Color("d62828"))
+			draw_rect(Rect2(3, 14, wda - 6, 9), Color("f8f9fa"))
+			draw_string(UiKit.font("slab"), Vector2(4, 22), "FIRE", HORIZONTAL_ALIGNMENT_LEFT, wda - 6, 6, Color("d62828"))
+			draw_rect(Rect2(0, 0, wda, 26), Iso.INK, false, 1.2)
+		"speaker":
+			var wds := _wall(side, a, b, 90, off)
+			draw_rect(Rect2(2, 0, wds - 4, 30), Color("2b2d42"))
+			draw_circle(Vector2(wds * 0.5, 11), 6.5, Color("4a4e69"))
+			draw_circle(Vector2(wds * 0.5, 11), 3.0, Color("22223b"))
+			draw_circle(Vector2(wds * 0.5, 24), 3.0, Color("4a4e69"))
+			draw_rect(Rect2(2, 0, wds - 4, 30), Iso.INK, false, 1.2)
 		"poster":
 			var wd6 := _wall(side, a, b, 92, off)
 			draw_rect(Rect2(0, 0, wd6, 30), Color("2b2d42"))

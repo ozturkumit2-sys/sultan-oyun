@@ -20,32 +20,41 @@ def emote(who, v, delay=0, when=None):
     if when: d["when"] = when
     return d
 
-def expr(who, v, secs=5, delay=0):
+def expr(who, v, secs=5, delay=0, when=None):
     d = {"e": "expr", "who": who, "v": v, "secs": secs}
     if delay: d["delay"] = delay
+    if when: d["when"] = when
     return d
 
-def rel(a, b, stat, d, both=False, k=1.0, when=None):
+def rel(a, b, stat, d, both=False, k=1.0, when=None, delay=0):
     r = {"e": "rel", "a": a, "b": b, "stat": stat, "d": d}
+    if delay: r["delay"] = delay
     if both:
         r["both"] = True
         if k != 1.0: r["both_k"] = k
     if when: r["when"] = when
     return r
 
-def mood(who, d, when=None):
+def mood(who, d, when=None, delay=0):
     r = {"e": "mood", "who": who, "d": d}
     if when: r["when"] = when
+    if delay: r["delay"] = delay
     return r
 
-def stress(who, d, when=None):
+def stress(who, d, when=None, delay=0):
     r = {"e": "stress", "who": who, "d": d}
     if when: r["when"] = when
+    if delay: r["delay"] = delay
     return r
 
-def mem(who, about, kind, val, w=0.7, text="", imp=1, when=None):
+def mem(who, about, kind, val, w=0.7, text="", imp=1, when=None, delay=0, emo=None, cert=None, gain=None, harm=None):
     r = {"e": "mem", "who": who, "about": about, "kind": kind, "val": val, "w": w, "text": text, "imp": imp}
     if when: r["when"] = when
+    if delay: r["delay"] = delay
+    if emo: r["emo"] = emo
+    if cert is not None: r["cert"] = cert
+    if gain: r["gain"] = gain
+    if harm: r["harm"] = harm
     return r
 
 def log(text, imp=2, cat="misc", who="actor", delay=0, when=None):
@@ -59,8 +68,11 @@ def stat(key, n=1, a="actor", b="target", when=None):
     if when: r["when"] = when
     return r
 
-def hold(who, dur):
-    return {"e": "hold", "who": who, "dur": dur}
+def hold(who, dur, when=None, delay=0):
+    r = {"e": "hold", "who": who, "dur": dur}
+    if when: r["when"] = when
+    if delay: r["delay"] = delay
+    return r
 
 def intent(who, type_, target="", event="", prio=60, ttl=90, place="", obj="", roles=None, delay=0, when=None, dur=None):
     r = {"e": "intent", "who": who, "type": type_, "prio": prio, "ttl": ttl}
@@ -97,8 +109,10 @@ def learn(who, fact, frm="", c=None, when=None, delay=0):
     if delay: r["delay"] = delay
     return r
 
-def reveal(fact):
-    return {"e": "reveal", "fact": fact}
+def reveal(fact, when=None):
+    r = {"e": "reveal", "fact": fact}
+    if when: r["when"] = when
+    return r
 
 def rumor(kind, a="actor", b="target", juicy=0.5, knowers=None, truth=True, origin="actor", key="rumor", c=None, when=None):
     r = {"e": "rumor", "kind": kind, "a": a, "b": b, "juicy": juicy, "knowers": knowers or []}
@@ -116,32 +130,46 @@ def call(fn, delay=0, when=None, **kw):
     if when: r["when"] = when
     return r
 
-def favor(about, d, when=None):
+def favor(about, d, when=None, delay=0):
     r = {"e": "favor", "about": about, "d": d}
+    if when: r["when"] = when
+    if delay: r["delay"] = delay
+    return r
+
+def fx(v, who="actor", delay=0, when=None):
+    r = {"e": "fx", "v": v, "who": who}
+    if delay: r["delay"] = delay
     if when: r["when"] = when
     return r
 
-def fx(v, who="actor", delay=0):
-    r = {"e": "fx", "v": v, "who": who}
-    if delay: r["delay"] = delay
-    return r
-
-def sfx(id_, delay=0):
+def sfx(id_, delay=0, when=None):
     r = {"e": "sfx", "id": id_}
     if delay: r["delay"] = delay
+    if when: r["when"] = when
     return r
 
-def ghost(d=1):
-    return {"e": "ghost", "d": d}
+def ghost(d=1, when=None):
+    r = {"e": "ghost", "d": d}
+    if when: r["when"] = when
+    return r
 
-def flag(key, v=True, day=False):
-    return {"e": "flag", "key": key, "v": v, "day": day}
+def flag(key, v=True, day=False, when=None, delay=0):
+    r = {"e": "flag", "key": key, "v": v, "day": day}
+    if when: r["when"] = when
+    if delay: r["delay"] = delay
+    return r
 
-def npcflag(who, key, v=True):
-    return {"e": "npcflag", "who": who, "key": key, "v": v}
+def npcflag(who, key, v=True, when=None, delay=0):
+    r = {"e": "npcflag", "who": who, "key": key, "v": v}
+    if when: r["when"] = when
+    if delay: r["delay"] = delay
+    return r
 
-def work(who, d):
-    return {"e": "work", "who": who, "d": d}
+def work(who, d, when=None, delay=0):
+    r = {"e": "work", "who": who, "d": d}
+    if when: r["when"] = when
+    if delay: r["delay"] = delay
+    return r
 
 def meet(who, v="board"):
     return {"e": "meet", "who": who, "v": v}
@@ -152,8 +180,11 @@ def cancel(who, type_=""):
 def pick(*options):
     return {"e": "pick", "of": list(options)}
 
-def obj(o, key, v):
-    return {"e": "obj", "obj": o, "key": key, "v": v}
+def obj(o, key, v, when=None, delay=0):
+    r = {"e": "obj", "obj": o, "key": key, "v": v}
+    if when: r["when"] = when
+    if delay: r["delay"] = delay
+    return r
 
 def goal(who, v):
     return {"e": "goal", "who": who, "v": v}

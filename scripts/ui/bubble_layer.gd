@@ -31,7 +31,7 @@ func add(npc_id: String, text: String, to: String) -> void:
 		wmax = maxf(wmax, font.get_string_size(l, HORIZONTAL_ALIGNMENT_LEFT, -1, FONT_SIZE).x)
 	var sz := Vector2(wmax + 26.0, lines.size() * (FONT_SIZE + 2) + 30.0)
 	bubbles.append({"id": npc_id, "text": text, "life": 0.0, "max": dur, "lines": lines, "size": sz, "pos": Vector2.ZERO, "to": to})
-	while bubbles.size() > 6:
+	while bubbles.size() > 5:
 		bubbles.pop_front()
 
 

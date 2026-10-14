@@ -184,6 +184,13 @@ func _refresh_hints() -> void:
 	for it in items:
 		anchors.append(items[it].anchor() + Vector2(0, -8))
 	hints.anchors = anchors
+	# where the ghost has left something waiting to happen
+	var marks: Array = []
+	for sp in w.trap_spots():
+		var p := hotspot_anchor(str(sp))
+		if p != Vector2.ZERO:
+			marks.append(p)
+	hints.marks = marks
 
 
 func hotspot_anchor(id: String) -> Vector2:
@@ -265,15 +272,19 @@ func _on_office_changed(what: String) -> void:
 	for it in items:
 		items[it].refresh()
 	_refresh_hints()
+	if what == "traps" or what == "iv":
+		_refresh_hints()
 
 
 func _on_fx(kind: String, data: Dictionary) -> void:
 	var npc_id: String = data.get("npc", "")
 	match kind:
 		"meddle":
-			var spot := ""
+			var spot: String = str(data.get("spot", ""))
 			var action: String = data.get("action", "")
-			if action in ["break_coffee", "fix_coffee"]:
+			if spot != "":
+				pass
+			elif action in ["break_coffee", "fix_coffee"]:
 				spot = "coffee_machine"
 			elif action == "break_printer":
 				spot = "printer"
@@ -322,8 +333,20 @@ func _process(delta: float) -> void:
 		base = Color(0.9, 0.95, 1.0) if temp > 16 else Color(0.84, 0.92, 1.0)
 	elif temp >= 25:
 		base = Color(1.0, 0.95, 0.88) if temp < 29 else Color(1.0, 0.9, 0.8)
+	var lo: Dictionary = w.office.objects["lights"]
+	# disco mode: the whole office slowly cycles through party colours
+	if lo.get("party", false) and lo["on"]:
+		var hue := fmod(_t * 0.18, 1.0)
+		base = base.lerp(Color.from_hsv(hue, 0.35, 1.0), 0.32)
+	# fire alarm: a red pulse
+	if w.office.objects.get("alarm", {}).get("on", false):
+		base = base.lerp(Color(1.0, 0.55, 0.55), 0.25 * (0.5 + 0.5 * sin(_t * 9.0)))
+	var dark_now := _dark_k
+	# flickering lights: random dips into darkness
+	if lo["on"] and float(lo.get("flicker_until", -1.0)) > w.minute and fmod(_t * 7.3, 1.0) < 0.22:
+		dark_now = maxf(dark_now, 0.55 + 0.3 * sin(_t * 41.0))
 	var dark_col := Color(0.36, 0.38, 0.56)
-	modulate_node.color = base.lerp(dark_col, _dark_k)
+	modulate_node.color = base.lerp(dark_col, dark_now)
 	for l in lights:
 		l.energy = _dark_k * 0.95
 		l.enabled = _dark_k > 0.01

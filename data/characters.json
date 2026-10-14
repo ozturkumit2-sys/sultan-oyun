@@ -1,6 +1,7 @@
 [
  {
   "id": "ahmet",
+  "standing": 40,
   "morale": 64,
   "name": "Ahmet",
   "age": 45,
@@ -29,7 +30,13 @@
   },
   "prefs": {
    "temp": 19,
-   "coffee": 0.95
+   "coffee": 0.95,
+   "music": {
+    "classical": 0.9,
+    "arabesk": 0.3,
+    "disco": -0.9,
+    "pop": -0.4
+   }
   },
   "speed": 0.92,
   "schedule": {
@@ -130,6 +137,7 @@
  },
  {
   "id": "selin",
+  "standing": 32,
   "morale": 60,
   "romance": {
    "burak": 0.3
@@ -162,7 +170,13 @@
   },
   "prefs": {
    "temp": 22,
-   "coffee": 0.6
+   "coffee": 0.6,
+   "music": {
+    "classical": 0.5,
+    "arabesk": -0.4,
+    "disco": -0.2,
+    "pop": 0.2
+   }
   },
   "speed": 1.05,
   "schedule": {
@@ -269,6 +283,7 @@
  },
  {
   "id": "mert",
+  "standing": 14,
   "morale": 66,
   "romance": {
    "ceren": 1.0
@@ -301,7 +316,13 @@
   },
   "prefs": {
    "temp": 21,
-   "coffee": 0.8
+   "coffee": 0.8,
+   "music": {
+    "classical": -0.5,
+    "arabesk": 0.6,
+    "disco": 0.9,
+    "pop": 0.8
+   }
   },
   "speed": 1.0,
   "schedule": {
@@ -411,6 +432,7 @@
  },
  {
   "id": "zeynep",
+  "standing": 18,
   "morale": 55,
   "romance": {
    "deniz": 0.35
@@ -442,7 +464,13 @@
   },
   "prefs": {
    "temp": 26,
-   "coffee": 0.85
+   "coffee": 0.85,
+   "music": {
+    "classical": 0.1,
+    "arabesk": 0.9,
+    "disco": 0.4,
+    "pop": 0.5
+   }
   },
   "speed": 0.98,
   "schedule": {
@@ -534,6 +562,7 @@
  },
  {
   "id": "burak",
+  "standing": 24,
   "morale": 36,
   "romance": {
    "ceren": 0.45,
@@ -567,7 +596,13 @@
   },
   "prefs": {
    "temp": 20,
-   "coffee": 0.5
+   "coffee": 0.5,
+   "music": {
+    "classical": 0.2,
+    "arabesk": -0.6,
+    "disco": -0.5,
+    "pop": -0.3
+   }
   },
   "speed": 1.0,
   "schedule": {
@@ -676,6 +711,7 @@
  },
  {
   "id": "ece",
+  "standing": 4,
   "morale": 74,
   "name": "Ece",
   "age": 23,
@@ -704,7 +740,13 @@
   },
   "prefs": {
    "temp": 23,
-   "coffee": 0.5
+   "coffee": 0.5,
+   "music": {
+    "classical": -0.2,
+    "arabesk": 0.2,
+    "disco": 0.8,
+    "pop": 0.9
+   }
   },
   "speed": 1.12,
   "schedule": {
@@ -786,6 +828,7 @@
  },
  {
   "id": "deniz",
+  "standing": 20,
   "morale": 58,
   "romance": {
    "zeynep": 0.3
@@ -818,7 +861,13 @@
   },
   "prefs": {
    "temp": 21,
-   "coffee": 0.6
+   "coffee": 0.6,
+   "music": {
+    "classical": 0.6,
+    "arabesk": -0.8,
+    "disco": 0.1,
+    "pop": 0.0
+   }
   },
   "speed": 1.02,
   "schedule": {
@@ -924,6 +973,7 @@
  },
  {
   "id": "ceren",
+  "standing": 28,
   "morale": 63,
   "romance": {
    "mert": 0.65,
@@ -956,7 +1006,13 @@
   },
   "prefs": {
    "temp": 22,
-   "coffee": 0.55
+   "coffee": 0.55,
+   "music": {
+    "classical": 0.7,
+    "arabesk": 0.3,
+    "disco": 0.0,
+    "pop": 0.3
+   }
   },
   "speed": 1.0,
   "schedule": {

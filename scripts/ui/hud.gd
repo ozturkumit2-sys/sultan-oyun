@@ -10,6 +10,7 @@ signal open_settings
 signal speed_changed(v: float)
 signal toast_tapped(entry: Dictionary)
 signal fit_pressed
+signal open_journal
 
 const PAD_TOP := 30.0
 const BOTTOM_H := 150.0
@@ -23,6 +24,8 @@ var btn_today: NoteButton
 var keys: Array = []
 var btn_settings: NoteButton
 var btn_fit: NoteButton
+var btn_journal: NoteButton
+var new_finds := 0
 var toasts: Array = []          # {entry, node, life}
 var toast_box: Control
 var unread := 0
@@ -95,6 +98,21 @@ func build(world: SimWorld) -> void:
 	btn_fit.offset_bottom = -BOTTOM_H - 14
 	btn_fit.pressed.connect(func(): fit_pressed.emit())
 	add_child(btn_fit)
+	# the Discovery Journal: bottom-left, mirroring the zoom key
+	btn_journal = NoteButton.make("", "book", "round", Color("e9dcb4"), Vector2(62, 62))
+	btn_journal.anchor_top = 1
+	btn_journal.anchor_bottom = 1
+	btn_journal.offset_left = 16
+	btn_journal.offset_right = 78
+	btn_journal.offset_top = -BOTTOM_H - 76
+	btn_journal.offset_bottom = -BOTTOM_H - 14
+	btn_journal.pressed.connect(func():
+		new_finds = 0
+		btn_journal.badge = 0
+		btn_journal.queue_redraw()
+		open_journal.emit())
+	add_child(btn_journal)
+	w.discovery.found.connect(_on_found)
 	toast_box = Control.new()
 	toast_box.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	toast_box.set_anchors_preset(Control.PRESET_FULL_RECT)
@@ -323,3 +341,12 @@ func _draw_bottom() -> void:
 		bottom.draw_circle(Vector2(rng.randf() * r.size.x, rng.randf_range(20, r.size.y)), rng.randf_range(0.6, 1.4), Color(0.5, 0.35, 0.15, 0.25))
 	# slot behind the time keys (tape-recorder strip)
 	Iso.rrect(bottom, Rect2(470, 34, 236, 84), 16, Color("3d4250"), Color(0, 0, 0, 0.4))
+
+
+## Something new for the journal: a sparkle and a badge on the notebook.
+func _on_found(kind: String, _id: String) -> void:
+	new_finds += 1
+	btn_journal.badge = new_finds
+	btn_journal.queue_redraw()
+	if kind == "iv" or kind == "arc":
+		Audio.play("sparkle", -6.0)

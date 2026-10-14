@@ -45,7 +45,38 @@ func reset_objects() -> void:
 		"promo": {"credit": "", "altered": false, "reviewed": false},
 		"desks": {},
 		"email": {},       # sender -> {"mode": "all"/"redirect", "to": id}
+		# --- objects added for the big intervention update
+		"ws": {},          # per person: their computer / inbox / phone / papers state
+		"water": {"broken": false, "last_user": "", "fixing": "", "discovered": false, "lemon": false},
+		"microwave": {"broken": false, "last_user": "", "fixing": "", "discovered": false},
+		"projector": {"broken": false, "fixing": "", "discovered": false},
+		"net": {"down": false, "fixing": "", "discovered": false, "broken": false},
+		"kitchen": {"reserved": "", "cake_out": false, "snacks_at": "", "tray": false, "last_cup": false, "salt": false},
+		"fridge": {"cleared": false, "note": ""},
+		"music": {"genre": "", "set_by": ""},
+		"alarm": {"on": false, "until": -1.0},
+		"clock": {"offset": 0},
+		"door": {"locked": false},
+		"front_door": {"jammed": false},
+		"notice": {"pins": []},
+		"plant": {"revived": false},
+		"supplies": {"at": ""},
+		"hr": {"shortlist": "", "swapped": ""},
+		"coats": {"swapped": ""},
 	}
+	for id in C.NPC_IDS:
+		objects["ws"][id] = {}
+	objects["coffee"]["decaf"] = false
+	objects["coffee"]["strong"] = false
+	objects["coffee"]["late_until"] = -1.0
+	objects["printer"]["no_paper"] = false
+	objects["printer"]["queue"] = ""
+	objects["lights"]["party"] = false
+	objects["lights"]["flicker_until"] = -1.0
+	objects["ac"]["locked"] = false
+	objects["board"]["agenda"] = ""
+	objects["board"]["chair"] = ""
+	objects["board"]["title"] = ""
 	for ws in OfficeLayout.workstations():
 		objects["desks"][ws["owner"]] = {"messed": false}
 	objects["desks"]["ahmet"] = {"messed": false}
@@ -56,6 +87,80 @@ func reset_objects() -> void:
 		"planner": {"owner": "ceren", "home": "desk_ceren", "at": "desk_ceren"},
 		"charger": {"owner": "burak", "home": "desk_burak", "at": "desk_burak"},
 	}
+
+
+## Object states that reset overnight (the cleaner, IT and the morning shift
+## undo most pranks). Things that stay: wallpapers, signatures, titles, notes.
+const WS_KEEP := ["wallpaper", "signature", "title", "ringtone", "autoreply"]
+
+
+func overnight_reset() -> void:
+	var o := objects
+	o["water"]["fixing"] = ""
+	o["microwave"]["fixing"] = ""
+	o["net"] = {"down": false, "fixing": "", "discovered": false, "broken": false}
+	o["projector"]["fixing"] = ""
+	o["kitchen"] = {"reserved": "", "cake_out": false, "snacks_at": "", "tray": false, "last_cup": false, "salt": false}
+	o["fridge"]["cleared"] = false
+	o["music"] = {"genre": "", "set_by": ""}
+	o["alarm"] = {"on": false, "until": -1.0}
+	o["clock"]["offset"] = 0
+	o["door"]["locked"] = false
+	o["front_door"]["jammed"] = false
+	o["coffee"]["decaf"] = false
+	o["coffee"]["strong"] = false
+	o["coffee"]["late_until"] = -1.0
+	o["printer"]["no_paper"] = false
+	o["printer"]["queue"] = ""
+	o["lights"]["party"] = false
+	o["lights"]["flicker_until"] = -1.0
+	o["ac"]["locked"] = false
+	o["board"]["agenda"] = ""
+	o["board"]["chair"] = ""
+	o["board"]["title"] = ""
+	o["supplies"]["at"] = ""
+	o["hr"] = {"shortlist": "", "swapped": ""}
+	var pins: Array = o["notice"]["pins"]
+	while pins.size() > 4:
+		pins.pop_front()
+	for id in o["ws"]:
+		var keep := {}
+		for k in WS_KEEP:
+			if o["ws"][id].has(k):
+				keep[k] = o["ws"][id][k]
+		o["ws"][id] = keep
+
+
+## Timed object states (once per game minute).
+func tick(w) -> void:
+	var o := objects
+	if o["alarm"]["on"] and w.minute > float(o["alarm"]["until"]):
+		o["alarm"]["on"] = false
+		w.office_changed.emit("alarm")
+		w.events.fire("alarm_over", {})
+	var fl := float(o["lights"].get("flicker_until", -1.0))
+	if fl > 0.0 and w.minute > fl:
+		o["lights"]["flicker_until"] = -1.0
+		w.office_changed.emit("lights")
+
+
+## The spot someone stands at to repair an object.
+static func fix_place(obj: String) -> String:
+	match obj:
+		"printer": return "printer"
+		"coffee": return "coffee"
+		"lights": return "breaker"
+		"water": return "water"
+		"microwave": return "micro"
+		"projector": return "m3"
+		"net": return "server"
+	return "printer"
+
+
+func is_broken(obj: String) -> bool:
+	if obj == "lights":
+		return not objects["lights"]["on"]
+	return objects.has(obj) and objects[obj].get("broken", false)
 
 
 static func _ek(a: Vector2i, b: Vector2i) -> String:
@@ -330,6 +435,9 @@ func from_dict(d: Dictionary) -> void:
 		if objects.has(k) and typeof(o[k]) == TYPE_DICTIONARY:
 			for kk in o[k]:
 				objects[k][kk] = o[k][kk]
+	for id in C.NPC_IDS:
+		if not objects["ws"].has(id):
+			objects["ws"][id] = {}
 	var it: Dictionary = d.get("items", {})
 	for k in it:
 		if items.has(k):

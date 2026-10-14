@@ -11,6 +11,7 @@ var tilt := 0.0               # degrees
 var font_size := 24
 var font_kind := "hand"
 var badge := 0
+var tag := ""                 # small pill in the corner of a row ("NEW")
 var active := false
 var text_col := UiKit.INK
 var _press_k := 0.0
@@ -104,6 +105,12 @@ func _draw() -> void:
 				Icons.draw(self, icon, Vector2.ZERO, isz, tc)
 		if text != "":
 			draw_string(font, Vector2(-c.x + 6, ty), text, HORIZONTAL_ALIGNMENT_CENTER, rr.size.x - 12, font_size, tc)
+	if tag != "" and kind == "row":
+		var tf := UiKit.font("slab")
+		var tw2 := tf.get_string_size(tag, HORIZONTAL_ALIGNMENT_LEFT, -1, 13).x + 14.0
+		var tp := Vector2(c.x - tw2 - 8, -c.y + 6)
+		draw_rect(Rect2(tp, Vector2(tw2, 20)), UiKit.RED)
+		draw_string(tf, tp + Vector2(7, 15), tag, HORIZONTAL_ALIGNMENT_LEFT, -1, 13, Color.WHITE)
 	if badge > 0:
 		var bp := Vector2(c.x - 10, -c.y + 8)
 		draw_circle(bp, 13, UiKit.RED)

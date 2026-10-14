@@ -12,6 +12,13 @@ import events_life  # noqa: F401  (registers living-office events)
 import lang_story_en  # noqa: F401  (strings for the story layer)
 import arcs as arcs_mod
 from rumors import RUMORS
+import iv_all
+import arcs_more1  # noqa: F401  (more story arcs)
+import arcs_more2  # noqa: F401  (stories set off by hidden combinations)
+import arcs_more3  # noqa: F401  (stories the office starts on its own)
+import npc_actions  # noqa: F401  (more things people do on their own)
+import lang_ui_more  # noqa: F401  (UI strings for v1.2)
+IV = iv_all.IV
 A = arcs_mod.A
 
 # ---------------------------------------------------------------- pacing tiers for the original events
@@ -33,7 +40,36 @@ TWEAKS = {
     "secret_friends_spotted": {"max_day": 1, "cooldown_days": 2, "scope": "global"},
     "jealous_friend": {"max_day": 1},
 }
+# ---------------------------------------------------------------- what kind of NPC action each initiative is
+DOMAINS = ("socializing", "rivalry", "work_career", "friendship", "romance", "arguments", "gossip", "helping", "secret_plans", "comedy")
+OLD_DOMAINS = {
+    "kitchen_gossip": "gossip", "rumor_check": "gossip", "misheard_call": "comedy", "suck_up": "work_career", "raise_request": "work_career",
+    "micromanage": "work_career", "work_dump": "rivalry", "new_rule": "work_career", "bet_pool": "socializing", "brag_visit": "rivalry",
+    "desk_sabotage": "rivalry", "hide_prank": "comedy", "lunch_invite": "socializing", "bring_snack": "helping", "inside_joke": "friendship",
+    "congratulate": "friendship", "confide": "friendship", "note_drop": "romance", "coffee_date": "romance", "heartbreak": "romance",
+    "sarcasm_misfire": "arguments", "wrong_name": "comedy", "quit_vent": "work_career", "update_cv": "secret_plans", "recruiter_call": "secret_plans",
+    "lost_report": "helping", "reply_all": "comedy", "room_double_booked": "arguments", "alliance_pact": "secret_plans", "alliance_intel": "secret_plans",
+    "chair_sink": "comedy", "fridge_raid": "comedy", "kick_me_note": "comedy", "glass_bonk": "comedy", "keyboard_spill": "comedy", "cake_day": "socializing",
+    "share_credit": "helping", "deal_closed": "work_career", "audit": "work_career", "secret_slip": "gossip", "logs_discovery": "secret_plans",
+    "revenge_rumor": "gossip", "peace_offering": "friendship", "start_stolen_idea": "rivalry", "start_romance": "romance", "start_headhunted": "work_career",
+    "start_resignation": "work_career", "start_missing_contract": "arguments", "start_deleted_folder": "helping", "start_layoff_panic": "gossip",
+    "start_secret_alliance": "secret_plans", "start_birthday": "socializing", "start_blame_game": "arguments", "start_mentor": "helping",
+    "start_promo_push": "work_career", "start_revenge": "rivalry", "start_boss_clash": "arguments", "start_niece": "secret_plans",
+}
 by_id = {e["id"]: e for e in E}
+# history some NPC actions need before they make sense (used by tests/npc_action_test: "suitable conditions")
+INIT_TEST = {
+    "heartbreak": [{"e": "bond", "a": "@mert", "b": "@ceren", "kind": "romance", "v": True}],
+    "alliance_intel": [{"e": "bond", "a": "@deniz", "b": "@zeynep", "kind": "alliance", "v": True}],
+    "start_breakup": [{"e": "bond", "a": "@mert", "b": "@ceren", "kind": "romance", "v": True}, {"e": "stress", "who": "@mert", "d": 25}],
+    "start_ghost_hunt": [{"e": "flag", "key": "ghost_belief", "v": 2, "day": False}],
+    "start_lunch_mystery": [{"e": "npcflag", "who": "@burak", "key": "lunch_victim", "v": True}],
+}
+for k, v in INIT_TEST.items():
+    by_id[k]["test"] = {"setup": v}
+for k, v in OLD_DOMAINS.items():
+    if k in by_id and "domain" not in by_id[k]:
+        by_id[k]["domain"] = v
 for tier, ids in TIERS.items():
     for i in ids:
         if i in by_id and "tier" not in by_id[i]:
@@ -42,6 +78,8 @@ for i, kv in TWEAKS.items():
     by_id[i].update(kv)
 
 errors = []
+warnings = []
+STRICT = "--strict" in sys.argv
 ids = {e["id"] for e in E}
 dup = [e["id"] for e in E if sum(1 for x in E if x["id"] == e["id"]) > 1]
 if dup: errors.append("duplicate event ids: %s" % sorted(set(dup)))
@@ -49,13 +87,16 @@ arc_ids = {a["id"] for a in A}
 
 EFFECTS = {"say", "emote", "expr", "rel", "mood", "stress", "mem", "learn", "reveal", "log", "stat", "hold", "intent", "cancel", "chain", "witness",
            "each", "rumor", "favor", "obj", "item_home", "meet", "goal", "flag", "npcflag", "sfx", "fx", "ghost", "work", "act", "call", "set", "pick",
-           "debunk", "forget", "distort", "bond", "plan", "morale", "arc_start", "arc_next", "arc_end", "meetup", "away", "trigger"}
+           "debunk", "forget", "distort", "bond", "plan", "morale", "arc_start", "arc_next", "arc_end", "meetup", "away", "trigger",
+           "trap", "untrap", "oset", "pin", "unpin", "meeting", "npcval", "item_to", "hunt", "spotfx"}
 CONDS = {"trait", "rel", "affinity", "mood", "stress", "knows", "fact_exists", "is", "same", "present", "available", "near", "time", "chance", "goal",
          "mem", "memval", "day", "office", "flag", "dayflag", "npcflag", "activity", "stat", "var", "zone", "meeting", "work_left", "discomfort",
-         "ghost", "rolefilled", "promoted", "any", "all", "sure", "picks", "truth", "bond", "plan", "morale", "arc", "in_story", "fired", "result", "can_arc"}
+         "ghost", "rolefilled", "promoted", "any", "all", "sure", "picks", "truth", "bond", "plan", "morale", "arc", "in_story", "fired", "result", "can_arc",
+         "ostate", "iv", "trap", "in_meeting", "pins", "attends"}
 known_ph = {"actor","target","to","me","obj","item","suspect","owner","gossip","topic","helper","credited","victim","winner","loser","subject",
             "defender","requester","listener","spotter","joker","crush","honest","fact","intended","time","old_time","new_time","temp","loc","g1","g2",
-            "a","b","other","name","day","n","v","state","doing","age","rumor"}
+            "a","b","other","name","day","n","v","state","doing","age","rumor","what","owner2","friend","snoop","fixpath","choice","sender","doc","origin","pairkind",
+            "total","pct","ends","arcs","text"}
 arc_next_refs = {}   # event id -> [stage names it may jump to]
 
 def walk_conds(conds, eid):
@@ -116,6 +157,8 @@ for e in E:
         walk_conds(r.get("where", []), e["id"])
     for v in e.get("vars", []):
         known_ph.add(v["name"])
+    if e.get("trigger") == "initiative" and e.get("domain") not in DOMAINS:
+        errors.append("%s: initiative without a valid domain (%s)" % (e["id"], e.get("domain")))
     if "tier" in e and e["tier"] not in ("", "small", "medium", "big"):
         errors.append("%s: bad tier %s" % (e["id"], e["tier"]))
     walk_conds(e.get("conditions", []), e["id"])
@@ -166,6 +209,8 @@ for a in A:
         return 1 + max([depth(n, stack + (sid,)) for n in nx if n in st] + [0])
     a["_max_depth"] = depth(a["first"])
     if a["_max_depth"] < 3: errors.append("arc %s: longest path only %d stages" % (a["id"], a["_max_depth"]))
+    for ck in a.get("test", {}):
+        known_ph.add(ck)   # the cast an arc is started with
     for stid, s_ in st.items():
         for key in ("actor", "target"):
             ref = s_.get(key, "")
@@ -197,12 +242,114 @@ for c in CHARACTERS:
     for t in c["tasks"]:
         if "task." + t["id"] not in S: errors.append("missing task " + t["id"])
 
+# names introduced by interventions (their pickers and roles filled at apply time)
+def _iv_names(effs):
+    for f in effs:
+        if f.get("e") == "call" and f.get("fn") == "pick_role":
+            known_ph.add(f["role"])
+        if f.get("e") == "set":
+            known_ph.add(f["key"])
+for d in IV:
+    for v in d.get("vars", []):
+        known_ph.add(v["name"])
+    _iv_names(d.get("state", []) + d.get("react", []))
+
 # placeholders sanity: every {x} in dialogue must be a known role/var name
 for src, dd in (("dialogue", {k: sum(v.values(), []) for k, v in D.items()}), ("lang", {k: (v if isinstance(v, list) else [v]) for k, v in S.items()})):
     for k, lines in dd.items():
         for l in lines:
             for ph in re.findall(r"\{(\w+)\}", l):
                 if ph not in known_ph: errors.append("%s %s: unknown placeholder {%s}" % (src, k, ph))
+
+# ---------------------------------------------------------------- interventions
+OBJECTS = {"ws", "item", "coffee_machine", "printer", "meeting_board", "ac", "lights", "promo_file", "fridge", "water_cooler", "kitchen_table",
+           "microwave", "file_cabinet", "supply_shelf", "server_box", "meeting_table", "hr_cabinet", "sofa", "coat_rack", "plant", "front_door",
+           "noticeboard", "wall_clock", "speaker", "alarm_panel"}
+WS_TABS = {"pc", "mail", "phone", "papers"}
+REACT_EFFECTS = {"trap", "chain", "intent", "meetup", "hunt", "call", "trigger", "arc_start", "away"}
+
+def refs_of(effs):
+    """Event ids an effect list can lead to."""
+    out = []
+    for f in effs:
+        k = f.get("e")
+        if k in ("trap", "chain", "intent", "meetup", "hunt") and f.get("event"):
+            out.append(f["event"])
+        elif k == "call" and f.get("fn") == "summon" and f.get("event"):
+            out.append(f["event"])
+        for sub in f.get("effects", []):
+            out += refs_of([sub])
+        if k == "pick":
+            for opt in f["of"]: out += refs_of(opt)
+    return out
+
+def event_refs(eid):
+    e = by_id.get(eid)
+    if not e: return []
+    effs = list(e.get("effects", []))
+    for o in e.get("outcomes", []): effs += o.get("effects", [])
+    return refs_of(effs)
+
+def visible(eid):
+    """A reaction event must show something: speech, a log line, an emote or a walk."""
+    e = by_id.get(eid, {})
+    effs = list(e.get("effects", []))
+    for o in e.get("outcomes", []): effs += o.get("effects", [])
+    return any(f.get("e") in ("say", "log", "emote", "expr", "intent", "meetup", "hunt", "act", "away", "chain") for f in effs)
+
+iv_ids, iv_keys = set(), set()
+iv_cat_count = {}
+for d in IV:
+    tag = "iv %s" % d["id"]
+    if d["id"] in iv_ids: errors.append(tag + ": duplicate id")
+    if d["key"] in iv_keys: errors.append(tag + ": duplicate key " + d["key"])
+    iv_ids.add(d["id"]); iv_keys.add(d["key"])
+    iv_cat_count[d["cat"]] = iv_cat_count.get(d["cat"], 0) + 1
+    if not d["id"].startswith(d["cat"]): errors.append(tag + ": id does not match category " + d["cat"])
+    if d["obj"] not in OBJECTS: errors.append(tag + ": unknown object " + d["obj"])
+    if d["obj"] == "ws" and d.get("tab") not in WS_TABS: errors.append(tag + ": desk interventions need a tab")
+    if d.get("needs") == "choice" and not d.get("choices"): errors.append(tag + ": choice without choices")
+    if d.get("needs") not in (None, "", "person", "choice", "time"): errors.append(tag + ": bad needs " + str(d.get("needs")))
+    walk_conds(d.get("conds", []), tag)
+    walk_conds(d.get("pick", []), tag)
+    for c in d.get("conds", []):
+        if c.get("why") and c["why"] not in S: errors.append(tag + ": missing reason text " + c["why"])
+    if d.get("legacy"):
+        continue
+    for k in (d["name"], d["name"] + ".d"):
+        if k not in S: errors.append(tag + ": missing text " + k)
+    if not d.get("log"): errors.append(tag + ": no log line")
+    if not d.get("state"): errors.append(tag + ": no state change")
+    walk_effects(d.get("state", []), tag)
+    walk_effects(d.get("react", []), tag)
+    reacts = refs_of(d.get("state", []) + d.get("react", []))
+    # reactions driven by a simulation trigger the state change causes (e.g. meeting_door_locked)
+    reacts += [x for x in d.get("watch", []) if x in by_id and by_id[x].get("trigger")]
+    if not reacts: errors.append(tag + ": no reaction (trap/chain/visit...)")
+    for r in reacts:
+        if r not in ids: errors.append(tag + ": reaction event %s does not exist" % r)
+        elif not visible(r): errors.append(tag + ": reaction event %s shows nothing" % r)
+    # what the journal should count as this intervention's outcomes
+    seen, todo = set(), list(reacts)
+    while todo:
+        x = todo.pop()
+        if x in seen or x not in ids: continue
+        seen.add(x)
+        todo += event_refs(x)
+    d["watch"] = sorted(set(d.get("watch", [])) | seen)
+    for wid in d["watch"]:
+        if wid not in ids: errors.append(tag + ": watch unknown event " + wid)
+    if d.get("arc") and d["arc"] not in arc_ids: errors.append(tag + ": starts unknown arc " + d["arc"])
+    if d.get("hidden"):
+        if not d.get("combo"): errors.append(tag + ": hidden combination without ingredients")
+        for cid in d.get("combo", []):
+            if not any(x["id"] == cid for x in IV): errors.append(tag + ": combo ingredient %s unknown" % cid)
+            if not any(c.get("c") == "iv" and c.get("id") == cid for c in d.get("conds", [])):
+                errors.append(tag + ": combo ingredient %s is not checked in conds" % cid)
+for cat in "ABCDEFGHIJ":
+    n = iv_cat_count.get(cat, 0)
+    if n < 20:
+        (errors if STRICT else warnings).append("category %s has %d/20 interventions" % (cat, n))
 
 if errors:
     print("\n".join(errors))
@@ -222,7 +369,43 @@ dump("arcs.json", A)
 dump("rumors.json", RUMORS)
 dump("dialogue_en.json", D)
 dump("lang/en.json", S)
+from iv_helpers import CATS
+dump("interventions.json", {"cats": CATS, "list": IV})
 lines = sum(len(x) for v in D.values() for x in v.values())
 init = [e for e in E if e.get("trigger") == "initiative"]
+for wmsg in warnings:
+    print("WARNING: " + wmsg)
+print("Interventions: %d (%s)" % (len(IV), ", ".join("%s=%d" % (k, iv_cat_count.get(k, 0)) for k in "ABCDEFGHIJ")))
+# what the interventions' consequences touch (state + reaction scenes they can lead to)
+def _kinds(effs, acc):
+    for f in effs:
+        acc.add(f.get("e"))
+        if f.get("e") == "log" and int(f.get("imp", 1)) >= 2:
+            acc.add("log2")
+        _kinds(f.get("effects", []), acc)
+        if f.get("e") == "pick":
+            for opt in f["of"]: _kinds(opt, acc)
+touch = {"mem": 0, "rel": 0, "know": 0, "visible": 0}
+for d in IV:
+    if d.get("legacy"):
+        continue
+    acc = set()
+    _kinds(d.get("state", []) + d.get("react", []), acc)
+    for wid in d.get("watch", []):
+        ev_ = by_id.get(wid, {})
+        _kinds(ev_.get("effects", []), acc)
+        for o in ev_.get("outcomes", []): _kinds(o.get("effects", []), acc)
+    if "mem" in acc or "log2" in acc: touch["mem"] += 1
+    if acc & {"rel", "bond", "favor"}: touch["rel"] += 1
+    if acc & {"learn", "rumor", "reveal", "witness"}: touch["know"] += 1
+    if acc & {"say", "emote", "expr", "log"}: touch["visible"] += 1
+n_new = sum(1 for d in IV if not d.get("legacy"))
+print("Data-driven interventions: %d — consequences leave memories %d, change relationships %d, spread knowledge/rumours %d, visible reactions %d" % (
+    n_new, touch["mem"], touch["rel"], touch["know"], touch["visible"]))
+dom = {}
+for e in init:
+    dom[e["domain"]] = dom.get(e["domain"], 0) + 1
+print("NPC actions (initiatives): %d (%s)" % (len(init), ", ".join("%s=%d" % (k, dom.get(k, 0)) for k in DOMAINS)))
+print("Story arcs: %d, stages %d, longest path %d" % (len(A), sum(len(a["stages"]) for a in A), max(len(a["stages"]) for a in A)))
 print("OK: %d characters, %d facts, %d events (%d initiative), %d arcs (%d stages), %d rumour kinds, %d dialogue keys (%d lines), %d strings" % (
     len(CHARACTERS), len(FACTS), len(E), len(init), len(A), sum(len(a["stages"]) for a in A), len(RUMORS), len(D), lines, len(S)))

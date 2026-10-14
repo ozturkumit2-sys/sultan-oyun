@@ -51,6 +51,8 @@ func new_day() -> void:
 ## Fire a trigger from the simulation. Picks the highest priority event that
 ## passes all checks, plus any listener events marked "also". Returns true if something fired.
 func fire(trigger: String, payload: Dictionary = {}) -> bool:
+	if not w.traps.is_empty() and w.trap_on(trigger, payload):
+		return true
 	if not by_trigger.has(trigger):
 		return false
 	var fired := false

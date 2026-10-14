@@ -217,7 +217,7 @@ scene("rom_caught", noise=0.9, conditions=[c_present("lover"), c_present("crush"
 L("rom_gossip_start", ["Oh, I have to tell someone. I HAVE to.", "This cannot stay in my head."])
 L("rom_gossip_tell", ["Guess who I caught being VERY cosy in the kitchen? {lover} and {crush}!", "{lover} and {crush}. Kitchen. Holding mugs. MEANINGFULLY."])
 L("rom_gossip_react", ["No WAY.", "I knew it! The way they look at each other!", "Get OUT."])
-T("log.rom_gossip", "{spotter} is telling {listener} all about {lover} and {crush}.")
+T("log.rom_gossip", "{actor} is telling {target} all about {lover} and {crush}.")
 scene("rom_gossip_start", conditions=[c_avail("spotter")],
     roles=[role("listener", where=[c_avail("self")], score=[s_trait("self", "gossip", 1.0), s_aff("spotter", "self", 0.01)],
                 exclude=["spotter", "lover", "crush"], optional=True)],

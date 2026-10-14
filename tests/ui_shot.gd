@@ -42,8 +42,13 @@ func _process(_d):
 			gs()._on_hotspot("ws_selin")
 		8: _shot("04_meddle_desk")
 		9:
-			var acts := Interventions.actions_for(Game.world, "ws_selin")
-			gs().menu._choose(acts[1])
+			var acts: Array = Game.world.iv.actions_for("ws_selin")
+			for a in acts:
+				if a["enabled"] and str(a.get("needs", "")) == "person":
+					gs().menu.tab = str(a.get("tab", "pc"))
+					gs().menu._build_actions()
+					gs().menu._choose(a)
+					break
 		10: _shot("05_meddle_options")
 		11:
 			gs().menu.close()
@@ -67,7 +72,46 @@ func _process(_d):
 		20: _shot("10_settings")
 		21:
 			gs().settings_sheet.close()
+			# line up a secret combination on Mert's desk: love note to the wrong person + fake 1:1 invite
+			var w := Game.world
+			for a in w.iv.actions_for("ws_mert"):
+				if a.get("iv", "") == "I09" and a["enabled"]:
+					a["spot"] = "ws_mert"
+					w.iv.apply(a, "zeynep")
+			for a in w.iv.actions_for("ws_mert"):
+				if a.get("iv", "") == "B07" and a["enabled"]:
+					a["spot"] = "ws_mert"
+					w.iv.apply(a, "zeynep")
+			gs()._on_hotspot("ws_mert")
+		22: _shot("11_secret_combo")
+		23:
+			gs().menu.close()
+			gs()._on_hotspot("fridge")
+		24: _shot("12_meddle_fridge")
+		25:
+			gs().menu.close()
+			var w := Game.world
+			w.office.objects["lights"]["party"] = true
+			w.office.objects["music"]["genre"] = "disco"
+			gs().hud.open_journal.emit()
+		26: _shot("13_journal")
+		27:
+			gs().journal.cat = "J"
+			gs().journal._build()
+		28: _shot("14_journal_secrets")
+		29:
+			gs().journal.page = "stories"
+			gs().journal._build()
+		30: _shot("15_journal_stories")
+		31:
+			gs().journal.page = "records"
+			gs().journal._build()
+		32: _shot("16_journal_records")
+		33:
+			gs().journal.close()
+		34: _shot("17_party_lights")
+		35:
 			var w := Game.world
 			while not w.day_over: w.step(0.5)
-		22: _shot("11_paper")
-		23: get_tree().quit()
+		36: _shot("18_paper")
+		37: get_tree().quit()

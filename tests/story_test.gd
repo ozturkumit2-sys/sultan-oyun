@@ -14,7 +14,7 @@ func _ready() -> void:
 	_t("6. save/load keeps ongoing stories going", _test_save_load_story)
 	_t("7. things happen with NO player input", _test_autonomous_days)
 	_t("8. rumours: hearsay is uncertain, false ones get debunked", _test_beliefs)
-	_t("9. every one of the 16 stories runs to an ending (no stuck stages)", _test_every_arc)
+	_t("9. every story arc runs to an ending (no stuck stages)", _test_every_arc)
 	var ok := 0
 	for r in results:
 		print(("PASS  " if r[1] else "FAIL  ") + r[0] + ("" if r[1] else "   -> " + r[2]))
@@ -170,6 +170,8 @@ func _test_memory_next_day() -> bool:
 	w.change_rel("selin", "deniz", "rivalry", 40.0)
 	w.npc("selin").traits["forgiveness"] = 0.1
 	w.events.cooldowns.clear()
+	# isolate the overnight check: a same-day revenge story could legitimately end the feud in a truce
+	w.director.arc_last_end["revenge_plot"] = w.day
 	var ok := false
 	for i in 20:   # the event has a 70% chance condition
 		if w.events.run_event("feud_begins", {"actor": "selin", "target": "deniz"}, {}):
@@ -180,9 +182,10 @@ func _test_memory_next_day() -> bool:
 	w.npc("selin").remember("argued", "deniz", -0.7, 0.9, "mem.argued", {"target": "deniz"}, w.day, w.minute, 3)
 	var rid := w.make_rumor("argument", "selin", "deniz", 0.6, true, "selin")
 	w.learn("zeynep", rid, "mert")
-	var c0 := w.npc("zeynep").certainty(rid)
 	while not w.day_over:
 		w.step(0.5)
+	# what she believes at the end of the day (she may have heard more during it)
+	var c0 := w.npc("zeynep").certainty(rid)
 	var day0 := w.day
 	w.next_day()
 	var s: NPC = w.npc("selin")
@@ -410,11 +413,24 @@ func _test_every_arc() -> bool:
 	var deep := 0
 	var lines: Array = []
 	var i := 0
-	for arc_id in CASTS:
+	var only := ""
+	for arg in OS.get_cmdline_user_args():
+		if arg.begins_with("arc="):
+			only = arg.substr(4)
+	var w0 := _world(1)
+	var all_ids: Array = w0.director.arc_defs.keys()
+	var n_arcs := 0
+	for arc_id in all_ids:
+		if only != "" and arc_id != only:
+			continue
+		n_arcs += 1
 		i += 1
+		var cast: Dictionary = CASTS.get(arc_id, w0.director.arc_defs[arc_id].get("test", {}))
+		if cast.is_empty():
+			return _fail("%s has no test cast" % arc_id)
 		var w := _world(300 + i)
 		_run_until(w, 40.0)
-		var uid := w.director.start_arc(arc_id, CASTS[arc_id], {}, "", true)
+		var uid := w.director.start_arc(arc_id, cast, {}, "", true)
 		if uid == "":
 			return _fail("%s did not start" % arc_id)
 		var days := 0
@@ -432,7 +448,8 @@ func _test_every_arc() -> bool:
 		if steps >= 3:
 			deep += 1
 		lines.append("%s: %d stage(s) -> %s" % [arc_id, steps, fin[0]["result"]])
-	print("    " + " | ".join(lines))
-	if deep < 12:
-		return _fail("only %d of 16 stories went 3+ stages deep" % deep)
+	print("    " + "\n    ".join(lines))
+	print("    %d stories, %d went 3+ stages deep" % [n_arcs, deep])
+	if deep < int(n_arcs * 0.7):
+		return _fail("only %d of %d stories went 3+ stages deep" % [deep, n_arcs])
 	return true

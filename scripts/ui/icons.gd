@@ -158,6 +158,34 @@ static func draw(ci: CanvasItem, name: String, c: Vector2, s: float, col := INK)
 		"help":
 			ci.draw_arc(c, s * 0.36, 0, TAU, 24, col, w, true)
 			ci.draw_string(UiKit.font("marker"), c + Vector2(-s * 0.13, s * 0.17), "?", HORIZONTAL_ALIGNMENT_LEFT, -1, int(s * 0.5), col)
+		"lock":
+			ci.draw_arc(c + Vector2(0, -s * 0.08), s * 0.2, PI, TAU, 14, col, w * 1.3, true)
+			ci.draw_line(c + Vector2(-s * 0.2, -s * 0.08), c + Vector2(-s * 0.2, s * 0.02), col, w * 1.3)
+			ci.draw_line(c + Vector2(s * 0.2, -s * 0.08), c + Vector2(s * 0.2, s * 0.02), col, w * 1.3)
+			ci.draw_rect(Rect2(c + Vector2(-s * 0.32, 0), Vector2(s * 0.64, s * 0.4)), col)
+			ci.draw_circle(c + Vector2(0, s * 0.16), s * 0.06, Color("fffdf5"))
+		"key":
+			ci.draw_arc(c + Vector2(-s * 0.18, 0), s * 0.16, 0, TAU, 16, col, w * 1.3, true)
+			ci.draw_line(c + Vector2(-s * 0.02, 0), c + Vector2(s * 0.4, 0), col, w * 1.3)
+			ci.draw_line(c + Vector2(s * 0.28, 0), c + Vector2(s * 0.28, s * 0.14), col, w * 1.2)
+			ci.draw_line(c + Vector2(s * 0.38, 0), c + Vector2(s * 0.38, s * 0.12), col, w * 1.2)
+		"book":
+			ci.draw_rect(Rect2(c + Vector2(-s * 0.34, -s * 0.4), Vector2(s * 0.68, s * 0.8)), col)
+			ci.draw_rect(Rect2(c + Vector2(-s * 0.24, -s * 0.4), Vector2(s * 0.06, s * 0.8)), Color(1, 1, 1, 0.35))
+			ci.draw_rect(Rect2(c + Vector2(-s * 0.08, -s * 0.24), Vector2(s * 0.34, s * 0.14)), Color("fffdf5"))
+			ci.draw_line(c + Vector2(s * 0.18, s * 0.4), c + Vector2(s * 0.18, s * 0.52), Color("e63946"), w * 1.4)
+		"monitor":
+			ci.draw_rect(Rect2(c + Vector2(-s * 0.4, -s * 0.34), Vector2(s * 0.8, s * 0.52)), col)
+			ci.draw_rect(Rect2(c + Vector2(-s * 0.33, -s * 0.27), Vector2(s * 0.66, s * 0.38)), Color("9cc5f0"))
+			ci.draw_line(c + Vector2(0, s * 0.18), c + Vector2(0, s * 0.32), col, w * 1.4)
+			ci.draw_line(c + Vector2(-s * 0.18, s * 0.34), c + Vector2(s * 0.18, s * 0.34), col, w * 1.4)
+		"tray":
+			ci.draw_rect(Rect2(c + Vector2(-s * 0.4, s * 0.02), Vector2(s * 0.8, s * 0.22)), col)
+			ci.draw_rect(Rect2(c + Vector2(-s * 0.3, -s * 0.3), Vector2(s * 0.5, s * 0.32)), Color("fffdf5"))
+			ci.draw_rect(Rect2(c + Vector2(-s * 0.3, -s * 0.3), Vector2(s * 0.5, s * 0.32)), col, false, w)
+			ci.draw_rect(Rect2(c + Vector2(-s * 0.24, -s * 0.38), Vector2(s * 0.5, s * 0.32)), col, false, w * 0.8)
+		_:
+			ci.draw_arc(c, s * 0.3, 0, TAU, 16, col, w, true)
 
 
 static func for_action(id: String) -> String:

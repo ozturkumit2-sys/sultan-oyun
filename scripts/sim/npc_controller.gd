@@ -8,7 +8,7 @@ const DEFAULT_DUR := {
 	"arrive": 1.0, "work": 40.0, "coffee": 4.0, "water": 3.0, "chat": 1.0, "print": 3.0, "archive": 6.0,
 	"phone": 6.0, "rest": 9.0, "patrol": 1.0, "meeting": 70.0, "lunch": 38.0, "leave": 1.0, "review": 14.0,
 	"wander": 2.0, "thermostat": 1.0, "fix": 7.0, "go_npc": 0.6, "go_place": 2.0, "search": 1.2,
-	"idle": 2.0, "announce": 6.0, "return_item": 0.6, "gift_coffee": 3.0, "go_desk": 0.8, "away": 0.5,
+	"idle": 2.0, "announce": 6.0, "return_item": 0.6, "gift_coffee": 3.0, "go_desk": 0.8, "away": 0.5, "hunt": 1.3,
 }
 
 
@@ -101,8 +101,11 @@ static func start_intent(w, n: NPC, it: Dictionary) -> void:
 		"fix":
 			spec["act"] = "fix"
 			spec["obj"] = it.get("obj", "printer")
-			spec["place"] = {"printer": "printer", "coffee": "coffee", "lights": "breaker"}.get(spec["obj"], "printer")
+			spec["place"] = OfficeEnv.fix_place(spec["obj"])
 			spec["requester"] = it.get("roles", {}).get("requester", "")
+		"hunt":
+			spec["act"] = "hunt"
+			spec["stops"] = it.get("stops", [])
 		"search":
 			spec["act"] = "search"
 			spec["item"] = it.get("vars", {}).get("item", "")
@@ -155,6 +158,18 @@ static func _place_for(w, n: NPC, spec: Dictionary) -> String:
 		"wander", "idle":
 			return o.free_place_with_tag("wander", w.rng, null, n.id)
 		"meeting":
+			if MeetingFlow.door_locked(w) and not w.meeting.get("started", false):
+				for pid3 in ["hl1", "hl2", "w4", "w10", "hk2", "sofa1", "sofa2", "armchair"]:
+					if o.places[pid3]["occupant"] == "" or o.places[pid3]["occupant"] == n.id:
+						return pid3
+				return ""
+			var room: String = str(w.meeting.get("room", "meeting"))
+			if room != "meeting":
+				# the board says the meeting moved: find a seat in that corner instead
+				for pid2 in StoryDirector.AREA_SPOTS.get(room, []):
+					if o.places.has(pid2) and (o.places[pid2]["occupant"] == "" or o.places[pid2]["occupant"] == n.id):
+						return pid2
+				return o.free_place_with_tag("wander", w.rng, null, n.id)
 			if n.id == "ahmet" and (o.places["m1"]["occupant"] == "" or o.places["m1"]["occupant"] == "ahmet"):
 				return "m1"
 			for i in range(2, 9):
@@ -177,10 +192,13 @@ static func _lunch_place(w, n: NPC) -> String:
 		return "desk_" + n.id
 	var best := ""
 	var bs := -1e9
+	var reserved: String = str(o.objects["kitchen"].get("reserved", ""))
 	for pid in o.places_with_tag("lunch"):
 		var occ: String = o.places[pid]["occupant"]
 		if occ != "" and occ != n.id:
 			continue
+		if reserved != "" and reserved != n.id and pid.begins_with("k"):
+			continue    # "kitchen reserved" sign on the door
 		var s: float = w.rng.randf() * 10.0
 		# sit near people you like, away from people you dislike
 		for other in w.present_ids():
@@ -245,6 +263,9 @@ static func start(w, n: NPC, spec: Dictionary) -> void:
 		n.path = PackedVector2Array([Vector2(13.6, 11.5)])
 		n.path.append_array(o.find_path(Vector2(13.5, 11.5), o.place_cell(place), o.place_pos(place)))
 	elif n.act == "leave" or n.act == "away":
+		if n.act == "leave" and not n.today_flags.get("leaving", false):
+			n.today_flags["leaving"] = true
+			w.events.fire("leaving", {"actor": n.id})
 		if place != "":
 			o.release(place, n.id)
 			n.act_place = ""
@@ -257,6 +278,9 @@ static func start(w, n: NPC, spec: Dictionary) -> void:
 		n.path = _path_to_npc(w, n, n.act_target)
 	elif n.act == "search":
 		_setup_search(w, n)
+		return
+	elif n.act == "hunt":
+		_setup_hunt(w, n)
 		return
 	elif n.act == "patrol":
 		_setup_patrol(w, n)
@@ -319,6 +343,8 @@ static func _walk(w, n: NPC, d: float) -> void:
 	var speed := C.WALK_SPEED * float(n.def.get("speed", 1.0))
 	if not w.office.objects["lights"]["on"]:
 		speed *= 0.6
+	if n.act_data.get("storm", false):
+		speed *= 1.7          # marching off in a huff
 	var step := speed * d
 	# chasing a person: re-path periodically, stop when close
 	if n.act_target != "" and n.act_place == "" and not (n.act in ["search", "patrol"]):
@@ -391,6 +417,11 @@ static func _arrive(w, n: NPC) -> void:
 # ---------------------------------------------------------------- activity begin hooks
 
 static func _begin(w, n: NPC) -> void:
+	_begin_act(w, n)
+	_after_begin(w, n)
+
+
+static func _begin_act(w, n: NPC) -> void:
 	var o: OfficeEnv = w.office
 	match n.act:
 		"arrive":
@@ -420,7 +451,11 @@ static func _begin(w, n: NPC) -> void:
 				n.pose = "read"
 		"coffee":
 			var c: Dictionary = o.objects["coffee"]
-			if c["broken"]:
+			if float(c.get("late_until", -1.0)) > w.minute and not c["broken"]:
+				n.act_dur = 3.0
+				n.pose = "stand"
+				w.events.fire("coffee_wait", {"actor": n.id, "_iv": str(c.get("iv", ""))})
+			elif c["broken"]:
 				n.act_dur = 1.6
 				n.today_flags["coffee_failed"] = true
 				c["discovered"] = true
@@ -438,6 +473,14 @@ static func _begin(w, n: NPC) -> void:
 					w.events.fire("coffee_ghost", {"actor": n.id})
 				c["last_user"] = n.id
 				w.sfx.emit("coffee")
+		"water":
+			var wc: Dictionary = o.objects["water"]
+			if wc["broken"]:
+				n.act_dur = 1.4
+				wc["discovered"] = true
+				w.events.fire("object_failed", {"actor": n.id, "obj": "water", "_iv": str(wc.get("iv", ""))})
+			else:
+				wc["last_user"] = n.id
 		"gift_coffee":
 			var c2: Dictionary = o.objects["coffee"]
 			if c2["broken"]:
@@ -448,7 +491,10 @@ static func _begin(w, n: NPC) -> void:
 				n.pose = "coffee"
 		"print":
 			var pr: Dictionary = o.objects["printer"]
-			if pr["broken"]:
+			if pr.get("no_paper", false) and not pr["broken"]:
+				n.act_dur = 1.4
+				w.events.fire("object_failed", {"actor": n.id, "obj": "paper", "_iv": str(pr.get("iv", ""))})
+			elif pr["broken"]:
 				n.act_dur = 1.6
 				pr["discovered"] = true
 				w.events.fire("object_failed", {"actor": n.id, "obj": "printer"})
@@ -460,11 +506,7 @@ static func _begin(w, n: NPC) -> void:
 				w.sfx.emit("printer")
 		"fix":
 			var obj: String = n.act_data.get("obj", "printer")
-			var broken := false
-			if obj == "lights":
-				broken = not o.objects["lights"]["on"]
-			else:
-				broken = o.objects[obj]["broken"]
+			var broken := o.is_broken(obj)
 			if not broken:
 				n.act_dur = 0.4
 			else:
@@ -475,7 +517,9 @@ static func _begin(w, n: NPC) -> void:
 			# stubborn people set their own favourite, everyone else restores "normal"
 			var pref := int(n.prefs.get("temp", 22)) if n.t("temper") > 0.65 else 22
 			var prev := int(o.objects["ac"]["temp"])
-			if prev != pref:
+			if o.objects["ac"].get("locked", false) and prev != pref:
+				w.events.fire("thermostat_locked", {"actor": n.id})
+			elif prev != pref:
 				o.objects["ac"]["temp"] = pref
 				o.objects["ac"]["set_by"] = n.id
 				w.office_changed.emit("ac")
@@ -491,6 +535,9 @@ static func _begin(w, n: NPC) -> void:
 			n.pose = "sit" if n.pose == "sit" else "stand"
 		"lunch":
 			n.lunch_done = true
+			if o.objects["microwave"]["broken"] and n.act_place.begins_with("k") and w.rng.randf() < 0.6:
+				o.objects["microwave"]["discovered"] = true
+				w.events.fire("object_failed", {"actor": n.id, "obj": "microwave", "_iv": str(o.objects["microwave"].get("iv", ""))})
 			if str(n.today_flags.get("lunch_stolen", "")) != "":
 				var thief: String = str(n.today_flags["lunch_stolen"])
 				n.today_flags.erase("lunch_stolen")
@@ -569,7 +616,7 @@ static func _begin(w, n: NPC) -> void:
 			_exit(w, n)
 		"wander", "idle":
 			n.pose = "stand"
-		"search":
+		"search", "hunt":
 			n.pose = "search"
 		"patrol":
 			var tg: Array = n.act_data.get("targets", [])
@@ -580,6 +627,11 @@ static func _begin(w, n: NPC) -> void:
 			n.act_dur = 1.0
 			if w.available(n.act_target):
 				w.events.fire("chat", {"actor": n.id, "target": n.act_target})
+
+
+static func _after_begin(w, n: NPC) -> void:
+	if n.present and n.act != "" and not (n.act in ["leave", "away", "search", "hunt", "patrol"]):
+		w.trap_place(n, n.act_place, n.act)
 
 
 static func _exit(w, n: NPC) -> void:
@@ -629,7 +681,7 @@ static func _do(w, n: NPC, d: float) -> void:
 	match n.act:
 		"work":
 			if n.act_place == "desk_" + n.id:
-				var rate := (0.55 + n.t("diligence") * 0.75) * (1.0 - n.stress / 230.0)
+				var rate: float = (0.55 + n.t("diligence") * 0.75) * (1.0 - n.stress / 230.0) * w.work_mult(n)
 				if not o.objects["lights"]["on"]:
 					rate *= 0.15
 					n.pose = "stand"
@@ -678,6 +730,15 @@ static func _finish(w, n: NPC) -> void:
 				n.coffee_count += 1
 				n.stress = maxf(0.0, n.stress - 7.0)
 				n.mood = C.clampf100(n.mood + 6.0)
+				var cf: Dictionary = o.objects["coffee"]
+				if cf.get("decaf", false):
+					n.coffee_need = 55.0
+					n.today_flags["sleepy"] = true
+					n.set_emote("cloud", 2.5)
+				elif cf.get("strong", false):
+					n.today_flags["jitter"] = true
+					n.stress = minf(100.0, n.stress + 9.0)
+					n.set_emote("sweat", 2.0)
 		"gift_coffee":
 			if n.act_target != "" and w.available(n.act_target):
 				var it := {"type": "go_npc", "target": n.act_target, "event": "coffee_gift", "prio": 55.0, "until": w.minute + 30.0, "roles": {}, "vars": {}}
@@ -702,13 +763,13 @@ static func _finish(w, n: NPC) -> void:
 				MeetingFlow.promo_review(w, n)
 		"fix":
 			var obj: String = n.act_data.get("obj", "printer")
-			var was_broken := false
+			var was_broken := o.is_broken(obj)
 			if obj == "lights":
-				was_broken = not o.objects["lights"]["on"]
 				o.objects["lights"]["on"] = true
 			else:
-				was_broken = o.objects[obj]["broken"]
 				o.objects[obj]["broken"] = false
+				if obj == "net":
+					o.objects["net"]["down"] = false
 			o.objects[obj]["fixing"] = ""
 			if was_broken:
 				w.office_changed.emit(obj)
@@ -716,6 +777,9 @@ static func _finish(w, n: NPC) -> void:
 				w.events.fire("fix_done", {"actor": n.id, "obj": obj, "requester": n.act_data.get("requester", "")})
 		"search":
 			if _search_next(w, n):
+				return
+		"hunt":
+			if _hunt_next(w, n):
 				return
 		"patrol":
 			if _patrol_next(w, n):
@@ -838,5 +902,47 @@ static func _patrol_next(w, n: NPC) -> bool:
 	n.act_t = 0.0
 	n.act_dur = 1.2
 	n.act_data["walk_t"] = 0.0
+	n.act_place = ""
+	return true
+
+
+# ---------------------------------------------------------------- hunting for a document
+
+## Walks from stop to stop looking for something (a report, a phone, a lunch),
+## then plays the intent's event wherever the search ends.
+static func _setup_hunt(w, n: NPC) -> void:
+	n.act_data["stop_i"] = -1
+	n.set_emote("question", 3.0)
+	if not _hunt_next(w, n):
+		_end(w, n)
+
+
+static func _hunt_next(w, n: NPC) -> bool:
+	var stops: Array = n.act_data.get("stops", [])
+	var i := int(n.act_data.get("stop_i", -1)) + 1
+	var o: OfficeEnv = w.office
+	if i >= stops.size():
+		var it: Dictionary = n.act_data.get("intent", {})
+		_end(w, n)
+		if str(it.get("event", "")) != "":
+			var roles: Dictionary = {"actor": n.id}
+			for k in it.get("roles", {}):
+				if not roles.has(k):
+					roles[k] = it["roles"][k]
+			w.events.run_event(it["event"], roles, it.get("vars", {}))
+		return true
+	n.act_data["stop_i"] = i
+	var place: String = OfficeLayout.item_pick_place(str(stops[i]))
+	var cell := o.place_cell(place)
+	if place.begins_with("desk_") and place != "desk_" + n.id:
+		var c2 := o.nearest_walkable(cell + Vector2i(0, 1))
+		if o.walkable(c2):
+			cell = c2
+	n.path = o.find_path(n.pos, cell)
+	n.path_i = 0
+	n.phase = "walk"
+	n.pose = "walk"
+	n.act_t = 0.0
+	n.act_dur = 1.4
 	n.act_place = ""
 	return true

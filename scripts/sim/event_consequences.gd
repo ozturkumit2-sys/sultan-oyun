@@ -25,6 +25,20 @@ func _ids(ref, ctx: Dictionary) -> Array:
 	return r
 
 
+## "{owner}" style placeholders in paths/keys -> role ids or variable values.
+func fmt(s: String, ctx: Dictionary) -> String:
+	if s.find("{") < 0:
+		return s
+	var out := s
+	for k in ctx.get("vars", {}):
+		var v = ctx["vars"][k]
+		if typeof(v) in [TYPE_STRING, TYPE_INT, TYPE_FLOAT]:
+			out = out.replace("{" + k + "}", str(v))
+	for k in ctx.get("roles", {}):
+		out = out.replace("{" + k + "}", str(ctx["roles"][k]))
+	return out
+
+
 ## Applies a list of effects; ones with a "delay" (game minutes) are queued.
 func apply_list(list: Array, ctx: Dictionary) -> void:
 	var delayed: Array = []
@@ -79,8 +93,22 @@ func apply(e: Dictionary, ctx: Dictionary) -> void:
 					n4.stress = clampf(n4.stress + float(e["d"]), 0.0, 100.0)
 		"mem":
 			var about := ev.who(e.get("about", ""), ctx)
+			var extra := {}
+			for k in ["emo", "src"]:
+				if e.has(k):
+					extra[k] = e[k]
+			for k in ["gain", "harm"]:
+				if e.has(k):
+					extra[k] = ev.who(e[k], ctx)
+			if e.has("cert"):
+				extra["cert"] = float(e["cert"])
 			for id in _ids(e.get("who", "actor"), ctx):
-				w.remember(id, e["kind"], about, float(e.get("val", 0.0)), float(e.get("w", 0.6)), e.get("text", ""), ctx, int(e.get("imp", 1)))
+				var ex2 := extra.duplicate()
+				if not ex2.has("cert") and e.has("fact"):
+					var mn = w.npc(id)
+					if mn:
+						ex2["cert"] = mn.certainty(str(ev.val(e["fact"], ctx)))
+				w.remember(id, e["kind"], about, float(e.get("val", 0.0)), float(e.get("w", 0.6)), e.get("text", ""), ctx, int(e.get("imp", 1)), ex2)
 		"learn":
 			var fact := str(ev.val(e["fact"], ctx))
 			if fact != "":
@@ -119,6 +147,10 @@ func apply(e: Dictionary, ctx: Dictionary) -> void:
 				"roles": {},
 				"vars": ctx.get("vars", {}).duplicate(true),
 			}
+			if e.get("all", false):
+				for k in ctx.get("roles", {}):
+					if not (k in ["self", "actor", "target"]):
+						it["roles"][k] = ctx["roles"][k]
 			var rmap: Dictionary = e.get("roles", {})
 			for k in rmap:
 				it["roles"][k] = ev.who(rmap[k], ctx)
@@ -132,6 +164,10 @@ func apply(e: Dictionary, ctx: Dictionary) -> void:
 							n6.intents.erase(it2)
 		"chain":
 			var roles := {}
+			if e.get("all", false):
+				for k in ctx.get("roles", {}):
+					if k != "self":
+						roles[k] = ctx["roles"][k]
 			var rm: Dictionary = e.get("roles", {"actor": "actor", "target": "target"})
 			for k in rm:
 				roles[k] = ev.who(rm[k], ctx)
@@ -229,6 +265,9 @@ func apply(e: Dictionary, ctx: Dictionary) -> void:
 			var vm: Dictionary = e.get("vars", {})
 			for k in vm:
 				avars[k] = ev.val(vm[k], ctx)
+			if str(ctx.get("vars", {}).get("_iv", "")) != "":
+				avars["_iv"] = ctx["vars"]["_iv"]
+				avars["_ivid"] = ctx["vars"].get("_ivid", "")
 			var uid: String = w.director.start_arc(e["arc"], cast, avars, e.get("stage", ""), e.get("force", false))
 			if uid != "":
 				ctx["vars"]["started_arc"] = uid
@@ -252,6 +291,10 @@ func apply(e: Dictionary, ctx: Dictionary) -> void:
 			else:
 				mids = _ids(e.get("who", ["actor", "target"]), ctx)
 			var mroles := {}
+			if e.get("all", false):
+				for k in ctx.get("roles", {}):
+					if k != "self":
+						mroles[k] = ctx["roles"][k]
 			var mrm: Dictionary = e.get("roles", {"actor": "actor", "target": "target"})
 			for k in mrm:
 				mroles[k] = ev.who(mrm[k], ctx)
@@ -282,7 +325,8 @@ func apply(e: Dictionary, ctx: Dictionary) -> void:
 					"board":
 						n7.meeting_belief = float(w.office.objects["board"]["time"])
 					"cancel":
-						n7.meeting_belief = -2.0
+						if id != "ahmet":   # the boss always turns up to his own meeting
+							n7.meeting_belief = -2.0
 		"goal":
 			for id in _ids(e.get("who", "actor"), ctx):
 				var n8 = w.npc(id)
@@ -325,8 +369,146 @@ func apply(e: Dictionary, ctx: Dictionary) -> void:
 		"set":
 			if e.has("who"):
 				ctx["vars"][e["key"]] = ev.who(e["who"], ctx)
+			elif e.has("f"):
+				ctx["vars"][e["key"]] = fmt(str(e["f"]), ctx)
 			else:
 				ctx["vars"][e["key"]] = ev.val(e["v"], ctx)
+		"trap":
+			# plant a latent consequence (see SimWorld.add_trap)
+			var tp := {"kind": e.get("kind", "place"), "event": e["event"], "uses": int(e.get("uses", 1)), "days": int(e.get("days", 0)),
+				"replace": e.get("replace", false),
+				"as": e.get("as", "actor"), "r": float(e.get("r", 1.8)), "on": e.get("on", ""),
+				"place": fmt(str(e.get("place", "")), ctx), "key": fmt(str(e.get("key", "")), ctx),
+				"spot": fmt(str(e.get("spot", ctx.get("vars", {}).get("spot_id", ""))), ctx)}
+			if e.has("after"):
+				tp["after"] = w.abs_now() + float(e["after"])
+			var who_ids: Array = []
+			if e.has("who"):
+				who_ids = _ids(e["who"], ctx)
+				if who_ids.is_empty():
+					return
+			tp["who_ids"] = who_ids
+			tp["not_ids"] = _ids(e.get("not", []), ctx)
+			if e.has("pair"):
+				tp["pair"] = _ids(e["pair"], ctx)
+				if tp["pair"].size() < 2:
+					return
+			var troles := {}
+			var trm: Dictionary = e.get("roles", {})
+			for k in trm:
+				troles[k] = ev.who(trm[k], ctx)
+			if not e.has("roles"):
+				for k in ctx.get("roles", {}):
+					if k != "actor" and k != "self":
+						troles[k] = ctx["roles"][k]
+			tp["roles"] = troles
+			tp["vars"] = ctx.get("vars", {}).duplicate(true)
+			w.add_trap(tp)
+		"untrap":
+			w.remove_traps(fmt(str(e["key"]), ctx))
+		"oset":
+			# set an object state by path: "ws.{owner}.locked", "kitchen.reserved", ...
+			var path := fmt(str(e["path"]), ctx)
+			var parts := path.split(".")
+			var cur: Dictionary = w.office.objects
+			for i in parts.size() - 1:
+				if not cur.has(parts[i]) or typeof(cur[parts[i]]) != TYPE_DICTIONARY:
+					cur[parts[i]] = {}
+				cur = cur[parts[i]]
+			var v = e.get("v", true)
+			if typeof(v) == TYPE_STRING:
+				v = ev.val(v, ctx) if str(v).begins_with("$") else (ev.who(str(v).substr(1), ctx) if str(v).begins_with("%") else fmt(str(v), ctx))
+			if e.has("add"):
+				v = float(cur.get(parts[parts.size() - 1], 0.0)) + float(e["add"])
+			cur[parts[parts.size() - 1]] = v
+			w.office_changed.emit(parts[0])
+		"pin":
+			# a note pinned on the cork board in the meeting room
+			var pins: Array = w.office.objects["notice"]["pins"]
+			pins.append({"kind": e["kind"], "about": ev.who(e.get("about", "target"), ctx), "by": ev.who(e.get("by", ""), ctx), "day": w.day})
+			if pins.size() > 6:
+				pins.pop_front()
+			w.office_changed.emit("notice")
+		"unpin":
+			var pins2: Array = w.office.objects["notice"]["pins"]
+			for pn in pins2.duplicate():
+				if pn["kind"] == e["kind"]:
+					pins2.erase(pn)
+			w.office_changed.emit("notice")
+		"meeting":
+			# change today's meeting (room, chair, first presenter, invitees...)
+			var mt: Dictionary = w.meeting
+			if mt.is_empty():
+				return
+			var key: String = e["key"]
+			match key:
+				"add":
+					for id in _ids(e.get("who", "target"), ctx):
+						if not (id in mt["attendees"]):
+							mt["attendees"].append(id)
+						var na = w.npc(id)
+						if na and na.meeting_state == "":
+							na.meeting_belief = float(w.office.objects["board"]["time"])
+				"remove":
+					for id in _ids(e.get("who", "target"), ctx):
+						mt["attendees"].erase(id)
+						var nr = w.npc(id)
+						if nr and nr.meeting_state == "":
+							nr.meeting_belief = -1.0
+				"swap":
+					# their presentation file now holds someone else's slides
+					if not mt.has("swap"):
+						mt["swap"] = {}
+					for id in _ids(e.get("who", "owner"), ctx):
+						mt["swap"][id] = ev.who(str(e.get("v", "%target")).substr(1), ctx)
+				"belief":
+					for id in _ids(e.get("who", "target"), ctx):
+						var nb = w.npc(id)
+						if nb and nb.meeting_state == "" and nb.meeting_belief >= 0.0:
+							nb.meeting_belief = clampf(nb.meeting_belief + float(e.get("d", 0.0)), w.minute + 2.0, 470.0)
+				_:
+					var mv = e.get("v", true)
+					if typeof(mv) == TYPE_STRING and (str(mv).begins_with("$") or str(mv).begins_with("%")):
+						mv = ev.val(mv, ctx) if str(mv).begins_with("$") else ev.who(str(mv).substr(1), ctx)
+					mt[key] = mv
+			w.office_changed.emit("board")
+		"npcval":
+			# nudge someone's day: when they leave, lunch, arrive...
+			for id in _ids(e.get("who", "actor"), ctx):
+				var nv = w.npc(id)
+				if nv == null:
+					continue
+				var k: String = e["key"]
+				var cur2 := float(nv.get(k))
+				var nvv := float(e["v"]) if e.has("v") else cur2 + float(e.get("d", 0.0))
+				if k == "leave_at":
+					nvv = clampf(nvv, w.minute + 3.0, 600.0)
+				nv.set(k, nvv)
+		"item_to":
+			var it_id := str(ev.val(e.get("item", "$item"), ctx))
+			if w.office.items.has(it_id):
+				w.office.items[it_id]["at"] = fmt(str(e["to"]), ctx)
+				w.office_changed.emit("items")
+		"hunt":
+			# walk around searching (archive, printer, desks...) then play an event
+			for id in _ids(e.get("who", "actor"), ctx):
+				var nh = w.npc(id)
+				if nh == null or not nh.present:
+					continue
+				var stops: Array = []
+				for st in e.get("stops", ["archive", "printer"]):
+					stops.append(fmt(str(st), ctx))
+				var hr := {}
+				var hrm: Dictionary = e.get("roles", {})
+				for k in hrm:
+					hr[k] = ev.who(hrm[k], ctx)
+				for k in ctx.get("roles", {}):
+					if not hr.has(k) and k != "self":
+						hr[k] = ctx["roles"][k]
+				nh.add_intent({"type": "hunt", "target": "", "prio": float(e.get("prio", 64)), "until": w.minute + float(e.get("ttl", 80)),
+					"stops": stops, "event": e.get("event", ""), "roles": hr, "vars": ctx.get("vars", {}).duplicate(true)})
+		"spotfx":
+			w.fx.emit("meddle", {"spot": fmt(str(e.get("spot", "")), ctx), "action": "", "owner": "", "item": ""})
 		"pick":
 			# choose one of several effect lists at random (weights optional)
 			var opts: Array = e["of"]

@@ -21,6 +21,8 @@ var order: Array = []
 var office: OfficeEnv
 var events: EventManager
 var director: StoryDirector
+var iv: InterventionManager
+var discovery: DiscoveryManager
 var dialogue: DialogueManager
 var stats := DayStats.new()
 var char_defs: Dictionary = {}
@@ -45,6 +47,10 @@ var _enc_t := 0.0
 var _tick_t := 0.0
 var _deadline_t := 0.0
 var lunch_fired := false
+var traps: Array = []                # latent consequences waiting for someone to run into them
+var trap_counter := 0
+var current_cid := ""                # cascade id of the intervention being applied (legacy code path)
+var _near_t := 0.0
 var tr_fn: Callable                  # (key, args) -> String, injected (Loc.t)
 
 
@@ -52,6 +58,8 @@ func _init() -> void:
 	office = OfficeEnv.new()
 	events = EventManager.new(self)
 	director = StoryDirector.new(self)
+	iv = InterventionManager.new(self)
+	discovery = DiscoveryManager.new(self)
 
 
 ## Load static data (characters, facts, events, dialogue).
@@ -70,6 +78,12 @@ func load_data(chars: Array, facts: Dictionary, event_defs: Array, dialogue_data
 func load_story(arc_defs_in: Array, rumors: Dictionary) -> void:
 	rumor_defs = rumors
 	director.load_arcs(arc_defs_in)
+
+
+## The intervention database (data/interventions.json).
+func load_interventions(data) -> void:
+	iv.load_defs(data)
+	discovery.setup(iv.defs, events.defs)
 
 
 func T(key: String, args: Dictionary = {}) -> String:
@@ -99,6 +113,11 @@ func new_game(seed_in := 0) -> void:
 	events.fired_total.clear()
 	director.reset()
 	bonds.clear()
+	traps.clear()
+	trap_counter = 0
+	iv.used.clear()
+	iv.cool.clear()
+	iv.counter = 0
 	rumor_counter = 0
 	total_interventions = 0
 	promo_cycle = 1
@@ -119,7 +138,13 @@ func new_game(seed_in := 0) -> void:
 			var tr := float(base.get("trust", 15)) + rng.randf_range(-12, 12)
 			var fr := float(base.get("friendship", 10)) + rng.randf_range(-12, 12)
 			var rv := float(base.get("rivalry", 3)) + rng.randf_range(-6, 8)
-			n2.rel[other] = {"trust": clampf(tr, -100, 100), "friendship": clampf(fr, -100, 100), "rivalry": clampf(rv, 0, 100)}
+			var rs := float(base.get("respect", char_defs[other].get("standing", 15))) + rng.randf_range(-8, 8)
+			var rm := float(char_defs[id].get("romance", {}).get(other, 0.0)) * 58.0
+			if rm > 0.0:
+				rm += rng.randf_range(-8, 8)
+			n2.rel[other] = {"trust": clampf(tr, -100, 100), "friendship": clampf(fr, -100, 100), "rivalry": clampf(rv, 0, 100),
+				"respect": clampf(rs, -100, 100), "romance": clampf(rm, 0, 100), "suspicion": 0.0,
+				"resentment": clampf(maxf(0.0, rv - 35.0) * 0.5, 0, 100)}
 		# personal goal
 		var goals: Array = char_defs[id].get("goals", [])
 		n2.goal = _weighted_pick(goals)
@@ -162,6 +187,13 @@ func _heal_relations(n: NPC) -> void:
 			if feud and st != "trust":
 				continue   # people who aren't speaking don't drift back to normal
 			r[st] = float(r[st]) + (float(base.get(st, 0)) - float(r[st])) * 0.07
+		var rbase := float(base.get("respect", char_defs[other].get("standing", 15)))
+		r["respect"] = float(r.get("respect", rbase)) + (rbase - float(r.get("respect", rbase))) * 0.04
+		# suspicion fades unless fed; grudges fade with forgiveness (not during a feud)
+		r["suspicion"] = float(r.get("suspicion", 0.0)) * 0.78
+		if not feud:
+			r["resentment"] = float(r.get("resentment", 0.0)) * (0.95 - n.t("forgiveness") * 0.18)
+		r["romance"] = float(r.get("romance", 0.0)) * 0.985
 
 
 func _jitter_traits(n: NPC) -> void:
@@ -194,6 +226,8 @@ func begin_day(d: int) -> void:
 	stats.reset()
 	events.new_day()
 	director.new_day()
+	iv.new_day()
+	_expire_traps()
 	for id in order:
 		if int(flags.get("bday_" + id, -1)) == d:
 			day_flags["birthday"] = id
@@ -206,6 +240,7 @@ func begin_day(d: int) -> void:
 	office.objects["promo"]["reviewed"] = false
 	for k in ["coffee", "printer"]:
 		office.objects[k]["fixing"] = ""
+	office.overnight_reset()
 	for pid in office.place_order:
 		office.places[pid]["occupant"] = ""
 	# meeting of the day
@@ -354,6 +389,11 @@ func _substep(d: float) -> void:
 		_deadline_t = 0.0
 		_check_deadlines()
 	_check_lights(d)
+	_near_t += d
+	if _near_t >= 1.0:
+		_near_t = 0.0
+		trap_near_tick()
+		office.tick(self)
 	if minute >= C.DAY_LEN:
 		_end_day()
 
@@ -378,6 +418,15 @@ func _update_needs(n: NPC, d: float) -> void:
 		ds += 0.05
 	if n.coffee_need > 75.0:
 		ds += 0.015
+	# office music (and the ghost's disco lights): loved by some, hated by others
+	var genre: String = str(office.objects["music"].get("genre", ""))
+	if office.objects["lights"].get("party", false) and genre == "":
+		genre = "disco"
+	if genre != "":
+		var taste := float(n.prefs.get("music", {}).get(genre, 0.0))
+		n.mood = C.clampf100(n.mood + taste * 0.05 * d)
+		if taste < -0.3:
+			ds += 0.012
 	if n.act in ["rest", "lunch", "coffee", "water", "chat"] and n.phase == "do":
 		ds -= 0.09
 	elif n.act == "work" and n.work_left() > 0.0:
@@ -493,6 +542,8 @@ func display_var(k: String, v) -> String:
 			return T("task." + str(v))
 		"loc":
 			return T("loc." + str(v))
+		"what":
+			return T("what." + str(v))
 	if typeof(v) == TYPE_STRING and npcs.has(v):
 		return npcs[v].name
 	if typeof(v) == TYPE_STRING and (fact_defs.has(v) or dyn_facts.has(v)):
@@ -572,18 +623,25 @@ func change_rel(a: String, b: String, stat: String, d: float) -> void:
 			flags.erase(fk)
 
 
-func remember(id: String, kind: String, about: String, val: float, wgt: float, text: String, ctx: Dictionary, imp := 1) -> void:
+func remember(id: String, kind: String, about: String, val: float, wgt: float, text: String, ctx: Dictionary, imp := 1, extra: Dictionary = {}) -> void:
 	var n := npc(id)
 	if n == null:
 		return
 	var args := {}
+	var with: Array = []
 	for r in ctx.get("roles", {}):
 		args[r] = ctx["roles"][r]
+		var rid := str(ctx["roles"][r])
+		if r != "self" and rid != "" and rid != id and npcs.has(rid) and not with.has(rid):
+			with.append(rid)
 	for v in ctx.get("vars", {}):
 		var vv = ctx["vars"][v]
 		if typeof(vv) in [TYPE_STRING, TYPE_INT, TYPE_FLOAT]:
 			args[v] = vv
-	n.remember(kind, about, val, wgt, text, args, day, minute, imp)
+	var ex := extra.duplicate()
+	if not ex.has("with"):
+		ex["with"] = with
+	n.remember(kind, about, val, wgt, text, args, day, minute, imp, ex)
 
 
 ## Renders a stored memory line for the character file panel.
@@ -796,14 +854,49 @@ func fact_juice(f: String) -> float:
 
 func log_event(key: String, ctx: Dictionary, imp: int, cat: String, actors: Array) -> void:
 	var text := dialogue.format(T(key), ctx)
+	if OS.has_environment("OC_DEBUG_TEXT") and text.find("{") >= 0:
+		print("UNRESOLVED ", key, " roles=", ctx.get("roles", {}), " vars=", ctx.get("vars", {}).keys())
 	var entry := {"day": day, "minute": minute, "text": text, "imp": imp, "cat": cat, "actors": actors}
 	director.on_logged(entry, ctx)
+	discovery.on_log(entry, ctx)
 	log_entries.append(entry)
 	if log_entries.size() > 260:
 		log_entries.pop_front()
+	# a consequence of meddling leaves a memory with the people it happened to
+	if str(ctx.get("vars", {}).get("_iv", "")) != "" and imp >= 2:
+		_meddle_memory(text, cat, actors, imp)
 	if imp >= 2:
 		stats.note(entry)
 	logged.emit(entry)
+
+
+const MEDDLE_MEM_VAL := {"conflict": -0.45, "blame": -0.5, "boss": -0.2, "prank": -0.25, "malfunction": -0.15, "misunderstanding": -0.25,
+	"secret": -0.2, "job": -0.1, "drama": -0.3, "jealousy": -0.35, "friendship": 0.45, "romance": 0.4, "help": 0.45, "celebration": 0.4,
+	"reward": 0.45, "solidarity": 0.4, "alliance": 0.2}
+
+
+## People involved in a meddling consequence remember it (what happened, with whom,
+## good or bad for them, the day) — unless the scene already gave them a memory just now.
+func _meddle_memory(text: String, cat: String, actors: Array, imp: int) -> void:
+	var ids: Array = []
+	for a in actors:
+		if npcs.has(str(a)) and not ids.has(str(a)):
+			ids.append(str(a))
+	var v: float = float(MEDDLE_MEM_VAL.get(cat, 0.0))
+	for id in ids:
+		var n := npc(id)
+		if n == null or not n.present:
+			continue
+		var dup := false
+		for m in n.memories:
+			if int(m["day"]) == day and absf(float(m["t"]) - minute) < 0.6:
+				dup = true
+				break
+		if dup:
+			continue
+		var others: Array = ids.filter(func(x): return x != id)
+		var about: String = others[0] if not others.is_empty() else ""
+		n.remember("meddle_" + cat, about, v, 0.45, "mem.raw", {"text": text}, day, minute, mini(imp, 3), {"with": others, "src": "saw"})
 
 
 func hold(ids: Array, dur: float) -> void:
@@ -848,7 +941,7 @@ func force_activity(id: String, act: String, opts: Dictionary) -> void:
 		spec[k] = opts[k]
 	match act:
 		"fix":
-			spec["place"] = {"printer": "printer", "coffee": "coffee", "lights": "breaker"}.get(opts.get("obj", ""), "printer")
+			spec["place"] = OfficeEnv.fix_place(str(opts.get("obj", "")))
 		"thermostat":
 			spec["place"] = "thermostat"
 		"away":
@@ -858,6 +951,7 @@ func force_activity(id: String, act: String, opts: Dictionary) -> void:
 
 func on_event_fired(d: Dictionary, ctx: Dictionary) -> void:
 	director.on_event_fired(d, ctx)
+	discovery.on_event(d, ctx)
 
 
 func pick_var(fn: String, spec: Dictionary, ctx: Dictionary):
@@ -930,7 +1024,7 @@ func _ambient_tick() -> void:
 	if ms != "":
 		events.fire("stressed", {"actor": ms})
 	# forget stale "someone is fixing it" claims
-	for k in ["coffee", "printer", "lights"]:
+	for k in ["coffee", "printer", "lights", "water", "microwave", "projector", "net"]:
 		var fx_id: String = office.objects[k].get("fixing", "")
 		if fx_id == "":
 			continue
@@ -989,6 +1083,192 @@ func _check_lights(d: float) -> void:
 
 
 # =====================================================================
+# Traps: latent consequences. A trap waits until someone does something
+# (sits at a desk, uses the printer, opens the fridge, walks past a document,
+# meets a certain person) and then plays its event. Saved with the game.
+#   kind "place": someone starts an activity at a place / tag (#coffee) / act name
+#   kind "on":    a simulation trigger fires (meeting_present, promotion, ...)
+#   kind "near":  someone walks close to a spot
+#   kind "pair":  two particular people end up next to each other
+# =====================================================================
+
+func add_trap(spec: Dictionary) -> String:
+	trap_counter += 1
+	var tp := spec.duplicate(true)
+	tp["uid"] = "t%d" % trap_counter
+	if str(tp.get("key", "")) != "":
+		remove_traps(str(tp["key"]))
+	tp["day0"] = day
+	tp["uses"] = int(tp.get("uses", 1))
+	traps.append(tp)
+	office_changed.emit("traps")
+	return tp["uid"]
+
+
+func remove_traps(key: String) -> void:
+	for tp in traps.duplicate():
+		if str(tp.get("key", "")) == key:
+			traps.erase(tp)
+	office_changed.emit("traps")
+
+
+func has_trap(key: String) -> bool:
+	for tp in traps:
+		if str(tp.get("key", "")) == key:
+			return true
+	return false
+
+
+## Hotspots with something planted on them (drawn as little ghost marks).
+func trap_spots() -> Array:
+	var r: Array = []
+	for tp in traps:
+		var sp: String = str(tp.get("spot", ""))
+		if sp != "" and not r.has(sp):
+			r.append(sp)
+	return r
+
+
+func _expire_traps() -> void:
+	for tp in traps.duplicate():
+		if day > int(tp.get("day0", day)) + int(tp.get("days", 0)):
+			traps.erase(tp)
+
+
+func _trap_who_ok(tp: Dictionary, id: String) -> bool:
+	var who: Array = tp.get("who_ids", [])
+	if not who.is_empty() and not (id in who):
+		return false
+	if id in tp.get("not_ids", []):
+		return false
+	return true
+
+
+func _trap_ready(tp: Dictionary) -> bool:
+	return float(tp.get("after", -1.0)) <= abs_now()
+
+
+func _spring(tp: Dictionary, finder: String, extra_roles: Dictionary = {}, extra_vars: Dictionary = {}) -> bool:
+	var roles: Dictionary = tp.get("roles", {}).duplicate()
+	roles[str(tp.get("as", "actor"))] = finder
+	for k in extra_roles:
+		if not roles.has(k):
+			roles[k] = extra_roles[k]
+	var vars: Dictionary = tp.get("vars", {}).duplicate(true)
+	for k in extra_vars:
+		vars[k] = extra_vars[k]
+	vars["_trap"] = tp["uid"]
+	var ok := events.run_event(str(tp["event"]), roles, vars)
+	if ok:
+		tp["uses"] = int(tp["uses"]) - 1
+		if int(tp["uses"]) <= 0:
+			traps.erase(tp)
+			office_changed.emit("traps")
+	return ok
+
+
+## Someone starts an activity somewhere (NPCController._begin).
+func trap_place(n: NPC, place: String, act: String) -> void:
+	if traps.is_empty():
+		return
+	var tags: Array = office.places.get(place, {}).get("tags", [])
+	for tp in traps.duplicate():
+		if tp.get("kind", "") != "place" or not _trap_ready(tp):
+			continue
+		var want: String = str(tp.get("place", ""))
+		var hit: bool = want == place or want == act or (want.begins_with("#") and want.substr(1) in tags)
+		if not hit or not _trap_who_ok(tp, n.id):
+			continue
+		if _spring(tp, n.id):
+			return
+
+
+## A simulation trigger fired (EventManager.fire). Returns true when a trap
+## replaced the normal reaction (e.g. a sabotaged presentation).
+func trap_on(trigger: String, payload: Dictionary) -> bool:
+	var replaced := false
+	for tp in traps.duplicate():
+		if tp.get("kind", "") != "on" or str(tp.get("on", "")) != trigger or not _trap_ready(tp):
+			continue
+		var a := str(payload.get("actor", ""))
+		if not _trap_who_ok(tp, a):
+			continue
+		var extra := {}
+		var evars := {}
+		for k in payload:
+			if typeof(payload[k]) == TYPE_STRING and npcs.has(payload[k]) and k != "actor":
+				extra[k] = payload[k]
+			elif k != "actor" and k != "_iv":
+				evars[k] = payload[k]
+		if _spring(tp, a, extra, evars) and tp.get("replace", false):
+			replaced = true
+	return replaced
+
+
+func trap_near_tick() -> void:
+	if traps.is_empty():
+		return
+	for tp in traps.duplicate():
+		var kind: String = tp.get("kind", "")
+		if not _trap_ready(tp) or (kind != "near" and kind != "pair"):
+			continue
+		if kind == "near":
+			var at: Vector2 = office.place_pos(str(tp.get("place", "")))
+			var r := float(tp.get("r", 1.8))
+			for id in present_ids():
+				var n := npc(id)
+				if not _trap_who_ok(tp, id) or not available(id) or n.pos.distance_to(at) > r:
+					continue
+				if _spring(tp, id):
+					break
+		else:
+			var ab: Array = tp.get("pair", [])
+			if ab.size() == 2 and available(ab[0]) and available(ab[1]) and dist(ab[0], ab[1]) < float(tp.get("r", 2.4)):
+				_spring(tp, ab[0], {"target": ab[1]})
+
+
+# =====================================================================
+# Object effects on everyday life
+# =====================================================================
+
+## How fast someone gets work done right now (network, their PC, coffee...).
+func work_mult(n: NPC) -> float:
+	var o: Dictionary = office.objects
+	var k := 1.0
+	if o["net"]["down"] and n.id != "burak":
+		k *= 0.15
+	var ws: Dictionary = o["ws"].get(n.id, {})
+	if ws.get("slow", false):
+		k *= 0.45
+	if ws.get("locked", false) or ws.get("unplugged", false):
+		k *= 0.05
+	if n.today_flags.get("jitter", false):
+		k *= 1.3
+	if n.today_flags.get("sleepy", false):
+		k *= 0.7
+	if day_flags.get("client_visit", false):
+		k *= 1.25
+	return k
+
+
+## People who are walking to, or sitting in, a meeting (no double booking).
+func in_meeting(id: String) -> bool:
+	var n := npc(id)
+	if n == null:
+		return false
+	if n.act == "meeting" or (n.meeting_state in ["waiting", "in"]):
+		return true
+	if n.meeting_belief >= 0.0 and not meeting.get("ended", false) and absf(minute - n.meeting_belief) < 25.0:
+		return true
+	for it in n.intents:
+		if str(it.get("meetup", "")) != "":
+			return true
+	if n.act == "go_place" and str(n.act_data.get("intent", {}).get("meetup", "")) != "":
+		return true
+	return false
+
+
+# =====================================================================
 # Save / load
 # =====================================================================
 
@@ -1005,6 +1285,7 @@ func to_dict() -> Dictionary:
 		"meeting": meeting.duplicate(true), "favor": favor.duplicate(), "favor_ghost": favor_ghost.duplicate(),
 		"promo_cycle": promo_cycle, "ghost_today": ghost_today, "total_interventions": total_interventions,
 		"lunch_fired": lunch_fired, "day_over": day_over, "rng_state": rng.state,
+		"traps": traps.duplicate(true), "trap_counter": trap_counter, "iv": iv.to_dict(), "discovery": discovery.to_dict(),
 	}
 
 
@@ -1043,6 +1324,13 @@ func from_dict(d: Dictionary) -> void:
 	lunch_fired = d.get("lunch_fired", false)
 	day_over = d.get("day_over", false)
 	director.from_dict(d.get("director", {}))
+	traps = d.get("traps", [])
+	for tp in traps:
+		tp["day0"] = int(tp.get("day0", day))
+		tp["uses"] = int(tp.get("uses", 1))
+	trap_counter = int(d.get("trap_counter", 0))
+	iv.from_dict(d.get("iv", {}))
+	discovery.from_dict(d.get("discovery", {}))
 	# people in the office resume from where they stood
 	for id in order:
 		var n2: NPC = npcs[id]

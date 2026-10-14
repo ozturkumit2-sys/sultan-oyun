@@ -46,6 +46,16 @@ func _process(delta: float) -> void:
 				parts.append({"p": cp, "v": Vector2(cos(a), sin(a)) * 50, "life": 0.0, "max": 0.35, "kind": "spark", "size": 2.0, "col": Color("ffd166")})
 		elif not o["coffee"]["broken"] and randf() < 0.12:
 			parts.append({"p": Iso.P(0.75, 10.4, 62), "v": Vector2(randf_range(-3, 3), -16), "life": 0.0, "max": 1.4, "kind": "smoke", "size": 3.0, "col": Color(1, 1, 1, 0.5)})
+		# water cooler leaking
+		if o.get("water", {}).get("broken", false) and randf() < 0.5:
+			parts.append({"p": Iso.P(0.6, 5.5, 30) + Vector2(randf_range(-4, 4), 0), "v": Vector2(randf_range(-4, 4), 30), "life": 0.0, "max": 0.7, "kind": "drop", "size": 2.2, "col": Color(0.45, 0.7, 1.0, 0.85)})
+		# broken microwave smoke
+		if o.get("microwave", {}).get("broken", false) and randf() < 0.45:
+			parts.append({"p": Iso.P(0.5, 12.5, 46) + Vector2(randf_range(-5, 5), 0), "v": Vector2(randf_range(-5, 5), -20), "life": 0.0, "max": 1.4, "kind": "smoke", "size": randf_range(3, 6), "col": Color(0.35, 0.35, 0.38, 0.45)})
+		# disco: sparkles drifting over the floor
+		if o["lights"].get("party", false) and o["lights"]["on"] and randf() < 0.7:
+			var dp := Vector2(randf_range(-400, 400), randf_range(-40, 380))
+			parts.append({"p": dp, "v": Vector2(randf_range(-10, 10), randf_range(-10, 10)), "life": 0.0, "max": 0.9, "kind": "spark", "size": randf_range(2, 4), "col": Color.from_hsv(randf(), 0.6, 1.0, 0.9)})
 		# temperature
 		var temp := int(o["ac"]["temp"])
 		if temp <= 19 and randf() < (0.8 if temp <= 16 else 0.4):

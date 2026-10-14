@@ -118,6 +118,7 @@ static func wall_decor() -> Array:
 	return [
 		{"type": "window", "side": "R", "a": 0.35, "b": 2.55},
 		{"type": "board", "side": "R", "a": 2.75, "b": 4.7},
+		{"type": "alarm", "side": "R", "a": 5.3, "b": 5.85},
 		{"type": "sign", "side": "R", "a": 6.15, "b": 6.85},
 		{"type": "ac", "side": "R", "a": 7.05, "b": 8.45},
 		{"type": "thermostat", "side": "R", "a": 8.55, "b": 8.9},
@@ -127,6 +128,7 @@ static func wall_decor() -> Array:
 		{"type": "poster", "side": "L", "a": 4.2, "b": 4.85},
 		{"type": "window", "side": "L", "a": 5.6, "b": 7.7},
 		{"type": "breaker", "side": "L", "a": 8.1, "b": 8.85},
+		{"type": "speaker", "side": "L", "a": 9.05, "b": 9.75},
 		{"type": "cabinets", "side": "L", "a": 9.95, "b": 13.95},
 	]
 
@@ -166,6 +168,17 @@ static func places() -> Array:
 		["ha1", 7, 2, "SE"], ["ha2", 8, 2, "SW"], ["hh1", 11, 7, "SE"], ["hh2", 12, 7, "SW"]]
 	for hd in huddles:
 		p.append({"id": hd[0], "cell": [hd[1], hd[2]], "facing": hd[3], "pose": "stand", "tags": ["huddle"]})
+	# reception gathering spots (fire drills, deliveries, waiting at the door)
+	var rec := [["hr1", 12, 10, "SE"], ["hr2", 11, 11, "SE"], ["hr3", 13, 10, "SW"], ["hr4", 11, 12, "NE"], ["hr5", 13, 12, "NW"]]
+	for hd in rec:
+		p.append({"id": hd[0], "cell": [hd[1], hd[2]], "facing": hd[3], "pose": "stand", "tags": ["huddle", "reception"]})
+	p.append({"id": "micro", "cell": [1, 12], "facing": "NW", "pose": "stand", "tags": ["microwave"]})
+	p.append({"id": "server", "cell": [6, 3], "facing": "NW", "pose": "stand", "tags": ["server"]})
+	p.append({"id": "supplies", "cell": [6, 1], "facing": "NW", "pose": "stand", "tags": ["supplies"]})
+	p.append({"id": "hr_files", "cell": [12, 1], "facing": "NE", "pose": "stand", "tags": ["hr"]})
+	p.append({"id": "notice", "cell": [1, 4], "facing": "NW", "pose": "stand", "tags": ["notice"]})
+	p.append({"id": "coats", "cell": [12, 13], "facing": "SE", "pose": "stand", "tags": ["coats"]})
+	p.append({"id": "plant", "cell": [3, 8], "facing": "NW", "pose": "stand", "tags": ["plant"]})
 	var phones := [[4, 12, "SW"], [7, 3, "NE"], [3, 5, "SE"], [12, 12, "SE"], [13, 6, "SW"]]
 	for i in phones.size():
 		var ph = phones[i]
@@ -218,6 +231,23 @@ static func hotspots() -> Array:
 		{"id": "ac", "kind": "ac", "wall": "R", "a": 7.0, "b": 8.95, "z0": 40, "z1": 92},
 		{"id": "lights", "kind": "lights", "wall": "L", "a": 7.9, "b": 9.0, "z0": 24, "z1": 76},
 		{"id": "promo_file", "kind": "promo", "cells": [[12, 2]], "h": 34},
+		{"id": "fridge", "kind": "fridge", "cells": [[0, 9]], "h": 70},
+		{"id": "water_cooler", "kind": "water", "cells": [[0, 5]], "h": 56},
+		{"id": "kitchen_table", "kind": "table", "cells": [[2, 12]], "h": 28},
+		{"id": "microwave", "kind": "microwave", "cells": [[0, 12]], "h": 44},
+		{"id": "file_cabinet", "kind": "cabinet", "cells": [[7, 0], [8, 0]], "h": 54},
+		{"id": "supply_shelf", "kind": "shelf", "cells": [[5, 0]], "h": 62},
+		{"id": "server_box", "kind": "server", "cells": [[5, 3]], "h": 30},
+		{"id": "meeting_table", "kind": "meeting", "cells": [[1, 1], [2, 1], [1, 2], [2, 2], [1, 3], [2, 3]], "h": 24},
+		{"id": "hr_cabinet", "kind": "hr", "cells": [[12, 0], [13, 0]], "h": 64},
+		{"id": "sofa", "kind": "sofa", "cells": [[0, 6], [0, 7]], "h": 30},
+		{"id": "coat_rack", "kind": "coats", "cells": [[13, 13]], "h": 66},
+		{"id": "plant", "kind": "plant", "cells": [[2, 8]], "h": 60},
+		{"id": "front_door", "kind": "door", "cells": [[13, 11]], "h": 8},
+		{"id": "noticeboard", "kind": "notice", "wall": "L", "a": 4.15, "b": 4.9, "z0": 56, "z1": 96},
+		{"id": "wall_clock", "kind": "clock", "wall": "L", "a": 2.75, "b": 3.65, "z0": 62, "z1": 94},
+		{"id": "speaker", "kind": "speaker", "wall": "L", "a": 9.0, "b": 9.8, "z0": 58, "z1": 90},
+		{"id": "alarm_panel", "kind": "alarm", "wall": "R", "a": 5.25, "b": 5.9, "z0": 50, "z1": 84},
 	]
 	for ws in workstations():
 		h.append({"id": "ws_" + ws["owner"], "kind": "workstation", "owner": ws["owner"], "cells": ws["desk"], "h": 46})

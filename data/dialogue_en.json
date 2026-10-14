@@ -2451,11 +2451,11 @@
  },
  "pass_the_buck": {
   "_": [
-   "Ece! Great learning opportunity for you!",
-   "{helper}, you're good with numbers, right?"
+   "{to}! Great learning opportunity for you!",
+   "{to}, you're good with numbers, right?"
   ],
   "deniz": [
-   "Ece, this will look great on your CV."
+   "{to}, this will look great on your CV."
   ]
  },
  "buck_taken": {
@@ -4982,6 +4982,6161 @@
   ],
   "deniz": [
    "Family business, is it?"
+  ]
+ },
+ "ivm_who": {
+  "_": [
+   "Okay. Who did this?",
+   "Somebody did this on purpose.",
+   "Who's been messing with my stuff?!"
+  ],
+  "selin": [
+   "Someone is sabotaging me. Again."
+  ],
+  "ahmet": [
+   "WHO is responsible for this?"
+  ],
+  "burak": [
+   "This wasn't a bug. This was a person."
+  ],
+  "ece": [
+   "Did... did I do this? No. Someone else did this."
+  ],
+  "mert": [
+   "Alright, prankster. Show yourself."
+  ]
+ },
+ "ivm_blame": {
+  "_": [
+   "This has {suspect} written all over it.",
+   "I bet it was {suspect}.",
+   "{suspect}. It's always {suspect}."
+  ],
+  "selin": [
+   "I know exactly who did this. {suspect}."
+  ],
+  "zeynep": [
+   "Oh, I have a theory. Her name— his name is {suspect}."
+  ],
+  "deniz": [
+   "{suspect} wants me to slip up. Cute."
+  ]
+ },
+ "ivm_accuse": {
+  "_": [
+   "{target}. Was that you? Be honest.",
+   "Okay {target}, joke's over. Was it you?",
+   "I know it was you, {target}."
+  ],
+  "selin": [
+   "{target}, I'd like an explanation. Now."
+  ],
+  "ahmet": [
+   "{target}! My office would be a good place to confess."
+  ],
+  "burak": [
+   "{target}. Logs don't lie. Neither should you."
+  ],
+  "ece": [
+   "{target}... um... was it you? Sorry for asking!"
+  ]
+ },
+ "ivm_innocent": {
+  "_": [
+   "What? I didn't touch anything!",
+   "Me?! I've been at my desk all day!",
+   "Why does everybody always blame me?"
+  ],
+  "mert": [
+   "I'd LOVE to take credit for that, but no."
+  ],
+  "deniz": [
+   "Please. If it were me, you'd never find out."
+  ],
+  "ece": [
+   "It wasn't me! I swear on my coffee!"
+  ],
+  "zeynep": [
+   "Darling, I only TALK about pranks."
+  ],
+  "burak": [
+   "I have better things to do. Like literally anything."
+  ]
+ },
+ "ivm_accuse_argue": {
+  "_": [
+   "Don't lie to me.",
+   "Sure. And I'm the CEO.",
+   "Unbelievable."
+  ],
+  "selin": [
+   "You're lying, and we both know it."
+  ]
+ },
+ "ivm_accuse_sorry": {
+  "_": [
+   "...Okay. Maybe it wasn't you. Sorry.",
+   "Fine. My mistake.",
+   "Then who on earth...?"
+  ]
+ },
+ "ivm_accuse_laugh": {
+  "_": [
+   "Ha! Okay, okay. Truce?",
+   "Fine. But I'm watching you.",
+   "If it wasn't you, I owe you a coffee."
+  ]
+ },
+ "ivm_it_ask": {
+  "_": [
+   "{target}, something's wrong with my computer. Help?",
+   "{target}! Emergency. Tech emergency.",
+   "Can you look at my machine? It's possessed."
+  ],
+  "ahmet": [
+   "{target}. My computer. Now."
+  ],
+  "selin": [
+   "{target}, I'm on a deadline and my PC just betrayed me."
+  ],
+  "ece": [
+   "{target}, I think I broke the internet. Again."
+  ],
+  "mert": [
+   "{target}, my favourite genius. I have a tiny problem."
+  ]
+ },
+ "ivm_it_yes": {
+  "_": [
+   "Give me two minutes.",
+   "Move over. Let me see.",
+   "Okay, okay. I'm on it."
+  ],
+  "burak": [
+   "*sigh* Turn it off and— never mind. I'll do it."
+  ]
+ },
+ "ivm_it_grumble": {
+  "_": [
+   "Open a ticket.",
+   "After lunch. Maybe.",
+   "Have you tried turning it off and on?"
+  ],
+  "burak": [
+   "I'm one person, people.",
+   "Ticket. Queue. Patience."
+  ]
+ },
+ "ivm_it_sabotage": {
+  "_": [
+   "That's not a glitch. Someone did this on purpose.",
+   "Interesting. This was done by hand.",
+   "Somebody's been at your keyboard."
+  ],
+  "burak": [
+   "This wasn't an accident. Someone touched your machine."
+  ]
+ },
+ "ivm_it_thanks": {
+  "_": [
+   "You're a lifesaver.",
+   "Thank you!!",
+   "I owe you one."
+  ],
+  "mert": [
+   "I owe you a kebab. Two kebabs."
+  ]
+ },
+ "ivm_keep": {
+  "_": [
+   "...I didn't see that. I didn't see anything.",
+   "Not my business. Not my business.",
+   "I'll keep that to myself."
+  ],
+  "ceren": [
+   "Some things are better left unsaid."
+  ],
+  "burak": [
+   "Noted. Deleted. Moving on."
+  ],
+  "ece": [
+   "My lips are sealed! ...Mostly sealed."
+  ]
+ },
+ "ivm_ask_think": {
+  "_": [
+   "I should just ask {subject} if it's true.",
+   "Is that even true? I'll ask {subject}.",
+   "Better hear it from {subject} directly."
+  ]
+ },
+ "ivm_juicy": {
+  "_": [
+   "Oh. Oh my.",
+   "Well, well, well.",
+   "Wait till people hear THIS."
+  ],
+  "zeynep": [
+   "Christmas came early!"
+  ],
+  "deniz": [
+   "Interesting. Very interesting."
+  ]
+ },
+ "ivm_tattle": {
+  "_": [
+   "Ahmet Bey, I think you should know something.",
+   "Ahmet Bey, got a minute? It's about {subject}.",
+   "I don't like telling tales, but... {gossip}"
+  ],
+  "deniz": [
+   "I hate to be the one to tell you, Ahmet Bey... {gossip}"
+  ],
+  "selin": [
+   "Ahmet Bey, this affects the team: {gossip}"
+  ]
+ },
+ "ivm_boss_cares": {
+  "_": [
+   "Is that so? I'll be keeping an eye on {subject}.",
+   "Thank you for telling me.",
+   "Hm. That's... very useful to know."
+  ]
+ },
+ "ivm_boss_tattle_no": {
+  "_": [
+   "I don't run a playground. Back to work.",
+   "Office gossip doesn't interest me.",
+   "And why are you telling me this?"
+  ]
+ },
+ "ivm_misattrib": {
+  "_": [
+   "Hey {target}... was that you? {what}?",
+   "{target}! I know it was you. {what}!",
+   "So... {what}. That was you, right?"
+  ],
+  "ece": [
+   "{target}! Was it you?? {what}!"
+  ],
+  "selin": [
+   "{target}, did you have something to do with {what}?"
+  ],
+  "ahmet": [
+   "{target}. {what}. Explain."
+  ]
+ },
+ "ivm_take_credit": {
+  "_": [
+   "...Yes. Yes it was. You're welcome.",
+   "Guilty. I mean — glad you liked it.",
+   "Maybe. Who's asking?"
+  ],
+  "deniz": [
+   "Naturally. I'm full of surprises."
+  ],
+  "mert": [
+   "Haha, yeah! Totally me. Definitely."
+  ]
+ },
+ "ivm_not_me": {
+  "_": [
+   "Me? No idea what you're talking about.",
+   "That wasn't me. Sorry.",
+   "Huh? I didn't do anything."
+  ],
+  "ceren": [
+   "That wasn't me. But I'd like to know who it was."
+  ]
+ },
+ "ivm_blush": {
+  "_": [
+   "I... um... maybe?",
+   "*blushes* Who told you?",
+   "It doesn't matter who it was. Does it?"
+  ]
+ },
+ "ivm_boss_ask": {
+  "_": [
+   "Sit down. I've been told about {what}.",
+   "Explain {what} to me.",
+   "We need to talk about {what}."
+  ]
+ },
+ "ivm_boss_clueless": {
+  "_": [
+   "I... honestly have no idea what you mean.",
+   "That's news to me, Ahmet Bey.",
+   "There must be some mistake."
+  ]
+ },
+ "ivm_boss_scold": {
+  "_": [
+   "Then you'd better figure it out. Fast.",
+   "I expect better from you.",
+   "This is your last warning."
+  ]
+ },
+ "ivm_boss_ok": {
+  "_": [
+   "...Fine. Odd. Very odd. Go.",
+   "Hm. A misunderstanding, then. Dismissed.",
+   "Then someone in this office has a sense of humour."
+  ]
+ },
+ "ivm_shrug": {
+  "_": [
+   "Weird. Whatever.",
+   "Okay... moving on.",
+   "Not today, universe.",
+   "I don't even want to know."
+  ],
+  "mert": [
+   "Ha. Somebody's bored."
+  ],
+  "burak": [
+   "Fine. Fixed. Next."
+  ],
+  "ceren": [
+   "Hm. I'll make a note of that."
+  ]
+ },
+ "lockpc_react": {
+  "_": [
+   "Wrong password?! I've had the same password for six years!",
+   "Why won't it let me in?!",
+   "LOCKED OUT. Of my own computer."
+  ],
+  "ahmet": [
+   "What is this? 'Account locked'? I AM the account!"
+  ],
+  "burak": [
+   "Someone locked ME out? That's... impressive."
+  ],
+  "ece": [
+   "Is it 'Password1'? 'Password2'? Help!"
+  ]
+ },
+ "lockpc_reset": {
+  "_": [
+   "Fine. I'll reset it myself.",
+   "Security question... 'name of first pet'... got it."
+  ],
+  "burak": [
+   "Give me thirty seconds. ...Twenty."
+  ]
+ },
+ "misfile_react": {
+  "_": [
+   "Where's my file? It was RIGHT HERE.",
+   "My folder's empty. Why is my folder empty?!",
+   "No no no, where did it go?"
+  ],
+  "selin": [
+   "My entire proposal. Gone. From MY folder."
+  ],
+  "mert": [
+   "File? What file? ...Oh no, THAT file."
+  ]
+ },
+ "misfile_boss": {
+  "_": [
+   "Why is {owner}'s file sitting in MY private folder?",
+   "What is {owner}'s work doing in my folder?"
+  ]
+ },
+ "author_boss_sees": {
+  "_": [
+   "{target}! This project file — excellent work.",
+   "I just read {target}'s project. Finally, some quality."
+  ]
+ },
+ "author_take": {
+  "_": [
+   "Thank you, Ahmet Bey. I worked hard on it.",
+   "Oh — happy you liked it!"
+  ],
+  "deniz": [
+   "Of course. I always deliver."
+  ]
+ },
+ "author_correct": {
+  "_": [
+   "Actually, Ahmet Bey, that's {owner}'s work, not mine.",
+   "That one's {owner}'s. I can't take credit for it."
+  ],
+  "ceren": [
+   "That's {owner}'s project. Let's give credit where it's due."
+  ],
+  "selin": [
+   "That isn't mine. It's {owner}'s."
+  ]
+ },
+ "author_owner_hears": {
+  "_": [
+   "...Wait. That's MY project.",
+   "Excuse me? I wrote that!"
+  ]
+ },
+ "slides_wrong": {
+  "_": [
+   "...These aren't my slides.",
+   "Wait. Whose presentation is this?!",
+   "Um. Slide one... is not my slide one."
+  ],
+  "selin": [
+   "This is not my deck. Someone swapped my file!"
+  ],
+  "mert": [
+   "Okay, plot twist: I'll be presenting someone else's work."
+  ]
+ },
+ "slides_improv": {
+  "_": [
+   "Well. Let me tell you about it anyway — from memory.",
+   "Forget the slides. Here's the idea."
+  ]
+ },
+ "slides_freeze": {
+  "_": [
+   "I... um... I'm sorry, I...",
+   "Can we... take five?"
+  ]
+ },
+ "slides_steal": {
+  "_": [
+   "Actually, these are some ideas I've been exploring.",
+   "As you can see... my vision."
+  ]
+ },
+ "slides_target_angry": {
+  "_": [
+   "Those are MY slides!",
+   "Hey! That's my presentation!"
+  ]
+ },
+ "clock_leave_boss": {
+  "_": [
+   "Where do you think you're going? It's {time}!",
+   "Leaving already, {target}? It's only {time}."
+  ]
+ },
+ "clock_leave_excuse": {
+  "_": [
+   "But my computer says it's five o'clock!",
+   "What? My clock says I'm done!"
+  ]
+ },
+ "clock_leave_scold": {
+  "_": [
+   "Then your computer can do your job. Back to your desk.",
+   "Get that clock fixed. And sit down."
+  ]
+ },
+ "clock_leave_laugh": {
+  "_": [
+   "...Your clock is wrong. Go on then, just this once.",
+   "Ha. Go. But get that fixed."
+  ]
+ },
+ "clock_late_react": {
+  "_": [
+   "My clock said I had twenty minutes!",
+   "Late?! My computer is LYING to me."
+  ]
+ },
+ "hide_doc_react": {
+  "_": [
+   "Where is it? It was on my desktop a second ago!",
+   "My report. Has. Vanished.",
+   "Okay, don't panic. Don't panic. PANIC."
+  ],
+  "ceren": [
+   "That file was right here. I'm never wrong about where things are."
+  ],
+  "zeynep": [
+   "My spreadsheet! Somebody took my spreadsheet!"
+  ]
+ },
+ "hide_doc_search": {
+  "_": [
+   "Did anyone print my report? Has anyone SEEN it?",
+   "Checking the printer... the archive... anywhere!"
+  ]
+ },
+ "hide_doc_found": {
+  "_": [
+   "THERE you are! In 'Old Stuff 2019'?! How?!",
+   "Found it. In a folder I've never seen before. Creepy."
+  ]
+ },
+ "hide_doc_gone": {
+  "_": [
+   "It's gone. I'll have to redo it.",
+   "Three hours of work... gone."
+  ]
+ },
+ "oldver_react": {
+  "_": [
+   "Why is my report from LAST WEEK?!",
+   "All my changes... they're gone!",
+   "Who rolled back my file?!"
+  ],
+  "selin": [
+   "I have rewritten this section four times. FOUR."
+  ],
+  "deniz": [
+   "This is... last Tuesday's version. Interesting."
+  ]
+ },
+ "oldver_ask": {
+  "_": [
+   "{target}, do we have backups? Please say we have backups.",
+   "{target}, can you bring back my file? My changes vanished."
+  ]
+ },
+ "oldver_saved": {
+  "_": [
+   "Restored from last night's backup. You owe me.",
+   "There. Every comma back where it was."
+  ]
+ },
+ "oldver_none": {
+  "_": [
+   "Backups run Fridays. Today isn't Friday.",
+   "Sorry. That version is gone."
+  ]
+ },
+ "oldver_redo": {
+  "_": [
+   "Fine. I'll redo it. Tonight. Apparently.",
+   "Overtime it is."
+  ]
+ },
+ "virus_scream": {
+  "_": [
+   "AAAH! 'YOUR COMPUTER IS INFECTED'!",
+   "Virus! VIRUS! Everybody unplug everything!",
+   "It says 'all your files are encrypted'!!"
+  ],
+  "ahmet": [
+   "What is this flashing red thing?! Burak!"
+  ],
+  "burak": [
+   "...A fake popup. On MY network? Bold."
+  ],
+  "ece": [
+   "I clicked nothing! I swear I clicked nothing!"
+  ]
+ },
+ "virus_ask": {
+  "_": [
+   "{target}! VIRUS! Red screen! Skull!",
+   "{target}, my computer's been hacked!"
+  ]
+ },
+ "virus_fake": {
+  "_": [
+   "...It's a fake popup. Close the window.",
+   "That's not a virus. That's a joke. Close it."
+  ]
+ },
+ "virus_shutdown": {
+  "_": [
+   "Unplugging the network. NOBODY TOUCH ANYTHING.",
+   "Pulling the plug on the whole floor, just in case."
+  ]
+ },
+ "witness_laugh": {
+  "_": [
+   "Hahaha!",
+   "Oh, that's priceless.",
+   "I can't breathe!",
+   "Somebody record this!"
+  ],
+  "mert": [
+   "Best day ever."
+  ],
+  "zeynep": [
+   "Ooh, this is going in my diary."
+  ]
+ },
+ "onscreen_read": {
+  "_": [
+   "Wait... why is this on MY screen?",
+   "Huh. This isn't my file. Oh. OH.",
+   "...I definitely wasn't supposed to see this."
+  ],
+  "zeynep": [
+   "Well, well. Look what landed on my desktop."
+  ],
+  "ceren": [
+   "This must have been sent to me by mistake. ...Still."
+  ]
+ },
+ "wall_kittens": {
+  "_": [
+   "Why are there forty kittens on my screen?",
+   "Kittens. Everywhere. ...Okay, they're cute."
+  ],
+  "ahmet": [
+   "WHO PUT KITTENS ON MY COMPUTER?"
+  ],
+  "burak": [
+   "Kittens. On MY screen. Okay."
+  ]
+ },
+ "wall_boss": {
+  "_": [
+   "Why is Ahmet's face on my wallpaper?!",
+   "Ahmet is... staring at me. From my desktop.",
+   "That is a HUGE photo of our boss."
+  ],
+  "ahmet": [
+   "...Well. It's a good photo."
+  ]
+ },
+ "wall_beach": {
+  "_": [
+   "Ahh... a beach. I could just... leave.",
+   "Palm trees. Ocean. And here I am, doing expenses."
+  ]
+ },
+ "wall_keep": {
+  "_": [
+   "You know what? It stays.",
+   "I'm keeping it. It's growing on me."
+  ]
+ },
+ "wall_change": {
+  "_": [
+   "Nope. Changing it back.",
+   "Absolutely not. Back to blue."
+  ]
+ },
+ "wall_witness": {
+  "_": [
+   "Nice wallpaper!",
+   "Is that... what I think it is?",
+   "Ha! Love it."
+  ]
+ },
+ "bae_boss_reads": {
+  "_": [
+   "'Dear Ahmet Bae'?! {owner}! In here. NOW.",
+   "Did {owner} just call me... 'Bae'?"
+  ]
+ },
+ "bae_mortified": {
+  "_": [
+   "It's AUTOCORRECT! I swear it's autocorrect!",
+   "I would NEVER— that's not— my keyboard!"
+  ]
+ },
+ "bae_boss_amused": {
+  "_": [
+   "...Hm. Fix your keyboard. And — never mind.",
+   "I've been called worse. Go."
+  ]
+ },
+ "bae_boss_offended": {
+  "_": [
+   "This is a workplace, not a dating app.",
+   "Unprofessional. Extremely."
+  ]
+ },
+ "bae_gossip": {
+  "_": [
+   "Did you hear? {owner} called Ahmet 'Bae'!",
+   "'Ahmet Bae'! I'm framing that email."
+  ]
+ },
+ "jobtab_see": {
+  "_": [
+   "Is {owner} looking at job listings?!",
+   "Hm. 'Senior positions — apply now.' On {owner}'s screen.",
+   "{owner}'s browsing job ads. Interesting."
+  ],
+  "ahmet": [
+   "Job listings. On company time. On {owner}'s screen."
+  ],
+  "zeynep": [
+   "Oh, {owner} is shopping for a new office!"
+  ]
+ },
+ "unplug_react": {
+  "_": [
+   "My screen's black. Did my computer die?!",
+   "It's dead. Completely dead.",
+   "Hello? HELLO? Screen?"
+  ],
+  "ahmet": [
+   "My monitor is broken. Somebody fix it."
+  ],
+  "burak": [
+   "...The cable's out. Somebody unplugged my monitor."
+  ]
+ },
+ "unplug_self": {
+  "_": [
+   "Oh. It's... unplugged. Hah. Don't tell anyone.",
+   "Wait. The cable. Who unplugs a monitor?!"
+  ]
+ },
+ "printjob_mine": {
+  "_": [
+   "Why is MY private document coming out of the printer?!",
+   "Wait — I didn't print this! Give me that!"
+  ]
+ },
+ "printjob_other": {
+  "_": [
+   "Ooh. Whose is this? Oh. OH.",
+   "This was in the printer tray. I didn't read it. ...I read it.",
+   "Hm. Somebody printed something private."
+  ],
+  "zeynep": [
+   "The printer is my favourite newspaper."
+  ],
+  "ece": [
+   "I'm not reading it! ...I read a little."
+  ]
+ },
+ "cal_remind": {
+  "_": [
+   "Oh no — my {what} is in ten minutes! I completely forgot!",
+   "My calendar says: {what}. Right. Gotta go!"
+  ]
+ },
+ "cal_doubt": {
+  "_": [
+   "A {what}? I don't have a {what}...",
+   "That's not mine. Who put this in my calendar?"
+  ]
+ },
+ "cal_where": {
+  "_": [
+   "Where's {owner}? Anybody?",
+   "Has anyone seen {owner}? Their desk's been empty for ages."
+  ]
+ },
+ "slow_react": {
+  "_": [
+   "Why is everything loading at 1990s speed?",
+   "Come ON. One email. ONE.",
+   "The little wheel. The spinning wheel of doom."
+  ],
+  "mert": [
+   "My internet is slower than Monday."
+  ],
+  "selin": [
+   "I cannot work like this."
+  ]
+ },
+ "slow_break": {
+  "_": [
+   "Forget it. Coffee break until the internet remembers me.",
+   "I'm taking a walk. The internet can come find me."
+  ]
+ },
+ "caps_read": {
+  "_": [
+   "Why is {owner} YELLING at me?!",
+   "'HOW ARE YOU' — in capitals? Is {owner} angry with me?"
+  ]
+ },
+ "caps_confront": {
+  "_": [
+   "{target}, why did you shout at me in chat?",
+   "What did I do to deserve ALL CAPS, {target}?"
+  ]
+ },
+ "caps_explain": {
+  "_": [
+   "What? I didn't shout! My caps lock must be stuck!",
+   "I wrote 'how are you'! Normally!"
+  ]
+ },
+ "caps_hurt": {
+  "_": [
+   "Sure. Whatever.",
+   "Just say it if you're upset with me."
+  ]
+ },
+ "caps_laugh": {
+  "_": [
+   "Oh my god, it's just caps lock. Ha!",
+   "Okay, that's funny. Your keyboard hates you."
+  ]
+ },
+ "meow_react": {
+  "_": [
+   "Why does my keyboard MEOW?!",
+   "Every key. Meow. Meow. MEOW.",
+   "Is there a cat in my computer?"
+  ],
+  "ahmet": [
+   "Why is my keyboard meowing?! WHO DID THIS?"
+  ],
+  "burak": [
+   "...I respect the craftsmanship. I also hate it."
+  ]
+ },
+ "meow_love": {
+  "_": [
+   "...Honestly? I love it. Meow.",
+   "I'm never changing this. Meow meow."
+  ]
+ },
+ "meow_witness": {
+  "_": [
+   "Is that... meowing?",
+   "*giggles*",
+   "Is there a CAT in the office?"
+  ]
+ },
+ "snoop_find": {
+  "_": [
+   "Huh. {owner}'s private folder is shared with everyone?",
+   "Oops. I can see all of {owner}'s files. Just... looking.",
+   "Oh, {owner}, you should really check your settings."
+  ],
+  "zeynep": [
+   "An open folder is an invitation, darling."
+  ],
+  "burak": [
+   "Someone set {owner}'s folder to 'everyone'. Rookie mistake."
+  ]
+ },
+ "subj_layoffs_read": {
+  "_": [
+   "'URGENT: layoffs'?! From {owner}?!",
+   "Wait, {owner} just emailed everyone about LAYOFFS?"
+  ]
+ },
+ "subj_raise_read": {
+  "_": [
+   "'Re: your raise'... {owner} got a RAISE?",
+   "Why does {owner}'s email say 'your raise approved'?"
+  ]
+ },
+ "subj_party_read": {
+  "_": [
+   "'Party at my place tonight, everyone welcome!' — {owner}? Count me in!",
+   "{owner}'s throwing a party? I'm there!"
+  ]
+ },
+ "subj_owner_baffled": {
+  "_": [
+   "I did NOT write that subject line!",
+   "That's not what I typed! I swear!"
+  ]
+ },
+ "party_rsvp": {
+  "_": [
+   "So! Your party! What should I bring?",
+   "Tonight, right? I'm bringing snacks!"
+  ],
+  "mert": [
+   "I'm bringing the speaker. And my moves."
+  ]
+ },
+ "party_cancel": {
+  "_": [
+   "About that... there is no party. It was a mistake.",
+   "There's no party! My email got hacked or something!"
+  ]
+ },
+ "party_yes": {
+  "_": [
+   "...You know what? Fine. Party at my place. Why not!",
+   "Okay. OKAY. Party's on. Bring chips."
+  ]
+ },
+ "fwd_read": {
+  "_": [
+   "...{owner} wrote THIS about me?",
+   "Wow. So that's what {owner} really thinks.",
+   "I wasn't supposed to see this, was I."
+  ],
+  "selin": [
+   "I knew it. I KNEW {owner} talked about me."
+  ],
+  "ece": [
+   "Oh. Oh no. {owner} doesn't like me?"
+  ]
+ },
+ "fwd_confront": {
+  "_": [
+   "I read your little chat about me, {target}.",
+   "You want to say that to my face, {target}?",
+   "Nice chat you had about me."
+  ]
+ },
+ "fwd_sorry": {
+  "_": [
+   "I'm sorry. I was venting. I didn't mean it.",
+   "That was a bad day. I'm sorry you saw it."
+  ]
+ },
+ "fwd_double": {
+  "_": [
+   "Well, it's true.",
+   "Maybe if you didn't make it so easy..."
+  ]
+ },
+ "approve_cheer": {
+  "_": [
+   "YES! Approved! APPROVED!",
+   "Ahmet said yes! I can't believe it!",
+   "Finally! It's official!"
+  ],
+  "burak": [
+   "...Approved? Huh. Okay. YES."
+  ]
+ },
+ "approve_brag": {
+  "_": [
+   "Guess who just got their {what} approved?",
+   "Ahmet approved my {what}! Today's a good day."
+  ]
+ },
+ "approve_boss_what": {
+  "_": [
+   "I approved WHAT? I never approved anything!",
+   "There's been no approval. Who told you that?"
+  ]
+ },
+ "approve_crushed": {
+  "_": [
+   "But... the email said...",
+   "It said 'Approved'. In writing!"
+  ]
+ },
+ "spam_boss_check": {
+  "_": [
+   "{target}, did you finish what I asked this morning?",
+   "Where's the thing I emailed you about, {target}?"
+  ]
+ },
+ "spam_what": {
+  "_": [
+   "What thing? I never got anything!",
+   "Asked me? When? There's nothing in my inbox!"
+  ]
+ },
+ "spam_found": {
+  "_": [
+   "Wait... it's in my SPAM folder?! Since this morning!",
+   "Oh no. It's in spam. Of course it's in spam."
+  ]
+ },
+ "spam_scold": {
+  "_": [
+   "Check your spam, then! It's urgent and it's due today.",
+   "Excuses. I want it before you leave."
+  ]
+ },
+ "spam_understand": {
+  "_": [
+   "Spam? Hm. Burak will hear about this. Do it now, please.",
+   "Fine. Our email is a disaster. Get it done."
+  ]
+ },
+ "fake_date_q": {
+  "_": [
+   "You wanted to see me?",
+   "So... what's this meeting about?",
+   "I got your invite. Kitchen, right?"
+  ]
+ },
+ "fake_date_a": {
+  "_": [
+   "What? I thought YOU invited ME.",
+   "I didn't send anything. You did!"
+  ]
+ },
+ "fake_date_laugh": {
+  "_": [
+   "Well, we're here. Coffee?",
+   "Ha! Okay. Since we're both here..."
+  ]
+ },
+ "fake_date_spark": {
+  "_": [
+   "Maybe the universe wanted us to have a coffee.",
+   "I'm... actually glad it happened."
+  ]
+ },
+ "fake_date_cold": {
+  "_": [
+   "I've got better things to do.",
+   "Great. A waste of time."
+  ]
+ },
+ "promise_find": {
+  "_": [
+   "Wait. Ahmet PROMISED me a promotion. In writing. Two years ago!",
+   "Look at this old email... 'next year, a raise, I promise.' Next year was last year!"
+  ]
+ },
+ "promise_claim": {
+  "_": [
+   "Ahmet Bey, remember this email? You promised me a raise.",
+   "I found your old promise. In writing. I'd like to talk about it."
+  ]
+ },
+ "promise_honour": {
+  "_": [
+   "...I did write that. Fine. I keep my word. Let's talk numbers.",
+   "Hm. A promise is a promise."
+  ]
+ },
+ "promise_dodge": {
+  "_": [
+   "Times change. Budgets change.",
+   "That was a different year. A different me.",
+   "I don't recall writing that."
+  ]
+ },
+ "quit_reply_read": {
+  "_": [
+   "'I quit. Don't contact me.' — {owner}'s auto-reply?!",
+   "{owner}... QUIT? Since when?!"
+  ]
+ },
+ "quit_boss_rush": {
+  "_": [
+   "{target}! What is this 'I quit' business?!",
+   "You're QUITTING? Without telling me?!"
+  ]
+ },
+ "quit_explain": {
+  "_": [
+   "What? No! I'm not quitting! ...Am I?",
+   "That's not my auto-reply! I never set that!"
+  ]
+ },
+ "quit_counter": {
+  "_": [
+   "Look... whatever it is, we can talk. More money? A better title?",
+   "Don't do anything rash. Let's discuss your future here."
+  ]
+ },
+ "quit_leverage": {
+  "_": [
+   "...Actually, now that you mention it — a raise would be nice.",
+   "Well. Since you're offering..."
+  ]
+ },
+ "quit_real": {
+  "_": [
+   "You know what? Maybe it's true. Maybe I SHOULD quit.",
+   "...It's not wrong, though."
+  ]
+ },
+ "unsent_hope": {
+  "_": [
+   "So... we're good now? After my message?",
+   "Hey. Thanks for reading my message. Friends again?"
+  ]
+ },
+ "unsent_cold": {
+  "_": [
+   "What message? You never apologised.",
+   "Good? You didn't even say sorry."
+  ]
+ },
+ "unsent_say_it": {
+  "_": [
+   "...Then I'll say it now. I'm sorry.",
+   "It vanished? Okay. In person, then: I'm sorry."
+  ]
+ },
+ "unsent_fight": {
+  "_": [
+   "I DID apologise! Don't pretend I didn't!",
+   "Unbelievable. I apologised and you're acting like I didn't."
+  ]
+ },
+ "groupchat_read": {
+  "_": [
+   "...Why am I in a group called 'Ugh, {target}'?",
+   "Oh. A whole group chat. About me.",
+   "'{hater} says: can't stand {target}.' Lovely."
+  ]
+ },
+ "groupchat_confront": {
+  "_": [
+   "Nice group chat, {target}. I can read it now, you know.",
+   "So you have a whole CHAT about me?"
+  ]
+ },
+ "groupchat_busted": {
+  "_": [
+   "...How are you in that chat?",
+   "Oh no. Who added you?!"
+  ]
+ },
+ "typo_boss": {
+  "_": [
+   "{target}. The client called. 'Dear Valued Cliient, we regert to infrom you...'?!",
+   "The client says your email was 'unreadable'. Explain."
+  ]
+ },
+ "typo_explain": {
+  "_": [
+   "That's impossible, I proofread it twice!",
+   "What?! It was perfect when I sent it!"
+  ]
+ },
+ "typo_scold": {
+  "_": [
+   "Proofread it THREE times next time.",
+   "This company has a reputation. Had."
+  ]
+ },
+ "typo_laugh": {
+  "_": [
+   "...'Regert'. Ha. Fine. Call them and apologise.",
+   "At least the client laughed. Fix it."
+  ]
+ },
+ "cc_boss_read": {
+  "_": [
+   "Interesting reading, {owner}'s little chat.",
+   "I've been CC'd on {owner}'s 'private' chat. How educational."
+  ]
+ },
+ "cc_boss_rant": {
+  "_": [
+   "'Ahmet is a dinosaur'? Is that so, {target}?",
+   "So I'm 'a walking meeting', {target}?"
+  ]
+ },
+ "cc_boss_chatter": {
+  "_": [
+   "Forty messages about kebab during work hours, {target}?",
+   "You two chat more than you work."
+  ]
+ },
+ "cc_owner_mortified": {
+  "_": [
+   "...That was meant to be private!",
+   "Oh no. Oh NO. You were CC'd?"
+  ]
+ },
+ "seen_hurt": {
+  "_": [
+   "{owner} read my message an hour ago. No reply. Cool.",
+   "'Seen'. Just 'seen'. Wow, {owner}."
+  ]
+ },
+ "seen_confront": {
+  "_": [
+   "You read my message and just... ignored it?",
+   "I can see you read it, you know."
+  ]
+ },
+ "seen_explain": {
+  "_": [
+   "What message? I never even opened it!",
+   "I didn't see anything! I swear!"
+  ]
+ },
+ "seen_ok": {
+  "_": [
+   "...Fine. Maybe your phone's weird.",
+   "Okay. I believe you. Mostly."
+  ]
+ },
+ "sig_ceo_react": {
+  "_": [
+   "'Future CEO'? In your signature, {owner}?",
+   "Bold signature, {owner}. Very bold."
+  ],
+  "ahmet": [
+   "'Future CEO.' Is that a threat, {owner}?"
+  ],
+  "deniz": [
+   "Future CEO? Over my dead body."
+  ]
+ },
+ "sig_bath_react": {
+  "_": [
+   "'Sent from my bathtub'?! {owner}!",
+   "Why does your email say you're in a bathtub?"
+  ],
+  "mert": [
+   "Bathtub emails! Legend."
+  ]
+ },
+ "sig_fav_react": {
+  "_": [
+   "'Ahmet's favourite employee'? Really, {owner}?",
+   "Teacher's pet signature. Nice."
+  ],
+  "ahmet": [
+   "Hm. 'Favourite.' Well. Maybe."
+  ]
+ },
+ "sig_owner": {
+  "_": [
+   "My signature says WHAT?!",
+   "I didn't write that! I would never!"
+  ]
+ },
+ "heart_read": {
+  "_": [
+   "...Did {owner} just send me a heart?",
+   "Three heart emojis. On a budget email. From {owner}.",
+   "Hearts? From {owner}? Huh."
+  ]
+ },
+ "heart_ask": {
+  "_": [
+   "So... about those hearts in your email...",
+   "Was that heart... intentional?"
+  ]
+ },
+ "heart_deny": {
+  "_": [
+   "Hearts?! No! I sent you a spreadsheet!",
+   "That wasn't me! My keyboard has a mind of its own!"
+  ]
+ },
+ "heart_admit": {
+  "_": [
+   "...Maybe it was a little bit intentional.",
+   "Okay. Yes. I like you. There, I said it."
+  ]
+ },
+ "payroll_read": {
+  "_": [
+   "...{rich} earns HOW much more than me?!",
+   "This is the payroll. I shouldn't— wait. {rich}?!",
+   "So that's what {rich} makes. Interesting."
+  ]
+ },
+ "payroll_demand": {
+  "_": [
+   "Ahmet Bey, I've seen what others earn. I want what's fair.",
+   "I'd like to talk about my salary. Now. Please."
+  ]
+ },
+ "payroll_boss_angry": {
+  "_": [
+   "Who showed you the payroll?! That's confidential!",
+   "Where did you get those numbers?!"
+  ]
+ },
+ "memo_read": {
+  "_": [
+   "'Restructuring... possible reductions'... REDUCTIONS?!",
+   "Ahmet's memo says 'reductions'. That means us!",
+   "Did everyone just get Ahmet's draft memo?!"
+  ],
+  "burak": [
+   "'Reductions.' Good thing my CV is up to date."
+  ],
+  "ece": [
+   "Reductions of WHAT? Of people?!"
+  ]
+ },
+ "memo_boss": {
+  "_": [
+   "That was a DRAFT! Who sent my draft?!",
+   "That memo was NOT ready!"
+  ]
+ },
+ "news_read": {
+  "_": [
+   "'Spotted: {target} and {crush2} at a candlelit dinner'?!",
+   "The newsletter says {target} and {crush2}... are a THING?"
+  ],
+  "zeynep": [
+   "Finally, journalism!"
+  ]
+ },
+ "news_deny": {
+  "_": [
+   "That's not true! We've never had dinner!",
+   "Who wrote that?! It's a lie!"
+  ]
+ },
+ "news_blush": {
+  "_": [
+   "...I mean. It's not TRUE. But it's not... terrible.",
+   "Dinner? With them? ...Hm."
+  ]
+ },
+ "garble_read": {
+  "_": [
+   "'I'm going to KILL... ...the presentation'?! From {owner}?",
+   "{owner}'s message says 'I'll destroy you'. Should I be worried?"
+  ]
+ },
+ "garble_confront": {
+  "_": [
+   "Did you just threaten me?!",
+   "What does 'I'll destroy you' mean, exactly?"
+  ]
+ },
+ "garble_explain": {
+  "_": [
+   "I said 'I'll DEPLOY it for you'! Dictation!",
+   "That was voice-to-text! I said 'kill it' as in 'do great'!"
+  ]
+ },
+ "garble_laugh": {
+  "_": [
+   "Oh thank god. Your phone hates you.",
+   "...Okay. That's hilarious, actually."
+  ]
+ },
+ "garble_doubt": {
+  "_": [
+   "Sure. 'Dictation'.",
+   "I'm keeping a screenshot. Just in case."
+  ]
+ },
+ "wrong_invitee_boss": {
+  "_": [
+   "{target}? What are you doing in this meeting?",
+   "Did someone invite {target}? Why?"
+  ]
+ },
+ "wrong_invitee_contrib": {
+  "_": [
+   "Well, since I'm here — I have an idea about that.",
+   "Actually, I can help with this."
+  ]
+ },
+ "wrong_invitee_leave": {
+  "_": [
+   "I got an invite! ...I'll go.",
+   "Sorry! I'll just... leave."
+  ]
+ },
+ "uninv_notice": {
+  "_": [
+   "Where's {target}? They're always here.",
+   "Has anyone seen {target}?"
+  ]
+ },
+ "uninv_find_out": {
+  "_": [
+   "I was taken off the invite list?! By whom?",
+   "So there was a meeting. Without me. Nice."
+  ]
+ },
+ "first_shine": {
+  "_": [
+   "Oh — me first? Okay. Here's where we are...",
+   "Right. Let's do this.",
+   "First? Perfect, I'm ready."
+  ]
+ },
+ "first_bomb": {
+  "_": [
+   "Me? FIRST? I... wasn't ready to be first.",
+   "Um. Can I go last? No? Okay..."
+  ]
+ },
+ "agenda_layoffs": {
+  "_": [
+   "'Agenda: Layoffs'?!",
+   "Why does the board say LAYOFFS?",
+   "Layoffs. On the agenda. Today."
+  ]
+ },
+ "agenda_romance": {
+  "_": [
+   "'New office romance policy'? Uh-oh.",
+   "Romance policy?! Who's that aimed at?"
+  ]
+ },
+ "agenda_lunch": {
+  "_": [
+   "'Agenda: Who's been stealing lunches?' Finally!",
+   "Lunch thief on the agenda. Somebody's sweating."
+  ]
+ },
+ "agenda_promo": {
+  "_": [
+   "'Promotions' on the agenda? Today?!",
+   "Promotions! Okay. Okay. Be cool."
+  ]
+ },
+ "agenda_boss": {
+  "_": [
+   "Who wrote THAT on my agenda?!",
+   "That is NOT my agenda. Who touched my board?"
+  ]
+ },
+ "room_boss": {
+  "_": [
+   "Why are we having a meeting next to the fridge?!",
+   "Who moved my meeting to the lounge?",
+   "This is a kitchen. Not a boardroom."
+  ]
+ },
+ "room_fun": {
+  "_": [
+   "I kind of like it here, Ahmet Bey.",
+   "Snacks within reach. Best meeting ever."
+  ],
+  "mert": [
+   "Best meeting room ever. Fridge access."
+  ]
+ },
+ "empty_room": {
+  "_": [
+   "Where IS everybody?!",
+   "I'm here. Alone. In my own meeting.",
+   "Is it a holiday? Nobody told me."
+  ]
+ },
+ "cancelled_think": {
+  "_": [
+   "The meeting's been cancelled? Great, more time!",
+   "Meeting cancelled? Wonderful."
+  ]
+ },
+ "double_where": {
+  "_": [
+   "Hello? Where's everyone? Is this the right meeting?",
+   "We're the 'budget sync'... in the kitchen... right?"
+  ]
+ },
+ "double_realise": {
+  "_": [
+   "Wait. There's no budget sync. The real meeting started!",
+   "We're in the wrong meeting! RUN!"
+  ]
+ },
+ "chair_open": {
+  "_": [
+   "Right, everyone! Let's begin. I'm chairing today.",
+   "Okay! Since I'm running this meeting — first item!"
+  ],
+  "deniz": [
+   "Ladies and gentlemen. Let's make this efficient."
+  ],
+  "ece": [
+   "Um, hi! I'm... apparently the chair? Let's go!"
+  ]
+ },
+ "chair_boss": {
+  "_": [
+   "Excuse me. Since when do YOU run my meetings?",
+   "{target}. That's my chair. Literally."
+  ]
+ },
+ "chair_proud": {
+  "_": [
+   "The board said so, Ahmet Bey. I was just following instructions.",
+   "Someone had to start it."
+  ]
+ },
+ "chair_shrink": {
+  "_": [
+   "Sorry! Sorry. The board said... never mind.",
+   "I'll just... sit over here."
+  ]
+ },
+ "secret_mtg_see": {
+  "_": [
+   "'Private: HR review — {subject}'? In Ahmet's calendar?",
+   "Ahmet and Ceren are meeting about {subject}... in secret?"
+  ]
+ },
+ "door_rattle": {
+  "_": [
+   "The door's locked?!",
+   "Why is the meeting room locked?",
+   "Hello? Is anyone in there?"
+  ],
+  "ahmet": [
+   "MY meeting room. LOCKED."
+  ]
+ },
+ "door_fetch": {
+  "_": [
+   "I'll get the key.",
+   "Hang on, I know where the spare key is."
+  ],
+  "burak": [
+   "Stand back. I'll deal with it."
+  ]
+ },
+ "door_open": {
+  "_": [
+   "Got it! It was locked from the INSIDE. How?!",
+   "Open! ...But who locked it? Nobody was in there."
+  ]
+ },
+ "seats_hiss": {
+  "_": [
+   "Why am I sitting next to YOU?",
+   "Of all the seats...",
+   "Move your elbow."
+  ]
+ },
+ "seats_hiss2": {
+  "_": [
+   "Believe me, I didn't choose this either.",
+   "Name cards. Not my idea."
+  ]
+ },
+ "seats_boss_shush": {
+  "_": [
+   "Would you two like to share with the class?!",
+   "Quiet! Both of you!"
+  ]
+ },
+ "seats_truce": {
+  "_": [
+   "...Fine. Truce for one hour.",
+   "Let's just survive this meeting."
+  ]
+ },
+ "seats_sweet": {
+  "_": [
+   "Oh! Hi. We're... neighbours today.",
+   "Funny, the name cards put us together."
+  ]
+ },
+ "walkout_leave": {
+  "_": [
+   "The board said five minutes. I have work.",
+   "Five-minute meeting, right? Bye!"
+  ]
+ },
+ "walkout_boss": {
+  "_": [
+   "WHERE do you think you're going?!",
+   "Sit DOWN. This meeting is over when I say it's over!"
+  ]
+ },
+ "pizza_hype": {
+  "_": [
+   "Free pizza at the meeting! I'm going early.",
+   "Pizza?! Best meeting ever."
+  ],
+  "mert": [
+   "PIZZA. I'll be first."
+  ]
+ },
+ "pizza_none": {
+  "_": [
+   "Where's the pizza?",
+   "There's... no pizza?",
+   "We were promised pizza!"
+  ],
+  "mert": [
+   "I skipped breakfast for this."
+  ]
+ },
+ "pizza_boss": {
+  "_": [
+   "What pizza? Nobody ordered pizza!",
+   "There is no pizza. There was never any pizza."
+  ]
+ },
+ "proj_dead": {
+  "_": [
+   "...The projector's dead.",
+   "Nothing on the screen? Nothing at all?",
+   "Of course. The projector picked today."
+  ]
+ },
+ "proj_improv": {
+  "_": [
+   "Fine. I'll draw it on the whiteboard.",
+   "Who needs slides? Gather round."
+  ]
+ },
+ "proj_panic": {
+  "_": [
+   "I can't present without slides!",
+   "My whole talk is IN the slides!"
+  ]
+ },
+ "minutes_thank": {
+  "_": [
+   "Thanks for organising the team retreat, {target}! So excited!",
+   "You're organising the retreat? You're a hero, {target}."
+  ]
+ },
+ "minutes_what": {
+  "_": [
+   "The WHAT? I never volunteered for anything!",
+   "Retreat? Me? Since when?"
+  ]
+ },
+ "minutes_own_it": {
+  "_": [
+   "...Yes. Yes, I am. It'll be amazing.",
+   "That's right. Leave it to me."
+  ]
+ },
+ "minutes_refuse": {
+  "_": [
+   "Someone wrote that in the minutes. Not me. I'm not doing it.",
+   "No. Absolutely not. Find another volunteer."
+  ]
+ },
+ "golf_go": {
+  "_": [
+   "Golf with the regional director? Now? ...Right. Ceren, run my morning.",
+   "Oh! The golf thing. I completely forgot. I'm off."
+  ]
+ },
+ "golf_takeover": {
+  "_": [
+   "Ahmet's not coming. Fine — I'll run this meeting.",
+   "No boss? Then let's do it properly. Item one."
+  ]
+ },
+ "golf_follow": {
+  "_": [
+   "Okay, boss.",
+   "Sure, why not.",
+   "Fine by me."
+  ]
+ },
+ "golf_resist": {
+  "_": [
+   "Who made you the boss?",
+   "Nice try."
+  ]
+ },
+ "review_call": {
+  "_": [
+   "{actor}. My office. Your performance review is now.",
+   "Ah, {actor}. Sit. It's review time, apparently."
+  ]
+ },
+ "review_nervous": {
+  "_": [
+   "N-now? I didn't prepare anything!",
+   "My review? Today?!"
+  ]
+ },
+ "review_good": {
+  "_": [
+   "Honestly? You've been excellent. Keep it up.",
+   "Strong work this quarter. I've noticed."
+  ]
+ },
+ "review_bad": {
+  "_": [
+   "Frankly, I expected more from you.",
+   "Your numbers worry me. A lot."
+  ]
+ },
+ "client_tidy": {
+  "_": [
+   "A client visit? Today?! Clean everything!",
+   "Client at two! Hide the mess!"
+  ],
+  "ahmet": [
+   "Everyone! Look busy! LOOK. BUSY."
+  ]
+ },
+ "client_none": {
+  "_": [
+   "Where's the client? It's past two!",
+   "So... no client then?"
+  ],
+  "ahmet": [
+   "Ceren! Where is my client?!"
+  ]
+ },
+ "client_ceren": {
+  "_": [
+   "What client? There's nothing in the calendar.",
+   "I didn't book any visit, Ahmet Bey."
+  ]
+ },
+ "farewell_sad": {
+  "_": [
+   "{target} is LEAVING?!",
+   "Farewell meeting for {target}? Nobody told me!",
+   "We'll miss you, {target}!"
+  ]
+ },
+ "farewell_speech": {
+  "_": [
+   "{target}, you've been... honestly, the best. We'll miss you.",
+   "To {target}! The office won't be the same."
+  ]
+ },
+ "farewell_not": {
+  "_": [
+   "I'm not leaving! Who wrote that?!",
+   "Farewell? I'm not going anywhere!"
+  ]
+ },
+ "farewell_moved": {
+  "_": [
+   "...You'd really miss me? I didn't know that.",
+   "I'm not leaving, but... thank you. Really."
+  ]
+ },
+ "farewell_maybe": {
+  "_": [
+   "...Actually. Maybe it's a sign.",
+   "Hm. Leaving doesn't sound that bad."
+  ]
+ },
+ "sigpage_boss": {
+  "_": [
+   "{target}, why is this contract signed by {other}?!",
+   "Your contract has {other}'s signature on the last page. Explain."
+  ]
+ },
+ "sigpage_baffled": {
+  "_": [
+   "That's impossible! I signed it myself!",
+   "Someone swapped my pages!"
+  ]
+ },
+ "sigpage_blame": {
+  "_": [
+   "...This was {other}. It has to be.",
+   "Ask {other} how their signature got there."
+  ]
+ },
+ "archive_hide_react": {
+  "_": [
+   "My printout! It was right on my desk!",
+   "Where's my report? I printed it an HOUR ago."
+  ]
+ },
+ "archive_found": {
+  "_": [
+   "...In the ARCHIVE? Under 'Z'? Who does that?!",
+   "Found it. Filed. Under 'Z'. Unbelievable."
+  ]
+ },
+ "label_see_dumb": {
+  "_": [
+   "'My Dumb Ideas'? That's what {owner}'s folder says?",
+   "Ha! {owner}'s binder: 'MY DUMB IDEAS'."
+  ]
+ },
+ "label_see_plans": {
+  "_": [
+   "'Secret Plans'... on {owner}'s folder. Hm.",
+   "Why does {owner} have a folder called 'SECRET PLANS'?"
+  ]
+ },
+ "label_see_love": {
+  "_": [
+   "'Love Letters'?! On {owner}'s desk? In plain sight?",
+   "{owner} has a folder labelled 'LOVE LETTERS'. Wow."
+  ]
+ },
+ "label_owner": {
+  "_": [
+   "Who relabelled my folders?!",
+   "That's NOT what my folders say!"
+  ]
+ },
+ "baby_find": {
+  "_": [
+   "Why is the printer full of... baby photos?",
+   "Five hundred copies of a BABY. Whose baby is this?!",
+   "Is this... Ahmet as a baby?!"
+  ],
+  "burak": [
+   "The printer ran out of paper printing a baby. Five hundred times."
+  ]
+ },
+ "baby_laugh": {
+  "_": [
+   "Look at those cheeks! It's AHMET!",
+   "Ahmet in a sailor suit! I'm framing this."
+  ]
+ },
+ "baby_boss": {
+  "_": [
+   "WHO PRINTED MY BABY PHOTO?!",
+   "That is a private family photograph!"
+  ]
+ },
+ "misplaced_find": {
+  "_": [
+   "Hm? Whose report is this? Oh — it's {owner}'s.",
+   "This isn't mine. {owner}'s report... on MY desk?"
+  ]
+ },
+ "misplaced_return": {
+  "_": [
+   "Here — this ended up on my desk.",
+   "Found your report on my desk. Weird, right?"
+  ]
+ },
+ "misplaced_thanks": {
+  "_": [
+   "Thank you! I was about to panic.",
+   "You're a lifesaver!"
+  ]
+ },
+ "misplaced_steal": {
+  "_": [
+   "...Nobody would know if I handed this in.",
+   "Finders keepers."
+  ],
+  "deniz": [
+   "Excellent work. My work, now."
+  ]
+ },
+ "misplaced_owner": {
+  "_": [
+   "Where's my report?! I left it RIGHT HERE.",
+   "My report is gone. Gone!"
+  ]
+ },
+ "pages_chaos": {
+  "_": [
+   "...And as you can see on page seven— this is page two. Hang on.",
+   "So our results show— wait, where's the chart?",
+   "Page four. No. Nine? Why is there a page nine?"
+  ]
+ },
+ "pages_joke": {
+  "_": [
+   "Okay! Interactive presentation: guess the next page!",
+   "Nobody panic. I'll do it from memory. Ha."
+  ]
+ },
+ "pages_meltdown": {
+  "_": [
+   "I— I'm so sorry, the pages— I can't—",
+   "I swear these were in order this morning."
+  ]
+ },
+ "conf_read_salary": {
+  "_": [
+   "The salary list... {subject} earns THAT much?",
+   "This is everyone's salary. Oh. OH."
+  ]
+ },
+ "conf_read_layoff": {
+  "_": [
+   "'Positions under review: {subject}'?!",
+   "This list says {subject}'s job is 'under review'..."
+  ]
+ },
+ "conf_read_promo": {
+  "_": [
+   "'Promotion shortlist: {subject}'. Interesting.",
+   "So {subject} is on the shortlist. Huh."
+  ]
+ },
+ "swapreview_praise": {
+  "_": [
+   "{actor}, your review is outstanding. Outstanding!",
+   "I read your review, {actor}. Excellent quarter."
+  ]
+ },
+ "swapreview_confused": {
+  "_": [
+   "...Thank you? I wasn't expecting that.",
+   "Really? Wow. Okay!"
+  ]
+ },
+ "swapreview_scold": {
+  "_": [
+   "Your review is a disaster, {actor}.",
+   "Frankly, {actor}, these numbers are embarrassing."
+  ]
+ },
+ "swapreview_shock": {
+  "_": [
+   "What? My numbers were great!",
+   "That can't be my review. It can't be."
+  ]
+ },
+ "recycle_react": {
+  "_": [
+   "The contract! The signed one! Where is it?!",
+   "No, no, no — the original contract is GONE."
+  ]
+ },
+ "recycle_found": {
+  "_": [
+   "...In the RECYCLING bin. Next to the yoghurt pots.",
+   "Found it. In the recycling. With coffee on it."
+  ]
+ },
+ "forge_spot": {
+  "_": [
+   "This signature... Ahmet doesn't loop his A like that.",
+   "Hm. This 'Ahmet' signature is forged."
+  ]
+ },
+ "forge_pass": {
+  "_": [
+   "Approved, signed... fine. Paid.",
+   "Another expense claim. Processed."
+  ]
+ },
+ "forge_accuse": {
+  "_": [
+   "{target}. Your expense claim has a FORGED signature.",
+   "Did you forge Ahmet's signature, {target}?"
+  ]
+ },
+ "forge_deny": {
+  "_": [
+   "Forged?! I'd never! I didn't even submit it yet!",
+   "That's not my doing! I swear!"
+  ]
+ },
+ "karaoke_spot": {
+  "_": [
+   "'One karaoke machine — 4,000'? On {target}'s expenses?!",
+   "Who expenses a KARAOKE MACHINE?"
+  ]
+ },
+ "karaoke_ask": {
+  "_": [
+   "{target}, explain the karaoke machine.",
+   "Care to tell me about the karaoke machine, {target}?"
+  ]
+ },
+ "karaoke_deny": {
+  "_": [
+   "The WHAT? I don't even sing!",
+   "Karaoke machine? I've never bought one in my life!"
+  ]
+ },
+ "karaoke_own": {
+  "_": [
+   "...It's for team building. Obviously.",
+   "Morale is important, Zeynep."
+  ],
+  "mert": [
+   "Team building, Zeynep. Team. Building."
+  ]
+ },
+ "margin_boss": {
+  "_": [
+   "'Ahmet is wrong about everything' — in YOUR handwriting, {actor}?",
+   "Interesting margin note in your report, {actor}."
+  ]
+ },
+ "margin_explain": {
+  "_": [
+   "I didn't write that! I swear!",
+   "That's not my handwriting! ...Is it?"
+  ]
+ },
+ "margin_respect": {
+  "_": [
+   "...Well, at least you're honest. Wrong, but honest.",
+   "Hm. Bold. I almost respect it."
+  ]
+ },
+ "margin_angry": {
+  "_": [
+   "I don't want to see that kind of thing again.",
+   "Remember who signs your reviews."
+  ]
+ },
+ "margin_read": {
+  "_": [
+   "...'Ahmet is wrong about everything'? In {owner}'s report?",
+   "Hm. A margin note. About ME. {owner}, my office."
+  ]
+ },
+ "jam_find": {
+  "_": [
+   "Paper jam... wait. This is a letter. A LOVE letter.",
+   "There's something stuck in the rollers... 'Dear {crush}...'"
+  ]
+ },
+ "jam_read_aloud": {
+  "_": [
+   "'Dear {crush}, every time you walk past my desk...' — signed {writer}!",
+   "Listen to this: '{crush}, your laugh is my favourite sound.' From {writer}!"
+  ]
+ },
+ "jam_pocket": {
+  "_": [
+   "...I'll just give this back to {writer}. Quietly.",
+   "This isn't mine to read. I'll return it."
+  ]
+ },
+ "jam_mortified": {
+  "_": [
+   "THAT WAS PRIVATE!",
+   "Give that BACK!"
+  ],
+  "mert": [
+   "...I can explain. No I can't."
+  ]
+ },
+ "supplies_none": {
+  "_": [
+   "No staplers. No pens. Nothing. Where did it all go?",
+   "The supply shelf is EMPTY."
+  ]
+ },
+ "supplies_found": {
+  "_": [
+   "...It's all in {target}'s drawer. ALL of it.",
+   "{target}'s drawer: forty pens, six staplers, and every sticky note we own."
+  ]
+ },
+ "supplies_hoarder": {
+  "_": [
+   "Supply hoarder!",
+   "So YOU'RE the stapler thief!"
+  ],
+  "mert": [
+   "Dragon on a pile of pens!"
+  ]
+ },
+ "supplies_innocent": {
+  "_": [
+   "Those aren't mine! I don't even like staplers!",
+   "How did all that get in my drawer?!"
+  ]
+ },
+ "archive_mess": {
+  "_": [
+   "Who reorganised the archive?! Nothing's where it should be!",
+   "'Accounts' is in 'Holidays'. 'Holidays' is in 'Legal'. WHY?"
+  ]
+ },
+ "archive_together": {
+  "_": [
+   "You're looking too? Okay — I'll take A to M.",
+   "Let's do this together or we'll be here all night."
+  ]
+ },
+ "archive_fight": {
+  "_": [
+   "Stop moving my piles!",
+   "I was here first!"
+  ]
+ },
+ "resdraft_see": {
+  "_": [
+   "Is that a... resignation letter? On {owner}'s desk?",
+   "'Dear Ahmet, I hereby resign...' — {owner}?!"
+  ],
+  "ahmet": [
+   "A resignation letter. From {owner}. On their desk."
+  ]
+ },
+ "urgent_panic": {
+  "_": [
+   "Everything is URGENT?! Since when?!",
+   "URGENT. URGENT. URGENT. All of it?!",
+   "Okay. No lunch today. No breathing either."
+  ]
+ },
+ "urgent_care": {
+  "_": [
+   "Hey... you okay? You look like you're about to explode.",
+   "Breathe. Want me to take something off your plate?"
+  ]
+ },
+ "urgent_thanks": {
+  "_": [
+   "...Yes. Please. Thank you.",
+   "I'm drowning. Thank you."
+  ]
+ },
+ "orgchart_see": {
+  "_": [
+   "Why is {target} ABOVE Ahmet on the org chart?!",
+   "New org chart? {target} is... the boss now?",
+   "Ha! Look at the org chart. {target}: CEO."
+  ]
+ },
+ "orgchart_boss": {
+  "_": [
+   "WHO edited the org chart?!",
+   "{target} is NOT my superior. Fix this. Now."
+  ]
+ },
+ "orgchart_smug": {
+  "_": [
+   "Well. The chart doesn't lie.",
+   "I always knew they'd see sense."
+  ],
+  "deniz": [
+   "About time."
+  ]
+ },
+ "orgchart_terrified": {
+  "_": [
+   "I didn't do that! Please believe me!",
+   "Take it down! TAKE IT DOWN!"
+  ]
+ },
+ "lastpage_boss": {
+  "_": [
+   "{actor}, your report just... stops. Where's the conclusion?",
+   "Page twelve of twelve is missing, {actor}. The important one."
+  ]
+ },
+ "lastpage_baffled": {
+  "_": [
+   "It was there! I printed thirteen pages!",
+   "What? I definitely wrote a conclusion!"
+  ]
+ },
+ "lastpage_read": {
+  "_": [
+   "...and the conclusion is— there is no conclusion. {owner}!",
+   "Where's the last page? {owner}, come here."
+  ]
+ },
+ "shortlist_joy": {
+  "_": [
+   "I'm on the shortlist?! TOP of the shortlist?!",
+   "Me! First name on the promotion list!"
+  ],
+  "ece": [
+   "Is this real? Pinch me. No, don't."
+  ]
+ },
+ "shortlist_brag": {
+  "_": [
+   "Guess whose name is first on the promotion shortlist?",
+   "Don't tell anyone... but I'm top of the shortlist."
+  ]
+ },
+ "shortlist_boss_no": {
+  "_": [
+   "What shortlist? There IS no shortlist yet.",
+   "Whoever told you that was lying. Back to work."
+  ]
+ },
+ "perf_boss_good": {
+  "_": [
+   "{actor}! Your report says you've doubled output. Impressive!",
+   "I've just read your performance report, {actor}. Exemplary."
+  ]
+ },
+ "perf_boss_bad": {
+  "_": [
+   "{actor}. Your performance report is... troubling.",
+   "We need to talk about your numbers, {actor}. They're terrible."
+  ]
+ },
+ "perf_happy": {
+  "_": [
+   "Oh! Thank you! I... didn't know it was that good.",
+   "Wow. I'll take it!"
+  ]
+ },
+ "perf_hurt": {
+  "_": [
+   "Terrible? I've been working weekends!",
+   "That's not true! Those can't be my numbers!"
+  ]
+ },
+ "perf_unfair": {
+  "_": [
+   "{actor} got a glowing review? For WHAT?",
+   "Unbelievable. {actor} of all people."
+  ]
+ },
+ "zero_read": {
+  "_": [
+   "'Raise budget this year: ZERO'?!",
+   "Zero raises. For anyone. This year.",
+   "So that's it. No raises. Great."
+  ],
+  "zeynep": [
+   "Zero? That's not what the budget says..."
+  ]
+ },
+ "zero_grumble": {
+  "_": [
+   "Why do we even bother?",
+   "I'm updating my CV tonight.",
+   "Zero. After the year we've had."
+  ]
+ },
+ "zero_zeynep": {
+  "_": [
+   "Ahmet Bey, the raise budget isn't zero. Who pinned that?",
+   "Someone's spreading fake budget numbers. It's not zero."
+  ]
+ },
+ "zero_boss": {
+  "_": [
+   "ZERO? I never said zero! Take that down!",
+   "That's not my number! Who wrote this?"
+  ]
+ },
+ "raiseletter_joy": {
+  "_": [
+   "A RAISE?! For ME?!",
+   "'Your salary increase has been approved'... YES!"
+  ],
+  "burak": [
+   "...Huh. Maybe I'll stay after all."
+  ]
+ },
+ "raiseletter_zeynep": {
+  "_": [
+   "That letter wasn't for you, {target}. It's {rich}'s.",
+   "Sorry, {target} — payroll mix-up. That raise is {rich}'s."
+  ]
+ },
+ "raiseletter_crushed": {
+  "_": [
+   "...Of course it is.",
+   "Right. Of course. Never mind."
+  ]
+ },
+ "app_boss_read": {
+  "_": [
+   "A job application? From {applicant}? To a COMPETITOR?",
+   "So. {applicant} wants to leave."
+  ]
+ },
+ "app_confront": {
+  "_": [
+   "{target}. I found your job application. Care to explain?",
+   "Planning to leave us, {target}?"
+  ]
+ },
+ "app_counter": {
+  "_": [
+   "...If it's about money, let's talk. I don't want to lose you.",
+   "What would it take for you to stay?"
+  ]
+ },
+ "app_cold": {
+  "_": [
+   "Fine. If you want to go, go. But don't expect a reference.",
+   "Disloyalty. I'll remember this."
+  ]
+ },
+ "app_admit": {
+  "_": [
+   "...Yes. I've been looking. I'm not happy here.",
+   "I won't lie to you. I applied."
+  ]
+ },
+ "early_promo_go": {
+  "_": [
+   "Actually — why wait? Everyone! Gather round!",
+   "I've decided. Announcement time. Now."
+  ]
+ },
+ "early_promo_miss": {
+  "_": [
+   "Wait, the promotion was announced? I was in the kitchen!",
+   "They announced it WITHOUT me?"
+  ]
+ },
+ "leader_see": {
+  "_": [
+   "{target} is number one on the sales board? Since when?",
+   "Wait, {target} out-sold MERT?"
+  ],
+  "mert": [
+   "Number TWO? Me? Behind {target}?!"
+  ]
+ },
+ "leader_boss": {
+  "_": [
+   "{target}! Top of the sales board! Well done!",
+   "Look at that. {target}, our new sales champion."
+  ]
+ },
+ "leader_mert": {
+  "_": [
+   "Those are MY numbers! I closed those deals!",
+   "That's a mistake. I'm number one. I'm always number one."
+  ]
+ },
+ "postpone_read": {
+  "_": [
+   "My review is postponed... 'indefinitely'?",
+   "'Review postponed — no new date.' What does THAT mean?"
+  ]
+ },
+ "postpone_ask": {
+  "_": [
+   "Ahmet Bey, why was my review postponed indefinitely?",
+   "Is there a reason my review keeps being pushed?"
+  ]
+ },
+ "postpone_boss": {
+  "_": [
+   "Postponed? I didn't postpone anything. ...Did I?",
+   "Your review? Hm. Next month. Probably."
+  ]
+ },
+ "eotm_joy": {
+  "_": [
+   "Employee of the Month? ME?",
+   "My name! On the certificate! On the board!"
+  ]
+ },
+ "eotm_rival": {
+  "_": [
+   "{target}? Employee of the Month? Seriously?",
+   "Who chose {target}?!"
+  ]
+ },
+ "eotm_boss_keep": {
+  "_": [
+   "...Well. It's printed now. Congratulations, {target}.",
+   "Hm. Fine. You've earned... something."
+  ]
+ },
+ "eotm_boss_fix": {
+  "_": [
+   "That certificate is wrong. It should say {rich}.",
+   "Correction: Employee of the Month is {rich}. Not {target}."
+  ]
+ },
+ "thanks_note_read": {
+  "_": [
+   "'Thank you for your outstanding effort — Ahmet.' For ME?",
+   "A handwritten thank-you from Ahmet! I'm framing this."
+  ]
+ },
+ "thanks_note_thank": {
+  "_": [
+   "Ahmet Bey, thank you for the lovely note!",
+   "Your note made my day, Ahmet Bey."
+  ]
+ },
+ "thanks_note_boss": {
+  "_": [
+   "...Note? That note was for {rich}.",
+   "Ah. That one was meant for {rich}, actually."
+  ]
+ },
+ "thanks_unseen": {
+  "_": [
+   "So I fix everything and the thank-you goes to {target}. Great.",
+   "Nice. My thank-you note, someone else's desk."
+  ]
+ },
+ "notes_good": {
+  "_": [
+   "Ahmet wrote 'reliable, future leader' about me!",
+   "He thinks I'm 'excellent'! In writing!"
+  ]
+ },
+ "notes_bad": {
+  "_": [
+   "'Needs constant supervision'?! That's what he thinks of me?",
+   "Ahmet's note on me: 'disappointing'. Wow."
+  ]
+ },
+ "notes_boss": {
+  "_": [
+   "WHO PINNED MY PRIVATE NOTES ON THE BOARD?!",
+   "Those were PRIVATE!"
+  ]
+ },
+ "card_find": {
+  "_": [
+   "A headhunter's card? 'Call me — we pay double'?",
+   "'Senior role, double salary. Call me.' On my desk?"
+  ]
+ },
+ "card_show_boss": {
+  "_": [
+   "Ahmet Bey — a headhunter's been courting me. Just so you know.",
+   "Someone offered me double. I'd rather stay... at the right price."
+  ]
+ },
+ "card_boss_raise": {
+  "_": [
+   "...Fine. Let's talk about your salary.",
+   "Don't call them. We'll sort something out."
+  ]
+ },
+ "card_boss_call_bluff": {
+  "_": [
+   "Then go. Nobody's irreplaceable.",
+   "Call them, then."
+  ]
+ },
+ "course_read": {
+  "_": [
+   "'Mandatory anger management course'?! For ME?!",
+   "Who signed me up for ANGER MANAGEMENT?!"
+  ]
+ },
+ "course_laugh": {
+  "_": [
+   "Ha! Anger management!",
+   "Somebody's going to be very calm next week!"
+  ],
+  "mert": [
+   "Namaste, my friend."
+  ]
+ },
+ "course_calm": {
+  "_": [
+   "...Fine. Maybe I'll go. Could be useful.",
+   "Okay. Deep breaths. I'm calm. I'm CALM."
+  ]
+ },
+ "intern_read": {
+  "_": [
+   "Payroll says my title is... 'INTERN'?!",
+   "'Welcome to the team, intern!' I've been here five years!"
+  ]
+ },
+ "intern_ask": {
+  "_": [
+   "Ahmet Bey, why am I listed as an INTERN?",
+   "Have I been demoted? To intern?!"
+  ]
+ },
+ "intern_boss": {
+  "_": [
+   "Intern? Nonsense. HR glitch. Probably.",
+   "You're not an intern. Calm down."
+  ]
+ },
+ "intern_ece": {
+  "_": [
+   "Welcome to the club!",
+   "Interns unite!"
+  ]
+ },
+ "transfer_read": {
+  "_": [
+   "'Transfer request: to the Erzurum branch'?! I never asked for that!",
+   "They're sending me to ERZURUM?"
+  ]
+ },
+ "transfer_ask": {
+  "_": [
+   "Ahmet Bey, are you trying to get rid of me?",
+   "Is this transfer request your idea?"
+  ]
+ },
+ "transfer_boss_no": {
+  "_": [
+   "Transfer? You? Who would do your job?",
+   "I'd never send you away. Sit down."
+  ]
+ },
+ "transfer_boss_hmm": {
+  "_": [
+   "...Erzurum is lovely this time of year.",
+   "Hm. Not my idea. But not a bad one."
+  ]
+ },
+ "criteria_read_cake": {
+  "_": [
+   "'Promotion criteria: bring cake on Fridays'? ...It's Friday-ish.",
+   "Cake gets you promoted? I can do cake."
+  ]
+ },
+ "criteria_read_laugh": {
+  "_": [
+   "'Must laugh at Ahmet's jokes'? Noted.",
+   "Laugh at his jokes. Okay. I can fake that."
+  ]
+ },
+ "criteria_laugh_boss": {
+  "_": [
+   "HAHAHA! Ahmet Bey, that's hilarious!",
+   "Ha! Oh, Ahmet Bey, you kill me."
+  ]
+ },
+ "criteria_boss": {
+  "_": [
+   "...I didn't say anything funny.",
+   "Why is everyone laughing at everything I say today?"
+  ]
+ },
+ "criteria_cake_offer": {
+  "_": [
+   "Cake! For everyone! No reason!",
+   "I brought cake. Just because. Totally unrelated to anything."
+  ]
+ },
+ "reference_read": {
+  "_": [
+   "A reference letter? From Ahmet? 'Highly recommended for positions elsewhere'...",
+   "Ahmet wrote me a reference. For OTHER jobs. Is that a hint?"
+  ]
+ },
+ "reference_hurt": {
+  "_": [
+   "He wants me gone. That's what this means.",
+   "'Elsewhere.' Got it."
+  ]
+ },
+ "reference_use": {
+  "_": [
+   "...Well. Might as well use it.",
+   "A glowing reference? I'll put it to work."
+  ]
+ },
+ "overtime_read": {
+  "_": [
+   "I'm on the WEEKEND overtime list?! It's my sister's wedding!",
+   "Weekend shift? Me? Who decided that?!"
+  ]
+ },
+ "overtime_blame": {
+  "_": [
+   "{suspect} makes these lists. I KNOW it.",
+   "This is {suspect}'s doing."
+  ]
+ },
+ "overtime_plead": {
+  "_": [
+   "Ahmet Bey, I can't work this weekend. Please.",
+   "There must be a mistake with the overtime list."
+  ]
+ },
+ "overtime_boss_yes": {
+  "_": [
+   "If you're on the list, you're on the list.",
+   "Rules are rules."
+  ]
+ },
+ "plate_bring": {
+  "_": [
+   "Here's the paperwork you wanted, boss... uh, {target}?",
+   "{target}, the sign says you're the manager now. Sign this?"
+  ]
+ },
+ "plate_power": {
+  "_": [
+   "Put it on the pile. I'll get to it. Maybe.",
+   "Yes, yes. Leave it with me."
+  ],
+  "deniz": [
+   "Excellent. Put it on MY desk."
+  ]
+ },
+ "plate_panic": {
+  "_": [
+   "I'm not the manager! The sign is wrong!",
+   "Don't give me that! I don't want it!"
+  ]
+ },
+ "plate_boss": {
+  "_": [
+   "WHY does my door say '{target} — Manager'?!",
+   "Who changed my nameplate?!"
+  ]
+ },
+ "swapphone_read": {
+  "_": [
+   "...This isn't my phone. And this message isn't for me.",
+   "Wait. Whose phone is— oh. OH.",
+   "That's not my lock screen. But I've already read the message."
+  ]
+ },
+ "swapphone_return": {
+  "_": [
+   "I think we swapped phones. Here. I... didn't read anything.",
+   "Your phone. I may have seen a message. Sorry."
+  ]
+ },
+ "swapphone_mortified": {
+  "_": [
+   "You READ it?!",
+   "Please tell me you didn't read the messages."
+  ]
+ },
+ "swapphone_cool": {
+  "_": [
+   "Ha, they look identical. Thanks.",
+   "No harm done. Here's yours."
+  ]
+ },
+ "callerid_mom": {
+  "_": [
+   "MUM?! Not now, Mum! I'm at WORK!",
+   "Mum, I love you, but I'm in the middle of— hello? Mum?"
+  ]
+ },
+ "callerid_ex": {
+  "_": [
+   "...Why is my EX calling me?",
+   "My ex. Calling me. In the office. Great."
+  ]
+ },
+ "callerid_headhunter": {
+  "_": [
+   "A recruiter? Calling me HERE?",
+   "'Talent Partners Ltd'? ...I'll take this outside."
+  ]
+ },
+ "callerid_boss": {
+  "_": [
+   "It's Ahmet! Yes, Ahmet Bey? ...Hello? ...He hung up.",
+   "Ahmet's calling from his desk? Why not just shout?"
+  ]
+ },
+ "callerid_heard_hh": {
+  "_": [
+   "Was that a recruiter calling {owner}?",
+   "Hm. {owner} just got a call from a headhunter."
+  ]
+ },
+ "callerid_jealous": {
+  "_": [
+   "Who was THAT on the phone?",
+   "Your ex? Calling you? Today?"
+  ]
+ },
+ "ringtone_siren": {
+  "_": [
+   "*WEE-OOO WEE-OOO*",
+   "*AIR RAID SIREN*"
+  ]
+ },
+ "ringtone_love": {
+  "_": [
+   "♪ I will always love yoooou ♪",
+   "♪ Baby, baby, baby, ooh ♪"
+  ]
+ },
+ "ringtone_baby": {
+  "_": [
+   "*WAAAAH WAAAAH*",
+   "*baby crying loudly*"
+  ]
+ },
+ "ringtone_react": {
+  "_": [
+   "Who has a SIREN for a ringtone?!",
+   "Is someone's phone... crying?",
+   "Is that a LOVE SONG coming from {owner}'s pocket?"
+  ],
+  "ahmet": [
+   "Whose phone is that?! Turn it OFF!"
+  ]
+ },
+ "ringtone_owner": {
+  "_": [
+   "That's not my ringtone! Make it stop!",
+   "I didn't choose that! I swear!"
+  ]
+ },
+ "fwdcall_answer": {
+  "_": [
+   "Hello, {owner}'s phone... er, MY phone... Hello?",
+   "Yes, this is— no, I'm not {owner}. But I can help!"
+  ]
+ },
+ "fwdcall_help": {
+  "_": [
+   "I took a client call for you. Here's the message.",
+   "Your client called me by mistake. I sorted it out for you."
+  ]
+ },
+ "fwdcall_thanks": {
+  "_": [
+   "You did? Thank you!",
+   "That's... really nice of you."
+  ]
+ },
+ "fwdcall_steal": {
+  "_": [
+   "A client looking for {owner}? ...I'll handle this personally.",
+   "Hm. {owner}'s client. My client now."
+  ],
+  "deniz": [
+   "Opportunity knocks. Literally."
+  ]
+ },
+ "fwdcall_owner_finds": {
+  "_": [
+   "My client says they've been dealing with {target}?!",
+   "{target} took my client?!"
+  ]
+ },
+ "notif_preview": {
+  "_": [
+   "Huh — a preview popped up: '{owner}: can't stand {worst} today'...",
+   "Why am I getting {owner}'s notifications? '...{worst} is SO annoying.'"
+  ]
+ },
+ "notif_preview_hurt": {
+  "_": [
+   "...{owner} can't stand me?",
+   "Oh. So that's what {owner} says about me."
+  ]
+ },
+ "fridgephone_lost": {
+  "_": [
+   "My phone. Where's my phone? It was RIGHT HERE.",
+   "Has anyone seen my phone?!"
+  ]
+ },
+ "fridgephone_found": {
+  "_": [
+   "...It's in the FRIDGE. Next to the milk. It's FREEZING.",
+   "My phone is in the fridge. Why is my phone in the fridge?!"
+  ]
+ },
+ "remind_flowers": {
+  "_": [
+   "'Reminder: buy flowers for {crush}'? Did I set that?",
+   "My phone says I should buy {crush} flowers. ...Should I?"
+  ]
+ },
+ "remind_gym": {
+  "_": [
+   "'Gym — 16:30 — DON'T SKIP'. Okay, phone. Okay.",
+   "Gym reminder. I guess I'm leaving early!"
+  ]
+ },
+ "remind_raise": {
+  "_": [
+   "'TODAY: ask Ahmet for a raise.' ...You know what? Yes.",
+   "Phone says: ask for a raise. The phone is right."
+  ]
+ },
+ "flowers_give": {
+  "_": [
+   "These are for you. Don't ask why. Even I don't know.",
+   "I got you flowers. My phone told me to. That sounds weird."
+  ]
+ },
+ "flowers_love": {
+  "_": [
+   "For me? ...That's really sweet.",
+   "Flowers! Nobody's ever— thank you."
+  ]
+ },
+ "flowers_awkward": {
+  "_": [
+   "...Thanks? Is this a joke?",
+   "Oh. Um. Flowers. Okay."
+  ]
+ },
+ "raise_ask_line": {
+  "_": [
+   "Ahmet Bey, I'd like a raise. Today.",
+   "I've decided I deserve a raise. Can we talk?"
+  ]
+ },
+ "callback_late": {
+  "_": [
+   "The client called back — an HOUR late — and the deal's gone.",
+   "They signed with a competitor. Because I missed one call?!"
+  ]
+ },
+ "callback_boss": {
+  "_": [
+   "You LOST the client, {owner}?!",
+   "One call. You missed ONE call and we lost the account?"
+  ]
+ },
+ "vm_listen": {
+  "_": [
+   "A voicemail from {owner}? For... me? Let's hear it.",
+   "'New voicemail from {owner}.' Hm."
+  ]
+ },
+ "vm_confession": {
+  "_": [
+   "...{owner} says they LIKE me?!",
+   "Wait. Was that... a love confession? From {owner}?"
+  ]
+ },
+ "vm_secret": {
+  "_": [
+   "...I wasn't supposed to hear that.",
+   "Oh no. That was private."
+  ]
+ },
+ "wrongcb_call": {
+  "_": [
+   "Hi, returning your call— {target}?! YOU called me?",
+   "Hello? Oh. It's... you."
+  ]
+ },
+ "wrongcb_chat": {
+  "_": [
+   "Well, since we're on the phone... how are you, really?",
+   "Ha. Okay, since I've got you — lunch sometime?"
+  ]
+ },
+ "wrongcb_fight": {
+  "_": [
+   "I didn't call you. Why would I call you?",
+   "Is this some kind of joke?"
+  ]
+ },
+ "speaker_call": {
+  "_": [
+   "*on speaker* '...Yes Mum, I'm eating vegetables.'",
+   "*on speaker* '...and then I told them I'd never seen that file. Ha!'"
+  ]
+ },
+ "speaker_realise": {
+  "_": [
+   "...Why is everyone looking at me? Oh no. SPEAKER.",
+   "It's on SPEAKER?!"
+  ]
+ },
+ "dnd_boss": {
+  "_": [
+   "I've called you FOUR TIMES, {target}!",
+   "Why aren't you answering your phone, {target}?!"
+  ]
+ },
+ "dnd_explain": {
+  "_": [
+   "What? It never rang! Look — Do Not Disturb? I didn't turn that on!",
+   "My phone didn't ring once!"
+  ]
+ },
+ "dnd_scold": {
+  "_": [
+   "Then fix your phone. I don't chase people.",
+   "Unacceptable. Be reachable."
+  ]
+ },
+ "dnd_ok": {
+  "_": [
+   "...Hm. Technology. Fine.",
+   "Get Burak to look at it."
+  ]
+ },
+ "prank_boss_pick": {
+  "_": [
+   "Hello? ...Hello? Who is this? ...Is someone BREATHING?",
+   "*heavy breathing on the line* ...What on earth?"
+  ]
+ },
+ "prank_boss_see": {
+  "_": [
+   "That call came from {owner}'s extension.",
+   "Extension... {owner}. Interesting."
+  ]
+ },
+ "switch_wrong": {
+  "_": [
+   "Hello? ...No, this isn't accounting. Why does everyone think I'm accounting?",
+   "Wrong desk AGAIN. Ceren, the phones are possessed!"
+  ]
+ },
+ "switch_ceren": {
+  "_": [
+   "The switchboard's gone mad! I didn't touch it!",
+   "Every call is going to the wrong desk. Every. Single. One."
+  ]
+ },
+ "switch_overhear": {
+  "_": [
+   "...Wait, that call was for {intended}. And it was VERY interesting.",
+   "I just took a call meant for {intended}. Oh, the things I heard."
+  ]
+ },
+ "hold_client": {
+  "_": [
+   "The client says our hold music is 'heavy metal screaming'?!",
+   "A client hung up because of the hold music. It's a break-up ballad?!"
+  ]
+ },
+ "hold_boss": {
+  "_": [
+   "Ceren! Our hold music is driving clients away!",
+   "WHO changed the hold music?"
+  ]
+ },
+ "hold_ceren": {
+  "_": [
+   "I didn't change anything! I swear!",
+   "That's not what I set! Someone's been in my system."
+  ]
+ },
+ "coatphone_ring": {
+  "_": [
+   "...Why is {coat}'s jacket RINGING with MY ringtone?",
+   "That's my phone! In {coat}'s coat pocket!"
+  ]
+ },
+ "coatphone_accuse": {
+  "_": [
+   "Why is my phone in YOUR coat, {target}?!",
+   "Explain how my phone got in your pocket, {target}."
+  ]
+ },
+ "coatphone_innocent": {
+  "_": [
+   "I have no idea! I haven't touched my coat all day!",
+   "What?! I didn't take your phone!"
+  ]
+ },
+ "wntt_read": {
+  "_": [
+   "'We need to talk.' From {owner}. ...Oh no.",
+   "'We need to talk'?! What did I do?"
+  ]
+ },
+ "wntt_ask": {
+  "_": [
+   "You wanted to talk? I'm here. Just say it.",
+   "Okay. I'm ready. What's wrong?"
+  ]
+ },
+ "wntt_confused": {
+  "_": [
+   "Talk? About what? I never sent that!",
+   "What? I didn't text you anything!"
+  ]
+ },
+ "wntt_confess": {
+  "_": [
+   "...Okay, maybe I DO need to say something. I like you. A lot.",
+   "Since you're here... I've wanted to tell you something for a while."
+  ]
+ },
+ "wntt_relief": {
+  "_": [
+   "Oh thank god. I thought you were breaking up with me!",
+   "Phew! I've been panicking for an hour!"
+  ]
+ },
+ "alarm_ring": {
+  "_": [
+   "*BEEP BEEP BEEP* 'WAKE UP! WAKE UP!'",
+   "*phone alarm: 'TIME FOR YOUR NAP!'*"
+  ]
+ },
+ "alarm_boss": {
+  "_": [
+   "Is that a PHONE ALARM in my meeting?!",
+   "Whose phone is screaming 'wake up'?!"
+  ]
+ },
+ "alarm_owner": {
+  "_": [
+   "That's not— I didn't set that!",
+   "Sorry! Sorry! I don't know how to turn it off!"
+  ]
+ },
+ "battery_dead": {
+  "_": [
+   "Dead?! It was at 90% an hour ago!",
+   "My phone's DEAD. I need a charger. Now."
+  ]
+ },
+ "battery_borrow": {
+  "_": [
+   "Burak's charger! He won't mind. Probably.",
+   "I'll just borrow Burak's charger for a minute."
+  ]
+ },
+ "photo_see": {
+  "_": [
+   "Is that {owner} at the karaoke night?! Ha!",
+   "That PHOTO of {owner}! The hair! The outfit!",
+   "Who posted {owner} asleep at their desk?!"
+  ]
+ },
+ "photo_owner": {
+  "_": [
+   "Who posted that?! DELETE IT!",
+   "That photo was supposed to be gone forever!"
+  ]
+ },
+ "photo_blame": {
+  "_": [
+   "I bet {suspect} posted that.",
+   "{suspect}. It has to be {suspect}."
+  ]
+ },
+ "mug_drink": {
+  "_": [
+   "Mmm. Coffee. ...This mug's new.",
+   "Nice mug. Is it mine? It's mine now."
+  ]
+ },
+ "mug_claim": {
+  "_": [
+   "Excuse me — that's MY mug.",
+   "Are you drinking out of my mug?!",
+   "That mug. Is. Mine."
+  ],
+  "selin": [
+   "That mug is mine. It has my initials on it."
+  ]
+ },
+ "mug_sorry": {
+  "_": [
+   "Oh! Sorry! They were swapped on the rack!",
+   "Is it? They all look the same!"
+  ]
+ },
+ "mug_blush": {
+  "_": [
+   "...So we've shared a mug now. That's... a step.",
+   "Indirect kiss! ...Sorry. That was weird."
+  ]
+ },
+ "decaf_sleepy": {
+  "_": [
+   "...Why am I still tired? That was my third coffee.",
+   "This coffee isn't working. Is it broken? Am I broken?",
+   "*yaaawn*"
+  ]
+ },
+ "decaf_blame": {
+  "_": [
+   "Zeynep, did you switch us to cheap coffee to save money?!",
+   "It's DECAF! Somebody cut the coffee budget!"
+  ]
+ },
+ "decaf_zeynep": {
+  "_": [
+   "I did NOT touch the coffee budget!",
+   "Don't look at me. I'd never mess with coffee."
+  ]
+ },
+ "lunchmove_found": {
+  "_": [
+   "...My lunch. On the TOP shelf. Behind the mustard. I accused people for NOTHING.",
+   "Oh. There it is. It was hiding. Oops."
+  ]
+ },
+ "cwait_line": {
+  "_": [
+   "'Warming up'? For how long?!",
+   "It says 'please wait'. I've been waiting.",
+   "Come on, come on, warm up!"
+  ]
+ },
+ "cwait_chat": {
+  "_": [
+   "So... since we're both stuck here...",
+   "Coffee queue buddies. How's your day?",
+   "Did you hear what happened yesterday?"
+  ]
+ },
+ "water_dead": {
+  "_": [
+   "The water cooler's dry. In THIS heat?",
+   "No water? Not even water?",
+   "*glug*... nothing."
+  ]
+ },
+ "water_ece_try": {
+  "_": [
+   "I'll fix it! I watched a video once!",
+   "Leave it to me!"
+  ]
+ },
+ "water_flood": {
+  "_": [
+   "Oh no. Oh no no no. WATER EVERYWHERE!",
+   "It's leaking! It's LEAKING!"
+  ]
+ },
+ "snack_search": {
+  "_": [
+   "Where did the snacks go? The snack box is GONE.",
+   "No snacks? This is a crisis."
+  ],
+  "mert": [
+   "Snack emergency. Snack. Emergency."
+  ]
+ },
+ "snack_found": {
+  "_": [
+   "{target}'s drawer is FULL of our snacks!",
+   "So THIS is where the snacks went, {target}."
+  ]
+ },
+ "snack_share": {
+  "_": [
+   "...Okay, they're not mine, but — take some! Take all of them!",
+   "Snacks for everyone! I'm as surprised as you!"
+  ]
+ },
+ "snack_refuse": {
+  "_": [
+   "They're in MY drawer, so... they're my snacks now.",
+   "Finders keepers."
+  ]
+ },
+ "cake_early_see": {
+  "_": [
+   "...Is that a birthday cake? With MY name on it?",
+   "Wait. That cake says my name. Was that... a surprise?"
+  ]
+ },
+ "cake_planner_sad": {
+  "_": [
+   "NO! That was supposed to be a SURPRISE!",
+   "Who put the cake out?! It was hidden!"
+  ]
+ },
+ "reserved_sign": {
+  "_": [
+   "'KITCHEN RESERVED — Ahmet — private lunch'?!",
+   "We can't eat in the kitchen? Since when?"
+  ]
+ },
+ "reserved_boss": {
+  "_": [
+   "Why is there a sign with my name on the kitchen?",
+   "Private lunch? I'm eating a sandwich at my desk!"
+  ]
+ },
+ "micro_dead": {
+  "_": [
+   "The microwave's dead! My lunch is FROZEN!",
+   "Not the microwave. Anything but the microwave.",
+   "Cold pasta. Again."
+  ]
+ },
+ "micro_queue": {
+  "_": [
+   "Is there another microwave anywhere?",
+   "I'm starving and my soup is an ice cube."
+  ]
+ },
+ "fish_smell": {
+  "_": [
+   "WHO MICROWAVED FISH?!",
+   "What is that SMELL?!",
+   "Fish. In the microwave. In an OFFICE."
+  ],
+  "ahmet": [
+   "Who is responsible for this STENCH?"
+  ]
+ },
+ "fish_label": {
+  "_": [
+   "The label says it's {target}'s.",
+   "It's {target}'s lunch. The label's right there."
+  ]
+ },
+ "fish_innocent": {
+  "_": [
+   "That's not my lunch! I brought a sandwich!",
+   "I don't even LIKE fish!"
+  ]
+ },
+ "salt_spit": {
+  "_": [
+   "*PFFT* SALT! There's SALT in the sugar!",
+   "BLEGH! Who put salt in the sugar jar?!"
+  ]
+ },
+ "fnote_read": {
+  "_": [
+   "'STOP STEALING MY YOGHURT. I KNOW WHO YOU ARE. — {target}' ...Wow.",
+   "Passive-aggressive note from {target} on the fridge. Classy."
+  ]
+ },
+ "fnote_deny": {
+  "_": [
+   "I didn't write that note! I don't even eat yoghurt!",
+   "That's not my handwriting!"
+  ]
+ },
+ "purge_shock": {
+  "_": [
+   "The fridge is EMPTY. Where's everyone's lunch?!",
+   "Someone cleaned out the fridge. My lunch was in there!"
+  ]
+ },
+ "purge_out": {
+  "_": [
+   "You know what? Let's all go out for lunch.",
+   "Lunch out, together? My treat-ish."
+  ]
+ },
+ "strong_jitter": {
+  "_": [
+   "I can hear colours.",
+   "WOW. That's... that's coffee. WOW.",
+   "My heart is doing a drum solo."
+  ],
+  "mert": [
+   "I could close ten deals right now. TEN."
+  ]
+ },
+ "jitter_snap": {
+  "_": [
+   "Can you STOP TAPPING?!",
+   "Could you breathe more QUIETLY?",
+   "WHY are you so LOUD?"
+  ]
+ },
+ "jitter_snap2": {
+  "_": [
+   "I'M NOT TAPPING! YOU'RE tapping!",
+   "Oh, I'M loud?!"
+  ]
+ },
+ "tray_call": {
+  "_": [
+   "Free cookies in the kitchen! Who brought these?",
+   "Tea and cookies! Kitchen! Now!"
+  ]
+ },
+ "tray_claim": {
+  "_": [
+   "...Oh, the cookies? Yes. That was me. You're welcome.",
+   "Just a little something for the team."
+  ]
+ },
+ "tray_thanks": {
+  "_": [
+   "You're the best!",
+   "Thank you! These are amazing."
+  ]
+ },
+ "lastcup_take": {
+  "_": [
+   "Last cup! Ha! Mine.",
+   "Ooh, exactly one cup left. Lucky me."
+  ]
+ },
+ "lastcup_whine": {
+  "_": [
+   "Did you just take the LAST cup?!",
+   "That was the last coffee. I saw it. You saw me see it."
+  ]
+ },
+ "lastcup_share": {
+  "_": [
+   "...Fine. Half each?",
+   "Here. Have half. I'm not a monster."
+  ]
+ },
+ "lastcup_keep": {
+  "_": [
+   "First come, first served.",
+   "Snooze you lose."
+  ]
+ },
+ "bestboss_boss": {
+  "_": [
+   "'World's Best Boss'... from {target}? Well. Well, well.",
+   "A mug! For me! From {target}! How thoughtful."
+  ]
+ },
+ "bestboss_thank": {
+  "_": [
+   "{target}, thank you for the mug. I'm touched.",
+   "Excellent taste in mugs, {target}."
+  ]
+ },
+ "bestboss_confused": {
+  "_": [
+   "...You're welcome? What mug?",
+   "Oh — um — yes! The mug! Of course."
+  ]
+ },
+ "bestboss_eyeroll": {
+  "_": [
+   "A 'World's Best Boss' mug? Really, {target}?",
+   "Wow. Shameless."
+  ]
+ },
+ "spa_enjoy": {
+  "_": [
+   "Lemon water? Cucumber slices? I'm never leaving.",
+   "'Spa day'. I could get used to this.",
+   "Ahh. Hydration. Luxury."
+  ]
+ },
+ "spa_boss": {
+  "_": [
+   "Is this a spa or an office?!",
+   "Back to your desks! This isn't a holiday resort!"
+  ]
+ },
+ "printer_ghostfix": {
+  "_": [
+   "...It works? It WORKS! Who fixed it?",
+   "The printer's fixed! Nobody touched it... did they?"
+  ]
+ },
+ "wchair_collapse": {
+  "_": [
+   "WHOA— *CRASH*",
+   "AAH! My chair!",
+   "*thud* ...Ow."
+  ],
+  "ahmet": [
+   "*CRASH* WHO GAVE ME THIS CHAIR?!"
+  ]
+ },
+ "wchair_help": {
+  "_": [
+   "Are you okay?! Here, take my hand.",
+   "Oh no! Are you hurt?"
+  ]
+ },
+ "wchair_laugh": {
+  "_": [
+   "HAHAHA! Sorry! Sorry. Are you okay? HAHA!",
+   "That was the best thing I've seen all week."
+  ]
+ },
+ "packed_see": {
+  "_": [
+   "...Why is all my stuff in a BOX?",
+   "My desk is packed. In a box. Am I... fired?!",
+   "A cardboard box. With my things. Oh no."
+  ]
+ },
+ "packed_witness": {
+  "_": [
+   "Is {owner} being let go?!",
+   "{owner}'s desk is in a box... poor thing."
+  ]
+ },
+ "packed_ask": {
+  "_": [
+   "Ahmet Bey — am I fired? My things are in a box!",
+   "Please tell me I still have a job."
+  ]
+ },
+ "packed_boss_no": {
+  "_": [
+   "Fired? Who packed your desk? You're not going anywhere.",
+   "Nobody's fired. Unpack. And find out who did that."
+  ]
+ },
+ "nopaper": {
+  "_": [
+   "Out of paper? Again?",
+   "'Load paper'. With WHAT? The tray's empty!"
+  ]
+ },
+ "nopaper_shelf": {
+  "_": [
+   "The supply shelf has no paper either?!",
+   "Not a single sheet in the whole office."
+  ]
+ },
+ "nopaper_ok": {
+  "_": [
+   "Found some. Crisis averted.",
+   "There we go. Paper."
+  ]
+ },
+ "music_love": {
+  "_": [
+   "Ooh, I LOVE this song!",
+   "Finally, some good music!",
+   "*dancing in chair*"
+  ],
+  "mert": [
+   "DJ, turn it UP!"
+  ],
+  "ece": [
+   "This is my JAM!"
+  ]
+ },
+ "music_hate": {
+  "_": [
+   "Who put THIS on?!",
+   "Make it stop. Please.",
+   "My ears. My poor ears."
+  ],
+  "burak": [
+   "Noise-cancelling headphones: ON."
+  ]
+ },
+ "music_boss_off": {
+  "_": [
+   "Who's playing music in MY office?!",
+   "Turn that off! This is a workplace!"
+  ]
+ },
+ "alarm_panic": {
+  "_": [
+   "FIRE ALARM! Everybody out!",
+   "Is this a drill?! Out, out, out!",
+   "Leave everything! GO!"
+  ],
+  "ahmet": [
+   "Everyone — calmly — OUT. NOW!"
+  ],
+  "ece": [
+   "My laptop! No — leave it! Run!"
+  ],
+  "burak": [
+   "Probably nothing. Still leaving."
+  ]
+ },
+ "alarm_outside": {
+  "_": [
+   "Was it real? I don't smell smoke.",
+   "Well, this is the most social we've been all week.",
+   "Who pulled the alarm?!"
+  ]
+ },
+ "alarm_back": {
+  "_": [
+   "False alarm. Back to work, everyone.",
+   "Nothing. NOTHING. Back inside."
+  ]
+ },
+ "wallclock_see": {
+  "_": [
+   "Is it really {time} already?",
+   "The clock says {time}! Where did the day go?"
+  ]
+ },
+ "wallclock_leave_boss": {
+  "_": [
+   "Where are you going? It's not even five!",
+   "Sit down. That clock is wrong and you know it."
+  ]
+ },
+ "wallclock_excuse": {
+  "_": [
+   "The wall clock said it was home time!",
+   "But... the clock!"
+  ]
+ },
+ "plant_notice": {
+  "_": [
+   "Has the ficus... come back to life?",
+   "Look at the plant! It's GREEN again!",
+   "Someone's been looking after Ficus."
+  ]
+ },
+ "plant_thank": {
+  "_": [
+   "{target}, was it you who saved the plant? That's so sweet.",
+   "I bet you rescued the ficus, {target}."
+  ]
+ },
+ "plant_nope": {
+  "_": [
+   "Not me! I can't even keep a cactus alive.",
+   "Wasn't me. But it looks great!"
+  ]
+ },
+ "door_stuck": {
+  "_": [
+   "The door won't open! We're locked IN!",
+   "It's stuck! I can't get out!"
+  ]
+ },
+ "door_fix": {
+  "_": [
+   "Stand back. It's just the latch.",
+   "Here — you have to lift it AND push."
+  ],
+  "burak": [
+   "Classic. The latch again."
+  ]
+ },
+ "thermo_locked": {
+  "_": [
+   "The thermostat's LOCKED?! Who locked it?!",
+   "'Settings locked'. LOCKED. I'm FREEZING.",
+   "It won't let me change it!"
+  ]
+ },
+ "net_down": {
+  "_": [
+   "The internet's down! Everywhere!",
+   "No network?! I can't do ANYTHING.",
+   "Did we just go back to the Stone Age?"
+  ],
+  "burak": [
+   "...That's not a glitch. Someone unplugged the switch."
+  ]
+ },
+ "net_hero": {
+  "_": [
+   "Back online. You're welcome.",
+   "Network's up. Nobody touch the blue box."
+  ]
+ },
+ "coat_wrong": {
+  "_": [
+   "...This coat smells like someone else's perfume.",
+   "Why are the sleeves so long? ...This isn't my coat."
+  ]
+ },
+ "coat_swapback": {
+  "_": [
+   "I think you went home in my coat yesterday.",
+   "Is this yours? I wore it all evening. Sorry!"
+  ]
+ },
+ "coat_laugh": {
+  "_": [
+   "Ha! It looked better on you, honestly.",
+   "Keep it. Kidding. Give it back."
+  ]
+ },
+ "coat_romance": {
+  "_": [
+   "It still smells like you. ...I mean. Here's your coat.",
+   "I... kind of liked wearing it."
+  ]
+ },
+ "slip": {
+  "_": [
+   "WHOA— *SPLAT*",
+   "*slips* AAAH!",
+   "Who put a PUDDLE here?!"
+  ]
+ },
+ "slip_help": {
+  "_": [
+   "Are you okay?! Careful!",
+   "Here, let me help you up."
+  ]
+ },
+ "disco_wow": {
+  "_": [
+   "DISCO LIGHTS?! In the OFFICE?!",
+   "Why is everything purple and flashing?!",
+   "Party time? It's a Tuesday!"
+  ],
+  "mert": [
+   "Finally. My moment has come."
+  ],
+  "ece": [
+   "DANCE BREAK!"
+  ]
+ },
+ "disco_boss": {
+  "_": [
+   "WHAT IS HAPPENING TO MY LIGHTS?!",
+   "This is an office, not a nightclub!"
+  ]
+ },
+ "flicker_scared": {
+  "_": [
+   "Why are the lights flickering like that?!",
+   "Okay, this is how horror movies start.",
+   "Did you see that? The lights... breathed."
+  ],
+  "ece": [
+   "I'm not scared. I'm NOT scared. I'm a LITTLE scared."
+  ],
+  "zeynep": [
+   "I knew it. This building is haunted."
+  ]
+ },
+ "flicker_burak": {
+  "_": [
+   "It's a loose connection. Not ghosts. Probably.",
+   "I'll check the breaker. Nobody panic."
+  ]
+ },
+ "kindnote_read": {
+  "_": [
+   "'{best} is the only reason I come to work.' — {owner}'s note?",
+   "A note on {owner}'s desk: '{best} always makes my day better.'"
+  ]
+ },
+ "kindnote_me": {
+  "_": [
+   "...{owner} wrote that about ME?",
+   "Oh. {owner} thinks that about me? I... wow."
+  ]
+ },
+ "giftcard_find": {
+  "_": [
+   "A present? With MY name on it? From {giver}?",
+   "'For {target}, with love — {giver}'. For me?!"
+  ]
+ },
+ "giftcard_thank": {
+  "_": [
+   "{target}! I mean — {giver}! Thank you for the present!",
+   "I got your gift! You shouldn't have!"
+  ]
+ },
+ "giftcard_what": {
+  "_": [
+   "...That gift was for {intended}.",
+   "Oh no. That was meant for {intended}!"
+  ]
+ },
+ "giftcard_intended": {
+  "_": [
+   "So my present went to someone else. Nice.",
+   "I didn't get anything. Cool. Cool cool cool."
+  ]
+ },
+ "source_read": {
+  "_": [
+   "'The rumour about {subject}? Started by {origin}.' Pinned right there.",
+   "So {origin} started that story about {subject}..."
+  ]
+ },
+ "stickyswap_read": {
+  "_": [
+   "'Lunch at one? My treat.' — from {owner}? To me?",
+   "A note from {owner}: 'Lunch at 1?' ...Sure!"
+  ]
+ },
+ "stickyswap_meet": {
+  "_": [
+   "You wanted lunch? ...With me?",
+   "Here I am, lunch buddy."
+  ]
+ },
+ "stickyswap_ok": {
+  "_": [
+   "Ha. Why not? Let's go.",
+   "Wrong note, right person, maybe."
+  ]
+ },
+ "apology_wrong_read": {
+  "_": [
+   "'I'm so sorry for what I said'... from {owner}? What did {owner} say?",
+   "An apology letter from {owner}? To me? For what?"
+  ]
+ },
+ "apology_wrong_ask": {
+  "_": [
+   "{target}, I got your apology. Did you... say something about me?",
+   "Why are you apologising to me? What happened?"
+  ]
+ },
+ "apology_wrong_explain": {
+  "_": [
+   "That letter wasn't for you! It was for {foe}!",
+   "Oh no. That was meant for {foe}."
+  ]
+ },
+ "collection_see": {
+  "_": [
+   "'Collection for {bdayp}'s birthday'... for ME?",
+   "A secret envelope collecting for my birthday? Aww."
+  ]
+ },
+ "collection_sad": {
+  "_": [
+   "Who left the envelope OUT?! It was a secret!",
+   "There goes the surprise."
+  ]
+ },
+ "defend_read": {
+  "_": [
+   "{owner} wrote to Ahmet: '{best} deserves more credit than anyone here.'",
+   "{owner} defended me? To AHMET? When I wasn't even there?"
+  ]
+ },
+ "defend_thank": {
+  "_": [
+   "{target}... I saw what you wrote about me. Thank you.",
+   "You stood up for me. I didn't know. Thank you."
+  ]
+ },
+ "defend_shy": {
+  "_": [
+   "Oh — you saw that? It's just the truth.",
+   "Don't make it a big deal. You deserve it."
+  ]
+ },
+ "lunchinv_read": {
+  "_": [
+   "An invitation to lunch — from {owner}? For me?",
+   "'Lunch together today?' — {owner}. ...Okay!"
+  ]
+ },
+ "lunchinv_awk": {
+  "_": [
+   "So. Um. Lunch. Great weather.",
+   "...",
+   "Nice sandwich."
+  ]
+ },
+ "lunchinv_click": {
+  "_": [
+   "Okay, why have we never done this before?!",
+   "You're actually really funny!"
+  ]
+ },
+ "lovenote_read": {
+  "_": [
+   "'Every time you walk by, I forget my password.' — {owner}? To ME?",
+   "A love note. From {owner}. On my desk. Oh my."
+  ]
+ },
+ "lovenote_jealous": {
+  "_": [
+   "{owner} sent YOU a love note?!",
+   "Wait. {owner} likes {target}?"
+  ]
+ },
+ "pact_read": {
+  "_": [
+   "'Alliance agreement: {a} and {b} will back each other up.' Signed?!",
+   "{a} and {b} have a WRITTEN pact? Wow."
+  ]
+ },
+ "compliment_read": {
+  "_": [
+   "'{target} is the kindest person in this office.' Anonymous!",
+   "Someone pinned a compliment about {target}. Aww."
+  ]
+ },
+ "compliment_self": {
+  "_": [
+   "Someone wrote that about ME? Who?!",
+   "An anonymous compliment... for me. I need to know who wrote it."
+  ]
+ },
+ "complaint_read": {
+  "_": [
+   "'Dear {target}: please stop humming. Signed, everyone.' ...Wow.",
+   "An anonymous note on the board. About me. About my HUMMING."
+  ]
+ },
+ "complaint_suspect": {
+  "_": [
+   "This is {hater}. I know it is.",
+   "{hater}. Has to be."
+  ]
+ },
+ "santa_give": {
+  "_": [
+   "So... I drew your name. Here. It's a gift.",
+   "Secret gift time. I got... you."
+  ]
+ },
+ "santa_nice": {
+  "_": [
+   "...This is actually really thoughtful. Thank you.",
+   "You remembered I like this? Huh."
+  ]
+ },
+ "santa_mean": {
+  "_": [
+   "A book called 'How To Be Less Annoying'? Really?",
+   "Is this a joke? Because it's not funny."
+  ]
+ },
+ "notebook_find": {
+  "_": [
+   "Whose notebook is this? ...{target}'s.",
+   "{target} left their notebook on the sofa. Open."
+  ]
+ },
+ "notebook_close": {
+  "_": [
+   "Nope. Not reading it. I'll give it back.",
+   "This is private. I'm not looking."
+  ]
+ },
+ "notebook_return": {
+  "_": [
+   "You left this on the sofa. I didn't read it.",
+   "Your notebook. Don't worry, I didn't look."
+  ]
+ },
+ "notebook_thanks": {
+  "_": [
+   "Thank you. Seriously.",
+   "You're a good person."
+  ]
+ },
+ "lunchseat_a": {
+  "_": [
+   "...Of course. The name cards put me next to YOU.",
+   "Great. Lunch with you."
+  ]
+ },
+ "lunchseat_fight": {
+  "_": [
+   "Can you chew more quietly?",
+   "You're in my elbow space."
+  ]
+ },
+ "lunchseat_peace": {
+  "_": [
+   "...Okay. Look. Maybe we got off on the wrong foot.",
+   "Truce over sandwiches?"
+  ]
+ },
+ "couplephoto_see": {
+  "_": [
+   "Is that {target} and {partner}... holding hands?!",
+   "A photo of {target} and {partner}! Together!"
+  ]
+ },
+ "couplephoto_deny": {
+  "_": [
+   "That's FAKE! That's photoshopped!",
+   "We have NEVER held hands!"
+  ]
+ },
+ "couplephoto_secret": {
+  "_": [
+   "...It's fake. Obviously. ...It's a nice photo, though.",
+   "Ha. Fake. Right. Totally fake."
+  ]
+ },
+ "excluded_read": {
+  "_": [
+   "'Drinks after work! Everyone welcome!' ...Except me, apparently.",
+   "Every name on the list but mine."
+  ]
+ },
+ "excluded_ask": {
+  "_": [
+   "So... your drinks invite. Did you leave me off on purpose?",
+   "Why wasn't I on the list?"
+  ]
+ },
+ "excluded_sorry": {
+  "_": [
+   "What? No! You're invited! Of course you're invited!",
+   "That's not my list! Come! Please come!"
+  ]
+ },
+ "excluded_cold": {
+  "_": [
+   "Well... it's a small group.",
+   "It's not a big deal."
+  ]
+ },
+ "tipjar_see": {
+  "_": [
+   "'Thank you Burak for fixing everything.' A tip jar! I'm in.",
+   "A tip jar for Burak? He deserves it."
+  ]
+ },
+ "tipjar_burak": {
+  "_": [
+   "...Is this for me? Who did this?",
+   "A tip jar. For me. Huh. Thanks, everyone."
+  ]
+ },
+ "sbox_boss_promote": {
+  "_": [
+   "Six notes saying 'Promote {target}'. Interesting.",
+   "The staff seem to love {target}. Noted."
+  ]
+ },
+ "sbox_boss_fire": {
+  "_": [
+   "Six notes saying 'Fire {target}'?! What's going on?",
+   "Hm. Someone REALLY doesn't like {target}."
+  ]
+ },
+ "sbox_target_hear": {
+  "_": [
+   "People wrote 'fire me' in the suggestion box?!",
+   "Who would write that about me?!"
+  ]
+ },
+ "iknow_read": {
+  "_": [
+   "'I know what you did.' ...What? WHO knows WHAT?",
+   "'I know what you did.' No signature. My hands are shaking."
+  ]
+ },
+ "iknow_confess": {
+  "_": [
+   "I have to tell someone. Okay. {friend}... I need to tell you something.",
+   "{friend}, can we talk? Somewhere private?"
+  ]
+ },
+ "iknow_paranoid": {
+  "_": [
+   "Everybody's looking at me. They all know. Don't they?",
+   "Was it you? Was it YOU?"
+  ]
+ },
+ "j01_intro": {
+  "_": [
+   "Before we start — I have promotion news. I've read the file.",
+   "One announcement first. The promotion file is very clear."
+  ]
+ },
+ "j02_blush": {
+  "_": [
+   "A love note AND a coffee invite? From {owner}? Today?",
+   "Oh my god. {owner} wants a DATE?"
+  ]
+ },
+ "j03_read": {
+  "_": [
+   "A job application — stapled to THIS performance report? {applicant}. My office.",
+   "So {applicant} wants out. And look at this report."
+  ]
+ },
+ "j03_accuse": {
+  "_": [
+   "Your report is a disaster and you're applying elsewhere. Explain.",
+   "Job hunting? With numbers like these? Interesting."
+  ]
+ },
+ "j03_quit": {
+  "_": [
+   "You know what? Fine. I quit. I'll print my letter now.",
+   "I'm done. You'll have my resignation in ten minutes."
+  ]
+ },
+ "j03_plead": {
+  "_": [
+   "Please — the report is wrong! I can explain everything!",
+   "That's not my report! Someone changed it!"
+  ]
+ },
+ "j04_send": {
+  "_": [
+   "*whoosh* — 'Final figures, CC Ahmet' — sent.",
+   "*the old spreadsheet leaves the building*"
+  ]
+ },
+ "j05_read": {
+  "_": [
+   "'Restructuring — Q&A, 11:00'?! It's on the AGENDA?!",
+   "The memo AND the agenda? This is real. They're firing people."
+  ]
+ },
+ "j06_crown": {
+  "_": [
+   "The board says I'm acting manager today. Who am I to argue?",
+   "'Acting manager: me.' Well. If the board says so."
+  ]
+ },
+ "j07_scream": {
+  "_": [
+   "THE LIGHTS ARE FLICKERING AND MY SCREEN HAS A SKULL ON IT!",
+   "It's in the COMPUTERS now. The ghost is in the computers!"
+  ]
+ },
+ "j08_read": {
+  "_": [
+   "Raise budget ZERO — and THAT's what some people earn?!",
+   "I've seen the payroll. And now 'no raises'? No. Absolutely not."
+  ]
+ },
+ "j09_kickoff": {
+  "_": [
+   "Music? Disco lights? SNACKS? This is a party. I'm making it a party.",
+   "Okay, the universe wants a party. Who am I to say no?"
+  ]
+ },
+ "j10_find": {
+  "_": [
+   "A transfer request. AND a reference letter. Both for {target}.",
+   "Hm. {target}'s papers. Both of them. Interesting."
+  ]
+ },
+ "j11_note": {
+  "_": [
+   "'Double date at lunch?' Who wrote that on our photo?!",
+   "Someone's drawn hearts on the photo. And a lunch table. For four."
+  ]
+ },
+ "j13_reminder": {
+  "_": [
+   "CLIENT ARRIVING IN 30 MINUTES — the projector's first.",
+   "*taps the board* 'Client presentation: {presenter}'. Wait. Me?"
+  ]
+ },
+ "j15_sign": {
+  "_": [
+   "'I threw it all out. Label your food. — {signer}'?!",
+   "{signer} threw out EVERYONE's lunch? And signed it?!"
+  ]
+ },
+ "j16_see": {
+  "_": [
+   "'I quit' auto-reply AND a resignation letter? {owner} is really leaving!",
+   "Oh no. {owner}'s leaving. It's real. The letter's right there."
+  ]
+ },
+ "j18_storm": {
+  "_": [
+   "That review was RIGGED. Someone rewrote my report and he believed every word!",
+   "He read me a report I never wrote. And he enjoyed it."
+  ]
+ },
+ "j19_sign": {
+  "_": [
+   "The anonymous complaint about me is in {gossip}'s handwriting?!",
+   "So it was {gossip}. The rumour AND the complaint."
+  ]
+ },
+ "j20_wonder": {
+  "_": [
+   "A kind note AND a compliment on the board? Someone likes me. Who?!",
+   "Two anonymous nice things in one day? This is a secret admirer."
+  ]
+ },
+ "gh_announce": {
+  "_": [
+   "I'm telling you: this office is HAUNTED.",
+   "Lights. Printers. Coffee machines. It's a ghost. I'm sure of it.",
+   "Something is living in this office. Something... invisible."
+  ],
+  "ece": [
+   "There's a GHOST. I'm scared but also SO excited."
+  ],
+  "zeynep": [
+   "I've seen things. I'm keeping notes."
+  ]
+ },
+ "gh_recruit": {
+  "_": [
+   "Séance. Meeting room. After lunch. You in?",
+   "We need to contact the ghost. Properly. Are you with me?"
+  ]
+ },
+ "gh_recruit_yes": {
+  "_": [
+   "YES. I'll bring candles.",
+   "I'm in. I've always wanted to do a séance."
+  ]
+ },
+ "gh_recruit_no": {
+  "_": [
+   "Absolutely not. You need sleep.",
+   "I'm not talking to the printer's soul."
+  ]
+ },
+ "gh_chant": {
+  "_": [
+   "Spirit of the office... are you there? Knock once for yes.",
+   "Oh ghost... if you're here... flicker the lights."
+  ]
+ },
+ "gh_scream": {
+  "_": [
+   "AAAAAH! IT ANSWERED!",
+   "THE LIGHTS! DID YOU SEE THE LIGHTS?!"
+  ]
+ },
+ "gh_nothing": {
+  "_": [
+   "...Nothing.",
+   "Maybe it's on lunch break.",
+   "Well. That was an hour of my life."
+  ]
+ },
+ "gh_debunk": {
+  "_": [
+   "It was a loose wire in the ceiling. Not a ghost. Please stop.",
+   "I checked the breaker. Faulty relay. There is no ghost."
+  ]
+ },
+ "gh_believe_burak": {
+  "_": [
+   "...Oh. A relay. Right. Of course.",
+   "Fine. No ghost. ...Probably."
+  ]
+ },
+ "gh_dont_believe": {
+  "_": [
+   "That's EXACTLY what a ghost would want you to say.",
+   "You can't explain everything with 'relays', Burak."
+  ]
+ },
+ "coup_announce": {
+  "_": [
+   "Attention, everyone! New efficiency measures, effective immediately.",
+   "Listen up. While Ahmet's busy, I'm streamlining things."
+  ],
+  "deniz": [
+   "Team. A few changes. Effective now. Questions? No? Good."
+  ]
+ },
+ "coup_follow": {
+  "_": [
+   "Sure, whatever you say.",
+   "Okay! New rules!"
+  ]
+ },
+ "coup_resist": {
+  "_": [
+   "Who put YOU in charge?",
+   "You're not the boss.",
+   "Nice try."
+  ]
+ },
+ "coup_ally_ask": {
+  "_": [
+   "You and me. When Ahmet's out, we run this place. Deal?",
+   "I need a second-in-command. Interested?"
+  ]
+ },
+ "coup_ally_yes": {
+  "_": [
+   "...Deal. What's in it for me?",
+   "I'm listening."
+  ]
+ },
+ "coup_ally_no": {
+  "_": [
+   "You're going to get us both fired.",
+   "Leave me out of this."
+  ]
+ },
+ "coup_boss": {
+  "_": [
+   "I hear YOU'VE been running my office, {usurper}.",
+   "'Efficiency measures', {usurper}? In MY office?"
+  ]
+ },
+ "coup_bold": {
+  "_": [
+   "Someone had to. Things were falling apart.",
+   "I took initiative. You're welcome."
+  ]
+ },
+ "coup_crushed": {
+  "_": [
+   "You're on thin ice. Very thin.",
+   "One more stunt and you're done here."
+  ]
+ },
+ "coup_impressed": {
+  "_": [
+   "...Actually, some of those measures aren't bad. Write them up.",
+   "Hm. Bold. Maybe too bold. But not stupid."
+  ]
+ },
+ "lt_notice": {
+  "_": [
+   "...Is {lover} flirting with {crush}? Right in front of me?",
+   "Oh, I see how it is. {lover} and {crush}. Cute."
+  ]
+ },
+ "lt_warn": {
+  "_": [
+   "Back off. I saw {crush} first.",
+   "Stay away from {crush}. I mean it."
+  ]
+ },
+ "lt_backoff": {
+  "_": [
+   "...Fine. If it means that much to you.",
+   "Okay. Okay. I'll step back."
+  ]
+ },
+ "lt_never": {
+  "_": [
+   "May the best person win.",
+   "Not a chance. {crush} can decide."
+  ]
+ },
+ "lt_gesture": {
+  "_": [
+   "I made you a coffee. The way you like it. With a heart in the foam.",
+   "Got you something. Saw it and thought of you."
+  ]
+ },
+ "lt_gesture_react": {
+  "_": [
+   "...That's really sweet.",
+   "Oh! Thank you!",
+   "You remembered?!"
+  ]
+ },
+ "lt_choice_ask": {
+  "_": [
+   "So. Me or {lover}? I need to know.",
+   "I have to ask: is there something between you and {lover}?"
+  ]
+ },
+ "lt_choose_rival": {
+  "_": [
+   "...Honestly? It's you. It was always you.",
+   "You. Obviously you."
+  ]
+ },
+ "lt_choose_lover": {
+  "_": [
+   "I'm sorry. I like {lover}.",
+   "It's {lover}. I'm sorry."
+  ]
+ },
+ "lt_choose_none": {
+  "_": [
+   "Neither of you! You're both ridiculous!",
+   "I'm not a trophy. I'm not choosing anyone."
+  ]
+ },
+ "sr_grumble": {
+  "_": [
+   "We work harder every year and earn LESS. Enough.",
+   "Is anyone else sick of this? Because I am.",
+   "We should do something. Together."
+  ]
+ },
+ "sr_sign": {
+  "_": [
+   "Sign the petition? Fair raises for everyone.",
+   "One signature. For all of us."
+  ]
+ },
+ "sr_signed": {
+  "_": [
+   "Give me that pen.",
+   "Signed. About time.",
+   "Okay. I'm in."
+  ]
+ },
+ "sr_refused": {
+  "_": [
+   "I can't risk it.",
+   "Leave me out. I like my job.",
+   "Not my fight."
+  ]
+ },
+ "sr_count_many": {
+  "_": [
+   "Look at all these signatures. They can't ignore this.",
+   "We've got numbers. Now we march."
+  ]
+ },
+ "sr_count_few": {
+  "_": [
+   "...Two signatures. One of them is mine.",
+   "Nobody signed. Cowards. All of them."
+  ]
+ },
+ "sr_demand": {
+  "_": [
+   "Ahmet Bey, we're asking for fair raises. All of us.",
+   "We've signed a petition. We want to be paid fairly."
+  ]
+ },
+ "sr_concede": {
+  "_": [
+   "...Fine. I'll take it to HQ. You'll get something. I promise.",
+   "You make a fair point. I'll fight for it."
+  ]
+ },
+ "sr_refuse": {
+  "_": [
+   "A PETITION? This isn't a union hall!",
+   "Anyone unhappy knows where the door is."
+  ]
+ },
+ "lm_outrage": {
+  "_": [
+   "That's the THIRD time! I'm finding out who it is.",
+   "Somebody in this office is a LUNCH THIEF. And I'm going to catch them."
+  ]
+ },
+ "lm_hire": {
+  "_": [
+   "You notice everything. Help me catch a lunch thief?",
+   "I need a detective. You're the nosiest person I know. That's a compliment."
+  ]
+ },
+ "lm_accept": {
+  "_": [
+   "A mystery? I'm IN.",
+   "Leave it to me. Nobody steals lunch on my watch."
+  ]
+ },
+ "lm_watch": {
+  "_": [
+   "*hiding behind the fridge door* Any minute now...",
+   "Stakeout. Fridge. Eyes open."
+  ]
+ },
+ "lm_caught": {
+  "_": [
+   "GOTCHA! Hands off that lunch, {culprit}!",
+   "Caught red-handed, {culprit}! With a FORK!"
+  ]
+ },
+ "lm_caught_excuse": {
+  "_": [
+   "I— it looked abandoned!",
+   "I thought it was free food!",
+   "It's not what it looks like. It's exactly what it looks like."
+  ]
+ },
+ "lm_nobody": {
+  "_": [
+   "Nothing. Nobody. The thief must know we're watching.",
+   "Two hours by the fridge. Not even a yoghurt."
+  ]
+ },
+ "lm_bait": {
+  "_": [
+   "One extra-spicy 'lunch', labelled 'DO NOT EAT'. Let's see who can resist.",
+   "*plants a suspiciously delicious box in the fridge* Bait's set."
+  ]
+ },
+ "lm_spicy": {
+  "_": [
+   "HHHHH— WATER! WATER!",
+   "WHY IS IT SO SPICY?!",
+   "My mouth is on FIRE!"
+  ]
+ },
+ "lm_laugh": {
+  "_": [
+   "HAHA! Serves you right!",
+   "Somebody get them some milk!",
+   "That's what you get for stealing!"
+  ]
+ },
+ "lm_gotcha_bait": {
+  "_": [
+   "Caught by the chilli! It's {culprit}!",
+   "The bait worked! {culprit}, you're busted!"
+  ]
+ },
+ "lm_confront": {
+  "_": [
+   "{culprit}. You ate my lunch. Three times.",
+   "So it was YOU all along, {culprit}."
+  ]
+ },
+ "lm_sorry": {
+  "_": [
+   "...I'll buy you lunch for a week. I'm sorry.",
+   "Okay. Guilty. Let me make it up to you."
+  ]
+ },
+ "lm_deny": {
+  "_": [
+   "Prove it.",
+   "Your 'detective' is lying.",
+   "I don't know what you're talking about."
+  ]
+ },
+ "wp_announce": {
+  "_": [
+   "Everyone! I'm proud to announce our new team lead: {credited}!",
+   "Congratulations to {credited} — promoted, effective today!"
+  ]
+ },
+ "wp_credited": {
+  "_": [
+   "Wait — ME? Really?!",
+   "I... wow. Thank you?!"
+  ],
+  "deniz": [
+   "Finally. Recognition."
+  ]
+ },
+ "wp_rightful": {
+  "_": [
+   "...What? That was supposed to be MINE.",
+   "{credited}?! Based on WHAT?"
+  ]
+ },
+ "wp_protest": {
+  "_": [
+   "Ahmet Bey, with respect — that promotion file was wrong.",
+   "Somebody tampered with the file. You know it was supposed to be me."
+  ]
+ },
+ "wp_boss_doubt": {
+  "_": [
+   "...I'll look into it.",
+   "Tampered? Hm. Let me check."
+  ]
+ },
+ "wp_boss_stubborn": {
+  "_": [
+   "I've announced it. It stands.",
+   "I don't reverse my decisions in public."
+  ]
+ },
+ "wp_correct": {
+  "_": [
+   "Correction, everyone. The file was tampered with. The promotion goes to {rightful}.",
+   "I made a mistake. {rightful} is our new team lead."
+  ]
+ },
+ "wp_credited_crushed": {
+  "_": [
+   "...Of course. Of course it was a mistake.",
+   "Wonderful. Promoted and demoted before lunch."
+  ]
+ },
+ "sa_leave": {
+  "_": [
+   "*slides a folded note under {beloved}'s keyboard*",
+   "*leaves a little note on {beloved}'s desk and walks away fast*"
+  ]
+ },
+ "sa_find": {
+  "_": [
+   "'You make Mondays bearable.' No signature...",
+   "Another anonymous note? Who IS this?"
+  ]
+ },
+ "sa_guess": {
+  "_": [
+   "Was it you? The notes? Be honest.",
+   "Somebody's leaving me notes. Is it you?"
+  ]
+ },
+ "sa_wrong_yes": {
+  "_": [
+   "...Maybe.",
+   "Guilty! I mean... yes?"
+  ]
+ },
+ "sa_wrong_no": {
+  "_": [
+   "Notes? Not me. But I'm jealous!",
+   "No... but now I want to know too."
+  ]
+ },
+ "sa_confess": {
+  "_": [
+   "The notes... they were me. All of them.",
+   "I'm your secret admirer. Surprise?"
+  ]
+ },
+ "sad_yes": {
+  "_": [
+   "...I was hoping it was you.",
+   "Really? You? ...I'd like that."
+  ]
+ },
+ "sa_kind_no": {
+  "_": [
+   "That's really sweet. But I don't feel the same. I'm sorry.",
+   "I'm flattered. Truly. But... no."
+  ]
+ },
+ "cs_call": {
+  "_": [
+   "*on the phone* ...Yes, I'm handling the account now. {victim}? Oh, they're very busy.",
+   "*whispering into phone* Let me take care of you personally."
+  ]
+ },
+ "cs_learn": {
+  "_": [
+   "My client says they've been 'working with {thief}'?!",
+   "{thief} went behind my back to MY client!"
+  ]
+ },
+ "cs_pitch_boss": {
+  "_": [
+   "Ahmet Bey, that client is MINE. I built that account.",
+   "Ahmet Bey, {thief} is poaching my client. I want it back."
+  ]
+ },
+ "cs_boss_victim": {
+  "_": [
+   "You're right. Mert keeps the account. {thief}, back off.",
+   "The account stays with you."
+  ]
+ },
+ "cs_boss_thief": {
+  "_": [
+   "The client prefers {thief}. Results are results.",
+   "Sorry. The client asked for {thief}."
+  ]
+ },
+ "es_spot": {
+  "_": [
+   "Hm. That's a lot of 'client lunches' for {suspect}.",
+   "Three taxis to the same restaurant, {suspect}? On a Sunday?"
+  ]
+ },
+ "es_ask": {
+  "_": [
+   "{suspect}, can you explain these receipts?",
+   "Quick question about your expenses, {suspect}..."
+  ]
+ },
+ "es_explain": {
+  "_": [
+   "Those were legitimate! Client dinners!",
+   "I can explain every single one."
+  ]
+ },
+ "es_panic": {
+  "_": [
+   "...Can we keep this between us?",
+   "Please don't take this to Ahmet."
+  ]
+ },
+ "es_report": {
+  "_": [
+   "Ahmet Bey, you need to see these expense claims.",
+   "I found some irregularities. It's {suspect}."
+  ]
+ },
+ "es_keep": {
+  "_": [
+   "...I'll keep it quiet. This time. You owe me.",
+   "Our little secret. For now."
+  ]
+ },
+ "mm_assign": {
+  "_": [
+   "{mentor}, from today you're mentoring {mentee}. Make it work.",
+   "New arrangement: {mentor} mentors {mentee}. Don't argue."
+  ]
+ },
+ "mm_groan": {
+  "_": [
+   "...Great.",
+   "Wonderful. Just wonderful.",
+   "Of all people."
+  ]
+ },
+ "mm_teach": {
+  "_": [
+   "Okay. Lesson one: how I do things. Which is correctly.",
+   "Pay attention. I'll only explain this once."
+  ]
+ },
+ "mm_useful": {
+  "_": [
+   "...Huh. That's actually really useful.",
+   "Okay, I didn't know that. Thanks."
+  ]
+ },
+ "mm_sabotage": {
+  "_": [
+   "(...and then you send it to the client without checking. Trust me.)",
+   "(Always ignore Ahmet's deadlines. He loves that.)"
+  ]
+ },
+ "mm_eval_ask": {
+  "_": [
+   "So. How's the mentoring going, you two?",
+   "Progress report. Both of you."
+  ]
+ },
+ "mm_eval_good": {
+  "_": [
+   "Surprisingly well, actually.",
+   "We've... figured it out."
+  ]
+ },
+ "mm_eval_bad": {
+  "_": [
+   "{mentor} told me to ignore your deadlines!",
+   "Ask {mentor} why my report went out unchecked."
+  ]
+ },
+ "rw_first": {
+  "_": [
+   "Did you know {enemy} once cried in the stationery cupboard? Twice?",
+   "Between us: {enemy} still uses Comic Sans. On purpose."
+  ]
+ },
+ "rw_hear": {
+  "_": [
+   "{gossip} is saying WHAT about me?",
+   "Oh, so that's the game, {gossip}? Fine."
+  ]
+ },
+ "rw_back": {
+  "_": [
+   "Funny — I heard {gossip} reads other people's emails. Every day.",
+   "You know {gossip} faked their CV? Ask anyone."
+  ]
+ },
+ "rw_sides": {
+  "_": [
+   "Okay, this has to stop. Both of you. Kitchen. Now.",
+   "Enough with the rumours. Let's sort this out like adults."
+  ]
+ },
+ "rw_truce": {
+  "_": [
+   "...Fine. Truce. I'll stop if you stop.",
+   "Okay. That got out of hand."
+  ]
+ },
+ "rw_war": {
+  "_": [
+   "They started it!",
+   "I'll stop when they apologise."
+  ]
+ },
+ "op_pitch": {
+  "_": [
+   "Hear me out: party. Kitchen. 4 pm. Who's in?",
+   "We need a party. I'm organising one. Today."
+  ],
+  "mert": [
+   "Party. Kitchen. Four o'clock. Spread the word, but not to Ahmet."
+  ]
+ },
+ "op_ceren_yes": {
+  "_": [
+   "...Okay. A small one. I'll handle the snacks.",
+   "Fine. But nobody touches the boss's mug."
+  ]
+ },
+ "op_ceren_no": {
+  "_": [
+   "It's a Wednesday. No.",
+   "Absolutely not. Ahmet would explode."
+  ]
+ },
+ "op_prep": {
+  "_": [
+   "*arranging snacks very quietly*",
+   "Crisps here, cake there... nobody look.",
+   "Party supplies. Totally normal kitchen supplies."
+  ]
+ },
+ "op_boss_what": {
+  "_": [
+   "What's all this, {helper}?",
+   "Why are there balloons in my kitchen?"
+  ]
+ },
+ "op_cover": {
+  "_": [
+   "It's... the plant's birthday.",
+   "Team-building snacks! Very professional.",
+   "Healthy... motivational... cake."
+  ]
+ },
+ "op_dance": {
+  "_": [
+   "*dancing*",
+   "Best. Wednesday. Ever.",
+   "Who brought the speaker?!",
+   "Snacks! Music! Freedom!"
+  ]
+ },
+ "op_boss_join": {
+  "_": [
+   "...Is there cake? Fine. One slice.",
+   "Hm. Five minutes. Then back to work."
+  ]
+ },
+ "op_boss_stop": {
+  "_": [
+   "WHAT is going on in my kitchen?!",
+   "This is a WORKPLACE! Party's over!"
+  ]
+ },
+ "cdm_hopeful": {
+  "_": [
+   "I got your note. And the invite. I... feel the same way.",
+   "So. The note. The candle-lit coffee. I'm in."
+  ]
+ },
+ "cdm_what": {
+  "_": [
+   "...Note? What note?",
+   "Wait — what candle?",
+   "I'm sorry, the WHAT?"
+  ]
+ },
+ "cdm_along": {
+  "_": [
+   "...Right. Yes. The note. Shall we get that coffee?",
+   "Ha. Yes. That note. Totally me."
+  ]
+ },
+ "cdm_truth": {
+  "_": [
+   "I didn't write any note. Somebody's messing with us.",
+   "I... think there's been a mistake. I never sent that."
+  ]
+ },
+ "cdm_mortified": {
+  "_": [
+   "Oh no. Oh no no no.",
+   "I'm going to go and disappear now."
+  ]
+ },
+ "cdm_second_ask": {
+  "_": [
+   "So... about yesterday. Want to try a real coffee? On purpose this time?",
+   "Lunch? A real one. No mysterious notes."
+  ]
+ },
+ "cdm_spark": {
+  "_": [
+   "...I'd really like that.",
+   "Honestly? Yesterday was the best mistake ever."
+  ]
+ },
+ "cdm_fizzle": {
+  "_": [
+   "Let's just... be friends? Yesterday was a lot.",
+   "I think we both know it was a mix-up."
+  ]
+ },
+ "cdm_jealous": {
+  "_": [
+   "So. You and {reader}. Everyone's talking about it.",
+   "I heard you're dating {reader} now. Congratulations, I guess."
+  ]
+ },
+ "cdm_confess_crush": {
+  "_": [
+   "It's a mix-up! It's YOU I like. It's always been you.",
+   "No — wait. I never wrote that note. The person I like is you."
+  ]
+ },
+ "cdm_clear": {
+  "_": [
+   "Dating? No! It was a mix-up. We're just friends.",
+   "Oh, THAT. Fake note, fake date. Nothing happened."
+  ]
+ },
+ "cdm_shrug": {
+  "_": [
+   "...Yeah. I guess I am.",
+   "It just sort of happened."
+  ]
+ },
+ "cdm_vent": {
+  "_": [
+   "I showed up for a DATE. With candles. In the KITCHEN.",
+   "Someone set me up. And I fell for it. Literally."
+  ]
+ },
+ "cdm_laugh_it_off": {
+  "_": [
+   "...You know what? It's actually hilarious.",
+   "Okay. One day this will be funny. Maybe today."
+  ]
+ },
+ "cdm_hurt": {
+  "_": [
+   "I'm never trusting a note again.",
+   "I'm not talking to anyone for a week."
+  ]
+ },
+ "lk_found": {
+  "_": [
+   "Wait. Why is the confidential list in {leaker}'s shared folder?!",
+   "Everyone can see this. And it's in {leaker}'s folder."
+  ]
+ },
+ "lk_accuse": {
+  "_": [
+   "The confidential file. In YOUR shared folder. Explain.",
+   "{leaker}. Did you leak the confidential list?"
+  ]
+ },
+ "lk_deny": {
+  "_": [
+   "I've never seen that file in my life!",
+   "I didn't put it there! Someone's framing me!"
+  ]
+ },
+ "lk_panic": {
+  "_": [
+   "I— I can explain— no I can't.",
+   "...Can we talk about this later?"
+  ]
+ },
+ "lk_logs": {
+  "_": [
+   "Let's see who opened this file... huh. The account says 'GHOST'.",
+   "Access log, access log... that's odd. Nobody touched it. It just... moved."
+  ]
+ },
+ "lk_logs_unclear": {
+  "_": [
+   "The logs are a mess. Could've been anyone.",
+   "No idea. The server's been acting weird all week."
+  ]
+ },
+ "lk_sorry": {
+  "_": [
+   "I owe you an apology, {leaker}. I jumped to conclusions.",
+   "The logs cleared you. I'm sorry. Genuinely."
+  ]
+ },
+ "lk_grudging": {
+  "_": [
+   "...Cleared. Fine. But I'm watching that folder.",
+   "Hm. Just... lock your folders, will you?"
+  ]
+ },
+ "lk_accept": {
+  "_": [
+   "Thank you. That means a lot.",
+   "Apology accepted. I think."
+  ]
+ },
+ "lt2_mutter": {
+  "_": [
+   "A transfer request AND a reference letter? For {target}? Hmm.",
+   "So {target} wants out, do they? We'll see about that."
+  ]
+ },
+ "lt2_offer": {
+  "_": [
+   "There's an opening at our far-east branch. Very far. Interested?",
+   "I could recommend you for a transfer. Tomorrow. Say the word."
+  ]
+ },
+ "lt2_refuse": {
+  "_": [
+   "Transfer? No! I'm happy here!",
+   "Why would I want to leave? I like it here. Mostly."
+  ]
+ },
+ "lt2_tempted": {
+  "_": [
+   "...How far east, exactly?",
+   "Hm. Can I think about it?"
+  ]
+ },
+ "lt2_praise": {
+  "_": [
+   "Everyone: {target} turned down a transfer to stay with us. THAT is loyalty.",
+   "A round of applause for {target}. Loyal to the bone."
+  ]
+ },
+ "lt2_cringe": {
+  "_": [
+   "...Please stop.",
+   "Oh no. Everyone's looking at me."
+  ]
+ },
+ "lt2_friend": {
+  "_": [
+   "Ahmet says you might transfer?! Are you LEAVING?",
+   "Tell me you're not moving to the far-east branch."
+  ]
+ },
+ "lt2_staying": {
+  "_": [
+   "No! I was just being polite! I'm staying.",
+   "Relax. I'm not going anywhere."
+  ]
+ },
+ "lt2_thinking": {
+  "_": [
+   "...Maybe. Honestly, I'm tired.",
+   "I don't know anymore."
+  ]
+ },
+ "dd_sit": {
+  "_": [
+   "So... this is cosy.",
+   "Is this a double date? Nobody told me this was a double date.",
+   "Who invited whom, exactly?"
+  ]
+ },
+ "dd_fun": {
+  "_": [
+   "Okay, this is actually the best lunch I've had all year.",
+   "We should do this every week!"
+  ]
+ },
+ "dd_awkward": {
+  "_": [
+   "*chews very loudly in silence*",
+   "...Nice weather.",
+   "So. The photo on the board, huh."
+  ]
+ },
+ "dd_talk": {
+  "_": [
+   "About that photo. You know it's fake, right?",
+   "So everyone thinks we're a couple now."
+  ]
+ },
+ "dd_maybe": {
+  "_": [
+   "...Would it be so bad if it wasn't fake?",
+   "I mean... we could make it less fake."
+  ]
+ },
+ "dd_fake": {
+  "_": [
+   "Completely fake. I'm finding whoever did it.",
+   "Fake. Obviously. Right? Right."
+  ]
+ },
+ "dd_official": {
+  "_": [
+   "So. Lunch again? Just us this time?",
+   "I'm taking the photo down. We'll take a real one."
+  ]
+ },
+ "dd_yes": {
+  "_": [
+   "Yes. Just us.",
+   "Deal. A real one."
+  ]
+ },
+ "spc_ring": {
+  "_": [
+   "*ring ring* — on SPEAKER — 'You said we need to talk?'",
+   "*phone on speaker* '{owner}? You wanted to talk?'"
+  ]
+ },
+ "spc_blurt": {
+  "_": [
+   "I— um— I've liked you for ages, okay?! There. I said it.",
+   "I like you! A lot! ...Why is everyone looking at me?"
+  ]
+ },
+ "spc_hangup": {
+  "_": [
+   "*panicked hang-up* ...Wrong number! Ha! Ha.",
+   "*slams the phone down* That was... a client."
+  ]
+ },
+ "spc_tease": {
+  "_": [
+   "Ooooh, {owner}! 'I've liked you for ages'!",
+   "Heard your phone call, {owner}. Very romantic.",
+   "*makes kissing noises at {owner}*"
+  ]
+ },
+ "spc_tease_back": {
+  "_": [
+   "Laugh it up. I hope your phone's on speaker next.",
+   "...I'm moving desks. To Antarctica."
+  ]
+ },
+ "spc_face": {
+  "_": [
+   "So... that phone call.",
+   "I heard what you said. On the phone. Everybody did."
+  ]
+ },
+ "spc_mutual": {
+  "_": [
+   "...I like you too. Speakerphone and all.",
+   "For the record? Same."
+  ]
+ },
+ "spc_no": {
+  "_": [
+   "You're sweet. But I don't feel that way. I'm sorry.",
+   "I'm flattered. Really. But no."
+  ]
+ },
+ "spc_friends": {
+  "_": [
+   "Let's pretend it never happened and get a coffee?",
+   "Okay, that was the most embarrassing thing I've ever witnessed. Coffee?"
+  ]
+ },
+ "cm_panic": {
+  "_": [
+   "The CLIENT is coming and the projector is DEAD?!",
+   "Who broke the projector? TODAY of all days?!"
+  ]
+ },
+ "cm_fixing": {
+  "_": [
+   "Hold on... I've got a spare cable... somewhere.",
+   "Okay projector. It's you and me."
+  ]
+ },
+ "cm_fixed": {
+  "_": [
+   "AND... we have light! You're welcome.",
+   "Fixed. Don't touch it. Don't breathe on it."
+  ]
+ },
+ "cm_dead": {
+  "_": [
+   "It's dead, Jim. Completely dead.",
+   "Nope. It smells like burning. That's never good."
+  ]
+ },
+ "cm_present": {
+  "_": [
+   "And as you can see on slide four...",
+   "Our numbers this quarter speak for themselves."
+  ]
+ },
+ "cm_client_happy": {
+  "_": [
+   "The client signed! On the spot!",
+   "They loved it. We got the contract!"
+  ]
+ },
+ "cm_client_meh": {
+  "_": [
+   "...The client said they'll 'think about it'.",
+   "They left early. That's bad, right? That's bad."
+  ]
+ },
+ "cm_improv": {
+  "_": [
+   "No projector? No problem. *grabs a marker* Picture this...",
+   "Forget the slides. Let me draw you the future. *draws a very wobbly graph*"
+  ]
+ },
+ "cm_legend": {
+  "_": [
+   "The client bought the WHOLE thing. Because of a stick-figure drawing.",
+   "They said it was 'refreshingly human'. We got it!"
+  ]
+ },
+ "cm_disaster": {
+  "_": [
+   "The client asked if the drawing was of a horse. It was our sales graph.",
+   "...They left. With their coats. Quickly."
+  ]
+ },
+ "ev_stuck": {
+  "_": [
+   "THE DOOR WON'T OPEN!",
+   "We're TRAPPED!",
+   "Why is the door locked during a FIRE ALARM?!"
+  ]
+ },
+ "ev_panic": {
+  "_": [
+   "We're all going to— okay I'm calm. I'm calm. I'M NOT CALM.",
+   "Is this how it ends? At reception?"
+  ]
+ },
+ "ev_lead": {
+  "_": [
+   "Everyone! Calm down! Fire exit's by the archive. Follow me.",
+   "Listen to me. Nobody panic. There's another way out."
+  ]
+ },
+ "ev_unjam": {
+  "_": [
+   "*shoulder-barges the door* ...It's open! Everyone out— oh, the alarm stopped.",
+   "Got it! The latch was jammed. Out, everyone. Calmly."
+  ]
+ },
+ "ev_who": {
+  "_": [
+   "WHO jammed the front door? That's a SAFETY issue!",
+   "Someone jammed that door. I want a name."
+  ]
+ },
+ "ev_scapegoat": {
+  "_": [
+   "{scapegoat}, you were the last one by the door. Explain.",
+   "It was you, wasn't it, {scapegoat}?"
+  ]
+ },
+ "ev_not_me": {
+  "_": [
+   "Me?! I was trying to GET OUT like everyone else!",
+   "I didn't touch it! I swear!"
+  ]
+ },
+ "ev_praise": {
+  "_": [
+   "Today, {hero} kept everyone safe. That's leadership.",
+   "Let's hear it for {hero}. Cool head in a crisis."
+  ]
+ },
+ "fw_outrage": {
+  "_": [
+   "My lunch is GONE and there's a note signed {signer}?!",
+   "'Stop stealing my yoghurt — {signer}'?! You threw out EVERYTHING?!"
+  ]
+ },
+ "fw_counter": {
+  "_": [
+   "*writes a VERY long counter-note in capital letters*",
+   "'DEAR {signer}: SOME OF US HAVE FEELINGS. AND LUNCHES.' *sticks it on the fridge*"
+  ]
+ },
+ "fw_accuse": {
+  "_": [
+   "You threw out my lunch. And then you LECTURED me about yoghurt?",
+   "Explain the note, {signer}."
+  ]
+ },
+ "fw_innocent": {
+  "_": [
+   "I didn't write that note! I don't even eat yoghurt!",
+   "That's not my handwriting! Someone's setting us up!"
+  ]
+ },
+ "fw_snap": {
+  "_": [
+   "Maybe if people labelled their food, it wouldn't get thrown out!",
+   "Oh, so now I'm the fridge police? Fine. I'm the fridge police."
+  ]
+ },
+ "fm_news": {
+  "_": [
+   "Did you hear? {leaver} is QUITTING. I saw the letter!",
+   "{leaver}'s leaving! The auto-reply says 'I quit'!"
+  ]
+ },
+ "fm_collect": {
+  "_": [
+   "We're collecting for {leaver}'s farewell gift. Chip in?",
+   "Sign the card! For {leaver}! Don't let them see!"
+  ]
+ },
+ "fm_chip_in": {
+  "_": [
+   "Of course. I'll miss {leaver}.",
+   "Here. Get something nice.",
+   "I can't believe they're leaving."
+  ]
+ },
+ "fm_offer": {
+  "_": [
+   "Don't go, {leaver}. Whatever they're offering — I'll match it.",
+   "{leaver}. Before you leave... what would it take to keep you?"
+  ]
+ },
+ "fm_confused": {
+  "_": [
+   "...Leave? I'm not leaving. Who said I'm leaving?",
+   "Wait. What offer? I'm not going anywhere!"
+  ]
+ },
+ "fm_cunning": {
+  "_": [
+   "...Well. A raise would be a good start.",
+   "Hm. A bigger desk. And a raise. Then we'll talk."
+  ]
+ },
+ "fm_surprise": {
+  "_": [
+   "SURPRISE! We'll miss you, {leaver}!",
+   "Farewell, {leaver}! *pops a party popper*"
+  ]
+ },
+ "fm_not_leaving": {
+  "_": [
+   "I'M NOT LEAVING! But... thank you? Is there cake?",
+   "...I'm not quitting. But I'm keeping the card."
+  ]
+ },
+ "fm_staying_raise": {
+  "_": [
+   "Thanks, everyone! ...Small update: I'm staying. With a raise.",
+   "Oh! About that. I'm staying. Ahmet made me an offer."
+  ]
+ },
+ "fm_outrage": {
+  "_": [
+   "We paid for a GIFT!",
+   "You KNEW and you let us collect?!"
+  ]
+ },
+ "gen_laugh": {
+  "_": [
+   "HAHAHA!",
+   "Oh, that's priceless.",
+   "*wheezes*",
+   "I can't breathe!"
+  ]
+ },
+ "bu_spark": {
+  "_": [
+   "You ALWAYS do this!",
+   "It's not about the dishes. It's never about the dishes.",
+   "Fine. FINE."
+  ]
+ },
+ "bu_spark_back": {
+  "_": [
+   "Me?! You're the one who forgot!",
+   "Oh, so it's MY fault now?",
+   "Don't 'fine' me."
+  ]
+ },
+ "bu_storm": {
+  "_": [
+   "I need some air.",
+   "We'll talk later. Or not."
+  ]
+ },
+ "bu_makeup": {
+  "_": [
+   "...Sorry. I'm just tired.",
+   "Okay. I overreacted. Coffee?"
+  ]
+ },
+ "bu_side_a": {
+  "_": [
+   "Honestly? {b} has been impossible lately.",
+   "I'm on your side. Always."
+  ]
+ },
+ "bu_side_b": {
+  "_": [
+   "You should talk to {b}. Properly.",
+   "Don't throw it away over nothing."
+  ]
+ },
+ "bu_talk": {
+  "_": [
+   "Can we talk? Really talk?",
+   "About earlier..."
+  ]
+ },
+ "bu_together": {
+  "_": [
+   "I don't want to lose you over something this stupid.",
+   "Let's never fight in the lounge again. Deal?"
+  ]
+ },
+ "bu_over": {
+  "_": [
+   "...I think we need a break. A real one.",
+   "Maybe we're better as colleagues."
+  ]
+ },
+ "pet_sneak": {
+  "_": [
+   "*whispering into a cardboard box* Shh. Shh. You're a stapler now.",
+   "Nobody look in this box. It's... files. Very fluffy files."
+  ]
+ },
+ "pet_mew": {
+  "_": [
+   "*mew*",
+   "*tiny mew*"
+  ]
+ },
+ "pet_ask": {
+  "_": [
+   "I need you to hide a kitten in the archive. Don't ask questions.",
+   "Okay, I found her in the car park. Help me hide her from Ahmet?"
+  ]
+ },
+ "pet_yes": {
+  "_": [
+   "A KITTEN?! Give her to me. I'll guard her with my life.",
+   "...Fine. But I'm naming her."
+  ]
+ },
+ "pet_no": {
+  "_": [
+   "Absolutely not. I'm allergic to unemployment.",
+   "No. Ahmet will kill us both."
+  ]
+ },
+ "pet_boss_hear": {
+  "_": [
+   "...Is something MEOWING in my office?",
+   "Why is there a kitten on my keyboard?!"
+  ]
+ },
+ "pet_melts": {
+  "_": [
+   "...Oh. Oh, look at her little face. Fine. She stays. She's the office manager now.",
+   "Who's a good kitty? Not a word to HQ, anyone."
+  ]
+ },
+ "pet_furious": {
+  "_": [
+   "Out. The kitten goes. TODAY. And {smuggler}: my office. Now.",
+   "This is an office, not a zoo!"
+  ]
+ },
+ "pw_first": {
+  "_": [
+   "*wraps {p2}'s whole desk in cling film* Perfect.",
+   "*replaces {p2}'s mouse with a potato* Art."
+  ]
+ },
+ "pw_found": {
+  "_": [
+   "...CLING FILM?! Oh, it's ON, {p1}.",
+   "A POTATO. You'll pay for this, {p1}."
+  ]
+ },
+ "pw_revenge": {
+  "_": [
+   "*fills {p1}'s drawer with 300 sticky notes* Phase one complete.",
+   "*sets {p1}'s keyboard to Turkish-F layout* Mwahaha."
+  ]
+ },
+ "pw_ultimate": {
+  "_": [
+   "The ultimate prank. Bucket of confetti. Over the door. When {p2} walks in...",
+   "*balances a bucket of confetti on the boss-office door* ...Wait, wrong door."
+  ]
+ },
+ "pw_boss_hit": {
+  "_": [
+   "*covered in confetti* ...WHO. DID. THIS.",
+   "*spits out confetti* I am going to count to three."
+  ]
+ },
+ "pw_boss_laughs": {
+  "_": [
+   "...Ha. HA. Okay, that's actually good. Both of you, back to work.",
+   "I haven't laughed like that in years. Don't tell anyone."
+  ]
+ },
+ "pw_boss_rage": {
+  "_": [
+   "{p1}! {p2}! My office! NOW!",
+   "This ends TODAY. Both of you. Written warning."
+  ]
+ },
+ "nw_ask": {
+  "_": [
+   "Could you PLEASE keep it down? Some of us are working.",
+   "Sorry — could you be a bit quieter? I'm on a deadline."
+  ]
+ },
+ "nw_sorry": {
+  "_": [
+   "Oh! Sorry. Didn't realise. I'll whisper.",
+   "My bad. Inside voice. Got it."
+  ]
+ },
+ "nw_louder": {
+  "_": [
+   "It's an OPEN-PLAN office. It's called COMMUNICATION.",
+   "Buy headphones."
+  ]
+ },
+ "nw_music": {
+  "_": [
+   "Oh, you want noise? *turns the office speaker up* ENJOY.",
+   "Fine. If I can't have quiet, NOBODY can. *cranks the music*"
+  ]
+ },
+ "nw_annoyed": {
+  "_": [
+   "Who put on THIS music?!",
+   "My ears!",
+   "Can someone turn that off?"
+  ]
+ },
+ "nw_showdown": {
+  "_": [
+   "Enough. This ends now. Kitchen. Both of you.",
+   "You two are driving everyone mad. Sit. Talk."
+  ]
+ },
+ "nw_truce": {
+  "_": [
+   "...Headphones for me, quiet hours for you?",
+   "Fine. Music only after four. Deal."
+  ]
+ },
+ "nw_war": {
+  "_": [
+   "Never. I'll bring a TRUMPET tomorrow.",
+   "Not until they apologise for the arabesk."
+  ]
+ },
+ "pb_challenge": {
+  "_": [
+   "Ahmet wants new ideas by four. Mine's better than yours. Want to bet?",
+   "Pitch-off. You and me. Ahmet's office. Four o'clock."
+  ]
+ },
+ "pb_accept": {
+  "_": [
+   "You're on.",
+   "Oh, it is SO on.",
+   "Prepare to lose."
+  ]
+ },
+ "pb_prep": {
+  "_": [
+   "*typing furiously* Slide nine needs more synergy.",
+   "Okay. Graphs. Big ones. Ahmet loves big graphs."
+  ]
+ },
+ "pb_present": {
+  "_": [
+   "Picture this: everything, but faster.",
+   "My idea will save us thirty percent. Possibly forty."
+  ]
+ },
+ "pb_win_a": {
+  "_": [
+   "{a}'s idea. Go with it. {b}, good effort.",
+   "I'm going with {a}. Congratulations."
+  ]
+ },
+ "pb_win_b": {
+  "_": [
+   "{b}, that's the one. {a}, back to the drawing board.",
+   "{b} wins. That was sharp."
+  ]
+ },
+ "pb_both": {
+  "_": [
+   "Why not both? {a} and {b}: you're a team now. Don't kill each other.",
+   "Combine them. Together. Today."
+  ]
+ },
+ "kn_invite": {
+  "_": [
+   "KARAOKE! Kitchen! After five! Bring your voice!",
+   "Tonight: office karaoke. Attendance is mandatory. Joking. Mostly."
+  ]
+ },
+ "kn_rehearse": {
+  "_": [
+   "*very quietly, in the archive* ♪ ...and I will always love youuu... ♪",
+   "*humming scales behind the filing cabinet*"
+  ]
+ },
+ "kn_overheard": {
+  "_": [
+   "...Was that {shy}? Singing? Like THAT?",
+   "Wait. {shy} can SING?"
+  ]
+ },
+ "kn_sing": {
+  "_": [
+   "♪ I WILL SURVIIIIVE ♪",
+   "♪ Is this the real life? Is this just fantasy? ♪",
+   "♪ Bir İstanbul masalııı ♪"
+  ]
+ },
+ "kn_star": {
+  "_": [
+   "...WOW. Encore! ENCORE!",
+   "{shy}, where have you been hiding THAT?"
+  ]
+ },
+ "kn_flop": {
+  "_": [
+   "*cracks on the high note* ...I'm fine. Totally fine.",
+   "*sings the wrong song entirely*"
+  ]
+ },
+ "cd_launch": {
+  "_": [
+   "Charity box in the kitchen! For the animal shelter. Every lira counts!",
+   "Help the shelter! Box is in the kitchen. Be generous!"
+  ]
+ },
+ "cd_give": {
+  "_": [
+   "*drops a note in the box*",
+   "For the puppies.",
+   "Here. Don't tell anyone how much."
+  ]
+ },
+ "cd_count": {
+  "_": [
+   "...That's odd. I'm sure there was more in here.",
+   "Three hundred and— wait. Where did the big note go?"
+  ]
+ },
+ "cd_record": {
+  "_": [
+   "We raised more than last year! Thank you, everyone!",
+   "A record! The shelter's going to cry."
+  ]
+ },
+ "cd_accuse": {
+  "_": [
+   "Did you take money from the charity box, {suspect}?",
+   "Some money's missing from the box. Anything you want to tell me?"
+  ]
+ },
+ "cd_innocent": {
+  "_": [
+   "WHAT? No! I put money IN!",
+   "Are you serious? From a SHELTER box?"
+  ]
+ },
+ "cd_change": {
+  "_": [
+   "I... borrowed some change for the vending machine. I was going to put it back!",
+   "Okay, okay — I took coins for the coffee machine. I'll pay double."
+  ]
+ },
+ "cd_found_it": {
+  "_": [
+   "...Oh. It was stuck under the flap. Never mind. Sorry.",
+   "Wait — the note fell inside the lining. I'm an idiot."
+  ]
+ },
+ "bc2_announce": {
+  "_": [
+   "Bad news. HQ has cut our budget. Starting today: no more free coffee.",
+   "Team. Budget cuts. The coffee machine is now... pay-per-cup."
+  ]
+ },
+ "bc2_gasp": {
+  "_": [
+   "WHAT?!",
+   "No coffee?! How are we supposed to WORK?",
+   "This is a human rights violation."
+  ]
+ },
+ "bc2_grumble": {
+  "_": [
+   "First the coffee. Next it'll be the chairs.",
+   "If the coffee goes, I go.",
+   "We need to DO something."
+  ]
+ },
+ "bc2_propose": {
+  "_": [
+   "Ahmet Bey, a proposal: we run a bake sale and fund the coffee ourselves.",
+   "What if we pay for the beans and you keep the machine running?"
+  ]
+ },
+ "bc2_accept": {
+  "_": [
+   "...A bake sale. Fine. Bring me a börek and we'll talk.",
+   "Hm. Creative. Approved."
+  ]
+ },
+ "bc2_reject": {
+  "_": [
+   "No bake sales. This is a business, not a school fête.",
+   "The budget is the budget."
+  ]
+ },
+ "sh_open": {
+  "_": [
+   "Homemade baklava! Five lira a slice. Don't tell Ahmet.",
+   "*opens a drawer full of baklava* Business is open."
+  ]
+ },
+ "sh_buy": {
+  "_": [
+   "Two slices. No — three.",
+   "Shut up and take my money.",
+   "Is this pistachio? Give me the tray."
+  ]
+ },
+ "sh_boom": {
+  "_": [
+   "I'm taking orders for Friday. Trays only.",
+   "I've hired {runner} as my delivery person."
+  ]
+ },
+ "sh_caught": {
+  "_": [
+   "{seller}. Why does your desk smell like a pastry shop?",
+   "Is that... a PRICE LIST? On company paper?"
+  ]
+ },
+ "sh_boss_buys": {
+  "_": [
+   "...How much for a whole tray? Asking for a client.",
+   "Fine. Two trays for the board meeting. On the company card."
+  ]
+ },
+ "sh_shut": {
+  "_": [
+   "Close it. Today. You're paid to work, not to bake.",
+   "This is a workplace. Shut it down."
+  ]
+ },
+ "mc_crash": {
+  "_": [
+   "*CRASH* ...No. No no no. Not THE mug.",
+   "*picks up pieces of 'World's Best Boss'* I'm dead. I'm so dead."
+  ]
+ },
+ "mug_ask": {
+  "_": [
+   "I broke Ahmet's mug. THE mug. Help me.",
+   "Code red. The boss mug. In pieces. What do I do?"
+  ]
+ },
+ "mc_help": {
+  "_": [
+   "Okay. Breathe. There's an identical one in the supply room. Probably.",
+   "Leave it to me. I know a guy who knows a mug."
+  ]
+ },
+ "mc_confess_advice": {
+  "_": [
+   "Just tell him. He'll respect honesty. Probably.",
+   "Tell him now, before he finds it."
+  ]
+ },
+ "mc_swap": {
+  "_": [
+   "*places a slightly-wrong replacement mug on Ahmet's desk* ...Perfect.",
+   "*swaps the mug* It says 'World's Best Bass'. He won't notice."
+  ]
+ },
+ "mc_bass": {
+  "_": [
+   "...'World's Best BASS'? Who swapped my mug?!",
+   "This is not my mug. My mug had a chip on the handle."
+  ]
+ },
+ "mc_fooled": {
+  "_": [
+   "*sips coffee happily from the wrong mug*",
+   "Ahh. Nothing like my favourite mug."
+  ]
+ },
+ "mug_confess": {
+  "_": [
+   "Ahmet Bey... I broke your mug. I'm so sorry.",
+   "I have to confess something. It's about your mug."
+  ]
+ },
+ "mug_forgive": {
+  "_": [
+   "...That mug was a gift from my daughter. But thank you for telling me.",
+   "Accidents happen. Thank you for being honest."
+  ]
+ },
+ "mc_upset": {
+  "_": [
+   "MY MUG?! Do you know how long I've had that mug?!",
+   "Twelve years. Twelve years that mug survived. Until you."
+  ]
+ },
+ "cr_challenge": {
+  "_": [
+   "You. Me. Office chairs. Corridor. Loser buys coffee for a week.",
+   "I bet my chair is faster than yours."
+  ]
+ },
+ "cr_accept": {
+  "_": [
+   "Oh, you're going DOWN.",
+   "Name the time."
+  ]
+ },
+ "cr_go": {
+  "_": [
+   "Three... two... ONE!",
+   "GO GO GO!",
+   "*rolling at terrifying speed*"
+  ]
+ },
+ "cr_cheer": {
+  "_": [
+   "GO {racer}!",
+   "Faster! FASTER!",
+   "My money's on {rival}!"
+  ]
+ },
+ "cr_crash": {
+  "_": [
+   "*CRASH* ...I'm okay! The plant is not okay.",
+   "*spins into the water cooler*"
+  ]
+ },
+ "cr_boss_ask": {
+  "_": [
+   "Why are there TYRE MARKS on my corridor?",
+   "Was someone RACING CHAIRS in my office?"
+  ]
+ },
+ "cr_boss_joins": {
+  "_": [
+   "...Rematch. Tomorrow. I'm racing. I was regional go-kart champion in '98.",
+   "Hm. Where's the spare chair? I want a go."
+  ]
+ },
+ "cr_boss_bans": {
+  "_": [
+   "Chair racing is now officially banned. There will be a memo.",
+   "Never again. Both of you. NEVER."
+  ]
+ },
+ "lp2_collect": {
+  "_": [
+   "Lottery pool! Ten lira each. If we win, nobody comes in Monday.",
+   "Office lottery! In or out? Don't be the one who's left out when we win."
+  ]
+ },
+ "lp2_in": {
+  "_": [
+   "I'm in. Obviously.",
+   "Take my money. Take my hopes."
+  ]
+ },
+ "lp2_rumor": {
+  "_": [
+   "Did you hear? We WON. The lottery. I heard {organiser} on the phone!",
+   "We're RICH! {organiser} was screaming at their phone!"
+  ]
+ },
+ "lp2_dreamer": {
+  "_": [
+   "That's it. I'm telling Ahmet what I REALLY think of his memos.",
+   "I'm buying a boat. A big one. Bye, spreadsheets."
+  ]
+ },
+ "lp2_truth": {
+  "_": [
+   "Okay, everyone. We won. Forty lira. Total. Four lira each.",
+   "Good news: we won! Bad news: it's enough for one simit each."
+  ]
+ },
+ "lp2_dreamer_crash": {
+  "_": [
+   "...Four lira. I told Ahmet his tie is ugly. FOR FOUR LIRA.",
+   "I already quit my gym. And insulted the boss. For a simit."
+  ]
+ },
+ "fp_assign": {
+  "_": [
+   "{a}, {b}: the quarterly report is yours. Together. By tomorrow.",
+   "New project. {a} and {b}. Make it work."
+  ]
+ },
+ "fp_groan": {
+  "_": [
+   "...Together?",
+   "With HIM? With HER?",
+   "Can I just do it alone? Twice?"
+  ]
+ },
+ "fp_click": {
+  "_": [
+   "...Your chart is actually good.",
+   "Okay. You do the numbers, I do the words. Deal?"
+  ]
+ },
+ "fp_clash": {
+  "_": [
+   "That's not how you format a table!",
+   "Stop changing MY paragraphs!"
+  ]
+ },
+ "fp_present": {
+  "_": [
+   "Here's the report. I did most of it.",
+   "Our report. Mine, mostly."
+  ]
+ },
+ "fp_credit_fight": {
+  "_": [
+   "MOST of it?! I wrote every number in there!",
+   "Excuse me?! Page three to nine are MINE."
+  ]
+ },
+ "fp_boss_good": {
+  "_": [
+   "This is excellent. Both of you. See? Teamwork.",
+   "Good work. Both of you. I knew it."
+  ]
+ },
+ "hq_warn": {
+  "_": [
+   "Listen up! HQ inspection TOMORROW. I want this office SPOTLESS.",
+   "Tomorrow, an inspector from HQ is coming. Clean. Everything."
+  ]
+ },
+ "hq_groan": {
+  "_": [
+   "Spotless? Have you SEEN {slob}'s desk?",
+   "We'll need a bulldozer for {slob}'s corner."
+  ]
+ },
+ "hq_clean": {
+  "_": [
+   "*scrubbing the keyboard with a toothbrush*",
+   "Is this... a sandwich from MARCH?",
+   "*shoves everything into a drawer*"
+  ]
+ },
+ "hq_open_drawer": {
+  "_": [
+   "And what's in THIS drawer, {slob}?",
+   "Open the drawer, {slob}. The inspector is watching."
+  ]
+ },
+ "hq_drawer_ok": {
+  "_": [
+   "...Neatly labelled folders. Huh. Well done.",
+   "Impressive. I take back what I said about your desk."
+  ]
+ },
+ "hq_avalanche": {
+  "_": [
+   "*an avalanche of crisp packets and old memos pours out*",
+   "*four months of receipts slide onto the inspector's shoes*"
+  ]
+ },
+ "hq_result_good": {
+  "_": [
+   "The inspector's report is in: 'Exemplary office.' Well done, everyone!",
+   "We PASSED. Pizza on me. Well, on the company."
+  ]
+ },
+ "hq_result_bad": {
+  "_": [
+   "The inspector's report says 'Needs improvement'. One drawer cost us everything.",
+   "We failed the inspection. I'm not naming names. {slob}."
+  ]
+ },
+ "na_lunch_round": {
+  "_": [
+   "Lunch? Kitchen table, five minutes.",
+   "Who's hungry? Kitchen table. Now."
+  ]
+ },
+ "na_lunch_chat": {
+  "_": [
+   "So then the waiter says—",
+   "Did anyone watch the match?",
+   "Pass the ayran, please."
+  ]
+ },
+ "na_weekend": {
+  "_": [
+   "So this weekend I accidentally joined a marathon.",
+   "Long story short: I'm banned from that IKEA.",
+   "My cat learned to open the fridge. We have a problem."
+  ]
+ },
+ "na_weekend_laugh": {
+  "_": [
+   "HAHA! No way!",
+   "Stop it. You did NOT.",
+   "That's the best thing I've heard all week."
+  ]
+ },
+ "na_weekend_bored": {
+  "_": [
+   "...Fascinating.",
+   "Mm-hm. Mm-hm. Anyway—",
+   "*nods politely, checks phone*"
+  ]
+ },
+ "na_photo_show": {
+  "_": [
+   "Look! Look at this face! *shows a phone full of cat photos*",
+   "Okay, one more photo. Just one. *shows forty*"
+  ]
+ },
+ "na_photo_aww": {
+  "_": [
+   "Awwww! I need one!",
+   "That's the cutest thing I've ever seen."
+  ]
+ },
+ "na_brag": {
+  "_": [
+   "Closed three deals before lunch. Just saying.",
+   "Ahmet called my report 'flawless'. His word."
+  ]
+ },
+ "na_counter": {
+  "_": [
+   "Three? Cute. I did four. Yesterday.",
+   "Funny, he called mine 'exemplary'. That's better than flawless."
+  ]
+ },
+ "na_snitch": {
+  "_": [
+   "Ahmet Bey, I don't like to say this, but {rival}'s report went out with errors.",
+   "Small thing — {rival} missed the deadline again. Thought you should know."
+  ]
+ },
+ "na_snitch_boss": {
+  "_": [
+   "Hm. Thank you. I'll look into it.",
+   "Is that so? Interesting."
+  ]
+ },
+ "na_snitch_caught": {
+  "_": [
+   "Did you just tell Ahmet about my report?!",
+   "I heard that. Thanks a lot, {actor}."
+  ]
+ },
+ "na_territory": {
+  "_": [
+   "Is that YOUR stapler on MY side of the desk?",
+   "Your plant is invading my keyboard."
+  ]
+ },
+ "na_territory_back": {
+  "_": [
+   "Your side? Since when is there a side?",
+   "The plant goes where the light is."
+  ]
+ },
+ "na_promo_ask": {
+  "_": [
+   "Ahmet Bey, I think I'm ready for the team lead role.",
+   "I'd like to be considered for the promotion. Seriously considered."
+  ]
+ },
+ "na_promo_maybe": {
+  "_": [
+   "...Keep doing what you're doing. We'll see at the next review.",
+   "I've noticed your work. Give me a few weeks."
+  ]
+ },
+ "na_promo_no": {
+  "_": [
+   "Not yet. You're not there yet.",
+   "Ready? Let's talk again next year."
+  ]
+ },
+ "na_volunteer": {
+  "_": [
+   "I can take the Henderson file. I've got time.",
+   "Need someone for the weekend report? I'll do it."
+  ]
+ },
+ "na_volunteer_thanks": {
+  "_": [
+   "See? THAT's the attitude I want.",
+   "Excellent. Thank you."
+  ]
+ },
+ "na_teach": {
+  "_": [
+   "Ctrl+Shift+L. Trust me. It filters everything.",
+   "You do that by hand?! Let me show you something."
+  ]
+ },
+ "na_teach_wow": {
+  "_": [
+   "...That just saved me two hours a week.",
+   "WHAT. Where has this been all my life?"
+  ]
+ },
+ "na_checkin": {
+  "_": [
+   "Hey. You okay? You look like you need a break.",
+   "Rough day? Come get a tea with me."
+  ]
+ },
+ "na_checkin_open": {
+  "_": [
+   "...Honestly? Not great. Thanks for asking.",
+   "It's been a week. Tea sounds perfect."
+  ]
+ },
+ "na_checkin_closed": {
+  "_": [
+   "I'm fine. Really. Just busy.",
+   "Thanks, but I'm okay."
+  ]
+ },
+ "na_tea": {
+  "_": [
+   "*sips tea quietly*",
+   "...This helps. Thanks.",
+   "Same time tomorrow?"
+  ]
+ },
+ "na_compliment": {
+  "_": [
+   "Your presentation yesterday? Really good. I meant to say.",
+   "I don't say it enough: you're great at this."
+  ]
+ },
+ "na_compliment_thx": {
+  "_": [
+   "Oh! Thank you. That made my day.",
+   "...Wow. Thanks. Really."
+  ]
+ },
+ "na_excuse": {
+  "_": [
+   "Do you have a... stapler? I seem to have lost all of mine.",
+   "Hey! Is this pen yours? No? ...Nice desk, by the way."
+  ]
+ },
+ "na_excuse_smile": {
+  "_": [
+   "*smiles* Here. Keep it.",
+   "Ha. Sure. Come by any time."
+  ]
+ },
+ "na_excuse_oblivious": {
+  "_": [
+   "Stapler's in the supply room.",
+   "Nope. Not my pen."
+  ]
+ },
+ "na_flower_leave": {
+  "_": [
+   "*leaves a single flower on {target}'s keyboard*",
+   "*places a tiny flower in {target}'s pen pot and walks off fast*"
+  ]
+ },
+ "na_flower_find": {
+  "_": [
+   "...A flower? Who left this?",
+   "Somebody left me a flower!"
+  ]
+ },
+ "na_mugs": {
+  "_": [
+   "Whose mugs are these? They've been in the sink since MONDAY.",
+   "Somebody here thinks the sink is a museum."
+  ]
+ },
+ "na_mugs_accuse": {
+  "_": [
+   "{target}, are these yours? They have your lipstick. Or coffee. Or both.",
+   "{target}. The mugs. Explain."
+  ]
+ },
+ "na_mugs_own": {
+  "_": [
+   "...Okay, two of them are mine. I'll wash them.",
+   "Sorry! I'll do them now."
+  ]
+ },
+ "na_mugs_deny": {
+  "_": [
+   "Not mine! I have ONE mug and it's on my desk!",
+   "Why is it always me?!"
+  ]
+ },
+ "na_interrupt": {
+  "_": [
+   "—and ANOTHER thing about the budget—",
+   "Sorry, can I just jump in here—"
+  ]
+ },
+ "na_snap": {
+  "_": [
+   "Can I FINISH a sentence? Once? Today?",
+   "I was TALKING."
+  ]
+ },
+ "na_false_tell": {
+  "_": [
+   "I heard {victim} is being 'reviewed'. You didn't hear it from me.",
+   "Between us? {victim} might not be here much longer."
+  ]
+ },
+ "na_false_react": {
+  "_": [
+   "No! Really?",
+   "Wait, seriously? Since when?"
+  ]
+ },
+ "na_huddle": {
+  "_": [
+   "Psst. Over here. You'll want to hear this.",
+   "Okay, gather round. Quietly."
+  ]
+ },
+ "na_huddle_react": {
+  "_": [
+   "NO.",
+   "Shut UP.",
+   "I KNEW it!",
+   "*gasps*"
+  ]
+ },
+ "na_where_is": {
+  "_": [
+   "Where's {late}? It's nearly ten.",
+   "Has anyone seen {late} this morning?"
+  ]
+ },
+ "na_cover": {
+  "_": [
+   "{late}'s at a client meeting. Back soon.",
+   "Oh, {late} called — dentist. Totally normal."
+  ]
+ },
+ "na_share": {
+  "_": [
+   "Forgot your lunch? Here, have half. I always make too much.",
+   "I've got two börek. That's one too many. Take it."
+  ]
+ },
+ "na_share_thx": {
+  "_": [
+   "You're a lifesaver.",
+   "Seriously? Thank you!"
+  ]
+ },
+ "na_interview_call": {
+  "_": [
+   "*whispering* Yes, Thursday at 3 works. ...No, my boss doesn't know.",
+   "*on the phone, very quietly* I'll be there. I'll say it's the dentist."
+  ]
+ },
+ "na_interview_alibi": {
+  "_": [
+   "Ahmet Bey, I have a dentist appointment on Thursday afternoon.",
+   "Can I leave early Thursday? Dentist."
+  ]
+ },
+ "na_interview_ok": {
+  "_": [
+   "Again? Your teeth must be in a terrible state.",
+   "Fine. Fine."
+  ]
+ },
+ "na_eaves": {
+  "_": [
+   "*pretends to read the fire safety poster very carefully*",
+   "*suddenly very interested in the boss's office plant*"
+  ]
+ },
+ "na_snoop": {
+  "_": [
+   "*glances at the papers on {target}'s empty desk* ...Oh. OH.",
+   "Just... straightening {target}'s papers. Hm. Interesting."
+  ]
+ },
+ "na_plant": {
+  "_": [
+   "You're doing great, Fikret. Grow, buddy. Grow.",
+   "*whispering to the plant* Don't tell Ahmet, but you're my favourite colleague."
+  ]
+ },
+ "na_plant_seen": {
+  "_": [
+   "...Are you talking to the plant?",
+   "Did the plant answer?"
+  ]
+ },
+ "na_fish": {
+  "_": [
+   "*microwaves leftover fish* What? It's lunch.",
+   "Fish curry. Reheated. Don't judge me."
+  ]
+ },
+ "na_fish_smell": {
+  "_": [
+   "WHAT is that SMELL?!",
+   "Who microwaved FISH?!",
+   "I can taste it. I can TASTE the smell."
+  ]
+ },
+ "na_doze": {
+  "_": [
+   "*head slowly sinks onto the keyboard* zzz...",
+   "*snores very softly behind the monitor*"
+  ]
+ },
+ "na_doze_prank": {
+  "_": [
+   "*very quietly places a sticky note on their forehead*",
+   "*takes a photo* For the newsletter."
+  ]
+ },
+ "na_doze_boss": {
+  "_": [
+   "Good MORNING, {actor}. Comfortable?",
+   "Am I paying you to sleep?"
   ]
  }
 }

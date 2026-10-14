@@ -394,5 +394,20 @@
    }
   ],
   "life": 3
+ },
+ "shortlisted": {
+  "on_learn": [
+   {
+    "who": "*",
+    "about": "a",
+    "stat": "rivalry",
+    "d": 6
+   },
+   {
+    "who": "subject",
+    "mood": 10
+   }
+  ],
+  "life": 4
  }
 }

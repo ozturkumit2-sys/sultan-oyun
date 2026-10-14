@@ -282,7 +282,7 @@ L("dump_work", ["I need this report by end of day. Urgent.", "Drop everything. H
 L("dump_accept", ["...Sure. Of course.", "I'll stay late. Fine.", "Okay. No problem. Big problem. Okay."])
 L("dump_push_back", ["By five? That's impossible.", "I'm already drowning, Ahmet Bey.", "Can it wait until tomorrow? Please?"])
 L("boss_not_negotiable", ["It's not a request.", "Five o'clock. Final.", "Everyone's busy. Do it anyway."])
-L("pass_the_buck", ["Ece! Great learning opportunity for you!", "{helper}, you're good with numbers, right?"], deniz=["Ece, this will look great on your CV."])
+L("pass_the_buck", ["{to}! Great learning opportunity for you!", "{to}, you're good with numbers, right?"], deniz=["{to}, this will look great on your CV."])
 L("buck_taken", ["Oh! Sure! I'll... figure it out!", "Um. Okay. How hard can it be?"], burak=["...Fine. Again."])
 S_("log.work_dump", "Ahmet dumped an urgent report on {target} at the last minute.")
 S_("log.work_dump_pushback", "{target} pushed back on Ahmet's last-minute report. Ahmet didn't budge.")
@@ -586,7 +586,7 @@ initiative("heartbreak", "medium", cooldown_days=2,
     roles=[actor([{"c": "picks", "fn": "crush_of", "of": "self", "taken": True}], [s_trait("self", "empathy", 0.3), s_const(0.3)]),
            by_fn("crush", "crush_of", avail=False, taken=True),
            role("target", where=[c_bond("crush", "self", "romance"), c_avail("self")], exclude=["actor", "crush"])],
-    effects=[expr("actor", "sad", 6), emote("actor", "cloud"), visit("actor", "target", "heartbreak_scene", prio=50, ttl=35)])
+    effects=[expr("actor", "sad", 6), emote("actor", "cloud"), visit("actor", "target", "heartbreak_scene", prio=50, ttl=35, roles={"crush": "crush"})])
 scene("heartbreak_scene", conditions=[c_avail("target")],
     effects=[hold(["actor", "target"], 4), say("actor", "heartbreak_jab", to="target"), say("target", "heartbreak_reply", to="actor", delay=1.6),
              rel("actor", "target", "rivalry", 15), rel("actor", "target", "friendship", -8), mood("actor", -12), morale("actor", -3),
@@ -925,7 +925,7 @@ scene("fridge_raid_scene", allow_absent=True, conditions=[c_present("actor")],
 ev(id="lunch_gone", trigger="lunch_stolen", priority=55, allow_absent=True, tier="small",
    vars=[var("suspect", "suspect", of="target", loc="kitchen", optional=True)],
    conditions=[c_avail("target")],
-   effects=[expr("target", "angry", 6), emote("target", "anger"), say("target", "lunch_gone"), mood("target", -10)],
+   effects=[expr("target", "angry", 6), emote("target", "anger"), say("target", "lunch_gone"), mood("target", -10), npcflag("target", "lunch_victim")],
    outcomes=[
        out("right", [say("target", "lunch_suspect", delay=1.8), learn("target", "$rumor", when=[c_filled("$rumor")]), rel("target", "actor", "trust", -10),
                      setv("incident", "lunch"), visit("target", "actor", "accusation", prio=58, ttl=45, delay=3), log("log.lunch_gone_right", 2, "accident")],

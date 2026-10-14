@@ -6,6 +6,10 @@ extends RefCounted
 
 
 static func check_board(w, n: NPC) -> void:
+	var ag: String = str(w.office.objects["board"].get("agenda", ""))
+	if ag != "" and not n.today_flags.get("agenda_seen", false) and w.rng.randf() < 0.5:
+		n.today_flags["agenda_seen"] = true
+		w.events.fire("agenda_seen", {"actor": n.id, "agenda": ag})
 	var bt := float(w.office.objects["board"]["time"])
 	if n.meeting_belief < 0.0 or w.meeting.get("ended", false):
 		return
@@ -22,13 +26,44 @@ static func check_board(w, n: NPC) -> void:
 		w.events.fire("board_noticed", {"actor": n.id, "old_time": old, "new_time": bt})
 
 
+static func door_locked(w) -> bool:
+	return w.office.objects["door"].get("locked", false) and str(w.meeting.get("room", "meeting")) == "meeting"
+
+
 static func arrive(w, n: NPC) -> void:
 	var mt: Dictionary = w.meeting
 	n.pose = "sit"
 	if mt.get("ended", false):
 		n.meeting_state = "done"
 		return
+	if not mt["started"] and door_locked(w):
+		# the ghost locked the meeting room: everyone piles up at the door
+		n.pose = "stand"
+		n.meeting_state = "waiting"
+		n.meeting_wait = w.minute
+		if not w.day_flags.get("door_found", false):
+			w.day_flags["door_found"] = true
+			w.events.fire("meeting_door_locked", {"actor": n.id, "_iv": str(w.office.objects["door"].get("iv", ""))})
+		return
+	var chair: String = str(mt.get("chair", ""))
+	if chair != "" and chair != "ahmet" and n.id == chair and not mt["started"]:
+		# the board names someone else as the chair — and they take it seriously
+		mt["started"] = true
+		mt["start_min"] = w.minute
+		mt["chair_led"] = n.id
+		n.meeting_state = "in"
+		for id in w.present_ids():
+			var o2: NPC = w.npc(id)
+			if o2.act == "meeting" and o2.meeting_state == "waiting":
+				o2.meeting_state = "in"
+		w.events.fire("meeting_wrong_chair", {"actor": n.id, "_iv": str(mt.get("iv", ""))})
+		return
 	if n.id == "ahmet":
+		if mt["started"] and str(mt.get("chair_led", "")) != "" and not mt.get("boss_found_chair", false):
+			mt["boss_found_chair"] = true
+			n.meeting_state = "in"
+			w.events.fire("boss_finds_chair", {"actor": "ahmet", "target": str(mt["chair_led"]), "_iv": str(mt.get("iv", ""))})
+			return
 		if not mt["started"]:
 			mt["started"] = true
 			mt["start_min"] = w.minute
@@ -74,9 +109,30 @@ static func should_leave(w, n: NPC) -> bool:
 
 static func update(w, _d: float) -> void:
 	var mt: Dictionary = w.meeting
-	if mt.is_empty() or not mt.get("started", false) or mt.get("ended", false):
+	if mt.is_empty() or mt.get("ended", false):
+		return
+	if not mt.get("started", false):
+		# someone unlocked the door: whoever was waiting goes in
+		if w.day_flags.get("door_found", false) and not door_locked(w) and not w.day_flags.get("door_opened", false):
+			w.day_flags["door_opened"] = true
+			for id in w.present_ids():
+				var wn: NPC = w.npc(id)
+				if wn.act == "meeting" and wn.meeting_state == "waiting":
+					wn.meeting_state = ""
+					NPCController.start(w, wn, {"act": "meeting", "place": "m1" if id == "ahmet" else "", "prio": 85.0})
 		return
 	var el: float = w.minute - float(mt["start_min"])
+	if mt.get("short", false) and el > 9.0 and not mt.get("walked_out", false):
+		# the board said "5 minutes" — people start walking out on Ahmet
+		mt["walked_out"] = true
+		var leavers: Array = []
+		for id in in_room(w):
+			var ln: NPC = w.npc(id)
+			if id != "ahmet" and ln.t("diligence") < 0.75:
+				ln.meeting_state = "done"
+				leavers.append(id)
+		if not leavers.is_empty():
+			w.events.fire("meeting_walkout", {"actor": "ahmet", "target": leavers[0], "_iv": str(mt.get("iv", ""))})
 	var presented: int = int(mt.get("presented", 0))
 	if el > 6.0 and presented == 0:
 		mt["presented"] = 1
@@ -135,6 +191,10 @@ static func _present(w, slot: int) -> void:
 	if slot == 0 and "selin" in cands:
 		cands.erase("selin")
 		cands.push_front("selin")
+	var first: String = str(mt_first(w))
+	if slot == 0 and first != "" and first in room and first != "ahmet":
+		cands.erase(first)
+		cands.push_front(first)
 	var pid: String = cands[0]
 	var pn: NPC = w.npc(pid)
 	pn.today_flags["presented"] = true
@@ -155,10 +215,16 @@ static func _present(w, slot: int) -> void:
 		rival = "deniz"
 	elif pid == "deniz" and "selin" in room:
 		rival = "selin"
-	w.events.fire("meeting_present", {"actor": pid, "target": "ahmet", "other": rival, "prepared": prepared, "has_usb": has_usb})
+	var swaps: Dictionary = w.meeting.get("swap", {})
+	w.events.fire("meeting_present", {"actor": pid, "target": "ahmet", "other": rival, "prepared": prepared, "has_usb": has_usb,
+		"swapped": str(swaps.get(pid, "")), "projector": w.office.objects["projector"]["broken"]})
 	# a missing star presenter is an opportunity for someone cunning
 	if slot == 0 and not ("selin" in room) and "deniz" in room and w.npc("selin") != null and w.npc("selin").present:
 		w.events.fire("meeting_opportunity", {"actor": "deniz", "target": "ahmet", "victim": "selin"})
+
+
+static func mt_first(w) -> String:
+	return str(w.meeting.get("first", ""))
 
 
 static func _end_meeting(w) -> void:
