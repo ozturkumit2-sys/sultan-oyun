@@ -9882,5 +9882,543 @@
    "Sí. Solo nosotros.",
    "Trato hecho. Una de verdad."
   ]
+ },
+ "spc_ring": {
+  "_": [
+   "*ring ring* — en ALTAVOZ — «¿Dijiste que teníamos que hablar?»",
+   "*teléfono en altavoz* «¿{owner}? ¿Querías hablar?»"
+  ]
+ },
+ "spc_blurt": {
+  "_": [
+   "Yo... eh... me gustas desde hace siglos, ¡¿vale?! Ya está. Lo dije.",
+   "¡Me gustas! ¡Mucho! ...¿Por qué me mira todo el mundo?"
+  ]
+ },
+ "spc_hangup": {
+  "_": [
+   "*cuelga en pánico* ...¡Número equivocado! ¡Ja! Ja.",
+   "*cuelga de golpe* Eso era... un cliente."
+  ]
+ },
+ "spc_tease": {
+  "_": [
+   "¡Uuuuh, {owner}! «¡Me gustas desde hace siglos!»",
+   "Oímos tu llamada, {owner}. Muy romántica.",
+   "*le hace ruiditos de besos a {owner}*"
+  ]
+ },
+ "spc_tease_back": {
+  "_": [
+   "Ríanse. Ojalá la próxima vez el altavoz sea el suyo.",
+   "...Me mudo de escritorio. A la Antártida."
+  ]
+ },
+ "spc_face": {
+  "_": [
+   "Bueno... esa llamada.",
+   "Oí lo que dijiste. Por teléfono. Lo oyó todo el mundo."
+  ]
+ },
+ "spc_mutual": {
+  "_": [
+   "...Tú también me gustas. Con altavoz y todo.",
+   "¿Para que conste? Lo mismo digo."
+  ]
+ },
+ "spc_no": {
+  "_": [
+   "Eres un encanto. Pero no siento lo mismo. Lo siento.",
+   "Me halaga. De verdad. Pero no."
+  ]
+ },
+ "spc_friends": {
+  "_": [
+   "¿Hacemos como si no hubiera pasado y tomamos un café?",
+   "Vale, es lo más vergonzoso que he presenciado en mi vida. ¿Café?"
+  ]
+ },
+ "cm_panic": {
+  "_": [
+   "¡¿Viene el CLIENTE y el proyector está MUERTO?!",
+   "¿Quién rompió el proyector? ¡¿Justo HOY?!"
+  ]
+ },
+ "cm_fixing": {
+  "_": [
+   "Espera... tengo un cable de repuesto... en algún sitio.",
+   "Vale, proyector. Tú y yo."
+  ]
+ },
+ "cm_fixed": {
+  "_": [
+   "Y... ¡se hizo la luz! De nada.",
+   "Arreglado. No lo toquen. Ni le respiren encima."
+  ]
+ },
+ "cm_dead": {
+  "_": [
+   "Está muerto, Jim. Completamente muerto.",
+   "Nada. Huele a quemado. Eso nunca es buena señal."
+  ]
+ },
+ "cm_present": {
+  "_": [
+   "Y como pueden ver en la diapositiva cuatro...",
+   "Nuestras cifras de este trimestre hablan por sí solas."
+  ]
+ },
+ "cm_client_happy": {
+  "_": [
+   "¡El cliente firmó! ¡Ahí mismo!",
+   "Les encantó. ¡Conseguimos el contrato!"
+  ]
+ },
+ "cm_client_meh": {
+  "_": [
+   "...El cliente dijo que lo va a «pensar».",
+   "Se fueron antes. Eso es malo, ¿verdad? Eso es malo."
+  ]
+ },
+ "cm_improv": {
+  "_": [
+   "¿Sin proyector? No hay problema. *agarra un rotulador* Imagínense esto...",
+   "Olvídense de las diapositivas. Déjenme dibujarles el futuro. *dibuja un gráfico muy tembloroso*"
+  ]
+ },
+ "cm_legend": {
+  "_": [
+   "El cliente compró TODO. Por un dibujo de monigotes.",
+   "Dijeron que era «refrescantemente humano». ¡Lo conseguimos!"
+  ]
+ },
+ "cm_disaster": {
+  "_": [
+   "El cliente preguntó si el dibujo era un caballo. Era nuestro gráfico de ventas.",
+   "...Se fueron. Con sus abrigos. Rápido."
+  ]
+ },
+ "ev_stuck": {
+  "_": [
+   "¡LA PUERTA NO SE ABRE!",
+   "¡Estamos ATRAPADOS!",
+   "¡¿Por qué está cerrada la puerta durante una ALARMA DE INCENDIO?!"
+  ]
+ },
+ "ev_panic": {
+  "_": [
+   "Todos vamos a... vale, estoy {me?tranquilo|tranquila}. Estoy {me?tranquilo|tranquila}. NO ESTOY {me?TRANQUILO|TRANQUILA}.",
+   "¿Así acaba todo? ¿En la recepción?"
+  ]
+ },
+ "ev_lead": {
+  "_": [
+   "¡Todos! ¡Calma! La salida de emergencia está junto al archivo. Síganme.",
+   "Escúchenme. Que nadie entre en pánico. Hay otra salida."
+  ]
+ },
+ "ev_unjam": {
+  "_": [
+   "*embiste la puerta con el hombro* ...¡Se abrió! Todos fuera... ah, la alarma paró.",
+   "¡Listo! El pestillo estaba atascado. Todos fuera. Con calma."
+  ]
+ },
+ "ev_who": {
+  "_": [
+   "¿QUIÉN bloqueó la puerta principal? ¡Es un problema de SEGURIDAD!",
+   "Alguien bloqueó esa puerta. Quiero un nombre."
+  ]
+ },
+ "ev_scapegoat": {
+  "_": [
+   "{scapegoat}, fuiste {scapegoat?el último|la última} junto a la puerta. Explícate.",
+   "Fuiste tú, ¿verdad, {scapegoat}?"
+  ]
+ },
+ "ev_not_me": {
+  "_": [
+   "¡¿Yo?! ¡Estaba intentando SALIR como todos!",
+   "¡No la toqué! ¡Lo juro!"
+  ]
+ },
+ "ev_praise": {
+  "_": [
+   "Hoy {hero} mantuvo a todos a salvo. Eso es liderazgo.",
+   "Un aplauso para {hero}. Cabeza fría en plena crisis."
+  ]
+ },
+ "fw_outrage": {
+  "_": [
+   "¡¿Mi almuerzo DESAPARECIÓ y hay una nota firmada por {signer}?!",
+   "¡¿«Dejen de robarme el yogur — {signer}»?! ¡¿Tiraste TODO?!"
+  ]
+ },
+ "fw_counter": {
+  "_": [
+   "*escribe una contranota MUY larga en mayúsculas*",
+   "«{signer?QUERIDO|QUERIDA} {signer}: ALGUNOS TENEMOS SENTIMIENTOS. Y ALMUERZOS.» *la pega en la nevera*"
+  ]
+ },
+ "fw_accuse": {
+  "_": [
+   "Tiraste mi almuerzo. ¡¿Y luego me SERMONEASTE sobre el yogur?!",
+   "Explica la nota, {signer}."
+  ]
+ },
+ "fw_innocent": {
+  "_": [
+   "¡Yo no escribí esa nota! ¡Ni siquiera como yogur!",
+   "¡Esa no es mi letra! ¡Alguien nos está tendiendo una trampa!"
+  ]
+ },
+ "fw_snap": {
+  "_": [
+   "¡Quizás si la gente etiquetara su comida, no se tiraría!",
+   "Ah, ¿así que ahora soy la policía de la nevera? Bien. Soy la policía de la nevera."
+  ]
+ },
+ "fm_news": {
+  "_": [
+   "¿Te enteraste? {leaver} RENUNCIA. ¡Vi la carta!",
+   "¡{leaver} se va! ¡La respuesta automática dice «renuncio»!"
+  ]
+ },
+ "fm_collect": {
+  "_": [
+   "Estamos juntando para el regalo de despedida de {leaver}. ¿Pones algo?",
+   "¡Firma la tarjeta! ¡Para {leaver}! ¡Que no la vea!"
+  ]
+ },
+ "fm_chip_in": {
+  "_": [
+   "Claro. Voy a extrañar a {leaver}.",
+   "Toma. Compren algo bonito.",
+   "No puedo creer que se vaya."
+  ]
+ },
+ "fm_offer": {
+  "_": [
+   "No te vayas, {leaver}. Te igualo lo que te ofrezcan.",
+   "{leaver}. Antes de irte... ¿qué haría falta para que te quedes?"
+  ]
+ },
+ "fm_confused": {
+  "_": [
+   "...¿Irme? No me voy. ¿Quién dijo que me voy?",
+   "Un momento. ¿Qué oferta? ¡No me voy a ninguna parte!"
+  ]
+ },
+ "fm_cunning": {
+  "_": [
+   "...Bueno. Un aumento sería un buen comienzo.",
+   "Mmm. Un escritorio más grande. Y un aumento. Luego hablamos."
+  ]
+ },
+ "fm_surprise": {
+  "_": [
+   "¡SORPRESA! ¡Te vamos a extrañar, {leaver}!",
+   "¡Adiós, {leaver}! *revienta un lanzaconfeti*"
+  ]
+ },
+ "fm_not_leaving": {
+  "_": [
+   "¡NO ME VOY! Pero... ¿gracias? ¿Hay pastel?",
+   "...No renuncio. Pero me quedo con la tarjeta."
+  ]
+ },
+ "fm_staying_raise": {
+  "_": [
+   "¡Gracias a todos! ...Pequeña novedad: me quedo. Con aumento.",
+   "¡Ah! Sobre eso. Me quedo. Ahmet me hizo una oferta."
+  ]
+ },
+ "fm_outrage": {
+  "_": [
+   "¡Pagamos un REGALO!",
+   "¡¿Lo SABÍAS y nos dejaste hacer la colecta?!"
+  ]
+ },
+ "gen_laugh": {
+  "_": [
+   "¡JAJAJA!",
+   "Ay, esto no tiene precio.",
+   "*se ahoga de risa*",
+   "¡No puedo respirar!"
+  ]
+ },
+ "bu_spark": {
+  "_": [
+   "¡SIEMPRE haces lo mismo!",
+   "No se trata de los platos. Nunca se trata de los platos.",
+   "Bien. BIEN."
+  ]
+ },
+ "bu_spark_back": {
+  "_": [
+   "¡¿Yo?! ¡Tú fuiste quien se olvidó!",
+   "Ah, ¿así que ahora es culpa MÍA?",
+   "No me digas «bien»."
+  ]
+ },
+ "bu_storm": {
+  "_": [
+   "Necesito aire.",
+   "Hablamos luego. O no."
+  ]
+ },
+ "bu_makeup": {
+  "_": [
+   "...Perdón. Solo estoy {me?cansado|cansada}.",
+   "Vale. Exageré. ¿Café?"
+  ]
+ },
+ "bu_side_a": {
+  "_": [
+   "¿Sinceramente? {b} está insoportable últimamente.",
+   "Estoy de tu lado. Siempre."
+  ]
+ },
+ "bu_side_b": {
+  "_": [
+   "Deberías hablar con {b}. En serio.",
+   "No lo tires todo por una tontería."
+  ]
+ },
+ "bu_talk": {
+  "_": [
+   "¿Podemos hablar? ¿Hablar de verdad?",
+   "Sobre lo de antes..."
+  ]
+ },
+ "bu_together": {
+  "_": [
+   "No quiero perderte por algo tan tonto.",
+   "No volvamos a pelear en la sala de descanso. ¿Trato hecho?"
+  ]
+ },
+ "bu_over": {
+  "_": [
+   "...Creo que necesitamos un descanso. Uno de verdad.",
+   "Quizás estamos mejor como compañeros de trabajo."
+  ]
+ },
+ "pet_sneak": {
+  "_": [
+   "*susurra a una caja de cartón* Shh. Shh. Ahora eres una grapadora.",
+   "Que nadie mire en esta caja. Son... archivos. Archivos muy peludos."
+  ]
+ },
+ "pet_mew": {
+  "_": [
+   "*miau*",
+   "*miau diminuto*"
+  ]
+ },
+ "pet_ask": {
+  "_": [
+   "Necesito que escondas un gatito en el archivo. No hagas preguntas.",
+   "Vale, la encontré en el estacionamiento. ¿Me ayudas a esconderla de Ahmet?"
+  ]
+ },
+ "pet_yes": {
+  "_": [
+   "¡¿UN GATITO?! Dámela. La protegeré con mi vida.",
+   "...Está bien. Pero el nombre se lo pongo yo."
+  ]
+ },
+ "pet_no": {
+  "_": [
+   "Ni hablar. Soy {me?alérgico|alérgica} al desempleo.",
+   "No. Ahmet nos mata a los dos."
+  ]
+ },
+ "pet_boss_hear": {
+  "_": [
+   "...¿Algo está MAULLANDO en mi oficina?",
+   "¡¿Por qué hay un gatito en mi teclado?!"
+  ]
+ },
+ "pet_melts": {
+  "_": [
+   "...Ay. Ay, miren esa carita. Está bien. Se queda. Ahora es la jefa de oficina.",
+   "¿Quién es una gatita buena? Ni una palabra a la central, nadie."
+  ]
+ },
+ "pet_furious": {
+  "_": [
+   "Fuera. La gatita se va. HOY. Y {smuggler}: a mi oficina. Ya.",
+   "¡Esto es una oficina, no un zoológico!"
+  ]
+ },
+ "pw_first": {
+  "_": [
+   "*envuelve todo el escritorio de {p2} en papel film* Perfecto.",
+   "*cambia el ratón de {p2} por una papa* Arte."
+  ]
+ },
+ "pw_found": {
+  "_": [
+   "...¡¿PAPEL FILM?! Ah, esto es la guerra, {p1}.",
+   "Una PAPA. Me las vas a pagar, {p1}."
+  ]
+ },
+ "pw_revenge": {
+  "_": [
+   "*llena el cajón de {p1} con 300 notas adhesivas* Fase uno completada.",
+   "*cambia el teclado de {p1} a la distribución turca F* Muajaja."
+  ]
+ },
+ "pw_ultimate": {
+  "_": [
+   "La broma definitiva. Un cubo de confeti. Sobre la puerta. Cuando {p2} entre...",
+   "*equilibra un cubo de confeti sobre la puerta del despacho del jefe* ...Espera, puerta equivocada."
+  ]
+ },
+ "pw_boss_hit": {
+  "_": [
+   "*{me?cubierto|cubierta} de confeti* ...¿QUIÉN. HIZO. ESTO?",
+   "*escupe confeti* Voy a contar hasta tres."
+  ]
+ },
+ "pw_boss_laughs": {
+  "_": [
+   "...Ja. JA. Vale, eso estuvo bueno. Los dos, a trabajar.",
+   "Hacía años que no me reía así. No se lo digan a nadie."
+  ]
+ },
+ "pw_boss_rage": {
+  "_": [
+   "¡{p1}! ¡{p2}! ¡A mi oficina! ¡YA!",
+   "Esto se acaba HOY. Los dos. Amonestación por escrito."
+  ]
+ },
+ "nw_ask": {
+  "_": [
+   "¿Podrías hacer MENOS ruido, POR FAVOR? Algunos estamos trabajando.",
+   "Perdona, ¿podrías bajar un poco la voz? Tengo una entrega."
+  ]
+ },
+ "nw_sorry": {
+  "_": [
+   "¡Ah! Perdón. No me di cuenta. Hablaré bajito.",
+   "Culpa mía. Voz de interior. Entendido."
+  ]
+ },
+ "nw_louder": {
+  "_": [
+   "Es una oficina ABIERTA. Se llama COMUNICACIÓN.",
+   "Cómprate unos auriculares."
+  ]
+ },
+ "nw_music": {
+  "_": [
+   "Ah, ¿quieres ruido? *sube el altavoz de la oficina* DISFRUTA.",
+   "Bien. Si yo no tengo silencio, NADIE lo tiene. *pone la música a tope*"
+  ]
+ },
+ "nw_annoyed": {
+  "_": [
+   "¡¿Quién puso ESTA música?!",
+   "¡Mis oídos!",
+   "¿Alguien puede apagar eso?"
+  ]
+ },
+ "nw_showdown": {
+  "_": [
+   "Basta. Esto se acaba ya. Cocina. Los dos.",
+   "Ustedes dos están volviendo loco a todo el mundo. Siéntense. Hablen."
+  ]
+ },
+ "nw_truce": {
+  "_": [
+   "...¿Auriculares para mí y horas de silencio para ti?",
+   "Está bien. Música solo después de las cuatro. Trato hecho."
+  ]
+ },
+ "nw_war": {
+  "_": [
+   "Jamás. Mañana traigo una TROMPETA.",
+   "No hasta que me pidan perdón por el arabesk."
+  ]
+ },
+ "pb_challenge": {
+  "_": [
+   "Ahmet quiere ideas nuevas para las cuatro. La mía es mejor que la tuya. ¿Apostamos?",
+   "Duelo de propuestas. Tú y yo. Oficina de Ahmet. A las cuatro."
+  ]
+ },
+ "pb_accept": {
+  "_": [
+   "Acepto.",
+   "Ay, esto va MUY en serio.",
+   "Prepárate para perder."
+  ]
+ },
+ "pb_prep": {
+  "_": [
+   "*teclea como {me?loco|loca}* A la diapositiva nueve le falta sinergia.",
+   "Vale. Gráficos. Grandes. A Ahmet le encantan los gráficos grandes."
+  ]
+ },
+ "pb_present": {
+  "_": [
+   "Imagínense: todo, pero más rápido.",
+   "Mi idea nos ahorrará un treinta por ciento. Quizás un cuarenta."
+  ]
+ },
+ "pb_win_a": {
+  "_": [
+   "La idea de {a}. Adelante con ella. {b}, buen intento.",
+   "Me quedo con {a}. Felicidades."
+  ]
+ },
+ "pb_win_b": {
+  "_": [
+   "{b}, esa es la buena. {a}, de vuelta a la mesa de dibujo.",
+   "Gana {b}. Muy brillante."
+  ]
+ },
+ "pb_both": {
+  "_": [
+   "¿Por qué no las dos? {a} y {b}: ahora son un equipo. No se maten.",
+   "Combínenlas. Juntos. Hoy."
+  ]
+ },
+ "kn_invite": {
+  "_": [
+   "¡KARAOKE! ¡Cocina! ¡Después de las cinco! ¡Traigan su voz!",
+   "Esta noche: karaoke de oficina. Asistencia obligatoria. Es broma. Casi."
+  ]
+ },
+ "kn_rehearse": {
+  "_": [
+   "*muy bajito, en el archivo* ♪ ...y mi corazón hace bum-bum por tiii... ♪",
+   "*tararea escalas detrás del archivador*"
+  ]
+ },
+ "kn_overheard": {
+  "_": [
+   "...¿{shy?Ese|Esa} era {shy}? ¿Cantando? ¿ASÍ?",
+   "Un momento. ¿{shy} sabe CANTAR?"
+  ]
+ },
+ "kn_sing": {
+  "_": [
+   "♪ IMPRESORA, IMPRESORA, IMPRIME MI CORAZÓOON ♪",
+   "♪ Lunes, ay, lunes, ¿por qué me odiaaas? ♪",
+   "♪ Ofisin yıldızııı, kahvenin kraliçesiii ♪"
+  ]
+ },
+ "kn_star": {
+  "_": [
+   "...GUAU. ¡Otra! ¡OTRA!",
+   "{shy}, ¿dónde tenías escondido ESO?"
+  ]
+ },
+ "kn_flop": {
+  "_": [
+   "*se le quiebra la voz en la nota alta* ...Estoy bien. Perfectamente.",
+   "*canta una canción totalmente distinta*"
+  ]
  }
 }

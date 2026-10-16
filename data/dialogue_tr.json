@@ -9882,5 +9882,543 @@
    "Evet. Sadece ikimiz.",
    "Anlaştık. Gerçek bir tane."
   ]
+ },
+ "spc_ring": {
+  "_": [
+   "*zırr zırr* — HOPARLÖRDE — 'Konuşmamız lazım mı demiştin?'",
+   "*telefon hoparlörde* '{owner}? Konuşmak mı istemiştin?'"
+  ]
+ },
+ "spc_blurt": {
+  "_": [
+   "Ben— şey— senden yıllardır hoşlanıyorum, tamam mı?! İşte. Söyledim.",
+   "Senden hoşlanıyorum! Hem de çok! ...Neden herkes bana bakıyor?"
+  ]
+ },
+ "spc_hangup": {
+  "_": [
+   "*panikle telefonu kapatır* ...Yanlış numara! Ha! Ha.",
+   "*telefonu çarpar* O... bir müşteriydi."
+  ]
+ },
+ "spc_tease": {
+  "_": [
+   "Ooooo, {owner}! 'Senden yıllardır hoşlanıyorum'!",
+   "Telefon konuşmanı duyduk, {owner}. Çok romantik.",
+   "*{owner:e} öpücük sesleri çıkarır*"
+  ]
+ },
+ "spc_tease_back": {
+  "_": [
+   "Gülün bakalım. Umarım bir dahaki sefere sizin telefonunuz hoparlörde olur.",
+   "...Masamı taşıyorum. Antarktika'ya."
+  ]
+ },
+ "spc_face": {
+  "_": [
+   "Eee... o telefon konuşması.",
+   "Telefonda söylediklerini duydum. Herkes duydu."
+  ]
+ },
+ "spc_mutual": {
+  "_": [
+   "...Ben de senden hoşlanıyorum. Hoparlörüyle falan.",
+   "Kayıtlara geçsin? Bende de aynısı."
+  ]
+ },
+ "spc_no": {
+  "_": [
+   "Çok tatlısın. Ama ben öyle hissetmiyorum. Üzgünüm.",
+   "Gururum okşandı. Gerçekten. Ama hayır."
+  ]
+ },
+ "spc_friends": {
+  "_": [
+   "Hiç olmamış gibi yapıp bir kahve içelim mi?",
+   "Tamam, bu tanık olduğum en utanç verici şeydi. Kahve?"
+  ]
+ },
+ "cm_panic": {
+  "_": [
+   "MÜŞTERİ geliyor ve projektör ÖLDÜ mü?!",
+   "Projektörü kim bozdu? Hem de BUGÜN?!"
+  ]
+ },
+ "cm_fixing": {
+  "_": [
+   "Bekle... yedek bir kablom vardı... bir yerlerde.",
+   "Tamam projektör. Sen ve ben."
+  ]
+ },
+ "cm_fixed": {
+  "_": [
+   "VE... ışık var! Rica ederim.",
+   "Tamir edildi. Dokunmayın. Yanında nefes bile almayın."
+  ]
+ },
+ "cm_dead": {
+  "_": [
+   "Öldü bu. Tamamen öldü.",
+   "Yok. Yanık kokuyor. Bu asla iyiye işaret değildir."
+  ]
+ },
+ "cm_present": {
+  "_": [
+   "Ve dördüncü slaytta gördüğünüz gibi...",
+   "Bu çeyrekteki rakamlarımız kendini anlatıyor."
+  ]
+ },
+ "cm_client_happy": {
+  "_": [
+   "Müşteri imzaladı! Hemen orada!",
+   "Bayıldılar. Sözleşmeyi aldık!"
+  ]
+ },
+ "cm_client_meh": {
+  "_": [
+   "...Müşteri 'düşüneceklerini' söyledi.",
+   "Erken çıktılar. Bu kötü, değil mi? Bu kötü."
+  ]
+ },
+ "cm_improv": {
+  "_": [
+   "Projektör yok mu? Sorun değil. *bir kalem kapar* Şöyle düşünün...",
+   "Slaytları boş verin. Size geleceği çizeyim. *çok titrek bir grafik çizer*"
+  ]
+ },
+ "cm_legend": {
+  "_": [
+   "Müşteri HER ŞEYİ aldı. Çöp adam çizimi yüzünden.",
+   "'İçten ve insani' dediler. Kaptık!"
+  ]
+ },
+ "cm_disaster": {
+  "_": [
+   "Müşteri çizimin bir at olup olmadığını sordu. O bizim satış grafiğimizdi.",
+   "...Gittiler. Montlarıyla. Hızla."
+  ]
+ },
+ "ev_stuck": {
+  "_": [
+   "KAPI AÇILMIYOR!",
+   "MAHSUR KALDIK!",
+   "YANGIN ALARMI çalarken kapı neden kilitli?!"
+  ]
+ },
+ "ev_panic": {
+  "_": [
+   "Hepimiz— tamam sakinim. Sakinim. SAKİN DEĞİLİM.",
+   "Son böyle mi gelecek? Resepsiyonda mı?"
+  ]
+ },
+ "ev_lead": {
+  "_": [
+   "Herkes! Sakin olun! Yangın çıkışı arşivin yanında. Beni takip edin.",
+   "Beni dinleyin. Kimse panik yapmasın. Başka bir çıkış var."
+  ]
+ },
+ "ev_unjam": {
+  "_": [
+   "*kapıya omuz atar* ...Açıldı! Herkes dışarı— ah, alarm durdu.",
+   "Tamam! Mandal sıkışmış. Herkes dışarı. Sakin bir şekilde."
+  ]
+ },
+ "ev_who": {
+  "_": [
+   "Ön kapıyı KİM sıkıştırdı? Bu bir GÜVENLİK meselesi!",
+   "Biri o kapıyı sıkıştırmış. Bir isim istiyorum."
+  ]
+ },
+ "ev_scapegoat": {
+  "_": [
+   "{scapegoat}, kapının yanındaki son kişi sendin. Açıkla.",
+   "Sendin, değil mi, {scapegoat}?"
+  ]
+ },
+ "ev_not_me": {
+  "_": [
+   "Ben mi?! Herkes gibi DIŞARI ÇIKMAYA çalışıyordum!",
+   "Ona dokunmadım! Yemin ederim!"
+  ]
+ },
+ "ev_praise": {
+  "_": [
+   "Bugün {hero} herkesi güvende tuttu. İşte liderlik budur.",
+   "{hero} için bir alkış. Kriz anında soğukkanlı."
+  ]
+ },
+ "fw_outrage": {
+  "_": [
+   "Öğle yemeğim GİTMİŞ ve {signer} imzalı bir not mu var?!",
+   "'Yoğurdumu çalmayı bırakın — {signer}' mi?! HER ŞEYİ mi attın?!"
+  ]
+ },
+ "fw_counter": {
+  "_": [
+   "*büyük harflerle ÇOK uzun bir karşı not yazar*",
+   "'SEVGİLİ {signer}: BAZILARIMIZIN DUYGULARI VAR. VE ÖĞLE YEMEKLERİ.' *buzdolabına yapıştırır*"
+  ]
+ },
+ "fw_accuse": {
+  "_": [
+   "Öğle yemeğimi attın. Sonra da bana yoğurt hakkında NUTUK mu attın?",
+   "Notu açıkla, {signer}."
+  ]
+ },
+ "fw_innocent": {
+  "_": [
+   "O notu ben yazmadım! Ben yoğurt bile yemem!",
+   "O benim el yazım değil! Biri bize tuzak kuruyor!"
+  ]
+ },
+ "fw_snap": {
+  "_": [
+   "Belki insanlar yemeklerini etiketlese atılmazdı!",
+   "Ah, şimdi de buzdolabı polisi ben miyim? Peki. Buzdolabı polisi benim."
+  ]
+ },
+ "fm_news": {
+  "_": [
+   "Duydun mu? {leaver} İSTİFA ediyor. Mektubu gördüm!",
+   "{leaver} gidiyor! Otomatik yanıtta 'istifa ettim' yazıyor!"
+  ]
+ },
+ "fm_collect": {
+  "_": [
+   "{leaver:in} veda hediyesi için para topluyoruz. Katılır mısın?",
+   "Kartı imzala! {leaver} için! Görmesin!"
+  ]
+ },
+ "fm_chip_in": {
+  "_": [
+   "Tabii ki. {leaver:i} özleyeceğim.",
+   "Al. Güzel bir şey alın.",
+   "Gittiğine inanamıyorum."
+  ]
+ },
+ "fm_offer": {
+  "_": [
+   "Gitme, {leaver}. Ne teklif ediyorlarsa — ben de aynısını veririm.",
+   "{leaver}. Gitmeden önce... kalman için ne gerekir?"
+  ]
+ },
+ "fm_confused": {
+  "_": [
+   "...Gitmek mi? Ben gitmiyorum. Gittiğimi kim söyledi?",
+   "Bir dakika. Ne teklifi? Hiçbir yere gitmiyorum!"
+  ]
+ },
+ "fm_cunning": {
+  "_": [
+   "...Eh. Bir zam iyi bir başlangıç olur.",
+   "Hım. Daha büyük bir masa. Bir de zam. Sonra konuşuruz."
+  ]
+ },
+ "fm_surprise": {
+  "_": [
+   "SÜRPRİZ! Seni özleyeceğiz, {leaver}!",
+   "Elveda, {leaver}! *konfeti patlatır*"
+  ]
+ },
+ "fm_not_leaving": {
+  "_": [
+   "GİTMİYORUM! Ama... teşekkürler? Pasta var mı?",
+   "...İstifa etmiyorum. Ama kartı alıyorum."
+  ]
+ },
+ "fm_staying_raise": {
+  "_": [
+   "Herkese teşekkürler! ...Küçük bir güncelleme: kalıyorum. Zamla.",
+   "Ah! O konu. Kalıyorum. Ahmet bana bir teklif yaptı."
+  ]
+ },
+ "fm_outrage": {
+  "_": [
+   "HEDİYEYE para verdik!",
+   "BİLİYORDUN ve para toplamamıza izin mi verdin?!"
+  ]
+ },
+ "gen_laugh": {
+  "_": [
+   "HAHAHA!",
+   "Ah, bu paha biçilemez.",
+   "*hırıldayarak güler*",
+   "Nefes alamıyorum!"
+  ]
+ },
+ "bu_spark": {
+  "_": [
+   "HEP böyle yapıyorsun!",
+   "Konu bulaşıklar değil. Konu hiçbir zaman bulaşıklar değil.",
+   "Peki. PEKİ."
+  ]
+ },
+ "bu_spark_back": {
+  "_": [
+   "Ben mi?! Unutan sendin!",
+   "Ah, şimdi de BENİM suçum mu?",
+   "Bana 'peki' deme."
+  ]
+ },
+ "bu_storm": {
+  "_": [
+   "Biraz hava almam lazım.",
+   "Sonra konuşuruz. Ya da konuşmayız."
+  ]
+ },
+ "bu_makeup": {
+  "_": [
+   "...Özür dilerim. Sadece yorgunum.",
+   "Tamam. Abarttım. Kahve?"
+  ]
+ },
+ "bu_side_a": {
+  "_": [
+   "Açıkçası mı? {b} son zamanlarda çekilmez oldu.",
+   "Ben senin tarafındayım. Her zaman."
+  ]
+ },
+ "bu_side_b": {
+  "_": [
+   "{b} ile konuşmalısın. Doğru düzgün.",
+   "Bunu bir hiç uğruna çöpe atma."
+  ]
+ },
+ "bu_talk": {
+  "_": [
+   "Konuşabilir miyiz? Gerçekten konuşabilir miyiz?",
+   "Az önceki konuya gelince..."
+  ]
+ },
+ "bu_together": {
+  "_": [
+   "Seni bu kadar saçma bir şey yüzünden kaybetmek istemiyorum.",
+   "Bir daha asla dinlenme alanında kavga etmeyelim. Anlaştık mı?"
+  ]
+ },
+ "bu_over": {
+  "_": [
+   "...Bence bir aradaya ihtiyacımız var. Gerçek bir ara.",
+   "Belki de iş arkadaşı olarak daha iyiyiz."
+  ]
+ },
+ "pet_sneak": {
+  "_": [
+   "*karton bir kutuya fısıldar* Şşş. Şşş. Artık sen bir zımbasın.",
+   "Kimse bu kutuya bakmasın. Bunlar... dosya. Çok tüylü dosyalar."
+  ]
+ },
+ "pet_mew": {
+  "_": [
+   "*miyav*",
+   "*minicik miyav*"
+  ]
+ },
+ "pet_ask": {
+  "_": [
+   "Arşivde bir yavru kedi saklamanı istiyorum. Soru sorma.",
+   "Tamam, onu otoparkta buldum. Ahmet'ten saklamama yardım eder misin?"
+  ]
+ },
+ "pet_yes": {
+  "_": [
+   "YAVRU KEDİ mi?! Ver onu bana. Canım pahasına korurum.",
+   "...Peki. Ama adını ben koyuyorum."
+  ]
+ },
+ "pet_no": {
+  "_": [
+   "Kesinlikle hayır. İşsizliğe alerjim var.",
+   "Hayır. Ahmet ikimizi de öldürür."
+  ]
+ },
+ "pet_boss_hear": {
+  "_": [
+   "...Odamda bir şey mi MİYAVLIYOR?",
+   "Klavyemin üstünde neden bir yavru kedi var?!"
+  ]
+ },
+ "pet_melts": {
+  "_": [
+   "...Ah. Şu minik suratına bakın. Peki. Kalıyor. Artık ofis müdürü o.",
+   "Kim iyi bir kedicik? Merkeze tek kelime yok, kimse."
+  ]
+ },
+ "pet_furious": {
+  "_": [
+   "Dışarı. Kedi gidiyor. BUGÜN. Ve {smuggler}: odama. Hemen.",
+   "Burası ofis, hayvanat bahçesi değil!"
+  ]
+ },
+ "pw_first": {
+  "_": [
+   "*{p2:in} bütün masasını streç filmle sarar* Mükemmel.",
+   "*{p2:in} faresini bir patatesle değiştirir* Sanat."
+  ]
+ },
+ "pw_found": {
+  "_": [
+   "...STREÇ FİLM mi?! Ah, savaş başladı, {p1}.",
+   "PATATES. Bunu ödeyeceksin, {p1}."
+  ]
+ },
+ "pw_revenge": {
+  "_": [
+   "*{p1:in} çekmecesini 300 yapışkan notla doldurur* Birinci aşama tamam.",
+   "*{p1:in} klavyesini F klavyeye çevirir* Muhahaha."
+  ]
+ },
+ "pw_ultimate": {
+  "_": [
+   "Nihai şaka. Bir kova konfeti. Kapının üstünde. {p2} içeri girince...",
+   "*patronun kapısının üstüne bir kova konfeti yerleştirir* ...Dur, yanlış kapı."
+  ]
+ },
+ "pw_boss_hit": {
+  "_": [
+   "*konfetiye bulanmış* ...BUNU. KİM. YAPTI.",
+   "*ağzından konfeti tükürür* Üçe kadar sayıyorum."
+  ]
+ },
+ "pw_boss_laughs": {
+  "_": [
+   "...Ha. HA. Tamam, bu aslında iyiydi. İkiniz de işinizin başına.",
+   "Yıllardır böyle gülmemiştim. Kimseye söylemeyin."
+  ]
+ },
+ "pw_boss_rage": {
+  "_": [
+   "{p1}! {p2}! Odama! HEMEN!",
+   "Bu BUGÜN bitiyor. İkiniz de. Yazılı uyarı."
+  ]
+ },
+ "nw_ask": {
+  "_": [
+   "LÜTFEN biraz sessiz olur musun? Bazılarımız çalışıyor.",
+   "Pardon — biraz daha sessiz olabilir misin? Teslim tarihim var."
+  ]
+ },
+ "nw_sorry": {
+  "_": [
+   "Ah! Pardon. Fark etmemiştim. Fısıldarım.",
+   "Benim hatam. İç ses. Anladım."
+  ]
+ },
+ "nw_louder": {
+  "_": [
+   "Burası AÇIK OFİS. Buna İLETİŞİM denir.",
+   "Kulaklık al."
+  ]
+ },
+ "nw_music": {
+  "_": [
+   "Ah, gürültü mü istiyorsun? *ofis hoparlörünün sesini açar* TADINI ÇIKAR.",
+   "Peki. Benim sessizliğim yoksa KİMSENİN yok. *müziği sonuna kadar açar*"
+  ]
+ },
+ "nw_annoyed": {
+  "_": [
+   "BU müziği kim açtı?!",
+   "Kulaklarım!",
+   "Biri şunu kapatabilir mi?"
+  ]
+ },
+ "nw_showdown": {
+  "_": [
+   "Yeter. Bu şimdi bitiyor. Mutfak. İkiniz de.",
+   "Siz ikiniz herkesi delirtiyorsunuz. Oturun. Konuşun."
+  ]
+ },
+ "nw_truce": {
+  "_": [
+   "...Bana kulaklık, sana sessiz saatler?",
+   "Peki. Müzik sadece dörtten sonra. Anlaştık."
+  ]
+ },
+ "nw_war": {
+  "_": [
+   "Asla. Yarın TROMPET getireceğim.",
+   "Arabesk için özür dilemeden olmaz."
+  ]
+ },
+ "pb_challenge": {
+  "_": [
+   "Ahmet saat dörde kadar yeni fikirler istiyor. Benimki seninkinden iyi. İddiaya var mısın?",
+   "Fikir düellosu. Sen ve ben. Ahmet'in odası. Saat dört."
+  ]
+ },
+ "pb_accept": {
+  "_": [
+   "Kabul.",
+   "Ah, bu iş ÇOK ciddi.",
+   "Kaybetmeye hazırlan."
+  ]
+ },
+ "pb_prep": {
+  "_": [
+   "*hararetle yazıyor* Dokuzuncu slayta daha çok sinerji lazım.",
+   "Tamam. Grafikler. Büyük olanlar. Ahmet büyük grafiklere bayılır."
+  ]
+ },
+ "pb_present": {
+  "_": [
+   "Şunu hayal edin: her şey, ama daha hızlı.",
+   "Benim fikrim bize yüzde otuz tasarruf ettirecek. Belki de kırk."
+  ]
+ },
+ "pb_win_a": {
+  "_": [
+   "{a:in} fikri. Onunla gidin. {b}, güzel çabaydı.",
+   "{a:i} seçiyorum. Tebrikler."
+  ]
+ },
+ "pb_win_b": {
+  "_": [
+   "{b}, işte bu. {a}, baştan başla.",
+   "{b} kazandı. Keskin bir sunumdu."
+  ]
+ },
+ "pb_both": {
+  "_": [
+   "Neden ikisi birden olmasın? {a} ve {b}: artık bir ekipsiniz. Birbirinizi öldürmeyin.",
+   "Birleştirin. Birlikte. Bugün."
+  ]
+ },
+ "kn_invite": {
+  "_": [
+   "KARAOKE! Mutfak! Beşten sonra! Sesinizi getirin!",
+   "Bu akşam: ofis karaokesi. Katılım zorunlu. Şaka. Çoğunlukla."
+  ]
+ },
+ "kn_rehearse": {
+  "_": [
+   "*arşivde, çok sessizce* ♪ ...ve kalbim senin için bum-bum atıyooor... ♪",
+   "*dosya dolabının arkasında gam çalışır*"
+  ]
+ },
+ "kn_overheard": {
+  "_": [
+   "...O {shy} mıydı? Şarkı mı söylüyordu? ÖYLE mi?",
+   "Bir dakika. {shy} şarkı SÖYLEYEBİLİYOR mu?"
+  ]
+ },
+ "kn_sing": {
+  "_": [
+   "♪ YAZICIM, YAZICIM, YAZ KALBİMİİİ ♪",
+   "♪ Pazartesi, ah pazartesi, neden benden nefret ediyorsuuun? ♪",
+   "♪ Ofisin yıldızııı, kahvenin kraliçesiii ♪"
+  ]
+ },
+ "kn_star": {
+  "_": [
+   "...VAY. Bir daha! BİR DAHA!",
+   "{shy}, BUNU nerede saklıyordun?"
+  ]
+ },
+ "kn_flop": {
+  "_": [
+   "*tiz notada sesi çatlar* ...İyiyim. Gayet iyiyim.",
+   "*bambaşka bir şarkı söyler*"
+  ]
  }
 }
