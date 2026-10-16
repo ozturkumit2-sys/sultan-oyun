@@ -1,0 +1,109 @@
+1204|{a} ile {b} dinlenme alanında ufak bir kavga etti — iki dakika sonra barıştılar.
+1205|{a} ile {b} ayrıldı. Ofiste bir süre tuhaf bir hava olacak.
+1206|{confidant}, {b} ile olan kavga hakkında {a:le} konuştu. Arkadaşlar taraf tutmaya başladı.
+1207|{a} ile {b} dinlenme alanında fısır fısır kavga etti. {b} hışımla çıkıp gitti. Ofis resmen endişeli.
+1208|{a} ile {b} konuşup anlaştı. Hâlâ birlikteler — ve kahve makinesinin başında el ele tutuşuyorlar, ki bu daha kötü.
+1209|{actor} ev yapımı kek getirdi. Mutfak saniyeler içinde doldu.
+1210|{bday} için hazırlanan sürpriz doğum günü pastası saatler önceden mutfak masasında duruyordu. {bday} gördü.
+1211|{actor} takviminde hiç oluşturmadığı bir {what} buldu. Ürkütücü.
+1212|{actor:in} takviminde bir {what} belirdi. {actor} bunun için ofisten koşarak çıktı.
+1213|Ahmet, {owner:in} ortadan kaybolduğunu fark etti. Nereye gittiğine dair söylentiler başladı.
+1214|Önemli bir müşteri geri araması {owner:e} bir saat geç ulaştı. İş rakibe gitti.
+1215|{owner:in} telefonunda Ahmet'ten arama göründü. Hatta kimse yoktu.
+1216|{owner:in} telefonu eski sevgilisinin adıyla yandı. Biri fark etti.
+1217|{owner:in} telefonu çaldı: 'Talent Partners — işe alım'. Yakındakiler ikiyle ikiyi topladı.
+1218|{owner:in} telefonu çaldı — 'Annem' — hem de işin tam ortasında. Herkes duydu.
+1219|{actor}, {target:den} TAMAMI BÜYÜK HARFLE bir mesaj aldı ve bunu kişisel algıladı.
+1220|{actor}, {target:in} sohbette ona bağırdığını sandı. Takılı kalan caps lock'tu. Gülüp geçti.
+1221|{actor}, Ahmet'e kelle avcısının kartvizitini salladı. Ahmet blöfü gördü.
+1222|{actor} bir kelle avcısı kartviziti buldu ve Ahmet'e karşı koz olarak kullandı. İşe yaradı.
+1223|{actor} masasında bir kelle avcısının kartvizitini buldu — ve sakladı.
+1224|Ahmet, {owner:in} kebap hakkındaki bitmek bilmeyen sohbetine bilgi olarak eklendi. 'Verimlilikten' hiç etkilenmedi.
+1225|Ahmet, {owner:in} özel sohbetine bilgi olarak eklendi — tam da {owner:in} ondan yakındığı kısma.
+1226|{suspect}, otomat için bağış kutusundan bozuk para 'ödünç aldığını' itiraf etti. İki katını ödeyecek.
+1227|Bütün öğleden sonra {organiser:in} bağış kutusuna bozuk paralar şıkırdıyor.
+1228|{organiser}, bağış parasını almakla {suspect:i} suçladı — sonra kutuya yapışmış banknotu buldu. Mahcup bir özür.
+1229|{organiser}, hayvan barınağı için mutfağa bir bağış kutusu koydu.
+1230|{organiser} bağış kutusunu saydı ve para eksik görünüyor. {organiser}, {suspect:den} şüpheleniyor.
+1231|{organiser} bağış kutusunu saydı: rekor! Barınak çok sevinecek.
+1232|{reader}, {sender} ile bir 'randevuya' geldi. {sender:in} hiçbir şeyden haberi yoktu — ama oyuna ayak uydurdu. Mutfak her şeyi gördü.
+1233|{crush}, {sender:e} {reader} ile olan 'randevuyu' sordu. {sender} bunun bir karışıklık olduğunu açıkladı. {crush}... rahatlamış göründü.
+1234|{sender} ile {reader} randevunun bir karışıklık olduğunda anlaştı. Arkadaşlar. Galiba.
+1235|{reader} sahte randevu yüzünden hâlâ kırgın ve {sender:den} kaçıyor.
+1236|{reader} sahte randevunun komik olduğuna karar verdi. {reader} ile {sender:in} artık ortak bir esprisi var.
+1237|{sender} ile {reader:in} 'karışıklık' randevusu ikinci, gerçek bir randevuya dönüştü. Orada gerçekten bir şeyler oluyor.
+1238|{crush}, {reader} ile çıktığı için {sender:le} yüzleşti. {sender} inkâr etmedi. {crush} kırgın bir şekilde uzaklaştı.
+1239|{crush}, {reader} meselesi yüzünden {sender:le} yüzleşti. {sender} gerçeği ağzından kaçırdı: hoşlandığı kişi {crush}. {reader} en son öğrendi.
+1240|{reader}, {sender} ile bir 'randevuya' geldi. {sender} gerçeği söyledi: öyle bir not yoktu. {reader} yer yarılsa da içine girse diye düşündü.
+1241|Ceren toplantı saatini birinin değiştirdiğini fark etti.
+1242|Ceren terfi dosyasında bir şeylerin tutmadığını fark etti.
+1243|Ceren, Ahmet'e anlattı: "{gossip}"
+1244|Ahmet içeri girdiğinde KENDİ toplantısını {target:in} yönettiğini gördü. {target} geri adım atmadı. Gerginlik.
+1245|{actor:in} sandalyesi oturduğu anda çöktü. Biri onu kırık olanla değiştirmişti.
+1246|Pano bugünkü toplantının başkanı olarak {actor:i} gösterdi. {actor} toplantıyı Ahmet olmadan başlattı.
+1247|Ahmet içeri girdiğinde kendi toplantısını {target:in} yönettiğini gördü. {target} sandalyesine büzüldü.
+1248|{actor:in} sandalyesi yavaş yavaş alçaldı, ta ki sadece kaşları görünene kadar.
+1249|'Müşteri ziyareti' hiç gerçekleşmedi. Panoya kimin yazdığını kimse bilmiyor. Herkes boşuna toparlandı.
+1250|Pano bir müşteri ziyareti duyurdu. Bütün ofis toparlanıyor ve iki kat hızlı çalışıyor.
+1251|Ofis iki kampa bölündü: {g1} ile {g2} karşı karşıya.
+1252|{actor} toplantıya geç kaldı — bilgisayarının saati geri kalıyormuş.
+1253|{target:in} bilgisayar saati ileri gidiyordu ve erken çıktı. Ahmet görmezden geldi.
+1254|{target:in} bilgisayar saati 45 dakika ileriydi. Erkenden toparlandı — tam Ahmet'in önünden. Masaya geri.
+1255|{actor}, bilgisayar saati yanlış olduğu için 45 dakika erken çıktı. Kimse durdurmadı.
+1256|{it} projeksiyon cihazını resmen ölü ilan etti. {presenter} doğaçlama yapmak zorunda kalacak.
+1257|Projeksiyon olmayınca {presenter} bir kalemle doğaçlama yapmaya çalıştı. Müşteri satış grafiğini at sandı.
+1258|{it}, projeksiyon cihazını son dakikalarda ölümden döndürdü.
+1259|Projeksiyon olmayınca {presenter} bir kalem ve çöp adamlarla doğaçlama yaptı — ve müşteriyi kazandı. Ofis efsanesi.
+1260|{presenter:in} müşteri sunumu çuvalladı. Müşteri 'bir düşünmek için' gitti.
+1261|Ahmet projeksiyonun ölü olduğunu fark etti — 'önemli müşteriden' bir saat önce. Sunumu {presenter} yapacak. Panik.
+1262|{presenter} müşteri sunumunu döktürdü. Müşteri imzaladı. Ahmet'in yüzü gülüyor.
+1263|{target}, yanlışlıkla {other:in} montuyla eve gitti.
+1264|{actor} ile {target}, karışıklıktan sonra montlarını geri değiştirdi. Uzun uzun bakıştılar.
+1265|{actor} ile {target}, yanlışlıkla eve götürdükleri montları geri değiştirdi.
+1266|{target:in} kayıp telefonu çaldı — askılıktaki {coat:in} montunun içinden. Arkasından suçlamalar geldi.
+1267|{actor}, kahve makinesi için {suspect:i} suçluyor.
+1268|{actor} kahve makinesinin bozuk olduğunu fark etti.
+1269|{actor} ile {target} yine birlikte mutfağa sıvıştı.
+1270|{spotter}, {actor} ile {target:i} kahve makinesinin başında epey samimi yakaladı.
+1271|Ece, {target:e} kahve getirdi.
+1272|Ece, {target:e} kahve getirdi… ve üstüne döktü.
+1273|Kahve makinesi kendi kendine düzeldi. {actor:in} tüyleri diken diken.
+1274|{target}, {actor:i} görmezden gelip yürüdü gitti.
+1275|{bdayp:in} yaklaşan doğum günü için para toplanan gizli zarf ortada kalmıştı. {bdayp} buldu.
+1276|{target:in} mırıldanması hakkında isimsiz bir şikâyet mantar panoya asıldı. {target:in} bir şüphelisi var.
+1277|Mantar panoda {target:i} öven isimsiz bir not belirdi. {target} ışıl ışıl — ve araştırıyor.
+1278|{actor} arşivde açık bırakılmış gizli bir belge buldu — ve okudu.
+1279|{actor}, dinlenme alanında {target:e} bir sır verdi: "{fact}"
+1280|{actor}, {target:i} tebrik etmeye gitti.
+1281|Ahmet, kalması için Burak'a zam teklif etti!
+1282|{usurper}, {ally:i} 'yardımcı' olarak yanına aldı. Darbenin artık bir kabinesi var.
+1283|{usurper}, {ally:i} yanına çekmeye çalıştı. {ally} bu işe hiç bulaşmak istemiyor.
+1284|{usurper} ofisin ortasında durup 'yeni verimlilik önlemleri' açıkladı. Ahmet'e danışılmadı.
+1285|Ahmet 'darbe' konusunda {usurper:le} yüzleşti. {usurper} için hiç iyi geçmedi.
+1286|Ahmet 'darbe' konusunda {usurper:le} yüzleşti — ve sonunda fikirlerin yarısını benimsedi.
+1287|{target} ile {partner:in} 'el ele' montajlı bir fotoğrafı mantar panoya asıldı.
+1288|{target} bir öfke kontrolü kursuna yazıldı — ve şaşırtıcı derecede iyi karşıladı.
+1289|{target} zorunlu bir öfke kontrolü kursuna yazıldı. {target} buna... çok öfkelenerek tepki verdi.
+1290|{friend}, {actor:in} geç gelişini örtbas etti. Ahmet yuttu.
+1291|{friend}, {actor:in} geç gelişini örtbas etmeye çalıştı. Ahmet yemedi.
+1292|Ahmet sandalye yarışını öğrendi ve bir genelgeyle yasakladı. Suç {racer:e} kaldı.
+1293|Ahmet sandalye yarışını öğrendi — ve kendisinin de katılacağı bir rövanş istedi.
+1294|{racer}, {rival:i} ofis sandalyesi yarışına davet etti. Bahisler şimdiden açıldı.
+1295|Ofis sandalyesi yarışı {racer:in} bitkiye çarpmasıyla bitti. {rival} hükmen kazandı.
+1296|{racer}, ofis sandalyesi yarışında {rival:i} geçti. Kalabalık çıldırdı.
+1297|{actor} ile {target}, işi kimin yaptığı konusunda karşı karşıya geldi.
+1298|{actor}, Ahmet'in önünde {target:in} başarısını kaptı!
+1299|{victim} yokken {actor} onun emeğini sahiplendi.
+1300|Mantar panodaki sahte 'terfi kriterleri' diyor ki: kek getirin. {climber} şimdiden kek getiriyor.
+1301|Sahte 'terfi kriterleri' diyor ki: Ahmet'in esprilerine gülün. {climber}, Ahmet'in söylediği HER ŞEYE gülüyor.
+1302|Ceren, Mert'in ondan hoşlandığını öğrendi. Tuhaf oldu.
+1303|Ceren, Mert'in ondan hoşlandığını öğrendi… ve gülümsedi.
+1304|{thief}, sessizce {victim:in} en büyük müşterisini arayıp 'onlarla bizzat ilgilenmeyi' teklif etti.
+1305|{victim}, {thief:in} arkasından müşterisiyle konuştuğunu öğrendi.
+1306|Ahmet, {victim:in} müşterisinin {thief:de} kalmasına izin verdi. {victim} yıkıldı.
+1307|Ahmet, müşterinin {victim:de} kalmasına karar verdi. {thief:in} müşteri kapma girişimi suya düştü.
+1308|Kahve makinesinin ısınması bir ömür sürdü. Birlikte beklemek zorunda kalan {actor} ile {target} sohbete daldı.
+1309|{actor} ile {target} elektrik kesintisinde kaynaştı.
+1310|Karanlıkta Deniz, Selin'in USB belleğini aşırdı!
+1311|Yönlendirilen bir öğle yemeği daveti, fotoğraftaki 'çift' {a} ve {b} ile çifte randevuya dönüştü. Kimse nereye bakacağını bilemedi.
+1312|{a} ile {b}, çift fotoğrafının sahte olduğunda anlaştı. Şimdi onu kimin yaptığını öğrenmek istiyorlar.
