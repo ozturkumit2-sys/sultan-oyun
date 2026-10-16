@@ -74,3 +74,12 @@ Everywhere else (ui.*, why.*, state.*, iv.*, …) write gender-neutral; role pla
 - Turkish possessed+case: `sini` (kupasını, belleğini), `sine`, `sinde`, `sinden`, `sinin`. "found their mug" → `{item:sini} buldu`.
 - German items in sentences: use the article form `{item?den|die|das} {item}` (accusative) or the name genitive `{owner:s} {item}`.
 - `{choice}` (only in log.iv.confidential_doc) is an internal id — leave it out of translations.
+
+## Running jokes
+- 'World's Best Boss' mug: tr 'Dünyanın En İyi Patronu', de „Bester Chef der Welt“, es «El mejor jefe del mundo»,
+  fr « Meilleur patron du monde », zh “世界最佳老板”, hi 'दुनिया का सबसे अच्छा बॉस'.
+- misprinted replacement 'World's Best Bass': tr 'Dünyanın En İyi Paronu', de „Bester Chaf der Welt“,
+  es «El mejor jefe del mudo», fr « Meilleur poltron du monde », zh “世界最佳老扳”, hi 'दुनिया का सबसे अच्छा बोस'.
+- lira: de Lira, es liras, fr lires, zh 里拉, hi लीरा.
+- Ece's "Uncle" slip and her lie (chunk 22 dialogue + log 1902): tr Amca → "ancak dedim", de Onkel → „Knöchel“,
+  es tío → «frío», fr Tonton → « menton », zh 叔叔 → “不舒服”, hi चाचा → "चा… चाय". niece: tr yeğen, zh 侄女, hi भतीजी.
