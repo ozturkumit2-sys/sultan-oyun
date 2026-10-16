@@ -10,7 +10,7 @@ import json, os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 LANGS = ["tr", "de", "es", "fr", "zh", "hi"]
-CASES = {"tr": {"in", "i", "e", "de", "den", "le", "dir"}, "de": {"s"}}
+CASES = {"tr": {"in", "i", "e", "de", "den", "le", "dir", "si", "m", "n"}, "de": {"s"}}
 PH = re.compile(r"\{(\w+)(?::(\w+))?(?:\?([^|{}]*)\|([^{}]*))?\}")
 BAD_BRACES = re.compile(r"\{[^}]*$|^[^{]*\}")
 
@@ -46,11 +46,24 @@ def load(code):
             if i in out and out[i] != m.group(2).replace("\\n", "\n"):
                 errs.append("%s/%s:%d: id %d translated twice" % (code, fn, ln, i))
             out[i] = m.group(2).replace("\\n", "\n")
+    if code == "fr":
+        # French spacing: no line break before ! ? : ; » or after «
+        for i in out:
+            t = re.sub(r" ([!?:;»])", "\u00a0\\1", out[i])
+            out[i] = t.replace("« ", "«\u00a0")
     return out, errs
+
+
+def extra_cases(code):
+    p = os.path.join(HERE, code, "extra.json")
+    if not os.path.exists(p):
+        return set()
+    return {k.split(".")[1] for k in json.load(open(p, encoding="utf-8")) if k.startswith("gram.")}
 
 
 def check(code, tr):
     errs, warns = [], []
+    cases = CASES.get(code, set()) | extra_cases(code)
     for i, t in tr.items():
         u = by_id[i]
         en = u["en"]
@@ -58,7 +71,7 @@ def check(code, tr):
         if u["key"].startswith("D|"):
             allowed |= {"to"}
         tag = "%s #%d (%s)" % (code, i, u["key"])
-        if t.strip() == "":
+        if t.strip() == "" and en.strip() != "":
             errs.append(tag + ": empty")
             continue
         for m in PH.finditer(t):
@@ -67,7 +80,7 @@ def check(code, tr):
                 errs.append("%s: unknown placeholder {%s}" % (tag, m.group(0)[1:-1]))
             if n in ("me", "to") and n not in names(en) and m.group(3) is None and not u["key"].startswith("D|"):
                 errs.append("%s: {%s} can only choose a word by gender here ({%s?..|..})" % (tag, n, n))
-            if case and case not in CASES.get(code, set()):
+            if case and case not in cases:
                 errs.append("%s: grammar tag ':%s' not available in %s" % (tag, case, code))
         rest = PH.sub("", t)
         if "{" in rest or "}" in rest:
@@ -103,6 +116,9 @@ def build(code):
             for sp, idx, v in sorted(items, key=lambda x: (x[0], x[1])):
                 entry.setdefault(sp, []).append(v)
             D[k] = entry
+    extra = os.path.join(HERE, code, "extra.json")
+    if os.path.exists(extra):
+        S.update(json.load(open(extra, encoding="utf-8")))
     total = len(units)
     done = sum(1 for u in units if u["id"] in tr)
     return S, D, errs, warns, done, total

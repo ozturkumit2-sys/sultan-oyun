@@ -6,7 +6,7 @@ English source: `_dev/i18n/chunks/en_NNN.txt` (`id|key|text`). Build: `python3 _
 ## Placeholders
 - `{x}` keep every placeholder of the English line (names, items, numbers).
 - `{x:case}` grammar endings. Turkish: `in` (Selin'in), `i` (Selin'i), `e` (Selin'e), `de` (Selin'de),
-  `den` (Selin'den), `le` (Selin'le), `dir`. German: `s` (Selins / Deniz’). Names get the apostrophe
+  `den` (Selin'den), `le` (Selin'le), `dir`, `si` (3rd person possessive: kupa → kupası, bellek → belleği). Irregular words: `tr/extra.json` "gram.<case>.<word>". German: `s` (Selins / Deniz’). Names get the apostrophe
   automatically in Turkish. Do not use endings on times/numbers.
 - `{x?masc|fem}` word chosen by the gender of the person in x. `{me?..|..}` = the speaker (speech lines,
   memories, mood/emotion words, plans), `{to?..|..}` = the person spoken to (speech lines only).
@@ -53,3 +53,21 @@ Other languages keep the Latin names. "Ahmet Bey" stays "Ahmet Bey" (tr/de/es/fr
 | meeting | toplantı | Meeting | reunión | réunion | 会议 | मीटिंग |
 | desk | masa | Schreibtisch | escritorio | bureau | 工位 | डेस्क |
 | The Daily Grind (paper) | GÜNLÜK KOŞTURMACA | DER TÄGLICHE TROTT | LA RUTINA DIARIA | LE TRAIN-TRAIN | 每日打工报 | रोज़ की चक्की |
+
+## Where the gender of a person is known
+`{me?..|..}` works only in: speech lines (D), `mem.*`, `mood.*`, `emo.*`, `plan.*`, `bond.*`.
+Everywhere else (ui.*, why.*, state.*, iv.*, …) write gender-neutral; role placeholders like
+`{actor?..|..}` work wherever that placeholder exists in the English line.
+
+## Word genders and special forms (extra.json per language)
+- `gender.<word>`: "m" / "f" / "n" / "p" for nouns that get inserted (items, objects).
+  `{item?A|B|C|D}` = masculine | feminine | neuter | plural (missing slots → first).
+- `gram.<case>.<word>`: any custom form, e.g. fr `gram.le.étui à lunettes` = "l'étui à lunettes",
+  tr `gram.i.şarj aleti` = "şarj aletini". A template uses it as `{item:le}`.
+- Turkish built-in cases also: `m` (my: kupam, belleğim), `n` (your: kupan).
+- Items: tr şarj aleti, okuma gözlüğü, uğurlu kupa, ajanda, USB bellek
+  de Ladegerät(n), Lesebrille(f), Glückstasse(f), Terminplaner(m), USB-Stick(m) — no article in the value
+  es cargador(m), estuche de gafas(m), taza de la suerte(f), agenda(f), memoria USB(f) — no article
+  fr chargeur(m), étui à lunettes(m), tasse porte-bonheur(f), agenda(m), clé USB(f) — no article; cases le/du/mon/ton/son in extra
+  zh 笔记本充电器, 老花镜, 幸运马克杯, 日程本, U盘
+  hi लैपटॉप चार्जर, पढ़ने का चश्मा, लकी मग, प्लानर, यूएसबी — all masculine

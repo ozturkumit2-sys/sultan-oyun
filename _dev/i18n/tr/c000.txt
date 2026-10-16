@@ -1,0 +1,387 @@
+1|{age} yaşında
+2|Ertesi güne otomatik geç
+3|Geri
+4|Duydukları
+5|DEDİKODU PANOSU
+6|PERSONEL
+7|Bağlar ve planlar
+8|Seç…
+9|Bir dil seç
+10|GİZLİ
+11|Kapat
+12|Devam
+13|Devam · {day}. Gün
+14|Emeği Geçenler
+15|OFFICE POLTERGEIST\nOyun tasarımı, kod, görseller ve sesler bu proje için üretildi.\n\nYazı tipleri:\nPermanent Marker — Font Diner (Apache Lisansı 2.0; Türkçe harfler eklendi)\nPatrick Hand — Patrick Wagesreiter (SIL Open Font License 1.1)\nSpecial Elite — Astigmatic (Apache Lisansı 2.0)\nAlfa Slab One — JM Solé (SIL Open Font License 1.1)\nKalam, Yatra One — Indian Type Foundry / Catherine Leigh Schmidt (SIL OFL 1.1)\nZCOOL KuaiLe — Liu Zhengjiang (SIL OFL 1.1)\nLXGW WenKai — LXGW (SIL OFL 1.1)\n\nTüm karakterler, çizimler, müzik ve ses efektleri özgündür ve yazılımla üretilmiştir.\nGodot Engine ile yapıldı (MIT Lisansı).
+16|{day}. GÜN
+17|GÜN
+18|Ofis bugünlük kapandı.
+19|{day}. gün
+20|yalan çıktı
+21|Şu an
+22|Tamam! Şimdi bekle ve izle…
+23|HIZLI x2
+24|Burada bulunan: {n} / {total}
+25|Arkadaşlık
+26|İstediği
+27|duymuş
+28|Nasıl Oynanır
+29|Küçük bir ofise musallat olmuş görünmez bir güçsün.\n\nKimseyi kontrol edemezsin. Onun yerine parlayan şeylere dokun — kahve makinesi, yazıcı, bilgisayarlar, toplantı panosu, klima, sigorta kutusu, patronun terfi dosyası, insanların eşyaları — ve ortalığı karıştır.\n\nMüdahalelerin çoğu sinsidir: biri o şeyi gerçekten kullanana kadar hiçbir şey olmaz. Yazıcıyı boz ve birinin ona ihtiyaç duymasını bekle. Bir e-postanın alıcısını değiştir ve gönder tuşuna basmasını bekle.\n\nHerkesin bir kişiliği, bir hedefi, arkadaşlıkları, rekabetleri, sırları ve hafızası var. Sonra ne olacağı bunların hepsine — ve düne — bağlı.\n\nKarışmanın 200 yolu var. Masaların dört çekmecesi var: Bilgisayar, Gelen Kutusu, Telefon ve Masa. Bazı müdahaleler gizlidir: ancak o gün doğru şeyler olduktan sonra (küçük altın bir anahtarla) ortaya çıkarlar — ve günlerce süren koca hikâyeler başlatabilirler.\n\nSol alttaki yeşil defter Keşif Günlüğün: bulduklarını, sonunu gördüğün hikâyeleri ve en büyük zincirleme tepkini tutar.\n\nGörev yok, puan yok. Onlara yardım et, hayatlarını mahvet ya da sadece izle.
+30|Toplam müdahale: {n}
+31|Keşif Günlüğü
+32|Dil
+33|SIZDIRILDI
+34|Bul
+35|Dedikodu Panosu
+36|Kaydet ve Ana Menü
+37|Karış
+38|emin değil
+39|duymuş
+40|emin
+41|Son anılar
+42|Ruh hali
+43|İş memnuniyeti
+44|Müzik
+45|Yeni Oyun
+46|Baştan mı başlıyorsun? Şu anki ofisin silinecek.
+47|YENİ
+48|Sonraki Gün →
+49|Sonraki gün {n} sn içinde…
+50|Hayır
+51|Kayda değer bir şey duymamış.
+52|Ortada bir şey yok.
+53|Henüz bir şey olmadı. Biraz bekle… ya da biraz dürt.
+54|Henüz akılda kalan bir şey yok.
+55|Bilinen sır yok.
+56|Büyük bir hikâye yok… şimdilik.
+57|Ofiste değil
+58|emin değil
+59|Burada şu an karışacak bir şey yok.
+60|KAPALI
+61|Ofis havası
+62|AÇIK
+63|DURAKLATILDI
+64|PERSONEL DOSYASI
+65|{name} için — şimdi nasıl olacağını seç
+66|“{text}”
+67|İlişkiler
+68|Bugün
+69|Kin
+70|Saygı
+71|Sürdür
+72|Rekabet
+73|Hoşlantı
+74|Kaydedildi
+75|GİZLİ KOMBİNASYON
+76|Sırlar
+77|{n} gizli
+78|Ayarlar
+79|Ses efektleri
+80|Oynat
+81|Hızlı
+82|Duraklat
+83|Personel
+84|Günün manşetleri
+85|{n}. bölüm
+86|Bitti
+87|Hikâyeler
+88|Stres
+89|8 çalışan. 1 görünmez muzip. Sıfır kural.
+90|emin
+91|Şüphe
+92|Karışmak için parlayan eşyalara dokun. Dosyasını okumak için insanlara dokun.
+93|OFFICE POLTERGEIST
+94|Bugün şu ana kadar
+95|Güven
+96|v{v}
+97|Evet
+98|Haftanın Çalışanı
+99|Takım Lideri
+100|HİKÂYE BİTTİ
+101|DEVAMI VAR
+102|{day}. GÜN
+103|OFİS BASKISI
+104|GÜNLÜK KOŞTURMACA
+105|Haber değeri taşıyan hiçbir şey olmadı. Şüpheli.
+106|RAKAMLARLA
+107|Fısıldanmaya değer tüm ofis haberleri
+108|SAKİN BİR GÜN
+109|TAM BİR KAOS!
+110|BİRAZ DRAM
+111|OFİS ARAPSAÇI!
+112|Tüm kategoriler
+113|En büyük zincirleme tepki
+114|Hatta şunu bile başlattı: {arcs}
+115|'{what}' ({day}. gün) {n} sonuca yol açtı.
+116|{n} farklı son keşfedildi
+117|{n}  ·  %{pct}
+118|Müdahaleler
+119|keşfedilen müdahale
+120|(Oldu. Kimse not almadı.)
+121|Anlar
+122|Ofisin haftalarca konuşacağı büyük anlar.
+123|özel an görüldü
+124|Henüz çığ gibi büyüyen bir şey yok. Zaman tanı.
+125|{n} farklı sonuç görüldü
+126|Farklı sonlar
+127|Keşfedilen müdahaleler
+128|Özel anlar
+129|Görülen farklı sonuçlar
+130|Bulunan gizli kombinasyonlar
+131|Biten hikâyeler
+132|Rekorlar
+133|{n} gizli kombinasyon hâlâ saklı
+134|Hikâyeler
+135|sonuna kadar görülen hikâye
+136|Henüz kimsenin yaşamadığı {n} hikâye
+137|{n}× görüldü · sonlar: {ends}
+138|{n} tanesi hâlâ keşfedilmedi. Bazıları ancak doğru şeyler denk gelince ortaya çıkar…
+139|Bu kategoride keşfedilecek {n} şey daha var
+140|{n}× kullanıldı · ilk kez {day}. gün
+141|Bilgisayar ve dijital
+142|E-posta ve mesajlar
+143|Toplantı ve takvim
+144|Belge ve evrak
+145|Kariyer, terfi ve maaş
+146|Telefon ve aramalar
+147|Mutfak ve kahve
+148|Ekipman ve ortam
+149|Sosyal ve dedikodu
+150|Gizli kombinasyonlar
+151|Gelen Kutusu
+152|Masa
+153|Bilgisayar
+154|Telefon
+155|Klima
+156|Yangın alarmı paneli
+157|Askılık
+158|Kahve Makinesi
+159|Dosya dolapları
+160|Buzdolabı
+161|Giriş kapısı
+162|İK dolabı
+163|{owner:in} {item:si}
+164|Mutfak masası
+165|Sigorta Kutusu
+166|Toplantı Panosu
+167|Toplantı odası masası
+168|Mikrodalga
+169|Mantar pano
+170|Ofis bitkisi
+171|Yazıcı
+172|Terfi Dosyası
+173|Sunucu dolabı
+174|Dinlenme koltuğu
+175|Ofis hoparlörü
+176|Malzeme rafı
+177|Duvar saati
+178|Su sebili
+179|{name:in} Masası
+180|Sessiz
+181|ÇALIYOR
+182|BOZUK
+183|{time} gösteriyor
+184|Çalışıyor… sayılır
+185|{name} · {doing}
+186|Şu an burada: {loc}
+187|Işıklar KAPALI
+188|Işıklar açık
+189|Bugünkü toplantı: {time}
+190|Bugünkü toplantı bitti
+191|Çalan: {what}
+192|Sessiz
+193|Kâğıt bitti
+194|{n} not iğnelenmiş
+195|Ahmet bunu her öğleden sonra okur.
+196|Kurcalandı, Ahmet'i bekliyor…
+197|Ayar: {temp}
+198|Gayet iyi çalışıyor
+199|Başarıyı {name:e} yaz
+200|Arabesk
+201|Ağlayan bir bebek
+202|Hıçkıra hıçkıra bir ayrılık şarkısı
+203|'Küvetimden gönderildi'
+204|Tropik bir plaj
+205|Kocaman bir Ahmet fotoğrafı
+206|'Cumaları pasta getirin'
+207|'Geleceğin CEO'su'
+208|Klasik
+209|Öğleden sonra izinli olduğu
+210|Diş randevusu
+211|Disko
+212|'SAÇMA FİKİRLERİM'
+213|Eski sevgilisi
+214|45 dakika ileri
+215|'Ahmet'in gözdesi'
+216|'Kovun onu!'
+217|'(Hoşlandığı kişiye) çiçek al'
+218|Parlasın
+219|'16:30'da spor salonu — erken çık'
+220|Bir kelle avcısı
+221|'İş görüşmesi' (ortak takvimde)
+222|Mutfak
+223|Kırk yavru kedi
+224|'Ahmet'in esprilerine gül'
+225|bir 'pozisyonlar gözden geçiriliyor' listesi
+226|'ACİL: işten çıkarmalar'
+227|Dinlenme alanı
+228|'AŞK MEKTUPLARI'
+229|'Öğle yemeklerini kim çalıyor?'
+230|Bangır bangır heavy metal
+231|'Annem'
+232|'Bu akşam bende parti var!'
+233|'GİZLİ PLANLAR'
+234|Cıvık pop
+235|'Terfiler — bugün'
+236|'Terfi ettirin!'
+237|'Ynt: zammın (onaylandı!)'
+238|'Yeni ofis içi ilişki politikası'
+239|maaş listesi
+240|Hava saldırısı sireni
+241|30 dakika geri
+242|Felakete çevir
+243|{time} saatine al
+244|"Gizli bir hayranın selam söylüyor 😊"
+245|"Odama gel. HEMEN." — Ahmet
+246|"Bugünkü toplantı iptal."
+247|"Mutfakta bedava pasta var!"
+248|{name:e} gönder
+249|16°C — Kutup
+250|19°C — Serin
+251|22°C — Normal
+252|25°C — Ilık
+253|29°C — Sauna
+254|Şu an ofiste değil.
+255|Öğle arası çoktan bitti.
+256|Alarm zaten çalıyor.
+257|Zaten yapıldı.
+258|Zaten bozuk.
+259|Zaten kilitli.
+260|Ahmet toplantıda.
+261|Şu an kimse saate bakmıyor.
+262|Makine bozuk.
+263|Çok erken — biri bu düzeni fark edebilir.
+264|Işıklar kapalı.
+265|Burada mutlu — ortada istifa mektubu yok.
+266|Ofis zaten bir hayalet avında.
+267|Toplantıda.
+268|Bugünkü toplantı zaten bitti.
+269|Toplantı çoktan başladı.
+270|Ağ zaten çökmüş durumda.
+271|Şu an kimsenin gizli ittifakı yok.
+272|Bugün kimsenin doğum günü değil.
+273|Ortada yedek şarj aleti yok.
+274|Burada olan kimseden hoşlanmıyor.
+275|Şu an dolaşan yalan bir söylenti yok.
+276|Şu an kimseyle çatışmada değil.
+277|Burada yakın bir arkadaşı yok.
+278|Kimse hakkında kötü bir şey söyleyecek durumda değil. Henüz.
+279|Kimsenin onunla bir derdi yok. Henüz.
+280|Bugün terfi duyurusu yok.
+281|Şu an burada kimse birbiriyle ters düşmüş değil.
+282|Şu an gizlice iş arayan kimse yok.
+283|Yakında kimsenin doğum günü yok.
+284|Elinde süren bir iş yok.
+285|Bugünkü toplantıya katılmıyor.
+286|Şu an mümkün değil.
+287|Bugün masasında değil.
+288|Ofis zaten işten çıkarma paniğinde.
+289|Zaten bir parti var.
+290|Bitki zaten bayağı canlı.
+291|Yazıcı bozuk.
+292|Yazıcı gayet iyi çalışıyor.
+293|Terfi zaten açıklandı.
+294|Bunun için gün çok ilerledi.
+295|Bugün zaten yapıldı.
+296|Su sebili bozuk.
+297|Hakkında yazdığı kişi burada değil.
+298|Can ciğer
+299|Hoşlanmıyor
+300|Gözü görmüyor
+301|Arkadaş
+302|Nötr
+303|İyi anlaşıyor
+304|Ezeli rakip
+305|Huzurlu
+306|Havalara uçuyor
+307|Öfkeden kuduruyor
+308|Huysuz
+309|Mutlu
+310|Eh işte
+311|Üzgün
+312|kızgın
+313|sinirli
+314|korkmuş
+315|minnettar
+316|kırgın
+317|kıskanç
+318|mutlu
+319|duygulanmış
+320|
+321|memnun
+322|gururlu
+323|rahatlamış
+324|üzgün
+325|mahcup
+326|şaşkın
+327|Tartışmalar
+328|Büyük Kavgalar
+329|Suçlamalar
+330|Sinir Krizleri
+331|Bozulan Terfiler
+332|Ofis Grupları
+333|Çürütülen söylentiler
+334|Bir İş Arkadaşını Savundu
+335|E-posta Felaketleri
+336|Yardım Elleri
+337|Oyuncu Müdahaleleri
+338|Kıskançlık İğneleri
+339|Geç Gelenler
+340|Yeni Arkadaşlıklar
+341|Övgüler
+342|Fark Edilen Şakalar
+343|Barışmalar
+344|Reddetmeler
+345|Ofis Söylentileri
+346|Azarlar
+347|İfşa Olan Sırlar
+348|Suçu Üstlendi
+349|Yanlış Kişi Ödüllendirildi
+350|{name:in} gizli müttefiki
+351|{name} ile küs
+352|{name:i} kolluyor
+353|{name} ile görüşüyor
+354|{name:e} bir özür borçlu
+355|{name:i} ifşa etmek istiyor
+356|Başka iş arıyor
+357|Kendini kanıtlamaya kararlı
+358|{name:den} intikam almak istiyor
+359|{name:in} ayağını kaydırmaya çalışıyor
+360|ortalıkta dikiliyor
+361|duyuru yapıyor
+362|arşivde
+363|geliyor
+364|sohbet ediyor
+365|kahve alıyor
+366|bir şey tamir ediyor
+367|kahve götürüyor
+368|bir görevde
+369|bir yere gidiyor
+370|ortalıkta dikiliyor
+371|eve gidiyor
+372|öğle yemeğinde
+373|toplantıda
+374|devriye geziyor
+375|telefonda
+376|çıktı alıyor
+377|mola veriyor
+378|bir şeyi geri götürüyor
+379|dosyaları inceliyor
+380|bir şey arıyor
+381|klimayla oynuyor
+382|biraz ayaklarını açıyor
+383|su sebilinin başında
+384|çalışıyor
+385|Arşiv dolabı
+386|Ahmet'in masası
+387|Burak'ın masası

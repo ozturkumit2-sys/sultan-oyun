@@ -160,8 +160,13 @@ func fill_with(s: String, getter: Callable) -> String:
 			continue
 		var val := str(v)
 		if m.get_start(3) >= 0:
-			# gender choice
-			out += m.get_string(3) if genders.get(val, "m") == "m" else m.get_string(4)
+			# gender choice: masculine|feminine[|neuter[|plural]]
+			var forms: Array = [m.get_string(3)] + Array(m.get_string(4).split("|"))
+			var g := gender_of(val)
+			var idx: int = {"m": 0, "f": 1, "n": 2, "p": 3}.get(g, 0)
+			if idx >= forms.size():
+				idx = 0
+			out += str(forms[idx])
 		elif m.get_string(2) != "":
 			out += inflect(val, m.get_string(2), genders.has(val))
 		else:
@@ -183,7 +188,21 @@ func placeholders(s: String) -> Array:
 
 # ------------------------------------------------------------------ grammar helpers
 
+## Gender of a person's name, or of a word the language file describes ("gender.<word>").
+func gender_of(val: String) -> String:
+	if genders.has(val):
+		return genders[val]
+	var k := "gender." + val
+	if strings.has(k):
+		return str(strings[k])
+	return "m"
+
+
 func inflect(word: String, kase: String, proper: bool) -> String:
+	# irregular / language-specific forms listed in the language file: "gram.<case>.<word>"
+	var ov := "gram.%s.%s" % [kase, word]
+	if strings.has(ov):
+		return str(strings[ov])
 	match lang:
 		"tr":
 			return _tr_suffix(word, kase, proper)
@@ -205,13 +224,19 @@ func _tr_lower(s: String) -> String:
 func _tr_suffix(word: String, kase: String, proper: bool) -> String:
 	if word == "":
 		return word
+	# a word with an irregular form can list it in the language file: "gram.<case>.<word>"
+	var ov := "gram.%s.%s" % [kase, word]
+	if strings.has(ov):
+		return str(strings[ov])
 	var lw := _tr_lower(word)
 	var lastv := ""
+	var nv := 0
 	for i in range(lw.length() - 1, -1, -1):
 		var ch := lw[i]
 		if TR_VOWELS.find(ch) >= 0:
-			lastv = ch
-			break
+			if lastv == "":
+				lastv = ch
+			nv += 1
 	if lastv == "":
 		lastv = "e"
 	var back := "aıou".find(lastv) >= 0
@@ -237,9 +262,26 @@ func _tr_suffix(word: String, kase: String, proper: bool) -> String:
 			suf = ("yl" + A) if vowel_end else ("l" + A)
 		"dir":
 			suf = ("t" if hard else "d") + I + "r"
+		"si":
+			suf = ("s" + I) if vowel_end else I
+		"m":
+			suf = "m" if vowel_end else (I + "m")
+		"n":
+			suf = "n" if vowel_end else (I + "n")
 		_:
 			return word
-	return word + ("'" if proper else "") + suf
+	if proper:
+		return word + "'" + suf
+	# kitap -> kitabı, bellek -> belleği, ağaç -> ağacı (before a vowel, longer words)
+	var stem := word
+	if nv > 1 and TR_VOWELS.find(suf.left(1)) >= 0:
+		var soft := {"p": "b", "ç": "c", "k": "ğ"}
+		if soft.has(last):
+			var rep: String = soft[last]
+			if last == "k" and lw.length() > 1 and lw[lw.length() - 2] == "n":
+				rep = "g"
+			stem = word.left(word.length() - 1) + rep
+	return stem + suf
 
 
 ## Upper case that knows Turkish dotted/dotless i.

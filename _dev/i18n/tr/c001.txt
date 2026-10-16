@@ -1,0 +1,314 @@
+388|Ceren'in masası
+389|Deniz'in masası
+390|Ece'nin masası
+391|Mert'in masası
+392|Selin'in masası
+393|Zeynep'in masası
+394|Mutfak tezgâhı
+395|Dinlenme alanı masası
+396|Toplantı masası
+397|diş randevusu
+398|iş görüşmesi
+399|dosyanın benim özel klasörümde çıkması
+400|45 dakika ileri
+401|30 dakika geri
+402|45 dakika ileri
+403|30 dakika geri
+404|mantar panodaki not
+405|izinli öğleden sonra
+406|dün öğleden sonra ortadan kaybolman
+407|hıçkıra hıçkıra bir ayrılık şarkısı
+408|bangır bangır heavy metal
+409|ekranındaki iş ilanları
+410|'ACİL: işten çıkarmalar' e-postan
+411|aşk notu
+412|yürek parçalayan arabesk
+413|klasik müzik
+414|70'ler diskosu
+415|cıvık pop şarkıları
+416|dahili hattından gelen o hırıltılı telefon
+417|zam
+418|mutfak
+419|dinlenme alanı
+420|o sesli mesaj
+421|Kedimin fotoğrafını görmek ister misin?
+422|Kedim yine kahvemi devirdi.
+423|Öğle yemeğini nereden söyleyelim?
+424|Şu an güzel bir lahmacun için neler vermezdim.
+425|Dün akşamki maçı izledin mi?
+426|O hakem kördü, bak söylüyorum.
+427|Spor salonuna başlayacağım. Yarın.
+428|Spordan bacaklarım hâlâ ağrıyor.
+429|Piyangoyu tutturursam anında istifa ederim.
+430|Yılbaşı çekilişi için bilet aldın mı?
+431|Bu aralar ne dinliyorsun?
+432|Bu şarkı bütün gün kafamda dönüyor.
+433|Telefonumun şarjı öğlene bitiyor. Her gün.
+434|Yeni telefonu alsam mı? Çok pahalı ama.
+435|Şu yeni diziyi izliyor musun?
+436|Spoiler yok ama son bölümü gördün mü?
+437|Sabah trafik kâbus gibiydi.
+438|Beş kilometreye kırk dakika. Kırk!
+439|Tatile ihtiyacım var. Fikri olan?
+440|Deniz mi dağ mı? Dürüst ol.
+441|Bugün hava çıldırmış, değil mi?
+442|Sabahki yağmuru gördün mü?
+443|Hafta sonu için plan var mı?
+444|Hafta sonu bir türlü gelmiyor, değil mi?
+445|şarj aleti
+446|okuma gözlüğü
+447|uğurlu kupa
+448|ajanda
+449|USB bellek
+450|kahve makinesi
+451|klavye
+452|ışıklar
+453|yazıcı
+454|Zehirli
+455|Hoş
+456|Neşeli
+457|İdare eder
+458|Gergin
+459|Herkes tarafından sevilmek
+460|Herkesin sırlarını toplamak
+461|Terfi almak
+462|Yeni bir iş bulmak (şşş!)
+463|Zam almak
+464|Sonunda takdir görmek
+465|Satış hedefini tutturmak
+466|Genel merkezi etkilemek
+467|Herkesi hizada tutmak
+468|Huzuru korumak
+469|Kendini kanıtlamak
+470|Her şeyi ilk o bilmek
+471|Ceren'in kalbini kazanmak
+472|Onaylar ve evrak işleri
+473|Aylık bütçe
+474|Müşteri raporu
+475|Veri girişi
+476|Masraf dosyalama
+477|Arşiv dosyalama
+478|BT talepleri
+479|Kaya hesabı sunumu
+480|Pazar analizi
+481|Notlar ve yazışmalar
+482|Çeyrek dönem sunumu
+483|Proje teklifi
+484|Ekip kampı planlaması
+485|Satış aramaları
+486|Satış raporu
+487|Patronun ajandası
+488|Sunucu güncellemesi
+489|Genel merkez için acil rapor
+490|Genel merkez Ahmet'in pozisyonunu gözden geçiriyor.
+491|Burak gizlice iş arıyor.
+492|Deniz büyük raporunu eski bir iş arkadaşından kopyaladı.
+493|Ece, Ahmet'in yeğeni!
+494|Mert, Ceren'e deli gibi âşık.
+495|Selin rakip bir şirketten iş teklifi aldı.
+496|Zeynep geçen çeyrekte büyük bir muhasebe hatasını sakladı.
+497|{a} ile {b} gizlice birlikte bir şeyler çeviriyor.
+498|{a} ile {b} büyük bir tartışma yaşadı.
+499|{b}, son şakanın arkasında {a} olduğunu düşünüyor.
+500|{a}, Ahmet'e yağ çekiyor. Hem de utanmadan.
+501|{a} ile {b} gizlice çıkıyor!
+502|{a}, {b:in} emeğini sahiplendi!
+503|{a}, {b:e} deli gibi âşık.
+504|{a}, {b} hakkında çirkin bir e-posta yazdı.
+505|{a} ile {b} gizlice NİŞANLANMIŞ!
+506|{a} ile {b} neredeyse yumruk yumruğa geliyordu!
+507|{a} kovulmak üzere.
+508|{a}, ofiste hayalet olduğuna emin.
+509|{a}, {b:e} yardım etti.
+510|{a} başka bir yerde iş görüşmesine gidiyor.
+511|{a} başka bir iş arıyor.
+512|{a} geç kaldı ve fırça yedi.
+513|Cumaya kadar işten çıkarmalar olacak.
+514|{a} ortak klasörü sildi.
+515|{a}, {b} ile akraba olabilir...
+516|{a} sürekli {b:e} şaka yapıyor.
+517|{a} gizlice zam aldı.
+518|{a}, {b:e} yardım etmeyi reddetti.
+519|{a} istifa etmek üzere.
+520|{a}, {b:in} işini bilerek sabote etti.
+521|{a}, {b} aleyhine dolap çeviriyor.
+522|{a}, {b:den} azar işitti.
+523|{a} ile {b} gizlice kanka.
+524|{a} terfi kısa listesinde.
+525|{a} her öğleden sonra sıvışıyor ve kimse fark etmiyor.
+526|{a} toplantıda uyuyakalıp horladı.
+527|{a} buzdolabından başkalarının yemeklerini yiyormuş.
+528|{a}, {b:i} tehdit etti.
+529|{a}, {b} ile arası bozulmasın diye suçu üstlendi.
+530|Ahmet
+531|Burak
+532|Ceren
+533|Deniz
+534|Ece
+535|Mert
+536|Selin
+537|Zeynep
+538|Otoriter
+539|Kontrolcü
+540|Disiplin hastası
+541|Selin'e güvenir
+542|Deniz'i fazla hırslı bulur
+543|Ofis Müdürü
+544|Sessiz
+545|Mantıklı
+546|Teknoloji dâhisi
+547|İşinden memnun değil
+548|Gizlice iş arıyor
+549|Haksız suçlanınca patlar
+550|BT Uzmanı
+551|Zeki
+552|Sakin
+553|İnsanları iyi okur
+554|Mert'in ondan hoşlandığını biliyor
+555|Birçok kararın perde arkasını bilir
+556|Yönetici Asistanı
+557|Rekabetçi
+558|Kurnaz
+559|Kendinden emin
+560|Terfiyi istiyor
+561|Selin'i rakip görüyor
+562|Başkalarının emeğini sahiplenir
+563|Uzman
+564|Enerjik
+565|Meraklı
+566|Biraz sakar
+567|Herkesin onu sevmesini istiyor
+568|Müdürün yeğeni olduğunu saklıyor
+569|Stajyer
+570|Sosyal
+571|Esprili
+572|Rahat
+573|Ceren'den hoşlanıyor
+574|Burak'la arkadaş
+575|İşleri son dakikaya bırakır
+576|Satış Uzmanı
+577|Çalışkan
+578|Hırslı
+579|Adalet duygusu güçlü
+580|Terfi bekliyor
+581|Deniz'le rekabet ediyor
+582|Kolay affetmez
+583|Kıdemli Uzman
+584|Meraklı
+585|Dedikoducu
+586|Keskin gözlemci
+587|Birçok sır bilir
+588|Bilgiyi kendi çıkarına kullanır
+589|Muhasebe Uzmanı
+590|GÜNDEM: {text}
+591|BAŞKAN: {name}
+592|BİTTİ!
+593|YANGIN
+594|MERHABA
+595|TOPLANTI
+596|ŞİMDİ!
+597|BOZUK
+598|ELEKTRİK
+599|LÜTFEN YAZICIYI
+600|TEKMELEMEYİN
+601|RESEPSİYON
+602|TAKIM RUHU
+603|İŞTEN ÇIKARMALAR
+604|YEMEK HIRSIZI
+605|TERFİLER
+606|AŞK POLİTİKASI
+607|5 dk!
+608|VEKİL PATRON
+609|MÜŞTERİ!
+610|Elveda!
+611|PİZZA!
+612|TERFİ!
+613|YENİDEN YAPILANMA S&C
+614|Kahve makinesini boz
+615|Kahve isteyen ilk kişiyi bir sürpriz bekliyor.
+616|Yazıcıyı sıkıştır
+617|Hiçbir şey olmaz… ta ki biri çıktı almak zorunda kalana kadar.
+618|Terfi dosyasını yeniden yaz
+619|Büyük projenin başarısını başkasına yaz.
+620|Taslağını HERKESE gönder
+621|E-postasını bir dahaki açışında en özel taslağı bütün ofise gidecek.
+622|E-postasının alıcısını değiştir
+623|Bir sonraki özel mesajı başka birine gidecek.
+624|Sahte telefon bildirimi gönder
+625|Telefonlar çok ikna edicidir.
+626|Kahve makinesini gizlice tamir et
+627|Başarıyı biri sahiplenecek. Muhtemelen yanlış kişi.
+628|Bütün ışıkları kapat
+629|Anında panik. Biri sigorta kutusuna koşacak.
+630|Işıkları geri aç
+631|Ürkütücü.
+632|{owner:in} {item:si} yerini değiştir
+633|İhtiyacı olunca aramaya çıkacak.
+634|Toplantı saatini değiştir
+635|Sadece panoya bakanlar bilecek.
+636|Ofiste değil
+637|Zaten bozuk
+638|Zaten karanlık
+639|Sabotaj zaten bekliyor
+640|Işıklar açık
+641|Toplantı zaten başladı
+642|Zaten darmadağın
+643|Zaten kurcalandı
+644|Çalışıyor
+645|Sıcaklığı değiştir
+646|Herkesin sevdiği bir sıcaklık var. Kimse anlaşamıyor.
+647|Masadaki dosyaları karıştır
+648|Oturunca fark edecek. Ve suçlayacak birini arayacak.
+649|Birini, onun hakkındaki grup sohbetine ekle
+650|Biri bir grup sohbetinde ondan yakınıp duruyor. Artık o da grupta.
+651|Bugünkü toplantı gündemini yeniden yaz
+652|Herkes geçerken panoyu okur.
+653|Gizli bir ittifakın kanıtını arşivde bırak
+654|İki kişinin gizli bir anlaşması var. Yazılı. Ama uzun sürmez.
+655|Birini öfke kontrolü kursuna yazdır
+656|Çok resmî, çok herkese açık bir duyuru.
+657|Biri hakkında isimsiz bir şikâyet as
+658|'Lütfen mırıldanmayı kes. İmza: herkes.' Bir suçlu arayacak.
+659|Biri hakkında isimsiz bir iltifat as
+660|Mantar panoda güzel sözler. Kimin yazdığını öğrenmek isteyecek.
+661|Özür mektubunu yanlış kişiye ulaştır
+662|Arası bozulduğu birine özür yazdı. Yerine kimin alacağını sen seç.
+663|Basılı raporunu arşive kaldır
+664|'Z' harfinin altına. Kimsenin bakmadığı yere.
+665|Otomatik düzeltmeyi ayarla: 'Ahmet Bey' → 'Ahmet Bebeğim'
+666|Patrona bir sonraki e-postası… unutulmaz olacak.
+667|Otomatik yanıtını 'İstifa ediyorum' yap
+668|Ona e-posta atacak bir sonraki kişi patron.
+669|Ahmet'e 'Dünyanın En İyi Patronu' kupası bırak — birinden
+670|'Hediye edeni' sen seç. Ahmet ona teşekkür edecek. Herkesin önünde.
+671|Gizli doğum günü kumbarasını ortada bırak
+672|Herkesin gizlice para attığı zarf.
+673|Ahmet'in takvimine golf maçı koy
+674|Gidecek — hem de kendi toplantısından hemen önce.
+675|Ahmet'in taslak duyurusunu herkese gönder
+676|'Yeniden yapılanma — olası kesintiler.' (Kahve bütçesiyle ilgili.)
+677|Mikrodalgayı boz
+678|Tam öğle yemeğinden önce.
+679|Projeksiyon cihazını boz
+680|Biri sunuma başladığı an ölecek.
+681|Su sebilini boz
+682|Su yoksa ayak üstü sohbet de yok.
+683|Doğum günü pastasını çok erken çıkar
+684|Sürpriz pasta. Masada. Saatler önce.
+685|Arayanın kim olduğunu değiştir
+686|Telefonu çalar. Ekranda senin seçtiğin isim yazar.
+687|Sohbetinde caps lock'u takılı bırak
+688|En yakın arkadaşına yazacağı bir sonraki mesaj BAĞIRARAK gidecek.
+689|Özel sohbetine Ahmet'i bilgi olarak ekle
+690|En yakın arkadaşına ne yazıyorsa, bir kopyası Ahmet'e gidecek.
+691|Proje dosyasının yazarını değiştir
+692|Emeğine başka birinin adını koy. Ahmet sonra okuyacak.
+693|Bir sonraki e-postasının konusunu değiştir
+694|Ekibe atacağı bir sonraki e-posta bambaşka bir başlıkla gidecek.
+695|Müşteri ziyareti duyur
+696|'Saat 14:00'te önemli müşteri!' Herkesin toparlanıp iki kat çalışmasını izle.
+697|Kahve makinesinin ısınması 40 dakika sürsün
+698|Sıra oluşur. İnsanlar konuşur.
+699|Arşivde gizli bir belgeyi açık bırak
+700|Dosya dolaplarına gelen ilk kişi okuyacak.
+701|Montajlı bir 'çift' fotoğrafı as
