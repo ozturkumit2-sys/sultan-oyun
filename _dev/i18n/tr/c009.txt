@@ -1,0 +1,102 @@
+1686|{actor}, başvuru ve raporla yüzleştirildi — ve oracıkta istifa etti. Bir istifa krizi başladı.
+1687|Ahmet, {applicant:in} iş başvurusunu berbat bir performans raporuna zımbalanmış hâlde buldu. {applicant:i} hemen odasına çağırdı.
+1688|{owner:in} rakamlarının ESKİ sürümü müşteriye gitti — Ahmet de CC'de. Müşteri çoktan telefona sarıldı.
+1689|{ear}, Ahmet'in sızan notunu bugünkü gündemle birleştirdi ve şu sonuca vardı: işten çıkarmalar geliyor. Hem de bugün.
+1690|Ahmet 'golfe' gidip pano da {usurper:i} toplantı başkanı yazınca, {usurper} kendini vekil müdür ilan etti.
+1691|Işıklar virüs sireniyle aynı ritimde yanıp söndü. {believer} için bu kadarı yeter: ofiste hayalet var.
+1692|{leader}, sızan maaş tablosunu 'Bu yılki zam bütçesi: 0' notunun hemen yanında gördü. {leader} bir isyan örgütlüyor.
+1693|Disko ışıkları, müzik ve gizemli bir atıştırmalık tepsisi: {host}, bunun artık bir ofis partisi olduğuna karar verdi.
+1694|Ahmet masasında {target} için bir tayin talebi ve bir referans mektubu buldu — hem de yan yana.
+1695|Biri, {a} ile {b:in} çift fotoğrafına 'ÇİFTE RANDEVU — öğle yemeği' diye karalamış. Görünüşe göre {c} ve {d} de davetli.
+1696|Hayalet, {crush:in} {owner:i} geri aramasını sağladı. {owner:in} telefonu hâlâ hoparlörde.
+1697|Panoya göre müşteriye sunumu artık {presenter} yapıyor — hem de çalışmayan projeksiyonla.
+1698|Hayalet yangın çıkışını da sıkıştırdı. Alarm çalarken bütün ofis resepsiyonda mahsur kaldı.
+1699|Boş buzdolabında ikinci bir not belirdi: 'Hepsini ben attım. Yemeklerinize etiket koyun. — {signer}'. İlk gören {victim} oldu.
+1700|{organiser}, {owner:in} 'İstifa ediyorum' otomatik yanıtını ve istifa mektubunu gördü. {organiser}, {owner:in} gideceğinden emin.
+1701|Hayalet gizli belgeyi {leaker:in} paylaşılan klasörüne kopyaladı. Herkes görebiliyor — kimin klasöründe olduğunu da.
+1702|{rebel}, sürpriz değerlendirmeden Ahmet'in hile yaptığına ikna olmuş olarak çıktı. Patronla açık savaş başladı.
+1703|{enemy}, isimsiz şikâyetin {gossip:in} dedikodularıyla aynı el yazısıyla yazıldığını fark etti. Bir dedikodu savaşı kapıda.
+1704|Tatlı bir not ve isimsiz bir iltifattan sonra {owner}, gizli bir hayranı olduğuna ikna oldu. (Gerçekten de var: {admirer}.)
+1705|{writer:den} {crush:e} yazılmış bir aşk mektubu fotokopi makinesine sıkıştı. {actor} onu yüksek sesle okudu.
+1706|{writer:den} {crush:e} yazılmış bir aşk mektubu fotokopi makinesine sıkıştı. {actor} sessizce sahibine geri verdi.
+1707|{spotter}, en yakın arkadaşı {actor:in} {target:le} gülüştüğünü gördü ve kendini dışlanmış hissetti.
+1708|{actor}, {target:i} kıskanıyor.
+1709|Fazla kafein almış iki iş arkadaşı, {actor} ve {target}, hiç yoktan birbirine çıkıştı.
+1710|Ahmet ile Burak iş arama meselesinde çatıştı.
+1711|{actor}, {owner:in} masasının önünden geçerken ekranda açık duran iş ilanlarını gördü.
+1712|Zeynep, {target:in} masraf beyanında bir karaoke makinesi buldu. {target} onu hayatında görmemiş. Zeynep ikna olmadı.
+1713|Zeynep, {target:in} masraf beyanında bir karaoke makinesi buldu. {target} bunu 'takım ruhu etkinliği' diye savundu.
+1714|{actor} klavyesinin üstüne bir bardak çay devirdi.
+1715|{actor}, {target:in} sırtına "BANA TEKME AT" notu yapıştırdı. Ofisin yarısı gördü.
+1716|{target} sonunda sırtındaki notu buldu.
+1717|{best}, {owner:in} yazdığı bir not buldu: 'İşe gelmemin tek sebebi {best}.' {best} çok duygulandı.
+1718|{actor}, {owner:in} {best} hakkında yazdığı tatlı bir notu okudu. Şimdi bütün ofis merak içinde.
+1719|Ofis karaokesi: {host} herkesin önünde tiz notada sesini çatlattı. Bu unutulmayacak.
+1720|{host}, iş çıkışı mutfakta karaoke olacağını duyurdu.
+1721|{shy} arşivde karaoke provası yaparken yakalandı. Meğer {shy} gerçekten şarkı söyleyebiliyormuş.
+1722|Ofis karaokesi: sessiz sakin {shy} ortalığı yıktı geçti. Mutfakta ayakta alkış.
+1723|{actor}, {owner:in} klasörlerinin artık 'APTAL FİKİRLERİM' diye etiketlendiğini fark etti.
+1724|{actor}, {owner:in} masasında 'AŞK MEKTUPLARI' etiketli bir klasör gördü.
+1725|{actor}, {owner:in} masasında 'GİZLİ PLANLAR' etiketli bir klasör gördü. Şüpheli.
+1726|{actor}, son fincan kahveyi tam {target:in} gözünün önünde aldı. Günün en soğuk hamlesi.
+1727|{actor} da {target} da son fincan kahveyi istedi. Paylaştılar. Arkadaşlık +1.
+1728|Ahmet {actor:in} raporunu okudu — son sayfa, yani sonuç kısmı yoktu. {actor} hazırlıksız göründü.
+1729|{actor} toplantıya geç kalıp sessizce içeri süzüldü.
+1730|{actor} geç kaldı çünkü pano başka bir saat gösteriyordu.
+1731|{actor} geç geldi ve Ahmet bunu fark etti.
+1732|{actor} toplantıya geç kaldı ve azar işitti.
+1733|Satış sıralamasında artık birinci sırada {target} var. Mert küplere bindi — o satışlar onundu.
+1734|{actor} ışıkları geri getirdi.
+1735|Işıklar kendi kendine geri geldi. Herkesin tüyleri diken diken.
+1736|KARARTMA! Bütün ofis karanlığa gömüldü.
+1737|Ahmet sızıntı yüzünden {leaker:le} yüzleşti. {leaker} dosyayı hiç görmediğine yemin etti.
+1738|{finder}, gizli belgeyi {leaker:in} paylaşılan klasöründe öylece dururken buldu. Haber birkaç dakikada Ahmet'e ulaştı.
+1739|{it} sunucu kayıtlarına baktı: gizli dosyayı kimse taşımamış. {leaker} aklandı — ofis de biraz daha ürktü.
+1740|Ahmet, {leaker:in} masum olduğunu gönülsüzce kabul etti. Doğru dürüst bir özür yok.
+1741|Ahmet sızıntı yüzünden {leaker:le} yüzleşti. {leaker} paniğe kapıldı — bu da çok suçlu görünmesine yol açtı.
+1742|Ahmet, sızıntı suçlaması için {leaker:den} özür diledi. Nadir görülür. Tanıklar var.
+1743|{it} sunucu kayıtlarına baktı. Sonuç belirsiz. {leaker} şüphe bulutunun altında kalmaya devam ediyor.
+1744|{detective}, hırsızı tuzağa düşürmek için buzdolabına ekstra acılı bir 'yem yemek' koydu.
+1745|{culprit}, {detective:in} yem yemeğini yedi ve suya koşmak zorunda kaldı. Öğle yemeği hırsızının maskesi düştü.
+1746|{detective} buzdolabını gözetledi ve {culprit:i} suçüstü yakaladı.
+1747|{victim}, çalınan öğle yemekleri için {culprit:le} yüzleşti. {culprit} her şeyi inkâr etti.
+1748|{victim}, öğle yemeği hırsızını yakalaması için {detective:i} tuttu.
+1749|Kimse {detective:in} yem yemeğine dokunmadı. Hırsız işi çakmış olmalı. Dava çözülemedi.
+1750|{detective} bütün öğle arası buzdolabını gözetledi. Hırsız hiç ortaya çıkmadı.
+1751|{victim} öğle yemeği hırsızlıklarından bıktı ve soruşturma başlatıyor.
+1752|{victim}, öğle yemeği hırsızı {culprit:le} yüzleşti. {culprit} itiraf etti ve bir hafta boyunca öğle yemeği ısmarlayacak.
+1753|{actor} kendi bilgisayarına giremez oldu. Yapılan iş: sıfır.
+1754|{actor} söylene söylene kendi şifresini sıfırladı.
+1755|Burak, sunucu kayıtlarında Deniz hakkında ilginç bir şey buldu.
+1756|Burak, sunucu kayıtlarında Deniz hakkında bulduğu şeyi {target:e} gösterdi.
+1757|{owner:in} {crush} için yazdığı aşk notu {target:in} masasına düştü. {target}, {owner:in} kendisine âşık olduğunu sanıyor.
+1758|{organiser}, ofis piyango bileti için herkesten onar lira topladı.
+1759|Ofisin piyango biletine BÜYÜK İKRAMİYE çıktığı söylentisi yayıldı. {dreamer} şimdiden milyoner gibi davranıyor.
+1760|{organiser} gerçek ikramiyeyi açıkladı: kırk lira. {dreamer} çoktan Ahmet'e onun hakkında ne düşündüğünü tek tek söylemişti.
+1761|{brave}, Ahmet'e işten çıkarmaları dobra dobra sordu. Ahmet'in neden bahsedildiğinden hiç haberi yoktu.
+1762|Ahmet işten çıkarma olmadığını duyurdu — sadece kahve aboneliğini iptal etmiş. Paniği kimin başlattığını herkes biliyor: {ear}.
+1763|{ear}, Ahmet'in telefonda şöyle dediğini duydu: "Cumaya kadar biri gitmeli." (Kahve aboneliğinden bahsediyordu.)
+1764|İşten çıkarma söylentisi her yerde. İnsanlar fısıldaşıyor, CV güncelliyor, birbirini süzüyor. {brave} doğrudan Ahmet'e soracak.
+1765|{ear} mutfakta {listener:e} söyledi: işten çıkarmalar geliyor. Korku yayılıyor.
+1766|Ahmet, {target} için bir tayin talebi ve övgü dolu bir referans mektubu buldu — ve {target:in} sadakatini sınamaya karar verdi.
+1767|Ahmet herkesin önünde {target:in} 'sadakatini' övdü. {target:in} sınandığından haberi bile yoktu.
+1768|Ahmet sadakat testi olarak {target:e} uzak bir şubeye tayin teklif etti. {target} oracıkta reddetti. Ahmet rahatlamış göründü.
+1769|{friend}, {target:e} tayin istememesi için yalvardı. {target} kalacağına söz verdi.
+1770|Ahmet test olsun diye {target:e} uzak bir şubeye tayin teklif etti. {target} düşüneceğini söyledi. Ahmet bundan hiç hoşlanmadı.
+1771|{friend}, {target:e} gidip gitmeyeceğini sordu. {target} hayır demedi. Sessiz sedasız bir iş arayışı başladı.
+1772|{rival}, {lover:e} {crush:den} uzak durmasını söyledi. {lover} kenara çekildi.
+1773|{lover}, {crush} için büyük bir jest yaptı — {rival} de odanın öbür ucundan izlerken.
+1774|{crush}, {lover:i} seçti. {rival} bunu kötü karşıladı.
+1775|{rival}, {lover:e} {crush:den} uzak durmasını söyledi. {lover} reddetti. Savaş başladı.
+1776|{crush}, hem {lover:e} hem {rival:e} büyümelerini söyledi. Kazanan yok.
+1777|{rival}, {lover:in} {crush:le} flört ettiğini fark etti. {rival:in} de {crush:e} karşı hisleri var.
+1778|{crush}, {lover} yerine {rival:i} seçti. Aşk üçgeni artık bir çift ve çok üzgün bir kişi.
+1779|{target}, öğle yemeğinin yendiğini fark etti — ve {suspect:den} şüpheleniyor. (Yiyen {actor}.)
+1780|{target}, öğle yemeğinin yendiğini fark etti — ve haklı olarak {actor:den} şüpheleniyor.
+1781|{actor} ve {target} birlikte öğle yemeği yiyor.
+1782|{owner:in} öğle yemeği daveti yanlışlıkla {target:e} gitti. Uzun ve sessiz bir öğle yemeği oldu.
+1783|{owner:in} öğle yemeği daveti yanlışlıkla {target:e} gitti. Yine de birlikte yediler — ve gerçekten kaynaştılar.
+1784|{actor}, 'çalınan' öğle yemeğini buzdolabının başka bir rafında buldu. Biri boşuna suçlanmış.
+1785|Öğle yemeği isim kartları {a:i} {b:in} yanına oturttu. İş bağırış çağırışla bitti.
+1786|Öğle yemeği isim kartları {a:i} {b:in} yanına oturttu. Nasıl olduysa sandviçlerin başında barıştılar.
+1787|Ahmet, {actor:in} raporunun kenarında 'Ahmet her konuda yanılıyor' yazısını buldu. Hiç iyi karşılamadı.

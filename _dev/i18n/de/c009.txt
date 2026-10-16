@@ -1,0 +1,102 @@
+1686|{actor} wurde mit der Bewerbung und dem Bericht konfrontiert — und hat auf der Stelle gekündigt. Eine Kündigungskrise hat begonnen.
+1687|Ahmet hat {applicant:s} Bewerbung an einen miserablen Leistungsbericht geheftet gefunden. Er hat {applicant} sofort zu sich zitiert.
+1688|Die ALTE Version von {owner:s} Zahlen ging an den Kunden — mit Ahmet in CC. Der Kunde wählt schon.
+1689|{ear} hat Ahmets geleaktes Memo mit der heutigen Agenda kombiniert und daraus geschlossen: Entlassungen kommen. Heute.
+1690|Ahmet ist beim „Golf“, und die Tafel nennt {usurper} als Vorsitz — also hat sich {usurper} zum kommissarischen Chef erklärt.
+1691|Das Licht flackerte im Takt einer Virus-Sirene. {believer} reicht’s: Im Büro spukt es.
+1692|{leader} hat die geleakte Gehaltsliste direkt neben „Budget für Erhöhungen dieses Jahr: 0“ gesehen. {leader} organisiert eine Revolte.
+1693|Discolicht, Musik und ein mysteriöses Snacktablett: {host} hat beschlossen, dass das jetzt eine Büroparty ist.
+1694|Ahmet hat auf seinem Schreibtisch einen Versetzungsantrag und ein Empfehlungsschreiben für {target} gefunden — zusammen.
+1695|Jemand hat „DOPPELDATE — Mittagessen“ auf das Pärchenfoto von {a} und {b} gekritzelt. {c} und {d} sind anscheinend auch eingeladen.
+1696|Der Geist hat {crush} dazu gebracht, {owner} zurückzurufen. {owner:s} Handy ist immer noch auf Lautsprecher.
+1697|Laut Tafel präsentiert jetzt {presenter} vor dem Kunden — mit dem Beamer, der nicht funktioniert.
+1698|Der Geist hat auch den Notausgang blockiert. Während der Alarm schrillt, sitzt das ganze Büro am Empfang fest.
+1699|Am leeren Kühlschrank ist ein zweiter Zettel aufgetaucht: „Ich hab alles weggeworfen. Beschriftet euer Essen. — {signer}“. {victim} hat ihn als Erstes gesehen.
+1700|{organiser} hat {owner:s} „Ich kündige“-Abwesenheitsnotiz und das Kündigungsschreiben gesehen. {organiser} ist sicher, dass {owner} geht.
+1701|Der Geist hat das vertrauliche Dokument in {leaker:s} geteilten Ordner kopiert. Jeder kann es sehen — und auch, in wessen Ordner es liegt.
+1702|{rebel} kam aus der Überraschungsbewertung und ist überzeugt, dass Ahmet sie manipuliert hat. Der offene Krieg mit dem Chef hat begonnen.
+1703|{enemy} ist aufgefallen, dass die anonyme Beschwerde dieselbe Handschrift hat wie {gossip:s} Gerüchte. Ein Gerüchtekrieg steht bevor.
+1704|Nach einem lieben Zettel und einem anonymen Kompliment ist {owner} überzeugt, einen heimlichen Verehrer zu haben. (Stimmt sogar: {admirer}.)
+1705|Ein Liebesbrief von {writer} an {crush} hat sich im Kopierer verklemmt. {actor} hat ihn laut vorgelesen.
+1706|Ein Liebesbrief von {writer} an {crush} hat sich im Kopierer verklemmt. {actor} hat ihn still zurückgegeben.
+1707|{spotter} hat gesehen, wie {actor} – {actor?der beste Freund|die beste Freundin} von {spotter} – mit {target} lachte, und fühlte sich ausgeschlossen.
+1708|{actor} ist eifersüchtig auf {target}.
+1709|Zwei überkoffeinierte Kollegen, {actor} und {target}, haben sich wegen nichts angefaucht.
+1710|Ahmet und Burak sind wegen der Jobsuche aneinandergeraten.
+1711|{actor} ist an {owner:s} Schreibtisch vorbeigegangen und hat offene Stellenanzeigen auf dem Bildschirm gesehen.
+1712|Zeynep hat eine Karaokemaschine auf {target:s} Spesenabrechnung gefunden. {target} hat sie noch nie gesehen. Zeynep ist nicht überzeugt.
+1713|Zeynep hat eine Karaokemaschine auf {target:s} Spesenabrechnung gefunden. {target} hat sie als „Teambuilding“ verteidigt.
+1714|{actor} hat Tee über die ganze Tastatur gekippt.
+1715|{actor} hat {target} einen „TRITT MICH“-Zettel auf den Rücken geklebt. Das halbe Büro hat ihn gesehen.
+1716|{target} hat endlich den Zettel auf dem Rücken gefunden.
+1717|{best} hat einen Zettel von {owner} gefunden: „{best} ist der einzige Grund, warum ich zur Arbeit komme.“ {best} war zutiefst gerührt.
+1718|{actor} hat einen süßen Zettel gelesen, den {owner} über {best} geschrieben hat. Jetzt rätselt das ganze Büro.
+1719|Büro-Karaoke: {host} ist vor allen beim hohen Ton gekippt. Das wird man nicht vergessen.
+1720|{host} hat Karaoke in der Küche nach Feierabend angekündigt.
+1721|{shy} wurde im Archiv beim Karaoke-Üben erwischt. Wie sich herausstellt, kann {shy} richtig gut singen.
+1722|Büro-Karaoke: {shy}, sonst so still, hat den Laden gerockt. Standing Ovations in der Küche.
+1723|{actor} ist aufgefallen, dass {owner:s} Ordner jetzt „MEINE DUMMEN IDEEN“ heißen.
+1724|{actor} hat auf {owner:s} Schreibtisch einen Ordner mit der Aufschrift „LIEBESBRIEFE“ entdeckt.
+1725|{actor} hat auf {owner:s} Schreibtisch einen Ordner mit der Aufschrift „GEHEIME PLÄNE“ entdeckt. Verdächtig.
+1726|{actor} hat sich die letzte Tasse Kaffee direkt vor {target:s} Nase genommen. Kälteste Aktion des Tages.
+1727|{actor} und {target} wollten beide die letzte Tasse Kaffee. Sie haben sie geteilt. Freundschaft +1.
+1728|Ahmet hat {actor:s} Bericht gelesen — die letzte Seite mit dem Fazit fehlte. {actor} wirkte unvorbereitet.
+1729|{actor} hat sich verspätet ins Meeting geschlichen.
+1730|{actor} kam zu spät, weil die Tafel eine andere Uhrzeit zeigte.
+1731|{actor} kam zu spät, und Ahmet hat es bemerkt.
+1732|{actor} kam zu spät zum Meeting und wurde zusammengestaucht.
+1733|Die Verkaufsrangliste zeigt jetzt {target} auf Platz eins. Mert kocht vor Wut — das waren seine Abschlüsse.
+1734|{actor} hat das Licht wieder angekriegt.
+1735|Das Licht ist von selbst wieder angegangen. Allen ist es unheimlich.
+1736|STROMAUSFALL! Das ganze Büro ist dunkel.
+1737|Ahmet hat {leaker} wegen des Lecks zur Rede gestellt. {leaker} hat geschworen, die Datei nie gesehen zu haben.
+1738|{finder} hat das vertrauliche Dokument in {leaker:s} geteiltem Ordner gefunden. Binnen Minuten wusste Ahmet Bescheid.
+1739|{it} hat die Server-Logs geprüft: Niemand hat die vertrauliche Datei verschoben. {leaker} ist entlastet — und das Büro ein bisschen gruseliger.
+1740|Ahmet hat widerwillig zugegeben, dass {leaker} unschuldig war. Eine echte Entschuldigung gab es nicht.
+1741|Ahmet hat {leaker} wegen des Lecks zur Rede gestellt. {leaker} ist in Panik geraten — was sehr schuldig aussah.
+1742|Ahmet hat sich bei {leaker} für den Leck-Vorwurf entschuldigt. Selten. Es gibt Zeugen.
+1743|{it} hat die Server-Logs geprüft. Ergebnislos. Auf {leaker} bleibt ein Verdacht hängen.
+1744|{detective} hat ein extrascharfes „Köder-Mittagessen“ in den Kühlschrank gestellt, um den Dieb zu überführen.
+1745|{culprit} hat {detective:s} Köder-Mittagessen gegessen und musste zum Wasserhahn rennen. Der Mittagessen-Dieb ist entlarvt.
+1746|{detective} hat den Kühlschrank observiert und {culprit} auf frischer Tat ertappt.
+1747|{victim} hat {culprit} wegen der geklauten Mittagessen zur Rede gestellt. {culprit} hat alles abgestritten.
+1748|{victim} hat {detective} engagiert, um den Mittagessen-Dieb zu schnappen.
+1749|Niemand hat {detective:s} Köder-Mittagessen angerührt. Der Dieb hat wohl Lunte gerochen. Fall ungelöst.
+1750|{detective} hat die ganze Mittagspause den Kühlschrank observiert. Der Dieb ist nie aufgetaucht.
+1751|{victim} hat die Nase voll von Mittagessen-Diebstählen und leitet Ermittlungen ein.
+1752|{victim} hat {culprit} als Mittagessen-Dieb zur Rede gestellt. {culprit} hat gestanden und zahlt eine Woche lang das Mittagessen.
+1753|{actor} hat sich aus dem eigenen Computer ausgesperrt. Geleistete Arbeit: null.
+1754|{actor} hat das eigene Passwort zurückgesetzt und dabei die ganze Zeit gegrummelt.
+1755|Burak hat in den Server-Logs etwas Interessantes über Deniz gefunden.
+1756|Burak hat {target} gezeigt, was er in den Server-Logs über Deniz gefunden hat.
+1757|{owner:s} Liebeszettel für {crush} ist auf {target:s} Schreibtisch gelandet. {target} glaubt, {owner} sei in {target?ihn|sie} verliebt.
+1758|{organiser} hat von allen zehn Lira für einen Büro-Lottoschein eingesammelt.
+1759|Es geht das Gerücht, dass der Büro-Lottoschein GEWONNEN hat. {dreamer} benimmt sich schon wie {dreamer?ein Millionär|eine Millionärin}.
+1760|{organiser} hat den echten Lottogewinn verkündet: vierzig Lira. {dreamer} hatte Ahmet bereits gesagt, was {dreamer?er|sie} wirklich von ihm hält.
+1761|{brave} hat Ahmet ohne Umschweife nach den Entlassungen gefragt. Ahmet hatte keine Ahnung, wovon die Rede war.
+1762|Ahmet hat verkündet, dass es keine Entlassungen gibt — er hatte nur das Kaffee-Abo gekündigt. Alle wissen, wer die Panik ausgelöst hat: {ear}.
+1763|{ear} hat Ahmet am Telefon belauscht: „Bis Freitag muss jemand weg.“ (Er meinte das Kaffee-Abo.)
+1764|Das Entlassungsgerücht ist überall. Es wird geflüstert, Lebensläufe werden aktualisiert, man beäugt sich. {brave} will Ahmet direkt fragen.
+1765|{ear} hat {listener} in der Küche erzählt: Entlassungen kommen. Die Angst breitet sich aus.
+1766|Ahmet hat einen Versetzungsantrag und ein glänzendes Empfehlungsschreiben für {target} gefunden — und beschlossen, {target:s} Loyalität zu testen.
+1767|Ahmet hat {target:s} „Loyalität“ öffentlich gelobt. {target} hatte keine Ahnung, dass es einen Test gab.
+1768|Ahmet hat {target} als Loyalitätstest eine weit entfernte Versetzung angeboten. {target} hat sofort abgelehnt. Ahmet wirkte erleichtert.
+1769|{friend} hat {target} angefleht, sich nicht versetzen zu lassen. {target} hat versprochen zu bleiben.
+1770|Ahmet hat {target} zum Test eine weit entfernte Versetzung angeboten. {target} will darüber nachdenken. Das hat Ahmet gar nicht gefallen.
+1771|{friend} hat {target} gefragt, ob {target?er|sie} geht. {target} hat nicht Nein gesagt. Eine Jobsuche hat leise begonnen.
+1772|{rival} hat {lover} gesagt, {lover?er|sie} soll die Finger von {crush} lassen. {lover} hat sich zurückgezogen.
+1773|{lover} hat für {crush} eine große Geste gemacht — während {rival} von der anderen Seite des Raums zusah.
+1774|{crush} hat sich für {lover} entschieden. {rival} hat es schlecht aufgenommen.
+1775|{rival} hat {lover} gesagt, {lover?er|sie} soll die Finger von {crush} lassen. {lover} hat abgelehnt. Jetzt geht’s los.
+1776|{crush} hat {lover} und {rival} gesagt, sie sollen erwachsen werden. Niemand gewinnt.
+1777|{rival} hat bemerkt, dass {lover} mit {crush} flirtet. {rival} hat auch Gefühle für {crush}.
+1778|{crush} hat sich für {rival} statt {lover} entschieden. Aus dem Dreieck sind ein Paar und eine sehr traurige Person geworden.
+1779|{target} hat entdeckt, dass {target?sein|ihr} Mittagessen aufgegessen wurde — und verdächtigt {suspect}. (Es war {actor}.)
+1780|{target} hat entdeckt, dass {target?sein|ihr} Mittagessen aufgegessen wurde — und verdächtigt zu Recht {actor}.
+1781|{actor} und {target} essen zusammen zu Mittag.
+1782|{owner:s} Einladung zum Mittagessen ging versehentlich an {target}. Es folgte ein langes, schweigsames Mittagessen.
+1783|{owner:s} Einladung zum Mittagessen ging versehentlich an {target}. Sie haben trotzdem zusammen gegessen — und sich super verstanden.
+1784|{actor} hat {actor?sein|ihr} „geklautes“ Mittagessen in einem anderen Kühlschrankfach gefunden. Jemand wurde umsonst beschuldigt.
+1785|Die Tischkärtchen beim Mittagessen haben {a} neben {b} gesetzt. Es endete mit erhobenen Stimmen.
+1786|Die Tischkärtchen beim Mittagessen haben {a} neben {b} gesetzt. Irgendwie haben die beiden bei Sandwiches Frieden geschlossen.
+1787|Ahmet hat „Ahmet liegt mit allem falsch“ am Rand von {actor:s} Bericht gefunden. Das kam nicht gut an.
