@@ -7,5 +7,9 @@
  "gender.Kaffeemaschine": "f",
  "gender.Tastatur": "f",
  "gender.Licht": "n",
- "gender.Drucker": "m"
+ "gender.Drucker": "m",
+ "gender.Gehaltserhöhung": "f",
+ "gender.Urlaubsnachmittag": "m",
+ "gender.Zahnarzttermin": "m",
+ "gender.Vorstellungsgespräch": "n"
 }

@@ -1,0 +1,151 @@
+1053|Sin hablarse
+1054|{a} y {b} ya no se hablan. ¿Alguien hará de mediador?
+1055|Compañeros a la fuerza
+1056|Ahmet puso a {a} y a {b} juntos en un proyecto. No se soportan.
+1057|La guerra de la nevera
+1058|{victim} cree que {signer} tiró el almuerzo de todos.
+1059|La caza del fantasma
+1060|{believer} está {believer?convencido|convencida} de que la oficina está embrujada.
+1061|Cazatalentos
+1062|{seeker} no para de mirar el teléfono. ¿Un reclutador, quizá?
+1063|La inspección de la central
+1064|Mañana la central inspecciona la oficina. El escritorio de {slob} es un desastre.
+1065|Karaoke después del trabajo
+1066|{host} está organizando un karaoke. {shy} tiene un secreto.
+1067|Pánico por los despidos
+1068|{ear} merodea cerca del despacho de Ahmet, con la oreja puesta...
+1069|La filtración
+1070|Apareció un documento confidencial en la carpeta compartida de {leaker}.
+1071|La porra de la lotería
+1072|{organiser} lleva la porra de la lotería de la oficina. {dreamer} ya se está gastando el premio.
+1073|El triángulo amoroso
+1074|{lover} y {rival} le han echado el ojo a {crush}.
+1075|La prueba de lealtad
+1076|Ahmet está convencido de que {target} se quiere ir, así que le está poniendo a prueba.
+1077|¿Quién se comió el almuerzo?
+1078|El almuerzo de {victim} desapareció y {victim} quiere justicia.
+1079|El mentor equivocado
+1080|Ahmet nombró a {mentor} {mentor?mentor|mentora} de {mentee}. A nadie le hace gracia.
+1081|Cubriendo al novato
+1082|{protege} está a punto de cometer un error en el informe de {mentor}.
+1083|El contrato perdido
+1084|{owner} está a punto de descubrir que falta algo importante...
+1085|El encubrimiento de la taza rota
+1086|{breaker} rompió la taza favorita de Ahmet. {friend} le ayuda a esconderlo.
+1087|La sobrina del jefe
+1088|Ece tiene un secreto. Y es pésima guardándolo.
+1089|La guerra del ruido
+1090|{quiet} no se puede concentrar. {loud} no para de hablar.
+1091|El golpe de Estado
+1092|{usurper} decidió que la oficina necesita un nuevo liderazgo.
+1093|La fiesta de la oficina
+1094|{host} quiere montar una fiesta. En la oficina. Hoy.
+1095|El gatito de la oficina
+1096|{smuggler} metió un gatito en la oficina a escondidas.
+1097|Romance en la oficina
+1098|{lover} no deja de mirar a {crush}. Algo se está cocinando.
+1099|La batalla de propuestas
+1100|{a} y {b} creen que su idea es la mejor. Ahmet decidirá.
+1101|La guerra de bromas
+1102|{p1} le gastó una broma a {p2}. {p2} no lo va a dejar pasar.
+1103|A por la jefatura de equipo
+1104|{climber} está reuniendo valor para preguntarle a Ahmet por la jefatura de equipo.
+1105|La carta de renuncia
+1106|{quitter} tiene pinta de estar {quitter?harto|harta} de este lugar.
+1107|La venganza es dulce
+1108|{avenger} no ha perdonado a {victim}. Ni de lejos.
+1109|La guerra de rumores
+1110|{gossip} y {enemy} se están lanzando rumores el uno al otro.
+1111|La revuelta salarial
+1112|{leader} cree que llegó la hora de que todos se planten juntos.
+1113|El admirador secreto
+1114|Alguien le está dejando notas anónimas a {beloved}.
+1115|La alianza secreta
+1116|{schemer} quiere hablar a solas con {partner}.
+1117|El negocio paralelo
+1118|{seller} tiene un negocio de baklava montado en su escritorio.
+1119|La confesión en altavoz
+1120|La llamada más privada de {owner} está a punto de hacerse muy pública.
+1121|La idea robada
+1122|{thief} le tiene echado el ojo a la propuesta para el cliente de {victim}...
+1123|El ascenso equivocado
+1124|Ahmet acaba de anunciar un ascenso que nadie esperaba, ni siquiera quien lo recibe.
+1125|{actor} acusó a {target}, que lo negó con toda calma.
+1126|{actor} le preguntó a {target} si era {target?el admirador|la admiradora} secreto. Muy incómodo.
+1127|{actor} le preguntó a {target} si era {target?el admirador|la admiradora} secreto. ¡Saltaron chispas!
+1128|Ahmet descubrió que alguien reescribió el orden del día de su reunión. Quiere un nombre.
+1129|{actor} leyó el orden del día de hoy en el tablero: alguien lo había cambiado.
+1130|Sonó la alarma de incendios. Toda la oficina evacuó a recepción.
+1131|Después de la falsa alarma, todos se quedaron en recepción. Mucha charla. Ningún fuego.
+1132|La alarma del teléfono de {owner} sonó en plena reunión: «¡DESPIERTA! ¡DESPIERTA!». A Ahmet no le hizo ninguna gracia.
+1133|La alarma se calló. Falsa alarma. Ahmet quiere saber quién la activó.
+1134|{actor} y {target} sellaron en el archivo un pacto secreto contra {enemy}.
+1135|{actor} propuso un pacto secreto contra {enemy}. {target} dijo que no… y ahora sabe lo que trama {actor}.
+1136|La carta de disculpa de {owner} para {foe} acabó en el escritorio de {target}. {foe} sigue esperándola.
+1137|Ahmet enfrentó a {target} por la solicitud de empleo. Fue frío y feo.
+1138|Ahmet enfrentó a {target} por la solicitud de empleo… y luego le hizo una contraoferta para que se quede.
+1139|La solicitud de empleo secreta de {applicant} apareció en el escritorio de Ahmet.
+1140|{owner} recibió un correo de Ahmet: «¡Aprobado!»… para {what?un|una} {what} que Ahmet nunca aceptó.
+1141|Ahmet se enteró de que {owner} cree que le aprobaron {what?el|la} {what}. No fue así. Reunión incómoda.
+1142|{actor} y {target} necesitaban el archivo desordenado a la vez. Acabaron peleándose por las pilas.
+1143|{actor} buscó su informe impreso por todas partes. Lo habían archivado en la «Z».
+1144|{actor} encontró el archivo completamente desordenado. Buscar cualquier cosa ahora es eterno.
+1145|{actor} y {target} se perdieron en el archivo desordenado… y lo arreglaron juntos.
+1146|¡{actor} y {target} tuvieron una discusión acalorada!
+1147|{actor} y {target} se pelearon por el correo.
+1148|Viejos rencores reavivados: {actor} contra {target}.
+1149|Ahmet encontró el agujero en las cuentas de Zeynep. Ella confesó.
+1150|Ahmet encontró el agujero en las cuentas de Zeynep. Ella culpó a Ece.
+1151|Ahmet felicitó a {target} por el proyecto de {owner}. {target} aclaró las cosas. Respeto.
+1152|Ahmet felicitó a {target} por el proyecto de {owner} (el nombre del autor estaba cambiado). {target} solo… dio las gracias.
+1153|{winner} fue {winner?nombrado|nombrada} Estrella de la semana.
+1154|Ahmet vio su foto de bebé por toda la oficina. Está buscando al culpable.
+1155|Ahmet vio su foto de bebé por toda la oficina… y se rio. Es la primera vez que alguien lo ve.
+1156|La impresora escupió 500 copias de una foto de bebé. Es Ahmet. Vestido de marinerito. Las copias se están extendiendo.
+1157|El correo de {owner} a Ahmet empezaba con «Querido Ahmet Bebé». A Ahmet le hizo… una gracia extraña.
+1158|El correo de {owner} a Ahmet empezaba con «Querido Ahmet Bebé». A Ahmet no le hizo ninguna gracia.
+1159|El teléfono de {actor} murió de repente. Tomó «prestado» el cargador de Burak sin preguntar.
+1160|{leader} convenció a Ahmet de hacer una venta de pasteles para salvar el café. La oficina está cautelosamente optimista.
+1161|Ahmet anunció recortes: se acabó el café gratis. La oficina reaccionó como si hubiera cancelado el oxígeno.
+1162|La oficina sin café se juntó en la cocina a quejarse. {leader} quiere hacer algo al respecto.
+1163|{leader} propuso una venta de pasteles para salvar el café. Ahmet dijo que no. La moral está por los suelos.
+1164|{rebel} se levantó y le cantó las cuarenta a Ahmet delante de toda la oficina. Todos se quedaron helados.
+1165|Ahmet está otra vez encima del escritorio de {rebel}. {rebel} está a punto de estallar.
+1166|{ally} respaldó a {rebel} delante de Ahmet. Unos cuantos más asintieron. Ahmet parece afectado.
+1167|A puerta cerrada, Ahmet admitió que se había pasado. {rebel} salió sonriendo.
+1168|{rebel} se desahogó con {ally} sobre Ahmet. {ally} le calmó.
+1169|{rebel} se desahogó con {ally} sobre Ahmet. {ally} le animó a plantarle cara.
+1170|A puerta cerrada, Ahmet le dio a {rebel} un último aviso. {rebel} salió {rebel?pálido|pálida}.
+1171|{organizer} escondió la tarta de {bday} en la nevera. {snacker} casi se la come.
+1172|{organizer} está juntando en secreto dinero y firmas para la sorpresa de {bday}.
+1173|{organizer} reclutó a {helper} para la sorpresa de {bday}. {helper} es {helper?famoso|famosa} por no saber guardar secretos.
+1174|{organizer} escondió la tarta de cumpleaños de {bday} en la nevera.
+1175|La oficina se reunió en la cocina para la fiesta sorpresa de {bday}. {bday} nunca apareció.
+1176|¡Sorpresa! La oficina le hizo a {bday} una fiesta de cumpleaños en la cocina. Hasta Ahmet comió tarta.
+1177|La oficina le hizo a {bday} una fiesta sorpresa. Gracias a {helper}, no fue mucha sorpresa… pero a {bday} le encantó.
+1178|{organizer} descubrió que es el cumpleaños de {bday} y está organizando una sorpresa en secreto.
+1179|Apareció en el escritorio de Ahmet una taza de «El mejor jefe del mundo» «de parte de {target}». A Ahmet le encantó. La oficina puso los ojos en blanco.
+1180|{actor} abrió una porra sobre el próximo ascenso. {target} hizo su apuesta.
+1181|Ahmet descubrió la porra de ascensos de {actor}.
+1182|Un cliente llamó a Ahmet, furioso: las cifras que enviamos estaban mal. (Era la hoja de cálculo de {culprit}.)
+1183|{culprit} entró en el despacho de Ahmet y admitió que las cifras equivocadas eran suyas.
+1184|{culprit} no dijo ni pío. Ahora Ahmet está mirando a {scapegoat}.
+1185|Ahmet se plantó en medio de la oficina exigiendo saber quién envió las cifras equivocadas.
+1186|Ahmet culpó a {scapegoat} por las cifras equivocadas. {scapegoat} se lo tragó… pero fue {culprit}.
+1187|Ahmet acusó a {scapegoat} de las cifras equivocadas. {scapegoat} le dijo que revisara el historial del archivo.
+1188|{culprit} le dijo a Ahmet por lo bajo que {scapegoat} envió las cifras equivocadas. Fue {culprit}.
+1189|El historial del archivo no miente: las cifras eran de {culprit}. Ahmet ahora sabe que {culprit} dejó que {scapegoat} cargara con la culpa.
+1190|¡En la oficina estalló una gran pelea!
+1191|A {target} le cayó una bronca… y le echó la culpa a {suspect}. {suspect} no tenía nada que ver.
+1192|{actor} se estampó de cara contra el cristal de la sala de reuniones.
+1193|Ahmet culpó a Ceren del lío con la reunión.
+1194|Ahmet le soltó un bufido a {actor} por presentarse sin invitación.
+1195|{actor} se pasó por el despacho de Ahmet y tuvieron una charla agradable.
+1196|Ahmet pilló a {target} sin dar golpe.
+1197|Ahmet llegó tarde a su propia reunión.
+1198|Ahmet llegó tarde a su propia reunión y culpó a Ceren.
+1199|Ahmet descubrió que Burak está buscando trabajo.
+1200|Ahmet explotó delante de toda la oficina.
+1201|Ahmet felicitó a {target}.
+1202|Ahmet descubrió que la central lo está evaluando.
+1203|{actor} fue al escritorio de {target} a presumir. La rivalidad se calienta.

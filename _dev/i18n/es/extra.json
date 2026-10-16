@@ -7,5 +7,9 @@
  "gender.la cafetera": "f",
  "gender.el teclado": "m",
  "gender.las luces": "p",
- "gender.la impresora": "f"
+ "gender.la impresora": "f",
+ "gender.aumento": "m",
+ "gender.tarde libre": "f",
+ "gender.cita con el dentista": "f",
+ "gender.entrevista de trabajo": "f"
 }

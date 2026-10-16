@@ -22,5 +22,9 @@
  "gender.la machine à café": "f",
  "gender.le clavier": "m",
  "gender.les lumières": "p",
- "gender.l'imprimante": "f"
+ "gender.l'imprimante": "f",
+ "gender.augmentation": "f",
+ "gender.après-midi de congé": "m",
+ "gender.rendez-vous chez le dentiste": "m",
+ "gender.entretien d'embauche": "m"
 }

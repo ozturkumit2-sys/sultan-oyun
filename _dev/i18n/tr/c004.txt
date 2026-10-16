@@ -1,0 +1,151 @@
+1053|Küsler
+1054|{a} ile {b} konuşmayı kesti. Araya giren olacak mı?
+1055|Zorunlu Ortaklar
+1056|Ahmet, {a} ile {b:i} aynı projeye koydu. Birbirlerini hiç çekemiyorlar.
+1057|Buzdolabı Savaşı
+1058|{victim}, herkesin yemeğini {signer:in} çöpe attığını düşünüyor.
+1059|Hayalet Avı
+1060|{believer}, ofiste hayalet olduğuna emin.
+1061|Kelle Avcısı
+1062|{seeker} durmadan telefonuna bakıyor. Bir işe alımcı olabilir mi?
+1063|Genel Merkez Denetimi
+1064|Genel merkez yarın ofisi denetliyor. {slob:in} masası tam bir felaket.
+1065|İş Çıkışı Karaoke
+1066|{host} karaoke düzenliyor. {shy:in} bir sırrı var.
+1067|İşten Çıkarma Paniği
+1068|{ear}, Ahmet'in odasının etrafında dolanıp kulak kabartıyor...
+1069|Sızıntı
+1070|{leaker:in} ortak klasöründe gizli bir belge ortaya çıktı.
+1071|Piyango Ortaklığı
+1072|{organiser} ofisin piyango ortaklığını yönetiyor. {dreamer} ikramiyeyi şimdiden harcıyor.
+1073|Aşk Üçgeni
+1074|{lover} ile {rival:in} gözü aynı kişide: {crush}.
+1075|Sadakat Testi
+1076|Ahmet, {target:in} ayrılmak istediğine emin — o yüzden onu sınıyor.
+1077|Yemeği Kim Çaldı?
+1078|{victim:in} yemeği gitti ve {victim} adalet istiyor.
+1079|Uyumsuz Mentorluk
+1080|Ahmet, {mentor:i} {mentee:in} mentoru yaptı. İkisi de pek hevesli değil.
+1081|Çömezi Kollamak
+1082|{protege}, {mentor:in} raporunda bir hata yapmak üzere.
+1083|Kayıp Sözleşme
+1084|{owner} önemli bir şeyin kaybolduğunu fark etmek üzere...
+1085|Kırık Kupa Örtbası
+1086|{breaker}, Ahmet'in en sevdiği kupayı kırdı. {friend} saklamasına yardım ediyor.
+1087|Patronun Yeğeni
+1088|Ece'nin bir sırrı var. Ve saklamakta berbat.
+1089|Gürültü Savaşı
+1090|{quiet} konsantre olamıyor. {loud} konuşmayı bir türlü kesmiyor.
+1091|Darbe
+1092|{usurper}, ofisin yeni bir liderliğe ihtiyacı olduğuna karar verdi.
+1093|Ofis Partisi
+1094|{host} parti vermek istiyor. Ofiste. Bugün.
+1095|Ofis Kedisi
+1096|{smuggler} ofise gizlice bir yavru kedi soktu.
+1097|Ofis Aşkı
+1098|{lover} gözünü {crush:den} alamıyor. Bir şeyler pişiyor.
+1099|Fikir Düellosu
+1100|{a} da {b} de kendi fikrinin daha iyi olduğunu düşünüyor. Kararı Ahmet verecek.
+1101|Şaka Savaşı
+1102|{p1}, {p2:e} bir şaka yaptı. {p2} bunu böyle bırakmayacak.
+1103|Takım Liderliği Peşinde
+1104|{climber}, Ahmet'e takım liderliğini sormak için cesaretini topluyor.
+1105|İstifa Mektubu
+1106|{quitter} buradan bıkmış gibi görünüyor.
+1107|İntikam Tatlıdır
+1108|{avenger}, {victim:i} affetmedi. Hem de hiç.
+1109|Söylenti Savaşı
+1110|{gossip} ile {enemy} birbirleri hakkında söylenti yayıyor.
+1111|Maaş İsyanı
+1112|{leader}, artık herkesin birlikte ayağa kalkma zamanının geldiğini düşünüyor.
+1113|Gizli Hayran
+1114|Biri {beloved:e} isimsiz notlar bırakıyor.
+1115|Gizli İttifak
+1116|{schemer}, {partner} ile baş başa konuşmak istiyor.
+1117|Yan Gelir
+1118|{seller} masasından baklava işi çeviriyor.
+1119|Hoparlör İtirafı
+1120|{owner:in} en özel telefon görüşmesi birazdan herkese duyurulacak.
+1121|Çalınan Fikir
+1122|{thief}, bir süredir {victim:in} müşteri teklifine göz koymuş...
+1123|Yanlış Terfi
+1124|Ahmet kimsenin beklemediği bir terfi açıkladı — kazananın bile.
+1125|{actor}, {target:i} suçladı; {target} sakin sakin inkâr etti.
+1126|{actor}, {target:e} gizli hayranın o olup olmadığını sordu. Çok garip oldu.
+1127|{actor}, {target:e} gizli hayranın o olup olmadığını sordu. Kıvılcımlar çaktı!
+1128|Ahmet toplantı gündeminin biri tarafından yeniden yazıldığını fark etti. Bir isim istiyor.
+1129|{actor} panodaki bugünkü toplantı gündemini okudu — biri değiştirmiş.
+1130|Yangın alarmı çaldı. Bütün ofis resepsiyona tahliye edildi.
+1131|Sahte yangın alarmından sonra herkes resepsiyonda bekleşti. Bol sohbet. Yangın yok.
+1132|{owner:in} telefon alarmı toplantının ortasında çaldı: 'UYAN! UYAN!' Ahmet hiç gülmedi.
+1133|Alarm sustu. Yanlış alarm. Ahmet onu kimin çalıştırdığını bilmek istiyor.
+1134|{actor} ile {target}, arşivde {enemy:e} karşı gizli bir anlaşma yaptı.
+1135|{actor}, {enemy:e} karşı gizli bir anlaşma önerdi. {target} reddetti — artık {actor:in} ne peşinde olduğunu biliyor.
+1136|{owner:in} {foe:e} yazdığı özür mektubu {target:in} masasına düştü. {foe} hâlâ bekliyor.
+1137|Ahmet iş başvurusu yüzünden {target:le} yüzleşti. Soğuk ve çirkin geçti.
+1138|Ahmet iş başvurusu yüzünden {target:le} yüzleşti — sonra kalması için karşı teklif yaptı.
+1139|{applicant:in} gizli iş başvurusu Ahmet'in masasında çıktı.
+1140|{owner:e} Ahmet'ten bir e-posta geldi: 'Onaylandı!' — Ahmet'in asla kabul etmediği bir {what} için.
+1141|Ahmet, {owner:in} {what} talebinin onaylandığını sandığını öğrendi. Onaylanmamıştı. Tuhaf bir toplantı oldu.
+1142|{actor} ile {target:in} ikisinin de karışık arşive ihtiyacı vardı. Sonunda yığınlar için kavga ettiler.
+1143|{actor} basılı raporunu her yerde aradı. Arşive 'Z' harfinin altına kaldırılmıştı.
+1144|{actor} arşivi baştan sona yanlış dosyalanmış buldu. Artık bir şey aramak ömür boyu sürüyor.
+1145|{actor} ile {target} karışık arşivde kayboldu — ve birlikte düzelttiler.
+1146|{actor} ile {target} sert bir tartışmaya girdi!
+1147|{actor} ile {target} e-posta yüzünden kavga etti.
+1148|Eski kinler alevlendi: {actor} ile {target} karşı karşıya.
+1149|Ahmet, Zeynep'in rakamlarındaki açığı buldu. Zeynep itiraf etti.
+1150|Ahmet, Zeynep'in rakamlarındaki açığı buldu. Zeynep suçu Ece'ye attı.
+1151|Ahmet, {owner:in} projesi için {target:i} övdü. {target} durumu düzeltti. Saygı.
+1152|Ahmet, {owner:in} projesi için {target:i} övdü (yazar adı değiştirilmişti). {target} sadece... teşekkür etti.
+1153|{winner} Haftanın Çalışanı seçildi.
+1154|Ahmet bebeklik fotoğrafını ofisin her yerinde gördü. Suçluyu arıyor.
+1155|Ahmet bebeklik fotoğrafını ofisin her yerinde gördü... ve güldü. Bunu ilk kez gören var.
+1156|Yazıcı bir bebek fotoğrafından 500 kopya kustu. Ahmet bu. Denizci kıyafetiyle. Kopyalar yayılıyor.
+1157|{owner:in} Ahmet'e e-postası 'Sevgili Ahmet Bebeğim' diye başladı. Ahmet... garip bir şekilde eğlendi.
+1158|{owner:in} Ahmet'e e-postası 'Sevgili Ahmet Bebeğim' diye başladı. Ahmet hiç eğlenmedi.
+1159|{actor:in} telefonu birden kapandı. Burak'ın şarj aletini sormadan 'ödünç aldı'.
+1160|{leader}, kahveyi kurtarmak için Ahmet'i bir kek satışına ikna etti. Ofis temkinli bir umut içinde.
+1161|Ahmet bütçe kesintilerini açıkladı: artık bedava kahve yok. Ofis oksijeni iptal etmiş gibi tepki verdi.
+1162|Kahvesiz kalan ofis söylenmek için mutfakta toplandı. {leader} bir şeyler yapmak istiyor.
+1163|{leader}, kahveyi kurtarmak için kek satışı önerdi. Ahmet hayır dedi. Moral dibe vurdu.
+1164|{rebel} ayağa kalkıp bütün ofisin önünde Ahmet'e haddini bildirdi. Herkes donup kaldı.
+1165|Ahmet yine {rebel:in} masasının başında dikiliyor. {rebel:in} sabrı taşmak üzere.
+1166|{ally}, Ahmet'in önünde {rebel:i} destekledi. Birkaç kişi daha başını salladı. Ahmet sarsılmış görünüyor.
+1167|Kapalı kapılar ardında Ahmet fazla üstüne gittiğini kabul etti. {rebel} gülümseyerek çıktı.
+1168|{rebel}, Ahmet hakkında {ally:e} içini döktü. {ally} onu sakinleştirdi.
+1169|{rebel}, Ahmet hakkında {ally:e} içini döktü. {ally} ona patrona kafa tutmasını söyledi.
+1170|Kapalı kapılar ardında Ahmet {rebel:e} son uyarısını yaptı. {rebel} bembeyaz bir yüzle çıktı.
+1171|{organizer}, {bday:in} pastasını buzdolabına sakladı. {snacker} az kalsın yiyordu.
+1172|{organizer}, {bday:in} sürprizi için sessizce para ve imza topluyor.
+1173|{organizer}, {bday:in} sürprizi için {helper:i} yanına aldı. {helper} sır tutamamasıyla meşhur.
+1174|{organizer}, {bday:in} doğum günü pastasını buzdolabına sakladı.
+1175|Ofis, {bday:in} sürpriz partisi için mutfakta toplandı. {bday} hiç gelmedi.
+1176|Sürpriz! Ofis, {bday:e} mutfakta doğum günü partisi yaptı. Ahmet bile pasta yedi.
+1177|Ofis, {bday:e} sürpriz doğum günü partisi yaptı. {helper} sayesinde pek sürpriz olmadı — ama {bday} bayıldı.
+1178|{organizer}, {bday:in} doğum günü olduğunu öğrendi ve gizlice bir sürpriz hazırlıyor.
+1179|Ahmet'in masasında '{target:den}' bir 'Dünyanın En İyi Patronu' kupası belirdi. Ahmet bayıldı. Ofis gözlerini devirdi.
+1180|{actor}, bir sonraki terfi için bahis açtı. {target} de bahse girdi.
+1181|{actor:in} terfi bahsi Ahmet tarafından ortaya çıkarıldı.
+1182|Bir müşteri öfkeyle Ahmet'i aradı: gönderdiğimiz rakamlar yanlışmış. ({culprit:in} tablosuydu.)
+1183|{culprit}, Ahmet'in odasına girip yanlış rakamların kendisine ait olduğunu itiraf etti.
+1184|{culprit} sesini çıkarmadı. Ahmet artık {scapegoat:e} bakıyor.
+1185|Ahmet ofisin ortasında durup yanlış rakamları kimin gönderdiğini öğrenmek istedi.
+1186|Ahmet yanlış rakamlar için {scapegoat:i} suçladı. {scapegoat} sineye çekti — ama suçlu {culprit} idi.
+1187|Ahmet yanlış rakamlar için {scapegoat:i} suçladı. {scapegoat} ona dosya geçmişine bakmasını söyledi.
+1188|{culprit}, Ahmet'e sessizce yanlış rakamları {scapegoat:in} gönderdiğini söyledi. Gönderen {culprit} idi.
+1189|Dosya geçmişi yalan söylemez: rakamlar {culprit:in}. Ahmet artık {culprit:in} suçu {scapegoat:e} yıktığını biliyor.
+1190|Ofiste büyük bir kavga koptu!
+1191|{target} azar yedi — ve suçu {suspect:e} attı. {suspect:in} bununla hiçbir ilgisi yoktu.
+1192|{actor} toplantı odasının camına yüzüstü çarptı.
+1193|Ahmet toplantı karmaşası için Ceren'i suçladı.
+1194|Ahmet davetsiz geldiği için {actor:e} çıkıştı.
+1195|{actor} Ahmet'in odasına uğradı ve güzel bir sohbet ettiler.
+1196|Ahmet, {target:i} işi kaytarırken yakaladı.
+1197|Ahmet kendi toplantısına geç kaldı.
+1198|Ahmet kendi toplantısına geç kaldı ve suçu Ceren'e attı.
+1199|Ahmet, Burak'ın iş aradığını öğrendi.
+1200|Ahmet bütün ofise patladı.
+1201|Ahmet, {target:i} övdü.
+1202|Ahmet, genel merkezin kendisini incelediğini öğrendi.
+1203|{actor}, hava atmak için {target:in} masasına gitti. Rekabet kızışıyor.
