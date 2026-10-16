@@ -116,10 +116,11 @@ func _draw() -> void:
 				draw_string(font, Vector2(-c.x + 6, ty), text, HORIZONTAL_ALIGNMENT_CENTER, avail, fs2, tc)
 	if tag != "" and kind == "row":
 		var tf := UiKit.font("slab")
-		var tw2 := tf.get_string_size(tag, HORIZONTAL_ALIGNMENT_LEFT, -1, 13).x + 14.0
+		var tfs := 16 if Loc.is_cjk() else 13   # a single CJK glyph needs a bit more size to read
+		var tw2 := tf.get_string_size(tag, HORIZONTAL_ALIGNMENT_LEFT, -1, tfs).x + 14.0
 		var tp := Vector2(c.x - tw2 - 8, -c.y + 6)
 		draw_rect(Rect2(tp, Vector2(tw2, 20)), UiKit.RED)
-		draw_string(tf, tp + Vector2(7, 15), tag, HORIZONTAL_ALIGNMENT_LEFT, -1, 13, Color.WHITE)
+		draw_string(tf, tp + Vector2(7, 15 + (1 if Loc.is_cjk() else 0)), tag, HORIZONTAL_ALIGNMENT_LEFT, -1, tfs, Color.WHITE)
 	if badge > 0:
 		var bp := Vector2(c.x - 10, -c.y + 8)
 		draw_circle(bp, 13, UiKit.RED)

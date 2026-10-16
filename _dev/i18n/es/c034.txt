@@ -1,0 +1,175 @@
+6494|reto ganado
+6495|aceptación
+6496|ideas adoptadas
+6497|anticlímax
+6498|se evitan
+6499|momento incómodo
+6500|reto perdido
+6501|se echó atrás
+6502|venta de pasteles
+6503|destierro
+6504|prohibición
+6505|creyentes
+6506|traición
+6507|chantaje
+6508|agua pasada
+6509|farol descubierto
+6510|vínculo
+6511|solo prestado
+6512|ruptura
+6513|lo dejaron
+6514|le dieron largas
+6515|carpetazo
+6516|con las manos en la masa
+6517|calma
+6518|alto el fuego
+6519|le faltó valor
+6520|eligió el amor
+6521|eligió a la competencia
+6522|inocencia probada
+6523|inocencia a regañadientes
+6524|malentendido aclarado
+6525|el cliente se fue
+6526|enfriamiento
+6527|guerra fría
+6528|confesión
+6529|confesión, jefe furioso
+6530|corrección
+6531|encubrimiento
+6532|voz quebrada
+6533|pelea por el mérito
+6534|golpe sofocado
+6535|desmentido
+6536|rechazo amable
+6537|negación
+6538|desastre
+6539|nadie hizo caso
+6540|fin
+6541|distanciamiento
+6542|caso archivado
+6543|al descubierto
+6544|se desvaneció
+6545|inspección suspendida
+6546|falsa alarma
+6547|enemistad
+6548|quedó en nada
+6549|perdón
+6550|olvido
+6551|hallazgo
+6552|cuatro liras por cabeza
+6553|amistad
+6554|zona de amigos
+6555|rendición
+6556|culpa al fantasma
+6557|escapatoria
+6558|impunidad
+6559|rencor
+6560|verdad a medias
+6561|a medio camino
+6562|heroicidad
+6563|a escondidas
+6564|sin caso
+6565|improvisación heroica
+6566|injusticia
+6567|solo amistad
+6568|secreto guardado
+6569|silencio
+6570|risas y olvido
+6571|leyenda
+6572|fiesta legendaria
+6573|pasar página
+6574|cuenta perdida
+6575|perdido para siempre
+6576|les faltó valor
+6577|lealtad
+6578|hicieron las paces
+6579|mascota de la oficina
+6580|ideas fusionadas
+6581|oportunidad perdida
+6582|plazo incumplido
+6583|duelo
+6584|misterio
+6585|nadie elegido
+6586|sin disculpas
+6587|nunca se preguntó
+6588|sin protección
+6589|nunca apareció
+6590|nunca se supo
+6591|nunca se dijo
+6592|nueva pareja
+6593|siguiente en la lista
+6594|sin café
+6595|sin almuerzo
+6596|sin fiesta
+6597|sin sesión espiritista
+6598|ausencia
+6599|sin veredicto
+6600|no vino nadie
+6601|nadie ayudó
+6602|se queda
+6603|todavía no
+6604|asumió la culpa
+6605|fiesta
+6606|fiesta arruinada
+6607|inspección aprobada
+6608|siguió el juego
+6609|aplazado
+6610|promesa
+6611|hecho público
+6612|vuelve la calma
+6613|arreglado en silencio
+6614|perdido en silencio
+6615|aumentos
+6616|pareja de verdad
+6617|reconciliación
+6618|récord de donaciones
+6619|rechazo
+6620|revancha
+6621|denuncia
+6622|resentimiento
+6623|archivos recuperados
+6624|recuperados tarde
+6625|venganza tramada
+6626|rescate con sermón
+6627|rescate discreto
+6628|chivo expiatorio
+6629|bronca
+6630|en secreto
+6631|clausura
+6632|a fuego lento
+6633|estancado
+6634|la norma sigue
+6635|nace una estrella
+6636|se quedó
+6637|siguen enemistados
+6638|muro de silencio
+6639|plantón
+6640|terquedad
+6641|éxito
+6642|sufrimiento en silencio
+6643|nuevo proveedor
+6644|venganza disuadida
+6645|dimisión evitada
+6646|trabajo en equipo
+6647|gana el ladrón
+6648|juntos
+6649|dimisión retirada
+6650|hecho pedazos
+6651|tregua
+6652|amor verdadero
+6653|la verdad
+6654|bajo sospecha
+6655|nadie se enteró
+6656|pasó desapercibido
+6657|nada resuelto
+6658|caso sin resolver
+6659|nadie dijo nada
+6660|veto
+6661|el cliente se queda
+6662|guerra
+6663|avisados
+6664|advertencia
+6665|cuenta ganada
+6666|peor
+6667|objetivo equivocado
+6668|cedió

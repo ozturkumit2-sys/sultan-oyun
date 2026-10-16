@@ -395,3 +395,11 @@ func colon() -> String:
 		"zh":
 			return "："
 	return ": "
+
+
+## "a, b, c" in the current language (Chinese lists use the enumeration comma).
+func join(items: Array) -> String:
+	var parts := PackedStringArray()
+	for x in items:
+		parts.append(str(x))
+	return ("、" if lang == "zh" else ", ").join(parts)

@@ -32,7 +32,7 @@
 2166|{owner:s} E-Mail ging mit dem Titel „Re: deine Gehaltserhöhung“ raus. Jetzt glauben alle, {owner} hätte eine bekommen.
 2167|{actor} hat Ahmet Honig ums Maul geschmiert. Es hat funktioniert.
 2168|{actor} wollte Ahmet Honig ums Maul schmieren. Er hat nicht angebissen.
-2169|{actor} wollte Büromaterial holen und hat ALLES in {target:s} Schublade gehortet gefunden.
+2169|{actor} wollte Büromaterial holen und fand ALLES gehortet in {target:s} Schublade.
 2170|{actor} verdächtigt {suspect}, am eigenen Schreibtisch herumgepfuscht zu haben.
 2171|{target} hat versehentlich {owner:s} Handy genommen und eine Nachricht gelesen, die nicht für {target?ihn|sie} bestimmt war.
 2172|{owner} und {target} haben ihre Handys zurückgetauscht. {target} sah aus, als wüsste {target?er|sie} etwas.

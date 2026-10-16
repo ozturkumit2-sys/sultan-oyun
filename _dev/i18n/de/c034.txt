@@ -1,0 +1,175 @@
+6494|Herausforderung gewonnen
+6495|angenommen
+6496|Ideen übernommen
+6497|Antiklimax
+6498|gehen sich aus dem Weg
+6499|peinlich
+6500|Herausforderung verloren
+6501|Rückzieher
+6502|Kuchenbasar
+6503|verbannt
+6504|verboten
+6505|Gläubige
+6506|Verrat
+6507|Erpressung
+6508|verflogen
+6509|Bluff durchschaut
+6510|zusammengeschweißt
+6511|nur geliehen
+6512|Trennung
+6513|getrennte Wege
+6514|abgewimmelt
+6515|unter den Teppich gekehrt
+6516|erwischt
+6517|beruhigt
+6518|Waffenstillstand
+6519|gekniffen
+6520|für die Liebe entschieden
+6521|für die Konkurrenz entschieden
+6522|entlastet
+6523|widerwillig entlastet
+6524|aufgeklärt
+6525|Kundschaft abgesprungen
+6526|abgekühlt
+6527|Kalter Krieg
+6528|Geständnis
+6529|Geständnis, wütender Chef
+6530|korrigiert
+6531|gedeckt
+6532|Stimme versagt
+6533|Streit um die Lorbeeren
+6534|niedergeschlagen
+6535|entlarvt
+6536|höflich abgelehnt
+6537|geleugnet
+6538|Desaster
+6539|abgetan
+6540|erledigt
+6541|entfremdet
+6542|fallen gelassen
+6543|aufgeflogen
+6544|im Sand verlaufen
+6545|durchgefallen
+6546|Fehlalarm
+6547|Fehde
+6548|verpufft
+6549|vergeben
+6550|vergessen
+6551|gefunden
+6552|vier Lira pro Kopf
+6553|Freundschaft
+6554|Friendzone
+6555|aufgegeben
+6556|Geist beschuldigt
+6557|davongekommen
+6558|ungestraft davongekommen
+6559|Groll
+6560|Halbwahrheit
+6561|auf halbem Weg
+6562|Heldentat
+6563|versteckt
+6564|ignoriert
+6565|Improvisationstalent
+6566|Ungerechtigkeit
+6567|nur Freunde
+6568|Geheimnis bewahrt
+6569|Stillschweigen
+6570|weggelacht
+6571|Legende
+6572|legendär
+6573|abgehakt
+6574|Auftrag verloren
+6575|für immer verloren
+6576|Mut verloren
+6577|Loyalität
+6578|wieder vertragen
+6579|Büromaskottchen
+6580|Ideen vereint
+6581|verpasst
+6582|Frist verpasst
+6583|betrauert
+6584|Rätsel
+6585|niemand gewählt
+6586|keine Entschuldigung
+6587|nie gefragt
+6588|nie gedeckt
+6589|nie gefunden
+6590|nie herausgefunden
+6591|nie gesagt
+6592|neues Paar
+6593|als Nächstes dran
+6594|kein Kaffee
+6595|kein Mittagessen
+6596|keine Party
+6597|keine Séance
+6598|nicht erschienen
+6599|kein Urteil
+6600|niemand kam
+6601|niemand half
+6602|bleibt doch
+6603|noch nicht
+6604|dazu gestanden
+6605|Party
+6606|Party verdorben
+6607|bestanden
+6608|mitgespielt
+6609|verschoben
+6610|versprochen
+6611|öffentlich gemacht
+6612|wieder Ruhe
+6613|still repariert
+6614|still verloren
+6615|Gehaltserhöhungen
+6616|echtes Paar
+6617|versöhnt
+6618|Spendenrekord
+6619|abgewiesen
+6620|Revanche
+6621|gemeldet
+6622|verübelt
+6623|wiederhergestellt
+6624|zu spät wiederhergestellt
+6625|Rache geschworen
+6626|gerettet, mit Standpauke
+6627|still gerettet
+6628|Sündenbock
+6629|zusammengestaucht
+6630|geheim
+6631|abgeblasen
+6632|brodelt weiter
+6633|festgefahren
+6634|Regel bleibt
+6635|ein Star ist geboren
+6636|geblieben
+6637|immer noch verfeindet
+6638|abgeblockt
+6639|versetzt
+6640|stur
+6641|Erfolg
+6642|still gelitten
+6643|neue Lieferquelle
+6644|Rache ausgeredet
+6645|umgestimmt
+6646|Teamwork
+6647|Diebstahl lohnt sich
+6648|zusammen
+6649|zurückgenommen
+6650|zerrissen
+6651|Waffenruhe
+6652|wahre Liebe
+6653|die Wahrheit
+6654|unter Verdacht
+6655|unentdeckt
+6656|unbemerkt
+6657|ungelöst
+6658|unaufgeklärt
+6659|unausgesprochen
+6660|Veto
+6661|Kundschaft bleibt
+6662|Krieg
+6663|gewarnt
+6664|Warnung
+6665|Auftrag gewonnen
+6666|schlimmer
+6667|falsches Ziel
+6668|nachgegeben

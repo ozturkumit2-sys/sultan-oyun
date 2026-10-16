@@ -32463,5 +32463,880 @@
 "id": 6493,
 "key": "D|na_doze_boss|_|1",
 "en": "Am I paying you to sleep?"
+},
+{
+"id": 6494,
+"key": "S|ending.a_wins",
+"en": "challenge won"
+},
+{
+"id": 6495,
+"key": "S|ending.accepted",
+"en": "accepted"
+},
+{
+"id": 6496,
+"key": "S|ending.adopted",
+"en": "adopted"
+},
+{
+"id": 6497,
+"key": "S|ending.anticlimax",
+"en": "anticlimax"
+},
+{
+"id": 6498,
+"key": "S|ending.avoided",
+"en": "avoiding each other"
+},
+{
+"id": 6499,
+"key": "S|ending.awkward",
+"en": "awkward"
+},
+{
+"id": 6500,
+"key": "S|ending.b_wins",
+"en": "challenge lost"
+},
+{
+"id": 6501,
+"key": "S|ending.backed_down",
+"en": "backed down"
+},
+{
+"id": 6502,
+"key": "S|ending.bake_sale",
+"en": "bake sale"
+},
+{
+"id": 6503,
+"key": "S|ending.banished",
+"en": "banished"
+},
+{
+"id": 6504,
+"key": "S|ending.banned",
+"en": "banned"
+},
+{
+"id": 6505,
+"key": "S|ending.believers",
+"en": "believers"
+},
+{
+"id": 6506,
+"key": "S|ending.betrayed",
+"en": "betrayed"
+},
+{
+"id": 6507,
+"key": "S|ending.blackmail",
+"en": "blackmail"
+},
+{
+"id": 6508,
+"key": "S|ending.blew_over",
+"en": "blew over"
+},
+{
+"id": 6509,
+"key": "S|ending.bluff_called",
+"en": "bluff called"
+},
+{
+"id": 6510,
+"key": "S|ending.bonded",
+"en": "bonded"
+},
+{
+"id": 6511,
+"key": "S|ending.borrowed",
+"en": "just borrowed"
+},
+{
+"id": 6512,
+"key": "S|ending.breakup",
+"en": "breakup"
+},
+{
+"id": 6513,
+"key": "S|ending.broke_up",
+"en": "broke up"
+},
+{
+"id": 6514,
+"key": "S|ending.brushed_off",
+"en": "brushed off"
+},
+{
+"id": 6515,
+"key": "S|ending.buried",
+"en": "buried"
+},
+{
+"id": 6516,
+"key": "S|ending.busted",
+"en": "busted"
+},
+{
+"id": 6517,
+"key": "S|ending.calmed",
+"en": "calmed down"
+},
+{
+"id": 6518,
+"key": "S|ending.ceasefire",
+"en": "ceasefire"
+},
+{
+"id": 6519,
+"key": "S|ending.chickened_out",
+"en": "chickened out"
+},
+{
+"id": 6520,
+"key": "S|ending.chose_lover",
+"en": "chose love"
+},
+{
+"id": 6521,
+"key": "S|ending.chose_rival",
+"en": "chose the rival"
+},
+{
+"id": 6522,
+"key": "S|ending.cleared",
+"en": "cleared"
+},
+{
+"id": 6523,
+"key": "S|ending.cleared_grudgingly",
+"en": "grudgingly cleared"
+},
+{
+"id": 6524,
+"key": "S|ending.cleared_up",
+"en": "cleared up"
+},
+{
+"id": 6525,
+"key": "S|ending.client_left",
+"en": "client walked out"
+},
+{
+"id": 6526,
+"key": "S|ending.cold",
+"en": "gone cold"
+},
+{
+"id": 6527,
+"key": "S|ending.cold_war",
+"en": "cold war"
+},
+{
+"id": 6528,
+"key": "S|ending.confessed",
+"en": "confessed"
+},
+{
+"id": 6529,
+"key": "S|ending.confessed_angry",
+"en": "confession, angry boss"
+},
+{
+"id": 6530,
+"key": "S|ending.corrected",
+"en": "corrected"
+},
+{
+"id": 6531,
+"key": "S|ending.covered",
+"en": "covered for"
+},
+{
+"id": 6532,
+"key": "S|ending.cracked",
+"en": "voice cracked"
+},
+{
+"id": 6533,
+"key": "S|ending.credit_fight",
+"en": "fight over credit"
+},
+{
+"id": 6534,
+"key": "S|ending.crushed",
+"en": "crushed"
+},
+{
+"id": 6535,
+"key": "S|ending.debunked",
+"en": "debunked"
+},
+{
+"id": 6536,
+"key": "S|ending.declined",
+"en": "declined"
+},
+{
+"id": 6537,
+"key": "S|ending.denied",
+"en": "denied"
+},
+{
+"id": 6538,
+"key": "S|ending.disaster",
+"en": "disaster"
+},
+{
+"id": 6539,
+"key": "S|ending.dismissed",
+"en": "dismissed"
+},
+{
+"id": 6540,
+"key": "S|ending.done",
+"en": "done"
+},
+{
+"id": 6541,
+"key": "S|ending.drifting_away",
+"en": "drifting apart"
+},
+{
+"id": 6542,
+"key": "S|ending.dropped",
+"en": "dropped"
+},
+{
+"id": 6543,
+"key": "S|ending.exposed",
+"en": "exposed"
+},
+{
+"id": 6544,
+"key": "S|ending.faded",
+"en": "faded away"
+},
+{
+"id": 6545,
+"key": "S|ending.failed",
+"en": "failed"
+},
+{
+"id": 6546,
+"key": "S|ending.false_alarm",
+"en": "false alarm"
+},
+{
+"id": 6547,
+"key": "S|ending.feud",
+"en": "feud"
+},
+{
+"id": 6548,
+"key": "S|ending.fizzled",
+"en": "fizzled out"
+},
+{
+"id": 6549,
+"key": "S|ending.forgiven",
+"en": "forgiven"
+},
+{
+"id": 6550,
+"key": "S|ending.forgotten",
+"en": "forgotten"
+},
+{
+"id": 6551,
+"key": "S|ending.found",
+"en": "found"
+},
+{
+"id": 6552,
+"key": "S|ending.four_lira",
+"en": "four lira each"
+},
+{
+"id": 6553,
+"key": "S|ending.friends",
+"en": "friends"
+},
+{
+"id": 6554,
+"key": "S|ending.friendzoned",
+"en": "friend-zoned"
+},
+{
+"id": 6555,
+"key": "S|ending.gave_up",
+"en": "gave up"
+},
+{
+"id": 6556,
+"key": "S|ending.ghost_blamed",
+"en": "ghost blamed"
+},
+{
+"id": 6557,
+"key": "S|ending.got_away",
+"en": "got away"
+},
+{
+"id": 6558,
+"key": "S|ending.got_away_with_it",
+"en": "got away with it"
+},
+{
+"id": 6559,
+"key": "S|ending.grudge",
+"en": "grudge"
+},
+{
+"id": 6560,
+"key": "S|ending.half_truth",
+"en": "half-truth"
+},
+{
+"id": 6561,
+"key": "S|ending.half_way",
+"en": "halfway there"
+},
+{
+"id": 6562,
+"key": "S|ending.hero",
+"en": "hero"
+},
+{
+"id": 6563,
+"key": "S|ending.hidden",
+"en": "hidden"
+},
+{
+"id": 6564,
+"key": "S|ending.ignored",
+"en": "ignored"
+},
+{
+"id": 6565,
+"key": "S|ending.improv_hero",
+"en": "improv hero"
+},
+{
+"id": 6566,
+"key": "S|ending.injustice",
+"en": "injustice"
+},
+{
+"id": 6567,
+"key": "S|ending.just_friends",
+"en": "just friends"
+},
+{
+"id": 6568,
+"key": "S|ending.kept",
+"en": "kept secret"
+},
+{
+"id": 6569,
+"key": "S|ending.kept_quiet",
+"en": "kept quiet"
+},
+{
+"id": 6570,
+"key": "S|ending.laughed_off",
+"en": "laughed off"
+},
+{
+"id": 6571,
+"key": "S|ending.legend",
+"en": "legend"
+},
+{
+"id": 6572,
+"key": "S|ending.legendary",
+"en": "legendary"
+},
+{
+"id": 6573,
+"key": "S|ending.let_go",
+"en": "let go"
+},
+{
+"id": 6574,
+"key": "S|ending.lost_client",
+"en": "lost the client"
+},
+{
+"id": 6575,
+"key": "S|ending.lost_forever",
+"en": "lost forever"
+},
+{
+"id": 6576,
+"key": "S|ending.lost_nerve",
+"en": "lost their nerve"
+},
+{
+"id": 6577,
+"key": "S|ending.loyal",
+"en": "loyal"
+},
+{
+"id": 6578,
+"key": "S|ending.made_up",
+"en": "made up"
+},
+{
+"id": 6579,
+"key": "S|ending.mascot",
+"en": "office mascot"
+},
+{
+"id": 6580,
+"key": "S|ending.merged",
+"en": "ideas merged"
+},
+{
+"id": 6581,
+"key": "S|ending.missed",
+"en": "missed it"
+},
+{
+"id": 6582,
+"key": "S|ending.missed_deadline",
+"en": "missed the deadline"
+},
+{
+"id": 6583,
+"key": "S|ending.mourned",
+"en": "mourned"
+},
+{
+"id": 6584,
+"key": "S|ending.mystery",
+"en": "mystery"
+},
+{
+"id": 6585,
+"key": "S|ending.neither",
+"en": "neither"
+},
+{
+"id": 6586,
+"key": "S|ending.never_apologised",
+"en": "no apology"
+},
+{
+"id": 6587,
+"key": "S|ending.never_asked",
+"en": "never asked"
+},
+{
+"id": 6588,
+"key": "S|ending.never_covered",
+"en": "never covered"
+},
+{
+"id": 6589,
+"key": "S|ending.never_found",
+"en": "never found"
+},
+{
+"id": 6590,
+"key": "S|ending.never_found_out",
+"en": "never found out"
+},
+{
+"id": 6591,
+"key": "S|ending.never_told",
+"en": "never told"
+},
+{
+"id": 6592,
+"key": "S|ending.new_couple",
+"en": "new couple"
+},
+{
+"id": 6593,
+"key": "S|ending.next_in_line",
+"en": "next in line"
+},
+{
+"id": 6594,
+"key": "S|ending.no_coffee",
+"en": "no coffee"
+},
+{
+"id": 6595,
+"key": "S|ending.no_lunch",
+"en": "no lunch"
+},
+{
+"id": 6596,
+"key": "S|ending.no_party",
+"en": "no party"
+},
+{
+"id": 6597,
+"key": "S|ending.no_seance",
+"en": "no séance"
+},
+{
+"id": 6598,
+"key": "S|ending.no_show",
+"en": "no-show"
+},
+{
+"id": 6599,
+"key": "S|ending.no_verdict",
+"en": "no verdict"
+},
+{
+"id": 6600,
+"key": "S|ending.nobody_came",
+"en": "nobody came"
+},
+{
+"id": 6601,
+"key": "S|ending.nobody_helped",
+"en": "nobody helped"
+},
+{
+"id": 6602,
+"key": "S|ending.not_leaving",
+"en": "not leaving"
+},
+{
+"id": 6603,
+"key": "S|ending.not_yet",
+"en": "not yet"
+},
+{
+"id": 6604,
+"key": "S|ending.owned_up",
+"en": "owned up"
+},
+{
+"id": 6605,
+"key": "S|ending.party",
+"en": "party"
+},
+{
+"id": 6606,
+"key": "S|ending.party_spoiled",
+"en": "party spoiled"
+},
+{
+"id": 6607,
+"key": "S|ending.passed",
+"en": "passed"
+},
+{
+"id": 6608,
+"key": "S|ending.played_it",
+"en": "played along"
+},
+{
+"id": 6609,
+"key": "S|ending.postponed",
+"en": "postponed"
+},
+{
+"id": 6610,
+"key": "S|ending.promised",
+"en": "promised"
+},
+{
+"id": 6611,
+"key": "S|ending.public",
+"en": "went public"
+},
+{
+"id": 6612,
+"key": "S|ending.quiet",
+"en": "quiet again"
+},
+{
+"id": 6613,
+"key": "S|ending.quietly_fixed",
+"en": "quietly fixed"
+},
+{
+"id": 6614,
+"key": "S|ending.quietly_lost",
+"en": "quietly lost"
+},
+{
+"id": 6615,
+"key": "S|ending.raises",
+"en": "raises"
+},
+{
+"id": 6616,
+"key": "S|ending.real_couple",
+"en": "real couple"
+},
+{
+"id": 6617,
+"key": "S|ending.reconciled",
+"en": "reconciled"
+},
+{
+"id": 6618,
+"key": "S|ending.record",
+"en": "record total"
+},
+{
+"id": 6619,
+"key": "S|ending.rejected",
+"en": "rejected"
+},
+{
+"id": 6620,
+"key": "S|ending.rematch",
+"en": "rematch"
+},
+{
+"id": 6621,
+"key": "S|ending.reported",
+"en": "reported"
+},
+{
+"id": 6622,
+"key": "S|ending.resented",
+"en": "resented"
+},
+{
+"id": 6623,
+"key": "S|ending.restored",
+"en": "restored"
+},
+{
+"id": 6624,
+"key": "S|ending.restored_late",
+"en": "restored too late"
+},
+{
+"id": 6625,
+"key": "S|ending.revenge_plotted",
+"en": "revenge plotted"
+},
+{
+"id": 6626,
+"key": "S|ending.saved_lecture",
+"en": "saved, with a lecture"
+},
+{
+"id": 6627,
+"key": "S|ending.saved_quietly",
+"en": "saved quietly"
+},
+{
+"id": 6628,
+"key": "S|ending.scapegoat",
+"en": "scapegoat"
+},
+{
+"id": 6629,
+"key": "S|ending.scolded",
+"en": "scolded"
+},
+{
+"id": 6630,
+"key": "S|ending.secret",
+"en": "secret"
+},
+{
+"id": 6631,
+"key": "S|ending.shut_down",
+"en": "shut down"
+},
+{
+"id": 6632,
+"key": "S|ending.simmering",
+"en": "simmering"
+},
+{
+"id": 6633,
+"key": "S|ending.stalled",
+"en": "stalled"
+},
+{
+"id": 6634,
+"key": "S|ending.stands",
+"en": "it stands"
+},
+{
+"id": 6635,
+"key": "S|ending.star_is_born",
+"en": "a star is born"
+},
+{
+"id": 6636,
+"key": "S|ending.stayed",
+"en": "stayed"
+},
+{
+"id": 6637,
+"key": "S|ending.still_feuding",
+"en": "still feuding"
+},
+{
+"id": 6638,
+"key": "S|ending.stonewalled",
+"en": "stonewalled"
+},
+{
+"id": 6639,
+"key": "S|ending.stood_up",
+"en": "stood up"
+},
+{
+"id": 6640,
+"key": "S|ending.stubborn",
+"en": "stubborn"
+},
+{
+"id": 6641,
+"key": "S|ending.success",
+"en": "success"
+},
+{
+"id": 6642,
+"key": "S|ending.suffered_quietly",
+"en": "suffered quietly"
+},
+{
+"id": 6643,
+"key": "S|ending.supplier",
+"en": "new supplier"
+},
+{
+"id": 6644,
+"key": "S|ending.talked_down",
+"en": "talked down"
+},
+{
+"id": 6645,
+"key": "S|ending.talked_out",
+"en": "talked out of it"
+},
+{
+"id": 6646,
+"key": "S|ending.teamwork",
+"en": "teamwork"
+},
+{
+"id": 6647,
+"key": "S|ending.thief_wins",
+"en": "thief won"
+},
+{
+"id": 6648,
+"key": "S|ending.together",
+"en": "together"
+},
+{
+"id": 6649,
+"key": "S|ending.took_it_back",
+"en": "took it back"
+},
+{
+"id": 6650,
+"key": "S|ending.torn_up",
+"en": "torn up"
+},
+{
+"id": 6651,
+"key": "S|ending.truce",
+"en": "truce"
+},
+{
+"id": 6652,
+"key": "S|ending.true_love",
+"en": "true love"
+},
+{
+"id": 6653,
+"key": "S|ending.truth",
+"en": "the truth"
+},
+{
+"id": 6654,
+"key": "S|ending.under_a_cloud",
+"en": "under a cloud"
+},
+{
+"id": 6655,
+"key": "S|ending.undetected",
+"en": "undetected"
+},
+{
+"id": 6656,
+"key": "S|ending.unnoticed",
+"en": "unnoticed"
+},
+{
+"id": 6657,
+"key": "S|ending.unresolved",
+"en": "unresolved"
+},
+{
+"id": 6658,
+"key": "S|ending.unsolved",
+"en": "unsolved"
+},
+{
+"id": 6659,
+"key": "S|ending.unspoken",
+"en": "unspoken"
+},
+{
+"id": 6660,
+"key": "S|ending.vetoed",
+"en": "vetoed"
+},
+{
+"id": 6661,
+"key": "S|ending.victim_keeps",
+"en": "victim kept it"
+},
+{
+"id": 6662,
+"key": "S|ending.war",
+"en": "war"
+},
+{
+"id": 6663,
+"key": "S|ending.warned",
+"en": "warned"
+},
+{
+"id": 6664,
+"key": "S|ending.warning",
+"en": "warning"
+},
+{
+"id": 6665,
+"key": "S|ending.won_client",
+"en": "won the client"
+},
+{
+"id": 6666,
+"key": "S|ending.worse",
+"en": "worse"
+},
+{
+"id": 6667,
+"key": "S|ending.wrong_target",
+"en": "wrong target"
+},
+{
+"id": 6668,
+"key": "S|ending.yielded",
+"en": "gave in"
 }
 ]

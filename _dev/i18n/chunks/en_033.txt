@@ -70,3 +70,178 @@
 6491|na_doze_prank|_|1|*takes a photo* For the newsletter.
 6492|na_doze_boss|_|0|Good MORNING, {actor}. Comfortable?
 6493|na_doze_boss|_|1|Am I paying you to sleep?
+6494|ending.a_wins|challenge won
+6495|ending.accepted|accepted
+6496|ending.adopted|adopted
+6497|ending.anticlimax|anticlimax
+6498|ending.avoided|avoiding each other
+6499|ending.awkward|awkward
+6500|ending.b_wins|challenge lost
+6501|ending.backed_down|backed down
+6502|ending.bake_sale|bake sale
+6503|ending.banished|banished
+6504|ending.banned|banned
+6505|ending.believers|believers
+6506|ending.betrayed|betrayed
+6507|ending.blackmail|blackmail
+6508|ending.blew_over|blew over
+6509|ending.bluff_called|bluff called
+6510|ending.bonded|bonded
+6511|ending.borrowed|just borrowed
+6512|ending.breakup|breakup
+6513|ending.broke_up|broke up
+6514|ending.brushed_off|brushed off
+6515|ending.buried|buried
+6516|ending.busted|busted
+6517|ending.calmed|calmed down
+6518|ending.ceasefire|ceasefire
+6519|ending.chickened_out|chickened out
+6520|ending.chose_lover|chose love
+6521|ending.chose_rival|chose the rival
+6522|ending.cleared|cleared
+6523|ending.cleared_grudgingly|grudgingly cleared
+6524|ending.cleared_up|cleared up
+6525|ending.client_left|client walked out
+6526|ending.cold|gone cold
+6527|ending.cold_war|cold war
+6528|ending.confessed|confessed
+6529|ending.confessed_angry|confession, angry boss
+6530|ending.corrected|corrected
+6531|ending.covered|covered for
+6532|ending.cracked|voice cracked
+6533|ending.credit_fight|fight over credit
+6534|ending.crushed|crushed
+6535|ending.debunked|debunked
+6536|ending.declined|declined
+6537|ending.denied|denied
+6538|ending.disaster|disaster
+6539|ending.dismissed|dismissed
+6540|ending.done|done
+6541|ending.drifting_away|drifting apart
+6542|ending.dropped|dropped
+6543|ending.exposed|exposed
+6544|ending.faded|faded away
+6545|ending.failed|failed
+6546|ending.false_alarm|false alarm
+6547|ending.feud|feud
+6548|ending.fizzled|fizzled out
+6549|ending.forgiven|forgiven
+6550|ending.forgotten|forgotten
+6551|ending.found|found
+6552|ending.four_lira|four lira each
+6553|ending.friends|friends
+6554|ending.friendzoned|friend-zoned
+6555|ending.gave_up|gave up
+6556|ending.ghost_blamed|ghost blamed
+6557|ending.got_away|got away
+6558|ending.got_away_with_it|got away with it
+6559|ending.grudge|grudge
+6560|ending.half_truth|half-truth
+6561|ending.half_way|halfway there
+6562|ending.hero|hero
+6563|ending.hidden|hidden
+6564|ending.ignored|ignored
+6565|ending.improv_hero|improv hero
+6566|ending.injustice|injustice
+6567|ending.just_friends|just friends
+6568|ending.kept|kept secret
+6569|ending.kept_quiet|kept quiet
+6570|ending.laughed_off|laughed off
+6571|ending.legend|legend
+6572|ending.legendary|legendary
+6573|ending.let_go|let go
+6574|ending.lost_client|lost the client
+6575|ending.lost_forever|lost forever
+6576|ending.lost_nerve|lost their nerve
+6577|ending.loyal|loyal
+6578|ending.made_up|made up
+6579|ending.mascot|office mascot
+6580|ending.merged|ideas merged
+6581|ending.missed|missed it
+6582|ending.missed_deadline|missed the deadline
+6583|ending.mourned|mourned
+6584|ending.mystery|mystery
+6585|ending.neither|neither
+6586|ending.never_apologised|no apology
+6587|ending.never_asked|never asked
+6588|ending.never_covered|never covered
+6589|ending.never_found|never found
+6590|ending.never_found_out|never found out
+6591|ending.never_told|never told
+6592|ending.new_couple|new couple
+6593|ending.next_in_line|next in line
+6594|ending.no_coffee|no coffee
+6595|ending.no_lunch|no lunch
+6596|ending.no_party|no party
+6597|ending.no_seance|no séance
+6598|ending.no_show|no-show
+6599|ending.no_verdict|no verdict
+6600|ending.nobody_came|nobody came
+6601|ending.nobody_helped|nobody helped
+6602|ending.not_leaving|not leaving
+6603|ending.not_yet|not yet
+6604|ending.owned_up|owned up
+6605|ending.party|party
+6606|ending.party_spoiled|party spoiled
+6607|ending.passed|passed
+6608|ending.played_it|played along
+6609|ending.postponed|postponed
+6610|ending.promised|promised
+6611|ending.public|went public
+6612|ending.quiet|quiet again
+6613|ending.quietly_fixed|quietly fixed
+6614|ending.quietly_lost|quietly lost
+6615|ending.raises|raises
+6616|ending.real_couple|real couple
+6617|ending.reconciled|reconciled
+6618|ending.record|record total
+6619|ending.rejected|rejected
+6620|ending.rematch|rematch
+6621|ending.reported|reported
+6622|ending.resented|resented
+6623|ending.restored|restored
+6624|ending.restored_late|restored too late
+6625|ending.revenge_plotted|revenge plotted
+6626|ending.saved_lecture|saved, with a lecture
+6627|ending.saved_quietly|saved quietly
+6628|ending.scapegoat|scapegoat
+6629|ending.scolded|scolded
+6630|ending.secret|secret
+6631|ending.shut_down|shut down
+6632|ending.simmering|simmering
+6633|ending.stalled|stalled
+6634|ending.stands|it stands
+6635|ending.star_is_born|a star is born
+6636|ending.stayed|stayed
+6637|ending.still_feuding|still feuding
+6638|ending.stonewalled|stonewalled
+6639|ending.stood_up|stood up
+6640|ending.stubborn|stubborn
+6641|ending.success|success
+6642|ending.suffered_quietly|suffered quietly
+6643|ending.supplier|new supplier
+6644|ending.talked_down|talked down
+6645|ending.talked_out|talked out of it
+6646|ending.teamwork|teamwork
+6647|ending.thief_wins|thief won
+6648|ending.together|together
+6649|ending.took_it_back|took it back
+6650|ending.torn_up|torn up
+6651|ending.truce|truce
+6652|ending.true_love|true love
+6653|ending.truth|the truth
+6654|ending.under_a_cloud|under a cloud
+6655|ending.undetected|undetected
+6656|ending.unnoticed|unnoticed
+6657|ending.unresolved|unresolved
+6658|ending.unsolved|unsolved
+6659|ending.unspoken|unspoken
+6660|ending.vetoed|vetoed
+6661|ending.victim_keeps|victim kept it
+6662|ending.war|war
+6663|ending.warned|warned
+6664|ending.warning|warning
+6665|ending.won_client|won the client
+6666|ending.worse|worse
+6667|ending.wrong_target|wrong target
+6668|ending.yielded|gave in

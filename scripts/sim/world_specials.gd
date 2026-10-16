@@ -865,8 +865,8 @@ static func _cliques(w) -> void:
 	hostile /= float(g1.size() * g2.size())
 	if hostile > -5.0:
 		return
-	var names1 := ", ".join(g1.map(func(x): return w.npc(x).name))
-	var names2 := ", ".join(g2.map(func(x): return w.npc(x).name))
+	var names1 := Loc.join(g1.map(func(x): return w.npc(x).name))
+	var names2 := Loc.join(g2.map(func(x): return w.npc(x).name))
 	w.stats.add("cliques")
 	w.log_event("log.cliques", {"roles": {"actor": g1[0], "target": g2[0]}, "vars": {"g1": names1, "g2": names2}}, 3, "cliques", g1 + g2)
 

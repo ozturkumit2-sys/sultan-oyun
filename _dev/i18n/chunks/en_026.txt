@@ -197,5 +197,3 @@
 5275|ringtone_react|_|1|Is someone's phone... crying?
 5276|ringtone_react|_|2|Is that a LOVE SONG coming from {owner}'s pocket?
 5277|ringtone_react|ahmet|0|Whose phone is that?! Turn it OFF!
-5278|ringtone_owner|_|0|That's not my ringtone! Make it stop!
-5279|ringtone_owner|_|1|I didn't choose that! I swear!

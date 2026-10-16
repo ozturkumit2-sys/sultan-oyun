@@ -79,6 +79,7 @@ func new_game(seed_in := 0) -> void:
 	world = create_world()
 	world.new_game(seed_in)
 	world.discovery.merge(journal)
+	world.discovery.relocalize(Callable(world, "render_ref"))
 	speed = 1.0
 	save_game()
 
