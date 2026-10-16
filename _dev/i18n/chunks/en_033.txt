@@ -1,0 +1,247 @@
+6422|na_tea|_|0|*sips tea quietly*
+6423|na_tea|_|1|...This helps. Thanks.
+6424|na_tea|_|2|Same time tomorrow?
+6425|na_compliment|_|0|Your presentation yesterday? Really good. I meant to say.
+6426|na_compliment|_|1|I don't say it enough: you're great at this.
+6427|na_compliment_thx|_|0|Oh! Thank you. That made my day.
+6428|na_compliment_thx|_|1|...Wow. Thanks. Really.
+6429|na_excuse|_|0|Do you have a... stapler? I seem to have lost all of mine.
+6430|na_excuse|_|1|Hey! Is this pen yours? No? ...Nice desk, by the way.
+6431|na_excuse_smile|_|0|*smiles* Here. Keep it.
+6432|na_excuse_smile|_|1|Ha. Sure. Come by any time.
+6433|na_excuse_oblivious|_|0|Stapler's in the supply room.
+6434|na_excuse_oblivious|_|1|Nope. Not my pen.
+6435|na_flower_leave|_|0|*leaves a single flower on {target}'s keyboard*
+6436|na_flower_leave|_|1|*places a tiny flower in {target}'s pen pot and walks off fast*
+6437|na_flower_find|_|0|...A flower? Who left this?
+6438|na_flower_find|_|1|Somebody left me a flower!
+6439|na_mugs|_|0|Whose mugs are these? They've been in the sink since MONDAY.
+6440|na_mugs|_|1|Somebody here thinks the sink is a museum.
+6441|na_mugs_accuse|_|0|{target}, are these yours? They have your lipstick. Or coffee. Or both.
+6442|na_mugs_accuse|_|1|{target}. The mugs. Explain.
+6443|na_mugs_own|_|0|...Okay, two of them are mine. I'll wash them.
+6444|na_mugs_own|_|1|Sorry! I'll do them now.
+6445|na_mugs_deny|_|0|Not mine! I have ONE mug and it's on my desk!
+6446|na_mugs_deny|_|1|Why is it always me?!
+6447|na_interrupt|_|0|—and ANOTHER thing about the budget—
+6448|na_interrupt|_|1|Sorry, can I just jump in here—
+6449|na_snap|_|0|Can I FINISH a sentence? Once? Today?
+6450|na_snap|_|1|I was TALKING.
+6451|na_false_tell|_|0|I heard {victim} is being 'reviewed'. You didn't hear it from me.
+6452|na_false_tell|_|1|Between us? {victim} might not be here much longer.
+6453|na_false_react|_|0|No! Really?
+6454|na_false_react|_|1|Wait, seriously? Since when?
+6455|na_huddle|_|0|Psst. Over here. You'll want to hear this.
+6456|na_huddle|_|1|Okay, gather round. Quietly.
+6457|na_huddle_react|_|0|NO.
+6458|na_huddle_react|_|1|Shut UP.
+6459|na_huddle_react|_|2|I KNEW it!
+6460|na_huddle_react|_|3|*gasps*
+6461|na_where_is|_|0|Where's {late}? It's nearly ten.
+6462|na_where_is|_|1|Has anyone seen {late} this morning?
+6463|na_cover|_|0|{late}'s at a client meeting. Back soon.
+6464|na_cover|_|1|Oh, {late} called — dentist. Totally normal.
+6465|na_share|_|0|Forgot your lunch? Here, have half. I always make too much.
+6466|na_share|_|1|I've got two börek. That's one too many. Take it.
+6467|na_share_thx|_|0|You're a lifesaver.
+6468|na_share_thx|_|1|Seriously? Thank you!
+6469|na_interview_call|_|0|*whispering* Yes, Thursday at 3 works. ...No, my boss doesn't know.
+6470|na_interview_call|_|1|*on the phone, very quietly* I'll be there. I'll say it's the dentist.
+6471|na_interview_alibi|_|0|Ahmet Bey, I have a dentist appointment on Thursday afternoon.
+6472|na_interview_alibi|_|1|Can I leave early Thursday? Dentist.
+6473|na_interview_ok|_|0|Again? Your teeth must be in a terrible state.
+6474|na_interview_ok|_|1|Fine. Fine.
+6475|na_eaves|_|0|*pretends to read the fire safety poster very carefully*
+6476|na_eaves|_|1|*suddenly very interested in the boss's office plant*
+6477|na_snoop|_|0|*glances at the papers on {target}'s empty desk* ...Oh. OH.
+6478|na_snoop|_|1|Just... straightening {target}'s papers. Hm. Interesting.
+6479|na_plant|_|0|You're doing great, Fikret. Grow, buddy. Grow.
+6480|na_plant|_|1|*whispering to the plant* Don't tell Ahmet, but you're my favourite colleague.
+6481|na_plant_seen|_|0|...Are you talking to the plant?
+6482|na_plant_seen|_|1|Did the plant answer?
+6483|na_fish|_|0|*microwaves leftover fish* What? It's lunch.
+6484|na_fish|_|1|Fish curry. Reheated. Don't judge me.
+6485|na_fish_smell|_|0|WHAT is that SMELL?!
+6486|na_fish_smell|_|1|Who microwaved FISH?!
+6487|na_fish_smell|_|2|I can taste it. I can TASTE the smell.
+6488|na_doze|_|0|*head slowly sinks onto the keyboard* zzz...
+6489|na_doze|_|1|*snores very softly behind the monitor*
+6490|na_doze_prank|_|0|*very quietly places a sticky note on their forehead*
+6491|na_doze_prank|_|1|*takes a photo* For the newsletter.
+6492|na_doze_boss|_|0|Good MORNING, {actor}. Comfortable?
+6493|na_doze_boss|_|1|Am I paying you to sleep?
+6494|ending.a_wins|challenge won
+6495|ending.accepted|accepted
+6496|ending.adopted|adopted
+6497|ending.anticlimax|anticlimax
+6498|ending.avoided|avoiding each other
+6499|ending.awkward|awkward
+6500|ending.b_wins|challenge lost
+6501|ending.backed_down|backed down
+6502|ending.bake_sale|bake sale
+6503|ending.banished|banished
+6504|ending.banned|banned
+6505|ending.believers|believers
+6506|ending.betrayed|betrayed
+6507|ending.blackmail|blackmail
+6508|ending.blew_over|blew over
+6509|ending.bluff_called|bluff called
+6510|ending.bonded|bonded
+6511|ending.borrowed|just borrowed
+6512|ending.breakup|breakup
+6513|ending.broke_up|broke up
+6514|ending.brushed_off|brushed off
+6515|ending.buried|buried
+6516|ending.busted|busted
+6517|ending.calmed|calmed down
+6518|ending.ceasefire|ceasefire
+6519|ending.chickened_out|chickened out
+6520|ending.chose_lover|chose love
+6521|ending.chose_rival|chose the rival
+6522|ending.cleared|cleared
+6523|ending.cleared_grudgingly|grudgingly cleared
+6524|ending.cleared_up|cleared up
+6525|ending.client_left|client walked out
+6526|ending.cold|gone cold
+6527|ending.cold_war|cold war
+6528|ending.confessed|confessed
+6529|ending.confessed_angry|confession, angry boss
+6530|ending.corrected|corrected
+6531|ending.covered|covered for
+6532|ending.cracked|voice cracked
+6533|ending.credit_fight|fight over credit
+6534|ending.crushed|crushed
+6535|ending.debunked|debunked
+6536|ending.declined|declined
+6537|ending.denied|denied
+6538|ending.disaster|disaster
+6539|ending.dismissed|dismissed
+6540|ending.done|done
+6541|ending.drifting_away|drifting apart
+6542|ending.dropped|dropped
+6543|ending.exposed|exposed
+6544|ending.faded|faded away
+6545|ending.failed|failed
+6546|ending.false_alarm|false alarm
+6547|ending.feud|feud
+6548|ending.fizzled|fizzled out
+6549|ending.forgiven|forgiven
+6550|ending.forgotten|forgotten
+6551|ending.found|found
+6552|ending.four_lira|four lira each
+6553|ending.friends|friends
+6554|ending.friendzoned|friend-zoned
+6555|ending.gave_up|gave up
+6556|ending.ghost_blamed|ghost blamed
+6557|ending.got_away|got away
+6558|ending.got_away_with_it|got away with it
+6559|ending.grudge|grudge
+6560|ending.half_truth|half-truth
+6561|ending.half_way|halfway there
+6562|ending.hero|hero
+6563|ending.hidden|hidden
+6564|ending.ignored|ignored
+6565|ending.improv_hero|improv hero
+6566|ending.injustice|injustice
+6567|ending.just_friends|just friends
+6568|ending.kept|kept secret
+6569|ending.kept_quiet|kept quiet
+6570|ending.laughed_off|laughed off
+6571|ending.legend|legend
+6572|ending.legendary|legendary
+6573|ending.let_go|let go
+6574|ending.lost_client|lost the client
+6575|ending.lost_forever|lost forever
+6576|ending.lost_nerve|lost their nerve
+6577|ending.loyal|loyal
+6578|ending.made_up|made up
+6579|ending.mascot|office mascot
+6580|ending.merged|ideas merged
+6581|ending.missed|missed it
+6582|ending.missed_deadline|missed the deadline
+6583|ending.mourned|mourned
+6584|ending.mystery|mystery
+6585|ending.neither|neither
+6586|ending.never_apologised|no apology
+6587|ending.never_asked|never asked
+6588|ending.never_covered|never covered
+6589|ending.never_found|never found
+6590|ending.never_found_out|never found out
+6591|ending.never_told|never told
+6592|ending.new_couple|new couple
+6593|ending.next_in_line|next in line
+6594|ending.no_coffee|no coffee
+6595|ending.no_lunch|no lunch
+6596|ending.no_party|no party
+6597|ending.no_seance|no séance
+6598|ending.no_show|no-show
+6599|ending.no_verdict|no verdict
+6600|ending.nobody_came|nobody came
+6601|ending.nobody_helped|nobody helped
+6602|ending.not_leaving|not leaving
+6603|ending.not_yet|not yet
+6604|ending.owned_up|owned up
+6605|ending.party|party
+6606|ending.party_spoiled|party spoiled
+6607|ending.passed|passed
+6608|ending.played_it|played along
+6609|ending.postponed|postponed
+6610|ending.promised|promised
+6611|ending.public|went public
+6612|ending.quiet|quiet again
+6613|ending.quietly_fixed|quietly fixed
+6614|ending.quietly_lost|quietly lost
+6615|ending.raises|raises
+6616|ending.real_couple|real couple
+6617|ending.reconciled|reconciled
+6618|ending.record|record total
+6619|ending.rejected|rejected
+6620|ending.rematch|rematch
+6621|ending.reported|reported
+6622|ending.resented|resented
+6623|ending.restored|restored
+6624|ending.restored_late|restored too late
+6625|ending.revenge_plotted|revenge plotted
+6626|ending.saved_lecture|saved, with a lecture
+6627|ending.saved_quietly|saved quietly
+6628|ending.scapegoat|scapegoat
+6629|ending.scolded|scolded
+6630|ending.secret|secret
+6631|ending.shut_down|shut down
+6632|ending.simmering|simmering
+6633|ending.stalled|stalled
+6634|ending.stands|it stands
+6635|ending.star_is_born|a star is born
+6636|ending.stayed|stayed
+6637|ending.still_feuding|still feuding
+6638|ending.stonewalled|stonewalled
+6639|ending.stood_up|stood up
+6640|ending.stubborn|stubborn
+6641|ending.success|success
+6642|ending.suffered_quietly|suffered quietly
+6643|ending.supplier|new supplier
+6644|ending.talked_down|talked down
+6645|ending.talked_out|talked out of it
+6646|ending.teamwork|teamwork
+6647|ending.thief_wins|thief won
+6648|ending.together|together
+6649|ending.took_it_back|took it back
+6650|ending.torn_up|torn up
+6651|ending.truce|truce
+6652|ending.true_love|true love
+6653|ending.truth|the truth
+6654|ending.under_a_cloud|under a cloud
+6655|ending.undetected|undetected
+6656|ending.unnoticed|unnoticed
+6657|ending.unresolved|unresolved
+6658|ending.unsolved|unsolved
+6659|ending.unspoken|unspoken
+6660|ending.vetoed|vetoed
+6661|ending.victim_keeps|victim kept it
+6662|ending.war|war
+6663|ending.warned|warned
+6664|ending.warning|warning
+6665|ending.won_client|won the client
+6666|ending.worse|worse
+6667|ending.wrong_target|wrong target
+6668|ending.yielded|gave in

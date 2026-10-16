@@ -1,0 +1,167 @@
+702|iv.couple_photo.d|Pick one half of the 'couple'. The other half is whoever suits the story best.
+703|iv.decaf|Swap the coffee beans for decaf
+704|iv.decaf.d|Nobody will notice. At first.
+705|iv.defense_message|Expose the message where they defended someone
+706|iv.defense_message.d|Behind closed doors, they stood up for a colleague. Let the colleague find out.
+707|iv.delay_callback|Delay an important client callback
+708|iv.delay_callback.d|The client calls back — an hour too late.
+709|iv.delete_invite|Delete the meeting invite
+710|iv.delete_invite.d|Most people will think it's cancelled. Ahmet won't.
+711|iv.disco_lights|Switch the office lights to disco mode
+712|iv.disco_lights.d|Purple, pink, flashing. Some will dance. One will not.
+713|iv.do_not_disturb|Put their phone on Do Not Disturb
+714|iv.do_not_disturb.d|Ahmet's about to call them. Several times.
+715|iv.double_book|Double-book the meeting slot
+716|iv.double_book.d|A fake 'budget sync' in the kitchen at the same time. Two people will pick the wrong one.
+717|iv.drain_battery|Drain their phone battery
+718|iv.drain_battery.d|Dead in seconds. They'll need a charger — someone else's.
+719|iv.early_announcement|Move the promotion announcement forward
+720|iv.early_announcement.d|Today's promotion gets announced right now — ready or not.
+721|iv.eotm_certificate|Change the name on 'Employee of the Month'
+722|iv.eotm_certificate.d|The certificate on the cork board will show whoever you pick.
+723|iv.exclusion_invite|Post a drinks invite that leaves someone out
+724|iv.exclusion_invite.d|'Everyone welcome!' Everyone except one name. Pick whose.
+725|iv.expose_application|Put a secret job application on Ahmet's desk
+726|iv.expose_application.d|Someone's been applying elsewhere. Make sure Ahmet sees it.
+727|iv.fake_appointment|Add a fake appointment to their calendar
+728|iv.fake_appointment.d|A reminder pops up. Will they go?
+729|iv.fake_approval|Make Ahmet's reply say 'Approved!'
+730|iv.fake_approval.d|Their pending request gets a cheerful 'Approved!' — from a boss who approved nothing.
+731|iv.fake_invite|Send a fake 1:1 invite from them
+732|iv.fake_invite.d|Pick who gets it. They'll both turn up in the kitchen.
+733|iv.fake_minutes|Add a line to the meeting minutes
+734|iv.fake_minutes.d|'(Someone) volunteered to organise the team retreat.' Pick who.
+735|iv.fake_reminder|Add a misleading reminder to their phone
+736|iv.fake_reminder.d|Their phone will tell them to do something. Will they?
+737|iv.farewell_meeting|Rename the meeting '(Someone)'s farewell'
+738|iv.farewell_meeting.d|Everyone will think they're leaving. Including, maybe, them.
+739|iv.file_elsewhere|Make their private file open on someone else's screen
+740|iv.file_elsewhere.d|Pick whose screen. They'll read it at their desk.
+741|iv.fire_alarm|Set off the fire alarm
+742|iv.fire_alarm.d|Everyone evacuates to reception. Whatever they were doing — meetings included.
+743|iv.fish_label|Label a fish curry as someone's lunch
+744|iv.fish_label.d|It goes in the microwave at noon. The smell will find its 'owner'.
+745|iv.fix_printer|Secretly repair the printer
+746|iv.fix_printer.d|Someone will get the credit. It won't be you.
+747|iv.flicker_lights|Make the lights flicker
+748|iv.flicker_lights.d|Twenty minutes of horror-movie lighting.
+749|iv.forge_signature|Forge Ahmet's signature on their expense claim
+750|iv.forge_signature.d|Zeynep checks every claim. Will she notice?
+751|iv.forward_calls|Forward their calls to someone else
+752|iv.forward_calls.d|Pick who answers their phone today. Their clients included.
+753|iv.forward_chat|Forward their private chat to the person it's about
+754|iv.forward_chat.d|They wrote it to vent. Now the subject will read it.
+755|iv.forward_payroll|Forward the payroll sheet to someone
+756|iv.forward_payroll.d|Zeynep's confidential payroll. Pick who gets to see everyone's salary.
+757|iv.fridge_note|Stick a passive-aggressive note on the fridge — signed by someone
+758|iv.fridge_note.d|'STOP STEALING MY YOGHURT.' Pick whose name is on it.
+759|iv.fridge_purge|Throw out everything in the fridge
+760|iv.fridge_purge.d|Everyone's lunch. Gone.
+761|iv.garble_dictation|Garble their voice-to-text message
+762|iv.garble_dictation.d|'I'll kill it in the meeting' becomes 'I'll kill you.' Pick who receives it.
+763|iv.gift_card|Change the name on a gift card
+764|iv.gift_card.d|Someone's present for a friend. Pick whose name goes on the card instead.
+765|iv.group_photo|Post their embarrassing photo to the group chat
+766|iv.group_photo.d|That one. From the karaoke night.
+767|iv.headhunter_card|Leave a headhunter's card on their desk
+768|iv.headhunter_card.d|'Senior role. Double salary. Call me.'
+769|iv.hide_doc|Hide an important document
+770|iv.hide_doc.d|Tuck their report somewhere nobody would look.
+771|iv.hide_snacks|Move the snack box into someone's drawer
+772|iv.hide_snacks.d|Pick whose. Hungry colleagues will find it.
+773|iv.hoard_supplies|Move every office supply into someone's drawer
+774|iv.hoard_supplies.d|Pens, staplers, sticky notes — all of it. Pick whose drawer.
+775|iv.hold_music|Change the hold music
+776|iv.hold_music.d|Callers waiting on hold will hear something... unexpected.
+777|iv.i_know_note|Leave an anonymous 'I know what you did' note
+778|iv.i_know_note.d|It means nothing. Unless they actually did something.
+779|iv.invite_wrong|Invite someone who isn't supposed to come
+780|iv.invite_wrong.d|Add a name to today's meeting. Ahmet will notice.
+781|iv.j_acting_manager|Rename the chair 'Acting Manager'
+782|iv.j_acting_manager.d|Ahmet has a golf game. {usurper} is already the chair.
+783|iv.j_callback_speaker|Make {crush} call back — on speaker
+784|iv.j_callback_speaker.d|'We need to talk' was sent. The phone is on speaker. Let it ring.
+785|iv.j_candle_date|Turn the invite into a candle-lit date
+786|iv.j_candle_date.d|{reader} already has their love note. Now the 1:1 invite says 'just us, candles'.
+787|iv.j_cc_the_letter|Attach the resignation draft to the auto-reply
+788|iv.j_cc_the_letter.d|Anyone who emails {owner} now gets 'I quit' — with the letter attached.
+789|iv.j_client_presenter|Write '{presenter} presents to the client' on the board
+790|iv.j_client_presenter.d|A client is coming. The projector is dead. Somebody has to present.
+791|iv.j_double_date|Doodle 'Double date at lunch!' on the couple photo
+792|iv.j_double_date.d|{c} invited {d} to lunch. {a} and {b} are already 'a couple'. Why not all four?
+793|iv.j_haunting|Sync the flicker with the virus siren
+794|iv.j_haunting.d|Lights and screens, pulsing together. Very, very spooky.
+795|iv.j_jam_fire_exit|Jam the fire exit too
+796|iv.j_jam_fire_exit.d|The alarm is ringing and the front door is stuck. Close the last way out.
+797|iv.j_leak_to_folder|Copy the confidential document into the shared folder
+798|iv.j_leak_to_folder.d|{leaker}'s private folder is open to everyone. The confidential file would fit right in.
+799|iv.j_loyalty_file|Put both letters in Ahmet's in-tray
+800|iv.j_loyalty_file.d|A transfer request and a glowing reference — for the same person.
+801|iv.j_party_mode|Hang a 'PARTY' banner over the kitchen
+802|iv.j_party_mode.d|The music's on, the lights are pink and there's a tray. It only needs a name.
+803|iv.j_payroll_pin|Pin the payroll next to 'Raise budget: 0'
+804|iv.j_payroll_pin.d|{leader} has already seen the payroll. Now everybody can compare.
+805|iv.j_promo_meeting|Put 'Promotion announcement' on the agenda
+806|iv.j_promo_meeting.d|The file says {credited}. The meeting is moved. Ahmet will read it out loud.
+807|iv.j_restructure_qa|Add 'Restructuring Q&A' under the leaked memo
+808|iv.j_restructure_qa.d|Everyone saw the memo. Now the board makes it official.
+809|iv.j_rigged_review|Hand Ahmet the rewritten report for the review
+810|iv.j_rigged_review.d|{rebel}'s surprise review is booked and their report has been 'edited'.
+811|iv.j_secret_admirer|Sign both notes 'your secret admirer'
+812|iv.j_secret_admirer.d|{owner} got a kind note and an anonymous compliment. Tie them together.
+813|iv.j_send_old_figures|Send the old figures to the client — CC Ahmet
+814|iv.j_send_old_figures.d|The outdated version is open and Ahmet is already in CC. One click.
+815|iv.j_sign_complaint|'Sign' the anonymous complaint with the rumour-starter's name
+816|iv.j_sign_complaint.d|One note names who started a rumour. The other is anonymous. Not any more.
+817|iv.j_sign_the_purge|Add 'I threw it all out' to the signed note
+818|iv.j_sign_the_purge.d|The fridge is empty and there's a note with {signer}'s name on it. Make it a confession.
+819|iv.j_staple_application|Staple the job application to their performance report
+820|iv.j_staple_application.d|Ahmet will read both at once.
+821|iv.jam_door|Jam the front door
+822|iv.jam_door.d|The next person trying to leave gets stuck.
+823|iv.jam_love_letter|Jam a love letter in the copier
+824|iv.jam_love_letter.d|Pick whose secret love letter gets stuck in the rollers.
+825|iv.job_tab|Leave job listings open on their screen
+826|iv.job_tab.d|The next person walking past will draw conclusions.
+827|iv.karaoke_expense|Add a karaoke machine to someone's expense claim
+828|iv.karaoke_expense.d|Zeynep is doing the expense audit today.
+829|iv.kind_note|Leave the kind note they wrote in plain sight
+830|iv.kind_note.d|They wrote something lovely about someone. They never meant to share it.
+831|iv.last_cup|Leave exactly one cup of coffee
+832|iv.last_cup.d|Two people will want it.
+833|iv.leak_secret_meeting|Show someone Ahmet's secret meeting
+834|iv.leak_secret_meeting.d|'Private: HR review — (someone).' It means nothing. They won't know that.
+835|iv.left_on_read|Mark their friend's message as 'seen'
+836|iv.left_on_read.d|Their best friend will think they're being ignored.
+837|iv.lock_door|Lock the meeting room door
+838|iv.lock_door.d|From the inside. With nobody in there.
+839|iv.lock_pc|Lock their computer
+840|iv.lock_pc.d|Reset the password. They'll find out when they sit down.
+841|iv.lock_thermostat|Lock the thermostat
+842|iv.lock_thermostat.d|Whatever the temperature is now — that's how it stays.
+843|iv.lost_notebook|Leave someone's private notebook on the sofa
+844|iv.lost_notebook.d|Pick whose. The next person to sit there will find it.
+845|iv.love_emoji|Add hearts to their next work message
+846|iv.love_emoji.d|Pick who receives a very business-like email... with three hearts.
+847|iv.love_note_wrong|Deliver their love note to the wrong person
+848|iv.love_note_wrong.d|It was for their crush. Pick who reads it instead.
+849|iv.lunch_invite_wrong|Send their lunch invitation to the wrong person
+850|iv.lunch_invite_wrong.d|Pick who gets it. Lunch for two, whether they like it or not.
+851|iv.lunch_seating|Put out lunch name cards: rivals side by side
+852|iv.lunch_seating.d|The two people who can't stand each other. One table.
+853|iv.margin_note|Write a rude note in the margin of their report
+854|iv.margin_note.d|'Ahmet is wrong about everything.' In their handwriting.
+855|iv.meeting_alarm|Set their phone alarm for mid-meeting
+856|iv.meeting_alarm.d|'WAKE UP! WAKE UP!' — right in the middle of Ahmet's meeting.
+857|iv.meow_keys|Make their keyboard meow
+858|iv.meow_keys.d|Every key press: a little meow. Everyone nearby will hear it.
+859|iv.misfile|Move their file into the wrong folder
+860|iv.misfile.d|Straight into Ahmet's private folder.
+861|iv.misfile_archive|Misfile the whole archive
+862|iv.misfile_archive.d|'Accounts' goes in 'Holidays'. The next two visitors will suffer.
+863|iv.missing_page|Remove the last page of their report
+864|iv.missing_page.d|The conclusion. The page Ahmet always reads first.
+865|iv.move_lunch|Move someone's lunch to another shelf
+866|iv.move_lunch.d|Behind the mustard. They'll think it was stolen.
+867|iv.move_room|Move the meeting to another room
+868|iv.move_room.d|The board will say the meeting is somewhere else today.

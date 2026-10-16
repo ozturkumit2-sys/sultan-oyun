@@ -1,0 +1,178 @@
+6244|Spendenbox in der Küche! Für das Tierheim. Jede Lira zählt!
+6245|Helft dem Tierheim! Die Box steht in der Küche. Seid großzügig!
+6246|*wirft einen Schein in die Box*
+6247|Für die Welpen.
+6248|Hier. Sag keinem, wie viel.
+6249|...Komisch. Ich bin sicher, da war mehr drin.
+6250|Dreihundert und— Moment. Wo ist der große Schein hin?
+6251|Wir haben mehr gesammelt als letztes Jahr! Danke an alle!
+6252|Ein Rekord! Im Tierheim werden sie weinen.
+6253|Hast du Geld aus der Spendenbox genommen, {suspect}?
+6254|In der Box fehlt Geld. Möchtest du mir etwas sagen?
+6255|WAS? Nein! Ich hab Geld REINGETAN!
+6256|Ist das dein Ernst? Aus einer TIERHEIM-Box?
+6257|Ich... hab mir Kleingeld für den Automaten geliehen. Ich wollte es zurücklegen!
+6258|Okay, okay — ich hab Münzen für die Kaffeemaschine genommen. Ich zahl das Doppelte.
+6259|...Oh. Es klemmte unter der Klappe. Vergiss es. Sorry.
+6260|Moment — der Schein ist ins Futter gerutscht. Ich bin ein Idiot.
+6261|Schlechte Nachrichten. Die Zentrale hat unser Budget gekürzt. Ab heute: kein Gratis-Kaffee mehr.
+6262|Team. Budgetkürzungen. Die Kaffeemaschine ist jetzt... kostenpflichtig pro Tasse.
+6263|WAS?!
+6264|Kein Kaffee?! Wie sollen wir denn ARBEITEN?
+6265|Das ist eine Menschenrechtsverletzung.
+6266|Erst der Kaffee. Als Nächstes die Stühle.
+6267|Wenn der Kaffee geht, geh ich auch.
+6268|Wir müssen was TUN.
+6269|Ahmet Bey, ein Vorschlag: Wir machen einen Kuchenbasar und finanzieren den Kaffee selbst.
+6270|Was, wenn wir die Bohnen bezahlen und Sie die Maschine laufen lassen?
+6271|...Ein Kuchenbasar. Na gut. Bringen Sie mir einen Börek, dann reden wir.
+6272|Hm. Kreativ. Genehmigt.
+6273|Keine Kuchenbasare. Das hier ist ein Unternehmen, kein Schulfest.
+6274|Budget ist Budget.
+6275|Hausgemachtes Baklava! Fünf Lira das Stück. Nichts Ahmet sagen.
+6276|*öffnet eine Schublade voller Baklava* Der Laden ist offen.
+6277|Zwei Stück. Nein — drei.
+6278|Halt die Klappe und nimm mein Geld.
+6279|Ist das Pistazie? Gib mir das Blech.
+6280|Ich nehme Bestellungen für Freitag an. Nur ganze Bleche.
+6281|Ich habe {runner} als Lieferdienst eingestellt.
+6282|{seller}. Warum riecht Ihr Schreibtisch wie eine Konditorei?
+6283|Ist das... eine PREISLISTE? Auf Firmenpapier?
+6284|...Was kostet ein ganzes Blech? Ich frage für einen Kunden.
+6285|Na gut. Zwei Bleche für die Vorstandssitzung. Auf Firmenkarte.
+6286|Machen Sie das zu. Heute. Sie werden fürs Arbeiten bezahlt, nicht fürs Backen.
+6287|Das hier ist ein Arbeitsplatz. Schluss damit.
+6288|*KRACH* ...Nein. Nein, nein, nein. Nicht DIE Tasse.
+6289|*hebt die Scherben von „Bester Chef der Welt“ auf* Ich bin tot. Ich bin so was von tot.
+6290|Ich hab Ahmets Tasse kaputt gemacht. DIE Tasse. Hilf mir.
+6291|Alarmstufe Rot. Die Chef-Tasse. In Scherben. Was mach ich?
+6292|Okay. Atmen. Im Materialraum gibt's eine identische. Wahrscheinlich.
+6293|Überlass das mir. Ich kenne jemanden, der jemanden mit Tassen kennt.
+6294|Sag's ihm einfach. Er schätzt Ehrlichkeit. Wahrscheinlich.
+6295|Sag's ihm jetzt, bevor er es selbst merkt.
+6296|*stellt eine leicht falsche Ersatztasse auf Ahmets Schreibtisch* ...Perfekt.
+6297|*tauscht die Tasse* Da steht „Bester Chaf der Welt“. Das merkt er nicht.
+6298|...„Bester CHAF der Welt“? Wer hat meine Tasse ausgetauscht?!
+6299|Das ist nicht meine Tasse. Meine hatte eine Macke am Henkel.
+6300|*schlürft glücklich Kaffee aus der falschen Tasse*
+6301|Ahh. Nichts geht über meine Lieblingstasse.
+6302|Ahmet Bey... ich habe Ihre Tasse kaputt gemacht. Es tut mir so leid.
+6303|Ich muss Ihnen etwas gestehen. Es geht um Ihre Tasse.
+6304|...Die Tasse war ein Geschenk meiner Tochter. Aber danke, dass Sie es mir gesagt haben.
+6305|Unfälle passieren. Danke für Ihre Ehrlichkeit.
+6306|MEINE TASSE?! Wissen Sie, wie lange ich diese Tasse schon habe?!
+6307|Zwölf Jahre. Zwölf Jahre hat diese Tasse überlebt. Bis Sie kamen.
+6308|Du. Ich. Bürostühle. Flur. Wer verliert, zahlt eine Woche Kaffee.
+6309|Ich wette, mein Stuhl ist schneller als deiner.
+6310|Oh, du gehst UNTER.
+6311|Nenn die Uhrzeit.
+6312|Drei... zwei... EINS!
+6313|LOS LOS LOS!
+6314|*rollt mit furchterregender Geschwindigkeit*
+6315|LOS, {racer}!
+6316|Schneller! SCHNELLER!
+6317|Ich setze auf {rival}!
+6318|*KRACH* ...Mir geht's gut! Der Pflanze nicht.
+6319|*dreht sich in den Wasserspender*
+6320|Warum sind REIFENSPUREN auf meinem Flur?
+6321|Hat hier jemand in meinem Büro STUHLRENNEN veranstaltet?
+6322|...Revanche. Morgen. Ich fahre mit. Ich war '98 regionaler Kartmeister.
+6323|Hm. Wo ist der Ersatzstuhl? Ich will auch mal.
+6324|Stuhlrennen sind hiermit offiziell verboten. Es wird ein Memo geben.
+6325|Nie wieder. Sie beide. NIE.
+6326|Lotto-Tippgemeinschaft! Zehn Lira pro Kopf. Wenn wir gewinnen, kommt Montag keiner.
+6327|Büro-Lotto! Bist du dabei oder nicht? Sei nicht die einzige Person, die leer ausgeht, wenn wir gewinnen.
+6328|Bin dabei. Natürlich.
+6329|Nimm mein Geld. Nimm meine Hoffnungen.
+6330|Hast du gehört? Wir haben GEWONNEN. Im Lotto. Ich hab {organiser} am Telefon gehört!
+6331|Wir sind REICH! {organiser} hat ins Telefon geschrien!
+6332|Das war's. Ich sag Ahmet, was ich WIRKLICH von seinen Memos halte.
+6333|Ich kauf mir ein Boot. Ein großes. Tschüss, Tabellen.
+6334|Okay, Leute. Wir haben gewonnen. Vierzig Lira. Insgesamt. Vier Lira pro Kopf.
+6335|Gute Nachricht: Wir haben gewonnen! Schlechte Nachricht: Es reicht für einen Simit pro Person.
+6336|...Vier Lira. Ich hab Ahmet gesagt, dass seine Krawatte hässlich ist. FÜR VIER LIRA.
+6337|Ich hab schon mein Fitnessstudio gekündigt. Und den Chef beleidigt. Für einen Simit.
+6338|{a}, {b}: Der Quartalsbericht gehört Ihnen. Gemeinsam. Bis morgen.
+6339|Neues Projekt. {a} und {b}. Sorgen Sie dafür, dass es klappt.
+6340|...Gemeinsam?
+6341|Mit DER Person?
+6342|Kann ich's nicht allein machen? Zweimal?
+6343|...Dein Diagramm ist eigentlich gut.
+6344|Okay. Du machst die Zahlen, ich die Texte. Deal?
+6345|So formatiert man doch keine Tabelle!
+6346|Hör auf, MEINE Absätze zu ändern!
+6347|Hier ist der Bericht. Das meiste davon hab ich gemacht.
+6348|Unser Bericht. Hauptsächlich meiner.
+6349|Das MEISTE?! Ich hab jede einzelne Zahl da drin geschrieben!
+6350|Wie bitte?! Seite drei bis neun sind MEINE.
+6351|Das ist ausgezeichnet. Sie beide. Sehen Sie? Teamwork.
+6352|Gute Arbeit. Sie beide. Ich wusste es.
+6353|Alle mal herhören! MORGEN ist Inspektion von der Zentrale. Ich will dieses Büro BLITZBLANK.
+6354|Morgen kommt ein Prüfer aus der Zentrale. Putzen. Alles.
+6355|Blitzblank? Schon mal {slob:s} Schreibtisch GESEHEN?
+6356|Für {slob:s} Ecke brauchen wir einen Bulldozer.
+6357|*schrubbt die Tastatur mit einer Zahnbürste*
+6358|Ist das... ein Sandwich aus dem MÄRZ?
+6359|*stopft alles in eine Schublade*
+6360|Und was ist in DIESER Schublade, {slob}?
+6361|Öffnen Sie die Schublade, {slob}. Der Prüfer schaut zu.
+6362|...Ordentlich beschriftete Ordner. Hm. Gut gemacht.
+6363|Beeindruckend. Ich nehme zurück, was ich über Ihren Schreibtisch gesagt habe.
+6364|*eine Lawine aus Chipstüten und alten Memos ergießt sich*
+6365|*vier Monate Belege rutschen auf die Schuhe des Prüfers*
+6366|Der Prüfbericht ist da: „Vorbildliches Büro.“ Gut gemacht, alle!
+6367|Wir haben BESTANDEN. Pizza geht auf mich. Na ja, auf die Firma.
+6368|Im Prüfbericht steht „Verbesserungsbedürftig“. Eine einzige Schublade hat uns alles gekostet.
+6369|Wir sind durch die Prüfung gefallen. Ich nenne keine Namen. {slob}.
+6370|Mittagessen? Küchentisch, fünf Minuten.
+6371|Wer hat Hunger? Küchentisch. Jetzt.
+6372|Und dann sagt der Kellner—
+6373|Hat jemand das Spiel gesehen?
+6374|Reichst du mir mal den Ayran?
+6375|Also, dieses Wochenende bin ich aus Versehen bei einem Marathon mitgelaufen.
+6376|Lange Rede, kurzer Sinn: Ich hab Hausverbot bei diesem IKEA.
+6377|Meine Katze hat gelernt, den Kühlschrank zu öffnen. Wir haben ein Problem.
+6378|HAHA! Niemals!
+6379|Hör auf. Hast du NICHT.
+6380|Das ist das Beste, was ich die ganze Woche gehört hab.
+6381|...Faszinierend.
+6382|Mhm. Mhm. Jedenfalls—
+6383|*nickt höflich, schaut aufs Handy*
+6384|Schau! Schau dir dieses Gesicht an! *zeigt ein Handy voller Katzenfotos*
+6385|Okay, noch ein Foto. Nur eins. *zeigt vierzig*
+6386|Ooooh! Ich brauch auch eine!
+6387|Das ist das Süßeste, was ich je gesehen hab.
+6388|Vor dem Mittagessen drei Deals abgeschlossen. Nur so nebenbei.
+6389|Ahmet hat meinen Bericht „makellos“ genannt. Sein Wort.
+6390|Drei? Niedlich. Ich hatte vier. Gestern.
+6391|Komisch, meinen hat er „vorbildlich“ genannt. Das ist besser als makellos.
+6392|Ahmet Bey, ich sage das nur ungern, aber {rival:s} Bericht ist mit Fehlern rausgegangen.
+6393|Nur eine Kleinigkeit — {rival} hat schon wieder die Deadline verpasst. Ich dachte, Sie sollten das wissen.
+6394|Hm. Danke. Ich sehe es mir an.
+6395|Ach ja? Interessant.
+6396|Hast du Ahmet gerade von meinem Bericht erzählt?!
+6397|Hab ich gehört. Vielen Dank auch, {actor}.
+6398|Ist das DEIN Tacker auf MEINER Seite des Tisches?
+6399|Deine Pflanze erobert meine Tastatur.
+6400|Deine Seite? Seit wann gibt's Seiten?
+6401|Die Pflanze geht dahin, wo das Licht ist.
+6402|Ahmet Bey, ich glaube, ich bin bereit für die Teamleitung.
+6403|Ich möchte für die Beförderung in Betracht gezogen werden. Ernsthaft in Betracht gezogen.
+6404|...Machen Sie weiter so. Bei der nächsten Beurteilung sehen wir weiter.
+6405|Mir ist Ihre Arbeit aufgefallen. Geben Sie mir ein paar Wochen.
+6406|Noch nicht. Sie sind noch nicht so weit.
+6407|Bereit? Reden wir nächstes Jahr noch mal.
+6408|Ich kann die Henderson-Akte übernehmen. Ich hab Zeit.
+6409|Braucht jemand wen für den Wochenendbericht? Ich mach das.
+6410|Sehen Sie? DAS ist die Einstellung, die ich sehen will.
+6411|Ausgezeichnet. Danke.
+6412|Strg+Umschalt+L. Vertrau mir. Das filtert alles.
+6413|Das machst du per Hand?! Lass mich dir was zeigen.
+6414|...Das hat mir gerade zwei Stunden pro Woche gespart.
+6415|WAS. Wo war das mein ganzes Leben lang?
+6416|Hey. Alles okay? Du siehst aus, als bräuchtest du eine Pause.
+6417|Harter Tag? Komm, trink einen Tee mit mir.
+6418|...Ehrlich? Nicht so toll. Danke, dass du fragst.
+6419|Es war eine Woche. Tee klingt perfekt.
+6420|Mir geht's gut. Wirklich. Nur viel zu tun.
+6421|Danke, aber mir geht's gut.

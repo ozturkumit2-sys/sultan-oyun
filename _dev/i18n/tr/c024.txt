@@ -1,0 +1,202 @@
+4666|...Biliyor musun? Peki. Parti bende. Neden olmasın!
+4667|Tamam. TAMAM. Parti var. Cips getirin.
+4668|...{owner} benim hakkımda BUNU mu yazmış?
+4669|Vay. Demek {owner} aslında böyle düşünüyormuş.
+4670|Bunu görmemem gerekiyordu, değil mi?
+4671|Biliyordum. {owner:in} arkamdan konuştuğunu BİLİYORDUM.
+4672|Ah. Eyvah. {owner} beni sevmiyor mu?
+4673|Benim hakkımdaki o küçük sohbetini okudum, {target}.
+4674|Bunu yüzüme söylemek ister misin, {target}?
+4675|Benim hakkımda ne güzel sohbet etmişsiniz.
+4676|Özür dilerim. İçimi döküyordum. Öyle demek istemedim.
+4677|Kötü bir gündü. Görmene üzüldüm.
+4678|Eh, doğru ama.
+4679|Belki bu kadar kolaylaştırmasaydın...
+4680|EVET! Onaylandı! ONAYLANDI!
+4681|Ahmet evet dedi! İnanamıyorum!
+4682|Nihayet! Resmîleşti!
+4683|...Onaylandı mı? Hıh. Tamam. EVET.
+4684|Bil bakalım kimin {what} talebi onaylandı?
+4685|Ahmet {what} talebimi onayladı! Bugün güzel bir gün.
+4686|NEYİ onaylamışım? Ben hiçbir şey onaylamadım!
+4687|Ortada bir onay yok. Bunu sana kim söyledi?
+4688|Ama... e-postada...
+4689|'Onaylandı' yazıyordu. Yazılı olarak!
+4690|{target}, sabah istediğim şeyi bitirdin mi?
+4691|Sana e-postayla gönderdiğim iş nerede, {target}?
+4692|Ne işi? Bana hiçbir şey gelmedi!
+4693|Benden mi istediniz? Ne zaman? Gelen kutumda hiçbir şey yok!
+4694|Bir dakika... SPAM klasörümde mi?! Sabahtan beri!
+4695|Eyvah. Spam'de. Tabii ki spam'de.
+4696|O zaman spam'ine bak! Acil ve bugün teslim.
+4697|Bahaneler. Çıkmadan önce istiyorum.
+4698|Spam mi? Hım. Burak'la bunu konuşacağız. Şimdi yap lütfen.
+4699|Peki. E-posta sistemimiz felaket. Hallet şunu.
+4700|Beni görmek mi istedin?
+4701|Eee... bu toplantı ne hakkında?
+4702|Davetini aldım. Mutfak, değil mi?
+4703|Ne? Ben de SENİN beni davet ettiğini sanıyordum.
+4704|Ben hiçbir şey göndermedim. Sen gönderdin!
+4705|Neyse, buradayız. Kahve?
+4706|Ha! Tamam. Madem ikimiz de buradayız...
+4707|Belki de evren bir kahve içmemizi istedi.
+4708|Aslında... böyle olmasına sevindim.
+4709|Daha önemli işlerim var.
+4710|Harika. Tam bir zaman kaybı.
+4711|Bir dakika. Ahmet bana terfi SÖZÜ vermiş. Yazılı. İki yıl önce!
+4712|Şu eski e-postaya bak... 'seneye zam, söz.' Seneye dediği geçen seneydi!
+4713|Ahmet Bey, bu e-postayı hatırlıyor musunuz? Bana zam sözü vermiştiniz.
+4714|Eski sözünüzü buldum. Yazılı. Bunu konuşmak istiyorum.
+4715|...Bunu ben yazdım, evet. Peki. Sözümün eriyim. Rakamları konuşalım.
+4716|Hım. Söz sözdür.
+4717|Zaman değişir. Bütçeler değişir.
+4718|O başka bir yıldı. Ben başka biriydim.
+4719|Öyle bir şey yazdığımı hatırlamıyorum.
+4720|'İstifa ettim. Benimle iletişime geçmeyin.' — {owner:in} otomatik yanıtı mı?!
+4721|{owner}... İSTİFA mı etti? Ne zamandan beri?!
+4722|{target}! Bu 'istifa ettim' meselesi de ne?!
+4723|İstifa mı EDİYORSUN? Bana söylemeden mi?!
+4724|Ne? Hayır! İstifa etmiyorum! ...Ediyor muyum?
+4725|O benim otomatik yanıtım değil! Ben öyle bir şey ayarlamadım!
+4726|Bak... her ne ise konuşabiliriz. Daha fazla para? Daha iyi bir unvan?
+4727|Aceleci bir şey yapma. Buradaki geleceğini konuşalım.
+4728|...Aslında, siz söyleyince — bir zam fena olmazdı.
+4729|Eh. Madem teklif ediyorsunuz...
+4730|Biliyor musunuz? Belki doğrudur. Belki gerçekten istifa ETMELİYİM.
+4731|...Yine de yanlış değil.
+4732|Eee... şimdi aramız iyi mi? Mesajımdan sonra?
+4733|Hey. Mesajımı okuduğun için teşekkürler. Yine arkadaş mıyız?
+4734|Ne mesajı? Sen hiç özür dilemedin.
+4735|İyi mi? Bir özür bile dilemedin.
+4736|...O zaman şimdi söylüyorum. Özür dilerim.
+4737|Kayboldu mu? Tamam. O zaman yüz yüze: özür dilerim.
+4738|Ben özür DİLEDİM! Dilememişim gibi yapma!
+4739|İnanılmaz. Özür diledim, sen de dilememişim gibi davranıyorsun.
+4740|...Neden 'Of, {target}' adlı bir gruptayım?
+4741|Ah. Koca bir grup sohbeti. Benim hakkımda.
+4742|'{hater} diyor ki: {target:e} katlanamıyorum.' Ne hoş.
+4743|Güzel grup sohbeti, {target}. Artık okuyabiliyorum, haberin olsun.
+4744|Yani benim hakkımda koca bir SOHBET grubunuz mu var?
+4745|...Sen o gruba nasıl girdin?
+4746|Eyvah. Seni kim ekledi?!
+4747|{target}. Müşteri aradı. 'Değerli Müşteirmiz, size bildirmekten üzünütü duyarız...' mı?!
+4748|Müşteri, e-postanın 'okunamaz' olduğunu söylüyor. Açıkla.
+4749|İmkânsız, iki kez kontrol ettim!
+4750|Ne?! Gönderdiğimde kusursuzdu!
+4751|Bir dahakine ÜÇ kez kontrol et.
+4752|Bu şirketin bir itibarı var. Vardı.
+4753|...'Üzünütü'. Ha. Peki. Ara onları ve özür dile.
+4754|En azından müşteri güldü. Düzelt şunu.
+4755|İlginç okuma, {owner:in} küçük sohbeti.
+4756|{owner:in} 'özel' sohbetine bilgi olarak eklenmişim. Ne kadar öğretici.
+4757|'Ahmet bir dinozor' mu? Öyle mi, {target}?
+4758|Demek ben 'yürüyen bir toplantı'yım, öyle mi {target}?
+4759|Mesai saatinde kebap hakkında kırk mesaj, {target}?
+4760|Siz ikiniz çalıştığınızdan çok sohbet ediyorsunuz.
+4761|...O özel olacaktı!
+4762|Eyvah. EYVAH. Bilgiye siz mi eklenmiştiniz?
+4763|{owner} mesajımı bir saat önce okudu. Cevap yok. Harika.
+4764|'Görüldü'. Sadece 'görüldü'. Vay, {owner}.
+4765|Mesajımı okuyup... görmezden mi geldin?
+4766|Okuduğunu görebiliyorum, biliyorsun.
+4767|Ne mesajı? Açmadım bile!
+4768|Hiçbir şey görmedim! Yemin ederim!
+4769|...Peki. Belki telefonun tuhaftır.
+4770|Tamam. Sana inanıyorum. Çoğunlukla.
+4771|'Geleceğin CEO'su' mu? İmzanda mı, {owner}?
+4772|Cesur imza, {owner}. Çok cesur.
+4773|'Geleceğin CEO'su.' Bu bir tehdit mi, {owner}?
+4774|Geleceğin CEO'su mu? Benim cesedimi çiğnemeden olmaz.
+4775|'Küvetimden gönderildi' mi?! {owner}!
+4776|E-postan neden küvette olduğunu söylüyor?
+4777|Küvetten e-postalar! Efsane.
+4778|'Ahmet'in en sevdiği çalışan' mı? Cidden mi, {owner}?
+4779|Patronun gözdesi imzası. Hoş.
+4780|Hım. 'En sevdiği.' Eh. Belki.
+4781|İmzamda NE yazıyor?!
+4782|Onu ben yazmadım! Asla yazmam!
+4783|...{owner} bana az önce kalp mi gönderdi?
+4784|Üç kalp emojisi. Bir bütçe e-postasında. {owner:den}.
+4785|Kalp mi? {owner:den} mi? Hıh.
+4786|Eee... e-postandaki o kalpler...
+4787|O kalp... bilerek miydi?
+4788|Kalp mi?! Hayır! Sana bir tablo gönderdim!
+4789|O ben değildim! Klavyemin kendi aklı var!
+4790|...Belki birazcık bilerekti.
+4791|Tamam. Evet. Senden hoşlanıyorum. İşte, söyledim.
+4792|...{rich} benden NE kadar fazla kazanıyor?!
+4793|Bu bordro. Bakmamalıyım— dur. {rich} mi?!
+4794|Demek {rich} bu kadar kazanıyor. İlginç.
+4795|Ahmet Bey, başkalarının ne kazandığını gördüm. Hakkım neyse onu istiyorum.
+4796|Maaşımı konuşmak istiyorum. Şimdi. Lütfen.
+4797|Bordroyu sana kim gösterdi?! O gizli!
+4798|O rakamları nereden buldun?!
+4799|'Yeniden yapılanma... olası küçülmeler'... KÜÇÜLME mi?!
+4800|Ahmet'in notunda 'küçülme' yazıyor. Bu biz demek!
+4801|Ahmet'in taslak notu herkese mi gitti?!
+4802|'Küçülme.' İyi ki CV'm güncel.
+4803|NEYİN küçülmesi? İnsanların mı?!
+4804|O bir TASLAKTI! Taslağımı kim gönderdi?!
+4805|O not hazır DEĞİLDİ!
+4806|'Gözlerden kaçmadı: {target} ve {crush2} mum ışığında yemekte' mi?!
+4807|Bülten, {target} ile {crush2:in}... bir İLİŞKİSİ olduğunu mu söylüyor?
+4808|Nihayet, gazetecilik!
+4809|Bu doğru değil! Biz hiç akşam yemeği yemedik!
+4810|Bunu kim yazdı?! Yalan bu!
+4811|...Yani. DOĞRU değil. Ama... kötü de değil.
+4812|Akşam yemeği? Onunla mı? ...Hım.
+4813|'YIKIP GEÇECEĞİM... ...sunumu' mu?! {owner:den} mi?
+4814|{owner:in} mesajında 'Seni bitireceğim' yazıyor. Endişelenmeli miyim?
+4815|Az önce beni tehdit mi ettin?!
+4816|'Seni bitireceğim' tam olarak ne demek?
+4817|'Senin için BİTİRECEĞİM' dedim! Sesli yazma!
+4818|Sesten yazıya çevirdi! 'Yıkıp geçeceğim' dedim, yani 'harika olacak' anlamında!
+4819|Oh, çok şükür. Telefonun senden nefret ediyor.
+4820|...Tamam. Bu aslında çok komik.
+4821|Tabii. 'Sesli yazma'.
+4822|Ekran görüntüsünü saklıyorum. Ne olur ne olmaz.
+4823|{target}? Bu toplantıda ne işin var?
+4824|{target:i} biri mi davet etti? Neden?
+4825|Eh, madem buradayım — bu konuda bir fikrim var.
+4826|Aslında bu konuda yardımcı olabilirim.
+4827|Davet almıştım! ...Gidiyorum.
+4828|Pardon! Ben şöyle... çıkayım.
+4829|{target} nerede? Hep burada olur.
+4830|{target:i} gören oldu mu?
+4831|Davet listesinden çıkarıldım mı?! Kim tarafından?
+4832|Demek bir toplantı vardı. Bensiz. Ne güzel.
+4833|Ah — ilk ben mi? Tamam. Durum şöyle...
+4834|Pekâlâ. Hadi yapalım.
+4835|İlk ben mi? Harika, hazırım.
+4836|Ben mi? İLK? Ben... ilk olmaya hazır değildim.
+4837|Şey. En son ben konuşabilir miyim? Olmaz mı? Tamam...
+4838|'Gündem: İşten çıkarmalar' mı?!
+4839|Tahtada neden İŞTEN ÇIKARMALAR yazıyor?
+4840|İşten çıkarmalar. Gündemde. Bugün.
+4841|'Yeni ofis içi ilişki politikası' mı? Eyvah.
+4842|İlişki politikası mı?! Kimi hedefliyor bu?
+4843|'Gündem: Öğle yemeklerini kim çalıyor?' Nihayet!
+4844|Yemek hırsızı gündemde. Birileri terliyor.
+4845|Gündemde 'terfiler' mi? Bugün mü?!
+4846|Terfiler! Tamam. Tamam. Sakin ol.
+4847|Gündemime BUNU kim yazdı?!
+4848|Bu benim gündemim DEĞİL. Tahtama kim dokundu?
+4849|Neden buzdolabının yanında toplantı yapıyoruz?!
+4850|Toplantımı dinlenme alanına kim taşıdı?
+4851|Burası mutfak. Toplantı odası değil.
+4852|Ben burayı biraz sevdim, Ahmet Bey.
+4853|Atıştırmalıklar el altında. Gelmiş geçmiş en iyi toplantı.
+4854|Gelmiş geçmiş en iyi toplantı odası. Buzdolabına erişim.
+4855|Herkes NEREDE?!
+4856|Buradayım. Yalnız. Kendi toplantımda.
+4857|Tatil mi var? Kimse bana söylemedi.
+4858|Toplantı iptal mi edildi? Harika, daha çok vakit!
+4859|Toplantı iptal mi? Şahane.
+4860|Alo? Herkes nerede? Doğru toplantı bu mu?
+4861|Biz 'bütçe toplantısı'yız... mutfakta... değil mi?
+4862|Bir dakika. Bütçe toplantısı falan yok. Asıl toplantı başladı!
+4863|Yanlış toplantıdayız! KOŞUN!
+4864|Pekâlâ, millet! Başlayalım. Bugün toplantıyı ben yönetiyorum.
+4865|Tamam! Madem bu toplantıyı ben yönetiyorum — ilk madde!
+4866|Hanımlar beyler. Bunu verimli yapalım.
+4867|Şey, merhaba! Ben... galiba toplantı başkanıyım? Hadi başlayalım!

@@ -1,0 +1,283 @@
+2791|Dur... toplantı saati az önce değişti mi?
+2792|Pano az önce... değişti mi?
+2793|Delirmedim. Orada başka bir saat yazıyordu.
+2794|Pekâlâ, başlayalım.
+2795|Herkes otursun. Başlıyoruz.
+2796|Telefonlar aşağı. Toplantı şimdi başlıyor.
+2797|Sonunda!
+2798|Bakın kim teşrif etmiş.
+2799|Bir asırdır bekliyoruz.
+2800|Patron geç mi kaldı? Bunu bir yere yazın!
+2801|Ceren, takvimim neden yanlıştı?!
+2802|Bunu kim planladı? Ceren mi?
+2803|Öhö. Tam zamanında gelmişim gibi yapalım.
+2804|Evet, evet. Benim de işim olur.
+2805|Pardon! Geç kaldım, pardon!
+2806|Daha geç sanıyordum!
+2807|Trafik! Ofis trafiği!
+2808|Ben... networking yapıyordum. Kahve makinesinin başında.
+2809|Çok özür dilerim! Kayboldum! Ofiste!
+2810|Panoda başka bir saat yazıyordu!
+2811|Ama programda daha geç yazıyordu!
+2812|Panoyu durmadan kim değiştiriyor?!
+2813|Biri programla oynuyor.
+2814|Geç. Yine.
+2815|Vakit nakittir. Seninki tükeniyor.
+2816|Burayı kafe mi sandın?
+2817|Otur. Çabuk.
+2818|Otur sadece.
+2819|Herkes nerede?
+2820|Toplantı iptal mi oldu?
+2821|Yanlış odada mıyım?
+2822|Alo? Toplantı?
+2823|Toplantıyı kaçırdın. Açıkla.
+2824|Toplantı sırasında neredeydin?
+2825|Şu e-postan hakkında...
+2826|E-postanı okudum. Konuşmamız lazım.
+2827|Teslim tarihini kaçırdın.
+2828|İşin nerede? Teslim günü geçti.
+2829|Performansın hakkında konuşmamız lazım.
+2830|Senden daha iyisini beklerim.
+2831|Özür dilerim, bir daha olmayacak.
+2832|Peki efendim. Anlaşıldı.
+2833|Düzelteceğim.
+2834|Pardon, Dayı— yani, Ahmet Bey!
+2835|Saygısızlık olmasın ama bu haksızlık.
+2836|Belki bu ofis düzgün çalışsaydı...
+2837|Biliyor musunuz? Bundan bıktım.
+2838|Belki zaten burada çok kalmayacağım.
+2839|Ses tonuna dikkat et!
+2840|Efendim?!
+2841|Dikkatli ol.
+2842|Gördüğünüz gibi rakamlar kendini anlatıyor.
+2843|Ve önümüzdeki çeyrek için planımız bu.
+2844|İşte sonuçlar. Hepsi yeşil.
+2845|Mükemmel iş.
+2846|İşte görmek istediğim BU.
+2847|Çok iyi. Çok iyi.
+2848|*göz devirir*
+2849|Gösteriş budalası.
+2850|Bunu herkes yapabilirdi.
+2851|Sunumum USB'deydi... ve USB yok.
+2852|Ben... slaytlarımı bulamıyorum.
+2853|Hazırlıksız. Hayal kırıklığı.
+2854|Bu kabul edilemez.
+2855|Hazır olunca gel.
+2856|Şey... tam bitiremedim...
+2857|Tam sürümü yarın getirsem?
+2858|Yani... şimdi taslak zamanı.
+2859|Aslında efendim, ana fikir benimdi. İzin verin, anlatayım.
+2860|O projeyi ben sunabilirim — zaten işin çoğunu ben yaptım.
+2861|İzin verin. Bu projeyi avucumun içi gibi bilirim.
+2862|Etkileyici, Deniz. Çok etkileyici.
+2863|İşte inisiyatif bu.
+2864|Güzel. Sorumluluk alan insanları severim.
+2865|O BENİM işimdi!
+2866|Az önce benim projemi sundun!
+2867|Dalga mı geçiyorsun?! O benim!
+2868|Kanıtla.
+2869|Komik, üstünde senin adını göremiyorum.
+2870|Takım çalışması, Selin. Takım çalışması.
+2871|Bu toplantı bir e-posta olabilir miydi?
+2872|Bir sorum var: öğle yemeği ne zaman?
+2873|Harika toplantı. On üzerinden on.
+2874|Hızlı bir soru: atıştırmalıklar bütçe kalemi mi?
+2875|Ha! Tamam, tamam.
+2876|Çok komik. Şimdi konumuza dönelim.
+2877|Burası bir komedi kulübü değil.
+2878|Bunun komik olması mı gerekiyordu?
+2879|Hmm... bu kişinin bu kadar çok iş yaptığını bilmiyordum.
+2880|İlginç. Çok ilginç.
+2881|Bu, işleri değiştirir.
+2882|Hm. Beklendiği gibi.
+2883|Güzel, güzel.
+2884|Aramızda kalsın... biri terfi dosyanı değiştirmiş.
+2885|Dosyayı gördüm. Büyük projeden adın silinmiş.
+2886|NE?!
+2887|Bir terslik olduğunu biliyordum!
+2888|Kim böyle bir şey yapar?!
+2889|Herkes bir dakika lütfen. Yeni bir Ekip Liderimiz var.
+2890|Dikkat! Dikkatli bir değerlendirmenin ardından terfi kararımı verdim.
+2891|Herkes dikkat! Haftanın Çalışanı...
+2892|Bu haftanın yıldız çalışanı...
+2893|Teşekkürler! Sizi hayal kırıklığına uğratmayacağım!
+2894|Vay... ben mi? Teşekkürler!
+2895|Nihayet!
+2896|Elbette. Teşekkür ederim, efendim.
+2897|Teşekkür ederim. Bunun için çok çalıştım.
+2898|Tebrikler!
+2899|Hak edilmiş... sanırım.
+2900|*kibar bir alkış*
+2901|Hmm. İlginç bir seçim.
+2902|...İnanılmaz.
+2903|Bu çok haksızlık.
+2904|Onca yaptığımdan sonra mı?
+2905|Bu yanlış. Bu çok yanlış.
+2906|Bu iş burada bitmedi.
+2907|*soğuk soğuk bakar*
+2908|Bunu unutmayacağım.
+2909|Tebrikler. Tadını çıkar, sürdüğü kadar.
+2910|'Odama gel. Hemen.' ...Eyvah.
+2911|Patron beni mi görmek istiyor?!
+2912|Eyvah. Ne yaptım ben?
+2913|Mutfakta bedava pasta mı?! Başka söze gerek yok!
+2914|Bedava yemek! BEDAVA YEMEK!
+2915|Toplantı iptal mi? Süper!
+2916|Bugün toplantı yok mu? Gelmiş geçmiş en iyi haber.
+2917|'Gizli bir hayranın selam söylüyor'...?!
+2918|Burada biri bana mı tutulmuş?!
+2919|Oo, gizli bir hayran!
+2920|Beni mi görmek istemiştiniz?
+2921|Mesajınızı aldım, efendim.
+2922|Geldim! Ne yaptım?
+2923|Ben seni çağırmadım.
+2924|Ne mesajı? Ben bir şey göndermedim.
+2925|Seni hiç istemedim.
+2926|Vaktimi boşa harcama. İşinin başına.
+2927|Madem burada boş boş duruyorsun — git çalış.
+2928|Eh, madem geldin... son zamanlarda iyi iş çıkarıyorsun.
+2929|Otur, otur. İşler nasıl gidiyor?
+2930|Pasta yok...
+2931|Bedava yemek nerede?
+2932|Sadece bayat bir yoğurt var.
+2933|Çok komik, {suspect}.
+2934|Bahse girerim onu {suspect} gönderdi.
+2935|Biri bana şaka yapıyor. Ve sanırım kim olduğunu biliyorum.
+2936|*buzdolabını üzgünce kapatır*
+2937|Yalan. Hepsi yalan.
+2938|Yani... sen miydin? Gizli hayran?
+2939|O mesajı bana sen mi gönderdin?
+2940|...Belki. Bu o kadar kötü mü olurdu?
+2941|Haha, belki! Kim bilir?
+2942|Bir centilmen asla söylemez.
+2943|Ne? Hayır! Kusura bakma...
+2944|Şey, hayır. Kesinlikle ben değilim.
+2945|O... ben değilim.
+2946|Burak başka iş mi arıyor? Arkamdan?
+2947|Demek o yüzden hep telefonda.
+2948|Başka iş aradığını duydum.
+2949|Bizi bırakmayı mı planlıyorsun, Burak?
+2950|Bak... burada değerlisin. Seni tutmak için ne gerekiyor?
+2951|Dürüst olacağım. Seni kaybetmek istemiyorum.
+2952|Gerçekten mi? Ben... bunu beklemiyordum.
+2953|Eh. Belki biraz daha kalırım.
+2954|Belki arıyorum. Belki burası kimsenin kıymetini bilmiyor.
+2955|Seçeneklerim olması benim hakkım.
+2956|O zaman kapı orada.
+2957|Peki. Kimin kime ihtiyacı varmış, görürüz.
+2958|Stajyer patronun YEĞENİ mi? Tabii ki öyle.
+2959|Eh, bu çok şeyi açıklıyor.
+2960|Torpil. Ne güzel.
+2961|Genel merkez BENİ mi değerlendiriyor?!
+2962|Pozisyonum... değerlendirmede mi?
+2963|*fısıldar* Evet, mülakat için perşembe uyar...
+2964|*fısıldar* Teklif iyiyse gelecek ay başlayabilirim.
+2965|*fısıldar* Hayır, patronumun haberi yok.
+2966|Burak az önce bir mülakattan mı bahsediyordu?
+2967|Doğru mu duydum?!
+2968|Oo. Oo! Burak iş arıyor!
+2969|Pst. Gel buraya.
+2970|Duydun mu?
+2971|Tamam, bunu benden DUYMADIN...
+2972|Otur. Bunu otururken dinlemek isteyeceksin.
+2973|Ah, sana öyle bir haberim var ki.
+2974|{gossip}
+2975|Söylenenlere göre... {gossip}
+2976|Kimseye söyleme ama {gossip}
+2977|Rivayet o ki... {gossip}
+2978|Olamaz!
+2979|Ciddi misin?!
+2980|Biliyordum!
+2981|Hadi oradan!
+2982|Bunu konuşmamalıyız.
+2983|Bizi ilgilendirmez.
+2984|Dedikodu hoş bir şey değil, biliyorsun.
+2985|Bunu etrafa yaymayalım.
+2986|Bana HER ŞEYİ anlat.
+2987|Oo, başka?
+2988|Detay istiyorum!
+2989|Ceren, sana hiç tablolarının çok güzel olduğunu söyleyen oldu mu?
+2990|Eee... sonra kahve? Sadece iş arkadaşı olarak. Kahve içen iş arkadaşları.
+2991|Bugün harika görünüyorsun. Gerçi her zaman öylesin.
+2992|Haha, çok saçmasın Mert.
+2993|Belki. Uslu durursan.
+2994|Çok tatlısın. Tuhafsın ama tatlısın.
+2995|Mert, çalışıyorum.
+2996|Şimdi olmaz, Mert.
+2997|İyi denemeydi.
+2998|Eee... akşam yemeği? Gerçek bir tane?
+2999|Benimle çıkar mısın? Ciddi ciddi?
+3000|...Evet. Ama kimse bilmeyecek.
+3001|Tamam. Küçük sırrımız.
+3002|Bak sen. Bu ikisi fena yakın.
+3003|Bu ikisi ne zamandan beri arkadaş?
+3004|İlginç... çok ilginç.
+3005|İlgi odağı olmak hoşuna gidiyor mu?
+3006|Patronun gözdesi olmak güzel olmalı.
+3007|Alışma bence.
+3008|Kıskandın mı?
+3009|Evet, keyfini çıkarıyorum, sağ ol.
+3010|Bazılarımız bunu hak ediyor.
+3011|Bunu neden söyledin?
+3012|Bu haksızlık.
+3013|...Tamam.
+3014|Hey... az önceki şey için. Özür dilerim.
+3015|Konuşabilir miyiz? Sanırım aşırı tepki verdim.
+3016|Ateşkes?
+3017|Evet. Ben de özür dilerim.
+3018|Tamam. Ateşkes.
+3019|Unutalım gitsin. Kahve?
+3020|Çok az, çok geç.
+3021|Hazır değilim.
+3022|Hayır.
+3023|Ben o kadar kolay affetmem.
+3024|Ha. Sensin.
+3025|Bak kim gelmiş.
+3026|Hâlâ burada mısın?
+3027|Bu da ne demek oluyor?
+3028|Efendim?
+3029|Bir derdin mi var?
+3030|Evet, aslında var!
+3031|Ne demek istediğimi çok iyi biliyorsun!
+3032|Masum numarası yapma!
+3033|Bununla uğraşmayacağım.
+3034|Her neyse.
+3035|Değmez.
+3036|Hesap tablosu hesap makinesinden neden ayrılmış? Aralarında çok fazla hesap varmış.
+3037|Tembel değilim, enerji tasarrufu modundayım.
+3038|Patronum 'İyi günler' dedi. Ben de eve gittim.
+3039|Bilgisayarıma mola lazım dedim. 'Sorun değil, ben uyurum' dedi.
+3040|Takım çalışması demek, suçun hepsini tek başına üstlenmemek demek.
+3041|Haftanın en uzun günü hangisi? Pazartesi. Neden mi? Çünkü bitmiyor.
+3042|Ben 'gördüğünü ye' diyetindeyim. Yemek görüyorum, yiyorum.
+3043|Hahaha!
+3044|Tamam, bu iyiydi.
+3045|Yapma! Haha!
+3046|HAHAHA! Dur, anlamadım. HAHAHA!
+3047|Off.
+3048|Lütfen yeter.
+3049|Bu berbattı.
+3050|İşim var.
+3051|İşinizin başına.
+3052|{topic}
+3053|Ah, kesinlikle.
+3054|Ha, değil mi ama?
+3055|Hiç başlatma beni.
+3056|Bende de aynısı!
+3057|Hmm, pek değil.
+3058|Hm.
+3059|Tabii.
+3060|Laf açılmışken, şunu duydun mu...
+3061|Ah, bu konuda fikirlerim var.
+3062|Evet! Aman tanrım, evet!
+3063|Hm. Gerçekten de.
+3064|...
+3065|Meşgulüm.
+3066|Hı hı.
+3067|Sana kahve getirdim!
+3068|Sürpriz! Tam sevdiğin gibi kahve. Sanırım.
+3069|Kahve servisi!
+3070|Aww, sağ ol Ece!
+3071|Sen bir meleksin.
+3072|Tam ihtiyacım olan şey.
+3073|Hm. Aferin kızım. Yani, aferin, güzel iş.

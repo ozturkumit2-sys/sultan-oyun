@@ -1,0 +1,184 @@
+869|Cambiar el nombre de la puerta del gerente
+870|«Gerencia: (alguien)». La gente le llevará el papeleo de Ahmet.
+871|Añadir una línea jugosa al boletín de la oficina
+872|«Visto: (alguien) en una cena a la luz de las velas con...» Ceren lo envía al mediodía.
+873|Vaciar la bandeja de papel de la impresora
+874|La próxima impresión no saldrá. Alguien irá a la caza de papel.
+875|Mostrar la vista previa de su mensaje en el teléfono de otra persona
+876|Elige en qué teléfono. La vista previa no es amable.
+877|Cambiar la música de la oficina
+878|Todo el mundo oye el altavoz. No a todos les gusta la misma música.
+879|Rescatar una vieja promesa de Ahmet
+880|Un correo antiquísimo: «el año que viene, un aumento, lo prometo». Súbelo de nuevo al principio de su bandeja.
+881|Restaurar una versión antigua de su archivo
+882|Devuelve su informe a la semana pasada. Cada cambio: perdido.
+883|Editar el organigrama del tablón de corcho
+884|Pon a alguien por encima de Ahmet. Todos en la sala de reuniones lo verán.
+885|Añadir a alguien a la lista de horas extra del fin de semana
+886|Clavada a la vista de todos.
+887|Empacar su escritorio en una caja de cartón
+888|Todo. Bien ordenado. Como si le hubieran despedido.
+889|Cambiar el reloj de su computadora
+890|Adelantado: recoge temprano. Atrasado: llega tarde a todo.
+891|Reescribir el informe de desempeño de alguien
+892|Elige de quién y hazlo brillar… o conviértelo en un desastre. Ahmet los lee en su escritorio.
+893|Meter el teléfono de alguien en el abrigo de otra persona
+894|Elige qué teléfono. Sonará desde el bolsillo equivocado.
+895|Esconder su teléfono en la nevera
+896|Junto a la leche. Buscará primero en todas partes.
+897|Clavar las notas privadas de Ahmet sobre todo el mundo
+898|Lo que de verdad piensa de cada empleado. En el tablón de corcho.
+899|Prometer pizza gratis en la reunión
+900|Todos llegarán temprano. Con hambre.
+901|Posponer la evaluación de alguien… indefinidamente
+902|Sin nueva fecha. Solo «pospuesta». Se preguntará por qué.
+903|Hacerle una broma telefónica a Ahmet desde su extensión
+904|Respiración pesada. El teléfono de Ahmet muestra exactamente de dónde viene.
+905|Poner a alguien primero en la lista de presentaciones
+906|Con o sin preparación, le toca primero.
+907|Imprimir 500 copias de la foto de bebé de Ahmet
+908|La próxima persona que use la impresora quedará sepultada.
+909|Mandar su archivo privado a la impresora compartida
+910|Quien imprima después se llevará una página sorpresa.
+911|Clavar unos falsos «criterios de ascenso»
+912|Los ambiciosos los seguirán al pie de la letra.
+913|Derramar agua delante de la impresora
+914|La próxima persona que vaya a imprimir no lo verá venir.
+915|Entregar la carta de aumento de alguien a la persona equivocada
+916|La carta es para el ojito derecho de Ahmet. Elige quién la abre en su lugar.
+917|Meter su contrato firmado en el reciclaje
+918|El contenedor de reciclaje de la cocina. Junto a los envases de yogur.
+919|Dejar una carta de recomendación brillante para alguien
+920|De Ahmet. «Muy recomendable… para puestos en otras empresas.»
+921|Cambiar las etiquetas de sus carpetas
+922|Cualquiera que pase por su escritorio leerá las etiquetas nuevas.
+923|Poner su informe en el escritorio de otra persona
+924|Elige en qué escritorio. Lo que haga con él es cosa suya.
+925|Poner un cartel de «Reservado» en la cocina
+926|«Reservado para el almuerzo privado de Ahmet.» Hoy nadie más usa la cocina.
+927|Dejar a la vista su borrador de renuncia
+928|Lo escribió en un mal día. Nunca lo envió. Ahora está encima de la pila.
+929|Revivir la planta moribunda de la oficina
+930|Un pequeño y amable embrujo.
+931|Amañar el amigo invisible
+932|Las dos personas que no se soportan tendrán que hacerse un regalo.
+933|Cambiar su tono de llamada
+934|Su próxima llamada sonará con… esto.
+935|Clavar quién empezó un rumor falso
+936|Alguien se inventó algo. Pon su nombre en el tablón de corcho.
+937|Reescribir la clasificación de ventas
+938|Pon a otra persona en primer lugar. Mert la mira todos los días.
+939|Llenar el azucarero de sal
+940|Los dos próximos cafés serán memorables.
+941|Revolver la centralita de recepción
+942|Durante una hora, cada llamada entrante va al escritorio equivocado.
+943|Compartir su carpeta privada con todo el mundo
+944|La persona más curiosa de la oficina la encontrará primero.
+945|Escribir «5 minutos» en la reunión
+946|La gente se tomará el tablero al pie de la letra.
+947|Poner a alguien en lo más alto de la lista corta de ascensos
+948|Una lista corta que todavía no existe… con su nombre arriba del todo.
+949|Desordenar las páginas de su presentación
+950|Se dará cuenta delante de todos.
+951|Cambiar su firma de correo
+952|Cada correo que envíe a partir de ahora la llevará.
+953|Ralentizar su internet
+954|Todo le tomará el doble de tiempo… hasta que TI lo arregle.
+955|Convertir el dispensador de agua en un «rincón spa»
+956|Rodajas de limón, pepino, un cartelito. La gente se quedará ahí.
+957|Mandar la instrucción de Ahmet a su carpeta de spam
+958|Una petición urgente que nunca verá… hasta que Ahmet la pida.
+959|Poner su teléfono en altavoz
+960|Su próxima llamada personal: en directo para todos los que estén cerca.
+961|Poner el café al triple de fuerte
+962|La productividad sube. La paciencia baja.
+963|Llenar el buzón de sugerencias
+964|Seis notas idénticas sobre una persona. Ahmet lee el buzón en su escritorio.
+965|Programar una evaluación sorpresa
+966|Pon en el calendario de Ahmet una evaluación a solas con alguien… empezando ya.
+967|Intercambiar dos abrigos del perchero
+968|Elige un abrigo. Su dueño se llevará a casa el de otra persona.
+969|Mezclar todas las tazas del estante
+970|La próxima persona que se haga un café agarrará la equivocada.
+971|Pasar su nota adhesiva al escritorio de otra persona
+972|«¿Almorzamos a la 1? Invito yo.» Elige quién la encuentra.
+973|Cambiar su celular por uno idéntico de otra persona
+974|Elige de quién. Alguien leerá un mensaje que no era para esa persona.
+975|Intercambiar las evaluaciones de desempeño de dos personas
+976|Elige qué expediente se intercambia con el del dueño de este escritorio.
+977|Cambiar las tarjetas con nombres de los asientos de la reunión
+978|Sienta juntos a la peor pareja posible. (O a la mejor.)
+979|Cambiar la página de firmas de su contrato
+980|Su contrato ahora termina con la firma de otra persona.
+981|Cambiar su archivo de presentación
+982|Su presentación ahora tiene las diapositivas de otra persona… y presenta primero.
+983|Dejar una bandeja anónima de té y galletas
+984|Nadie sabe quién la trajo. Alguien se apuntará el tanto.
+985|Entregar la nota de agradecimiento de Ahmet a la persona equivocada
+986|Era para su ojito derecho. Elige quién la abre.
+987|Poner un bote de propinas de «Gracias, Burak»
+988|Él lo arregla todo. Nadie le da nunca las gracias.
+989|Cambiar el cargo de alguien a «Becario»
+990|En el sistema de RR. HH. Nóminas enviará un correo de bienvenida.
+991|Redactar una solicitud de traslado para alguien
+992|A una sucursal muy, muy lejana.
+993|Llenar de erratas su correo al cliente
+994|«Estimado Cliennte...» El cliente llamará a Ahmet.
+995|Quitar a alguien de la invitación a la reunión
+996|No sabrá que hay reunión. Hasta más tarde.
+997|Desenchufar su monitor
+998|La broma más simple. Mira cómo entra en pánico.
+999|Desenchufar el switch de red
+1000|La cajita azul detrás del archivo. Toda la oficina se queda sin conexión.
+1001|Anular el envío de su disculpa
+1002|Acaba de escribirle una disculpa a alguien. Haz que desaparezca antes de que la lean.
+1003|Sellar URGENTE en cada papel de su escritorio
+1004|Todos. Cada hoja.
+1005|Hacer saltar una alerta de virus falsa
+1006|Calavera roja parpadeando, sirenas aterradoras. Es inofensiva. Pero eso no lo sabe nadie.
+1007|Entregar su mensaje de voz a la persona equivocada
+1008|Algo privado que grabó. Elige quién lo escucha.
+1009|Cambiar el reloj de pared de la oficina
+1010|La gente confía en ese reloj. Algunos actuarán en consecuencia.
+1011|Cambiar su fondo de pantalla
+1012|Algo que seguro notará.
+1013|Enviar «tenemos que hablar» desde su teléfono
+1014|A la persona que le gusta.
+1015|Cambiar su silla por la rota
+1016|Parece que está bien. No lo está.
+1017|Hacer que devuelva la llamada a la persona equivocada
+1018|Su lista de «llamadas perdidas» ahora muestra el número de otra persona. Elige de quién.
+1019|Nombrar a otra persona para presidir la reunión
+1020|El tablero dirá quién dirige la reunión de hoy.
+1021|Clavar «Presupuesto para aumentos este año: 0»
+1022|Una notita en el tablón de corcho. Una gran caída de la moral.
+1023|Fiesta sorpresa
+1024|Es el cumpleaños de {bday}… y {organizer} tiene un plan.
+1025|El juego de las culpas
+1026|El teléfono de Ahmet está sonando. Suena a cliente enojado.
+1027|Jefe contra empleado
+1028|Ahmet no se despega del escritorio de {rebel}. {rebel} está perdiendo la paciencia.
+1029|La ruptura
+1030|{a} y {b} están peleando. Toda la oficina finge no escuchar.
+1031|Los recortes de presupuesto
+1032|La central recortó el presupuesto. La primera víctima: el café gratis.
+1033|La carrera de sillas de oficina
+1034|{racer} retó a {rival} a una carrera de sillas de oficina por el pasillo.
+1035|La alcancía solidaria
+1036|{organiser} está recaudando para el refugio de animales. Alguien está contando mal.
+1037|El cliente que se fue de las manos
+1038|El cliente viene en camino. El proyector está muerto. Le toca a {presenter}.
+1039|El cliente robado
+1040|{thief} le tiene echado el ojo al mayor cliente de {victim}.
+1041|El lío del café
+1042|{reader} cree que {sender} le invitó a salir. {sender} no tiene ni idea.
+1043|La carpeta borrada
+1044|{culprit} está haciendo clic donde no debería.
+1045|La cita doble accidental
+1046|{a} y {b} (la «pareja» de la foto) acabaron almorzando con {c} y {d}.
+1047|La gran evacuación
+1048|Alarma de incendios. La puerta principal, atascada. Todos atrapados en recepción.
+1049|El escándalo de los gastos
+1050|Zeynep encontró algo raro en los gastos de {suspect}.
+1051|La despedida que no fue
+1052|Todos creen que {leaver} renuncia. No es así. Probablemente.

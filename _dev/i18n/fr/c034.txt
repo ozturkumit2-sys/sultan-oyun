@@ -1,0 +1,175 @@
+6494|défi gagné
+6495|acceptation
+6496|idées adoptées
+6497|pétard mouillé
+6498|on s'évite
+6499|malaise
+6500|défi perdu
+6501|reculade
+6502|vente de gâteaux
+6503|bannissement
+6504|interdiction
+6505|croyants
+6506|trahison
+6507|chantage
+6508|vite oublié
+6509|bluff démasqué
+6510|complicité
+6511|juste emprunté
+6512|rupture
+6513|séparation
+6514|fin de non-recevoir
+6515|étouffé
+6516|pris sur le fait
+6517|apaisement
+6518|cessez-le-feu
+6519|dégonflade
+6520|choix du cœur
+6521|choix de la concurrence
+6522|innocence prouvée
+6523|innocence admise à contrecœur
+6524|malentendu dissipé
+6525|départ du client
+6526|froid
+6527|guerre froide
+6528|aveux
+6529|aveux, patron furieux
+6530|correction
+6531|couverture
+6532|voix brisée
+6533|bataille du mérite
+6534|putsch écrasé
+6535|démenti
+6536|refus poli
+6537|déni
+6538|désastre
+6539|pris à la légère
+6540|terminé
+6541|éloignement
+6542|affaire classée
+6543|révélé au grand jour
+6544|tombé dans l'oubli
+6545|inspection ratée
+6546|fausse alerte
+6547|querelle
+6548|fait long feu
+6549|pardon
+6550|oubli
+6551|retrouvé
+6552|quatre lires chacun
+6553|amitié
+6554|friendzone
+6555|abandon
+6556|le fantôme accusé
+6557|échappée belle
+6558|impunité
+6559|rancune
+6560|demi-vérité
+6561|à mi-chemin
+6562|héroïsme
+6563|caché
+6564|indifférence
+6565|impro héroïque
+6566|injustice
+6567|juste amis
+6568|secret gardé
+6569|silence
+6570|pris à la rigolade
+6571|légende
+6572|fête légendaire
+6573|lâcher prise
+6574|contrat perdu
+6575|perdu à jamais
+6576|courage envolé
+6577|loyauté
+6578|rabibochage
+6579|mascotte du bureau
+6580|idées fusionnées
+6581|occasion ratée
+6582|délai dépassé
+6583|deuil
+6584|mystère
+6585|ni l'un ni l'autre
+6586|pas d'excuses
+6587|jamais demandé
+6588|jamais couvert
+6589|jamais retrouvé
+6590|jamais su
+6591|jamais dit
+6592|nouveau couple
+6593|prochain sur la liste
+6594|pas de café
+6595|pas de déjeuner
+6596|pas de fête
+6597|pas de séance
+6598|absence
+6599|pas de verdict
+6600|personne n'est venu
+6601|personne n'a aidé
+6602|ne part plus
+6603|pas encore
+6604|faute assumée
+6605|fête
+6606|fête gâchée
+6607|inspection réussie
+6608|a joué le jeu
+6609|reporté
+6610|promesse
+6611|officialisé
+6612|retour au calme
+6613|réparé en douce
+6614|perdu en douce
+6615|augmentations
+6616|vrai couple
+6617|réconciliation
+6618|record de dons
+6619|rejet
+6620|revanche
+6621|signalement
+6622|ressentiment
+6623|restauré
+6624|restauré trop tard
+6625|vengeance préparée
+6626|sauvetage avec sermon
+6627|sauvetage discret
+6628|bouc émissaire
+6629|savon
+6630|en secret
+6631|fête annulée
+6632|ça mijote
+6633|au point mort
+6634|la règle tient
+6635|une star est née
+6636|reste
+6637|toujours brouillés
+6638|mur de silence
+6639|lapin
+6640|entêtement
+6641|succès
+6642|souffrance en silence
+6643|nouveau fournisseur
+6644|vengeance désamorcée
+6645|démission évitée
+6646|travail d'équipe
+6647|le voleur gagne
+6648|ensemble
+6649|démission retirée
+6650|lettre déchirée
+6651|trêve
+6652|grand amour
+6653|la vérité
+6654|sous les soupçons
+6655|jamais découvert
+6656|passé inaperçu
+6657|non résolu
+6658|énigme non résolue
+6659|non-dit
+6660|veto
+6661|le client reste
+6662|guerre
+6663|mise en garde
+6664|avertissement
+6665|contrat gagné
+6666|pire
+6667|mauvaise cible
+6668|a cédé

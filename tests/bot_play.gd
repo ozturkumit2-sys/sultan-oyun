@@ -13,6 +13,7 @@ func _ready():
 	for a in OS.get_cmdline_user_args():
 		var kv := a.split("=")
 		if kv.size() == 2 and kv[0] == "days": target_days = int(kv[1])
+		if kv.size() == 2 and kv[0] == "lang": Game.change_language(kv[1])
 	rng.seed = 99
 	Game.delete_save()
 	main = load("res://scripts/main.gd").new()

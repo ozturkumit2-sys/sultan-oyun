@@ -1,0 +1,186 @@
+6058|*zırr zırr* — HOPARLÖRDE — 'Konuşmamız lazım mı demiştin?'
+6059|*telefon hoparlörde* '{owner}? Konuşmak mı istemiştin?'
+6060|Ben— şey— senden yıllardır hoşlanıyorum, tamam mı?! İşte. Söyledim.
+6061|Senden hoşlanıyorum! Hem de çok! ...Neden herkes bana bakıyor?
+6062|*panikle telefonu kapatır* ...Yanlış numara! Ha! Ha.
+6063|*telefonu çarpar* O... bir müşteriydi.
+6064|Ooooo, {owner}! 'Senden yıllardır hoşlanıyorum'!
+6065|Telefon konuşmanı duyduk, {owner}. Çok romantik.
+6066|*{owner:e} öpücük sesleri çıkarır*
+6067|Gülün bakalım. Umarım bir dahaki sefere sizin telefonunuz hoparlörde olur.
+6068|...Masamı taşıyorum. Antarktika'ya.
+6069|Eee... o telefon konuşması.
+6070|Telefonda söylediklerini duydum. Herkes duydu.
+6071|...Ben de senden hoşlanıyorum. Hoparlörüyle falan.
+6072|Kayıtlara geçsin? Bende de aynısı.
+6073|Çok tatlısın. Ama ben öyle hissetmiyorum. Üzgünüm.
+6074|Gururum okşandı. Gerçekten. Ama hayır.
+6075|Hiç olmamış gibi yapıp bir kahve içelim mi?
+6076|Tamam, bu tanık olduğum en utanç verici şeydi. Kahve?
+6077|MÜŞTERİ geliyor ve projektör ÖLDÜ mü?!
+6078|Projektörü kim bozdu? Hem de BUGÜN?!
+6079|Bekle... yedek bir kablom vardı... bir yerlerde.
+6080|Tamam projektör. Sen ve ben.
+6081|VE... ışık var! Rica ederim.
+6082|Tamir edildi. Dokunmayın. Yanında nefes bile almayın.
+6083|Öldü bu. Tamamen öldü.
+6084|Yok. Yanık kokuyor. Bu asla iyiye işaret değildir.
+6085|Ve dördüncü slaytta gördüğünüz gibi...
+6086|Bu çeyrekteki rakamlarımız kendini anlatıyor.
+6087|Müşteri imzaladı! Hemen orada!
+6088|Bayıldılar. Sözleşmeyi aldık!
+6089|...Müşteri 'düşüneceklerini' söyledi.
+6090|Erken çıktılar. Bu kötü, değil mi? Bu kötü.
+6091|Projektör yok mu? Sorun değil. *bir kalem kapar* Şöyle düşünün...
+6092|Slaytları boş verin. Size geleceği çizeyim. *çok titrek bir grafik çizer*
+6093|Müşteri HER ŞEYİ aldı. Çöp adam çizimi yüzünden.
+6094|'İçten ve insani' dediler. Kaptık!
+6095|Müşteri çizimin bir at olup olmadığını sordu. O bizim satış grafiğimizdi.
+6096|...Gittiler. Montlarıyla. Hızla.
+6097|KAPI AÇILMIYOR!
+6098|MAHSUR KALDIK!
+6099|YANGIN ALARMI çalarken kapı neden kilitli?!
+6100|Hepimiz— tamam sakinim. Sakinim. SAKİN DEĞİLİM.
+6101|Son böyle mi gelecek? Resepsiyonda mı?
+6102|Herkes! Sakin olun! Yangın çıkışı arşivin yanında. Beni takip edin.
+6103|Beni dinleyin. Kimse panik yapmasın. Başka bir çıkış var.
+6104|*kapıya omuz atar* ...Açıldı! Herkes dışarı— ah, alarm durdu.
+6105|Tamam! Mandal sıkışmış. Herkes dışarı. Sakin bir şekilde.
+6106|Ön kapıyı KİM sıkıştırdı? Bu bir GÜVENLİK meselesi!
+6107|Biri o kapıyı sıkıştırmış. Bir isim istiyorum.
+6108|{scapegoat}, kapının yanındaki son kişi sendin. Açıkla.
+6109|Sendin, değil mi, {scapegoat}?
+6110|Ben mi?! Herkes gibi DIŞARI ÇIKMAYA çalışıyordum!
+6111|Ona dokunmadım! Yemin ederim!
+6112|Bugün {hero} herkesi güvende tuttu. İşte liderlik budur.
+6113|{hero} için bir alkış. Kriz anında soğukkanlı.
+6114|Öğle yemeğim GİTMİŞ ve {signer} imzalı bir not mu var?!
+6115|'Yoğurdumu çalmayı bırakın — {signer}' mi?! HER ŞEYİ mi attın?!
+6116|*büyük harflerle ÇOK uzun bir karşı not yazar*
+6117|'SEVGİLİ {signer}: BAZILARIMIZIN DUYGULARI VAR. VE ÖĞLE YEMEKLERİ.' *buzdolabına yapıştırır*
+6118|Öğle yemeğimi attın. Sonra da bana yoğurt hakkında NUTUK mu attın?
+6119|Notu açıkla, {signer}.
+6120|O notu ben yazmadım! Ben yoğurt bile yemem!
+6121|O benim el yazım değil! Biri bize tuzak kuruyor!
+6122|Belki insanlar yemeklerini etiketlese atılmazdı!
+6123|Ah, şimdi de buzdolabı polisi ben miyim? Peki. Buzdolabı polisi benim.
+6124|Duydun mu? {leaver} İSTİFA ediyor. Mektubu gördüm!
+6125|{leaver} gidiyor! Otomatik yanıtta 'istifa ettim' yazıyor!
+6126|{leaver:in} veda hediyesi için para topluyoruz. Katılır mısın?
+6127|Kartı imzala! {leaver} için! Görmesin!
+6128|Tabii ki. {leaver:i} özleyeceğim.
+6129|Al. Güzel bir şey alın.
+6130|Gittiğine inanamıyorum.
+6131|Gitme, {leaver}. Ne teklif ediyorlarsa — ben de aynısını veririm.
+6132|{leaver}. Gitmeden önce... kalman için ne gerekir?
+6133|...Gitmek mi? Ben gitmiyorum. Gittiğimi kim söyledi?
+6134|Bir dakika. Ne teklifi? Hiçbir yere gitmiyorum!
+6135|...Eh. Bir zam iyi bir başlangıç olur.
+6136|Hım. Daha büyük bir masa. Bir de zam. Sonra konuşuruz.
+6137|SÜRPRİZ! Seni özleyeceğiz, {leaver}!
+6138|Elveda, {leaver}! *konfeti patlatır*
+6139|GİTMİYORUM! Ama... teşekkürler? Pasta var mı?
+6140|...İstifa etmiyorum. Ama kartı alıyorum.
+6141|Herkese teşekkürler! ...Küçük bir güncelleme: kalıyorum. Zamla.
+6142|Ah! O konu. Kalıyorum. Ahmet bana bir teklif yaptı.
+6143|HEDİYEYE para verdik!
+6144|BİLİYORDUN ve para toplamamıza izin mi verdin?!
+6145|HAHAHA!
+6146|Ah, bu paha biçilemez.
+6147|*hırıldayarak güler*
+6148|Nefes alamıyorum!
+6149|HEP böyle yapıyorsun!
+6150|Konu bulaşıklar değil. Konu hiçbir zaman bulaşıklar değil.
+6151|Peki. PEKİ.
+6152|Ben mi?! Unutan sendin!
+6153|Ah, şimdi de BENİM suçum mu?
+6154|Bana 'peki' deme.
+6155|Biraz hava almam lazım.
+6156|Sonra konuşuruz. Ya da konuşmayız.
+6157|...Özür dilerim. Sadece yorgunum.
+6158|Tamam. Abarttım. Kahve?
+6159|Açıkçası mı? {b} son zamanlarda çekilmez oldu.
+6160|Ben senin tarafındayım. Her zaman.
+6161|{b} ile konuşmalısın. Doğru düzgün.
+6162|Bunu bir hiç uğruna çöpe atma.
+6163|Konuşabilir miyiz? Gerçekten konuşabilir miyiz?
+6164|Az önceki konuya gelince...
+6165|Seni bu kadar saçma bir şey yüzünden kaybetmek istemiyorum.
+6166|Bir daha asla dinlenme alanında kavga etmeyelim. Anlaştık mı?
+6167|...Bence bir aradaya ihtiyacımız var. Gerçek bir ara.
+6168|Belki de iş arkadaşı olarak daha iyiyiz.
+6169|*karton bir kutuya fısıldar* Şşş. Şşş. Artık sen bir zımbasın.
+6170|Kimse bu kutuya bakmasın. Bunlar... dosya. Çok tüylü dosyalar.
+6171|*miyav*
+6172|*minicik miyav*
+6173|Arşivde bir yavru kedi saklamanı istiyorum. Soru sorma.
+6174|Tamam, onu otoparkta buldum. Ahmet'ten saklamama yardım eder misin?
+6175|YAVRU KEDİ mi?! Ver onu bana. Canım pahasına korurum.
+6176|...Peki. Ama adını ben koyuyorum.
+6177|Kesinlikle hayır. İşsizliğe alerjim var.
+6178|Hayır. Ahmet ikimizi de öldürür.
+6179|...Odamda bir şey mi MİYAVLIYOR?
+6180|Klavyemin üstünde neden bir yavru kedi var?!
+6181|...Ah. Şu minik suratına bakın. Peki. Kalıyor. Artık ofis müdürü o.
+6182|Kim iyi bir kedicik? Merkeze tek kelime yok, kimse.
+6183|Dışarı. Kedi gidiyor. BUGÜN. Ve {smuggler}: odama. Hemen.
+6184|Burası ofis, hayvanat bahçesi değil!
+6185|*{p2:in} bütün masasını streç filmle sarar* Mükemmel.
+6186|*{p2:in} faresini bir patatesle değiştirir* Sanat.
+6187|...STREÇ FİLM mi?! Ah, savaş başladı, {p1}.
+6188|PATATES. Bunu ödeyeceksin, {p1}.
+6189|*{p1:in} çekmecesini 300 yapışkan notla doldurur* Birinci aşama tamam.
+6190|*{p1:in} klavyesini F klavyeye çevirir* Muhahaha.
+6191|Nihai şaka. Bir kova konfeti. Kapının üstünde. {p2} içeri girince...
+6192|*patronun kapısının üstüne bir kova konfeti yerleştirir* ...Dur, yanlış kapı.
+6193|*konfetiye bulanmış* ...BUNU. KİM. YAPTI.
+6194|*ağzından konfeti tükürür* Üçe kadar sayıyorum.
+6195|...Ha. HA. Tamam, bu aslında iyiydi. İkiniz de işinizin başına.
+6196|Yıllardır böyle gülmemiştim. Kimseye söylemeyin.
+6197|{p1}! {p2}! Odama! HEMEN!
+6198|Bu BUGÜN bitiyor. İkiniz de. Yazılı uyarı.
+6199|LÜTFEN biraz sessiz olur musun? Bazılarımız çalışıyor.
+6200|Pardon — biraz daha sessiz olabilir misin? Teslim tarihim var.
+6201|Ah! Pardon. Fark etmemiştim. Fısıldarım.
+6202|Benim hatam. İç ses. Anladım.
+6203|Burası AÇIK OFİS. Buna İLETİŞİM denir.
+6204|Kulaklık al.
+6205|Ah, gürültü mü istiyorsun? *ofis hoparlörünün sesini açar* TADINI ÇIKAR.
+6206|Peki. Benim sessizliğim yoksa KİMSENİN yok. *müziği sonuna kadar açar*
+6207|BU müziği kim açtı?!
+6208|Kulaklarım!
+6209|Biri şunu kapatabilir mi?
+6210|Yeter. Bu şimdi bitiyor. Mutfak. İkiniz de.
+6211|Siz ikiniz herkesi delirtiyorsunuz. Oturun. Konuşun.
+6212|...Bana kulaklık, sana sessiz saatler?
+6213|Peki. Müzik sadece dörtten sonra. Anlaştık.
+6214|Asla. Yarın TROMPET getireceğim.
+6215|Arabesk için özür dilemeden olmaz.
+6216|Ahmet saat dörde kadar yeni fikirler istiyor. Benimki seninkinden iyi. İddiaya var mısın?
+6217|Fikir düellosu. Sen ve ben. Ahmet'in odası. Saat dört.
+6218|Kabul.
+6219|Ah, bu iş ÇOK ciddi.
+6220|Kaybetmeye hazırlan.
+6221|*hararetle yazıyor* Dokuzuncu slayta daha çok sinerji lazım.
+6222|Tamam. Grafikler. Büyük olanlar. Ahmet büyük grafiklere bayılır.
+6223|Şunu hayal edin: her şey, ama daha hızlı.
+6224|Benim fikrim bize yüzde otuz tasarruf ettirecek. Belki de kırk.
+6225|{a:in} fikri. Onunla gidin. {b}, güzel çabaydı.
+6226|{a:i} seçiyorum. Tebrikler.
+6227|{b}, işte bu. {a}, baştan başla.
+6228|{b} kazandı. Keskin bir sunumdu.
+6229|Neden ikisi birden olmasın? {a} ve {b}: artık bir ekipsiniz. Birbirinizi öldürmeyin.
+6230|Birleştirin. Birlikte. Bugün.
+6231|KARAOKE! Mutfak! Beşten sonra! Sesinizi getirin!
+6232|Bu akşam: ofis karaokesi. Katılım zorunlu. Şaka. Çoğunlukla.
+6233|*arşivde, çok sessizce* ♪ ...ve kalbim senin için bum-bum atıyooor... ♪
+6234|*dosya dolabının arkasında gam çalışır*
+6235|...O {shy} mıydı? Şarkı mı söylüyordu? ÖYLE mi?
+6236|Bir dakika. {shy} şarkı SÖYLEYEBİLİYOR mu?
+6237|♪ YAZICIM, YAZICIM, YAZ KALBİMİİİ ♪
+6238|♪ Pazartesi, ah pazartesi, neden benden nefret ediyorsuuun? ♪
+6239|♪ Ofisin yıldızııı, kahvenin kraliçesiii ♪
+6240|...VAY. Bir daha! BİR DAHA!
+6241|{shy}, BUNU nerede saklıyordun?
+6242|*tiz notada sesi çatlar* ...İyiyim. Gayet iyiyim.
+6243|*bambaşka bir şarkı söyler*

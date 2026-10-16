@@ -1,0 +1,115 @@
+1788|Ahmet, {actor:in} raporunun kenarında 'Ahmet her konuda yanılıyor' yazısını buldu. Garip ama bu dürüstlüğe saygı duydu.
+1789|{friend}, {breaker:e} Ahmet'in kupası hakkında itiraf etmesini söyledi.
+1790|Ahmet kupasının değiştirildiğini fark etti. İlk çözülen {friend} oldu.
+1791|{owner}, kayıp sözleşmeyi {suspect:e} sordu. {suspect}, onu yanlışlıkla arşive kaldırdığını hatırladı.
+1792|{culprit}, {owner:e} itiraf etti: sözleşme yanlış dosyalanmış. Kriz bitti.
+1793|{breaker}, Ahmet'in çok sevdiği 'Dünyanın En İyi Patronu' kupasını mutfakta kırdı.
+1794|Ahmet keyifle 'Dünyanın En İyi Paronu' kupasından içiyor. Örtbas işe yaradı.
+1795|{breaker}, Ahmet'in kupasını kırdığını itiraf etti. Ahmet affetti — hatta bu dürüstlüğe saygı duymuş gibiydi.
+1796|{owner} sözleşmeyi arşivden geri aldı. Panik sona erdi.
+1797|{owner}, sözleşmeyi {suspect:e} sordu. {suspect} inkâr etti. (Yanlışlıkla arşive kaldıran oydu.)
+1798|{friend}, Ahmet fark etmeden kırık kupayı yenisiyle değiştirmek için {breaker:e} yardım etmeyi kabul etti.
+1799|{culprit}, sözleşmeyi gizlice {owner:in} masasına geri bıraktı. {owner} hâlâ {suspect:i} suçluyor.
+1800|{culprit}, sözleşmeyi gizlice {owner:in} masasına geri bıraktı. Kimse asla bilmeyecek.
+1801|{owner:in} imzalı müşteri sözleşmesi masasından kayboldu. Panik.
+1802|{culprit}, kayıp sözleşmenin bu sabah arşive kaldırdığı klasör olduğunu yeni fark etti.
+1803|{owner}, kayıp sözleşme için bütün arşivi aradı. Hiçbir şey yok. Artık {suspect:den} şüpheleniyor.
+1804|{friend}, Ahmet'in masasına yedek bir kupa koydu. Üstünde 'Dünyanın En İyi Paronu' yazıyor.
+1805|{breaker}, Ahmet'in kupasını kırdığını itiraf etti. Ahmet bunu çok, ama çok kişisel algıladı.
+1806|{owner}, sözleşmeyi aldığı için {suspect:i} suçladı. {suspect:in} bununla hiçbir ilgisi yoktu — ve çok alındı.
+1807|{actor} toplantıyı kaçırdı. Ahmet fark etti.
+1808|Ekip toplantısı bitti.
+1809|{hijacker}, {actor:in} sunumunu ele geçirdi — Ahmet de izin verdi.
+1810|{hijacker}, {actor:in} sunumunu ele geçirmeye çalıştı. Ahmet buna hemen son verdi.
+1811|{sleeper} toplantıda uyuyakaldı. Horlama dahil.
+1812|Ekip toplantısı başladı.
+1813|{actor}, hiç başlamayan bir toplantıyı bekledi.
+1814|Ahmet'in yarım kalmış not taslağı — 'yeniden yapılanma, olası küçülmeler' — bütün ofise gitti.
+1815|{actor:in} klavyesi her tuşta miyavlıyor. Bütün sıra duyuyor.
+1816|{actor:in} klavyesi artık miyavlıyor. Buna bayılmaya karar verdi.
+1817|Mikrodalga tam öğle yemeğinde öldü. {actor} donmuş yemeğine bakakaldı.
+1818|Ahmet, {target:in} masasının arkasında dikilip her tuş vuruşunu izledi.
+1819|Ahmet, {target:in} masasının başından ayrılmadı; sonunda {target} ona patladı.
+1820|Toplantı tutanağına göre takım kampını organize etmeye {target} gönüllü olmuş. {target} bu işi sahiplenmeye karar verdi.
+1821|Toplantı tutanağına göre kampı organize etmeye {target} gönüllü olmuş. {target} kesinlikle gönüllü olmadı.
+1822|{actor:in} klasöründen bir dosya kayboldu. Şu an Ahmet'in özel klasöründe duruyor.
+1823|Ahmet, {owner:in} dosyasını kendi özel klasöründe buldu ve oraya nasıl geldiğini öğrenmek istiyor.
+1824|{actor}, bir rapor için arşivi talan etti — ve yanlış yere dosyalanmış hâlde buldu. Suçu {suspect:e} atıyor.
+1825|{actor:in} raporu gerçekten kayıp. Baştan başlaması gerekecek.
+1826|{actor}, kendi çekmecesinde duran bir rapor için arşivi alt üst etti.
+1827|{actor}, {target:in} telefon konuşmasının yarısını duydu ve artık {victim:in} kovulmak üzere olduğuna inanıyor. ({target} bir yazıcıdan bahsediyordu.)
+1828|{owner} raporunu hiçbir yerde bulamıyor. (Rapor çoktan Ahmet'in masasında — {thief:in} adıyla.)
+1829|{owner:in} raporu {actor:in} masasından çıktı. {actor} geri vermeden önce her sayfasını okudu.
+1830|{owner:in} raporu {actor:in} masasından çıktı. {actor} hemen sahibine geri götürdü.
+1831|{owner:in} raporu {actor:in} masasından çıktı. {actor} onu Ahmet'e teslim etti. Kendi raporu gibi.
+1832|Ahmet, {mentor} ile {mentee:i} mentor ve menti olarak eşleştirdi. Saf bir dehşetle bakıştılar.
+1833|Ahmet mentorluğun nasıl gittiğine baktı. {mentee}, {mentor:in} berbat tavsiyelerini anlattı. Ahmet hiç memnun değil.
+1834|Ahmet mentorluğun nasıl gittiğine baktı. {mentor} ve {mentee} — inanılmaz ama — iyi bir ekip olmuş.
+1835|{mentor}, {mentee:e} çok kötü bir tavsiye verdi. Bile bile.
+1836|{mentor:in} {mentee} ile ilk mentorluk seansı... gerçekten işe yaradı.
+1837|{protege}, kahve eşliğinde {mentor:e} teşekkür etti. Bu ikisi artık birbirini kolluyor.
+1838|{protege} Ahmet'in odasına dalıp itiraf etti: hata kendisinindi, {mentor} onu koruyordu.
+1839|{mentor}, {protege:i} korumak için rapordaki hatanın kendi suçu olduğunu Ahmet'e söyledi.
+1840|{rival}, Ahmet'e {mentor:in} {protege:i} koruduğunu söyledi. Ahmet hiç memnun değil.
+1841|{rival}, {mentor:in} örtbasını ona karşı kullanmaya çalıştı. Ahmet ilgilenmedi.
+1842|{protege}, {mentor:in} raporuna yanlış rakamları girdiğini fark etti — ve rapor çoktan Ahmet'te.
+1843|{actor}, yanlışlıkla {target:in} kupasından içti. Bir şekilde iş flörte döndü.
+1844|{target}, {actor:i} kendi kupasından içerken yakaladı. Kupalar değiştirilmişti. Laf sokuşturmalar oldu.
+1845|{actor}, yanlışlıkla {target:in} kupasından içti. Gülüp geçtiler.
+1846|Ofis hoparlöründe {what} çalmaya başladı. Kimi dans ediyor. Kimi acı çekiyor.
+1847|Ahmet hışımla gelip ofis müziğini kapattı.
+1848|{actor}, {target:in} zorlandığını fark etti ve onu bir çaya götürdü. {target} sonrasında biraz hafiflemiş görünüyordu.
+1849|{actor}, {target:e} içten bir iltifat etti. {target} hâlâ gülümsüyor.
+1850|Ahmet, {late:in} nerede olduğunu sorunca {actor} onu idare etti. {late}, {actor:e} bir borçlu.
+1851|{actor} masasında uyuyakaldı — ve Ahmet onu öyle buldu.
+1852|{actor} masasında uyuyakaldı. {prankster} alnına bir not yapıştırdı: 'ofis dışında'.
+1853|{actor}, Ahmet'in odasının önünde afiş okuyormuş gibi oyalandı — ve bir şey duydu.
+1854|{actor}, {target:in} masasına uğramak için bir bahane uydurdu. {target} gülümsedi. İlerleme var.
+1855|{actor}, {target:in} masasına uğramak için bir bahane uydurdu. {target} hiçbir şey fark etmedi.
+1856|{actor}, {target:e} {victim:in} kovulmak üzere olduğunu söyledi. Bunun hiçbir aslı yok.
+1857|{actor} mikrodalgada balık ısıttı. Artık bütün ofis biliyor.
+1858|Biri {actor:in} masasına bir çiçek bırakmış. {actor:in}, bırakanın {giver} olduğundan haberi yok.
+1859|Mutfakta {actor:in} etrafında bir dedikodu halkası oluştu. {actor} ne dediyse, artık üç kişi biliyor.
+1860|{actor} gizlice bir iş görüşmesi ayarladı — ve Ahmet'e 'dişçi' dedi.
+1861|{actor}, {target} ve {friend} mutfak masasında birlikte öğle yemeği yedi. Küçük bir grup oluşuyor.
+1862|{actor} ve {target} mutfak masasında birlikte öğle yemeği yedi.
+1863|{actor}, lavaboda kupa bıraktığı için {target:i} suçladı. {target} bunu inkâr etti — hem de bağıra bağıra.
+1864|{actor}, lavabodaki kupalar yüzünden {target:le} yüzleşti. {target} kupaları yıkadı. Mutfakta barış.
+1865|{actor} ve {target} kimin daha çok çalıştığı üzerine sesli bir yarışa girdi. Kazanan yok. Herkes duydu.
+1866|{actor}, {target:e} aşağı yukarı üç yüz evcil hayvan fotoğrafı gösterdi. {target} her birine bayıldı.
+1867|{actor}, ofis bitkisiyle içten bir sohbet ederken yakalandı.
+1868|{actor}, Ahmet'ten dobra dobra terfi istedi. Ahmet hayır demedi.
+1869|{actor}, Ahmet'ten dobra dobra terfi istedi. 'Henüz değil.'
+1870|{actor}, öğle yemeğini {target} ile paylaştı. Küçük şeyler önemlidir.
+1871|{target}, sözünü kestiği için {actor:e} çıkıştı. Yine.
+1872|{actor}, {rival:in} hatasını Ahmet'e söyledi. Rekabetin yeni bir silahı var.
+1873|{rival}, {actor:in} kendi hatasını Ahmet'e yetiştirdiğini duydu. Bu unutulmayacak.
+1874|{actor}, {target:in} boş masasındaki kâğıtları kurcaladı — ve bir şey buldu.
+1875|{actor}, {target:e} bir tablo kısayolu gösterdi. {target}, {actor:e} büyücüye bakar gibi baktı.
+1876|{actor} ile {target} arasında bir zımba makinesi yüzünden sınır anlaşmazlığı çıktı.
+1877|{actor}, Ahmet'in önünde ekstra iş için gönüllü oldu. Birkaç iş arkadaşı gözlerini devirdi.
+1878|{actor}, {target:e} çok uzun bir hafta sonu hikâyesi anlattı. {target} hayatta kaldı.
+1879|{actor:in} hafta sonu hikâyesi, kahve makinesinin başında {target:i} gülmekten ağlattı.
+1880|Haber yayıldı: Ece, patronun yeğeni.
+1881|Bütün ofis ağı çöktü. Kimse çalışamıyor — o yüzden herkes sohbet ediyor.
+1882|{actor} ve {target} gerçek arkadaş oluyor.
+1883|Ahmet yeni bir ofis kuralı duyurdu. Kimse istememişti.
+1884|Ceren'in bülteni, {target} ve {crush2:in} 'mum ışığında bir akşam yemeğinde görüldüğünü' duyurdu. Görülmediler.
+1885|Pasta yokmuş. {actor} yıkıldı.
+1886|{actor}, sahte pasta alarmı için {suspect:i} suçluyor.
+1887|{actor} çıktı almaya gitti ve yazıcının — malzeme rafının da — kâğıdının bittiğini gördü.
+1888|{target}, kahve makinesini kendisinin tamir etmediğini dürüstçe itiraf etti.
+1889|{actor}, {target:in} masasına gizlice isimsiz bir not bıraktı.
+1890|{actor} masasında isimsiz bir not buldu ve {guess:in} yazdığını sanıyor. (Yazan {writer}.)
+1891|{actor} isimsiz bir not buldu ve doğru tahmin etti: yazan {writer}.
+1892|{actor}, {target:in} özel defterini kanepede buldu — ve okumadan geri verdi.
+1893|{actor}, {target:in} özel defterini kanepede buldu. Ve okudu.
+1894|Ahmet'in her çalışan hakkındaki özel notları mantar panoda belirdi. Herkes, Ahmet'in kendisi hakkında ne düşündüğünü okudu.
+1895|{actor:in} gizli bir hayranı var. Söylenene göre.
+1896|{actor} 'odama gel' mesajı aldı.
+1897|{actor}, bugünkü toplantının iptal olduğunu sanıyor.
+1898|{actor} bedava pasta için mutfağa koşuyor.
+1899|{owner:in} {worst} hakkında yakındığı mesajın önizlemesi {target:in} telefonunda belirdi.
+1900|Ece, Ahmet'in yeğeni olduğu konusunda ofisin karşısına çıktı. Çoğu, onun yerini hak ettiğine karar verdi.
+1901|{witness}, Ece ve Ahmet konusunda Ceren'i sıkıştırdı. Ceren'in "yorum yok"u her şeyi anlattı.
+1902|{witness}, Ece'ye "Dayı" gafını sordu. Ece berbat bir yalan uydurdu: aslında "daha" demiş.

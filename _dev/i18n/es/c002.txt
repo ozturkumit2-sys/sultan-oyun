@@ -1,0 +1,167 @@
+702|Elige una mitad de la «pareja». La otra mitad será quien mejor encaje en la historia.
+703|Cambiar los granos de café por descafeinado
+704|Nadie lo notará. Al principio.
+705|Sacar a la luz el mensaje en el que defendió a alguien
+706|A puerta cerrada, dio la cara por un compañero. Que el compañero se entere.
+707|Retrasar la llamada de vuelta de un cliente importante
+708|El cliente devuelve la llamada… una hora tarde.
+709|Borrar la invitación a la reunión
+710|Casi todos pensarán que se canceló. Ahmet no.
+711|Poner las luces de la oficina en modo discoteca
+712|Morado, rosa, parpadeando. Algunos bailarán. Uno no.
+713|Poner su teléfono en No molestar
+714|Ahmet está a punto de llamarle. Varias veces.
+715|Reservar dos veces la hora de la reunión
+716|Una falsa «reunión de presupuesto» en la cocina a la misma hora. Dos personas irán a la equivocada.
+717|Agotar la batería de su teléfono
+718|Muerto en segundos. Necesitará un cargador… de otra persona.
+719|Adelantar el anuncio del ascenso
+720|El ascenso de hoy se anuncia ahora mismo, haya preparación o no.
+721|Cambiar el nombre del «Empleado del mes»
+722|El diploma del tablón de corcho mostrará a quien tú elijas.
+723|Colgar una invitación a tomar algo que deja fuera a alguien
+724|«¡Todos bienvenidos!» Todos menos un nombre. Elige cuál.
+725|Poner una solicitud de empleo secreta en el escritorio de Ahmet
+726|Alguien se está postulando en otras empresas. Asegúrate de que Ahmet lo vea.
+727|Añadir una cita falsa a su calendario
+728|Salta un recordatorio. ¿Irá?
+729|Hacer que la respuesta de Ahmet diga «¡Aprobado!»
+730|Su solicitud pendiente recibe un alegre «¡Aprobado!»… de un jefe que no aprobó nada.
+731|Enviar en su nombre una invitación falsa a una reunión a solas
+732|Elige quién la recibe. Los dos aparecerán en la cocina.
+733|Añadir una línea al acta de la reunión
+734|«(Alguien) se ofreció a organizar el retiro del equipo.» Elige quién.
+735|Añadir un recordatorio engañoso a su teléfono
+736|Su teléfono le dirá que haga algo. ¿Lo hará?
+737|Renombrar la reunión como «Despedida de (alguien)»
+738|Todos pensarán que se va. Quizá hasta esa misma persona.
+739|Hacer que su archivo privado se abra en la pantalla de otra persona
+740|Elige en qué pantalla. Lo leerá en su escritorio.
+741|Activar la alarma de incendios
+742|Todos evacuan a recepción. Hagan lo que hagan… reuniones incluidas.
+743|Etiquetar un curry de pescado como el almuerzo de alguien
+744|Al mediodía va al microondas. El olor encontrará a su «dueño».
+745|Arreglar la impresora en secreto
+746|Alguien se llevará el mérito. No serás tú.
+747|Hacer que las luces parpadeen
+748|Veinte minutos de iluminación de película de terror.
+749|Falsificar la firma de Ahmet en su rendición de gastos
+750|Zeynep revisa cada rendición. ¿Se dará cuenta?
+751|Desviar sus llamadas a otra persona
+752|Elige quién contesta su teléfono hoy. Clientes incluidos.
+753|Reenviar su chat privado a la persona de la que habla
+754|Lo escribió para desahogarse. Ahora lo leerá la persona aludida.
+755|Reenviarle a alguien la planilla de sueldos
+756|La nómina confidencial de Zeynep. Elige quién podrá ver el sueldo de todos.
+757|Pegar en la nevera una nota pasivo-agresiva firmada por alguien
+758|«DEJEN DE ROBARME EL YOGUR.» Elige qué nombre aparece debajo.
+759|Tirar todo lo que hay en la nevera
+760|El almuerzo de todos. Desaparecido.
+761|Distorsionar su mensaje de dictado por voz
+762|«Lo voy a petar en la reunión» se convierte en «Te voy a matar». Elige quién lo recibe.
+763|Cambiar el nombre de una tarjeta de regalo
+764|El regalo de alguien para una amistad. Elige qué nombre aparece en la tarjeta en su lugar.
+765|Publicar su foto vergonzosa en el chat grupal
+766|Esa. La de la noche de karaoke.
+767|Dejar la tarjeta de un cazatalentos en su escritorio
+768|«Puesto sénior. El doble de sueldo. Llámame.»
+769|Esconder un documento importante
+770|Mete su informe donde nadie lo buscaría.
+771|Mover la caja de snacks al cajón de alguien
+772|Elige de quién. Los compañeros hambrientos la encontrarán.
+773|Mover todo el material de oficina al cajón de alguien
+774|Bolígrafos, grapadoras, notas adhesivas… todo. Elige qué cajón.
+775|Cambiar la música de espera
+776|Quien llame y quede en espera oirá algo… inesperado.
+777|Dejar una nota anónima de «Sé lo que hiciste»
+778|No significa nada. A menos que de verdad haya hecho algo.
+779|Invitar a alguien que no debería venir
+780|Añade un nombre a la reunión de hoy. Ahmet se dará cuenta.
+781|Cambiar el título del que preside a «Gerente interino»
+782|Ahmet tiene un partido de golf. {usurper} ya preside.
+783|Hacer que {crush} devuelva la llamada… en altavoz
+784|Ya se envió «Tenemos que hablar». El teléfono está en altavoz. Déjalo sonar.
+785|Convertir la invitación en una cita a la luz de las velas
+786|{reader} ya tiene su nota de amor. Ahora la invitación dice «solo tú y yo, velas».
+787|Adjuntar el borrador de renuncia a la respuesta automática
+788|Quien le escriba a {owner} ahora recibirá «Renuncio»… con la carta adjunta.
+789|Escribir en el tablero «{presenter} presenta al cliente»
+790|Viene un cliente. El proyector está muerto. Alguien tiene que presentar.
+791|Garabatear «¡Cita doble en el almuerzo!» en la foto de pareja
+792|{c} invitó a {d} a almorzar. {a} y {b} ya son «pareja». ¿Por qué no los cuatro?
+793|Sincronizar el parpadeo con la sirena del virus
+794|Luces y pantallas latiendo a la vez. Muy, muy escalofriante.
+795|Bloquear también la salida de emergencia
+796|La alarma suena y la puerta principal está atascada. Cierra la última salida.
+797|Copiar el documento confidencial en la carpeta compartida
+798|La carpeta privada de {leaker} está abierta para todos. El archivo confidencial encajaría perfecto.
+799|Poner las dos cartas en la bandeja de Ahmet
+800|Una solicitud de traslado y una carta de recomendación brillante… para la misma persona.
+801|Colgar una pancarta de «FIESTA» sobre la cocina
+802|La música suena, las luces están rosas y hay una bandeja. Solo falta un nombre.
+803|Clavar la planilla de sueldos junto a «Presupuesto para aumentos: 0»
+804|{leader} ya vio la planilla. Ahora todos pueden comparar.
+805|Poner «Anuncio de ascenso» en el orden del día
+806|El expediente dice {credited}. La reunión se movió. Ahmet lo leerá en voz alta.
+807|Añadir «Reestructuración: preguntas» bajo el memorando filtrado
+808|Todos vieron el memorando. Ahora el tablero lo hace oficial.
+809|Darle a Ahmet el informe reescrito para la evaluación
+810|La evaluación sorpresa de {rebel} ya está programada y su informe fue «editado».
+811|Firmar las dos notas como «tu admirador secreto»
+812|{owner} recibió una nota bonita y un elogio anónimo. Átalos.
+813|Enviar las cifras viejas al cliente, con Ahmet en copia
+814|La versión desactualizada está abierta y Ahmet ya está en copia. Un clic.
+815|«Firmar» la queja anónima con el nombre de quien empezó el rumor
+816|Una nota dice quién empezó un rumor. La otra es anónima. Ya no.
+817|Añadir «Lo tiré todo yo» a la nota firmada
+818|La nevera está vacía y hay una nota con el nombre de {signer}. Conviértela en una confesión.
+819|Grapar la solicitud de empleo a su informe de desempeño
+820|Ahmet leerá las dos cosas a la vez.
+821|Atascar la puerta principal
+822|La próxima persona que intente salir se quedará atrapada.
+823|Atascar una carta de amor en la fotocopiadora
+824|Elige qué carta de amor secreta se queda atascada en los rodillos.
+825|Dejar ofertas de empleo abiertas en su pantalla
+826|La próxima persona que pase sacará sus propias conclusiones.
+827|Añadir una máquina de karaoke a la rendición de gastos de alguien
+828|Zeynep hace hoy la auditoría de gastos.
+829|Dejar a la vista la nota bonita que escribió
+830|Escribió algo precioso sobre alguien. Nunca quiso compartirlo.
+831|Dejar exactamente una taza de café
+832|Dos personas la van a querer.
+833|Mostrarle a alguien la reunión secreta de Ahmet
+834|«Privado: revisión de RR. HH. — (alguien).» No significa nada. Pero eso no lo sabrán.
+835|Marcar como «visto» el mensaje de su amistad
+836|Su mejor amistad pensará que la está ignorando.
+837|Cerrar con llave la sala de reuniones
+838|Por dentro. Sin nadie adentro.
+839|Bloquear su computadora
+840|Restablece la contraseña. Se enterará al sentarse.
+841|Bloquear el termostato
+842|La temperatura que haya ahora es la que se queda.
+843|Dejar el cuaderno privado de alguien en el sofá
+844|Elige de quién. La próxima persona que se siente lo encontrará.
+845|Añadir corazones a su próximo mensaje de trabajo
+846|Elige quién recibe un correo muy profesional… con tres corazones.
+847|Entregar su nota de amor a la persona equivocada
+848|Era para su amor platónico. Elige quién la lee en su lugar.
+849|Enviar su invitación a almorzar a la persona equivocada
+850|Elige quién la recibe. Almuerzo para dos, quieran o no.
+851|Poner tarjetas con nombres en el almuerzo: rivales lado a lado
+852|Las dos personas que no se soportan. Una sola mesa.
+853|Escribir una nota grosera en el margen de su informe
+854|«Ahmet se equivoca en todo.» Con su letra.
+855|Poner la alarma de su teléfono a mitad de la reunión
+856|«¡DESPIERTA! ¡DESPIERTA!» — justo en medio de la reunión de Ahmet.
+857|Hacer que su teclado maúlle
+858|Cada tecla: un pequeño miau. Todos los que estén cerca lo oirán.
+859|Mover su archivo a la carpeta equivocada
+860|Directo a la carpeta privada de Ahmet.
+861|Desordenar todo el archivo
+862|«Contabilidad» va a «Vacaciones». Los dos próximos visitantes sufrirán.
+863|Quitar la última página de su informe
+864|La conclusión. La página que Ahmet siempre lee primero.
+865|Mover el almuerzo de alguien a otro estante
+866|Detrás de la mostaza. Pensará que se lo robaron.
+867|Mover la reunión a otra sala
+868|El tablero dirá que hoy la reunión es en otro sitio.

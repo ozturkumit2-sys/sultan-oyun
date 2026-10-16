@@ -1,0 +1,111 @@
+2024|{target}, Ahmet'ten övgü dolu bir referans mektubu buldu — ve onunla başka işlere başvurmaya başladı.
+2025|{actor}, arkadaşı {subject} hakkında bir söylenti duydu — ve inanmayı kesinlikle reddetti.
+2026|Gizemli bir telefon hatırlatıcısı {owner:e} {crush} için çiçek almasını söyledi. Ortam biraz... tuhaflaştı.
+2027|Gizemli bir telefon hatırlatıcısı {owner:e} {crush} için çiçek almasını söyledi. {owner} aldı. {crush} bayıldı.
+2028|{owner:in} telefonu saat 16:30'da spor salonu olduğunu söyledi. Erkenden çıktı.
+2029|Bir telefon hatırlatıcısı {owner:e} bugün zam istemesini söyledi. {owner} de doğruca Ahmet'in odasına daldı.
+2030|{actor} yanlışlıkla Tümünü Yanıtla'ya bastı. Bütün ofise bir kedi videosu gitti.
+2031|{actor:in} Tümünü Yanıtla felaketi Ahmet'e kadar ulaştı. Hiç ama hiç eğlenmedi.
+2032|{actor}, {owner:in} masasında bir istifa mektubu taslağı gördü.
+2033|Mutfak kapısındaki tabelaya göre mutfak Ahmet'in 'özel öğle yemeği' için ayrılmış. Herkes söylene söylene masasında yiyor.
+2034|{actor}, {target:e} {victim} hakkında yalan söyleyerek {victim:den} intikam alıyor.
+2035|{actor} sürpriz bir performans değerlendirmesine sürüklendi. Kötü geçti.
+2036|{actor} sürpriz bir performans değerlendirmesine sürüklendi. Harika geçti.
+2037|{joker:in} zil sesi toplantıda çaldı. Herkes duydu.
+2038|{lover} ve {crush} ayrıldı. Mutfak artık eskisi gibi olmayacak.
+2039|{spotter}, {lover} ile {crush:in} mutfaktaki samimi anına daldı. Sır ortaya çıktı — bir nevi.
+2040|{lover} ve {crush} mutfakta gizli kahve buluşmalarını yaptı. Artık kesin bir şeyler var.
+2041|{lover}, {crush:i} kahveye davet etti. Arkadaş kontenjanına alındı.
+2042|{actor}, {target:e} {lover} ve {crush} hakkında her şeyi anlatıyor.
+2043|{lover} ve {crush} saklamayı bıraktı: resmen birlikteler. Ofis alkışladı.
+2044|{lover} ve {crush} ilişkilerini gizli tutmaya karar verdi. Kolay gelsin.
+2045|{lover}, {crush:i} sakin bir kahveye davet etti. {crush} evet dedi!
+2046|{lover} ve {crush} gizlice bir kahve daha içti. Kimse fark etmedi. Henüz.
+2047|{actor} ve {target} ikisi de toplantı odasını ayırttı. İkisi de çıkmıyor.
+2048|Panoya göre bugünkü toplantı {what:de}. Herkes — Ahmet dahil — oraya doluştu.
+2049|{actor} ve {target} toplantı odasını çift rezerve etti ve paylaşmaya karar verdi.
+2050|{quitter}, Ahmet'e bir istifa mektubu verdi. Ahmet kabul etti. {quitter} bunu hiç beklemiyordu.
+2051|{quitter}, Ahmet'ten istifa mektubunu sessizce geri istedi. Herkes fark etmemiş gibi yaptı.
+2052|{quitter}, Ahmet'e bir istifa mektubu verdi. Ahmet kalmasını istedi — ve dinledi.
+2053|{friend}, {quitter:e} kalması için yalvardı. {quitter} elinde mektupla Ahmet'in odasına gidiyor.
+2054|{friend}, {quitter:i} istifadan vazgeçirdi. Mektup bir çekmeceye girdi.
+2055|{quitter} bir istifa mektubu yazdırdı.
+2056|{quitter} bir istifa mektubu yazdırmaya çalıştı. Yazıcı bozuktu.
+2057|{quitter} bir istifa mektubu yazdırdı — ve {spotter} mektubun yazıcıdan çıktığını gördü.
+2058|{quitter}, Ahmet'e bir istifa mektubu verdi. Ahmet mektubu ikiye yırttı. {quitter}... kalıyor mu?
+2059|{quitter} mutfakta {friend:e} şöyle dedi: "İstifa mektubumu yazıyorum. Bugün."
+2060|{actor}, bir söylentiyi doğrudan {target:e} sordu. {target} doğru olduğunu kabul etti.
+2061|{actor}, bir söylentiyi {target:e} sordu — yalanmış. "{fact}" Şimdi {target}, söylentiyi kimin başlattığını öğrenmek istiyor.
+2062|{actor}, bir söylentiyi {target:e} sordu. {target} inkâr etti... ama söylenti doğru.
+2063|{actor}, yalan bir söylenti yaydığı için {target:le} yüzleşti. {target} özür diledi.
+2064|{actor}, bir söylenti yüzünden {target:le} yüzleşti. {target} her şeyi inkâr etti.
+2065|{actor}, yalan bir söylenti yüzünden {target:le} yüzleşti. İş bağırış çağırışa döndü.
+2066|{avenger}, {victim:den} intikam almak istedi. {accomplice} onu yatıştırdı.
+2067|{victim} şakayı buldu ve hemen anladı: {avenger}.
+2068|{victim} şakayı buldu — ve {suspect:i} suçladı. (Yapan {avenger}.)
+2069|{avenger}, {victim:den} intikam planlıyor — ve {accomplice} da işin içinde.
+2070|{avenger}, {victim:in} boş masasına gizlice gidip bir şaka hazırladı.
+2071|{victim}, şaka yüzünden {avenger:le} yüzleşti. {avenger} özür diledi — şimdilik ateşkes.
+2072|{victim}, şaka yüzünden {avenger:le} yüzleşti. {avenger} böbürlendi. Artık savaş var.
+2073|{enemy} söylentiyi duydu ve {gossip} hakkında başka bir söylentiyle karşılık verdi. Söylenti savaşı başladı.
+2074|{gossip} ilk kurşunu sıktı: {enemy} hakkında utanç verici bir söylenti.
+2075|{mediator}, {gossip} ile {enemy:i} mutfakta oturttu. Söylenti savaşı ateşkesle bitti.
+2076|{mediator}, {gossip} ile {enemy} arasındaki söylenti savaşını bitirmeye çalıştı. Daha da kötüleşti.
+2077|{mark}, {partner:le} yüzleşti; {partner} anında {schemer:i} sattı. İttifak öldü.
+2078|{beloved}, gizli notları {suspect:e} sordu. O değilmiş. Gizem sürüyor.
+2079|{beloved}, {suspect:e} gizli hayran olup olmadığını sordu. {suspect} evet dedi. Değil.
+2080|{schemer} ve {partner:in} {mark} hakkında gerçek bir kozu yoktu, o yüzden uydurdular.
+2081|Biri {beloved:in} masasına isimsiz bir hayranlık notu bırakmış.
+2082|{mark}, {partner:le} yüzleşti. {partner}, {schemer:e} sadık kaldı ve her şeyi inkâr etti.
+2083|{admirer}, gizli hayranın kendisi olduğunu açıkladı. {beloved} kibarca hayır dedi.
+2084|{schemer} ve {partner}, arşivde {mark:e} karşı gizli bir pakt yaptı.
+2085|{schemer}, {mark:e} karşı bir pakt önerdi. {partner} reddetti — ve {mark:i} uyarmayı düşünüyor.
+2086|{schemer}, {mark} hakkındaki kozlarla Ahmet'e gitti. Ahmet dinledi.
+2087|{informant}, {mark:i} uyardı: {schemer} ve {partner} ona karşı çalışıyor.
+2088|Arşivde {partner}, {schemer:e} {mark} hakkında bir koz verdi: "{dirt}"
+2089|{partner}, {mark:i} uyardı: {schemer} ona karşı entrika çeviriyor.
+2090|{admirer}, gizli hayranın kendisi olduğunu açıkladı. {beloved} da tam bunu umuyordu. Yeni bir çift!
+2091|{actor} kahvesinden kocaman bir yudum aldı — şeker kavanozu tuzla doluymuş.
+2092|Gizli hediye çekilişi rakipler {actor} ile {target:i} eşleştirdi. {actor:in} hediyesi... bir mesajdı. Savaş.
+2093|Gizli hediye çekilişi rakipler {actor} ile {target:i} eşleştirdi. {actor:in} hediyesi gerçekten düşünceliydi. Buzlar eriyor!
+2094|{actor} bir şaka yaptı. {target} bunu şaka olarak almadı.
+2095|Öneri kutusu 'Kovun {target:i}' yazan notlarla doluydu. Ahmet okudu — {target} da.
+2096|Öneri kutusu 'Terfi ettirin {target:i}' yazan notlarla doluydu. Ahmet hepsini okudu.
+2097|Ahmet, {target:i} azarladı.
+2098|Toplantı isim kartları {a:i} tam {b:in} yanına koydu. Ahmet ikisine de çıkışana kadar atıştılar.
+2099|Toplantı isim kartları {a:i} {b:in} yanına koydu. Bol bol utangaç gülümseme.
+2100|Toplantı isim kartları {a:i} {b:in} yanına oturttu. Ateşkes ilan ettiler. Küçük bir mucize.
+2101|Mert ve Ceren gizlice çıkıyor!
+2102|{spotter}, {actor} ile {target:in} gizlice çok yakın olduğunu fark etti.
+2103|{target}, Ahmet'in takviminde özel bir toplantı fark etti: 'İK değerlendirmesi — {subject}'.
+2104|{actor} herkesin önünde bir sırrı ağzından kaçırdı: "{fact}" {subject} da duydu.
+2105|{actor}, {target:in} mesajını 'görüp cevap vermediğinden' emin. {target} mesajı hiç görmedi. Arkadaşlık yara aldı.
+2106|{actor}, {target:in} mesajını görmezden geldiğini sandı. {target} mesajı hiç görmemişti bile. Arayı düzelttiler.
+2107|{seller:in} baklava işi büyüyor. {runner} artık 'lojistik müdürü'.
+2108|Ahmet, {seller:in} baklava işini yakaladı — ve en büyük müşterisi oldu.
+2109|{seller}, masa çekmecesinden gizlice ev yapımı baklava satıyor. İşler tıkırında.
+2110|Ahmet, {seller:in} baklava işini yakaladı ve kapattı. Ofis yasta.
+2111|{actor}, yardımı için {target:in} de hakkının verilmesini sağladı.
+2112|Ahmet {target:i} azarlarken {friend} araya girip suçun bir kısmını üstlendi.
+2113|{target} terfi kısa listesiyle böbürlendi — Ahmet duydu: öyle bir liste yok. Ah.
+2114|{target}, en üstte kendi adının olduğu bir terfi kısa listesi gördü. Ayakları yerden kesildi.
+2115|{victim}, bir şey kanıtlamak yerine {thief:den} hesap sormaya karar verdi.
+2116|{victim}, çalınan fikri Ahmet'e götürdü. Ahmet duymak istemedi. {victim} ile {thief} artık konuşmuyor.
+2117|{confidant}, {victim:e} dosya kayıtlarına bakması için Burak'a başvurmasını önerdi.
+2118|{confidant}, {victim:e} paranoyak olduğunu söyledi. {victim:in} elinde hiçbir şey kalmadı.
+2119|{confidant}, {victim:in} şüphesini doğruladı: fikri {thief} kopyaladı.
+2120|Burak, {victim} için dosya kayıtlarına baktı: teklif {thief:in} bilgisayarından kopyalanmış.
+2121|{victim}, fikrini {thief:in} çaldığını Ahmet'e kanıtladı. {thief:in} itibarı yerle bir oldu.
+2122|{victim}, bu kavgaya değmeyeceğine karar verdi. Şimdilik.
+2123|Burak, {victim} için kayıtlara bakmayı reddetti. Kanıt yok.
+2124|{thief}, {victim:in} müşteri fikrini Ahmet'e sundu — kendi fikriymiş gibi.
+2125|Ahmet herkesin önünde {thief:in} "yeni fikrini" övdü. {victim} duymak için orada değildi.
+2126|Ahmet herkesin önünde {thief:in} "yeni fikrini" övdü. {victim} fikri hemen tanıdı.
+2127|{victim}, fikrini {thief:in} çaldığından içten içe emin — ama kanıtı yok. Henüz.
+2128|{owner:in} e-posta imzasında artık 'Küvetimden gönderildi' yazıyor. Bütün ofis gördü.
+2129|{owner:in} e-posta imzasında artık 'Geleceğin CEO'su' yazıyor. Ahmet ve Deniz fark etti.
+2130|{owner:in} e-posta imzasında artık 'Ahmet'in favori çalışanı' yazıyor. Her yerde göz devirmeler.
+2131|Ahmet, {target:in} sözleşmesini geri çevirdi: imza sayfası {other:in} sayfasıydı. {target} sabotaj kokusu alıyor.
+2132|{actor} sunumunu açtı ve {owner2:in} slaytlarını buldu. Herkesin önünde donup kaldı.
+2133|{actor:in} sunum dosyasında {owner2:in} slaytları vardı. {actor} her şeyi doğaçlama anlattı. Ahmet etkilendi.
+2134|{actor}, dosyasında {owner2:in} slaytlarını buldu — ve onları kendi slaytlarıymış gibi sundu. {owner2} fark etti.

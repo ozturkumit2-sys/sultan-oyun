@@ -1,0 +1,111 @@
+2024|log.reference_use|{target} found a glowing reference letter from Ahmet — and started applying for other jobs with it.
+2025|log.refuses_rumor|{actor} heard a rumour about their friend {subject} — and flatly refused to believe it.
+2026|log.remind_flowers_awk|A mystery phone reminder told {owner} to buy {crush} flowers. It was... awkward.
+2027|log.remind_flowers_love|A mystery phone reminder told {owner} to buy {crush} flowers. {owner} did. {crush} loved it.
+2028|log.remind_gym|{owner}'s phone told them they had the gym at 16:30. They left early.
+2029|log.remind_raise|A phone reminder told {owner} to ask for a raise today. So {owner} marched into Ahmet's office.
+2030|log.reply_all|{actor} accidentally hit Reply All. The whole office got a cat video.
+2031|log.reply_all_boss|{actor}'s Reply All disaster reached Ahmet. He was NOT amused.
+2032|log.resdraft|{actor} spotted a resignation letter draft on {owner}'s desk.
+2033|log.reserved|A sign on the kitchen door says it's reserved for Ahmet's 'private lunch'. Everyone's eating at their desks, grumbling.
+2034|log.revenge_rumor|{actor} is getting back at {victim} by feeding {target} a lie about them.
+2035|log.review_bad|{actor} was dragged into a surprise performance review. It went badly.
+2036|log.review_good|{actor} was dragged into a surprise performance review. It went brilliantly.
+2037|log.ringtone|{joker}'s ringtone went off in the meeting. Everyone heard it.
+2038|log.rom_breakup|{lover} and {crush} called it off. The kitchen will never be the same.
+2039|log.rom_caught|{spotter} walked in on {lover} and {crush}'s cosy kitchen moment. The secret is out — sort of.
+2040|log.rom_date|{lover} and {crush} had their secret coffee date in the kitchen. They're definitely a thing now.
+2041|log.rom_friendzone|{lover} asked {crush} out for coffee. Friend-zoned.
+2042|log.rom_gossip|{actor} is telling {target} all about {lover} and {crush}.
+2043|log.rom_public|{lover} and {crush} stopped hiding it: they're officially together. The office cheered.
+2044|log.rom_secret|{lover} and {crush} decided to keep their relationship a secret. Good luck with that.
+2045|log.rom_spark|{lover} asked {crush} out for a quiet coffee. {crush} said yes!
+2046|log.rom_unseen|{lover} and {crush} snuck another coffee together. Nobody noticed. Yet.
+2047|log.room_double|{actor} and {target} both booked the meeting room. Neither will leave.
+2048|log.room_moved|The board said the meeting was in the {what} today. Everyone — including Ahmet — trooped over there.
+2049|log.room_share|{actor} and {target} double-booked the meeting room and agreed to share it.
+2050|log.rs_accepted|{quitter} handed Ahmet a resignation letter. He accepted it. {quitter} did not see that coming.
+2051|log.rs_after|{quitter} quietly asked Ahmet for their resignation letter back. Everyone pretended not to notice.
+2052|log.rs_counter|{quitter} handed Ahmet a resignation letter. Ahmet asked them to stay — and listened.
+2053|log.rs_firm|{friend} begged {quitter} to stay. {quitter} is heading to Ahmet's office, letter in hand.
+2054|log.rs_persuaded|{friend} talked {quitter} out of resigning. The letter went in a drawer.
+2055|log.rs_print|{quitter} printed a resignation letter.
+2056|log.rs_print_broken|{quitter} tried to print a resignation letter. The printer was broken.
+2057|log.rs_print_seen|{quitter} printed a resignation letter — and {spotter} saw it come out of the printer.
+2058|log.rs_torn|{quitter} handed Ahmet a resignation letter. Ahmet tore it in half. {quitter} is... staying?
+2059|log.rs_vent|{quitter} told {friend} in the kitchen: "I'm writing my resignation letter. Today."
+2060|log.rumor_confirmed|{actor} asked {target} straight out about a rumour. {target} admitted it was true.
+2061|log.rumor_debunked|{actor} asked {target} about a rumour — it was false. "{fact}" Now {target} wants to know who started it.
+2062|log.rumor_lied|{actor} asked {target} about a rumour. {target} denied it... but it's true.
+2063|log.rumor_source_apology|{actor} confronted {target} for spreading a false rumour. {target} apologised.
+2064|log.rumor_source_deny|{actor} confronted {target} about a rumour. {target} denied everything.
+2065|log.rumor_source_fight|{actor} confronted {target} about a false rumour. It turned into a shouting match.
+2066|log.rv_calmed|{avenger} wanted revenge on {victim}. {accomplice} talked them down.
+2067|log.rv_found_right|{victim} found the prank and knew instantly: it was {avenger}.
+2068|log.rv_found_wrong|{victim} found the prank — and blamed {suspect}. ({avenger} did it.)
+2069|log.rv_plot|{avenger} is plotting revenge against {victim} — and {accomplice} is in on it.
+2070|log.rv_prank|{avenger} sneaked over to {victim}'s empty desk and set up a prank.
+2071|log.rv_truce|{victim} confronted {avenger} about the prank. {avenger} apologised — a truce, for now.
+2072|log.rv_war|{victim} confronted {avenger} about the prank. {avenger} gloated. It's war now.
+2073|log.rw_back|{enemy} heard the rumour and hit back with one about {gossip}. The rumour war is on.
+2074|log.rw_first|{gossip} fired the first shot: an embarrassing rumour about {enemy}.
+2075|log.rw_truce|{mediator} sat {gossip} and {enemy} down in the kitchen. The rumour war ended in a truce.
+2076|log.rw_war|{mediator} tried to end the rumour war between {gossip} and {enemy}. It only got worse.
+2077|log.sa_betrayed|{mark} confronted {partner}, who immediately sold out {schemer}. The alliance is dead.
+2078|log.sa_guess_no|{beloved} asked {suspect} about the secret notes. Not them. The mystery continues.
+2079|log.sa_guess_wrong|{beloved} asked {suspect} if they were the secret admirer. {suspect} said yes. They are not.
+2080|log.sa_invent|{schemer} and {partner} had no real dirt on {mark}, so they made some up.
+2081|log.sa_leave|Someone left an anonymous admiring note on {beloved}'s desk.
+2082|log.sa_loyal|{mark} confronted {partner}. {partner} stayed loyal to {schemer} and denied everything.
+2083|log.sa_no|{admirer} revealed they were the secret admirer. {beloved} gently said no.
+2084|log.sa_pact|{schemer} and {partner} made a secret pact against {mark} in the archive.
+2085|log.sa_refused|{schemer} proposed a pact against {mark}. {partner} refused — and is thinking about warning {mark}.
+2086|log.sa_strike|{schemer} went to Ahmet with the dirt on {mark}. Ahmet listened.
+2087|log.sa_tip|{informant} tipped off {mark}: {schemer} and {partner} have been working against them.
+2088|log.sa_trade|In the archive, {partner} handed {schemer} dirt on {mark}: "{dirt}"
+2089|log.sa_warned|{partner} warned {mark}: {schemer} is plotting against them.
+2090|log.sa_yes|{admirer} revealed they were the secret admirer. {beloved} was hoping it was them. A new couple!
+2091|log.salt|{actor} took a big sip of coffee — the sugar jar was full of salt.
+2092|log.santa_mean|The secret gift draw paired rivals {actor} and {target}. {actor}'s gift was... a statement. War.
+2093|log.santa_nice|The secret gift draw paired rivals {actor} and {target}. {actor}'s gift was genuinely thoughtful. A thaw!
+2094|log.sarcasm_hurt|{actor} made a joke. {target} didn't take it as one.
+2095|log.sbox_fire|The suggestion box was stuffed with notes: 'Fire {target}'. Ahmet read them — and so did {target}.
+2096|log.sbox_promote|The suggestion box was stuffed with notes: 'Promote {target}'. Ahmet read them all.
+2097|log.scolded|Ahmet scolded {target}.
+2098|log.seats_fight|The meeting name cards put {a} right next to {b}. They bickered until Ahmet snapped at both of them.
+2099|log.seats_sweet|The meeting name cards put {a} next to {b}. Lots of shy smiling.
+2100|log.seats_truce|The meeting name cards seated {a} beside {b}. They called a truce. A small miracle.
+2101|log.secret_couple|Mert and Ceren are secretly dating!
+2102|log.secret_friends|{spotter} noticed {actor} and {target} are secretly close.
+2103|log.secret_mtg|{target} noticed a private meeting in Ahmet's calendar: 'HR review — {subject}'.
+2104|log.secret_slip|{actor} let a secret slip in front of everyone: "{fact}" {subject} heard it.
+2105|log.seen_hurt|{actor} is sure {target} 'left them on read'. {target} never saw the message. The friendship took a hit.
+2106|log.seen_ok|{actor} thought {target} had ignored their message. {target} had never even seen it. They patched it up.
+2107|log.sh_boom|{seller}'s baklava business is expanding. {runner} is now 'head of logistics'.
+2108|log.sh_boss_buys|Ahmet caught {seller}'s baklava business — and became its biggest customer.
+2109|log.sh_open|{seller} is secretly selling homemade baklava from their desk drawer. Business is booming.
+2110|log.sh_shut|Ahmet caught {seller}'s baklava business and shut it down. The office mourns.
+2111|log.share_credit|{actor} made sure {target} got credit for helping.
+2112|log.shield|{friend} stepped in to take part of the blame when Ahmet scolded {target}.
+2113|log.shortlist_burst|{target} bragged about the promotion shortlist — Ahmet overheard: there is no shortlist. Ouch.
+2114|log.shortlist_joy|{target} saw a promotion shortlist with their own name on top. They're over the moon.
+2115|log.si_brood|{victim} has decided to get even with {thief} instead of proving anything.
+2116|log.si_buried|{victim} took the stolen idea to Ahmet. He didn't want to hear it. {victim} and {thief} aren't speaking.
+2117|log.si_conf_burak|{confidant} suggested {victim} ask Burak to check the file logs.
+2118|log.si_conf_dismiss|{confidant} told {victim} they were being paranoid. {victim} is left with nothing.
+2119|log.si_conf_knows|{confidant} confirmed {victim}'s suspicion: {thief} copied the idea.
+2120|log.si_evidence|Burak checked the file logs for {victim}: the proposal was copied from {thief}'s computer.
+2121|log.si_exposed|{victim} proved to Ahmet that {thief} stole their idea. {thief}'s reputation just collapsed.
+2122|log.si_let_go|{victim} decided it wasn't worth the fight. For now.
+2123|log.si_no_evidence|Burak refused to check the logs for {victim}. No proof.
+2124|log.si_pitch|{thief} pitched {victim}'s client idea to Ahmet — as their own.
+2125|log.si_praise_away|Ahmet praised {thief}'s "new idea" in front of everyone. {victim} wasn't there to hear it.
+2126|log.si_praise_heard|Ahmet praised {thief}'s "new idea" in front of everyone. {victim} recognised it immediately.
+2127|log.si_suspicion|{victim} is quietly sure {thief} stole their idea — but has no proof. Yet.
+2128|log.sig_bath|{owner}'s email signature now reads 'Sent from my bathtub'. The whole office has seen it.
+2129|log.sig_ceo|{owner}'s email signature now reads 'Future CEO'. Ahmet and Deniz noticed.
+2130|log.sig_fav|{owner}'s email signature now reads 'Ahmet's favourite employee'. Eye-rolls everywhere.
+2131|log.sigpage|Ahmet bounced {target}'s contract: the signature page was {other}'s. {target} smells sabotage.
+2132|log.slides_freeze|{actor} opened their presentation and found {owner2}'s slides. They froze in front of everyone.
+2133|log.slides_improv|{actor}'s presentation file had {owner2}'s slides in it. {actor} improvised the whole thing. Ahmet was impressed.
+2134|log.slides_steal|{actor} found {owner2}'s slides in their file — and presented them as their own. {owner2} noticed.

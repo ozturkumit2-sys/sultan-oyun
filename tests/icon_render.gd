@@ -27,8 +27,11 @@ func _draw():
 	draw_set_transform(c + Vector2(-18, -40) * k, deg_to_rad(-8), Vector2(k, k))
 	UiKit.draw_note(self, Rect2(-118, -96, 236, 196), UiKit.sticky("yellow"))
 	UiKit.draw_tape(self, Vector2(0, -96), Vector2(90, 26), 0.08)
-	draw_string(UiKit.font("marker"), Vector2(-118, -26), "OFFICE", HORIZONTAL_ALIGNMENT_CENTER, 236, 52, UiKit.INK)
-	draw_string(UiKit.font("marker"), Vector2(-118, 40), "CHAOS!", HORIZONTAL_ALIGNMENT_CENTER, 236, 56, UiKit.RED)
+	var mk := UiKit.font("marker")
+	draw_string(mk, Vector2(-118, -38), "OFFICE", HORIZONTAL_ALIGNMENT_CENTER, 236, 40, UiKit.INK)
+	var fs := UiKit.fit_size(mk, "POLTER-", 212, 54, 0.5)
+	draw_string(mk, Vector2(-118, 14), "POLTER-", HORIZONTAL_ALIGNMENT_CENTER, 236, fs, UiKit.RED)
+	draw_string(mk, Vector2(-118, 14 + fs * 1.0), "GEIST", HORIZONTAL_ALIGNMENT_CENTER, 236, fs, UiKit.RED)
 	# ghost
 	draw_set_transform(c + Vector2(92, 92) * k, deg_to_rad(10), Vector2(k, k))
 	Icons.draw(self, "ghost", Vector2.ZERO, 150, UiKit.INK)

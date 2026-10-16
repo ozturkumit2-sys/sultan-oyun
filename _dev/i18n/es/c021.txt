@@ -1,0 +1,200 @@
+4025|Ahmet Bey, necesitamos saberlo. ¿Va a haber despidos?
+4026|¿Es verdad que van a despedir a alguien antes del viernes?
+4027|Toda la oficina está en pánico. ¿Nos van a echar?
+4028|¿DESPIDOS? ¿Quién ha hablado de despidos?
+4029|¿Pero de qué me están hablando?
+4030|¿Despedir? ¡No se despide a nadie! ¿Quién empezó esto?
+4031|TODOS. NO hay despidos. Cancelé la SUSCRIPCIÓN DEL CAFÉ.
+4032|¡Escuchen! ¡No se despide a nadie! ¡Hablaba del contrato de la cafetera!
+4033|Que conste: lo único que se va de esta oficina es el café caro.
+4034|Ay, gracias a Dios.
+4035|¿¡El CAFÉ!?
+4036|¿Lloré en el baño para nada?
+4037|…Espera, ¿se acabó el café bueno?
+4038|Los dos tenemos un problema llamado {mark}. Resolvámoslo juntos.
+4039|Tú te enteras de cosas. Yo sé cómo usarlas. ¿Socios?
+4040|{mark} nos estorba. Ayúdame y serás {to?el primero|la primera} de la lista cuando yo sea {me?jefe|jefa} de equipo.
+4041|…Me apunto. Que nadie se entere.
+4042|Trato hecho. Esta conversación nunca existió.
+4043|¿Y yo qué gano? …Vale. Trato hecho.
+4044|No. Búscate a otro para tu trabajo sucio.
+4045|Ni hablar. Y cuidadito.
+4046|Yo no soy ese tipo de persona.
+4047|Cuidado con {schemer}. Me pidió ayuda para hundirte.
+4048|Te lo digo solo porque no está bien: {schemer} está conspirando contra ti.
+4049|…Lo sabía. Gracias.
+4050|Claro que sí. Gracias por decírmelo.
+4051|Te debo una.
+4052|¿Qué tienes sobre {mark}?
+4053|¿Algo útil? ¿Lo que sea?
+4054|Ay, sí que tengo algo. {dirt}
+4055|Esto queda entre nosotros: {dirt}
+4056|Nada real. Pero la gente se cree lo que oye muchas veces…
+4057|Nada. Así que nos lo inventaremos. Que si no da golpe, que si se escaquea temprano. Fácil.
+4058|Ahmet Bey, no me gusta decir esto, pero debería saberlo: {dirt}
+4059|Me preocupa {mark}. ¿Sabía que {dirt}
+4060|…¿Ah, sí? Interesante.
+4061|Lo tendré en cuenta.
+4062|Mm. Eso cambia las cosas.
+4063|Vi a {schemer} y a {partner} cuchicheando en el archivo. Luego {schemer} fue directo a hablarle a Ahmet de ti.
+4064|Aviso: {schemer} ha estado hablando con Ahmet sobre ti. Y {partner} está metid{partner?o|a}.
+4065|¿¡{partner}!? ¡Confiaba en {partner?él|ella}!
+4066|Claro. CLARO.
+4067|…Gracias por decírmelo.
+4068|¿Tú y {schemer}? ¿En serio? ¿Después de todo?
+4069|Sé lo del archivo. Sé lo de Ahmet. Explícate.
+4070|¿Cuánto te prometió {schemer}?
+4071|¡Todo fue idea de {schemer}! ¡Yo solo… escuché!
+4072|Me retiro. Nunca quise esto. Habla con {schemer}.
+4073|No sé de qué me hablas.
+4074|Te lo estás imaginando.
+4075|Demuéstralo.
+4076|Espera… ¡hoy es el cumpleaños de {bday}! ¿¡Nadie ha planeado nada!?
+4077|Cumpleaños de {bday}. Pastel. Tarjeta. Sorpresa. Vamos, vamos, vamos.
+4078|Operación Cumpleaños en marcha. Objetivo: {bday}.
+4079|¡ES EL CUMPLEAÑOS DE {bday}! Vale, silencio, silencio. Misión secreta.
+4080|Psst. ¿Pones algo para el pastel de {bday}? Y firma esta tarjeta. ¡Que no lo vea!
+4081|Cinco liras para la sorpresa de {bday}. ¡Es secreto!
+4082|¡Uy, sí! Toma.
+4083|Cuenta conmigo. ¿Dónde firmo?
+4084|¿Una sorpresa? Me encanta.
+4085|¿UNA SORPRESA? ¿Para {bday}? Ay, se me dan fatal los secretos…
+4086|¡Ja! No diré nada. Probablemente.
+4087|Pastel en la nevera. Detrás de los yogures. Perfecto.
+4088|Escondido. Nadie mira detrás de los pepinillos.
+4089|Uy, ¿este pastel es para alguien?
+4090|¿Esto es… un pastel entero? ¿Puedo…?
+4091|¿Este pastel es para alguien? Pregunto por mí.
+4092|NO. LO. TOQUES.
+4093|¡Eso es para {bday}! ¡Las manos quietas!
+4094|Suelta. El tenedor. Ya.
+4095|¡¡¡SORPRESA!!!
+4096|¡FELIZ CUMPLEAÑOS!
+4097|🎂 ¡SORPREEESA!
+4098|¡Chicos! ¡Dios mío! ¡Creía que todos se habían olvidado!
+4099|NO PUEDE SER. ¿¡Para mí!?
+4100|No estoy llorando. Tú estás llorando.
+4101|…Hmpf. Bueno. Gracias. A todos.
+4102|…Odio las sorpresas. …Gracias.
+4103|Vaya. Esto es… inesperadamente bonito.
+4104|¡Ja! ¡Lo sabía! ¡Alguien no sabe guardar un secreto!
+4105|Vi el pastel esta mañana. ¡Pero me emociona IGUAL!
+4106|♪ Cumpleaños feliz ♪
+4107|¡Que hable! ¡Que hable!
+4108|¡Pide un deseo!
+4109|¡Pastel! ¡PASTEL!
+4110|Espera. ¿¡Dónde está {bday}!?
+4111|Se nos olvidó traer a quien cumple años.
+4112|…¿Alguien le dijo a {bday} que viniera?
+4113|¿QUÉ? ¿Las cifras estaban MAL? …Le llamo luego.
+4114|…¿El cliente dice QUÉ? ¿Nuestros números tenían un CERO de más?
+4115|Entiendo. No volverá a pasar.
+4116|Alguien le mandó al cliente cifras EQUIVOCADAS. Quiero un nombre. YA.
+4117|¿¡Quién preparó las cifras del cliente!? ¡Que dé un paso al frente!
+4118|Voy a averiguar quién fue. Mejor que me lo digan antes.
+4119|Si alguien pregunta, esas cifras las mandó {scapegoat}.
+4120|Yo no. Yo seguro que no. {scapegoat}, quizá.
+4121|Por favor, no me mires. Por favor, no me mires.
+4122|A lo mejor se olvida…
+4123|*se esconde detrás del monitor*
+4124|Ahmet Bey… fui yo. Mezclé las columnas.
+4125|Las cifras eran mías. Lo siento. Llamaré yo al cliente.
+4126|Fue error mío.
+4127|…Gracias por decírmelo. Arréglalo. Hoy.
+4128|Al menos eres sincer{to?o|a}. Llámalos.
+4129|Mm. Los errores pasan. Que no pase dos veces.
+4130|¿¡Un CERO!? ¿¡Sabes lo mal que nos deja eso!?
+4131|¡Inaceptable! ¡Completamente inaceptable!
+4132|{scapegoat}. Las cifras del cliente. Explícate.
+4133|Me han dicho que fuiste TÚ quien mandó esas cifras.
+4134|Mi despacho tiene una pregunta para ti, {scapegoat}: ¿por qué?
+4135|Mire el historial del archivo. No abro esa hoja de cálculo desde hace semanas.
+4136|No fui yo. Mire las marcas de tiempo.
+4137|Pregúntele a {culprit} quién la editó por última vez.
+4138|…No fui yo. Pero vale.
+4139|No sé qué decir.
+4140|…Vale.
+4141|Según el historial, fuiste TÚ quien editó esa hoja. No {scapegoat}.
+4142|Vaya. Las marcas de tiempo. Qué cosas tienen las marcas de tiempo.
+4143|¿Dejaste que {scapegoat} cargara con la culpa?
+4144|Yo… puedo explicarlo.
+4145|¡Fue un error sin mala intención!
+4146|…Sí. Fui yo.
+4147|Ay, no. Puse los totales equivocados en el informe de {mentor}. ¡Y ya está en el escritorio de Ahmet!
+4148|Mezclé dos columnas en el informe de {mentor}. Lo tiene Ahmet. Estoy muert{me?o|a}.
+4149|Ahmet Bey, hay un error en mi informe. Culpa mía. La versión corregida en diez minutos.
+4150|Me equivoqué en los totales. Ya está arreglado. No volverá a pasar.
+4151|Mm. No es propio de ti. Arréglalo.
+4152|Bien. Diez minutos.
+4153|Descuidad{to?o|a}. Esperaba más de ti.
+4154|¿Errores en MIS informes? ¿Otra vez?
+4155|Qué curioso, Ahmet Bey: me dijeron que el error del informe era de la becaria. Alguien la está cubriendo. No muy transparente, ¿verdad?
+4156|Sabe que {mentor} está encubriendo a {protege}, ¿no? Pensé que debía saberlo.
+4157|…¿Encubriendo? ¿En MI oficina?
+4158|¿Ah, sí?
+4159|Lo investigaré.
+4160|Me da igual de quién fuera la errata. A trabajar.
+4161|Los chismes de oficina no son una evaluación de desempeño, Deniz.
+4162|Ahmet Bey: el error fue mío. {mentor} me estaba protegiendo. Por favor, no {mentor?lo|la} culpe.
+4163|Fui yo. No {mentor}. Lo siento.
+4164|…Mm. Lealtad Y sinceridad. Los dos, a trabajar.
+4165|Bien. Eso lo respeto. Que no vuelva a pasar.
+4166|Gracias. Por cubrirme. No tenías por qué.
+4167|¿Por qué hiciste eso por mí?
+4168|Te debo una. Y gorda.
+4169|Aquí hacemos eso. La próxima vez, revisa los totales dos veces.
+4170|Todo el mundo mete la pata una vez. Solo que no dos.
+4171|Tú harías lo mismo por mí.
+4172|Ahmet Bey, me gustaría hablar del puesto de jefe de equipo.
+4173|Creo que me he ganado una oportunidad como {me?jefe|jefa} de equipo. Me gustaría saber dónde estoy.
+4174|¿Qué haría falta para que me ascendieran?
+4175|Demuéstralo. Consigue la cuenta de Kaya con tu propuesta. Para mañana.
+4176|Los resultados hablan. Tráeme una propuesta que gane a Kaya.
+4177|Demuéstramelo. Luego hablamos.
+4178|No es el momento.
+4179|Cuando haya un puesto, te avisaré.
+4180|Paciencia. Todo el mundo quiere un ascenso.
+4181|Eres {to?el siguiente|la siguiente} en la fila. No digas que te lo dije.
+4182|Sigue así. Pronto será tuyo.
+4183|¿Almorzar? No. Propuesta.
+4184|Diapositiva doce. Diapositiva TRECE.
+4185|Si termino esto, soy {me?jefe|jefa} de equipo. CONCÉNTRATE.
+4186|Sería una pena que estas diapositivas se… desordenaran.
+4187|Uy. ¿Esta es la versión final? Lo era.
+4188|No es nada personal.
+4189|…y por eso Kaya va a firmar con nosotros. ¿Preguntas?
+4190|Aquí está la propuesta. Tres diapositivas. Sin relleno.
+4191|Me gustaría presentarle la propuesta para Kaya.
+4192|…Esto es excelente. De verdad, excelente.
+4193|ESTO es trabajo de un jefe de equipo.
+4194|Estoy impresionado.
+4195|Las cifras son un desastre. ¿Qué pasó?
+4196|Esto no está listo.
+4197|Esperaba más.
+4198|¡Alguien tocó mi escritorio! ¡Mis notas estaban por todas partes!
+4199|Yo… ¡esta mañana estaba listo!
+4200|Sobre lo de ayer…
+4201|He estado pensando en el puesto de jefe de equipo.
+4202|Cuando se abra el puesto, es tuyo.
+4203|Te lo has ganado. Pronto será oficial.
+4204|Todavía no. Sigue trabajando.
+4205|Estás cerca. Pero aún no.
+4206|Me voy a vengar de {victim}. Y tú me vas a ayudar.
+4207|{victim} se lo ha buscado. Tengo un plan.
+4208|La venganza es un plato que se sirve… antes del viernes.
+4209|…Vale, te escucho. ¿Cuál es el plan?
+4210|¡Ja! Cuenta conmigo.
+4211|Vale. Pero nada que haga que nos despidan.
+4212|Déjalo. No vale la pena.
+4213|¿Venganza? ¿En serio? Mejor habla con esa persona.
+4214|Te vas a arrepentir. No lo hagas.
+4215|…A lo mejor tienes razón.
+4216|Uf. Vale. Eres demasiado sensat{to?o|a}.
+4217|Cambiando de sitio las teclas del teclado. Todas. Y cada una.
+4218|Sal en el azucarero. En el suyo.
+4219|Cambiando el fondo de pantalla por… esto.
+4220|Pegando una foto de Ahmet dentro del cajón. Que la disfrute.
+4221|¿¡QUIÉN me cambió las teclas!?
+4222|Mi azúcar es SAL. ¿¡Quién hizo esto!?
+4223|¿¡Por qué está la cara de Ahmet en mi cajón!?
+4224|Mi fondo de pantalla es una llama. ¿POR QUÉ?

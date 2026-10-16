@@ -1,0 +1,186 @@
+5280|Hola, teléfono de {owner}... digo, MI teléfono... ¿Hola?
+5281|Sí, habla— no, no soy {owner}. ¡Pero puedo ayudarle!
+5282|Atendí la llamada de un cliente por ti. Aquí tienes el mensaje.
+5283|Tu cliente me llamó por error. Te lo resolví.
+5284|¿En serio? ¡Gracias!
+5285|Eso es... muy amable de tu parte.
+5286|¿Un cliente buscando a {owner}? ...Me encargaré yo en persona.
+5287|Mmm. El cliente de {owner}. Ahora es mi cliente.
+5288|La oportunidad llama a la puerta. Literalmente.
+5289|¡¿Mi cliente dice que ha estado tratando con {target}?!
+5290|¡¿{target} se quedó con mi cliente?!
+5291|Vaya, apareció una vista previa: «{owner}: hoy no soporto a {worst}»...
+5292|¿Por qué me llegan las notificaciones de {owner}? «...{worst} es TAN {worst?pesado|pesada}.»
+5293|...¿{owner} no me soporta?
+5294|Ah. Así que eso es lo que {owner} dice de mí.
+5295|Mi teléfono. ¿Dónde está mi teléfono? Estaba JUSTO AQUÍ.
+5296|¡¿Alguien ha visto mi teléfono?!
+5297|...Está en la NEVERA. Al lado de la leche. Está HELADO.
+5298|Mi teléfono está en la nevera. ¡¿Por qué está mi teléfono en la nevera?!
+5299|¿«Recordatorio: comprar flores para {crush}»? ¿Eso lo puse yo?
+5300|Mi teléfono dice que debería comprarle flores a {crush}. ...¿Debería?
+5301|«Gimnasio — 16:30 — NO FALTES». Vale, teléfono. Vale.
+5302|Recordatorio del gimnasio. ¡Parece que salgo temprano!
+5303|«HOY: pedirle un aumento a Ahmet.» ...¿Sabes qué? Sí.
+5304|El teléfono dice: pide un aumento. El teléfono tiene razón.
+5305|Son para ti. No preguntes por qué. Ni yo lo sé.
+5306|Te traje flores. Me lo dijo mi teléfono. Suena raro.
+5307|¿Para mí? ...Qué detalle tan lindo.
+5308|¡Flores! Nadie nunca me había— gracias.
+5309|...¿Gracias? ¿Es una broma?
+5310|Ah. Eh. Flores. Vale.
+5311|Ahmet Bey, quiero un aumento. Hoy.
+5312|He decidido que merezco un aumento. ¿Podemos hablar?
+5313|El cliente volvió a llamar —con una HORA de retraso— y el trato se perdió.
+5314|Firmaron con la competencia. ¡¿Porque perdí UNA llamada?!
+5315|¡¿PERDISTE al cliente, {owner}?!
+5316|Una llamada. ¿Perdiste UNA llamada y perdimos la cuenta?
+5317|¿Un mensaje de voz de {owner}? ¿Para... mí? A ver.
+5318|«Nuevo mensaje de voz de {owner}». Mmm.
+5319|...¡¿{owner} dice que le GUSTO?!
+5320|Un momento. ¿Eso fue... una declaración de amor? ¿De {owner}?
+5321|...No debería haber oído eso.
+5322|Ay, no. Eso era privado.
+5323|Hola, le devuelvo la llamada— ¡¿{target}?! ¿TÚ me llamaste?
+5324|¿Hola? Ah. Eres... tú.
+5325|Bueno, ya que estamos al teléfono... ¿cómo estás, de verdad?
+5326|Ja. Vale, ya que te tengo... ¿comemos juntos algún día?
+5327|Yo no te llamé. ¿Por qué iba a llamarte?
+5328|¿Es algún tipo de broma?
+5329|*en altavoz* «...Sí, mamá, estoy comiendo verduras.»
+5330|*en altavoz* «...y entonces les dije que nunca había visto ese archivo. ¡Ja!»
+5331|...¿Por qué me mira todo el mundo? Ay, no. ALTAVOZ.
+5332|¡¿Está en ALTAVOZ?!
+5333|¡Te he llamado CUATRO VECES, {target}!
+5334|¡¿Por qué no contestas el teléfono, {target}?!
+5335|¿Qué? ¡Nunca sonó! Mire: ¿No molestar? ¡Yo no lo activé!
+5336|¡Mi teléfono no sonó ni una vez!
+5337|Pues arregla tu teléfono. Yo no persigo a nadie.
+5338|Inaceptable. Tienes que estar localizable.
+5339|...Mmm. La tecnología. Está bien.
+5340|Que Burak le eche un vistazo.
+5341|¿Hola? ...¿Hola? ¿Quién es? ...¿Alguien está RESPIRANDO?
+5342|*respiración agitada en la línea* ...¿Pero qué demonios?
+5343|Esa llamada vino de la extensión de {owner}.
+5344|Extensión... {owner}. Interesante.
+5345|¿Hola? ...No, esto no es contabilidad. ¿Por qué todo el mundo cree que soy contabilidad?
+5346|OTRA VEZ al escritorio equivocado. ¡Ceren, los teléfonos están poseídos!
+5347|¡La centralita se volvió loca! ¡Yo no la toqué!
+5348|Todas las llamadas van al escritorio equivocado. Todas. Y cada. Una.
+5349|...Espera, esa llamada era para {intended}. Y fue MUY interesante.
+5350|Acabo de atender una llamada para {intended}. Ay, las cosas que oí.
+5351|¡¿El cliente dice que nuestra música de espera es «heavy metal a gritos»?!
+5352|Un cliente colgó por la música de espera. ¡¿Es una balada de desamor?!
+5353|¡Ceren! ¡Nuestra música de espera está espantando a los clientes!
+5354|¿QUIÉN cambió la música de espera?
+5355|¡Yo no cambié nada! ¡Lo juro!
+5356|¡Eso no es lo que yo puse! Alguien entró en mi sistema.
+5357|...¿Por qué SUENA la chaqueta de {coat} con MI tono de llamada?
+5358|¡Ese es mi teléfono! ¡En el bolsillo del abrigo de {coat}!
+5359|¡¿Por qué está mi teléfono en TU abrigo, {target}?!
+5360|Explícame cómo llegó mi teléfono a tu bolsillo, {target}.
+5361|¡No tengo ni idea! ¡No he tocado mi abrigo en todo el día!
+5362|¡¿Qué?! ¡Yo no tomé tu teléfono!
+5363|«Tenemos que hablar.» De {owner}. ...Ay, no.
+5364|¡¿«Tenemos que hablar»?! ¿Qué hice?
+5365|¿Querías hablar? Aquí estoy. Dilo ya.
+5366|Vale. Estoy {me?listo|lista}. ¿Qué pasa?
+5367|¿Hablar? ¿De qué? ¡Yo nunca envié eso!
+5368|¿Qué? ¡No te mandé ningún mensaje!
+5369|...Vale, quizás SÍ tengo que decir algo. Me gustas. Mucho.
+5370|Ya que estás aquí... hace tiempo que quiero decirte algo.
+5371|Ay, menos mal. ¡Creí que ibas a cortar conmigo!
+5372|¡Uf! ¡Llevo una hora en pánico!
+5373|*BIP BIP BIP* «¡DESPIERTA! ¡DESPIERTA!»
+5374|*alarma del teléfono: «¡HORA DE LA SIESTA!»*
+5375|¡¿Eso es una ALARMA de teléfono en mi reunión?!
+5376|¡¿De quién es el teléfono que grita «despierta»?!
+5377|Eso no— ¡yo no la puse!
+5378|¡Perdón! ¡Perdón! ¡No sé cómo apagarla!
+5379|¡¿Sin batería?! ¡Hace una hora estaba al 90 %!
+5380|Mi teléfono está MUERTO. Necesito un cargador. Ya.
+5381|¡El cargador de Burak! No le importará. Probablemente.
+5382|Le tomo prestado un minuto el cargador a Burak.
+5383|¡¿{owner?Ese|Esa} es {owner} en la noche de karaoke?! ¡Ja!
+5384|¡Esa FOTO de {owner}! ¡Ese pelo! ¡Ese conjunto!
+5385|¡¿Quién publicó a {owner} {owner?dormido|dormida} en su escritorio?!
+5386|¡¿Quién publicó eso?! ¡BÓRRENLO!
+5387|¡Esa foto tenía que haber desaparecido para siempre!
+5388|Apuesto a que la publicó {suspect}.
+5389|{suspect}. Tiene que ser {suspect}.
+5390|Mmm. Café. ...Esta taza es nueva.
+5391|Bonita taza. ¿Es mía? Ahora es mía.
+5392|Perdona: esa es MI taza.
+5393|¡¿Estás bebiendo de mi taza?!
+5394|Esa taza. Es. Mía.
+5395|Esa taza es mía. Tiene mis iniciales.
+5396|¡Ah! ¡Perdón! ¡Se mezclaron en el estante!
+5397|¿Ah, sí? ¡Todas parecen iguales!
+5398|...Así que ahora hemos compartido taza. Eso es... un paso.
+5399|¡Beso indirecto! ...Perdón. Eso fue raro.
+5400|...¿Por qué sigo {me?cansado|cansada}? Era mi tercer café.
+5401|Este café no hace efecto. ¿Está roto? ¿Estoy {me?roto|rota} yo?
+5402|*bostezo*
+5403|Zeynep, ¡¿nos cambiaste a café barato para ahorrar?!
+5404|¡Es DESCAFEINADO! ¡Alguien recortó el presupuesto del café!
+5405|¡Yo NO toqué el presupuesto del café!
+5406|No me mires a mí. Yo jamás me metería con el café.
+5407|...Mi almuerzo. En el estante de ARRIBA. Detrás de la mostaza. Acusé a la gente por NADA.
+5408|Ah. Ahí está. Estaba escondido. Ups.
+5409|¿«Calentando»? ¡¿Cuánto tiempo?!
+5410|Dice «espere, por favor». Ya estoy esperando.
+5411|¡Vamos, vamos, caliéntate!
+5412|Bueno... ya que estamos los dos aquí atrapados...
+5413|Compañeros de cola del café. ¿Qué tal tu día?
+5414|¿Te enteraste de lo que pasó ayer?
+5415|El dispensador de agua está vacío. ¿Con ESTE calor?
+5416|¿Sin agua? ¿Ni siquiera agua?
+5417|*glu glu*... nada.
+5418|¡Yo lo arreglo! ¡Una vez vi un video!
+5419|¡Déjenmelo a mí!
+5420|Ay, no. Ay, no, no, no. ¡AGUA POR TODAS PARTES!
+5421|¡Está goteando! ¡Está GOTEANDO!
+5422|¿Adónde fueron los snacks? La caja de snacks DESAPARECIÓ.
+5423|¿Sin snacks? Esto es una crisis.
+5424|Emergencia de snacks. Emergencia. De snacks.
+5425|¡El cajón de {target} está LLENO de nuestros snacks!
+5426|Así que AQUÍ fueron a parar los snacks, {target}.
+5427|...Vale, no son míos, pero ¡tomen! ¡Tómenlos todos!
+5428|¡Snacks para todos! ¡Estoy tan {me?sorprendido|sorprendida} como ustedes!
+5429|Están en MI cajón, así que... ahora son mis snacks.
+5430|El que se lo encuentra se lo queda.
+5431|...¿Eso es un pastel de cumpleaños? ¿Con MI nombre?
+5432|Un momento. Ese pastel tiene mi nombre. ¿Era... una sorpresa?
+5433|¡NO! ¡Tenía que ser una SORPRESA!
+5434|¡¿Quién sacó el pastel?! ¡Estaba escondido!
+5435|¡¿«COCINA RESERVADA — Ahmet — almuerzo privado»?!
+5436|¿No podemos comer en la cocina? ¿Desde cuándo?
+5437|¿Por qué hay un cartel con mi nombre en la cocina?
+5438|¿Almuerzo privado? ¡Me estoy comiendo un sándwich en mi escritorio!
+5439|¡El microondas murió! ¡Mi almuerzo está CONGELADO!
+5440|El microondas no. Cualquier cosa menos el microondas.
+5441|Pasta fría. Otra vez.
+5442|¿Hay otro microondas por algún lado?
+5443|Me muero de hambre y mi sopa es un cubito de hielo.
+5444|¡¿QUIÉN CALENTÓ PESCADO EN EL MICROONDAS?!
+5445|¡¿Qué es ese OLOR?!
+5446|Pescado. En el microondas. En una OFICINA.
+5447|¿Quién es el responsable de esta PESTE?
+5448|La etiqueta dice que es de {target}.
+5449|Es el almuerzo de {target}. Ahí está la etiqueta.
+5450|¡Ese no es mi almuerzo! ¡Yo traje un sándwich!
+5451|¡Si ni siquiera me GUSTA el pescado!
+5452|*PFFF* ¡SAL! ¡Hay SAL en el azúcar!
+5453|¡PUAJ! ¡¿Quién puso sal en el azucarero?!
+5454|«DEJA DE ROBARME EL YOGUR. SÉ QUIÉN ERES. — {target}» ...Vaya.
+5455|Nota pasivo-agresiva de {target} en la nevera. Qué elegancia.
+5456|¡Yo no escribí esa nota! ¡Ni siquiera como yogur!
+5457|¡Esa no es mi letra!
+5458|La nevera está VACÍA. ¡¿Dónde está el almuerzo de todos?!
+5459|Alguien vació la nevera. ¡Mi almuerzo estaba ahí!
+5460|¿Saben qué? Vamos todos a comer fuera.
+5461|¿Almuerzo fuera, todos juntos? Invito yo... más o menos.
+5462|Puedo oír los colores.
+5463|GUAU. Eso... eso sí es café. GUAU.
+5464|Mi corazón está haciendo un solo de batería.
+5465|Podría cerrar diez tratos ahora mismo. DIEZ.

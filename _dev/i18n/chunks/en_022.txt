@@ -1,0 +1,231 @@
+4225|rv_knows|_|0|{avenger}. It was {avenger}. I KNOW it was.
+4226|rv_knows|_|1|Of course. {avenger}. Payback, huh?
+4227|rv_wrong|_|0|This has {suspect} written all over it.
+4228|rv_wrong|_|1|{suspect}! I know it was you!
+4229|rv_confront|_|0|Was this you? Be honest.
+4230|rv_confront|_|1|Real mature. Real mature.
+4231|rv_confront|_|2|You want a war? You've got one.
+4232|rv_gloat|_|0|Ha! Took you long enough.
+4233|rv_gloat|_|1|Now we're even.
+4234|rv_gloat|_|2|Oops. Did I do that?
+4235|rv_sorry|_|0|...Yeah. That was me. It was stupid. I'm sorry.
+4236|rv_sorry|_|1|Okay, okay. I was angry. Truce?
+4237|rv_accept_sorry|_|0|...Fine. Truce. But fix my keyboard.
+4238|rv_accept_sorry|_|1|Okay. We're even. Done.
+4239|fm_cold_a|_|0|*takes the long way around {b}'s desk*
+4240|fm_cold_a|_|1|I'm not sitting near {b}.
+4241|fm_cold_a|_|2|Tell {b} I'm busy. Forever.
+4242|fm_cold_b|_|0|Oh, is {a} pretending I don't exist? Fine. Two can play.
+4243|fm_cold_b|_|1|*loudly ignores {a}*
+4244|fm_talk|_|0|You two can't keep doing this. It's making everyone miserable.
+4245|fm_talk|_|1|Can we talk about you and {other}? Five minutes?
+4246|fm_talk|_|2|Life's too short. Just talk to them.
+4247|fm_open|_|0|...I know. I miss how it was.
+4248|fm_open|_|1|Fine. If they apologise, I'll listen.
+4249|fm_open|_|2|Maybe. I'm tired of this too.
+4250|fm_stubborn|_|0|No. Not after what they did.
+4251|fm_stubborn|_|1|Stay out of it. Please.
+4252|fm_stubborn|_|2|They know what they did.
+4253|fm_summit_open|_|0|...Hi.
+4254|fm_summit_open|_|1|So. Um.
+4255|fm_summit_open|_|2|This is awkward.
+4256|fm_summit_sorry|_|0|I'm sorry. I said things I didn't mean.
+4257|fm_summit_sorry|_|1|I was out of line. I'm sorry.
+4258|fm_summit_sorry|_|2|Can we just... start over?
+4259|fm_summit_yes|_|0|Me too. I'm sorry too.
+4260|fm_summit_yes|_|1|Yeah. Let's start over.
+4261|fm_summit_yes|_|2|Come here, you idiot.
+4262|fm_summit_blowup|_|0|Sorry? THAT'S your apology?
+4263|fm_summit_blowup|_|1|You haven't changed at all.
+4264|fm_summit_blowup|_|2|Forget it.
+4265|bc_hover|_|0|Why is this taking so long?
+4266|bc_hover|_|1|I'm going to stand here until it's done.
+4267|bc_hover|_|2|Is that the font you're using? Really?
+4268|bc_tense|_|0|...It'll be done when it's done.
+4269|bc_tense|_|1|I'm working as fast as I can.
+4270|bc_tense|_|2|*types very, very loudly*
+4271|bc_vent|_|0|If he hovers over my desk ONE more time...
+4272|bc_vent|_|1|I swear I'm going to say something today.
+4273|bc_vent|_|2|I can't work like this. I'm going to tell him.
+4274|bc_egg|_|0|Do it. Someone has to.
+4275|bc_egg|_|1|Tell him! We've all been thinking it.
+4276|bc_egg|_|2|I've got your back.
+4277|bc_calm|_|0|Don't. Not today. He's in a mood.
+4278|bc_calm|_|1|Pick your battles. This isn't the one.
+4279|bc_calm|_|2|Breathe. Coffee first.
+4280|bc_clash|_|0|With respect, Ahmet Bey — I can't work with you breathing down my neck!
+4281|bc_clash|_|1|Enough! Either trust me to do my job or do it yourself!
+4282|bc_clash|_|2|You hover, you nag, you never say thank you. I'm done pretending that's fine.
+4283|bc_boss_reply|_|0|EXCUSE me?
+4284|bc_boss_reply|_|1|How DARE you talk to me like that!
+4285|bc_boss_reply|_|2|In front of everyone? Really?
+4286|bc_gasp|_|0|Oh no.
+4287|bc_gasp|_|1|Did they just...
+4288|bc_gasp|_|2|*gasp*
+4289|bc_gasp|_|3|Popcorn. Someone get popcorn.
+4290|bc_side|_|0|They're right, actually.
+4291|bc_side|_|1|Ahmet Bey, we all feel the same way.
+4292|bc_side|_|2|For what it's worth — I agree.
+4293|bc_boss_isolated|_|0|...Is that so.
+4294|bc_boss_isolated|_|1|Everyone? Really?
+4295|bc_boss_isolated|_|2|Hm.
+4296|bc_after_open|_|0|My office. Now.
+4297|bc_after_open|_|1|About earlier...
+4298|bc_boss_sorry|_|0|...Maybe I've been a bit much. I'll back off.
+4299|bc_boss_sorry|_|1|I hear you. I'll try. That's all I'll say.
+4300|bc_boss_sorry|_|2|Fine. I'll stop hovering. Mostly.
+4301|bc_boss_warning|_|0|That was your final warning. Next time, HR.
+4302|bc_boss_warning|_|1|Talk to me like that again and you're out.
+4303|bc_boss_warning|_|2|Consider this a formal warning.
+4304|ns_slip|_|0|Uncle— I mean, Ahmet Bey! Here's the file!
+4305|ns_slip|_|1|Amca, the— AHMET BEY. Sorry. The report.
+4306|ns_slip|_|2|Here you go, Uncle Ahm— Mr. Ahmet. Sir.
+4307|ns_boss_cough|_|0|*cough* Thank you, ECE.
+4308|ns_boss_cough|_|1|...Yes. Thank you. Intern.
+4309|ns_boss_cough|_|2|*very loud cough*
+4310|ns_witness|_|0|...Uncle?!
+4311|ns_witness|_|1|Did she just say UNCLE?
+4312|ns_witness|_|2|Oh-ho-ho.
+4313|ns_probe|_|0|So... "Uncle Ahmet"? Want to explain?
+4314|ns_probe|_|1|Ece, sweetie. Uncle? Really?
+4315|ns_probe|_|2|Is there something you'd like to tell me about you and Ahmet?
+4316|ns_lie|_|0|It's a... Turkish thing! We call all bosses uncle!
+4317|ns_lie|_|1|Uncle? I said "ankle"! I hurt my ankle!
+4318|ns_lie|_|2|I didn't say uncle. Did I? No.
+4319|ns_truth|_|0|...Okay. He's my uncle. Please, PLEASE don't tell anyone.
+4320|ns_truth|_|1|Fine. Yes. My mum's brother. I wanted to make it on my own.
+4321|ns_promise|_|0|My lips are sealed. Mostly.
+4322|ns_promise|_|1|Your secret's safe with me.
+4323|ns_promise|_|2|Aww. Of course I won't tell.
+4324|ns_verify|_|0|Ceren, you know everything. Is Ece related to Ahmet?
+4325|ns_verify|_|1|Quick question, totally innocent: is Ece Ahmet's niece?
+4326|ns_keeper_no|_|0|Not my place to say.
+4327|ns_keeper_no|_|1|I don't discuss people's families. Sorry.
+4328|ns_keeper_no|_|2|Ask Ece. Or better: don't.
+4329|ns_keeper_slip|_|0|...Who told you? — I mean. No comment.
+4330|ns_keeper_slip|_|1|I... can't confirm that. Which is not a no.
+4331|ns_spread|_|0|You won't BELIEVE this. Ece is Ahmet's NIECE.
+4332|ns_spread|_|1|Remember how Ece got the internship with no interview? Guess why. Uncle Ahmet.
+4333|ns_spread|_|2|Nepotism alert. Ece. Ahmet. Family.
+4334|ns_spread_react|_|0|THAT explains so much.
+4335|ns_spread_react|_|1|Seriously?! Unbelievable.
+4336|ns_spread_react|_|2|I KNEW she was getting special treatment.
+4337|ns_spread_react|ceren|0|...I really wish you hadn't told me that.
+4338|ns_reckon|_|0|I know what everyone's saying. Yes, Ahmet is my uncle. And I'm going to work twice as hard to prove I belong here.
+4339|ns_reckon|_|1|Okay. Everyone knows. He's my uncle. I never asked for special treatment. Judge me by my work.
+4340|ns_support|_|0|Fair enough. You've always pulled your weight.
+4341|ns_support|_|1|Honestly? You're the hardest worker here.
+4342|ns_support|_|2|Respect, Ece.
+4343|ns_cold|_|0|Easy to say when your uncle signs your evaluation.
+4344|ns_cold|_|1|Mm-hm.
+4345|ns_cold|_|2|Sure.
+4346|ns_cold|deniz|0|Family business, is it?
+4347|ivm_who|_|0|Okay. Who did this?
+4348|ivm_who|_|1|Somebody did this on purpose.
+4349|ivm_who|_|2|Who's been messing with my stuff?!
+4350|ivm_who|selin|0|Someone is sabotaging me. Again.
+4351|ivm_who|ahmet|0|WHO is responsible for this?
+4352|ivm_who|burak|0|This wasn't a bug. This was a person.
+4353|ivm_who|ece|0|Did... did I do this? No. Someone else did this.
+4354|ivm_who|mert|0|Alright, prankster. Show yourself.
+4355|ivm_blame|_|0|This has {suspect} written all over it.
+4356|ivm_blame|_|1|I bet it was {suspect}.
+4357|ivm_blame|_|2|{suspect}. It's always {suspect}.
+4358|ivm_blame|selin|0|I know exactly who did this. {suspect}.
+4359|ivm_blame|zeynep|0|Oh, I have a theory. Her name— his name is {suspect}.
+4360|ivm_blame|deniz|0|{suspect} wants me to slip up. Cute.
+4361|ivm_accuse|_|0|{target}. Was that you? Be honest.
+4362|ivm_accuse|_|1|Okay {target}, joke's over. Was it you?
+4363|ivm_accuse|_|2|I know it was you, {target}.
+4364|ivm_accuse|selin|0|{target}, I'd like an explanation. Now.
+4365|ivm_accuse|ahmet|0|{target}! My office would be a good place to confess.
+4366|ivm_accuse|burak|0|{target}. Logs don't lie. Neither should you.
+4367|ivm_accuse|ece|0|{target}... um... was it you? Sorry for asking!
+4368|ivm_innocent|_|0|What? I didn't touch anything!
+4369|ivm_innocent|_|1|Me?! I've been at my desk all day!
+4370|ivm_innocent|_|2|Why does everybody always blame me?
+4371|ivm_innocent|mert|0|I'd LOVE to take credit for that, but no.
+4372|ivm_innocent|deniz|0|Please. If it were me, you'd never find out.
+4373|ivm_innocent|ece|0|It wasn't me! I swear on my coffee!
+4374|ivm_innocent|zeynep|0|Darling, I only TALK about pranks.
+4375|ivm_innocent|burak|0|I have better things to do. Like literally anything.
+4376|ivm_accuse_argue|_|0|Don't lie to me.
+4377|ivm_accuse_argue|_|1|Sure. And I'm the CEO.
+4378|ivm_accuse_argue|_|2|Unbelievable.
+4379|ivm_accuse_argue|selin|0|You're lying, and we both know it.
+4380|ivm_accuse_sorry|_|0|...Okay. Maybe it wasn't you. Sorry.
+4381|ivm_accuse_sorry|_|1|Fine. My mistake.
+4382|ivm_accuse_sorry|_|2|Then who on earth...?
+4383|ivm_accuse_laugh|_|0|Ha! Okay, okay. Truce?
+4384|ivm_accuse_laugh|_|1|Fine. But I'm watching you.
+4385|ivm_accuse_laugh|_|2|If it wasn't you, I owe you a coffee.
+4386|ivm_it_ask|_|0|{target}, something's wrong with my computer. Help?
+4387|ivm_it_ask|_|1|{target}! Emergency. Tech emergency.
+4388|ivm_it_ask|_|2|Can you look at my machine? It's possessed.
+4389|ivm_it_ask|ahmet|0|{target}. My computer. Now.
+4390|ivm_it_ask|selin|0|{target}, I'm on a deadline and my PC just betrayed me.
+4391|ivm_it_ask|ece|0|{target}, I think I broke the internet. Again.
+4392|ivm_it_ask|mert|0|{target}, my favourite genius. I have a tiny problem.
+4393|ivm_it_yes|_|0|Give me two minutes.
+4394|ivm_it_yes|_|1|Move over. Let me see.
+4395|ivm_it_yes|_|2|Okay, okay. I'm on it.
+4396|ivm_it_yes|burak|0|*sigh* Turn it off and— never mind. I'll do it.
+4397|ivm_it_grumble|_|0|Open a ticket.
+4398|ivm_it_grumble|_|1|After lunch. Maybe.
+4399|ivm_it_grumble|_|2|Have you tried turning it off and on?
+4400|ivm_it_grumble|burak|0|I'm one person, people.
+4401|ivm_it_grumble|burak|1|Ticket. Queue. Patience.
+4402|ivm_it_sabotage|_|0|That's not a glitch. Someone did this on purpose.
+4403|ivm_it_sabotage|_|1|Interesting. This was done by hand.
+4404|ivm_it_sabotage|_|2|Somebody's been at your keyboard.
+4405|ivm_it_sabotage|burak|0|This wasn't an accident. Someone touched your machine.
+4406|ivm_it_thanks|_|0|You're a lifesaver.
+4407|ivm_it_thanks|_|1|Thank you!!
+4408|ivm_it_thanks|_|2|I owe you one.
+4409|ivm_it_thanks|mert|0|I owe you a kebab. Two kebabs.
+4410|ivm_keep|_|0|...I didn't see that. I didn't see anything.
+4411|ivm_keep|_|1|Not my business. Not my business.
+4412|ivm_keep|_|2|I'll keep that to myself.
+4413|ivm_keep|ceren|0|Some things are better left unsaid.
+4414|ivm_keep|burak|0|Noted. Deleted. Moving on.
+4415|ivm_keep|ece|0|My lips are sealed! ...Mostly sealed.
+4416|ivm_ask_think|_|0|I should just ask {subject} if it's true.
+4417|ivm_ask_think|_|1|Is that even true? I'll ask {subject}.
+4418|ivm_ask_think|_|2|Better hear it from {subject} directly.
+4419|ivm_juicy|_|0|Oh. Oh my.
+4420|ivm_juicy|_|1|Well, well, well.
+4421|ivm_juicy|_|2|Wait till people hear THIS.
+4422|ivm_juicy|zeynep|0|Christmas came early!
+4423|ivm_juicy|deniz|0|Interesting. Very interesting.
+4424|ivm_tattle|_|0|Ahmet Bey, I think you should know something.
+4425|ivm_tattle|_|1|Ahmet Bey, got a minute? It's about {subject}.
+4426|ivm_tattle|_|2|I don't like telling tales, but... {gossip}
+4427|ivm_tattle|deniz|0|I hate to be the one to tell you, Ahmet Bey... {gossip}
+4428|ivm_tattle|selin|0|Ahmet Bey, this affects the team: {gossip}
+4429|ivm_boss_cares|_|0|Is that so? I'll be keeping an eye on {subject}.
+4430|ivm_boss_cares|_|1|Thank you for telling me.
+4431|ivm_boss_cares|_|2|Hm. That's... very useful to know.
+4432|ivm_boss_tattle_no|_|0|I don't run a playground. Back to work.
+4433|ivm_boss_tattle_no|_|1|Office gossip doesn't interest me.
+4434|ivm_boss_tattle_no|_|2|And why are you telling me this?
+4435|ivm_misattrib|_|0|Hey {target}... was that you? {what}?
+4436|ivm_misattrib|_|1|{target}! I know it was you. {what}!
+4437|ivm_misattrib|_|2|So... {what}. That was you, right?
+4438|ivm_misattrib|ece|0|{target}! Was it you?? {what}!
+4439|ivm_misattrib|selin|0|{target}, did you have something to do with {what}?
+4440|ivm_misattrib|ahmet|0|{target}. {what}. Explain.
+4441|ivm_take_credit|_|0|...Yes. Yes it was. You're welcome.
+4442|ivm_take_credit|_|1|Guilty. I mean — glad you liked it.
+4443|ivm_take_credit|_|2|Maybe. Who's asking?
+4444|ivm_take_credit|deniz|0|Naturally. I'm full of surprises.
+4445|ivm_take_credit|mert|0|Haha, yeah! Totally me. Definitely.
+4446|ivm_not_me|_|0|Me? No idea what you're talking about.
+4447|ivm_not_me|_|1|That wasn't me. Sorry.
+4448|ivm_not_me|_|2|Huh? I didn't do anything.
+4449|ivm_not_me|ceren|0|That wasn't me. But I'd like to know who it was.
+4450|ivm_blush|_|0|I... um... maybe?
+4451|ivm_blush|_|1|*blushes* Who told you?
+4452|ivm_blush|_|2|It doesn't matter who it was. Does it?
+4453|ivm_boss_ask|_|0|Sit down. I've been told about {what}.
+4454|ivm_boss_ask|_|1|Explain {what} to me.
+4455|ivm_boss_ask|_|2|We need to talk about {what}.

@@ -1,0 +1,199 @@
+5079|urgent_care|_|0|Hey... you okay? You look like you're about to explode.
+5080|urgent_care|_|1|Breathe. Want me to take something off your plate?
+5081|urgent_thanks|_|0|...Yes. Please. Thank you.
+5082|urgent_thanks|_|1|I'm drowning. Thank you.
+5083|orgchart_see|_|0|Why is {target} ABOVE Ahmet on the org chart?!
+5084|orgchart_see|_|1|New org chart? {target} is... the boss now?
+5085|orgchart_see|_|2|Ha! Look at the org chart. {target}: CEO.
+5086|orgchart_boss|_|0|WHO edited the org chart?!
+5087|orgchart_boss|_|1|{target} is NOT my superior. Fix this. Now.
+5088|orgchart_smug|_|0|Well. The chart doesn't lie.
+5089|orgchart_smug|_|1|I always knew they'd see sense.
+5090|orgchart_smug|deniz|0|About time.
+5091|orgchart_terrified|_|0|I didn't do that! Please believe me!
+5092|orgchart_terrified|_|1|Take it down! TAKE IT DOWN!
+5093|lastpage_boss|_|0|{actor}, your report just... stops. Where's the conclusion?
+5094|lastpage_boss|_|1|Page twelve of twelve is missing, {actor}. The important one.
+5095|lastpage_baffled|_|0|It was there! I printed thirteen pages!
+5096|lastpage_baffled|_|1|What? I definitely wrote a conclusion!
+5097|lastpage_read|_|0|...and the conclusion is— there is no conclusion. {owner}!
+5098|lastpage_read|_|1|Where's the last page? {owner}, come here.
+5099|shortlist_joy|_|0|I'm on the shortlist?! TOP of the shortlist?!
+5100|shortlist_joy|_|1|Me! First name on the promotion list!
+5101|shortlist_joy|ece|0|Is this real? Pinch me. No, don't.
+5102|shortlist_brag|_|0|Guess whose name is first on the promotion shortlist?
+5103|shortlist_brag|_|1|Don't tell anyone... but I'm top of the shortlist.
+5104|shortlist_boss_no|_|0|What shortlist? There IS no shortlist yet.
+5105|shortlist_boss_no|_|1|Whoever told you that was lying. Back to work.
+5106|perf_boss_good|_|0|{actor}! Your report says you've doubled output. Impressive!
+5107|perf_boss_good|_|1|I've just read your performance report, {actor}. Exemplary.
+5108|perf_boss_bad|_|0|{actor}. Your performance report is... troubling.
+5109|perf_boss_bad|_|1|We need to talk about your numbers, {actor}. They're terrible.
+5110|perf_happy|_|0|Oh! Thank you! I... didn't know it was that good.
+5111|perf_happy|_|1|Wow. I'll take it!
+5112|perf_hurt|_|0|Terrible? I've been working weekends!
+5113|perf_hurt|_|1|That's not true! Those can't be my numbers!
+5114|perf_unfair|_|0|{actor} got a glowing review? For WHAT?
+5115|perf_unfair|_|1|Unbelievable. {actor} of all people.
+5116|zero_read|_|0|'Raise budget this year: ZERO'?!
+5117|zero_read|_|1|Zero raises. For anyone. This year.
+5118|zero_read|_|2|So that's it. No raises. Great.
+5119|zero_read|zeynep|0|Zero? That's not what the budget says...
+5120|zero_grumble|_|0|Why do we even bother?
+5121|zero_grumble|_|1|I'm updating my CV tonight.
+5122|zero_grumble|_|2|Zero. After the year we've had.
+5123|zero_zeynep|_|0|Ahmet Bey, the raise budget isn't zero. Who pinned that?
+5124|zero_zeynep|_|1|Someone's spreading fake budget numbers. It's not zero.
+5125|zero_boss|_|0|ZERO? I never said zero! Take that down!
+5126|zero_boss|_|1|That's not my number! Who wrote this?
+5127|raiseletter_joy|_|0|A RAISE?! For ME?!
+5128|raiseletter_joy|_|1|'Your salary increase has been approved'... YES!
+5129|raiseletter_joy|burak|0|...Huh. Maybe I'll stay after all.
+5130|raiseletter_zeynep|_|0|That letter wasn't for you, {target}. It's {rich}'s.
+5131|raiseletter_zeynep|_|1|Sorry, {target} — payroll mix-up. That raise is {rich}'s.
+5132|raiseletter_crushed|_|0|...Of course it is.
+5133|raiseletter_crushed|_|1|Right. Of course. Never mind.
+5134|app_boss_read|_|0|A job application? From {applicant}? To a COMPETITOR?
+5135|app_boss_read|_|1|So. {applicant} wants to leave.
+5136|app_confront|_|0|{target}. I found your job application. Care to explain?
+5137|app_confront|_|1|Planning to leave us, {target}?
+5138|app_counter|_|0|...If it's about money, let's talk. I don't want to lose you.
+5139|app_counter|_|1|What would it take for you to stay?
+5140|app_cold|_|0|Fine. If you want to go, go. But don't expect a reference.
+5141|app_cold|_|1|Disloyalty. I'll remember this.
+5142|app_admit|_|0|...Yes. I've been looking. I'm not happy here.
+5143|app_admit|_|1|I won't lie to you. I applied.
+5144|early_promo_go|_|0|Actually — why wait? Everyone! Gather round!
+5145|early_promo_go|_|1|I've decided. Announcement time. Now.
+5146|early_promo_miss|_|0|Wait, the promotion was announced? I was in the kitchen!
+5147|early_promo_miss|_|1|They announced it WITHOUT me?
+5148|leader_see|_|0|{target} is number one on the sales board? Since when?
+5149|leader_see|_|1|Wait, {target} out-sold MERT?
+5150|leader_see|mert|0|Number TWO? Me? Behind {target}?!
+5151|leader_boss|_|0|{target}! Top of the sales board! Well done!
+5152|leader_boss|_|1|Look at that. {target}, our new sales champion.
+5153|leader_mert|_|0|Those are MY numbers! I closed those deals!
+5154|leader_mert|_|1|That's a mistake. I'm number one. I'm always number one.
+5155|postpone_read|_|0|My review is postponed... 'indefinitely'?
+5156|postpone_read|_|1|'Review postponed — no new date.' What does THAT mean?
+5157|postpone_ask|_|0|Ahmet Bey, why was my review postponed indefinitely?
+5158|postpone_ask|_|1|Is there a reason my review keeps being pushed?
+5159|postpone_boss|_|0|Postponed? I didn't postpone anything. ...Did I?
+5160|postpone_boss|_|1|Your review? Hm. Next month. Probably.
+5161|eotm_joy|_|0|Employee of the Month? ME?
+5162|eotm_joy|_|1|My name! On the certificate! On the board!
+5163|eotm_rival|_|0|{target}? Employee of the Month? Seriously?
+5164|eotm_rival|_|1|Who chose {target}?!
+5165|eotm_boss_keep|_|0|...Well. It's printed now. Congratulations, {target}.
+5166|eotm_boss_keep|_|1|Hm. Fine. You've earned... something.
+5167|eotm_boss_fix|_|0|That certificate is wrong. It should say {rich}.
+5168|eotm_boss_fix|_|1|Correction: Employee of the Month is {rich}. Not {target}.
+5169|thanks_note_read|_|0|'Thank you for your outstanding effort — Ahmet.' For ME?
+5170|thanks_note_read|_|1|A handwritten thank-you from Ahmet! I'm framing this.
+5171|thanks_note_thank|_|0|Ahmet Bey, thank you for the lovely note!
+5172|thanks_note_thank|_|1|Your note made my day, Ahmet Bey.
+5173|thanks_note_boss|_|0|...Note? That note was for {rich}.
+5174|thanks_note_boss|_|1|Ah. That one was meant for {rich}, actually.
+5175|thanks_unseen|_|0|So I fix everything and the thank-you goes to {target}. Great.
+5176|thanks_unseen|_|1|Nice. My thank-you note, someone else's desk.
+5177|notes_good|_|0|Ahmet wrote 'reliable, future leader' about me!
+5178|notes_good|_|1|He thinks I'm 'excellent'! In writing!
+5179|notes_bad|_|0|'Needs constant supervision'?! That's what he thinks of me?
+5180|notes_bad|_|1|Ahmet's note on me: 'disappointing'. Wow.
+5181|notes_boss|_|0|WHO PINNED MY PRIVATE NOTES ON THE BOARD?!
+5182|notes_boss|_|1|Those were PRIVATE!
+5183|card_find|_|0|A headhunter's card? 'Call me — we pay double'?
+5184|card_find|_|1|'Senior role, double salary. Call me.' On my desk?
+5185|card_show_boss|_|0|Ahmet Bey — a headhunter's been courting me. Just so you know.
+5186|card_show_boss|_|1|Someone offered me double. I'd rather stay... at the right price.
+5187|card_boss_raise|_|0|...Fine. Let's talk about your salary.
+5188|card_boss_raise|_|1|Don't call them. We'll sort something out.
+5189|card_boss_call_bluff|_|0|Then go. Nobody's irreplaceable.
+5190|card_boss_call_bluff|_|1|Call them, then.
+5191|course_read|_|0|'Mandatory anger management course'?! For ME?!
+5192|course_read|_|1|Who signed me up for ANGER MANAGEMENT?!
+5193|course_laugh|_|0|Ha! Anger management!
+5194|course_laugh|_|1|Somebody's going to be very calm next week!
+5195|course_laugh|mert|0|Namaste, my friend.
+5196|course_calm|_|0|...Fine. Maybe I'll go. Could be useful.
+5197|course_calm|_|1|Okay. Deep breaths. I'm calm. I'm CALM.
+5198|intern_read|_|0|Payroll says my title is... 'INTERN'?!
+5199|intern_read|_|1|'Welcome to the team, intern!' I've been here five years!
+5200|intern_ask|_|0|Ahmet Bey, why am I listed as an INTERN?
+5201|intern_ask|_|1|Have I been demoted? To intern?!
+5202|intern_boss|_|0|Intern? Nonsense. HR glitch. Probably.
+5203|intern_boss|_|1|You're not an intern. Calm down.
+5204|intern_ece|_|0|Welcome to the club!
+5205|intern_ece|_|1|Interns unite!
+5206|transfer_read|_|0|'Transfer request: to the Erzurum branch'?! I never asked for that!
+5207|transfer_read|_|1|They're sending me to ERZURUM?
+5208|transfer_ask|_|0|Ahmet Bey, are you trying to get rid of me?
+5209|transfer_ask|_|1|Is this transfer request your idea?
+5210|transfer_boss_no|_|0|Transfer? You? Who would do your job?
+5211|transfer_boss_no|_|1|I'd never send you away. Sit down.
+5212|transfer_boss_hmm|_|0|...Erzurum is lovely this time of year.
+5213|transfer_boss_hmm|_|1|Hm. Not my idea. But not a bad one.
+5214|criteria_read_cake|_|0|'Promotion criteria: bring cake on Fridays'? ...It's Friday-ish.
+5215|criteria_read_cake|_|1|Cake gets you promoted? I can do cake.
+5216|criteria_read_laugh|_|0|'Must laugh at Ahmet's jokes'? Noted.
+5217|criteria_read_laugh|_|1|Laugh at his jokes. Okay. I can fake that.
+5218|criteria_laugh_boss|_|0|HAHAHA! Ahmet Bey, that's hilarious!
+5219|criteria_laugh_boss|_|1|Ha! Oh, Ahmet Bey, you kill me.
+5220|criteria_boss|_|0|...I didn't say anything funny.
+5221|criteria_boss|_|1|Why is everyone laughing at everything I say today?
+5222|criteria_cake_offer|_|0|Cake! For everyone! No reason!
+5223|criteria_cake_offer|_|1|I brought cake. Just because. Totally unrelated to anything.
+5224|reference_read|_|0|A reference letter? From Ahmet? 'Highly recommended for positions elsewhere'...
+5225|reference_read|_|1|Ahmet wrote me a reference. For OTHER jobs. Is that a hint?
+5226|reference_hurt|_|0|He wants me gone. That's what this means.
+5227|reference_hurt|_|1|'Elsewhere.' Got it.
+5228|reference_use|_|0|...Well. Might as well use it.
+5229|reference_use|_|1|A glowing reference? I'll put it to work.
+5230|overtime_read|_|0|I'm on the WEEKEND overtime list?! It's my sister's wedding!
+5231|overtime_read|_|1|Weekend shift? Me? Who decided that?!
+5232|overtime_blame|_|0|{suspect} makes these lists. I KNOW it.
+5233|overtime_blame|_|1|This is {suspect}'s doing.
+5234|overtime_plead|_|0|Ahmet Bey, I can't work this weekend. Please.
+5235|overtime_plead|_|1|There must be a mistake with the overtime list.
+5236|overtime_boss_yes|_|0|If you're on the list, you're on the list.
+5237|overtime_boss_yes|_|1|Rules are rules.
+5238|plate_bring|_|0|Here's the paperwork you wanted, boss... uh, {target}?
+5239|plate_bring|_|1|{target}, the sign says you're the manager now. Sign this?
+5240|plate_power|_|0|Put it on the pile. I'll get to it. Maybe.
+5241|plate_power|_|1|Yes, yes. Leave it with me.
+5242|plate_power|deniz|0|Excellent. Put it on MY desk.
+5243|plate_panic|_|0|I'm not the manager! The sign is wrong!
+5244|plate_panic|_|1|Don't give me that! I don't want it!
+5245|plate_boss|_|0|WHY does my door say '{target} — Manager'?!
+5246|plate_boss|_|1|Who changed my nameplate?!
+5247|swapphone_read|_|0|...This isn't my phone. And this message isn't for me.
+5248|swapphone_read|_|1|Wait. Whose phone is— oh. OH.
+5249|swapphone_read|_|2|That's not my lock screen. But I've already read the message.
+5250|swapphone_return|_|0|I think we swapped phones. Here. I... didn't read anything.
+5251|swapphone_return|_|1|Your phone. I may have seen a message. Sorry.
+5252|swapphone_mortified|_|0|You READ it?!
+5253|swapphone_mortified|_|1|Please tell me you didn't read the messages.
+5254|swapphone_cool|_|0|Ha, they look identical. Thanks.
+5255|swapphone_cool|_|1|No harm done. Here's yours.
+5256|callerid_mom|_|0|MUM?! Not now, Mum! I'm at WORK!
+5257|callerid_mom|_|1|Mum, I love you, but I'm in the middle of— hello? Mum?
+5258|callerid_ex|_|0|...Why is my EX calling me?
+5259|callerid_ex|_|1|My ex. Calling me. In the office. Great.
+5260|callerid_headhunter|_|0|A recruiter? Calling me HERE?
+5261|callerid_headhunter|_|1|'Talent Partners Ltd'? ...I'll take this outside.
+5262|callerid_boss|_|0|It's Ahmet! Yes, Ahmet Bey? ...Hello? ...He hung up.
+5263|callerid_boss|_|1|Ahmet's calling from his desk? Why not just shout?
+5264|callerid_heard_hh|_|0|Was that a recruiter calling {owner}?
+5265|callerid_heard_hh|_|1|Hm. {owner} just got a call from a headhunter.
+5266|callerid_jealous|_|0|Who was THAT on the phone?
+5267|callerid_jealous|_|1|Your ex? Calling you? Today?
+5268|ringtone_siren|_|0|*WEE-OOO WEE-OOO*
+5269|ringtone_siren|_|1|*AIR RAID SIREN*
+5270|ringtone_love|_|0|♪ My heart goes boom-boom-boom for youuu ♪
+5271|ringtone_love|_|1|♪ Oh my sweetie, my sugar pie, ooh ♪
+5272|ringtone_baby|_|0|*WAAAAH WAAAAH*
+5273|ringtone_baby|_|1|*baby crying loudly*
+5274|ringtone_react|_|0|Who has a SIREN for a ringtone?!
+5275|ringtone_react|_|1|Is someone's phone... crying?
+5276|ringtone_react|_|2|Is that a LOVE SONG coming from {owner}'s pocket?
+5277|ringtone_react|ahmet|0|Whose phone is that?! Turn it OFF!

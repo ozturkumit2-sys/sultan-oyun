@@ -1,0 +1,72 @@
+6422|*sorbe el té en silencio*
+6423|...Esto ayuda. Gracias.
+6424|¿Mañana a la misma hora?
+6425|¿Tu presentación de ayer? Muy buena. Quería decírtelo.
+6426|No lo digo lo suficiente: eres {to?buenísimo|buenísima} en esto.
+6427|¡Ah! Gracias. Me alegraste el día.
+6428|...Vaya. Gracias. De verdad.
+6429|¿Tienes una... grapadora? Parece que he perdido todas las mías.
+6430|¡Oye! ¿Este bolígrafo es tuyo? ¿No? ...Bonito escritorio, por cierto.
+6431|*sonríe* Toma. Quédatelo.
+6432|Ja. Claro. Pásate cuando quieras.
+6433|Las grapadoras están en el cuarto de material.
+6434|No. Ese bolígrafo no es mío.
+6435|*deja una sola flor sobre el teclado de {target}*
+6436|*pone una florecita en el lapicero de {target} y se aleja rápido*
+6437|...¿Una flor? ¿Quién dejó esto?
+6438|¡Alguien me dejó una flor!
+6439|¿De quién son estas tazas? Llevan en el fregadero desde el LUNES.
+6440|Alguien aquí cree que el fregadero es un museo.
+6441|{target}, ¿son tuyas? Tienen tu pintalabios. O café. O las dos cosas.
+6442|{target}. Las tazas. Explícate.
+6443|...Vale, dos son mías. Las lavo.
+6444|¡Perdón! Las lavo ahora.
+6445|¡No son mías! ¡Tengo UNA taza y está en mi escritorio!
+6446|¡¿Por qué siempre yo?!
+6447|...y OTRA cosa sobre el presupuesto...
+6448|Perdón, ¿puedo meter baza un momento...?
+6449|¿Puedo TERMINAR una frase? ¿Una vez? ¿Hoy?
+6450|Estaba HABLANDO.
+6451|He oído que a {victim} {victim?lo|la} están «evaluando». No te lo dije yo.
+6452|¿Entre nosotros? Puede que {victim} no siga aquí mucho tiempo.
+6453|¡No! ¿En serio?
+6454|Espera, ¿en serio? ¿Desde cuándo?
+6455|Psst. Aquí. Vas a querer oír esto.
+6456|Vale, acérquense. En silencio.
+6457|NO.
+6458|¡CÁLLATE!
+6459|¡Lo SABÍA!
+6460|*ahoga un grito*
+6461|¿Dónde está {late}? Son casi las diez.
+6462|¿Alguien ha visto a {late} esta mañana?
+6463|{late} está en una reunión con un cliente. Vuelve enseguida.
+6464|Ah, {late} llamó: dentista. Totalmente normal.
+6465|¿Olvidaste tu almuerzo? Toma, la mitad. Siempre hago de más.
+6466|Tengo dos börek. Me sobra uno. Tómalo.
+6467|Me salvaste la vida.
+6468|¿En serio? ¡Gracias!
+6469|*susurrando* Sí, el jueves a las 3 me va bien. ...No, mi jefe no lo sabe.
+6470|*al teléfono, muy bajito* Allí estaré. Diré que es el dentista.
+6471|Ahmet Bey, tengo cita con el dentista el jueves por la tarde.
+6472|¿Puedo salir antes el jueves? Dentista.
+6473|¿Otra vez? Tus dientes deben de estar fatal.
+6474|Está bien. Está bien.
+6475|*finge leer con muchísima atención el cartel de seguridad contra incendios*
+6476|*de repente se interesa muchísimo por la planta del despacho del jefe*
+6477|*echa un vistazo a los papeles del escritorio vacío de {target}* ...Ah. AH.
+6478|Solo... estoy ordenando los papeles de {target}. Mmm. Interesante.
+6479|Lo estás haciendo genial, Fikret. Crece, amigo. Crece.
+6480|*susurrándole a la planta* No se lo digas a Ahmet, pero eres mi compañero favorito.
+6481|...¿Estás hablando con la planta?
+6482|¿Te contestó la planta?
+6483|*calienta pescado sobrante en el microondas* ¿Qué? Es el almuerzo.
+6484|Curry de pescado. Recalentado. No me juzguen.
+6485|¡¿QUÉ es ese OLOR?!
+6486|¡¿Quién calentó PESCADO?!
+6487|Lo saboreo. Puedo SABOREAR el olor.
+6488|*la cabeza se le hunde lentamente sobre el teclado* zzz...
+6489|*ronca muy suavecito detrás del monitor*
+6490|*pega muy despacito una nota adhesiva en la frente de quien duerme*
+6491|*saca una foto* Para el boletín.
+6492|Buenos DÍAS, {actor}. ¿{actor?Cómodo|Cómoda}?
+6493|¿Te pago para que duermas?

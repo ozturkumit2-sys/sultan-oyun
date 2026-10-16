@@ -1,0 +1,200 @@
+4025|Ahmet Bey, wir müssen es wissen. Wird es Entlassungen geben?
+4026|Stimmt es, dass bis Freitag jemand gefeuert wird?
+4027|Das ganze Büro ist in Panik. Werden wir entlassen?
+4028|ENTLASSUNGEN? Wer hat was von Entlassungen gesagt?!
+4029|Wovon um alles in der Welt reden Sie?
+4030|Gefeuert? Niemand wird gefeuert! Wer hat das in die Welt gesetzt?
+4031|ALLE MAL HER. Es gibt KEINE Entlassungen. Ich habe das KAFFEE-ABO gekündigt.
+4032|Hört zu! Niemand wird gefeuert! Ich habe vom Vertrag für die Kaffeemaschine gesprochen!
+4033|Fürs Protokoll: Das Einzige, was dieses Büro verlässt, ist der teure Kaffee.
+4034|Oh, Gott sei Dank.
+4035|Der KAFFEE?!
+4036|Ich hab umsonst auf dem Klo geweint?
+4037|... Moment, kein guter Kaffee mehr?
+4038|Wir haben beide ein {mark}-Problem. Lösen wir es gemeinsam.
+4039|Du hörst Dinge. Ich weiß, wie man sie nutzt. Partner?
+4040|{mark} steht uns im Weg. Hilf mir, und du bist {to?der Erste|die Erste} in der Reihe, wenn ich Teamleitung bin.
+4041|... Ich bin dabei. Niemand darf es wissen.
+4042|Abgemacht. Dieses Gespräch hat nie stattgefunden.
+4043|Was hab ich davon? ... Na gut. Abgemacht.
+4044|Nein. Such dir jemand anderen für deine Drecksarbeit.
+4045|Auf keinen Fall. Und pass auf dich auf.
+4046|So jemand bin ich nicht.
+4047|Pass auf vor {schemer}. Ich sollte helfen, dich zu Fall zu bringen.
+4048|Ich sag’s dir nur, weil es nicht richtig ist: {schemer} intrigiert gegen dich.
+4049|... Ich wusste es. Danke.
+4050|Natürlich. Danke, dass du es mir sagst.
+4051|Ich schulde dir was.
+4052|Was hast du gegen {mark} in der Hand?
+4053|Irgendwas Brauchbares? Egal was?
+4054|Oh, ich hab da was. {dirt}
+4055|Das bleibt unter uns: {dirt}
+4056|Nichts Echtes. Aber die Leute glauben, was sie oft genug hören ...
+4057|Nichts. Also erfinden wir was. Faul, haut früh ab. Einfach.
+4058|Ahmet Bey, ich sage das nur ungern, aber Sie sollten wissen: {dirt}
+4059|Ich mache mir Sorgen um {mark}. Wussten Sie, dass {dirt}
+4060|... Ach ja? Interessant.
+4061|Das behalte ich im Hinterkopf.
+4062|Hm. Das ändert einiges.
+4063|Ich hab {schemer} und {partner} im Archiv tuscheln sehen. Danach ist {schemer} direkt mit dir als Thema zu Ahmet gegangen.
+4064|Vorwarnung: {schemer} redet mit Ahmet über dich. Und {partner} steckt mit drin.
+4065|{partner}?! Ich hab {partner?ihm|ihr} vertraut!
+4066|Natürlich. NATÜRLICH.
+4067|... Danke, dass du es mir sagst.
+4068|Du und {schemer}? Echt jetzt? Nach allem?
+4069|Ich weiß vom Archiv. Ich weiß von Ahmet. Erklär das.
+4070|Was hat {schemer} dir versprochen?
+4071|Das war alles {schemer:s} Idee! Ich hab nur ... zugehört!
+4072|Ich bin raus. Ich wollte das nie. Rede mit {schemer}.
+4073|Ich weiß nicht, wovon du redest.
+4074|Du bildest dir was ein.
+4075|Beweis es.
+4076|Moment — heute hat {bday} Geburtstag! Hat keiner was geplant?!
+4077|{bday} hat Geburtstag. Kuchen. Karte. Überraschung. Los, los, los.
+4078|Operation Geburtstag läuft. Zielperson: {bday}.
+4079|{bday} HAT GEBURTSTAG! Okay, leise, leise. Geheimmission.
+4080|Psst. Gibst du was für {bday:s} Kuchen dazu? Und unterschreib die Karte. Nicht sehen lassen!
+4081|Fünf Lira für {bday:s} Überraschung. Ist geheim!
+4082|Oh, klar! Hier.
+4083|Ich bin dabei. Wo unterschreibe ich?
+4084|Eine Überraschung? Liebe ich.
+4085|Eine ÜBERRASCHUNG? Für {bday}? Oh, ich kann so schlecht Geheimnisse behalten ...
+4086|Ha! Ich sag nichts. Wahrscheinlich.
+4087|Kuchen im Kühlschrank. Hinter den Joghurts. Perfekt.
+4088|Versteckt. Hinter den Gurken schaut keiner nach.
+4089|Oh, ist der Kuchen für jemanden?
+4090|Ist das ... ein ganzer Kuchen? Darf ich—
+4091|Ist der Kuchen für jemanden? Ich frage für mich.
+4092|NICHT. ANFASSEN.
+4093|Der ist für {bday}! Finger weg!
+4094|Leg. Die Gabel. Weg.
+4095|ÜBERRASCHUNG!!!
+4096|ALLES GUTE ZUM GEBURTSTAG!
+4097|🎂 ÜBERRAAASCHUNG!
+4098|Ihr Lieben! Oh mein Gott! Ich dachte, alle hätten es vergessen!
+4099|NIEMALS. Für mich?!
+4100|Ich weine nicht. Du weinst.
+4101|... Hmpf. Nun ja. Danke. Ihnen allen.
+4102|... Ich hasse Überraschungen. ... Danke.
+4103|Tja. Das ist ... unerwartet nett.
+4104|Ha! Ich wusste es! Hier kann jemand kein Geheimnis behalten!
+4105|Ich hab den Kuchen heute Morgen gesehen. Aber ich bin TROTZDEM gerührt!
+4106|♪ Zum Geburtstag viel Glück ♪
+4107|Rede! Rede!
+4108|Wünsch dir was!
+4109|Kuchen! KUCHEN!
+4110|Moment. Wo ist {bday}?!
+4111|Wir haben vergessen, das Geburtstagskind mitzubringen.
+4112|... Hat überhaupt jemand {bday} gesagt, dass {bday?er|sie} kommen soll?
+4113|WAS? Die Zahlen waren FALSCH? ... Ich rufe zurück.
+4114|... Der Kunde sagt WAS? Unsere Zahlen hatten eine NULL zu viel?!
+4115|Ich verstehe. Das kommt nicht wieder vor.
+4116|Jemand hat dem Kunden FALSCHE Zahlen geschickt. Ich will einen Namen. SOFORT.
+4117|Wer hat die Kundenzahlen vorbereitet?! Vortreten!
+4118|Ich finde heraus, wer das war. Besser, Sie sagen es mir vorher.
+4119|Falls jemand fragt: {scapegoat} hat die Zahlen geschickt.
+4120|Nicht ich. Definitiv nicht ich. Vielleicht {scapegoat}.
+4121|Bitte nicht mich anschauen. Bitte nicht mich anschauen.
+4122|Vielleicht geht es vorbei ...
+4123|*versteckt sich hinter dem Monitor*
+4124|Ahmet Bey ... ich war’s. Ich hab die Spalten verwechselt.
+4125|Die Zahlen waren von mir. Es tut mir leid. Ich rufe den Kunden selbst an.
+4126|Es war mein Fehler.
+4127|... Danke, dass Sie es mir sagen. Bringen Sie es in Ordnung. Heute.
+4128|Wenigstens sind Sie ehrlich. Rufen Sie zurück.
+4129|Hm. Fehler passieren. Aber nicht zweimal.
+4130|Eine NULL?! Wissen Sie, wie wir dastehen?!
+4131|Inakzeptabel! Völlig inakzeptabel!
+4132|{scapegoat}. Die Kundenzahlen. Erklären Sie das.
+4133|Ich höre, SIE haben diese Zahlen geschickt.
+4134|Mein Büro hat eine Frage an Sie, {scapegoat}: Warum?
+4135|Schauen Sie in den Dateiverlauf. Ich hab die Tabelle seit Wochen nicht geöffnet.
+4136|Ich war’s nicht. Schauen Sie auf die Zeitstempel.
+4137|Fragen Sie {culprit}, wer sie zuletzt bearbeitet hat.
+4138|... Ich war’s nicht. Aber gut.
+4139|Ich weiß nicht, was ich sagen soll.
+4140|... Okay.
+4141|Laut Dateiverlauf haben SIE die Tabelle bearbeitet. Nicht {scapegoat}.
+4142|Tja. Zeitstempel. Komische Dinger, diese Zeitstempel.
+4143|Sie haben {scapegoat} die Schuld tragen lassen?
+4144|Ich ... ich kann das erklären.
+4145|Das war ein ehrlicher Fehler!
+4146|... Ja. Ich war’s.
+4147|Oh nein. Ich hab die falschen Summen in {mentor:s} Bericht eingetragen. Und der liegt schon bei Ahmet!
+4148|Ich hab in {mentor:s} Bericht zwei Spalten vertauscht. Ahmet hat ihn. Ich bin tot.
+4149|Ahmet Bey, in meinem Bericht ist ein Fehler. Meine Schuld. Korrigierte Fassung in zehn Minuten.
+4150|Ich hab mich bei den Summen vertan. Ist korrigiert. Kommt nicht wieder vor.
+4151|Hm. Gar nicht Ihre Art. Bringen Sie es in Ordnung.
+4152|Gut. Zehn Minuten.
+4153|Schlampig. Ich hätte mehr von Ihnen erwartet.
+4154|Fehler in MEINEN Berichten? Schon wieder?
+4155|Lustig, Ahmet Bey — ich habe gehört, der Fehler stammt von der Praktikantin. Da deckt jemand wen. Nicht sehr transparent, oder?
+4156|Sie wissen, dass {mentor} {protege} deckt, oder? Ich dachte nur, Sie sollten es wissen.
+4157|... Decken? In MEINEM Büro?
+4158|So, so.
+4159|Ich sehe mir das an.
+4160|Mir ist egal, wessen Tippfehler das war. Zurück an die Arbeit.
+4161|Bürotratsch ist keine Leistungsbeurteilung, Deniz.
+4162|Ahmet Bey — der Fehler war meiner. {mentor} hat mich gedeckt. Bitte geben Sie {mentor?ihm|ihr} nicht die Schuld.
+4163|Ich war’s. Nicht {mentor}. Es tut mir leid.
+4164|... Hm. Loyalität UND Ehrlichkeit. Beide zurück an die Arbeit.
+4165|Gut. Das respektiere ich. Passiert nicht noch mal.
+4166|Danke. Dass du mich gedeckt hast. Das hättest du nicht müssen.
+4167|Warum hast du das für mich getan?
+4168|Ich schulde dir was. Und zwar richtig.
+4169|So machen wir das hier. Nächstes Mal die Summen doppelt prüfen.
+4170|Jeder baut mal Mist. Nur nicht zweimal.
+4171|Du würdest dasselbe für mich tun.
+4172|Ahmet Bey, ich möchte über die Teamleitung sprechen.
+4173|Ich finde, ich habe mir eine Chance auf die Teamleitung verdient. Ich möchte wissen, wo ich stehe.
+4174|Was müsste ich tun, um befördert zu werden?
+4175|Beweisen Sie es. Holen Sie den Kaya-Auftrag mit einem Pitch. Bis morgen.
+4176|Ergebnisse zählen. Bringen Sie mir einen Pitch, der Kaya gewinnt.
+4177|Zeigen Sie es mir. Dann reden wir.
+4178|Jetzt ist nicht der richtige Zeitpunkt.
+4179|Wenn eine Stelle frei wird, sage ich Bescheid.
+4180|Geduld. Jeder will befördert werden.
+4181|Sie sind als Nächstes dran. Sagen Sie keinem, dass ich das gesagt habe.
+4182|Machen Sie weiter so. Bald gehört es Ihnen.
+4183|Mittagessen? Nein. Pitch.
+4184|Folie zwölf. Folie DREIZEHN.
+4185|Wenn ich das fertig kriege, bin ich Teamleitung. KONZENTRIEREN.
+4186|Wäre doch schade, wenn diese Folien ... durcheinandergerieten.
+4187|Ups. Ist das die finale Version? War.
+4188|Nichts Persönliches.
+4189|... und deshalb wird Kaya bei uns unterschreiben. Fragen?
+4190|Hier ist der Pitch. Drei Folien. Kein Geschwafel.
+4191|Ich möchte Sie durch das Kaya-Angebot führen.
+4192|... Das ist hervorragend. Wirklich hervorragend.
+4193|DAS ist die Arbeit einer Teamleitung.
+4194|Ich bin beeindruckt.
+4195|Die Zahlen sind ein Chaos. Was ist passiert?
+4196|Das ist noch nicht fertig.
+4197|Ich hätte mehr erwartet.
+4198|Jemand hat an meinem Schreibtisch rumgepfuscht! Meine Notizen lagen überall!
+4199|Ich ... heute Morgen war es fertig!
+4200|Wegen gestern ...
+4201|Ich habe über die Teamleitung nachgedacht.
+4202|Wenn die Stelle frei wird, gehört sie Ihnen.
+4203|Sie haben es sich verdient. Offiziell bald.
+4204|Noch nicht. Arbeiten Sie weiter.
+4205|Sie sind nah dran. Aber noch nicht da.
+4206|Ich zahl’s {victim} heim. Und du hilfst mir.
+4207|{victim} hat es verdient. Ich hab einen Plan.
+4208|Rache ist ein Gericht, das man am besten ... bis Freitag serviert.
+4209|... Okay, ich höre. Was ist der Plan?
+4210|Ha! Ich bin dabei.
+4211|Na gut. Aber nichts, wofür wir gefeuert werden.
+4212|Lass gut sein. Das ist es nicht wert.
+4213|Rache? Ernsthaft? Red lieber direkt mit der Person.
+4214|Du wirst es bereuen. Lass es.
+4215|... Vielleicht hast du recht.
+4216|Boah. Na gut. Du bist zu vernünftig.
+4217|Ich vertausche die Tastaturtasten. Jede. Einzelne.
+4218|Salz in die Zuckerdose. Nur in diese eine.
+4219|Ich ändere das Hintergrundbild zu ... dem hier.
+4220|Ich klebe ein Foto von Ahmet in die Schublade. Viel Spaß.
+4221|WER hat meine Tastaturtasten vertauscht?!
+4222|Mein Zucker ist SALZ. Wer war das?!
+4223|Warum ist Ahmets Gesicht in meiner Schublade?!
+4224|Mein Hintergrundbild ist ein Lama. WARUM.

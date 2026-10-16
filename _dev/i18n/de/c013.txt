@@ -1,0 +1,124 @@
+2135|{actor} ist vor dem Drucker in einer Pfütze ausgerutscht. Spektakulär.
+2136|{actor:s} Internet ist im Schneckentempo. Die Arbeit auch.
+2137|{actor} hat das lahme Internet aufgegeben und ist auf einen langen Kaffee gegangen.
+2138|{actor} hat gemerkt, dass {target} gestresst war, und {target?ihm|ihr} einen Snack gebracht.
+2139|Die Snackbox ist in {target:s} Schublade aufgetaucht — und {target} wollte die Snacks nicht rausrücken.
+2140|Die Snackbox ist in {target:s} Schublade aufgetaucht. {target} hat die Snacks verteilt. Sofort beliebt.
+2141|{actor} hat sich verspätet reingeschlichen.
+2142|{owner:s} privater Ordner war plötzlich für das ganze Büro sichtbar. {actor} hat einen Blick reingeworfen.
+2143|Ein Zettel an der Pinnwand nannte {origin} als Quelle des Gerüchts über {subject}. {subject} hat ihn gelesen.
+2144|Jemand hat den Wasserspender in eine „Wellness-Ecke“ verwandelt. Die Leute bleiben dort ständig hängen.
+2145|Ahmet hat eine Menschentraube am „Wellness“-Wasserspender entdeckt und sie aufgelöst.
+2146|Ahmets dringende Anfrage an {target} war im Spam gelandet. Ahmet war das egal: Abgabe heute.
+2147|Ahmets dringende Anfrage an {target} steckte im Spam fest. Ahmet hat stattdessen dem E-Mail-System die Schuld gegeben.
+2148|{crush} hat {owner} zurückgerufen — auf Lautsprecher. Das halbe Büro hat gehört, wie {owner} {crush} {owner?seine|ihre} Gefühle gestanden hat.
+2149|{crush} und {owner} haben über das Lautsprecher-Geständnis beim Kaffee gelacht.
+2150|{crush} hat {owner} auf Lautsprecher zurückgerufen. {owner} ist in Panik geraten und hat aufgelegt. Alle haben genug gehört, um es sich zu denken.
+2151|{crush} hat {owner} gesagt, dass es auf Gegenseitigkeit beruht. Der Lautsprecher hat den beiden einen Gefallen getan.
+2152|{crush} hat {owner} nach dem Lautsprecher-Geständnis sanft abblitzen lassen.
+2153|{teaser} hört nicht auf, {owner} mit dem Lautsprecher-Geständnis aufzuziehen.
+2154|{owner:s} privates Telefonat lief über Lautsprecher. Alle in der Nähe haben jedes Wort gehört.
+2155|Ece hat Kaffee über {target} geschüttet. {target} findet das GAR NICHT lustig.
+2156|Ece hat Kaffee über {target} geschüttet, aber {target} hat darüber gelacht.
+2157|{leader} ist mit einer Petition und einer Gruppe in Ahmets Büro marschiert. Ahmet hat versprochen, für Gehaltserhöhungen zu kämpfen. Jubel überall.
+2158|{leader:s} Petition für Gehaltserhöhungen hat genug Unterschriften. Nächster Halt: Ahmets Büro.
+2159|{leader:s} Petition für Gehaltserhöhungen hat kaum Unterschriften bekommen. Die Revolte ist verpufft.
+2160|{leader} hat die Unzufriedenen in der Küche versammelt. Das Gespräch kam auf Gehaltserhöhungen.
+2161|{leader} ist mit einer Petition und einer Gruppe in Ahmets Büro marschiert. Ahmet hat alle rausgeworfen. Die Stimmung ist düster.
+2162|{owner:s} Zettel „Mittagessen um 1?“ — eigentlich für {friend} — ist auf {target:s} Schreibtisch gelandet. Am Ende haben die beiden zusammen gegessen.
+2163|Der Kaffee ist heute dreifach stark. {actor} vibriert.
+2164|{owner:s} Routine-Mail ging mit dem Betreff „DRINGEND: Entlassungen“ raus. Im Büro herrscht Panik.
+2165|{owner:s} E-Mail ging mit dem Titel „Party bei mir heute Abend!“ raus. Die Leute sagen zu. {owner} hat keine Party geplant.
+2166|{owner:s} E-Mail ging mit dem Titel „Re: deine Gehaltserhöhung“ raus. Jetzt glauben alle, {owner} hätte eine bekommen.
+2167|{actor} hat Ahmet Honig ums Maul geschmiert. Es hat funktioniert.
+2168|{actor} wollte Ahmet Honig ums Maul schmieren. Er hat nicht angebissen.
+2169|{actor} wollte Büromaterial holen und fand ALLES gehortet in {target:s} Schublade.
+2170|{actor} verdächtigt {suspect}, am eigenen Schreibtisch herumgepfuscht zu haben.
+2171|{target} hat versehentlich {owner:s} Handy genommen und eine Nachricht gelesen, die nicht für {target?ihn|sie} bestimmt war.
+2172|{owner} und {target} haben ihre Handys zurückgetauscht. {target} sah aus, als wüsste {target?er|sie} etwas.
+2173|Zwei Leistungsbeurteilungen wurden vertauscht. Ahmet hat {owner} gelobt ... und {target} wegen {owner:s} Zahlen gegrillt.
+2174|Die Telefonzentrale am Empfang spielt verrückt. Anrufe landen überall im Büro an den falschen Tischen.
+2175|{actor} hat einen Anruf für {intended} angenommen — und etwas erfahren, das {actor?er|sie} nicht hätte erfahren sollen.
+2176|{target} hat Ahmet Widerworte gegeben!
+2177|{actor} hat Mert mit Ceren aufgezogen.
+2178|Jemand (du) hat am Thermostat herumgespielt. Jetzt sind es {temp}.
+2179|Ahmets Dankeskarte für {rich} ist bei {target} gelandet. {target} hat sich bei Ahmet dafür bedankt. Peinlich für alle.
+2180|{target} grummelt über {actor} und das Thermostat.
+2181|{actor} wollte die Temperatur ändern — das Thermostat war gesperrt.
+2182|Thermostat-Krieg! {actor} und {target} streiten sich um die Klimaanlage.
+2183|In der Küche ist ein Trinkgeldglas „Danke, Burak, dass du alles reparierst“ aufgetaucht. Die Leute werfen was rein. Burak ist sprachlos.
+2184|{target} hat die Schuld für etwas auf sich genommen, das {target?er|sie} nicht getan hat.
+2185|{actor} hat einen Versetzungsantrag in eine weit entfernte Filiale gefunden. Ahmet hat es nicht direkt abgestritten.
+2186|{actor} hat einen Versetzungsantrag in eine weit entfernte Filiale gefunden. Ahmet hat geschworen, {actor?ihn|sie} nie wegzuschicken. {actor} fühlt sich wertgeschätzt.
+2187|Ein anonymes Tablett mit Tee und Keksen hat das halbe Büro in die Küche gelockt. {claimer} hat die Lorbeeren eingeheimst.
+2188|{target:s} Kunden-Mail war voller Tippfehler. Zum Glück fand der Kunde „Mit freudnlichen Grüßen“ lustig.
+2189|Ein Kunde hat sich über die vielen Tippfehler in {target:s} E-Mail beschwert. Ahmet war außer sich.
+2190|Unerwartete Solidarität: {actor} hat {target} geholfen, eine Deadline zu schaffen.
+2191|{target} wurde still und leise aus der Meeting-Einladung entfernt — und hat es erst hinterher erfahren.
+2192|{actor:s} „toter“ Monitor war nur ausgesteckt. {actor} hat es gemerkt. Irgendwann.
+2193|{actor:s} Entschuldigung an {target} ist verschwunden, bevor sie gelesen wurde. Jetzt streiten sie darüber, ob sie je abgeschickt wurde.
+2194|{actor} dachte, die Entschuldigung sei bei {target} angekommen. War sie nicht. Also hat {actor} sich persönlich entschuldigt — und es hat geklappt.
+2195|{actor} aktualisiert am Schreibtisch heimlich den Lebenslauf.
+2196|{spotter} hat ein Jobportal auf {actor:s} Bildschirm entdeckt.
+2197|Jedes Blatt auf {actor:s} Schreibtisch trägt plötzlich den Stempel DRINGEND. {actor} arbeitet panisch die Mittagspause durch.
+2198|{target} hat gesehen, wie {actor} in „DRINGEND“-Papieren ertrinkt, und geholfen.
+2199|{listener} hat {actor} getröstet, {actor?der|die} total gestresst war.
+2200|{actor} hat „Virus!“ geschrien. {target} hat das falsche Pop-up in zwei Sekunden geschlossen. Das Büro lacht immer noch.
+2201|Wegen {actor:s} „Virus“ hat {target} dem Büronetzwerk den Stecker gezogen. Niemand kann arbeiten.
+2202|{owner} hat eine Sprachnachricht aufgenommen, um ein Geständnis an {crush} zu üben. Sie ist bei {crush} angekommen.
+2203|Eine private Sprachnachricht von {owner} ist in {target:s} Mailbox gelandet.
+2204|Laut Tafel sollte das heutige Meeting „5 Minuten“ dauern. Nach zehn sind die Leute Ahmet einfach davongelaufen.
+2205|{actor:s} Hintergrundbild ist ein tropischer Strand. Produktivität: weg.
+2206|{actor:s} Hintergrundbild ist jetzt ein riesiges Foto von Ahmet. Die Leute starren.
+2207|{actor} hat beschlossen, das Hintergrundbild vom Geist zu behalten.
+2208|{actor} hat sich hingesetzt und vierzig Kätzchen auf dem Hintergrundbild gefunden.
+2209|Jemand hat die Wanduhr im Büro verstellt: {what}. Die Leute vertrauen ihr.
+2210|{actor} hat der Wanduhr vertraut und früh eingepackt. Ahmet hat {actor?ihn|sie} an der Tür erwischt.
+2211|{actor} hat den Wasserspender tot vorgefunden.
+2212|Ece wollte den Wasserspender reparieren. Die Lounge ist jetzt ein See.
+2213|Eine „Wir müssen reden“-SMS von {owner:s} Handy hat zu einem unerwarteten Geständnis an {crush} geführt.
+2214|{crush} hat eine Stunde lang wegen einer „Wir müssen reden“-SMS von {owner} Panik geschoben. {owner} hat sie nie geschickt.
+2215|Ahmet hat {target} in letzter Minute einen dringenden Bericht aufgehalst.
+2216|Ahmet hat {target} einen dringenden Bericht aufgehalst, und {target} hat ihn prompt an {helper} weitergereicht.
+2217|{target} hat sich gegen Ahmets Last-Minute-Bericht gewehrt. Ahmet ist hart geblieben.
+2218|Im Meeting hat Ahmet direkt aus einer frisierten Beförderungsakte vorgelesen und {credited} als neue Teamleitung verkündet. {rightful} ist fassungslos.
+2219|Ahmet hat die Beförderung öffentlich korrigiert: Sie geht an {rightful}. {credited} hatte sie genau einen Nachmittag lang.
+2220|{rightful} ist zu Ahmet gegangen: Die Beförderungsakte wurde manipuliert.
+2221|Ahmet weigert sich, die Beförderung rückgängig zu machen. {credited} behält sie. {rightful} tobt.
+2222|{target} hat sich die Lorbeeren für die reparierte Kaffeemaschine eingeheimst. (Das warst du.)
+2223|{target} wurde versehentlich ins Meeting eingeladen — und hatte die beste Idee im Raum.
+2224|{target} ist zu einem Meeting aufgetaucht, das gar nicht für {target?ihn|sie} gedacht war. Ahmet hat {target?ihn|sie} weggeschickt.
+2225|Ahmet hat {target} mit dem falschen Namen angesprochen. Schon wieder.
+2226|{owner} hat einen „verpassten Anruf“ zurückgerufen — es war {target:s} Nummer. Die beiden haben ewig gequatscht.
+2227|{owner} hat {target} wegen eines „verpassten Anrufs“ zurückgerufen. Keiner von beiden hatte angerufen. Es wurde schnippisch.
+2228|Laut einem Zettel an der Pinnwand ist das Budget für Gehaltserhöhungen dieses Jahr null. Die Stimmung im Büro ist abgestürzt.
+2229|Zeynep hat Ahmet gesagt, dass der „Null-Budget“-Zettel gefälscht war. Ahmet hat ihn abgerissen — aber der Schaden ist angerichtet.
+2230|Zeynep hat {target} gesagt, dass {suspect} es war.
+2231|{actor} hat mich beschuldigt. Ruhig, aber trotzdem.
+2232|Ich dachte, mein Antrag wäre genehmigt. War er nicht. Ahmet hat mich ausgelacht.
+2233|Ich hatte Streit mit {target}.
+2234|{actor} hat mich direkt gefragt, statt zu tratschen.
+2235|Ahmet hat meinen Buchhaltungsfehler entdeckt.
+2236|{target} hat sich mit meinem Projekt geschmückt.
+2237|{target} hat Ahmet gesagt, dass das Projekt von mir war.
+2238|Ahmet hat mir tatsächlich zugehört.
+2239|Ahmet hat mir eine letzte Abmahnung gegeben.
+2240|Alle haben mir eine Überraschungs-Geburtstagsparty geschmissen.
+2241|Ahmet hat mich erwischt, wie ich {scapegoat} die Schuld zugeschoben habe.
+2242|Ahmet hat mir die Schuld für {culprit:s} Fehler gegeben.
+2243|{target} hat mir vor Ahmet die Schuld für den eigenen Fehler gegeben.
+2244|Ahmet hat mir die Schuld für das Kalenderchaos gegeben.
+2245|Ahmet hat gesagt, dass ich gute Arbeit mache.
+2246|Ahmet hat mich vor allen angeschrien.
+2247|{actor} hat mir einen Snack gebracht, als ich unterging.
+2248|Wir haben Schluss gemacht.
+2249|Ich bin zu einem Date erschienen, das es nicht gab.
+2250|{friend} hat mich bei Ahmet gedeckt.
+2251|{target} hat MEINE Arbeit als die eigene präsentiert.
+2252|Wir haben den Stromausfall zusammen durchgestanden.
+2253|{defender} hat sich für mich eingesetzt.
+2254|Jemand hat meinen Schreibtisch durchwühlt.
+2255|Burak hat mich vor einer Katastrophe gerettet und dichtgehalten.
+2256|Ahmet hat mir in letzter Minute dringende Arbeit aufgehalst.
+2257|Ece hat mir geholfen, meinen Schreibtisch aufzuräumen.
+2258|{target} und ich sind aus Versehen zusammen Kaffee trinken gegangen.

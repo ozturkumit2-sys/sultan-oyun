@@ -1,0 +1,188 @@
+5278|ringtone_owner|_|0|That's not my ringtone! Make it stop!
+5279|ringtone_owner|_|1|I didn't choose that! I swear!
+5280|fwdcall_answer|_|0|Hello, {owner}'s phone... er, MY phone... Hello?
+5281|fwdcall_answer|_|1|Yes, this is— no, I'm not {owner}. But I can help!
+5282|fwdcall_help|_|0|I took a client call for you. Here's the message.
+5283|fwdcall_help|_|1|Your client called me by mistake. I sorted it out for you.
+5284|fwdcall_thanks|_|0|You did? Thank you!
+5285|fwdcall_thanks|_|1|That's... really nice of you.
+5286|fwdcall_steal|_|0|A client looking for {owner}? ...I'll handle this personally.
+5287|fwdcall_steal|_|1|Hm. {owner}'s client. My client now.
+5288|fwdcall_steal|deniz|0|Opportunity knocks. Literally.
+5289|fwdcall_owner_finds|_|0|My client says they've been dealing with {target}?!
+5290|fwdcall_owner_finds|_|1|{target} took my client?!
+5291|notif_preview|_|0|Huh — a preview popped up: '{owner}: can't stand {worst} today'...
+5292|notif_preview|_|1|Why am I getting {owner}'s notifications? '...{worst} is SO annoying.'
+5293|notif_preview_hurt|_|0|...{owner} can't stand me?
+5294|notif_preview_hurt|_|1|Oh. So that's what {owner} says about me.
+5295|fridgephone_lost|_|0|My phone. Where's my phone? It was RIGHT HERE.
+5296|fridgephone_lost|_|1|Has anyone seen my phone?!
+5297|fridgephone_found|_|0|...It's in the FRIDGE. Next to the milk. It's FREEZING.
+5298|fridgephone_found|_|1|My phone is in the fridge. Why is my phone in the fridge?!
+5299|remind_flowers|_|0|'Reminder: buy flowers for {crush}'? Did I set that?
+5300|remind_flowers|_|1|My phone says I should buy {crush} flowers. ...Should I?
+5301|remind_gym|_|0|'Gym — 16:30 — DON'T SKIP'. Okay, phone. Okay.
+5302|remind_gym|_|1|Gym reminder. I guess I'm leaving early!
+5303|remind_raise|_|0|'TODAY: ask Ahmet for a raise.' ...You know what? Yes.
+5304|remind_raise|_|1|Phone says: ask for a raise. The phone is right.
+5305|flowers_give|_|0|These are for you. Don't ask why. Even I don't know.
+5306|flowers_give|_|1|I got you flowers. My phone told me to. That sounds weird.
+5307|flowers_love|_|0|For me? ...That's really sweet.
+5308|flowers_love|_|1|Flowers! Nobody's ever— thank you.
+5309|flowers_awkward|_|0|...Thanks? Is this a joke?
+5310|flowers_awkward|_|1|Oh. Um. Flowers. Okay.
+5311|raise_ask_line|_|0|Ahmet Bey, I'd like a raise. Today.
+5312|raise_ask_line|_|1|I've decided I deserve a raise. Can we talk?
+5313|callback_late|_|0|The client called back — an HOUR late — and the deal's gone.
+5314|callback_late|_|1|They signed with a competitor. Because I missed one call?!
+5315|callback_boss|_|0|You LOST the client, {owner}?!
+5316|callback_boss|_|1|One call. You missed ONE call and we lost the account?
+5317|vm_listen|_|0|A voicemail from {owner}? For... me? Let's hear it.
+5318|vm_listen|_|1|'New voicemail from {owner}.' Hm.
+5319|vm_confession|_|0|...{owner} says they LIKE me?!
+5320|vm_confession|_|1|Wait. Was that... a love confession? From {owner}?
+5321|vm_secret|_|0|...I wasn't supposed to hear that.
+5322|vm_secret|_|1|Oh no. That was private.
+5323|wrongcb_call|_|0|Hi, returning your call— {target}?! YOU called me?
+5324|wrongcb_call|_|1|Hello? Oh. It's... you.
+5325|wrongcb_chat|_|0|Well, since we're on the phone... how are you, really?
+5326|wrongcb_chat|_|1|Ha. Okay, since I've got you — lunch sometime?
+5327|wrongcb_fight|_|0|I didn't call you. Why would I call you?
+5328|wrongcb_fight|_|1|Is this some kind of joke?
+5329|speaker_call|_|0|*on speaker* '...Yes Mum, I'm eating vegetables.'
+5330|speaker_call|_|1|*on speaker* '...and then I told them I'd never seen that file. Ha!'
+5331|speaker_realise|_|0|...Why is everyone looking at me? Oh no. SPEAKER.
+5332|speaker_realise|_|1|It's on SPEAKER?!
+5333|dnd_boss|_|0|I've called you FOUR TIMES, {target}!
+5334|dnd_boss|_|1|Why aren't you answering your phone, {target}?!
+5335|dnd_explain|_|0|What? It never rang! Look — Do Not Disturb? I didn't turn that on!
+5336|dnd_explain|_|1|My phone didn't ring once!
+5337|dnd_scold|_|0|Then fix your phone. I don't chase people.
+5338|dnd_scold|_|1|Unacceptable. Be reachable.
+5339|dnd_ok|_|0|...Hm. Technology. Fine.
+5340|dnd_ok|_|1|Get Burak to look at it.
+5341|prank_boss_pick|_|0|Hello? ...Hello? Who is this? ...Is someone BREATHING?
+5342|prank_boss_pick|_|1|*heavy breathing on the line* ...What on earth?
+5343|prank_boss_see|_|0|That call came from {owner}'s extension.
+5344|prank_boss_see|_|1|Extension... {owner}. Interesting.
+5345|switch_wrong|_|0|Hello? ...No, this isn't accounting. Why does everyone think I'm accounting?
+5346|switch_wrong|_|1|Wrong desk AGAIN. Ceren, the phones are possessed!
+5347|switch_ceren|_|0|The switchboard's gone mad! I didn't touch it!
+5348|switch_ceren|_|1|Every call is going to the wrong desk. Every. Single. One.
+5349|switch_overhear|_|0|...Wait, that call was for {intended}. And it was VERY interesting.
+5350|switch_overhear|_|1|I just took a call meant for {intended}. Oh, the things I heard.
+5351|hold_client|_|0|The client says our hold music is 'heavy metal screaming'?!
+5352|hold_client|_|1|A client hung up because of the hold music. It's a break-up ballad?!
+5353|hold_boss|_|0|Ceren! Our hold music is driving clients away!
+5354|hold_boss|_|1|WHO changed the hold music?
+5355|hold_ceren|_|0|I didn't change anything! I swear!
+5356|hold_ceren|_|1|That's not what I set! Someone's been in my system.
+5357|coatphone_ring|_|0|...Why is {coat}'s jacket RINGING with MY ringtone?
+5358|coatphone_ring|_|1|That's my phone! In {coat}'s coat pocket!
+5359|coatphone_accuse|_|0|Why is my phone in YOUR coat, {target}?!
+5360|coatphone_accuse|_|1|Explain how my phone got in your pocket, {target}.
+5361|coatphone_innocent|_|0|I have no idea! I haven't touched my coat all day!
+5362|coatphone_innocent|_|1|What?! I didn't take your phone!
+5363|wntt_read|_|0|'We need to talk.' From {owner}. ...Oh no.
+5364|wntt_read|_|1|'We need to talk'?! What did I do?
+5365|wntt_ask|_|0|You wanted to talk? I'm here. Just say it.
+5366|wntt_ask|_|1|Okay. I'm ready. What's wrong?
+5367|wntt_confused|_|0|Talk? About what? I never sent that!
+5368|wntt_confused|_|1|What? I didn't text you anything!
+5369|wntt_confess|_|0|...Okay, maybe I DO need to say something. I like you. A lot.
+5370|wntt_confess|_|1|Since you're here... I've wanted to tell you something for a while.
+5371|wntt_relief|_|0|Oh thank god. I thought you were breaking up with me!
+5372|wntt_relief|_|1|Phew! I've been panicking for an hour!
+5373|alarm_ring|_|0|*BEEP BEEP BEEP* 'WAKE UP! WAKE UP!'
+5374|alarm_ring|_|1|*phone alarm: 'TIME FOR YOUR NAP!'*
+5375|alarm_boss|_|0|Is that a PHONE ALARM in my meeting?!
+5376|alarm_boss|_|1|Whose phone is screaming 'wake up'?!
+5377|alarm_owner|_|0|That's not— I didn't set that!
+5378|alarm_owner|_|1|Sorry! Sorry! I don't know how to turn it off!
+5379|battery_dead|_|0|Dead?! It was at 90% an hour ago!
+5380|battery_dead|_|1|My phone's DEAD. I need a charger. Now.
+5381|battery_borrow|_|0|Burak's charger! He won't mind. Probably.
+5382|battery_borrow|_|1|I'll just borrow Burak's charger for a minute.
+5383|photo_see|_|0|Is that {owner} at the karaoke night?! Ha!
+5384|photo_see|_|1|That PHOTO of {owner}! The hair! The outfit!
+5385|photo_see|_|2|Who posted {owner} asleep at their desk?!
+5386|photo_owner|_|0|Who posted that?! DELETE IT!
+5387|photo_owner|_|1|That photo was supposed to be gone forever!
+5388|photo_blame|_|0|I bet {suspect} posted that.
+5389|photo_blame|_|1|{suspect}. It has to be {suspect}.
+5390|mug_drink|_|0|Mmm. Coffee. ...This mug's new.
+5391|mug_drink|_|1|Nice mug. Is it mine? It's mine now.
+5392|mug_claim|_|0|Excuse me — that's MY mug.
+5393|mug_claim|_|1|Are you drinking out of my mug?!
+5394|mug_claim|_|2|That mug. Is. Mine.
+5395|mug_claim|selin|0|That mug is mine. It has my initials on it.
+5396|mug_sorry|_|0|Oh! Sorry! They were swapped on the rack!
+5397|mug_sorry|_|1|Is it? They all look the same!
+5398|mug_blush|_|0|...So we've shared a mug now. That's... a step.
+5399|mug_blush|_|1|Indirect kiss! ...Sorry. That was weird.
+5400|decaf_sleepy|_|0|...Why am I still tired? That was my third coffee.
+5401|decaf_sleepy|_|1|This coffee isn't working. Is it broken? Am I broken?
+5402|decaf_sleepy|_|2|*yaaawn*
+5403|decaf_blame|_|0|Zeynep, did you switch us to cheap coffee to save money?!
+5404|decaf_blame|_|1|It's DECAF! Somebody cut the coffee budget!
+5405|decaf_zeynep|_|0|I did NOT touch the coffee budget!
+5406|decaf_zeynep|_|1|Don't look at me. I'd never mess with coffee.
+5407|lunchmove_found|_|0|...My lunch. On the TOP shelf. Behind the mustard. I accused people for NOTHING.
+5408|lunchmove_found|_|1|Oh. There it is. It was hiding. Oops.
+5409|cwait_line|_|0|'Warming up'? For how long?!
+5410|cwait_line|_|1|It says 'please wait'. I've been waiting.
+5411|cwait_line|_|2|Come on, come on, warm up!
+5412|cwait_chat|_|0|So... since we're both stuck here...
+5413|cwait_chat|_|1|Coffee queue buddies. How's your day?
+5414|cwait_chat|_|2|Did you hear what happened yesterday?
+5415|water_dead|_|0|The water cooler's dry. In THIS heat?
+5416|water_dead|_|1|No water? Not even water?
+5417|water_dead|_|2|*glug*... nothing.
+5418|water_ece_try|_|0|I'll fix it! I watched a video once!
+5419|water_ece_try|_|1|Leave it to me!
+5420|water_flood|_|0|Oh no. Oh no no no. WATER EVERYWHERE!
+5421|water_flood|_|1|It's leaking! It's LEAKING!
+5422|snack_search|_|0|Where did the snacks go? The snack box is GONE.
+5423|snack_search|_|1|No snacks? This is a crisis.
+5424|snack_search|mert|0|Snack emergency. Snack. Emergency.
+5425|snack_found|_|0|{target}'s drawer is FULL of our snacks!
+5426|snack_found|_|1|So THIS is where the snacks went, {target}.
+5427|snack_share|_|0|...Okay, they're not mine, but — take some! Take all of them!
+5428|snack_share|_|1|Snacks for everyone! I'm as surprised as you!
+5429|snack_refuse|_|0|They're in MY drawer, so... they're my snacks now.
+5430|snack_refuse|_|1|Finders keepers.
+5431|cake_early_see|_|0|...Is that a birthday cake? With MY name on it?
+5432|cake_early_see|_|1|Wait. That cake says my name. Was that... a surprise?
+5433|cake_planner_sad|_|0|NO! That was supposed to be a SURPRISE!
+5434|cake_planner_sad|_|1|Who put the cake out?! It was hidden!
+5435|reserved_sign|_|0|'KITCHEN RESERVED — Ahmet — private lunch'?!
+5436|reserved_sign|_|1|We can't eat in the kitchen? Since when?
+5437|reserved_boss|_|0|Why is there a sign with my name on the kitchen?
+5438|reserved_boss|_|1|Private lunch? I'm eating a sandwich at my desk!
+5439|micro_dead|_|0|The microwave's dead! My lunch is FROZEN!
+5440|micro_dead|_|1|Not the microwave. Anything but the microwave.
+5441|micro_dead|_|2|Cold pasta. Again.
+5442|micro_queue|_|0|Is there another microwave anywhere?
+5443|micro_queue|_|1|I'm starving and my soup is an ice cube.
+5444|fish_smell|_|0|WHO MICROWAVED FISH?!
+5445|fish_smell|_|1|What is that SMELL?!
+5446|fish_smell|_|2|Fish. In the microwave. In an OFFICE.
+5447|fish_smell|ahmet|0|Who is responsible for this STENCH?
+5448|fish_label|_|0|The label says it's {target}'s.
+5449|fish_label|_|1|It's {target}'s lunch. The label's right there.
+5450|fish_innocent|_|0|That's not my lunch! I brought a sandwich!
+5451|fish_innocent|_|1|I don't even LIKE fish!
+5452|salt_spit|_|0|*PFFT* SALT! There's SALT in the sugar!
+5453|salt_spit|_|1|BLEGH! Who put salt in the sugar jar?!
+5454|fnote_read|_|0|'STOP STEALING MY YOGHURT. I KNOW WHO YOU ARE. — {target}' ...Wow.
+5455|fnote_read|_|1|Passive-aggressive note from {target} on the fridge. Classy.
+5456|fnote_deny|_|0|I didn't write that note! I don't even eat yoghurt!
+5457|fnote_deny|_|1|That's not my handwriting!
+5458|purge_shock|_|0|The fridge is EMPTY. Where's everyone's lunch?!
+5459|purge_shock|_|1|Someone cleaned out the fridge. My lunch was in there!
+5460|purge_out|_|0|You know what? Let's all go out for lunch.
+5461|purge_out|_|1|Lunch out, together? My treat-ish.
+5462|strong_jitter|_|0|I can hear colours.
+5463|strong_jitter|_|1|WOW. That's... that's coffee. WOW.
+5464|strong_jitter|_|2|My heart is doing a drum solo.
+5465|strong_jitter|mert|0|I could close ten deals right now. TEN.

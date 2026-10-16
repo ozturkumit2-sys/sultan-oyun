@@ -1,0 +1,183 @@
+5676|couplephoto_see|_|0|Is that {target} and {partner}... holding hands?!
+5677|couplephoto_see|_|1|A photo of {target} and {partner}! Together!
+5678|couplephoto_deny|_|0|That's FAKE! That's photoshopped!
+5679|couplephoto_deny|_|1|We have NEVER held hands!
+5680|couplephoto_secret|_|0|...It's fake. Obviously. ...It's a nice photo, though.
+5681|couplephoto_secret|_|1|Ha. Fake. Right. Totally fake.
+5682|excluded_read|_|0|'Drinks after work! Everyone welcome!' ...Except me, apparently.
+5683|excluded_read|_|1|Every name on the list but mine.
+5684|excluded_ask|_|0|So... your drinks invite. Did you leave me off on purpose?
+5685|excluded_ask|_|1|Why wasn't I on the list?
+5686|excluded_sorry|_|0|What? No! You're invited! Of course you're invited!
+5687|excluded_sorry|_|1|That's not my list! Come! Please come!
+5688|excluded_cold|_|0|Well... it's a small group.
+5689|excluded_cold|_|1|It's not a big deal.
+5690|tipjar_see|_|0|'Thank you Burak for fixing everything.' A tip jar! I'm in.
+5691|tipjar_see|_|1|A tip jar for Burak? He deserves it.
+5692|tipjar_burak|_|0|...Is this for me? Who did this?
+5693|tipjar_burak|_|1|A tip jar. For me. Huh. Thanks, everyone.
+5694|sbox_boss_promote|_|0|Six notes saying 'Promote {target}'. Interesting.
+5695|sbox_boss_promote|_|1|The staff seem to love {target}. Noted.
+5696|sbox_boss_fire|_|0|Six notes saying 'Fire {target}'?! What's going on?
+5697|sbox_boss_fire|_|1|Hm. Someone REALLY doesn't like {target}.
+5698|sbox_target_hear|_|0|People wrote 'fire me' in the suggestion box?!
+5699|sbox_target_hear|_|1|Who would write that about me?!
+5700|iknow_read|_|0|'I know what you did.' ...What? WHO knows WHAT?
+5701|iknow_read|_|1|'I know what you did.' No signature. My hands are shaking.
+5702|iknow_confess|_|0|I have to tell someone. Okay. {friend}... I need to tell you something.
+5703|iknow_confess|_|1|{friend}, can we talk? Somewhere private?
+5704|iknow_paranoid|_|0|Everybody's looking at me. They all know. Don't they?
+5705|iknow_paranoid|_|1|Was it you? Was it YOU?
+5706|j01_intro|_|0|Before we start — I have promotion news. I've read the file.
+5707|j01_intro|_|1|One announcement first. The promotion file is very clear.
+5708|j02_blush|_|0|A love note AND a coffee invite? From {owner}? Today?
+5709|j02_blush|_|1|Oh my god. {owner} wants a DATE?
+5710|j03_read|_|0|A job application — stapled to THIS performance report? {applicant}. My office.
+5711|j03_read|_|1|So {applicant} wants out. And look at this report.
+5712|j03_accuse|_|0|Your report is a disaster and you're applying elsewhere. Explain.
+5713|j03_accuse|_|1|Job hunting? With numbers like these? Interesting.
+5714|j03_quit|_|0|You know what? Fine. I quit. I'll print my letter now.
+5715|j03_quit|_|1|I'm done. You'll have my resignation in ten minutes.
+5716|j03_plead|_|0|Please — the report is wrong! I can explain everything!
+5717|j03_plead|_|1|That's not my report! Someone changed it!
+5718|j04_send|_|0|*whoosh* — 'Final figures, CC Ahmet' — sent.
+5719|j04_send|_|1|*the old spreadsheet leaves the building*
+5720|j05_read|_|0|'Restructuring — Q&A, 11:00'?! It's on the AGENDA?!
+5721|j05_read|_|1|The memo AND the agenda? This is real. They're firing people.
+5722|j06_crown|_|0|The board says I'm acting manager today. Who am I to argue?
+5723|j06_crown|_|1|'Acting manager: me.' Well. If the board says so.
+5724|j07_scream|_|0|THE LIGHTS ARE FLICKERING AND MY SCREEN HAS A SKULL ON IT!
+5725|j07_scream|_|1|It's in the COMPUTERS now. The ghost is in the computers!
+5726|j08_read|_|0|Raise budget ZERO — and THAT's what some people earn?!
+5727|j08_read|_|1|I've seen the payroll. And now 'no raises'? No. Absolutely not.
+5728|j09_kickoff|_|0|Music? Disco lights? SNACKS? This is a party. I'm making it a party.
+5729|j09_kickoff|_|1|Okay, the universe wants a party. Who am I to say no?
+5730|j10_find|_|0|A transfer request. AND a reference letter. Both for {target}.
+5731|j10_find|_|1|Hm. {target}'s papers. Both of them. Interesting.
+5732|j11_note|_|0|'Double date at lunch?' Who wrote that on our photo?!
+5733|j11_note|_|1|Someone's drawn hearts on the photo. And a lunch table. For four.
+5734|j13_reminder|_|0|CLIENT ARRIVING IN 30 MINUTES — the projector's first.
+5735|j13_reminder|_|1|*taps the board* 'Client presentation: {presenter}'. Wait. Me?
+5736|j15_sign|_|0|'I threw it all out. Label your food. — {signer}'?!
+5737|j15_sign|_|1|{signer} threw out EVERYONE's lunch? And signed it?!
+5738|j16_see|_|0|'I quit' auto-reply AND a resignation letter? {owner} is really leaving!
+5739|j16_see|_|1|Oh no. {owner}'s leaving. It's real. The letter's right there.
+5740|j18_storm|_|0|That review was RIGGED. Someone rewrote my report and he believed every word!
+5741|j18_storm|_|1|He read me a report I never wrote. And he enjoyed it.
+5742|j19_sign|_|0|The anonymous complaint about me is in {gossip}'s handwriting?!
+5743|j19_sign|_|1|So it was {gossip}. The rumour AND the complaint.
+5744|j20_wonder|_|0|A kind note AND a compliment on the board? Someone likes me. Who?!
+5745|j20_wonder|_|1|Two anonymous nice things in one day? This is a secret admirer.
+5746|gh_announce|_|0|I'm telling you: this office is HAUNTED.
+5747|gh_announce|_|1|Lights. Printers. Coffee machines. It's a ghost. I'm sure of it.
+5748|gh_announce|_|2|Something is living in this office. Something... invisible.
+5749|gh_announce|ece|0|There's a GHOST. I'm scared but also SO excited.
+5750|gh_announce|zeynep|0|I've seen things. I'm keeping notes.
+5751|gh_recruit|_|0|Séance. Meeting room. After lunch. You in?
+5752|gh_recruit|_|1|We need to contact the ghost. Properly. Are you with me?
+5753|gh_recruit_yes|_|0|YES. I'll bring candles.
+5754|gh_recruit_yes|_|1|I'm in. I've always wanted to do a séance.
+5755|gh_recruit_no|_|0|Absolutely not. You need sleep.
+5756|gh_recruit_no|_|1|I'm not talking to the printer's soul.
+5757|gh_chant|_|0|Spirit of the office... are you there? Knock once for yes.
+5758|gh_chant|_|1|Oh ghost... if you're here... flicker the lights.
+5759|gh_scream|_|0|AAAAAH! IT ANSWERED!
+5760|gh_scream|_|1|THE LIGHTS! DID YOU SEE THE LIGHTS?!
+5761|gh_nothing|_|0|...Nothing.
+5762|gh_nothing|_|1|Maybe it's on lunch break.
+5763|gh_nothing|_|2|Well. That was an hour of my life.
+5764|gh_debunk|_|0|It was a loose wire in the ceiling. Not a ghost. Please stop.
+5765|gh_debunk|_|1|I checked the breaker. Faulty relay. There is no ghost.
+5766|gh_believe_burak|_|0|...Oh. A relay. Right. Of course.
+5767|gh_believe_burak|_|1|Fine. No ghost. ...Probably.
+5768|gh_dont_believe|_|0|That's EXACTLY what a ghost would want you to say.
+5769|gh_dont_believe|_|1|You can't explain everything with 'relays', Burak.
+5770|coup_announce|_|0|Attention, everyone! New efficiency measures, effective immediately.
+5771|coup_announce|_|1|Listen up. While Ahmet's busy, I'm streamlining things.
+5772|coup_announce|deniz|0|Team. A few changes. Effective now. Questions? No? Good.
+5773|coup_follow|_|0|Sure, whatever you say.
+5774|coup_follow|_|1|Okay! New rules!
+5775|coup_resist|_|0|Who put YOU in charge?
+5776|coup_resist|_|1|You're not the boss.
+5777|coup_resist|_|2|Nice try.
+5778|coup_ally_ask|_|0|You and me. When Ahmet's out, we run this place. Deal?
+5779|coup_ally_ask|_|1|I need a second-in-command. Interested?
+5780|coup_ally_yes|_|0|...Deal. What's in it for me?
+5781|coup_ally_yes|_|1|I'm listening.
+5782|coup_ally_no|_|0|You're going to get us both fired.
+5783|coup_ally_no|_|1|Leave me out of this.
+5784|coup_boss|_|0|I hear YOU'VE been running my office, {usurper}.
+5785|coup_boss|_|1|'Efficiency measures', {usurper}? In MY office?
+5786|coup_bold|_|0|Someone had to. Things were falling apart.
+5787|coup_bold|_|1|I took initiative. You're welcome.
+5788|coup_crushed|_|0|You're on thin ice. Very thin.
+5789|coup_crushed|_|1|One more stunt and you're done here.
+5790|coup_impressed|_|0|...Actually, some of those measures aren't bad. Write them up.
+5791|coup_impressed|_|1|Hm. Bold. Maybe too bold. But not stupid.
+5792|lt_notice|_|0|...Is {lover} flirting with {crush}? Right in front of me?
+5793|lt_notice|_|1|Oh, I see how it is. {lover} and {crush}. Cute.
+5794|lt_warn|_|0|Back off. I saw {crush} first.
+5795|lt_warn|_|1|Stay away from {crush}. I mean it.
+5796|lt_backoff|_|0|...Fine. If it means that much to you.
+5797|lt_backoff|_|1|Okay. Okay. I'll step back.
+5798|lt_never|_|0|May the best person win.
+5799|lt_never|_|1|Not a chance. {crush} can decide.
+5800|lt_gesture|_|0|I made you a coffee. The way you like it. With a heart in the foam.
+5801|lt_gesture|_|1|Got you something. Saw it and thought of you.
+5802|lt_gesture_react|_|0|...That's really sweet.
+5803|lt_gesture_react|_|1|Oh! Thank you!
+5804|lt_gesture_react|_|2|You remembered?!
+5805|lt_choice_ask|_|0|So. Me or {lover}? I need to know.
+5806|lt_choice_ask|_|1|I have to ask: is there something between you and {lover}?
+5807|lt_choose_rival|_|0|...Honestly? It's you. It was always you.
+5808|lt_choose_rival|_|1|You. Obviously you.
+5809|lt_choose_lover|_|0|I'm sorry. I like {lover}.
+5810|lt_choose_lover|_|1|It's {lover}. I'm sorry.
+5811|lt_choose_none|_|0|Neither of you! You're both ridiculous!
+5812|lt_choose_none|_|1|I'm not a trophy. I'm not choosing anyone.
+5813|sr_grumble|_|0|We work harder every year and earn LESS. Enough.
+5814|sr_grumble|_|1|Is anyone else sick of this? Because I am.
+5815|sr_grumble|_|2|We should do something. Together.
+5816|sr_sign|_|0|Sign the petition? Fair raises for everyone.
+5817|sr_sign|_|1|One signature. For all of us.
+5818|sr_signed|_|0|Give me that pen.
+5819|sr_signed|_|1|Signed. About time.
+5820|sr_signed|_|2|Okay. I'm in.
+5821|sr_refused|_|0|I can't risk it.
+5822|sr_refused|_|1|Leave me out. I like my job.
+5823|sr_refused|_|2|Not my fight.
+5824|sr_count_many|_|0|Look at all these signatures. They can't ignore this.
+5825|sr_count_many|_|1|We've got numbers. Now we march.
+5826|sr_count_few|_|0|...Two signatures. One of them is mine.
+5827|sr_count_few|_|1|Nobody signed. Cowards. All of them.
+5828|sr_demand|_|0|Ahmet Bey, we're asking for fair raises. All of us.
+5829|sr_demand|_|1|We've signed a petition. We want to be paid fairly.
+5830|sr_concede|_|0|...Fine. I'll take it to HQ. You'll get something. I promise.
+5831|sr_concede|_|1|You make a fair point. I'll fight for it.
+5832|sr_refuse|_|0|A PETITION? This isn't a union hall!
+5833|sr_refuse|_|1|Anyone unhappy knows where the door is.
+5834|lm_outrage|_|0|That's the THIRD time! I'm finding out who it is.
+5835|lm_outrage|_|1|Somebody in this office is a LUNCH THIEF. And I'm going to catch them.
+5836|lm_hire|_|0|You notice everything. Help me catch a lunch thief?
+5837|lm_hire|_|1|I need a detective. You're the nosiest person I know. That's a compliment.
+5838|lm_accept|_|0|A mystery? I'm IN.
+5839|lm_accept|_|1|Leave it to me. Nobody steals lunch on my watch.
+5840|lm_watch|_|0|*hiding behind the fridge door* Any minute now...
+5841|lm_watch|_|1|Stakeout. Fridge. Eyes open.
+5842|lm_caught|_|0|GOTCHA! Hands off that lunch, {culprit}!
+5843|lm_caught|_|1|Caught red-handed, {culprit}! With a FORK!
+5844|lm_caught_excuse|_|0|I— it looked abandoned!
+5845|lm_caught_excuse|_|1|I thought it was free food!
+5846|lm_caught_excuse|_|2|It's not what it looks like. It's exactly what it looks like.
+5847|lm_nobody|_|0|Nothing. Nobody. The thief must know we're watching.
+5848|lm_nobody|_|1|Two hours by the fridge. Not even a yoghurt.
+5849|lm_bait|_|0|One extra-spicy 'lunch', labelled 'DO NOT EAT'. Let's see who can resist.
+5850|lm_bait|_|1|*plants a suspiciously delicious box in the fridge* Bait's set.
+5851|lm_spicy|_|0|HHHHH— WATER! WATER!
+5852|lm_spicy|_|1|WHY IS IT SO SPICY?!
+5853|lm_spicy|_|2|My mouth is on FIRE!
+5854|lm_laugh|_|0|HAHA! Serves you right!
+5855|lm_laugh|_|1|Somebody get them some milk!
+5856|lm_laugh|_|2|That's what you get for stealing!
+5857|lm_gotcha_bait|_|0|Caught by the chilli! It's {culprit}!
+5858|lm_gotcha_bait|_|1|The bait worked! {culprit}, you're busted!

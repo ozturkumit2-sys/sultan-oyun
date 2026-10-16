@@ -1,0 +1,201 @@
+5079|Hé... ça va ? On dirait que tu vas exploser.
+5080|Respire. Tu veux que je te décharge d'un truc ?
+5081|...Oui. S'il te plaît. Merci.
+5082|Je me noie. Merci.
+5083|Pourquoi {target} est AU-DESSUS d'Ahmet dans l'organigramme ?!
+5084|Un nouvel organigramme ? {target} est... {target?le patron|la patronne}, maintenant ?
+5085|Ha ! Regardez l'organigramme. {target} : PDG.
+5086|QUI a modifié l'organigramme ?!
+5087|{target} n'est PAS mon {target?supérieur|supérieure}. Corrigez ça. Tout de suite.
+5088|Eh bien. L'organigramme ne ment pas.
+5089|J'ai toujours su qu'ils finiraient par entendre raison.
+5090|Il était temps.
+5091|Ce n'est pas moi ! Croyez-moi, je vous en prie !
+5092|Enlevez ça ! ENLEVEZ ÇA !
+5093|{actor}, votre rapport s'arrête... comme ça. Où est la conclusion ?
+5094|La page douze sur douze manque, {actor}. La plus importante.
+5095|Elle y était ! J'ai imprimé treize pages !
+5096|Quoi ? J'ai forcément écrit une conclusion !
+5097|...et la conclusion est— il n'y a pas de conclusion. {owner} !
+5098|Où est la dernière page ? {owner}, venez ici.
+5099|Je suis sur la liste ?! EN TÊTE de la liste ?!
+5100|Moi ! Le premier nom sur la liste des promotions !
+5101|C'est réel ? Pince-moi. Non, ne fais pas ça.
+5102|Devine quel nom est en tête de la liste des promotions ?
+5103|Ne le dis à personne... mais je suis en tête de la liste.
+5104|Quelle liste ? Il n'y a PAS encore de liste.
+5105|Celui qui vous a dit ça a menti. Au travail.
+5106|{actor} ! D'après votre rapport, vous avez doublé votre production. Impressionnant !
+5107|Je viens de lire votre rapport de performance, {actor}. Exemplaire.
+5108|{actor}. Votre rapport de performance est... préoccupant.
+5109|Il faut qu'on parle de vos chiffres, {actor}. Ils sont catastrophiques.
+5110|Oh ! Merci ! Je... ne savais pas que c'était aussi bien.
+5111|Waouh. Je prends !
+5112|Catastrophiques ? Je travaille même le week-end !
+5113|Ce n'est pas vrai ! Ça ne peut pas être mes chiffres !
+5114|{actor} a eu une évaluation élogieuse ? Pour QUOI ?
+5115|Incroyable. {actor}, entre tous.
+5116|« Budget augmentations cette année : ZÉRO » ?!
+5117|Zéro augmentation. Pour personne. Cette année.
+5118|Voilà. Pas d'augmentations. Super.
+5119|Zéro ? Ce n'est pas ce que dit le budget...
+5120|À quoi bon se fatiguer ?
+5121|Ce soir, je mets mon CV à jour.
+5122|Zéro. Après l'année qu'on a eue.
+5123|Ahmet Bey, le budget des augmentations n'est pas à zéro. Qui a affiché ça ?
+5124|Quelqu'un fait circuler de faux chiffres. Ce n'est pas zéro.
+5125|ZÉRO ? Je n'ai jamais dit zéro ! Enlevez ça !
+5126|Ce n'est pas mon chiffre ! Qui a écrit ça ?
+5127|Une AUGMENTATION ?! Pour MOI ?!
+5128|« Votre augmentation de salaire a été approuvée »... OUI !
+5129|...Tiens. Je vais peut-être rester, finalement.
+5130|Cette lettre n'était pas pour toi, {target}. C'est celle de {rich}.
+5131|Désolée, {target} — erreur de paie. Cette augmentation est pour {rich}.
+5132|...Évidemment.
+5133|D'accord. Évidemment. Laisse tomber.
+5134|Une candidature ? De {applicant} ? Chez un CONCURRENT ?
+5135|Tiens. {applicant} veut partir.
+5136|{target}. J'ai trouvé votre candidature. Vous voulez m'expliquer ?
+5137|Vous comptez nous quitter, {target} ?
+5138|...Si c'est une question d'argent, parlons-en. Je ne veux pas vous perdre.
+5139|Que faudrait-il pour que vous restiez ?
+5140|Bien. Si vous voulez partir, partez. Mais n'attendez pas de lettre de recommandation.
+5141|De la déloyauté. Je m'en souviendrai.
+5142|...Oui. J'ai regardé ailleurs. Je ne suis pas heureux{me?|se} ici.
+5143|Je ne vais pas vous mentir. J'ai postulé.
+5144|En fait — pourquoi attendre ? Tout le monde ! Approchez !
+5145|J'ai décidé. C'est l'heure de l'annonce. Maintenant.
+5146|Attends, la promotion a été annoncée ? J'étais dans la cuisine !
+5147|Ils l'ont annoncée SANS moi ?
+5148|{target} est numéro un au tableau des ventes ? Depuis quand ?
+5149|Attends, {target} a vendu plus que MERT ?
+5150|Numéro DEUX ? Moi ? Derrière {target} ?!
+5151|{target} ! En tête du tableau des ventes ! Bravo !
+5152|Regardez-moi ça. {target}, {target?notre nouveau champion|notre nouvelle championne} des ventes.
+5153|Ce sont MES chiffres ! C'est moi qui ai conclu ces contrats !
+5154|C'est une erreur. Le numéro un, c'est moi. C'est toujours moi.
+5155|Mon évaluation est reportée... « indéfiniment » ?
+5156|« Évaluation reportée — pas de nouvelle date. » Ça veut dire QUOI, ça ?
+5157|Ahmet Bey, pourquoi mon évaluation a-t-elle été reportée indéfiniment ?
+5158|Y a-t-il une raison pour que mon évaluation soit sans cesse repoussée ?
+5159|Reportée ? Je n'ai rien reporté. ...Si ?
+5160|Votre évaluation ? Hm. Le mois prochain. Probablement.
+5161|{me?Employé|Employée} du mois ? MOI ?
+5162|Mon nom ! Sur le diplôme ! Au tableau !
+5163|{target} ? {target?Employé|Employée} du mois ? Sérieusement ?
+5164|Qui a choisi {target} ?!
+5165|...Eh bien. C'est imprimé, maintenant. Félicitations, {target}.
+5166|Hm. Bon. Vous avez mérité... quelque chose.
+5167|Ce diplôme est faux. Il devrait y avoir {rich}.
+5168|Rectification : {rich?l'employé|l'employée} du mois, c'est {rich}. Pas {target}.
+5169|« Merci pour votre effort exceptionnel — Ahmet. » Pour MOI ?
+5170|Un mot de remerciement manuscrit d'Ahmet ! Je l'encadre.
+5171|Ahmet Bey, merci pour ce gentil mot !
+5172|Votre mot a illuminé ma journée, Ahmet Bey.
+5173|...Un mot ? Ce mot était pour {rich}.
+5174|Ah. Celui-là était destiné à {rich}, en fait.
+5175|Donc je répare tout, et c'est {target} qui reçoit les remerciements. Super.
+5176|Charmant. Mon mot de remerciement, sur le bureau de quelqu'un d'autre.
+5177|Ahmet a écrit « fiable, futur leader » sur moi !
+5178|Il me trouve « excellent{me?|e} » ! Par écrit !
+5179|« Nécessite une surveillance constante » ?! C'est ce qu'il pense de moi ?
+5180|La note d'Ahmet sur moi : « décevant{me?|e} ». Waouh.
+5181|QUI A AFFICHÉ MES NOTES PRIVÉES AU TABLEAU ?!
+5182|C'était PRIVÉ !
+5183|La carte d'un chasseur de têtes ? « Appelez-moi — on paie le double » ?
+5184|« Poste de cadre, salaire doublé. Appelez-moi. » Sur mon bureau ?
+5185|Ahmet Bey — un chasseur de têtes me fait la cour. Pour votre information.
+5186|On m'a proposé le double. Je préférerais rester... au bon prix.
+5187|...Bon. Parlons de votre salaire.
+5188|Ne les appelez pas. On va trouver un arrangement.
+5189|Alors partez. Personne n'est irremplaçable.
+5190|Appelez-les, alors.
+5191|« Stage obligatoire de gestion de la colère » ?! Pour MOI ?!
+5192|Qui m'a inscrit{me?|e} en GESTION DE LA COLÈRE ?!
+5193|Ha ! La gestion de la colère !
+5194|Quelqu'un va être très zen la semaine prochaine !
+5195|Namasté, mon ami.
+5196|...Bon. J'irai peut-être. Ça pourrait servir.
+5197|OK. Grandes respirations. Je suis calme. Je suis CALME.
+5198|D'après la paie, mon titre est... « STAGIAIRE » ?!
+5199|« Bienvenue dans l'équipe, stagiaire ! » Ça fait cinq ans que je suis là !
+5200|Ahmet Bey, pourquoi suis-je enregistré{me?|e} comme STAGIAIRE ?
+5201|J'ai été rétrogradé{me?|e} ? Au rang de stagiaire ?!
+5202|Stagiaire ? N'importe quoi. Un bug RH. Probablement.
+5203|Vous n'êtes pas stagiaire. Calmez-vous.
+5204|Bienvenue au club !
+5205|Stagiaires de tous les pays, unissez-vous !
+5206|« Demande de mutation : agence d'Erzurum » ?! Je n'ai jamais demandé ça !
+5207|Ils m'envoient à ERZURUM ?
+5208|Ahmet Bey, vous essayez de vous débarrasser de moi ?
+5209|Cette demande de mutation, c'est votre idée ?
+5210|Une mutation ? Vous ? Qui ferait votre travail ?
+5211|Je ne vous enverrais jamais ailleurs. Asseyez-vous.
+5212|...Erzurum est magnifique à cette période de l'année.
+5213|Hm. Pas mon idée. Mais pas une mauvaise idée.
+5214|« Critères de promotion : apporter un gâteau le vendredi » ? ...On est presque vendredi.
+5215|Un gâteau, ça fait avoir une promotion ? Je sais faire des gâteaux.
+5216|« Doit rire aux blagues d'Ahmet » ? Noté.
+5217|Rire à ses blagues. OK. Je peux faire semblant.
+5218|HAHAHA ! Ahmet Bey, c'est hilarant !
+5219|Ha ! Oh, Ahmet Bey, vous me tuez.
+5220|...Je n'ai rien dit de drôle.
+5221|Pourquoi tout le monde rit à tout ce que je dis aujourd'hui ?
+5222|Du gâteau ! Pour tout le monde ! Sans raison !
+5223|J'ai apporté un gâteau. Comme ça. Ça n'a absolument rien à voir avec quoi que ce soit.
+5224|Une lettre de recommandation ? D'Ahmet ? « Vivement recommandé{me?|e} pour des postes ailleurs »...
+5225|Ahmet m'a écrit une recommandation. Pour D'AUTRES postes. C'est un message ?
+5226|Il veut que je parte. Voilà ce que ça veut dire.
+5227|« Ailleurs. » Compris.
+5228|...Bon. Autant m'en servir.
+5229|Une recommandation élogieuse ? Je vais la faire travailler.
+5230|Je suis sur la liste des heures sup du WEEK-END ?! C'est le mariage de ma sœur !
+5231|Une permanence le week-end ? Moi ? Qui a décidé ça ?!
+5232|C'est {suspect} qui fait ces listes. Je le SAIS.
+5233|C'est un coup de {suspect}.
+5234|Ahmet Bey, je ne peux pas travailler ce week-end. S'il vous plaît.
+5235|Il doit y avoir une erreur dans la liste des heures sup.
+5236|Si vous êtes sur la liste, vous êtes sur la liste.
+5237|Les règles sont les règles.
+5238|Voici les papiers que vous vouliez, {target?chef|cheffe}... euh, {target} ?
+5239|{target}, la plaque dit que c'est toi qui diriges maintenant. Tu me signes ça ?
+5240|Mets-le sur la pile. Je verrai. Peut-être.
+5241|Oui, oui. Laisse-moi ça.
+5242|Excellent. Pose-le sur MON bureau.
+5243|Je ne dirige rien ! La plaque se trompe !
+5244|Ne me donnez pas ça ! Je n'en veux pas !
+5245|POURQUOI ma porte dit « {target} — Direction » ?!
+5246|Qui a changé ma plaque ?!
+5247|...Ce n'est pas mon téléphone. Et ce message n'est pas pour moi.
+5248|Attends. C'est le téléphone de qui— oh. OH.
+5249|Ce n'est pas mon écran de verrouillage. Mais j'ai déjà lu le message.
+5250|Je crois qu'on a échangé nos téléphones. Tiens. Je... n'ai rien lu.
+5251|Ton téléphone. J'ai peut-être vu un message. Pardon.
+5252|Tu l'as LU ?!
+5253|Dis-moi que tu n'as pas lu les messages, je t'en supplie.
+5254|Ha, ils sont identiques. Merci.
+5255|Pas de mal. Voilà le tien.
+5256|MAMAN ?! Pas maintenant, maman ! Je suis au TRAVAIL !
+5257|Maman, je t'aime, mais je suis en plein— allô ? Maman ?
+5258|...Pourquoi mon EX m'appelle ?
+5259|Mon ex. Qui m'appelle. Au bureau. Génial.
+5260|Une recruteuse ? Qui m'appelle ICI ?
+5261|« Talent Partners SARL » ? ...Je prends l'appel dehors.
+5262|C'est Ahmet ! Oui, Ahmet Bey ? ...Allô ? ...Il a raccroché.
+5263|Ahmet appelle depuis son bureau ? Pourquoi il ne crie pas, tout simplement ?
+5264|C'était un chasseur de têtes qui appelait {owner} ?
+5265|Hm. {owner} vient de recevoir un appel d'un chasseur de têtes.
+5266|C'était QUI, au téléphone ?
+5267|Ton ex ? Qui t'appelle ? Aujourd'hui ?
+5268|*PIN-PON PIN-PON*
+5269|*SIRÈNE D'ALERTE*
+5270|♪ Mon cœur fait boum-boum-boum pour toiii ♪
+5271|♪ Oh mon sucre d'orge, mon chou à la crème, ouuuh ♪
+5272|*OUINNN OUINNN*
+5273|*un bébé pleure à pleins poumons*
+5274|Qui a une SIRÈNE comme sonnerie ?!
+5275|Le téléphone de quelqu'un... pleure ?
+5276|C'est une CHANSON D'AMOUR qui sort de la poche de {owner} ?
+5277|C'est le téléphone de qui ?! ÉTEIGNEZ-LE !
+5278|Ce n'est pas ma sonnerie ! Faites que ça s'arrête !
+5279|Ce n'est pas moi qui l'ai choisie ! Je le jure !

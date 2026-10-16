@@ -1,0 +1,167 @@
+702|'Çiftin' bir yarısını seç. Diğer yarısı hikâyeye en çok kim uyarsa o olur.
+703|Kahve çekirdeklerini kafeinsizle değiştir
+704|Kimse fark etmez. İlk başta.
+705|Birini savunduğu mesajı ortaya çıkar
+706|Kapalı kapılar ardında bir iş arkadaşını savundu. Bırak o arkadaş da öğrensin.
+707|Önemli bir müşteri geri aramasını geciktir
+708|Müşteri geri arar — bir saat geç.
+709|Toplantı davetini sil
+710|Çoğu kişi toplantının iptal olduğunu sanacak. Ahmet sanmayacak.
+711|Ofis ışıklarını disko moduna al
+712|Mor, pembe, yanıp sönen. Bazıları dans edecek. Biri asla.
+713|Telefonunu Rahatsız Etmeyin moduna al
+714|Ahmet onu aramak üzere. Hem de birkaç kez.
+715|Toplantı saatine çifte rezervasyon yap
+716|Aynı saatte mutfakta sahte bir 'bütçe toplantısı'. İki kişi yanlış olana gidecek.
+717|Telefonunun şarjını bitir
+718|Saniyeler içinde kapanır. Bir şarj aletine ihtiyacı olacak — başkasınınkine.
+719|Terfi duyurusunu öne çek
+720|Bugünkü terfi hemen şimdi açıklanır — hazır olsun olmasın.
+721|'Ayın Çalışanı' belgesindeki ismi değiştir
+722|Mantar panodaki belgede senin seçtiğin isim yazacak.
+723|Birini dışarıda bırakan bir içki daveti as
+724|'Herkes davetli!' Bir isim hariç. Kimin olacağını seç.
+725|Gizli bir iş başvurusunu Ahmet'in masasına koy
+726|Biri başka yerlere başvuruyor. Ahmet'in görmesini sağla.
+727|Takvimine sahte bir randevu ekle
+728|Bir hatırlatıcı çıkar. Gidecek mi?
+729|Ahmet'in yanıtında 'Onaylandı!' yazsın
+730|Bekleyen talebine neşeli bir 'Onaylandı!' gelir — hiçbir şeyi onaylamamış bir patrondan.
+731|Onun adına sahte bir birebir görüşme daveti gönder
+732|Kime gideceğini seç. İkisi de mutfakta buluşacak.
+733|Toplantı tutanağına bir satır ekle
+734|'(Biri) ekip kampını düzenlemeye gönüllü oldu.' Kimin olacağını seç.
+735|Telefonuna yanıltıcı bir hatırlatıcı ekle
+736|Telefonu ona bir şey yapmasını söyleyecek. Yapacak mı?
+737|Toplantının adını '(Birinin) veda toplantısı' yap
+738|Herkes onun ayrıldığını sanacak. Belki kendisi bile.
+739|Özel dosyasının başkasının ekranında açılmasını sağla
+740|Kimin ekranı olacağını seç. Masasında okuyacak.
+741|Yangın alarmını çalıştır
+742|Herkes resepsiyona tahliye edilir. Ne yapıyor olurlarsa olsunlar — toplantılar dahil.
+743|Balıklı köriyi birinin öğle yemeği diye etiketle
+744|Öğlen mikrodalgaya girer. Koku 'sahibini' bulacak.
+745|Yazıcıyı gizlice tamir et
+746|Başarıyı biri sahiplenecek. Sen olmayacaksın.
+747|Işıkları titret
+748|Yirmi dakika korku filmi ışıklandırması.
+749|Masraf beyanına Ahmet'in imzasını taklit et
+750|Zeynep her beyanı kontrol eder. Fark edecek mi?
+751|Aramalarını başka birine yönlendir
+752|Bugün telefonunu kimin açacağını seç. Müşterileri dahil.
+753|Özel sohbetini, hakkında konuşulan kişiye ilet
+754|İçini dökmek için yazmıştı. Şimdi konusu olan kişi okuyacak.
+755|Bordro tablosunu birine ilet
+756|Zeynep'in gizli bordrosu. Herkesin maaşını kimin göreceğini seç.
+757|Buzdolabına pasif agresif bir not yapıştır — birinin imzasıyla
+758|'YOĞURDUMU ÇALMAYI BIRAKIN.' Altında kimin adı olacağını seç.
+759|Buzdolabındaki her şeyi at
+760|Herkesin öğle yemeği. Gitti.
+761|Sesli yazdırma mesajını karıştır
+762|'Toplantıda döktüreceğim' mesajı 'Seni döveceğim' oluyor. Kime gideceğini seç.
+763|Hediye kartındaki ismi değiştir
+764|Birinin bir arkadaşına aldığı hediye. Kartta onun yerine kimin adı yazacağını seç.
+765|Utanç verici fotoğrafını grup sohbetine at
+766|O fotoğraf. Karaoke gecesinden.
+767|Masasına bir kelle avcısının kartvizitini bırak
+768|'Üst düzey pozisyon. İki kat maaş. Ara beni.'
+769|Önemli bir belgeyi sakla
+770|Raporunu kimsenin bakmayacağı bir yere sıkıştır.
+771|Atıştırmalık kutusunu birinin çekmecesine taşı
+772|Kimin olacağını seç. Aç iş arkadaşları bulacak.
+773|Tüm ofis malzemelerini birinin çekmecesine taşı
+774|Kalemler, zımbalar, yapışkan notlar — hepsi. Kimin çekmecesi olacağını seç.
+775|Bekleme müziğini değiştir
+776|Hatta bekleyen arayanlar… beklenmedik bir şey duyacak.
+777|İsimsiz bir 'Ne yaptığını biliyorum' notu bırak
+778|Bir anlamı yok. Tabii gerçekten bir şey yapmadıysa.
+779|Gelmemesi gereken birini davet et
+780|Bugünkü toplantıya bir isim ekle. Ahmet fark edecek.
+781|Başkanı 'Müdür Vekili' olarak değiştir
+782|Ahmet'in golf maçı var. {usurper} zaten başkan.
+783|{crush:i} geri aratsın — hoparlörden
+784|'Konuşmamız lazım' gönderildi. Telefon hoparlörde. Bırak çalsın.
+785|Daveti mum ışığında bir randevuya çevir
+786|{reader} aşk notunu zaten aldı. Şimdi birebir görüşme davetinde 'sadece biz, mumlar' yazıyor.
+787|İstifa taslağını otomatik yanıta ekle
+788|Artık {owner:e} e-posta atan herkes 'İstifa ediyorum' yanıtı alıyor — mektup ekte.
+789|Panoya '{presenter} müşteriye sunum yapacak' yaz
+790|Bir müşteri geliyor. Projeksiyon ölü. Birinin sunum yapması lazım.
+791|Çift fotoğrafına 'Öğlen çifte randevu!' karala
+792|{c}, {d:i} öğle yemeğine davet etti. {a} ile {b} zaten 'çift'. Neden dördü birden olmasın?
+793|Titremeyi virüs sireniyle senkronize et
+794|Işıklar ve ekranlar birlikte yanıp sönüyor. Çok, çok ürkütücü.
+795|Yangın çıkışını da sıkıştır
+796|Alarm çalıyor ve ön kapı sıkışmış. Son çıkışı da kapat.
+797|Gizli belgeyi ortak klasöre kopyala
+798|{leaker:in} özel klasörü herkese açık. Gizli dosya oraya cuk oturur.
+799|İki mektubu da Ahmet'in evrak kutusuna koy
+800|Bir tayin talebi ve parlak bir referans mektubu — aynı kişi için.
+801|Mutfağın üstüne 'PARTİ' pankartı as
+802|Müzik açık, ışıklar pembe ve bir tepsi var. Sadece bir isim eksik.
+803|Bordroyu 'Zam bütçesi: 0' yazısının yanına iğnele
+804|{leader} bordroyu zaten gördü. Artık herkes karşılaştırabilir.
+805|Gündeme 'Terfi duyurusu' yaz
+806|Dosyada {credited} yazıyor. Toplantı kaydırıldı. Ahmet bunu yüksek sesle okuyacak.
+807|Sızan duyurunun altına 'Yeniden Yapılanma Soru-Cevap' ekle
+808|Herkes duyuruyu gördü. Şimdi pano bunu resmîleştiriyor.
+809|Değerlendirme için Ahmet'e yeniden yazılmış raporu ver
+810|{rebel} için sürpriz değerlendirme ayarlandı ve raporu 'düzenlendi'.
+811|İki notu da 'gizli hayranın' diye imzala
+812|{owner} güzel bir not ve isimsiz bir iltifat aldı. İkisini birbirine bağla.
+813|Eski rakamları müşteriye gönder — Ahmet bilgide
+814|Eski sürüm açık ve Ahmet zaten bilgide. Tek tık.
+815|İsimsiz şikâyeti söylentiyi başlatanın adıyla 'imzala'
+816|Notlardan biri söylentiyi kimin başlattığını söylüyor. Diğeri isimsiz. Artık değil.
+817|İmzalı nota 'Hepsini ben attım' ekle
+818|Buzdolabı boş ve üstünde {signer:in} adı olan bir not var. Onu bir itirafa çevir.
+819|İş başvurusunu performans raporuna zımbala
+820|Ahmet ikisini aynı anda okuyacak.
+821|Ön kapıyı sıkıştır
+822|Çıkmaya çalışan ilk kişi mahsur kalır.
+823|Fotokopi makinesine bir aşk mektubu sıkıştır
+824|Kimin gizli aşk mektubunun silindirlere sıkışacağını seç.
+825|Ekranında iş ilanlarını açık bırak
+826|Yanından geçen ilk kişi kendi sonucunu çıkaracak.
+827|Birinin masraf beyanına karaoke makinesi ekle
+828|Zeynep bugün masraf denetimi yapıyor.
+829|Yazdığı güzel notu ortada bırak
+830|Biri hakkında çok tatlı bir şey yazmış. Asla paylaşmak istememişti.
+831|Tam olarak bir fincan kahve bırak
+832|İki kişi onu isteyecek.
+833|Birine Ahmet'in gizli toplantısını göster
+834|'Özel: İK değerlendirmesi — (biri).' Bir anlamı yok. Ama o bunu bilmeyecek.
+835|Arkadaşının mesajını 'görüldü' yap
+836|En yakın arkadaşı görmezden gelindiğini sanacak.
+837|Toplantı odasının kapısını kilitle
+838|İçeriden. İçeride kimse yokken.
+839|Bilgisayarını kilitle
+840|Şifresini sıfırla. Oturunca öğrenecek.
+841|Termostatı kilitle
+842|Sıcaklık şu an neyse — öyle kalacak.
+843|Birinin özel defterini koltukta bırak
+844|Kiminki olacağını seç. Oraya oturan ilk kişi bulacak.
+845|Bir sonraki iş mesajına kalpler ekle
+846|Çok resmî bir e-postayı… üç kalple kimin alacağını seç.
+847|Aşk notunu yanlış kişiye ulaştır
+848|Hoşlandığı kişi içindi. Yerine kimin okuyacağını seç.
+849|Öğle yemeği davetini yanlış kişiye gönder
+850|Kime gideceğini seç. İki kişilik öğle yemeği, ister istemez.
+851|Öğle yemeğine isim kartları koy: rakipler yan yana
+852|Birbirini çekemeyen iki kişi. Tek masa.
+853|Raporunun kenarına kaba bir not yaz
+854|'Ahmet her konuda yanılıyor.' Onun el yazısıyla.
+855|Telefon alarmını toplantının ortasına kur
+856|'UYAN! UYAN!' — tam Ahmet'in toplantısının ortasında.
+857|Klavyesini miyavlat
+858|Her tuşa basışta küçük bir miyav. Yakındaki herkes duyacak.
+859|Dosyasını yanlış klasöre taşı
+860|Doğrudan Ahmet'in özel klasörüne.
+861|Bütün arşivi yanlış dosyala
+862|'Muhasebe', 'Tatiller'in içine girer. Sonraki iki ziyaretçi çile çekecek.
+863|Raporunun son sayfasını çıkar
+864|Sonuç bölümü. Ahmet'in her zaman ilk okuduğu sayfa.
+865|Birinin öğle yemeğini başka bir rafa koy
+866|Hardalın arkasına. Çalındığını sanacak.
+867|Toplantıyı başka bir odaya taşı
+868|Pano bugün toplantının başka bir yerde olduğunu söyleyecek.

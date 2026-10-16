@@ -1,0 +1,184 @@
+869|Changer le nom sur la porte du directeur
+870|« Direction : (quelqu'un) ». Les gens apporteront à cette personne la paperasse d'Ahmet.
+871|Ajouter une ligne croustillante à la newsletter du bureau
+872|« Aperçu : (quelqu'un) à un dîner aux chandelles avec… » Ceren l'envoie à midi.
+873|Vider le bac à papier de l'imprimante
+874|La prochaine impression ne sortira pas. Quelqu'un partira à la chasse au papier.
+875|Afficher l'aperçu de son message sur le téléphone de quelqu'un d'autre
+876|Choisis quel téléphone. L'aperçu n'est pas tendre.
+877|Changer la musique du bureau
+878|Tout le monde entend le haut-parleur. Tout le monde n'aime pas la même musique.
+879|Ressortir une vieille promesse d'Ahmet
+880|Un mail antique : « l'an prochain, une augmentation — promis. » Remonte-le en haut de sa boîte de réception.
+881|Restaurer une ancienne version de son fichier
+882|Ramène son rapport à la semaine dernière. Chaque modification : envolée.
+883|Modifier l'organigramme sur le tableau en liège
+884|Mets quelqu'un au-dessus d'Ahmet. Tout le monde dans la salle de réunion le verra.
+885|Ajouter quelqu'un à la liste des heures sup du week-end
+886|Épinglée à la vue de tous.
+887|Mettre son bureau en carton
+888|Tout. Bien rangé. Comme après un licenciement.
+889|Changer l'horloge de son ordinateur
+890|En avance : on plie bagage tôt. En retard : en retard partout.
+891|Réécrire le rapport d'évaluation de quelqu'un
+892|Choisis lequel, puis rends-le brillant — ou catastrophique. Ahmet les lit à son bureau.
+893|Glisser le téléphone de quelqu'un dans le manteau d'une autre personne
+894|Choisis quel téléphone. Il sonnera dans la mauvaise poche.
+895|Cacher son téléphone dans le frigo
+896|À côté du lait. On cherchera partout ailleurs d'abord.
+897|Épingler les notes privées d'Ahmet sur tout le monde
+898|Ce qu'il pense vraiment de chaque employé. Sur le tableau en liège.
+899|Promettre des pizzas gratuites à la réunion
+900|Tout le monde arrivera en avance. Affamé.
+901|Reporter l'entretien de quelqu'un — indéfiniment
+902|Pas de nouvelle date. Juste « reporté ». La question va tourner en boucle.
+903|Faire une blague téléphonique à Ahmet depuis son poste
+904|Respiration lourde. Le téléphone d'Ahmet affiche exactement d'où vient l'appel.
+905|Mettre quelqu'un en tête de la liste des présentations
+906|Prêt ou pas, c'est son tour en premier.
+907|Imprimer 500 exemplaires de la photo de bébé d'Ahmet
+908|La prochaine personne à utiliser l'imprimante sera ensevelie dessous.
+909|Envoyer son fichier privé à l'imprimante partagée
+910|La prochaine personne qui imprime aura une page surprise.
+911|Épingler de faux « critères de promotion »
+912|Les ambitieux les suivront à la lettre.
+913|Renverser de l'eau devant l'imprimante
+914|La prochaine personne qui imprime ne la verra pas venir.
+915|Remettre la lettre d'augmentation de quelqu'un à la mauvaise personne
+916|La lettre est pour le chouchou d'Ahmet. Choisis qui l'ouvre à la place.
+917|Mettre son contrat signé au recyclage
+918|La poubelle de tri de la cuisine. À côté des pots de yaourt.
+919|Laisser une lettre de recommandation élogieuse pour quelqu'un
+920|D'Ahmet. « Vivement recommandé — pour des postes ailleurs. »
+921|Ré-étiqueter ses classeurs
+922|Toute personne qui passe devant son bureau lira les nouvelles étiquettes.
+923|Poser son rapport sur le bureau de quelqu'un d'autre
+924|Choisis quel bureau. Ce qu'on en fera, ça le regarde.
+925|Mettre un panneau « Réservé » sur la cuisine
+926|« Réservé pour le déjeuner privé d'Ahmet. » Personne d'autre n'a la cuisine aujourd'hui.
+927|Laisser son brouillon de démission bien en vue
+928|Écrit un mauvais jour. Jamais envoyé. Maintenant, il est en haut de la pile.
+929|Ramener à la vie la plante mourante du bureau
+930|Une petite hantise bienveillante.
+931|Truquer le tirage du Secret Santa
+932|Les deux personnes qui ne se supportent pas devront s'offrir un cadeau.
+933|Changer sa sonnerie
+934|Son prochain appel sonnera avec… ça.
+935|Épingler qui a lancé une fausse rumeur
+936|Quelqu'un a inventé quelque chose. Affiche son nom sur le tableau en liège.
+937|Réécrire le classement des ventes
+938|Mets quelqu'un d'autre en tête. Mert le vérifie tous les jours.
+939|Remplir le sucrier de sel
+940|Les deux prochains cafés seront mémorables.
+941|Mélanger le standard de l'accueil
+942|Pendant une heure, chaque appel entrant atterrit au mauvais bureau.
+943|Partager son dossier privé avec tout le monde
+944|La personne la plus curieuse du bureau le trouvera en premier.
+945|Écrire « 5 minutes » sur la réunion
+946|Les gens prendront le tableau au mot.
+947|Mettre quelqu'un en tête de la liste restreinte de promotion
+948|Une liste restreinte qui n'existe pas encore — avec ce nom en premier.
+949|Mélanger les pages de sa présentation
+950|On le découvrira devant tout le monde.
+951|Changer sa signature d'e-mail
+952|Chaque mail envoyé à partir de maintenant la portera.
+953|Brider son internet
+954|Tout prend deux fois plus de temps — jusqu'à ce que l'informatique répare.
+955|Transformer la fontaine à eau en « coin spa »
+956|Rondelles de citron, concombre, un petit panneau. Les gens vont s'attarder.
+957|Envoyer la consigne d'Ahmet dans ses spams
+958|Une demande urgente jamais vue — jusqu'à ce qu'Ahmet la réclame.
+959|Mettre son téléphone sur haut-parleur
+960|Son prochain appel perso : diffusé à tout le voisinage.
+961|Régler le café sur triple dose
+962|Productivité en hausse. Patience en baisse.
+963|Bourrer la boîte à idées
+964|Six mots identiques sur une seule personne. Ahmet lit la boîte à son bureau.
+965|Programmer un entretien d'évaluation surprise
+966|Mets un tête-à-tête d'évaluation pour quelqu'un dans l'agenda d'Ahmet — qui commence maintenant.
+967|Échanger deux manteaux sur le portemanteau
+968|Choisis un manteau. Son propriétaire repartira avec celui de quelqu'un d'autre.
+969|Mélanger toutes les tasses de l'étagère
+970|La prochaine personne qui fait un café prendra la mauvaise.
+971|Coller son post-it sur le bureau de quelqu'un d'autre
+972|« Déjeuner à 13 h ? C'est moi qui invite. » Choisis qui le trouve.
+973|Échanger son portable avec celui, identique, de quelqu'un d'autre
+974|Choisis lequel. Quelqu'un lira un message qui ne lui était pas destiné.
+975|Échanger les évaluations de deux personnes
+976|Choisis quel dossier échange sa place avec celui de ce bureau.
+977|Échanger les marque-places des sièges de réunion
+978|Installe côte à côte la pire paire possible. (Ou la meilleure.)
+979|Échanger la page de signature de son contrat
+980|Son contrat se termine maintenant par la signature de quelqu'un d'autre.
+981|Échanger son fichier de présentation
+982|Sa présentation contient maintenant les diapos de quelqu'un d'autre — et c'est son tour en premier.
+983|Poser un plateau anonyme de thé et de biscuits
+984|Personne ne sait qui l'a apporté. Quelqu'un s'en attribuera le mérite.
+985|Remettre le mot de remerciement d'Ahmet à la mauvaise personne
+986|Il était pour son chouchou. Choisis qui l'ouvre.
+987|Installer une tirelire « Merci Burak »
+988|Il répare tout. Personne ne lui dit jamais merci.
+989|Changer l'intitulé de poste de quelqu'un en « Stagiaire »
+990|Dans le logiciel RH. La paie enverra un mail de bienvenue.
+991|Rédiger une demande de mutation pour quelqu'un
+992|Vers une agence très, très lointaine.
+993|Parsemer de fautes son mail au client
+994|« Cher Cliennt estimé… » Le client appellera Ahmet.
+995|Retirer quelqu'un de l'invitation à la réunion
+996|Cette personne ne saura pas qu'il y a une réunion. Jusqu'à plus tard.
+997|Débrancher son écran
+998|La farce la plus simple. Regarde la panique monter.
+999|Débrancher le switch réseau
+1000|La petite boîte bleue derrière les archives. Tout le bureau se retrouve hors ligne.
+1001|Annuler l'envoi de ses excuses
+1002|Une lettre d'excuses vient d'être écrite. Fais-la disparaître avant qu'elle soit lue.
+1003|Tamponner URGENT sur chaque papier de son bureau
+1004|Tout. Chaque feuille.
+1005|Afficher une fausse alerte virus
+1006|Tête de mort rouge clignotante, sirènes effrayantes. C'est inoffensif. Mais ça, personne ne le sait.
+1007|Remettre son message vocal à la mauvaise personne
+1008|Quelque chose de privé, enregistré. Choisis qui l'entend.
+1009|Changer l'horloge murale du bureau
+1010|Les gens font confiance à cette horloge. Certains agiront en conséquence.
+1011|Changer son fond d'écran
+1012|Quelque chose qu'on remarquera forcément.
+1013|Envoyer « il faut qu'on parle » depuis son téléphone
+1014|À la personne qui fait battre son cœur.
+1015|Échanger sa chaise contre la chaise cassée
+1016|Elle a l'air normale. Elle ne l'est pas.
+1017|Faire rappeler la mauvaise personne
+1018|Sa liste d'« appels manqués » affiche maintenant le numéro de quelqu'un d'autre. Choisis qui.
+1019|Désigner quelqu'un d'autre pour présider la réunion
+1020|Le tableau dira qui mène la réunion d'aujourd'hui.
+1021|Épingler « Budget augmentations cette année : 0 »
+1022|Un petit mot sur le tableau en liège. Une grosse chute de moral.
+1023|Fête surprise
+1024|C'est l'anniversaire de {bday} — et {organizer} a un plan.
+1025|Le jeu du coupable
+1026|Le téléphone d'Ahmet sonne. On dirait un client furieux.
+1027|Patron contre employé
+1028|Ahmet ne quitte plus le bureau de {rebel}. {rebel} perd patience.
+1029|La rupture
+1030|{a} et {b} se disputent. Tout le bureau fait semblant de ne pas écouter.
+1031|Les coupes budgétaires
+1032|Le siège a coupé le budget. Première victime : le café gratuit.
+1033|La course de chaises de bureau
+1034|{racer} a défié {rival} à une course de chaises de bureau dans le couloir.
+1035|La boîte des dons
+1036|{organiser} fait une collecte pour le refuge animalier. Quelqu'un compte mal.
+1037|Le client qui pète les plombs
+1038|Le client arrive. Le vidéoprojecteur est mort. C'est au tour de {presenter}.
+1039|Le client volé
+1040|{thief} lorgne le plus gros client de {victim}.
+1041|Le quiproquo du café
+1042|{reader} croit que {sender} l'a invité{reader?|e} à sortir. {sender} n'en a aucune idée.
+1043|Le dossier supprimé
+1044|{culprit} clique là où il ne faudrait vraiment pas.
+1045|Le double rendez-vous accidentel
+1046|{a} et {b} (le « couple » de la photo) se sont retrouvés à déjeuner avec {c} et {d}.
+1047|La grande évacuation
+1048|Alarme incendie. Porte d'entrée bloquée. Tout le monde est coincé à l'accueil.
+1049|Le scandale des notes de frais
+1050|Zeynep a trouvé quelque chose de bizarre dans les notes de frais de {suspect}.
+1051|Le départ qui n'en était pas un
+1052|Tout le monde croit que {leaver} démissionne. Ce n'est pas le cas. Sans doute.

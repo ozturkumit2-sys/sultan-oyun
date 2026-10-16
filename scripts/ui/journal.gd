@@ -163,7 +163,7 @@ func _stories(list: VBoxContainer) -> void:
 			ends_txt.append(Loc.t("ending." + str(e)) if Loc.has("ending." + str(e)) else str(e).replace("_", " "))
 		var row := NoteButton.make(Loc.t("arc." + a), "book", "row", Color("fbf6e6"), Vector2(0, 88))
 		row.font_size = 21
-		row.sub = Loc.t("journal.story_line", {"n": int(rec.get("count", 0)), "ends": ", ".join(ends_txt)})
+		row.sub = Loc.t("journal.story_line", {"n": int(rec.get("count", 0)), "ends": Loc.join(ends_txt)})
 		row.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		list.add_child(row)
 	if unknown > 0:
@@ -214,9 +214,9 @@ func _records(list: VBoxContainer) -> void:
 			var names: Array = []
 			for a in arcs:
 				names.append(Loc.t("arc." + str(a)))
-			list.add_child(Sheet.label(Loc.t("journal.biggest_arcs", {"arcs": ", ".join(names)}), 19, "hand", Color("b23a48")))
+			list.add_child(Sheet.label(Loc.t("journal.biggest_arcs", {"arcs": Loc.join(names)}), 19, "hand", Color("b23a48")))
 		if str(b.get("text", "")) != "":
-			list.add_child(Sheet.label("“" + str(b["text"]) + "”", 19, "type", UiKit.INK_SOFT))
+			list.add_child(Sheet.label(Loc.t("ui.quote", {"text": str(b["text"])}), 19, "type", UiKit.INK_SOFT))
 	list.add_child(HSeparator.new())
 	var rows := [
 		[Loc.t("journal.r_meddles"), w.discovery.ivs.size()],

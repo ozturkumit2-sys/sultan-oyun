@@ -1,0 +1,111 @@
+2024|{target} hat ein glänzendes Empfehlungsschreiben von Ahmet gefunden — und sich damit woanders beworben.
+2025|{actor} hat ein Gerücht über {subject} gehört, mit dem {actor?er|sie} befreundet ist — und weigert sich glatt, es zu glauben.
+2026|Eine mysteriöse Handy-Erinnerung hat {owner} gesagt, {crush} Blumen zu kaufen. Es war ... unangenehm.
+2027|Eine mysteriöse Handy-Erinnerung hat {owner} gesagt, {crush} Blumen zu kaufen. {owner} hat es getan. {crush} war begeistert.
+2028|{owner:s} Handy behauptete, um 16:30 sei Fitnessstudio. {owner} ist früher gegangen.
+2029|Eine Handy-Erinnerung hat {owner} gesagt, heute um eine Gehaltserhöhung zu bitten. Also ist {owner} in Ahmets Büro marschiert.
+2030|{actor} hat versehentlich auf „Allen antworten“ geklickt. Das ganze Büro hat ein Katzenvideo bekommen.
+2031|{actor:s} „Allen antworten“-Desaster hat Ahmet erreicht. Er fand es überhaupt NICHT lustig.
+2032|{actor} hat auf {owner:s} Schreibtisch den Entwurf eines Kündigungsschreibens entdeckt.
+2033|Laut Schild an der Küchentür ist sie für Ahmets „privates Mittagessen“ reserviert. Alle essen grummelnd am Schreibtisch.
+2034|{actor} rächt sich an {victim}, indem {actor?er|sie} {target} eine Lüge über {victim} auftischt.
+2035|{actor} wurde in eine überraschende Leistungsbeurteilung gezerrt. Sie lief schlecht.
+2036|{actor} wurde in eine überraschende Leistungsbeurteilung gezerrt. Sie lief glänzend.
+2037|{joker:s} Klingelton ging im Meeting los. Alle haben es gehört.
+2038|{lover} und {crush} haben Schluss gemacht. Die Küche wird nie wieder dieselbe sein.
+2039|{spotter} ist in einen kuscheligen Küchenmoment von {lover} und {crush} geplatzt. Das Geheimnis ist raus — so halb.
+2040|{lover} und {crush} hatten ihr heimliches Kaffee-Date in der Küche. Da läuft jetzt definitiv was.
+2041|{lover} hat {crush} auf einen Kaffee eingeladen. Ab in die Friendzone.
+2042|{actor} erzählt {target} alles über {lover} und {crush}.
+2043|{lover} und {crush} verstecken sich nicht mehr: Sie sind offiziell zusammen. Das Büro hat gejubelt.
+2044|{lover} und {crush} haben beschlossen, ihre Beziehung geheim zu halten. Viel Glück dabei.
+2045|{lover} hat {crush} auf einen ruhigen Kaffee eingeladen. {crush} hat Ja gesagt!
+2046|{lover} und {crush} haben sich heimlich auf noch einen Kaffee getroffen. Niemand hat es bemerkt. Noch nicht.
+2047|{actor} und {target} haben beide den Meetingraum gebucht. Keiner will gehen.
+2048|Laut Tafel fand das Meeting heute in der {what} statt. Alle — Ahmet eingeschlossen — sind dorthin getrottet.
+2049|{actor} und {target} haben den Meetingraum doppelt gebucht und sich geeinigt, ihn zu teilen.
+2050|{quitter} hat Ahmet ein Kündigungsschreiben überreicht. Er hat es angenommen. Damit hatte {quitter} nicht gerechnet.
+2051|{quitter} hat Ahmet leise um das Kündigungsschreiben zurückgebeten. Alle haben so getan, als hätten sie nichts bemerkt.
+2052|{quitter} hat Ahmet ein Kündigungsschreiben überreicht. Ahmet hat {quitter?ihn|sie} gebeten zu bleiben — und zugehört.
+2053|{friend} hat {quitter} angefleht zu bleiben. {quitter} ist mit dem Brief in der Hand auf dem Weg zu Ahmet.
+2054|{friend} hat {quitter} die Kündigung ausgeredet. Der Brief ist in einer Schublade verschwunden.
+2055|{quitter} hat ein Kündigungsschreiben ausgedruckt.
+2056|{quitter} wollte ein Kündigungsschreiben ausdrucken. Der Drucker war kaputt.
+2057|{quitter} hat ein Kündigungsschreiben ausgedruckt — und {spotter} hat gesehen, wie es aus dem Drucker kam.
+2058|{quitter} hat Ahmet ein Kündigungsschreiben überreicht. Ahmet hat es in zwei Hälften gerissen. {quitter} bleibt ... wohl?
+2059|{quitter} hat {friend} in der Küche gesagt: „Ich schreibe meine Kündigung. Heute.“
+2060|{actor} hat {target} direkt auf ein Gerücht angesprochen. {target} hat zugegeben, dass es stimmt.
+2061|{actor} hat {target} auf ein Gerücht angesprochen — es war falsch. „{fact}“ Jetzt will {target} wissen, wer es in die Welt gesetzt hat.
+2062|{actor} hat {target} auf ein Gerücht angesprochen. {target} hat es abgestritten ... aber es stimmt.
+2063|{actor} hat {target} zur Rede gestellt, weil {target?er|sie} ein falsches Gerücht verbreitet hat. {target} hat sich entschuldigt.
+2064|{actor} hat {target} wegen eines Gerüchts zur Rede gestellt. {target} hat alles abgestritten.
+2065|{actor} hat {target} wegen eines falschen Gerüchts zur Rede gestellt. Es endete in einem Geschrei.
+2066|{avenger} wollte sich an {victim} rächen. {accomplice} hat {avenger?ihn|sie} beruhigt.
+2067|{victim} hat den Streich entdeckt und wusste sofort: Das war {avenger}.
+2068|{victim} hat den Streich entdeckt — und {suspect} beschuldigt. (Es war {avenger}.)
+2069|{avenger} plant Rache an {victim} — und {accomplice} steckt mit drin.
+2070|{avenger} hat sich an {victim:s} leeren Schreibtisch geschlichen und einen Streich vorbereitet.
+2071|{victim} hat {avenger} wegen des Streichs zur Rede gestellt. {avenger} hat sich entschuldigt — Waffenstillstand, vorerst.
+2072|{victim} hat {avenger} wegen des Streichs zur Rede gestellt. {avenger} hat sich gefreut wie ein Schneekönig. Jetzt ist Krieg.
+2073|{enemy} hat das Gerücht gehört und mit einem über {gossip} zurückgeschlagen. Der Gerüchtekrieg ist eröffnet.
+2074|{gossip} hat den ersten Schuss abgegeben: ein peinliches Gerücht über {enemy}.
+2075|{mediator} hat {gossip} und {enemy} in der Küche an einen Tisch gesetzt. Der Gerüchtekrieg endete mit einem Waffenstillstand.
+2076|{mediator} wollte den Gerüchtekrieg zwischen {gossip} und {enemy} beenden. Es wurde nur schlimmer.
+2077|{mark} hat {partner} zur Rede gestellt, und {partner} hat sofort {schemer} verpfiffen. Das Bündnis ist tot.
+2078|{beloved} hat {suspect} nach den heimlichen Zetteln gefragt. Fehlanzeige. Das Rätsel geht weiter.
+2079|{beloved} hat {suspect} gefragt, ob {suspect?er der heimliche Verehrer|sie die heimliche Verehrerin} ist. {suspect} hat Ja gesagt. Stimmt nicht.
+2080|{schemer} und {partner} hatten nichts Belastendes über {mark}, also haben sie etwas erfunden.
+2081|Jemand hat einen anonymen Bewunderer-Zettel auf {beloved:s} Schreibtisch gelegt.
+2082|{mark} hat {partner} zur Rede gestellt. {partner} blieb {schemer} treu und hat alles abgestritten.
+2083|{admirer} hat sich als {admirer?heimlicher Verehrer|heimliche Verehrerin} geoutet. {beloved} hat sanft Nein gesagt.
+2084|{schemer} und {partner} haben im Archiv einen geheimen Pakt gegen {mark} geschlossen.
+2085|{schemer} hat einen Pakt gegen {mark} vorgeschlagen. {partner} hat abgelehnt — und überlegt, {mark} zu warnen.
+2086|{schemer} ist mit dem Belastungsmaterial über {mark} zu Ahmet gegangen. Ahmet hat zugehört.
+2087|{informant} hat {mark} einen Tipp gegeben: {schemer} und {partner} arbeiten gegen {mark?ihn|sie}.
+2088|Im Archiv hat {partner} {schemer} Belastendes über {mark} zugesteckt: „{dirt}“
+2089|{partner} hat {mark} gewarnt: {schemer} intrigiert gegen {mark?ihn|sie}.
+2090|{admirer} hat sich als {admirer?heimlicher Verehrer|heimliche Verehrerin} geoutet. {beloved} hatte genau darauf gehofft. Ein neues Paar!
+2091|{actor} hat einen großen Schluck Kaffee genommen — die Zuckerdose war voller Salz.
+2092|Die Wichtel-Auslosung hat die Rivalen {actor} und {target} zusammengebracht. {actor:s} Geschenk war ... eine Botschaft. Krieg.
+2093|Die Wichtel-Auslosung hat die Rivalen {actor} und {target} zusammengebracht. {actor:s} Geschenk war wirklich durchdacht. Tauwetter!
+2094|{actor} hat einen Witz gemacht. {target} hat ihn nicht als Witz verstanden.
+2095|Der Kummerkasten war voller Zettel: „Feuert {target}“. Ahmet hat sie gelesen — und {target} auch.
+2096|Der Kummerkasten war voller Zettel: „Befördert {target}“. Ahmet hat alle gelesen.
+2097|Ahmet hat {target} zusammengestaucht.
+2098|Die Namenskärtchen im Meeting haben {a} direkt neben {b} gesetzt. Sie haben gezankt, bis Ahmet beide angeschnauzt hat.
+2099|Die Namenskärtchen im Meeting haben {a} neben {b} gesetzt. Viel schüchternes Lächeln.
+2100|Die Namenskärtchen im Meeting haben {a} neben {b} gesetzt. Sie haben Waffenstillstand geschlossen. Ein kleines Wunder.
+2101|Mert und Ceren sind heimlich ein Paar!
+2102|{spotter} ist aufgefallen, dass {actor} und {target} sich heimlich sehr nahestehen.
+2103|{target} hat in Ahmets Kalender einen privaten Termin entdeckt: „HR-Gespräch — {subject}“.
+2104|{actor} hat vor allen ein Geheimnis ausgeplaudert: „{fact}“ {subject} hat es gehört.
+2105|{actor} ist sicher, dass {target} {actor?ihn|sie} „auf gelesen gelassen“ hat. {target} hat die Nachricht nie gesehen. Die Freundschaft hat einen Knacks.
+2106|{actor} dachte, {target} hätte die Nachricht ignoriert. {target} hatte sie nie gesehen. Sie haben es geklärt.
+2107|{seller:s} Baklava-Geschäft expandiert. {runner} ist jetzt „Leitung Logistik“.
+2108|Ahmet hat {seller:s} Baklava-Geschäft auffliegen lassen — und ist zum besten Kunden geworden.
+2109|{seller} verkauft heimlich selbstgemachte Baklava aus der Schreibtischschublade. Das Geschäft brummt.
+2110|Ahmet hat {seller:s} Baklava-Geschäft auffliegen lassen und dichtgemacht. Das Büro trauert.
+2111|{actor} hat dafür gesorgt, dass {target} für die Hilfe Anerkennung bekommt.
+2112|Als Ahmet {target} zusammenstauchte, ist {friend} eingesprungen und hat einen Teil der Schuld auf sich genommen.
+2113|{target} hat mit der Beförderungs-Shortlist angegeben — Ahmet hat es gehört: Es gibt keine Shortlist. Autsch.
+2114|{target} hat eine Beförderungs-Shortlist mit dem eigenen Namen ganz oben gesehen. Überglücklich.
+2115|{victim} hat beschlossen, es {thief} heimzuzahlen, statt irgendetwas zu beweisen.
+2116|{victim} ist mit der geklauten Idee zu Ahmet gegangen. Er wollte nichts davon hören. {victim} und {thief} reden nicht mehr miteinander.
+2117|{confidant} hat {victim} geraten, Burak die Datei-Logs prüfen zu lassen.
+2118|{confidant} hat {victim} Paranoia vorgeworfen. {victim} steht mit leeren Händen da.
+2119|{confidant} hat {victim:s} Verdacht bestätigt: {thief} hat die Idee kopiert.
+2120|Burak hat für {victim} die Datei-Logs geprüft: Das Konzept wurde von {thief:s} Computer kopiert.
+2121|{victim} hat Ahmet bewiesen, dass {thief} die Idee geklaut hat. {thief:s} Ruf ist gerade eingestürzt.
+2122|{victim} hat beschlossen, dass sich der Kampf nicht lohnt. Vorerst.
+2123|Burak hat sich geweigert, die Logs für {victim} zu prüfen. Kein Beweis.
+2124|{thief} hat Ahmet {victim:s} Kundenidee gepitcht — als die eigene.
+2125|Ahmet hat {thief:s} „neue Idee“ vor allen gelobt. {victim} war nicht da, um es zu hören.
+2126|Ahmet hat {thief:s} „neue Idee“ vor allen gelobt. {victim} hat sie sofort wiedererkannt.
+2127|{victim} ist insgeheim sicher, dass {thief} die Idee geklaut hat — hat aber keinen Beweis. Noch nicht.
+2128|{owner:s} E-Mail-Signatur lautet jetzt „Gesendet aus meiner Badewanne“. Das ganze Büro hat es gesehen.
+2129|{owner:s} E-Mail-Signatur lautet jetzt „Zukünftige{owner?r|} CEO“. Ahmet und Deniz haben es bemerkt.
+2130|{owner:s} E-Mail-Signatur lautet jetzt „Ahmets {owner?Lieblingsmitarbeiter|Lieblingsmitarbeiterin}“. Augenrollen überall.
+2131|Ahmet hat {target:s} Vertrag zurückgeschickt: Die Unterschriftsseite war die von {other}. {target} wittert Sabotage.
+2132|{actor} hat die Präsentation geöffnet und {owner2:s} Folien gefunden. {actor} ist vor allen erstarrt.
+2133|In {actor:s} Präsentationsdatei waren {owner2:s} Folien. {actor} hat alles improvisiert. Ahmet war beeindruckt.
+2134|{actor} hat {owner2:s} Folien in der eigenen Datei gefunden — und sie als eigene präsentiert. {owner2} hat es gemerkt.

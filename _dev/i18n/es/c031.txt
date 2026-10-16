@@ -1,0 +1,186 @@
+6058|*ring ring* — en ALTAVOZ — «¿Dijiste que teníamos que hablar?»
+6059|*teléfono en altavoz* «¿{owner}? ¿Querías hablar?»
+6060|Yo... eh... me gustas desde hace siglos, ¡¿vale?! Ya está. Lo dije.
+6061|¡Me gustas! ¡Mucho! ...¿Por qué me mira todo el mundo?
+6062|*cuelga en pánico* ...¡Número equivocado! ¡Ja! Ja.
+6063|*cuelga de golpe* Eso era... un cliente.
+6064|¡Uuuuh, {owner}! «¡Me gustas desde hace siglos!»
+6065|Oímos tu llamada, {owner}. Muy romántica.
+6066|*le hace ruiditos de besos a {owner}*
+6067|Ríanse. Ojalá la próxima vez el altavoz sea el suyo.
+6068|...Me mudo de escritorio. A la Antártida.
+6069|Bueno... esa llamada.
+6070|Oí lo que dijiste. Por teléfono. Lo oyó todo el mundo.
+6071|...Tú también me gustas. Con altavoz y todo.
+6072|¿Para que conste? Lo mismo digo.
+6073|Eres un encanto. Pero no siento lo mismo. Lo siento.
+6074|Me halaga. De verdad. Pero no.
+6075|¿Hacemos como si no hubiera pasado y tomamos un café?
+6076|Vale, es lo más vergonzoso que he presenciado en mi vida. ¿Café?
+6077|¡¿Viene el CLIENTE y el proyector está MUERTO?!
+6078|¿Quién rompió el proyector? ¡¿Justo HOY?!
+6079|Espera... tengo un cable de repuesto... en algún sitio.
+6080|Vale, proyector. Tú y yo.
+6081|Y... ¡se hizo la luz! De nada.
+6082|Arreglado. No lo toquen. Ni le respiren encima.
+6083|Está muerto, Jim. Completamente muerto.
+6084|Nada. Huele a quemado. Eso nunca es buena señal.
+6085|Y como pueden ver en la diapositiva cuatro...
+6086|Nuestras cifras de este trimestre hablan por sí solas.
+6087|¡El cliente firmó! ¡Ahí mismo!
+6088|Les encantó. ¡Conseguimos el contrato!
+6089|...El cliente dijo que lo va a «pensar».
+6090|Se fueron antes. Eso es malo, ¿verdad? Eso es malo.
+6091|¿Sin proyector? No hay problema. *agarra un rotulador* Imagínense esto...
+6092|Olvídense de las diapositivas. Déjenme dibujarles el futuro. *dibuja un gráfico muy tembloroso*
+6093|El cliente compró TODO. Por un dibujo de monigotes.
+6094|Dijeron que era «refrescantemente humano». ¡Lo conseguimos!
+6095|El cliente preguntó si el dibujo era un caballo. Era nuestro gráfico de ventas.
+6096|...Se fueron. Con sus abrigos. Rápido.
+6097|¡LA PUERTA NO SE ABRE!
+6098|¡Estamos ATRAPADOS!
+6099|¡¿Por qué está cerrada la puerta durante una ALARMA DE INCENDIO?!
+6100|Todos vamos a... vale, estoy {me?tranquilo|tranquila}. Estoy {me?tranquilo|tranquila}. NO ESTOY {me?TRANQUILO|TRANQUILA}.
+6101|¿Así acaba todo? ¿En la recepción?
+6102|¡Todos! ¡Calma! La salida de emergencia está junto al archivo. Síganme.
+6103|Escúchenme. Que nadie entre en pánico. Hay otra salida.
+6104|*embiste la puerta con el hombro* ...¡Se abrió! Todos fuera... ah, la alarma paró.
+6105|¡Listo! El pestillo estaba atascado. Todos fuera. Con calma.
+6106|¿QUIÉN bloqueó la puerta principal? ¡Es un problema de SEGURIDAD!
+6107|Alguien bloqueó esa puerta. Quiero un nombre.
+6108|{scapegoat}, fuiste {scapegoat?el último|la última} junto a la puerta. Explícate.
+6109|Fuiste tú, ¿verdad, {scapegoat}?
+6110|¡¿Yo?! ¡Estaba intentando SALIR como todos!
+6111|¡No la toqué! ¡Lo juro!
+6112|Hoy {hero} mantuvo a todos a salvo. Eso es liderazgo.
+6113|Un aplauso para {hero}. Cabeza fría en plena crisis.
+6114|¡¿Mi almuerzo DESAPARECIÓ y hay una nota firmada por {signer}?!
+6115|¡¿«Dejen de robarme el yogur — {signer}»?! ¡¿Tiraste TODO?!
+6116|*escribe una contranota MUY larga en mayúsculas*
+6117|«{signer?QUERIDO|QUERIDA} {signer}: ALGUNOS TENEMOS SENTIMIENTOS. Y ALMUERZOS.» *la pega en la nevera*
+6118|Tiraste mi almuerzo. ¡¿Y luego me SERMONEASTE sobre el yogur?!
+6119|Explica la nota, {signer}.
+6120|¡Yo no escribí esa nota! ¡Ni siquiera como yogur!
+6121|¡Esa no es mi letra! ¡Alguien nos está tendiendo una trampa!
+6122|¡Quizás si la gente etiquetara su comida, no se tiraría!
+6123|Ah, ¿así que ahora soy la policía de la nevera? Bien. Soy la policía de la nevera.
+6124|¿Te enteraste? {leaver} RENUNCIA. ¡Vi la carta!
+6125|¡{leaver} se va! ¡La respuesta automática dice «renuncio»!
+6126|Estamos juntando para el regalo de despedida de {leaver}. ¿Pones algo?
+6127|¡Firma la tarjeta! ¡Para {leaver}! ¡Que no la vea!
+6128|Claro. Voy a extrañar a {leaver}.
+6129|Toma. Compren algo bonito.
+6130|No puedo creer que se vaya.
+6131|No te vayas, {leaver}. Te igualo lo que te ofrezcan.
+6132|{leaver}. Antes de irte... ¿qué haría falta para que te quedes?
+6133|...¿Irme? No me voy. ¿Quién dijo que me voy?
+6134|Un momento. ¿Qué oferta? ¡No me voy a ninguna parte!
+6135|...Bueno. Un aumento sería un buen comienzo.
+6136|Mmm. Un escritorio más grande. Y un aumento. Luego hablamos.
+6137|¡SORPRESA! ¡Te vamos a extrañar, {leaver}!
+6138|¡Adiós, {leaver}! *revienta un lanzaconfeti*
+6139|¡NO ME VOY! Pero... ¿gracias? ¿Hay pastel?
+6140|...No renuncio. Pero me quedo con la tarjeta.
+6141|¡Gracias a todos! ...Pequeña novedad: me quedo. Con aumento.
+6142|¡Ah! Sobre eso. Me quedo. Ahmet me hizo una oferta.
+6143|¡Pagamos un REGALO!
+6144|¡¿Lo SABÍAS y nos dejaste hacer la colecta?!
+6145|¡JAJAJA!
+6146|Ay, esto no tiene precio.
+6147|*se ahoga de risa*
+6148|¡No puedo respirar!
+6149|¡SIEMPRE haces lo mismo!
+6150|No se trata de los platos. Nunca se trata de los platos.
+6151|Bien. BIEN.
+6152|¡¿Yo?! ¡Tú fuiste quien se olvidó!
+6153|Ah, ¿así que ahora es culpa MÍA?
+6154|No me digas «bien».
+6155|Necesito aire.
+6156|Hablamos luego. O no.
+6157|...Perdón. Solo estoy {me?cansado|cansada}.
+6158|Vale. Exageré. ¿Café?
+6159|¿Sinceramente? {b} está insoportable últimamente.
+6160|Estoy de tu lado. Siempre.
+6161|Deberías hablar con {b}. En serio.
+6162|No lo tires todo por una tontería.
+6163|¿Podemos hablar? ¿Hablar de verdad?
+6164|Sobre lo de antes...
+6165|No quiero perderte por algo tan tonto.
+6166|No volvamos a pelear en la sala de descanso. ¿Trato hecho?
+6167|...Creo que necesitamos un descanso. Uno de verdad.
+6168|Quizás estamos mejor como compañeros de trabajo.
+6169|*susurra a una caja de cartón* Shh. Shh. Ahora eres una grapadora.
+6170|Que nadie mire en esta caja. Son... archivos. Archivos muy peludos.
+6171|*miau*
+6172|*miau diminuto*
+6173|Necesito que escondas un gatito en el archivo. No hagas preguntas.
+6174|Vale, la encontré en el estacionamiento. ¿Me ayudas a esconderla de Ahmet?
+6175|¡¿UN GATITO?! Dámela. La protegeré con mi vida.
+6176|...Está bien. Pero el nombre se lo pongo yo.
+6177|Ni hablar. Soy {me?alérgico|alérgica} al desempleo.
+6178|No. Ahmet nos mata a los dos.
+6179|...¿Algo está MAULLANDO en mi oficina?
+6180|¡¿Por qué hay un gatito en mi teclado?!
+6181|...Ay. Ay, miren esa carita. Está bien. Se queda. Ahora es la jefa de oficina.
+6182|¿Quién es una gatita buena? Ni una palabra a la central, nadie.
+6183|Fuera. La gatita se va. HOY. Y {smuggler}: a mi oficina. Ya.
+6184|¡Esto es una oficina, no un zoológico!
+6185|*envuelve todo el escritorio de {p2} en papel film* Perfecto.
+6186|*cambia el ratón de {p2} por una papa* Arte.
+6187|...¡¿PAPEL FILM?! Ah, esto es la guerra, {p1}.
+6188|Una PAPA. Me las vas a pagar, {p1}.
+6189|*llena el cajón de {p1} con 300 notas adhesivas* Fase uno completada.
+6190|*cambia el teclado de {p1} a la distribución turca F* Muajaja.
+6191|La broma definitiva. Un cubo de confeti. Sobre la puerta. Cuando {p2} entre...
+6192|*equilibra un cubo de confeti sobre la puerta del despacho del jefe* ...Espera, puerta equivocada.
+6193|*{me?cubierto|cubierta} de confeti* ...¿QUIÉN. HIZO. ESTO?
+6194|*escupe confeti* Voy a contar hasta tres.
+6195|...Ja. JA. Vale, eso estuvo bueno. Los dos, a trabajar.
+6196|Hacía años que no me reía así. No se lo digan a nadie.
+6197|¡{p1}! ¡{p2}! ¡A mi oficina! ¡YA!
+6198|Esto se acaba HOY. Los dos. Amonestación por escrito.
+6199|¿Podrías hacer MENOS ruido, POR FAVOR? Algunos estamos trabajando.
+6200|Perdona, ¿podrías bajar un poco la voz? Tengo una entrega.
+6201|¡Ah! Perdón. No me di cuenta. Hablaré bajito.
+6202|Culpa mía. Voz de interior. Entendido.
+6203|Es una oficina ABIERTA. Se llama COMUNICACIÓN.
+6204|Cómprate unos auriculares.
+6205|Ah, ¿quieres ruido? *sube el altavoz de la oficina* DISFRUTA.
+6206|Bien. Si yo no tengo silencio, NADIE lo tiene. *pone la música a tope*
+6207|¡¿Quién puso ESTA música?!
+6208|¡Mis oídos!
+6209|¿Alguien puede apagar eso?
+6210|Basta. Esto se acaba ya. Cocina. Los dos.
+6211|Ustedes dos están volviendo loco a todo el mundo. Siéntense. Hablen.
+6212|...¿Auriculares para mí y horas de silencio para ti?
+6213|Está bien. Música solo después de las cuatro. Trato hecho.
+6214|Jamás. Mañana traigo una TROMPETA.
+6215|No hasta que me pidan perdón por el arabesk.
+6216|Ahmet quiere ideas nuevas para las cuatro. La mía es mejor que la tuya. ¿Apostamos?
+6217|Duelo de propuestas. Tú y yo. Oficina de Ahmet. A las cuatro.
+6218|Acepto.
+6219|Ay, esto va MUY en serio.
+6220|Prepárate para perder.
+6221|*teclea como {me?loco|loca}* A la diapositiva nueve le falta sinergia.
+6222|Vale. Gráficos. Grandes. A Ahmet le encantan los gráficos grandes.
+6223|Imagínense: todo, pero más rápido.
+6224|Mi idea nos ahorrará un treinta por ciento. Quizás un cuarenta.
+6225|La idea de {a}. Adelante con ella. {b}, buen intento.
+6226|Me quedo con {a}. Felicidades.
+6227|{b}, esa es la buena. {a}, de vuelta a la mesa de dibujo.
+6228|Gana {b}. Muy brillante.
+6229|¿Por qué no las dos? {a} y {b}: ahora son un equipo. No se maten.
+6230|Combínenlas. Juntos. Hoy.
+6231|¡KARAOKE! ¡Cocina! ¡Después de las cinco! ¡Traigan su voz!
+6232|Esta noche: karaoke de oficina. Asistencia obligatoria. Es broma. Casi.
+6233|*muy bajito, en el archivo* ♪ ...y mi corazón hace bum-bum por tiii... ♪
+6234|*tararea escalas detrás del archivador*
+6235|...¿{shy?Ese|Esa} era {shy}? ¿Cantando? ¿ASÍ?
+6236|Un momento. ¿{shy} sabe CANTAR?
+6237|♪ IMPRESORA, IMPRESORA, IMPRIME MI CORAZÓOON ♪
+6238|♪ Lunes, ay, lunes, ¿por qué me odiaaas? ♪
+6239|♪ Ofisin yıldızııı, kahvenin kraliçesiii ♪
+6240|...GUAU. ¡Otra! ¡OTRA!
+6241|{shy}, ¿dónde tenías escondido ESO?
+6242|*se le quiebra la voz en la nota alta* ...Estoy bien. Perfectamente.
+6243|*canta una canción totalmente distinta*

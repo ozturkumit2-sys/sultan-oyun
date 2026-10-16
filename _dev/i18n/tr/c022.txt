@@ -1,0 +1,231 @@
+4225|{avenger}. {avenger} yaptı. BİLİYORUM.
+4226|Tabii ya. {avenger}. İntikam, ha?
+4227|Bunun her yerinde {suspect} yazıyor.
+4228|{suspect}! Sen olduğunu biliyorum!
+4229|Bu sen miydin? Dürüst ol.
+4230|Çok olgunca. Gerçekten çok olgunca.
+4231|Savaş mı istiyorsun? Al sana savaş.
+4232|Ha! Epey sürdü.
+4233|Şimdi ödeştik.
+4234|Hoppala. Bunu ben mi yaptım?
+4235|...Evet. Bendim. Aptallıktı. Özür dilerim.
+4236|Tamam, tamam. Kızgındım. Ateşkes?
+4237|...Peki. Ateşkes. Ama klavyemi düzelteceksin.
+4238|Tamam. Ödeştik. Bitti.
+4239|*{b:in} masasının etrafından uzun yoldan dolaşır*
+4240|{b:in} yanına oturmam.
+4241|{b:e} meşgul olduğumu söyle. Sonsuza dek.
+4242|Ooo, {a} ben yokmuşum gibi mi davranıyor? Peki. Bu oyunu ben de oynarım.
+4243|*{a:i} gösterişli bir şekilde görmezden gelir*
+4244|İkiniz böyle devam edemezsiniz. Herkesin keyfi kaçtı.
+4245|Seninle {other} arasındaki durumu konuşabilir miyiz? Beş dakika?
+4246|Hayat çok kısa. Gidip konuşun işte.
+4247|...Biliyorum. Eskisi gibi olmayı özlüyorum.
+4248|Peki. Özür dilerse dinlerim.
+4249|Belki. Ben de bundan yoruldum.
+4250|Hayır. Yaptığından sonra olmaz.
+4251|Sen karışma. Lütfen.
+4252|Ne yaptığını gayet iyi biliyor.
+4253|...Selam.
+4254|Eee. Şey.
+4255|Bu biraz tuhaf oldu.
+4256|Özür dilerim. Aslında kastetmediğim şeyler söyledim.
+4257|Haddimi aştım. Özür dilerim.
+4258|Her şeye... baştan başlayabilir miyiz?
+4259|Ben de. Ben de özür dilerim.
+4260|Evet. Baştan başlayalım.
+4261|Gel buraya, seni salak.
+4262|Özür mü? Senin özrün BU mu?
+4263|Hiç değişmemişsin.
+4264|Boş ver.
+4265|Bu neden bu kadar uzun sürüyor?
+4266|Bitene kadar burada dikileceğim.
+4267|Kullandığın font bu mu? Cidden mi?
+4268|...Bitince biter.
+4269|Elimden geldiğince hızlı çalışıyorum.
+4270|*çok, çok gürültülü yazar*
+4271|Masamın başında BİR kez daha dikilirse...
+4272|Yemin ederim, bugün bir şey söyleyeceğim.
+4273|Böyle çalışamam. Ona söyleyeceğim.
+4274|Söyle. Birinin söylemesi lazım.
+4275|Söyle ona! Hepimiz aynı şeyi düşünüyoruz.
+4276|Arkandayım.
+4277|Yapma. Bugün olmaz. Keyfi yok.
+4278|Savaşlarını iyi seç. Bu o savaş değil.
+4279|Nefes al. Önce kahve.
+4280|Kusura bakmayın Ahmet Bey ama siz ensemde soluyup dururken çalışamıyorum!
+4281|Yeter! Ya işimi yapacağıma güvenin ya da kendiniz yapın!
+4282|Başımda dikiliyorsunuz, söylenip duruyorsunuz, bir kez olsun teşekkür etmiyorsunuz. Bu normalmiş gibi davranmaktan bıktım.
+4283|NE dedin sen?
+4284|Benimle bu şekilde konuşmaya nasıl CÜRET edersin!
+4285|Herkesin önünde mi? Cidden mi?
+4286|Eyvah.
+4287|Az önce... gerçekten...
+4288|*nefesini tutar*
+4289|Patlamış mısır. Biri patlamış mısır getirsin.
+4290|Aslında haklı.
+4291|Ahmet Bey, hepimiz aynı şeyi hissediyoruz.
+4292|Bir önemi varsa — katılıyorum.
+4293|...Öyle mi.
+4294|Herkes mi? Cidden mi?
+4295|Hım.
+4296|Odama. Hemen.
+4297|Az önceki konuya gelince...
+4298|...Belki biraz fazla üstüne geldim. Geri çekileceğim.
+4299|Anlıyorum. Deneyeceğim. Söyleyeceğim bu kadar.
+4300|Peki. Başında dikilmeyi bırakacağım. Çoğunlukla.
+4301|Bu son uyarındı. Bir dahakine İK.
+4302|Benimle bir daha böyle konuşursan kapı orada.
+4303|Bunu resmî bir uyarı say.
+4304|Dayı— yani, Ahmet Bey! Dosya burada!
+4305|Dayıcığım, şey— AHMET BEY. Pardon. Rapor.
+4306|Buyrun Ahmet Dayı— Ahmet Bey. Efendim.
+4307|*öhö* Teşekkürler, ECE.
+4308|...Evet. Teşekkürler. Stajyer.
+4309|*çok gürültülü öksürük*
+4310|...Dayı mı?!
+4311|Az önce DAYI mı dedi?
+4312|Ooo-hooo.
+4313|Eee... "Ahmet Dayı" ha? Açıklamak ister misin?
+4314|Ece'ciğim. Dayı mı? Cidden mi?
+4315|Ahmet'le aranızda bana anlatmak istediğin bir şey var mı?
+4316|Bu bir... Türk geleneği! Biz bütün patronlara dayı deriz!
+4317|Dayı mı? "Daha" dedim! Daha... dosya bitmedi diyecektim!
+4318|Dayı demedim. Dedim mi? Yok.
+4319|...Tamam. O benim dayım. Lütfen, LÜTFEN kimseye söyleme.
+4320|Peki. Evet. Annemin kardeşi. Kendi başıma başarmak istedim.
+4321|Ağzım mühürlü. Çoğunlukla.
+4322|Sırrın bende güvende.
+4323|Ayy. Tabii ki kimseye söylemem.
+4324|Ceren, sen her şeyi bilirsin. Ece'nin Ahmet'le akrabalığı var mı?
+4325|Hızlı bir soru, tamamen masum: Ece, Ahmet'in yeğeni mi?
+4326|Bunu söylemek bana düşmez.
+4327|İnsanların aile meselelerini konuşmam. Kusura bakma.
+4328|Ece'ye sor. Ya da daha iyisi: sorma.
+4329|...Sana kim söyledi? — Yani. Yorum yok.
+4330|Bunu... doğrulayamam. Ki bu bir hayır değil.
+4331|İnanMAYACAKSIN. Ece, Ahmet'in YEĞENİ.
+4332|Ece'nin stajı mülakatsız aldığını hatırlıyor musun? Bil bakalım neden. Ahmet Dayı.
+4333|Torpil alarmı. Ece. Ahmet. Aile.
+4334|Bu çok şeyi AÇIKLIYOR.
+4335|Cidden mi?! İnanılmaz.
+4336|Ona torpil geçildiğini BİLİYORDUM.
+4337|...Keşke bunu bana hiç söylemeseydin.
+4338|Herkesin ne dediğini biliyorum. Evet, Ahmet benim dayım. Ve buraya ait olduğumu kanıtlamak için iki kat fazla çalışacağım.
+4339|Tamam. Herkes biliyor. O benim dayım. Hiçbir zaman ayrıcalık istemedim. Beni işime bakarak yargılayın.
+4340|Haklısın. Sen hep üzerine düşeni yaptın.
+4341|Açık konuşayım mı? Buradaki en çalışkan kişi sensin.
+4342|Helal olsun, Ece.
+4343|Değerlendirmeni dayın imzalarken söylemesi kolay tabii.
+4344|Hı-hı.
+4345|Tabii.
+4346|Aile şirketi, öyle mi?
+4347|Tamam. Bunu kim yaptı?
+4348|Biri bunu bilerek yaptı.
+4349|Kim eşyalarımı kurcalayıp duruyor?!
+4350|Biri beni sabote ediyor. Yine.
+4351|Bundan KİM sorumlu?
+4352|Bu bir bug değildi. Bu bir insandı.
+4353|Bunu... bunu ben mi yaptım? Hayır. Bunu başkası yaptı.
+4354|Pekâlâ, şakacı. Göster kendini.
+4355|Bunun her yerinde {suspect} yazıyor.
+4356|Bahse girerim {suspect} yapmıştır.
+4357|{suspect}. Hep {suspect}.
+4358|Bunu kimin yaptığını çok iyi biliyorum. {suspect}.
+4359|Ah, benim bir teorim var. Baş harfi... boş ver, direkt söyleyeyim: {suspect}.
+4360|{suspect} hata yapmamı istiyor. Ne tatlı.
+4361|{target}. Sen miydin? Dürüst ol.
+4362|Tamam {target}, şaka bitti. Sen miydin?
+4363|Sen olduğunu biliyorum, {target}.
+4364|{target}, bir açıklama bekliyorum. Hemen.
+4365|{target}! İtiraf etmek için odam iyi bir yer olur.
+4366|{target}. Loglar yalan söylemez. Sen de söyleme.
+4367|{target}... şey... sen miydin? Sorduğum için kusura bakma!
+4368|Ne? Ben hiçbir şeye dokunmadım!
+4369|Ben mi?! Bütün gün masamdaydım!
+4370|Neden herkes hep beni suçluyor?
+4371|Bunu üstlenmeyi ÇOK isterdim ama hayır.
+4372|Lütfen. Ben olsaydım, asla öğrenemezdin.
+4373|Ben değildim! Kahvem üzerine yemin ederim!
+4374|Canım, ben şakaların sadece LAFINI ederim.
+4375|Daha iyi işlerim var. Yani kelimenin tam anlamıyla her şey.
+4376|Bana yalan söyleme.
+4377|Tabii. Ben de genel müdürüm.
+4378|İnanılmaz.
+4379|Yalan söylüyorsun ve ikimiz de bunu biliyoruz.
+4380|...Tamam. Belki sen değildin. Pardon.
+4381|Peki. Benim hatam.
+4382|O zaman kim...?
+4383|Ha! Tamam, tamam. Ateşkes?
+4384|Peki. Ama gözüm üstünde.
+4385|Sen değilsen, sana bir kahve borçluyum.
+4386|{target}, bilgisayarımda bir sorun var. Yardım?
+4387|{target}! Acil durum. Teknik acil durum.
+4388|Makineme bakabilir misin? İçine cin girmiş.
+4389|{target}. Bilgisayarım. Hemen.
+4390|{target}, teslim tarihim kapıda ve bilgisayarım az önce bana ihanet etti.
+4391|{target}, sanırım interneti bozdum. Yine.
+4392|{target}, en sevdiğim dâhi. Ufacık bir sorunum var.
+4393|İki dakikaya hallederim.
+4394|Şöyle bir bakayım.
+4395|Tamam, tamam. İlgileniyorum.
+4396|*iç çeker* Kapatıp aç— boş ver. Ben yaparım.
+4397|Önce ticket açılsın.
+4398|Öğle yemeğinden sonra. Belki.
+4399|Kapatıp açmayı denedik mi?
+4400|Ben tek kişiyim, millet.
+4401|Ticket. Sıra. Sabır.
+4402|Bu bir arıza değil. Biri bunu bilerek yapmış.
+4403|İlginç. Bu elle yapılmış.
+4404|Biri bu klavyeyi kurcalamış.
+4405|Bu bir kaza değildi. Biri bu makineyi ellemiş.
+4406|Hayat kurtardın.
+4407|Teşekkürler!!
+4408|Sana bir iyilik borçluyum.
+4409|Sana bir kebap borçluyum. İki kebap.
+4410|...Bunu görmedim. Hiçbir şey görmedim.
+4411|Beni ilgilendirmez. Beni ilgilendirmez.
+4412|Bunu kendime saklarım.
+4413|Bazı şeyler söylenmeden kalsa daha iyi.
+4414|Not edildi. Silindi. Devam.
+4415|Ağzım mühürlü! ...Çoğunlukla mühürlü.
+4416|En iyisi {subject:e} doğru mu diye sorayım.
+4417|Bu doğru mu ki? {subject:e} soracağım.
+4418|En iyisi doğrudan {subject:den} duymak.
+4419|Ah. Aman Tanrım.
+4420|Vay, vay, vay.
+4421|Millet BUNU bir duysun.
+4422|Bayram erken geldi!
+4423|İlginç. Çok ilginç.
+4424|Ahmet Bey, bilmeniz gereken bir şey var sanırım.
+4425|Ahmet Bey, bir dakikanız var mı? {subject} hakkında.
+4426|Laf taşımayı sevmem ama... {gossip}
+4427|Bunu size söyleyen ben olmak istemezdim Ahmet Bey ama... {gossip}
+4428|Ahmet Bey, bu ekibi etkiliyor: {gossip}
+4429|Öyle mi? {subject:i} gözümün önünden ayırmayacağım.
+4430|Söylediğin için teşekkürler.
+4431|Hım. Bu... bilmesi çok faydalı bir şey.
+4432|Burası oyun parkı değil. İşinin başına.
+4433|Ofis dedikodusu beni ilgilendirmez.
+4434|Peki bunu bana neden anlatıyorsun?
+4435|Hey {target}... {what} meselesi... sen miydin?
+4436|{target}! Sen olduğunu biliyorum. Hani {what}!
+4437|Eee... {what}. O sendin, değil mi?
+4438|{target}! Sen miydin?? Hani {what}!
+4439|{target}, {what} ile bir ilgin var mı?
+4440|{target}. Açıkla bakalım: {what}.
+4441|...Evet. Evet, bendim. Rica ederim.
+4442|Suçluyum. Yani — beğenmene sevindim.
+4443|Belki. Kim soruyor?
+4444|Elbette. Ben sürprizlerle doluyum.
+4445|Haha, evet! Tamamen ben. Kesinlikle.
+4446|Ben mi? Neden bahsettiğin hakkında hiçbir fikrim yok.
+4447|O ben değildim. Kusura bakma.
+4448|Ha? Ben bir şey yapmadım.
+4449|O ben değildim. Ama kim olduğunu bilmek isterim.
+4450|Ben... şey... belki?
+4451|*kızarır* Sana kim söyledi?
+4452|Kim olduğu önemli değil. Değil mi?
+4453|Otur. Bana {what} hakkında bir şeyler anlattılar.
+4454|Bana {what} meselesini açıkla.
+4455|{what} hakkında konuşmamız lazım.

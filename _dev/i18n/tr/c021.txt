@@ -1,0 +1,200 @@
+4025|Ahmet Bey, bilmemiz gerekiyor. İşten çıkarma olacak mı?
+4026|Cumaya kadar birinin kovulacağı doğru mu?
+4027|Bütün ofis panikte. İşimize son mu veriliyor?
+4028|İŞTEN ÇIKARMA mı? İşten çıkarmadan kim bahsetti?!
+4029|Allah aşkına neden bahsediyorsunuz?
+4030|Kovulmak mı? Kimse kovulmuyor! Bunu kim başlattı?
+4031|HERKES. İşten çıkarma YOK. KAHVE ABONELİĞİNİ iptal ettim.
+4032|Dinleyin! Kimse kovulmuyor! Kahve makinesi sözleşmesinden bahsediyordum!
+4033|Kayıtlara geçsin: bu ofisten ayrılan tek şey pahalı kahve.
+4034|Oh, çok şükür.
+4035|KAHVE mi?!
+4036|Tuvalette boşuna mı ağladım?
+4037|...Dur, artık güzel kahve yok mu?
+4038|İkimizin de bir {mark} sorunu var. Birlikte çözelim.
+4039|Sen bir şeyler duyuyorsun. Ben de onları nasıl kullanacağımı biliyorum. Ortak mıyız?
+4040|{mark} yolumuzu tıkıyor. Bana yardım et, ekip lideri olunca sıradaki sen olursun.
+4041|...Varım. Kimse bilmeyecek.
+4042|Anlaştık. Bu konuşma hiç yaşanmadı.
+4043|Bana ne faydası var? ...Peki. Anlaştık.
+4044|Hayır. Pis işlerini yapacak başka birini bul.
+4045|Kesinlikle hayır. Ve kendine dikkat et.
+4046|Ben öyle biri değilim.
+4047|{schemer:e} karşı dikkatli ol. Seni batırmak için benden yardım istedi.
+4048|Sırf bu doğru olmadığı için söylüyorum: {schemer} sana karşı entrika çeviriyor.
+4049|...Biliyordum. Teşekkürler.
+4050|Tabii ki öyle. Söylediğin için sağ ol.
+4051|Sana bir borçluyum.
+4052|{mark} hakkında elinde ne var?
+4053|İşe yarar bir şey? Herhangi bir şey?
+4054|Ah, bir şey var. {dirt}
+4055|Bu aramızda kalsın: {dirt}
+4056|Gerçek bir şey yok. Ama insanlar yeterince sık duyduklarına inanır...
+4057|Hiçbir şey. O zaman uyduracağız. Tembel, erkenden sıvışıyor. Kolay.
+4058|Ahmet Bey, bunu söylemekten hoşlanmıyorum ama bilmeniz gerek: {dirt}
+4059|{mark} için endişeleniyorum. Biliyor muydunuz: {dirt}
+4060|...Öyle mi? İlginç.
+4061|Bunu aklımda tutacağım.
+4062|Hm. Bu işleri değiştirir.
+4063|{schemer} ile {partner:i} arşivde fısıldaşırken gördüm. Sonra {schemer} senin hakkında doğruca Ahmet'e gitti.
+4064|Haberin olsun: {schemer}, Ahmet'le senin hakkında konuşuyor. {partner} da işin içinde.
+4065|{partner} mı?! Ona güvenmiştim!
+4066|Tabii ki. TABİİ Kİ.
+4067|...Söylediğin için teşekkürler.
+4068|Sen ve {schemer} mi? Gerçekten mi? Onca şeyden sonra?
+4069|Arşivi biliyorum. Ahmet'i biliyorum. Açıkla.
+4070|{schemer} sana ne kadar söz verdi?
+4071|Hepsi {schemer:in} fikriydi! Ben sadece... dinledim!
+4072|Ben yokum. Bunu hiç istemedim. {schemer:le} konuş.
+4073|Neden bahsettiğini bilmiyorum.
+4074|Kuruntu yapıyorsun.
+4075|Kanıtla.
+4076|Dur — bugün {bday:in} doğum günü! Kimse bir şey planlamadı mı?!
+4077|{bday:in} doğum günü. Pasta. Kart. Sürpriz. Hadi hadi hadi.
+4078|Doğum Günü Operasyonu başlıyor. Hedef: {bday}.
+4079|BUGÜN {bday:in} DOĞUM GÜNÜ! Tamam, sessiz, sessiz. Gizli görev.
+4080|Pst. {bday:in} pastası için para atar mısın? Bir de şu kartı imzala. Görmesin!
+4081|{bday:in} sürprizi için beş lira. Gizli!
+4082|Oo, tabii! Al.
+4083|Ben de varım. Nereye imzalıyorum?
+4084|Sürpriz mi? Bayılırım.
+4085|SÜRPRİZ mi? {bday} için mi? Ah, ben sır tutmada berbatımdır...
+4086|Ha! Söylemem. Herhalde.
+4087|Pasta buzdolabında. Yoğurtların arkasında. Mükemmel.
+4088|Saklandı. Turşuların arkasına kimse bakmaz.
+4089|Oo, bu pasta birine mi?
+4090|Bu... koca bir pasta mı? Alabilir miyim—
+4091|Bu pasta birine mi? Kendim için soruyorum.
+4092|SAKIN. DOKUNMA. ONA.
+4093|O {bday} için! Çek ellerini!
+4094|Bırak. O çatalı. Yere.
+4095|SÜRPRİİİZ!!!
+4096|İYİ Kİ DOĞDUN!
+4097|🎂 SÜRPRİİİİZ!
+4098|Sizi gidi! Aman tanrım! Herkes unuttu sanmıştım!
+4099|OLAMAZ. Benim için mi?!
+4100|Ağlamıyorum. Sen ağlıyorsun.
+4101|...Hıh. Eh. Teşekkür ederim. Hepinize.
+4102|...Sürprizlerden nefret ederim. ...Teşekkürler.
+4103|Eh. Bu... beklenmedik şekilde hoş.
+4104|Ha! Biliyordum! Biri sır tutamıyor!
+4105|Pastayı bu sabah gördüm. Ama YİNE de duygulandım!
+4106|♪ İyi ki doğdun ♪
+4107|Konuşma! Konuşma!
+4108|Bir dilek tut!
+4109|Pasta! PASTA!
+4110|Dur. {bday} nerede?!
+4111|Doğum günü kişisini getirmeyi unuttuk.
+4112|...Gerçekten {bday:e} gelmesini söyleyen oldu mu?
+4113|NE? Rakamlar YANLIŞ mıydı? ...Sizi sonra arayacağım.
+4114|...Müşteri NE diyor? Rakamlarımızda bir SIFIR mı fazlaymış?!
+4115|Anlıyorum. Bir daha olmayacak.
+4116|Biri müşteriye YANLIŞ rakamlar göndermiş. Bir isim istiyorum. HEMEN.
+4117|Müşteri rakamlarını kim hazırladı?! Öne çıksın!
+4118|Bunu kimin yaptığını bulacağım. Önce siz söylerseniz daha iyi olur.
+4119|Biri sorarsa, o rakamları {scapegoat} gönderdi.
+4120|Ben değil. Kesinlikle ben değil. Belki {scapegoat}.
+4121|Lütfen bana bakmayın. Lütfen bana bakmayın.
+4122|Belki geçip gider...
+4123|*monitörün arkasına saklanır*
+4124|Ahmet Bey... bendim. Sütunları karıştırdım.
+4125|Rakamlar benimdi. Özür dilerim. Müşteriyi bizzat ben ararım.
+4126|Benim hatamdı.
+4127|...Söylediğin için teşekkürler. Düzelt. Bugün.
+4128|En azından dürüstsün. Onları geri ara.
+4129|Hm. Hata olur. İkincisi olmasın.
+4130|Bir SIFIR mı?! Bunun bizi nasıl gösterdiğini biliyor musun?!
+4131|Kabul edilemez! Tamamen kabul edilemez!
+4132|{scapegoat}. Müşteri rakamları. Açıkla.
+4133|O rakamları SENİN gönderdiğini duydum.
+4134|Ofisimin sana bir sorusu var, {scapegoat}: neden?
+4135|Dosya geçmişine bakın. O tabloyu haftalardır açmadım.
+4136|Ben değildim. Zaman damgalarına bakın.
+4137|En son kimin düzenlediğini {culprit:e} sorun.
+4138|...Ben yapmadım. Ama peki.
+4139|Ne diyeceğimi bilmiyorum.
+4140|...Tamam.
+4141|Dosya geçmişine göre o tabloyu {scapegoat} değil, SEN düzenlemişsin.
+4142|Evet. Zaman damgaları. Komik şeylerdir, zaman damgaları.
+4143|Suçu {scapegoat:in} üstlenmesine göz mü yumdun?
+4144|Ben... açıklayabilirim.
+4145|Masum bir hataydı!
+4146|...Evet. Bendim.
+4147|Eyvah. {mentor:in} raporuna yanlış toplamları girdim. Ve rapor çoktan Ahmet'in masasında!
+4148|{mentor:in} raporunda iki sütunu karıştırdım. Rapor Ahmet'te. Ben bittim.
+4149|Ahmet Bey, raporumda bir hata var. Benim suçum. Düzeltilmiş hâli on dakikaya hazır.
+4150|Toplamlarda hata yaptım. Düzeltildi. Bir daha olmayacak.
+4151|Hm. Sana hiç yakışmadı. Düzelt.
+4152|Peki. On dakika.
+4153|Özensiz. Senden daha iyisini beklerdim.
+4154|BENİM raporlarımda hata mı? Yine mi?
+4155|Komik bir şey Ahmet Bey — o rapor hatasının stajyerin olduğunu duydum. Biri onu koruyor. Pek şeffaf değil, değil mi?
+4156|{mentor:in} {protege:i} koruduğunu biliyorsunuz, değil mi? Bilmeniz gerektiğini düşündüm.
+4157|...Korumak mı? BENİM ofisimde mi?
+4158|Öyle mi.
+4159|Bakacağım.
+4160|Kimin yazım hatası olduğu umurumda değil. İşinizin başına.
+4161|Ofis dedikodusu performans değerlendirmesi değildir, Deniz.
+4162|Ahmet Bey — hata benimdi. {mentor} beni koruyordu. Lütfen onu suçlamayın.
+4163|Bendim. {mentor} değil. Özür dilerim.
+4164|...Hm. Hem sadakat HEM dürüstlük. İkiniz de, işinizin başına.
+4165|Peki. Buna saygı duyuyorum. Bir daha olmasın.
+4166|Teşekkürler. Beni koruduğun için. Zorunda değildin.
+4167|Bunu benim için neden yaptın?
+4168|Sana borçluyum. Hem de çok.
+4169|Burada böyle yaparız. Bir dahaki sefere toplamları iki kez kontrol et.
+4170|Herkes bir kere hata yapar. İki kere değil.
+4171|Sen de benim için aynısını yapardın.
+4172|Ahmet Bey, ekip liderliği pozisyonu hakkında konuşmak istiyorum.
+4173|Bence ekip liderliği için bir şansı hak ettim. Nerede durduğumu bilmek istiyorum.
+4174|Terfi almam için ne gerekiyor?
+4175|Kanıtla. Kaya hesabının sunumunu kazan. Yarına kadar.
+4176|Sonuçlar konuşur. Bana Kaya'yı kazandıracak bir sunum getir.
+4177|Göster. Sonra konuşuruz.
+4178|Şimdi sırası değil.
+4179|Bir pozisyon açılınca sana haber veririm.
+4180|Sabır. Herkes terfi etmek istiyor.
+4181|Sıradaki sensin. Bunu söylediğimi kimseye söyleme.
+4182|Böyle devam et. Yakında senin.
+4183|Öğle yemeği mi? Hayır. Sunum.
+4184|Slayt on iki. Slayt ON ÜÇ.
+4185|Bunu bitirirsem ekip lideri benim. ODAKLAN.
+4186|Bu slaytlar... karışsa yazık olur.
+4187|Hay aksi. Bu son sürüm mü? Öyleydi.
+4188|Kişisel değil.
+4189|...ve Kaya'nın bizimle anlaşmasının sebebi bu. Sorusu olan?
+4190|İşte sunum. Üç slayt. Laf kalabalığı yok.
+4191|Size Kaya teklifini anlatmak istiyorum.
+4192|...Bu mükemmel. Gerçekten mükemmel.
+4193|İşte BU, bir ekip liderinin işi.
+4194|Etkilendim.
+4195|Rakamlar darmadağın. Ne oldu?
+4196|Bu hazır değil.
+4197|Daha fazlasını bekliyordum.
+4198|Biri masamı karıştırmış! Notlarım her yere dağılmıştı!
+4199|Ben... bu sabah hazırdı!
+4200|Dün hakkında...
+4201|Ekip liderliği rolünü düşünüyordum.
+4202|Pozisyon açılınca senin.
+4203|Hak ettin. Yakında resmî olarak.
+4204|Henüz değil. Çalışmaya devam et.
+4205|Yaklaştın. Ama henüz değil.
+4206|{victim:den} intikam alacağım. Sen de bana yardım edeceksin.
+4207|{victim} bunu hak etti. Bir planım var.
+4208|İntikam soğuk yenen bir yemektir... cumaya kadar.
+4209|...Tamam, dinliyorum. Plan ne?
+4210|Ha! Ben de varım.
+4211|Peki. Ama kovulmamıza yol açacak bir şey olmasın.
+4212|Boş ver. Değmez.
+4213|İntikam mı? Cidden mi? Git onunla konuş.
+4214|Pişman olursun. Yapma.
+4215|...Belki haklısın.
+4216|Off. Peki. Fazla mantıklısın.
+4217|Klavye tuşlarını değiştiriyorum. Her. Birini.
+4218|Şeker kavanozuna tuz. Onun kavanozuna.
+4219|Masaüstü duvar kâğıdını... şununla değiştiriyorum.
+4220|Çekmecenin içine bir Ahmet fotoğrafı yapıştırıyorum. Afiyet olsun.
+4221|Klavyemin tuşlarını KİM değiştirdi?!
+4222|Şekerim TUZ olmuş. Bunu kim yaptı?!
+4223|Ahmet'in yüzü neden çekmecemde?!
+4224|Duvar kâğıdım bir lama. NEDEN.

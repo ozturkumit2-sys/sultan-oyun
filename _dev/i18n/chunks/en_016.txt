@@ -1,0 +1,283 @@
+2791|board_changed_live|_|0|Wait... the meeting time just changed?
+2792|board_changed_live|_|1|Did the board just... change?
+2793|board_changed_live|_|2|I'm not crazy. That said a different time.
+2794|meeting_open|_|0|Alright, let's begin.
+2795|meeting_open|_|1|Everyone sit. We're starting.
+2796|meeting_open|_|2|Phones down. Meeting starts now.
+2797|boss_finally|_|0|Finally!
+2798|boss_finally|_|1|Look who decided to show up.
+2799|boss_finally|_|2|We've been waiting forever.
+2800|boss_finally|mert|0|The boss is late? Write that down!
+2801|boss_blames_calendar|_|0|Ceren, why was my calendar wrong?!
+2802|boss_blames_calendar|_|1|Who scheduled this? Ceren?
+2803|boss_late_laugh|_|0|Ahem. Let's pretend I was right on time.
+2804|boss_late_laugh|_|1|Yes, yes. Even I get busy.
+2805|late_excuse|_|0|Sorry! Sorry I'm late!
+2806|late_excuse|_|1|I thought it was later!
+2807|late_excuse|_|2|Traffic! Office traffic!
+2808|late_excuse|mert|0|I was... networking. At the coffee machine.
+2809|late_excuse|ece|0|I'm so sorry! I got lost! In the office!
+2810|board_said_other_time|_|0|The board said a different time!
+2811|board_said_other_time|_|1|But the schedule said later!
+2812|who_changed_board|_|0|Who keeps changing the board?!
+2813|who_changed_board|_|1|Someone is messing with the schedule.
+2814|boss_scold_late|_|0|Late. Again.
+2815|boss_scold_late|_|1|Time is money. Yours is running out.
+2816|boss_scold_late|_|2|Do you think this is a café?
+2817|boss_sit_down|_|0|Sit down. Quickly.
+2818|boss_sit_down|_|1|Just sit.
+2819|where_is_everyone|_|0|Where is everyone?
+2820|where_is_everyone|_|1|Was the meeting cancelled?
+2821|where_is_everyone|_|2|Am I in the wrong room?
+2822|where_is_everyone|_|3|Hello? Meeting?
+2823|scold_meeting|_|0|You missed the meeting. Explain.
+2824|scold_meeting|_|1|Where were you during the meeting?
+2825|scold_email|_|0|About that email of yours...
+2826|scold_email|_|1|I read your email. We need to talk.
+2827|scold_deadline|_|0|You missed your deadline.
+2828|scold_deadline|_|1|Where's your work? It was due.
+2829|scold_general|_|0|We need to talk about your performance.
+2830|scold_general|_|1|I expect better from you.
+2831|sorry_boss|_|0|Sorry, it won't happen again.
+2832|sorry_boss|_|1|Yes, sir. Understood.
+2833|sorry_boss|_|2|I'll fix it.
+2834|sorry_boss|ece|0|Sorry, Uncle— I mean, sir!
+2835|talk_back|_|0|With respect, that's not fair.
+2836|talk_back|_|1|Maybe if this office worked properly...
+2837|talk_back|_|2|You know what? I'm tired of this.
+2838|talk_back|burak|0|Maybe I won't be here much longer anyway.
+2839|boss_how_dare|_|0|Watch your tone!
+2840|boss_how_dare|_|1|Excuse me?!
+2841|boss_how_dare|_|2|Careful.
+2842|present_good|_|0|As you can see, the numbers speak for themselves.
+2843|present_good|_|1|And that's our plan for next quarter.
+2844|present_good|_|2|Here are the results. All green.
+2845|boss_praise|_|0|Excellent work.
+2846|boss_praise|_|1|Now THAT is what I like to see.
+2847|boss_praise|_|2|Very good. Very good.
+2848|rival_jealous|_|0|*rolls eyes*
+2849|rival_jealous|_|1|Show-off.
+2850|rival_jealous|_|2|Anyone could have done that.
+2851|present_no_usb|_|0|My presentation was on my USB... and it's gone.
+2852|present_no_usb|_|1|I... I can't find my slides.
+2853|boss_unimpressed|_|0|Unprepared. Disappointing.
+2854|boss_unimpressed|_|1|This is not acceptable.
+2855|boss_unimpressed|_|2|Come back when you're ready.
+2856|present_bad|_|0|Um... I'm not quite finished...
+2857|present_bad|_|1|I'll have the full version tomorrow?
+2858|present_bad|_|2|So... rough draft time.
+2859|credit_steal_pitch|_|0|Actually, sir, the core idea was mine. Let me walk you through it.
+2860|credit_steal_pitch|_|1|I can present that project — I did most of the work anyway.
+2861|credit_steal_pitch|_|2|Allow me. I know this project inside out.
+2862|boss_impressed_thief|_|0|Impressive, Deniz. Very impressive.
+2863|boss_impressed_thief|_|1|Now that's initiative.
+2864|boss_impressed_thief|_|2|Good. I like people who step up.
+2865|that_was_my_work|_|0|That was MY work!
+2866|that_was_my_work|_|1|You just presented my project!
+2867|that_was_my_work|_|2|Are you kidding me?! That's mine!
+2868|prove_it|_|0|Prove it.
+2869|prove_it|_|1|Funny, I don't see your name on it.
+2870|prove_it|_|2|Teamwork, Selin. Teamwork.
+2871|meeting_joke|_|0|Can we make this meeting an email?
+2872|meeting_joke|_|1|I have a question: when's lunch?
+2873|meeting_joke|_|2|Great meeting. Ten out of ten.
+2874|meeting_joke|mert|0|Quick question: are snacks a budget item?
+2875|boss_laughs|_|0|Ha! Okay, okay.
+2876|boss_laughs|_|1|Very funny. Now, back to it.
+2877|boss_not_funny|_|0|This is not a comedy club.
+2878|boss_not_funny|_|1|Was that supposed to be funny?
+2879|promo_reading|_|0|Hmm... I didn't know this person did so much.
+2880|promo_reading|_|1|Interesting. Very interesting.
+2881|promo_reading|_|2|This changes things.
+2882|promo_reading_clean|_|0|Hm. As expected.
+2883|promo_reading_clean|_|1|Good, good.
+2884|promo_tip|_|0|Between us... someone changed your promotion file.
+2885|promo_tip|_|1|I saw the file. Your name was taken off the big project.
+2886|promo_outraged|_|0|WHAT?!
+2887|promo_outraged|_|1|I knew something was off!
+2888|promo_outraged|_|2|Who would do that?!
+2889|promo_announce|_|0|Everyone, a moment please. We have a new Team Lead.
+2890|promo_announce|_|1|Attention! After careful review, I've decided on the promotion.
+2891|award_announce|_|0|Attention everyone! Employee of the Week is...
+2892|award_announce|_|1|This week's star employee is...
+2893|promo_winner|_|0|Thank you! I won't let you down!
+2894|promo_winner|_|1|Wow... me? Thank you!
+2895|promo_winner|_|2|Finally!
+2896|promo_winner|deniz|0|Naturally. Thank you, sir.
+2897|promo_winner|selin|0|Thank you. I've worked so hard for this.
+2898|promo_clap|_|0|Congrats!
+2899|promo_clap|_|1|Well deserved... I guess.
+2900|promo_clap|_|2|*polite clapping*
+2901|promo_clap|zeynep|0|Hmm. Interesting choice.
+2902|promo_loser|_|0|...Unbelievable.
+2903|promo_loser|_|1|This is so unfair.
+2904|promo_loser|_|2|After everything I did?
+2905|promo_loser|selin|0|This is wrong. This is so wrong.
+2906|promo_loser|deniz|0|This isn't over.
+2907|cold_grudge|_|0|*stares coldly*
+2908|cold_grudge|_|1|I won't forget this.
+2909|cold_grudge|_|2|Congratulations. Enjoy it while it lasts.
+2910|notif_boss_read|_|0|'Come to my office. Now.' ...Uh oh.
+2911|notif_boss_read|_|1|The boss wants to see me?!
+2912|notif_boss_read|_|2|Oh no. What did I do?
+2913|notif_food_read|_|0|Free cake in the kitchen?! Say no more!
+2914|notif_food_read|_|1|Free food! FREE FOOD!
+2915|notif_cancel_read|_|0|Meeting cancelled? Nice!
+2916|notif_cancel_read|_|1|No meeting today? Best news ever.
+2917|notif_admirer_read|_|0|'A secret admirer says hi'...?!
+2918|notif_admirer_read|_|1|Someone here has a crush on me?!
+2919|notif_admirer_read|_|2|Ooh, a secret admirer!
+2920|you_wanted_me|_|0|You wanted to see me?
+2921|you_wanted_me|_|1|I got your message, sir.
+2922|you_wanted_me|_|2|I'm here! What did I do?
+2923|i_didnt_call|_|0|I didn't call you.
+2924|i_didnt_call|_|1|What message? I sent nothing.
+2925|i_didnt_call|_|2|I never asked for you.
+2926|boss_get_back_to_work|_|0|Stop wasting my time. Back to work.
+2927|boss_get_back_to_work|_|1|Since you're here doing nothing — go work.
+2928|boss_since_youre_here|_|0|Well, since you're here... good job lately.
+2929|boss_since_youre_here|_|1|Sit, sit. How are things going?
+2930|no_food_here|_|0|There's no cake...
+2931|no_food_here|_|1|Where's the free food?
+2932|no_food_here|_|2|It's just old yogurt.
+2933|who_pranked|_|0|Very funny, {suspect}.
+2934|who_pranked|_|1|I bet {suspect} sent that.
+2935|who_pranked|_|2|Someone's pranking me. And I think I know who.
+2936|fridge_sigh|_|0|*closes fridge sadly*
+2937|fridge_sigh|_|1|Lies. All lies.
+2938|admirer_was_it_you|_|0|So... was it you? The secret admirer?
+2939|admirer_was_it_you|_|1|Did you send me that message?
+2940|admirer_maybe|_|0|...Maybe. Would that be so bad?
+2941|admirer_maybe|_|1|Haha, maybe! Who knows?
+2942|admirer_maybe|_|2|A gentleman never tells.
+2943|admirer_no|_|0|What? No! Sorry...
+2944|admirer_no|_|1|Uh, no. Definitely not me.
+2945|admirer_no|_|2|That's... not me.
+2946|boss_job_hunt_discovered|_|0|Burak is looking for another job? Behind my back?
+2947|boss_job_hunt_discovered|_|1|So that's why he's always on his phone.
+2948|boss_job_hunt_confront|_|0|I hear you're looking for another job.
+2949|boss_job_hunt_confront|_|1|Planning to leave us, Burak?
+2950|boss_counteroffer|_|0|Look... you're valuable here. What would it take to keep you?
+2951|boss_counteroffer|_|1|I'll be honest. I don't want to lose you.
+2952|burak_surprised_stay|_|0|Really? I... didn't expect that.
+2953|burak_surprised_stay|_|1|Well. Maybe I'll stay a little longer.
+2954|burak_defiant|_|0|Maybe I am. Maybe this place doesn't appreciate anyone.
+2955|burak_defiant|_|1|I'm allowed to have options.
+2956|boss_cold|_|0|Then don't let the door hit you.
+2957|boss_cold|_|1|Fine. We'll see who needs whom.
+2958|nepotism_mutter|_|0|The intern is the boss's NIECE? Of course she is.
+2959|nepotism_mutter|_|1|Well, that explains a lot.
+2960|nepotism_mutter|_|2|Nepotism. Lovely.
+2961|boss_review_shock|_|0|Headquarters is reviewing ME?!
+2962|boss_review_shock|_|1|My position... is under review?
+2963|secret_call_line|_|0|*whispers* Yes, Thursday works for the interview...
+2964|secret_call_line|_|1|*whispers* I can start next month, if the offer's good.
+2965|secret_call_line|_|2|*whispers* No, my boss doesn't know.
+2966|overheard_call|_|0|Was Burak just talking about an interview?
+2967|overheard_call|_|1|Did I just hear that right?!
+2968|overheard_call|zeynep|0|Ooh. Ooh! Burak is job hunting!
+2969|gossip_open|_|0|Psst. Come here.
+2970|gossip_open|_|1|Did you hear?
+2971|gossip_open|_|2|Okay, you did NOT hear this from me...
+2972|gossip_open|zeynep|0|Sit down. You'll want to be sitting for this.
+2973|gossip_open|zeynep|1|Oh, have I got news for you.
+2974|gossip_tell|_|0|{gossip}
+2975|gossip_tell|_|1|Apparently... {gossip}
+2976|gossip_tell|_|2|Don't tell anyone, but {gossip}
+2977|gossip_tell|_|3|Word is... {gossip}
+2978|gossip_react|_|0|No way!
+2979|gossip_react|_|1|Seriously?!
+2980|gossip_react|_|2|I knew it!
+2981|gossip_react|_|3|Get out!
+2982|gossip_disapprove|_|0|We shouldn't be talking about this.
+2983|gossip_disapprove|_|1|That's not our business.
+2984|gossip_disapprove|_|2|Gossip isn't nice, you know.
+2985|gossip_disapprove|ceren|0|Let's not spread that around.
+2986|gossip_eager|_|0|Tell me EVERYTHING.
+2987|gossip_eager|_|1|Ooh, what else?
+2988|gossip_eager|_|2|I need details!
+2989|flirt_line|_|0|Ceren, has anyone told you your spreadsheets are beautiful?
+2990|flirt_line|_|1|So... coffee later? Just as colleagues. Colleagues who drink coffee.
+2991|flirt_line|_|2|You look great today. Not that you don't always.
+2992|flirt_charmed|_|0|Haha, you're ridiculous, Mert.
+2993|flirt_charmed|_|1|Maybe. If you behave.
+2994|flirt_charmed|_|2|You're sweet. Weird, but sweet.
+2995|flirt_brush|_|0|Mert, I'm working.
+2996|flirt_brush|_|1|Not now, Mert.
+2997|flirt_brush|_|2|Nice try.
+2998|date_ask|_|0|So... dinner? A real one?
+2999|date_ask|_|1|Would you go out with me? For real?
+3000|date_yes|_|0|...Yes. But nobody can know.
+3001|date_yes|_|1|Okay. Our little secret.
+3002|spotted_secret_friends|_|0|Well, well. Those two are awfully close.
+3003|spotted_secret_friends|_|1|Since when are those two friends?
+3004|spotted_secret_friends|_|2|Interesting... very interesting.
+3005|jealous_jab|_|0|Enjoying the spotlight?
+3006|jealous_jab|_|1|Must be nice being the boss's favourite.
+3007|jealous_jab|_|2|Don't get used to it.
+3008|jealous_smug|_|0|Jealous?
+3009|jealous_smug|_|1|I am enjoying it, thanks.
+3010|jealous_smug|_|2|Some of us earn it.
+3011|jealous_hurt|_|0|Why would you say that?
+3012|jealous_hurt|_|1|That's not fair.
+3013|jealous_hurt|_|2|...Okay.
+3014|apology_offer|_|0|Hey... about earlier. I'm sorry.
+3015|apology_offer|_|1|Can we talk? I think I overreacted.
+3016|apology_offer|_|2|Truce?
+3017|apology_accept|_|0|Yeah. Me too.
+3018|apology_accept|_|1|Okay. Truce.
+3019|apology_accept|_|2|Let's forget it. Coffee?
+3020|apology_reject|_|0|Too little, too late.
+3021|apology_reject|_|1|I'm not ready.
+3022|apology_reject|_|2|No.
+3023|apology_reject|selin|0|I don't forgive that easily.
+3024|grudge_jab|_|0|Oh. It's you.
+3025|grudge_jab|_|1|Look who it is.
+3026|grudge_jab|_|2|Still here?
+3027|grudge_reply|_|0|What's that supposed to mean?
+3028|grudge_reply|_|1|Excuse me?
+3029|grudge_reply|_|2|Got a problem?
+3030|grudge_escalate|_|0|Yes, actually, I do!
+3031|grudge_escalate|_|1|You know exactly what I mean!
+3032|grudge_escalate|_|2|Don't play innocent!
+3033|walk_away|_|0|I'm not doing this.
+3034|walk_away|_|1|Whatever.
+3035|walk_away|_|2|Not worth it.
+3036|joke|_|0|Why did the spreadsheet break up with the calculator? Too many issues.
+3037|joke|_|1|I'm not lazy, I'm in energy-saving mode.
+3038|joke|_|2|My boss told me to have a good day. So I went home.
+3039|joke|_|3|I told my computer I needed a break. It said 'no problem, I'll go to sleep'.
+3040|joke|_|4|Teamwork means never having to take all the blame yourself.
+3041|joke|mert|0|Knock knock. Who's there? Monday. Monday who? Exactly.
+3042|joke|mert|1|I'm on a seafood diet. I see food, I eat it.
+3043|joke_laugh|_|0|Hahaha!
+3044|joke_laugh|_|1|Okay, that was good.
+3045|joke_laugh|_|2|Stop it! Haha!
+3046|joke_laugh|ece|0|HAHAHA! Wait, I don't get it. HAHAHA!
+3047|joke_groan|_|0|Ugh.
+3048|joke_groan|_|1|Please stop.
+3049|joke_groan|_|2|That was terrible.
+3050|joke_groan|selin|0|I have work to do.
+3051|joke_groan|ahmet|0|Back to work.
+3052|topic_open|_|0|{topic}
+3053|topic_reply|_|0|Oh, totally.
+3054|topic_reply|_|1|Ha, I know right?
+3055|topic_reply|_|2|Don't get me started.
+3056|topic_reply|_|3|Same here!
+3057|topic_reply|_|4|Hmm, not really.
+3058|topic_reply|burak|0|Mm.
+3059|topic_reply|burak|1|Sure.
+3060|topic_reply|zeynep|0|Speaking of which, did you hear about...
+3061|topic_reply|zeynep|1|Oh, I have opinions.
+3062|topic_reply|ece|0|Yes! Oh my god, yes!
+3063|topic_reply|ahmet|0|Hm. Indeed.
+3064|cold_shoulder|_|0|...
+3065|cold_shoulder|_|1|I'm busy.
+3066|cold_shoulder|_|2|Mm-hm.
+3067|coffee_gift_offer|_|0|I brought you a coffee!
+3068|coffee_gift_offer|_|1|Surprise! Coffee, just how you like it. I think.
+3069|coffee_gift_offer|_|2|Coffee delivery!
+3070|coffee_gift_thanks|_|0|Aww, thanks Ece!
+3071|coffee_gift_thanks|_|1|You're an angel.
+3072|coffee_gift_thanks|_|2|Exactly what I needed.
+3073|coffee_gift_thanks|ahmet|0|Hm. Good girl. I mean, good job.

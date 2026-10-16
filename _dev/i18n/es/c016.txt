@@ -1,0 +1,283 @@
+2791|Espera… ¿acaba de cambiar la hora de la reunión?
+2792|¿El tablero acaba de… cambiar?
+2793|No estoy loc{me?o|a}. Ahí ponía otra hora.
+2794|Bien, empecemos.
+2795|Siéntense todos. Empezamos.
+2796|Teléfonos abajo. La reunión empieza ya.
+2797|¡Por fin!
+2798|Miren quién se ha dignado a aparecer.
+2799|Llevamos una eternidad esperando.
+2800|¿El jefe llega tarde? ¡Que alguien lo apunte!
+2801|Ceren, ¿por qué estaba mal mi calendario?
+2802|¿Quién programó esto? ¿Ceren?
+2803|Ejem. Hagamos como que llegué puntual.
+2804|Sí, sí. Hasta yo tengo mucho trabajo.
+2805|¡Perdón! ¡Perdón por llegar tarde!
+2806|¡Creía que era más tarde!
+2807|¡Tráfico! ¡Tráfico de oficina!
+2808|Estaba… haciendo networking. En la cafetera.
+2809|¡Lo siento muchísimo! ¡Me perdí! ¡En la oficina!
+2810|¡El tablero ponía otra hora!
+2811|¡Pero el calendario decía más tarde!
+2812|¿¡Quién no para de cambiar el tablero!?
+2813|Alguien está toqueteando el horario.
+2814|Tarde. Otra vez.
+2815|El tiempo es dinero. El tuyo se está acabando.
+2816|¿Te crees que esto es una cafetería?
+2817|Siéntate. Rápido.
+2818|Siéntate y ya.
+2819|¿Dónde está todo el mundo?
+2820|¿Se canceló la reunión?
+2821|¿Estoy en la sala equivocada?
+2822|¿Hola? ¿Reunión?
+2823|Faltaste a la reunión. Explícate.
+2824|¿Dónde estabas durante la reunión?
+2825|Sobre ese correo tuyo…
+2826|Leí tu correo. Tenemos que hablar.
+2827|No cumpliste tu plazo.
+2828|¿Dónde está tu trabajo? Era para hoy.
+2829|Tenemos que hablar de tu desempeño.
+2830|Espero más de ti.
+2831|Lo siento, no volverá a pasar.
+2832|Sí, señor. Entendido.
+2833|Lo arreglo.
+2834|¡Perdón, tío… digo, señor!
+2835|Con todo respeto, eso no es justo.
+2836|A lo mejor si esta oficina funcionara bien…
+2837|¿Sabe qué? Estoy hart{me?o|a} de esto.
+2838|A lo mejor no sigo aquí mucho tiempo, de todas formas.
+2839|¡Cuidado con ese tono!
+2840|¿¡Perdona!?
+2841|Cuidado.
+2842|Como pueden ver, los números hablan por sí solos.
+2843|Y ese es nuestro plan para el próximo trimestre.
+2844|Aquí están los resultados. Todo en verde.
+2845|Excelente trabajo.
+2846|ESO es lo que me gusta ver.
+2847|Muy bien. Muy bien.
+2848|*pone los ojos en blanco*
+2849|Fanfarronería.
+2850|Eso lo podría haber hecho cualquiera.
+2851|Mi presentación estaba en mi USB… y ha desaparecido.
+2852|No… no encuentro mis diapositivas.
+2853|Sin preparar. Decepcionante.
+2854|Esto es inaceptable.
+2855|Vuelve cuando estés list{to?o|a}.
+2856|Eh… no lo tengo del todo terminado…
+2857|¿La versión completa para mañana?
+2858|Bueno… toca borrador.
+2859|En realidad, señor, la idea central fue mía. Permítame explicársela.
+2860|Puedo presentar ese proyecto yo: total, hice casi todo el trabajo.
+2861|Permítame. Conozco este proyecto al dedillo.
+2862|Impresionante, Deniz. Muy impresionante.
+2863|Eso sí es iniciativa.
+2864|Bien. Me gusta la gente que da un paso al frente.
+2865|¡Ese era MI trabajo!
+2866|¡Acabas de presentar mi proyecto!
+2867|¿¡Me tomas el pelo!? ¡Eso es mío!
+2868|Demuéstralo.
+2869|Qué curioso, no veo tu nombre por ningún lado.
+2870|Trabajo en equipo, Selin. Trabajo en equipo.
+2871|¿Esta reunión no podría haber sido un correo?
+2872|Tengo una pregunta: ¿a qué hora es el almuerzo?
+2873|Gran reunión. Un diez.
+2874|Pregunta rápida: ¿los snacks son una partida del presupuesto?
+2875|¡Ja! Vale, vale.
+2876|Muy gracioso. Volvamos a lo nuestro.
+2877|Esto no es un club de comedia.
+2878|¿Se suponía que eso era gracioso?
+2879|Mmm… no sabía que esta persona hacía tanto.
+2880|Interesante. Muy interesante.
+2881|Esto lo cambia todo.
+2882|Mm. Lo esperado.
+2883|Bien, bien.
+2884|Entre nosotros… alguien cambió tu expediente de ascenso.
+2885|Vi el expediente. Quitaron tu nombre del proyecto grande.
+2886|¿¡QUÉ!?
+2887|¡Sabía que algo no cuadraba!
+2888|¿¡Quién haría algo así!?
+2889|Todos, un momento, por favor. Ya tenemos quien liderará el equipo.
+2890|¡Atención! Tras una revisión cuidadosa, he tomado una decisión sobre el ascenso.
+2891|¡Atención todos! El reconocimiento de la semana es para…
+2892|La estrella de esta semana es…
+2893|¡Gracias! ¡No lo decepcionaré!
+2894|Vaya… ¿yo? ¡Gracias!
+2895|¡Por fin!
+2896|Naturalmente. Gracias, señor.
+2897|Gracias. He trabajado muchísimo para esto.
+2898|¡Enhorabuena!
+2899|Bien merecido… supongo.
+2900|*aplausos educados*
+2901|Mm. Interesante elección.
+2902|…Increíble.
+2903|Esto es injustísimo.
+2904|¿Después de todo lo que hice?
+2905|Esto está mal. Muy mal.
+2906|Esto no ha terminado.
+2907|*mira con frialdad*
+2908|No olvidaré esto.
+2909|Enhorabuena. Disfrútalo mientras dure.
+2910|«Ven a mi despacho. Ya». …Ay, ay.
+2911|¿¡El jefe quiere verme!?
+2912|Ay, no. ¿Qué he hecho?
+2913|¿¡Pastel gratis en la cocina!? ¡No se hable más!
+2914|¡Comida gratis! ¡COMIDA GRATIS!
+2915|¿Reunión cancelada? ¡Genial!
+2916|¿Hoy no hay reunión? La mejor noticia del mundo.
+2917|«Un admirador secreto te saluda»…?!
+2918|¿¡Alguien de aquí está colado por mí!?
+2919|¡Uy, un admirador secreto!
+2920|¿Quería verme?
+2921|Recibí su mensaje, señor.
+2922|¡Aquí estoy! ¿Qué hice?
+2923|Yo no te llamé.
+2924|¿Qué mensaje? No envié nada.
+2925|Nunca pregunté por ti.
+2926|Deja de hacerme perder el tiempo. A trabajar.
+2927|Ya que estás aquí sin hacer nada, ve a trabajar.
+2928|Bueno, ya que estás aquí… buen trabajo últimamente.
+2929|Siéntate, siéntate. ¿Cómo va todo?
+2930|No hay pastel…
+2931|¿Dónde está la comida gratis?
+2932|Solo hay un yogur caducado.
+2933|Muy gracioso, {suspect}.
+2934|Seguro que eso lo mandó {suspect}.
+2935|Alguien me está gastando bromas. Y creo que sé quién.
+2936|*cierra la nevera con tristeza*
+2937|Mentiras. Todo mentiras.
+2938|Entonces… ¿fuiste tú? ¿{to?El admirador secreto|La admiradora secreta}?
+2939|¿Me mandaste tú ese mensaje?
+2940|…Puede. ¿Tan malo sería?
+2941|¡Jaja, puede! ¿Quién sabe?
+2942|Un caballero nunca lo cuenta.
+2943|¿Qué? ¡No! Lo siento…
+2944|Eh, no. Yo seguro que no.
+2945|Eso… no fui yo.
+2946|¿Burak busca otro trabajo? ¿A mis espaldas?
+2947|Así que por eso está siempre con el teléfono.
+2948|Me han dicho que buscas otro trabajo.
+2949|¿Piensas dejarnos, Burak?
+2950|Mira… aquí eres valioso. ¿Qué haría falta para que te quedes?
+2951|Voy a ser sincero. No quiero perderte.
+2952|¿En serio? Yo… no me lo esperaba.
+2953|Bueno. A lo mejor me quedo un poco más.
+2954|Puede que sí. Puede que aquí no se valore a nadie.
+2955|Tengo derecho a tener opciones.
+2956|Entonces ahí tienes la puerta.
+2957|Bien. Ya veremos quién necesita a quién.
+2958|¿La becaria es la SOBRINA del jefe? Cómo no.
+2959|Bueno, eso explica muchas cosas.
+2960|Enchufismo. Precioso.
+2961|¿¡La central me está evaluando a MÍ!?
+2962|Mi puesto… ¿está en revisión?
+2963|*susurra* Sí, el jueves me va bien para la entrevista…
+2964|*susurra* Puedo empezar el mes que viene, si la oferta es buena.
+2965|*susurra* No, mi jefe no lo sabe.
+2966|¿Burak acaba de hablar de una entrevista?
+2967|¿¡He oído bien!?
+2968|Uy. ¡Uy! ¡Burak está buscando trabajo!
+2969|Psst. Ven aquí.
+2970|¿Te enteraste?
+2971|Vale, esto NO lo has oído de mí…
+2972|Siéntate. Esto vas a querer oírlo sentad{to?o|a}.
+2973|Ay, no sabes la noticia que te traigo.
+2974|{gossip}
+2975|Al parecer… {gossip}
+2976|No se lo digas a nadie, pero {gossip}
+2977|Se rumorea que… {gossip}
+2978|¡No puede ser!
+2979|¿¡En serio!?
+2980|¡Lo sabía!
+2981|¡Anda ya!
+2982|No deberíamos hablar de esto.
+2983|Eso no es asunto nuestro.
+2984|Chismear no está bien, ¿sabes?
+2985|No lo vayamos difundiendo.
+2986|Cuéntamelo TODO.
+2987|Uy, ¿y qué más?
+2988|¡Necesito detalles!
+2989|Ceren, ¿alguien te ha dicho alguna vez que tus hojas de cálculo son preciosas?
+2990|Entonces… ¿un café luego? Solo como compañeros. Compañeros que toman café.
+2991|Hoy estás guapísima. No es que no lo estés siempre.
+2992|Jaja, eres ridículo, Mert.
+2993|Puede. Si te portas bien.
+2994|Eres un encanto. Raro, pero un encanto.
+2995|Mert, estoy trabajando.
+2996|Ahora no, Mert.
+2997|Buen intento.
+2998|Entonces… ¿una cena? ¿Una de verdad?
+2999|¿Saldrías conmigo? ¿En serio?
+3000|…Sí. Pero que nadie se entere.
+3001|Vale. Nuestro pequeño secreto.
+3002|Vaya, vaya. Esos dos están muy juntitos.
+3003|¿Desde cuándo esos dos son amigos?
+3004|Interesante… muy interesante.
+3005|¿Disfrutando del protagonismo?
+3006|Debe de estar bien ser el ojito derecho del jefe.
+3007|No te acostumbres.
+3008|¿Celos?
+3009|Pues sí, lo estoy disfrutando, gracias.
+3010|Algunos nos lo ganamos.
+3011|¿Por qué dices eso?
+3012|Eso no es justo.
+3013|…Vale.
+3014|Oye… sobre lo de antes. Lo siento.
+3015|¿Podemos hablar? Creo que exageré.
+3016|¿Tregua?
+3017|Sí. Yo también lo siento.
+3018|Vale. Tregua.
+3019|Olvidémoslo. ¿Un café?
+3020|Demasiado poco, demasiado tarde.
+3021|No estoy {me?listo|lista}.
+3022|No.
+3023|Yo no perdono tan fácilmente.
+3024|Ah. Eres tú.
+3025|Mira quién está aquí.
+3026|¿Sigues aquí?
+3027|¿Y eso qué significa?
+3028|¿Perdona?
+3029|¿Algún problema?
+3030|¡Pues sí, la verdad es que sí!
+3031|¡Sabes perfectamente lo que quiero decir!
+3032|¡No te hagas {to?el inocente|la inocente}!
+3033|No pienso entrar en esto.
+3034|Lo que sea.
+3035|No vale la pena.
+3036|¿Por qué la hoja de cálculo dejó a la calculadora? Porque siempre le sacaba cuentas.
+3037|No soy vag{me?o|a}, estoy en modo ahorro de energía.
+3038|Mi jefe me dijo que tuviera un buen día. Así que me fui a casa.
+3039|Le dije a mi computadora que necesitaba un descanso. Me dijo: «No hay problema, me voy a suspender».
+3040|Trabajar en equipo es no tener que cargar nunca con toda la culpa.
+3041|¿Cuál es el día más largo de la semana? El lunes. ¿Por qué? Porque no se acaba nunca.
+3042|Estoy a dieta de mar: veo comida y me la como.
+3043|¡Jajaja!
+3044|Vale, ese estuvo bien.
+3045|¡Para! ¡Jaja!
+3046|¡JAJAJA! Espera, no lo pillo. ¡JAJAJA!
+3047|Uf.
+3048|Para, por favor.
+3049|Eso fue horrible.
+3050|Tengo trabajo.
+3051|A trabajar.
+3052|{topic}
+3053|Ah, totalmente.
+3054|Ja, ¿a que sí?
+3055|Ni me hables.
+3056|¡A mí igual!
+3057|Mmm, la verdad es que no.
+3058|Mm.
+3059|Claro.
+3060|Hablando de eso, ¿te enteraste de…
+3061|Ay, sobre eso tengo opiniones.
+3062|¡Sí! ¡Ay, Dios, sí!
+3063|Mm. Efectivamente.
+3064|…
+3065|Estoy {me?ocupado|ocupada}.
+3066|Ajá.
+3067|¡Te traje un café!
+3068|¡Sorpresa! Café, justo como te gusta. Creo.
+3069|¡Café a domicilio!
+3070|¡Ay, gracias, Ece!
+3071|Eres un ángel.
+3072|Justo lo que necesitaba.
+3073|Mm. Buena chica. Digo, buen trabajo.

@@ -1,0 +1,219 @@
+3806|Tú primero.
+3807|…Colecciono bolas de nieve. No te rías.
+3808|Estos son los mejores quince minutos de mi semana.
+3809|Vaya, vaya, vaya.
+3810|LO SABÍA. ¡Lo sabía!
+3811|Ay, esto es demasiado bueno.
+3812|Y ESTO va a mi libreta.
+3813|¡Búsquense una habitación! ¡Una sala de reuniones!
+3814|Ay, tengo que contárselo a alguien. TENGO que hacerlo.
+3815|Esto no se puede quedar en mi cabeza.
+3816|¿A que no adivinas a quién pillé MUY acaramelados en la cocina? ¡A {lover} y {crush}!
+3817|{lover} y {crush}. Cocina. Con tazas en la mano. SIGNIFICATIVAMENTE.
+3818|NO PUEDE SER.
+3819|¡Lo sabía! ¡Cómo se miran!
+3820|Anda ya.
+3821|Bueno… la gente habla.
+3822|Lo sabe todo el mundo, ¿no?
+3823|Tenemos que hablar de… nosotros. Y de ellos.
+3824|Que hablen. No pienso esconderte.
+3825|¿Sinceramente? Me da igual quién lo sepa.
+3826|Somos adultos. Digámoselo y ya.
+3827|Mantengámoslo en secreto. Un poco más.
+3828|Todavía no. Ahmet lo haría raro.
+3829|Nuestro secreto. Por ahora.
+3830|Quizá esto fue un error. En el trabajo, digo.
+3831|No creo que pueda con esto con todo el mundo mirando.
+3832|Volvamos a… ser compañeros.
+3833|¡Ay! ¡Por fin!
+3834|¡Ustedes dos! ¡Enhorabuena!
+3835|Lo supe desde el PRIMER DÍA.
+3836|Sí, soy {seeker}. …¿Hoy? ¿A las dos? Me las arreglo.
+3837|¿Una segunda entrevista? Por supuesto. Allí estaré.
+3838|Ajá. Sí. Con discreción, por favor.
+3839|…¿Entrevista? ¿Hoy?
+3840|¿¡Eso era un cazatalentos!?
+3841|Uy. Alguien tiene planes.
+3842|Ahmet Bey, necesito salir una hora. Dentista.
+3843|Tengo una… cita médica. Esta tarde. Urgente.
+3844|Un asunto familiar. Vuelvo en una hora, lo prometo.
+3845|Dentista. Otra vez. Mis dientes son… complicados.
+3846|Bien. Una hora.
+3847|Ve. Que no se convierta en costumbre.
+3848|Mm. Vale.
+3849|¿OTRA VEZ? No. Tenemos una entrega.
+3850|Ni hablar. Hoy no.
+3851|Tus dientes pueden esperar.
+3852|Vale. Me iré… igualmente.
+3853|…Entonces me tomaré un almuerzo muy largo.
+3854|Bueno. Me voy al… dentista.
+3855|¡Vuelvo enseguida!
+3856|*agarra la chaqueta y se va rápido*
+3857|Larga cita con el dentista. ¿Con corbata?
+3858|Tus dientes están exactamente igual.
+3859|Bueno. ¿Qué tal el… dentista?
+3860|Endodoncia. Muy dolorosa. No pregunte.
+3861|¡Iban con retraso!
+3862|…Fue bien. Gracias.
+3863|Mm. Te estoy vigilando.
+3864|No nací ayer.
+3865|Ajá.
+3866|Entonces descansa.
+3867|Bien. A trabajar.
+3868|Mm. Cuida esos dientes.
+3869|Seré sincer{me?o|a}. Tengo una oferta de otra empresa.
+3870|Me ofrecieron más dinero. Mucho más.
+3871|Estoy pensando en irme. Quería que lo supiera por mí.
+3872|…¿Qué haría falta para que te quedes?
+3873|Igualamos la oferta. Y te quedas con el nuevo presupuesto de servidores.
+3874|No hagas nada precipitado. Hablemos de números.
+3875|Entonces vete. Nadie es imprescindible.
+3876|Suerte encontrando un sitio que te aguante.
+3877|La puerta está por ahí.
+3878|…¿En serio? Vale. Me quedo.
+3879|Trato hecho. Pero lo quiero por escrito.
+3880|…Ya.
+3881|Ya… veo.
+3882|Vaya. Vale.
+3883|Lo hago. Estoy escribiendo mi carta de renuncia. Hoy.
+3884|Se acabó. Estoy hart{me?o|a}. Renuncio.
+3885|Lo he decidido. Presento mi renuncia.
+3886|Espera… ¿QUÉ? ¡No puedes!
+3887|Eh, eh. ¡Consúltalo con la almohada!
+3888|¿¡Lo dices en serio!?
+3889|«Estimado Ahmet Bey, con efecto inmediato…». Imprimir.
+3890|Imprimir. Firmar. Listo.
+3891|Ahí está. Mi libertad, en Times New Roman.
+3892|Cómo no. Ni la impresora me deja renunciar.
+3893|La impresora está rota. El universo se burla de mí.
+3894|¿Eso es… una carta de renuncia?
+3895|Ay, no. Ay, no, no.
+3896|No lo hagas. Así no. No en caliente.
+3897|¿Y si hablo yo con Ahmet por ti?
+3898|Te necesitamos aquí. Yo te necesito aquí.
+3899|…Vale. Quizá espere una semana.
+3900|Bien. Guardaré la carta en un cajón. Por ahora.
+3901|Tienes razón. Gracias.
+3902|No. Ya lo he decidido.
+3903|Voy a ver a Ahmet. Ahora.
+3904|Te lo agradezco. Pero no.
+3905|Ahmet Bey. Esta es mi renuncia.
+3906|Renuncio. Aquí está mi carta.
+3907|Me voy. A final de mes.
+3908|Espera. Siéntate. ¿Qué necesitas? Hablemos.
+3909|No, no, no. Sea lo que sea, podemos arreglarlo.
+3910|…No me había dado cuenta de que estaba tan mal. ¿Qué puedo hacer?
+3911|*rompe la carta por la mitad* Qué gracioso. Ahora, a trabajar.
+3912|Buen intento. *ras* No te vas a ningún sitio.
+3913|Bien. Acepto.
+3914|Muy bien. Recursos Humanos se pondrá en contacto.
+3915|Si eso es lo que quieres.
+3916|Espere. ¿Usted… acepta? ¿Así sin más?
+3917|…Ah. Vale. Eh.
+3918|La verdad es que no pensé que diría que sí.
+3919|Bueno… esta mañana pedí que me devolvieran la carta.
+3920|Resulta que en realidad no me quiero ir.
+3921|Me quedo. Por favor, no lo hagan raro.
+3922|Bienvenid{to?o|a} de vuelta. Nunca te fuiste.
+3923|¡Ja! Lo sabía.
+3924|Bien. Te habría echado de menos.
+3925|¡El contrato de Yıldız! ¡Estaba JUSTO AQUÍ!
+3926|¿¡Dónde está el contrato firmado!? ¡¿DÓNDE?!
+3927|No. No, no, no. El contrato original ha desaparecido.
+3928|El contrato. El ORIGINAL. ¡Con las firmas en tinta!
+3929|¿¡Alguien se llevó el contrato de mi escritorio!?
+3930|¿Qué pasa?
+3931|Ay, ay.
+3932|¿Miraste en el archivo?
+3933|No está en la A. Ni en la C. Ni en CONTRATO.
+3934|Tiene que estar por aquí…
+3935|¿Quién organiza este archivo, un mapache?
+3936|Espera… {suspect} anduvo rondando mi escritorio esta mañana.
+3937|{suspect}. Tiene que haber sido {suspect}.
+3938|Seguro que {suspect} lo tomó prestado. Sin preguntar.
+3939|¿Te llevaste un contrato de mi escritorio? ¿Carpeta azul?
+3940|No te estoy acusando, pero… el contrato. ¿Lo has visto?
+3941|Sé sincer{to?o|a}: ¿me tomaste prestado el contrato?
+3942|…Ay, no. ¿La carpeta azul? La archivé. En el archivo. En la «Y». ¡Perdón!
+3943|¿Era azul? Puede que la haya archivado. Sin querer.
+3944|¿Yo? No. Ni lo toqué.
+3945|¿Para qué iba a llevarme tu contrato?
+3946|¿¡Me estás acusando!?
+3947|Vaya. Gracias por la confianza.
+3948|Yo nunca he VISTO tu contrato.
+3949|Espera. La carpeta azul que archivé esta mañana… ay, no.
+3950|¿Eso era… su contrato? ¿En el archivo? Ay, no.
+3951|…Creo que sé dónde está el contrato.
+3952|Lo siento muchísimo. Archivé tu contrato por error.
+3953|Fui yo. Archivo. En la Y. Soy un desastre.
+3954|Tu contrato está a salvo. Lo… archivé mal. ¡Perdón!
+3955|Ay, GRACIAS a Dios. …Vale. Son cosas que pasan.
+3956|Me diste un susto de muerte. Pero gracias por decírmelo.
+3957|Bueno. Solo… etiqueta las cosas.
+3958|¿¡Sabes cuánto VALE ese contrato!?
+3959|Increíble. ¡Acusé a otra persona por tu culpa!
+3960|…Le debo una disculpa a {suspect}.
+3961|Ay, no. Acusé a {suspect}.
+3962|¿Está… otra vez en mi escritorio? ¡Hace una hora no estaba!
+3963|¡El contrato! ¡Está aquí! ¿¡Cómo!?
+3964|{suspect} tuvo que devolverlo. Remordimientos.
+3965|Claro, reaparece justo después de que le pregunté a {suspect}.
+3966|AHÍ está. Archivo, en la Y. Cómo no.
+3967|¡Lo tengo! Nunca más.
+3968|Lo encontré. Mi corazón no aguanta esto.
+3969|Espera. ¿Dónde está la carpeta compartida? ¿Acabo de… borrar… todo?
+3970|Le di a «vaciar papelera». ¿¡Por qué está vacía la unidad COMPARTIDA!?
+3971|Vale. Que no cunda el pánico. Todo ha desaparecido. QUE NO CUNDA EL PÁNICO.
+3972|Ay, no. Ay, no, no, no, no, no. NO.
+3973|Burak… hipotéticamente… si alguien hubiera borrado la unidad compartida…
+3974|Por favor, no te enfades. Borré la carpeta compartida.
+3975|Necesito ayuda. Mucha ayuda. Ayuda secreta.
+3976|…Respira. Hay una copia de anoche. Nadie tiene por qué enterarse.
+3977|Restaurando. Me debes café. Durante un mes.
+3978|¿Que hiciste QUÉ? …Bien. Copia de seguridad. Pero vamos a hablar de la papelera.
+3979|Restaurando. Y te voy a desactivar la tecla de borrar.
+3980|La copia de anoche falló. No hay copia. Tienes que decírselo a Ahmet.
+3981|…No hay copia de seguridad. Lo siento muchísimo.
+3982|¡Mis archivos! ¡La carpeta compartida está VACÍA!
+3983|¿¡Adónde fue TODO!?
+3984|Tres meses de trabajo. Desaparecidos. DESAPARECIDOS.
+3985|¡Los míos también!
+3986|¿¡Qué!? ¿La unidad entera?
+3987|¡Burak! ¡BURAAAK!
+3988|Esto es un desastre.
+3989|{suspect} estuvo toqueteando la unidad ayer…
+3990|Seguro que {suspect} hizo algo.
+3991|¿¡QUIÉN tocó la unidad compartida!? ¡Quiero un nombre!
+3992|¡Nadie se va hasta que sepa quién borró esos archivos!
+3993|Alguien aquí destruyó tres meses de trabajo.
+3994|…Fui yo. Lo siento muchísimo. Hice clic donde no era.
+3995|Yo. Fui yo. Lo arreglaré. Como sea.
+3996|…Los errores pasan. Burak, arréglalo.
+3997|Gracias por reconocerlo. ¡Burak! ¡Copias de seguridad!
+3998|¡{suspect}! Fuiste tú, ¿verdad?
+3999|Te estoy mirando, {suspect}.
+4000|¿Qué? ¡Yo no toqué nada!
+4001|¡Eso no es justo!
+4002|Restaurado desde la copia externa. De nada.
+4003|Todo ha vuelto. Y según los registros, se borró desde la computadora de {culprit}.
+4004|Todo restaurado. Casi todo.
+4005|Restaurado. Parece un error de sincronización. Pasa.
+4006|Todo de vuelta. Seguramente un fallo técnico.
+4007|…Tenemos que recortar algo. Alguien tiene que irse. …Sí. Antes del viernes.
+4008|Demasiado caro. Fuera. …Me da igual cuánto tiempo lleve aquí.
+4009|Espera. ¿¡Alguien tiene que IRSE!?
+4010|¿¡Despidos!? ¿¡Antes del VIERNES!?
+4011|Ay, no. Ay, no, no, no.
+4012|No te asustes. Pero va a haber despidos. Antes del viernes.
+4013|Oí a Ahmet. Van a despedir a alguien. ¡Antes del viernes!
+4014|Actualiza tu CV. Lo digo en serio.
+4015|¿¡QUÉ!?
+4016|¿Quién? ¿QUIÉN?
+4017|Dios mío. ¡Tengo que pagar el alquiler!
+4018|Estamos perdidos.
+4019|Voy a actualizar mi CV. Ahora mismo.
+4020|¿Soy yo? Soy yo, ¿verdad?
+4021|SABÍA que no debía comprarme ese coche.
+4022|Si me voy, me llevo la grapadora buena.
+4023|…La verdad es que viene en buen momento.
+4024|¡Pero si soy becaria! ¿¡Pueden despedir a los becarios!?

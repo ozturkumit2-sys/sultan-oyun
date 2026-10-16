@@ -1,0 +1,202 @@
+4666|...Weißt du was? Na gut. Party bei mir. Warum nicht!
+4667|Okay. OKAY. Die Party steigt. Bringt Chips mit.
+4668|...{owner} hat DAS über mich geschrieben?
+4669|Wow. Das denkt {owner} also wirklich.
+4670|Das hätte ich nicht sehen sollen, oder?
+4671|Ich wusste es. Ich WUSSTE, dass {owner} über mich redet.
+4672|Oh. Oh nein. {owner} mag mich nicht?
+4673|Ich hab deinen kleinen Chat über mich gelesen, {target}.
+4674|Willst du mir das ins Gesicht sagen, {target}?
+4675|Netter Chat, den ihr da über mich hattet.
+4676|Tut mir leid. Ich hab nur Dampf abgelassen. Ich hab's nicht so gemeint.
+4677|Das war ein schlechter Tag. Tut mir leid, dass du das gesehen hast.
+4678|Na ja, es stimmt halt.
+4679|Vielleicht, wenn du es einem nicht so leicht machen würdest...
+4680|JA! Genehmigt! GENEHMIGT!
+4681|Ahmet hat Ja gesagt! Ich fass es nicht!
+4682|Endlich! Es ist offiziell!
+4683|...Genehmigt? Hä. Okay. JA.
+4684|Rate mal, wessen {what} gerade genehmigt wurde?
+4685|Ahmet hat's genehmigt: {what} für mich! Heute ist ein guter Tag.
+4686|Ich habe WAS genehmigt? Ich habe gar nichts genehmigt!
+4687|Es gab keine Genehmigung. Wer hat Ihnen das erzählt?
+4688|Aber... in der Mail stand...
+4689|Da stand „Genehmigt“. Schriftlich!
+4690|{target}, sind Sie mit dem fertig, worum ich Sie heute Morgen gebeten habe?
+4691|Wo ist die Sache, die ich Ihnen gemailt habe, {target}?
+4692|Welche Sache? Ich habe nie etwas bekommen!
+4693|Mich gebeten? Wann? In meinem Posteingang ist nichts!
+4694|Moment... das ist in meinem SPAM-Ordner?! Seit heute Morgen!
+4695|Oh nein. Im Spam. Natürlich im Spam.
+4696|Dann schauen Sie eben in Ihren Spam! Es ist dringend und heute fällig.
+4697|Ausreden. Ich will es haben, bevor Sie gehen.
+4698|Spam? Hm. Das wird Burak von mir hören. Bitte erledigen Sie es jetzt.
+4699|Na gut. Unser E-Mail-System ist eine Katastrophe. Erledigen Sie es.
+4700|Du wolltest mich sprechen?
+4701|Also... worum geht's bei diesem Meeting?
+4702|Ich hab deine Einladung bekommen. Küche, oder?
+4703|Was? Ich dachte, DU hast MICH eingeladen.
+4704|Ich hab nichts verschickt. Du warst das!
+4705|Na ja, jetzt sind wir hier. Kaffee?
+4706|Ha! Okay. Wo wir schon mal beide hier sind...
+4707|Vielleicht wollte das Universum, dass wir einen Kaffee trinken.
+4708|Ich bin... eigentlich froh, dass es passiert ist.
+4709|Ich hab Besseres zu tun.
+4710|Toll. Reine Zeitverschwendung.
+4711|Moment. Ahmet hat mir eine Beförderung VERSPROCHEN. Schriftlich. Vor zwei Jahren!
+4712|Schau dir diese alte Mail an... „nächstes Jahr eine Gehaltserhöhung, versprochen.“ Nächstes Jahr war letztes Jahr!
+4713|Ahmet Bey, erinnern Sie sich an diese Mail? Sie haben mir eine Gehaltserhöhung versprochen.
+4714|Ich habe Ihr altes Versprechen gefunden. Schriftlich. Ich würde gern darüber reden.
+4715|...Das habe ich geschrieben. Na gut. Ich halte Wort. Reden wir über Zahlen.
+4716|Hm. Versprochen ist versprochen.
+4717|Zeiten ändern sich. Budgets ändern sich.
+4718|Das war ein anderes Jahr. Ein anderes Ich.
+4719|Ich kann mich nicht erinnern, das geschrieben zu haben.
+4720|„Ich kündige. Kontaktieren Sie mich nicht.“ — {owner:s} Abwesenheitsnotiz?!
+4721|{owner}... hat GEKÜNDIGT? Seit wann?!
+4722|{target}! Was soll dieses „Ich kündige“?!
+4723|Sie KÜNDIGEN? Ohne es mir zu sagen?!
+4724|Was? Nein! Ich kündige nicht! ...Oder doch?
+4725|Das ist nicht meine Abwesenheitsnotiz! Die habe ich nie eingestellt!
+4726|Hören Sie... was auch immer es ist, wir können reden. Mehr Geld? Ein besserer Titel?
+4727|Tun Sie nichts Unüberlegtes. Reden wir über Ihre Zukunft hier.
+4728|...Wo Sie es gerade erwähnen — eine Gehaltserhöhung wäre schön.
+4729|Tja. Wenn Sie es schon anbieten...
+4730|Wissen Sie was? Vielleicht stimmt es. Vielleicht SOLLTE ich kündigen.
+4731|...Ganz falsch ist es aber nicht.
+4732|Also... ist zwischen uns wieder alles gut? Nach meiner Nachricht?
+4733|Hey. Danke, dass du meine Nachricht gelesen hast. Wieder Freunde?
+4734|Welche Nachricht? Du hast dich nie entschuldigt.
+4735|Gut? Du hast nicht mal Sorry gesagt.
+4736|...Dann sag ich's jetzt. Es tut mir leid.
+4737|Sie ist verschwunden? Okay. Dann persönlich: Es tut mir leid.
+4738|Ich HABE mich entschuldigt! Tu nicht so, als hätte ich's nicht!
+4739|Unglaublich. Ich hab mich entschuldigt, und du tust so, als hätte ich's nicht.
+4740|...Warum bin ich in einer Gruppe namens „Boah, {target}“?
+4741|Oh. Ein ganzer Gruppenchat. Über mich.
+4742|„{hater} schreibt: Ich kann {target} nicht ausstehen.“ Reizend.
+4743|Netter Gruppenchat, {target}. Ich kann ihn jetzt übrigens lesen.
+4744|Ihr habt also einen ganzen CHAT über mich?
+4745|...Wie bist du in diesen Chat gekommen?
+4746|Oh nein. Wer hat dich hinzugefügt?!
+4747|{target}. Der Kunde hat angerufen. „Sehr geehrter Kudne, wir beduaern, Ihnen mitzuteilen...“?!
+4748|Der Kunde sagt, Ihre Mail sei „unlesbar“. Erklären Sie das.
+4749|Das ist unmöglich, ich hab sie zweimal Korrektur gelesen!
+4750|Was?! Als ich sie verschickt habe, war sie perfekt!
+4751|Lesen Sie nächstes Mal DREIMAL Korrektur.
+4752|Diese Firma hat einen Ruf. Hatte.
+4753|...„Beduaern“. Ha. Na gut. Rufen Sie an und entschuldigen Sie sich.
+4754|Wenigstens hat der Kunde gelacht. Bringen Sie das in Ordnung.
+4755|Interessante Lektüre, {owner:s} kleiner Chat.
+4756|Ich stehe in {owner:s} „privatem“ Chat in CC. Wie lehrreich.
+4757|„Ahmet ist ein Dinosaurier“? Ach ja, {target}?
+4758|Ich bin also „ein wandelndes Meeting“, {target}?
+4759|Vierzig Nachrichten über Döner während der Arbeitszeit, {target}?
+4760|Sie beide chatten mehr, als Sie arbeiten.
+4761|...Das sollte privat sein!
+4762|Oh nein. Oh NEIN. Sie standen in CC?
+4763|{owner} hat meine Nachricht vor einer Stunde gelesen. Keine Antwort. Super.
+4764|„Gesehen“. Einfach nur „gesehen“. Wow, {owner}.
+4765|Du hast meine Nachricht gelesen und sie einfach... ignoriert?
+4766|Ich sehe, dass du sie gelesen hast, weißt du.
+4767|Welche Nachricht? Ich hab sie nicht mal geöffnet!
+4768|Ich hab nichts gesehen! Ich schwöre!
+4769|...Na gut. Vielleicht spinnt dein Handy.
+4770|Okay. Ich glaub dir. Größtenteils.
+4771|„CEO in spe“? In deiner Signatur, {owner}?
+4772|Mutige Signatur, {owner}. Sehr mutig.
+4773|„CEO in spe.“ Ist das eine Drohung, {owner}?
+4774|CEO in spe? Nur über meine Leiche.
+4775|„Gesendet aus meiner Badewanne“?! {owner}!
+4776|Warum steht in deiner Mail, dass du in der Badewanne bist?
+4777|Badewannen-Mails! Legende.
+4778|„Ahmets Liebling im Team“? Echt jetzt, {owner}?
+4779|Lieblingsschüler-Signatur. Nett.
+4780|Hm. „Liebling.“ Tja. Vielleicht.
+4781|In meiner Signatur steht WAS?!
+4782|Das hab ich nicht geschrieben! Niemals!
+4783|...Hat {owner} mir gerade ein Herz geschickt?
+4784|Drei Herz-Emojis. In einer Budget-Mail. Von {owner}.
+4785|Herzen? Von {owner}? Hä.
+4786|Also... wegen der Herzen in deiner Mail...
+4787|War das Herz... Absicht?
+4788|Herzen?! Nein! Ich hab dir eine Tabelle geschickt!
+4789|Das war ich nicht! Meine Tastatur hat ein Eigenleben!
+4790|...Vielleicht war es ein kleines bisschen Absicht.
+4791|Okay. Ja. Ich mag dich. So, jetzt ist es raus.
+4792|...{rich} verdient WIE viel mehr als ich?!
+4793|Das ist die Gehaltsliste. Ich sollte nicht— Moment. {rich}?!
+4794|So viel verdient {rich} also. Interessant.
+4795|Ahmet Bey, ich habe gesehen, was andere verdienen. Ich will, was fair ist.
+4796|Ich würde gern über mein Gehalt reden. Jetzt. Bitte.
+4797|Wer hat Ihnen die Gehaltsliste gezeigt?! Die ist vertraulich!
+4798|Woher haben Sie diese Zahlen?!
+4799|„Umstrukturierung... mögliche Reduzierungen“... REDUZIERUNGEN?!
+4800|In Ahmets Memo steht „Reduzierungen“. Damit sind wir gemeint!
+4801|Haben gerade alle Ahmets Memo-Entwurf bekommen?!
+4802|„Reduzierungen.“ Gut, dass mein Lebenslauf aktuell ist.
+4803|Reduzierungen von WAS? Von Leuten?!
+4804|Das war ein ENTWURF! Wer hat meinen Entwurf verschickt?!
+4805|Dieses Memo war NICHT fertig!
+4806|„Gesichtet: {target} und {crush2} bei einem Dinner im Kerzenschein“?!
+4807|Laut Newsletter sind {target} und {crush2}... ein PAAR?
+4808|Endlich mal Journalismus!
+4809|Das stimmt nicht! Wir waren nie essen!
+4810|Wer hat das geschrieben?! Das ist gelogen!
+4811|...Ich meine. Es ist nicht WAHR. Aber es ist auch nicht... schlimm.
+4812|Abendessen? Zu zweit? ...Hm.
+4813|„Ich mach sie FERTIG... ...die Präsentation“?! Von {owner}?
+4814|In {owner:s} Nachricht steht „Ich mach dich fertig“. Muss ich mir Sorgen machen?
+4815|Hast du mir gerade gedroht?!
+4816|Was genau heißt „Ich mach dich fertig“?
+4817|Ich hab gesagt „Ich mach's für dich fertig“! Diktierfunktion!
+4818|Das war Spracheingabe! „Fertigmachen“ im Sinne von „erledigen“!
+4819|Gott sei Dank. Dein Handy hasst dich.
+4820|...Okay. Das ist eigentlich zum Brüllen.
+4821|Klar. „Diktierfunktion“.
+4822|Ich behalte einen Screenshot. Nur für alle Fälle.
+4823|{target}? Was machen Sie in diesem Meeting?
+4824|Hat jemand {target} eingeladen? Warum?
+4825|Tja, wo ich schon mal hier bin — dazu hätte ich eine Idee.
+4826|Eigentlich kann ich dabei helfen.
+4827|Ich hab eine Einladung bekommen! ...Ich geh dann.
+4828|Entschuldigung! Ich geh dann einfach... raus.
+4829|Wo ist {target}? Sonst immer hier.
+4830|Hat jemand {target} gesehen?
+4831|Ich wurde von der Einladungsliste gestrichen?! Von wem?
+4832|Es gab also ein Meeting. Ohne mich. Schön.
+4833|Oh — ich zuerst? Okay. Folgendes ist der Stand...
+4834|Gut. Legen wir los.
+4835|Zuerst? Perfekt, ich bin bereit.
+4836|Ich? ZUERST? Ich... war nicht bereit, als Erstes dranzukommen.
+4837|Ähm. Kann ich als Letztes? Nein? Okay...
+4838|„Tagesordnung: Entlassungen“?!
+4839|Warum steht ENTLASSUNGEN an der Tafel?
+4840|Entlassungen. Auf der Tagesordnung. Heute.
+4841|„Neue Richtlinie zu Büroromanzen“? Oh-oh.
+4842|Romanzen-Richtlinie?! Auf wen zielt das ab?
+4843|„Tagesordnung: Wer klaut das Mittagessen?“ Endlich!
+4844|Der Mittagessen-Dieb auf der Tagesordnung. Da schwitzt jemand.
+4845|„Beförderungen“ auf der Tagesordnung? Heute?!
+4846|Beförderungen! Okay. Okay. Ganz cool bleiben.
+4847|Wer hat DAS auf meine Tagesordnung geschrieben?!
+4848|Das ist NICHT meine Tagesordnung. Wer hat meine Tafel angefasst?
+4849|Warum haben wir ein Meeting neben dem Kühlschrank?!
+4850|Wer hat mein Meeting in die Lounge verlegt?
+4851|Das ist eine Küche. Kein Sitzungssaal.
+4852|Mir gefällt es hier irgendwie, Ahmet Bey.
+4853|Snacks in Reichweite. Bestes Meeting aller Zeiten.
+4854|Bester Meetingraum aller Zeiten. Kühlschrank-Zugang.
+4855|Wo SIND denn alle?!
+4856|Ich bin hier. Allein. In meinem eigenen Meeting.
+4857|Ist heute Feiertag? Mir hat keiner was gesagt.
+4858|Das Meeting wurde abgesagt? Super, mehr Zeit!
+4859|Meeting abgesagt? Wunderbar.
+4860|Hallo? Wo sind alle? Ist das das richtige Meeting?
+4861|Wir sind doch der „Budget-Abgleich“... in der Küche... oder?
+4862|Moment. Es gibt keinen Budget-Abgleich. Das echte Meeting hat angefangen!
+4863|Wir sind im falschen Meeting! LAUFT!
+4864|Also, alle zusammen! Fangen wir an. Ich leite heute die Sitzung.
+4865|Okay! Da ich dieses Meeting leite — erster Punkt!
+4866|Meine Damen und Herren. Machen wir es effizient.
+4867|Ähm, hallo! Ich bin... anscheinend die Sitzungsleitung? Los geht's!

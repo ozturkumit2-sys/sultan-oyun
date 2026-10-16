@@ -1,0 +1,108 @@
+1313|Une invitation à déjeuner détournée s'est transformée en double rendez-vous avec {a} et {b}, le « couple » de la photo du tableau. C'était, allez savoir comment, génial.
+1314|{a} et {b} ont parlé de la fausse photo de couple — et ont décidé que ça ne les dérange pas si elle n'est pas si fausse.
+1315|{a} et {b} ont décroché la fausse photo de couple — et sont allés déjeuner ensemble. Rien que tous les deux.
+1316|{actor} a raté une échéance.
+1317|{actor} a conclu une grosse affaire et l'a fêtée bruyamment. Tout le bureau a applaudi.
+1318|Quelqu'un a remplacé le café du bureau par du déca. Ça bâille de partout.
+1319|{actor} a accusé Zeynep d'être passée à un déca bon marché pour faire des économies. Elle jure que non.
+1320|{best} a découvert que {owner} l'avait discrètement défendu{best?|e} dans un mail à Ahmet. {best} est {best?ému|émue}.
+1321|{defender} a pris la défense de {target} face à {actor}.
+1322|Deniz a cafté à Ahmet : « {gossip} »
+1323|{actor} s'est faufilé{actor?|e} jusqu'au bureau vide de {target} et a saccagé sa paperasse. Personne n'a rien vu. Sans doute.
+1324|{actor} a saccagé le bureau de {target} — et {spotter} a tout vu.
+1325|{victim} a découvert que le disque partagé est vide. Panique générale. Tous les regards se tournent vers {suspect}.
+1326|Ahmet a exigé un nom. Personne n'a parlé — alors il a accusé {suspect}. ({culprit} n'a rien dit.)
+1327|Ahmet a exigé un nom. {culprit} s'est avancé{culprit?|e} et a avoué avoir supprimé le disque partagé.
+1328|Burak a restauré le disque partagé et a accusé une « erreur de synchronisation ». Il protège {culprit}.
+1329|Burak a restauré le disque partagé — et les journaux ont montré qu'il avait été supprimé depuis l'ordinateur de {culprit}.
+1330|{culprit} a avoué à Burak avoir supprimé le dossier. Il n'y a pas de sauvegarde.
+1331|{culprit} a supprimé par accident tout le dossier partagé. Personne ne le sait encore.
+1332|{culprit} a avoué à Burak avoir supprimé le dossier. Il l'a restauré depuis la sauvegarde — en douce.
+1333|Burak a restauré le disque partagé. La crise est terminée.
+1334|Les lumières du bureau sont passées en mode disco. La moitié du bureau danse.
+1335|Ahmet a foncé au disjoncteur et a coupé les lumières disco.
+1336|Ahmet n'arrivait pas à joindre {target} — son téléphone était en Ne pas déranger. Il a foncé jusqu'à son bureau.
+1337|La salle de réunion était verrouillée. Les gens s'entassaient devant pendant que {fixer} allait chercher la clé.
+1338|{actor} a déverrouillé la salle de réunion. Elle était fermée de l'intérieur — sans personne dedans.
+1339|Une deuxième « réunion » est apparue dans l'agenda à la même heure. {actor} et {target} l'ont attendue à la cuisine — puis ont couru à la vraie, en retard.
+1340|Ahmet a soudain annoncé la promotion des heures en avance. Tout le monde n'était pas là pour l'entendre.
+1341|Ece a réparé la machine à café. Personne ne sait comment.
+1342|Ece a voulu réparer la machine à café et s'est fait arroser.
+1343|Ece a aidé {target} à ranger.
+1344|La plainte de {actor} contre Ahmet est partie à tout le bureau — Ahmet compris.
+1345|Le mail d'Ahmet traitant l'équipe de « fainéants » est parti à l'équipe.
+1346|Le mail de ragots de Zeynep est parti à tout le monde : « {fact} »
+1347|La lettre d'amour de Mert à Ceren est partie à TOUT LE MONDE.
+1348|Le coup de gueule de {actor} contre {subject} est parti à tout le bureau !
+1349|Le plan de Deniz contre Selin a été envoyé à tout le monde !
+1350|Le mail privé de {actor} est parti à TOUT LE MONDE : « {fact} »
+1351|{target} s'est excusé{target?|e} auprès de {actor} pour le mail.
+1352|La plainte de {actor} contre Ahmet est partie chez {target}.
+1353|Le mail grognon d'Ahmet est parti chez {target}.
+1354|Les ragots de Zeynep destinés à {intended} sont partis chez {target}.
+1355|Le message de Mert au sujet de Ceren est parti chez {target}.
+1356|Le coup de gueule de {actor} contre {subject} est parti chez {target}.
+1357|La manigance de Deniz contre Selin est partie chez {target}.
+1358|Le message privé de {actor} est parti chez {target} : « {fact} »
+1359|Quelqu'un a supprimé l'invitation à la réunion. Ahmet s'est retrouvé presque seul en salle de réunion — et il est furieux.
+1360|Le diplôme d'Employé du mois affichait {target}. Ahmet l'a corrigé publiquement en {rich}. Brutal.
+1361|Le diplôme d'Employé du mois affiche {target}. Ahmet ne l'avait pas choisi{target?|e} — mais a décidé de laisser comme ça.
+1362|Zeynep a interrogé {suspect} sur ses notes de frais. Tout était en ordre.
+1363|Zeynep a décidé de garder le secret des notes de frais de {suspect} — en échange d'un service.
+1364|Zeynep a interrogé {suspect} sur ses notes de frais. {suspect} l'a suppliée de ne rien dire.
+1365|Zeynep a signalé à Ahmet les notes de frais douteuses de {suspect}.
+1366|Zeynep a trouvé quelque chose de bizarre dans les notes de frais de {suspect}.
+1367|Pendant l'alarme incendie, tout le monde s'est retrouvé coincé devant la porte d'entrée bloquée. Chaos total. {panicker} a crié le plus fort.
+1368|Pendant l'alarme incendie, tout le monde s'est retrouvé coincé devant la porte d'entrée bloquée. {hero} a gardé son calme et a pris les choses en main.
+1369|Ahmet a félicité {hero} devant tout le monde pour sa gestion de l'évacuation.
+1370|Ahmet a accusé {scapegoat} pour la porte d'entrée bloquée. {scapegoat} n'y était pour rien.
+1371|{hero} a débloqué la porte d'entrée. Tout le monde est sorti — pile au moment où l'alarme s'est tue. Applaudissements quand même.
+1372|{target} a été {target?oublié|oubliée} d'une invitation à boire un verre « de la part de » {organizer}. {organizer} n'a pas vraiment rectifié.
+1373|{target} a été {target?oublié|oubliée} d'une invitation à boire un verre « de la part de » {organizer}. {organizer} a insisté : {target} était {target?le bienvenu|la bienvenue}.
+1374|{actor} et {target} se sont retrouvés à cause d'une invitation que personne n'a envoyée. C'était très gênant.
+1375|{actor} et {target} ont chacun reçu une invitation de l'autre. Aucun ne l'avait envoyée. Ils ont pris un café quand même.
+1376|{actor} et {target} se sont retrouvés à la cuisine pour une invitation que personne n'a envoyée. Ça s'est transformé en une longue conversation chaleureuse…
+1377|Le tableau a intitulé la réunion du jour « Pot de départ de {target} ». {target} ne part pas… mais maintenant, y réfléchit.
+1378|Le tableau a intitulé la réunion du jour « Pot de départ de {target} ». {target} ne part pas — mais a entendu à quel point {target?il|elle} manquerait.
+1379|{actor} et {target} ne se parlent plus.
+1380|{actor} et {target} se sont croisés sans un mot. Toujours en froid.
+1381|Les papiers de {actor} se sont envolés du bureau tout seuls !
+1382|{actor} a trouvé son bureau sens dessus dessous.
+1383|{actor} s'est soudain retrouvé{actor?|e} en tête de la liste des présentations. Pas {actor?prêt|prête}. Ça s'est vu.
+1384|{actor} a été {actor?placé|placée} en tête de la liste des présentations — et a assuré.
+1385|Quelqu'un a réchauffé un curry de poisson au micro-ondes à midi. L'étiquette disait que c'était à {target}. {target} jure que non.
+1386|{actor} a réparé {obj}.
+1387|{actor} a réparé {obj} pour {requester}.
+1388|Les lumières du bureau se sont mises à clignoter toutes seules. Certains sont maintenant convaincus que le bureau est hanté.
+1389|Mert a dragué Ceren. Ça ne s'est pas bien passé.
+1390|Mert a dragué Ceren. Ça s'est bien passé !
+1391|Deuxième jour sans un mot entre {a} et {b}. Le bureau marche sur des œufs autour d'eux. {mediator} l'a remarqué.
+1392|Deuxième jour sans un mot entre {a} et {b}. Personne n'ose s'en mêler.
+1393|{organiser} récolte en secret de l'argent pour le cadeau de départ de {leaver}. Tout le monde a signé la carte.
+1394|Ahmet a supplié {leaver} de ne pas démissionner. {leaver} ne voyait pas du tout de quoi il parlait.
+1395|Ahmet a supplié {leaver} de ne pas démissionner. {leaver} ne l'a pas détrompé — et a négocié une augmentation.
+1396|{organiser} a annoncé à tout le monde que {leaver} démissionne — la lettre et la réponse automatique « Je démissionne » en étaient la preuve.
+1397|Le bureau a organisé un pot de départ surprise pour {leaver}. {leaver} ne part pas. Le gâteau a été gardé quand même.
+1398|Le bureau a organisé un pot de départ pour {leaver} — et {leaver} a annoncé rester, avec une augmentation toute fraîche. Les gens veulent récupérer l'argent du cadeau.
+1399|{a} et {b} ont enfin crevé l'abcès à la cuisine. Ils sont de nouveau amis — grâce à {mediator}.
+1400|{mediator} a essayé de convaincre {target} de faire la paix avec {other}. {target} a refusé.
+1401|{mediator} a parlé à {target} de la brouille avec {other}. {target} commence à s'adoucir.
+1402|{mediator} a réuni {a} et {b} dans la même pièce. Ça s'est très mal passé. La brouille est pire que jamais.
+1403|Un mot passif-agressif « signé » {target} est collé sur le frigo. Les gens trouvent ça mesquin. {target} ne l'a pas écrit.
+1404|Zeynep a repéré une fausse signature d'Ahmet sur la note de frais de {target}. {target} jure ne rien savoir.
+1405|La note de frais de {target} est passée comme une lettre à la poste avec une fausse signature. Personne n'a rien vu. Pour l'instant.
+1406|Ahmet a mis {a} et {b} — rivaux jurés — ensemble sur le rapport trimestriel.
+1407|{a} et {b} ont travaillé ensemble sur le rapport aux archives. Il y a eu des cris à propos des polices de caractères.
+1408|{a} et {b} ont travaillé ensemble sur le rapport aux archives — et, contre toute attente, ça s'est bien passé.
+1409|{a} a rendu le rapport commun et s'en est attribué presque tout le mérite. {b} a explosé.
+1410|{a} et {b} ont rendu le rapport commun. Ahmet a adoré et les a félicités tous les deux.
+1411|{actor} a discrètement mangé le déjeuner de {target} dans le frigo.
+1412|Le téléphone de {actor} a disparu de son bureau et a refait surface dans le frigo du bureau. Bien frais.
+1413|La porte d'entrée s'est bloquée. {actor} est {actor?resté|restée} coincé{actor?|e} à l'intérieur jusqu'à ce que {fixer} l'ouvre.
+1414|{victim} a collé sur le frigo un contre-mot furieux adressé à {signer}. La guerre du frigo a commencé.
+1415|{victim} a confronté {signer} au sujet du mot sur le frigo. {signer} a répliqué sèchement. La cuisine est maintenant une zone de guerre.
+1416|{victim} a confronté {signer} au sujet du mot sur le frigo. {signer} a prouvé que ce n'était pas son écriture. Les deux soupçonnent maintenant une tierce personne.
+1417|{victim} a trouvé le frigo vide et un mot « signé » {signer}. {victim} est {victim?convaincu|convaincue} que {signer} a jeté le déjeuner de tout le monde.
+1418|{actor} a confronté {target} au sujet du chat transféré. {target} a persisté. Ils ne se parlent plus.
+1419|{actor} a reçu un chat que {owner} avait écrit à son sujet. Ce n'était pas flatteur.
+1420|{actor} a confronté {target} au sujet du chat transféré. {target} s'est excusé{target?|e} — ça a un peu aidé.

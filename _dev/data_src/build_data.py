@@ -18,6 +18,8 @@ import arcs_more2  # noqa: F401  (stories set off by hidden combinations)
 import arcs_more3  # noqa: F401  (stories the office starts on its own)
 import npc_actions  # noqa: F401  (more things people do on their own)
 import lang_ui_more  # noqa: F401  (UI strings for v1.2)
+import lang_i18n_en  # noqa: F401  (strings that used to live in the code; bios)
+import lang_endings  # noqa: F401  (story ending names for the journal)
 IV = iv_all.IV
 A = arcs_mod.A
 
@@ -409,3 +411,25 @@ print("NPC actions (initiatives): %d (%s)" % (len(init), ", ".join("%s=%d" % (k,
 print("Story arcs: %d, stages %d, longest path %d" % (len(A), sum(len(a["stages"]) for a in A), max(len(a["stages"]) for a in A)))
 print("OK: %d characters, %d facts, %d events (%d initiative), %d arcs (%d stages), %d rumour kinds, %d dialogue keys (%d lines), %d strings" % (
     len(CHARACTERS), len(FACTS), len(E), len(init), len(A), sum(len(a["stages"]) for a in A), len(RUMORS), len(D), lines, len(S)))
+
+# every story ending needs a name for the journal
+_ends = {"fizzled", "done"}
+def _walk_ends(x):
+    if isinstance(x, dict):
+        if x.get("t") == "arc_end" or x.get("e") == "arc_end" or x.get("kind") == "arc_end":
+            _ends.add(x.get("result", "done"))
+        for k, v in x.items():
+            if k == "default_end" and isinstance(v, str):
+                _ends.add(v)
+            elif k == "result" and isinstance(v, str):
+                _ends.add(v)
+            _walk_ends(v)
+    elif isinstance(x, list):
+        for y in x:
+            _walk_ends(y)
+    elif isinstance(x, str) and x.startswith("end:"):
+        _ends.add(x[4:])
+for _f in ("events.json", "arcs.json", "interventions.json"):
+    _walk_ends(json.load(open(os.path.join(ROOT, "data", _f), encoding="utf-8")))
+_miss = sorted(e for e in _ends if "ending." + e not in S)
+assert not _miss, "story endings without a name (lang_endings.py): %s" % _miss

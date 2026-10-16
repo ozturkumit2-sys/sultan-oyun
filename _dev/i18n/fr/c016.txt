@@ -1,0 +1,283 @@
+2791|Attends… l'heure de la réunion vient de changer ?
+2792|Le tableau vient de… changer ?
+2793|Je ne suis pas {me?fou|folle}. C'était écrit une autre heure.
+2794|Bien, commençons.
+2795|Tout le monde s'assoit. On commence.
+2796|Téléphones rangés. La réunion commence maintenant.
+2797|Enfin !
+2798|Tiens, regardez qui daigne se montrer.
+2799|On attend depuis une éternité.
+2800|Le patron est en retard ? Notez-le quelque part !
+2801|Ceren, pourquoi mon agenda était faux ?!
+2802|Qui a programmé ça ? Ceren ?
+2803|Hum. Faisons comme si j'étais pile à l'heure.
+2804|Oui, oui. Même moi, j'ai du travail.
+2805|Pardon ! Pardon pour le retard !
+2806|Je croyais que c'était plus tard !
+2807|Les bouchons ! Les bouchons du bureau !
+2808|Je faisais… du networking. À la machine à café.
+2809|Je suis vraiment désolée ! Je me suis perdue ! Dans le bureau !
+2810|Le tableau indiquait une autre heure !
+2811|Mais le planning disait plus tard !
+2812|Qui n'arrête pas de modifier le tableau ?!
+2813|Quelqu'un trafique le planning.
+2814|En retard. Encore.
+2815|Le temps, c'est de l'argent. Le vôtre s'épuise.
+2816|Vous vous croyez dans un café ?
+2817|Asseyez-vous. Vite.
+2818|Asseyez-vous, c'est tout.
+2819|Ils sont où, tous ?
+2820|La réunion a été annulée ?
+2821|Je me suis trompé{me?|e} de salle ?
+2822|Allô ? Réunion ?
+2823|Vous avez raté la réunion. Expliquez-vous.
+2824|Où étiez-vous pendant la réunion ?
+2825|À propos de votre mail…
+2826|J'ai lu votre mail. Il faut qu'on parle.
+2827|Vous avez raté votre échéance.
+2828|Où est votre travail ? C'était pour aujourd'hui.
+2829|Il faut qu'on parle de vos performances.
+2830|J'attends mieux de votre part.
+2831|Pardon, ça ne se reproduira pas.
+2832|Oui, monsieur. Compris.
+2833|Je vais arranger ça.
+2834|Pardon, Tonton… euh, monsieur !
+2835|Sauf votre respect, ce n'est pas juste.
+2836|Peut-être que si ce bureau fonctionnait correctement…
+2837|Vous savez quoi ? J'en ai assez.
+2838|De toute façon, je ne serai peut-être plus là très longtemps.
+2839|Surveillez votre ton !
+2840|Pardon ?!
+2841|Attention.
+2842|Comme vous pouvez le voir, les chiffres parlent d'eux-mêmes.
+2843|Et voilà notre plan pour le prochain trimestre.
+2844|Voici les résultats. Tout est au vert.
+2845|Excellent travail.
+2846|Voilà CE que j'aime voir.
+2847|Très bien. Très bien.
+2848|*lève les yeux au ciel*
+2849|Frime.
+2850|N'importe qui aurait pu le faire.
+2851|Ma présentation était sur ma clé USB… et elle a disparu.
+2852|Je… je ne trouve pas mes diapos.
+2853|Pas préparé{to?|e}. Décevant.
+2854|C'est inacceptable.
+2855|Revenez quand vous serez prêt{to?|e}.
+2856|Euh… je n'ai pas tout à fait fini…
+2857|La version complète pour demain ?
+2858|Bon… place au brouillon.
+2859|En fait, monsieur, l'idée de départ était la mienne. Laissez-moi vous l'expliquer.
+2860|Je peux présenter ce projet — de toute façon, c'est moi qui ai fait l'essentiel.
+2861|Permettez. Je connais ce projet sur le bout des doigts.
+2862|Impressionnant, Deniz. Très impressionnant.
+2863|Ça, c'est de l'initiative.
+2864|Bien. J'aime les gens qui prennent les devants.
+2865|C'était MON travail !
+2866|Tu viens de présenter mon projet !
+2867|Tu te moques de moi ?! C'est à moi !
+2868|Prouve-le.
+2869|Bizarre, je ne vois pas ton nom dessus.
+2870|Travail d'équipe, Selin. Travail d'équipe.
+2871|Cette réunion aurait pu être un mail, non ?
+2872|J'ai une question : on déjeune quand ?
+2873|Super réunion. Dix sur dix.
+2874|Petite question : les snacks, c'est une ligne budgétaire ?
+2875|Ha ! D'accord, d'accord.
+2876|Très drôle. Revenons à nos moutons.
+2877|On n'est pas dans un club de stand-up.
+2878|C'était censé être drôle ?
+2879|Hmm… je ne savais pas que cette personne en faisait autant.
+2880|Intéressant. Très intéressant.
+2881|Ça change les choses.
+2882|Hm. Comme prévu.
+2883|Bien, bien.
+2884|Entre nous… quelqu'un a modifié ton dossier de promotion.
+2885|J'ai vu le dossier. Ton nom a été retiré du gros projet.
+2886|QUOI ?!
+2887|Je savais que quelque chose clochait !
+2888|Qui ferait une chose pareille ?!
+2889|Un instant, tout le monde. Nous avons désormais quelqu'un pour diriger l'équipe.
+2890|Attention ! Après mûre réflexion, j'ai pris ma décision pour la promotion.
+2891|Votre attention ! La distinction de la semaine revient à…
+2892|La star de la semaine est…
+2893|Merci ! Je ne vous décevrai pas !
+2894|Waouh… moi ? Merci !
+2895|Enfin !
+2896|Naturellement. Merci, monsieur.
+2897|Merci. J'ai tellement travaillé pour ça.
+2898|Félicitations !
+2899|Bien mérité… j'imagine.
+2900|*applaudissements polis*
+2901|Hmm. Choix intéressant.
+2902|… Incroyable.
+2903|C'est tellement injuste.
+2904|Après tout ce que j'ai fait ?
+2905|C'est mal. C'est tellement mal.
+2906|Ce n'est pas fini.
+2907|*fixe d'un regard glacial*
+2908|Je n'oublierai pas.
+2909|Félicitations. Profites-en tant que ça dure.
+2910|« Venez dans mon bureau. Tout de suite. » … Oh oh.
+2911|Le patron veut me voir ?!
+2912|Oh non. Qu'est-ce que j'ai fait ?
+2913|Du gâteau gratuit dans la cuisine ?! Pas besoin d'en dire plus !
+2914|De la bouffe gratuite ! DE LA BOUFFE GRATUITE !
+2915|Réunion annulée ? Génial !
+2916|Pas de réunion aujourd'hui ? La meilleure nouvelle du monde.
+2917|« Un admirateur secret te salue »… ?!
+2918|Quelqu'un ici a le béguin pour moi ?!
+2919|Oh, un admirateur secret !
+2920|Vous vouliez me voir ?
+2921|J'ai reçu votre message, monsieur.
+2922|Je suis là ! Qu'est-ce que j'ai fait ?
+2923|Je ne vous ai pas appelé{to?|e}.
+2924|Quel message ? Je n'ai rien envoyé.
+2925|Je ne vous ai jamais demandé{to?|e}.
+2926|Arrêtez de me faire perdre mon temps. Au travail.
+2927|Puisque vous êtes là à ne rien faire — allez travailler.
+2928|Bon, puisque vous êtes là… du bon travail ces derniers temps.
+2929|Asseyez-vous, asseyez-vous. Comment ça se passe ?
+2930|Il n'y a pas de gâteau…
+2931|Elle est où, la bouffe gratuite ?
+2932|Il n'y a qu'un vieux yaourt.
+2933|Très drôle, {suspect}.
+2934|Je parie que c'est {suspect} qui a envoyé ça.
+2935|Quelqu'un me fait des blagues. Et je crois savoir qui.
+2936|*referme tristement le frigo*
+2937|Mensonges. Que des mensonges.
+2938|Alors… c'était toi ? {to?L'admirateur secret|L'admiratrice secrète} ?
+2939|C'est toi qui m'as envoyé ce message ?
+2940|… Peut-être. Ce serait si terrible ?
+2941|Haha, peut-être ! Qui sait ?
+2942|Un gentleman ne dit jamais rien.
+2943|Quoi ? Non ! Désolé{me?|e}…
+2944|Euh, non. Certainement pas moi.
+2945|Ce n'est… pas moi.
+2946|Burak cherche un autre boulot ? Dans mon dos ?
+2947|Voilà donc pourquoi il est toujours sur son téléphone.
+2948|J'entends dire que vous cherchez un autre emploi.
+2949|Vous comptez nous quitter, Burak ?
+2950|Écoutez… vous êtes précieux ici. Que faudrait-il pour vous garder ?
+2951|Je vais être honnête. Je ne veux pas vous perdre.
+2952|Vraiment ? Je… je ne m'y attendais pas.
+2953|Bon. Je vais peut-être rester encore un peu.
+2954|Peut-être que oui. Peut-être qu'ici, personne n'est apprécié à sa juste valeur.
+2955|J'ai bien le droit d'avoir des options.
+2956|Alors la porte est par là.
+2957|Très bien. On verra qui a besoin de qui.
+2958|La stagiaire est la NIÈCE du patron ? Évidemment.
+2959|Eh bien, ça explique beaucoup de choses.
+2960|Du piston. Charmant.
+2961|Le siège m'évalue, MOI ?!
+2962|Mon poste… est en cours d'évaluation ?
+2963|*chuchote* Oui, jeudi me va pour l'entretien…
+2964|*chuchote* Je peux commencer le mois prochain, si l'offre est bonne.
+2965|*chuchote* Non, mon patron n'est pas au courant.
+2966|Burak vient de parler d'un entretien d'embauche ?
+2967|J'ai bien entendu ?!
+2968|Oh. Oh ! Burak cherche un boulot !
+2969|Psst. Viens par là.
+2970|Tu es au courant ?
+2971|OK, tu ne tiens PAS ça de moi…
+2972|Assieds-toi. Tu vas vouloir être assis{to?|e} pour entendre ça.
+2973|Oh, j'en ai, des nouvelles pour toi.
+2974|{gossip}
+2975|Apparemment… {gossip}
+2976|Ne le répète à personne, mais {gossip}
+2977|Il paraît que… {gossip}
+2978|Pas possible !
+2979|Sérieux ?!
+2980|Je le savais !
+2981|Arrête !
+2982|On ne devrait pas parler de ça.
+2983|Ce ne sont pas nos affaires.
+2984|Les ragots, ce n'est pas gentil, tu sais.
+2985|N'allons pas répandre ça.
+2986|Raconte-moi TOUT.
+2987|Oh, et quoi d'autre ?
+2988|Il me faut des détails !
+2989|Ceren, on t'a déjà dit que tes tableurs étaient magnifiques ?
+2990|Alors… un café plus tard ? Juste entre collègues. Des collègues qui boivent du café.
+2991|Tu es superbe aujourd'hui. Pas que tu ne le sois pas toujours.
+2992|Haha, t'es ridicule, Mert.
+2993|Peut-être. Si tu es sage.
+2994|T'es mignon. Bizarre, mais mignon.
+2995|Mert, je travaille.
+2996|Pas maintenant, Mert.
+2997|Bien essayé.
+2998|Alors… un dîner ? Un vrai ?
+2999|Tu voudrais sortir avec moi ? Pour de vrai ?
+3000|… Oui. Mais personne ne doit le savoir.
+3001|D'accord. Notre petit secret.
+3002|Tiens, tiens. Ces deux-là sont drôlement proches.
+3003|Depuis quand ces deux-là sont amis ?
+3004|Intéressant… très intéressant.
+3005|Tu profites des projecteurs ?
+3006|Ça doit être sympa d'être {to?le chouchou|la chouchoute} du patron.
+3007|T'y habitue pas.
+3008|Jaloux{to?|se} ?
+3009|J'en profite, oui, merci.
+3010|Certains d'entre nous le méritent.
+3011|Pourquoi tu dis ça ?
+3012|Ce n'est pas juste.
+3013|… D'accord.
+3014|Hé… pour tout à l'heure. Je suis désolé{me?|e}.
+3015|On peut parler ? Je crois que j'ai réagi de façon excessive.
+3016|Trêve ?
+3017|Oui. Moi aussi.
+3018|D'accord. Trêve.
+3019|Oublions ça. Un café ?
+3020|Trop peu, trop tard.
+3021|Je ne suis pas prêt{me?|e}.
+3022|Non.
+3023|Je ne pardonne pas si facilement.
+3024|Ah. C'est toi.
+3025|Tiens, regardez qui voilà.
+3026|Encore là ?
+3027|Qu'est-ce que c'est censé vouloir dire ?
+3028|Pardon ?
+3029|Un problème ?
+3030|Oui, en fait, j'en ai un !
+3031|Tu sais très bien ce que je veux dire !
+3032|Ne joue pas {to?l'innocent|l'innocente} !
+3033|Je ne rentre pas là-dedans.
+3034|Peu importe.
+3035|Ça n'en vaut pas la peine.
+3036|Pourquoi le tableur a-t-il quitté la calculatrice ? Elle le prenait toujours pour un calcul.
+3037|Je ne suis pas paresseux{me?|se}, je suis en mode économie d'énergie.
+3038|Mon patron m'a dit de passer une bonne journée. Alors je suis rentré{me?|e} chez moi.
+3039|J'ai dit à mon ordi que j'avais besoin d'une pause. Il m'a dit : « Pas de souci, je me mets en veille. »
+3040|Le travail d'équipe, c'est ne jamais avoir à porter toute la faute tout seul.
+3041|Quel est le jour le plus long de la semaine ? Le lundi. Pourquoi ? Parce qu'il ne finit jamais.
+3042|Je fais un régime « vu-mangé » : je vois de la nourriture, je la mange.
+3043|Hahaha !
+3044|OK, elle était bonne.
+3045|Arrête ! Haha !
+3046|HAHAHA ! Attends, j'ai pas compris. HAHAHA !
+3047|Pff.
+3048|Arrête, s'il te plaît.
+3049|C'était nul.
+3050|J'ai du travail.
+3051|Au travail.
+3052|{topic}
+3053|Oh, carrément.
+3054|Ha, hein ?
+3055|Ne me lance pas là-dessus.
+3056|Pareil pour moi !
+3057|Hmm, pas vraiment.
+3058|Mm.
+3059|Bien sûr.
+3060|En parlant de ça, tu as entendu parler de…
+3061|Oh, j'ai un avis là-dessus.
+3062|Oui ! Oh mon Dieu, oui !
+3063|Hm. En effet.
+3064|…
+3065|Je suis occupé{me?|e}.
+3066|Mmh.
+3067|Je t'ai apporté un café !
+3068|Surprise ! Un café comme tu l'aimes. Je crois.
+3069|Livraison de café !
+3070|Oh, merci, Ece !
+3071|Tu es un ange.
+3072|Exactement ce qu'il me fallait.
+3073|Hm. Brave petite. Je veux dire, beau travail.

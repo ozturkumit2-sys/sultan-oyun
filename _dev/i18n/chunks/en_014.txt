@@ -1,0 +1,263 @@
+2259|mem.falsely_accused|{actor} accused me of something I didn't do!
+2260|mem.feud|{target} and I aren't speaking.
+2261|mem.fish_shamed|Everyone thinks I microwaved fish in the office.
+2262|mem.fm_made_up|{b} and I made up.
+2263|mem.fwd_hurt|{owner} wrote horrible things about me in a chat.
+2264|mem.gossiped_about_me|{target} gossiped about me behind my back.
+2265|mem.got_flowers|{actor} brought me flowers.
+2266|mem.groupchat|{hater} has a group chat dedicated to complaining about me.
+2267|mem.grudge|I will never forget what {target} did.
+2268|mem.heartbreak|{crush} chose {target}.
+2269|mem.helped_deadline|{actor} helped me beat my deadline.
+2270|mem.helped_me|{target} helped me with the {obj}.
+2271|mem.hh_bluff|Ahmet told me to leave if I wanted.
+2272|mem.hh_counter|Ahmet fought to keep me.
+2273|mem.hijacked|{hijacker} hijacked my presentation.
+2274|mem.ivm_falsely_accused|{actor} accused me of something I didn't do.
+2275|mem.ivm_it_helped|{target} rescued my computer.
+2276|mem.ivm_kept_secret|I kept {subject}'s secret.
+2277|mem.ivm_lectured|Ahmet lectured me about {what}. I didn't do anything!
+2278|mem.ivm_suspect|I'm fairly sure {suspect} messed with my things.
+2279|mem.ivm_tattled|{actor} ran to Ahmet about me.
+2280|mem.ivm_thought_kind|{target} did something nice for me. (Or so I think.)
+2281|mem.kn_star|Karaoke night in the kitchen was amazing.
+2282|mem.late_morning|I was late and Ahmet noticed.
+2283|mem.lost_promo|{winner} got what should have been mine.
+2284|mem.made_up|We made up. Feels good.
+2285|mem.mc_accused|{owner} accused me of taking their contract.
+2286|mem.mc_confessed|{culprit} owned up to losing my contract.
+2287|mem.micromanaged|Ahmet breathed down my neck all afternoon.
+2288|mem.misfiled|{suspect} misfiled my report.
+2289|mem.misplaced_returned|{actor} returned my lost report.
+2290|mem.mp_bonded|{mentor} protected me when I messed up.
+2291|mem.na_checkin|{actor} checked on me when I was having a hard day.
+2292|mem.na_cover|{actor} covered for me with Ahmet.
+2293|mem.na_promo_no|Ahmet turned down my request for a promotion.
+2294|mem.na_snitched|{actor} ran to Ahmet about my mistake.
+2295|mem.no_usb|My USB vanished right before my presentation.
+2296|mem.op_party|We had an amazing office party.
+2297|mem.party_host|{target} threw a party for everyone.
+2298|mem.passed_buck|{actor} handed me their urgent work.
+2299|mem.payroll_envy|{rich} earns much more than me.
+2300|mem.pet_melts|Ahmet let us keep the office kitten.
+2301|mem.photo|Someone posted an embarrassing photo of me to the whole office.
+2302|mem.pp_brushed|Ahmet brushed off my promotion request.
+2303|mem.pp_great|Ahmet loved my pitch.
+2304|mem.praised|Ahmet praised my presentation!
+2305|mem.pranked|Someone pranked me. Probably {suspect}.
+2306|mem.promise_broken|Ahmet broke a promise he made me in writing.
+2307|mem.quiet_grudge|I didn't say anything, but I know it was {suspect}.
+2308|mem.raise_given|Ahmet gave me a raise.
+2309|mem.raise_refused|Ahmet refused my raise.
+2310|mem.raw|{text}
+2311|mem.refused_help|{target} refused to help me.
+2312|mem.returned_item|{actor} returned my {item}. So kind!
+2313|mem.returned_notebook|{actor} returned my notebook without reading it.
+2314|mem.review_bad|Ahmet gave me a terrible surprise review.
+2315|mem.review_good|Ahmet praised me in a surprise review.
+2316|mem.rom_breakup|{crush} and I broke up.
+2317|mem.rom_no|{crush} turned me down.
+2318|mem.rs_accepted|Ahmet accepted my resignation without blinking.
+2319|mem.sa_betrayed|{partner} sold me out.
+2320|mem.sabotaged_promo|Someone doctored my promotion file. {credited}?
+2321|mem.sarcasm|{actor} mocked me.
+2322|mem.scolded|Ahmet gave me a talking-to.
+2323|mem.scolded_idle|Ahmet caught me taking a break.
+2324|mem.scolded_late|I was late and Ahmet scolded me.
+2325|mem.shared_credit|{actor} gave me credit in front of everyone.
+2326|mem.shielded|{friend} stood up for me in front of Ahmet.
+2327|mem.shortlist_humiliated|I bragged about a promotion that doesn't exist. In front of Ahmet.
+2328|mem.si_exposed|{victim} exposed me to Ahmet.
+2329|mem.si_heard_my_idea|Ahmet praised {thief} for an idea that sounds a lot like mine.
+2330|mem.si_vindicated|Ahmet believed me about {thief}.
+2331|mem.slides_humiliated|I froze in the meeting. Someone swapped my slides.
+2332|mem.slipped|{actor} blurted out my secret.
+2333|mem.spilled|{actor} spilled coffee all over me.
+2334|mem.spread_lies|{target} spread lies about me.
+2335|mem.supplies_accused|Everyone thinks I've been hoarding office supplies.
+2336|mem.suspect_coffee|I'm sure {suspect} broke the coffee machine.
+2337|mem.suspects_files|I think {suspect} messed with my files.
+2338|mem.talked_back|I talked back to Ahmet. No regrets. Some regrets.
+2339|mem.took_blame|I took the blame so {actor} would calm down.
+2340|mem.took_item|My {item} turned up on {owner}'s desk.
+2341|mem.uninvited|I was left out of the meeting on purpose.
+2342|mem.unsent_apology|I apologised to {target}. They ignored it.
+2343|mem.zeynep_pointed|Zeynep told me {suspect} did it.
+2344|printer_dead|_|0|The printer's dead. Of course it is.
+2345|printer_dead|_|1|Why is the printer blinking red?!
+2346|printer_dead|_|2|PAPER JAM?! There's no paper in it!
+2347|printer_dead|_|3|Come on, come on... print!
+2348|printer_dead|ahmet|0|This printer is a disgrace.
+2349|printer_dead|selin|0|I need this printed NOW. Not later. Now.
+2350|printer_dead|mert|0|Printer's having a moment, huh?
+2351|printer_dead|zeynep|0|Ugh, it's eating my pages!
+2352|printer_dead|ece|0|Did I break it? I didn't touch anything!
+2353|printer_dead|deniz|0|Typical.
+2354|printer_dead|ceren|0|Hm. Out of order.
+2355|printer_selffix|_|0|Who did this to you, buddy? I'll fix it.
+2356|printer_selffix|_|1|Classic. Give me five minutes.
+2357|printer_selffix|burak|0|Who kicked it this time? ...Fine. I'll fix it.
+2358|printer_need_help|_|0|I need someone who speaks printer.
+2359|printer_need_help|_|1|{helper}! Can you help me with this thing?
+2360|printer_need_help|selin|0|{helper} will know what to do.
+2361|printer_need_help|ece|0|I'll ask {helper}! Don't panic. I'm not panicking.
+2362|printer_kick|_|0|Work, you useless box!
+2363|printer_kick|_|1|*kicks printer*
+2364|printer_kick|_|2|Take THAT!
+2365|printer_kick|ahmet|0|I said PRINT!
+2366|printer_kick|selin|0|Unbelievable!
+2367|printer_kick|burak|0|...I'm not proud of that.
+2368|witness_kick|_|0|Did they just kick the printer?
+2369|witness_kick|_|1|Easy there, champ.
+2370|witness_kick|_|2|That's not how IT works.
+2371|witness_kick|mert|0|Ten points for style!
+2372|witness_kick|zeynep|0|Ooh, someone's in a mood.
+2373|printer_giveup|_|0|Forget it. I'll do it later.
+2374|printer_giveup|_|1|I give up. I'll show it on my laptop.
+2375|printer_giveup|ece|0|Okay! New plan! ...I have no plan.
+2376|ask_help_obj|_|0|{target}, the {obj} is broken. Can you take a look?
+2377|ask_help_obj|_|1|Hey {target}... any chance you could fix the {obj}?
+2378|ask_help_obj|_|2|{target}, I need your magic. The {obj} died.
+2379|ask_help_obj|selin|0|{target}, I have a deadline. The {obj} is dead. Help?
+2380|ask_help_obj|mert|0|{target}, my friend, my hero, my {obj} whisperer...
+2381|ask_help_obj|ece|0|Sorry sorry sorry — {target}, could you help with the {obj}?
+2382|ask_help_obj|ahmet|0|{target}. The {obj}. Fix it.
+2383|agree_help|_|0|Sure, give me a minute.
+2384|agree_help|_|1|Yeah, I got it.
+2385|agree_help|_|2|On it.
+2386|agree_help|burak|0|Sigh. Yes. I'll fix it.
+2387|agree_help|burak|1|Did you try turning it off and on? ...Never mind, I'm coming.
+2388|agree_help|ece|0|Of course! I love helping!
+2389|agree_help|ceren|0|No problem, I'll handle it.
+2390|refuse_help|_|0|Sorry, I'm swamped.
+2391|refuse_help|_|1|Not my job.
+2392|refuse_help|_|2|Can't right now.
+2393|refuse_help|burak|0|Not today.
+2394|refuse_help|burak|1|Open a ticket.
+2395|refuse_help|burak|2|I'm not your personal tech support.
+2396|refuse_help|deniz|0|Hm. I'd love to, but... no.
+2397|refuse_help|selin|0|I have my own deadline, sorry.
+2398|refuse_help|ahmet|0|Do I look like IT to you?
+2399|react_refused|_|0|Wow. Thanks a lot.
+2400|react_refused|_|1|Fine. FINE.
+2401|react_refused|_|2|I'll remember that.
+2402|react_refused|selin|0|I will remember this.
+2403|react_refused|selin|1|Noted. Permanently.
+2404|react_refused|mert|0|Ouch. Okay.
+2405|react_refused|ece|0|Oh... okay. That's fine. Totally fine.
+2406|help_later|_|0|Later, okay? I'm in the middle of something.
+2407|help_later|_|1|Give me a bit. I'll come by.
+2408|help_later|burak|0|After this ticket. Promise.
+2409|fine_wait|_|0|Okay... I'll wait.
+2410|fine_wait|_|1|Don't forget me!
+2411|lights_fixed_me|_|0|And... let there be light!
+2412|lights_fixed_me|_|1|Fixed. You're welcome.
+2413|lights_fixed_me|burak|0|Breaker tripped. Again. Nobody touch anything.
+2414|lights_back|_|0|Finally!
+2415|lights_back|_|1|Thank you!
+2416|lights_back|_|2|I can see again!
+2417|lights_back|_|3|Oh thank goodness.
+2418|lights_back|mert|0|My hero!
+2419|lights_back|zeynep|0|Took long enough.
+2420|fixed_it|_|0|Done. Should work now.
+2421|fixed_it|_|1|Fixed it for you.
+2422|fixed_it|_|2|Good as new.
+2423|fixed_it|burak|0|It works. Please stop kicking it.
+2424|thanks_fix|_|0|Thank you so much!
+2425|thanks_fix|_|1|You're a lifesaver.
+2426|thanks_fix|_|2|I owe you one.
+2427|thanks_fix|selin|0|Thank you. Really.
+2428|thanks_fix|mert|0|I owe you a kebab.
+2429|fixed_solo|_|0|There. Fixed.
+2430|fixed_solo|_|1|Back in business.
+2431|fixed_solo|burak|0|Another day, another miracle.
+2432|coffee_dead|_|0|No coffee?! NO COFFEE?!
+2433|coffee_dead|_|1|The coffee machine is broken...
+2434|coffee_dead|_|2|Why is it making that noise?
+2435|coffee_dead|ahmet|0|Who broke the coffee machine?!
+2436|coffee_dead|mert|0|Nooo, my fuel!
+2437|coffee_dead|zeynep|0|How am I supposed to function?!
+2438|coffee_dead|deniz|0|Wonderful. Just wonderful.
+2439|coffee_dead|burak|0|...I'm not fixing this.
+2440|ece_try_fix|_|0|I can fix it! I watched a video once!
+2441|ece_try_fix|_|1|Leave it to me! Hold this... no wait.
+2442|ece_fix_success|_|0|IT WORKS! I'm a genius!
+2443|ece_fix_success|_|1|Ta-da! Coffee for everyone!
+2444|praise_ece|_|0|Wow, nice one Ece!
+2445|praise_ece|_|1|Ece, you're a legend.
+2446|praise_ece|_|2|The intern saved us!
+2447|ece_fix_fail|_|0|Oops. Oh no. Oh no no no.
+2448|ece_fix_fail|_|1|That... wasn't supposed to spray.
+2449|ece_fix_fail|_|2|Why is it all over me?!
+2450|witness_spill|_|0|Ece, are you okay?
+2451|witness_spill|_|1|Someone get a mop!
+2452|witness_spill|_|2|Oh dear.
+2453|coffee_rage|_|0|Who DID this?!
+2454|coffee_rage|_|1|I swear I'll lose it.
+2455|coffee_rage|_|2|Unbelievable! UNBELIEVABLE!
+2456|coffee_rage|ahmet|0|This office is falling apart!
+2457|coffee_rage|selin|0|Someone is going to answer for this.
+2458|witness_coffee_rage|_|0|Yikes.
+2459|witness_coffee_rage|_|1|Better stay out of their way.
+2460|witness_coffee_rage|_|2|Someone's grumpy.
+2461|witness_coffee_rage|mert|0|Decaf for that one.
+2462|coffee_blame|_|0|Bet it was {suspect}. Always fiddling with it.
+2463|coffee_blame|_|1|{suspect} was here last. Coincidence? No.
+2464|coffee_blame|_|2|I KNOW {suspect} broke it.
+2465|coffee_blame|zeynep|0|It was {suspect}, I'd put money on it.
+2466|coffee_blame|selin|0|{suspect} again, I suppose.
+2467|coffee_ask_fix|_|0|Maybe {helper} can fix it...
+2468|coffee_ask_fix|_|1|I'll go get {helper}.
+2469|coffee_sad|_|0|Today is going to be long.
+2470|coffee_sad|_|1|No coffee. No joy.
+2471|coffee_sad|_|2|*sad sigh*
+2472|coffee_sad|ece|0|It's fine! I'll drink water! ...Sad water.
+2473|coffee_works_again|_|0|Wait. It works again?
+2474|coffee_works_again|_|1|Huh? Someone fixed it?
+2475|coffee_works_again|_|2|The coffee machine is alive!
+2476|coffee_who_fixed|_|0|Who fixed it? Must've been {credited}.
+2477|coffee_who_fixed|_|1|{credited} probably fixed it. I should say thanks.
+2478|coffee_spooky|_|0|Nobody touched it. It just... fixed itself.
+2479|coffee_spooky|_|1|Okay, this is creepy.
+2480|coffee_spooky|_|2|This office is haunted. I'm calling it.
+2481|thanks_coffee_fix|_|0|Thanks for fixing the coffee machine, {target}!
+2482|thanks_coffee_fix|_|1|You fixed the coffee? You're the best!
+2483|take_credit|_|0|Oh, that? Yeah. Anything for the team.
+2484|take_credit|_|1|Heh. You're welcome.
+2485|take_credit|_|2|It was nothing, really.
+2486|take_credit|deniz|0|Naturally. I take care of things.
+2487|not_me|_|0|Wasn't me, actually.
+2488|not_me|_|1|I didn't fix anything...
+2489|not_me|_|2|Nope. Not me.
+2490|not_me|burak|0|I didn't touch it. Weird.
+2491|then_who|_|0|Then who did?
+2492|then_who|_|1|Wait... then who?!
+2493|then_who|_|2|Okay, now I'm scared.
+2494|burak_sigh_fix|_|0|Printer's still dead. Fine. I'll do it.
+2495|burak_sigh_fix|_|1|Nobody reported it. Of course.
+2496|burak_sigh_fix_coffee|_|0|The coffee machine again? Fine.
+2497|burak_sigh_fix_coffee|_|1|I'll fix the coffee. For the greater good.
+2498|lights_out_react|_|0|AAAH!
+2499|lights_out_react|_|1|Who turned off the lights?!
+2500|lights_out_react|_|2|Hey! I was typing!
+2501|lights_out_react|_|3|Did we forget to pay the bill?
+2502|lights_out_react|ece|0|I can't see! Is this a drill?!
+2503|lights_out_react|mert|0|Ooooh, spooky!
+2504|lights_out_react|zeynep|0|Someone's playing games...
+2505|lights_out_react|ahmet|0|What is going on here?!
+2506|lights_out_react|deniz|0|Interesting...
+2507|lights_out_react|selin|0|My document! Did it save?!
+2508|lights_out_react|burak|0|...Breaker.
+2509|lights_out_react|ceren|0|Everyone stay calm.
+2510|lights_will_fix|_|0|I'll check the breaker.
+2511|lights_will_fix|_|1|Hang on, I'll fix it.
+2512|lights_will_fix|_|2|Nobody move, I'm on it.
+2513|lights_will_fix|burak|0|Breaker. I'll handle it.
+2514|lights_will_fix|ceren|0|I'll take care of it.
+2515|ece_spill_oops|_|0|Oh no! I'm so sorry!
+2516|ece_spill_oops|_|1|Oops! Your shirt...
+2517|ece_spill_oops|_|2|AAH! Sorry sorry sorry!
+2518|spill_forgive|_|0|It's okay, it's just a shirt.
+2519|spill_forgive|_|1|Don't worry, accidents happen.
+2520|spill_forgive|_|2|Ha! I needed a new look anyway.
+2521|spill_forgive|mert|0|Coffee-scented. Very trendy.

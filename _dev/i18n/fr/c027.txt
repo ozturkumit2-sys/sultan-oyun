@@ -1,0 +1,186 @@
+5280|Allô, téléphone de {owner}... euh, MON téléphone... Allô ?
+5281|Oui, c'est— non, je ne suis pas {owner}. Mais je peux vous aider !
+5282|J'ai pris l'appel d'un client pour toi. Voilà le message.
+5283|Ton client m'a appelé{me?|e} par erreur. J'ai réglé ça pour toi.
+5284|C'est vrai ? Merci !
+5285|C'est... vraiment gentil de ta part.
+5286|Un client qui cherche {owner} ? ...Je vais m'en occuper personnellement.
+5287|Hm. Le client de {owner}. Mon client, maintenant.
+5288|L'occasion frappe à la porte. Littéralement.
+5289|Mon client dit qu'il traite avec {target} ?!
+5290|{target} m'a piqué mon client ?!
+5291|Tiens — un aperçu s'est affiché : « {owner} : je ne supporte pas {worst} aujourd'hui »...
+5292|Pourquoi je reçois les notifications de {owner} ? « ...{worst} est TELLEMENT {worst?agaçant|agaçante}. »
+5293|...{owner} ne me supporte pas ?
+5294|Oh. Alors c'est ce que {owner} dit de moi.
+5295|Mon téléphone. Où est mon téléphone ? Il était JUSTE LÀ.
+5296|Quelqu'un a vu mon téléphone ?!
+5297|...Il est dans le FRIGO. À côté du lait. Il est GELÉ.
+5298|Mon téléphone est dans le frigo. Pourquoi mon téléphone est dans le frigo ?!
+5299|« Rappel : acheter des fleurs pour {crush} » ? C'est moi qui ai mis ça ?
+5300|Mon téléphone dit que je devrais acheter des fleurs à {crush}. ...Je devrais ?
+5301|« Salle de sport — 16h30 — PAS D'EXCUSE ». OK, téléphone. OK.
+5302|Rappel salle de sport. Je crois que je pars plus tôt !
+5303|« AUJOURD'HUI : demander une augmentation à Ahmet. » ...Tu sais quoi ? Oui.
+5304|Le téléphone dit : demande une augmentation. Le téléphone a raison.
+5305|C'est pour toi. Ne demande pas pourquoi. Je ne sais pas moi-même.
+5306|Je t'ai acheté des fleurs. Mon téléphone me l'a dit. Ça sonne bizarre.
+5307|Pour moi ? ...C'est vraiment adorable.
+5308|Des fleurs ! Personne ne m'avait jamais— merci.
+5309|...Merci ? C'est une blague ?
+5310|Oh. Euh. Des fleurs. D'accord.
+5311|Ahmet Bey, j'aimerais une augmentation. Aujourd'hui.
+5312|J'ai décidé que je mérite une augmentation. On peut en parler ?
+5313|Le client a rappelé — une HEURE en retard — et le contrat nous est passé sous le nez.
+5314|Ils ont signé avec un concurrent. Parce que j'ai raté UN appel ?!
+5315|Vous avez PERDU le client, {owner} ?!
+5316|Un appel. Vous avez raté UN appel et on a perdu le compte ?
+5317|Un message vocal de {owner} ? Pour... moi ? Écoutons ça.
+5318|« Nouveau message vocal de {owner}. » Hm.
+5319|...{owner} dit que je lui PLAIS ?!
+5320|Attends. C'était... une déclaration d'amour ? De la part de {owner} ?
+5321|...Je n'étais pas censé{me?|e} entendre ça.
+5322|Oh non. C'était privé.
+5323|Allô, je vous rappelle— {target} ?! C'est TOI qui m'as appelé{me?|e} ?
+5324|Allô ? Oh. C'est... toi.
+5325|Bon, puisqu'on est au téléphone... comment tu vas, vraiment ?
+5326|Ha. OK, puisque je te tiens — on déjeune ensemble un de ces jours ?
+5327|Je ne t'ai pas appelé{to?|e}. Pourquoi je t'appellerais ?
+5328|C'est une blague, c'est ça ?
+5329|*sur haut-parleur* « ...Oui, maman, je mange des légumes. »
+5330|*sur haut-parleur* « ...et là, je leur ai dit que je n'avais jamais vu ce dossier. Ha ! »
+5331|...Pourquoi tout le monde me regarde ? Oh non. HAUT-PARLEUR.
+5332|C'est sur HAUT-PARLEUR ?!
+5333|Je vous ai appelé{to?|e} QUATRE FOIS, {target} !
+5334|Pourquoi ne répondez-vous pas au téléphone, {target} ?!
+5335|Quoi ? Il n'a jamais sonné ! Regardez — « Ne pas déranger » ? Je ne l'ai pas activé !
+5336|Mon téléphone n'a pas sonné une seule fois !
+5337|Alors réparez votre téléphone. Je ne cours après personne.
+5338|Inacceptable. Soyez joignable.
+5339|...Hm. La technologie. Bon.
+5340|Demandez à Burak d'y jeter un œil.
+5341|Allô ? ...Allô ? Qui est à l'appareil ? ...Quelqu'un RESPIRE ?
+5342|*respiration lourde au bout du fil* ...Mais qu'est-ce que c'est que ça ?
+5343|Cet appel venait du poste de {owner}.
+5344|Poste... {owner}. Intéressant.
+5345|Allô ? ...Non, ici ce n'est pas la compta. Pourquoi tout le monde croit que je suis la compta ?
+5346|ENCORE le mauvais bureau. Ceren, les téléphones sont possédés !
+5347|Le standard est devenu fou ! Je n'y ai pas touché !
+5348|Chaque appel arrive au mauvais bureau. Chaque. Appel.
+5349|...Attends, cet appel était pour {intended}. Et c'était TRÈS intéressant.
+5350|Je viens de prendre un appel destiné à {intended}. Oh, ce que j'ai entendu...
+5351|Le client dit que notre musique d'attente, c'est « du heavy metal qui hurle » ?!
+5352|Un client a raccroché à cause de la musique d'attente. Une ballade de rupture ?!
+5353|Ceren ! Notre musique d'attente fait fuir les clients !
+5354|QUI a changé la musique d'attente ?
+5355|Je n'ai rien changé ! Je le jure !
+5356|Ce n'est pas ce que j'ai réglé ! Quelqu'un est entré dans mon système.
+5357|...Pourquoi la veste de {coat} SONNE avec MA sonnerie ?
+5358|C'est mon téléphone ! Dans la poche du manteau de {coat} !
+5359|Pourquoi mon téléphone est dans TON manteau, {target} ?!
+5360|Explique-moi comment mon téléphone a atterri dans ta poche, {target}.
+5361|Aucune idée ! Je n'ai pas touché mon manteau de la journée !
+5362|Quoi ?! Je n'ai pas pris ton téléphone !
+5363|« Il faut qu'on parle. » De la part de {owner}. ...Oh non.
+5364|« Il faut qu'on parle » ?! Qu'est-ce que j'ai fait ?
+5365|Tu voulais parler ? Je suis là. Dis-le.
+5366|OK. Je suis prêt{me?|e}. Qu'est-ce qui ne va pas ?
+5367|Parler ? De quoi ? Je n'ai jamais envoyé ça !
+5368|Quoi ? Je ne t'ai envoyé aucun message !
+5369|...OK, j'ai peut-être VRAIMENT quelque chose à dire. Tu me plais. Beaucoup.
+5370|Puisque tu es là... ça fait un moment que je veux te dire quelque chose.
+5371|Oh, Dieu merci. J'ai cru que tu me quittais !
+5372|Ouf ! Ça fait une heure que je panique !
+5373|*BIP BIP BIP* « RÉVEILLE-TOI ! RÉVEILLE-TOI ! »
+5374|*alarme du téléphone : « C'EST L'HEURE DE TA SIESTE ! »*
+5375|C'est une ALARME de téléphone dans ma réunion ?!
+5376|C'est le téléphone de qui qui hurle « réveille-toi » ?!
+5377|Ce n'est pas— je ne l'ai pas réglée !
+5378|Pardon ! Pardon ! Je ne sais pas comment l'arrêter !
+5379|Déchargé ?! Il était à 90 % il y a une heure !
+5380|Mon téléphone est MORT. Il me faut un chargeur. Tout de suite.
+5381|Le chargeur de Burak ! Ça ne le dérangera pas. Probablement.
+5382|J'emprunte juste le chargeur de Burak une minute.
+5383|C'est {owner} à la soirée karaoké ?! Ha !
+5384|Cette PHOTO de {owner} ! Les cheveux ! La tenue !
+5385|Qui a posté {owner} {owner?endormi|endormie} à son bureau ?!
+5386|Qui a posté ça ?! SUPPRIMEZ-LA !
+5387|Cette photo était censée avoir disparu pour toujours !
+5388|Je parie que c'est {suspect} qui l'a postée.
+5389|{suspect}. Ça ne peut être que {suspect}.
+5390|Mmm. Du café. ...Cette tasse est nouvelle.
+5391|Jolie tasse. C'est la mienne ? Maintenant, oui.
+5392|Excuse-moi — c'est MA tasse.
+5393|Tu bois dans ma tasse ?!
+5394|Cette tasse. Est. À moi.
+5395|Cette tasse est à moi. Il y a mes initiales dessus.
+5396|Oh ! Pardon ! Elles ont été échangées sur l'étagère !
+5397|Ah bon ? Elles se ressemblent toutes !
+5398|...Alors on a partagé une tasse. C'est... un premier pas.
+5399|Baiser indirect ! ...Pardon. C'était bizarre.
+5400|...Pourquoi je suis encore fatigué{me?|e} ? C'était mon troisième café.
+5401|Ce café ne fait rien. Il est cassé ? C'est moi qui suis cassé{me?|e} ?
+5402|*baîîîlle*
+5403|Zeynep, tu nous as fait passer au café bas de gamme pour économiser ?!
+5404|C'est du DÉCA ! Quelqu'un a sabré le budget café !
+5405|Je n'ai PAS touché au budget café !
+5406|Ne me regarde pas. Je ne toucherais jamais au café.
+5407|...Mon déjeuner. Sur l'étagère du HAUT. Derrière la moutarde. J'ai accusé les gens POUR RIEN.
+5408|Oh. Le voilà. Il se cachait. Oups.
+5409|« Préchauffage » ? Pendant combien de temps ?!
+5410|C'est écrit « veuillez patienter ». Je patiente, là.
+5411|Allez, allez, chauffe !
+5412|Bon... puisqu'on est coincés là tous les deux...
+5413|Copains de file d'attente café. Ta journée se passe bien ?
+5414|T'as entendu ce qui s'est passé hier ?
+5415|La fontaine à eau est vide. Par CETTE chaleur ?
+5416|Pas d'eau ? Même pas d'eau ?
+5417|*glou*... rien.
+5418|Je vais la réparer ! J'ai vu une vidéo une fois !
+5419|Laissez-moi faire !
+5420|Oh non. Oh non non non. DE L'EAU PARTOUT !
+5421|Ça fuit ! Ça FUIT !
+5422|Où sont passés les snacks ? La boîte à snacks a DISPARU.
+5423|Pas de snacks ? C'est la crise.
+5424|Urgence snacks. Urgence. Snacks.
+5425|Le tiroir de {target} est PLEIN de nos snacks !
+5426|Alors c'est LÀ que sont passés les snacks, {target}.
+5427|...OK, ils ne sont pas à moi, mais — servez-vous ! Prenez tout !
+5428|Des snacks pour tout le monde ! Je suis aussi surpris{me?|e} que vous !
+5429|Ils sont dans MON tiroir, donc... ce sont mes snacks maintenant.
+5430|Qui trouve garde.
+5431|...C'est un gâteau d'anniversaire ? Avec MON nom dessus ?
+5432|Attends. Il y a mon nom sur ce gâteau. C'était... une surprise ?
+5433|NON ! C'était censé être une SURPRISE !
+5434|Qui a sorti le gâteau ?! Il était caché !
+5435|« CUISINE RÉSERVÉE — Ahmet — déjeuner privé » ?!
+5436|On ne peut pas manger dans la cuisine ? Depuis quand ?
+5437|Pourquoi y a-t-il un panneau avec mon nom sur la cuisine ?
+5438|Un déjeuner privé ? Je mange un sandwich à mon bureau !
+5439|Le micro-ondes est mort ! Mon déjeuner est CONGELÉ !
+5440|Pas le micro-ondes. Tout sauf le micro-ondes.
+5441|Des pâtes froides. Encore.
+5442|Il y a un autre micro-ondes quelque part ?
+5443|Je meurs de faim et ma soupe est un glaçon.
+5444|QUI A RÉCHAUFFÉ DU POISSON AU MICRO-ONDES ?!
+5445|C'est quoi cette ODEUR ?!
+5446|Du poisson. Au micro-ondes. Dans un BUREAU.
+5447|Qui est responsable de cette PUANTEUR ?
+5448|D'après l'étiquette, c'est à {target}.
+5449|C'est le déjeuner de {target}. L'étiquette est juste là.
+5450|Ce n'est pas mon déjeuner ! J'ai apporté un sandwich !
+5451|Je n'AIME même pas le poisson !
+5452|*PFFT* DU SEL ! Il y a du SEL dans le sucre !
+5453|BEURK ! Qui a mis du sel dans le sucrier ?!
+5454|« ARRÊTE DE VOLER MES YAOURTS. JE SAIS QUI TU ES. — {target} » ...Waouh.
+5455|Un mot passif-agressif de {target} sur le frigo. Classe.
+5456|Je n'ai pas écrit ce mot ! Je ne mange même pas de yaourt !
+5457|Ce n'est pas mon écriture !
+5458|Le frigo est VIDE. Où sont les déjeuners de tout le monde ?!
+5459|Quelqu'un a vidé le frigo. Mon déjeuner était dedans !
+5460|Vous savez quoi ? Allons tous déjeuner dehors.
+5461|Déjeuner dehors, tous ensemble ? C'est moi qui invite... à peu près.
+5462|J'entends les couleurs.
+5463|WAOUH. Ça... ça, c'est du café. WAOUH.
+5464|Mon cœur fait un solo de batterie.
+5465|Je pourrais conclure dix contrats, là. DIX.

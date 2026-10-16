@@ -1,0 +1,115 @@
+1788|Ahmet encontró «Ahmet se equivoca en todo» en el margen del informe de {actor}. Curiosamente, respetó la sinceridad.
+1789|{friend} le dijo a {breaker} que confesara lo de la taza de Ahmet.
+1790|Ahmet notó que le habían cambiado la taza. {friend} se quebró primero.
+1791|{owner} le preguntó a {suspect} por el contrato perdido. {suspect} recordó que lo había archivado por error.
+1792|{culprit} le confesó a {owner}: el contrato estaba mal archivado. Crisis superada.
+1793|{breaker} rompió en la cocina la querida taza de «El mejor jefe del mundo» de Ahmet.
+1794|Ahmet bebe feliz de la taza de «El mejor jefe del mudo». El encubrimiento funcionó.
+1795|{breaker} confesó que rompió la taza de Ahmet. Ahmet {breaker?lo|la} perdonó… y hasta pareció respetarlo.
+1796|{owner} recuperó el contrato del archivo. Fin del pánico.
+1797|{owner} le preguntó a {suspect} por el contrato. {suspect} lo negó. (Lo archivó por error.)
+1798|{friend} aceptó ayudar a {breaker} a reemplazar la taza rota de Ahmet antes de que se dé cuenta.
+1799|{culprit} devolvió en secreto el contrato al escritorio de {owner}. {owner} sigue culpando a {suspect}.
+1800|{culprit} devolvió en secreto el contrato al escritorio de {owner}. Nadie lo sabrá jamás.
+1801|El contrato firmado con el cliente desapareció del escritorio de {owner}. Pánico.
+1802|{culprit} acaba de darse cuenta de que el contrato perdido es la carpeta que archivó esta mañana.
+1803|{owner} buscó el contrato perdido por todo el archivo. Nada. Ahora sospecha de {suspect}.
+1804|{friend} puso una taza de reemplazo en el escritorio de Ahmet. Dice «El mejor jefe del mudo».
+1805|{breaker} confesó que rompió la taza de Ahmet. Ahmet se lo tomó muy, muy a pecho.
+1806|{owner} acusó a {suspect} de llevarse el contrato. {suspect} no tuvo nada que ver… y está {suspect?ofendido|ofendida}.
+1807|{actor} faltó a la reunión. Ahmet se dio cuenta.
+1808|Terminó la reunión de equipo.
+1809|{hijacker} le secuestró la presentación a {actor}… y Ahmet lo permitió.
+1810|{hijacker} intentó secuestrarle la presentación a {actor}. Ahmet lo cortó en seco.
+1811|{sleeper} se quedó {sleeper?dormido|dormida} en la reunión. Con ronquidos incluidos.
+1812|Empezó la reunión de equipo.
+1813|{actor} esperó una reunión que nunca empezó.
+1814|El borrador inacabado de un memo de Ahmet —«reestructuración, posibles recortes»— le llegó a toda la oficina.
+1815|El teclado de {actor} maúlla con cada tecla. Toda la fila lo oye.
+1816|El teclado de {actor} ahora maúlla. Ha decidido que le encanta.
+1817|El microondas murió a la hora del almuerzo. {actor} mira fijamente un almuerzo congelado.
+1818|Ahmet se plantó detrás del escritorio de {target}, vigilando cada tecla.
+1819|Ahmet rondó el escritorio de {target} hasta que {target} le saltó.
+1820|El acta de la reunión dice que {target} se ofreció para organizar el retiro del equipo. {target} decidió asumirlo.
+1821|El acta de la reunión dice que {target} se ofreció para organizar un retiro. {target} no se ofreció, para nada.
+1822|{actor} perdió un archivo de su carpeta. Ahora está en la carpeta privada de Ahmet.
+1823|Ahmet encontró el archivo de {owner} en su carpeta privada y quiere saber cómo llegó ahí.
+1824|{actor} puso el archivo patas arriba buscando un informe… y lo encontró mal archivado. Culpa a {suspect}.
+1825|El informe de {actor} se perdió de verdad. Tendrá que empezar de cero.
+1826|{actor} revolvió todo el archivo buscando un informe que estaba en su propio cajón.
+1827|{actor} oyó a medias a {target} por teléfono y ahora está convencid{actor?o|a} de que van a despedir a {victim}. ({target} hablaba de una impresora.)
+1828|{owner} no encuentra su informe por ningún lado. (Ya está en el escritorio de Ahmet, con el nombre de {thief}.)
+1829|El informe de {owner} apareció en el escritorio de {actor}. {actor} leyó cada página antes de devolverlo.
+1830|El informe de {owner} apareció en el escritorio de {actor}. {actor} lo devolvió enseguida.
+1831|El informe de {owner} apareció en el escritorio de {actor}. {actor} se lo entregó a Ahmet. Como si fuera suyo.
+1832|Ahmet emparejó a {mentor} y {mentee} como mentor y aprendiz. Intercambiaron una mirada de puro pavor.
+1833|Ahmet revisó cómo iba la mentoría. {mentee} contó los pésimos consejos de {mentor}. Ahmet no está contento.
+1834|Ahmet revisó cómo iba la mentoría. {mentor} y {mentee} se han convertido, asombrosamente, en un buen equipo.
+1835|{mentor} le dio a {mentee} un consejo malísimo. A propósito.
+1836|La primera sesión de mentoría de {mentor} con {mentee} fue… útil de verdad.
+1837|{protege} le dio las gracias a {mentor} con un café. Esos dos se cubren las espaldas ahora.
+1838|{protege} entró en el despacho de Ahmet y confesó: el error fue suyo, {mentor} {protege?lo|la} estaba protegiendo.
+1839|{mentor} le dijo a Ahmet que el error del informe era culpa suya, para proteger a {protege}.
+1840|{rival} le dijo a Ahmet que {mentor} estaba encubriendo a {protege}. Ahmet no está contento.
+1841|{rival} intentó usar el encubrimiento de {mentor} en su contra. A Ahmet no le interesó.
+1842|{protege} se dio cuenta de que puso cifras equivocadas en el informe de {mentor}… y Ahmet ya lo tiene.
+1843|{actor} bebió de la taza de {target} por error. De algún modo, acabó en coqueteo.
+1844|{target} pilló a {actor} bebiendo de su taza. Las tazas estaban cambiadas. Hubo palabras.
+1845|{actor} bebió de la taza de {target} por error. Se lo tomaron a risa.
+1846|El altavoz de la oficina empezó a sonar con {what}. Algunos bailan. Otros sufren.
+1847|Ahmet llegó a zancadas y apagó la música de la oficina.
+1848|{actor} notó que {target} lo estaba pasando mal y {target?lo|la} invitó a un té. Después, {target} se veía más aliviad{target?o|a}.
+1849|{actor} le hizo a {target} un cumplido sincero. {target} sigue sonriendo.
+1850|{actor} cubrió a {late} cuando Ahmet preguntó dónde estaba. {late} le debe una a {actor}.
+1851|{actor} se quedó {actor?dormido|dormida} en su escritorio… y Ahmet {actor?lo|la} encontró así.
+1852|{actor} se quedó {actor?dormido|dormida} en su escritorio. {prankster} le pegó una nota en la frente: «fuera de la oficina».
+1853|{actor} merodeó frente al despacho de Ahmet fingiendo leer un cartel… y oyó algo.
+1854|{actor} se inventó una excusa para pasar por el escritorio de {target}. {target} sonrió. Hay progreso.
+1855|{actor} se inventó una excusa para pasar por el escritorio de {target}. {target} no notó nada.
+1856|{actor} le dijo a {target} que van a despedir a {victim}. No hay nada de verdad en eso.
+1857|{actor} calentó pescado en el microondas. Ahora lo sabe toda la oficina.
+1858|Alguien dejó una flor en el escritorio de {actor}. {actor} no tiene ni idea de que fue {giver}.
+1859|Se formó un corrillo de chismes en la cocina alrededor de {actor}. Lo que haya dicho {actor}, ya lo saben tres personas.
+1860|{actor} agendó en secreto una entrevista de trabajo… y le dijo a Ahmet que es «el dentista».
+1861|{actor}, {target} y {friend} almorzaron juntos en la mesa de la cocina. Se está formando un grupito.
+1862|{actor} y {target} almorzaron juntos en la mesa de la cocina.
+1863|{actor} acusó a {target} de dejar tazas en el fregadero. {target} lo negó… a gritos.
+1864|{actor} le reclamó a {target} por las tazas del fregadero. {target} las lavó. Paz en la cocina.
+1865|{actor} y {target} compitieron a gritos por quién trabaja más. No ganó nadie. Lo oyeron todos.
+1866|{actor} le enseñó a {target} unas trescientas fotos de su mascota. A {target} le encantaron todas.
+1867|Pillaron a {actor} teniendo una conversación sentida con la planta de la oficina.
+1868|{actor} le pidió un ascenso a Ahmet sin rodeos. Ahmet no dijo que no.
+1869|{actor} le pidió un ascenso a Ahmet sin rodeos. «Todavía no».
+1870|{actor} compartió su almuerzo con {target}. Son los pequeños detalles.
+1871|{target} le saltó a {actor} por interrumpir. Otra vez.
+1872|{actor} le contó a Ahmet el error de {rival}. La rivalidad tiene un arma nueva.
+1873|{rival} oyó a {actor} contarle a Ahmet su error. Eso no se olvidará.
+1874|{actor} husmeó entre los papeles del escritorio vacío de {target}… y encontró algo.
+1875|{actor} le enseñó a {target} un atajo de hoja de cálculo. {target} miró a {actor} como si fuera un mago.
+1876|{actor} y {target} tuvieron un conflicto fronterizo por una grapadora.
+1877|{actor} se ofreció para trabajo extra delante de Ahmet. Algunos compañeros pusieron los ojos en blanco.
+1878|{actor} le contó a {target} una historia larguísima de su fin de semana. {target} sobrevivió.
+1879|La historia del fin de semana de {actor} hizo llorar de risa a {target} junto a la cafetera.
+1880|Ya se sabe: Ece es la sobrina del jefe.
+1881|Se cayó toda la red de la oficina. Nadie puede trabajar, así que todos charlan.
+1882|{actor} y {target} se están haciendo amigos de verdad.
+1883|Ahmet anunció una nueva norma de oficina. Nadie la pidió.
+1884|El boletín de Ceren anunció que {target} y {crush2} fueron «vistos en una cena a la luz de las velas». No es cierto.
+1885|No había pastel. {actor} está {actor?destrozado|destrozada}.
+1886|{actor} culpa a {suspect} de la falsa alerta de pastel.
+1887|{actor} fue a imprimir y descubrió que la impresora —y el estante de suministros— se habían quedado sin papel.
+1888|{target} admitió con sinceridad que no arregló la cafetera.
+1889|{actor} dejó a escondidas una nota anónima en el escritorio de {target}.
+1890|{actor} encontró una nota anónima en su escritorio y cree que fue {guess}. (Fue {writer}).
+1891|{actor} encontró una nota anónima y adivinó bien: fue {writer}.
+1892|{actor} encontró el cuaderno privado de {target} en el sofá… y lo devolvió sin leerlo.
+1893|{actor} encontró el cuaderno privado de {target} en el sofá. Y lo leyó.
+1894|Las notas privadas de Ahmet sobre cada empleado aparecieron en el tablón de corcho. Todos leyeron lo que piensa de ellos.
+1895|{actor} tiene un admirador secreto. Supuestamente.
+1896|{actor} recibió un mensaje de «ven a mi despacho».
+1897|{actor} cree que la reunión de hoy se canceló.
+1898|{actor} corre a la cocina por pastel gratis.
+1899|La vista previa de un mensaje de {owner} —quejándose de {worst}— apareció en el teléfono de {target}.
+1900|Ece dio la cara ante la oficina por ser la sobrina de Ahmet. La mayoría decidió que se ha ganado su puesto.
+1901|{witness} presionó a Ceren sobre Ece y Ahmet. El «sin comentarios» de Ceren lo dijo todo.
+1902|{witness} le preguntó a Ece por el desliz de «tío». Ece soltó una mentira terrible: que había dicho «frío».

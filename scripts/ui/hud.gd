@@ -252,7 +252,7 @@ func _draw_top() -> void:
 	top.draw_rect(Rect2(cr.position, Vector2(cr.size.x, 30)), UiKit.RED)
 	for k in 4:
 		top.draw_circle(Vector2(-33 + k * 22, -48), 3.5, Color("8d99ae"))
-	top.draw_string(UiKit.font("slab"), Vector2(-46, -25), "DAY", HORIZONTAL_ALIGNMENT_CENTER, 92, 18, Color.WHITE)
+	top.draw_string(UiKit.font("slab"), Vector2(-46, -25), Loc.t("ui.day_label"), HORIZONTAL_ALIGNMENT_CENTER, 92, 18, Color.WHITE)
 	top.draw_string(UiKit.font("slab"), Vector2(-46, 36), str(w.day), HORIZONTAL_ALIGNMENT_CENTER, 92, 46 if w.day < 100 else 34, UiKit.INK)
 	top.draw_rect(cr, UiKit.INK_SOFT, false, 1.2)
 	# --- clock card
@@ -266,7 +266,7 @@ func _draw_top() -> void:
 	if Game.speed == 0.0:
 		status = Loc.t("ui.paused")
 	elif Game.speed > 1.5:
-		status = "FAST x2"
+		status = Loc.t("ui.fast")
 	top.draw_string(UiKit.font("hand"), Vector2(-100, -29), status, HORIZONTAL_ALIGNMENT_LEFT, -1, 16, UiKit.RED)
 	# day progress line with a little sun
 	var frac := clampf(w.minute / C.DAY_LEN, 0.0, 1.0)

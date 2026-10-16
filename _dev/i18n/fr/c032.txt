@@ -1,0 +1,178 @@
+6244|Boîte de dons dans la cuisine ! Pour le refuge animalier. Chaque lire compte !
+6245|Aidez le refuge ! La boîte est dans la cuisine. Soyez généreux !
+6246|*glisse un billet dans la boîte*
+6247|Pour les chiots.
+6248|Tiens. Ne dis à personne combien.
+6249|...Bizarre. Je suis sûr{me?|e} qu'il y avait plus que ça.
+6250|Trois cents et— attends. Où est passé le gros billet ?
+6251|On a récolté plus que l'an dernier ! Merci à tous !
+6252|Un record ! Au refuge, ils vont pleurer.
+6253|Tu as pris de l'argent dans la boîte de dons, {suspect} ?
+6254|Il manque de l'argent dans la boîte. Tu as quelque chose à me dire ?
+6255|QUOI ? Non ! J'ai MIS de l'argent dedans !
+6256|Tu es sérieux{to?|se} ? Dans la boîte d'un REFUGE ?
+6257|J'ai... emprunté un peu de monnaie pour le distributeur. J'allais la remettre !
+6258|OK, OK — j'ai pris des pièces pour la machine à café. Je paierai le double.
+6259|...Oh. C'était coincé sous le rabat. Laisse tomber. Pardon.
+6260|Attends — le billet était tombé dans la doublure. Quel{me?|le} idiot{me?|e} je fais.
+6261|Mauvaise nouvelle. Le siège a coupé notre budget. À partir d'aujourd'hui : plus de café gratuit.
+6262|L'équipe. Coupes budgétaires. La machine à café est désormais... payante à la tasse.
+6263|QUOI ?!
+6264|Plus de café ?! Comment on est censés TRAVAILLER ?
+6265|C'est une violation des droits de l'homme.
+6266|D'abord le café. Ensuite, ce sera les chaises.
+6267|Si le café s'en va, je m'en vais.
+6268|Il faut FAIRE quelque chose.
+6269|Ahmet Bey, une proposition : on organise une vente de gâteaux et on finance le café nous-mêmes.
+6270|Et si on payait les grains et que vous gardiez la machine en marche ?
+6271|...Une vente de gâteaux. Bon. Apportez-moi un börek et on en reparle.
+6272|Hm. Créatif. Approuvé.
+6273|Pas de vente de gâteaux. Ici, c'est une entreprise, pas une kermesse d'école.
+6274|Le budget, c'est le budget.
+6275|Baklava maison ! Cinq lires la part. Ne le dites pas à Ahmet.
+6276|*ouvre un tiroir plein de baklava* La boutique est ouverte.
+6277|Deux parts. Non — trois.
+6278|Tais-toi et prends mon argent.
+6279|C'est à la pistache ? Donne-moi le plateau.
+6280|Je prends les commandes pour vendredi. Plateaux entiers uniquement.
+6281|J'ai embauché {runner} comme {runner?livreur|livreuse}.
+6282|{seller}. Pourquoi votre bureau sent-il la pâtisserie ?
+6283|C'est... une LISTE DE PRIX ? Sur du papier de l'entreprise ?
+6284|...C'est combien, un plateau entier ? Je demande pour un client.
+6285|Bon. Deux plateaux pour le conseil d'administration. Sur la carte de l'entreprise.
+6286|Fermez ça. Aujourd'hui. Vous êtes payé{to?|e} pour travailler, pas pour pâtisser.
+6287|C'est un lieu de travail. Fermez boutique.
+6288|*CRAC* ...Non. Non non non. Pas LA tasse.
+6289|*ramasse les morceaux de « Meilleur patron du monde »* Je suis mort{me?|e}. Complètement mort{me?|e}.
+6290|J'ai cassé la tasse d'Ahmet. LA tasse. Aide-moi.
+6291|Code rouge. La tasse du patron. En morceaux. Je fais quoi ?
+6292|OK. Respire. Il y en a une identique dans la réserve. Probablement.
+6293|Laisse-moi faire. Je connais quelqu'un qui connaît une tasse.
+6294|Dis-le-lui, c'est tout. Il respecte l'honnêteté. Probablement.
+6295|Dis-le-lui maintenant, avant qu'il ne s'en rende compte.
+6296|*pose une tasse de remplacement légèrement différente sur le bureau d'Ahmet* ...Parfait.
+6297|*échange la tasse* C'est écrit « Meilleur poltron du monde ». Il ne verra rien.
+6298|...« Meilleur POLTRON du monde » ? Qui a échangé ma tasse ?!
+6299|Ce n'est pas ma tasse. La mienne avait un éclat sur l'anse.
+6300|*boit son café avec bonheur dans la mauvaise tasse*
+6301|Ahh. Rien ne vaut ma tasse préférée.
+6302|Ahmet Bey... j'ai cassé votre tasse. Je suis vraiment désolé{me?|e}.
+6303|Je dois vous avouer quelque chose. C'est au sujet de votre tasse.
+6304|...Cette tasse était un cadeau de ma fille. Mais merci de me l'avoir dit.
+6305|Les accidents arrivent. Merci pour votre honnêteté.
+6306|MA TASSE ?! Vous savez depuis combien de temps j'avais cette tasse ?!
+6307|Douze ans. Douze ans que cette tasse survivait. Jusqu'à vous.
+6308|Toi. Moi. Chaises de bureau. Couloir. Le perdant paie le café pendant une semaine.
+6309|Je parie que ma chaise est plus rapide que la tienne.
+6310|Oh, tu vas MORDRE la poussière.
+6311|Donne l'heure.
+6312|Trois... deux... UN !
+6313|ALLEZ ALLEZ ALLEZ !
+6314|*roule à une vitesse terrifiante*
+6315|ALLEZ, {racer} !
+6316|Plus vite ! PLUS VITE !
+6317|Je parie sur {rival} !
+6318|*CRAC* ...Ça va ! La plante, beaucoup moins.
+6319|*part en vrille dans la fontaine à eau*
+6320|Pourquoi y a-t-il des TRACES DE PNEUS dans mon couloir ?
+6321|Quelqu'un a fait des COURSES DE CHAISES dans mon bureau ?
+6322|...Revanche. Demain. Je cours aussi. J'étais champion régional de karting en 98.
+6323|Hm. Où est la chaise de rechange ? Je veux essayer.
+6324|Les courses de chaises sont officiellement interdites. Une note de service suivra.
+6325|Plus jamais. Tous les deux. JAMAIS.
+6326|Loto collectif ! Dix lires chacun. Si on gagne, personne ne vient lundi.
+6327|Loto du bureau ! Tu en es ou pas ? Ne sois pas la personne laissée de côté quand on gagnera.
+6328|J'en suis. Évidemment.
+6329|Prends mon argent. Prends mes espoirs.
+6330|T'as entendu ? On a GAGNÉ. Au loto. J'ai entendu {organiser} au téléphone !
+6331|On est RICHES ! {organiser} hurlait dans son téléphone !
+6332|C'est décidé. Je vais dire à Ahmet ce que je pense VRAIMENT de ses notes de service.
+6333|Je m'achète un bateau. Un grand. Adieu, les tableurs.
+6334|Bon, tout le monde. On a gagné. Quarante lires. Au total. Quatre lires chacun.
+6335|Bonne nouvelle : on a gagné ! Mauvaise nouvelle : ça fait un simit chacun.
+6336|...Quatre lires. J'ai dit à Ahmet que sa cravate était moche. POUR QUATRE LIRES.
+6337|J'ai déjà résilié ma salle de sport. Et insulté le patron. Pour un simit.
+6338|{a}, {b} : le rapport trimestriel est pour vous. Ensemble. Pour demain.
+6339|Nouveau projet. {a} et {b}. Faites que ça marche.
+6340|...Ensemble ?
+6341|Avec CETTE personne ?
+6342|Je peux le faire tout{me?|e} seul{me?|e} ? Deux fois ?
+6343|...Ton graphique est vraiment bien, en fait.
+6344|OK. Toi les chiffres, moi le texte. Marché conclu ?
+6345|On ne met pas un tableau en forme comme ça !
+6346|Arrête de modifier MES paragraphes !
+6347|Voici le rapport. J'en ai fait la plus grande partie.
+6348|Notre rapport. Surtout le mien.
+6349|La PLUS GRANDE PARTIE ?! J'ai écrit chaque chiffre là-dedans !
+6350|Pardon ?! Les pages trois à neuf sont À MOI.
+6351|C'est excellent. Tous les deux. Vous voyez ? Le travail d'équipe.
+6352|Beau travail. Tous les deux. Je le savais.
+6353|Écoutez-moi ! DEMAIN, inspection du siège. Je veux ce bureau IMPECCABLE.
+6354|Demain, un inspecteur du siège vient. Nettoyez. Tout.
+6355|Impeccable ? Vous avez VU le bureau de {slob} ?
+6356|Il va falloir un bulldozer pour le coin de {slob}.
+6357|*frotte le clavier avec une brosse à dents*
+6358|C'est... un sandwich de MARS ?
+6359|*fourre tout dans un tiroir*
+6360|Et qu'y a-t-il dans CE tiroir, {slob} ?
+6361|Ouvrez le tiroir, {slob}. L'inspecteur regarde.
+6362|...Des dossiers bien étiquetés. Tiens. Bravo.
+6363|Impressionnant. Je retire ce que j'ai dit sur votre bureau.
+6364|*une avalanche de paquets de chips et de vieilles notes se déverse*
+6365|*quatre mois de reçus glissent sur les chaussures de l'inspecteur*
+6366|Le rapport de l'inspecteur est arrivé : « Bureau exemplaire. » Bravo à tous !
+6367|On a RÉUSSI. Pizza pour tout le monde, c'est moi qui offre. Enfin, l'entreprise.
+6368|Le rapport de l'inspecteur dit « Peut mieux faire ». Un seul tiroir nous a tout coûté.
+6369|On a raté l'inspection. Je ne citerai pas de noms. {slob}.
+6370|On déjeune ? Table de la cuisine, cinq minutes.
+6371|Qui a faim ? Table de la cuisine. Maintenant.
+6372|Et là, le serveur me dit—
+6373|Quelqu'un a regardé le match ?
+6374|Tu me passes l'ayran, s'il te plaît ?
+6375|Alors ce week-end, je me suis inscrit{me?|e} à un marathon par accident.
+6376|Pour faire court : je suis interdit{me?|e} dans cet IKEA.
+6377|Mon chat a appris à ouvrir le frigo. On a un problème.
+6378|HAHA ! C'est pas vrai !
+6379|Arrête. Tu n'as PAS fait ça.
+6380|C'est la meilleure chose que j'ai entendue de la semaine.
+6381|...Fascinant.
+6382|Mm-hm. Mm-hm. Bref—
+6383|*hoche poliment la tête, regarde son téléphone*
+6384|Regarde ! Regarde cette tête ! *montre un téléphone rempli de photos de chat*
+6385|OK, encore une photo. Juste une. *en montre quarante*
+6386|Ooooh ! Il m'en faut un !
+6387|C'est la chose la plus mignonne que j'aie jamais vue.
+6388|Trois contrats signés avant le déjeuner. Je dis ça, je dis rien.
+6389|Ahmet a qualifié mon rapport d'« irréprochable ». Ce sont ses mots.
+6390|Trois ? Mignon. J'en ai fait quatre. Hier.
+6391|Drôle, il a qualifié le mien d'« exemplaire ». C'est mieux qu'irréprochable.
+6392|Ahmet Bey, ça me coûte de le dire, mais le rapport de {rival} est parti avec des erreurs.
+6393|Petit détail — {rival} a encore raté la date limite. Je me suis dit que vous devriez le savoir.
+6394|Hm. Merci. Je vais regarder ça.
+6395|Vraiment ? Intéressant.
+6396|Tu viens de parler de mon rapport à Ahmet ?!
+6397|J'ai entendu. Merci beaucoup, {actor}.
+6398|C'est TON agrafeuse, de MON côté du bureau ?
+6399|Ta plante envahit mon clavier.
+6400|Ton côté ? Depuis quand il y a des côtés ?
+6401|La plante va là où il y a de la lumière.
+6402|Ahmet Bey, je pense être prêt{me?|e} pour le poste de chef d'équipe.
+6403|J'aimerais être pris{me?|e} en compte pour la promotion. Sérieusement.
+6404|...Continuez comme ça. On verra à la prochaine évaluation.
+6405|J'ai remarqué votre travail. Laissez-moi quelques semaines.
+6406|Pas encore. Vous n'y êtes pas encore.
+6407|Prêt{to?|e} ? Reparlons-en l'année prochaine.
+6408|Je peux prendre le dossier Henderson. J'ai le temps.
+6409|Il faut quelqu'un pour le rapport du week-end ? Je m'en charge.
+6410|Vous voyez ? C'est CETTE attitude que je veux.
+6411|Excellent. Merci.
+6412|Ctrl+Maj+L. Fais-moi confiance. Ça filtre tout.
+6413|Tu fais ça à la main ?! Laisse-moi te montrer un truc.
+6414|...Ça vient de me faire gagner deux heures par semaine.
+6415|QUOI. Où était ce truc toute ma vie ?
+6416|Hé. Ça va ? On dirait que tu as besoin d'une pause.
+6417|Journée difficile ? Viens prendre un thé avec moi.
+6418|...Franchement ? Pas terrible. Merci de demander.
+6419|Quelle semaine. Un thé, ce serait parfait.
+6420|Ça va. Vraiment. Juste débordé{me?|e}.
+6421|Merci, mais ça va.

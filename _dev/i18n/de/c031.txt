@@ -1,0 +1,186 @@
+6058|*riiing riiing* — auf LAUTSPRECHER — „Du hast gesagt, wir müssen reden?“
+6059|*Handy auf Lautsprecher* „{owner}? Du wolltest reden?“
+6060|Ich— ähm— ich mag dich schon ewig, okay?! So. Jetzt ist es raus.
+6061|Ich mag dich! Sehr! ...Warum schauen mich alle an?
+6062|*legt panisch auf* ...Falsch verbunden! Ha! Ha.
+6063|*knallt den Hörer auf* Das war... ein Kunde.
+6064|Uuuuh, {owner}! „Ich mag dich schon ewig“!
+6065|Hab dein Telefonat gehört, {owner}. Sehr romantisch.
+6066|*macht Kussgeräusche in Richtung {owner}*
+6067|Lacht nur. Ich hoffe, als Nächstes ist euer Handy auf Lautsprecher.
+6068|...Ich zieh mit meinem Schreibtisch um. In die Antarktis.
+6069|Also... dieses Telefonat.
+6070|Ich hab gehört, was du gesagt hast. Am Telefon. Alle haben's gehört.
+6071|...Ich mag dich auch. Lautsprecher hin oder her.
+6072|Fürs Protokoll? Geht mir genauso.
+6073|Du bist süß. Aber ich empfinde nicht so. Es tut mir leid.
+6074|Ich fühle mich geschmeichelt. Wirklich. Aber nein.
+6075|Tun wir so, als wäre nichts passiert, und trinken einen Kaffee?
+6076|Okay, das war das Peinlichste, was ich je miterlebt habe. Kaffee?
+6077|Der KUNDE kommt, und der Beamer ist TOT?!
+6078|Wer hat den Beamer kaputt gemacht? Ausgerechnet HEUTE?!
+6079|Moment... ich hab ein Ersatzkabel... irgendwo.
+6080|Okay, Beamer. Nur du und ich.
+6081|UND... es werde Licht! Gern geschehen.
+6082|Repariert. Nicht anfassen. Nicht mal anatmen.
+6083|Er ist tot, Jim. Mausetot.
+6084|Nö. Es riecht verbrannt. Das ist nie gut.
+6085|Und wie Sie auf Folie vier sehen...
+6086|Unsere Zahlen in diesem Quartal sprechen für sich.
+6087|Der Kunde hat unterschrieben! Auf der Stelle!
+6088|Sie waren begeistert. Wir haben den Auftrag!
+6089|...Der Kunde sagt, er will „darüber nachdenken“.
+6090|Sie sind früher gegangen. Das ist schlecht, oder? Das ist schlecht.
+6091|Kein Beamer? Kein Problem. *schnappt sich einen Marker* Stellen Sie sich vor...
+6092|Vergessen Sie die Folien. Ich zeichne Ihnen die Zukunft. *zeichnet ein sehr wackliges Diagramm*
+6093|Der Kunde hat ALLES gekauft. Wegen einer Strichmännchen-Zeichnung.
+6094|Sie fanden es „erfrischend menschlich“. Wir haben ihn!
+6095|Der Kunde hat gefragt, ob die Zeichnung ein Pferd ist. Es war unsere Umsatzkurve.
+6096|...Sie sind gegangen. Mit ihren Mänteln. Schnell.
+6097|DIE TÜR GEHT NICHT AUF!
+6098|Wir sind EINGESPERRT!
+6099|Warum ist die Tür während eines FEUERALARMS abgeschlossen?!
+6100|Wir werden alle— okay, ich bin ruhig. Ich bin ruhig. ICH BIN NICHT RUHIG.
+6101|Endet es so? Am Empfang?
+6102|Alle mal! Ruhe bewahren! Der Notausgang ist beim Archiv. Mir nach.
+6103|Hört mir zu. Keine Panik. Es gibt noch einen anderen Ausgang.
+6104|*rammt die Tür mit der Schulter* ...Sie ist auf! Alle raus— oh, der Alarm hat aufgehört.
+6105|Geschafft! Der Riegel hat geklemmt. Alle raus. Ganz ruhig.
+6106|WER hat die Eingangstür blockiert? Das ist ein SICHERHEITSPROBLEM!
+6107|Jemand hat die Tür blockiert. Ich will einen Namen.
+6108|{scapegoat}, Sie waren {scapegoat?der Letzte|die Letzte} an der Tür. Erklären Sie das.
+6109|Das waren Sie, oder, {scapegoat}?
+6110|Ich?! Ich wollte genau wie alle anderen RAUS!
+6111|Ich hab sie nicht angefasst! Ich schwöre!
+6112|Heute hat {hero} alle in Sicherheit gebracht. Das ist Führung.
+6113|Einen Applaus für {hero}. Kühler Kopf in der Krise.
+6114|Mein Mittagessen ist WEG, und da hängt ein Zettel, unterschrieben von {signer}?!
+6115|„Hört auf, meinen Joghurt zu klauen — {signer}“?! Du hast ALLES weggeworfen?!
+6116|*schreibt in Großbuchstaben einen SEHR langen Gegenzettel*
+6117|„{signer?LIEBER|LIEBE} {signer}: MANCHE VON UNS HABEN GEFÜHLE. UND MITTAGESSEN.“ *klebt ihn an den Kühlschrank*
+6118|Du hast mein Mittagessen weggeworfen. Und mir dann eine PREDIGT über Joghurt gehalten?
+6119|Erklär den Zettel, {signer}.
+6120|Den Zettel hab ich nicht geschrieben! Ich esse nicht mal Joghurt!
+6121|Das ist nicht meine Handschrift! Da will uns jemand reinlegen!
+6122|Wenn die Leute ihr Essen beschriften würden, würde es nicht weggeworfen!
+6123|Ach, jetzt bin ich also die Kühlschrankpolizei? Schön. Ich bin die Kühlschrankpolizei.
+6124|Hast du gehört? {leaver} KÜNDIGT. Ich hab den Brief gesehen!
+6125|{leaver} geht! In der Abwesenheitsnotiz steht „Ich kündige“!
+6126|Wir sammeln für {leaver:s} Abschiedsgeschenk. Machst du mit?
+6127|Unterschreib die Karte! Für {leaver}! Nicht sehen lassen!
+6128|Natürlich. {leaver} wird mir fehlen.
+6129|Hier. Kauft was Schönes.
+6130|Ich kann nicht glauben, dass das passiert.
+6131|Gehen Sie nicht, {leaver}. Was auch immer man Ihnen bietet — ich zahle dasselbe.
+6132|{leaver}. Bevor Sie gehen... was müsste passieren, damit Sie bleiben?
+6133|...Gehen? Ich gehe nicht. Wer hat gesagt, dass ich gehe?
+6134|Moment. Welches Angebot? Ich gehe nirgendwohin!
+6135|...Tja. Eine Gehaltserhöhung wäre ein guter Anfang.
+6136|Hm. Ein größerer Schreibtisch. Und eine Gehaltserhöhung. Dann reden wir.
+6137|ÜBERRASCHUNG! Wir werden dich vermissen, {leaver}!
+6138|Lebewohl, {leaver}! *lässt einen Partyknaller knallen*
+6139|ICH GEHE NICHT! Aber... danke? Gibt es Kuchen?
+6140|...Ich kündige nicht. Aber die Karte behalte ich.
+6141|Danke, alle zusammen! ...Kleines Update: Ich bleibe. Mit Gehaltserhöhung.
+6142|Oh! Was das angeht. Ich bleibe. Ahmet hat mir ein Angebot gemacht.
+6143|Wir haben für ein GESCHENK bezahlt!
+6144|Du WUSSTEST es und hast uns sammeln lassen?!
+6145|HAHAHA!
+6146|Oh, das ist unbezahlbar.
+6147|*japst vor Lachen*
+6148|Ich krieg keine Luft!
+6149|Das machst du IMMER!
+6150|Es geht nicht ums Geschirr. Es geht nie ums Geschirr.
+6151|Gut. GUT.
+6152|Ich?! Du hast es doch vergessen!
+6153|Ach, jetzt ist es also MEINE Schuld?
+6154|Sag nicht „gut“ zu mir.
+6155|Ich brauch frische Luft.
+6156|Wir reden später. Oder auch nicht.
+6157|...Sorry. Ich bin nur müde.
+6158|Okay. Ich hab überreagiert. Kaffee?
+6159|Ehrlich? {b} ist in letzter Zeit unerträglich.
+6160|Ich bin auf deiner Seite. Immer.
+6161|Du solltest mit {b} reden. Richtig.
+6162|Wirf das nicht wegen nichts weg.
+6163|Können wir reden? Richtig reden?
+6164|Wegen vorhin...
+6165|Ich will dich nicht wegen so etwas Dummem verlieren.
+6166|Lass uns nie wieder in der Lounge streiten. Abgemacht?
+6167|...Ich glaube, wir brauchen eine Pause. Eine richtige.
+6168|Vielleicht sind wir als Kollegen besser.
+6169|*flüstert in einen Karton* Psst. Psst. Du bist jetzt ein Tacker.
+6170|Niemand schaut in diesen Karton. Das sind... Akten. Sehr flauschige Akten.
+6171|*miau*
+6172|*winziges Miau*
+6173|Du musst ein Kätzchen im Archiv verstecken. Keine Fragen.
+6174|Okay, ich hab sie auf dem Parkplatz gefunden. Hilfst du mir, sie vor Ahmet zu verstecken?
+6175|Ein KÄTZCHEN?! Gib sie mir. Ich beschütze sie mit meinem Leben.
+6176|...Na gut. Aber ich geb ihr den Namen.
+6177|Auf keinen Fall. Ich bin allergisch gegen Arbeitslosigkeit.
+6178|Nein. Ahmet bringt uns beide um.
+6179|...Miaut da etwas in meinem Büro?
+6180|Warum sitzt ein Kätzchen auf meiner Tastatur?!
+6181|...Oh. Oh, schaut euch dieses kleine Gesicht an. Na gut. Sie bleibt. Sie ist jetzt die Büroleiterin.
+6182|Wer ist ein braves Kätzchen? Kein Wort zur Zentrale, niemand.
+6183|Raus. Das Kätzchen geht. HEUTE. Und {smuggler}: in mein Büro. Sofort.
+6184|Das hier ist ein Büro, kein Zoo!
+6185|*wickelt {p2:s} ganzen Schreibtisch in Frischhaltefolie* Perfekt.
+6186|*ersetzt {p2:s} Maus durch eine Kartoffel* Kunst.
+6187|...FRISCHHALTEFOLIE?! Oh, jetzt geht's los, {p1}.
+6188|Eine KARTOFFEL. Dafür wirst du bezahlen, {p1}.
+6189|*füllt {p1:s} Schublade mit 300 Klebezetteln* Phase eins abgeschlossen.
+6190|*stellt {p1:s} Tastatur auf türkisches F-Layout um* Muahaha.
+6191|Der ultimative Streich. Ein Eimer Konfetti. Über der Tür. Wenn {p2} reinkommt...
+6192|*balanciert einen Eimer Konfetti über der Tür zum Chefbüro* ...Moment, falsche Tür.
+6193|*voller Konfetti* ...WER. WAR. DAS.
+6194|*spuckt Konfetti aus* Ich zähle bis drei.
+6195|...Ha. HA. Okay, das ist tatsächlich gut. Sie beide, zurück an die Arbeit.
+6196|So hab ich seit Jahren nicht gelacht. Sagen Sie's niemandem.
+6197|{p1}! {p2}! In mein Büro! SOFORT!
+6198|Das hört HEUTE auf. Sie beide. Schriftliche Abmahnung.
+6199|Könntest du BITTE leiser sein? Manche von uns arbeiten.
+6200|Sorry — könntest du ein bisschen leiser sein? Ich hab eine Deadline.
+6201|Oh! Sorry. Hab ich nicht gemerkt. Ich flüstere.
+6202|Mein Fehler. Zimmerlautstärke. Verstanden.
+6203|Das ist ein GROSSRAUMBÜRO. Das nennt sich KOMMUNIKATION.
+6204|Kauf dir Kopfhörer.
+6205|Ach, du willst Lärm? *dreht den Bürolautsprecher auf* VIEL SPASS.
+6206|Gut. Wenn ich keine Ruhe hab, hat KEINER Ruhe. *dreht die Musik voll auf*
+6207|Wer hat DIESE Musik angemacht?!
+6208|Meine Ohren!
+6209|Kann das mal jemand ausmachen?
+6210|Genug. Das hört jetzt auf. Küche. Ihr beide.
+6211|Ihr zwei macht alle wahnsinnig. Hinsetzen. Reden.
+6212|...Kopfhörer für mich, Ruhezeiten für dich?
+6213|Na gut. Musik erst nach vier. Abgemacht.
+6214|Niemals. Morgen bring ich eine TROMPETE mit.
+6215|Erst wenn sich jemand für die Arabesk-Musik entschuldigt.
+6216|Ahmet will bis vier neue Ideen. Meine ist besser als deine. Wetten?
+6217|Pitch-Duell. Du und ich. Ahmets Büro. Vier Uhr.
+6218|Abgemacht.
+6219|Oh, und WIE das abgemacht ist.
+6220|Mach dich aufs Verlieren gefasst.
+6221|*tippt wie wild* Folie neun braucht mehr Synergie.
+6222|Okay. Diagramme. Große. Ahmet liebt große Diagramme.
+6223|Stellen Sie sich vor: alles, nur schneller.
+6224|Meine Idee spart uns dreißig Prozent. Vielleicht vierzig.
+6225|Die Idee von {a}. Wir machen das. {b}, gute Arbeit.
+6226|Ich entscheide mich für {a}. Glückwunsch.
+6227|{b}, das ist es. {a}, zurück ans Reißbrett.
+6228|{b} gewinnt. Das war scharfsinnig.
+6229|Warum nicht beides? {a} und {b}: Sie sind jetzt ein Team. Bringen Sie sich nicht gegenseitig um.
+6230|Kombinieren Sie sie. Gemeinsam. Heute.
+6231|KARAOKE! Küche! Nach fünf! Bringt eure Stimme mit!
+6232|Heute Abend: Büro-Karaoke. Anwesenheitspflicht. Spaß. Größtenteils.
+6233|*ganz leise, im Archiv* ♪ ...und mein Herz macht bum-bum für diiich... ♪
+6234|*summt hinter dem Aktenschrank Tonleitern*
+6235|...War das {shy}? Singend? SO?
+6236|Moment. {shy} kann SINGEN?
+6237|♪ DRUCKER, DRUCKER, DRUCK MEIN HEEERZ ♪
+6238|♪ Montag, oh Montag, warum hasst du miiich? ♪
+6239|♪ Ofisin yıldızııı, kahvenin kraliçesiii ♪
+6240|...WOW. Zugabe! ZUGABE!
+6241|{shy}, wo hast du DAS versteckt?
+6242|*Stimme bricht beim hohen Ton* ...Alles gut. Alles total gut.
+6243|*singt ein komplett anderes Lied*

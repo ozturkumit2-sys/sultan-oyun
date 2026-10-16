@@ -681,10 +681,12 @@ func on_logged(entry: Dictionary, ctx: Dictionary) -> void:
 	var inst := find(uid)
 	if not inst.is_empty():
 		inst["beat"] = entry["text"]
+		inst["beat_ref"] = entry.get("ref", {})
 	else:
 		for f in finished:
 			if f["uid"] == uid:
 				f["beat"] = entry["text"]
+				f["beat_ref"] = entry.get("ref", {})
 
 
 # =====================================================================

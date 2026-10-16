@@ -118,20 +118,22 @@ func _draw_title(c: Control) -> void:
 	var y0 := vs.y * 0.18
 	var wob := sin(_t * 1.6) * 1.2
 	# OFFICE
-	c.draw_set_transform(Vector2(cx - 70, y0), deg_to_rad(-6 + wob), Vector2.ONE)
+	var mk := UiKit.font("marker")
+	c.draw_set_transform(Vector2(cx - 90, y0), deg_to_rad(-6 + wob), Vector2.ONE)
 	UiKit.draw_note(c, Rect2(-170, -70, 340, 130), UiKit.sticky("yellow"))
 	UiKit.draw_tape(c, Vector2(0, -70), Vector2(110, 26), 0.06)
-	c.draw_string(UiKit.font("marker"), Vector2(-170, 34), "OFFICE", HORIZONTAL_ALIGNMENT_CENTER, 340, 84, UiKit.INK)
-	# CHAOS!
-	c.draw_set_transform(Vector2(cx + 80, y0 + 140), deg_to_rad(5 - wob), Vector2.ONE)
-	UiKit.draw_note(c, Rect2(-175, -70, 350, 130), UiKit.sticky("pink"))
-	UiKit.draw_tape(c, Vector2(-150, -62), Vector2(80, 24), -0.7)
-	c.draw_string(UiKit.font("marker"), Vector2(-175, 36), "CHAOS!", HORIZONTAL_ALIGNMENT_CENTER, 350, 88, UiKit.RED)
+	c.draw_string(mk, Vector2(-170, 34), "OFFICE", HORIZONTAL_ALIGNMENT_CENTER, 340, 84, UiKit.INK)
+	# POLTERGEIST (the brand stays the same in every language)
+	c.draw_set_transform(Vector2(cx + 30, y0 + 140), deg_to_rad(4 - wob), Vector2.ONE)
+	UiKit.draw_note(c, Rect2(-250, -66, 500, 124), UiKit.sticky("pink"))
+	UiKit.draw_tape(c, Vector2(-220, -58), Vector2(80, 24), -0.7)
+	var fs := UiKit.fit_size(mk, "POLTERGEIST", 470, 80, 0.5)
+	c.draw_string(mk, Vector2(-250, 22 + fs * 0.12), "POLTERGEIST", HORIZONTAL_ALIGNMENT_CENTER, 500, fs, UiKit.RED)
 	# subtitle on a strip of paper
 	c.draw_set_transform(Vector2(cx, y0 + 250), deg_to_rad(-1.5), Vector2.ONE)
 	c.draw_rect(Rect2(-250, -26, 500, 48), Color(0, 0, 0, 0.15))
 	c.draw_rect(Rect2(-254, -30, 500, 48), UiKit.PAPER)
-	c.draw_string(UiKit.font("type"), Vector2(-250, 2), Loc.t("ui.subtitle"), HORIZONTAL_ALIGNMENT_CENTER, 500, 19, UiKit.INK)
+	c.draw_string(UiKit.font("type"), Vector2(-250, 2), Loc.t("ui.subtitle"), HORIZONTAL_ALIGNMENT_CENTER, 500, UiKit.fit_size(UiKit.font("type"), Loc.t("ui.subtitle"), 488, 19, 0.7), UiKit.INK)
 	# little ghost peeking
 	c.draw_set_transform(Vector2(cx + 220, y0 - 30 + sin(_t * 2.2) * 6), 0.15, Vector2.ONE)
 	Icons.draw(c, "ghost", Vector2.ZERO, 70)

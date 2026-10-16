@@ -1,0 +1,186 @@
+6058|*dring dring* — sur HAUT-PARLEUR — « Tu as dit qu'il fallait qu'on parle ? »
+6059|*téléphone sur haut-parleur* « {owner} ? Tu voulais parler ? »
+6060|Je— euh— tu me plais depuis une éternité, OK ?! Voilà. Je l'ai dit.
+6061|Tu me plais ! Beaucoup ! ...Pourquoi tout le monde me regarde ?
+6062|*raccroche en panique* ...Mauvais numéro ! Ha ! Ha.
+6063|*raccroche brutalement* C'était... un client.
+6064|Ooooh, {owner} ! « Tu me plais depuis une éternité » !
+6065|On a entendu ton appel, {owner}. Très romantique.
+6066|*fait des bruits de bisous à {owner}*
+6067|Riez bien. J'espère que ce sera votre téléphone sur haut-parleur la prochaine fois.
+6068|...Je déménage mon bureau. En Antarctique.
+6069|Alors... cet appel.
+6070|J'ai entendu ce que tu as dit. Au téléphone. Tout le monde a entendu.
+6071|...Tu me plais aussi. Haut-parleur compris.
+6072|Pour info ? Pareil.
+6073|Tu es adorable. Mais je ne ressens pas la même chose. Je suis désolé{me?|e}.
+6074|Je suis flatté{me?|e}. Vraiment. Mais non.
+6075|On fait comme si de rien n'était et on va prendre un café ?
+6076|OK, c'est la chose la plus gênante à laquelle j'aie jamais assisté. Un café ?
+6077|Le CLIENT arrive et le projecteur est MORT ?!
+6078|Qui a cassé le projecteur ? AUJOURD'HUI, en plus ?!
+6079|Attendez... j'ai un câble de rechange... quelque part.
+6080|OK, projecteur. C'est entre toi et moi.
+6081|ET... la lumière fut ! De rien.
+6082|Réparé. N'y touchez pas. Ne respirez même pas dessus.
+6083|Il est mort, Jim. Complètement mort.
+6084|Non. Ça sent le brûlé. Ce n'est jamais bon signe.
+6085|Et comme vous pouvez le voir sur la slide quatre...
+6086|Nos chiffres de ce trimestre parlent d'eux-mêmes.
+6087|Le client a signé ! Sur-le-champ !
+6088|Ils ont adoré. On a décroché le contrat !
+6089|...Le client a dit qu'il allait « réfléchir ».
+6090|Ils sont partis tôt. C'est mauvais signe, hein ? C'est mauvais signe.
+6091|Pas de projecteur ? Pas de problème. *attrape un marqueur* Imaginez...
+6092|Oubliez les slides. Laissez-moi vous dessiner l'avenir. *dessine un graphique très tremblant*
+6093|Le client a TOUT acheté. Grâce à un dessin en bonhommes bâtons.
+6094|Ils ont trouvé ça « rafraîchissant d'humanité ». On l'a eu !
+6095|Le client a demandé si le dessin représentait un cheval. C'était notre courbe des ventes.
+6096|...Ils sont partis. Avec leurs manteaux. Vite.
+6097|LA PORTE NE S'OUVRE PAS !
+6098|On est PIÉGÉS !
+6099|Pourquoi la porte est verrouillée pendant une ALARME INCENDIE ?!
+6100|On va tous— OK, je suis calme. Je suis calme. JE NE SUIS PAS CALME.
+6101|C'est comme ça que ça finit ? À l'accueil ?
+6102|Tout le monde ! Du calme ! La sortie de secours est près des archives. Suivez-moi.
+6103|Écoutez-moi. Pas de panique. Il y a une autre sortie.
+6104|*enfonce la porte d'un coup d'épaule* ...C'est ouvert ! Tout le monde dehors— ah, l'alarme s'est arrêtée.
+6105|Ça y est ! Le loquet était coincé. Tout le monde dehors. Calmement.
+6106|QUI a bloqué la porte d'entrée ? C'est un problème de SÉCURITÉ !
+6107|Quelqu'un a bloqué cette porte. Je veux un nom.
+6108|{scapegoat}, vous étiez {scapegoat?le dernier|la dernière} près de la porte. Expliquez-vous.
+6109|C'était vous, n'est-ce pas, {scapegoat} ?
+6110|Moi ?! J'essayais de SORTIR comme tout le monde !
+6111|Je n'y ai pas touché ! Je le jure !
+6112|Aujourd'hui, {hero} a mis tout le monde en sécurité. Ça, c'est du leadership.
+6113|On applaudit {hero}. Du sang-froid en pleine crise.
+6114|Mon déjeuner a DISPARU et il y a un mot signé {signer} ?!
+6115|« Arrêtez de voler mon yaourt — {signer} » ?! Tu as TOUT jeté ?!
+6116|*écrit un contre-mot TRÈS long en majuscules*
+6117|« {signer?CHER|CHÈRE} {signer} : CERTAINS D'ENTRE NOUS ONT DES SENTIMENTS. ET DES DÉJEUNERS. » *le colle sur le frigo*
+6118|Tu as jeté mon déjeuner. Et ensuite tu m'as fait la LEÇON sur le yaourt ?
+6119|Explique ce mot, {signer}.
+6120|Je n'ai pas écrit ce mot ! Je ne mange même pas de yaourt !
+6121|Ce n'est pas mon écriture ! Quelqu'un nous piège !
+6122|Si les gens étiquetaient leur nourriture, elle ne serait pas jetée !
+6123|Ah, maintenant c'est moi la police du frigo ? Très bien. Je suis la police du frigo.
+6124|Tu as entendu ? {leaver} DÉMISSIONNE. J'ai vu la lettre !
+6125|{leaver} s'en va ! La réponse automatique dit « je démissionne » !
+6126|On fait une cagnotte pour le cadeau de départ de {leaver}. Tu participes ?
+6127|Signe la carte ! Pour {leaver} ! Faut pas que ça se voie !
+6128|Bien sûr. {leaver} va me manquer.
+6129|Tiens. Achetez quelque chose de bien.
+6130|Je n'arrive pas à croire que ça arrive.
+6131|Ne partez pas, {leaver}. Quoi qu'on vous propose — je m'aligne.
+6132|{leaver}. Avant que vous partiez... que faudrait-il pour vous garder ?
+6133|...Partir ? Je ne pars pas. Qui a dit que je partais ?
+6134|Attendez. Quelle offre ? Je ne vais nulle part !
+6135|...Eh bien. Une augmentation, ce serait un bon début.
+6136|Hm. Un plus grand bureau. Et une augmentation. Ensuite, on discute.
+6137|SURPRISE ! Tu vas nous manquer, {leaver} !
+6138|Adieu, {leaver} ! *fait péter un canon à confettis*
+6139|JE NE PARS PAS ! Mais... merci ? Il y a du gâteau ?
+6140|...Je ne démissionne pas. Mais je garde la carte.
+6141|Merci à tous ! ...Petite mise à jour : je reste. Avec une augmentation.
+6142|Oh ! À ce propos. Je reste. Ahmet m'a fait une offre.
+6143|On a payé un CADEAU !
+6144|Tu SAVAIS et tu nous as laissés cotiser ?!
+6145|HAHAHA !
+6146|Oh, ça n'a pas de prix.
+6147|*s'étrangle de rire*
+6148|J'arrive plus à respirer !
+6149|Tu fais TOUJOURS ça !
+6150|Ce n'est pas une histoire de vaisselle. Ça n'a jamais été une histoire de vaisselle.
+6151|Très bien. TRÈS BIEN.
+6152|Moi ?! C'est toi qui as oublié !
+6153|Ah, alors maintenant c'est MA faute ?
+6154|Ne me dis pas « très bien ».
+6155|J'ai besoin d'air.
+6156|On en reparle plus tard. Ou pas.
+6157|...Pardon. Je suis juste fatigué{me?|e}.
+6158|OK. J'ai exagéré. Un café ?
+6159|Franchement ? {b} est insupportable ces derniers temps.
+6160|Je suis de ton côté. Toujours.
+6161|Tu devrais parler à {b}. Vraiment.
+6162|Ne gâche pas tout pour rien.
+6163|On peut parler ? Vraiment parler ?
+6164|À propos de tout à l'heure...
+6165|Je ne veux pas te perdre pour un truc aussi bête.
+6166|On ne se dispute plus jamais dans le coin détente. Promis ?
+6167|...Je crois qu'on a besoin d'une pause. Une vraie.
+6168|On est peut-être mieux en tant que collègues.
+6169|*chuchote dans un carton* Chut. Chut. Tu es une agrafeuse, maintenant.
+6170|Personne ne regarde dans ce carton. Ce sont... des dossiers. Des dossiers très poilus.
+6171|*miaou*
+6172|*tout petit miaou*
+6173|Il faut que tu caches un chaton aux archives. Ne pose pas de questions.
+6174|OK, je l'ai trouvée sur le parking. Tu m'aides à la cacher d'Ahmet ?
+6175|UN CHATON ?! Donne-la-moi. Je la protégerai au péril de ma vie.
+6176|...Bon. Mais c'est moi qui lui donne son nom.
+6177|Hors de question. Je suis allergique au chômage.
+6178|Non. Ahmet va nous tuer tous les deux.
+6179|...Quelque chose MIAULE dans mon bureau ?
+6180|Pourquoi y a-t-il un chaton sur mon clavier ?!
+6181|...Oh. Oh, regardez sa petite frimousse. Bon. Elle reste. C'est la directrice du bureau, maintenant.
+6182|C'est qui la gentille minette ? Pas un mot au siège, personne.
+6183|Dehors. Le chaton s'en va. AUJOURD'HUI. Et {smuggler} : dans mon bureau. Tout de suite.
+6184|C'est un bureau, ici, pas un zoo !
+6185|*emballe tout le bureau de {p2} dans du film plastique* Parfait.
+6186|*remplace la souris de {p2} par une pomme de terre* De l'art.
+6187|...DU FILM PLASTIQUE ?! Oh, c'est la guerre, {p1}.
+6188|Une POMME DE TERRE. Tu vas me le payer, {p1}.
+6189|*remplit le tiroir de {p1} de 300 post-it* Phase un terminée.
+6190|*passe le clavier de {p1} en disposition turque F* Mouahaha.
+6191|La blague ultime. Un seau de confettis. Au-dessus de la porte. Quand {p2} entrera...
+6192|*met en équilibre un seau de confettis sur la porte du bureau du patron* ...Attends, mauvaise porte.
+6193|*{me?couvert|couverte} de confettis* ...QUI. A. FAIT. ÇA.
+6194|*recrache des confettis* Je vais compter jusqu'à trois.
+6195|...Ha. HA. OK, c'est réussi, en fait. Vous deux, au travail.
+6196|Je n'avais pas ri comme ça depuis des années. Ne le dites à personne.
+6197|{p1} ! {p2} ! Dans mon bureau ! TOUT DE SUITE !
+6198|Ça s'arrête AUJOURD'HUI. Tous les deux. Avertissement écrit.
+6199|Tu pourrais faire MOINS de bruit, S'IL TE PLAÎT ? Certains travaillent.
+6200|Pardon — tu pourrais parler un peu moins fort ? J'ai une deadline.
+6201|Oh ! Pardon. Je ne m'en rendais pas compte. Je vais chuchoter.
+6202|Ma faute. Voix d'intérieur. Compris.
+6203|C'est un OPEN SPACE. Ça s'appelle la COMMUNICATION.
+6204|Achète-toi un casque.
+6205|Ah, tu veux du bruit ? *monte le son de l'enceinte du bureau* PROFITE.
+6206|Très bien. Si je n'ai pas le calme, PERSONNE ne l'aura. *met la musique à fond*
+6207|Qui a mis CETTE musique ?!
+6208|Mes oreilles !
+6209|Quelqu'un peut éteindre ça ?
+6210|Ça suffit. Ça s'arrête maintenant. Cuisine. Tous les deux.
+6211|Vous rendez tout le monde fou, tous les deux. Asseyez-vous. Parlez.
+6212|...Un casque pour moi, des heures calmes pour toi ?
+6213|Bon. Musique seulement après seize heures. Marché conclu.
+6214|Jamais. Demain, j'apporte une TROMPETTE.
+6215|Pas avant qu'on m'ait fait des excuses pour l'arabesk.
+6216|Ahmet veut de nouvelles idées pour seize heures. La mienne est meilleure que la tienne. On parie ?
+6217|Duel de pitchs. Toi et moi. Bureau d'Ahmet. Seize heures.
+6218|Pari tenu.
+6219|Oh, c'est PARTI.
+6220|Prépare-toi à perdre.
+6221|*tape frénétiquement* Il faut plus de synergie sur la slide neuf.
+6222|OK. Des graphiques. Des grands. Ahmet adore les grands graphiques.
+6223|Imaginez : tout, mais en plus rapide.
+6224|Mon idée nous fera économiser trente pour cent. Peut-être quarante.
+6225|L'idée de {a}. On part là-dessus. {b}, bel effort.
+6226|Je choisis {a}. Félicitations.
+6227|{b}, c'est la bonne. {a}, retour à la planche à dessin.
+6228|{b} gagne. C'était brillant.
+6229|Pourquoi pas les deux ? {a} et {b} : vous formez une équipe maintenant. Ne vous entretuez pas.
+6230|Combinez-les. Ensemble. Aujourd'hui.
+6231|KARAOKÉ ! Cuisine ! Après cinq heures ! Amenez votre voix !
+6232|Ce soir : karaoké au bureau. Présence obligatoire. Je plaisante. À moitié.
+6233|*tout doucement, aux archives* ♪ ...et mon cœur fait boum-boum pour toiii... ♪
+6234|*fait des vocalises derrière le classeur*
+6235|...C'était {shy} ? En train de chanter ? COMME ÇA ?
+6236|Attends. {shy} sait CHANTER ?
+6237|♪ IMPRIMANTE, IMPRIMANTE, IMPRIME MON CŒUUUR ♪
+6238|♪ Lundi, oh lundi, pourquoi tu me détestes ? ♪
+6239|♪ Ofisin yıldızııı, kahvenin kraliçesiii ♪
+6240|...WAOUH. Une autre ! UNE AUTRE !
+6241|{shy}, où est-ce que tu cachais ÇA ?
+6242|*la voix se brise sur la note aiguë* ...Ça va. Tout va très bien.
+6243|*chante une tout autre chanson*

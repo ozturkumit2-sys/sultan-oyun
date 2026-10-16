@@ -1,0 +1,314 @@
+388|Escritorio de Ceren
+389|Escritorio de Deniz
+390|Escritorio de Ece
+391|Escritorio de Mert
+392|Escritorio de Selin
+393|Escritorio de Zeynep
+394|Encimera de la cocina
+395|Mesa de la sala de descanso
+396|Mesa de reuniones
+397|cita con el dentista
+398|entrevista de trabajo
+399|lo de tu expediente en mi carpeta privada
+400|45 minutos adelantado
+401|30 minutos atrasado
+402|45 minutos hacia adelante
+403|30 minutos hacia atrás
+404|lo de la nota del tablón de corcho
+405|tarde libre
+406|lo de tu desaparición de ayer por la tarde
+407|una balada de desamor entre sollozos
+408|heavy metal a gritos
+409|lo de las ofertas de empleo en tu pantalla
+410|lo de tu correo «URGENTE: despidos»
+411|lo de la nota de amor
+412|arabesk desgarrador
+413|música clásica
+414|música disco de los 70
+415|éxitos pop cursis
+416|lo de esa llamada con jadeos desde tu extensión
+417|aumento
+418|la cocina
+419|la sala de descanso
+420|lo de ese mensaje de voz
+421|¿Quieres ver una foto de mi gato?
+422|Mi gato me volvió a tirar el café.
+423|¿De dónde pedimos el almuerzo?
+424|Mataría por un buen lahmacun ahora mismo.
+425|¿Viste el partido de anoche?
+426|Ese árbitro estaba ciego, te lo digo yo.
+427|Voy a empezar a ir al gimnasio. Mañana.
+428|Todavía me duelen las piernas del gimnasio.
+429|Si me toca la lotería, renuncio en el acto.
+430|¿Compraste un boleto para el sorteo de Año Nuevo?
+431|¿Qué escuchas últimamente?
+432|Tengo esta canción metida en la cabeza todo el día.
+433|La batería del teléfono se me acaba al mediodía. Todos los días.
+434|¿Me compro el teléfono nuevo? Es carísimo.
+435|¿Estás viendo la serie nueva?
+436|Sin spoilers, pero ¿viste el último episodio?
+437|El tráfico de esta mañana fue una pesadilla.
+438|Cuarenta minutos para cinco kilómetros. ¡Cuarenta!
+439|Necesito vacaciones. ¿Alguna idea?
+440|¿Playa o montaña? Sé sincero.
+441|Qué tiempo más loco hoy, ¿eh?
+442|¿Viste la lluvia de esta mañana?
+443|¿Planes para el fin de semana?
+444|El fin de semana no llega nunca, ¿verdad?
+445|cargador
+446|estuche de gafas
+447|taza de la suerte
+448|agenda
+449|memoria USB
+450|la cafetera
+451|el teclado
+452|las luces
+453|la impresora
+454|Tóxico
+455|Agradable
+456|Alegre
+457|Normal
+458|Tenso
+459|Caerle bien a todo el mundo
+460|Coleccionar los secretos de todos
+461|Conseguir un ascenso
+462|Encontrar otro trabajo (¡chis!)
+463|Conseguir un aumento
+464|Que por fin lo valoren
+465|Cumplir el objetivo de ventas
+466|Impresionar a la central
+467|Tener a todos a raya
+468|Mantener la paz
+469|Demostrar lo que vale
+470|Enterarse de todo antes que nadie
+471|Conquistar a Ceren
+472|Aprobaciones y papeleo
+473|Presupuesto mensual
+474|Informe para el cliente
+475|Introducción de datos
+476|Rendición de gastos
+477|Archivo de documentos
+478|Tickets de TI
+479|Propuesta para la cuenta Kaya
+480|Análisis de mercado
+481|Memorandos
+482|Presentación trimestral
+483|Propuesta de proyecto
+484|Planificación del retiro del equipo
+485|Llamadas de ventas
+486|Informe de ventas
+487|Agenda del jefe
+488|Actualización del servidor
+489|Informe urgente para la central
+490|La central está revisando el puesto de Ahmet.
+491|Burak está buscando trabajo a escondidas.
+492|Deniz copió su gran informe de un antiguo compañero.
+493|¡Ece es la sobrina de Ahmet!
+494|Mert está loquito por Ceren.
+495|Selin recibió una oferta de trabajo de la competencia.
+496|Zeynep ocultó un gran error contable el trimestre pasado.
+497|{a} y {b} están tramando algo juntos en secreto.
+498|{a} y {b} tuvieron una discusión muy fuerte.
+499|{b} cree que {a} está detrás de la última broma.
+500|{a} le hace la pelota a Ahmet. Sin ninguna vergüenza.
+501|¡{a} y {b} salen juntos en secreto!
+502|¡{a} se apuntó el mérito del trabajo de {b}!
+503|{a} está {a?loco|loca} por {b}.
+504|{a} escribió un correo muy feo sobre {b}.
+505|¡{a} y {b} están COMPROMETIDOS en secreto!
+506|¡{a} y {b} casi llegan a las manos!
+507|A {a} están a punto de despedirle.
+508|{a} está {a?convencido|convencida} de que la oficina está embrujada.
+509|{a} le echó una mano a {b}.
+510|{a} tiene una entrevista de trabajo en otra empresa.
+511|{a} está buscando otro trabajo.
+512|{a} llegó tarde y le cayó una bronca.
+513|Habrá despidos antes del viernes.
+514|{a} borró la carpeta compartida.
+515|{a} podría ser pariente de {b}...
+516|{a} le está gastando bromas a {b}.
+517|{a} recibió un aumento en secreto.
+518|{a} se negó a ayudar a {b}.
+519|{a} está a punto de renunciar.
+520|{a} saboteó el trabajo de {b} a propósito.
+521|{a} está conspirando contra {b}.
+522|{b} le pegó un grito a {a}.
+523|{a} y {b} son uña y carne en secreto.
+524|{a} está en la lista corta para el ascenso.
+525|{a} se escapa todas las tardes y nadie se da cuenta.
+526|{a} se quedó {a?dormido|dormida} en la reunión y roncó.
+527|{a} se está comiendo los almuerzos de los demás de la nevera.
+528|{a} amenazó a {b}.
+529|{a} cargó con la culpa para no pelearse con {b}.
+530|Ahmet
+531|Burak
+532|Ceren
+533|Deniz
+534|Ece
+535|Mert
+536|Selin
+537|Zeynep
+538|Autoritario
+539|Controlador
+540|Ama la disciplina
+541|Confía en Selin
+542|Cree que Deniz es demasiado ambicioso
+543|Gerente de oficina
+544|Callado
+545|Lógico
+546|Genio de la tecnología
+547|Descontento con su trabajo
+548|Busca trabajo a escondidas
+549|Estalla si lo culpan injustamente
+550|Especialista de TI
+551|Lista
+552|Tranquila
+553|Lee muy bien a la gente
+554|Sabe que le gusta a Mert
+555|Conoce la historia detrás de muchas decisiones
+556|Asistente de dirección
+557|Competitivo
+558|Astuto
+559|Seguro de sí mismo
+560|Quiere el ascenso
+561|Ve a Selin como su rival
+562|Se apunta los méritos ajenos
+563|Especialista
+564|Llena de energía
+565|Curiosa
+566|Un poco torpe
+567|Quiere caerle bien a todo el mundo
+568|Oculta que es la sobrina del jefe
+569|Becaria
+570|Sociable
+571|Gracioso
+572|Relajado
+573|Está colado por Ceren
+574|Amigo de Burak
+575|Lo deja todo para el último minuto
+576|Especialista en ventas
+577|Trabajadora
+578|Ambiciosa
+579|Gran sentido de la justicia
+580|Espera un ascenso
+581|Rival de Deniz
+582|Le cuesta perdonar
+583|Especialista sénior
+584|Curiosa
+585|Chismosa
+586|Observadora aguda
+587|Conoce muchos secretos
+588|Usa la información en su propio beneficio
+589|Contadora
+590|ORDEN DEL DÍA: {text}
+591|PRESIDE: {name}
+592|¡LISTO!
+593|FUEGO
+594|HOLA
+595|REUNIÓN
+596|¡YA!
+597|AVERIADA
+598|LUZ
+599|POR FAVOR, NO PATEEN
+600|LA IMPRESORA
+601|RECEPCIÓN
+602|TRABAJO EN EQUIPO
+603|DESPIDOS
+604|LADRÓN DE ALMUERZOS
+605|ASCENSOS
+606|POLÍTICA DE ROMANCES
+607|¡5 min!
+608|JEFE INTERINO
+609|¡CLIENTE!
+610|¡Adiós!
+611|¡PIZZA!
+612|¡ASCENSO!
+613|REESTRUCTURACIÓN: PREGUNTAS
+614|Romper la cafetera
+615|La próxima persona que quiera café se llevará una sorpresa.
+616|Atascar la impresora
+617|No pasa nada… hasta que alguien tiene que imprimir.
+618|Reescribir el expediente de ascensos
+619|Darle el mérito del gran proyecto a otra persona.
+620|Enviar su borrador a TODOS
+621|La próxima vez que abra el correo, su borrador más privado le llegará a toda la oficina.
+622|Cambiar el destinatario de su correo
+623|Su próximo mensaje privado le llegará a otra persona.
+624|Enviar una notificación falsa al teléfono
+625|Los teléfonos son muy convincentes.
+626|Arreglar la cafetera en secreto
+627|Alguien se llevará el mérito. Seguramente la persona equivocada.
+628|Apagar todas las luces
+629|Pánico instantáneo. Alguien irá corriendo al cuadro eléctrico.
+630|Volver a encender las luces
+631|Escalofriante.
+632|Mover {item?el|la} {item} de {owner}
+633|Saldrá a buscarlo cuando lo necesite.
+634|Cambiar la hora de la reunión
+635|Solo lo sabrá quien mire el tablero.
+636|No está en la oficina
+637|Ya está roto
+638|Ya está oscuro
+639|Ya hay un sabotaje esperando
+640|Las luces están encendidas
+641|La reunión ya empezó
+642|Ya es un desastre
+643|Ya está manipulado
+644|Funciona
+645|Cambiar la temperatura
+646|Cada quien tiene su temperatura favorita. Nadie se pone de acuerdo.
+647|Desordenar los papeles del escritorio
+648|Se dará cuenta al sentarse. Y querrá a alguien a quien culpar.
+649|Añadir a alguien a un chat grupal donde hablan de esa persona
+650|Alguien lleva tiempo quejándose de esa persona en un chat grupal. Ahora es miembro.
+651|Reescribir el orden del día de la reunión
+652|Todo el mundo lee el tablero al pasar.
+653|Dejar en el archivo la prueba de una alianza secreta
+654|Dos personas tienen un pacto secreto. Por escrito. No por mucho tiempo.
+655|Inscribir a alguien en un curso de control de la ira
+656|Un memorando muy oficial y muy público.
+657|Clavar una queja anónima sobre alguien
+658|«Deja de tararear, por favor. Firmado: todos.» Buscará a un culpable.
+659|Clavar un elogio anónimo sobre alguien
+660|Palabras bonitas en el tablón de corcho. Querrá saber quién las escribió.
+661|Entregar su carta de disculpa a la persona equivocada
+662|Escribió una disculpa para alguien con quien se peleó. Elige quién la recibe en su lugar.
+663|Archivar su informe impreso en el archivo
+664|En la «Z». Donde nadie mira.
+665|Configurar el autocorrector: «Ahmet Bey» → «Ahmet Bebé»
+666|Su próximo correo al jefe será… memorable.
+667|Poner su respuesta automática en «Renuncio»
+668|La próxima persona que le escriba es el jefe.
+669|Dejarle a Ahmet una taza de «El mejor jefe del mundo» — de parte de alguien
+670|Elige quién se la «regaló». Ahmet le dará las gracias. En público.
+671|Dejar a la vista la colecta secreta de cumpleaños
+672|El sobre en el que todos han ido metiendo dinero a escondidas.
+673|Poner un partido de golf en el calendario de Ahmet
+674|Se irá… justo antes de su propia reunión.
+675|Enviar a todos el borrador de memorando de Ahmet
+676|«Reestructuración: posibles recortes.» (Habla del presupuesto del café.)
+677|Romper el microondas
+678|Justo antes del almuerzo.
+679|Romper el proyector
+680|Se morirá en cuanto alguien empiece a presentar.
+681|Romper el dispensador de agua
+682|Sin agua no hay charla de pasillo.
+683|Sacar la tarta de cumpleaños demasiado pronto
+684|La tarta sorpresa. Sobre la mesa. Horas antes.
+685|Falsear quién le está llamando
+686|Le suena el teléfono. En la pantalla aparece el nombre que tú elijas.
+687|Bloquear el bloq mayús en su chat
+688|Su próximo mensaje a su mejor amistad llegará A GRITOS.
+689|Poner a Ahmet en copia de su chat privado
+690|Lo que sea que esté escribiéndole a su mejor amistad, Ahmet recibirá una copia.
+691|Cambiar el autor del archivo del proyecto
+692|Pon el nombre de otra persona en su trabajo. Ahmet lo leerá más tarde.
+693|Cambiar el asunto de su próximo correo
+694|Su próximo correo al equipo saldrá con un título muy distinto.
+695|Anunciar la visita de un cliente
+696|«¡Cliente importante a las 14:00!» Mira cómo todos ordenan y trabajan el doble.
+697|Hacer que la cafetera tarde 40 minutos en calentarse
+698|Se forma una cola. La gente habla.
+699|Dejar un documento confidencial abierto en el archivo
+700|La próxima persona que vaya a los archivadores lo leerá.
+701|Clavar una foto trucada de «pareja»

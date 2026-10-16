@@ -1,0 +1,124 @@
+2135|log.slip|{actor} slipped on a puddle in front of the printer. Spectacularly.
+2136|log.slow|{actor}'s internet slowed to a crawl. Work is crawling too.
+2137|log.slow_break|{actor} gave up on their slow internet and went for a long coffee.
+2138|log.snack|{actor} noticed {target} was stressed and brought them a snack.
+2139|log.snack_refuse|The snack box turned up in {target}'s drawer — and {target} wouldn't give them back.
+2140|log.snack_share|The snack box turned up in {target}'s drawer. {target} handed them out. Instant popularity.
+2141|log.sneak_in|{actor} sneaked in late.
+2142|log.snoop|{owner}'s private folder was suddenly visible to the whole office. {actor} had a look.
+2143|log.source|A note on the cork board named {origin} as the source of the rumour about {subject}. {subject} read it.
+2144|log.spa|Someone turned the water cooler into a 'spa corner'. People keep lingering there.
+2145|log.spa_boss|Ahmet found a crowd at the 'spa' water cooler and broke it up.
+2146|log.spam_scold|Ahmet's urgent request to {target} had landed in spam. Ahmet didn't care: due today.
+2147|log.spam_understand|Ahmet's urgent request to {target} was stuck in spam. Ahmet blamed the email system instead.
+2148|log.spc_blurt|{crush} called {owner} back — on speakerphone. Half the office heard {owner} confess their feelings for {crush}.
+2149|log.spc_friends|{crush} and {owner} laughed off the speakerphone confession over coffee.
+2150|log.spc_hangup|{crush} called {owner} back on speakerphone. {owner} panicked and hung up. Everyone heard enough to guess.
+2151|log.spc_mutual|{crush} told {owner} the feeling is mutual. The speakerphone did them a favour.
+2152|log.spc_no|{crush} gently turned {owner} down after the speakerphone confession.
+2153|log.spc_tease|{teaser} won't stop teasing {owner} about the speakerphone confession.
+2154|log.speaker|{owner}'s personal call played on speakerphone. Everyone nearby heard every word.
+2155|log.spill_angry|Ece spilled coffee on {target}. {target} is NOT amused.
+2156|log.spill_forgiven|Ece spilled coffee on {target}, who laughed it off.
+2157|log.sr_concede|{leader} led a group into Ahmet's office with a petition. Ahmet promised to fight for raises. Cheers all round.
+2158|log.sr_enough|{leader}'s raise petition has enough signatures. Next stop: Ahmet's office.
+2159|log.sr_few|{leader}'s raise petition got almost no signatures. The revolt fizzled.
+2160|log.sr_grumble|{leader} gathered the unhappy ones in the kitchen. Talk turned to raises.
+2161|log.sr_refuse|{leader} led a group into Ahmet's office with a petition. Ahmet threw them out. The mood is grim.
+2162|log.stickyswap|{owner}'s 'lunch at 1?' sticky note — meant for {friend} — landed on {target}'s desk. They ended up having lunch together.
+2163|log.strong|The coffee is triple-strength today. {actor} is vibrating.
+2164|log.subj_layoffs|{owner}'s routine email went out with the subject 'URGENT: layoffs'. The office is panicking.
+2165|log.subj_party|{owner}'s email went out titled 'Party at my place tonight!' People are RSVPing. {owner} has no party planned.
+2166|log.subj_raise|{owner}'s email went out titled 'Re: your raise'. Now everyone thinks {owner} got one.
+2167|log.suck_up|{actor} buttered up Ahmet. It worked.
+2168|log.suck_up_fail|{actor} tried to butter up Ahmet. He wasn't having it.
+2169|log.supplies|{actor} went looking for office supplies and found ALL of them stashed in {target}'s drawer.
+2170|log.suspects|{actor} suspects {suspect} messed with their desk.
+2171|log.swapphone|{target} picked up {owner}'s phone by mistake and read a message that wasn't meant for them.
+2172|log.swapphone_back|{owner} and {target} swapped their phones back. {target} looked like they knew something.
+2173|log.swapreview|Two performance reviews were swapped. Ahmet praised {owner}... and grilled {target} for {owner}'s numbers.
+2174|log.switch|The reception switchboard went haywire. Calls are landing on the wrong desks all over the office.
+2175|log.switch_heard|{actor} took a call meant for {intended} — and learned something they shouldn't have.
+2176|log.talked_back|{target} talked back to Ahmet!
+2177|log.tease_crush|{actor} teased Mert about Ceren.
+2178|log.temp_changed|Someone (you) messed with the thermostat. It's {temp} now.
+2179|log.thanks_note|Ahmet's thank-you note to {rich} ended up with {target}. {target} thanked Ahmet for it. Awkward for everyone.
+2180|log.thermo_grumble|{target} is grumbling about {actor} and the thermostat.
+2181|log.thermo_locked|{actor} tried to change the temperature — the thermostat was locked.
+2182|log.thermo_war|Thermostat war! {actor} and {target} are fighting over the AC.
+2183|log.tipjar|A 'Thank you Burak for fixing everything' tip jar appeared in the kitchen. People are chipping in. Burak is speechless.
+2184|log.took_blame|{target} took the blame for something they didn't do.
+2185|log.transfer_hmm|{actor} found a transfer request to a far-away branch. Ahmet didn't exactly deny it.
+2186|log.transfer_ok|{actor} found a transfer request to a far-away branch. Ahmet swore he'd never send them away. {actor} feels valued.
+2187|log.tray|An anonymous tea-and-cookies tray drew half the office into the kitchen. {claimer} took the credit.
+2188|log.typo_laugh|{target}'s client email was full of typos. Luckily the client found 'regert' funny.
+2189|log.typo_scold|A client complained about typos all over {target}'s email. Ahmet was furious.
+2190|log.unexpected_help|Unexpected solidarity: {actor} helped {target} beat a deadline.
+2191|log.uninvited|{target} was quietly removed from the meeting invite — and found out afterwards.
+2192|log.unplug_self|{actor}'s 'dead' monitor was just unplugged. They noticed. Eventually.
+2193|log.unsent_fight|{actor}'s apology to {target} vanished before it was read. Now they're fighting about whether it was ever sent.
+2194|log.unsent_make_up|{actor} thought their apology had reached {target}. It hadn't. So {actor} said sorry in person — and it worked.
+2195|log.update_cv|{actor} is quietly updating their CV at their desk.
+2196|log.update_cv_spotted|{spotter} spotted a job site on {actor}'s screen.
+2197|log.urgent|Every sheet on {actor}'s desk is suddenly stamped URGENT. {actor} is working through lunch in a panic.
+2198|log.urgent_help|{target} saw {actor} drowning in 'URGENT' papers and helped out.
+2199|log.vent_comfort|{listener} comforted a stressed {actor}.
+2200|log.virus_fake|{actor} screamed about a virus. {target} closed a fake popup in two seconds. The office is still laughing.
+2201|log.virus_shutdown|{actor}'s 'virus' made {target} pull the plug on the office network. Nobody can work.
+2202|log.vm_confession|{owner} recorded a voicemail practising a confession to {crush}. It reached {crush}.
+2203|log.vm_secret|A private voicemail from {owner} ended up in {target}'s mailbox.
+2204|log.walkout|The board said today's meeting was '5 minutes'. After ten, people started walking out on Ahmet.
+2205|log.wall_beach|{actor}'s wallpaper is a tropical beach. Productivity: gone.
+2206|log.wall_boss|{actor}'s wallpaper is now a giant photo of Ahmet. People are staring.
+2207|log.wall_keep|{actor} decided to keep the ghost's wallpaper.
+2208|log.wall_kittens|{actor} sat down to find forty kittens on their wallpaper.
+2209|log.wallclock|Someone moved the office wall clock {what}. People are trusting it.
+2210|log.wallclock_leave|{actor} trusted the wall clock and packed up early. Ahmet caught them at the door.
+2211|log.water_dead|{actor} found the water cooler dead.
+2212|log.water_flood|Ece tried to fix the water cooler. The lounge is now a lake.
+2213|log.wntt_confess|A 'we need to talk' text from {owner}'s phone led to an unexpected confession to {crush}.
+2214|log.wntt_relief|{crush} spent an hour panicking over a 'we need to talk' text from {owner}. {owner} never sent it.
+2215|log.work_dump|Ahmet dumped an urgent report on {target} at the last minute.
+2216|log.work_dump_passed|Ahmet dumped an urgent report on {target}, who promptly passed it to {helper}.
+2217|log.work_dump_pushback|{target} pushed back on Ahmet's last-minute report. Ahmet didn't budge.
+2218|log.wp_announce|Reading straight from a tampered promotion file in the meeting, Ahmet announced {credited} as the new team lead. {rightful} is stunned.
+2219|log.wp_correct|Ahmet publicly corrected the promotion: it goes to {rightful}. {credited} had it for exactly one afternoon.
+2220|log.wp_protest|{rightful} went to Ahmet: the promotion file was tampered with.
+2221|log.wp_stands|Ahmet refused to reverse the promotion. {credited} keeps it. {rightful} is furious.
+2222|log.wrong_credit|{target} took the credit for fixing the coffee machine. (It was you.)
+2223|log.wrong_invitee_contrib|{target} was invited to the meeting by mistake — and had the best idea in the room.
+2224|log.wrong_invitee_leave|{target} turned up to a meeting they were never meant to attend. Ahmet sent them away.
+2225|log.wrong_name|Ahmet called {target} by the wrong name. Again.
+2226|log.wrongcb_chat|{owner} returned a 'missed call' — it was {target}'s number. They ended up chatting for ages.
+2227|log.wrongcb_fight|{owner} returned a 'missed call' to {target}. Neither had called. It got snippy.
+2228|log.zero|A note on the cork board says the raise budget this year is zero. The office mood just crashed.
+2229|log.zero_fixed|Zeynep told Ahmet the 'zero raise budget' note was fake. Ahmet tore it down — but the damage is done.
+2230|log.zeynep_points|Zeynep told {target} that {suspect} did it.
+2231|mem.accused_me|{actor} accused me. Calmly, but still.
+2232|mem.approve_crushed|I thought my request was approved. It wasn't. Ahmet laughed at me.
+2233|mem.argued|I had a fight with {target}.
+2234|mem.asked_straight|{actor} asked me straight instead of gossiping.
+2235|mem.audit|Ahmet caught my accounting mistake.
+2236|mem.author_credit|{target} took credit for my project.
+2237|mem.author_honest|{target} told Ahmet that project was mine.
+2238|mem.bc_truce|Ahmet actually listened to me.
+2239|mem.bc_warning|Ahmet gave me a final warning.
+2240|mem.bd_party|Everyone threw me a surprise birthday party.
+2241|mem.bg_caught|Ahmet caught me blaming {scapegoat}.
+2242|mem.bg_injustice|Ahmet blamed me for {culprit}'s mistake.
+2243|mem.blamed_me|{target} blamed me for their mistake in front of Ahmet.
+2244|mem.boss_blamed|Ahmet blamed me for the calendar mess.
+2245|mem.boss_praised|Ahmet said I'm doing a good job.
+2246|mem.boss_yelled|Ahmet yelled at me in front of everyone.
+2247|mem.brought_snack|{actor} brought me a snack when I was drowning.
+2248|mem.bu_over|We broke up.
+2249|mem.cdm_mortified|I turned up for a date that didn't exist.
+2250|mem.covered_for_me|{friend} covered for me with Ahmet.
+2251|mem.credit_stolen|{target} presented MY work as theirs.
+2252|mem.dark_bond|We got through the blackout together.
+2253|mem.defended_me|{defender} stood up for me.
+2254|mem.desk_messed|Someone ransacked my desk.
+2255|mem.df_saved|Burak saved me from disaster and kept quiet.
+2256|mem.dumped_on|Ahmet dumped urgent work on me at the last minute.
+2257|mem.ece_tidied|Ece helped me clean up my desk.
+2258|mem.fake_date|{target} and I ended up having coffee by accident.

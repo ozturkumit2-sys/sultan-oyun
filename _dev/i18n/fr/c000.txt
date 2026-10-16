@@ -1,0 +1,387 @@
+1|{age} ans
+2|Passer au jour suivant automatiquement
+3|Retour
+4|Ce qui se dit
+5|TABLEAU DES RAGOTS
+6|PERSONNEL
+7|Liens et projets
+8|Choisir…
+9|Choisis une langue
+10|CONFIDENTIEL
+11|Fermer
+12|Continuer
+13|Continuer · Jour {day}
+14|Crédits
+15|OFFICE POLTERGEIST\nConception, code, graphismes et sons créés pour ce projet.\n\nPolices :\nPermanent Marker — Font Diner (Licence Apache 2.0 ; lettres turques ajoutées)\nPatrick Hand — Patrick Wagesreiter (SIL Open Font License 1.1)\nSpecial Elite — Astigmatic (Licence Apache 2.0)\nAlfa Slab One — JM Solé (SIL Open Font License 1.1)\nKalam, Yatra One — Indian Type Foundry / Catherine Leigh Schmidt (SIL OFL 1.1)\nZCOOL KuaiLe — Liu Zhengjiang (SIL OFL 1.1)\nLXGW WenKai — LXGW (SIL OFL 1.1)\n\nTous les personnages, graphismes, musiques et effets sonores sont originaux et générés de façon procédurale.\nFait avec Godot Engine (Licence MIT).
+16|JOUR {day}
+17|JOUR
+18|Le bureau est fermé pour aujourd'hui.
+19|Jour {day}
+20|s'est révélée fausse
+21|En ce moment
+22|C'est fait ! Maintenant, attends et regarde…
+23|RAPIDE x2
+24|Trouvé ici : {n} / {total}
+25|Amitié
+26|Veut
+27|ouï-dire
+28|Comment jouer
+29|Tu es une force invisible qui hante un petit bureau.\n\nTu ne peux contrôler personne. À la place, touche les objets qui brillent — la machine à café, l'imprimante, les ordinateurs, le tableau des réunions, la clim, le disjoncteur, le dossier des promotions du patron, les affaires des gens — et manigance.\n\nLa plupart des manigances sont sournoises : rien ne se passe tant que quelqu'un n'utilise pas vraiment l'objet. Casse l'imprimante et attends que quelqu'un en ait besoin. Change le destinataire d'un e-mail et attends qu'on clique sur Envoyer.\n\nChacun a une personnalité, un objectif, des amitiés, des rivalités, des secrets et une mémoire. La suite dépend de tout ça — et de la veille.\n\nIl y a 200 façons de manigancer. Les bureaux ont quatre tiroirs : Ordinateur, Boîte de réception, Téléphone et Bureau. Certaines manigances sont secrètes : elles n'apparaissent (avec une petite clé dorée) que lorsque les bonnes choses se sont déjà produites ce jour-là — et elles peuvent déclencher des histoires entières qui durent des jours.\n\nLe carnet vert en bas à gauche est ton Carnet de découvertes : ce que tu as trouvé, les histoires dont tu as vu la fin et ta plus grande réaction en chaîne.\n\nPas de missions, pas de score. Aide-les, ruine-les ou contente-toi de regarder.
+30|Manigances au total : {n}
+31|Carnet de découvertes
+32|Langue
+33|FUITÉ
+34|Trouver
+35|Tableau des ragots
+36|Sauver et menu principal
+37|Manigancer
+38|doute
+39|ouï-dire
+40|certitude
+41|Souvenirs récents
+42|Humeur
+43|Satisfaction au travail
+44|Musique
+45|Nouvelle partie
+46|Recommencer ? Ton bureau actuel sera perdu.
+47|NOUVEAU
+48|Jour suivant →
+49|Jour suivant dans {n}…
+50|Non
+51|N'a rien entendu de croustillant.
+52|Rien ne se trame.
+53|Il ne s'est encore rien passé. Laisse-lui une minute… ou donne-lui un petit coup de pouce.
+54|Rien de mémorable pour l'instant.
+55|Aucun secret connu.
+56|Pas de grande histoire en cours… pour l'instant.
+57|Pas au bureau
+58|doute
+59|Rien à manigancer ici pour l'instant.
+60|NON
+61|Ambiance au bureau
+62|OUI
+63|EN PAUSE
+64|DOSSIER DU PERSONNEL
+65|Pour {name} — maintenant, choisis comment
+66|« {text} »
+67|Relations
+68|Aujourd'hui
+69|Rancune
+70|Respect
+71|Reprendre
+72|Rivalité
+73|Béguin
+74|Sauvegardé
+75|COMBINAISON SECRÈTE
+76|Secrets
+77|{n} secret(s)
+78|Réglages
+79|Effets sonores
+80|Lecture
+81|Rapide
+82|Pause
+83|Personnel
+84|À la une
+85|Partie {n}
+86|Terminée
+87|Histoires
+88|Stress
+89|8 collègues. 1 fauteur de troubles invisible. Zéro règle.
+90|certitude
+91|Méfiance
+92|Touche les objets qui brillent pour manigancer. Touche les gens pour lire leur dossier.
+93|OFFICE POLTERGEIST
+94|Aujourd'hui, jusqu'ici
+95|Confiance
+96|v{v}
+97|Oui
+98|Star de la semaine
+99|Chef d'équipe
+100|HISTOIRE TERMINÉE
+101|À SUIVRE
+102|JOUR {day}
+103|ÉDITION BUREAU
+104|LE TRAIN-TRAIN
+105|Rien de notable ne s'est passé. Suspect.
+106|EN CHIFFRES
+107|Toutes les nouvelles du bureau qui méritent d'être chuchotées
+108|UNE JOURNÉE CALME
+109|CHAOS TOTAL !
+110|UN PEU DE DRAME
+111|LE BUREAU EN FOLIE !
+112|Toutes les catégories
+113|Plus grande réaction en chaîne
+114|Elle a même déclenché : {arcs}
+115|« {what} » (jour {day}) a entraîné {n} conséquences.
+116|{n} fins différentes découvertes
+117|{n}  ·  {pct} %
+118|Manigances
+119|manigances découvertes
+120|(C'est arrivé. Personne ne l'a noté.)
+121|Moments
+122|Les grands moments dont le bureau parlera pendant des semaines.
+123|moments spéciaux vécus
+124|Rien n'a encore fait boule de neige. Laisse le temps faire.
+125|{n} issues différentes vues
+126|Fins différentes
+127|Manigances découvertes
+128|Moments spéciaux
+129|Issues différentes vues
+130|Combinaisons secrètes trouvées
+131|Histoires terminées
+132|Records
+133|{n} combinaisons secrètes encore cachées
+134|Histoires
+135|histoires vues jusqu'au bout
+136|{n} histoires que personne n'a encore vécues
+137|Vue {n}× · fins : {ends}
+138|{n} encore à découvrir. Certaines n'apparaissent que quand les bonnes choses s'alignent…
+139|Encore {n} à découvrir dans cette catégorie
+140|Utilisée {n}× · la première fois le jour {day}
+141|Ordinateurs et numérique
+142|E-mails et messages
+143|Réunions et agenda
+144|Documents et paperasse
+145|Carrière, promotion et salaire
+146|Téléphones et appels
+147|Cuisine et café
+148|Équipement et environnement
+149|Social et ragots
+150|Combinaisons cachées
+151|Boîte de réception
+152|Bureau
+153|Ordinateur
+154|Téléphone
+155|Climatisation
+156|Panneau d'alarme incendie
+157|Portemanteau
+158|Machine à café
+159|Armoires à dossiers
+160|Frigo
+161|Porte d'entrée
+162|Armoire RH
+163|{item} de {owner}
+164|Table de la cuisine
+165|Disjoncteur
+166|Tableau des réunions
+167|Table de la salle de réunion
+168|Micro-ondes
+169|Tableau en liège
+170|Plante du bureau
+171|Imprimante
+172|Dossier des promotions
+173|Placard du serveur
+174|Canapé du coin détente
+175|Haut-parleur du bureau
+176|Étagère à fournitures
+177|Horloge murale
+178|Fontaine à eau
+179|Bureau de {name}
+180|Calme
+181|EN ALERTE
+182|EN PANNE
+183|Affiche {time}
+184|Ça marche… à peu près
+185|{name} · {doing}
+186|Actuellement : {loc}
+187|Lumières ÉTEINTES
+188|Lumières allumées
+189|Réunion du jour : {time}
+190|La réunion du jour est terminée
+191|En cours : {what}
+192|Silence
+193|Plus de papier
+194|{n} notes épinglées
+195|Ahmet lit ça tous les après-midi.
+196|Trafiqué, attend Ahmet…
+197|Réglée sur {temp}
+198|Fonctionne parfaitement
+199|Attribuer le mérite à {name}
+200|Arabesk
+201|Un bébé qui pleure
+202|Une ballade de rupture en sanglots
+203|« Envoyé depuis ma baignoire »
+204|Une plage tropicale
+205|Une photo géante d'Ahmet
+206|« Apportez un gâteau le vendredi »
+207|« Future direction générale »
+208|Classique
+209|Son après-midi de congé
+210|Rendez-vous chez le dentiste
+211|Disco
+212|« MES IDÉES NULLES »
+213|Son ex
+214|45 minutes d'avance
+215|« Le chouchou d'Ahmet »
+216|« Dehors ! »
+217|« Acheter des fleurs pour (son béguin) »
+218|La faire briller
+219|« Salle de sport à 16:30 — partir tôt »
+220|Un chasseur de têtes
+221|« Entretien d'embauche » (dans l'agenda partagé)
+222|La cuisine
+223|Quarante chatons
+224|« Rire aux blagues d'Ahmet »
+225|une liste de « postes en cours d'examen »
+226|« URGENT : licenciements »
+227|Le coin détente
+228|« LETTRES D'AMOUR »
+229|« Qui vole les déjeuners ? »
+230|Du heavy metal hurlant
+231|« Maman »
+232|« Fête chez moi ce soir ! »
+233|« PLANS SECRETS »
+234|De la pop ringarde
+235|« Promotions — aujourd'hui »
+236|« Promotion immédiate ! »
+237|« RE : ton augmentation (approuvée !) »
+238|« Nouvelle politique sur les romances au bureau »
+239|la liste des salaires
+240|Une sirène d'alerte aérienne
+241|30 minutes de retard
+242|En faire un désastre
+243|La déplacer à {time}
+244|« Un admirateur secret te dit coucou 😊 »
+245|« Dans mon bureau. TOUT DE SUITE. » — Ahmet
+246|« La réunion d'aujourd'hui est annulée. »
+247|« Gâteau gratuit à la cuisine ! »
+248|L'envoyer à {name}
+249|16 °C — Arctique
+250|19 °C — Frais
+251|22 °C — Normal
+252|25 °C — Doux
+253|29 °C — Sauna
+254|Pas au bureau en ce moment.
+255|L'heure du déjeuner est déjà passée.
+256|L'alarme sonne déjà.
+257|Déjà fait.
+258|C'est déjà cassé.
+259|C'est déjà verrouillé.
+260|Ahmet est en réunion.
+261|Personne ne regarde l'horloge en ce moment.
+262|La machine est en panne.
+263|Trop tôt — quelqu'un pourrait remarquer la manœuvre.
+264|Les lumières sont éteintes.
+265|Bien ici — il n'y a pas de lettre de démission.
+266|Le bureau chasse déjà un fantôme.
+267|En réunion.
+268|La réunion du jour est déjà terminée.
+269|La réunion a déjà commencé.
+270|Le réseau est déjà en panne.
+271|Personne n'a d'alliance secrète en ce moment.
+272|Ce n'est l'anniversaire de personne aujourd'hui.
+273|Aucun chargeur de rechange dans les parages.
+274|N'a le béguin pour personne ici.
+275|Aucune fausse rumeur ne circule en ce moment.
+276|En conflit avec personne en ce moment.
+277|Pas d'amitié proche ici.
+278|N'a rien de méchant à dire sur personne. Pour l'instant.
+279|Personne n'a de problème avec cette personne. Pour l'instant.
+280|Pas d'annonce de promotion aujourd'hui.
+281|Personne n'est en froid ici en ce moment.
+282|Personne ne cherche de travail en douce en ce moment.
+283|Aucun anniversaire en vue.
+284|Aucun travail en cours.
+285|Pas à la réunion d'aujourd'hui.
+286|Impossible pour l'instant.
+287|Pas à son bureau aujourd'hui.
+288|Le bureau panique déjà à cause des licenciements.
+289|Il y a déjà une fête.
+290|La plante est déjà resplendissante.
+291|L'imprimante est en panne.
+292|L'imprimante fonctionne parfaitement.
+293|La promotion a déjà été annoncée.
+294|Trop tard dans la journée pour ça.
+295|Déjà fait aujourd'hui.
+296|La fontaine à eau est en panne.
+297|La personne visée n'est pas là.
+298|Inséparables
+299|N'aime pas
+300|Ne supporte pas
+301|Amitié
+302|Neutre
+303|S'entend bien
+304|Rivalité acharnée
+305|{me?Content|Contente}
+306|{me?Ravi|Ravie}
+307|{me?Furieux|Furieuse}
+308|{me?Grognon|Grognonne}
+309|{me?Heureux|Heureuse}
+310|Bof
+311|{me?Contrarié|Contrariée}
+312|en colère
+313|{me?agacé|agacée}
+314|{me?effrayé|effrayée}
+315|{me?reconnaissant|reconnaissante}
+316|{me?blessé|blessée}
+317|{me?jaloux|jalouse}
+318|{me?heureux|heureuse}
+319|{me?ému|émue}
+320|
+321|{me?satisfait|satisfaite}
+322|{me?fier|fière}
+323|{me?soulagé|soulagée}
+324|triste
+325|{me?gêné|gênée}
+326|{me?surpris|surprise}
+327|Disputes
+328|Grosses bagarres
+329|Rejets de faute
+330|Crises de nerfs
+331|Promotions ratées
+332|Clans au bureau
+333|Rumeurs démenties
+334|Collègue défendu
+335|Catastrophes d'e-mails
+336|Coups de main
+337|Manigances du joueur
+338|Piques jalouses
+339|Retards
+340|Nouvelles amitiés
+341|Éloges
+342|Farces découvertes
+343|Réconciliations
+344|Refus
+345|Rumeurs de bureau
+346|Savons passés
+347|Secrets dévoilés
+348|A porté le chapeau
+349|Mauvaise personne récompensée
+350|{me?Allié secret|Alliée secrète} de {name}
+351|En froid avec {name}
+352|Veille sur {name}
+353|Sort avec {name}
+354|Doit des excuses à {name}
+355|Veut démasquer {name}
+356|Cherche un autre travail
+357|{me?Décidé|Décidée} à faire ses preuves
+358|Veut se venger de {name}
+359|Travaille contre {name}
+360|traîne
+361|fait une annonce
+362|aux archives
+363|arrive
+364|bavarde
+365|va chercher un café
+366|répare quelque chose
+367|apporte un café
+368|en mission
+369|en déplacement
+370|traîne
+371|rentre à la maison
+372|déjeune
+373|en réunion
+374|fait sa ronde
+375|au téléphone
+376|imprime
+377|fait une pause
+378|rapporte quelque chose
+379|examine des dossiers
+380|cherche quelque chose
+381|tripote la clim
+382|se dégourdit les jambes
+383|à la fontaine à eau
+384|travaille
+385|Armoire des archives
+386|Bureau d'Ahmet
+387|Bureau de Burak

@@ -1,0 +1,210 @@
+4456|ivm_boss_clueless|_|0|I... honestly have no idea what you mean.
+4457|ivm_boss_clueless|_|1|That's news to me, Ahmet Bey.
+4458|ivm_boss_clueless|_|2|There must be some mistake.
+4459|ivm_boss_scold|_|0|Then you'd better figure it out. Fast.
+4460|ivm_boss_scold|_|1|I expect better from you.
+4461|ivm_boss_scold|_|2|This is your last warning.
+4462|ivm_boss_ok|_|0|...Fine. Odd. Very odd. Go.
+4463|ivm_boss_ok|_|1|Hm. A misunderstanding, then. Dismissed.
+4464|ivm_boss_ok|_|2|Then someone in this office has a sense of humour.
+4465|ivm_shrug|_|0|Weird. Whatever.
+4466|ivm_shrug|_|1|Okay... moving on.
+4467|ivm_shrug|_|2|Not today, universe.
+4468|ivm_shrug|_|3|I don't even want to know.
+4469|ivm_shrug|mert|0|Ha. Somebody's bored.
+4470|ivm_shrug|burak|0|Fine. Fixed. Next.
+4471|ivm_shrug|ceren|0|Hm. I'll make a note of that.
+4472|lockpc_react|_|0|Wrong password?! I've had the same password for six years!
+4473|lockpc_react|_|1|Why won't it let me in?!
+4474|lockpc_react|_|2|LOCKED OUT. Of my own computer.
+4475|lockpc_react|ahmet|0|What is this? 'Account locked'? I AM the account!
+4476|lockpc_react|burak|0|Someone locked ME out? That's... impressive.
+4477|lockpc_react|ece|0|Is it 'Password1'? 'Password2'? Help!
+4478|lockpc_reset|_|0|Fine. I'll reset it myself.
+4479|lockpc_reset|_|1|Security question... 'name of first pet'... got it.
+4480|lockpc_reset|burak|0|Give me thirty seconds. ...Twenty.
+4481|misfile_react|_|0|Where's my file? It was RIGHT HERE.
+4482|misfile_react|_|1|My folder's empty. Why is my folder empty?!
+4483|misfile_react|_|2|No no no, where did it go?
+4484|misfile_react|selin|0|My entire proposal. Gone. From MY folder.
+4485|misfile_react|mert|0|File? What file? ...Oh no, THAT file.
+4486|misfile_boss|_|0|Why is {owner}'s file sitting in MY private folder?
+4487|misfile_boss|_|1|What is {owner}'s work doing in my folder?
+4488|author_boss_sees|_|0|{target}! This project file — excellent work.
+4489|author_boss_sees|_|1|I just read {target}'s project. Finally, some quality.
+4490|author_take|_|0|Thank you, Ahmet Bey. I worked hard on it.
+4491|author_take|_|1|Oh — happy you liked it!
+4492|author_take|deniz|0|Of course. I always deliver.
+4493|author_correct|_|0|Actually, Ahmet Bey, that's {owner}'s work, not mine.
+4494|author_correct|_|1|That one's {owner}'s. I can't take credit for it.
+4495|author_correct|ceren|0|That's {owner}'s project. Let's give credit where it's due.
+4496|author_correct|selin|0|That isn't mine. It's {owner}'s.
+4497|author_owner_hears|_|0|...Wait. That's MY project.
+4498|author_owner_hears|_|1|Excuse me? I wrote that!
+4499|slides_wrong|_|0|...These aren't my slides.
+4500|slides_wrong|_|1|Wait. Whose presentation is this?!
+4501|slides_wrong|_|2|Um. Slide one... is not my slide one.
+4502|slides_wrong|selin|0|This is not my deck. Someone swapped my file!
+4503|slides_wrong|mert|0|Okay, plot twist: I'll be presenting someone else's work.
+4504|slides_improv|_|0|Well. Let me tell you about it anyway — from memory.
+4505|slides_improv|_|1|Forget the slides. Here's the idea.
+4506|slides_freeze|_|0|I... um... I'm sorry, I...
+4507|slides_freeze|_|1|Can we... take five?
+4508|slides_steal|_|0|Actually, these are some ideas I've been exploring.
+4509|slides_steal|_|1|As you can see... my vision.
+4510|slides_target_angry|_|0|Those are MY slides!
+4511|slides_target_angry|_|1|Hey! That's my presentation!
+4512|clock_leave_boss|_|0|Where do you think you're going? It's {time}!
+4513|clock_leave_boss|_|1|Leaving already, {target}? It's only {time}.
+4514|clock_leave_excuse|_|0|But my computer says it's five o'clock!
+4515|clock_leave_excuse|_|1|What? My clock says I'm done!
+4516|clock_leave_scold|_|0|Then your computer can do your job. Back to your desk.
+4517|clock_leave_scold|_|1|Get that clock fixed. And sit down.
+4518|clock_leave_laugh|_|0|...Your clock is wrong. Go on then, just this once.
+4519|clock_leave_laugh|_|1|Ha. Go. But get that fixed.
+4520|clock_late_react|_|0|My clock said I had twenty minutes!
+4521|clock_late_react|_|1|Late?! My computer is LYING to me.
+4522|hide_doc_react|_|0|Where is it? It was on my desktop a second ago!
+4523|hide_doc_react|_|1|My report. Has. Vanished.
+4524|hide_doc_react|_|2|Okay, don't panic. Don't panic. PANIC.
+4525|hide_doc_react|ceren|0|That file was right here. I'm never wrong about where things are.
+4526|hide_doc_react|zeynep|0|My spreadsheet! Somebody took my spreadsheet!
+4527|hide_doc_search|_|0|Did anyone print my report? Has anyone SEEN it?
+4528|hide_doc_search|_|1|Checking the printer... the archive... anywhere!
+4529|hide_doc_found|_|0|THERE you are! In 'Old Stuff 2019'?! How?!
+4530|hide_doc_found|_|1|Found it. In a folder I've never seen before. Creepy.
+4531|hide_doc_gone|_|0|It's gone. I'll have to redo it.
+4532|hide_doc_gone|_|1|Three hours of work... gone.
+4533|oldver_react|_|0|Why is my report from LAST WEEK?!
+4534|oldver_react|_|1|All my changes... they're gone!
+4535|oldver_react|_|2|Who rolled back my file?!
+4536|oldver_react|selin|0|I have rewritten this section four times. FOUR.
+4537|oldver_react|deniz|0|This is... last Tuesday's version. Interesting.
+4538|oldver_ask|_|0|{target}, do we have backups? Please say we have backups.
+4539|oldver_ask|_|1|{target}, can you bring back my file? My changes vanished.
+4540|oldver_saved|_|0|Restored from last night's backup. You owe me.
+4541|oldver_saved|_|1|There. Every comma back where it was.
+4542|oldver_none|_|0|Backups run Fridays. Today isn't Friday.
+4543|oldver_none|_|1|Sorry. That version is gone.
+4544|oldver_redo|_|0|Fine. I'll redo it. Tonight. Apparently.
+4545|oldver_redo|_|1|Overtime it is.
+4546|virus_scream|_|0|AAAH! 'YOUR COMPUTER IS INFECTED'!
+4547|virus_scream|_|1|Virus! VIRUS! Everybody unplug everything!
+4548|virus_scream|_|2|It says 'all your files are encrypted'!!
+4549|virus_scream|ahmet|0|What is this flashing red thing?! Burak!
+4550|virus_scream|burak|0|...A fake popup. On MY network? Bold.
+4551|virus_scream|ece|0|I clicked nothing! I swear I clicked nothing!
+4552|virus_ask|_|0|{target}! VIRUS! Red screen! Skull!
+4553|virus_ask|_|1|{target}, my computer's been hacked!
+4554|virus_fake|_|0|...It's a fake popup. Close the window.
+4555|virus_fake|_|1|That's not a virus. That's a joke. Close it.
+4556|virus_shutdown|_|0|Unplugging the network. NOBODY TOUCH ANYTHING.
+4557|virus_shutdown|_|1|Pulling the plug on the whole floor, just in case.
+4558|witness_laugh|_|0|Hahaha!
+4559|witness_laugh|_|1|Oh, that's priceless.
+4560|witness_laugh|_|2|I can't breathe!
+4561|witness_laugh|_|3|Somebody record this!
+4562|witness_laugh|mert|0|Best day ever.
+4563|witness_laugh|zeynep|0|Ooh, this is going in my diary.
+4564|onscreen_read|_|0|Wait... why is this on MY screen?
+4565|onscreen_read|_|1|Huh. This isn't my file. Oh. OH.
+4566|onscreen_read|_|2|...I definitely wasn't supposed to see this.
+4567|onscreen_read|zeynep|0|Well, well. Look what landed on my desktop.
+4568|onscreen_read|ceren|0|This must have been sent to me by mistake. ...Still.
+4569|wall_kittens|_|0|Why are there forty kittens on my screen?
+4570|wall_kittens|_|1|Kittens. Everywhere. ...Okay, they're cute.
+4571|wall_kittens|ahmet|0|WHO PUT KITTENS ON MY COMPUTER?
+4572|wall_kittens|burak|0|Kittens. On MY screen. Okay.
+4573|wall_boss|_|0|Why is Ahmet's face on my wallpaper?!
+4574|wall_boss|_|1|Ahmet is... staring at me. From my desktop.
+4575|wall_boss|_|2|That is a HUGE photo of our boss.
+4576|wall_boss|ahmet|0|...Well. It's a good photo.
+4577|wall_beach|_|0|Ahh... a beach. I could just... leave.
+4578|wall_beach|_|1|Palm trees. Ocean. And here I am, doing expenses.
+4579|wall_keep|_|0|You know what? It stays.
+4580|wall_keep|_|1|I'm keeping it. It's growing on me.
+4581|wall_change|_|0|Nope. Changing it back.
+4582|wall_change|_|1|Absolutely not. Back to blue.
+4583|wall_witness|_|0|Nice wallpaper!
+4584|wall_witness|_|1|Is that... what I think it is?
+4585|wall_witness|_|2|Ha! Love it.
+4586|bae_boss_reads|_|0|'Dear Ahmet Bae'?! {owner}! In here. NOW.
+4587|bae_boss_reads|_|1|Did {owner} just call me... 'Bae'?
+4588|bae_mortified|_|0|It's AUTOCORRECT! I swear it's autocorrect!
+4589|bae_mortified|_|1|I would NEVER— that's not— my keyboard!
+4590|bae_boss_amused|_|0|...Hm. Fix your keyboard. And — never mind.
+4591|bae_boss_amused|_|1|I've been called worse. Go.
+4592|bae_boss_offended|_|0|This is a workplace, not a dating app.
+4593|bae_boss_offended|_|1|Unprofessional. Extremely.
+4594|bae_gossip|_|0|Did you hear? {owner} called Ahmet 'Bae'!
+4595|bae_gossip|_|1|'Ahmet Bae'! I'm framing that email.
+4596|jobtab_see|_|0|Is {owner} looking at job listings?!
+4597|jobtab_see|_|1|Hm. 'Senior positions — apply now.' On {owner}'s screen.
+4598|jobtab_see|_|2|{owner}'s browsing job ads. Interesting.
+4599|jobtab_see|ahmet|0|Job listings. On company time. On {owner}'s screen.
+4600|jobtab_see|zeynep|0|Oh, {owner} is shopping for a new office!
+4601|unplug_react|_|0|My screen's black. Did my computer die?!
+4602|unplug_react|_|1|It's dead. Completely dead.
+4603|unplug_react|_|2|Hello? HELLO? Screen?
+4604|unplug_react|ahmet|0|My monitor is broken. Somebody fix it.
+4605|unplug_react|burak|0|...The cable's out. Somebody unplugged my monitor.
+4606|unplug_self|_|0|Oh. It's... unplugged. Hah. Don't tell anyone.
+4607|unplug_self|_|1|Wait. The cable. Who unplugs a monitor?!
+4608|printjob_mine|_|0|Why is MY private document coming out of the printer?!
+4609|printjob_mine|_|1|Wait — I didn't print this! Give me that!
+4610|printjob_other|_|0|Ooh. Whose is this? Oh. OH.
+4611|printjob_other|_|1|This was in the printer tray. I didn't read it. ...I read it.
+4612|printjob_other|_|2|Hm. Somebody printed something private.
+4613|printjob_other|zeynep|0|The printer is my favourite newspaper.
+4614|printjob_other|ece|0|I'm not reading it! ...I read a little.
+4615|cal_remind|_|0|Oh no — my {what} is in ten minutes! I completely forgot!
+4616|cal_remind|_|1|My calendar says: {what}. Right. Gotta go!
+4617|cal_doubt|_|0|A {what}? I don't have a {what}...
+4618|cal_doubt|_|1|That's not mine. Who put this in my calendar?
+4619|cal_where|_|0|Where's {owner}? Anybody?
+4620|cal_where|_|1|Has anyone seen {owner}? Their desk's been empty for ages.
+4621|slow_react|_|0|Why is everything loading at 1990s speed?
+4622|slow_react|_|1|Come ON. One email. ONE.
+4623|slow_react|_|2|The little wheel. The spinning wheel of doom.
+4624|slow_react|mert|0|My internet is slower than Monday.
+4625|slow_react|selin|0|I cannot work like this.
+4626|slow_break|_|0|Forget it. Coffee break until the internet remembers me.
+4627|slow_break|_|1|I'm taking a walk. The internet can come find me.
+4628|caps_read|_|0|Why is {owner} YELLING at me?!
+4629|caps_read|_|1|'HOW ARE YOU' — in capitals? Is {owner} angry with me?
+4630|caps_confront|_|0|{target}, why did you shout at me in chat?
+4631|caps_confront|_|1|What did I do to deserve ALL CAPS, {target}?
+4632|caps_explain|_|0|What? I didn't shout! My caps lock must be stuck!
+4633|caps_explain|_|1|I wrote 'how are you'! Normally!
+4634|caps_hurt|_|0|Sure. Whatever.
+4635|caps_hurt|_|1|Just say it if you're upset with me.
+4636|caps_laugh|_|0|Oh my god, it's just caps lock. Ha!
+4637|caps_laugh|_|1|Okay, that's funny. Your keyboard hates you.
+4638|meow_react|_|0|Why does my keyboard MEOW?!
+4639|meow_react|_|1|Every key. Meow. Meow. MEOW.
+4640|meow_react|_|2|Is there a cat in my computer?
+4641|meow_react|ahmet|0|Why is my keyboard meowing?! WHO DID THIS?
+4642|meow_react|burak|0|...I respect the craftsmanship. I also hate it.
+4643|meow_love|_|0|...Honestly? I love it. Meow.
+4644|meow_love|_|1|I'm never changing this. Meow meow.
+4645|meow_witness|_|0|Is that... meowing?
+4646|meow_witness|_|1|*giggles*
+4647|meow_witness|_|2|Is there a CAT in the office?
+4648|snoop_find|_|0|Huh. {owner}'s private folder is shared with everyone?
+4649|snoop_find|_|1|Oops. I can see all of {owner}'s files. Just... looking.
+4650|snoop_find|_|2|Oh, {owner}, you should really check your settings.
+4651|snoop_find|zeynep|0|An open folder is an invitation, darling.
+4652|snoop_find|burak|0|Someone set {owner}'s folder to 'everyone'. Rookie mistake.
+4653|subj_layoffs_read|_|0|'URGENT: layoffs'?! From {owner}?!
+4654|subj_layoffs_read|_|1|Wait, {owner} just emailed everyone about LAYOFFS?
+4655|subj_raise_read|_|0|'Re: your raise'... {owner} got a RAISE?
+4656|subj_raise_read|_|1|Why does {owner}'s email say 'your raise approved'?
+4657|subj_party_read|_|0|'Party at my place tonight, everyone welcome!' — {owner}? Count me in!
+4658|subj_party_read|_|1|{owner}'s throwing a party? I'm there!
+4659|subj_owner_baffled|_|0|I did NOT write that subject line!
+4660|subj_owner_baffled|_|1|That's not what I typed! I swear!
+4661|party_rsvp|_|0|So! Your party! What should I bring?
+4662|party_rsvp|_|1|Tonight, right? I'm bringing snacks!
+4663|party_rsvp|mert|0|I'm bringing the speaker. And my moves.
+4664|party_cancel|_|0|About that... there is no party. It was a mistake.
+4665|party_cancel|_|1|There's no party! My email got hacked or something!

@@ -1,0 +1,201 @@
+5079|Hey... alles okay? Du siehst aus, als würdest du gleich explodieren.
+5080|Atmen. Soll ich dir was abnehmen?
+5081|...Ja. Bitte. Danke.
+5082|Ich gehe unter. Danke.
+5083|Warum steht {target} im Organigramm ÜBER Ahmet?!
+5084|Neues Organigramm? {target} ist jetzt... {target?der Chef|die Chefin}?
+5085|Ha! Schaut euch das Organigramm an. {target}: CEO.
+5086|WER hat das Organigramm geändert?!
+5087|{target} ist NICHT {target?mein Vorgesetzter|meine Vorgesetzte}. Ändern Sie das. Sofort.
+5088|Tja. Das Organigramm lügt nicht.
+5089|Ich wusste immer, dass sie irgendwann zur Vernunft kommen.
+5090|Wurde auch Zeit.
+5091|Das war ich nicht! Bitte glauben Sie mir!
+5092|Nehmt das ab! NEHMT DAS AB!
+5093|{actor}, Ihr Bericht hört einfach... auf. Wo ist das Fazit?
+5094|Seite zwölf von zwölf fehlt, {actor}. Die wichtige.
+5095|Die war da! Ich habe dreizehn Seiten gedruckt!
+5096|Was? Ich habe definitiv ein Fazit geschrieben!
+5097|...und das Fazit lautet— es gibt kein Fazit. {owner}!
+5098|Wo ist die letzte Seite? {owner}, kommen Sie her.
+5099|Ich bin auf der Shortlist?! GANZ OBEN auf der Shortlist?!
+5100|Ich! Der erste Name auf der Beförderungsliste!
+5101|Ist das echt? Kneif mich. Nein, lieber nicht.
+5102|Rate mal, wessen Name ganz oben auf der Beförderungs-Shortlist steht?
+5103|Sag's keinem... aber ich steh ganz oben auf der Shortlist.
+5104|Welche Shortlist? Es GIBT noch keine Shortlist.
+5105|Wer Ihnen das erzählt hat, hat gelogen. Zurück an die Arbeit.
+5106|{actor}! Laut Ihrem Bericht haben Sie Ihre Leistung verdoppelt. Beeindruckend!
+5107|Ich habe gerade Ihren Leistungsbericht gelesen, {actor}. Vorbildlich.
+5108|{actor}. Ihr Leistungsbericht ist... besorgniserregend.
+5109|Wir müssen über Ihre Zahlen reden, {actor}. Sie sind furchtbar.
+5110|Oh! Danke! Ich... wusste nicht, dass er so gut ist.
+5111|Wow. Nehm ich!
+5112|Furchtbar? Ich arbeite sogar am Wochenende!
+5113|Das stimmt nicht! Das können nicht meine Zahlen sein!
+5114|{actor} hat eine glänzende Beurteilung bekommen? Wofür denn?
+5115|Unglaublich. Ausgerechnet {actor}.
+5116|„Budget für Gehaltserhöhungen dieses Jahr: NULL“?!
+5117|Null Gehaltserhöhungen. Für niemanden. Dieses Jahr.
+5118|Das war's also. Keine Erhöhungen. Super.
+5119|Null? Das steht so aber nicht im Budget...
+5120|Wozu strengen wir uns überhaupt an?
+5121|Heute Abend aktualisiere ich meinen Lebenslauf.
+5122|Null. Nach so einem Jahr.
+5123|Ahmet Bey, das Budget für Gehaltserhöhungen ist nicht null. Wer hat das aufgehängt?
+5124|Jemand verbreitet falsche Budgetzahlen. Es ist nicht null.
+5125|NULL? Ich habe nie null gesagt! Nehmen Sie das ab!
+5126|Das ist nicht meine Zahl! Wer hat das geschrieben?
+5127|Eine GEHALTSERHÖHUNG?! Für MICH?!
+5128|„Ihre Gehaltserhöhung wurde genehmigt“... JA!
+5129|...Hm. Vielleicht bleib ich doch.
+5130|Der Brief war nicht für dich, {target}. Der ist für {rich}.
+5131|Sorry, {target} — Verwechslung in der Lohnbuchhaltung. Die Erhöhung ist für {rich}.
+5132|...Natürlich.
+5133|Klar. Natürlich. Vergiss es.
+5134|Eine Bewerbung? Von {applicant}? Bei der KONKURRENZ?
+5135|So. {applicant} will also gehen.
+5136|{target}. Ich habe Ihre Bewerbung gefunden. Möchten Sie das erklären?
+5137|Sie planen, uns zu verlassen, {target}?
+5138|...Wenn es ums Geld geht, reden wir. Ich will Sie nicht verlieren.
+5139|Was müsste passieren, damit Sie bleiben?
+5140|Gut. Wenn Sie gehen wollen, gehen Sie. Aber erwarten Sie kein Zeugnis.
+5141|Illoyalität. Das merke ich mir.
+5142|...Ja. Ich habe mich umgesehen. Ich bin hier nicht glücklich.
+5143|Ich werde Sie nicht anlügen. Ich habe mich beworben.
+5144|Eigentlich — warum warten? Alle mal herkommen!
+5145|Ich habe mich entschieden. Zeit für eine Ankündigung. Jetzt.
+5146|Moment, die Beförderung wurde verkündet? Ich war in der Küche!
+5147|Die haben es OHNE mich verkündet?
+5148|{target} ist die Nummer eins auf der Verkaufstafel? Seit wann?
+5149|Moment, {target} hat mehr verkauft als MERT?
+5150|Nummer ZWEI? Ich? Hinter {target}?!
+5151|{target}! Ganz oben auf der Verkaufstafel! Gut gemacht!
+5152|Sieh einer an. {target}, unser neuer Verkaufschampion.
+5153|Das sind MEINE Zahlen! Ich hab diese Deals abgeschlossen!
+5154|Das ist ein Fehler. Ich bin die Nummer eins. Ich bin immer die Nummer eins.
+5155|Mein Gespräch ist verschoben... „auf unbestimmte Zeit“?
+5156|„Gespräch verschoben — kein neuer Termin.“ Was soll DAS heißen?
+5157|Ahmet Bey, warum wurde mein Gespräch auf unbestimmte Zeit verschoben?
+5158|Gibt es einen Grund, warum mein Gespräch immer wieder verschoben wird?
+5159|Verschoben? Ich habe nichts verschoben. ...Oder doch?
+5160|Ihr Gespräch? Hm. Nächsten Monat. Wahrscheinlich.
+5161|{me?Mitarbeiter|Mitarbeiterin} des Monats? ICH?
+5162|Mein Name! Auf der Urkunde! An der Pinnwand!
+5163|{target}? {target?Mitarbeiter|Mitarbeiterin} des Monats? Im Ernst?
+5164|Wer hat denn {target} ausgewählt?!
+5165|...Tja. Jetzt ist es gedruckt. Glückwunsch, {target}.
+5166|Hm. Na gut. Sie haben sich... irgendwas verdient.
+5167|Diese Urkunde ist falsch. Da sollte {rich} stehen.
+5168|Korrektur: {rich?Mitarbeiter|Mitarbeiterin} des Monats ist {rich}. Nicht {target}.
+5169|„Danke für Ihren herausragenden Einsatz — Ahmet.“ Für MICH?
+5170|Ein handgeschriebenes Dankeschön von Ahmet! Das lass ich einrahmen.
+5171|Ahmet Bey, danke für die nette Notiz!
+5172|Ihre Notiz hat mir den Tag versüßt, Ahmet Bey.
+5173|...Notiz? Die war für {rich}.
+5174|Ah. Die war eigentlich für {rich} gedacht.
+5175|Ich repariere also alles, und das Dankeschön geht an {target}. Super.
+5176|Schön. Meine Dankeskarte, jemand anderes Schreibtisch.
+5177|Ahmet hat „zuverlässig, künftige Führungskraft“ über mich geschrieben!
+5178|Er findet mich „hervorragend“! Schriftlich!
+5179|„Braucht ständige Aufsicht“?! Das denkt er von mir?
+5180|Ahmets Notiz über mich: „enttäuschend“. Wow.
+5181|WER HAT MEINE PRIVATEN NOTIZEN AN DIE PINNWAND GEHÄNGT?!
+5182|Die waren PRIVAT!
+5183|Die Karte eines Headhunters? „Rufen Sie mich an — wir zahlen das Doppelte“?
+5184|„Führungsposition, doppeltes Gehalt. Rufen Sie an.“ Auf meinem Tisch?
+5185|Ahmet Bey — ein Headhunter wirbt um mich. Nur damit Sie es wissen.
+5186|Man hat mir das Doppelte angeboten. Ich würde lieber bleiben... zum richtigen Preis.
+5187|...Na gut. Reden wir über Ihr Gehalt.
+5188|Rufen Sie da nicht an. Wir finden eine Lösung.
+5189|Dann gehen Sie. Niemand ist unersetzlich.
+5190|Dann rufen Sie halt an.
+5191|„Pflichtkurs Aggressionsbewältigung“?! Für MICH?!
+5192|Wer hat mich für AGGRESSIONSBEWÄLTIGUNG angemeldet?!
+5193|Ha! Aggressionsbewältigung!
+5194|Da wird jemand nächste Woche sehr entspannt sein!
+5195|Namaste, mein Freund.
+5196|...Na gut. Vielleicht geh ich hin. Könnte nützlich sein.
+5197|Okay. Tief durchatmen. Ich bin ruhig. Ich bin RUHIG.
+5198|Laut Lohnabrechnung ist mein Titel... „{me?PRAKTIKANT|PRAKTIKANTIN}“?!
+5199|„Willkommen im Team, {me?Praktikant|Praktikantin}!“ Ich bin seit fünf Jahren hier!
+5200|Ahmet Bey, warum werde ich als {me?PRAKTIKANT|PRAKTIKANTIN} geführt?
+5201|Wurde ich degradiert? {me?Zum Praktikanten|Zur Praktikantin}?!
+5202|{to?Praktikant|Praktikantin}? Unsinn. HR-Fehler. Wahrscheinlich.
+5203|Sie sind {to?kein Praktikant|keine Praktikantin}. Beruhigen Sie sich.
+5204|Willkommen im Club!
+5205|Praktikanten aller Länder, vereinigt euch!
+5206|„Versetzungsantrag: in die Filiale Erzurum“?! Den hab ich nie gestellt!
+5207|Die schicken mich nach ERZURUM?
+5208|Ahmet Bey, wollen Sie mich loswerden?
+5209|War dieser Versetzungsantrag Ihre Idee?
+5210|Versetzung? Sie? Wer würde dann Ihre Arbeit machen?
+5211|Ich würde Sie nie wegschicken. Setzen Sie sich.
+5212|...Erzurum ist um diese Jahreszeit herrlich.
+5213|Hm. Nicht meine Idee. Aber auch keine schlechte.
+5214|„Beförderungskriterien: freitags Kuchen mitbringen“? ...Heute ist quasi Freitag.
+5215|Kuchen bringt einem eine Beförderung? Kuchen kann ich.
+5216|„Muss über Ahmets Witze lachen“? Notiert.
+5217|Über seine Witze lachen. Okay. Das kann ich vortäuschen.
+5218|HAHAHA! Ahmet Bey, das ist zum Brüllen!
+5219|Ha! Ach, Ahmet Bey, ich kann nicht mehr!
+5220|...Ich habe gar nichts Lustiges gesagt.
+5221|Warum lachen heute alle über alles, was ich sage?
+5222|Kuchen! Für alle! Ohne Grund!
+5223|Ich hab Kuchen mitgebracht. Einfach so. Hat überhaupt nichts mit irgendwas zu tun.
+5224|Ein Empfehlungsschreiben? Von Ahmet? „Für Positionen anderswo wärmstens empfohlen“...
+5225|Ahmet hat mir ein Empfehlungsschreiben geschrieben. Für ANDERE Jobs. Ist das ein Wink?
+5226|Er will mich loswerden. Das soll das heißen.
+5227|„Anderswo.“ Verstanden.
+5228|...Tja. Dann kann ich's auch benutzen.
+5229|Eine glänzende Empfehlung? Die setz ich ein.
+5230|Ich steh auf der WOCHENEND-Überstundenliste?! Da heiratet meine Schwester!
+5231|Wochenendschicht? Ich? Wer hat das entschieden?!
+5232|{suspect} macht diese Listen. Ich WEISS es.
+5233|Das war {suspect}.
+5234|Ahmet Bey, ich kann dieses Wochenende nicht arbeiten. Bitte.
+5235|Da muss ein Fehler in der Überstundenliste sein.
+5236|Wer auf der Liste steht, steht auf der Liste.
+5237|Regeln sind Regeln.
+5238|Hier sind die Unterlagen, die Sie wollten, {target?Chef|Chefin}... äh, {target}?
+5239|{target}, laut Türschild bist du jetzt die Leitung. Unterschreibst du das?
+5240|Leg's auf den Stapel. Ich kümmer mich drum. Vielleicht.
+5241|Ja, ja. Lass es bei mir.
+5242|Ausgezeichnet. Leg es auf MEINEN Schreibtisch.
+5243|Ich bin nicht die Leitung! Das Schild ist falsch!
+5244|Gebt mir das nicht! Ich will das nicht!
+5245|WARUM steht an meiner Tür „{target} — Leitung“?!
+5246|Wer hat mein Namensschild geändert?!
+5247|...Das ist nicht mein Handy. Und diese Nachricht ist nicht für mich.
+5248|Moment. Wessen Handy ist— oh. OH.
+5249|Das ist nicht mein Sperrbildschirm. Aber die Nachricht hab ich schon gelesen.
+5250|Ich glaube, wir haben die Handys vertauscht. Hier. Ich hab... nichts gelesen.
+5251|Dein Handy. Kann sein, dass ich eine Nachricht gesehen hab. Sorry.
+5252|Du hast sie GELESEN?!
+5253|Bitte sag mir, dass du die Nachrichten nicht gelesen hast.
+5254|Ha, die sehen gleich aus. Danke.
+5255|Kein Problem. Hier ist deins.
+5256|MAMA?! Jetzt nicht, Mama! Ich bin auf der ARBEIT!
+5257|Mama, ich hab dich lieb, aber ich bin gerade mitten in— hallo? Mama?
+5258|...Warum ruft mich mein EX an?
+5259|Mein Ex. Ruft mich an. Im Büro. Toll.
+5260|Ein Personalvermittler? Ruft mich HIER an?
+5261|„Talent Partners GmbH“? ...Das nehm ich draußen an.
+5262|Es ist Ahmet! Ja, Ahmet Bey? ...Hallo? ...Er hat aufgelegt.
+5263|Ahmet ruft von seinem Schreibtisch an? Warum schreit er nicht einfach?
+5264|War das ein Headhunter, der {owner} angerufen hat?
+5265|Hm. {owner} hat gerade einen Anruf von einem Headhunter bekommen.
+5266|Wer war DAS am Telefon?
+5267|Dein Ex? Ruft dich an? Heute?
+5268|*TATÜ-TATA*
+5269|*LUFTALARM-SIRENE*
+5270|♪ Mein Herz macht bum-bum-bum für diiich ♪
+5271|♪ Oh mein Zuckerschnäuzchen, mein Schatz, uuuh ♪
+5272|*UÄÄÄH UÄÄÄH*
+5273|*Baby schreit laut*
+5274|Wer hat eine SIRENE als Klingelton?!
+5275|Weint da gerade... ein Handy?
+5276|Kommt da etwa ein LIEBESLIED aus {owner:s} Tasche?
+5277|Wessen Handy ist das?! AUSSCHALTEN!
+5278|Das ist nicht mein Klingelton! Mach, dass es aufhört!
+5279|Den hab ich nicht ausgesucht! Ich schwöre!

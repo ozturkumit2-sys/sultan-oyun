@@ -90,8 +90,19 @@ func t(k: String) -> float:
 
 func role_title() -> String:
 	if title_override != "":
-		return title_override
-	return def.get("role", "")
+		return Loc.t(title_override) if title_override.begins_with("title.") else title_override
+	var k := "char.%s.role" % id
+	return Loc.t(k) if Loc.has(k) else str(def.get("role", ""))
+
+
+## Short personality notes for the personnel file, in the current language.
+func bio() -> Array:
+	var out: Array = []
+	var src: Array = def.get("bio", [])
+	for i in src.size():
+		var k := "char.%s.bio%d" % [id, i + 1]
+		out.append(Loc.t(k) if Loc.has(k) else str(src[i]))
+	return out
 
 
 # ------------------------------------------------------------------ relationships

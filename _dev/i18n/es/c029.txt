@@ -1,0 +1,183 @@
+5676|¡¿Esos son {target} y {partner}... tomados de la mano?!
+5677|¡Una foto de {target} y {partner}! ¡Juntos!
+5678|¡Es FALSA! ¡Es un montaje!
+5679|¡NUNCA nos hemos tomado de la mano!
+5680|...Es falsa. Obviamente. ...Aunque es una foto bonita.
+5681|Ja. Falsa. Claro. Totalmente falsa.
+5682|«¡Copas después del trabajo! ¡Todos invitados!» ...Menos yo, por lo visto.
+5683|Están todos los nombres en la lista menos el mío.
+5684|Bueno... tu invitación a las copas. ¿Me dejaste fuera a propósito?
+5685|¿Por qué no estaba en la lista?
+5686|¿Qué? ¡No! ¡Estás {to?invitado|invitada}! ¡Claro que estás {to?invitado|invitada}!
+5687|¡Esa no es mi lista! ¡Ven! ¡Por favor, ven!
+5688|Bueno... es un grupo pequeño.
+5689|No es para tanto.
+5690|«Gracias, Burak, por arreglarlo todo.» ¡Un bote de propinas! Me apunto.
+5691|¿Un bote de propinas para Burak? Se lo merece.
+5692|...¿Esto es para mí? ¿Quién hizo esto?
+5693|Un bote de propinas. Para mí. Vaya. Gracias a todos.
+5694|Seis notas que dicen «Asciendan a {target}». Interesante.
+5695|Parece que el personal adora a {target}. Anotado.
+5696|¡¿Seis notas que dicen «Despidan a {target}»?! ¿Qué está pasando?
+5697|Mmm. A alguien de VERDAD no le cae bien {target}.
+5698|¡¿La gente escribió «despídanme» en el buzón de sugerencias?!
+5699|¡¿Quién escribiría eso sobre mí?!
+5700|«Sé lo que hiciste.» ...¿Qué? ¡¿QUIÉN sabe QUÉ?!
+5701|«Sé lo que hiciste.» Sin firma. Me tiemblan las manos.
+5702|Tengo que contárselo a alguien. Vale. {friend}... tengo que decirte algo.
+5703|{friend}, ¿podemos hablar? ¿En algún lugar privado?
+5704|Todos me están mirando. Todos lo saben. ¿Verdad?
+5705|¿Fuiste tú? ¡¿Fuiste TÚ?!
+5706|Antes de empezar: tengo noticias sobre el ascenso. He leído el expediente.
+5707|Primero un anuncio. El expediente de ascensos es muy claro.
+5708|¿Una nota de amor Y una invitación a un café? ¿De {owner}? ¿Hoy?
+5709|Dios mío. ¿{owner} quiere una CITA?
+5710|¿Una solicitud de empleo grapada a ESTE informe de desempeño? {applicant}. A mi oficina.
+5711|Así que {applicant} se quiere ir. Y miren este informe.
+5712|Tu informe es un desastre y estás buscando trabajo en otro sitio. Explícate.
+5713|¿Buscando trabajo? ¿Con estos números? Interesante.
+5714|¿Sabe qué? Está bien. Renuncio. Voy a imprimir mi carta ahora mismo.
+5715|Se acabó. Tendrá mi renuncia en diez minutos.
+5716|Por favor, ¡el informe está mal! ¡Puedo explicarlo todo!
+5717|¡Ese no es mi informe! ¡Alguien lo cambió!
+5718|*fiuuu* — «Cifras finales, CC Ahmet» — enviado.
+5719|*la hoja de cálculo vieja abandona el edificio*
+5720|¡¿«Reestructuración — preguntas y respuestas, 11:00»?! ¡¿Está en el ORDEN DEL DÍA?!
+5721|¿El memo Y el orden del día? Esto es real. Están despidiendo gente.
+5722|La pizarra dice que hoy dirijo yo en funciones. ¿Quién soy yo para discutir?
+5723|«Dirección en funciones: yo.» Bueno. Si la pizarra lo dice.
+5724|¡LAS LUCES PARPADEAN Y EN MI PANTALLA HAY UNA CALAVERA!
+5725|Ahora está en las COMPUTADORAS. ¡El fantasma está en las computadoras!
+5726|Presupuesto para aumentos: CERO. ¡¿Y ESO es lo que ganan algunos?!
+5727|He visto la nómina. ¿Y ahora «no hay aumentos»? No. De ninguna manera.
+5728|¿Música? ¿Luces de discoteca? ¿SNACKS? Esto es una fiesta. Lo voy a convertir en una fiesta.
+5729|Vale, el universo quiere una fiesta. ¿Quién soy yo para decir que no?
+5730|Una solicitud de traslado. Y una carta de recomendación. Ambas para {target}.
+5731|Mmm. Los papeles de {target}. Los dos. Interesante.
+5732|«¿Cita doble en el almuerzo?» ¡¿Quién escribió eso en nuestra foto?!
+5733|Alguien dibujó corazones en la foto. Y una mesa de almuerzo. Para cuatro.
+5734|EL CLIENTE LLEGA EN 30 MINUTOS: primero el proyector.
+5735|*da un golpecito a la pizarra* «Presentación al cliente: {presenter}». Un momento. ¿Yo?
+5736|¡¿«Lo tiré todo. Etiqueten su comida. — {signer}»?!
+5737|¡¿{signer} tiró el almuerzo de TODOS? ¿Y lo firmó?!
+5738|¿Respuesta automática de «renuncio» Y una carta de renuncia? ¡{owner} se va de verdad!
+5739|Ay, no. {owner} se va. Es real. La carta está ahí.
+5740|Esa evaluación estaba AMAÑADA. ¡Alguien reescribió mi informe y él se creyó cada palabra!
+5741|Me leyó un informe que yo nunca escribí. Y lo disfrutó.
+5742|¡¿La queja anónima sobre mí está escrita con la letra de {gossip}?!
+5743|Así que fue {gossip}. El rumor Y la queja.
+5744|¿Una nota amable Y un cumplido en el tablón? Le gusto a alguien. ¡¿A quién?!
+5745|¿Dos cosas bonitas anónimas en un día? Esto es un admirador secreto.
+5746|Se los digo: esta oficina está EMBRUJADA.
+5747|Luces. Impresoras. Cafeteras. Es un fantasma. Estoy {me?seguro|segura}.
+5748|Algo vive en esta oficina. Algo... invisible.
+5749|Hay un FANTASMA. Tengo miedo pero también estoy SÚPER emocionada.
+5750|He visto cosas. Estoy tomando notas.
+5751|Sesión de espiritismo. Sala de reuniones. Después de comer. ¿Te apuntas?
+5752|Tenemos que contactar con el fantasma. Como es debido. ¿Estás conmigo?
+5753|SÍ. Yo traigo las velas.
+5754|Me apunto. Siempre he querido hacer una sesión de espiritismo.
+5755|Ni hablar. Tú necesitas dormir.
+5756|No pienso hablar con el alma de la impresora.
+5757|Espíritu de la oficina... ¿estás ahí? Golpea una vez para decir sí.
+5758|Oh, fantasma... si estás aquí... haz parpadear las luces.
+5759|¡AAAAAH! ¡RESPONDIÓ!
+5760|¡LAS LUCES! ¡¿VIERON LAS LUCES?!
+5761|...Nada.
+5762|Quizás está en su descanso para comer.
+5763|Bueno. Ahí se fue una hora de mi vida.
+5764|Era un cable suelto en el techo. No un fantasma. Por favor, paren.
+5765|Revisé el cuadro eléctrico. Un relé defectuoso. No hay ningún fantasma.
+5766|...Ah. Un relé. Claro. Por supuesto.
+5767|Está bien. No hay fantasma. ...Probablemente.
+5768|Eso es EXACTAMENTE lo que un fantasma querría que dijeras.
+5769|No puedes explicarlo todo con «relés», Burak.
+5770|¡Atención, todos! Nuevas medidas de eficiencia, con efecto inmediato.
+5771|Escuchen. Mientras Ahmet está ocupado, voy a optimizar las cosas.
+5772|Equipo. Unos cambios. Vigentes desde ya. ¿Preguntas? ¿No? Bien.
+5773|Claro, lo que tú digas.
+5774|¡Vale! ¡Nuevas reglas!
+5775|¿Quién te puso a TI al mando?
+5776|Tú no eres {to?el jefe|la jefa}.
+5777|Buen intento.
+5778|Tú y yo. Cuando Ahmet no esté, dirigimos esto. ¿Trato hecho?
+5779|Necesito una mano derecha. ¿Te interesa?
+5780|...Trato hecho. ¿Qué gano yo?
+5781|Te escucho.
+5782|Vas a hacer que nos despidan a los dos.
+5783|A mí no me metas en esto.
+5784|Me han dicho que TÚ has estado dirigiendo mi oficina, {usurper}.
+5785|¿«Medidas de eficiencia», {usurper}? ¿En MI oficina?
+5786|Alguien tenía que hacerlo. Todo se estaba viniendo abajo.
+5787|Tomé la iniciativa. De nada.
+5788|Estás pisando hielo fino. Muy fino.
+5789|Una más de estas y se acabó para ti aquí.
+5790|...En realidad, algunas de esas medidas no están mal. Ponlas por escrito.
+5791|Mmm. Atrevido. Quizás demasiado. Pero no es una tontería.
+5792|...¿{lover} está coqueteando con {crush}? ¿Delante de mí?
+5793|Ah, ya veo. {lover} y {crush}. Qué tierno.
+5794|Apártate. Yo vi a {crush} primero.
+5795|Aléjate de {crush}. Lo digo en serio.
+5796|...Está bien. Si tanto te importa.
+5797|Vale. Vale. Me hago a un lado.
+5798|Que gane el mejor.
+5799|Ni lo sueñes. Que decida {crush}.
+5800|Te hice un café. Como te gusta. Con un corazón en la espuma.
+5801|Te traje algo. Lo vi y pensé en ti.
+5802|...Qué detalle tan bonito.
+5803|¡Ah! ¡Gracias!
+5804|¡¿Te acordaste?!
+5805|Bueno. ¿Yo o {lover}? Necesito saberlo.
+5806|Tengo que preguntarlo: ¿hay algo entre tú y {lover}?
+5807|...¿Sinceramente? Eres tú. Siempre fuiste tú.
+5808|Tú. Obviamente tú.
+5809|Lo siento. Me gusta {lover}.
+5810|Es {lover}. Lo siento.
+5811|¡Ninguno de los dos! ¡Son ridículos los dos!
+5812|No soy un trofeo. No voy a elegir a nadie.
+5813|Cada año trabajamos más y ganamos MENOS. Basta.
+5814|¿Alguien más está harto de esto? Porque yo sí.
+5815|Deberíamos hacer algo. Juntos.
+5816|¿Firmas la petición? Aumentos justos para todos.
+5817|Una firma. Por todos nosotros.
+5818|Dame ese bolígrafo.
+5819|Firmado. Ya era hora.
+5820|Vale. Me apunto.
+5821|No puedo arriesgarme.
+5822|A mí déjame fuera. Me gusta mi trabajo.
+5823|No es mi lucha.
+5824|Mira todas estas firmas. No pueden ignorar esto.
+5825|Somos muchos. Ahora, a por ellos.
+5826|...Dos firmas. Una es la mía.
+5827|Nadie firmó. Cobardes. Todos.
+5828|Ahmet Bey, pedimos aumentos justos. Todos.
+5829|Hemos firmado una petición. Queremos un sueldo justo.
+5830|...Está bien. Lo llevaré a la central. Recibirán algo. Lo prometo.
+5831|Tienen razón. Lucharé por ello.
+5832|¡¿Una PETICIÓN?! ¡Esto no es un sindicato!
+5833|El que no esté contento ya sabe dónde está la puerta.
+5834|¡Es la TERCERA vez! Voy a averiguar quién es.
+5835|En esta oficina hay un LADRÓN DE ALMUERZOS. Y lo voy a atrapar.
+5836|Tú te fijas en todo. ¿Me ayudas a atrapar a un ladrón de almuerzos?
+5837|Necesito un detective. Eres la persona más chismosa que conozco. Es un cumplido.
+5838|¿Un misterio? ¡Me APUNTO!
+5839|Déjamelo a mí. Nadie roba un almuerzo en mi guardia.
+5840|*{me?escondido|escondida} tras la puerta de la nevera* En cualquier momento...
+5841|Vigilancia. Nevera. Ojos abiertos.
+5842|¡TE PILLÉ! ¡Las manos fuera de ese almuerzo, {culprit}!
+5843|¡Te pillamos con las manos en la masa, {culprit}! ¡Con un TENEDOR!
+5844|Yo... ¡parecía abandonado!
+5845|¡Creí que era comida gratis!
+5846|No es lo que parece. Es exactamente lo que parece.
+5847|Nada. Nadie. El ladrón debe de saber que estamos vigilando.
+5848|Dos horas junto a la nevera. Ni un yogur.
+5849|Un «almuerzo» extrapicante, con la etiqueta «NO COMER». A ver quién se resiste.
+5850|*deja una caja sospechosamente deliciosa en la nevera* El cebo está listo.
+5851|¡JJJJJ...! ¡AGUA! ¡AGUA!
+5852|¡¿POR QUÉ PICA TANTO?!
+5853|¡Me ARDE la boca!
+5854|¡JAJA! ¡Te lo mereces!
+5855|¡Que alguien le traiga leche!
+5856|¡Eso te pasa por robar!
+5857|¡{culprit?Atrapado|Atrapada} por el chile! ¡Es {culprit}!
+5858|¡El cebo funcionó! ¡{culprit}, te pillamos!

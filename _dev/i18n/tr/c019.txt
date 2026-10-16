@@ -1,0 +1,222 @@
+3584|...Peki. İkiniz de düzeltin.
+3585|Hm. Tamam. Bir daha olmasın.
+3586|Bir dahaki sefere bana daha erken söyle.
+3587|{enemy:in} sorun olduğunu ikimiz de biliyoruz. Belki birbirimize yardım ederiz.
+3588|Sen ve ben, {enemy:e} karşı. Bir düşün.
+3589|Bende bilgi var. Sende erişim. Ortak mıyız?
+3590|Pratik olalım. {enemy} yolumuzu tıkıyor. Birlikte daha hızlı ilerleriz.
+3591|...Dinliyorum.
+3592|Anlaştık. Ama bu konuşma hiç yaşanmadı.
+3593|Ortağız. Sessizce.
+3594|Senin entrikalarına bulaşmam.
+3595|Hayır. Ve yerinde olsam bırakırdım.
+3596|Beni bunun dışında tut.
+3597|İşte bildiklerim...
+3598|Taze istihbarat. Dinle.
+3599|Bunu benden duymadın.
+3600|İşe yarar. Çok işe yarar.
+3601|İlginç...
+3602|İşte şimdi konuşuyoruz.
+3603|Hop— hop— HOOP.
+3604|Sandalyem neden alçalıyor?!
+3605|*yavaşça masanın altına gömülür*
+3606|HAHAHA, nereye gittin?
+3607|Denize adam düştü!
+3608|Biri vinç getirsin!
+3609|Kaptan gemiyle birlikte batıyor!
+3610|...Bilerek yaptım.
+3611|Eh. İşte haysiyetim de gitti.
+3612|Hahaha, tamam, bu komikti.
+3613|BİR yoğurdu kimse aramaz.
+3614|Bu börek kimin? ...Artık benim.
+3615|Bulan alır.
+3616|ÖĞLE YEMEĞİMİ KİM YEDİ?!
+3617|Böreğim! Üstünde ADIM yazıyordu!
+3618|Biri yemeğimi yemiş. Çığlık atacağım.
+3619|Öğle yemeğimi kim yediyse: seni bulacağım.
+3620|...Sandviçim. Tek mutluluğum.
+3621|{suspect} yaptı. Eminim.
+3622|Bahse girerim {suspect} yaptı.
+3623|{suspect} demin buzdolabının başında dolanıyordu...
+3624|*pat pat* Bugün harika iş çıkardın, dostum!
+3625|Hey, güzel gömlek. *sırtını sıvazlar*
+3626|Aferin, şampiyon. *sırtına şaplak*
+3627|*kıkırdar*
+3628|Pfff— hiç! Hiçbir şey.
+3629|Hahaha, sırtını gördün mü?
+3630|Sırtımda bir şey mi— "BANA TEKME AT" mı?! MERT!
+3631|Çok komik. ÇOK komik.
+3632|BU ne zamandır sırtımda?!
+3633|...Tamam, bu azme saygı duyuyorum.
+3634|Hah. Bunu ödeyeceksin. Sevgiyle.
+3635|AY! Oraya cam duvarı kim koydu?!
+3636|*GÜM*
+3637|...O kapı açık değilmiş. Not edildi.
+3638|Ah! İyi misin?
+3639|Bu iz bırakır.
+3640|On üzerinden on, tekrar izlerim.
+3641|HAYIR HAYIR HAYIR, klavye olmaz!
+3642|Çayım! KLAVYEM!
+3643|Klavyem neden... çıtırdıyor?
+3644|Kek yaptım! Mutfağa! Herkes!
+3645|Mutfakta ev yapımı kek var. Mert bulmadan çabuk gelin.
+3646|Kek! Kek yaptım!
+3647|Kek yaptım! Biraz yamuk ama sevgi DOLU!
+3648|Aman tanrım, bu muhteşem.
+3649|Tarifini alabilir miyim?
+3650|Haftamın en güzel anı.
+3651|Bu... havuçlu mu? Bayıldım.
+3652|İkinci dilimi alıyorum. Araştırma amaçlı.
+3653|...Kabul edilebilir. Gayet kabul edilebilir.
+3654|Açıkçası o işin yarısını {target} yaptı.
+3655|Ahmet Bey — {target} olmadan yapamazdım.
+3656|Övgü {target:e} de ait.
+3657|Bunu söylemek zorunda değildin. Teşekkürler.
+3658|Vay. Bunun için teşekkürler.
+3659|Bu benim için çok değerli.
+3660|EVET! EVET! KAPATTIM!
+3661|EN İYİSİ KİM? EN İYİSİ BENİM!
+3662|İmzalandı! İMZALANDI! Biri bana kek getirsin!
+3663|BÜYÜK OLANI! BÜYÜK SATIŞI KAPATTIM!
+3664|Vuuu! Helal Mert!
+3665|Güzel!
+3666|Konuşma! Konuşma!
+3667|İçkiler senden!
+3668|İşte BÖYLE yapılır!
+3669|Mükemmel. Mükemmel!
+3670|Nihayet, biraz iyi haber.
+3671|Şans. Tamamen şans.
+3672|Ne güzel, ona da çıktı.
+3673|Hm. Aferin ona.
+3674|Müşteri zaten imzalayacaktı.
+3675|Bu rakamlar tutmuyor...
+3676|Dur. Bunu kim onayladı?
+3677|Zeynep'in raporunda kamyon büyüklüğünde bir delik var.
+3678|Zeynep. Odama.
+3679|Zeynep! Tablolarını getir.
+3680|...Bir hataydı. Kimse görmeden düzeltecektim.
+3681|Tamam. Evet. Batırdım. Düzelteceğim.
+3682|Bu... muhtemelen Ece'nin veri girişi.
+3683|Biri dosyamı değiştirmiş olmalı!
+3684|Bunu kimin yaptığına bakacağım.
+3685|Düzelteceksin. Bu gece.
+3686|Bu aramızda kalacak. Şimdilik.
+3687|Senden daha iyisini beklerdim.
+3688|...ki bu komik, çünkü {fact}
+3689|— ah, tıpkı şu gibi: {fact} Eyvah.
+3690|Gerçi kimse bilmiyor: {fact} Dur. Bunu söylediğimi unutun.
+3691|Ah! Laf açılmışken, {fact} ...Bu sır mıydı?
+3692|Ha, bir de şunu unutma: {fact} — ah. Eyvah.
+3693|Bunu GERÇEKTEN söylemedin.
+3694|Sana güvenmiştim!
+3695|...Çok sağ ol.
+3696|Hıh. Sunucu kayıtlarına göre biri gece yarısı koca bir klasörü kopyalamış.
+3697|İlginç... Selin'in dosyalarına kimin erişimi var?
+3698|Bak sen. Kayıtlar asla yalan söylemez.
+3699|{target}, sunucu kayıtlarında bir şey buldum. Bunu görmen lazım.
+3700|Kurcalamıyordum. Tamam, kurcalıyordum. Şuna bak.
+3701|NE yapmış?
+3702|Biliyordum. BİLİYORDUM.
+3703|Bunu benim için yazdırabilir misin?
+3704|...
+3705|Hıh.
+3706|*başını öbür tarafa çevirir*
+3707|Ha. Sensin.
+3708|*bariz şekilde görmezden gelir*
+3709|*buz gibi bakış*
+3710|{victim} hakkında bir şey duymak ister misin? Tam bir tembel. Her öğleden sonra sıvışıyor.
+3711|Kimseye söyleme ama {victim} arkandan seni yerin dibine sokuyor.
+3712|Aramızda kalsın — {victim} kovulmak üzere.
+3713|Duydum ki {victim} biraz... işleri kestirip atıyormuş. Hem de fena.
+3714|Gerçekten mi?! Hıh.
+3715|Bunu BİLMİYORDUM.
+3716|İlginç...
+3717|Buna inanmadan önce kanıt görmek isterim.
+3718|Hey. Sana kahve getirdim. Konuşabilir miyiz?
+3719|Bunu sürdürmek istemiyorum. Ateşkes?
+3720|Bak... özür dilerim. Gerçekten.
+3721|Sana bir kart yaptım. Üç dilde özür diliyor.
+3722|Barış hediyesi: bir simit, biraz ezik.
+3723|...Tamam. Ateşkes.
+3724|Teşekkürler. Ben de özür dilerim.
+3725|Peki. Gel buraya.
+3726|Henüz değil. O olanlardan sonra değil.
+3727|Bunu bir kahvenin düzelteceğini mi sanıyorsun?
+3728|Hayır.
+3729|Olamaz. {subject} değil. İnanmıyorum.
+3730|Bu doğru değil. Ben {subject:i} tanırım.
+3731|Bunu kim dediyse {subject:i} tanımıyor.
+3732|...Gelmiyor, değil mi?
+3733|Ben de... burada dikileyim. Yalnız. Süper.
+3734|İnanılmaz. Kahve makinesinin başında ekildim.
+3735|Döndüm! Bir şey kaçırdım mı?
+3736|Döndüm. Sorma.
+3737|Tamam, nerede kalmıştım?
+3738|...Dişçi. Dişçideydim.
+3739|{victim:in} müşteri teklifi harika. Onda kalsa yazık olur.
+3740|Bazı fikirler, onları bulan kişi için fazla iyidir.
+3741|Ahmet bu teklife bayılır. Doğru kişiden gelirse.
+3742|Selin'in taslağı yine ekranında açık. Ne dikkatsiz.
+3743|Ahmet Bey, bir şey üzerinde çalışıyordum. Yeni bir müşteri iş akışı — proje başına bir hafta kazandırıyor.
+3744|Beş dakikanız var mı? Sunum yapma şeklimizi değiştirebilecek bir fikrim var.
+3745|Bir teklif hazırladım. Kendi ağzımla söylemek gibi olmasın ama oyunun kurallarını değiştirir.
+3746|...Bu gerçekten parlak. Daha önce neden kimse düşünmedi?
+3747|İşte görmek istediğim BU.
+3748|Mükemmel. Yazıya dök.
+3749|Herkes! Dinleyin. {thief} mükemmel bir teklif hazırladı. İşte inisiyatif! Ondan öğrenin!
+3750|Hepiniz bilin: {thief:in} yeni iş akışı fikri tam da bu ofisin ihtiyaç duyduğu düşünce.
+3751|...Dur. O BENİM fikrim.
+3752|Pardon? O benim teklifim.
+3753|Bu... iki haftadır üzerinde çalıştığım şey.
+3754|Teşekkürler Ahmet Bey. Sadece işimi yapıyorum.
+3755|Katkı sağlamaktan mutluluk duyarım.
+3756|O benim fikrimdi. Değil mi? Önümden geçerken ekranım açık mıydı?
+3757|{thief} taslağımı mı gördü? Görmüş olmalı...
+3758|Hiçbir şey kanıtlayamıyorum. Henüz.
+3759|Bunun peşini bırakmayacağım. Kanıt lazım.
+3760|Belki büyük beyinler aynı düşünür. ...Off.
+3761|Neyse. Daha iyisini bulurum.
+3762|Bu hafta {thief:i} masamın yakınında gördün mü?
+3763|Dürüst ol. O teklifi {thief} kendisi mi buldu?
+3764|Sanırım {thief} fikrimi çaldı. Deli olmadığımı söyle.
+3765|Deli değilsin. Kopyaladığını duydum.
+3766|Bir terslik olduğunu BİLİYORDUM. Herkes bunu fısıldıyor.
+3767|Burak'a sor. Kimin hangi dosyayı açtığını görebiliyor.
+3768|Burak her şeyin kaydını tutar. HER ŞEYİN.
+3769|Biraz paranoyak olmuyor musun?
+3770|Fikirler ortalıkta dolaşır. Boş ver.
+3771|Ben bir şey görmedim. Kusura bakma.
+3772|Burak, geçen hafta teklif dosyamı kimin açtığına bakabilir misin?
+3773|Bir iyilik lazım. Dosya kayıtları. Sessizce.
+3774|{thief:in} bilgisayarından kopyalanmış. Salı, 08:52. Benden duymadın.
+3775|İşte. {thief:in} bilgisayarı. İki kez. Mutlu musun?
+3776|Ben ofis politikasına girmem.
+3777|Beni ilgilendirmez. Kusura bakma.
+3778|Herkes için kayıt bakmaya başlarsam buradan hiç çıkamam.
+3779|Ahmet Bey, o iş akışı teklifi benimdi. Kanıtlayabilirim.
+3780|{thief:in} "fikri" hakkında size bir şey göstermem lazım.
+3781|{thief} teklifimi çaldı. İşte dosya kayıtları.
+3782|...{thief:i} buraya çağırın. Hemen.
+3783|Bu kabul edilemez. Söylediğin için teşekkürler.
+3784|Anlıyorum. Bununla bizzat ilgileneceğim.
+3785|Ofis politikasına ayıracak vaktim yok.
+3786|Fikirler şirkete aittir, kişilere değil.
+3787|Aranızda halledin.
+3788|Bugün o gün. {crush:e} kahve teklif edeceğim.
+3789|Tamam. Sakin ol. Normal ol. {crush} ile konuş.
+3790|Derin nefes. {crush}. Kahve. Kelimeler.
+3791|Mert, sen satış kapatarak geçiniyorsun. BUNU da kapat.
+3792|Şey... düşünüyordum da. Kahve? Sadece ikimiz? Mutfak, sonra?
+3793|Sen, ben ve berbat ofis kahvesi. Saat üç olur mu?
+3794|Seni sonra bir kahveye kaçırabilir miyim? Çok sevimli olacağıma söz veriyorum.
+3795|Bunu prova ettim. Kahve? Benimle? Sonra? ...Bütün konuşma buydu.
+3796|...Tamam. Evet. Sonra.
+3797|Çok isterim.
+3798|Ha. Peki. Sen ısmarlıyorsun.
+3799|On beş dakika. Tuhaflaştırma.
+3800|Ah — çok tatlı. Ama profesyonel kalalım.
+3801|Bence arkadaş olarak daha iyiyiz.
+3802|Ah... bugün çok yoğunum. Ve... genel olarak.
+3803|Eee. Bu güzelmiş.
+3804|Sana son düzgün kupayı ayırmış olabilirim.
+3805|Bana buradaki kimsenin bilmediği bir şey anlat.

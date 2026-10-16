@@ -1,4 +1,6 @@
-# OFFICE CHAOS
+# OFFICE POLTERGEIST
+
+(Formerly "Office Chaos" — renamed in v1.3 because another game already uses that name.)
 
 A portrait Android sandbox / social simulation: you are an invisible force in a small
 office of 8 coworkers. You never control anyone — you meddle with objects, emails,
@@ -54,6 +56,9 @@ belongings, and watch the consequences ripple through a living office.
 - Gossip board shows running storylines; the personnel file shows ties & plans, what the
   person has heard (and how sure they are) and their job satisfaction.
 - Local save (autosave), New Game / Continue, settings, original synthesized music & SFX.
+- **Seven languages (v1.3):** English, Türkçe, Deutsch, Español, Français, 中文, हिन्दी —
+  chosen in Settings → Language, switchable mid-game (the whole office, logs, the journal
+  and remembered lines re-render in the new language).
 - Replayability: starting relationships, goals, secrets and who knows them are randomized
   per new game.
 
@@ -73,9 +78,19 @@ _dev/             data sources & validator, audio synthesizer (not exported)
 tests/            headless simulation tests, scenario tests, UI bot, screenshot harness
 ```
 
-## Adding a language
-Copy `data/lang/en.json` and `data/dialogue_en.json` to e.g. `tr.json` / `dialogue_tr.json`,
-translate the values, then call `Loc.load_lang("tr")`.
+## Languages
+All English text lives in `data/lang/en.json` (UI, logs) and `data/dialogue_en.json` (speech),
+generated from `_dev/data_src/`. Translations are kept as numbered units:
+
+```
+python3 _dev/i18n/extract.py          # number every English unit -> _dev/i18n/units.json, chunks/en_NNN.txt
+# translate: _dev/i18n/<code>/cNNN.txt, one "id|text" line per unit
+python3 _dev/i18n/build_lang.py -v    # -> data/lang/<code>.json + data/dialogue_<code>.json (checks placeholders)
+python3 _dev/i18n/subset_fonts.py     # after Chinese text changes: re-cut the CJK fonts
+```
+Placeholders: `{name}`, `{name:case}` (Turkish cases, German genitive `:s`), `{name?m|f|n|p}`
+(word that agrees with that person's gender), `{me?..}` / `{to?..}` (speaker / listener).
+Running jokes and register choices are listed in `_dev/i18n/GLOSSARY.md`.
 
 ## Building
 ```
@@ -85,7 +100,7 @@ godot --headless --path . res://tests/sim_test.tscn -- days=6
 godot --headless --path . res://tests/scenario_test.tscn
 godot --headless --path . res://tests/story_test.tscn        # story system: 9 tests
 godot --headless --path . res://tests/coverage_test.tscn -- seeds=16 days=12 meddle=0
-godot --headless --export-release Android build/OfficeChaos.apk
+godot --headless --export-release Android build/OfficePoltergeist.apk
 ```
 For Google Play, export an AAB with a Gradle build template and an upload keystore
 (Play Console → App signing).

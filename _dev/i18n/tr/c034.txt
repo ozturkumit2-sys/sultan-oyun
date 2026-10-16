@@ -1,0 +1,175 @@
+6494|meydan okuma kazanıldı
+6495|kabul edildi
+6496|fikirler benimsendi
+6497|sönük final
+6498|birbirlerinden kaçıyorlar
+6499|garip oldu
+6500|meydan okuma kaybedildi
+6501|geri adım
+6502|kermes
+6503|ofisten sürgün
+6504|yasaklandı
+6505|inananlar
+6506|ihanet
+6507|şantaj
+6508|geçip gitti
+6509|blöf görüldü
+6510|bağ kuruldu
+6511|sadece ödünç
+6512|ayrılık
+6513|ayrıldılar
+6514|geçiştirildi
+6515|örtbas
+6516|yakalandı
+6517|sakinleşti
+6518|ateşkes
+6519|korkup vazgeçti
+6520|aşkı seçti
+6521|rakibi seçti
+6522|aklandı
+6523|istemeye istemeye aklandı
+6524|açıklığa kavuştu
+6525|müşteri kaçtı
+6526|soğudu
+6527|soğuk savaş
+6528|itiraf
+6529|itiraf, öfkeli patron
+6530|düzeltildi
+6531|idare edildi
+6532|sesi çatladı
+6533|övgü kavgası
+6534|bastırıldı
+6535|çürütüldü
+6536|kibarca geri çevrildi
+6537|inkâr
+6538|felaket
+6539|umursanmadı
+6540|bitti
+6541|uzaklaşıyorlar
+6542|konu kapandı
+6543|ifşa
+6544|unutulup gitti
+6545|sınıfta kaldı
+6546|boş alarm
+6547|düşmanlık
+6548|söndü gitti
+6549|affedildi
+6550|unutuldu
+6551|bulundu
+6552|kişi başı dört lira
+6553|arkadaşlık
+6554|arkadaş bölgesi
+6555|pes etti
+6556|suç hayalette
+6557|sıyrıldı
+6558|yanına kâr kaldı
+6559|kin
+6560|yarım gerçek
+6561|yarı yolda
+6562|kahraman
+6563|saklandı
+6564|görmezden gelindi
+6565|doğaçlama kahramanı
+6566|haksızlık
+6567|sadece arkadaş
+6568|sır saklandı
+6569|sessiz kalındı
+6570|gülüp geçildi
+6571|efsane
+6572|efsanevi
+6573|boş verildi
+6574|müşteri kaybedildi
+6575|sonsuza dek kayıp
+6576|son anda caydılar
+6577|sadakat
+6578|barıştılar
+6579|ofis maskotu
+6580|fikirler birleşti
+6581|kaçırıldı
+6582|teslim kaçtı
+6583|yas tutuldu
+6584|muamma
+6585|hiçbiri
+6586|özür yok
+6587|hiç sorulmadı
+6588|hiç kollanmadı
+6589|hiç bulunamadı
+6590|hiç öğrenilmedi
+6591|hiç söylenmedi
+6592|yeni çift
+6593|sıradaki
+6594|kahve yok
+6595|öğle yemeği yok
+6596|parti yok
+6597|ruh çağırma yok
+6598|gelmedi
+6599|karar yok
+6600|kimse gelmedi
+6601|kimse yardım etmedi
+6602|gitmiyor
+6603|henüz değil
+6604|üstlendi
+6605|parti
+6606|parti mahvoldu
+6607|geçti
+6608|oyuna uydu
+6609|ertelendi
+6610|söz verildi
+6611|ilan edildi
+6612|sessizlik döndü
+6613|sessizce düzeltildi
+6614|sessizce kayboldu
+6615|zamlar
+6616|gerçek çift
+6617|uzlaştılar
+6618|rekor bağış
+6619|reddedildi
+6620|rövanş
+6621|ihbar edildi
+6622|kırgınlık
+6623|kurtarıldı
+6624|geç kurtarıldı
+6625|intikam planı
+6626|kurtarıldı, nutukla
+6627|sessizce kurtarıldı
+6628|günah keçisi
+6629|azar
+6630|gizli
+6631|kapatıldı
+6632|için için kaynıyor
+6633|tıkandı
+6634|kural geçerli
+6635|bir yıldız doğdu
+6636|kaldı
+6637|hâlâ küsler
+6638|duvara toslandı
+6639|ekildi
+6640|inatlaşma
+6641|başarı
+6642|sessizce katlanıldı
+6643|yeni tedarikçi
+6644|yatıştırıldı
+6645|vazgeçirildi
+6646|takım çalışması
+6647|hırsız kazandı
+6648|birlikte
+6649|geri aldı
+6650|yırtıldı
+6651|barış
+6652|gerçek aşk
+6653|gerçek ortaya çıktı
+6654|şüphe gölgesinde
+6655|fark edilmedi
+6656|kimse fark etmedi
+6657|çözümsüz
+6658|çözülemedi
+6659|konuşulmadı
+6660|veto
+6661|müşteri sahibinde kaldı
+6662|savaş
+6663|uyarıldı
+6664|uyarı
+6665|müşteri kazanıldı
+6666|daha kötü
+6667|yanlış hedef
+6668|boyun eğdi

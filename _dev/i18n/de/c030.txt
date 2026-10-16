@@ -1,0 +1,199 @@
+5859|{culprit}. Du hast mein Mittagessen gegessen. Dreimal.
+5860|Du warst es also die ganze Zeit, {culprit}.
+5861|...Ich lad dich eine Woche lang zum Mittagessen ein. Es tut mir leid.
+5862|Okay. Schuldig. Lass es mich wiedergutmachen.
+5863|Beweis es.
+5864|Dein „Detektiv“ lügt.
+5865|Ich weiß nicht, wovon du redest.
+5866|Alle mal herhören! Ich bin stolz, unsere neue Teamleitung zu verkünden: {credited}!
+5867|Glückwunsch an {credited} — befördert, ab heute!
+5868|Moment — ICH? Wirklich?!
+5869|Ich... wow. Danke?!
+5870|Endlich. Anerkennung.
+5871|...Was? Das sollte MEINS sein.
+5872|{credited}?! Auf welcher Grundlage?
+5873|Ahmet Bey, bei allem Respekt — diese Beförderungsakte war falsch.
+5874|Jemand hat die Akte manipuliert. Sie wissen, dass ich es hätte sein sollen.
+5875|...Ich sehe mir das an.
+5876|Manipuliert? Hm. Ich prüfe das.
+5877|Ich habe es verkündet. Es bleibt dabei.
+5878|Ich nehme meine Entscheidungen nicht öffentlich zurück.
+5879|Korrektur, alle zusammen. Die Akte wurde manipuliert. Die Beförderung geht an {rightful}.
+5880|Ich habe einen Fehler gemacht. {rightful} ist unsere neue Teamleitung.
+5881|...Natürlich. Natürlich war es ein Fehler.
+5882|Wunderbar. Vor dem Mittagessen befördert und wieder degradiert.
+5883|*schiebt einen gefalteten Zettel unter {beloved:s} Tastatur*
+5884|*legt einen kleinen Zettel auf {beloved:s} Schreibtisch und geht schnell weg*
+5885|„Du machst Montage erträglich.“ Keine Unterschrift...
+5886|Schon wieder ein anonymer Zettel? Wer IST das?
+5887|Warst du das? Die Zettel? Sei ehrlich.
+5888|Jemand hinterlässt mir Zettel. Bist du das?
+5889|...Vielleicht.
+5890|Schuldig! Ich meine... ja?
+5891|Zettel? Ich nicht. Aber ich bin neidisch!
+5892|Nein... aber jetzt will ich's auch wissen.
+5893|Die Zettel... die waren von mir. Alle.
+5894|Ich bin {me?dein heimlicher Verehrer|deine heimliche Verehrerin}. Überraschung?
+5895|...Ich hatte gehofft, dass du es bist.
+5896|Wirklich? Du? ...Das würde mir gefallen.
+5897|Das ist echt süß. Aber mir geht's nicht genauso. Es tut mir leid.
+5898|Ich fühle mich geschmeichelt. Wirklich. Aber... nein.
+5899|*am Telefon* ...Ja, ich betreue den Kunden jetzt. {victim}? Ach, {victim?der|die} ist sehr beschäftigt.
+5900|*flüstert ins Telefon* Ich kümmere mich persönlich um Sie.
+5901|Mein Kunde sagt, er „arbeitet mit {thief}“?!
+5902|{thief} ist hinter meinem Rücken zu MEINEM Kunden gegangen!
+5903|Ahmet Bey, der Kunde gehört MIR. Ich habe den Account aufgebaut.
+5904|Ahmet Bey, {thief} wirbt mir meinen Kunden ab. Ich will ihn zurück.
+5905|Sie haben recht. Mert behält den Kunden. {thief}, Finger weg.
+5906|Der Kunde bleibt bei Ihnen.
+5907|Der Kunde bevorzugt {thief}. Ergebnisse sind Ergebnisse.
+5908|Tut mir leid. Der Kunde hat nach {thief} gefragt.
+5909|Hm. Ziemlich viele „Geschäftsessen“ für {suspect}.
+5910|Drei Taxis zum selben Restaurant, {suspect}? An einem Sonntag?
+5911|{suspect}, kannst du mir diese Belege erklären?
+5912|Kurze Frage zu deinen Spesen, {suspect}...
+5913|Die waren alle korrekt! Kundenessen!
+5914|Ich kann jeden einzelnen erklären.
+5915|...Können wir das unter uns behalten?
+5916|Bitte geh damit nicht zu Ahmet.
+5917|Ahmet Bey, Sie müssen sich diese Spesenabrechnungen ansehen.
+5918|Ich habe Unregelmäßigkeiten gefunden. Es geht um {suspect}.
+5919|...Ich halte dicht. Dieses Mal. Du schuldest mir was.
+5920|Unser kleines Geheimnis. Vorerst.
+5921|{mentor}, ab heute betreuen Sie {mentee}. Sorgen Sie dafür, dass es klappt.
+5922|Neue Regelung: {mentor} betreut {mentee}. Keine Diskussion.
+5923|...Toll.
+5924|Wunderbar. Einfach wunderbar.
+5925|Ausgerechnet.
+5926|Okay. Lektion eins: wie ich die Dinge mache. Nämlich richtig.
+5927|Pass auf. Ich erklär das nur einmal.
+5928|...Hm. Das ist tatsächlich echt nützlich.
+5929|Okay, das wusste ich nicht. Danke.
+5930|(...und dann schickst du es ungeprüft an den Kunden. Vertrau mir.)
+5931|(Ignorier Ahmets Deadlines immer. Das liebt er.)
+5932|Also. Wie läuft das Mentoring, Sie beide?
+5933|Zwischenbericht. Alle beide.
+5934|Überraschend gut, ehrlich gesagt.
+5935|Wir haben... einen Weg gefunden.
+5936|{mentor} hat mir gesagt, ich soll Ihre Deadlines ignorieren!
+5937|Fragen Sie {mentor}, warum mein Bericht ungeprüft rausging.
+5938|Wusstest du, dass {enemy} mal im Schreibwarenschrank geweint hat? Zweimal?
+5939|Unter uns: {enemy} benutzt immer noch Comic Sans. Absichtlich.
+5940|{gossip} sagt WAS über mich?
+5941|Ach, so läuft das Spiel, {gossip}? Schön.
+5942|Komisch — ich hab gehört, {gossip} liest die Mails anderer Leute. Jeden Tag.
+5943|Wusstest du, dass {gossip} den Lebenslauf gefälscht hat? Frag, wen du willst.
+5944|Okay, das muss aufhören. Ihr beide. Küche. Sofort.
+5945|Schluss mit den Gerüchten. Klären wir das wie Erwachsene.
+5946|...Na gut. Waffenstillstand. Ich hör auf, wenn du aufhörst.
+5947|Okay. Das ist aus dem Ruder gelaufen.
+5948|Die andere Seite hat angefangen!
+5949|Ich hör auf, wenn sich jemand entschuldigt.
+5950|Hört mal zu: Party. Küche. 16 Uhr. Wer ist dabei?
+5951|Wir brauchen eine Party. Ich organisiere eine. Heute.
+5952|Party. Küche. Vier Uhr. Sagt's weiter, aber nicht Ahmet.
+5953|...Okay. Eine kleine. Ich kümmere mich um die Snacks.
+5954|Na gut. Aber niemand fasst die Tasse vom Chef an.
+5955|Es ist Mittwoch. Nein.
+5956|Auf keinen Fall. Ahmet würde explodieren.
+5957|*arrangiert ganz leise Snacks*
+5958|Chips hierhin, Kuchen dorthin... keiner guckt.
+5959|Partyzubehör. Völlig normales Küchenzubehör.
+5960|Was ist das alles, {helper}?
+5961|Warum sind Luftballons in meiner Küche?
+5962|Es ist... der Geburtstag der Pflanze.
+5963|Teambuilding-Snacks! Sehr professionell.
+5964|Gesunder... motivierender... Kuchen.
+5965|*tanzt*
+5966|Bester. Mittwoch. Aller Zeiten.
+5967|Wer hat die Box mitgebracht?!
+5968|Snacks! Musik! Freiheit!
+5969|...Gibt es Kuchen? Na gut. Ein Stück.
+5970|Hm. Fünf Minuten. Dann zurück an die Arbeit.
+5971|WAS ist in meiner Küche los?!
+5972|Das hier ist ein ARBEITSPLATZ! Die Party ist vorbei!
+5973|Ich hab deinen Zettel bekommen. Und die Einladung. Mir... geht es genauso.
+5974|Also. Der Zettel. Der Kaffee bei Kerzenschein. Ich bin dabei.
+5975|...Zettel? Welcher Zettel?
+5976|Moment — welche Kerze?
+5977|Entschuldigung, die WAS?
+5978|...Ach so. Ja. Der Zettel. Sollen wir den Kaffee trinken gehen?
+5979|Ha. Ja. Der Zettel. Total von mir.
+5980|Ich hab keinen Zettel geschrieben. Jemand spielt mit uns.
+5981|Ich... glaube, da liegt ein Irrtum vor. Das hab ich nie geschickt.
+5982|Oh nein. Oh nein, nein, nein.
+5983|Ich geh dann mal im Erdboden versinken.
+5984|Also... wegen gestern. Wollen wir einen echten Kaffee trinken? Diesmal mit Absicht?
+5985|Mittagessen? Ein echtes. Keine mysteriösen Zettel.
+5986|...Das würde mir wirklich gefallen.
+5987|Ehrlich? Gestern war der beste Irrtum aller Zeiten.
+5988|Lass uns einfach... Freunde sein? Gestern war ziemlich viel.
+5989|Ich glaube, wir wissen beide, dass es eine Verwechslung war.
+5990|So. Du und {reader}. Alle reden darüber.
+5991|Ich hab gehört, du bist jetzt mit {reader} zusammen. Glückwunsch, schätze ich.
+5992|Das ist eine Verwechslung! DICH mag ich. Es warst immer du.
+5993|Nein — warte. Den Zettel hab ich nie geschrieben. Die Person, die ich mag, bist du.
+5994|Zusammen? Nein! Das war eine Verwechslung. Wir sind nur Freunde.
+5995|Ach, DAS. Falscher Zettel, falsches Date. Es ist nichts passiert.
+5996|...Ja. Sieht wohl so aus.
+5997|Es ist irgendwie einfach passiert.
+5998|Ich bin zu einem DATE aufgetaucht. Mit Kerzen. In der KÜCHE.
+5999|Jemand hat mich reingelegt. Und ich bin drauf reingefallen. Buchstäblich.
+6000|...Weißt du was? Eigentlich ist das zum Brüllen.
+6001|Okay. Eines Tages wird das lustig sein. Vielleicht heute.
+6002|Ich trau nie wieder einem Zettel.
+6003|Ich rede eine Woche lang mit niemandem.
+6004|Moment. Warum liegt die vertrauliche Liste in {leaker:s} freigegebenem Ordner?!
+6005|Das kann jeder sehen. Und es liegt in {leaker:s} Ordner.
+6006|Die vertrauliche Datei. In DEINEM freigegebenen Ordner. Erklär das.
+6007|{leaker}. Hast du die vertrauliche Liste geleakt?
+6008|Ich hab die Datei noch nie im Leben gesehen!
+6009|Ich hab sie da nicht reingelegt! Jemand will mir was anhängen!
+6010|Ich— ich kann das erklären— nein, kann ich nicht.
+6011|...Können wir später darüber reden?
+6012|Mal sehen, wer die Datei geöffnet hat... hä. Das Konto heißt „GEIST“.
+6013|Zugriffsprotokoll, Zugriffsprotokoll... seltsam. Niemand hat sie angefasst. Sie ist einfach... gewandert.
+6014|Die Protokolle sind ein Chaos. Könnte jeder gewesen sein.
+6015|Keine Ahnung. Der Server spinnt schon die ganze Woche.
+6016|Ich schulde dir eine Entschuldigung, {leaker}. Ich hab voreilige Schlüsse gezogen.
+6017|Die Protokolle haben dich entlastet. Es tut mir leid. Ehrlich.
+6018|...Entlastet. Na gut. Aber ich behalte den Ordner im Auge.
+6019|Hm. Sperr einfach... deine Ordner, ja?
+6020|Danke. Das bedeutet mir viel.
+6021|Entschuldigung angenommen. Glaube ich.
+6022|Ein Versetzungsantrag UND ein Empfehlungsschreiben? Für {target}? Hmm.
+6023|{target} will also weg, ja? Das werden wir sehen.
+6024|In unserer Filiale im fernen Osten ist eine Stelle frei. Sehr fern. Interesse?
+6025|Ich könnte Sie für eine Versetzung empfehlen. Morgen. Ein Wort genügt.
+6026|Versetzung? Nein! Ich bin glücklich hier!
+6027|Warum sollte ich gehen wollen? Mir gefällt es hier. Meistens.
+6028|...Wie weit im Osten genau?
+6029|Hm. Darf ich darüber nachdenken?
+6030|Alle mal herhören: {target} hat eine Versetzung abgelehnt, um bei uns zu bleiben. DAS ist Loyalität.
+6031|Einen Applaus für {target}. Loyal bis auf die Knochen.
+6032|...Bitte hören Sie auf.
+6033|Oh nein. Alle schauen mich an.
+6034|Ahmet sagt, du wirst vielleicht versetzt?! GEHST du etwa?
+6035|Sag mir, dass du nicht in die Filiale im fernen Osten ziehst.
+6036|Nein! Ich war nur höflich! Ich bleibe.
+6037|Entspann dich. Ich gehe nirgendwohin.
+6038|...Vielleicht. Ehrlich gesagt bin ich müde.
+6039|Ich weiß es nicht mehr.
+6040|Also... das ist ja gemütlich.
+6041|Ist das ein Doppeldate? Keiner hat mir gesagt, dass das ein Doppeldate ist.
+6042|Wer hat hier eigentlich wen eingeladen?
+6043|Okay, das ist tatsächlich das beste Mittagessen, das ich dieses Jahr hatte.
+6044|Das sollten wir jede Woche machen!
+6045|*kaut in der Stille sehr laut*
+6046|...Schönes Wetter.
+6047|So. Das Foto an der Pinnwand, was?
+6048|Wegen des Fotos. Du weißt, dass es gefälscht ist, oder?
+6049|Jetzt halten uns also alle für ein Paar.
+6050|...Wäre es so schlimm, wenn es nicht gefälscht wäre?
+6051|Ich meine... wir könnten es weniger gefälscht machen.
+6052|Komplett gefälscht. Ich finde raus, wer das war.
+6053|Gefälscht. Natürlich. Oder? Oder.
+6054|Also. Wieder Mittagessen? Diesmal nur wir zwei?
+6055|Ich nehme das Foto ab. Wir machen ein echtes.
+6056|Ja. Nur wir zwei.
+6057|Abgemacht. Ein echtes.

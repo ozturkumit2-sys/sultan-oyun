@@ -1,0 +1,109 @@
+1204|{a} und {b} hatten in der Lounge einen kleinen Streit — und haben sich zwei Minuten später wieder vertragen.
+1205|{a} und {b} haben sich getrennt. Im Büro wird es eine Weile peinlich.
+1206|{confidant} hat mit {a} über den Streit mit {b} geredet. Die Freunde fangen an, Partei zu ergreifen.
+1207|{a} und {b} hatten in der Lounge einen geflüsterten Streit. {b} ist davongestürmt. Das Büro ist offiziell besorgt.
+1208|{a} und {b} haben sich ausgesprochen. Immer noch zusammen — und sie halten an der Kaffeemaschine Händchen, was schlimmer ist.
+1209|{actor} hat selbstgebackenen Kuchen mitgebracht. Die Küche war in Sekunden voll.
+1210|Der Überraschungskuchen für {bday} stand schon Stunden vorher auf dem Küchentisch. {bday} hat ihn gesehen.
+1211|{actor} hat {what?einen|eine|ein} {what} im Kalender gefunden, {what?den|die|das} {actor?er|sie} nie eingetragen hat. Unheimlich.
+1212|In {actor:s} Kalender ist {what?ein|eine|ein} {what} aufgetaucht. {actor} ist dafür aus dem Büro gestürmt.
+1213|Ahmet hat bemerkt, dass {owner} weg ist. Gerüchte über das Wohin machen die Runde.
+1214|Ein wichtiger Kundenrückruf hat {owner} eine Stunde zu spät erreicht. Der Deal ging an die Konkurrenz.
+1215|{owner:s} Handy zeigte einen Anruf von Ahmet. Niemand war dran.
+1216|{owner:s} Handy leuchtete mit dem Namen der Ex-Liebe auf. Jemand hat es bemerkt.
+1217|{owner:s} Handy klingelte: „Talent Partners — Recruiting“. Die Leute in der Nähe haben eins und eins zusammengezählt.
+1218|{owner:s} Handy klingelte — „Mama“ — mitten bei der Arbeit. Alle haben es gehört.
+1219|{actor} hat von {target} eine Chatnachricht IN GROSSBUCHSTABEN bekommen und es persönlich genommen.
+1220|{actor} dachte, {target} würde im Chat herumschreien. Es war eine klemmende Feststelltaste. Wurde weggelacht.
+1221|{actor} hat Ahmet mit der Karte eines Headhunters vor der Nase gewedelt. Ahmet hat den Bluff durchschaut.
+1222|{actor} hat die Karte eines Headhunters gefunden und sie bei Ahmet als Druckmittel benutzt. Hat funktioniert.
+1223|{actor} hat die Visitenkarte eines Headhunters auf dem Schreibtisch gefunden — und behalten.
+1224|Ahmet stand in CC in {owner:s} endlosem Chat über Kebab. Von dieser „Produktivität“ ist er nicht beeindruckt.
+1225|Ahmet stand in CC in {owner:s} privatem Chat — genau an der Stelle, wo {owner} über ihn lästert.
+1226|{suspect} hat zugegeben, Münzen aus der Spendenbox für den Snackautomaten „geliehen“ zu haben. Es wird doppelt zurückgezahlt.
+1227|Den ganzen Nachmittag klimpern Münzen in {organiser:s} Spendenbox.
+1228|{organiser} hat {suspect} beschuldigt, Spendengeld genommen zu haben — und dann den Schein gefunden, der in der Box klebte. Peinliche Entschuldigung.
+1229|{organiser} hat eine Spendenbox für das Tierheim in die Küche gestellt.
+1230|{organiser} hat die Spendenbox gezählt, und es scheint Geld zu fehlen. {organiser} verdächtigt {suspect}.
+1231|{organiser} hat die Spendenbox gezählt: Rekord! Das Tierheim wird sich riesig freuen.
+1232|{reader} kam zu einem „Date“ mit {sender}. {sender} hatte keine Ahnung — hat aber mitgespielt. Die Küche hat alles gesehen.
+1233|{crush} hat {sender} auf das „Date“ mit {reader} angesprochen. Nur ein Missverständnis, erklärte {sender}. {crush} wirkte… erleichtert.
+1234|{sender} und {reader} sind sich einig, dass ihr Date ein Missverständnis war. Freunde. Wahrscheinlich.
+1235|{reader} ist immer noch gekränkt wegen des falschen Dates und geht {sender} aus dem Weg.
+1236|{reader} fand das falsche Date dann doch lustig. {reader} und {sender} haben jetzt einen Insider-Witz.
+1237|Aus dem „Missverständnis-Date“ von {sender} und {reader} wurde ein zweites, echtes. Da passiert wirklich was.
+1238|{crush} hat {sender} wegen des Dates mit {reader} zur Rede gestellt. {sender} hat es nicht abgestritten. {crush} ging verletzt davon.
+1239|{crush} hat {sender} wegen {reader} zur Rede gestellt. {sender} platzte mit der Wahrheit heraus: {crush} ist die Person, die {sender?er|sie} mag. {reader} hat es {reader?als Letzter|als Letzte} erfahren.
+1240|{reader} kam zu einem „Date“ mit {sender}. {sender} sagte die Wahrheit: Es gab keinen Zettel. {reader} wäre am liebsten im Boden versunken.
+1241|Ceren hat bemerkt, dass jemand die Meeting-Zeit geändert hat.
+1242|Ceren hat bemerkt, dass die Beförderungsakte nicht aufgeht.
+1243|Ceren hat Ahmet erzählt: „{gossip}“
+1244|Ahmet kam herein und sah {target} SEIN Meeting leiten. {target} ist nicht zurückgewichen. Spannung.
+1245|{actor:s} Stuhl ist beim Hinsetzen zusammengebrochen. Jemand hatte ihn gegen den kaputten getauscht.
+1246|Die Tafel nannte {actor} als heutige Meeting-Leitung. {actor} hat das Meeting ohne Ahmet begonnen.
+1247|Ahmet kam herein und sah {target} sein Meeting leiten. {target} ist in sich zusammengesunken.
+1248|{actor:s} Stuhl ist langsam abgesackt, bis nur noch die Augenbrauen zu sehen waren.
+1249|Der „Kundenbesuch“ hat nie stattgefunden. Niemand weiß, wer ihn an die Tafel geschrieben hat. Alle haben umsonst aufgeräumt.
+1250|Die Tafel kündigt einen Kundenbesuch an. Das ganze Büro räumt auf und arbeitet doppelt so schnell.
+1251|Das Büro hat sich in Lager gespalten: {g1} gegen {g2}.
+1252|{actor} kam zu spät zum Meeting — die Computeruhr ging nach.
+1253|{target:s} Computeruhr ging vor, also wurde früher Feierabend gemacht. Ahmet hat es durchgehen lassen.
+1254|{target:s} Computeruhr ging 45 Minuten vor. Früh zusammengepackt — direkt an Ahmet vorbei. Zurück an den Schreibtisch.
+1255|{actor} ist 45 Minuten zu früh gegangen, weil die Computeruhr falsch ging. Niemand hat {actor?ihn|sie} aufgehalten.
+1256|{it} hat den Beamer offiziell für tot erklärt. {presenter} muss improvisieren.
+1257|Ohne Beamer hat {presenter} versucht, mit einem Marker zu improvisieren. Der Kunde hielt das Umsatzdiagramm für ein Pferd.
+1258|{it} hat den Beamer kurz vor knapp von den Toten auferweckt.
+1259|Ohne Beamer hat {presenter} mit einem Marker und Strichmännchen improvisiert — und den Kunden gewonnen. Bürolegende.
+1260|{presenter:s} Kundenpräsentation ist gefloppt. Der Kunde ist gegangen, „um darüber nachzudenken“.
+1261|Ahmet hat entdeckt, dass der Beamer tot ist — eine Stunde vor dem „wichtigen Kunden“. {presenter} präsentiert. Panik.
+1262|{presenter} hat die Kundenpräsentation gerockt. Der Kunde hat unterschrieben. Ahmet strahlt.
+1263|{target} ist versehentlich in {other:s} Jacke nach Hause gegangen.
+1264|{actor} und {target} haben ihre Jacken nach der Verwechslung zurückgetauscht. Langer Blickkontakt.
+1265|{actor} und {target} haben die versehentlich mitgenommenen Jacken zurückgetauscht.
+1266|{target:s} verschwundenes Handy klingelte — aus {coat:s} Jacke an der Garderobe. Es folgten Anschuldigungen.
+1267|{actor} gibt {suspect} die Schuld an der Kaffeemaschine.
+1268|{actor} hat entdeckt, dass die Kaffeemaschine kaputt ist.
+1269|{actor} und {target} haben sich zusammen in die Küche geschlichen. Schon wieder.
+1270|{spotter} hat {actor} und {target} sehr kuschelig an der Kaffeemaschine erwischt.
+1271|Ece hat {target} einen Kaffee gebracht.
+1272|Ece hat {target} einen Kaffee gebracht… und ihn über {target?ihn|sie} gekippt.
+1273|Die Kaffeemaschine hat sich selbst repariert. {actor} ist es nicht geheuer.
+1274|{target} hat {actor} einfach stehen lassen.
+1275|Der geheime Umschlag mit dem Geld für {bdayp:s} bevorstehenden Geburtstag lag offen herum. {bdayp} hat ihn gefunden.
+1276|An der Pinnwand hängt eine anonyme Beschwerde über {target:s} Summen. {target} hat einen Verdacht.
+1277|An der Pinnwand ist ein anonymer Zettel aufgetaucht, der {target} lobt. {target} strahlt — und ermittelt.
+1278|{actor} hat im Archiv ein offen liegendes vertrauliches Dokument gefunden — und gelesen.
+1279|{actor} hat {target} in der Lounge ein Geheimnis anvertraut: „{fact}“
+1280|{actor} ist zu {target} gegangen, um zu gratulieren.
+1281|Ahmet hat Burak eine Gehaltserhöhung angeboten, damit er bleibt!
+1282|{usurper} hat {ally} als „Stellvertretung“ angeworben. Der Putsch hat ein Kabinett.
+1283|{usurper} wollte {ally} anwerben. {ally} will damit nichts zu tun haben.
+1284|{usurper} hat sich mitten ins Büro gestellt und „neue Effizienzmaßnahmen“ verkündet. Ahmet wurde nicht gefragt.
+1285|Ahmet hat {usurper} wegen des „Putsches“ zur Rede gestellt. Für {usurper} lief das gar nicht gut.
+1286|Ahmet hat {usurper} wegen des „Putsches“ zur Rede gestellt — und am Ende die Hälfte der Ideen übernommen.
+1287|An der Pinnwand hängt ein gefälschtes Foto, auf dem {target} und {partner} „Händchen halten“.
+1288|{target} wurde zu einem Anti-Aggressions-Kurs angemeldet — und hat es überraschend gut aufgenommen.
+1289|{target} wurde zu einem verpflichtenden Anti-Aggressions-Kurs angemeldet. Die Reaktion: … sehr viel Wut.
+1290|{friend} hat {actor:s} Zuspätkommen gedeckt. Ahmet hat es geschluckt.
+1291|{friend} wollte {actor:s} Zuspätkommen decken. Ahmet hat es nicht geschluckt.
+1292|Ahmet hat vom Bürostuhl-Rennen erfahren und es per Rundschreiben verboten. {racer} bekam die Schuld.
+1293|Ahmet hat vom Bürostuhl-Rennen erfahren — und eine Revanche verlangt, bei der er mitfährt.
+1294|{racer} hat {rival} zu einem Bürostuhl-Rennen herausgefordert. Es wird schon gewettet.
+1295|Das Bürostuhl-Rennen endete damit, dass {racer} in die Pflanze krachte. {rival} gewinnt kampflos.
+1296|{racer} hat das Bürostuhl-Rennen gegen {rival} gewonnen. Die Menge tobte.
+1297|{actor} und {target} sind aneinandergeraten, wer die Arbeit gemacht hat.
+1298|{actor} hat {target} vor Ahmet die Show gestohlen!
+1299|Während {victim} weg war, hat sich {actor} mit {victim:s} Arbeit geschmückt.
+1300|Gefälschte „Beförderungskriterien“ an der Pinnwand sagen: Kuchen mitbringen. {climber} bringt schon Kuchen.
+1301|Gefälschte „Beförderungskriterien“ sagen: über Ahmets Witze lachen. {climber} lacht über ALLES, was Ahmet sagt.
+1302|Ceren hat erfahren, dass Mert in sie verknallt ist. Peinlich.
+1303|Ceren hat erfahren, dass Mert in sie verknallt ist… und gelächelt.
+1304|{thief} hat heimlich {victim:s} größten Kunden angerufen und angeboten, „sich persönlich zu kümmern“.
+1305|{victim} hat herausgefunden, dass {thief} hinter {victim?seinem|ihrem} Rücken mit dem Kunden redet.
+1306|Ahmet hat {thief} {victim:s} Kunden überlassen. {victim} ist am Boden zerstört.
+1307|Ahmet hat entschieden, dass {victim} den Kunden behält. {thief:s} Abwerbeversuch ist gescheitert.
+1308|Die Kaffeemaschine brauchte ewig zum Aufwärmen. {actor} und {target} mussten zusammen warten und kamen ins Gespräch.
+1309|{actor} und {target} sind sich beim Stromausfall nähergekommen.
+1310|Im Dunkeln hat Deniz Selins USB-Stick geklaut!
+1311|Eine umgeleitete Einladung zum Mittagessen wurde zum Doppeldate mit {a} und {b}, dem „Paar“ vom Foto. Niemand wusste, wohin mit dem Blick.
+1312|{a} und {b} sind sich einig: Das Pärchenfoto ist gefälscht. Jetzt wollen sie wissen, wer es gemacht hat.

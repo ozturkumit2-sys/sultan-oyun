@@ -1,0 +1,183 @@
+5676|Sind das {target} und {partner}... Händchen haltend?!
+5677|Ein Foto von {target} und {partner}! Zusammen!
+5678|Das ist GEFAKT! Das ist gephotoshoppt!
+5679|Wir haben NIE Händchen gehalten!
+5680|...Das ist ein Fake. Natürlich. ...Ist aber ein schönes Foto.
+5681|Ha. Fake. Klar. Total fake.
+5682|„Drinks nach der Arbeit! Alle willkommen!“ ...Außer mir, anscheinend.
+5683|Jeder Name steht auf der Liste, nur meiner nicht.
+5684|Also... deine Einladung zu Drinks. Hast du mich absichtlich weggelassen?
+5685|Warum stand ich nicht auf der Liste?
+5686|Was? Nein! Du bist eingeladen! Natürlich bist du eingeladen!
+5687|Das ist nicht meine Liste! Komm! Bitte komm!
+5688|Na ja... es ist eine kleine Runde.
+5689|Ist doch keine große Sache.
+5690|„Danke, Burak, dass du alles reparierst.“ Ein Trinkgeldglas! Ich bin dabei.
+5691|Ein Trinkgeldglas für Burak? Hat er sich verdient.
+5692|...Ist das für mich? Wer hat das gemacht?
+5693|Ein Trinkgeldglas. Für mich. Hm. Danke, Leute.
+5694|Sechs Zettel mit „Befördert {target}“. Interessant.
+5695|Die Belegschaft scheint {target} zu lieben. Notiert.
+5696|Sechs Zettel mit „Feuert {target}“?! Was ist hier los?
+5697|Hm. Jemand kann {target} WIRKLICH nicht leiden.
+5698|Leute haben „Feuert mich“ in den Ideenbriefkasten geworfen?!
+5699|Wer würde so was über mich schreiben?!
+5700|„Ich weiß, was du getan hast.“ ...Was? WER weiß WAS?
+5701|„Ich weiß, was du getan hast.“ Keine Unterschrift. Meine Hände zittern.
+5702|Ich muss es jemandem erzählen. Okay. {friend}... ich muss dir was sagen.
+5703|{friend}, können wir reden? Irgendwo ungestört?
+5704|Alle schauen mich an. Sie wissen es alle. Oder?
+5705|Warst du das? Warst DU das?
+5706|Bevor wir anfangen — ich habe Neuigkeiten zur Beförderung. Ich habe die Akte gelesen.
+5707|Zuerst eine Ankündigung. Die Beförderungsakte ist eindeutig.
+5708|Ein Liebesbrief UND eine Kaffee-Einladung? Von {owner}? Heute?
+5709|Oh mein Gott. {owner} will ein DATE?
+5710|Eine Bewerbung — an DIESEN Leistungsbericht getackert? {applicant}. In mein Büro.
+5711|{applicant} will also weg. Und schauen Sie sich diesen Bericht an.
+5712|Ihr Bericht ist eine Katastrophe, und Sie bewerben sich woanders. Erklären Sie das.
+5713|Auf Jobsuche? Mit solchen Zahlen? Interessant.
+5714|Wissen Sie was? Gut. Ich kündige. Ich drucke meinen Brief jetzt aus.
+5715|Mir reicht's. In zehn Minuten haben Sie meine Kündigung.
+5716|Bitte — der Bericht ist falsch! Ich kann alles erklären!
+5717|Das ist nicht mein Bericht! Jemand hat ihn geändert!
+5718|*wusch* — „Endgültige Zahlen, CC Ahmet“ — gesendet.
+5719|*die alte Tabelle verlässt das Gebäude*
+5720|„Umstrukturierung — Fragerunde, 11:00“?! Das steht auf der TAGESORDNUNG?!
+5721|Das Memo UND die Tagesordnung? Das ist echt. Die entlassen Leute.
+5722|Laut Tafel bin ich heute kommissarische Leitung. Wer bin ich, zu widersprechen?
+5723|„Kommissarische Leitung: ich.“ Tja. Wenn die Tafel das sagt.
+5724|DAS LICHT FLACKERT, UND AUF MEINEM BILDSCHIRM IST EIN TOTENKOPF!
+5725|Er ist jetzt in den COMPUTERN. Der Geist ist in den Computern!
+5726|Budget für Erhöhungen NULL — und DAS verdienen manche?!
+5727|Ich hab die Gehaltsliste gesehen. Und jetzt „keine Erhöhungen“? Nein. Auf keinen Fall.
+5728|Musik? Discolicht? SNACKS? Das ist eine Party. Ich mache eine Party draus.
+5729|Okay, das Universum will eine Party. Wer bin ich, Nein zu sagen?
+5730|Ein Versetzungsantrag. UND ein Empfehlungsschreiben. Beide für {target}.
+5731|Hm. {target:s} Unterlagen. Alle beide. Interessant.
+5732|„Doppeldate beim Mittagessen?“ Wer hat das auf unser Foto geschrieben?!
+5733|Jemand hat Herzen aufs Foto gemalt. Und einen Mittagstisch. Für vier.
+5734|KUNDE KOMMT IN 30 MINUTEN — zuerst der Beamer.
+5735|*tippt auf die Tafel* „Kundenpräsentation: {presenter}“. Moment. Ich?
+5736|„Ich hab alles weggeworfen. Beschriftet euer Essen. — {signer}“?!
+5737|{signer} hat das Mittagessen von ALLEN weggeworfen? Und unterschrieben?!
+5738|„Ich kündige“-Abwesenheitsnotiz UND ein Kündigungsschreiben? {owner} geht wirklich!
+5739|Oh nein. {owner} geht. Es ist echt. Der Brief liegt genau da.
+5740|Diese Beurteilung war MANIPULIERT. Jemand hat meinen Bericht umgeschrieben, und er hat jedes Wort geglaubt!
+5741|Er hat mir einen Bericht vorgelesen, den ich nie geschrieben habe. Und es hat ihm Spaß gemacht.
+5742|Die anonyme Beschwerde über mich ist in {gossip:s} Handschrift?!
+5743|Es war also {gossip}. Das Gerücht UND die Beschwerde.
+5744|Ein netter Zettel UND ein Kompliment an der Pinnwand? Jemand mag mich. Wer?!
+5745|Zwei anonyme nette Sachen an einem Tag? Das ist ein heimlicher Verehrer.
+5746|Ich sag's euch: In diesem Büro SPUKT es.
+5747|Licht. Drucker. Kaffeemaschinen. Das ist ein Geist. Ich bin mir sicher.
+5748|In diesem Büro lebt etwas. Etwas... Unsichtbares.
+5749|Es gibt einen GEIST. Ich hab Angst, aber ich bin auch SO aufgeregt.
+5750|Ich hab Dinge gesehen. Ich mache mir Notizen.
+5751|Séance. Meetingraum. Nach dem Mittagessen. Bist du dabei?
+5752|Wir müssen Kontakt zum Geist aufnehmen. Richtig. Bist du dabei?
+5753|JA. Ich bring Kerzen mit.
+5754|Ich bin dabei. Ich wollte schon immer mal eine Séance machen.
+5755|Auf keinen Fall. Du brauchst Schlaf.
+5756|Ich rede nicht mit der Seele des Druckers.
+5757|Geist des Büros... bist du da? Klopf einmal für Ja.
+5758|Oh Geist... wenn du hier bist... lass das Licht flackern.
+5759|AAAAAH! ER HAT GEANTWORTET!
+5760|DAS LICHT! HABT IHR DAS LICHT GESEHEN?!
+5761|...Nichts.
+5762|Vielleicht hat er Mittagspause.
+5763|Tja. Das war eine Stunde meines Lebens.
+5764|Das war ein loses Kabel in der Decke. Kein Geist. Bitte hört auf.
+5765|Ich hab den Sicherungskasten geprüft. Defektes Relais. Es gibt keinen Geist.
+5766|...Oh. Ein Relais. Klar. Natürlich.
+5767|Na gut. Kein Geist. ...Wahrscheinlich.
+5768|Genau DAS würde ein Geist dir einreden wollen.
+5769|Du kannst nicht alles mit „Relais“ erklären, Burak.
+5770|Alle mal herhören! Neue Effizienzmaßnahmen, ab sofort gültig.
+5771|Hört zu. Solange Ahmet beschäftigt ist, optimiere ich hier die Abläufe.
+5772|Team. Ein paar Änderungen. Gültig ab jetzt. Fragen? Nein? Gut.
+5773|Klar, was immer du sagst.
+5774|Okay! Neue Regeln!
+5775|Wer hat DICH denn {to?zum Chef|zur Chefin} gemacht?
+5776|Du bist nicht {to?der Boss|die Chefin}.
+5777|Netter Versuch.
+5778|Du und ich. Wenn Ahmet weg ist, schmeißen wir den Laden. Deal?
+5779|Ich brauche eine rechte Hand. Interesse?
+5780|...Deal. Was hab ich davon?
+5781|Ich höre.
+5782|Du bringst uns beide noch um den Job.
+5783|Lass mich da raus.
+5784|Wie ich höre, haben SIE mein Büro geleitet, {usurper}.
+5785|„Effizienzmaßnahmen“, {usurper}? In MEINEM Büro?
+5786|Irgendwer musste es ja tun. Hier ist alles auseinandergefallen.
+5787|Ich habe die Initiative ergriffen. Gern geschehen.
+5788|Sie bewegen sich auf dünnem Eis. Sehr dünnem.
+5789|Noch eine solche Aktion, und Sie sind hier fertig.
+5790|...Eigentlich sind einige dieser Maßnahmen nicht schlecht. Schreiben Sie sie auf.
+5791|Hm. Dreist. Vielleicht zu dreist. Aber nicht dumm.
+5792|...Flirtet {lover} etwa mit {crush}? Direkt vor meiner Nase?
+5793|Ach, so ist das also. {lover} und {crush}. Süß.
+5794|Finger weg. Ich hab {crush} zuerst gesehen.
+5795|Halt dich von {crush} fern. Ich mein's ernst.
+5796|...Na gut. Wenn es dir so viel bedeutet.
+5797|Okay. Okay. Ich halte mich raus.
+5798|Möge der oder die Bessere gewinnen.
+5799|Keine Chance. {crush} soll entscheiden.
+5800|Ich hab dir einen Kaffee gemacht. So wie du ihn magst. Mit einem Herz im Schaum.
+5801|Hab dir was mitgebracht. Hab's gesehen und an dich gedacht.
+5802|...Das ist echt süß.
+5803|Oh! Danke!
+5804|Du hast dran gedacht?!
+5805|Also. Ich oder {lover}? Ich muss es wissen.
+5806|Ich muss fragen: Läuft da was zwischen dir und {lover}?
+5807|...Ehrlich? Du bist es. Du warst es immer.
+5808|Du. Natürlich du.
+5809|Es tut mir leid. Ich mag {lover}.
+5810|Es ist {lover}. Tut mir leid.
+5811|Keiner von euch! Ihr seid beide lächerlich!
+5812|Ich bin keine Trophäe. Ich wähle niemanden.
+5813|Wir arbeiten jedes Jahr mehr und verdienen WENIGER. Schluss damit.
+5814|Hat sonst noch wer die Nase voll? Ich nämlich schon.
+5815|Wir sollten was tun. Gemeinsam.
+5816|Unterschreibst du die Petition? Faire Gehaltserhöhungen für alle.
+5817|Eine Unterschrift. Für uns alle.
+5818|Gib mir den Stift.
+5819|Unterschrieben. Wurde auch Zeit.
+5820|Okay. Ich bin dabei.
+5821|Das Risiko kann ich nicht eingehen.
+5822|Lass mich da raus. Ich mag meinen Job.
+5823|Nicht mein Kampf.
+5824|Schau dir all die Unterschriften an. Das können sie nicht ignorieren.
+5825|Wir sind viele. Jetzt marschieren wir.
+5826|...Zwei Unterschriften. Eine davon ist meine.
+5827|Keiner hat unterschrieben. Feiglinge. Alle miteinander.
+5828|Ahmet Bey, wir bitten um faire Gehaltserhöhungen. Für alle.
+5829|Wir haben eine Petition unterschrieben. Wir wollen fair bezahlt werden.
+5830|...Na gut. Ich bringe es in der Zentrale vor. Sie bekommen etwas. Versprochen.
+5831|Da haben Sie nicht unrecht. Ich setze mich dafür ein.
+5832|Eine PETITION? Das hier ist kein Gewerkschaftshaus!
+5833|Wer unzufrieden ist, weiß, wo die Tür ist.
+5834|Das ist das DRITTE Mal! Ich finde raus, wer das ist.
+5835|In diesem Büro gibt es einen MITTAGESSEN-DIEB. Und ich werde ihn erwischen.
+5836|Dir entgeht nichts. Hilfst du mir, einen Mittagessen-Dieb zu fangen?
+5837|Ich brauche einen Detektiv. Du bist der neugierigste Mensch, den ich kenne. Das ist ein Kompliment.
+5838|Ein Rätsel? Ich bin DABEI.
+5839|Überlass das mir. In meiner Schicht wird kein Mittagessen geklaut.
+5840|*versteckt sich hinter der Kühlschranktür* Jeden Moment...
+5841|Observation. Kühlschrank. Augen auf.
+5842|ERWISCHT! Finger weg von dem Essen, {culprit}!
+5843|Auf frischer Tat ertappt, {culprit}! Mit einer GABEL!
+5844|Ich— es sah herrenlos aus!
+5845|Ich dachte, das Essen ist für alle!
+5846|Es ist nicht, wonach es aussieht. Es ist genau, wonach es aussieht.
+5847|Nichts. Niemand. Der Dieb muss wissen, dass wir aufpassen.
+5848|Zwei Stunden am Kühlschrank. Nicht mal ein Joghurt.
+5849|Ein extrascharfes „Mittagessen“ mit dem Etikett „NICHT ESSEN“. Mal sehen, wer widerstehen kann.
+5850|*stellt eine verdächtig leckere Box in den Kühlschrank* Der Köder liegt aus.
+5851|HHHHH— WASSER! WASSER!
+5852|WARUM IST DAS SO SCHARF?!
+5853|Mein Mund BRENNT!
+5854|HAHA! Geschieht dir recht!
+5855|Holt mal jemand Milch!
+5856|Das hat man davon, wenn man klaut!
+5857|Von der Chili erwischt! Es ist {culprit}!
+5858|Der Köder hat funktioniert! {culprit}, du bist überführt!

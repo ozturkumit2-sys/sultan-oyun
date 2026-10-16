@@ -1,0 +1,200 @@
+4025|Ahmet Bey, on a besoin de savoir. Il va y avoir des licenciements ?
+4026|C'est vrai que quelqu'un va être viré d'ici vendredi ?
+4027|Tout le bureau panique. On va nous mettre à la porte ?
+4028|DES LICENCIEMENTS ? Qui a parlé de licenciements ?!
+4029|Mais de quoi est-ce que vous parlez ?
+4030|Viré ? Personne n'est viré ! Qui a lancé ça ?
+4031|TOUT LE MONDE. Il n'y a PAS de licenciements. J'ai résilié l'ABONNEMENT CAFÉ.
+4032|Écoutez ! Personne n'est viré ! Je parlais du contrat de la machine à café !
+4033|Pour mémoire : la seule chose qui quitte ce bureau, c'est le café hors de prix.
+4034|Oh, Dieu merci.
+4035|Le CAFÉ ?!
+4036|J'ai pleuré aux toilettes pour rien ?
+4037|… Attends, plus de bon café ?
+4038|On a tous les deux un problème qui s'appelle {mark}. Réglons-le ensemble.
+4039|Toi, tu entends des choses. Moi, je sais m'en servir. Associés ?
+4040|{mark} nous barre la route. Aide-moi et tu seras {to?le premier|la première} sur la liste quand je serai {me?chef|cheffe} d'équipe.
+4041|… J'en suis. Personne ne doit savoir.
+4042|Marché conclu. Cette conversation n'a jamais eu lieu.
+4043|J'y gagne quoi ? … Bon. Marché conclu.
+4044|Non. Trouve quelqu'un d'autre pour ton sale boulot.
+4045|Hors de question. Et fais attention à toi.
+4046|Je ne suis pas ce genre de personne.
+4047|Méfie-toi de {schemer}. On m'a demandé d'aider à te faire tomber.
+4048|Je te le dis seulement parce que ce n'est pas juste : {schemer} complote contre toi.
+4049|… Je le savais. Merci.
+4050|Évidemment. Merci de me le dire.
+4051|Je t'en dois une.
+4052|Qu'est-ce que tu as sur {mark} ?
+4053|Quelque chose d'utile ? N'importe quoi ?
+4054|Oh, j'ai un truc. {dirt}
+4055|Ça reste entre nous : {dirt}
+4056|Rien de vrai. Mais les gens croient ce qu'ils entendent assez souvent…
+4057|Rien. Alors on va inventer. Tire-au-flanc, part tôt en douce. Facile.
+4058|Ahmet Bey, ça me coûte de le dire, mais vous devriez savoir : {dirt}
+4059|Je m'inquiète pour {mark}. Saviez-vous que {dirt}
+4060|… Vraiment ? Intéressant.
+4061|Je garde ça en tête.
+4062|Hm. Ça change les choses.
+4063|J'ai vu {schemer} et {partner} chuchoter aux archives. Ensuite, {schemer} est allé{schemer?|e} directement voir Ahmet à ton sujet.
+4064|Attention : {schemer} parle de toi à Ahmet. Et {partner} est dans le coup.
+4065|{partner} ?! J'avais confiance en {partner?lui|elle} !
+4066|Évidemment. ÉVIDEMMENT.
+4067|… Merci de me l'avoir dit.
+4068|Toi et {schemer} ? Vraiment ? Après tout ça ?
+4069|Je sais pour les archives. Je sais pour Ahmet. Explique-toi.
+4070|Combien {schemer} t'a promis ?
+4071|C'était l'idée de {schemer} ! Moi, j'ai juste… écouté !
+4072|Je me retire. Je n'ai jamais voulu ça. Parle à {schemer}.
+4073|Je ne vois pas de quoi tu parles.
+4074|Tu te fais des idées.
+4075|Prouve-le.
+4076|Attends — c'est l'anniversaire de {bday} aujourd'hui ! Personne n'a rien prévu ?!
+4077|Anniversaire de {bday}. Gâteau. Carte. Surprise. Allez, allez, allez.
+4078|Opération Anniversaire lancée. Cible : {bday}.
+4079|C'EST L'ANNIVERSAIRE DE {bday} ! OK, chut, chut. Mission secrète.
+4080|Psst. Tu participes pour le gâteau de {bday} ? Et signe cette carte. Qu'on ne la voie pas !
+4081|Cinq lires pour la surprise de {bday}. C'est secret !
+4082|Oh, oui ! Tiens.
+4083|Je suis partant{me?|e}. Où est-ce que je signe ?
+4084|Une surprise ? J'adore.
+4085|Une SURPRISE ? Pour {bday} ? Oh, je suis nul{me?|le} pour garder les secrets…
+4086|Ha ! Je ne dirai rien. Probablement.
+4087|Gâteau dans le frigo. Derrière les yaourts. Parfait.
+4088|Caché. Personne ne regarde derrière les cornichons.
+4089|Oh, ce gâteau est pour quelqu'un ?
+4090|C'est… un gâteau entier ? Je peux—
+4091|Ce gâteau est pour quelqu'un ? Je demande pour moi.
+4092|N'Y. TOUCHE. PAS.
+4093|C'est pour {bday} ! Bas les pattes !
+4094|Pose. Cette. Fourchette.
+4095|SURPRISE !!!
+4096|JOYEUX ANNIVERSAIRE !
+4097|🎂 SURPRIIIISE !
+4098|Vous êtes fous ! Oh mon Dieu ! Je croyais que tout le monde avait oublié !
+4099|PAS POSSIBLE. Pour moi ?!
+4100|Je ne pleure pas. C'est toi qui pleures.
+4101|… Hmpf. Bon. Merci. À vous tous.
+4102|… Je déteste les surprises. … Merci.
+4103|Eh bien. C'est… étonnamment gentil.
+4104|Ha ! Je le savais ! Quelqu'un ne sait pas garder un secret !
+4105|J'ai vu le gâteau ce matin. Mais je suis QUAND MÊME touché{me?|e} !
+4106|♪ Joyeux anniversaire ♪
+4107|Un discours ! Un discours !
+4108|Fais un vœu !
+4109|Du gâteau ! DU GÂTEAU !
+4110|Attendez. Où est {bday} ?!
+4111|On a oublié d'amener la personne qui fête son anniversaire.
+4112|… Quelqu'un a vraiment dit à {bday} de venir ?
+4113|QUOI ? Les chiffres étaient FAUX ? … Je vous rappelle.
+4114|… Le client dit QUOI ? Nos chiffres avaient un ZÉRO de trop ?!
+4115|Je comprends. Ça ne se reproduira pas.
+4116|Quelqu'un a envoyé de FAUX chiffres au client. Je veux un nom. TOUT DE SUITE.
+4117|Qui a préparé les chiffres du client ?! Avancez-vous !
+4118|Je trouverai qui a fait ça. Mieux vaut me le dire avant.
+4119|Si on demande, c'est {scapegoat} qui a envoyé ces chiffres.
+4120|Pas moi. Sûrement pas moi. {scapegoat}, peut-être.
+4121|S'il vous plaît, ne me regardez pas. Ne me regardez pas.
+4122|Ça va peut-être se tasser…
+4123|*se cache derrière son écran*
+4124|Ahmet Bey… c'était moi. J'ai mélangé les colonnes.
+4125|Les chiffres venaient de moi. Je suis désolé{me?|e}. J'appellerai le client moi-même.
+4126|C'était mon erreur.
+4127|… Merci de me l'avoir dit. Corrigez ça. Aujourd'hui.
+4128|Au moins, vous êtes honnête. Rappelez-les.
+4129|Hm. Les erreurs, ça arrive. Pas deux fois.
+4130|Un ZÉRO ?! Vous savez de quoi on a l'air ?!
+4131|Inacceptable ! Totalement inacceptable !
+4132|{scapegoat}. Les chiffres du client. Expliquez-vous.
+4133|J'entends dire que c'est VOUS qui avez envoyé ces chiffres.
+4134|Mon bureau a une question pour vous, {scapegoat} : pourquoi ?
+4135|Regardez l'historique du fichier. Je n'ai pas ouvert ce tableur depuis des semaines.
+4136|Ce n'est pas moi. Regardez les horodatages.
+4137|Demandez à {culprit} qui l'a modifié en dernier.
+4138|… Ce n'est pas moi. Mais bon.
+4139|Je ne sais pas quoi dire.
+4140|… D'accord.
+4141|D'après l'historique, c'est VOUS qui avez modifié ce tableur. Pas {scapegoat}.
+4142|Eh oui. Les horodatages. Drôles de bêtes, les horodatages.
+4143|Vous avez laissé {scapegoat} porter le chapeau ?
+4144|Je… je peux expliquer.
+4145|C'était une erreur de bonne foi !
+4146|… Oui. C'était moi.
+4147|Oh non. J'ai tapé les mauvais totaux dans le rapport de {mentor}. Et il est déjà sur le bureau d'Ahmet !
+4148|J'ai inversé deux colonnes dans le rapport de {mentor}. Ahmet l'a. Je suis mort{me?|e}.
+4149|Ahmet Bey, il y a une erreur dans mon rapport. C'est ma faute. Version corrigée dans dix minutes.
+4150|Je me suis trompé{me?|e} dans les totaux. C'est corrigé. Ça ne se reproduira pas.
+4151|Hm. Ça ne vous ressemble pas. Corrigez ça.
+4152|Bien. Dix minutes.
+4153|Bâclé. J'attendais mieux de vous.
+4154|Des erreurs dans MES rapports ? Encore ?
+4155|C'est drôle, Ahmet Bey — j'ai entendu dire que l'erreur venait de la stagiaire. Quelqu'un la couvre. Pas très transparent, non ?
+4156|Vous savez que {mentor} couvre {protege}, n'est-ce pas ? Je pensais que vous deviez le savoir.
+4157|… Couvrir ? Dans MON bureau ?
+4158|Tiens donc.
+4159|Je vais regarder ça.
+4160|Peu importe à qui est la faute de frappe. Au travail.
+4161|Les ragots de bureau ne sont pas une évaluation de performance, Deniz.
+4162|Ahmet Bey — l'erreur venait de moi. {mentor} me protégeait. S'il vous plaît, ne {mentor?le|la} blâmez pas.
+4163|C'était moi. Pas {mentor}. Je suis désolé{me?|e}.
+4164|… Hm. Loyauté ET honnêteté. Tous les deux, au travail.
+4165|Bien. Je respecte ça. Que ça ne se reproduise pas.
+4166|Merci. De m'avoir couvert{me?|e}. Tu n'étais pas obligé{to?|e}.
+4167|Pourquoi tu as fait ça pour moi ?
+4168|Je t'en dois une. Une grosse.
+4169|C'est comme ça qu'on fait, ici. La prochaine fois, vérifie deux fois les totaux.
+4170|Tout le monde se plante une fois. Pas deux.
+4171|Tu ferais pareil pour moi.
+4172|Ahmet Bey, j'aimerais parler du poste de chef d'équipe.
+4173|Je crois avoir mérité ma chance pour le poste de chef d'équipe. J'aimerais savoir où j'en suis.
+4174|Qu'est-ce qu'il faudrait pour que je sois promu{me?|e} ?
+4175|Prouvez-le. Décrochez le compte Kaya avec votre pitch. D'ici demain.
+4176|Les résultats parlent. Apportez-moi un pitch qui remporte Kaya.
+4177|Montrez-moi. Ensuite, on parlera.
+4178|Ce n'est pas le moment.
+4179|Quand il y aura un poste, je vous le dirai.
+4180|Patience. Tout le monde veut une promotion.
+4181|Vous êtes {to?le prochain|la prochaine} sur la liste. Ne dites à personne que je l'ai dit.
+4182|Continuez comme ça. Ce sera bientôt à vous.
+4183|Déjeuner ? Non. Pitch.
+4184|Diapo douze. Diapo TREIZE.
+4185|Si je finis ça, je suis {me?chef|cheffe} d'équipe. CONCENTRE-TOI.
+4186|Ce serait dommage que ces diapos se… mélangent.
+4187|Oups. C'est la version finale ? C'était.
+4188|Rien de personnel.
+4189|… et voilà pourquoi Kaya va signer avec nous. Des questions ?
+4190|Voici le pitch. Trois diapos. Pas de blabla.
+4191|J'aimerais vous présenter la proposition pour Kaya.
+4192|… C'est excellent. Vraiment excellent.
+4193|Ça, c'est le travail d'un chef d'équipe.
+4194|Je suis impressionné.
+4195|Les chiffres sont un désastre. Que s'est-il passé ?
+4196|Ce n'est pas prêt.
+4197|J'attendais plus.
+4198|Quelqu'un a trafiqué mon bureau ! Mes notes étaient partout !
+4199|Je… c'était prêt ce matin !
+4200|À propos d'hier…
+4201|J'ai réfléchi au poste de chef d'équipe.
+4202|Quand le poste s'ouvrira, il sera pour vous.
+4203|Vous l'avez mérité. Ce sera officiel bientôt.
+4204|Pas encore. Continuez à travailler.
+4205|Vous y êtes presque. Pas encore.
+4206|Je vais me venger de {victim}. Et tu vas m'aider.
+4207|{victim} l'a bien cherché. J'ai un plan.
+4208|La vengeance est un plat qui se mange… d'ici vendredi.
+4209|… OK, je t'écoute. C'est quoi, le plan ?
+4210|Ha ! J'en suis.
+4211|Bon. Mais rien qui nous fasse virer.
+4212|Laisse tomber. Ça n'en vaut pas la peine.
+4213|La vengeance ? Sérieusement ? Va plutôt lui parler.
+4214|Tu vas le regretter. Ne fais pas ça.
+4215|… Tu as peut-être raison.
+4216|Pff. Bon. Tu es trop raisonnable.
+4217|J'inverse les touches du clavier. Toutes. Sans. Exception.
+4218|Du sel dans le sucrier. Le sien.
+4219|Je change le fond d'écran pour… ça.
+4220|Je colle une photo d'Ahmet à l'intérieur du tiroir. Bonne surprise.
+4221|QUI a inversé les touches de mon clavier ?!
+4222|Mon sucre, c'est du SEL. Qui a fait ça ?!
+4223|Pourquoi la tête d'Ahmet est dans mon tiroir ?!
+4224|Mon fond d'écran, c'est un lama. POURQUOI.

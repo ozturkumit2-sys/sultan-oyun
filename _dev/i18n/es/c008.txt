@@ -1,0 +1,136 @@
+1550|El fantasma escribió en el tablero: «{presenter} presenta al cliente».
+1551|El fantasma garabateó «¡CITA DOBLE en el almuerzo!» en la foto de {a} y {b}.
+1552|El fantasma sincronizó el parpadeo de las luces con la falsa sirena del virus.
+1553|El fantasma bloqueó la salida de emergencia mientras sonaba la alarma.
+1554|El fantasma copió el documento confidencial en la carpeta compartida de {leaker}.
+1555|El fantasma puso juntas en la bandeja de Ahmet la solicitud de traslado y la carta de recomendación de {target}.
+1556|El fantasma colgó una pancarta de «¡FIESTA!» sobre la puerta de la cocina.
+1557|El fantasma clavó la nómina filtrada justo al lado de «Presupuesto para aumentos este año: 0».
+1558|El fantasma puso «Anuncio de ascenso» al principio del orden del día.
+1559|El fantasma escribió «Reestructuración: preguntas» en el tablero, justo debajo del orden del día.
+1560|El fantasma coló el informe reescrito de {rebel} en la carpeta de evaluaciones de Ahmet.
+1561|El fantasma firmó la nota bonita y el elogio de {owner} como «tu admirador secreto».
+1562|El fantasma envió al cliente la versión vieja de las cifras de {owner}, con Ahmet en copia.
+1563|El fantasma firmó la queja anónima sobre {enemy} con el nombre de {gossip}.
+1564|El fantasma añadió «Lo tiré todo yo. Etiqueten su comida.» a la nota de la nevera de {signer}.
+1565|El fantasma grapó la solicitud de empleo secreta de {applicant} a su informe de desempeño reescrito.
+1566|El fantasma atascó la puerta principal de la oficina.
+1567|El fantasma atascó la carta de amor de {target} en la fotocopiadora.
+1568|El fantasma abrió ofertas de empleo en la pantalla de {owner}.
+1569|El fantasma añadió «una máquina de karaoke» a la rendición de gastos de {target}.
+1570|El fantasma dejó encima del escritorio de {owner} su nota privada sobre {best}.
+1571|El fantasma dejó exactamente una taza de café en la máquina.
+1572|El fantasma dejó que {target} viera en el calendario de Ahmet una reunión privada de «revisión de RR. HH.».
+1573|El fantasma marcó como leído el mensaje de {friend} a {owner}. No habrá respuesta.
+1574|El fantasma cerró con llave la sala de reuniones.
+1575|El fantasma bloqueó la computadora de {owner}.
+1576|El fantasma bloqueó el termostato en {temp}.
+1577|El fantasma dejó el cuaderno privado de {target} abierto en el sofá.
+1578|El fantasma añadió emojis de corazones al correo de {owner} para {target}.
+1579|El fantasma le entregó la nota de amor de {owner} a {target} en lugar de a {crush}.
+1580|El fantasma desvió la invitación a almorzar de {owner} a {target}.
+1581|El fantasma puso tarjetas con nombres en la mesa de la cocina: {a} al lado de {b}.
+1582|El fantasma escribió «Ahmet se equivoca en todo» en el margen del informe de {owner}.
+1583|El fantasma programó la alarma del teléfono de {owner} para que suene durante la reunión.
+1584|El fantasma hizo que el teclado de {owner} maullara.
+1585|El fantasma movió el archivo de {owner} a la carpeta privada de Ahmet.
+1586|El fantasma desordenó el archivo.
+1587|El fantasma quitó la última página del informe de {owner}.
+1588|El fantasma empujó el almuerzo de {target} al fondo de la nevera.
+1589|El fantasma trasladó la reunión de hoy a {what}.
+1590|El fantasma cambió la placa del gerente a «{target}».
+1591|El fantasma coló en el boletín de Ceren un falso «Visto» sobre {target}.
+1592|El fantasma vació la bandeja de papel de la impresora.
+1593|El fantasma replicó las notificaciones de mensajes de {owner} en el teléfono de {target}.
+1594|El fantasma puso {what} en el altavoz de la oficina.
+1595|El fantasma subió una de las viejas promesas de Ahmet al principio de la bandeja de {owner}.
+1596|El fantasma devolvió el informe de {owner} a la versión de la semana pasada.
+1597|El fantasma clavó un organigrama con {target} por encima de Ahmet.
+1598|El fantasma añadió a {target} a la lista de horas extra del fin de semana.
+1599|El fantasma empacó el escritorio de {owner} en una caja de cartón.
+1600|El fantasma puso el reloj de la computadora de {owner} {what}.
+1601|El fantasma reescribió el informe de desempeño de {target}.
+1602|El fantasma metió el teléfono de {target} en un abrigo del perchero.
+1603|El fantasma escondió el teléfono de {owner} en la nevera de la oficina.
+1604|El fantasma clavó en el tablón de corcho las notas privadas de Ahmet sobre el personal.
+1605|El fantasma escribió «¡PIZZA GRATIS!» junto a la reunión de hoy.
+1606|El fantasma pospuso indefinidamente la evaluación de desempeño de {target}.
+1607|El fantasma le hizo una broma telefónica a Ahmet desde el teléfono del escritorio de {owner}.
+1608|El fantasma puso a {target} primero en la lista de presentaciones de hoy.
+1609|El fantasma mandó a la impresora 500 copias de la foto de bebé de Ahmet.
+1610|El fantasma mandó uno de los archivos privados de {owner} a la impresora de la oficina.
+1611|El fantasma clavó unos falsos criterios de ascenso en el tablón de corcho.
+1612|El fantasma dejó un charco resbaladizo delante de la impresora.
+1613|El fantasma dejó una carta de confirmación de aumento en el escritorio de {target}. No era para esa persona.
+1614|El fantasma llevó el contrato firmado de {owner} al reciclaje de la cocina.
+1615|El fantasma le dejó a {target} una carta de recomendación «de Ahmet».
+1616|El fantasma cambió las etiquetas de las carpetas del escritorio de {owner}.
+1617|El fantasma llevó el informe de {owner} al escritorio de {target}.
+1618|El fantasma colgó en la cocina un cartel de «Reservado — almuerzo privado de Ahmet».
+1619|El fantasma dejó el borrador de renuncia de {owner} encima de su escritorio.
+1620|El fantasma regó y revivió la planta de la sala de descanso.
+1621|El fantasma amañó el amigo invisible: a {a} le tocó {b}.
+1622|El fantasma cambió el tono de llamada de {owner}.
+1623|El fantasma clavó una nota que señala a {origin} como fuente del rumor sobre {subject}.
+1624|El fantasma puso a {target} en lo más alto de la clasificación de ventas.
+1625|El fantasma llenó de sal el azucarero de la cocina.
+1626|El fantasma revolvió la centralita de recepción.
+1627|El fantasma cambió la carpeta privada de {owner} a «compartida con todos».
+1628|El fantasma escribió «¡máximo 5 minutos!» en la reunión de hoy.
+1629|El fantasma redactó una lista corta de ascensos con {target} arriba del todo.
+1630|El fantasma desordenó las páginas de la presentación impresa de {owner}.
+1631|El fantasma reescribió la firma de correo de {owner}.
+1632|El fantasma ralentizó la conexión a internet de {owner}.
+1633|El fantasma convirtió el dispensador de agua en un «rincón spa».
+1634|El fantasma movió la instrucción urgente de Ahmet a la carpeta de spam de {owner}.
+1635|El fantasma puso el teléfono de {owner} en modo altavoz.
+1636|El fantasma puso la cafetera al triple de fuerte.
+1637|El fantasma llenó el buzón de sugerencias de notas sobre {target}.
+1638|El fantasma programó en el calendario de Ahmet una evaluación sorpresa para {target}.
+1639|El fantasma cambió en el perchero el abrigo de {target} por el de {other}.
+1640|El fantasma mezcló las tazas del estante de la cocina.
+1641|El fantasma pasó la nota adhesiva de {owner} al escritorio de {target}.
+1642|El fantasma cambió el celular de {owner} por el de {target}.
+1643|El fantasma intercambió las evaluaciones de desempeño de {owner} y {target}.
+1644|El fantasma reordenó las tarjetas con nombres de la sala de reuniones.
+1645|El fantasma cambió la página de firmas del contrato de {owner} por la de {target}.
+1646|El fantasma cambió la presentación de {owner} por las diapositivas de {target}.
+1647|El fantasma dejó una bandeja de té y galletas en la cocina.
+1648|El fantasma llevó la nota de agradecimiento de Ahmet al escritorio de {target}.
+1649|El fantasma puso en la cocina un bote de propinas de «Gracias, Burak, por arreglarlo todo».
+1650|El fantasma cambió el cargo de {target} a «Becario».
+1651|El fantasma redactó una solicitud de traslado que manda a {target} a una sucursal lejanísima.
+1652|El fantasma revolvió la ortografía del correo de {owner} al cliente.
+1653|El fantasma quitó a {target} de la invitación a la reunión de hoy.
+1654|El fantasma desenchufó el monitor de {owner}.
+1655|El fantasma desenchufó el switch de red de la oficina.
+1656|El fantasma borró la disculpa de {owner} para {foe} antes de que la leyeran.
+1657|El fantasma selló URGENTE en cada papel del escritorio de {owner}.
+1658|El fantasma puso una alerta de virus falsa en la pantalla de {owner}.
+1659|El fantasma desvió el mensaje de voz privado de {owner} a {target}.
+1660|El fantasma movió el reloj de pared de la oficina {what}.
+1661|El fantasma cambió el fondo de pantalla de {owner}.
+1662|El fantasma le escribió a {crush} desde el teléfono de {owner}: «Tenemos que hablar».
+1663|El fantasma cambió la silla de {owner} por la rota.
+1664|El fantasma puso el número de {target} en las llamadas perdidas de {owner}.
+1665|El fantasma escribió «{target}» para presidir la reunión de hoy.
+1666|El fantasma clavó «Presupuesto para aumentos este año: 0» en el tablón de corcho.
+1667|El teléfono de {owner} sonó con un tono nuevecito. Toda la planta lo oyó.
+1668|{actor} acusó a {target} de la broma. {target} jura que es inocente: la discusión subió de tono.
+1669|{actor} acusó a {target} de la broma. Acabaron riéndose.
+1670|{actor} acusó a {target} de la broma y luego le creyó. Incómodo, pero bien.
+1671|{actor} le preguntó a {target} por {what}. {target} se puso {target?rojo|roja} y no dijo que no. Ahí está pasando algo.
+1672|Ahmet llamó a {actor} a su despacho por {what}. Fue un malentendido. Ahora Ahmet sospecha de todo el mundo.
+1673|Ahmet llamó a {actor} a su despacho por {what}. {actor} no tenía ni idea… y se llevó un sermón igual.
+1674|{actor} le dio las gracias a {target} por {what}. {target} aceptó el mérito. No había sido esa persona.
+1675|{target} arregló el problema de la computadora de {actor} en dos minutos justos.
+1676|{actor} le pidió ayuda técnica a {target} y le dijeron que abriera un ticket.
+1677|{target} revisó la computadora de {actor}: «Alguien hizo esto a propósito». Ahora {actor} sospecha.
+1678|{actor} descubrió algo sobre {subject}… y decidió guardárselo en silencio.
+1679|{actor} creyó que {target} estaba detrás de {what}. {target} no tenía ni idea de qué le hablaban.
+1680|{actor} descubrió algo sobre {subject}. Es demasiado bueno para no contarlo.
+1681|{actor} fue directo a contarle a Ahmet lo de {subject}. Ahmet escuchó.
+1682|{actor} fue a contarle a Ahmet lo de {subject}. A Ahmet no le interesan los chivatazos.
+1683|Ahmet abrió la reunión de hoy con «novedades sobre el ascenso». Está leyendo del expediente manipulado.
+1684|{reader} ahora cree que {owner} le invitó a salir: la nota de amor mal entregada y la falsa invitación a un café venían «de» {owner}.
+1685|{actor} le rogó a Ahmet que creyera que el informe estaba mal. Ahmet no le creyó. {actor} está {actor?afectado|afectada}… y piensa en irse.

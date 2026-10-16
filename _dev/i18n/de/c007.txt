@@ -1,0 +1,129 @@
+1421|{owner:s} Anrufe landeten bei {target}. {target} hat einen Kundenanruf erledigt und die Nachricht weitergegeben.
+1422|{owner:s} Anrufe landeten bei {target} — und {target} hat {owner:s} Kunden still und heimlich für sich behalten.
+1423|{owner:s} verstümmelte Sprachnachricht klang wie eine Drohung. {target} ist nicht ganz überzeugt, dass es nur die Diktierfunktion war.
+1424|{owner:s} diktierte Nachricht an {target} kam als Morddrohung an. Am Ende haben beide darüber gelacht.
+1425|{believer} hat das Büro offiziell für verflucht erklärt. Manche nicken.
+1426|Burak wollte den Geist entlarven. {believer} glaubt ihm kein Wort. Das Büro hat jetzt einen Hausgeist.
+1427|Burak hat den „Geist“ als defektes Relais erklärt. {believer} hat die Geisterjagd widerwillig aufgegeben.
+1428|Die Séance im Meetingraum brachte nichts außer peinlichem Schweigen.
+1429|{believer} hat {medium} für eine Séance im Meetingraum angeworben.
+1430|{believer} wollte eine Séance abhalten. Niemand machte mit. Die Geisterjagd ist vorbei.
+1431|Die Séance im Meetingraum wurde still… dann flackerte das Licht. Schreie hallten durchs ganze Büro.
+1432|{actor} ist überzeugt, dass es im Büro spukt.
+1433|Auf der Karte zu {giver:s} Geschenk für {intended} stand {target:s} Name. {target} hat sich bedankt. {intended} ging leer aus.
+1434|In Ahmets Kalender tauchte eine Golfrunde auf. Er hat das Büro verlassen. Kurz vor seinem eigenen Meeting.
+1435|Während Ahmet Golf spielte, hat {actor} das Meeting übernommen. Nicht allen gefiel das.
+1436|{actor} hat {target} erzählt: „{gossip}“
+1437|{actor} hat {target} in die Küche gezogen und geflüstert: „{gossip}“
+1438|{actor} hat die Geschichte beim Weitererzählen an {target} ausgeschmückt: „{gossip}“ (so war es nicht)
+1439|{target} wurde zu einem Gruppenchat hinzugefügt, in dem {hater} über {target?ihn|sie} lästert. {target} hat alles gelesen.
+1440|{target} hat alles glatt abgestritten. (Gelogen.)
+1441|Drei Herzen in einer Arbeitsmail führten zu einem Geständnis: {target} mag {actor}!
+1442|{actor} hat {target} nach den Herzen in der Arbeitsmail gefragt. {target} hat knallrot alles abgestritten.
+1443|{actor} hat {crush} mit {target} gesehen und hat insgeheim Liebeskummer. Die Spannung ist offensichtlich.
+1444|{target} hat zugesagt, {actor} bei {obj?dem|der|dem} {obj} zu helfen.
+1445|{actor} hat {target} bei einer Deadline geholfen.
+1446|{target} hat {actor} Hilfe versprochen… später.
+1447|{target} hat sich rundheraus geweigert, {actor} zu helfen.
+1448|{seeker} hat Ahmet von einem Jobangebot erzählt. Ahmet hat den Bluff durchschaut: „Dann geh doch.“ {seeker} ist erschüttert.
+1449|{seeker} hat im Flur flüsternd telefoniert: ein Vorstellungsgespräch, heute Nachmittag.
+1450|{seeker} hat flüsternd über ein Vorstellungsgespräch telefoniert — und {listener} hat jedes Wort gehört.
+1451|{seeker} hat Ahmet von einem Jobangebot erzählt. Ahmet hat ein Gegenangebot gemacht — {seeker} bleibt, mit Gehaltserhöhung.
+1452|{seeker} hat Ahmet von einem Zahnarzttermin erzählt. (Gibt es nicht.)
+1453|{seeker} wollte für einen „Zahnarzttermin“ gehen. Ahmet hat Nein gesagt. {seeker} geht trotzdem.
+1454|{seeker} hat das Büro für den „Zahnarzttermin“ verlassen — im besten Hemd.
+1455|Ahmet hat bemerkt, dass {seeker} im Anzug vom „Zahnarzt“ zurückkam. Er ist misstrauisch.
+1456|{seeker} ist vom „Vorstellungsgespräch“ zurück. Ahmet hat nichts geahnt.
+1457|{actor} hat das ganze Büro nach einem verschwundenen Bericht abgesucht — er versteckte sich in einem Ordner namens „Altes Zeug 2019“.
+1458|{actor} hat den verschwundenen Bericht nie gefunden und muss von vorne anfangen.
+1459|{actor} hat zum Spaß {target:s} {item} versteckt.
+1460|Kunden in der Warteschleife bekamen {what} zu hören. Ahmet gab Ceren die Schuld.
+1461|Das Urteil der Zentrale: „Verbesserungsbedürftig.“ Ahmet hat vor allen {slob} die Schuld gegeben.
+1462|Inspektionstag. Alle putzen. {slob} stopft Sachen in alarmierendem Tempo in Schubladen.
+1463|Bei der Inspektion hat Ahmet {slob:s} Schublade geöffnet. Eine Müll-Lawine landete auf den Schuhen des Inspektors.
+1464|Das Urteil der Zentrale: „Vorbildliches Büro.“ Ahmet hat Pizza bestellt.
+1465|Bei der Inspektion hat Ahmet {slob:s} Schublade geöffnet. Sie war makellos. Niemand kann es erklären.
+1466|Ahmet hat für morgen eine Inspektion der Zentrale angekündigt. Alle Blicke wanderten zu {slob:s} Schreibtisch.
+1467|Ein anonymer „Ich weiß, was du getan hast“-Zettel hat {target} so erschüttert, dass {target?er|sie} {friend} das eigene Geheimnis gebeichtet hat.
+1468|Ein anonymer „Ich weiß, was du getan hast“-Zettel lässt {target} jetzt alle verdächtigen.
+1469|{actor} und {target} lachen sich in der Küche über einen Insider-Witz kaputt.
+1470|Die heimlichen Verbündeten {actor} und {target} haben sich im Archiv getroffen, um Informationen auszutauschen.
+1471|{target:s} offizieller Jobtitel lautet über Nacht „Praktikant“. Ece ist entzückt. {target} nicht.
+1472|{actor} hat {item?den|die|das} {item} gefunden.
+1473|{actor} hat {item?den eigenen|die eigene|das eigene} {item} auf {owner:s} Schreibtisch gefunden!
+1474|{actor} hat {item?den eigenen|die eigene|das eigene} {item} an {owner:s} Schreibtisch gefunden und mit Humor genommen.
+1475|{actor} hat {item?den eigenen|die eigene|das eigene} {item} an einem sehr seltsamen Ort gefunden.
+1476|{actor} findet {item?den eigenen|die eigene|das eigene} {item} nicht.
+1477|Deniz hat Selins USB-Stick gefunden… und behalten.
+1478|{actor} hat {owner:s} {item} gefunden und will {item?ihn|sie|es} zurückbringen.
+1479|{actor} hat {target} {item?den|die|das} {item} zurückgebracht. Eine Freundschaft erblüht.
+1480|Der Geist hat {target} zu einem Gruppenchat voller Beschwerden über {target?ihn|sie} hinzugefügt.
+1481|Der Geist hat die heutige Tagesordnung umgeschrieben.
+1482|Der Geist hat eine unterschriebene Bündnisvereinbarung zwischen {a} und {b} im Archiv liegen lassen.
+1483|Der Geist hat {target} zu einem verpflichtenden Anti-Aggressions-Kurs angemeldet.
+1484|Der Geist hat eine anonyme Beschwerde über {target} aufgehängt.
+1485|Der Geist hat ein anonymes Kompliment über {target} aufgehängt.
+1486|Der Geist hat {owner:s} Entschuldigungsbrief an {target} zugestellt.
+1487|Der Geist hat {owner:s} gedruckten Bericht im Archiv unter „Z“ abgelegt.
+1488|Der Geist hat {owner:s} Autokorrektur geändert. Aus „Ahmet Bey“ wird jetzt „Ahmet Baby“.
+1489|Der Geist hat {owner:s} automatische Antwort auf „Ich kündige. Kontaktiert mich nicht.“ gestellt.
+1490|Der Geist hat eine „Bester Chef der Welt“-Tasse mit {target:s} Namen auf dem Anhänger auf Ahmets Schreibtisch gestellt.
+1491|Der Geist hat den geheimen Geburtstagsumschlag für {bdayp} auf den Küchentisch gelegt.
+1492|Der Geist hat „Golf mit dem Regionaldirektor“ in Ahmets Kalender eingetragen.
+1493|Der Geist hat Ahmets unfertigen Rundschreiben-Entwurf an das ganze Büro geschickt.
+1494|Der Geist hat die Mikrowelle kaputt gemacht.
+1495|Der Geist hat den Beamer im Meetingraum kaputt gemacht.
+1496|Der Geist hat den Wasserspender kaputt gemacht.
+1497|Der Geist hat den versteckten Geburtstagskuchen auf den Küchentisch gestellt.
+1498|Der Geist hat die Anrufer-ID auf {owner:s} Handy gefälscht.
+1499|Der Geist hat {owner:s} Feststelltaste festgeklemmt.
+1500|Der Geist hat Ahmet in {owner:s} privaten Chat in CC gesetzt.
+1501|Der Geist hat {target:s} Namen auf {owner:s} Projektdatei gesetzt.
+1502|Der Geist hat den Betreff von {owner:s} nächster Mail geändert.
+1503|Der Geist hat „HEUTE WICHTIGER KUNDENBESUCH“ an die Tafel geschrieben.
+1504|Der Geist hat die Kaffeemaschine auf 40 Minuten Aufwärmzeit gestellt.
+1505|Der Geist hat ein vertrauliches Dokument offen im Archiv liegen lassen.
+1506|Der Geist hat ein gefälschtes Foto von {target} und {partner} zusammen aufgehängt.
+1507|Der Geist hat den Bürokaffee durch entkoffeinierten ersetzt.
+1508|Der Geist hat {owner:s} Nachricht, in der {best} verteidigt wird — an {best} weitergeleitet.
+1509|Der Geist hat einen Kundenrückruf an {owner} verzögert.
+1510|Der Geist hat die heutige Meeting-Einladung gelöscht.
+1511|Der Geist hat das Bürolicht auf Disco-Modus gestellt.
+1512|Der Geist hat {owner:s} Handy auf „Nicht stören“ gestellt.
+1513|Der Geist hat zur selben Zeit wie das echte Meeting eine falsche „Budget-Abstimmung“ in der Küche angesetzt.
+1514|Der Geist hat {owner:s} Handyakku leer gemacht.
+1515|Der Geist hat Ahmets Beförderungsankündigung auf jetzt sofort vorgezogen.
+1516|Der Geist hat die Urkunde „Mitarbeiter des Monats“ auf {target} geändert.
+1517|Der Geist hat eine Einladung zum Feierabend-Drink aufgehängt, die {target} auslässt.
+1518|Der Geist hat {applicant:s} Bewerbung auf Ahmets Schreibtisch gelegt.
+1519|Der Geist hat {what?einen falschen|eine falsche|ein falsches} {what} in {owner:s} Kalender eingetragen.
+1520|Der Geist hat {owner} eine gefälschte „Genehmigt!“-Antwort von Ahmet geschickt.
+1521|Der Geist hat eine falsche Einladung „Vier-Augen-Gespräch — Küche“ von {owner} an {target} geschickt.
+1522|Der Geist hat „{target} hat sich freiwillig für die Planung des Team-Ausflugs gemeldet“ ins Meeting-Protokoll geschrieben.
+1523|Der Geist hat eine mysteriöse Erinnerung auf {owner:s} Handy gestellt.
+1524|Der Geist hat das heutige Meeting in „Abschied von {target}“ umbenannt.
+1525|Der Geist hat eine von {owner:s} privaten Dateien auf {target:s} Bildschirm geschickt.
+1526|Der Geist hat den Feueralarm ausgelöst.
+1527|Der Geist hat ein Fischcurry im Kühlschrank mit {target:s} Namen beschriftet.
+1528|Der Geist hat den Drucker still und leise repariert.
+1529|Der Geist hat das Bürolicht flackern lassen.
+1530|Der Geist hat Ahmets Unterschrift auf {owner:s} Spesenabrechnung gefälscht.
+1531|Der Geist hat {owner:s} Anrufe an {target} umgeleitet.
+1532|Der Geist hat {owner:s} privaten Chat über {worst} an {worst} weitergeleitet.
+1533|Der Geist hat die Gehaltsliste aus Zeyneps Posteingang an {target} weitergeleitet.
+1534|Der Geist hat einen passiv-aggressiven Zettel an den Kühlschrank geklebt, „unterschrieben“ von {target}.
+1535|Der Geist hat den Bürokühlschrank ausgeräumt.
+1536|Der Geist hat {owner:s} diktierte Nachricht an {target} verstümmelt.
+1537|Der Geist hat den Namen auf einer Geschenkkarte in der Küche auf {target} geändert.
+1538|Der Geist hat ein peinliches Foto von {owner} in den Büro-Gruppenchat gepostet.
+1539|Der Geist hat die Visitenkarte eines Headhunters auf {owner:s} Schreibtisch gelegt.
+1540|Der Geist hat {owner:s} Bericht tief in einem alten Ordner versteckt.
+1541|Der Geist hat die Snackbox des Büros in {target:s} Schreibtischschublade versteckt.
+1542|Der Geist hat das gesamte Büromaterial in {target:s} Schublade geräumt.
+1543|Der Geist hat die Warteschleifenmusik am Empfang geändert.
+1544|Der Geist hat einen anonymen „Ich weiß, was du getan hast“-Zettel für {target} hinterlassen.
+1545|Der Geist hat {target} zur heutigen Meeting-Einladung hinzugefügt.
+1546|Der Geist hat die Tafel geändert: „{usurper} — Kommissarische Leitung“.
+1547|Der Geist hat {crush:s} Rückruf auf {owner:s} Handy durchgestellt — auf Lautsprecher.
+1548|Der Geist hat {owner:s} falsche Vier-Augen-Einladung an {reader} bearbeitet: „Kaffee — nur wir. Kerzen.“
+1549|Der Geist hat {owner:s} Kündigungsentwurf an die „Ich kündige“-Abwesenheitsnotiz gehängt.

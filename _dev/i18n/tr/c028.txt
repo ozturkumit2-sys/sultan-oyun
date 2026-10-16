@@ -1,0 +1,210 @@
+5466|Şu TIKIRDATMAYI KESER misin?!
+5467|Biraz daha SESSİZ nefes alabilir misin?
+5468|NEDEN bu kadar GÜRÜLTÜLÜSÜN?
+5469|BEN TIKIRDATMIYORUM! SEN tıkırdatıyorsun!
+5470|Ah, BEN mi gürültülüyüm?!
+5471|Mutfakta bedava kurabiye! Bunları kim getirdi?
+5472|Çay ve kurabiye! Mutfak! Hemen!
+5473|...Ah, kurabiyeler mi? Evet. Bendim. Rica ederim.
+5474|Ekip için ufak bir şey.
+5475|Sen bir harikasın!
+5476|Teşekkürler! Bunlar muhteşem.
+5477|Son bardak! Ha! Benim.
+5478|Ooo, tam bir bardak kalmış. Şanslıyım.
+5479|SON bardağı mı aldın?!
+5480|O son kahveydi. Gördüm. Gördüğümü de gördün.
+5481|...Peki. Yarı yarıya?
+5482|Al. Yarısı senin. Canavar değilim.
+5483|İlk gelen alır.
+5484|Uyuyan kaybeder.
+5485|'Dünyanın En İyi Patronu'... {target:den} mi? Vay. Vay, vay.
+5486|Bir kupa! Bana! {target:den}! Ne kadar düşünceli.
+5487|{target}, kupa için teşekkürler. Duygulandım.
+5488|Kupa konusunda zevkin harika, {target}.
+5489|...Rica ederim? Ne kupası?
+5490|Ah — şey — evet! Kupa! Tabii ki.
+5491|'Dünyanın En İyi Patronu' kupası mı? Cidden mi, {target}?
+5492|Vay. Utanmazlık.
+5493|Limonlu su mu? Salatalık dilimleri mi? Ben buradan hiç gitmem.
+5494|'Spa günü'. Buna alışabilirim.
+5495|Ahh. Su. Lüks.
+5496|Burası spa mı, ofis mi?!
+5497|Masalarınıza! Burası tatil köyü değil!
+5498|...Çalışıyor mu? ÇALIŞIYOR! Kim tamir etti?
+5499|Yazıcı tamir edilmiş! Kimse dokunmadı... değil mi?
+5500|VAY— *ÇAT*
+5501|AAH! Sandalyem!
+5502|*güm* ...Ay.
+5503|*ÇAT* BU SANDALYEYİ BANA KİM VERDİ?!
+5504|İyi misin?! Al, elimi tut.
+5505|Eyvah! Bir yerin acıdı mı?
+5506|HAHAHA! Pardon! Pardon. İyi misin? HAHA!
+5507|Bu hafta gördüğüm en güzel şeydi.
+5508|...Neden bütün eşyalarım bir KUTUDA?
+5509|Masam toplanmış. Bir kutuya. Ben... kovuldum mu?!
+5510|Bir karton kutu. Eşyalarımla. Eyvah.
+5511|{owner} işten mi çıkarılıyor?!
+5512|{owner:in} masası kutuya konmuş... zavallı.
+5513|Ahmet Bey — kovuldum mu? Eşyalarım kutuda!
+5514|Lütfen hâlâ bir işim olduğunu söyleyin.
+5515|Kovulmak mı? Masanı kim topladı? Hiçbir yere gitmiyorsun.
+5516|Kimse kovulmadı. Kutuyu boşalt. Ve bunu kimin yaptığını bul.
+5517|Kâğıt mı bitti? Yine mi?
+5518|'Kâğıt yükleyin'. NEYLE? Tepsi boş!
+5519|Malzeme rafında da mı kâğıt yok?!
+5520|Bütün ofiste tek bir yaprak bile yok.
+5521|Biraz buldum. Kriz önlendi.
+5522|İşte. Kâğıt.
+5523|Ooo, bu şarkıya BAYILIYORUM!
+5524|Nihayet, güzel bir müzik!
+5525|*sandalyede dans eder*
+5526|DJ, sesi AÇ!
+5527|Bu benim şarkım!
+5528|BUNU kim açtı?!
+5529|Durdurun şunu. Lütfen.
+5530|Kulaklarım. Zavallı kulaklarım.
+5531|Gürültü önleyici kulaklık: AÇIK.
+5532|BENİM ofisimde kim müzik çalıyor?!
+5533|Kapatın şunu! Burası iş yeri!
+5534|YANGIN ALARMI! Herkes dışarı!
+5535|Tatbikat mı bu?! Dışarı, dışarı, dışarı!
+5536|Her şeyi bırakın! ÇIKIN!
+5537|Herkes — sakin bir şekilde — DIŞARI. HEMEN!
+5538|Laptopum! Yok — bırak onu! Koş!
+5539|Muhtemelen bir şey yok. Yine de çıkıyorum.
+5540|Gerçek miydi? Duman kokusu almıyorum.
+5541|Eh, bu hafta ilk defa bu kadar sosyalleştik.
+5542|Alarmı kim çekti?!
+5543|Yanlış alarm. Herkes işinin başına.
+5544|Hiçbir şey. HİÇBİR ŞEY. İçeri.
+5545|Saat gerçekten {time} mi olmuş?
+5546|Saat {time} diyor! Gün nereye gitti?
+5547|Nereye gidiyorsun? Daha beş bile olmadı!
+5548|Otur. O saat yanlış ve bunu biliyorsun.
+5549|Duvar saati eve gitme vakti olduğunu söylüyordu!
+5550|Ama... saat!
+5551|Kauçuk ağacı... hayata mı döndü?
+5552|Bitkiye bakın! Yine YEŞİL!
+5553|Biri Kauçuk'la ilgileniyormuş.
+5554|{target}, bitkiyi kurtaran sen miydin? Çok tatlısın.
+5555|Bahse girerim kauçuk ağacını sen kurtardın, {target}.
+5556|Ben değil! Ben bir kaktüsü bile yaşatamam.
+5557|Ben değildim. Ama harika görünüyor!
+5558|Kapı açılmıyor! İçeride KİLİTLİ kaldık!
+5559|Sıkıştı! Çıkamıyorum!
+5560|Geri çekilin. Sadece mandal.
+5561|Bak — hem kaldırıp HEM itmen lazım.
+5562|Klasik. Yine mandal.
+5563|Termostat KİLİTLİ mi?! Kim kilitledi?!
+5564|'Ayarlar kilitli'. KİLİTLİ. DONUYORUM.
+5565|Değiştirmeme izin vermiyor!
+5566|İnternet gitti! Her yerde!
+5567|Ağ yok mu?! HİÇBİR ŞEY yapamıyorum.
+5568|Taş Devri'ne mi döndük?
+5569|...Bu bir arıza değil. Biri switch'in fişini çekmiş.
+5570|Tekrar çevrimiçi. Rica ederim.
+5571|Ağ çalışıyor. Kimse mavi kutuya dokunmasın.
+5572|...Bu ceket başka birinin parfümü gibi kokuyor.
+5573|Kollar neden bu kadar uzun? ...Bu benim ceketim değil.
+5574|Sanırım dün eve benim ceketimle gittin.
+5575|Bu senin mi? Bütün akşam giydim. Pardon!
+5576|Ha! Açıkçası sende daha iyi duruyordu.
+5577|Sende kalsın. Şaka. Geri ver.
+5578|Hâlâ senin gibi kokuyor. ...Yani. Al ceketin.
+5579|Ben... onu giymekten biraz hoşlandım.
+5580|VAY— *ŞAP*
+5581|*kayar* AAAH!
+5582|Buraya bir SU BİRİKİNTİSİ kim koydu?!
+5583|İyi misin?! Dikkat et!
+5584|Gel, kalkmana yardım edeyim.
+5585|DİSKO IŞIKLARI mı?! OFİSTE mi?!
+5586|Neden her yer mor ve yanıp sönüyor?!
+5587|Parti zamanı mı? Bugün salı!
+5588|Nihayet. Benim anım geldi.
+5589|DANS MOLASI!
+5590|IŞIKLARIMA NE OLUYOR?!
+5591|Burası ofis, gece kulübü değil!
+5592|Işıklar neden öyle titriyor?!
+5593|Tamam, korku filmleri böyle başlar.
+5594|Gördün mü? Işıklar... nefes aldı.
+5595|Korkmuyorum. KORKMUYORUM. AZICIK korkuyorum.
+5596|Biliyordum. Bu binada hayalet var.
+5597|Gevşek bir bağlantı. Hayalet değil. Muhtemelen.
+5598|Sigortaya bakarım. Kimse panik yapmasın.
+5599|'İşe gelmemin tek sebebi {best}.' — {owner:in} notu mu?
+5600|{owner:in} masasında bir not: '{best} her zaman günümü güzelleştiriyor.'
+5601|...{owner} bunu BENİM için mi yazmış?
+5602|Ah. {owner} benim hakkımda böyle mi düşünüyor? Ben... vay.
+5603|Bir hediye mi? Üstünde BENİM adım mı var? {giver:den} mi?
+5604|'{target} için, sevgilerle — {giver}'. Bana mı?!
+5605|{target}! Yani — {giver}! Hediye için teşekkürler!
+5606|Hediyeni aldım! Hiç zahmet etmeseydin!
+5607|...O hediye {intended} içindi.
+5608|Eyvah. O {intended} için olacaktı!
+5609|Demek hediyem başkasına gitti. Ne güzel.
+5610|Bana bir şey gelmedi. Peki. Peki peki peki.
+5611|'{subject} hakkındaki dedikodu mu? {origin} başlattı.' Tam oraya asılmış.
+5612|Demek {subject} hakkındaki o hikâyeyi {origin} başlatmış...
+5613|'Saat birde öğle yemeği? Benden.' — {owner:den} mi? Bana mı?
+5614|{owner:den} bir not: 'Saat 1'de öğle yemeği?' ...Olur!
+5615|Öğle yemeği mi istedin? ...Benimle mi?
+5616|İşte geldim, yemek arkadaşı.
+5617|Ha. Neden olmasın? Gidelim.
+5618|Yanlış not, doğru kişi, belki.
+5619|'Söylediklerim için çok özür dilerim'... {owner:den} mi? {owner} ne söylemiş ki?
+5620|{owner:den} bir özür mektubu mu? Bana mı? Ne için?
+5621|{target}, özrünü aldım. Benim hakkımda... bir şey mi söyledin?
+5622|Neden benden özür diliyorsun? Ne oldu?
+5623|O mektup sana değildi! {foe} içindi!
+5624|Eyvah. O {foe} için olacaktı.
+5625|'{bdayp} için doğum günü toplaması'... BENİM için mi?
+5626|Doğum günüm için para toplanan gizli bir zarf mı? Ayy.
+5627|Zarfı kim DIŞARIDA bıraktı?! O bir sırdı!
+5628|Sürpriz de gitti.
+5629|{owner}, Ahmet'e yazmış: '{best} buradaki herkesten fazla takdiri hak ediyor.'
+5630|{owner} beni savunmuş mu? AHMET'e mi? Ben orada bile değilken mi?
+5631|{target}... Benim hakkımda yazdıklarını gördüm. Teşekkür ederim.
+5632|Benim için ayağa kalkmışsın. Bilmiyordum. Teşekkürler.
+5633|Ah — gördün mü? Sadece gerçek bu.
+5634|Abartma. Bunu hak ediyorsun.
+5635|Öğle yemeği daveti — {owner:den} mi? Bana mı?
+5636|'Bugün birlikte öğle yemeği?' — {owner}. ...Tamam!
+5637|Eee. Şey. Öğle yemeği. Hava güzel.
+5638|...
+5639|Güzel sandviç.
+5640|Tamam, bunu neden daha önce hiç yapmadık?!
+5641|Aslında çok komiksin!
+5642|'Ne zaman yanımdan geçsen, şifremi unutuyorum.' — {owner} mu? BANA mı?
+5643|Bir aşk notu. {owner:den}. Masamın üstünde. Aman Tanrım.
+5644|{owner} SANA aşk notu mu göndermiş?!
+5645|Bir dakika. {owner}, {target:den} hoşlanıyor mu?
+5646|'İttifak anlaşması: {a} ve {b} birbirlerini destekleyecek.' İmzalı mı?!
+5647|{a} ile {b:in} YAZILI bir anlaşması mı var? Vay.
+5648|'{target}, bu ofisteki en iyi kalpli insan.' İmzasız!
+5649|Biri {target} hakkında bir iltifat asmış. Ayy.
+5650|Biri bunu BENİM hakkımda mı yazmış? Kim?!
+5651|İmzasız bir iltifat... bana. Kimin yazdığını öğrenmeliyim.
+5652|'Sevgili {target}: lütfen mırıldanmayı bırak. İmza: herkes.' ...Vay.
+5653|Panoda imzasız bir not. Benim hakkımda. MIRILDANMAM hakkında.
+5654|Bu {hater}. Biliyorum.
+5655|{hater}. Başka kim olabilir.
+5656|Eee... kurada senin adın çıktı. Al. Hediye.
+5657|Gizli hediye zamanı. Bana... sen çıktın.
+5658|...Bu gerçekten çok düşünceli. Teşekkürler.
+5659|Bunu sevdiğimi hatırladın mı? Vay.
+5660|'Daha Az Sinir Bozucu Olmanın Yolları' adlı bir kitap mı? Cidden mi?
+5661|Bu şaka mı? Çünkü hiç komik değil.
+5662|Bu kimin defteri? ...{target:in}.
+5663|{target} defterini kanepede unutmuş. Açık hâlde.
+5664|Yok. Okumuyorum. Geri vereceğim.
+5665|Bu özel. Bakmıyorum.
+5666|Bunu kanepede unutmuşsun. Okumadım.
+5667|Defterin. Merak etme, bakmadım.
+5668|Teşekkürler. Cidden.
+5669|Sen iyi bir insansın.
+5670|...Tabii ya. İsim kartları beni SENİN yanına koymuş.
+5671|Harika. Seninle öğle yemeği.
+5672|Daha sessiz çiğneyebilir misin?
+5673|Dirsek alanıma giriyorsun.
+5674|...Tamam. Bak. Belki de yanlış başladık.
+5675|Sandviç eşliğinde ateşkes?

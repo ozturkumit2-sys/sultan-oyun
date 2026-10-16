@@ -1,0 +1,269 @@
+2522|Ciddi misin?!
+2523|Önüne baksana!
+2524|Bu temizdi!
+2525|Ece. Gerçekten mi?
+2526|Daha dikkatli ol!
+2527|Tam zamanı...
+2528|Kimse bakmıyor...
+2529|Karanlık dediğin, aydınlatması olmayan bir fırsattır.
+2530|Işıklar kendi kendine mi yandı?
+2531|Bunu... kim yaptı?
+2532|Kimse düğmeye dokunmadı!
+2533|Bundan hiç hoşlanmadım.
+2534|Bana mı öyle geliyor, yoksa burası ürkütücü mü?
+2535|Yakınımda dur, tamam mı?
+2536|Koluna tutunabilir miyim? Azıcık?
+2537|Sorun yok, buradayım.
+2538|Rahatla, sadece elektrik kesildi.
+2539|Ha, merak etme. Ben yanındayım.
+2540|Merak etme, ben karanlıkta parlarım. Şaka.
+2541|Brrr! Burası neden bu kadar soğuk?
+2542|Parmaklarım donuyor!
+2543|Klimayı Antarktika'ya mı ayarladılar?
+2544|Burada buzdan heykele dönüşüyorum!
+2545|Nefesimi görebiliyorum!
+2546|Burası kaynıyor!
+2547|Saunayı kim açtı?
+2548|Eriyorum...
+2549|Klimaya kim dokundu?!
+2550|Sunucular pişecek.
+2551|Tamam, yeter. Termostatı ben ayarlıyorum.
+2552|Böyle çalışamam.
+2553|Sıcaklığı kim durmadan değiştiriyor?!
+2554|Ben... sessizce acı çekerim.
+2555|*titrer*
+2556|*bir dosyayla kendini yelpazeler*
+2557|Termostata kim dokundu?
+2558|Ciddi misiniz? Yine mi?
+2559|*klima hakkında söylenir*
+2560|Sıcaklığı neden değiştirdin?
+2561|Termostata dokunma!
+2562|Önceden mükemmeldi!
+2563|Bazılarımızın kan dolaşımı sorunu var!
+2564|Buz gibiydi!
+2565|Sauna gibiydi!
+2566|Burada çalışan bir tek ben değilim!
+2567|Müdür benim. Sıcaklığı ben ayarlarım.
+2568|Peki! Kazak giy!
+2569|İnanılmaz.
+2570|Bu artık bir savaş.
+2571|Kâğıtlarım az önce... uçtu mu?!
+2572|Gördün mü?! Dosyalar kendi kendine hareket etti!
+2573|Tamam. Bu kadar. Hayalet.
+2574|O da NEYDİ?
+2575|Ben de gördüm!
+2576|Yok. Yok yok yok.
+2577|Belgelerimi kim karıştırdı?!
+2578|Masama kim dokundu?!
+2579|Dosyalarım! Her şeyin sırası bozulmuş!
+2580|Kim. Dokundu. Dosyalarıma.
+2581|Biri masamı kurcalamış.
+2582|Masama dokunmaya kim cüret etti?!
+2583|Masam. Sistemim. Mahvolmuş.
+2584|Biri ortalığı kolaçan etmiş. Ve bu sefer ben değilim!
+2585|Biri beni sabote etmeye çalışıyor.
+2586|{suspect} yaptı. İçime doğuyor.
+2587|{suspect}... onunla bir konuşacağım.
+2588|Bunun her yerinde {suspect} yazıyor.
+2589|Bana bakma!
+2590|Ben yapmadım!
+2591|Ben değildim!
+2592|Bütün gün masamdaydım!
+2593|Ben masumum! Çoğunlukla.
+2594|Bir tanığım var. Kodum.
+2595|*iç çeker ve kâğıtları ayıklamaya başlar*
+2596|Başa döndük.
+2597|Peki. Baştan yaparım.
+2598|Sessizce toparlayalım.
+2599|Bunları ayırmana yardım edeyim!
+2600|Dosyalamada harikayımdır! Çoğunlukla!
+2601|Sağ ol Ece. Çok tatlısın.
+2602|Hiç gerek yoktu... teşekkürler.
+2603|Tamam, resmen en sevdiğim insansın.
+2604|Sanırım kimin yaptığını biliyorum...
+2605|Pst. Bir şey gördüm.
+2606|Ne gördüğümü bilmek ister misin?
+2607|Ah, kimin yaptığını ÇOK İYİ biliyorum.
+2608|Kim?!
+2609|Söyle.
+2610|Dök içini.
+2611|{suspect}. Masanın yanında gördüm.
+2612|{suspect} yaptı. Benden duymuş olma.
+2613|Diyelim ki {suspect} çok şüpheli görünüyordu.
+2614|Masamı sen mi karıştırdın, {target}?
+2615|Dosyalarıma dokunan sen miydin?
+2616|{target}. Dosyalarım. Açıkla.
+2617|Sen olduğunu biliyorum, {target}.
+2618|Kahve makinesini sen bozdun, değil mi?
+2619|{target}, itiraf et. Kahve makinesi.
+2620|{item:m} neden SENİN masandaydı, {target}?
+2621|{target}, {item:m} hakkında bir açıklaman var mı?
+2622|Terfi dosyamı sen kurcaladın, değil mi?
+2623|{target}, terfimi sen mi sabote ettin?
+2624|O dosyayı sen değiştirdin, {target}. İtiraf et.
+2625|Ben mi? Asla. Hayalettir.
+2626|Neden bahsettiğin hakkında hiçbir fikrim yok.
+2627|Vay. Biraz paranoyak mıyız?
+2628|Hı hı. Tabii.
+2629|Gözüm üstünde.
+2630|Göreceğiz.
+2631|Pardon?! Ben hiçbir şey yapmadım!
+2632|Beni suçlamaya NASIL cüret edersin!
+2633|Şu an ciddi misin?!
+2634|Bunun için sakın beni suçlama!
+2635|Dokunmadım. Beni suçlamayı bırak!
+2636|BENİ mi suçluyorsun?
+2637|Vay. Biraz kıskançlık mı var?
+2638|O zaman başka kim?!
+2639|Masamın yanında bir tek sen vardın!
+2640|Bana yalan söyleme!
+2641|Çekil karşımdan!
+2642|Yeter artık!
+2643|Ne düşünürsen düşün!
+2644|Hop, hop...
+2645|Yine başlıyoruz.
+2646|Biri onları durdursa mı?
+2647|Oo, iş ilginçleşiyor.
+2648|Patlamış mısır isteyen?
+2649|Ben değildim, söz veriyorum.
+2650|Üzgün olduğunu anlıyorum ama ben değildim.
+2651|Sana asla böyle bir şey yapmam.
+2652|Ben yapmadım ama kimin yaptığını bulmana yardım ederim.
+2653|Tamam... özür dilerim. Sadece stresliyim.
+2654|Haklısın. Özür dilerim.
+2655|Benim hatam. Gerginim.
+2656|Ben... bendim. Özür dilerim.
+2657|Tamam, suçu üstleniyorum. Geçelim artık.
+2658|Özür dilerim! Muhtemelen benim hatam!
+2659|Muhtemelen bendim! Sakarım! Çok özür dilerim!
+2660|...Peki. Bir daha yapma yeter.
+2661|Tamam. Dürüst olduğun için sağ ol.
+2662|Özür kabul edildi. Zar zor.
+2663|Rahat bırak, o yapmadı.
+2664|Hey! Geri çekil. O yapmadı.
+2665|Bütün zaman onunla birlikteydim.
+2666|Hadi ama, o asla öyle bir şey yapmaz.
+2667|Kanıt olmadan kimseyi suçlamayalım.
+2668|Sen karışma!
+2669|Sana soran olmadı.
+2670|Kendi işine bak.
+2671|Neler oluyor?!
+2672|Yine mi!
+2673|Biri Ahmet'i çağırsın!
+2674|Herkes sakin olsun!
+2675|Bunların hepsini hafızama kaydediyorum.
+2676|YETER! Burası ofis, sirk değil!
+2677|Burada neler oluyor?! Hepiniz İŞİNİZİN BAŞINA!
+2678|Bir kavga daha olursa herkesin öğle yemeğini iptal ederim!
+2679|Gözlüğüm nerede?! Hiçbir şey okuyamıyorum!
+2680|Okuma gözlüğümü gören var mı?
+2681|USB belleğim! Bütün sunumum onun içinde!
+2682|USB'm nerede?! Tam buradaydı!
+2683|Uğurlu kupam nerede? Normal bir bardaktan kahve içemem!
+2684|Kupamı kim aldı?!
+2685|Ajandam yok. Bütün hayatım o ajandada.
+2686|Ajandam nerede?
+2687|Şarj aletim yok. Laptopun şarjı %3.
+2688|Şarj aletimi kim aldı? Kim böyle bir şey yapar?
+2689|{item:m}... {owner:in} masasında mı?!
+2690|{item:m} neden {owner:in} masasında?
+2691|Demek {item:m} başından beri {owner:de}ymiş.
+2692|Ha! {owner}, seni hırsız! Haha.
+2693|{item:m} {owner:de} mi? Komik.
+2694|{item:m} buraya nasıl geldi?
+2695|{item:m} burada ne arıyor? Ben getirmedim ki...
+2696|Bu ofiste eşyalar durmadan yer değiştiriyor.
+2697|Buldum! Oh be.
+2698|İşte buradasın!
+2699|Bulan alır...
+2700|Hm. Bu işe yarayabilir.
+2701|*sessizce bir çekmeceye kaydırır*
+2702|{owner:in} {item:si} neden benim masamda? Geri götüreyim.
+2703|Bu {owner:in} {item:si}... geri götüreyim.
+2704|Bu kimin?
+2705|Benim değil. Benim sorunum değil.
+2706|{item:n} masamdaydı!
+2707|Al — {item:n} bendeydi.
+2708|Sanırım bu senin.
+2709|Aman tanrım, teşekkürler!
+2710|Hayat kurtardın!
+2711|Teşekkürler! Aklımı kaçırıyordum!
+2712|Teşekkürler. Cidden. Teşekkürler.
+2713|Hm. Teşekkür ederim.
+2714|Dur. Bu... HERKESE mi gitti?!
+2715|Hayır. Hayır hayır hayır hayır.
+2716|Geri al! GERİ AL! Geri alma nerede?!
+2717|Bu ekip için DEĞİLDİ.
+2718|Eyvah. Eyvah. Başka bir ülkeye taşınıyorum.
+2719|...Yeni bir işe ihtiyacım olacak. Daha hızlı.
+2720|Yer yarılsa da içine girsem.
+2721|Bu bir... yanlış anlaşılma.
+2722|Eh. Bu tuhaf oldu.
+2723|Bu herkes için değildi.
+2724|Herkese mi gitti o e-posta?
+2725|Aman. Tanrım.
+2726|Bunu iki kere okuyorum.
+2727|Tümünü yanıtla mı? TÜMÜNÜ mü?
+2728|Gelmiş geçmiş EN İYİ e-posta.
+2729|Bunu yazdırıp çerçeveleteceğim.
+2730|Ah, bu altın değerinde.
+2731|Ay, ay.
+2732|Bunun anlamı ne?
+2733|O özeldi!
+2734|Artık herkes biliyor. Harika.
+2735|Bunu nasıl yaparsın?!
+2736|Artık herkes biliyor...
+2737|Harika. Gerçekten harika.
+2738|Eh, baklayı ağzımdan çıkarmış oldum.
+2739|Tembel mi? BİZ mi tembeliz?
+2740|Vay. Gerçekte ne düşündüğünü de söyle bari.
+2741|Demek bizim hakkımızda böyle düşünüyor.
+2742|O bir... taslaktı. Kaba bir taslak.
+2743|Hepimiz bu hiç olmamış gibi davranalım.
+2744|Dur... bunu kime gönderdim?
+2745|Bu az önce {target:e} mi gitti?!
+2746|Yanlış alıcı... eyvah.
+2747|Şey... {actor}, bunun bana yazıldığını sanmıyorum.
+2748|Vay, BU ilginç.
+2749|Hmm. Bunu görmem mi gerekiyordu?
+2750|{actor}. Odama. Hemen. Yok, aslında ben sana geliyorum.
+2751|Oo, bu çok sulu.
+2752|E-postanı okudum, {target}.
+2753|Demek benim hakkımda BÖYLE düşünüyorsun?
+2754|O e-posta hakkında konuşmamız lazım.
+2755|Özür dilerim. Dertleşiyordum. Öyle demek istemedim.
+2756|Haddimi aştım. Özür dilerim.
+2757|Baştan başlayabilir miyiz?
+2758|Tamam. Ama kırıldım.
+2759|Peki. Geçelim.
+2760|Özür kabul edildi. Şimdilik.
+2761|Her kelimesinde ciddiydim.
+2762|Belki de duyman gerekiyordu.
+2763|Eh, artık ortada.
+2764|İnanılmaz!
+2765|Sen inanılmazsın!
+2766|Konuşacak bir şeyimiz kalmadı.
+2767|Mert... aslında bu biraz tatlıydı.
+2768|Yani... benden hoşlanıyor musun? Bu... hoş.
+2769|Eh. Bunu söylemenin bir yolu da bu.
+2770|Haha... evet... o konu...
+2771|Açıklayabilirim! ...Hayır, açıklayamam.
+2772|*kıpkırmızı kesilir*
+2773|Mert, birlikte çalışıyoruz. Bu biraz... tuhaf.
+2774|Ben... bir dakikaya ihtiyacım var.
+2775|İşleri profesyonel tutalım.
+2776|Demek... Ceren, ha?
+2777|Küçük aşk mektubunu gördüm, Romeo.
+2778|Ceren mi? Cesur hamle, dostum.
+2779|Toplantıyı kim taşıdı? Ben değiştirmedim.
+2780|Benim ayarladığım saat bu değil...
+2781|Biri takvimimle oynuyor.
+2782|Aa, toplantının saati mi değişti?
+2783|Yeni toplantı saati, not edildi.
+2784|Hıh. Toplantı artık başka bir saatte.
+2785|Ahmet Bey, panodaki toplantı saati değiştirilmiş.
+2786|Haberiniz olsun — biri bugünkü toplantıyı kaydırmış.
+2787|Peki. Yeni saatle devam ederiz.
+2788|Not ettim. Sağ ol, Ceren.
+2789|Değiştirilmiş mi? Takvimi SEN yönetiyorsun, Ceren!
+2790|Bir toplantı kendi kendine nasıl yer değiştirir?!

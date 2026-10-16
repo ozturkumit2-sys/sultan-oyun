@@ -1,0 +1,269 @@
+2522|¿¡En serio!?
+2523|¡Mira por dónde vas!
+2524|¡Esto estaba limpio!
+2525|Ece. ¿En serio?
+2526|¡Ten más cuidado!
+2527|Momento perfecto…
+2528|Nadie está mirando…
+2529|La oscuridad no es más que una oportunidad sin iluminación.
+2530|¿Las luces volvieron solas?
+2531|¿Quién… hizo eso?
+2532|¡Nadie tocó el interruptor!
+2533|Esto no me gusta.
+2534|¿Soy yo o aquí da mal rollo?
+2535|Quédate cerca, ¿vale?
+2536|¿Puedo agarrarte de la manga? ¿Solo un poquito?
+2537|Tranquilidad, estoy aquí.
+2538|Relájate, es solo un apagón.
+2539|Ja, no te preocupes. Yo te cuido.
+2540|Tranquilidad, yo brillo en la oscuridad. Es broma.
+2541|¡Brrr! ¿Por qué hace tanto frío?
+2542|¡Se me congelan los dedos!
+2543|¿El aire está puesto en modo Antártida?
+2544|¡Me estoy convirtiendo en una escultura de hielo!
+2545|¡Puedo ver mi aliento!
+2546|¡Aquí dentro se hierve!
+2547|¿Quién encendió la sauna?
+2548|Me derrito…
+2549|¿¡Quién tocó el aire acondicionado!?
+2550|Los servidores se van a cocinar.
+2551|Se acabó. Voy a arreglar el termostato.
+2552|Así no puedo trabajar.
+2553|¿¡Quién no para de cambiar la temperatura!?
+2554|Yo… sufriré en silencio.
+2555|*tirita*
+2556|*se abanica con una carpeta*
+2557|¿Quién tocó el termostato?
+2558|¿En serio? ¿Otra vez?
+2559|*refunfuña sobre el aire acondicionado*
+2560|¿Por qué cambiaste la temperatura?
+2561|¡No toques el termostato!
+2562|¡Antes estaba perfecto!
+2563|¡Algunos tenemos problemas de circulación!
+2564|¡Hacía un frío que pelaba!
+2565|¡Era una sauna!
+2566|¡No soy la única persona que trabaja aquí!
+2567|El gerente soy yo. La temperatura la pongo yo.
+2568|¡Vale! ¡Ponte un suéter!
+2569|Increíble.
+2570|Esto ya es la guerra.
+2571|Mis papeles acaban de… ¿¡volar!?
+2572|¿¡Lo viste!? ¡Los archivos se movieron solos!
+2573|Vale. Se acabó. Fantasmas.
+2574|¿Qué fue ESO?
+2575|¡Yo también lo vi!
+2576|No. No, no, no.
+2577|¿¡Quién me desordenó los documentos!?
+2578|¿¡Quién tocó mi escritorio!?
+2579|¡Mis archivos! ¡Está todo desordenado!
+2580|¿Quién. Tocó. Mis. Archivos.?
+2581|Alguien ha estado en mi escritorio.
+2582|¿¡Quién se atrevió a tocar mi escritorio!?
+2583|Mi escritorio. Mi sistema. Arruinados.
+2584|Alguien ha estado husmeando. ¡Y esta vez no fui yo!
+2585|Alguien intenta sabotearme.
+2586|Fue {suspect}. Lo sé y punto.
+2587|{suspect}… voy a tener unas palabras con {suspect?él|ella}.
+2588|Esto lleva la firma de {suspect} por todas partes.
+2589|¡A mí no me mires!
+2590|¡Yo no fui!
+2591|¡No fui yo!
+2592|¡He estado en mi escritorio todo el día!
+2593|¡Soy inocente! Casi.
+2594|Tengo coartada. Mi código.
+2595|*suspira y empieza a ordenar papeles*
+2596|Volvemos a la casilla de salida.
+2597|Vale. Lo rehago.
+2598|Ordenemos en silencio.
+2599|¡Déjame ayudarte a ordenar esto!
+2600|¡Soy genial archivando! ¡Casi siempre!
+2601|Gracias, Ece. Eres un encanto.
+2602|No tenías por qué… gracias.
+2603|Vale, eres oficialmente mi favorita.
+2604|Creo que sé quién fue…
+2605|Psst. Vi algo.
+2606|¿Quieres saber lo que vi?
+2607|Ay, sé EXACTAMENTE quién fue.
+2608|¡¿Quién?!
+2609|Dímelo.
+2610|Suéltalo.
+2611|{suspect}. {suspect?Lo|La} vi cerca de tu escritorio.
+2612|Fue {suspect}. No digas que te lo dije yo.
+2613|Digamos que {suspect} parecía muy sospechos{suspect?o|a}.
+2614|¿Tocaste mi escritorio, {target}?
+2615|¿Fuiste tú quien tocó mis archivos?
+2616|{target}. Mis archivos. Explícate.
+2617|Sé que fuiste tú, {target}.
+2618|Rompiste la cafetera, ¿verdad?
+2619|{target}, admítelo. La cafetera.
+2620|¿Por qué estaba mi {item} en TU escritorio, {target}?
+2621|{target}, ¿me explicas lo de mi {item}?
+2622|Manipulaste mi expediente de ascenso, ¿verdad?
+2623|{target}, ¿saboteaste mi ascenso?
+2624|Tú manipulaste ese expediente, {target}. Admítelo.
+2625|¿Yo? Jamás. Habrá sido el fantasma.
+2626|Ni idea de qué me hablas.
+2627|Vaya. ¿Un poquito paranoic{to?o|a}, no?
+2628|Ajá. Claro.
+2629|Te estoy vigilando.
+2630|Ya veremos.
+2631|¿¡Perdona!? ¡Yo no hice nada!
+2632|¡Cómo TE ATREVES a acusarme!
+2633|¿¡Lo dices en serio!?
+2634|¡A mí no me eches la culpa de esto!
+2635|No lo toqué. ¡Deja de culparme!
+2636|¿Me acusas a MÍ?
+2637|Vaya. ¿Un poquito de envidia?
+2638|¿¡Entonces quién!?
+2639|¡Eras {to?el único|la única} cerca de mi escritorio!
+2640|¡No me mientas!
+2641|¡Quítate de mi vista!
+2642|¡Ya me cansé!
+2643|¡Piensa lo que quieras!
+2644|Ey, ey…
+2645|Ya empezamos.
+2646|¿Alguien debería pararlos?
+2647|Uy, esto se pone bueno.
+2648|¿Alguien quiere palomitas?
+2649|No fui yo, te lo prometo.
+2650|Entiendo que estés molest{to?o|a}, pero no fui yo.
+2651|Yo nunca te haría eso.
+2652|No fui yo, pero te ayudo a averiguar quién fue.
+2653|Vale… perdona. Es que estoy estresad{me?o|a}.
+2654|Tienes razón. Perdona.
+2655|Culpa mía. Estoy con los nervios de punta.
+2656|Fui… fui yo. Lo siento.
+2657|Vale, asumo la culpa. Pasemos página.
+2658|¡Lo siento! ¡Seguro que es culpa mía!
+2659|¡Seguro que fui yo! ¡Soy un desastre! ¡Lo siento muchísimo!
+2660|…Vale. Que no se repita.
+2661|Vale. Gracias por ser sincer{to?o|a}.
+2662|Disculpa aceptada. Por los pelos.
+2663|Déjalo ya, no fue quien crees.
+2664|¡Oye! Para el carro. No fue quien crees.
+2665|Estuvimos juntos todo el rato.
+2666|Venga ya, nadie de aquí haría eso.
+2667|No acusemos a nadie sin pruebas.
+2668|¡Tú no te metas!
+2669|Nadie te ha preguntado.
+2670|Métete en tus asuntos.
+2671|¿¡Qué está pasando!?
+2672|¡Otra vez no!
+2673|¡Que alguien llame a Ahmet!
+2674|¡Todo el mundo tranquilo!
+2675|Me lo estoy guardando todo en la memoria.
+2676|¡BASTA! ¡Esto es una oficina, no un circo!
+2677|¿¡Qué está pasando aquí!? ¡A trabajar, TODOS!
+2678|¡Una pelea más y les cancelo el almuerzo a todos!
+2679|¿¡Dónde están mis gafas!? ¡No puedo leer nada!
+2680|¿Alguien ha visto mis gafas de leer?
+2681|¡Mi memoria USB! ¡Ahí está toda mi presentación!
+2682|¿¡Dónde está mi USB!? ¡Estaba justo aquí!
+2683|¿Dónde está mi taza de la suerte? ¡No puedo tomar café en una taza normal!
+2684|¿¡Quién se llevó mi taza!?
+2685|Mi agenda ha desaparecido. Toda mi vida está en esa agenda.
+2686|¿Dónde está mi agenda?
+2687|Mi cargador ha desaparecido. Portátil al 3 %.
+2688|¿Quién se llevó mi cargador? ¿Quién hace algo así?
+2689|Mi {item}… ¿¡en el escritorio de {owner}!?
+2690|¿Por qué está mi {item} en el sitio de {owner}?
+2691|Así que {owner} tenía mi {item} desde el principio.
+2692|¡Ja! ¡{owner}, {owner?ladrón|ladrona}! Jaja.
+2693|¿Mi {item} en el sitio de {owner}? Qué gracioso.
+2694|¿Cómo acabó aquí mi {item}?
+2695|Yo nunca traje mi {item} aquí…
+2696|En esta oficina las cosas no paran de moverse.
+2697|¡Lo encontré! Uf.
+2698|¡Aquí estás!
+2699|Quien lo encuentra se lo queda…
+2700|Mm. Esto podría ser útil.
+2701|*lo desliza en silencio en un cajón*
+2702|¿Por qué está {item?el|la} {item} de {owner} en mi escritorio? Se lo devolveré.
+2703|Esto es {item?el|la} {item} de {owner}… voy a devolverlo.
+2704|¿De quién es esto?
+2705|No es mío. No es mi problema.
+2706|¡Encontré tu {item} en mi escritorio!
+2707|Toma: tu {item} estaba en mi sitio.
+2708|Creo que esto es tuyo.
+2709|¡Dios mío, gracias!
+2710|¡Me salvaste la vida!
+2711|¡Gracias! ¡Me estaba volviendo loc{me?o|a}!
+2712|Gracias. En serio. Gracias.
+2713|Mm. Gracias.
+2714|Espera. ¿Eso le llegó a… TODO EL MUNDO?
+2715|No. No, no, no, no, no.
+2716|¡Deshacer! ¡DESHACER! ¿¡Dónde está deshacer!?
+2717|Eso NO era para el equipo.
+2718|Ay, no. Ay, no. Me mudo a otro país.
+2719|…Voy a necesitar un trabajo nuevo. Más rápido.
+2720|Quiero que me trague la tierra.
+2721|Esto es… un malentendido.
+2722|Bueno. Qué incómodo.
+2723|Esto no era para todo el mundo.
+2724|¿A todos nos acaba de llegar ese correo?
+2725|Ay. Dios. Mío.
+2726|Esto lo leo dos veces.
+2727|¿Responder a todos? ¿A TODOS?
+2728|El MEJOR correo de la historia.
+2729|Lo voy a imprimir y enmarcar.
+2730|Ay, esto es oro.
+2731|Ay, madre.
+2732|¿Qué significa esto?
+2733|¡Eso era privado!
+2734|Ahora lo sabe todo el mundo. Genial.
+2735|¿¡Cómo pudiste!?
+2736|Ahora lo sabe todo el mundo…
+2737|Genial. Sencillamente genial.
+2738|Bueno, ya se descubrió el pastel.
+2739|¿Vagos? ¿NOSOTROS somos vagos?
+2740|Vaya. Dinos lo que piensas de verdad.
+2741|Así que eso es lo que piensa de nosotros.
+2742|Eso era… un borrador. Un borrador muy preliminar.
+2743|Hagamos todos como si eso no hubiera pasado.
+2744|Espera… ¿a quién le mandé eso?
+2745|¿¡Eso le acaba de llegar a {target}!?
+2746|Destinatario equivocado… ay, no.
+2747|Eh… {actor}, creo que esto no era para mí.
+2748|Vaya, ESTO sí que es interesante.
+2749|Mmm. ¿Se suponía que yo tenía que ver esto?
+2750|{actor}. A mi despacho. Ya. Mejor dicho, voy yo.
+2751|Uy, esto es jugoso.
+2752|Leí tu correo, {target}.
+2753|¿Así que ESO es lo que piensas de mí?
+2754|Tenemos que hablar de ese correo.
+2755|Lo siento. Me estaba desahogando. No lo decía en serio.
+2756|Me pasé de la raya. Lo siento.
+2757|¿Podemos empezar de nuevo?
+2758|Vale. Pero me dolió.
+2759|Vale. Pasemos página.
+2760|Disculpa aceptada. Por ahora.
+2761|Lo dije en serio, palabra por palabra.
+2762|A lo mejor necesitabas oírlo.
+2763|Bueno, ya está dicho.
+2764|¡Increíble!
+2765|¡Eres increíble, y no para bien!
+2766|Se acabó la conversación.
+2767|Mert… la verdad es que fue un poco tierno.
+2768|Entonces… ¿te gusto? Eso es… bonito.
+2769|Bueno. Es una forma de decírmelo.
+2770|Jaja… sí… sobre eso…
+2771|¡Puedo explicarlo! …No, no puedo.
+2772|*se pone {me?rojo|roja} como un tomate*
+2773|Mert, trabajamos juntos. Esto es… incómodo.
+2774|Yo… necesito un minuto.
+2775|Mejor mantengamos las cosas en lo profesional.
+2776|Así que… Ceren, ¿eh?
+2777|Vi tu cartita de amor, Romeo.
+2778|¿Ceren? Movimiento audaz, amigo mío.
+2779|¿Quién movió la reunión? Yo no cambié eso.
+2780|Esa no es la hora que yo puse…
+2781|Alguien está tocando mi calendario.
+2782|Ah, ¿la reunión cambió de hora?
+2783|Nueva hora de la reunión, anotada.
+2784|Vaya. La reunión es a otra hora ahora.
+2785|Señor, cambiaron la hora de la reunión en el tablero.
+2786|Aviso: alguien movió la reunión de hoy.
+2787|Bien. Nos quedamos con la nueva hora.
+2788|Anotado. Gracias, Ceren.
+2789|¿Cambiada? ¡TÚ llevas el calendario, Ceren!
+2790|¿¡Cómo se mueve sola una reunión!?

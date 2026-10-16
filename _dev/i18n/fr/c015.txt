@@ -1,0 +1,269 @@
+2522|Sérieusement ?!
+2523|Regarde où tu vas !
+2524|C'était propre !
+2525|Ece. Vraiment ?
+2526|Faites plus attention !
+2527|Timing parfait…
+2528|Personne ne regarde…
+2529|L'obscurité, c'est juste une occasion sans éclairage.
+2530|Les lumières se sont rallumées toutes seules ?
+2531|Qui… a fait ça ?
+2532|Personne n'a touché à l'interrupteur !
+2533|Je n'aime pas ça.
+2534|C'est moi ou c'est flippant ici ?
+2535|Reste près de moi, d'accord ?
+2536|Je peux tenir ta manche ? Juste un peu ?
+2537|Ça va, je suis là.
+2538|Détends-toi, c'est juste une panne de courant.
+2539|Ha, t'inquiète. Je veille sur toi.
+2540|T'inquiète, je brille dans le noir. Je rigole.
+2541|Brrr ! Pourquoi il fait si froid ?
+2542|J'ai les doigts gelés !
+2543|La clim est réglée sur Antarctique ou quoi ?
+2544|Je suis en train de me transformer en sculpture de glace !
+2545|Je vois ma respiration !
+2546|On étouffe ici !
+2547|Qui a allumé le sauna ?
+2548|Je fonds…
+2549|Qui a touché à la clim ?!
+2550|Les serveurs vont cuire.
+2551|C'en est trop. Je règle le thermostat.
+2552|Je ne peux pas travailler comme ça.
+2553|Qui n'arrête pas de changer la température ?!
+2554|Je vais juste… souffrir en silence.
+2555|*grelotte*
+2556|*s'évente avec une chemise cartonnée*
+2557|Qui a touché au thermostat ?
+2558|Sérieux ? Encore ?
+2559|*marmonne au sujet de la clim*
+2560|Pourquoi tu as changé la température ?
+2561|Ne touche pas au thermostat !
+2562|C'était parfait avant !
+2563|Certains d'entre nous ont des problèmes de circulation !
+2564|On gelait !
+2565|C'était un sauna !
+2566|Je ne suis pas la seule personne à travailler ici !
+2567|C'est moi le manager. C'est moi qui règle la température.
+2568|Très bien ! Mets un pull !
+2569|Incroyable.
+2570|C'est la guerre, maintenant.
+2571|Mes papiers viennent de… s'envoler ?!
+2572|Tu as vu ça ?! Les dossiers ont bougé tout seuls !
+2573|OK. C'est décidé. Des fantômes.
+2574|C'était QUOI, ça ?
+2575|Je l'ai vu aussi !
+2576|Non. Non non non.
+2577|Qui a mis le bazar dans mes documents ?!
+2578|Qui a touché à mon bureau ?!
+2579|Mes dossiers ! Tout est dans le désordre !
+2580|Qui. A. Touché. À. Mes. Dossiers.
+2581|Quelqu'un est passé à mon bureau.
+2582|Qui a osé toucher à mon bureau ?!
+2583|Mon bureau. Mon système. Ruinés.
+2584|Quelqu'un a fouiné. Et pour une fois, ce n'est pas moi !
+2585|Quelqu'un essaie de me saboter.
+2586|C'était {suspect}. Je le sais, c'est tout.
+2587|{suspect}… je vais lui dire deux mots.
+2588|Ça porte la signature de {suspect} partout.
+2589|Ne me regarde pas comme ça !
+2590|Ce n'est pas moi !
+2591|C'était pas moi !
+2592|J'ai été à mon bureau toute la journée !
+2593|Je suis innocent ! En grande partie.
+2594|J'ai un alibi. Mon code.
+2595|*soupire et commence à trier les papiers*
+2596|Retour à la case départ.
+2597|Bon. Je vais tout refaire.
+2598|Rangeons tranquillement.
+2599|Laisse-moi t'aider à trier tout ça !
+2600|Je suis super douée pour le classement ! En général !
+2601|Merci, Ece. Tu es adorable.
+2602|Tu n'étais pas obligée… merci.
+2603|OK, tu es officiellement ma préférée.
+2604|Je crois que je sais qui a fait ça…
+2605|Psst. J'ai vu quelque chose.
+2606|Tu veux savoir ce que j'ai vu ?
+2607|Oh, je sais EXACTEMENT qui a fait ça.
+2608|Qui ?!
+2609|Dis-moi.
+2610|Crache le morceau.
+2611|{suspect}. Je {suspect?l'ai vu|l'ai vue} près de ton bureau.
+2612|C'était {suspect}. Ne dis pas que ça vient de moi.
+2613|Disons que {suspect} avait l'air très louche.
+2614|Tu as touché à mon bureau, {target} ?
+2615|C'est toi qui as touché à mes dossiers ?
+2616|{target}. Mes dossiers. Explique-toi.
+2617|Je sais que c'était toi, {target}.
+2618|C'est toi qui as cassé la machine à café, hein ?
+2619|{target}, avoue. La machine à café.
+2620|Pourquoi {item?mon|ma} {item} était sur TON bureau, {target} ?
+2621|{target}, tu peux m'expliquer pour {item?mon|ma} {item} ?
+2622|C'est toi qui as trafiqué mon dossier de promotion, hein ?
+2623|{target}, tu as saboté ma promotion ?
+2624|Tu as trafiqué ce dossier, {target}. Avoue.
+2625|Moi ? Jamais. Ça doit être le fantôme.
+2626|Aucune idée de quoi tu parles.
+2627|Waouh. Un brin parano, non ?
+2628|Mmh. C'est ça.
+2629|Je t'ai à l'œil.
+2630|On verra.
+2631|Pardon ?! Je n'ai rien fait !
+2632|Comment OSES-tu m'accuser !
+2633|Tu es sérieux{to?|se}, là ?!
+2634|Ne me mets pas ça sur le dos !
+2635|Je n'y ai pas touché. Arrête de m'accuser !
+2636|Vous m'accusez, MOI ?
+2637|Waouh. Un peu jaloux{to?|se}, non ?
+2638|Alors qui d'autre ?!
+2639|Tu étais {to?le seul|la seule} près de mon bureau !
+2640|Ne me mens pas !
+2641|Dégage de ma vue !
+2642|J'en ai assez !
+2643|Pense ce que tu veux !
+2644|Wow, wow…
+2645|Et c'est reparti.
+2646|Quelqu'un devrait les arrêter, non ?
+2647|Oh, ça devient intéressant.
+2648|Quelqu'un veut du pop-corn ?
+2649|Ce n'est pas moi, promis.
+2650|Je comprends que tu sois contrarié{to?|e}, mais ce n'est pas moi.
+2651|Je ne te ferais jamais ça.
+2652|Ce n'est pas moi, mais je vais t'aider à trouver qui c'est.
+2653|OK… pardon. Je suis juste stressé{me?|e}.
+2654|Tu as raison. Pardon.
+2655|Ma faute. Je suis à cran.
+2656|C'était… c'était moi. Désolé{me?|e}.
+2657|OK, je prends la faute. Passons à autre chose.
+2658|Désolé{me?|e} ! Sûrement ma faute !
+2659|C'était sûrement moi ! Je suis maladroite ! Je suis vraiment désolée !
+2660|… Bon. Ne recommence pas.
+2661|OK. Merci pour ton honnêteté.
+2662|Excuses acceptées. De justesse.
+2663|Laisse tomber, ce n'est pas qui tu crois.
+2664|Hé ! Recule. Ce n'est pas qui tu crois.
+2665|On était ensemble tout le temps.
+2666|Allez, personne ici ne ferait ça.
+2667|N'accusons personne sans preuve.
+2668|Ne te mêle pas de ça !
+2669|On ne t'a rien demandé.
+2670|Occupe-toi de tes affaires.
+2671|Qu'est-ce qui se passe ?!
+2672|Pas encore !
+2673|Quelqu'un, appelez Ahmet !
+2674|Tout le monde se calme !
+2675|J'enregistre tout dans ma mémoire.
+2676|ÇA SUFFIT ! C'est un bureau ici, pas un cirque !
+2677|Qu'est-ce qui se passe ici ?! Au travail, TOUS !
+2678|Encore une dispute et j'annule le déjeuner de tout le monde !
+2679|Où sont mes lunettes ?! Je ne peux rien lire !
+2680|Quelqu'un a vu mes lunettes de lecture ?
+2681|Ma clé USB ! Toute ma présentation est dessus !
+2682|Où est ma clé USB ?! Elle était juste là !
+2683|Où est ma tasse porte-bonheur ? Je ne peux pas boire de café dans une tasse normale !
+2684|Qui a pris ma tasse ?!
+2685|Mon agenda a disparu. Toute ma vie est dans cet agenda.
+2686|Où est mon agenda ?
+2687|Mon chargeur a disparu. Ordi à 3 %.
+2688|Qui a pris mon chargeur ? Qui fait ça ?
+2689|{item?Mon|Ma} {item}… sur le bureau de {owner} ?!
+2690|Pourquoi {item?mon|ma} {item} est chez {owner} ?
+2691|Alors c'est {owner} qui avait {item?mon|ma} {item} depuis le début.
+2692|Ha ! {owner}, {owner?espèce de voleur|espèce de voleuse} ! Haha.
+2693|{item?Mon|Ma} {item} chez {owner} ? Drôle.
+2694|Comment {item?mon|ma} {item} a atterri ici ?
+2695|Je n'ai jamais apporté {item?mon|ma} {item} ici…
+2696|Dans ce bureau, les choses n'arrêtent pas de bouger.
+2697|Trouvé ! Ouf.
+2698|Te voilà !
+2699|Qui trouve garde…
+2700|Hm. Ça pourrait servir.
+2701|*le glisse discrètement dans un tiroir*
+2702|Pourquoi {item:le} de {owner} est sur mon bureau ? Je vais {item?le|la} rapporter.
+2703|C'est {item:le} de {owner}… je vais {item?le|la} rapporter.
+2704|C'est à qui, ça ?
+2705|Pas à moi. Pas mon problème.
+2706|J'ai trouvé {item?ton|ta} {item} sur mon bureau !
+2707|Tiens — {item?ton|ta} {item} était chez moi.
+2708|Je crois que c'est à toi.
+2709|Oh mon Dieu, merci !
+2710|Tu me sauves la vie !
+2711|Merci ! J'étais en train de devenir {me?fou|folle} !
+2712|Merci. Sérieusement. Merci.
+2713|Hm. Merci.
+2714|Attends. C'est parti à… TOUT LE MONDE ?!
+2715|Non. Non non non non non.
+2716|Annuler ! ANNULER ! Où est le bouton annuler ?!
+2717|Ce n'était PAS destiné à l'équipe.
+2718|Oh non. Oh non. Je déménage à l'étranger.
+2719|… Il va me falloir un nouveau boulot. Plus vite.
+2720|Je veux disparaître.
+2721|C'est… un malentendu.
+2722|Bon. C'est gênant.
+2723|Ce n'était pas pour tout le monde.
+2724|Tout le monde vient de recevoir ce mail ?
+2725|Oh. Mon. Dieu.
+2726|Je le relis deux fois.
+2727|Répondre à tous ? À TOUS ?
+2728|Meilleur mail DE TOUS LES TEMPS.
+2729|Je l'imprime et je l'encadre.
+2730|Oh, c'est de l'or.
+2731|Oh là là.
+2732|Qu'est-ce que ça signifie ?
+2733|C'était privé !
+2734|Tout le monde est au courant maintenant. Génial.
+2735|Comment tu as pu ?!
+2736|Tout le monde est au courant maintenant…
+2737|Génial. Vraiment génial.
+2738|Bon, le chat est sorti du sac.
+2739|Fainéants ? NOUS, fainéants ?
+2740|Waouh. Dis-nous vraiment ce que tu penses.
+2741|Voilà donc ce qu'il pense de nous.
+2742|C'était… un brouillon. Un premier jet.
+2743|Faisons tous comme si ça n'était jamais arrivé.
+2744|Attends… à qui j'ai envoyé ça ?
+2745|Ça vient de partir chez {target} ?!
+2746|Mauvais destinataire… oh non.
+2747|Euh… {actor}, je crois que ce n'était pas pour moi.
+2748|Tiens, VOILÀ qui est intéressant.
+2749|Hmm. J'étais censé{me?|e} voir ça ?
+2750|{actor}. Mon bureau. Tout de suite. Non, en fait, je viens vous voir.
+2751|Oh, c'est croustillant.
+2752|J'ai lu ton mail, {target}.
+2753|Alors C'EST ÇA que tu penses de moi ?
+2754|Il faut qu'on parle de ce mail.
+2755|Je suis désolé{me?|e}. Je vidais mon sac. Je ne le pensais pas.
+2756|C'était déplacé. Je suis désolé{me?|e}.
+2757|On peut repartir de zéro ?
+2758|D'accord. Mais ça m'a blessé{me?|e}.
+2759|Bon. Passons à autre chose.
+2760|Excuses acceptées. Pour l'instant.
+2761|Je pensais chaque mot.
+2762|Tu avais peut-être besoin de l'entendre.
+2763|Bon, maintenant c'est dit.
+2764|Incroyable !
+2765|Tu es incroyable !
+2766|On n'a plus rien à se dire.
+2767|Mert… c'était plutôt mignon, en fait.
+2768|Alors… je te plais ? C'est… gentil.
+2769|Eh bien. C'est une façon de me le dire.
+2770|Haha… ouais… à propos de ça…
+2771|Je peux tout expliquer ! … Non, je ne peux pas.
+2772|*devient rouge écarlate*
+2773|Mert, on travaille ensemble. C'est… gênant.
+2774|Je… j'ai besoin d'une minute.
+2775|Restons professionnels, d'accord ?
+2776|Alors… Ceren, hein ?
+2777|J'ai vu ta petite lettre d'amour, Roméo.
+2778|Ceren ? Audacieux, mon ami.
+2779|Qui a déplacé la réunion ? Ce n'est pas moi qui ai changé ça.
+2780|Ce n'est pas l'heure que j'avais prévue…
+2781|Quelqu'un trafique mon agenda.
+2782|Oh, la réunion a été déplacée ?
+2783|Nouvelle heure de réunion, c'est noté.
+2784|Tiens. La réunion est à une autre heure maintenant.
+2785|Monsieur, l'heure de la réunion a été changée sur le tableau.
+2786|Petite alerte — quelqu'un a déplacé la réunion d'aujourd'hui.
+2787|Bien. On garde la nouvelle heure.
+2788|C'est noté. Merci, Ceren.
+2789|Changée ? C'est VOUS qui gérez l'agenda, Ceren !
+2790|Comment une réunion peut-elle se déplacer toute seule ?!

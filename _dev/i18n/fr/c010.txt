@@ -1,0 +1,115 @@
+1788|Ahmet a trouvé « Ahmet a tort sur tout » dans la marge du rapport de {actor}. Bizarrement, il a respecté cette franchise.
+1789|{friend} a conseillé à {breaker} d'avouer pour le mug d'Ahmet.
+1790|Ahmet a remarqué qu'on avait échangé son mug. {friend} a craqué en premier.
+1791|{owner} a interrogé {suspect} sur le contrat disparu. {suspect} s'est souvenu{suspect?|e} l'avoir archivé par erreur.
+1792|{culprit} a avoué à {owner} : le contrat avait été mal rangé. Crise terminée.
+1793|{breaker} a cassé dans la cuisine le mug adoré d'Ahmet, « Meilleur patron du monde ».
+1794|Ahmet boit joyeusement dans le mug « Meilleur poltron du monde ». La supercherie a marché.
+1795|{breaker} a avoué avoir cassé le mug d'Ahmet. Ahmet a pardonné — et a même semblé apprécier.
+1796|{owner} a récupéré le contrat aux archives. Fin de la panique.
+1797|{owner} a interrogé {suspect} sur le contrat. {suspect} a nié. (C'est {suspect?lui|elle} qui l'avait archivé par erreur.)
+1798|{friend} a accepté d'aider {breaker} à remplacer le mug cassé d'Ahmet avant qu'il s'en aperçoive.
+1799|{culprit} a discrètement remis le contrat sur le bureau de {owner}. {owner} accuse toujours {suspect}.
+1800|{culprit} a discrètement remis le contrat sur le bureau de {owner}. Personne ne saura jamais.
+1801|Le contrat client signé de {owner} a disparu de son bureau. Panique.
+1802|{culprit} vient de comprendre que le contrat disparu est le dossier rangé aux archives ce matin.
+1803|{owner} a fouillé toutes les archives pour retrouver le contrat. Rien. Maintenant, {owner} soupçonne {suspect}.
+1804|{friend} a posé un mug de remplacement sur le bureau d'Ahmet. Il y est écrit « Meilleur poltron du monde ».
+1805|{breaker} a avoué avoir cassé le mug d'Ahmet. Ahmet l'a pris très, très personnellement.
+1806|{owner} a accusé {suspect} d'avoir pris le contrat. {suspect} n'y était pour rien — et est vexé{suspect?|e}.
+1807|{actor} a raté la réunion. Ahmet l'a remarqué.
+1808|La réunion d'équipe est terminée.
+1809|{hijacker} a détourné la présentation de {actor} — et Ahmet a laissé faire.
+1810|{hijacker} a tenté de détourner la présentation de {actor}. Ahmet y a mis le holà.
+1811|{sleeper} s'est endormi{sleeper?|e} en réunion. Ronflements compris.
+1812|La réunion d'équipe a commencé.
+1813|{actor} a attendu une réunion qui n'a jamais commencé.
+1814|Le brouillon inachevé d'une note d'Ahmet — « restructuration, réductions possibles » — est parti à tout le bureau.
+1815|Le clavier de {actor} miaule à chaque touche. Toute la rangée l'entend.
+1816|Le clavier de {actor} miaule maintenant. {actor} a décidé d'adorer ça.
+1817|Le micro-ondes a rendu l'âme à l'heure du déjeuner. {actor} fixe un déjeuner surgelé.
+1818|Ahmet s'est planté derrière le bureau de {target}, surveillant chaque frappe.
+1819|Ahmet a tourné autour du bureau de {target} jusqu'à ce que {target} craque et lui réponde sèchement.
+1820|D'après le compte rendu, {target} s'est porté{target?|e} volontaire pour organiser le séminaire d'équipe. {target} a décidé d'assumer.
+1821|D'après le compte rendu, {target} s'est porté{target?|e} volontaire pour organiser un séminaire. Absolument pas.
+1822|{actor} a perdu un fichier de son dossier. Il est maintenant dans le dossier privé d'Ahmet.
+1823|Ahmet a trouvé le fichier de {owner} dans son dossier privé et veut savoir comment il est arrivé là.
+1824|{actor} a retourné les archives pour trouver un rapport — et l'a trouvé mal rangé. {actor} accuse {suspect}.
+1825|Le rapport de {actor} est vraiment perdu. Il faudra tout recommencer.
+1826|{actor} a mis les archives sens dessus dessous pour un rapport qui était dans son propre tiroir.
+1827|{actor} a entendu à moitié {target} au téléphone et est maintenant convaincu{actor?|e} que {victim} va être viré{victim?|e}. ({target} parlait d'une imprimante.)
+1828|{owner} ne retrouve son rapport nulle part. (Il est déjà sur le bureau d'Ahmet — sous le nom de {thief}.)
+1829|Le rapport de {owner} a atterri sur le bureau de {actor}. {actor} en a lu chaque page avant de le rendre.
+1830|Le rapport de {owner} a atterri sur le bureau de {actor}. {actor} l'a rapporté aussitôt.
+1831|Le rapport de {owner} a atterri sur le bureau de {actor}. {actor} l'a remis à Ahmet. Comme le sien.
+1832|Ahmet a associé {mentor} et {mentee} en binôme mentor-mentoré. Ils ont échangé un regard d'effroi absolu.
+1833|Ahmet a fait le point sur le mentorat. {mentee} a révélé les conseils catastrophiques de {mentor}. Ahmet n'est pas content.
+1834|Ahmet a fait le point sur le mentorat. {mentor} et {mentee} forment — étonnamment — une bonne équipe.
+1835|{mentor} a donné à {mentee} un très mauvais conseil. Exprès.
+1836|La première séance de mentorat de {mentor} avec {mentee} a été… vraiment utile.
+1837|{protege} a remercié {mentor} autour d'un café. Ces deux-là se serrent les coudes, maintenant.
+1838|{protege} a débarqué dans le bureau d'Ahmet et avoué : l'erreur venait de {protege?lui|elle}, {mentor} {protege?le|la} protégeait.
+1839|{mentor} a dit à Ahmet que l'erreur du rapport était de sa faute — pour protéger {protege}.
+1840|{rival} a dit à Ahmet que {mentor} couvrait {protege}. Ahmet n'est pas content.
+1841|{rival} a essayé de retourner la couverture de {mentor} contre {mentor?lui|elle}. Ahmet ne s'y est pas intéressé.
+1842|{protege} s'est rendu compte d'avoir mis les mauvais chiffres dans le rapport de {mentor} — et Ahmet l'a déjà.
+1843|{actor} a bu dans le mug de {target} par erreur. Allez savoir comment, ça a tourné au flirt.
+1844|{target} a surpris {actor} en train de boire dans son mug. Les mugs avaient été échangés. Le ton est monté.
+1845|{actor} a bu dans le mug de {target} par erreur. Ils en ont ri.
+1846|Le haut-parleur du bureau s'est mis à diffuser {what}. Certains dansent. D'autres souffrent.
+1847|Ahmet a traversé le bureau d'un pas décidé et a coupé la musique.
+1848|{actor} a remarqué que {target} n'allait pas bien et {target?l'a emmené|l'a emmenée} boire un thé. {target} avait l'air plus léger{target?|e} après.
+1849|{actor} a fait un compliment sincère à {target}. {target} sourit encore.
+1850|{actor} a couvert {late} quand Ahmet a demandé où {late?il|elle} était. {late} en doit une à {actor}.
+1851|{actor} s'est endormi{actor?|e} à son bureau — et Ahmet {actor?l'a trouvé|l'a trouvée}.
+1852|{actor} s'est endormi{actor?|e} à son bureau. {prankster} lui a collé un mot sur le front : « absent du bureau ».
+1853|{actor} a traîné devant le bureau d'Ahmet en faisant semblant de lire une affiche — et a surpris quelque chose.
+1854|{actor} a inventé un prétexte pour passer au bureau de {target}. {target} a souri. Ça avance.
+1855|{actor} a inventé un prétexte pour passer au bureau de {target}. {target} n'a rien remarqué.
+1856|{actor} a dit à {target} que {victim} allait être viré{victim?|e}. C'est totalement faux.
+1857|{actor} a réchauffé du poisson au micro-ondes. Tout le bureau est maintenant au courant.
+1858|Quelqu'un a laissé une fleur sur le bureau de {actor}. {actor} n'a aucune idée que c'était {giver}.
+1859|Un petit cercle de ragots s'est formé dans la cuisine autour de {actor}. Quoi que {actor} ait dit, trois personnes le savent maintenant.
+1860|{actor} a discrètement pris rendez-vous pour un entretien d'embauche — et a dit à Ahmet que c'était « le dentiste ».
+1861|{actor}, {target} et {friend} ont déjeuné ensemble à la table de la cuisine. Un petit clan se forme.
+1862|{actor} et {target} ont déjeuné ensemble à la table de la cuisine.
+1863|{actor} a accusé {target} de laisser des mugs dans l'évier. {target} a nié — bruyamment.
+1864|{actor} a interpellé {target} à propos des mugs dans l'évier. {target} les a lavés. Paix dans la cuisine.
+1865|{actor} et {target} se sont disputés bruyamment pour savoir qui travaille le plus. Personne n'a gagné. Tout le monde a entendu.
+1866|{actor} a montré à {target} environ trois cents photos de son animal. {target} les a toutes adorées.
+1867|{actor} a été surpris{actor?|e} en pleine conversation à cœur ouvert avec la plante du bureau.
+1868|{actor} a demandé une promotion à Ahmet, franchement. Ahmet n'a pas dit non.
+1869|{actor} a demandé une promotion à Ahmet, franchement. « Pas encore. »
+1870|{actor} a partagé son déjeuner avec {target}. Ce sont les petites choses qui comptent.
+1871|{target} a envoyé balader {actor} pour l'avoir interrompu{target?|e}. Encore.
+1872|{actor} a parlé à Ahmet de l'erreur de {rival}. La rivalité a une nouvelle arme.
+1873|{rival} a entendu {actor} signaler son erreur à Ahmet. Ça ne sera pas oublié.
+1874|{actor} a fouillé les papiers sur le bureau vide de {target} — et a trouvé quelque chose.
+1875|{actor} a montré à {target} un raccourci de tableur. {target} a regardé {actor} comme un magicien.
+1876|{actor} et {target} ont eu un conflit frontalier au sujet d'une agrafeuse.
+1877|{actor} s'est porté{actor?|e} volontaire pour du travail en plus devant Ahmet. Quelques collègues ont levé les yeux au ciel.
+1878|{actor} a raconté à {target} une très longue histoire de week-end. {target} a survécu.
+1879|L'histoire de week-end de {actor} a fait pleurer de rire {target} devant la machine à café.
+1880|C'est officiel : Ece est la nièce du patron.
+1881|Tout le réseau du bureau est tombé. Personne ne peut travailler — alors tout le monde papote.
+1882|{actor} et {target} deviennent de vrais amis.
+1883|Ahmet a annoncé une nouvelle règle de bureau. Personne ne l'avait demandée.
+1884|La newsletter de Ceren a annoncé que {target} et {crush2} avaient été « aperçus lors d'un dîner aux chandelles ». C'est faux.
+1885|Il n'y avait pas de gâteau. {actor} est effondré{actor?|e}.
+1886|{actor} accuse {suspect} de la fausse alerte gâteau.
+1887|{actor} est allé{actor?|e} imprimer et a découvert que l'imprimante — et l'étagère des fournitures — n'avaient plus de papier.
+1888|{target} a honnêtement admis ne pas avoir réparé la machine à café.
+1889|{actor} a glissé en douce un mot anonyme sur le bureau de {target}.
+1890|{actor} a trouvé un mot anonyme sur son bureau et pense que c'est {guess}. (C'est {writer}.)
+1891|{actor} a trouvé un mot anonyme et a deviné juste : c'est {writer}.
+1892|{actor} a trouvé le carnet privé de {target} sur le canapé — et l'a rendu sans le lire.
+1893|{actor} a trouvé le carnet privé de {target} sur le canapé. Et l'a lu.
+1894|Les notes privées d'Ahmet sur chaque employé sont apparues sur le tableau en liège. Tout le monde a lu ce qu'il pense de chacun.
+1895|{actor} a un admirateur secret. Paraît-il.
+1896|{actor} a reçu un message « Venez dans mon bureau ».
+1897|{actor} croit que la réunion d'aujourd'hui est annulée.
+1898|{actor} fonce à la cuisine pour du gâteau gratuit.
+1899|L'aperçu d'un message de {owner} — qui se plaint de {worst} — s'est affiché sur le téléphone de {target}.
+1900|Ece a fait face au bureau au sujet de son lien avec Ahmet, son oncle. La plupart ont estimé qu'elle avait mérité sa place.
+1901|{witness} a cuisiné Ceren sur Ece et Ahmet. Le « sans commentaire » de Ceren en disait long.
+1902|{witness} a interrogé Ece sur le lapsus « Tonton ». Ece a inventé un mensonge lamentable à propos de son menton.

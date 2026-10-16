@@ -1,0 +1,167 @@
+702|Wähle eine Hälfte des „Pärchens“. Die andere Hälfte ist, wer am besten zur Geschichte passt.
+703|Kaffeebohnen gegen entkoffeinierte tauschen
+704|Niemand merkt es. Zuerst.
+705|Die Nachricht aufdecken, in der jemand verteidigt wurde
+706|Hinter verschlossenen Türen gab es Rückendeckung für einen Kollegen. Lass ihn das herausfinden.
+707|Einen wichtigen Kundenrückruf verzögern
+708|Der Kunde ruft zurück — eine Stunde zu spät.
+709|Die Meeting-Einladung löschen
+710|Die meisten denken, es fällt aus. Ahmet nicht.
+711|Das Bürolicht auf Disco-Modus stellen
+712|Lila, pink, blinkend. Manche tanzen. Einer nicht.
+713|Das Handy auf „Nicht stören“ stellen
+714|Ahmet wird gleich anrufen. Mehrmals.
+715|Den Meeting-Termin doppelt belegen
+716|Ein falsches „Budget-Abstimmung“-Treffen in der Küche, zur selben Zeit. Zwei Leute erwischen das falsche.
+717|Den Handyakku leer machen
+718|In Sekunden tot. Ein Ladegerät muss her — ein fremdes.
+719|Die Beförderungsankündigung vorziehen
+720|Die heutige Beförderung wird sofort verkündet — bereit oder nicht.
+721|Den Namen auf „Mitarbeiter des Monats“ ändern
+722|Die Urkunde an der Pinnwand zeigt, wen du auswählst.
+723|Eine Einladung zu Drinks aufhängen, die jemanden auslässt
+724|„Alle willkommen!“ Alle bis auf einen Namen. Wähle, wessen.
+725|Eine geheime Bewerbung auf Ahmets Schreibtisch legen
+726|Jemand bewirbt sich woanders. Sorg dafür, dass Ahmet es sieht.
+727|Einen falschen Termin in den Kalender eintragen
+728|Eine Erinnerung ploppt auf. Wird die Person hingehen?
+729|Ahmets Antwort „Genehmigt!“ sagen lassen
+730|Die offene Anfrage bekommt ein fröhliches „Genehmigt!“ — von einem Chef, der nichts genehmigt hat.
+731|In ihrem Namen eine falsche Einladung zum Vier-Augen-Gespräch schicken
+732|Wähle, wer sie bekommt. Beide tauchen in der Küche auf.
+733|Eine Zeile ins Meeting-Protokoll schreiben
+734|„(Jemand) hat sich freiwillig für die Planung des Team-Ausflugs gemeldet.“ Wähle, wer.
+735|Eine irreführende Erinnerung aufs Handy setzen
+736|Das Handy wird sagen, was zu tun ist. Wird es getan?
+737|Das Meeting in „Abschied von (jemandem)“ umbenennen
+738|Alle werden denken, die Person geht. Vielleicht sogar sie selbst.
+739|Die private Datei auf einem fremden Bildschirm öffnen lassen
+740|Wähle, wessen Bildschirm. Gelesen wird am eigenen Schreibtisch.
+741|Den Feueralarm auslösen
+742|Alle evakuieren zum Empfang. Egal, was sie gerade tun — Meetings inklusive.
+743|Ein Fischcurry als jemandes Mittagessen beschriften
+744|Mittags kommt es in die Mikrowelle. Der Geruch wird seinen „Besitzer“ finden.
+745|Den Drucker heimlich reparieren
+746|Jemand wird die Lorbeeren einheimsen. Du nicht.
+747|Das Licht flackern lassen
+748|Zwanzig Minuten Horrorfilm-Beleuchtung.
+749|Ahmets Unterschrift auf der Spesenabrechnung fälschen
+750|Zeynep prüft jede Abrechnung. Wird sie es merken?
+751|Anrufe an jemand anderen umleiten
+752|Wähle, wer heute ans Telefon geht. Kunden inklusive.
+753|Den privaten Chat an die Person weiterleiten, um die es geht
+754|Es war nur zum Dampfablassen. Jetzt liest es die betroffene Person.
+755|Die Gehaltsliste an jemanden weiterleiten
+756|Zeyneps vertrauliche Gehaltsliste. Wähle, wer alle Gehälter sehen darf.
+757|Einen passiv-aggressiven Zettel an den Kühlschrank kleben — unterschrieben von jemandem
+758|„HÖRT AUF, MEINEN JOGHURT ZU KLAUEN.“ Wähle, wessen Name darunter steht.
+759|Alles aus dem Kühlschrank wegwerfen
+760|Das Mittagessen aller. Weg.
+761|Die Sprachnachricht per Diktierfunktion verstümmeln
+762|„Ich reiß das Meeting heute ab“ wird zu „Ich reiß dir den Kopf ab.“ Wähle, wer es bekommt.
+763|Den Namen auf einer Geschenkkarte ändern
+764|Ein Geschenk für eine befreundete Person. Wähle, wessen Name stattdessen auf der Karte steht.
+765|Ein peinliches Foto in den Gruppenchat posten
+766|Genau das. Vom Karaoke-Abend.
+767|Die Karte eines Headhunters auf den Schreibtisch legen
+768|„Führungsposition. Doppeltes Gehalt. Ruf mich an.“
+769|Ein wichtiges Dokument verstecken
+770|Den Bericht dort verstauen, wo niemand nachsieht.
+771|Die Snackbox in jemandes Schublade räumen
+772|Wähle, wessen. Hungrige Kollegen werden sie finden.
+773|Das ganze Büromaterial in jemandes Schublade räumen
+774|Stifte, Tacker, Haftnotizen — alles. Wähle, wessen Schublade.
+775|Die Warteschleifenmusik ändern
+776|Wer in der Warteschleife hängt, hört etwas… Unerwartetes.
+777|Einen anonymen „Ich weiß, was du getan hast“-Zettel hinterlassen
+778|Er bedeutet nichts. Außer, die Person hat wirklich etwas getan.
+779|Jemanden einladen, der nicht kommen soll
+780|Einen Namen zum heutigen Meeting hinzufügen. Ahmet wird es merken.
+781|Den Vorsitz in „Kommissarische Leitung“ umbenennen
+782|Ahmet ist beim Golf. {usurper} hat schon den Vorsitz.
+783|{crush} zurückrufen lassen — auf Lautsprecher
+784|„Wir müssen reden“ wurde gesendet. Das Telefon ist auf laut. Lass es klingeln.
+785|Die Einladung in ein Date bei Kerzenschein verwandeln
+786|{reader} hat den Liebesbrief schon. Jetzt steht in der Einladung „nur wir zwei, Kerzen“.
+787|Den Kündigungsentwurf an die automatische Antwort hängen
+788|Wer {owner} jetzt mailt, bekommt „Ich kündige“ — mit dem Schreiben im Anhang.
+789|„{presenter} präsentiert dem Kunden“ an die Tafel schreiben
+790|Ein Kunde kommt. Der Beamer ist tot. Irgendwer muss präsentieren.
+791|„Doppeldate beim Mittagessen!“ auf das Pärchenfoto kritzeln
+792|{c} hat {d} zum Mittagessen eingeladen. {a} und {b} sind schon „ein Paar“. Warum nicht alle vier?
+793|Das Flackern mit der Virus-Sirene synchronisieren
+794|Licht und Bildschirme pulsieren im Takt. Sehr, sehr gruselig.
+795|Auch den Notausgang blockieren
+796|Der Alarm schrillt und die Eingangstür klemmt. Schließ den letzten Ausweg.
+797|Das vertrauliche Dokument in den gemeinsamen Ordner kopieren
+798|{leaker:s} privater Ordner ist für alle offen. Die vertrauliche Datei passt perfekt hinein.
+799|Beide Briefe in Ahmets Eingangskorb legen
+800|Ein Versetzungsantrag und ein glänzendes Zeugnis — für dieselbe Person.
+801|Ein „PARTY“-Banner über die Küche hängen
+802|Die Musik läuft, das Licht ist pink und ein Tablett steht bereit. Fehlt nur noch ein Name.
+803|Die Gehaltsliste neben „Budget für Erhöhungen: 0“ pinnen
+804|{leader} hat die Gehaltsliste schon gesehen. Jetzt können alle vergleichen.
+805|„Beförderungsankündigung“ auf die Tagesordnung setzen
+806|In der Akte steht {credited}. Das Meeting ist verschoben. Ahmet wird es laut vorlesen.
+807|„Umstrukturierung – Fragerunde“ unter das durchgesickerte Rundschreiben setzen
+808|Alle haben das Rundschreiben gesehen. Jetzt macht die Tafel es offiziell.
+809|Ahmet den umgeschriebenen Bericht für das Gespräch geben
+810|Das Überraschungsgespräch mit {rebel} steht und der Bericht wurde „bearbeitet“.
+811|Beide Zettel mit „dein heimlicher Verehrer“ unterschreiben
+812|{owner} hat einen lieben Zettel und ein anonymes Kompliment bekommen. Verbinde die beiden.
+813|Die alten Zahlen an den Kunden schicken — Ahmet in CC
+814|Die veraltete Version ist offen und Ahmet steht schon in CC. Ein Klick.
+815|Die anonyme Beschwerde mit dem Namen des Gerüchte-Urhebers „unterschreiben“
+816|Ein Zettel nennt, wer ein Gerücht gestartet hat. Der andere ist anonym. Nicht mehr lange.
+817|„Ich hab alles weggeworfen“ auf den unterschriebenen Zettel schreiben
+818|Der Kühlschrank ist leer und da hängt ein Zettel mit {signer:s} Namen. Mach ein Geständnis daraus.
+819|Die Bewerbung an den Leistungsbericht tackern
+820|Ahmet liest beides auf einmal.
+821|Die Eingangstür blockieren
+822|Wer als Nächstes gehen will, sitzt fest.
+823|Einen Liebesbrief im Kopierer einklemmen
+824|Wähle, wessen geheimer Liebesbrief in den Walzen stecken bleibt.
+825|Stellenanzeigen auf dem Bildschirm offen lassen
+826|Wer als Nächstes vorbeigeht, zieht eigene Schlüsse.
+827|Eine Karaokemaschine auf jemandes Spesenabrechnung setzen
+828|Zeynep macht heute die Spesenprüfung.
+829|Den lieben Zettel offen liegen lassen
+830|Da wurde etwas Wunderschönes über jemanden geschrieben. Es war nie zum Teilen gedacht.
+831|Genau eine Tasse Kaffee übrig lassen
+832|Zwei Leute werden sie wollen.
+833|Jemandem Ahmets geheimes Meeting zeigen
+834|„Privat: Personalgespräch — (jemand).“ Bedeutet nichts. Das weiß die Person aber nicht.
+835|Die Nachricht der Freundschaft als „gelesen“ markieren
+836|Der beste Freund oder die beste Freundin fühlt sich ignoriert.
+837|Die Tür zum Meetingraum abschließen
+838|Von innen. Ohne dass jemand drin ist.
+839|Den Computer sperren
+840|Passwort zurücksetzen. Das fällt beim Hinsetzen auf.
+841|Das Thermostat sperren
+842|Welche Temperatur gerade herrscht — so bleibt es.
+843|Jemandes privates Notizbuch auf dem Sofa liegen lassen
+844|Wähle, wessen. Wer sich als Nächstes setzt, findet es.
+845|Herzen in die nächste Arbeitsnachricht einfügen
+846|Wähle, wer eine sehr geschäftliche Mail bekommt… mit drei Herzen.
+847|Den Liebesbrief an die falsche Person zustellen
+848|Er war für den Schwarm. Wähle, wer ihn stattdessen liest.
+849|Die Einladung zum Mittagessen an die falsche Person schicken
+850|Wähle, wer sie bekommt. Mittagessen zu zweit, ob es gefällt oder nicht.
+851|Tischkärtchen zum Mittagessen: Rivalen nebeneinander
+852|Die zwei, die sich nicht ausstehen können. Ein Tisch.
+853|Eine freche Randnotiz in den Bericht schreiben
+854|„Ahmet liegt mit allem falsch.“ In der eigenen Handschrift.
+855|Den Handywecker mitten ins Meeting stellen
+856|„AUFWACHEN! AUFWACHEN!“ — mitten in Ahmets Meeting.
+857|Die Tastatur miauen lassen
+858|Bei jedem Tastendruck: ein kleines Miau. Alle in der Nähe hören es.
+859|Die Datei in den falschen Ordner verschieben
+860|Direkt in Ahmets privaten Ordner.
+861|Das ganze Archiv falsch einsortieren
+862|„Buchhaltung“ landet bei „Urlaub“. Die nächsten zwei Besucher werden leiden.
+863|Die letzte Seite des Berichts entfernen
+864|Das Fazit. Die Seite, die Ahmet immer zuerst liest.
+865|Jemandes Mittagessen in ein anderes Fach stellen
+866|Hinter den Senf. Es wird nach Diebstahl aussehen.
+867|Das Meeting in einen anderen Raum verlegen
+868|Die Tafel sagt heute, das Meeting ist woanders.

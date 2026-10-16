@@ -1,0 +1,263 @@
+2259|{actor} m'a accusé{me?|e} de quelque chose que je n'ai pas fait !
+2260|{target} et moi, on ne se parle plus.
+2261|Tout le monde croit que j'ai réchauffé du poisson au micro-ondes du bureau.
+2262|{b} et moi, on s'est réconciliés.
+2263|{owner} a écrit des horreurs sur moi dans un chat.
+2264|{target} a cancané sur moi dans mon dos.
+2265|{actor} m'a apporté des fleurs.
+2266|{hater} a un groupe de discussion consacré à se plaindre de moi.
+2267|Je n'oublierai jamais ce que {target} m'a fait.
+2268|{crush} a choisi {target}.
+2269|{actor} m'a aidé{me?|e} à tenir mon échéance.
+2270|{target} m'a aidé{me?|e} avec {obj}.
+2271|Ahmet m'a dit que je pouvais partir si je voulais.
+2272|Ahmet s'est battu pour me garder.
+2273|{hijacker} a détourné ma présentation.
+2274|{actor} m'a accusé{me?|e} de quelque chose que je n'ai pas fait.
+2275|{target} a sauvé mon ordinateur.
+2276|J'ai gardé le secret de {subject}.
+2277|Ahmet m'a fait la leçon à propos de {what}. Je n'ai rien fait !
+2278|Je suis presque sûr{me?|e} que {suspect} a touché à mes affaires.
+2279|{actor} a couru me dénoncer à Ahmet.
+2280|{target} a fait quelque chose de gentil pour moi. (Enfin, je crois.)
+2281|La soirée karaoké dans la cuisine était géniale.
+2282|J'étais en retard et Ahmet l'a remarqué.
+2283|{winner} a eu ce qui aurait dû me revenir.
+2284|On s'est réconciliés. Ça fait du bien.
+2285|{owner} m'a accusé{me?|e} d'avoir pris son contrat.
+2286|{culprit} a avoué avoir perdu mon contrat.
+2287|Ahmet m'a collé aux basques tout l'après-midi.
+2288|{suspect} a mal rangé mon rapport.
+2289|{actor} m'a rapporté mon rapport perdu.
+2290|{mentor} m'a protégé{me?|e} quand j'ai fait une bêtise.
+2291|{actor} a pris de mes nouvelles un jour où ça n'allait pas.
+2292|{actor} m'a couvert{me?|e} auprès d'Ahmet.
+2293|Ahmet a refusé ma demande de promotion.
+2294|{actor} a couru raconter mon erreur à Ahmet.
+2295|Ma clé USB a disparu juste avant ma présentation.
+2296|On a fait une fête de bureau géniale.
+2297|{target} a organisé une fête pour tout le monde.
+2298|{actor} m'a refilé son travail urgent.
+2299|{rich} gagne beaucoup plus que moi.
+2300|Ahmet nous a laissés garder le chaton du bureau.
+2301|Quelqu'un a envoyé une photo gênante de moi à tout le bureau.
+2302|Ahmet a balayé ma demande de promotion.
+2303|Ahmet a adoré mon pitch.
+2304|Ahmet a félicité ma présentation !
+2305|Quelqu'un m'a fait une farce. Sûrement {suspect}.
+2306|Ahmet a rompu une promesse qu'il m'avait faite par écrit.
+2307|Je n'ai rien dit, mais je sais que c'était {suspect}.
+2308|Ahmet m'a augmenté{me?|e}.
+2309|Ahmet a refusé mon augmentation.
+2310|{text}
+2311|{target} a refusé de m'aider.
+2312|{actor} m'a rendu {item?mon|ma} {item}. Trop gentil !
+2313|{actor} m'a rendu mon carnet sans le lire.
+2314|Ahmet m'a infligé une évaluation surprise catastrophique.
+2315|Ahmet m'a félicité{me?|e} lors d'une évaluation surprise.
+2316|{crush} et moi, on a rompu.
+2317|{crush} m'a éconduit{me?|e}.
+2318|Ahmet a accepté ma démission sans sourciller.
+2319|{partner} m'a balancé{me?|e}.
+2320|Quelqu'un a trafiqué mon dossier de promotion. {credited} ?
+2321|{actor} s'est moqué{actor?|e} de moi.
+2322|Ahmet m'a remonté les bretelles.
+2323|Ahmet m'a surpris{me?|e} en pleine pause.
+2324|J'étais en retard et Ahmet m'a sermonné{me?|e}.
+2325|{actor} a reconnu mon mérite devant tout le monde.
+2326|{friend} a pris ma défense devant Ahmet.
+2327|Je me suis vanté{me?|e} d'une promotion qui n'existe pas. Devant Ahmet.
+2328|{victim} m'a dénoncé{me?|e} à Ahmet.
+2329|Ahmet a félicité {thief} pour une idée qui ressemble beaucoup à la mienne.
+2330|Ahmet m'a cru{me?|e} au sujet de {thief}.
+2331|Je me suis figé{me?|e} en réunion. Quelqu'un avait échangé mes diapos.
+2332|{actor} a laissé échapper mon secret.
+2333|{actor} m'a renversé du café partout.
+2334|{target} a répandu des mensonges sur moi.
+2335|Tout le monde croit que je planque les fournitures.
+2336|Je suis sûr{me?|e} que {suspect} a cassé la machine à café.
+2337|Je crois que {suspect} a touché à mes fichiers.
+2338|J'ai répondu à Ahmet. Aucun regret. Quelques regrets.
+2339|J'ai pris la faute pour que {actor} se calme.
+2340|{item?Mon|Ma} {item} a atterri sur le bureau de {owner}.
+2341|On m'a exclu{me?|e} de la réunion exprès.
+2342|Je me suis excusé{me?|e} auprès de {target}. {target?Il|Elle} m'a ignoré{me?|e}.
+2343|Zeynep m'a dit que c'était {suspect}.
+2344|L'imprimante est morte. Évidemment.
+2345|Pourquoi l'imprimante clignote en rouge ?!
+2346|BOURRAGE PAPIER ?! Il n'y a même pas de papier dedans !
+2347|Allez, allez… imprime !
+2348|Cette imprimante est une honte.
+2349|J'ai besoin que ce soit imprimé MAINTENANT. Pas plus tard. Maintenant.
+2350|L'imprimante fait sa crise, hein ?
+2351|Pff, elle mange mes pages !
+2352|C'est moi qui l'ai cassée ? Je n'ai touché à rien !
+2353|Typique.
+2354|Hm. Hors service.
+2355|Qui t'a fait ça, ma vieille ? Je vais te réparer.
+2356|Classique. Donne-moi cinq minutes.
+2357|Qui lui a donné un coup de pied cette fois ? … Bon. Je la répare.
+2358|Il me faut quelqu'un qui parle imprimante.
+2359|{helper} ! Tu peux m'aider avec ce truc ?
+2360|{helper} saura quoi faire.
+2361|Je vais demander à {helper} ! Pas de panique. Je ne panique pas.
+2362|Marche, espèce de boîte inutile !
+2363|*donne un coup de pied à l'imprimante*
+2364|Prends ÇA !
+2365|J'ai dit IMPRIME !
+2366|Incroyable !
+2367|… Je n'en suis pas fier.
+2368|On vient de donner un coup de pied à l'imprimante ?
+2369|Doucement, champion.
+2370|Ce n'est pas comme ça que marche l'informatique.
+2371|Dix points pour le style !
+2372|Oh, quelqu'un est de mauvais poil.
+2373|Laisse tomber. Je le ferai plus tard.
+2374|J'abandonne. Je le montrerai sur mon portable.
+2375|OK ! Nouveau plan ! … Je n'ai pas de plan.
+2376|{target}, {obj} {obj?est en panne|est en panne|est en panne|sont en panne}. Tu peux jeter un œil ?
+2377|Dis, {target}… tu pourrais réparer {obj} ?
+2378|{target}, j'ai besoin de ta magie. {obj} {obj?a rendu l'âme|a rendu l'âme|a rendu l'âme|ont rendu l'âme}.
+2379|{target}, j'ai une échéance. {obj} {obj?a rendu l'âme|a rendu l'âme|a rendu l'âme|ont rendu l'âme}. Au secours ?
+2380|{target}, {target?mon ami, mon héros|mon amie, mon héroïne}, {target?mon charmeur attitré|ma charmeuse attitrée} pour {obj}…
+2381|Pardon pardon pardon — {target}, tu pourrais m'aider avec {obj} ?
+2382|{target}. {obj}. Réparez-moi ça.
+2383|Bien sûr, donne-moi une minute.
+2384|Ouais, je m'en occupe.
+2385|J'y vais.
+2386|Soupir. Oui. Je vais réparer ça.
+2387|Tu as essayé de l'éteindre et de le rallumer ? … Laisse tomber, j'arrive.
+2388|Bien sûr ! J'adore aider !
+2389|Pas de problème, je m'en charge.
+2390|Désolé{me?|e}, je suis débordé{me?|e}.
+2391|Pas mon boulot.
+2392|Pas maintenant.
+2393|Pas aujourd'hui.
+2394|Ouvre un ticket.
+2395|Je ne suis pas ton support informatique perso.
+2396|Hm. J'adorerais, mais… non.
+2397|J'ai ma propre échéance, désolée.
+2398|J'ai une tête d'informaticien, peut-être ?
+2399|Super. Merci beaucoup.
+2400|Très bien. TRÈS BIEN.
+2401|Je m'en souviendrai.
+2402|Je m'en souviendrai.
+2403|Noté. Définitivement.
+2404|Aïe. OK.
+2405|Oh… d'accord. Pas grave. Vraiment pas grave.
+2406|Plus tard, d'accord ? Je suis en plein dans un truc.
+2407|Laisse-moi un peu de temps. Je passerai.
+2408|Après ce ticket. Promis.
+2409|D'accord… j'attends.
+2410|Ne m'oublie pas !
+2411|Et… que la lumière soit !
+2412|Réparé. De rien.
+2413|Le disjoncteur a sauté. Encore. Personne ne touche à rien.
+2414|Enfin !
+2415|Merci !
+2416|J'y vois de nouveau !
+2417|Oh, Dieu merci.
+2418|Mon héros !
+2419|Il était temps.
+2420|C'est bon. Ça devrait marcher maintenant.
+2421|Je te l'ai réparé.
+2422|Comme neuf.
+2423|Ça marche. Arrêtez de taper dessus, s'il vous plaît.
+2424|Merci mille fois !
+2425|Tu me sauves la vie.
+2426|Je t'en dois une.
+2427|Merci. Vraiment.
+2428|Je te dois un kebab.
+2429|Voilà. Réparé.
+2430|C'est reparti.
+2431|Un jour de plus, un miracle de plus.
+2432|Pas de café ?! PAS DE CAFÉ ?!
+2433|La machine à café est en panne…
+2434|Pourquoi elle fait ce bruit ?
+2435|Qui a cassé la machine à café ?!
+2436|Nooon, mon carburant !
+2437|Comment je suis censé{me?|e} fonctionner, moi ?!
+2438|Merveilleux. Tout simplement merveilleux.
+2439|… Je ne la répare pas.
+2440|Je peux la réparer ! J'ai vu une vidéo une fois !
+2441|Laissez-moi faire ! Tiens ça… non, attends.
+2442|ÇA MARCHE ! Je suis un génie !
+2443|Tadaa ! Café pour tout le monde !
+2444|Waouh, bien joué, Ece !
+2445|Ece, tu es une légende.
+2446|La stagiaire nous a sauvés !
+2447|Oups. Oh non. Oh non non non.
+2448|Ça… n'était pas censé gicler.
+2449|Pourquoi j'en ai partout ?!
+2450|Ece, ça va ?
+2451|Quelqu'un, une serpillière !
+2452|Oh là là.
+2453|Qui a FAIT ça ?!
+2454|Je vous jure, je vais craquer.
+2455|Incroyable ! INCROYABLE !
+2456|Ce bureau tombe en ruine !
+2457|Quelqu'un va devoir rendre des comptes.
+2458|Aïe aïe aïe.
+2459|Mieux vaut ne pas se mettre en travers de son chemin.
+2460|Quelqu'un est grognon.
+2461|Du déca pour cette personne.
+2462|Je parie que c'est {suspect}. Toujours en train de la tripoter.
+2463|{suspect} était là en dernier. Une coïncidence ? Non.
+2464|Je SAIS que c'est {suspect} qui l'a cassée.
+2465|C'est {suspect}, j'en mettrais ma main au feu.
+2466|Encore {suspect}, je suppose.
+2467|Peut-être que {helper} peut la réparer…
+2468|Je vais chercher {helper}.
+2469|La journée va être longue.
+2470|Pas de café. Pas de joie.
+2471|*soupir triste*
+2472|C'est rien ! Je boirai de l'eau ! … De l'eau triste.
+2473|Attends. Elle remarche ?
+2474|Hein ? Quelqu'un l'a réparée ?
+2475|La machine à café est vivante !
+2476|Qui l'a réparée ? Sûrement {credited}.
+2477|C'est sûrement {credited} qui l'a réparée. Je devrais dire merci.
+2478|Personne n'y a touché. Elle s'est… réparée toute seule.
+2479|OK, ça fait flipper.
+2480|Ce bureau est hanté. Je le dis.
+2481|Merci d'avoir réparé la machine à café, {target} !
+2482|C'est toi qui as réparé le café ? Tu es {to?le meilleur|la meilleure} !
+2483|Oh, ça ? Oui. Tout pour l'équipe.
+2484|Hé. De rien.
+2485|Ce n'était rien, vraiment.
+2486|Naturellement. Je m'occupe des choses.
+2487|En fait, ce n'était pas moi.
+2488|Je n'ai rien réparé…
+2489|Non. Pas moi.
+2490|Je n'y ai pas touché. Bizarre.
+2491|Alors, qui ?
+2492|Attends… alors qui ?!
+2493|OK, là, j'ai peur.
+2494|L'imprimante est toujours morte. Bon. Je m'en occupe.
+2495|Personne ne l'a signalé. Évidemment.
+2496|Encore la machine à café ? Bon.
+2497|Je vais réparer le café. Pour le bien commun.
+2498|AAAH !
+2499|Qui a éteint les lumières ?!
+2500|Hé ! J'étais en train de taper !
+2501|On a oublié de payer la facture ?
+2502|Je ne vois rien ! C'est un exercice ?!
+2503|Ouuuh, ça fait peur !
+2504|Quelqu'un joue à un drôle de jeu…
+2505|Qu'est-ce qui se passe ici ?!
+2506|Intéressant…
+2507|Mon document ! Il est enregistré ?!
+2508|… Le disjoncteur.
+2509|Tout le monde reste calme.
+2510|Je vais voir le disjoncteur.
+2511|Attendez, je m'en occupe.
+2512|Personne ne bouge, je gère.
+2513|Le disjoncteur. Je m'en charge.
+2514|Je m'en occupe.
+2515|Oh non ! Je suis vraiment désolée !
+2516|Oups ! Ta chemise…
+2517|AAH ! Pardon pardon pardon !
+2518|C'est rien, ce n'est qu'une chemise.
+2519|T'inquiète, ça arrive.
+2520|Ha ! De toute façon, il me fallait un nouveau look.
+2521|Parfum café. Très tendance.

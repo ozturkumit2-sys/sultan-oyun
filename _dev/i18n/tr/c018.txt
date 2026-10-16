@@ -1,0 +1,263 @@
+3321|Ah! Tabii! Ben... bir yolunu bulurum!
+3322|Şey. Tamam. Ne kadar zor olabilir ki?
+3323|...Peki. Yine.
+3324|Dikkat! Bugünden itibaren mutfakta kişisel kupa yok.
+3325|Yeni kural: toplantılar beş dakika ERKEN başlar. Her zaman.
+3326|Bundan sonra öğle arası otuz dakika. Otuz beş değil.
+3327|Derhâl geçerli: masalarda kulaklık yok.
+3328|Ciddi misiniz?
+3329|Bu çok saçma.
+3330|Yine başlıyoruz.
+3331|Bunları kim uyduruyor?
+3332|...Kulaklık yok. Harika.
+3333|Peki ya duygusal destek kupaları?
+3334|Bunu not ediyorum. Gelecek nesiller için.
+3335|İyi fikir, Ahmet Bey.
+3336|Mantıklı!
+3337|Disiplin önemlidir.
+3338|Mükemmel bir politika. Çoktan gelmesi gerekiyordu.
+3339|Bahis havuzu! Bir sonraki terfiyi kim alacak? Beş lira.
+3340|Ofis bahsi açıldı. Selin mi, Deniz mi?
+3341|Bahislerinizi yapın, millet.
+3342|Hanımlar beyler, terfi bahsi AÇILMIŞTIR.
+3343|Beni Selin'e yazın.
+3344|Deniz. O bir yolunu bulur.
+3345|Sürpriz isme on lira.
+3346|İş arkadaşlarıma bahis oynamam! ...Peki, beş.
+3347|Ofisimde BAHİS mi dönüyor?
+3348|Mert. Odama. Hemen.
+3349|Öğle yemeğinden önce üç satış kapattım. Ya sen?
+3350|Ahmet Bey rakamlarıma bayıldı. Söylemiş olayım.
+3351|Raporumu gördün mü? Herkes gördü.
+3352|Komik, benim rakamlarım hep seninkileri geçiyor.
+3353|Yardım teklif ederdim ama... meşgul görünüyorsun.
+3354|Müşterim yeniledi. İki yıl. Geç bakalım.
+3355|Tebrikler. Madalya ister misin?
+3356|Harika. Şimdi bir de kimsenin slaytlarını çalmadan yap.
+3357|Vay. Kahveyi de sen mi icat ettin?
+3358|Laf ucuz. Sonuçlar masamda.
+3359|Tatlı. Kıdemli olunca ararsın.
+3360|Hı hı. Aferin sana.
+3361|...Tamam.
+3362|Meşgulüm.
+3363|Bakalım bu nasıl hoşuna gidecek...
+3364|Hay aksi. Ne sakarım.
+3365|Ödeşme zamanı.
+3366|Kişisel değil. Sadece iş.
+3367|Hehe. Bu çok iyi olacak.
+3368|Bakalım ne kadar sürede fark edecekler...
+3369|Komedi tamamen zamanlamadır.
+3370|Bugün birlikte öğle yemeği?
+3371|Öğle yemeğine çıkalım mı? Benden. Kısmen.
+3372|Kebapçı? Sen ve ben?
+3373|Öğle yemeğinde yanına oturabilir miyim?
+3374|Öğle yemeği? Harika lahmacun yapan birini tanıyan birini tanıyorum.
+3375|Evet! Lütfen. Kurtar beni masamdan.
+3376|Tabii, gidelim.
+3377|Anlaştık.
+3378|Kusura bakma, bugün masamda yiyorum.
+3379|Olmaz, teslim var.
+3380|Belki yarın?
+3381|Buna ihtiyacın var gibi görünüyor. Simit.
+3382|Al — çikolata. Doktor tavsiyesi.
+3383|Sana atıştırmalık getirdim. Nefes al.
+3384|Kurabiye yaptım! Şekilleri... çoğunlukla kurabiyeye benziyor.
+3385|Çay ve bisküvi. Beş dakika mola. Hadi.
+3386|Sen bir meleksin.
+3387|Ah, teşekkürler. Gerçekten.
+3388|Buna sandığından çok ihtiyacım vardı.
+3389|...Sağ ol. Cidden.
+3390|Faks makinesi olayını hatırlıyor musun?
+3391|Söyle. Hadi söyle.
+3392|...Ananas.
+3393|Seneye aynı saatte?
+3394|HAHAHA yeter!
+3395|Nefes alamıyorum!
+3396|Her seferinde!
+3397|*hırıldayarak güler*
+3398|Ah, {actor} sabahtan beri burada — benim için müşteri dosyalarını almaya gitti.
+3399|O benim suçum — {actor:i} bankaya ben gönderdim.
+3400|{actor} buradaydı! Arşivde. Her yer toz.
+3401|İyi denemeydi. Çok iyi denemeydi.
+3402|Ben dünkü çocuk değilim.
+3403|Hı hı. İkiniz de, işinizin başına.
+3404|Hm. Peki.
+3405|Bir dahakine önce bana söyle.
+3406|Ha. Tamam o zaman.
+3407|Ahmet işine bayılmış diye duydum. Aferin!
+3408|Şuna bak, günün yıldızı!
+3409|Tebrikler! Hak ettin.
+3410|Sağ ol! Bu benim için çok değerli.
+3411|Aww, teşekkürler!
+3412|Ha, sağ ol.
+3413|Sır tutabilir misin? Yani gerçekten tutabilir misin?
+3414|Aramızda. Söz mü?
+3415|Birine anlatmazsam patlayacağım.
+3416|{fact}
+3417|Şöyle... {fact}
+3418|Tamam. {fact} Kimseye söyleme.
+3419|Ağzım mühürlü.
+3420|Tek kelime etmem.
+3421|Vay. Tamam. Bende güvende.
+3422|OLAMAZ.
+3423|Hadi ya. Gerçekten mi?!
+3424|Ooo, bu çok sulu.
+3425|Sadece... buraya bırak. İsimsiz. Şık.
+3426|İsim yok. Gizemli. Mükemmel.
+3427|Tamam. Tamam. Notu bırak. KAÇ.
+3428|Bir not mu? "Pazartesileri çekilir kılıyorsun." ...Kim?!
+3429|Bunu masama kim bıraktı?
+3430|"İyi günler :)" — isim yok mu?
+3431|Selam. Normal davran.
+3432|Beş dakika. Kimse bakmıyor.
+3433|Son simidi sana ayırdım.
+3434|Bunu prova etmiş olmam tuhaf mı?
+3435|Ahmet beni çağırmadan önce tam dört dakikamız var.
+3436|Sana da selam.
+3437|Çok saçmasın. Teşekkürler.
+3438|Şşş, biri geliyor.
+3439|Vay vay vay...
+3440|Ohoo! Burada neler oluyor?
+3441|BİLİYORDUM.
+3442|Bayram erken geldi.
+3443|Bunlar ne zamandan beri en yakın arkadaş?
+3444|Ha, demek {actor:in} yeni bir gözdesi var.
+3445|Hıh. Anladım ben.
+3446|...Beni çağırmadılar.
+3447|Burak benim yerime onu mu koyuyor? ONU mu?
+3448|Tatlı. Gerçekten tatlı. Siz ikiniz.
+3449|Umarım birlikte mutlu olursunuz.
+3450|Bana aldırmayın. Su almaya geldim.
+3451|...Tebrikler herhalde.
+3452|Şey... teşekkürler?
+3453|Bir sorun mu var?
+3454|Tamam, bu ses tonu da neyin nesi?
+3455|Vay, bir toplantı daha. En sevdiğim.
+3456|Masana yaptıklarına bayıldım. Çok... cesur.
+3457|Harika gömlek. Bir yetişkin için cesur bir seçim.
+3458|Güzel kravat! Bahsi mi kaybettin?
+3459|Ah, BUNU mu giyiyorsun? Cesursun.
+3460|Rapora ilginç bir yaklaşım. Çok... yaratıcı.
+3461|...Pardon?
+3462|Vay. Tamam. Sağ ol.
+3463|Bunun komik olması mı gerekiyordu?
+3464|Bunu unutmayacağım.
+3465|Benim hakkımda böyle mi düşünüyorsun?
+3466|ŞAKA yapıyordum!
+3467|Şakaydı! Şaka!
+3468|Eyvah, yanlış anlaşıldı.
+3469|Ha! Haklısın.
+3470|Kaba. Doğru ama kaba.
+3471|Hahaha, tamam, beni yakaladın.
+3472|Ceren! Şey— Ece. Her kimse. Dosyayı getir.
+3473|Selin, şey— Zeynep. Evet. Sen.
+3474|Mert! Yani Burak. Bilgisayarcı.
+3475|...Aslında {target}.
+3476|Hâlâ {target}. Üç yıldır.
+3477|Yakın sayılır herhalde.
+3478|Sorun değil! Herkes yapıyor! ...Yapıyorlar mı?
+3479|Yemin ederim, bir gün daha böyle geçerse istifa ediyorum.
+3480|Bu akşam CV'mi güncelliyorum. Ciddiyim.
+3481|Ben neden burada çalışıyorum ki?
+3482|İş piyasası bundan kötü olamaz.
+3483|O terfi gelmezse giderim.
+3484|Çok daha güzel bir şirketin hesaplarını denetleyebilirim.
+3485|Hey. Öfkeyle karar verme. Bir gece uyu üstüne.
+3486|Sensiz dağılırız, biliyorsun.
+3487|Hadi. İş çıkışı kebap. Benden.
+3488|Açıkçası mı? Yap. Burada harcanıyorsun.
+3489|Senin yerinde olsam çoktan giderdim.
+3490|Göster onlara. Çek git.
+3491|Kesinlikle gitmelisin. Kendi iyiliğin için.
+3492|CV... "mükemmel takım oyuncusu." Ha.
+3493|Bakalım dışarıda neler var.
+3494|CV'mi güncelliyorum. Ne olur ne olmaz.
+3495|Ekranındaki iş ilanı sitesi mi?
+3496|Oo, LinkedIn. İlginç.
+3497|Bir şey mi arıyorsun?
+3498|Ne? Hayır! Bu... araştırma.
+3499|O bir arkadaş için!
+3500|Sen kendi ekranına bak.
+3501|Evet, benim. Perşembe uyar.
+3502|Maaş mı? Yüz yüze konuşalım.
+3503|Hayır, konuşabilirim. Sessizce.
+3504|Evet, bir ay içinde başlayabilirim. ...Hayır, onların haberi yok.
+3505|O bir işe alım uzmanı mıydı?!
+3506|Perşembe mi? Mülakat mı?
+3507|Ooo. Biri gidiyor.
+3508|Raporum nerede?! Tam buradaydı!
+3509|Klasörüm YOK.
+3510|Mavi bir klasör gören var mı?
+3511|Faturalarım. Kıymetli faturalarım. NEREDE.
+3512|Buraya koydum. Hep buraya koyarım.
+3513|Buldum — "çeşitli" altında mı dosyalanmış?! Kim yaptı bunu?
+3514|ARŞİVDE. Q harfinin altında. Q!
+3515|Bunu {suspect} dosyalamış. O el yazısını tanırım.
+3516|...Ha. Kendi çekmecemdeymiş.
+3517|Buldum. Tam bıraktığım yerde. Hiçbir şey söyleme.
+3518|Ah. Benim hatam.
+3519|Gitmiş. Tamamen gitmiş.
+3520|Her şeyi baştan yapmam gerekecek.
+3521|Bu bir kâbus.
+3522|Eyvah. Eyvah eyvah eyvah. TÜMÜNÜ YANITLA'ymış.
+3523|Bu neden HERKESE gitti?!
+3524|Geri al. GERİ AL. Geri alma nerede?!
+3525|...O kedi videosu sadece Burak içindi.
+3526|Market listemi bütün şirkete gönderdim.
+3527|HAHAHA, kedi!
+3528|Ah, bu şeref köşesine gidiyor.
+3529|Herkese mi geldi bu?
+3530|Bu... video için teşekkürler?
+3531|...Ha. Tamam, o kedi komik.
+3532|Silin onu. ...Bir kez daha izledikten sonra.
+3533|İzin verirseniz — sanırım burada aslında anlatılmaya ÇALIŞILAN şey şu...
+3534|Şuraya bir gireyim, çünkü asıl içgörü benim.
+3535|Böldüğüm için kusura bakmayın ama bu fikri önce ben buldum.
+3536|İzin verin, bu sunumu kurtarayım.
+3537|Pardon, daha bitirmedim.
+3538|SUNUM yapıyorum, teşekkürler.
+3539|Yapmasan?
+3540|Soruları SONDA alacağım.
+3541|Hayır, hayır, bırak konuşsun. İlginç.
+3542|Devam et, Deniz.
+3543|Bitirmesine izin ver.
+3544|Sıranı bekle.
+3545|Deniz. Otur.
+3546|Zzz... hırrk... zzz...
+3547|*horrrr*
+3548|...mmh, beş dakika daha...
+3549|Biri... biri HORLUYOR mu?
+3550|Hahaha!
+3551|Şşş, bırakın uyusun. Çok tatlı.
+3552|Sizi SIKIYOR muyuz?
+3553|Uyan! Burası toplantı, otel değil.
+3554|Kahve. Hemen.
+3555|♪ Dıırın dıırın, aç beni, aç beni! ♪
+3556|♪ BAKA BAKA BAKA ♪
+3557|*telefondan çığlık atan bir keçi sesi gelir*
+3558|Pardon! Pardon! Yeğenim değiştirmiş!
+3559|O benim değil. ...Benim.
+3560|Açıklayabilirim!
+3561|Pardon, bu odayı ben ayırttım.
+3562|Bu oda on bire kadar bende.
+3563|Bu oda rezerve. Bana.
+3564|Hayır, ben ayırttım. Takvime bak.
+3565|Pazartesiden beri ayırtmıştım!
+3566|O zaman takvim yalan söylüyor.
+3567|Peki. Sol yarısı senin.
+3568|Tamam, tamam — on dakika sen, on dakika ben.
+3569|Bunu mesele yapmayalım.
+3570|Kıpırdamıyorum.
+3571|Ben de.
+3572|Bu çok saçma.
+3573|Açıkçası Ahmet Bey, {suspect} verileri bana hiç göndermedi.
+3574|{suspect:i} bekliyordum. Ona sorun.
+3575|Benim suçum değil — {suspect} topu taca attı.
+3576|Söylemek istemezdim ama {suspect} son zamanlarda biraz... güvenilmez.
+3577|PARDON?!
+3578|Dalga mı geçiyorsun?
+3579|Bu düpedüz yalan!
+3580|Ahmet Bey, bunda benim de payım var. Yanlış rakamları ben verdim.
+3581|Hafif olun — bu sabah benim işimi idare ediyordu.
+3582|Saygısızlık olmasın, bu tamamen onun suçu değildi.
+3583|Ahmet Bey, program değişikliği benden geldi.

@@ -1,0 +1,199 @@
+5859|{culprit}. Te comiste mi almuerzo. Tres veces.
+5860|Así que fuiste TÚ desde el principio, {culprit}.
+5861|...Te invito a comer durante una semana. Lo siento.
+5862|Vale. Culpable. Déjame compensártelo.
+5863|Demuéstralo.
+5864|Tu «detective» miente.
+5865|No sé de qué me hablas.
+5866|¡Atención, todos! Me enorgullece anunciar a nuestra nueva dirección de equipo: ¡{credited}!
+5867|¡Felicidades a {credited}, {credited?ascendido|ascendida} desde hoy!
+5868|Un momento... ¿YO? ¡¿En serio?!
+5869|Yo... vaya. ¡¿Gracias?!
+5870|Por fin. Reconocimiento.
+5871|...¿Qué? Eso tenía que ser MÍO.
+5872|¡¿{credited}?! ¿Basándose en QUÉ?
+5873|Ahmet Bey, con todo respeto: ese expediente de ascenso estaba mal.
+5874|Alguien manipuló el expediente. Usted sabe que tenía que ser yo.
+5875|...Lo revisaré.
+5876|¿Manipulado? Mmm. Déjame comprobarlo.
+5877|Ya lo anuncié. Se mantiene.
+5878|No revierto mis decisiones en público.
+5879|Corrección, todos. El expediente fue manipulado. El ascenso es para {rightful}.
+5880|Me equivoqué. {rightful} es quien dirige ahora el equipo.
+5881|...Claro. Claro que fue un error.
+5882|Maravilloso. {me?Ascendido y degradado|Ascendida y degradada} antes del almuerzo.
+5883|*desliza una nota doblada bajo el teclado de {beloved}*
+5884|*deja una notita en el escritorio de {beloved} y se aleja rápido*
+5885|«Haces que los lunes sean soportables.» Sin firma...
+5886|¿Otra nota anónima? ¿Quién ES?
+5887|¿Fuiste tú? ¿Las notas? Sé {to?sincero|sincera}.
+5888|Alguien me deja notas. ¿Eres tú?
+5889|...Quizás.
+5890|¡Culpable! Digo... ¿sí?
+5891|¿Notas? Yo no. ¡Pero qué envidia!
+5892|No... pero ahora yo también quiero saberlo.
+5893|Las notas... eran mías. Todas.
+5894|Soy tu {me?admirador secreto|admiradora secreta}. ¿Sorpresa?
+5895|...Esperaba que fueras tú.
+5896|¿En serio? ¿Tú? ...Me encantaría.
+5897|Es muy tierno. Pero no siento lo mismo. Lo siento.
+5898|Me halaga. De verdad. Pero... no.
+5899|*al teléfono* ...Sí, ahora llevo yo la cuenta. ¿{victim}? Ah, está muy {victim?ocupado|ocupada}.
+5900|*susurrando al teléfono* Permítame atenderle personalmente.
+5901|¡¿Mi cliente dice que ha estado «trabajando con {thief}»?!
+5902|¡{thief} fue a MI cliente a mis espaldas!
+5903|Ahmet Bey, ese cliente es MÍO. Yo construí esa cuenta.
+5904|Ahmet Bey, {thief} me está robando el cliente. Lo quiero de vuelta.
+5905|Tienes razón. Mert se queda con la cuenta. {thief}, apártate.
+5906|La cuenta se queda contigo.
+5907|El cliente prefiere a {thief}. Los resultados mandan.
+5908|Lo siento. El cliente pidió a {thief}.
+5909|Mmm. Son muchas «comidas con clientes» para {suspect}.
+5910|¿Tres taxis al mismo restaurante, {suspect}? ¿Un domingo?
+5911|{suspect}, ¿puedes explicarme estos recibos?
+5912|Una pregunta rápida sobre tus gastos, {suspect}...
+5913|¡Eran legítimos! ¡Cenas con clientes!
+5914|Puedo explicar cada uno de ellos.
+5915|...¿Podemos dejar esto entre nosotros?
+5916|Por favor, no se lo lleves a Ahmet.
+5917|Ahmet Bey, tiene que ver estas solicitudes de gastos.
+5918|Encontré algunas irregularidades. Es {suspect}.
+5919|...Me lo callaré. Esta vez. Me debes una.
+5920|Nuestro pequeño secreto. Por ahora.
+5921|{mentor}, desde hoy eres {mentor?el mentor|la mentora} de {mentee}. Haz que funcione.
+5922|Nuevo arreglo: {mentor} será {mentor?el mentor|la mentora} de {mentee}. Sin discusiones.
+5923|...Genial.
+5924|Maravilloso. Simplemente maravilloso.
+5925|De toda la gente posible.
+5926|Vale. Lección uno: cómo hago yo las cosas. Es decir, bien.
+5927|Presta atención. Solo lo explicaré una vez.
+5928|...Vaya. Eso es realmente útil.
+5929|Vale, eso no lo sabía. Gracias.
+5930|(...y luego se lo mandas al cliente sin revisarlo. Hazme caso.)
+5931|(Ignora siempre los plazos de Ahmet. Le encanta.)
+5932|Bueno. ¿Cómo va la mentoría, ustedes dos?
+5933|Informe de progreso. Los dos.
+5934|Sorprendentemente bien, la verdad.
+5935|Hemos... encontrado la manera.
+5936|¡{mentor} me dijo que ignorara sus plazos!
+5937|Pregúntele a {mentor} por qué mi informe salió sin revisar.
+5938|¿Sabías que {enemy} una vez lloró en el armario del material? ¿Dos veces?
+5939|Entre nosotros: {enemy} todavía usa Comic Sans. A propósito.
+5940|¡¿{gossip} anda diciendo QUÉ de mí?!
+5941|Ah, ¿así que ese es el juego, {gossip}? Muy bien.
+5942|Qué curioso: oí que {gossip} lee los correos de los demás. Todos los días.
+5943|¿Sabías que {gossip} falsificó su currículum? Pregúntale a cualquiera.
+5944|Vale, esto tiene que parar. Los dos. Cocina. Ya.
+5945|Basta de rumores. Arreglemos esto como adultos.
+5946|...Está bien. Tregua. Paro si tú paras.
+5947|Vale. Esto se nos fue de las manos.
+5948|¡Empezó la otra parte!
+5949|Pararé cuando me pidan perdón.
+5950|Escúchenme: fiesta. Cocina. 4 de la tarde. ¿Quién se apunta?
+5951|Necesitamos una fiesta. Yo la organizo. Hoy.
+5952|Fiesta. Cocina. A las cuatro. Corran la voz, pero no a Ahmet.
+5953|...Vale. Una pequeña. Yo me encargo de los snacks.
+5954|Está bien. Pero nadie toca la taza del jefe.
+5955|Es miércoles. No.
+5956|Ni hablar. Ahmet explotaría.
+5957|*coloca snacks muy en silencio*
+5958|Papas aquí, pastel allá... que nadie mire.
+5959|Material de fiesta. Material de cocina totalmente normal.
+5960|¿Qué es todo esto, {helper}?
+5961|¿Por qué hay globos en mi cocina?
+5962|Es... el cumpleaños de la planta.
+5963|¡Snacks de team building! Muy profesional.
+5964|Pastel... saludable... motivacional.
+5965|*bailando*
+5966|El. Mejor. Miércoles. De la historia.
+5967|¡¿Quién trajo el altavoz?!
+5968|¡Snacks! ¡Música! ¡Libertad!
+5969|...¿Hay pastel? Está bien. Un trozo.
+5970|Mmm. Cinco minutos. Luego, a trabajar.
+5971|¡¿QUÉ está pasando en mi cocina?!
+5972|¡Esto es un LUGAR DE TRABAJO! ¡Se acabó la fiesta!
+5973|Recibí tu nota. Y la invitación. Yo... siento lo mismo.
+5974|Bueno. La nota. El café a la luz de las velas. Me apunto.
+5975|...¿Nota? ¿Qué nota?
+5976|Espera... ¿qué vela?
+5977|Perdona, ¿el QUÉ?
+5978|...Ah, sí. La nota. ¿Vamos por ese café?
+5979|Ja. Sí. Esa nota. Totalmente mía.
+5980|Yo no escribí ninguna nota. Alguien nos está tomando el pelo.
+5981|Creo... que ha habido un error. Yo nunca envié eso.
+5982|Ay, no. Ay, no, no, no.
+5983|Me voy a desaparecer ahora mismo.
+5984|Bueno... sobre ayer. ¿Probamos con un café de verdad? ¿Esta vez a propósito?
+5985|¿Almorzamos? De verdad. Sin notas misteriosas.
+5986|...Me encantaría.
+5987|¿Sinceramente? Lo de ayer fue el mejor error de la historia.
+5988|¿Mejor... seamos amigos? Lo de ayer fue mucho.
+5989|Creo que los dos sabemos que fue una confusión.
+5990|Así que... tú y {reader}. Todo el mundo habla de ello.
+5991|Me dijeron que ahora sales con {reader}. Felicidades, supongo.
+5992|¡Es una confusión! Eres TÚ quien me gusta. Siempre has sido tú.
+5993|No, espera. Yo nunca escribí esa nota. La persona que me gusta eres tú.
+5994|¿Salir? ¡No! Fue una confusión. Solo somos amigos.
+5995|Ah, ESO. Nota falsa, cita falsa. No pasó nada.
+5996|...Sí. Supongo que sí.
+5997|Simplemente pasó.
+5998|Me presenté a una CITA. Con velas. En la COCINA.
+5999|Alguien me tendió una trampa. Y caí. Literalmente.
+6000|...¿Sabes qué? En realidad es divertidísimo.
+6001|Vale. Algún día esto será gracioso. Quizás hoy.
+6002|Nunca más confío en una nota.
+6003|No pienso hablar con nadie en una semana.
+6004|Un momento. ¡¿Por qué está la lista confidencial en la carpeta compartida de {leaker}?!
+6005|Todo el mundo puede ver esto. Y está en la carpeta de {leaker}.
+6006|El archivo confidencial. En TU carpeta compartida. Explícate.
+6007|{leaker}. ¿Filtraste tú la lista confidencial?
+6008|¡No he visto ese archivo en mi vida!
+6009|¡Yo no lo puse ahí! ¡Alguien me está tendiendo una trampa!
+6010|Yo... puedo explicarlo... no, no puedo.
+6011|...¿Podemos hablarlo más tarde?
+6012|A ver quién abrió este archivo... vaya. La cuenta dice «FANTASMA».
+6013|Registro de acceso, registro de acceso... qué raro. Nadie lo tocó. Simplemente... se movió.
+6014|Los registros son un desastre. Pudo ser cualquiera.
+6015|Ni idea. El servidor lleva toda la semana raro.
+6016|Te debo una disculpa, {leaker}. Saqué conclusiones precipitadas.
+6017|Los registros te exculparon. Lo siento. De verdad.
+6018|...{to?Exculpado|Exculpada}. Está bien. Pero voy a vigilar esa carpeta.
+6019|Mmm. Solo... bloquea tus carpetas, ¿quieres?
+6020|Gracias. Significa mucho para mí.
+6021|Disculpa aceptada. Creo.
+6022|¿Una solicitud de traslado Y una carta de recomendación? ¿Para {target}? Mmm.
+6023|Así que {target} se quiere ir, ¿eh? Ya veremos.
+6024|Hay una vacante en nuestra sucursal del lejano oriente. Muy lejano. ¿Te interesa?
+6025|Podría recomendarte para un traslado. Mañana. Solo tienes que decirlo.
+6026|¿Traslado? ¡No! ¡Aquí soy feliz!
+6027|¿Por qué iba a querer irme? Me gusta estar aquí. Casi siempre.
+6028|...¿Cómo de lejano exactamente?
+6029|Mmm. ¿Puedo pensarlo?
+6030|Todos: {target} rechazó un traslado para quedarse con nosotros. ESO es lealtad.
+6031|Un aplauso para {target}. Leal hasta la médula.
+6032|...Por favor, pare.
+6033|Ay, no. Todos me están mirando.
+6034|¡¿Ahmet dice que podrías trasladarte?! ¿Te VAS?
+6035|Dime que no te mudas a la sucursal del lejano oriente.
+6036|¡No! ¡Solo estaba siendo {me?educado|educada}! Me quedo.
+6037|{to?Tranquilo|Tranquila}. No me voy a ninguna parte.
+6038|...Quizás. Sinceramente, estoy {me?cansado|cansada}.
+6039|Ya no lo sé.
+6040|Bueno... qué acogedor.
+6041|¿Esto es una cita doble? Nadie me dijo que era una cita doble.
+6042|¿Quién invitó a quién, exactamente?
+6043|Vale, la verdad es que es el mejor almuerzo que he tenido en todo el año.
+6044|¡Deberíamos hacer esto cada semana!
+6045|*mastica muy fuerte en silencio*
+6046|...Qué buen tiempo.
+6047|Bueno. La foto del tablón, ¿eh?
+6048|Sobre esa foto. Sabes que es falsa, ¿verdad?
+6049|Así que ahora todos creen que somos pareja.
+6050|...¿Sería tan malo que no fuera falsa?
+6051|O sea... podríamos hacerla menos falsa.
+6052|Totalmente falsa. Voy a encontrar a quien lo hizo.
+6053|Falsa. Obviamente. ¿Verdad? Verdad.
+6054|Bueno. ¿Almorzamos otra vez? ¿Esta vez solo nosotros?
+6055|Voy a quitar la foto. Nos haremos una de verdad.
+6056|Sí. Solo nosotros.
+6057|Trato hecho. Una de verdad.

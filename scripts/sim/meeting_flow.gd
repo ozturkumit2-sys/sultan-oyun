@@ -327,9 +327,9 @@ static func announce(w, n: NPC) -> void:
 	var wn: NPC = w.npc(winner)
 	if kind == "promotion":
 		wn.promoted = true
-		wn.title_override = w.T("title.team_lead")
+		wn.title_override = "title.team_lead"
 	else:
-		wn.title_override = w.T("title.employee_week")
+		wn.title_override = "title.employee_week"
 	w.hold(w.present_ids(), 5.0)
 	w.events.fire("promotion", {"actor": n.id, "winner": winner, "loser": runner, "rigged": rigged, "kind": kind, "honest": honest_winner})
 	if rigged:

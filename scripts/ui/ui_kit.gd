@@ -35,15 +35,46 @@ static func font(kind: String) -> Font:
 	if _fonts.has(kind):
 		return _fonts[kind]
 	var path := ""
+	var fb: Array = []
 	match kind:
-		"marker": path = "res://assets/fonts/PermanentMarker-Regular.ttf"
-		"hand": path = "res://assets/fonts/PatrickHand-Regular.ttf"
-		"type": path = "res://assets/fonts/SpecialElite-Regular.ttf"
-		"slab": path = "res://assets/fonts/AlfaSlabOne-Regular.ttf"
-		_: path = "res://assets/fonts/PatrickHand-Regular.ttf"
+		"marker":
+			path = "res://assets/fonts/PermanentMarker-Regular.ttf"
+			fb = ["Kalam-Bold.ttf", "zh_display.ttf", "zh_body.ttf"]
+		"hand":
+			path = "res://assets/fonts/PatrickHand-Regular.ttf"
+			fb = ["Kalam-Regular.ttf", "zh_body.ttf"]
+		"type":
+			path = "res://assets/fonts/SpecialElite-Regular.ttf"
+			fb = ["Kalam-Regular.ttf", "zh_body.ttf"]
+		"slab":
+			path = "res://assets/fonts/AlfaSlabOne-Regular.ttf"
+			fb = ["YatraOne-Regular.ttf", "zh_display.ttf", "zh_body.ttf"]
+		_:
+			path = "res://assets/fonts/PatrickHand-Regular.ttf"
+			fb = ["Kalam-Regular.ttf", "zh_body.ttf"]
 	var f: Font = load(path)
+	# Devanagari and Chinese glyphs come from fallback fonts (the hand-drawn Latin
+	# fonts have none); each fallback is shared between kinds.
+	var chain: Array[Font] = []
+	for fn in fb:
+		var fp: String = "res://assets/fonts/" + fn
+		if not _fonts.has(fp):
+			_fonts[fp] = load(fp) if ResourceLoader.exists(fp) else null
+		if _fonts[fp] != null:
+			chain.append(_fonts[fp])
+	if f is FontFile and not chain.is_empty():
+		(f as FontFile).fallbacks = chain
 	_fonts[kind] = f
 	return f
+
+
+## Largest font size (down to min_k of the wanted one) at which text fits the width.
+static func fit_size(f: Font, text: String, width: float, wanted: int, min_k := 0.6) -> int:
+	var sz := wanted
+	var lo := maxi(8, int(wanted * min_k))
+	while sz > lo and f.get_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, -1, sz).x > width:
+		sz -= 1
+	return sz
 
 
 static func sticky(name: String) -> Color:

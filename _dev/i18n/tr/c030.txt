@@ -1,0 +1,199 @@
+5859|{culprit}. Öğle yemeğimi sen yedin. Üç kez.
+5860|Demek baştan beri SENDİN, {culprit}.
+5861|...Bir hafta boyunca öğle yemeğin benden. Özür dilerim.
+5862|Tamam. Suçluyum. Gönlünü almama izin ver.
+5863|Kanıtla.
+5864|Senin 'dedektifin' yalan söylüyor.
+5865|Neden bahsettiğini bilmiyorum.
+5866|Millet! Yeni ekip liderimizi duyurmaktan gurur duyuyorum: {credited}!
+5867|{credited:e} tebrikler — bugünden itibaren terfi etti!
+5868|Bir dakika — BEN mi? Gerçekten mi?!
+5869|Ben... vay. Teşekkürler?!
+5870|Nihayet. Takdir.
+5871|...Ne? O BENİM olacaktı.
+5872|{credited} mı?! NEYE dayanarak?
+5873|Ahmet Bey, saygısızlık etmek istemem ama — o terfi dosyası yanlıştı.
+5874|Biri dosyayı kurcalamış. O terfinin bana çıkacağını biliyorsunuz.
+5875|...Bakacağım.
+5876|Kurcalanmış mı? Hım. Kontrol edeyim.
+5877|Duyurdum. Geçerlidir.
+5878|Kararlarımı herkesin önünde geri almam.
+5879|Herkes, bir düzeltme. Dosya kurcalanmış. Terfi {rightful:e} gidiyor.
+5880|Hata yaptım. Yeni ekip liderimiz {rightful}.
+5881|...Tabii. Tabii ki bir hataymış.
+5882|Harika. Öğle yemeğinden önce terfi ve tenzil.
+5883|*{beloved:in} klavyesinin altına katlanmış bir not kaydırır*
+5884|*{beloved:in} masasına küçük bir not bırakıp hızla uzaklaşır*
+5885|'Pazartesileri çekilir kılıyorsun.' İmza yok...
+5886|Yine mi imzasız not? Bu KİM?
+5887|Sen miydin? Notlar? Dürüst ol.
+5888|Biri bana not bırakıyor. Sen misin?
+5889|...Belki.
+5890|Suçluyum! Yani... evet?
+5891|Not mu? Ben değil. Ama kıskandım!
+5892|Hayır... ama artık ben de merak ettim.
+5893|Notlar... bendim. Hepsi.
+5894|Gizli hayranın benim. Sürpriz?
+5895|...Senin olmanı umuyordum.
+5896|Gerçekten mi? Sen mi? ...Bu hoşuma giderdi.
+5897|Bu çok tatlı. Ama ben aynı şeyleri hissetmiyorum. Üzgünüm.
+5898|Gururum okşandı. Gerçekten. Ama... hayır.
+5899|*telefonda* ...Evet, hesapla artık ben ilgileniyorum. {victim} mi? Ah, çok meşgul.
+5900|*telefona fısıldayarak* Sizinle bizzat ben ilgileneyim.
+5901|Müşterim '{thief} ile çalıştığını' söylüyor?!
+5902|{thief} arkamdan BENİM müşterime gitmiş!
+5903|Ahmet Bey, o müşteri BENİM. O hesabı ben kurdum.
+5904|Ahmet Bey, {thief} müşterimi kapıyor. Geri istiyorum.
+5905|Haklısın. Hesap Mert'te kalıyor. {thief}, çekil.
+5906|Hesap sende kalıyor.
+5907|Müşteri {thief:i} tercih ediyor. Sonuç sonuçtur.
+5908|Kusura bakma. Müşteri {thief:i} istedi.
+5909|Hım. {suspect} için bayağı fazla 'müşteri yemeği' var.
+5910|Aynı restorana üç taksi mi, {suspect}? Pazar günü mü?
+5911|{suspect}, bu fişleri açıklayabilir misin?
+5912|Masrafların hakkında küçük bir soru, {suspect}...
+5913|Onlar usulüne uygundu! Müşteri yemekleri!
+5914|Her birini tek tek açıklayabilirim.
+5915|...Bu aramızda kalabilir mi?
+5916|Lütfen bunu Ahmet'e götürme.
+5917|Ahmet Bey, bu masraf beyanlarını görmeniz lazım.
+5918|Bazı usulsüzlükler buldum. {suspect}.
+5919|...Bu sefer sessiz kalacağım. Bana borçlusun.
+5920|Küçük sırrımız. Şimdilik.
+5921|{mentor}, bugünden itibaren {mentee:e} mentorluk yapıyorsun. Yürüt bu işi.
+5922|Yeni düzen: {mentor}, {mentee:e} mentorluk yapacak. Tartışma yok.
+5923|...Harika.
+5924|Şahane. Gerçekten şahane.
+5925|Herkes dururken.
+5926|Tamam. Birinci ders: ben işleri nasıl yaparım. Yani doğru şekilde.
+5927|Dikkatle dinle. Bunu sadece bir kez anlatacağım.
+5928|...Hıh. Bu aslında çok işe yarar.
+5929|Tamam, bunu bilmiyordum. Sağ ol.
+5930|(...sonra da kontrol etmeden müşteriye gönderirsin. Güven bana.)
+5931|(Ahmet'in teslim tarihlerini hep görmezden gel. Buna bayılır.)
+5932|Eee. Mentorluk nasıl gidiyor, ikiniz?
+5933|Durum raporu. İkiniz de.
+5934|Aslında şaşırtıcı derecede iyi.
+5935|Biz... yolunu bulduk.
+5936|{mentor} bana teslim tarihlerinizi görmezden gelmemi söyledi!
+5937|Raporumun neden kontrol edilmeden gittiğini {mentor:e} sorun.
+5938|{enemy:in} bir keresinde kırtasiye dolabında ağladığını biliyor muydun? İki kere?
+5939|Aramızda: {enemy} hâlâ Comic Sans kullanıyor. Bilerek.
+5940|{gossip} benim hakkımda NE diyormuş?
+5941|Ah, demek oyun bu, {gossip}? Peki.
+5942|Komik — duydum ki {gossip} başkalarının e-postalarını okuyormuş. Her gün.
+5943|{gossip:in} CV'sini uydurduğunu biliyor musun? Kime sorsan.
+5944|Tamam, bu durmalı. İkiniz de. Mutfak. Hemen.
+5945|Dedikodular yeter. Bunu yetişkin gibi çözelim.
+5946|...Peki. Ateşkes. Sen bırakırsan ben de bırakırım.
+5947|Tamam. İş çığırından çıktı.
+5948|O başlattı!
+5949|Özür dilediğinde bırakırım.
+5950|Bir dinleyin: parti. Mutfak. Saat 4. Kim var?
+5951|Bir partiye ihtiyacımız var. Ben düzenliyorum. Bugün.
+5952|Parti. Mutfak. Saat dört. Yayın, ama Ahmet'e değil.
+5953|...Tamam. Küçük bir tane. Atıştırmalıklar bende.
+5954|Peki. Ama kimse patronun kupasına dokunmayacak.
+5955|Bugün çarşamba. Hayır.
+5956|Kesinlikle olmaz. Ahmet patlar.
+5957|*atıştırmalıkları çok sessizce dizer*
+5958|Cipsler buraya, pasta oraya... kimse bakmasın.
+5959|Parti malzemeleri. Tamamen normal mutfak malzemeleri.
+5960|Bunlar ne, {helper}?
+5961|Mutfağımda neden balonlar var?
+5962|Bugün... bitkinin doğum günü.
+5963|Ekip ruhu atıştırmalıkları! Çok profesyonel.
+5964|Sağlıklı... motive edici... pasta.
+5965|*dans eder*
+5966|Gelmiş. Geçmiş. En iyi çarşamba.
+5967|Hoparlörü kim getirdi?!
+5968|Atıştırmalık! Müzik! Özgürlük!
+5969|...Pasta var mı? Peki. Bir dilim.
+5970|Hım. Beş dakika. Sonra işinizin başına.
+5971|Mutfağımda NELER oluyor?!
+5972|Burası İŞ YERİ! Parti bitti!
+5973|Notunu aldım. Bir de daveti. Ben de... aynı şeyleri hissediyorum.
+5974|Eee. Not. Mum ışığında kahve. Ben varım.
+5975|...Not mu? Ne notu?
+5976|Bir dakika — ne mumu?
+5977|Pardon, NE?
+5978|...Doğru. Evet. Not. O kahveyi içelim mi?
+5979|Ha. Evet. O not. Tamamen ben.
+5980|Ben hiçbir not yazmadım. Biri bizimle oynuyor.
+5981|Ben... sanırım bir yanlışlık var. Ben onu hiç göndermedim.
+5982|Eyvah. Eyvah eyvah eyvah.
+5983|Ben gidip yok olayım şimdi.
+5984|Eee... dün için. Gerçek bir kahve denemeye ne dersin? Bu sefer bilerek?
+5985|Öğle yemeği? Gerçek bir tane. Gizemli not yok.
+5986|...Bunu gerçekten çok isterim.
+5987|Açıkçası mı? Dün gelmiş geçmiş en güzel hataydı.
+5988|Şöyle... arkadaş kalalım mı? Dün biraz fazlaydı.
+5989|Bence ikimiz de bunun bir karışıklık olduğunu biliyoruz.
+5990|Eee. Sen ve {reader}. Herkes bunu konuşuyor.
+5991|{reader} ile çıktığını duydum. Tebrikler, herhalde.
+5992|Bir karışıklık bu! Benim hoşlandığım SENSİN. Hep sendin.
+5993|Hayır — dur. O notu ben hiç yazmadım. Hoşlandığım kişi sensin.
+5994|Çıkmak mı? Hayır! Bir karışıklıktı. Sadece arkadaşız.
+5995|Ah, ŞU mesele. Sahte not, sahte randevu. Hiçbir şey olmadı.
+5996|...Evet. Galiba öyle.
+5997|Kendiliğinden oldu işte.
+5998|Bir RANDEVUYA geldim. Mumlarla. MUTFAKTA.
+5999|Biri bana tuzak kurdu. Ben de düştüm. Resmen.
+6000|...Biliyor musun? Aslında çok komik.
+6001|Tamam. Bir gün buna güleceğiz. Belki bugün.
+6002|Bir daha asla bir nota güvenmem.
+6003|Bir hafta kimseyle konuşmuyorum.
+6004|Bir dakika. Gizli liste neden {leaker:in} paylaşılan klasöründe?!
+6005|Bunu herkes görebiliyor. Hem de {leaker:in} klasöründe.
+6006|Gizli dosya. SENİN paylaşılan klasöründe. Açıkla.
+6007|{leaker}. Gizli listeyi sen mi sızdırdın?
+6008|O dosyayı hayatımda görmedim!
+6009|Oraya ben koymadım! Biri bana tuzak kuruyor!
+6010|Ben— açıklayabilirim— hayır, açıklayamam.
+6011|...Bunu sonra konuşabilir miyiz?
+6012|Bakalım bu dosyayı kim açmış... hıh. Hesap adı 'HAYALET' yazıyor.
+6013|Erişim kaydı, erişim kaydı... tuhaf. Kimse dokunmamış. Öylece... yer değiştirmiş.
+6014|Kayıtlar karmakarışık. Herkes olabilir.
+6015|Hiçbir fikrim yok. Sunucu bütün hafta tuhaf davranıyor.
+6016|Senden özür dilemem lazım, {leaker}. Aceleyle hüküm verdim.
+6017|Kayıtlar seni akladı. Özür dilerim. Gerçekten.
+6018|...Aklandın. Peki. Ama o klasörü gözlüyorum.
+6019|Hım. Sadece... klasörlerini kilitle, olur mu?
+6020|Teşekkürler. Bu benim için çok şey ifade ediyor.
+6021|Özür kabul edildi. Sanırım.
+6022|Bir tayin talebi VE bir referans mektubu mu? {target} için mi? Hımm.
+6023|Demek {target} gitmek istiyor, öyle mi? Göreceğiz.
+6024|Uzak doğudaki şubemizde bir pozisyon açıldı. Çok uzak. İlgilenir misin?
+6025|Seni tayin için önerebilirim. Yarın. Bir söylemen yeter.
+6026|Tayin mi? Hayır! Burada mutluyum!
+6027|Neden ayrılmak isteyeyim? Burayı seviyorum. Çoğunlukla.
+6028|...Tam olarak ne kadar doğu?
+6029|Hım. Biraz düşünebilir miyim?
+6030|Millet: {target} bizimle kalmak için bir tayini reddetti. İŞTE sadakat budur.
+6031|{target} için bir alkış. İliklerine kadar sadık.
+6032|...Lütfen durun.
+6033|Eyvah. Herkes bana bakıyor.
+6034|Ahmet tayin olabileceğini söylüyor?! GİDİYOR musun?
+6035|Uzak doğu şubesine taşınmadığını söyle.
+6036|Hayır! Sadece kibarlık ediyordum! Kalıyorum.
+6037|Rahat ol. Hiçbir yere gitmiyorum.
+6038|...Belki. Açıkçası yoruldum.
+6039|Artık bilmiyorum.
+6040|Eee... ne kadar samimi.
+6041|Bu çifte randevu mu? Kimse bana bunun çifte randevu olduğunu söylemedi.
+6042|Tam olarak kim kimi davet etti?
+6043|Tamam, bu aslında bu yıl yediğim en güzel öğle yemeği.
+6044|Bunu her hafta yapmalıyız!
+6045|*sessizlik içinde çok gürültülü çiğner*
+6046|...Hava güzel.
+6047|Eee. Panodaki fotoğraf, ha.
+6048|O fotoğraf hakkında. Sahte olduğunu biliyorsun, değil mi?
+6049|Artık herkes bizi çift sanıyor.
+6050|...Sahte olmasaydı o kadar kötü mü olurdu?
+6051|Yani... onu biraz daha az sahte yapabiliriz.
+6052|Tamamen sahte. Bunu yapanı bulacağım.
+6053|Sahte. Tabii ki. Değil mi? Değil mi.
+6054|Eee. Yine öğle yemeği? Bu sefer sadece ikimiz?
+6055|Fotoğrafı indiriyorum. Gerçek bir tane çekeriz.
+6056|Evet. Sadece ikimiz.
+6057|Anlaştık. Gerçek bir tane.

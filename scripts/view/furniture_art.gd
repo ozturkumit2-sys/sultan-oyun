@@ -187,7 +187,7 @@ static func _reception(ci: CanvasItem, f: Dictionary, off: Vector2, w) -> void:
 	var org := Iso.P(x + 1.04, y + 1.85, 34) + off
 	ci.draw_set_transform_matrix(Transform2D(tf.x, tf.y, org))
 	var font: Font = UiKit.font("slab")
-	ci.draw_string(font, Vector2(10, 18), "RECEPTION", HORIZONTAL_ALIGNMENT_LEFT, -1, 11, Color("2b2d42"))
+	ci.draw_string(font, Vector2(10, 18), Loc.t("wall.reception"), HORIZONTAL_ALIGNMENT_LEFT, -1, 11, Color("2b2d42"))
 	ci.draw_set_transform_matrix(Transform2D())
 	# monitor + bell + plant
 	Iso.cbox(ci, off, x + 0.42, y + 0.42, 0.12, 0.18, 9, 34, Color("8a90a0"))
@@ -496,7 +496,7 @@ static func _coffee_counter(ci: CanvasItem, off: Vector2, x: float, y: float, w)
 		var sp := Iso.P(x + 0.72, y + 0.25, 50) + off
 		Iso.poly(ci, PackedVector2Array([sp + Vector2(-9, -9), sp + Vector2(9, -1), sp + Vector2(9, 11), sp + Vector2(-9, 3)]), Color("fff07a"))
 		ci.draw_set_transform(sp + Vector2(-7, 1), 0.42, Vector2(1, 1))
-		ci.draw_string(UiKit.font("marker"), Vector2(0, 0), "OUT", HORIZONTAL_ALIGNMENT_LEFT, -1, 7, Color("e63946"))
+		ci.draw_string(UiKit.font("marker"), Vector2(0, 0), Loc.t("wall.out"), HORIZONTAL_ALIGNMENT_LEFT, -1, 7, Color("e63946"))
 		ci.draw_set_transform(Vector2.ZERO, 0, Vector2.ONE)
 	# mugs on the counter
 	_cyl(ci, off, x + 0.2, y + 0.9, 0.05, 6, 34, Color("9cc5f0"))

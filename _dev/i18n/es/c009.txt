@@ -1,0 +1,102 @@
+1686|Confrontaron a {actor} con la solicitud y el informe… y renunció en el acto. Ha empezado una crisis de renuncias.
+1687|Ahmet encontró la solicitud de empleo de {applicant} grapada a un informe de desempeño terrible. Llamó a {applicant} a su despacho de inmediato.
+1688|La versión VIEJA de las cifras de {owner} le llegó al cliente, con Ahmet en copia. El cliente ya está marcando.
+1689|{ear} juntó el memo filtrado de Ahmet con el orden del día de hoy y sacó una conclusión: vienen despidos. Hoy.
+1690|Con Ahmet en el «golf» y el tablero nombrando a {usurper} para presidir, {usurper} se ha autoproclamado gerente en funciones.
+1691|Las luces parpadearon al ritmo de una sirena de virus. {believer} ya ha visto suficiente: la oficina está embrujada.
+1692|{leader} vio la nómina filtrada justo al lado de «Presupuesto para aumentos este año: 0». {leader} está organizando una revuelta.
+1693|Luces de discoteca, música y una misteriosa bandeja de picoteo: {host} ha decidido que esto ya es una fiesta de oficina.
+1694|Ahmet encontró en su escritorio una solicitud de traslado y una carta de recomendación para {target}… juntas.
+1695|Alguien garabateó «CITA DOBLE — almuerzo» en la foto de pareja de {a} y {b}. Al parecer {c} y {d} también están invitados.
+1696|El fantasma hizo que {crush} le devolviera la llamada a {owner}. El teléfono de {owner} sigue en altavoz.
+1697|Según el tablero, ahora {presenter} presenta al cliente… con el proyector que no funciona.
+1698|El fantasma también atascó la salida de emergencia. Con la alarma sonando, toda la oficina se quedó atrapada en recepción.
+1699|Apareció una segunda nota en la nevera vacía: «Lo tiré todo yo. Etiqueten su comida. — {signer}». {victim} fue quien la vio primero.
+1700|{organiser} vio la respuesta automática de «Renuncio» de {owner} y la carta de renuncia. {organiser} está convencid{organiser?o|a} de que {owner} se va.
+1701|El fantasma copió el documento confidencial en la carpeta compartida de {leaker}. Cualquiera puede verlo… y ver de quién es la carpeta.
+1702|{rebel} salió de la evaluación sorpresa convencid{rebel?o|a} de que Ahmet la amañó. Ha empezado la guerra abierta con el jefe.
+1703|{enemy} notó que la queja anónima tiene la misma letra que los rumores de {gossip}. Se avecina una guerra de rumores.
+1704|Tras una nota bonita y un elogio anónimo, {owner} está convencid{owner?o|a} de tener un admirador secreto. (Lo tiene: {admirer}.)
+1705|Una carta de amor de {writer} para {crush} se atascó en la fotocopiadora. {actor} la leyó en voz alta.
+1706|Una carta de amor de {writer} para {crush} se atascó en la fotocopiadora. {actor} la devolvió en silencio.
+1707|{spotter} vio a {actor}, {actor?su mejor amigo|su mejor amiga}, riéndose con {target} y se sintió {spotter?excluido|excluida}.
+1708|{actor} tiene celos de {target}.
+1709|Dos compañeros con demasiado café, {actor} y {target}, se saltaron al cuello por nada.
+1710|Ahmet y Burak chocaron por la búsqueda de empleo.
+1711|{actor} pasó junto al escritorio de {owner} y vio ofertas de empleo abiertas en la pantalla.
+1712|Zeynep encontró una máquina de karaoke en la rendición de gastos de {target}. {target} no la había visto nunca. Zeynep no está convencida.
+1713|Zeynep encontró una máquina de karaoke en la rendición de gastos de {target}. {target} la defendió como «team building».
+1714|{actor} derramó té sobre todo su teclado.
+1715|{actor} le pegó a {target} un cartel de «PATÉAME» en la espalda. Media oficina lo ha visto.
+1716|{target} por fin encontró el cartel de su espalda.
+1717|{best} encontró una nota que había escrito {owner}: «{best} es la única razón por la que vengo a trabajar». {best} se emocionó muchísimo.
+1718|{actor} leyó una nota tierna que {owner} escribió sobre {best}. Ahora toda la oficina se lo pregunta.
+1719|Karaoke de oficina: a {host} se le quebró la voz en la nota alta delante de todos. Esto se recordará.
+1720|{host} anunció karaoke en la cocina después del trabajo.
+1721|Pillaron a {shy} ensayando para el karaoke en el archivo. Resulta que {shy} canta de verdad.
+1722|Karaoke de oficina: {shy}, tan {shy?callado|callada}, se metió al público en el bolsillo. Ovación de pie en la cocina.
+1723|{actor} notó que las carpetas de {owner} ahora se llaman «MIS IDEAS TONTAS».
+1724|{actor} vio una carpeta en el escritorio de {owner} con la etiqueta «CARTAS DE AMOR».
+1725|{actor} vio una carpeta en el escritorio de {owner} con la etiqueta «PLANES SECRETOS». Sospechoso.
+1726|{actor} se llevó la última taza de café justo delante de {target}. La jugada más fría del día.
+1727|{actor} y {target} querían la última taza de café. La compartieron. Amistad +1.
+1728|Ahmet leyó el informe de {actor}: faltaba la última página, la de la conclusión. {actor} pareció no venir preparad{actor?o|a}.
+1729|{actor} se coló tarde en la reunión.
+1730|{actor} llegó tarde porque el tablero mostraba otra hora.
+1731|{actor} llegó tarde y Ahmet se dio cuenta.
+1732|{actor} llegó tarde a la reunión y se llevó una bronca.
+1733|La clasificación de ventas ahora muestra a {target} en primer lugar. Mert echa humo: esas ventas eran suyas.
+1734|{actor} volvió a encender las luces.
+1735|Las luces volvieron solas. Todo el mundo tiene escalofríos.
+1736|¡APAGÓN! Toda la oficina se quedó a oscuras.
+1737|Ahmet confrontó a {leaker} por la filtración. {leaker} juró que nunca había visto el archivo.
+1738|{finder} encontró el documento confidencial en la carpeta compartida de {leaker}. En minutos, Ahmet ya lo sabía.
+1739|{it} revisó los registros del servidor: nadie movió el archivo confidencial. {leaker} queda libre de culpa… y la oficina, un poco más asustada.
+1740|Ahmet admitió a regañadientes que {leaker} era inocente. Ni una disculpa de verdad.
+1741|Ahmet confrontó a {leaker} por la filtración. {leaker} entró en pánico, lo que pareció muy sospechoso.
+1742|Ahmet le pidió disculpas a {leaker} por la acusación de la filtración. Algo rarísimo. Hubo testigos.
+1743|{it} revisó los registros del servidor. Nada concluyente. {leaker} sigue bajo una nube de sospecha.
+1744|{detective} dejó en la nevera un «almuerzo cebo» extrapicante para atrapar al ladrón.
+1745|{culprit} se comió el almuerzo cebo de {detective} y tuvo que correr a por agua. El ladrón de almuerzos queda desenmascarado.
+1746|{detective} vigiló la nevera y pilló a {culprit} con las manos en la masa.
+1747|{victim} confrontó a {culprit} por los almuerzos robados. {culprit} lo negó todo.
+1748|{victim} contrató a {detective} para atrapar al ladrón de almuerzos.
+1749|Nadie tocó el almuerzo cebo de {detective}. El ladrón debió de olerse algo. Caso sin resolver.
+1750|{detective} vigiló la nevera durante todo el almuerzo. El ladrón no apareció.
+1751|{victim} está hart{victim?o|a} de los robos de almuerzos y abre una investigación.
+1752|{victim} confrontó a {culprit}, el ladrón de almuerzos. {culprit} confesó y pagará el almuerzo durante una semana.
+1753|{actor} se quedó sin acceso a su propia computadora. Trabajo hecho: cero.
+1754|{actor} restableció su propia contraseña, refunfuñando todo el rato.
+1755|Burak encontró algo interesante sobre Deniz en los registros del servidor.
+1756|Burak le enseñó a {target} lo que encontró sobre Deniz en los registros del servidor.
+1757|La nota de amor de {owner} para {crush} acabó en el escritorio de {target}. {target} cree que {owner} está {owner?enamorado|enamorada} de {target?él|ella}.
+1758|{organiser} recogió diez liras de cada uno para un boleto de lotería de la oficina.
+1759|Se corrió el rumor de que el boleto de la oficina había GANADO. {dreamer} ya se comporta como {dreamer?un millonario|una millonaria}.
+1760|{organiser} reveló el premio real: cuarenta liras. {dreamer} ya le había dicho a Ahmet exactamente lo que piensa de él.
+1761|{brave} le preguntó a Ahmet sin rodeos por los despidos. Ahmet no tenía ni idea de qué le hablaban.
+1762|Ahmet anunció que no hay despidos: solo había cancelado la suscripción del café. Todos saben quién empezó el pánico: {ear}.
+1763|{ear} oyó a Ahmet por teléfono: «Alguien tiene que irse antes del viernes». (Hablaba de la suscripción del café).
+1764|El rumor de despidos está por todas partes. La gente cuchichea, actualiza el CV y se mira de reojo. {brave} va a preguntarle a Ahmet directamente.
+1765|{ear} le dijo a {listener} en la cocina: vienen despidos. El miedo se extiende.
+1766|Ahmet encontró una solicitud de traslado y una carta de recomendación brillante para {target}… y decidió poner a prueba su lealtad.
+1767|Ahmet elogió en público la «lealtad» de {target}. {target} no tenía ni idea de que {target?lo|la} habían puesto a prueba.
+1768|Ahmet le ofreció a {target} un traslado lejísimos como prueba de lealtad. {target} lo rechazó en el acto. Ahmet pareció aliviado.
+1769|{friend} le rogó a {target} que no se trasladara. {target} prometió quedarse.
+1770|Ahmet le ofreció a {target} un traslado lejísimos como prueba. {target} dijo que lo pensaría. A Ahmet no le gustó nada.
+1771|{friend} le preguntó a {target} si se va. {target} no dijo que no. Ha empezado, en silencio, una búsqueda de empleo.
+1772|{rival} le dijo a {lover} que se alejara de {crush}. {lover} se hizo a un lado.
+1773|{lover} tuvo un gran gesto con {crush}… mientras {rival} miraba desde el otro lado de la sala.
+1774|{crush} eligió a {lover}. {rival} se lo tomó fatal.
+1775|{rival} le dijo a {lover} que se alejara de {crush}. {lover} se negó. Que empiece la guerra.
+1776|{crush} les dijo a {lover} y a {rival} que maduraran. No gana nadie.
+1777|{rival} notó que {lover} coquetea con {crush}. A {rival} también le gusta {crush}.
+1778|{crush} eligió a {rival} en vez de a {lover}. El triángulo es ahora una pareja y una persona muy triste.
+1779|{target} descubrió que alguien se comió su almuerzo… y sospecha de {suspect}. (Fue {actor}).
+1780|{target} descubrió que alguien se comió su almuerzo… y sospecha, con razón, de {actor}.
+1781|{actor} y {target} están almorzando juntos.
+1782|La invitación a almorzar de {owner} le llegó a {target} por error. Siguió un almuerzo largo y silencioso.
+1783|La invitación a almorzar de {owner} le llegó a {target} por error. Almorzaron igual… y conectaron de verdad.
+1784|{actor} encontró su almuerzo «robado» en otro estante de la nevera. Alguien fue acusado por nada.
+1785|Las tarjetas con nombres del almuerzo sentaron a {a} al lado de {b}. Terminó a gritos.
+1786|Las tarjetas con nombres del almuerzo sentaron a {a} al lado de {b}. De algún modo, entre sándwiches, hicieron las paces.
+1787|Ahmet encontró «Ahmet se equivoca en todo» en el margen del informe de {actor}. No se lo tomó nada bien.

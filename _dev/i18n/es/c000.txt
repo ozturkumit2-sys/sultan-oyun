@@ -1,0 +1,387 @@
+1|{age} años
+2|Empezar el día siguiente automáticamente
+3|Atrás
+4|Lo que ha oído
+5|TABLÓN DE CHISMES
+6|PERSONAL
+7|Lazos y planes
+8|Elige…
+9|Elige un idioma
+10|CONFIDENCIAL
+11|Cerrar
+12|Continuar
+13|Continuar · Día {day}
+14|Créditos
+15|OFFICE POLTERGEIST\nDiseño, código, arte y audio creados para este proyecto.\n\nFuentes:\nPermanent Marker — Font Diner (Licencia Apache 2.0; letras turcas añadidas)\nPatrick Hand — Patrick Wagesreiter (SIL Open Font License 1.1)\nSpecial Elite — Astigmatic (Licencia Apache 2.0)\nAlfa Slab One — JM Solé (SIL Open Font License 1.1)\nKalam, Yatra One — Indian Type Foundry / Catherine Leigh Schmidt (SIL OFL 1.1)\nZCOOL KuaiLe — Liu Zhengjiang (SIL OFL 1.1)\nLXGW WenKai — LXGW (SIL OFL 1.1)\n\nTodos los personajes, el arte, la música y los efectos de sonido son originales y generados por procedimientos.\nHecho con Godot Engine (Licencia MIT).
+16|DÍA {day}
+17|DÍA
+18|La oficina ha cerrado por hoy.
+19|Día {day}
+20|resultó ser falso
+21|Ahora mismo
+22|¡Hecho! Ahora espera y observa…
+23|RÁPIDO x2
+24|Encontrado aquí: {n} / {total}
+25|Amistad
+26|Quiere
+27|lo ha oído
+28|Cómo jugar
+29|Eres una fuerza invisible que ronda una pequeña oficina.\n\nNo puedes controlar a nadie. En su lugar, toca las cosas que brillan — la cafetera, la impresora, las computadoras, el tablero de reuniones, el termostato, el cuadro eléctrico, el expediente de ascensos del jefe, las cosas de la gente — y entrométete.\n\nCasi todas las travesuras son sigilosas: no pasa nada hasta que alguien usa esa cosa de verdad. Rompe la impresora y espera a que alguien la necesite. Cambia el destinatario de un correo y espera a que le den a enviar.\n\nCada persona tiene personalidad, una meta, amistades, rivalidades, secretos y memoria. Lo que pase después depende de todo eso… y de lo que pasó ayer.\n\nHay 200 maneras de entrometerse. Los escritorios tienen cuatro cajones: Computadora, Bandeja, Teléfono y Escritorio. Algunas travesuras son secretas: solo aparecen (con una llavecita dorada) cuando ya han pasado las cosas adecuadas ese día, y pueden desatar historias enteras que duran días.\n\nEl cuaderno verde de abajo a la izquierda es tu Diario de descubrimientos: lo que has encontrado, las historias que has visto terminar y tu mayor reacción en cadena.\n\nNo hay misiones ni puntuación. Ayúdalos, arruínalos o simplemente mira.
+30|Travesuras en total: {n}
+31|Diario de descubrimientos
+32|Idioma
+33|FILTRADO
+34|Buscar
+35|Tablón de chismes
+36|Guardar y menú principal
+37|Entrometerse
+38|sin certeza
+39|lo ha oído
+40|seguro
+41|Recuerdos recientes
+42|Ánimo
+43|Satisfacción laboral
+44|Música
+45|Nueva partida
+46|¿Empezar de nuevo? Perderás tu oficina actual.
+47|NUEVO
+48|Día siguiente →
+49|Día siguiente en {n}…
+50|No
+51|No ha oído nada jugoso.
+52|No se cuece nada.
+53|Todavía no ha pasado nada. Dale un minuto… o dale un empujoncito.
+54|Nada memorable todavía.
+55|No se conocen secretos.
+56|Ninguna gran historia en marcha… todavía.
+57|No está en la oficina
+58|sin certeza
+59|Aquí no hay nada con lo que entrometerse ahora mismo.
+60|NO
+61|Ambiente de la oficina
+62|SÍ
+63|EN PAUSA
+64|EXPEDIENTE
+65|Para {name}: ahora elige cómo
+66|“{text}”
+67|Relaciones
+68|Hoy
+69|Rencor
+70|Respeto
+71|Reanudar
+72|Rivalidad
+73|Flechazo
+74|Guardado
+75|COMBINACIÓN SECRETA
+76|Secretos
+77|{n} secreto(s)
+78|Ajustes
+79|Efectos de sonido
+80|Jugar
+81|Rápido
+82|Pausa
+83|Personal
+84|Noticias principales
+85|Parte {n}
+86|Terminada
+87|Historias
+88|Estrés
+89|8 compañeros. 1 entrometido invisible. Cero reglas.
+90|seguro
+91|Sospecha
+92|Toca los objetos brillantes para entrometerte. Toca a la gente para leer su expediente.
+93|OFFICE POLTERGEIST
+94|Hoy, hasta ahora
+95|Confianza
+96|v{v}
+97|Sí
+98|Estrella de la semana
+99|Jefatura de equipo
+100|HISTORIA CONCLUIDA
+101|CONTINUARÁ
+102|DÍA {day}
+103|EDICIÓN OFICINA
+104|LA RUTINA DIARIA
+105|No pasó nada digno de noticia. Sospechoso.
+106|EN CIFRAS
+107|Todas las noticias de oficina dignas de un susurro
+108|UN DÍA TRANQUILO
+109|¡CAOS TOTAL!
+110|ALGO DE DRAMA
+111|¡OFICINA DESMADRADA!
+112|Todas las categorías
+113|Mayor reacción en cadena
+114|Incluso desató: {arcs}
+115|«{what}» (día {day}) provocó {n} consecuencias.
+116|{n} finales distintos descubiertos
+117|{n}  ·  {pct} %
+118|Travesuras
+119|travesuras descubiertas
+120|(Pasó. Nadie lo apuntó.)
+121|Momentos
+122|Grandes momentos de los que la oficina hablará durante semanas.
+123|momentos especiales presenciados
+124|Todavía nada ha rodado cuesta abajo. Dale tiempo.
+125|{n} resultados distintos vistos
+126|Finales distintos
+127|Travesuras descubiertas
+128|Momentos especiales
+129|Resultados distintos vistos
+130|Combinaciones secretas encontradas
+131|Historias terminadas
+132|Récords
+133|{n} combinaciones secretas siguen ocultas
+134|Historias
+135|historias vistas hasta el final
+136|{n} historias que nadie ha vivido todavía
+137|Vista {n}× · finales: {ends}
+138|{n} siguen sin descubrir. Algunas solo aparecen cuando se alinean las cosas adecuadas…
+139|Quedan {n} por descubrir en esta categoría
+140|Usada {n}× · la primera, el día {day}
+141|Computadoras y digital
+142|Correo y mensajes
+143|Reuniones y calendario
+144|Documentos y papeleo
+145|Carrera, ascensos y sueldo
+146|Teléfonos y llamadas
+147|Cocina y café
+148|Equipos y entorno
+149|Social y chismes
+150|Combinaciones ocultas
+151|Bandeja
+152|Escritorio
+153|Computadora
+154|Teléfono
+155|Aire acondicionado
+156|Panel de alarma de incendios
+157|Perchero
+158|Cafetera
+159|Archivadores
+160|Nevera
+161|Puerta de entrada
+162|Armario de RR. HH.
+163|{item} de {owner}
+164|Mesa de la cocina
+165|Cuadro eléctrico
+166|Tablero de reuniones
+167|Mesa de la sala de reuniones
+168|Microondas
+169|Tablón de corcho
+170|Planta de la oficina
+171|Impresora
+172|Expediente de ascensos
+173|Armario del servidor
+174|Sofá de la sala de descanso
+175|Altavoz de la oficina
+176|Estante de material
+177|Reloj de pared
+178|Dispensador de agua
+179|Escritorio de {name}
+180|En silencio
+181|SONANDO
+182|ESTROPEADA
+183|Marca las {time}
+184|Funciona… más o menos
+185|{name} · {doing}
+186|Ahora en: {loc}
+187|Luces APAGADAS
+188|Luces encendidas
+189|Reunión de hoy: {time}
+190|La reunión de hoy ya terminó
+191|Suena: {what}
+192|En silencio
+193|Sin papel
+194|{n} notas clavadas
+195|Ahmet lo lee todas las tardes.
+196|Manipulado, esperando a Ahmet…
+197|Puesto a {temp}
+198|Funciona perfectamente
+199|Darle el mérito a {name}
+200|Arabesk
+201|Un bebé llorando
+202|Una balada de desamor entre sollozos
+203|«Enviado desde mi bañera»
+204|Una playa tropical
+205|Una foto gigante de Ahmet
+206|«Traigan pastel los viernes»
+207|«Futura dirección general»
+208|Clásica
+209|Su tarde libre
+210|Cita con el dentista
+211|Disco
+212|«MIS IDEAS TONTAS»
+213|Su ex
+214|45 minutos adelantado
+215|«El ojito derecho de Ahmet»
+216|«¡A la calle!»
+217|«Comprar flores para (su amor platónico)»
+218|Que brille
+219|«Gimnasio a las 16:30 — salir antes»
+220|Un cazatalentos
+221|«Entrevista de trabajo» (en el calendario compartido)
+222|La cocina
+223|Cuarenta gatitos
+224|«Reírse de los chistes de Ahmet»
+225|una lista de «puestos en revisión»
+226|«URGENTE: despidos»
+227|La sala de descanso
+228|«CARTAS DE AMOR»
+229|«¿Quién roba los almuerzos?»
+230|Heavy metal a gritos
+231|«Mamá»
+232|«¡Fiesta en mi casa esta noche!»
+233|«PLANES SECRETOS»
+234|Pop cursi
+235|«Ascensos: hoy»
+236|«¡Ascenso ya!»
+237|«RE: tu aumento (¡aprobado!)»
+238|«Nueva política sobre romances en la oficina»
+239|la lista de sueldos
+240|Sirena antiaérea
+241|30 minutos atrasado
+242|Convertirlo en un desastre
+243|Moverla a las {time}
+244|«Un admirador secreto te saluda 😊»
+245|«Ven a mi despacho. YA.» — Ahmet
+246|«La reunión de hoy se cancela.»
+247|«¡Pastel gratis en la cocina!»
+248|Enviárselo a {name}
+249|16 °C — Ártico
+250|19 °C — Fresquito
+251|22 °C — Normal
+252|25 °C — Templado
+253|29 °C — Sauna
+254|Ahora mismo no está en la oficina.
+255|La hora del almuerzo ya pasó.
+256|La alarma ya está sonando.
+257|Ya está hecho.
+258|Ya está estropeado.
+259|Ya está cerrado con llave.
+260|Ahmet está en una reunión.
+261|Ahora mismo nadie mira el reloj.
+262|La máquina está estropeada.
+263|Demasiado pronto: alguien podría notar el patrón.
+264|Las luces están apagadas.
+265|Está a gusto aquí: no hay carta de renuncia.
+266|La oficina ya está cazando un fantasma.
+267|Está en una reunión.
+268|La reunión de hoy ya terminó.
+269|La reunión ya empezó.
+270|La red ya está caída.
+271|Ahora mismo nadie tiene una alianza secreta.
+272|Hoy no es el cumpleaños de nadie.
+273|No hay ningún cargador de repuesto cerca.
+274|No le gusta nadie de los que están aquí.
+275|Ahora mismo no circula ningún rumor falso.
+276|Ahora mismo no está en conflicto con nadie.
+277|No tiene ninguna amistad cercana aquí.
+278|No tiene nada malo que decir de nadie. Todavía.
+279|Nadie tiene problemas con esta persona. Todavía.
+280|Hoy no hay anuncio de ascensos.
+281|Ahora mismo aquí nadie está enfrentado.
+282|Ahora mismo nadie busca trabajo a escondidas.
+283|No hay cumpleaños a la vista.
+284|No tiene ningún trabajo en curso.
+285|No está en la reunión de hoy.
+286|Ahora mismo no es posible.
+287|Hoy no está en su escritorio.
+288|La oficina ya está en pánico por los despidos.
+289|Ya hay una fiesta en marcha.
+290|La planta ya está espléndida.
+291|La impresora está estropeada.
+292|La impresora funciona perfectamente.
+293|El ascenso ya se anunció.
+294|Es demasiado tarde para eso.
+295|Ya se hizo hoy.
+296|El dispensador de agua está estropeado.
+297|La persona de la que escribió no está aquí.
+298|Uña y carne
+299|Le cae mal
+300|Le resulta insoportable
+301|Amistad
+302|Neutral
+303|Se llevan bien
+304|Rivalidad a muerte
+305|{me?Contento|Contenta}
+306|{me?Eufórico|Eufórica}
+307|{me?Furioso|Furiosa}
+308|{me?Gruñón|Gruñona}
+309|Feliz
+310|Ni fu ni fa
+311|{me?Disgustado|Disgustada}
+312|{me?enojado|enojada}
+313|{me?molesto|molesta}
+314|{me?asustado|asustada}
+315|{me?agradecido|agradecida}
+316|{me?dolido|dolida}
+317|{me?celoso|celosa}
+318|feliz
+319|{me?conmovido|conmovida}
+320|
+321|{me?satisfecho|satisfecha}
+322|{me?orgulloso|orgullosa}
+323|{me?aliviado|aliviada}
+324|triste
+325|{me?avergonzado|avergonzada}
+326|{me?sorprendido|sorprendida}
+327|Discusiones
+328|Grandes peleas
+329|Echar la culpa
+330|Crisis nerviosas
+331|Ascensos fallidos
+332|Grupitos en la oficina
+333|Rumores desmentidos
+334|Defendió a un compañero
+335|Desastres de correo
+336|Manos amigas
+337|Travesuras del jugador
+338|Pullas de celos
+339|Llegadas tarde
+340|Nuevas amistades
+341|Elogios
+342|Bromas descubiertas
+343|Reconciliaciones
+344|Negativas
+345|Rumores de oficina
+346|Broncas
+347|Secretos al descubierto
+348|Cargó con la culpa
+349|Premio a la persona equivocada
+350|{me?Aliado secreto|Aliada secreta} de {name}
+351|No se habla con {name}
+352|Cuida de {name}
+353|Sale con {name}
+354|Le debe una disculpa a {name}
+355|Quiere desenmascarar a {name}
+356|Buscando otro trabajo
+357|{me?Decidido|Decidida} a demostrar su valía
+358|Quiere vengarse de {name}
+359|Trabaja en contra de {name}
+360|sin hacer nada
+361|haciendo un anuncio
+362|en el archivo
+363|llegando
+364|charlando
+365|por un café
+366|arreglando algo
+367|llevando café
+368|en una misión
+369|de un lado a otro
+370|sin hacer nada
+371|camino a casa
+372|almorzando
+373|en una reunión
+374|patrullando
+375|al teléfono
+376|imprimiendo
+377|tomándose un descanso
+378|devolviendo algo
+379|revisando expedientes
+380|buscando algo
+381|toqueteando el aire acondicionado
+382|estirando las piernas
+383|en el dispensador de agua
+384|trabajando
+385|Archivador
+386|Escritorio de Ahmet
+387|Escritorio de Burak

@@ -8,7 +8,7 @@ const JOURNAL_PATH := "user://journal.json"     # Discovery Journal: lifetime co
 signal settings_changed
 
 var world: SimWorld
-var settings := {"sound": true, "music": true, "auto_next": false, "tips_seen": false}
+var settings := {"sound": true, "music": true, "auto_next": false, "tips_seen": false, "lang": ""}
 var chars: Array = []
 var facts: Dictionary = {}
 var event_defs: Array = []
@@ -21,6 +21,7 @@ var speed := 1.0          # 0 = paused, 1 = normal, 2 = fast
 
 func _ready() -> void:
 	load_settings()
+	settings["lang"] = Loc.lang
 	_load_data()
 
 
@@ -33,6 +34,7 @@ func _read(path: String):
 
 func _load_data() -> void:
 	chars = _read("res://data/characters.json")
+	localize_chars()
 	facts = _read("res://data/facts.json")
 	event_defs = _read("res://data/events.json")
 	arc_defs = _read("res://data/arcs.json")
@@ -42,6 +44,27 @@ func _load_data() -> void:
 		var j = JSON.parse_string(FileAccess.get_file_as_string(JOURNAL_PATH))
 		if typeof(j) == TYPE_DICTIONARY:
 			journal = j
+
+
+## Character names follow the language (Chinese and Hindi write them in their own script).
+func localize_chars() -> void:
+	for c in chars:
+		c["name"] = Loc.npc_name(str(c["id"]))
+
+
+## Language picked in settings: save, switch, and bring the office back in the new language.
+func change_language(code: String) -> void:
+	if code == Loc.lang:
+		return
+	if world != null:
+		save_game()
+	settings["lang"] = code
+	save_settings()
+	Loc.load_lang(code)
+	localize_chars()
+	if world != null:
+		load_game()
+	Loc.changed.emit()
 
 
 func create_world() -> SimWorld:
@@ -56,6 +79,7 @@ func new_game(seed_in := 0) -> void:
 	world = create_world()
 	world.new_game(seed_in)
 	world.discovery.merge(journal)
+	world.discovery.relocalize(Callable(world, "render_ref"))
 	speed = 1.0
 	save_game()
 
@@ -95,6 +119,7 @@ func load_game() -> bool:
 	world = create_world()
 	world.from_dict(d)
 	world.discovery.merge(journal)
+	world.relocalize()
 	speed = 1.0
 	return true
 

@@ -1,0 +1,109 @@
+1204|{a} y {b} tuvieron una pequeña pelea en la sala de descanso… y se reconciliaron dos minutos después.
+1205|{a} y {b} cortaron. La oficina va a estar incómoda un tiempo.
+1206|{confidant} habló con {a} sobre la pelea con {b}. Los amigos empiezan a tomar partido.
+1207|{a} y {b} tuvieron una pelea entre susurros en la sala de descanso. {b} se fue {b?hecho|hecha} una furia. La oficina está oficialmente preocupada.
+1208|{a} y {b} lo hablaron. Siguen juntos… y tomados de la mano junto a la cafetera, que es peor.
+1209|{actor} trajo pastel casero. La cocina se llenó en segundos.
+1210|La tarta sorpresa de cumpleaños de {bday} estaba en la mesa de la cocina horas antes. {bday} la vio.
+1211|{actor} encontró en su calendario una {what} que nunca creó. Escalofriante.
+1212|Apareció una {what} en el calendario de {actor}. {actor} salió corriendo de la oficina para ir.
+1213|Ahmet notó que {owner} no estaba. Empezaron los rumores sobre adónde fue.
+1214|La llamada de vuelta de un cliente importante le llegó a {owner} una hora tarde. El negocio se lo llevó la competencia.
+1215|El teléfono de {owner} mostró una llamada de Ahmet. No había nadie al otro lado.
+1216|El teléfono de {owner} se iluminó con el nombre de su ex. Alguien se dio cuenta.
+1217|Sonó el teléfono de {owner}: «Talent Partners — reclutamiento». Los de al lado ataron cabos.
+1218|Sonó el teléfono de {owner} —«Mamá»— en plena jornada. Todos lo oyeron.
+1219|{actor} recibió un mensaje de {target} EN MAYÚSCULAS y se lo tomó como algo personal.
+1220|{actor} creyó que {target} le estaba gritando en el chat. Era el bloq mayús atascado. Se lo tomó a risa.
+1221|{actor} le mostró a Ahmet la tarjeta de un cazatalentos. Ahmet vio el farol.
+1222|{actor} encontró la tarjeta de un cazatalentos y la usó para presionar a Ahmet. Funcionó.
+1223|{actor} encontró la tarjeta de un cazatalentos en su escritorio… y se la guardó.
+1224|Ahmet quedó en copia del chat interminable de {owner} sobre kebab. La «productividad» no le impresiona.
+1225|Ahmet quedó en copia del chat privado de {owner}… justo en la parte en la que {owner} se queja de él.
+1226|{suspect} admitió que tomó «prestadas» monedas de la alcancía solidaria para la máquina expendedora. Pagará el doble.
+1227|Toda la tarde se oyen monedas cayendo en la alcancía de {organiser}.
+1228|{organiser} acusó a {suspect} de tomar dinero de la alcancía… y luego encontró el billete pegado dentro. Disculpa incómoda.
+1229|{organiser} puso una alcancía solidaria en la cocina para el refugio de animales.
+1230|{organiser} contó la alcancía y parece que falta dinero. {organiser} sospecha de {suspect}.
+1231|{organiser} contó la alcancía: ¡récord! El refugio va a estar feliz.
+1232|{reader} se presentó a una «cita» con {sender}. {sender} no tenía ni idea… pero le siguió el juego. La cocina lo vio todo.
+1233|{crush} le preguntó a {sender} por la «cita» con {reader}. Fue un malentendido, explicó {sender}. {crush} pareció... {crush?aliviado|aliviada}.
+1234|{sender} y {reader} acordaron que su cita fue un malentendido. Amigos. Probablemente.
+1235|{reader} sigue {reader?dolido|dolida} por la cita falsa y evita a {sender}.
+1236|{reader} decidió que la cita falsa fue graciosa. Ahora {reader} y {sender} tienen un chiste privado.
+1237|La cita «por error» de {sender} y {reader} se convirtió en una segunda cita, de verdad. Ahí está pasando algo.
+1238|{crush} encaró a {sender} por salir con {reader}. {sender} no lo negó. {crush} se fue {crush?dolido|dolida}.
+1239|{crush} encaró a {sender} por lo de {reader}. A {sender} se le escapó la verdad: le gusta {crush}. {reader} fue la última persona en enterarse.
+1240|{reader} se presentó a una «cita» con {sender}. {sender} dijo la verdad: no hubo ninguna nota. {reader} quería que se le tragara la tierra.
+1241|Ceren notó que alguien cambió la hora de la reunión.
+1242|Ceren notó que el expediente de ascensos no cuadra.
+1243|Ceren le contó a Ahmet: «{gossip}»
+1244|Ahmet entró y se encontró a {target} dirigiendo SU reunión. {target} no dio marcha atrás. Tensión.
+1245|La silla de {actor} se desplomó en cuanto se sentó. Alguien la había cambiado por la rota.
+1246|El tablero nombró a {actor} para presidir la reunión de hoy. {actor} empezó la reunión sin Ahmet.
+1247|Ahmet entró y se encontró a {target} dirigiendo su reunión. {target} se encogió en una silla.
+1248|La silla de {actor} se fue hundiendo poco a poco hasta que solo se le veían las cejas.
+1249|La «visita del cliente» nunca ocurrió. Nadie sabe quién la escribió en el tablero. Todos ordenaron para nada.
+1250|El tablero anunció la visita de un cliente. Toda la oficina está ordenando y trabajando al doble de velocidad.
+1251|La oficina se dividió en bandos: {g1} contra {g2}.
+1252|{actor} llegó tarde a la reunión: el reloj de su computadora iba atrasado.
+1253|El reloj de la computadora de {target} iba adelantado y se fue antes. Ahmet hizo la vista gorda.
+1254|El reloj de la computadora de {target} iba 45 minutos adelantado. Recogió temprano… justo delante de Ahmet. De vuelta al escritorio.
+1255|{actor} se fue 45 minutos antes porque el reloj de su computadora estaba mal. Nadie se lo impidió.
+1256|{it} declaró el proyector oficialmente muerto. {presenter} tendrá que improvisar.
+1257|Sin proyector, {presenter} intentó improvisar con un rotulador. El cliente creyó que el gráfico de ventas era un caballo.
+1258|{it} resucitó el proyector con minutos de margen.
+1259|Sin proyector, {presenter} improvisó con un rotulador y monigotes… y ganó al cliente. Leyenda de la oficina.
+1260|La presentación de {presenter} al cliente fue un fiasco. El cliente se fue «a pensarlo».
+1261|Ahmet descubrió que el proyector está muerto, una hora antes del «cliente importante». Presenta {presenter}. Pánico.
+1262|{presenter} bordó la presentación al cliente. El cliente firmó. Ahmet está radiante.
+1263|{target} se fue a casa con el abrigo de {other} por error.
+1264|{actor} y {target} se devolvieron los abrigos tras la confusión. Miradas que se alargan.
+1265|{actor} y {target} se devolvieron los abrigos que se habían llevado por error.
+1266|El teléfono perdido de {target} sonó… desde el abrigo de {coat} en el perchero. Siguieron las acusaciones.
+1267|{actor} le echa la culpa de la cafetera a {suspect}.
+1268|{actor} descubrió que la cafetera está rota.
+1269|{actor} y {target} se escaparon juntos a la cocina. Otra vez.
+1270|{spotter} pilló a {actor} y {target} muy acaramelados junto a la cafetera.
+1271|Ece le llevó un café a {target}.
+1272|Ece le llevó un café a {target}… y se lo derramó encima.
+1273|La cafetera se arregló sola. A {actor} se le pusieron los pelos de punta.
+1274|{target} dejó a {actor} con la palabra en la boca.
+1275|El sobre secreto con el dinero para el próximo cumpleaños de {bdayp} se quedó a la vista. {bdayp} lo encontró.
+1276|En el tablón de corcho apareció una queja anónima sobre los tarareos de {target}. {target} tiene un sospechoso.
+1277|En el tablón de corcho apareció una nota anónima elogiando a {target}. {target} está radiante… e investigando.
+1278|{actor} encontró un documento confidencial abierto en el archivo… y lo leyó.
+1279|{actor} le confió un secreto a {target} en la sala de descanso: «{fact}»
+1280|{actor} fue a felicitar a {target}.
+1281|¡Ahmet le ofreció a Burak un aumento para que se quede!
+1282|{usurper} reclutó a {ally} como «{ally?adjunto|adjunta}». El golpe ya tiene gabinete.
+1283|{usurper} intentó reclutar a {ally}. {ally} no quiere saber nada.
+1284|{usurper} se plantó en medio de la oficina y anunció «nuevas medidas de eficiencia». Nadie consultó a Ahmet.
+1285|Ahmet encaró a {usurper} por el «golpe». A {usurper} no le fue nada bien.
+1286|Ahmet encaró a {usurper} por el «golpe»… y acabó adoptando la mitad de las ideas.
+1287|En el tablón de corcho apareció una foto trucada de {target} y {partner} «tomados de la mano».
+1288|Inscribieron a {target} en un curso de control de la ira… y se lo tomó sorprendentemente bien.
+1289|Inscribieron a {target} en un curso obligatorio de control de la ira. {target} reaccionó... enojándose muchísimo.
+1290|{friend} cubrió la llegada tarde de {actor}. Ahmet se lo creyó.
+1291|{friend} intentó cubrir la llegada tarde de {actor}. Ahmet no se lo creyó.
+1292|Ahmet se enteró de la carrera de sillas y la prohibió con un memorando. La culpa se la llevó {racer}.
+1293|Ahmet se enteró de la carrera de sillas… y exigió una revancha con él dentro.
+1294|{racer} retó a {rival} a una carrera de sillas de oficina. Ya hay apuestas.
+1295|La carrera de sillas terminó con {racer} estrellándose contra la planta. {rival} gana por abandono.
+1296|{racer} ganó la carrera de sillas contra {rival}. El público enloqueció.
+1297|{actor} y {target} chocaron por quién hizo el trabajo.
+1298|¡{actor} le robó el protagonismo a {target} delante de Ahmet!
+1299|Aprovechando que {victim} no estaba, {actor} se apuntó el mérito de su trabajo.
+1300|Unos falsos «criterios de ascenso» en el tablón dicen: traer pastel. {climber} ya está trayendo pastel.
+1301|Unos falsos «criterios de ascenso» dicen: reírse de los chistes de Ahmet. {climber} se ríe de TODO lo que dice Ahmet.
+1302|Ceren se enteró de que le gusta a Mert. Incómodo.
+1303|Ceren se enteró de que le gusta a Mert… y sonrió.
+1304|{thief} llamó a escondidas al mayor cliente de {victim} y se ofreció a «encargarse personalmente».
+1305|{victim} descubrió que {thief} ha estado hablando con su cliente a sus espaldas.
+1306|Ahmet dejó que {thief} se quedara con el cliente de {victim}. {victim} está {victim?destrozado|destrozada}.
+1307|Ahmet decidió que el cliente se queda con {victim}. El intento de robo de {thief} fracasó.
+1308|La cafetera tardó una eternidad en calentarse. {actor} y {target}, atrapados esperando, se pusieron a charlar.
+1309|{actor} y {target} se hicieron más cercanos durante el apagón.
+1310|¡En la oscuridad, Deniz le birló la memoria USB a Selin!
+1311|Una invitación a almorzar desviada acabó en cita doble con {a} y {b}, la «pareja» de la foto. Nadie sabía adónde mirar.
+1312|{a} y {b} acordaron que la foto de pareja era falsa. Ahora quieren saber quién la hizo.
