@@ -1,0 +1,121 @@
+1903|Ece hat sich dem Büro gestellt, weil sie Ahmets Nichte ist. Die Stimmung blieb eisig.
+1904|Ece hat Ahmet aus Versehen „Onkel“ genannt. {witness} hat es gehört.
+1905|Ece hat Ahmet aus Versehen „Onkel“ genannt. Zum Glück war niemand nah genug, um es zu hören.
+1906|{witness} hat {listener} erzählt, dass Ece Ahmets Nichte ist. Morgen weiß es jeder.
+1907|{witness} wollte, dass Ceren das Ece-Ahmet-Gerücht bestätigt. Ceren hat nichts verraten.
+1908|{witness} hat Ece nach dem „Onkel“-Versprecher gefragt. Ece hat gestanden: Ahmet ist ihr Onkel.
+1909|{quiet} hat {loud} gebeten, leiser zu sein. {loud} wurde lauter. Der Lärmkrieg hat begonnen.
+1910|{loud} hat den Büro-Lautsprecher voll aufgedreht, um den Lärmkrieg zu gewinnen. Alle anderen haben verloren.
+1911|{quiet} hat {loud} gebeten, leiser zu sein. {loud} hat sich entschuldigt. Frieden — vorerst.
+1912|{mediator} hat {quiet} und {loud} in der Küche an einen Tisch gesetzt. Ruhezeiten wurden vereinbart. Der Lärmkrieg ist vorbei.
+1913|{mediator} wollte den Lärmkrieg beenden. {loud} hat mit einer Trompete gedroht. Jetzt ist es eine Fehde.
+1914|{actor:s} Datei wurde um eine Woche zurückgesetzt. Kein Backup. {actor} macht alles noch mal.
+1915|{actor:s} Änderungen sind verschwunden — {actor} bleibt länger, um sie neu zu machen.
+1916|Jemand hat {actor:s} Bericht auf die Version von letzter Woche zurückgesetzt. {target} hat ihn aus einem Backup gerettet.
+1917|{owner:s} private Datei ist auf {actor:s} Bildschirm aufgepoppt. {actor} hat sie gelesen.
+1918|Ahmet ist in die Büroparty geplatzt ... und zum Kuchen geblieben. Legendär.
+1919|Ahmet ist hereingestürmt und hat die Büroparty aufgelöst.
+1920|{host} hat eine Büroparty vorgeschlagen. {helper} hat sofort abgewunken.
+1921|Die spontane Büroparty in der Küche ist in vollem Gange.
+1922|{helper} hat für {host:s} geheime Party leise Snacks in der Küche aufgebaut.
+1923|Die Küchenparty ging eine halbe Stunde lang. Ahmet hat nie davon erfahren. Wahrscheinlich.
+1924|Ahmet hat {helper} beim Aufbauen der Party-Snacks erwischt. {helper} behauptete, die Pflanze habe Geburtstag. Ahmet wirkte nicht überzeugt.
+1925|{host} hat eine Büroparty vorgeschlagen, und {helper} hat Ja gesagt. Küche, 16 Uhr.
+1926|Jemand hat ein Organigramm aufgehängt, auf dem {target} über Ahmet steht. Ahmet hat es gesehen.
+1927|{listener} hat Buraks geheimes Telefonat mitgehört.
+1928|{subject} kam genau in dem Moment herein, als {actor} über {subject} lästerte.
+1929|{target} hat erfahren, auf der Wochenend-Überstundenliste zu stehen. {target} wird das nicht still hinnehmen.
+1930|{actor} kam an den Schreibtisch und fand alles in einen Pappkarton gepackt. Das Büro rechnet mit dem Schlimmsten.
+1931|Ahmet hat {actor} bestätigt: Niemand wurde gefeuert. Jemand hat nur den Schreibtisch eingepackt. Erleichterung — und Misstrauen.
+1932|Im Archiv wurde ein unterschriebenes „Bündnisabkommen“ zwischen {a} und {b} gefunden. Jetzt weiß es das ganze Büro.
+1933|{actor:s} Präsentationsseiten waren völlig durcheinander. {actor} hat einen Witz daraus gemacht — der Raum war begeistert.
+1934|{actor:s} Präsentationsseiten waren durcheinander. {actor} ist vor Ahmet zusammengebrochen.
+1935|{actor} hat {target} beim Lästern über {actor?ihn|sie} erwischt. Es wurde hässlich.
+1936|{actor} dachte, {target} würde über {actor?ihn|sie} lästern. Es ging um Fußball.
+1937|{target} musste {actor} sagen, dass es die Party gar nicht gibt. {actor} wirkte am Boden zerstört.
+1938|{target} hat nachgegeben: Heute Abend GIBT es jetzt eine Party. Das Büro ist begeistert.
+1939|{actor} ist mit den Gehaltszahlen in Ahmets Büro marschiert. Ahmet will wissen, wer sie geleakt hat.
+1940|Zeyneps Gehaltsliste ist in {target:s} Posteingang gelandet. {target} weiß jetzt genau, was {rich} verdient.
+1941|Ahmet hat sich im Pitch-Duell für {a:s} Idee entschieden. {b} nimmt es schlecht auf.
+1942|Ahmet hat sich im Pitch-Duell für {b:s} Idee entschieden. {a} hat die eigene Herausforderung verloren.
+1943|Ahmet gefielen beide Pitches, und er hat {a} und {b} gesagt, sie sollen zusammenarbeiten. Keiner wirkt erfreut.
+1944|{a} hat {b} vor Ahmet zu einem Pitch-Duell herausgefordert. {b} hat angenommen.
+1945|{a} und {b} bereiten beide verbissen ihre Pitches vor. Niemand traut sich, zu stören.
+1946|{actor} hat {target} einen Friedenskaffee angeboten. Sie reden wieder!
+1947|{actor} wollte sich mit {target} versöhnen. {target} war noch nicht so weit.
+1948|Jemand hat {actor:s} Leistungsbericht in ein Desaster umgeschrieben. Ahmet hatte ein ernstes Gespräch mit {actor?ihm|ihr}.
+1949|Jemand hat {actor:s} Leistungsbericht glänzend umgeschrieben. Ahmet hat {actor} gelobt; die Kollegen wittern etwas.
+1950|{accomplice} hat sich geweigert, beim Verstecken des Kätzchens zu helfen. {smuggler} versteckt es unter dem eigenen Schreibtisch.
+1951|Ahmet hat das Kätzchen gefunden und ist explodiert. Das Kätzchen ging zu {smuggler:s} Nachbarn. {smuggler} bekam eine Standpauke.
+1952|{smuggler} und {accomplice} haben ein Kätzchen im Archiv versteckt. Mehrere Leute „brauchen“ jetzt alle fünf Minuten eine Akte.
+1953|Ahmet hat das Kätzchen gefunden. Er ist dahingeschmolzen. Das Büro hat ein neues Maskottchen.
+1954|{smuggler} kam mit einem verdächtigen Pappkarton an. Der Karton miaut.
+1955|Ein peinliches altes Foto von {owner} ist im Büro-Gruppenchat aufgetaucht. Jeder hat es gesehen.
+1956|Die Meeting-Tafel hat Gratispizza versprochen. Alle kamen früh und hungrig. Es gab keine Pizza.
+1957|Die sterbende Büropflanze ist plötzlich grün und gesund. {actor} hat es bemerkt. Niemand weiß, wer es war.
+1958|Auf dem Chef-Türschild steht jetzt „{target}“. {target} hat den ganzen Morgen die Unterlagen anderer Leute abgewiesen.
+1959|Auf dem Chef-Türschild steht jetzt „{target}“. Die Leute haben angefangen, {target} ihre Unterlagen zu bringen — und {target} hat es genossen.
+1960|Du hast die Kaffeemaschine kaputt gemacht.
+1961|Du hast den Drucker blockiert.
+1962|Du hast die Beförderungsakte zugunsten von {target} frisiert.
+1963|Du hast {actor:s} E-Mail so manipuliert, dass sie an alle geht.
+1964|Du hast {actor:s} nächste E-Mail an {target} umgeleitet.
+1965|Du hast {actor} eine gefälschte Benachrichtigung geschickt.
+1966|Du hast die Kaffeemaschine heimlich repariert.
+1967|Du hast das Licht ausgeschaltet.
+1968|Du hast das Licht wieder eingeschaltet.
+1969|Du hast {owner:s} {item} verschoben → {loc}.
+1970|Du hast das heutige Meeting von {old_time} auf {new_time} verlegt.
+1971|Du hast die Klimaanlage auf {temp} gestellt.
+1972|Du hast {actor:s} Schreibtisch durcheinandergebracht.
+1973|{target:s} Leistungsbeurteilung wurde „auf unbestimmte Zeit“ verschoben. {target} interpretiert viel hinein.
+1974|{climber} hat Ahmet nach einer Beförderung gefragt und wurde abgewimmelt.
+1975|{climber:s} Kaya-Pitch ist vor Ahmet in sich zusammengefallen.
+1976|{climber:s} Kaya-Pitch ist zusammengefallen — die Notizen waren sabotiert worden. Ahmet weiß das nicht.
+1977|{climber} hat den Kaya-Pitch im Meetingraum gerockt. Ahmet war sichtlich beeindruckt.
+1978|{climber} arbeitet wie eine Maschine am Kaya-Pitch. Jemand hat es bemerkt: {rival}.
+1979|{climber} arbeitet wie eine Maschine am Kaya-Pitch.
+1980|Ahmet hat {climber} gesagt: „Noch nicht.“ {climber} hat es schlecht aufgenommen.
+1981|{climber} hat Ahmet nach einer Beförderung gefragt. Er hat angedeutet, dass sie {climber} gehört.
+1982|{climber} hat Ahmet nach einer Beförderung gefragt. Ahmets Antwort: „Beweisen Sie es.“ Das Rennen läuft.
+1983|Während {climber} weg war, hat {rival} heimlich die Pitch-Notizen ruiniert.
+1984|Ahmet hat {climber} gesagt, {climber?er|sie} sei als Nächstes für die Teamleitung dran.
+1985|Ahmet hat einen Telefonstreich mit schwerem Atmen bekommen. Laut Display kam der Anruf von {owner:s} Durchwahl.
+1986|{actor} war nicht auf das Meeting vorbereitet.
+1987|{actor} hat die Präsentation gerockt.
+1988|{actor:s} Präsentation ist geplatzt — der USB-Stick fehlte.
+1989|{actor} hat den Drucker verstopft vorgefunden.
+1990|{actor} hat festgestellt, dass der kaputte Drucker auf mysteriöse Weise wieder funktioniert.
+1991|{actor} hat dem Drucker frustriert einen Tritt verpasst.
+1992|{owner:s} private Datei kam aus dem Gemeinschaftsdrucker — zum Glück hat {owner} sie zuerst geschnappt.
+1993|{actor} hat {owner:s} privates Dokument aus dem Druckerfach genommen. Und gelesen.
+1994|Der Beamer ist gestorben, gerade als {actor} mit der Präsentation anfing. {actor} hat alles von Hand gezeichnet. Beeindruckend.
+1995|Der Beamer ist gestorben, gerade als {actor} mit der Präsentation anfing. {actor} ist zusammengebrochen.
+1996|{actor} hat Ahmet mit einem alten schriftlichen Versprechen konfrontiert. Ahmet hat sich herausgewunden. {actor} ist verbittert.
+1997|{actor} hat Ahmets zwei Jahre altes Versprechen ausgegraben und ist damit reinmarschiert. Ahmet hat es eingelöst!
+1998|Ahmet hat die frisierte Beförderungsakte gelesen. {credited} steht jetzt wie ein Star da.
+1999|Ceren hat {target} erzählt, dass die Beförderungsakte geändert wurde.
+2000|{winner} wurde zur Teamleitung befördert!
+2001|Die falsche Person wurde belohnt — {honest} hätte es verdient.
+2002|Jemand hat den Bürokühlschrank geleert. {actor} hat die Hungrigen zusammengetrommelt, und alle sind gemeinsam essen gegangen.
+2003|{p1} hat {p2:s} Schreibtisch einen Streich gespielt. Der Streichekrieg hat begonnen.
+2004|{p1:s} ultimativer Streich hat Ahmet statt {p2} getroffen. Ahmet hat ... gelacht. Der Streichekrieg endet als Bürolegende.
+2005|{p1:s} ultimativer Streich hat Ahmet statt {p2} getroffen. Beide Witzbolde haben eine schriftliche Abmahnung bekommen.
+2006|{p2} hat {p1} mit einem noch größeren Streich heimgezahlt. Kein Schreibtisch ist mehr sicher.
+2007|{actor} gibt insgeheim {suspect} die Schuld an dem Chaos.
+2008|Ahmet ist wegen {target:s} „Ich kündige“-Abwesenheitsnotiz in Panik geraten und hat auf der Stelle eine Gehaltserhöhung angeboten. {target} hat Ja gesagt.
+2009|{owner:s} automatische Antwort lautet jetzt: „Ich kündige. Kontaktieren Sie mich nicht.“ Ahmet hat sie gerade gelesen.
+2010|{target:s} falsche „Ich kündige“-Abwesenheitsnotiz hat {target} etwas klar gemacht ... vielleicht will {target?er|sie} wirklich kündigen.
+2011|Ahmet kam wegen {target:s} „Ich kündige“-Abwesenheitsnotiz herbeigestürmt. Es war ein Fehler im System. Alle haben aufgeatmet.
+2012|{actor} hat {target} in der Küche erzählt, ans Kündigen zu denken.
+2013|{actor} hat sich übers Kündigen ausgelassen — und {target} meinte: „Mach’s doch!“
+2014|{actor} hat um eine Gehaltserhöhung gebeten. „Nächstes Quartal.“
+2015|{actor} hat um eine Gehaltserhöhung gebeten und wurde knallhart abgeschmettert.
+2016|{actor} hat Ahmet um eine Gehaltserhöhung gebeten — und sie bekommen. Ganz leise.
+2017|Ein Brief über eine Gehaltserhöhung für {rich} ist auf {target:s} Schreibtisch gelandet. {target} hat gefeiert — bis Zeynep es richtiggestellt hat.
+2018|{actor} und {target} haben sich versöhnt!
+2019|{actor} wollte sich bei {target} entschuldigen. Abgelehnt.
+2020|{actor} hat im Flur ein geflüstertes Telefonat geführt. Ein Headhunter.
+2021|{listener} hat mitgehört, wie {actor} mit einem Headhunter sprach.
+2022|{actor:s} unterschriebener Vertrag wurde im Küchen-Altpapier gefunden. Mit Kaffeefleck.
+2023|{target} hat ein Empfehlungsschreiben von Ahmet gefunden, das {target} „für Positionen anderswo“ empfiehlt. {target} hat es als Wink verstanden.

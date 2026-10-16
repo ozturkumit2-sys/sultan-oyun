@@ -1,0 +1,121 @@
+1903|Ece, Ahmet'in yeğeni olduğu konusunda ofisin karşısına çıktı. Ortam buz gibi kaldı.
+1904|Ece yanlışlıkla Ahmet'e "Amca" dedi. {witness} duydu.
+1905|Ece yanlışlıkla Ahmet'e "Amca" dedi. Neyse ki kimse duyacak kadar yakında değildi.
+1906|{witness}, {listener:e} Ece'nin Ahmet'in yeğeni olduğunu söyledi. Yarına herkes bilecek.
+1907|{witness}, Ceren'e Ece-Ahmet söylentisini doğrulatmaya çalıştı. Ceren ağzından tek kelime kaçırmadı.
+1908|{witness}, Ece'ye "Amca" gafını sordu. Ece itiraf etti: Ahmet onun amcası.
+1909|{quiet}, {loud:den} sesini alçaltmasını istedi. {loud} daha da yükseltti. Gürültü savaşı başladı.
+1910|{loud}, gürültü savaşını kazanmak için ofis hoparlörünün sesini sonuna kadar açtı. Geri kalan herkes kaybetti.
+1911|{quiet}, {loud:den} sesini alçaltmasını istedi. {loud} özür diledi. Şimdilik barış.
+1912|{mediator}, {quiet} ile {loud:i} mutfakta oturttu. Sessiz saatler üzerinde anlaşıldı. Gürültü savaşı bitti.
+1913|{mediator} gürültü savaşını bitirmeye çalıştı. {loud}, trompet getirmekle tehdit etti. Artık bu bir kan davası.
+1914|{actor:in} dosyası bir hafta geriye alındı. Yedek yok. {actor} her şeyi baştan yapıyor.
+1915|{actor:in} değişiklikleri uçtu gitti — yeniden yapmak için mesaiye kalıyor.
+1916|Biri {actor:in} raporunu geçen haftaki sürüme döndürmüş. {target} yedekten kurtardı.
+1917|{owner:in} özel dosyası {actor:in} ekranında belirdi. {actor} okudu.
+1918|Ahmet ofis partisinin ortasına daldı... ve pasta için kaldı. Efsane.
+1919|Ahmet hışımla içeri girip ofis partisini dağıttı.
+1920|{host} bir ofis partisi önerdi. {helper} hemen reddetti.
+1921|Plansız ofis partisi mutfakta tüm hızıyla sürüyor.
+1922|{helper}, {host:in} gizli partisi için mutfağa sessizce atıştırmalık hazırladı.
+1923|Mutfak partisi yarım saat sürdü. Ahmet hiç öğrenmedi. Herhalde.
+1924|Ahmet, {helper:i} parti atıştırmalıklarını hazırlarken yakaladı. {helper} bunun 'bitkinin doğum günü' olduğunu iddia etti. Ahmet ikna olmuş görünmüyordu.
+1925|{host} bir ofis partisi önerdi, {helper} de evet dedi. Mutfak, saat 16:00.
+1926|Biri, {target:i} Ahmet'in üstünde gösteren bir organizasyon şeması astı. Ahmet gördü.
+1927|{listener}, Burak'ın gizli telefon konuşmasına kulak misafiri oldu.
+1928|{actor} tam {subject} hakkında dedikodu yaparken {subject} içeri girdi.
+1929|{target}, hafta sonu fazla mesai listesine yazıldığını öğrendi. {target} bunu sineye çekmeyecek.
+1930|{actor} masasına geldiğinde her şeyi bir karton kutuya toplanmış buldu. Ofis en kötüsünü düşünüyor.
+1931|Ahmet, {actor:e} doğruladı: kimse kovulmadı. Biri sadece masasını toplamış. Rahatlama — ve şüphe.
+1932|Arşivde {a} ile {b} arasında imzalı bir 'ittifak anlaşması' bulundu. Artık bütün ofis biliyor.
+1933|{actor:in} sunum sayfaları tamamen karışıktı. {actor} bunu şakaya çevirdi — salon bayıldı.
+1934|{actor:in} sunum sayfaları karmakarışıktı. {actor}, Ahmet'in önünde dağıldı.
+1935|{actor}, {target:i} kendisi hakkında dedikodu yaparken yakaladı. Ortalık karıştı.
+1936|{actor}, {target:in} kendisi hakkında dedikodu yaptığını sandı. Konu futbolmuş.
+1937|{target}, {actor:e} partinin aslında olmadığını söylemek zorunda kaldı. {actor} yıkılmış görünüyordu.
+1938|{target} pes etti: artık bu akşam GERÇEKTEN bir parti var. Ofis çok heyecanlı.
+1939|{actor}, maaş rakamlarıyla Ahmet'in odasına daldı. Ahmet bunları kimin sızdırdığını bilmek istiyor.
+1940|Zeynep'in maaş tablosu {target:in} gelen kutusuna düştü. {target} artık {rich:in} tam olarak ne kazandığını biliyor.
+1941|Ahmet fikir düellosunda {a:in} fikrini seçti. {b} bunu kötü karşıladı.
+1942|Ahmet fikir düellosunda {b:in} fikrini seçti. {a} kendi açtığı meydan okumayı kaybetti.
+1943|Ahmet iki sunumu da beğendi ve {a} ile {b:e} birlikte çalışmalarını söyledi. İkisi de memnun görünmüyor.
+1944|{a}, Ahmet'in önünde {b:e} fikir düellosu teklif etti. {b} kabul etti.
+1945|{a} da {b} de sunumlarına hararetle hazırlanıyor. Kimse araya girmeye cesaret edemiyor.
+1946|{actor}, {target:e} bir barış kahvesi ikram etti. Yeniden konuşuyorlar!
+1947|{actor}, {target} ile barışmaya çalıştı. {target} henüz hazır değildi.
+1948|Biri {actor:in} performans raporunu felakete çevirmiş. Ahmet onunla kasvetli bir konuşma yaptı.
+1949|Biri {actor:in} performans raporunu pırıl pırıl yazmış. Ahmet övdü; iş arkadaşları ise bir terslik seziyor.
+1950|{accomplice}, kedi yavrusunu saklamaya yardım etmeyi reddetti. {smuggler} onu masasının altında saklıyor.
+1951|Ahmet kedi yavrusunu buldu ve patladı. Yavru, {smuggler:in} komşusuna gitti. {smuggler} uzun bir nutuk dinledi.
+1952|{smuggler} ve {accomplice} arşivde bir kedi yavrusu sakladı. Birkaç kişinin artık her beş dakikada bir 'dosya alması' gerekiyor.
+1953|Ahmet kedi yavrusunu buldu. Eridi bitti. Ofisin yeni bir maskotu var.
+1954|{smuggler} şüpheli bir karton kutuyla geldi. Kutu miyavlıyor.
+1955|{owner:in} utanç verici eski bir fotoğrafı ofisin grup sohbetine düştü. Herkes gördü.
+1956|Toplantı panosu bedava pizza vaat etti. Herkes erkenden ve aç geldi. Pizza yoktu.
+1957|Ölmek üzere olan ofis bitkisi birden yemyeşil ve sağlıklı oldu. {actor} fark etti. Kimin yaptığını kimse bilmiyor.
+1958|Müdür isimliğinde artık '{target}' yazıyor. {target} bütün sabahı başkalarının evraklarını geri çevirerek geçirdi.
+1959|Müdür isimliğinde artık '{target}' yazıyor. İnsanlar evraklarını {target:e} getirmeye başladı — ve {target} bundan keyif aldı.
+1960|Kahve makinesini bozdun.
+1961|Yazıcıyı sıkıştırdın.
+1962|Terfi dosyasını {target} lehine kurcaladın.
+1963|{actor:in} e-postasını herkese gidecek şekilde ayarladın.
+1964|{actor:in} bir sonraki e-postasını {target:e} yönlendirdin.
+1965|{actor:e} sahte bir bildirim gönderdin.
+1966|Kahve makinesini gizlice tamir ettin.
+1967|Işıkları kapattın.
+1968|Işıkları yeniden açtın.
+1969|{owner:in} {item:sini} taşıdın → {loc}.
+1970|Bugünkü toplantının saatini {old_time} yerine {new_time} yaptın.
+1971|Klimayı {temp} yaptın.
+1972|{actor:in} masasını darmadağın ettin.
+1973|{target:in} performans değerlendirmesi 'süresiz' ertelendi. {target} bundan çok anlam çıkarıyor.
+1974|{climber}, Ahmet'e terfiyi sordu ve geçiştirildi.
+1975|{climber:in} Kaya sunumu Ahmet'in önünde dağıldı.
+1976|{climber:in} Kaya sunumu dağıldı — notları sabote edilmişti. Ahmet bunu bilmiyor.
+1977|{climber}, toplantı odasında Kaya sunumunu döktürdü. Ahmet gözle görülür biçimde etkilendi.
+1978|{climber}, Kaya sunumu için makine gibi çalışıyor. Biri bunu fark etti: {rival}.
+1979|{climber}, Kaya sunumu için makine gibi çalışıyor.
+1980|Ahmet, {climber:e} "Henüz değil." dedi. {climber} bunu kötü karşıladı.
+1981|{climber}, Ahmet'e terfiyi sordu. Ahmet terfinin onun olduğunu ima etti.
+1982|{climber}, Ahmet'e terfiyi sordu. Ahmet'in cevabı: "Kanıtla." Yarış başladı.
+1983|{climber} yokken {rival}, onun sunum notlarını sessizce mahvetti.
+1984|Ahmet, {climber:e} ekip liderliği için sıradaki kişinin o olduğunu söyledi.
+1985|Ahmet'e derin derin nefes alınan bir şaka telefonu geldi. Ekranda {owner:in} dahili hattı yazıyordu.
+1986|{actor} toplantıya hazır değildi.
+1987|{actor} sunumu döktürdü.
+1988|{actor:in} sunumu dağıldı — USB bellek yoktu.
+1989|{actor} yazıcıyı sıkışmış buldu.
+1990|{actor}, bozuk yazıcının gizemli bir şekilde yeniden çalıştığını gördü.
+1991|{actor} sinirden yazıcıyı tekmeledi.
+1992|{owner:in} özel dosyası ortak yazıcıdan çıktı — neyse ki önce {owner} kaptı.
+1993|{actor}, {owner:in} özel belgesini yazıcı tepsisinden aldı. Ve okudu.
+1994|{actor} tam sunuma başlarken projeksiyon öldü. {actor} her şeyi elle çizdi. Etkileyici.
+1995|{actor} tam sunuma başlarken projeksiyon öldü. {actor} dağıldı.
+1996|{actor}, Ahmet'in karşısına eski bir yazılı sözle çıktı. Ahmet sıyrılıp kurtuldu. {actor:in} içi buruk.
+1997|{actor}, Ahmet'in iki yıllık sözünü bulup çıkardı ve onunla odaya girdi. Ahmet sözünü tuttu!
+1998|Ahmet kurcalanmış terfi dosyasını okudu. {credited} artık bir yıldız gibi görünüyor.
+1999|Ceren, {target:e} terfi dosyasının değiştirildiğini söyledi.
+2000|{winner} Ekip Lideri oldu!
+2001|Yanlış kişi ödüllendirildi — hak eden {honest} idi.
+2002|Biri ofis buzdolabını boşaltmış. {actor} açları topladı ve hep birlikte öğle yemeğine çıktılar.
+2003|{p1}, {p2:in} masasına şaka yaptı. Şaka savaşı başladı.
+2004|{p1:in} nihai şakası {p2} yerine Ahmet'e denk geldi. Ahmet... güldü. Şaka savaşı ofis efsanesi olarak sona erdi.
+2005|{p1:in} nihai şakası {p2} yerine Ahmet'e denk geldi. İki şakacı da yazılı uyarı aldı.
+2006|{p2}, {p1:e} daha büyük bir şakayla karşılık verdi. Hiçbir masa güvende değil.
+2007|{actor}, bu karmaşa için sessizce {suspect:i} suçluyor.
+2008|Ahmet, {target:in} 'İstifa ediyorum' otomatik yanıtı yüzünden paniğe kapıldı ve oracıkta zam teklif etti. {target} kabul etti.
+2009|{owner:in} e-posta otomatik yanıtında artık 'İstifa ediyorum. Bana ulaşmayın.' yazıyor. Ahmet az önce okudu.
+2010|{target:in} sahte 'İstifa ediyorum' otomatik yanıtı, ona bir şeyi fark ettirdi... belki de gerçekten istifa etmek istiyor.
+2011|Ahmet, {target:in} 'İstifa ediyorum' otomatik yanıtı yüzünden hışımla geldi. Bir aksaklıkmış. Herkes derin bir nefes aldı.
+2012|{actor}, mutfakta {target:e} istifayı düşündüğünü söyledi.
+2013|{actor}, istifa etme fikriyle dertlendi — {target} da ona "yap gitsin" dedi.
+2014|{actor} zam istedi. "Gelecek çeyrek."
+2015|{actor} zam istedi ve sert bir retle karşılaştı.
+2016|{actor}, Ahmet'ten zam istedi — ve aldı. Sessiz sedasız.
+2017|{rich} için yazılmış bir zam mektubu {target:in} masasına düştü. {target} kutlama yaptı — ta ki Zeynep düzeltene kadar.
+2018|{actor} ve {target} barıştı!
+2019|{actor}, {target:den} özür dilemeye çalıştı. Reddedildi.
+2020|{actor} koridorda fısıltıyla bir telefon görüşmesi yaptı. Bir işe alım uzmanı.
+2021|{listener}, {actor:in} bir işe alım uzmanıyla konuştuğuna kulak misafiri oldu.
+2022|{actor:in} imzalı sözleşmesi mutfaktaki geri dönüşüm kutusunda bulundu. Kahve lekesi dahil.
+2023|{target}, Ahmet'ten kendisini 'başka yerlerdeki pozisyonlar için' öneren bir referans mektubu buldu. Bunu bir ima olarak algıladı.

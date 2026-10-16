@@ -1,0 +1,121 @@
+1903|Ece dio la cara ante la oficina por ser la sobrina de Ahmet. El ambiente siguió helado.
+1904|Ece llamó «tío» a Ahmet sin querer. {witness} lo oyó.
+1905|Ece llamó «tío» a Ahmet sin querer. Por suerte, nadie estaba lo bastante cerca para oírlo.
+1906|{witness} le contó a {listener} que Ece es la sobrina de Ahmet. Mañana lo sabrá todo el mundo.
+1907|{witness} intentó que Ceren confirmara el rumor de Ece y Ahmet. Ceren no soltó prenda.
+1908|{witness} le preguntó a Ece por el desliz de «tío». Ece confesó: Ahmet es su tío.
+1909|{quiet} le pidió a {loud} que bajara la voz. {loud} la subió todavía más. Empieza la guerra del ruido.
+1910|{loud} subió el altavoz de la oficina a tope para ganar la guerra del ruido. Todos los demás perdieron.
+1911|{quiet} le pidió a {loud} que bajara la voz. {loud} se disculpó. Paz, por ahora.
+1912|{mediator} sentó a {quiet} y a {loud} en la cocina. Acordaron horas de silencio. Se acabó la guerra del ruido.
+1913|{mediator} intentó acabar con la guerra del ruido. {loud} amenazó con traer una trompeta. Ahora es una enemistad.
+1914|El archivo de {actor} volvió a la versión de hace una semana. Sin copia de seguridad. {actor} lo está rehaciendo todo.
+1915|Los cambios de {actor} desaparecieron: se queda hasta tarde para rehacerlos.
+1916|Alguien devolvió el informe de {actor} a la versión de la semana pasada. {target} lo rescató de una copia de seguridad.
+1917|Un archivo privado de {owner} apareció en la pantalla de {actor}. {actor} lo leyó.
+1918|Ahmet entró en plena fiesta de oficina… y se quedó a comer pastel. Legendario.
+1919|Ahmet entró hecho una furia y acabó con la fiesta de oficina.
+1920|{host} propuso una fiesta de oficina. {helper} la rechazó de inmediato.
+1921|La fiesta improvisada de la oficina está en pleno apogeo en la cocina.
+1922|{helper} preparó en silencio unos aperitivos en la cocina para la fiesta secreta de {host}.
+1923|La fiesta de la cocina duró media hora. Ahmet nunca se enteró. Probablemente.
+1924|Ahmet pilló a {helper} preparando los aperitivos de la fiesta. {helper} dijo que era «el cumpleaños de la planta». Ahmet no pareció convencido.
+1925|{host} propuso una fiesta de oficina y {helper} dijo que sí. Cocina, 4 de la tarde.
+1926|Alguien clavó un organigrama con {target} por encima de Ahmet. Ahmet lo vio.
+1927|{listener} oyó por casualidad la llamada secreta de Burak.
+1928|{subject} entró justo cuando {actor} estaba chismeando sobre {subject}.
+1929|{target} descubrió que {target?lo|la} habían puesto en la lista de horas extra del fin de semana. {target} no piensa quedarse callad{target?o|a}.
+1930|{actor} llegó a su escritorio y lo encontró todo empacado en una caja de cartón. La oficina se teme lo peor.
+1931|Ahmet le confirmó a {actor}: no han despedido a nadie. Alguien solo empacó su escritorio. Alivio… y sospecha.
+1932|En el archivo apareció un «pacto de alianza» firmado por {a} y {b}. Ahora lo sabe toda la oficina.
+1933|Las páginas de la presentación de {actor} estaban totalmente desordenadas. {actor} lo convirtió en un chiste y la sala lo adoró.
+1934|Las páginas de la presentación de {actor} estaban revueltas. {actor} se derrumbó delante de Ahmet.
+1935|{actor} pilló a {target} chismeando sobre {actor?él|ella}. La cosa se puso fea.
+1936|{actor} creyó que {target} chismeaba sobre {actor?él|ella}. Era sobre fútbol.
+1937|{target} tuvo que decirle a {actor} que la fiesta no existe. {actor} se quedó {actor?hundido|hundida}.
+1938|{target} cedió: ahora SÍ hay fiesta esta noche. La oficina está encantada.
+1939|{actor} irrumpió en el despacho de Ahmet con las cifras de la nómina. Ahmet quiere saber quién las filtró.
+1940|La nómina de Zeynep llegó a la bandeja de entrada de {target}. Ahora {target} sabe exactamente cuánto gana {rich}.
+1941|Ahmet eligió la idea de {a} en el duelo de propuestas. {b} se lo está tomando mal.
+1942|Ahmet eligió la idea de {b} en el duelo de propuestas. {a} perdió su propio desafío.
+1943|A Ahmet le gustaron las dos propuestas y les dijo a {a} y {b} que trabajen juntos. Ninguno parece contento.
+1944|{a} retó a {b} a un duelo de propuestas delante de Ahmet. {b} aceptó.
+1945|{a} y {b} preparan sus propuestas a toda máquina. Nadie se atreve a interrumpir.
+1946|{actor} le ofreció a {target} un café de la paz. ¡Vuelven a hablarse!
+1947|{actor} intentó hacer las paces con {target}. {target} no estaba {target?listo|lista}.
+1948|Alguien reescribió el informe de desempeño de {actor} hasta convertirlo en un desastre. Ahmet tuvo una charla sombría con {actor?él|ella}.
+1949|Alguien reescribió el informe de desempeño de {actor} para que brillara. Ahmet {actor?lo|la} elogió; los compañeros huelen algo raro.
+1950|{accomplice} se negó a ayudar a esconder al gatito. {smuggler} lo esconde bajo su escritorio.
+1951|Ahmet encontró al gatito y explotó. El gatito se fue con el vecino de {smuggler}. {smuggler} se llevó un sermón.
+1952|{smuggler} y {accomplice} escondieron un gatito en el archivo. Varias personas ahora «necesitan un expediente» cada cinco minutos.
+1953|Ahmet encontró al gatito. Se derritió. La oficina tiene nueva mascota.
+1954|{smuggler} llegó con una caja de cartón sospechosa. La caja maúlla.
+1955|Una foto vieja y vergonzosa de {owner} apareció en el chat grupal de la oficina. Todo el mundo la ha visto.
+1956|El tablero de reuniones prometía pizza gratis. Todos llegaron temprano y con hambre. No había pizza.
+1957|La planta moribunda de la oficina de pronto está verde y sana. {actor} lo notó. Nadie sabe quién fue.
+1958|La placa del gerente ahora dice «{target}». {target} se pasó la mañana rechazando el papeleo de los demás.
+1959|La placa del gerente ahora dice «{target}». La gente empezó a llevarle el papeleo a {target}… y {target} lo disfrutó.
+1960|Rompiste la cafetera.
+1961|Atascaste la impresora.
+1962|Manipulaste el expediente de ascensos a favor de {target}.
+1963|Trucaste el correo de {actor} para que le llegue a todo el mundo.
+1964|Desviaste el próximo correo de {actor} a {target}.
+1965|Le enviaste a {actor} una notificación falsa.
+1966|Arreglaste la cafetera en secreto.
+1967|Apagaste las luces.
+1968|Volviste a encender las luces.
+1969|Moviste {item?el|la} {item} de {owner} → {loc}.
+1970|Cambiaste la reunión de hoy de las {old_time} a las {new_time}.
+1971|Pusiste el aire acondicionado a {temp}.
+1972|Desordenaste el escritorio de {actor}.
+1973|La evaluación de desempeño de {target} se pospuso «indefinidamente». {target} le está dando muchas vueltas.
+1974|{climber} le preguntó a Ahmet por un ascenso y Ahmet le dio largas.
+1975|La propuesta de {climber} para Kaya se vino abajo delante de Ahmet.
+1976|La propuesta de {climber} para Kaya se vino abajo: alguien había saboteado sus notas. Ahmet no lo sabe.
+1977|{climber} bordó la propuesta para Kaya en la sala de reuniones. Ahmet quedó visiblemente impresionado.
+1978|{climber} trabaja como una máquina en la propuesta para Kaya. Alguien se ha dado cuenta: {rival}.
+1979|{climber} trabaja como una máquina en la propuesta para Kaya.
+1980|Ahmet le dijo a {climber}: «Todavía no». {climber} se lo tomó mal.
+1981|{climber} le preguntó a Ahmet por un ascenso. Él insinuó que es suyo.
+1982|{climber} le preguntó a Ahmet por un ascenso. La respuesta de Ahmet: «Demuéstralo». Empieza la carrera.
+1983|Mientras {climber} no estaba, {rival} destrozó en silencio sus notas para la propuesta.
+1984|Ahmet le dijo a {climber} que es {climber?el siguiente|la siguiente} en la fila para jefe de equipo.
+1985|Ahmet recibió una llamada de broma con respiración jadeante. La pantalla decía que venía de la extensión de {owner}.
+1986|{actor} no estaba {actor?preparado|preparada} para la reunión.
+1987|{actor} bordó la presentación.
+1988|La presentación de {actor} se vino abajo: faltaba la memoria USB.
+1989|{actor} encontró la impresora atascada.
+1990|{actor} encontró la impresora rota misteriosamente funcionando otra vez.
+1991|{actor} le dio una patada a la impresora de pura frustración.
+1992|El archivo privado de {owner} salió por la impresora compartida; por suerte {owner} lo agarró primero.
+1993|{actor} recogió de la bandeja de la impresora el documento privado de {owner}. Y lo leyó.
+1994|El proyector murió justo cuando {actor} empezaba a presentar. {actor} lo dibujó todo a mano. Impresionante.
+1995|El proyector murió justo cuando {actor} empezaba a presentar. {actor} se vino abajo.
+1996|{actor} confrontó a Ahmet con una vieja promesa por escrito. Ahmet se escabulló. {actor} está {actor?amargado|amargada}.
+1997|{actor} desenterró una promesa de Ahmet de hace dos años y entró con ella. ¡Ahmet la cumplió!
+1998|Ahmet leyó el expediente de ascensos manipulado. Ahora {credited} parece una estrella.
+1999|Ceren le contó a {target} que habían cambiado el expediente de ascensos.
+2000|¡{winner} ascendió a {winner?jefe|jefa} de equipo!
+2001|Premiaron a la persona equivocada: {honest} se lo merecía.
+2002|Alguien vació la nevera de la oficina. {actor} reunió a los hambrientos y salieron todos juntos a almorzar.
+2003|{p1} le hizo una broma al escritorio de {p2}. Empieza la guerra de bromas.
+2004|La broma definitiva de {p1} le cayó a Ahmet en vez de a {p2}. Ahmet… se rió. La guerra de bromas termina como leyenda de la oficina.
+2005|La broma definitiva de {p1} le cayó a Ahmet en vez de a {p2}. Los dos bromistas recibieron una amonestación por escrito.
+2006|{p2} le devolvió el golpe a {p1} con una broma aún mayor. Ningún escritorio está a salvo.
+2007|{actor} culpa en silencio a {suspect} del desastre.
+2008|Ahmet entró en pánico por la respuesta automática de «Renuncio» de {target} y le ofreció un aumento en el acto. {target} dijo que sí.
+2009|La respuesta automática del correo de {owner} ahora dice: «Renuncio. No me contacten». Ahmet acaba de leerla.
+2010|La falsa respuesta automática de «Renuncio» le hizo darse cuenta a {target}… de que quizá sí quiere renunciar.
+2011|Ahmet llegó furioso por la respuesta automática de «Renuncio» de {target}. Era un fallo. Todos respiraron otra vez.
+2012|{actor} le contó a {target} en la cocina que está pensando en renunciar.
+2013|{actor} se desahogó sobre renunciar… y {target} le dijo que lo hiciera.
+2014|{actor} pidió un aumento. «El próximo trimestre».
+2015|{actor} pidió un aumento y se llevó un no rotundo.
+2016|{actor} le pidió un aumento a Ahmet… y se lo dio. Discretamente.
+2017|Una carta de aumento para {rich} acabó en el escritorio de {target}. {target} lo celebró… hasta que Zeynep lo corrigió.
+2018|¡{actor} y {target} hicieron las paces!
+2019|{actor} intentó disculparse con {target}. Rechazado.
+2020|{actor} atendió una llamada en voz baja en el pasillo. Un cazatalentos.
+2021|{listener} oyó a {actor} hablando con un cazatalentos.
+2022|El contrato firmado de {actor} apareció en el reciclaje de la cocina. Con mancha de café incluida.
+2023|{target} encontró una carta de recomendación de Ahmet que {target?lo|la} recomienda «para puestos en otro lugar». Se lo tomó como una indirecta.
