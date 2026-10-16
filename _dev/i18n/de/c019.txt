@@ -1,0 +1,222 @@
+3584|... Na gut. Bringen Sie es beide in Ordnung.
+3585|Hm. Also gut. Das passiert nicht noch mal.
+3586|Nächstes Mal sagen Sie mir früher Bescheid.
+3587|Wir wissen beide, dass {enemy} ein Problem ist. Vielleicht helfen wir uns gegenseitig.
+3588|Du und ich gegen {enemy}. Denk mal drüber nach.
+3589|Ich hab Informationen. Du hast Zugang. Partner?
+3590|Seien wir pragmatisch. {enemy} steht uns im Weg. Zusammen kommen wir schneller voran.
+3591|... Ich höre.
+3592|Abgemacht. Aber dieses Gespräch hat nie stattgefunden.
+3593|Partner. Ganz leise.
+3594|Ich lasse mich nicht in deine Machenschaften reinziehen.
+3595|Nein. Und an deiner Stelle würde ich damit aufhören.
+3596|Lass mich da raus.
+3597|Folgendes weiß ich ...
+3598|Frische Infos. Hör zu.
+3599|Das hast du nicht von mir.
+3600|Nützlich. Sehr nützlich.
+3601|Interessant ...
+3602|Jetzt reden wir.
+3603|Hoppla— hoppla— HOPPLA.
+3604|Warum sinkt mein Stuhl?!
+3605|*sinkt langsam unter die Schreibtischkante*
+3606|HAHAHA, wo bist du hin?
+3607|Mann über Bord!
+3608|Jemand soll einen Kran holen!
+3609|Der Kapitän geht mit dem Schiff unter!
+3610|... Das war Absicht.
+3611|Tja. Da geht meine Würde dahin.
+3612|Hahaha, okay, das war lustig.
+3613|EINEN Joghurt vermisst doch keiner.
+3614|Wem gehört dieser Börek? ... Jetzt mir.
+3615|Wer’s findet, darf’s behalten.
+3616|WER HAT MEIN MITTAGESSEN GEGESSEN?!
+3617|Mein Börek! Da stand mein NAME drauf!
+3618|Jemand hat mein Essen gegessen. Ich schreie gleich.
+3619|Wer auch immer mein Mittagessen gegessen hat: Ich finde Sie.
+3620|... Mein Sandwich. Meine einzige Freude.
+3621|Das war {suspect}. Da bin ich mir sicher.
+3622|Wetten, das war {suspect}.
+3623|{suspect} hat vorhin am Kühlschrank rumgelungert ...
+3624|*klopf klopf* Tolle Arbeit heute, Kumpel!
+3625|Hey, schönes Hemd. *klopft auf den Rücken*
+3626|Gut gemacht, Champion. *Schlag auf den Rücken*
+3627|*prust*
+3628|Pfff— nichts! Gar nichts.
+3629|Hahaha, hast du den Rücken gesehen?
+3630|Hab ich was auf meinem— „TRITT MICH“?! MERT!
+3631|Sehr witzig. SEHR witzig.
+3632|Wie lange klebt DAS schon auf meinem Rücken?!
+3633|... Okay, ich respektiere das Engagement.
+3634|Hah. Das zahl ich dir heim. Liebevoll.
+3635|AUA! Wer hat da eine Glaswand hingestellt?!
+3636|*BONK*
+3637|... Die Tür war nicht offen. Notiert.
+3638|Uff! Alles okay?
+3639|Das gibt eine Beule.
+3640|Zehn von zehn, würde ich mir noch mal ansehen.
+3641|NEIN, NEIN, NEIN, nicht die Tastatur!
+3642|Mein Tee! Meine TASTATUR!
+3643|Warum ist meine Tastatur ... knusprig?
+3644|Ich hab gebacken! Küche! Alle!
+3645|Selbstgebackener Kuchen in der Küche. Schnell, bevor Mert ihn findet.
+3646|Kuchen! Ich hab Kuchen gemacht!
+3647|Ich hab einen Kuchen gebacken! Er ist ein bisschen schief, aber VOLLER Liebe!
+3648|Oh mein Gott, der ist fantastisch.
+3649|Krieg ich das Rezept?
+3650|Das Beste an meiner Woche.
+3651|Ist das ... Karotte? Ich liebe es.
+3652|Ich nehm noch ein zweites Stück. Zu Forschungszwecken.
+3653|... Akzeptabel. Sehr akzeptabel.
+3654|Ehrlich gesagt hat {target} die Hälfte der Arbeit gemacht.
+3655|Ahmet Bey — ohne {target} hätte ich das nicht geschafft.
+3656|Die Anerkennung gebührt auch {target}.
+3657|Das hättest du nicht sagen müssen. Danke.
+3658|Wow. Danke dafür.
+3659|Das bedeutet mir viel.
+3660|JA! JA! ABGESCHLOSSEN!
+3661|WER IST {me?DER BESTE|DIE BESTE}? ICH BIN {me?DER BESTE|DIE BESTE}!
+3662|Unterschrieben! UNTERSCHRIEBEN! Bringt mir Kuchen!
+3663|DER GROSSE! ICH HAB DEN GROSSEN ABSCHLUSS!
+3664|Wuhu! Los, Mert!
+3665|Stark!
+3666|Rede! Rede!
+3667|Die Runde geht auf dich!
+3668|SO macht man das!
+3669|Hervorragend. Hervorragend!
+3670|Endlich mal gute Nachrichten.
+3671|Glück. Pures Glück.
+3672|Muss schön sein.
+3673|Hm. Schön für ihn.
+3674|Der Kunde hätte sowieso unterschrieben.
+3675|Diese Zahlen gehen nicht auf ...
+3676|Moment. Wer hat das freigegeben?
+3677|In Zeyneps Bericht klafft ein Loch, so groß wie ein Lastwagen.
+3678|Zeynep. In mein Büro.
+3679|Zeynep! Bringen Sie Ihre Tabellen mit.
+3680|... Das war ein Fehler. Ich wollte ihn korrigieren, bevor es jemand merkt.
+3681|Okay. Ja. Ich hab Mist gebaut. Ich bring das in Ordnung.
+3682|Das ist ... wahrscheinlich Eces Dateneingabe.
+3683|Jemand muss meine Datei geändert haben!
+3684|Ich finde heraus, wer das war.
+3685|Sie bringen das in Ordnung. Heute Abend.
+3686|Das bleibt unter uns. Vorerst.
+3687|Ich hätte mehr erwartet.
+3688|... was witzig ist, denn {fact}
+3689|— oh, so wie: {fact} Ups.
+3690|Nicht dass irgendwer wüsste: {fact} Moment. Vergesst, dass ich das gesagt hab.
+3691|Oh! Apropos: {fact} ... War das ein Geheimnis?
+3692|Ha, und vergiss nicht: {fact} — oh. Oh nein.
+3693|Das hast du jetzt NICHT gesagt.
+3694|Ich hab dir vertraut!
+3695|... Vielen Dank auch.
+3696|Hm. Laut Server-Logs hat jemand um Mitternacht einen ganzen Ordner kopiert.
+3697|Interessant ... wer hat Zugriff auf Selins Dateien?
+3698|Sieh mal an. Logs lügen nie.
+3699|{target}, ich hab was in den Server-Logs gefunden. Das solltest du sehen.
+3700|Ich hab nicht rumgeschnüffelt. Okay, doch. Schau dir das an.
+3701|Bitte WAS?
+3702|Ich wusste es. Ich WUSSTE es.
+3703|Kannst du mir das ausdrucken?
+3704|...
+3705|Hmpf.
+3706|*schaut demonstrativ weg*
+3707|Ach. Du bist’s.
+3708|*ignoriert demonstrativ*
+3709|*eisiger Blick*
+3710|Willst du was über {victim} hören? Faulpelz durch und durch. Verschwindet jeden Nachmittag.
+3711|Sag’s keinem, aber {victim} zieht hinter deinem Rücken über dich her.
+3712|Unter uns — {victim} fliegt demnächst raus.
+3713|Ich höre, {victim} kürzt da ... einiges ab. Ziemlich viel.
+3714|Echt?! Hm.
+3715|Das wusste ich NICHT.
+3716|Interessant ...
+3717|Bevor ich das glaube, will ich Beweise sehen.
+3718|Hey. Ich hab dir einen Kaffee mitgebracht. Können wir reden?
+3719|Ich will das nicht ewig so weitermachen. Waffenstillstand?
+3720|Hör mal ... es tut mir leid. Wirklich.
+3721|Ich hab dir eine Karte gebastelt. Da steht „Entschuldigung“ in drei Sprachen.
+3722|Friedensangebot: ein Simit, leicht zerdrückt.
+3723|... Okay. Waffenstillstand.
+3724|Danke. Mir tut’s auch leid.
+3725|Na gut. Komm her.
+3726|Noch nicht. Nicht nach dem.
+3727|Du glaubst, Kaffee macht das wieder gut?
+3728|Nein.
+3729|Niemals. Nicht {subject}. Das glaube ich nicht.
+3730|Das stimmt nicht. Ich kenne {subject}.
+3731|Wer das gesagt hat, kennt {subject} nicht.
+3732|... Da kommt keiner mehr, oder?
+3733|Ich steh dann einfach ... hier. Allein. Toll.
+3734|Unfassbar. An der Kaffeemaschine versetzt.
+3735|Bin wieder da! Hab ich was verpasst?
+3736|Wieder da. Frag nicht.
+3737|Okay, wo war ich?
+3738|... Zahnarzt. Es war der Zahnarzt.
+3739|{victim:s} Kundenkonzept ist genial. Wäre doch schade, wenn es {victim?seins|ihrs} bliebe.
+3740|Manche Ideen sind zu gut für die Person, die sie hatte.
+3741|Ahmet würde dieses Konzept lieben. Von der richtigen Person.
+3742|Selins Entwurf ist schon wieder auf ihrem Bildschirm offen. Wie unvorsichtig.
+3743|Ahmet Bey, ich habe an etwas gearbeitet. Ein neuer Kunden-Workflow — spart uns pro Projekt eine Woche.
+3744|Haben Sie fünf Minuten? Ich hab eine Idee, die verändern könnte, wie wir pitchen.
+3745|Ich habe ein Konzept entworfen. Ein echter Gamechanger, wenn ich das so sagen darf.
+3746|... Das ist tatsächlich brillant. Warum ist da noch nie jemand drauf gekommen?
+3747|DAS sehe ich gern.
+3748|Hervorragend. Schreiben Sie es auf.
+3749|Alle mal herhören! {thief} hat ein hervorragendes Konzept vorgelegt. Initiative! Lernt daraus!
+3750|Ich möchte, dass Sie alle wissen: {thief:s} neue Workflow-Idee ist genau das Denken, das dieses Büro braucht.
+3751|... Moment. Das ist MEINE Idee.
+3752|Wie bitte? Das ist mein Konzept.
+3753|Das ist ... das ist das, woran ich seit zwei Wochen arbeite.
+3754|Danke, Ahmet Bey. Ich mache nur meinen Job.
+3755|Freut mich, etwas beizutragen.
+3756|Das war meine Idee. Oder? War mein Bildschirm offen, als jemand vorbeiging?
+3757|Hat {thief} meinen Entwurf gesehen? Muss {thief?er|sie} ja ...
+3758|Ich kann nichts beweisen. Noch nicht.
+3759|Das lasse ich nicht auf mir sitzen. Ich brauche Beweise.
+3760|Vielleicht denken große Geister einfach gleich. ... Boah.
+3761|Egal. Ich hab bald eine bessere.
+3762|Hast du {thief} diese Woche in der Nähe meines Schreibtischs gesehen?
+3763|Sei ehrlich. Ist {thief} wirklich selbst auf dieses Konzept gekommen?
+3764|Ich glaube, {thief} hat meine Idee geklaut. Sag mir, dass ich nicht verrückt bin.
+3765|Du bist nicht verrückt. Ich hab gehört, es wurde abgekupfert.
+3766|Ich WUSSTE, dass da was faul ist. Alle tuscheln darüber.
+3767|Frag Burak. Er kann sehen, wer welche Dateien geöffnet hat.
+3768|Burak loggt alles. ALLES.
+3769|Bist du nicht ein bisschen paranoid?
+3770|Ideen schwirren nun mal herum. Lass gut sein.
+3771|Ich hab nichts gesehen. Sorry.
+3772|Burak, kannst du nachsehen, wer letzte Woche meine Konzeptdatei geöffnet hat?
+3773|Ich brauch einen Gefallen. Datei-Logs. Diskret.
+3774|Kopiert von {thief:s} Rechner. Dienstag, 8:52 Uhr. Von mir weißt du das nicht.
+3775|Da. {thief:s} PC. Zweimal. Zufrieden?
+3776|Ich mache keine Büropolitik.
+3777|Nicht meine Baustelle. Sorry.
+3778|Wenn ich anfange, für jeden Logs zu prüfen, komm ich hier nie wieder raus.
+3779|Ahmet Bey, das Workflow-Konzept war von mir. Ich kann es beweisen.
+3780|Ich muss Ihnen etwas zu {thief:s} „Idee“ zeigen.
+3781|{thief} hat mein Konzept geklaut. Hier sind die Datei-Logs.
+3782|... Holen Sie {thief} her. Sofort.
+3783|Das ist inakzeptabel. Danke, dass Sie es mir gesagt haben.
+3784|Verstehe. Darum kümmere ich mich persönlich.
+3785|Für Büropolitik habe ich keine Zeit.
+3786|Ideen gehören der Firma, nicht den Leuten.
+3787|Klären Sie das unter sich.
+3788|Heute ist der Tag. Ich lade {crush} auf einen Kaffee ein.
+3789|Okay. Bleib cool. Sei normal. Sprich mit {crush}.
+3790|Tief durchatmen. {crush}. Kaffee. Worte.
+3791|Mert, du schließt beruflich Deals ab. Schließ auch DIESEN ab.
+3792|Also ... ich hab mich gefragt. Kaffee? Nur wir? Küche, später?
+3793|Du, ich, grauenhafter Bürokaffee. Sagen wir drei Uhr?
+3794|Darf ich dich später auf einen Kaffee entführen? Ich verspreche, charmant zu sein.
+3795|Ich hab das geübt. Kaffee? Mit mir? Später? ... Das war die ganze Rede.
+3796|... Okay. Ja. Später.
+3797|Das fänd ich schön.
+3798|Ha. Na gut. Du zahlst.
+3799|Fünfzehn Minuten. Mach’s nicht komisch.
+3800|Oh — das ist süß. Aber lass uns professionell bleiben.
+3801|Ich glaube, wir sind besser als Freunde.
+3802|Ah ... ich hab heute echt viel zu tun. Und ... generell.
+3803|Also. Das ist schön.
+3804|Vielleicht hab ich dir die letzte gute Tasse aufgehoben.
+3805|Erzähl mir etwas, das hier keiner über dich weiß.

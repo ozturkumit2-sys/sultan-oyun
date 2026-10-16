@@ -3094,5 +3094,549 @@
   "ceren": [
    "Ahmet Bey, die Terminänderung kam von mir."
   ]
+ },
+ "boss_softens": {
+  "_": [
+   "... Na gut. Bringen Sie es beide in Ordnung.",
+   "Hm. Also gut. Das passiert nicht noch mal.",
+   "Nächstes Mal sagen Sie mir früher Bescheid."
+  ]
+ },
+ "pact_offer": {
+  "_": [
+   "Wir wissen beide, dass {enemy} ein Problem ist. Vielleicht helfen wir uns gegenseitig.",
+   "Du und ich gegen {enemy}. Denk mal drüber nach.",
+   "Ich hab Informationen. Du hast Zugang. Partner?"
+  ],
+  "deniz": [
+   "Seien wir pragmatisch. {enemy} steht uns im Weg. Zusammen kommen wir schneller voran."
+  ]
+ },
+ "pact_yes": {
+  "_": [
+   "... Ich höre.",
+   "Abgemacht. Aber dieses Gespräch hat nie stattgefunden.",
+   "Partner. Ganz leise."
+  ]
+ },
+ "pact_no": {
+  "_": [
+   "Ich lasse mich nicht in deine Machenschaften reinziehen.",
+   "Nein. Und an deiner Stelle würde ich damit aufhören.",
+   "Lass mich da raus."
+  ]
+ },
+ "intel_trade": {
+  "_": [
+   "Folgendes weiß ich ...",
+   "Frische Infos. Hör zu.",
+   "Das hast du nicht von mir."
+  ]
+ },
+ "intel_nod": {
+  "_": [
+   "Nützlich. Sehr nützlich.",
+   "Interessant ...",
+   "Jetzt reden wir."
+  ]
+ },
+ "chair_sink": {
+  "_": [
+   "Hoppla— hoppla— HOPPLA.",
+   "Warum sinkt mein Stuhl?!",
+   "*sinkt langsam unter die Schreibtischkante*"
+  ]
+ },
+ "chair_laugh": {
+  "_": [
+   "HAHAHA, wo bist du hin?",
+   "Mann über Bord!",
+   "Jemand soll einen Kran holen!"
+  ],
+  "mert": [
+   "Der Kapitän geht mit dem Schiff unter!"
+  ]
+ },
+ "chair_laugh_self": {
+  "_": [
+   "... Das war Absicht.",
+   "Tja. Da geht meine Würde dahin.",
+   "Hahaha, okay, das war lustig."
+  ]
+ },
+ "fridge_steal_think": {
+  "_": [
+   "EINEN Joghurt vermisst doch keiner.",
+   "Wem gehört dieser Börek? ... Jetzt mir.",
+   "Wer’s findet, darf’s behalten."
+  ]
+ },
+ "lunch_gone": {
+  "_": [
+   "WER HAT MEIN MITTAGESSEN GEGESSEN?!",
+   "Mein Börek! Da stand mein NAME drauf!",
+   "Jemand hat mein Essen gegessen. Ich schreie gleich."
+  ],
+  "ahmet": [
+   "Wer auch immer mein Mittagessen gegessen hat: Ich finde Sie."
+  ],
+  "burak": [
+   "... Mein Sandwich. Meine einzige Freude."
+  ]
+ },
+ "lunch_suspect": {
+  "_": [
+   "Das war {suspect}. Da bin ich mir sicher.",
+   "Wetten, das war {suspect}.",
+   "{suspect} hat vorhin am Kühlschrank rumgelungert ..."
+  ]
+ },
+ "kick_me_stick": {
+  "_": [
+   "*klopf klopf* Tolle Arbeit heute, Kumpel!",
+   "Hey, schönes Hemd. *klopft auf den Rücken*",
+   "Gut gemacht, Champion. *Schlag auf den Rücken*"
+  ]
+ },
+ "kick_me_giggle": {
+  "_": [
+   "*prust*",
+   "Pfff— nichts! Gar nichts.",
+   "Hahaha, hast du den Rücken gesehen?"
+  ]
+ },
+ "kick_me_found": {
+  "_": [
+   "Hab ich was auf meinem— „TRITT MICH“?! MERT!",
+   "Sehr witzig. SEHR witzig.",
+   "Wie lange klebt DAS schon auf meinem Rücken?!"
+  ]
+ },
+ "kick_me_laugh": {
+  "_": [
+   "... Okay, ich respektiere das Engagement.",
+   "Hah. Das zahl ich dir heim. Liebevoll."
+  ]
+ },
+ "bonk": {
+  "_": [
+   "AUA! Wer hat da eine Glaswand hingestellt?!",
+   "*BONK*",
+   "... Die Tür war nicht offen. Notiert."
+  ]
+ },
+ "bonk_laugh": {
+  "_": [
+   "Uff! Alles okay?",
+   "Das gibt eine Beule.",
+   "Zehn von zehn, würde ich mir noch mal ansehen."
+  ]
+ },
+ "keyboard_spill": {
+  "_": [
+   "NEIN, NEIN, NEIN, nicht die Tastatur!",
+   "Mein Tee! Meine TASTATUR!",
+   "Warum ist meine Tastatur ... knusprig?"
+  ]
+ },
+ "cake_announce": {
+  "_": [
+   "Ich hab gebacken! Küche! Alle!",
+   "Selbstgebackener Kuchen in der Küche. Schnell, bevor Mert ihn findet.",
+   "Kuchen! Ich hab Kuchen gemacht!"
+  ],
+  "ece": [
+   "Ich hab einen Kuchen gebacken! Er ist ein bisschen schief, aber VOLLER Liebe!"
+  ]
+ },
+ "cake_yum": {
+  "_": [
+   "Oh mein Gott, der ist fantastisch.",
+   "Krieg ich das Rezept?",
+   "Das Beste an meiner Woche.",
+   "Ist das ... Karotte? Ich liebe es."
+  ],
+  "ahmet": [
+   "... Akzeptabel. Sehr akzeptabel."
+  ],
+  "mert": [
+   "Ich nehm noch ein zweites Stück. Zu Forschungszwecken."
+  ]
+ },
+ "share_credit": {
+  "_": [
+   "Ehrlich gesagt hat {target} die Hälfte der Arbeit gemacht.",
+   "Ahmet Bey — ohne {target} hätte ich das nicht geschafft.",
+   "Die Anerkennung gebührt auch {target}."
+  ]
+ },
+ "credit_shared_thanks": {
+  "_": [
+   "Das hättest du nicht sagen müssen. Danke.",
+   "Wow. Danke dafür.",
+   "Das bedeutet mir viel."
+  ]
+ },
+ "deal_cheer": {
+  "_": [
+   "JA! JA! ABGESCHLOSSEN!",
+   "WER IST {me?DER BESTE|DIE BESTE}? ICH BIN {me?DER BESTE|DIE BESTE}!",
+   "Unterschrieben! UNTERSCHRIEBEN! Bringt mir Kuchen!"
+  ],
+  "mert": [
+   "DER GROSSE! ICH HAB DEN GROSSEN ABSCHLUSS!"
+  ]
+ },
+ "deal_clap": {
+  "_": [
+   "Wuhu! Los, Mert!",
+   "Stark!",
+   "Rede! Rede!",
+   "Die Runde geht auf dich!"
+  ]
+ },
+ "boss_deal_praise": {
+  "_": [
+   "SO macht man das!",
+   "Hervorragend. Hervorragend!",
+   "Endlich mal gute Nachrichten."
+  ]
+ },
+ "deal_jealous": {
+  "_": [
+   "Glück. Pures Glück.",
+   "Muss schön sein.",
+   "Hm. Schön für ihn."
+  ],
+  "deniz": [
+   "Der Kunde hätte sowieso unterschrieben."
+  ]
+ },
+ "audit_find": {
+  "_": [
+   "Diese Zahlen gehen nicht auf ...",
+   "Moment. Wer hat das freigegeben?",
+   "In Zeyneps Bericht klafft ein Loch, so groß wie ein Lastwagen."
+  ]
+ },
+ "audit_summon": {
+  "_": [
+   "Zeynep. In mein Büro.",
+   "Zeynep! Bringen Sie Ihre Tabellen mit."
+  ]
+ },
+ "audit_confess": {
+  "_": [
+   "... Das war ein Fehler. Ich wollte ihn korrigieren, bevor es jemand merkt.",
+   "Okay. Ja. Ich hab Mist gebaut. Ich bring das in Ordnung."
+  ]
+ },
+ "audit_deflect": {
+  "_": [
+   "Das ist ... wahrscheinlich Eces Dateneingabe.",
+   "Jemand muss meine Datei geändert haben!",
+   "Ich finde heraus, wer das war."
+  ]
+ },
+ "boss_audit_angry": {
+  "_": [
+   "Sie bringen das in Ordnung. Heute Abend.",
+   "Das bleibt unter uns. Vorerst.",
+   "Ich hätte mehr erwartet."
+  ]
+ },
+ "slip_line": {
+  "_": [
+   "... was witzig ist, denn {fact}",
+   "— oh, so wie: {fact} Ups.",
+   "Nicht dass irgendwer wüsste: {fact} Moment. Vergesst, dass ich das gesagt hab."
+  ],
+  "ece": [
+   "Oh! Apropos: {fact} ... War das ein Geheimnis?"
+  ],
+  "mert": [
+   "Ha, und vergiss nicht: {fact} — oh. Oh nein."
+  ]
+ },
+ "slip_subject": {
+  "_": [
+   "Das hast du jetzt NICHT gesagt.",
+   "Ich hab dir vertraut!",
+   "... Vielen Dank auch."
+  ]
+ },
+ "logs_find": {
+  "_": [
+   "Hm. Laut Server-Logs hat jemand um Mitternacht einen ganzen Ordner kopiert.",
+   "Interessant ... wer hat Zugriff auf Selins Dateien?",
+   "Sieh mal an. Logs lügen nie."
+  ]
+ },
+ "logs_tell": {
+  "_": [
+   "{target}, ich hab was in den Server-Logs gefunden. Das solltest du sehen.",
+   "Ich hab nicht rumgeschnüffelt. Okay, doch. Schau dir das an."
+  ]
+ },
+ "logs_shock": {
+  "_": [
+   "Bitte WAS?",
+   "Ich wusste es. Ich WUSSTE es.",
+   "Kannst du mir das ausdrucken?"
+  ]
+ },
+ "feud_snub": {
+  "_": [
+   "...",
+   "Hmpf.",
+   "*schaut demonstrativ weg*",
+   "Ach. Du bist’s."
+  ],
+  "ahmet": [
+   "*eisiger Blick*"
+  ],
+  "selin": [
+   "*ignoriert demonstrativ*"
+  ]
+ },
+ "revenge_rumor_pitch": {
+  "_": [
+   "Willst du was über {victim} hören? Faulpelz durch und durch. Verschwindet jeden Nachmittag.",
+   "Sag’s keinem, aber {victim} zieht hinter deinem Rücken über dich her.",
+   "Unter uns — {victim} fliegt demnächst raus."
+  ],
+  "deniz": [
+   "Ich höre, {victim} kürzt da ... einiges ab. Ziemlich viel."
+  ]
+ },
+ "revenge_rumor_listen": {
+  "_": [
+   "Echt?! Hm.",
+   "Das wusste ich NICHT.",
+   "Interessant ..."
+  ],
+  "ceren": [
+   "Bevor ich das glaube, will ich Beweise sehen."
+  ]
+ },
+ "peace_offer": {
+  "_": [
+   "Hey. Ich hab dir einen Kaffee mitgebracht. Können wir reden?",
+   "Ich will das nicht ewig so weitermachen. Waffenstillstand?",
+   "Hör mal ... es tut mir leid. Wirklich."
+  ],
+  "ece": [
+   "Ich hab dir eine Karte gebastelt. Da steht „Entschuldigung“ in drei Sprachen."
+  ],
+  "mert": [
+   "Friedensangebot: ein Simit, leicht zerdrückt."
+  ]
+ },
+ "peace_accept": {
+  "_": [
+   "... Okay. Waffenstillstand.",
+   "Danke. Mir tut’s auch leid.",
+   "Na gut. Komm her."
+  ]
+ },
+ "peace_reject": {
+  "_": [
+   "Noch nicht. Nicht nach dem.",
+   "Du glaubst, Kaffee macht das wieder gut?",
+   "Nein."
+  ]
+ },
+ "defend_friend_rumor": {
+  "_": [
+   "Niemals. Nicht {subject}. Das glaube ich nicht.",
+   "Das stimmt nicht. Ich kenne {subject}.",
+   "Wer das gesagt hat, kennt {subject} nicht."
+  ]
+ },
+ "stood_up": {
+  "_": [
+   "... Da kommt keiner mehr, oder?",
+   "Ich steh dann einfach ... hier. Allein. Toll.",
+   "Unfassbar. An der Kaffeemaschine versetzt."
+  ]
+ },
+ "back_from_out": {
+  "_": [
+   "Bin wieder da! Hab ich was verpasst?",
+   "Wieder da. Frag nicht.",
+   "Okay, wo war ich?"
+  ],
+  "burak": [
+   "... Zahnarzt. Es war der Zahnarzt."
+  ]
+ },
+ "si_think": {
+  "_": [
+   "{victim:s} Kundenkonzept ist genial. Wäre doch schade, wenn es {victim?seins|ihrs} bliebe.",
+   "Manche Ideen sind zu gut für die Person, die sie hatte.",
+   "Ahmet würde dieses Konzept lieben. Von der richtigen Person."
+  ],
+  "deniz": [
+   "Selins Entwurf ist schon wieder auf ihrem Bildschirm offen. Wie unvorsichtig."
+  ]
+ },
+ "si_pitch": {
+  "_": [
+   "Ahmet Bey, ich habe an etwas gearbeitet. Ein neuer Kunden-Workflow — spart uns pro Projekt eine Woche.",
+   "Haben Sie fünf Minuten? Ich hab eine Idee, die verändern könnte, wie wir pitchen.",
+   "Ich habe ein Konzept entworfen. Ein echter Gamechanger, wenn ich das so sagen darf."
+  ]
+ },
+ "si_boss_wow": {
+  "_": [
+   "... Das ist tatsächlich brillant. Warum ist da noch nie jemand drauf gekommen?",
+   "DAS sehe ich gern.",
+   "Hervorragend. Schreiben Sie es auf."
+  ]
+ },
+ "si_praise": {
+  "_": [
+   "Alle mal herhören! {thief} hat ein hervorragendes Konzept vorgelegt. Initiative! Lernt daraus!",
+   "Ich möchte, dass Sie alle wissen: {thief:s} neue Workflow-Idee ist genau das Denken, das dieses Büro braucht."
+  ]
+ },
+ "si_victim_what": {
+  "_": [
+   "... Moment. Das ist MEINE Idee.",
+   "Wie bitte? Das ist mein Konzept.",
+   "Das ist ... das ist das, woran ich seit zwei Wochen arbeite."
+  ]
+ },
+ "si_thief_smug": {
+  "_": [
+   "Danke, Ahmet Bey. Ich mache nur meinen Job.",
+   "Freut mich, etwas beizutragen."
+  ]
+ },
+ "si_suspect": {
+  "_": [
+   "Das war meine Idee. Oder? War mein Bildschirm offen, als jemand vorbeiging?",
+   "Hat {thief} meinen Entwurf gesehen? Muss {thief?er|sie} ja ...",
+   "Ich kann nichts beweisen. Noch nicht."
+  ],
+  "selin": [
+   "Das lasse ich nicht auf mir sitzen. Ich brauche Beweise."
+  ]
+ },
+ "si_let_go": {
+  "_": [
+   "Vielleicht denken große Geister einfach gleich. ... Boah.",
+   "Egal. Ich hab bald eine bessere."
+  ]
+ },
+ "si_ask": {
+  "_": [
+   "Hast du {thief} diese Woche in der Nähe meines Schreibtischs gesehen?",
+   "Sei ehrlich. Ist {thief} wirklich selbst auf dieses Konzept gekommen?",
+   "Ich glaube, {thief} hat meine Idee geklaut. Sag mir, dass ich nicht verrückt bin."
+  ]
+ },
+ "si_conf_knows": {
+  "_": [
+   "Du bist nicht verrückt. Ich hab gehört, es wurde abgekupfert.",
+   "Ich WUSSTE, dass da was faul ist. Alle tuscheln darüber."
+  ]
+ },
+ "si_conf_burak": {
+  "_": [
+   "Frag Burak. Er kann sehen, wer welche Dateien geöffnet hat.",
+   "Burak loggt alles. ALLES."
+  ]
+ },
+ "si_conf_dismiss": {
+  "_": [
+   "Bist du nicht ein bisschen paranoid?",
+   "Ideen schwirren nun mal herum. Lass gut sein.",
+   "Ich hab nichts gesehen. Sorry."
+  ]
+ },
+ "si_ask_burak": {
+  "_": [
+   "Burak, kannst du nachsehen, wer letzte Woche meine Konzeptdatei geöffnet hat?",
+   "Ich brauch einen Gefallen. Datei-Logs. Diskret."
+  ]
+ },
+ "si_burak_found": {
+  "_": [
+   "Kopiert von {thief:s} Rechner. Dienstag, 8:52 Uhr. Von mir weißt du das nicht.",
+   "Da. {thief:s} PC. Zweimal. Zufrieden?"
+  ]
+ },
+ "si_burak_no": {
+  "_": [
+   "Ich mache keine Büropolitik.",
+   "Nicht meine Baustelle. Sorry.",
+   "Wenn ich anfange, für jeden Logs zu prüfen, komm ich hier nie wieder raus."
+  ]
+ },
+ "si_showdown": {
+  "_": [
+   "Ahmet Bey, das Workflow-Konzept war von mir. Ich kann es beweisen.",
+   "Ich muss Ihnen etwas zu {thief:s} „Idee“ zeigen.",
+   "{thief} hat mein Konzept geklaut. Hier sind die Datei-Logs."
+  ]
+ },
+ "si_boss_believes": {
+  "_": [
+   "... Holen Sie {thief} her. Sofort.",
+   "Das ist inakzeptabel. Danke, dass Sie es mir gesagt haben.",
+   "Verstehe. Darum kümmere ich mich persönlich."
+  ]
+ },
+ "si_boss_dismiss": {
+  "_": [
+   "Für Büropolitik habe ich keine Zeit.",
+   "Ideen gehören der Firma, nicht den Leuten.",
+   "Klären Sie das unter sich."
+  ]
+ },
+ "rom_think": {
+  "_": [
+   "Heute ist der Tag. Ich lade {crush} auf einen Kaffee ein.",
+   "Okay. Bleib cool. Sei normal. Sprich mit {crush}.",
+   "Tief durchatmen. {crush}. Kaffee. Worte."
+  ],
+  "mert": [
+   "Mert, du schließt beruflich Deals ab. Schließ auch DIESEN ab."
+  ]
+ },
+ "rom_ask": {
+  "_": [
+   "Also ... ich hab mich gefragt. Kaffee? Nur wir? Küche, später?",
+   "Du, ich, grauenhafter Bürokaffee. Sagen wir drei Uhr?",
+   "Darf ich dich später auf einen Kaffee entführen? Ich verspreche, charmant zu sein."
+  ],
+  "mert": [
+   "Ich hab das geübt. Kaffee? Mit mir? Später? ... Das war die ganze Rede."
+  ]
+ },
+ "rom_yes": {
+  "_": [
+   "... Okay. Ja. Später.",
+   "Das fänd ich schön.",
+   "Ha. Na gut. Du zahlst."
+  ],
+  "ceren": [
+   "Fünfzehn Minuten. Mach’s nicht komisch."
+  ]
+ },
+ "rom_no": {
+  "_": [
+   "Oh — das ist süß. Aber lass uns professionell bleiben.",
+   "Ich glaube, wir sind besser als Freunde.",
+   "Ah ... ich hab heute echt viel zu tun. Und ... generell."
+  ]
+ },
+ "rom_date": {
+  "_": [
+   "Also. Das ist schön.",
+   "Vielleicht hab ich dir die letzte gute Tasse aufgehoben.",
+   "Erzähl mir etwas, das hier keiner über dich weiß."
+  ]
  }
 }

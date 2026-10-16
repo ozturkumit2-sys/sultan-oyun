@@ -3094,5 +3094,549 @@
   "ceren": [
    "Ahmet Bey, program değişikliği benden geldi."
   ]
+ },
+ "boss_softens": {
+  "_": [
+   "...Peki. İkiniz de düzeltin.",
+   "Hm. Tamam. Bir daha olmasın.",
+   "Bir dahaki sefere bana daha erken söyle."
+  ]
+ },
+ "pact_offer": {
+  "_": [
+   "{enemy:in} sorun olduğunu ikimiz de biliyoruz. Belki birbirimize yardım ederiz.",
+   "Sen ve ben, {enemy:e} karşı. Bir düşün.",
+   "Bende bilgi var. Sende erişim. Ortak mıyız?"
+  ],
+  "deniz": [
+   "Pratik olalım. {enemy} yolumuzu tıkıyor. Birlikte daha hızlı ilerleriz."
+  ]
+ },
+ "pact_yes": {
+  "_": [
+   "...Dinliyorum.",
+   "Anlaştık. Ama bu konuşma hiç yaşanmadı.",
+   "Ortağız. Sessizce."
+  ]
+ },
+ "pact_no": {
+  "_": [
+   "Senin entrikalarına bulaşmam.",
+   "Hayır. Ve yerinde olsam bırakırdım.",
+   "Beni bunun dışında tut."
+  ]
+ },
+ "intel_trade": {
+  "_": [
+   "İşte bildiklerim...",
+   "Taze istihbarat. Dinle.",
+   "Bunu benden duymadın."
+  ]
+ },
+ "intel_nod": {
+  "_": [
+   "İşe yarar. Çok işe yarar.",
+   "İlginç...",
+   "İşte şimdi konuşuyoruz."
+  ]
+ },
+ "chair_sink": {
+  "_": [
+   "Hop— hop— HOOP.",
+   "Sandalyem neden alçalıyor?!",
+   "*yavaşça masanın altına gömülür*"
+  ]
+ },
+ "chair_laugh": {
+  "_": [
+   "HAHAHA, nereye gittin?",
+   "Denize adam düştü!",
+   "Biri vinç getirsin!"
+  ],
+  "mert": [
+   "Kaptan gemiyle birlikte batıyor!"
+  ]
+ },
+ "chair_laugh_self": {
+  "_": [
+   "...Bilerek yaptım.",
+   "Eh. İşte haysiyetim de gitti.",
+   "Hahaha, tamam, bu komikti."
+  ]
+ },
+ "fridge_steal_think": {
+  "_": [
+   "BİR yoğurdu kimse aramaz.",
+   "Bu börek kimin? ...Artık benim.",
+   "Bulan alır."
+  ]
+ },
+ "lunch_gone": {
+  "_": [
+   "ÖĞLE YEMEĞİMİ KİM YEDİ?!",
+   "Böreğim! Üstünde ADIM yazıyordu!",
+   "Biri yemeğimi yemiş. Çığlık atacağım."
+  ],
+  "ahmet": [
+   "Öğle yemeğimi kim yediyse: seni bulacağım."
+  ],
+  "burak": [
+   "...Sandviçim. Tek mutluluğum."
+  ]
+ },
+ "lunch_suspect": {
+  "_": [
+   "{suspect} yaptı. Eminim.",
+   "Bahse girerim {suspect} yaptı.",
+   "{suspect} demin buzdolabının başında dolanıyordu..."
+  ]
+ },
+ "kick_me_stick": {
+  "_": [
+   "*pat pat* Bugün harika iş çıkardın, dostum!",
+   "Hey, güzel gömlek. *sırtını sıvazlar*",
+   "Aferin, şampiyon. *sırtına şaplak*"
+  ]
+ },
+ "kick_me_giggle": {
+  "_": [
+   "*kıkırdar*",
+   "Pfff— hiç! Hiçbir şey.",
+   "Hahaha, sırtını gördün mü?"
+  ]
+ },
+ "kick_me_found": {
+  "_": [
+   "Sırtımda bir şey mi— \"BANA TEKME AT\" mı?! MERT!",
+   "Çok komik. ÇOK komik.",
+   "BU ne zamandır sırtımda?!"
+  ]
+ },
+ "kick_me_laugh": {
+  "_": [
+   "...Tamam, bu azme saygı duyuyorum.",
+   "Hah. Bunu ödeyeceksin. Sevgiyle."
+  ]
+ },
+ "bonk": {
+  "_": [
+   "AY! Oraya cam duvarı kim koydu?!",
+   "*GÜM*",
+   "...O kapı açık değilmiş. Not edildi."
+  ]
+ },
+ "bonk_laugh": {
+  "_": [
+   "Ah! İyi misin?",
+   "Bu iz bırakır.",
+   "On üzerinden on, tekrar izlerim."
+  ]
+ },
+ "keyboard_spill": {
+  "_": [
+   "HAYIR HAYIR HAYIR, klavye olmaz!",
+   "Çayım! KLAVYEM!",
+   "Klavyem neden... çıtırdıyor?"
+  ]
+ },
+ "cake_announce": {
+  "_": [
+   "Kek yaptım! Mutfağa! Herkes!",
+   "Mutfakta ev yapımı kek var. Mert bulmadan çabuk gelin.",
+   "Kek! Kek yaptım!"
+  ],
+  "ece": [
+   "Kek yaptım! Biraz yamuk ama sevgi DOLU!"
+  ]
+ },
+ "cake_yum": {
+  "_": [
+   "Aman tanrım, bu muhteşem.",
+   "Tarifini alabilir miyim?",
+   "Haftamın en güzel anı.",
+   "Bu... havuçlu mu? Bayıldım."
+  ],
+  "ahmet": [
+   "...Kabul edilebilir. Gayet kabul edilebilir."
+  ],
+  "mert": [
+   "İkinci dilimi alıyorum. Araştırma amaçlı."
+  ]
+ },
+ "share_credit": {
+  "_": [
+   "Açıkçası o işin yarısını {target} yaptı.",
+   "Ahmet Bey — {target} olmadan yapamazdım.",
+   "Övgü {target:e} de ait."
+  ]
+ },
+ "credit_shared_thanks": {
+  "_": [
+   "Bunu söylemek zorunda değildin. Teşekkürler.",
+   "Vay. Bunun için teşekkürler.",
+   "Bu benim için çok değerli."
+  ]
+ },
+ "deal_cheer": {
+  "_": [
+   "EVET! EVET! KAPATTIM!",
+   "EN İYİSİ KİM? EN İYİSİ BENİM!",
+   "İmzalandı! İMZALANDI! Biri bana kek getirsin!"
+  ],
+  "mert": [
+   "BÜYÜK OLANI! BÜYÜK SATIŞI KAPATTIM!"
+  ]
+ },
+ "deal_clap": {
+  "_": [
+   "Vuuu! Helal Mert!",
+   "Güzel!",
+   "Konuşma! Konuşma!",
+   "İçkiler senden!"
+  ]
+ },
+ "boss_deal_praise": {
+  "_": [
+   "İşte BÖYLE yapılır!",
+   "Mükemmel. Mükemmel!",
+   "Nihayet, biraz iyi haber."
+  ]
+ },
+ "deal_jealous": {
+  "_": [
+   "Şans. Tamamen şans.",
+   "Ne güzel, ona da çıktı.",
+   "Hm. Aferin ona."
+  ],
+  "deniz": [
+   "Müşteri zaten imzalayacaktı."
+  ]
+ },
+ "audit_find": {
+  "_": [
+   "Bu rakamlar tutmuyor...",
+   "Dur. Bunu kim onayladı?",
+   "Zeynep'in raporunda kamyon büyüklüğünde bir delik var."
+  ]
+ },
+ "audit_summon": {
+  "_": [
+   "Zeynep. Odama.",
+   "Zeynep! Tablolarını getir."
+  ]
+ },
+ "audit_confess": {
+  "_": [
+   "...Bir hataydı. Kimse görmeden düzeltecektim.",
+   "Tamam. Evet. Batırdım. Düzelteceğim."
+  ]
+ },
+ "audit_deflect": {
+  "_": [
+   "Bu... muhtemelen Ece'nin veri girişi.",
+   "Biri dosyamı değiştirmiş olmalı!",
+   "Bunu kimin yaptığına bakacağım."
+  ]
+ },
+ "boss_audit_angry": {
+  "_": [
+   "Düzelteceksin. Bu gece.",
+   "Bu aramızda kalacak. Şimdilik.",
+   "Senden daha iyisini beklerdim."
+  ]
+ },
+ "slip_line": {
+  "_": [
+   "...ki bu komik, çünkü {fact}",
+   "— ah, tıpkı şu gibi: {fact} Eyvah.",
+   "Gerçi kimse bilmiyor: {fact} Dur. Bunu söylediğimi unutun."
+  ],
+  "ece": [
+   "Ah! Laf açılmışken, {fact} ...Bu sır mıydı?"
+  ],
+  "mert": [
+   "Ha, bir de şunu unutma: {fact} — ah. Eyvah."
+  ]
+ },
+ "slip_subject": {
+  "_": [
+   "Bunu GERÇEKTEN söylemedin.",
+   "Sana güvenmiştim!",
+   "...Çok sağ ol."
+  ]
+ },
+ "logs_find": {
+  "_": [
+   "Hıh. Sunucu kayıtlarına göre biri gece yarısı koca bir klasörü kopyalamış.",
+   "İlginç... Selin'in dosyalarına kimin erişimi var?",
+   "Bak sen. Kayıtlar asla yalan söylemez."
+  ]
+ },
+ "logs_tell": {
+  "_": [
+   "{target}, sunucu kayıtlarında bir şey buldum. Bunu görmen lazım.",
+   "Kurcalamıyordum. Tamam, kurcalıyordum. Şuna bak."
+  ]
+ },
+ "logs_shock": {
+  "_": [
+   "NE yapmış?",
+   "Biliyordum. BİLİYORDUM.",
+   "Bunu benim için yazdırabilir misin?"
+  ]
+ },
+ "feud_snub": {
+  "_": [
+   "...",
+   "Hıh.",
+   "*başını öbür tarafa çevirir*",
+   "Ha. Sensin."
+  ],
+  "ahmet": [
+   "*buz gibi bakış*"
+  ],
+  "selin": [
+   "*bariz şekilde görmezden gelir*"
+  ]
+ },
+ "revenge_rumor_pitch": {
+  "_": [
+   "{victim} hakkında bir şey duymak ister misin? Tam bir tembel. Her öğleden sonra sıvışıyor.",
+   "Kimseye söyleme ama {victim} arkandan seni yerin dibine sokuyor.",
+   "Aramızda kalsın — {victim} kovulmak üzere."
+  ],
+  "deniz": [
+   "Duydum ki {victim} biraz... işleri kestirip atıyormuş. Hem de fena."
+  ]
+ },
+ "revenge_rumor_listen": {
+  "_": [
+   "Gerçekten mi?! Hıh.",
+   "Bunu BİLMİYORDUM.",
+   "İlginç..."
+  ],
+  "ceren": [
+   "Buna inanmadan önce kanıt görmek isterim."
+  ]
+ },
+ "peace_offer": {
+  "_": [
+   "Hey. Sana kahve getirdim. Konuşabilir miyiz?",
+   "Bunu sürdürmek istemiyorum. Ateşkes?",
+   "Bak... özür dilerim. Gerçekten."
+  ],
+  "ece": [
+   "Sana bir kart yaptım. Üç dilde özür diliyor."
+  ],
+  "mert": [
+   "Barış hediyesi: bir simit, biraz ezik."
+  ]
+ },
+ "peace_accept": {
+  "_": [
+   "...Tamam. Ateşkes.",
+   "Teşekkürler. Ben de özür dilerim.",
+   "Peki. Gel buraya."
+  ]
+ },
+ "peace_reject": {
+  "_": [
+   "Henüz değil. O olanlardan sonra değil.",
+   "Bunu bir kahvenin düzelteceğini mi sanıyorsun?",
+   "Hayır."
+  ]
+ },
+ "defend_friend_rumor": {
+  "_": [
+   "Olamaz. {subject} değil. İnanmıyorum.",
+   "Bu doğru değil. Ben {subject:i} tanırım.",
+   "Bunu kim dediyse {subject:i} tanımıyor."
+  ]
+ },
+ "stood_up": {
+  "_": [
+   "...Gelmiyor, değil mi?",
+   "Ben de... burada dikileyim. Yalnız. Süper.",
+   "İnanılmaz. Kahve makinesinin başında ekildim."
+  ]
+ },
+ "back_from_out": {
+  "_": [
+   "Döndüm! Bir şey kaçırdım mı?",
+   "Döndüm. Sorma.",
+   "Tamam, nerede kalmıştım?"
+  ],
+  "burak": [
+   "...Dişçi. Dişçideydim."
+  ]
+ },
+ "si_think": {
+  "_": [
+   "{victim:in} müşteri teklifi harika. Onda kalsa yazık olur.",
+   "Bazı fikirler, onları bulan kişi için fazla iyidir.",
+   "Ahmet bu teklife bayılır. Doğru kişiden gelirse."
+  ],
+  "deniz": [
+   "Selin'in taslağı yine ekranında açık. Ne dikkatsiz."
+  ]
+ },
+ "si_pitch": {
+  "_": [
+   "Ahmet Bey, bir şey üzerinde çalışıyordum. Yeni bir müşteri iş akışı — proje başına bir hafta kazandırıyor.",
+   "Beş dakikanız var mı? Sunum yapma şeklimizi değiştirebilecek bir fikrim var.",
+   "Bir teklif hazırladım. Kendi ağzımla söylemek gibi olmasın ama oyunun kurallarını değiştirir."
+  ]
+ },
+ "si_boss_wow": {
+  "_": [
+   "...Bu gerçekten parlak. Daha önce neden kimse düşünmedi?",
+   "İşte görmek istediğim BU.",
+   "Mükemmel. Yazıya dök."
+  ]
+ },
+ "si_praise": {
+  "_": [
+   "Herkes! Dinleyin. {thief} mükemmel bir teklif hazırladı. İşte inisiyatif! Ondan öğrenin!",
+   "Hepiniz bilin: {thief:in} yeni iş akışı fikri tam da bu ofisin ihtiyaç duyduğu düşünce."
+  ]
+ },
+ "si_victim_what": {
+  "_": [
+   "...Dur. O BENİM fikrim.",
+   "Pardon? O benim teklifim.",
+   "Bu... iki haftadır üzerinde çalıştığım şey."
+  ]
+ },
+ "si_thief_smug": {
+  "_": [
+   "Teşekkürler Ahmet Bey. Sadece işimi yapıyorum.",
+   "Katkı sağlamaktan mutluluk duyarım."
+  ]
+ },
+ "si_suspect": {
+  "_": [
+   "O benim fikrimdi. Değil mi? Önümden geçerken ekranım açık mıydı?",
+   "{thief} taslağımı mı gördü? Görmüş olmalı...",
+   "Hiçbir şey kanıtlayamıyorum. Henüz."
+  ],
+  "selin": [
+   "Bunun peşini bırakmayacağım. Kanıt lazım."
+  ]
+ },
+ "si_let_go": {
+  "_": [
+   "Belki büyük beyinler aynı düşünür. ...Off.",
+   "Neyse. Daha iyisini bulurum."
+  ]
+ },
+ "si_ask": {
+  "_": [
+   "Bu hafta {thief:i} masamın yakınında gördün mü?",
+   "Dürüst ol. O teklifi {thief} kendisi mi buldu?",
+   "Sanırım {thief} fikrimi çaldı. Deli olmadığımı söyle."
+  ]
+ },
+ "si_conf_knows": {
+  "_": [
+   "Deli değilsin. Kopyaladığını duydum.",
+   "Bir terslik olduğunu BİLİYORDUM. Herkes bunu fısıldıyor."
+  ]
+ },
+ "si_conf_burak": {
+  "_": [
+   "Burak'a sor. Kimin hangi dosyayı açtığını görebiliyor.",
+   "Burak her şeyin kaydını tutar. HER ŞEYİN."
+  ]
+ },
+ "si_conf_dismiss": {
+  "_": [
+   "Biraz paranoyak olmuyor musun?",
+   "Fikirler ortalıkta dolaşır. Boş ver.",
+   "Ben bir şey görmedim. Kusura bakma."
+  ]
+ },
+ "si_ask_burak": {
+  "_": [
+   "Burak, geçen hafta teklif dosyamı kimin açtığına bakabilir misin?",
+   "Bir iyilik lazım. Dosya kayıtları. Sessizce."
+  ]
+ },
+ "si_burak_found": {
+  "_": [
+   "{thief:in} bilgisayarından kopyalanmış. Salı, 08:52. Benden duymadın.",
+   "İşte. {thief:in} bilgisayarı. İki kez. Mutlu musun?"
+  ]
+ },
+ "si_burak_no": {
+  "_": [
+   "Ben ofis politikasına girmem.",
+   "Beni ilgilendirmez. Kusura bakma.",
+   "Herkes için kayıt bakmaya başlarsam buradan hiç çıkamam."
+  ]
+ },
+ "si_showdown": {
+  "_": [
+   "Ahmet Bey, o iş akışı teklifi benimdi. Kanıtlayabilirim.",
+   "{thief:in} \"fikri\" hakkında size bir şey göstermem lazım.",
+   "{thief} teklifimi çaldı. İşte dosya kayıtları."
+  ]
+ },
+ "si_boss_believes": {
+  "_": [
+   "...{thief:i} buraya çağırın. Hemen.",
+   "Bu kabul edilemez. Söylediğin için teşekkürler.",
+   "Anlıyorum. Bununla bizzat ilgileneceğim."
+  ]
+ },
+ "si_boss_dismiss": {
+  "_": [
+   "Ofis politikasına ayıracak vaktim yok.",
+   "Fikirler şirkete aittir, kişilere değil.",
+   "Aranızda halledin."
+  ]
+ },
+ "rom_think": {
+  "_": [
+   "Bugün o gün. {crush:e} kahve teklif edeceğim.",
+   "Tamam. Sakin ol. Normal ol. {crush} ile konuş.",
+   "Derin nefes. {crush}. Kahve. Kelimeler."
+  ],
+  "mert": [
+   "Mert, sen satış kapatarak geçiniyorsun. BUNU da kapat."
+  ]
+ },
+ "rom_ask": {
+  "_": [
+   "Şey... düşünüyordum da. Kahve? Sadece ikimiz? Mutfak, sonra?",
+   "Sen, ben ve berbat ofis kahvesi. Saat üç olur mu?",
+   "Seni sonra bir kahveye kaçırabilir miyim? Çok sevimli olacağıma söz veriyorum."
+  ],
+  "mert": [
+   "Bunu prova ettim. Kahve? Benimle? Sonra? ...Bütün konuşma buydu."
+  ]
+ },
+ "rom_yes": {
+  "_": [
+   "...Tamam. Evet. Sonra.",
+   "Çok isterim.",
+   "Ha. Peki. Sen ısmarlıyorsun."
+  ],
+  "ceren": [
+   "On beş dakika. Tuhaflaştırma."
+  ]
+ },
+ "rom_no": {
+  "_": [
+   "Ah — çok tatlı. Ama profesyonel kalalım.",
+   "Bence arkadaş olarak daha iyiyiz.",
+   "Ah... bugün çok yoğunum. Ve... genel olarak."
+  ]
+ },
+ "rom_date": {
+  "_": [
+   "Eee. Bu güzelmiş.",
+   "Sana son düzgün kupayı ayırmış olabilirim.",
+   "Bana buradaki kimsenin bilmediği bir şey anlat."
+  ]
  }
 }

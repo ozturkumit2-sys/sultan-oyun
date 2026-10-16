@@ -1,0 +1,222 @@
+3584|…Bien. Arréglenlo los dos.
+3585|Mm. Vale. Que no vuelva a pasar.
+3586|La próxima vez, avísame antes.
+3587|Los dos sabemos que {enemy} es un problema. Quizá podamos ayudarnos.
+3588|Tú y yo contra {enemy}. Piénsalo.
+3589|Yo tengo información. Tú tienes acceso. ¿Socios?
+3590|Seamos prácticos. {enemy} nos estorba. Juntos avanzamos más rápido.
+3591|…Te escucho.
+3592|Trato hecho. Pero esta conversación nunca existió.
+3593|Socios. En silencio.
+3594|No pienso meterme en tus tejemanejes.
+3595|No. Y yo que tú lo dejaría.
+3596|A mí déjame fuera de esto.
+3597|Esto es lo que sé…
+3598|Información fresca. Escucha.
+3599|Esto no lo has oído de mí.
+3600|Útil. Muy útil.
+3601|Interesante…
+3602|Ahora sí hablamos el mismo idioma.
+3603|Ey… ey… ¡EEEY!
+3604|¿¡Por qué se hunde mi silla!?
+3605|*se hunde lentamente bajo el escritorio*
+3606|¡JAJAJA! ¿Adónde te fuiste?
+3607|¡Hombre al agua!
+3608|¡Que alguien traiga una grúa!
+3609|¡El capitán se hunde con el barco!
+3610|…Lo hice a propósito.
+3611|Bueno. Adiós a mi dignidad.
+3612|Jajaja, vale, eso tuvo gracia.
+3613|Nadie va a echar de menos UN yogur.
+3614|¿De quién es este börek? …Ahora es mío.
+3615|Quien lo encuentra se lo queda.
+3616|¿¡QUIÉN SE COMIÓ MI ALMUERZO!?
+3617|¡Mi börek! ¡Tenía mi NOMBRE!
+3618|Alguien se comió mi comida. Voy a gritar.
+3619|Quien se haya comido mi almuerzo: te encontraré.
+3620|…Mi sándwich. Mi única alegría.
+3621|Fue {suspect}. Estoy {me?seguro|segura}.
+3622|Seguro que fue {suspect}.
+3623|{suspect} estuvo merodeando por la nevera hace un rato…
+3624|*palmadita* ¡Buen trabajo hoy, colega!
+3625|Oye, bonita camisa. *palmadita en la espalda*
+3626|Bien hecho, campeón. *palmada en la espalda*
+3627|*resoplido*
+3628|Pfff… ¡nada! Nada.
+3629|Jajaja, ¿le viste la espalda?
+3630|¿Tengo algo en la… «PATÉAME»?! ¡MERT!
+3631|Muy gracioso. MUY gracioso.
+3632|¿¡Cuánto tiempo llevo con ESTO en la espalda!?
+3633|…Vale, respeto el compromiso.
+3634|Ja. Me las vas a pagar. Con cariño.
+3635|¡AY! ¿¡Quién puso ahí una pared de cristal!?
+3636|*¡BONK!*
+3637|…Esa puerta no estaba abierta. Anotado.
+3638|¡Uf! ¿Estás bien?
+3639|Eso va a dejar marca.
+3640|Un diez, lo volvería a ver.
+3641|¡NO, NO, NO, el teclado no!
+3642|¡Mi té! ¡Mi TECLADO!
+3643|¿Por qué mi teclado está… crujiente?
+3644|¡Horneé algo! ¡A la cocina! ¡Todos!
+3645|Pastel casero en la cocina. Rápido, antes de que lo encuentre Mert.
+3646|¡Pastel! ¡Hice pastel!
+3647|¡Hice un pastel! ¡Está un poco torcido pero LLENO de amor!
+3648|Dios mío, esto está buenísimo.
+3649|¿Me pasas la receta?
+3650|Lo mejor de mi semana.
+3651|¿Es… de zanahoria? Me encanta.
+3652|Me llevo un segundo trozo. Para investigar.
+3653|…Aceptable. Muy aceptable.
+3654|La verdad es que {target} hizo la mitad de ese trabajo.
+3655|Ahmet Bey, no lo habría logrado sin {target}.
+3656|El mérito también es de {target}.
+3657|No tenías por qué decir eso. Gracias.
+3658|Vaya. Gracias por eso.
+3659|Significa mucho para mí.
+3660|¡SÍ! ¡SÍ! ¡CERRADO!
+3661|¿QUIÉN ES {me?EL MEJOR|LA MEJOR}? ¡YO SOY {me?EL MEJOR|LA MEJOR}!
+3662|¡Firmado! ¡FIRMADO! ¡Que alguien me traiga pastel!
+3663|¡EL GORDO! ¡CERRÉ EL GORDO!
+3664|¡Uuuh! ¡Vamos, Mert!
+3665|¡Bien!
+3666|¡Que hable! ¡Que hable!
+3667|¡Las copas corren de tu cuenta!
+3668|¡ASÍ se hace!
+3669|Excelente. ¡Excelente!
+3670|Por fin, una buena noticia.
+3671|Suerte. Pura suerte.
+3672|Qué bien le va a algunos.
+3673|Mm. Me alegro por él.
+3674|El cliente habría firmado de todos modos.
+3675|Estas cifras no cuadran…
+3676|Espera. ¿Quién aprobó esto?
+3677|El informe de Zeynep tiene un agujero del tamaño de un camión.
+3678|Zeynep. A mi despacho.
+3679|¡Zeynep! Trae tus hojas de cálculo.
+3680|…Fue un error. Pensaba arreglarlo antes de que nadie lo viera.
+3681|Vale. Sí. Metí la pata. Lo arreglaré.
+3682|Eso… seguramente es de la carga de datos de Ece.
+3683|¡Alguien ha tenido que cambiar mi archivo!
+3684|Averiguaré quién hizo esto.
+3685|Lo arreglarás. Esta noche.
+3686|Esto queda entre nosotros. Por ahora.
+3687|Esperaba más de ti.
+3688|…lo cual tiene gracia, porque {fact}
+3689|…ah, como que {fact} Uy.
+3690|No es que nadie sepa que {fact} Espera. Olviden lo que dije.
+3691|¡Ah! Hablando de eso, {fact} …¿Era un secreto?
+3692|Ja, y no te olvides de que {fact}… ay. Ay, no.
+3693|NO acabas de decir eso.
+3694|¡Confiaba en ti!
+3695|…Muchas gracias.
+3696|Vaya. Los registros del servidor dicen que alguien copió una carpeta entera a medianoche.
+3697|Interesante… ¿quién tiene acceso a los archivos de Selin?
+3698|Vaya, vaya. Los registros nunca mienten.
+3699|{target}, encontré algo en los registros del servidor. Tienes que ver esto.
+3700|No estaba husmeando. Vale, sí. Mira esto.
+3701|¿¡Que hizo QUÉ!?
+3702|Lo sabía. LO SABÍA.
+3703|¿Me lo puedes imprimir?
+3704|…
+3705|Hmpf.
+3706|*mira hacia otro lado*
+3707|Ah. Eres tú.
+3708|*ignora de forma descarada*
+3709|*mirada gélida*
+3710|¿Quieres oír algo de {victim}? {victim?Un vago|Una vaga} de manual. Se escaquea todas las tardes.
+3711|No se lo digas a nadie, pero {victim} te pone verde a tus espaldas.
+3712|Entre nosotros: a {victim} están a punto de despedirl{victim?o|a}.
+3713|He oído que {victim} ha estado… tomando atajos. Atajos enormes.
+3714|¿¡En serio!? Vaya.
+3715|NO lo sabía.
+3716|Interesante…
+3717|Antes de creerme eso, quiero pruebas.
+3718|Oye. Te traje un café. ¿Podemos hablar?
+3719|No quiero seguir así. ¿Tregua?
+3720|Mira… lo siento. De verdad.
+3721|Te hice una tarjeta. Dice «perdón» en tres idiomas.
+3722|Ofrenda de paz: un simit, un poco aplastado.
+3723|…Vale. Tregua.
+3724|Gracias. Yo también lo siento.
+3725|Bueno. Ven aquí.
+3726|Todavía no. No después de eso.
+3727|¿Crees que un café lo arregla?
+3728|No.
+3729|Ni hablar. {subject} no. No me lo creo.
+3730|Eso no es verdad. Conozco a {subject}.
+3731|Quien haya dicho eso no conoce a {subject}.
+3732|…No va a venir, ¿verdad?
+3733|Me quedaré… aquí. Sol{me?o|a}. Genial.
+3734|Increíble. Me dejaron plantad{me?o|a} junto a la cafetera.
+3735|¡Ya volví! ¿Me perdí algo?
+3736|Ya volví. No preguntes.
+3737|Vale, ¿por dónde iba?
+3738|…El dentista. Fue el dentista.
+3739|La propuesta de cliente de {victim} es brillante. Sería una pena que siguiera siendo suya.
+3740|Algunas ideas son demasiado buenas para quien las tuvo.
+3741|A Ahmet le encantaría esa propuesta. Viniendo de la persona adecuada.
+3742|Selin tiene otra vez el borrador abierto en la pantalla. Qué descuidada.
+3743|Ahmet Bey, he estado trabajando en algo. Un nuevo flujo de trabajo con clientes: nos ahorra una semana por proyecto.
+3744|¿Tiene cinco minutos? Tengo una idea que podría cambiar nuestra forma de presentar.
+3745|He redactado una propuesta. Revolucionaria, aunque esté mal que yo lo diga.
+3746|…Esto es realmente brillante. ¿Por qué no se le había ocurrido a nadie antes?
+3747|ESTO es lo que me gusta ver.
+3748|Excelente. Ponlo por escrito.
+3749|¡Todos! Escuchen. {thief} ha presentado una propuesta excelente. ¡Eso es iniciativa! ¡Aprendan!
+3750|Quiero que todos sepan que la nueva idea de flujo de trabajo de {thief} es justo la mentalidad que necesita esta oficina.
+3751|…Espera. Esa es MI idea.
+3752|¿Perdona? Esa propuesta es mía.
+3753|Eso… eso es en lo que llevo trabajando dos semanas.
+3754|Gracias, Ahmet Bey. Solo hago mi trabajo.
+3755|Encantad{me?o|a} de aportar.
+3756|Esa era mi idea. ¿No? ¿Tenía la pantalla abierta cuando pasó por aquí?
+3757|¿{thief} vio mi borrador? Tuvo que verlo…
+3758|No puedo demostrar nada. Todavía.
+3759|No pienso dejarlo pasar. Necesito pruebas.
+3760|Quizá las grandes mentes piensan igual. …Uf.
+3761|Da igual. Se me ocurrirá una mejor.
+3762|¿Viste a {thief} cerca de mi escritorio esta semana?
+3763|Sé sincer{to?o|a}. ¿A {thief} se le ocurrió esa propuesta solit{thief?o|a}?
+3764|Creo que {thief} me robó la idea. Dime que no estoy loc{me?o|a}.
+3765|No estás loc{to?o|a}. Me dijeron que la copió.
+3766|SABÍA que algo no cuadraba. Todo el mundo lo comenta en voz baja.
+3767|Pregúntale a Burak. Él puede ver quién abrió qué archivos.
+3768|Burak guarda registros de todo. De TODO.
+3769|¿No estás siendo un poco paranoic{to?o|a}?
+3770|Las ideas andan por ahí. Déjalo estar.
+3771|Yo no vi nada. Lo siento.
+3772|Burak, ¿puedes mirar quién abrió mi archivo de la propuesta la semana pasada?
+3773|Necesito un favor. Registros de archivos. Con discreción.
+3774|Copiado desde la máquina de {thief}. Martes, 8:52. No lo has oído de mí.
+3775|Ahí está. La computadora de {thief}. Dos veces. ¿Content{to?o|a}?
+3776|Yo no me meto en política de oficina.
+3777|No es asunto mío. Lo siento.
+3778|Si empiezo a revisar registros para todo el mundo, no salgo nunca de aquí.
+3779|Ahmet Bey, la propuesta del flujo de trabajo era mía. Puedo demostrarlo.
+3780|Tengo que enseñarle algo sobre la «idea» de {thief}.
+3781|{thief} me robó la propuesta. Aquí están los registros de archivos.
+3782|…Que venga {thief}. Ya.
+3783|Esto es inaceptable. Gracias por decírmelo.
+3784|Entiendo. Me ocuparé de esto personalmente.
+3785|No tengo tiempo para política de oficina.
+3786|Las ideas pertenecen a la empresa, no a las personas.
+3787|Arréglenlo entre ustedes.
+3788|Hoy es el día. Voy a invitar a {crush} a un café.
+3789|Vale. Con calma. Normal. Habla con {crush}.
+3790|Respira hondo. {crush}. Café. Palabras.
+3791|Mert, cierras ventas para ganarte la vida. Cierra ESTA.
+3792|Entonces… estaba pensando. ¿Un café? ¿Solo nosotros? ¿En la cocina, luego?
+3793|Tú, yo y el café horrible de la oficina. ¿A las tres?
+3794|¿Te puedo robar luego para un café? Prometo ser encantador{me?|a}.
+3795|Lo he ensayado. ¿Café? ¿Conmigo? ¿Luego? …Ese era todo el discurso.
+3796|…Vale. Sí. Luego.
+3797|Me encantaría.
+3798|Ja. Vale. Invitas tú.
+3799|Quince minutos. No lo hagas raro.
+3800|Ay, qué tierno. Pero mantengámoslo en lo profesional.
+3801|Creo que estamos mejor como amigos.
+3802|Ah… hoy estoy muy liad{me?o|a}. Y… en general.
+3803|Bueno. Esto está bien.
+3804|Puede que te haya guardado la última taza decente.
+3805|Cuéntame algo de ti que nadie sepa aquí.
