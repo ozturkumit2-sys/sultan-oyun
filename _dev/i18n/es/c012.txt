@@ -1,0 +1,111 @@
+2024|{target} encontró una carta de recomendación brillante de Ahmet… y empezó a usarla para postularse a otros trabajos.
+2025|{actor} oyó un rumor sobre su {subject?amigo|amiga} {subject}… y se negó en redondo a creerlo.
+2026|Un misterioso recordatorio del teléfono le dijo a {owner} que le comprara flores a {crush}. Fue… incómodo.
+2027|Un misterioso recordatorio del teléfono le dijo a {owner} que le comprara flores a {crush}. {owner} lo hizo. A {crush} le encantó.
+2028|El teléfono de {owner} le recordó que tenía gimnasio a las 16:30. Se fue temprano.
+2029|Un recordatorio del teléfono le dijo a {owner} que pidiera un aumento hoy. Así que {owner} entró directo al despacho de Ahmet.
+2030|{actor} le dio a «Responder a todos» sin querer. Toda la oficina recibió un video de gatos.
+2031|El desastre de «Responder a todos» de {actor} llegó hasta Ahmet. NO le hizo ninguna gracia.
+2032|{actor} vio un borrador de carta de renuncia en el escritorio de {owner}.
+2033|Un cartel en la puerta de la cocina dice que está reservada para el «almuerzo privado» de Ahmet. Todos comen en su escritorio, refunfuñando.
+2034|{actor} se está vengando de {victim} contándole a {target} una mentira sobre esa persona.
+2035|Arrastraron a {actor} a una evaluación de desempeño sorpresa. Salió mal.
+2036|Arrastraron a {actor} a una evaluación de desempeño sorpresa. Salió de maravilla.
+2037|El tono de llamada de {joker} sonó en plena reunión. Todos lo oyeron.
+2038|{lover} y {crush} lo dejaron. La cocina nunca volverá a ser la misma.
+2039|{spotter} entró en pleno momento acaramelado de {lover} y {crush} en la cocina. El secreto salió a la luz… más o menos.
+2040|{lover} y {crush} tuvieron su cita secreta de café en la cocina. Definitivamente hay algo.
+2041|{lover} invitó a {crush} a un café. Directo a la zona de amigos.
+2042|{actor} le está contando a {target} todo sobre {lover} y {crush}.
+2043|{lover} y {crush} dejaron de esconderse: están oficialmente juntos. La oficina aplaudió.
+2044|{lover} y {crush} decidieron mantener su relación en secreto. Suerte con eso.
+2045|{lover} invitó a {crush} a un café tranquilo. ¡{crush} dijo que sí!
+2046|{lover} y {crush} se escaparon a otro café juntos. Nadie se dio cuenta. Todavía.
+2047|{actor} y {target} reservaron los dos la sala de reuniones. Ninguno piensa irse.
+2048|Según el tablero, la reunión de hoy era en {what}. Todos, Ahmet incluido, desfilaron hasta allí.
+2049|{actor} y {target} reservaron la sala de reuniones a la vez y acordaron compartirla.
+2050|{quitter} le entregó a Ahmet una carta de renuncia. Él la aceptó. {quitter} no se lo esperaba.
+2051|{quitter} le pidió en voz baja a Ahmet que le devolviera la carta de renuncia. Todos fingieron no darse cuenta.
+2052|{quitter} le entregó a Ahmet una carta de renuncia. Ahmet le pidió que se quedara… y escuchó.
+2053|{friend} le rogó a {quitter} que se quedara. {quitter} va camino del despacho de Ahmet, carta en mano.
+2054|{friend} convenció a {quitter} de no renunciar. La carta acabó en un cajón.
+2055|{quitter} imprimió una carta de renuncia.
+2056|{quitter} intentó imprimir una carta de renuncia. La impresora estaba rota.
+2057|{quitter} imprimió una carta de renuncia… y {spotter} la vio salir de la impresora.
+2058|{quitter} le entregó a Ahmet una carta de renuncia. Ahmet la rompió por la mitad. ¿{quitter}… se queda?
+2059|{quitter} le dijo a {friend} en la cocina: «Estoy escribiendo mi carta de renuncia. Hoy».
+2060|{actor} le preguntó a {target} sin rodeos por un rumor. {target} admitió que era cierto.
+2061|{actor} le preguntó a {target} por un rumor: era falso. «{fact}» Ahora {target} quiere saber quién lo empezó.
+2062|{actor} le preguntó a {target} por un rumor. {target} lo negó… pero es verdad.
+2063|{actor} confrontó a {target} por difundir un rumor falso. {target} se disculpó.
+2064|{actor} confrontó a {target} por un rumor. {target} lo negó todo.
+2065|{actor} confrontó a {target} por un rumor falso. Terminó a gritos.
+2066|{avenger} quería vengarse de {victim}. {accomplice} {avenger?lo|la} calmó.
+2067|{victim} encontró la broma y lo supo al instante: fue {avenger}.
+2068|{victim} encontró la broma… y culpó a {suspect}. (Fue {avenger}.)
+2069|{avenger} trama una venganza contra {victim}… y {accomplice} está en el ajo.
+2070|{avenger} se coló en el escritorio vacío de {victim} y preparó una broma.
+2071|{victim} confrontó a {avenger} por la broma. {avenger} se disculpó: tregua, por ahora.
+2072|{victim} confrontó a {avenger} por la broma. {avenger} se regodeó. Ahora es la guerra.
+2073|{enemy} oyó el rumor y contraatacó con uno sobre {gossip}. Empieza la guerra de rumores.
+2074|{gossip} disparó primero: un rumor vergonzoso sobre {enemy}.
+2075|{mediator} sentó a {gossip} y a {enemy} en la cocina. La guerra de rumores terminó en tregua.
+2076|{mediator} intentó acabar con la guerra de rumores entre {gossip} y {enemy}. Solo empeoró.
+2077|{mark} confrontó a {partner}, que al instante delató a {schemer}. La alianza ha muerto.
+2078|{beloved} le preguntó a {suspect} por las notas secretas. No fue esa persona. El misterio continúa.
+2079|{beloved} le preguntó a {suspect} si era su {suspect?admirador secreto|admiradora secreta}. {suspect} dijo que sí. No lo es.
+2080|{schemer} y {partner} no tenían trapos sucios reales de {mark}, así que se los inventaron.
+2081|Alguien dejó una nota anónima de admiración en el escritorio de {beloved}.
+2082|{mark} confrontó a {partner}. {partner} siguió fiel a {schemer} y lo negó todo.
+2083|{admirer} reveló que era {admirer?el admirador secreto|la admiradora secreta}. {beloved} dijo que no con delicadeza.
+2084|{schemer} y {partner} sellaron en el archivo un pacto secreto contra {mark}.
+2085|{schemer} propuso un pacto contra {mark}. {partner} se negó… y está pensando en avisar a {mark}.
+2086|{schemer} fue a ver a Ahmet con los trapos sucios de {mark}. Ahmet escuchó.
+2087|{informant} le dio el chivatazo a {mark}: {schemer} y {partner} han estado conspirando en su contra.
+2088|En el archivo, {partner} le pasó a {schemer} un trapo sucio de {mark}: «{dirt}»
+2089|{partner} avisó a {mark}: {schemer} está conspirando en su contra.
+2090|{admirer} reveló que era {admirer?el admirador secreto|la admiradora secreta}. {beloved} esperaba justo eso. ¡Nueva pareja!
+2091|{actor} le dio un buen sorbo al café: el azucarero estaba lleno de sal.
+2092|El amigo invisible emparejó a los rivales {actor} y {target}. El regalo de {actor} fue… toda una declaración. Guerra.
+2093|El amigo invisible emparejó a los rivales {actor} y {target}. El regalo de {actor} fue de verdad atento. ¡Deshielo!
+2094|{actor} hizo un chiste. {target} no se lo tomó como tal.
+2095|El buzón de sugerencias estaba lleno de notas: «Despidan a {target}». Ahmet las leyó… y {target} también.
+2096|El buzón de sugerencias estaba lleno de notas: «Asciendan a {target}». Ahmet las leyó todas.
+2097|Ahmet regañó a {target}.
+2098|Las tarjetas con nombres de la reunión pusieron a {a} justo al lado de {b}. Discutieron hasta que Ahmet les saltó a los dos.
+2099|Las tarjetas con nombres de la reunión pusieron a {a} al lado de {b}. Muchas sonrisas tímidas.
+2100|Las tarjetas con nombres de la reunión sentaron a {a} al lado de {b}. Pactaron una tregua. Un pequeño milagro.
+2101|¡Mert y Ceren salen en secreto!
+2102|{spotter} notó que {actor} y {target} son muy cercanos en secreto.
+2103|{target} vio una reunión privada en el calendario de Ahmet: «Revisión de RR. HH. — {subject}».
+2104|A {actor} se le escapó un secreto delante de todos: «{fact}» {subject} lo oyó.
+2105|{actor} está {actor?seguro|segura} de que {target} {actor?lo|la} «dejó en visto». {target} nunca vio el mensaje. La amistad se resintió.
+2106|{actor} creyó que {target} ignoró su mensaje. {target} ni siquiera lo había visto. Lo arreglaron.
+2107|El negocio de baklava de {seller} se expande. {runner} es ahora «{runner?jefe|jefa} de logística».
+2108|Ahmet descubrió el negocio de baklava de {seller}… y se convirtió en su mejor cliente.
+2109|{seller} vende en secreto baklava casera desde el cajón de su escritorio. El negocio va viento en popa.
+2110|Ahmet descubrió el negocio de baklava de {seller} y lo cerró. La oficina está de luto.
+2111|{actor} se aseguró de que {target} recibiera el mérito por ayudar.
+2112|Cuando Ahmet regañó a {target}, {friend} intervino y asumió parte de la culpa.
+2113|{target} presumió de la lista corta de ascensos… y Ahmet lo oyó: no existe tal lista. Auch.
+2114|{target} vio una lista corta de ascensos con su propio nombre arriba del todo. Está en las nubes.
+2115|{victim} ha decidido ajustar cuentas con {thief} en vez de demostrar nada.
+2116|{victim} le llevó la idea robada a Ahmet. No quiso oír nada. {victim} y {thief} ya no se hablan.
+2117|{confidant} le sugirió a {victim} que le pidiera a Burak revisar los registros de archivos.
+2118|{confidant} le dijo a {victim} que estaba paranoic{victim?o|a}. {victim} se queda sin nada.
+2119|{confidant} confirmó la sospecha de {victim}: {thief} copió la idea.
+2120|Burak revisó los registros de archivos para {victim}: la propuesta se copió desde la computadora de {thief}.
+2121|{victim} le demostró a Ahmet que {thief} le robó la idea. La reputación de {thief} acaba de desplomarse.
+2122|{victim} decidió que no valía la pena pelear. Por ahora.
+2123|Burak se negó a revisar los registros para {victim}. No hay pruebas.
+2124|{thief} le presentó a Ahmet la idea de cliente de {victim}… como si fuera suya.
+2125|Ahmet elogió delante de todos la «nueva idea» de {thief}. {victim} no estaba para oírlo.
+2126|Ahmet elogió delante de todos la «nueva idea» de {thief}. {victim} la reconoció al instante.
+2127|{victim} está {victim?convencido|convencida} de que {thief} le robó la idea, pero no tiene pruebas. Todavía.
+2128|La firma de correo de {owner} ahora dice «Enviado desde mi bañera». Toda la oficina la ha visto.
+2129|La firma de correo de {owner} ahora dice «Futur{owner?o|a} CEO». Ahmet y Deniz se dieron cuenta.
+2130|La firma de correo de {owner} ahora dice «{owner?El empleado favorito|La empleada favorita} de Ahmet». Ojos en blanco por todas partes.
+2131|Ahmet le devolvió el contrato a {target}: la página de firmas era la de {other}. {target} huele a sabotaje.
+2132|{actor} abrió su presentación y encontró las diapositivas de {owner2}. Se quedó {actor?congelado|congelada} delante de todos.
+2133|El archivo de presentación de {actor} tenía las diapositivas de {owner2}. {actor} lo improvisó todo. Ahmet quedó impresionado.
+2134|{actor} encontró las diapositivas de {owner2} en su archivo… y las presentó como propias. {owner2} se dio cuenta.
