@@ -244,14 +244,14 @@ start("start_karaoke", "karaoke_night", {"host": "actor", "shy": "$shy"},
 scene("kn_invite", noise=0.6, allow_absent=True, conditions=[c_present("host")],
       effects=[say("host", "kn_invite"), emote("host", "cheer"), each([emote("self", "question", delay=1.2)], exclude=["host"], where=[c_near("self", "host", 8)]),
                log("log.kn_invite", 3, "celebration", who=["host"]), arc_next("rehearse", wait=(20, 60))])
-L("kn_rehearse", ["*very quietly, in the archive* ♪ ...and I will always love youuu... ♪", "*humming scales behind the filing cabinet*"])
+L("kn_rehearse", ["*very quietly, in the archive* ♪ ...and my heart goes boom-boom for youuu... ♪", "*humming scales behind the filing cabinet*"])
 L("kn_overheard", ["...Was that {shy}? Singing? Like THAT?", "Wait. {shy} can SING?"])
 T("log.kn_rehearse", "{shy} was caught rehearsing for karaoke in the archive. Turns out {shy} can really sing.")
 scene("kn_rehearse", noise=0.6, allow_absent=True, conditions=[c_present("shy")],
       effects=[say("shy", "kn_rehearse"), witness([say("self", "kn_overheard", p=0.7, delay=2), emote("self", "exclaim", delay=2), rel("self", "shy", "respect", 6)], near="shy", r=6,
                                                    exclude=["shy"]),
                log("log.kn_rehearse", 3, "secret", who=["shy"]), arc_next("night", wait=(30, 90))])
-L("kn_sing", ["♪ I WILL SURVIIIIVE ♪", "♪ Is this the real life? Is this just fantasy? ♪", "♪ Bir İstanbul masalııı ♪"])
+L("kn_sing", ["♪ PRINTER, PRINTER, PRINT MY HEAAART ♪", "♪ Monday, oh Monday, why do you hate meee? ♪", "♪ Ofisin yıldızııı, kahvenin kraliçesiii ♪"])
 L("kn_star", ["...WOW. Encore! ENCORE!", "{shy}, where have you been hiding THAT?"])
 L("kn_flop", ["*cracks on the high note* ...I'm fine. Totally fine.", "*sings the wrong song entirely*"])
 T("log.kn_star", "Office karaoke: quiet {shy} brought the house down. Standing ovation in the kitchen.")

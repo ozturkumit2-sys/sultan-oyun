@@ -1,0 +1,201 @@
+5079|Hey... iyi misin? Patlamak üzereymiş gibi görünüyorsun.
+5080|Nefes al. Yükünün bir kısmını ben alayım mı?
+5081|...Evet. Lütfen. Teşekkürler.
+5082|Boğuluyorum. Teşekkür ederim.
+5083|Organizasyon şemasında {target} neden Ahmet'in ÜSTÜNDE?!
+5084|Yeni organizasyon şeması mı? {target} artık... patron mu?
+5085|Ha! Organizasyon şemasına bakın. {target}: CEO.
+5086|Organizasyon şemasını KİM değiştirdi?!
+5087|{target} benim üstüm DEĞİL. Bunu düzeltin. Hemen.
+5088|Eh. Şema yalan söylemez.
+5089|Eninde sonunda akıllarının başlarına geleceğini biliyordum.
+5090|Tam zamanı.
+5091|Ben yapmadım! Lütfen inanın bana!
+5092|Kaldırın onu! KALDIRIN!
+5093|{actor}, raporun öylece... bitiyor. Sonuç bölümü nerede?
+5094|On iki sayfanın on ikincisi eksik, {actor}. En önemlisi.
+5095|Oradaydı! On üç sayfa yazdırdım!
+5096|Ne? Sonuç bölümünü kesinlikle yazmıştım!
+5097|...ve sonuç şu ki— sonuç yok. {owner}!
+5098|Son sayfa nerede? {owner}, buraya gel.
+5099|Kısa listede miyim?! Kısa listenin EN ÜSTÜNDE mi?!
+5100|Ben! Terfi listesindeki ilk isim!
+5101|Bu gerçek mi? Çimdikle beni. Yok, çimdikleme.
+5102|Bil bakalım terfi kısa listesinde ilk sırada kimin adı var?
+5103|Kimseye söyleme... ama kısa listenin en üstündeyim.
+5104|Ne kısa listesi? Daha ortada bir kısa liste YOK.
+5105|Bunu sana kim söylediyse yalan söylemiş. İşinin başına.
+5106|{actor}! Raporuna göre üretimini ikiye katlamışsın. Etkileyici!
+5107|Performans raporunu az önce okudum, {actor}. Örnek niteliğinde.
+5108|{actor}. Performans raporun... endişe verici.
+5109|Rakamlarını konuşmamız lazım, {actor}. Berbatlar.
+5110|Ah! Teşekkürler! Ben... bu kadar iyi olduğunu bilmiyordum.
+5111|Vay. Kabul ediyorum!
+5112|Berbat mı? Hafta sonları çalışıyorum!
+5113|Bu doğru değil! Bunlar benim rakamlarım olamaz!
+5114|{actor} parlak bir değerlendirme mi aldı? NE için?
+5115|İnanılmaz. Herkes dururken {actor}.
+5116|'Bu yılın zam bütçesi: SIFIR' mı?!
+5117|Sıfır zam. Hiç kimseye. Bu yıl.
+5118|Demek bu kadar. Zam yok. Harika.
+5119|Sıfır mı? Bütçede öyle yazmıyor ki...
+5120|Neden uğraşıyoruz ki?
+5121|Bu akşam CV'mi güncelliyorum.
+5122|Sıfır. Bunca yıldan sonra.
+5123|Ahmet Bey, zam bütçesi sıfır değil. Bunu kim astı?
+5124|Biri sahte bütçe rakamları yayıyor. Sıfır değil.
+5125|SIFIR mı? Ben asla sıfır demedim! İndirin onu!
+5126|O benim rakamım değil! Bunu kim yazdı?
+5127|ZAM mı?! BANA mı?!
+5128|'Maaş artışınız onaylanmıştır'... EVET!
+5129|...Hıh. Belki de kalırım.
+5130|O mektup sana değildi, {target}. {rich:in}.
+5131|Kusura bakma {target} — bordroda karışıklık olmuş. O zam {rich:in}.
+5132|...Tabii ki öyle.
+5133|Doğru. Tabii. Boş ver.
+5134|Bir iş başvurusu mu? {applicant:den} mi? Bir RAKİBE mi?
+5135|Demek. {applicant} gitmek istiyor.
+5136|{target}. İş başvurunu buldum. Açıklamak ister misin?
+5137|Bizden ayrılmayı mı planlıyorsun, {target}?
+5138|...Konu paraysa konuşalım. Seni kaybetmek istemiyorum.
+5139|Kalman için ne gerekir?
+5140|Peki. Gitmek istiyorsan git. Ama referans bekleme.
+5141|Vefasızlık. Bunu unutmayacağım.
+5142|...Evet. Bakıyordum. Burada mutlu değilim.
+5143|Size yalan söylemeyeceğim. Başvurdum.
+5144|Aslında — neden bekleyelim? Millet! Toplanın!
+5145|Kararımı verdim. Duyuru zamanı. Şimdi.
+5146|Dur, terfi açıklandı mı? Ben mutfaktaydım!
+5147|Bensiz mi açıkladılar?
+5148|Satış tablosunda {target} bir numara mı? Ne zamandan beri?
+5149|Dur, {target} MERT'ten fazla mı sattı?
+5150|İKİNCİ mi? Ben mi? {target:in} arkasında mı?!
+5151|{target}! Satış tablosunun zirvesinde! Aferin!
+5152|Şuna bakın. {target}, yeni satış şampiyonumuz.
+5153|O rakamlar BENİM! O anlaşmaları ben kapattım!
+5154|Bu bir hata. Bir numara benim. Ben hep bir numarayım.
+5155|Değerlendirmem ertelendi... 'süresiz' mi?
+5156|'Değerlendirme ertelendi — yeni tarih yok.' Bu NE demek?
+5157|Ahmet Bey, değerlendirmem neden süresiz ertelendi?
+5158|Değerlendirmemin sürekli ertelenmesinin bir sebebi var mı?
+5159|Ertelendi mi? Ben hiçbir şeyi ertelemedim. ...Erteledim mi?
+5160|Değerlendirmen mi? Hım. Gelecek ay. Muhtemelen.
+5161|Ayın Çalışanı mı? BEN mi?
+5162|Adım! Sertifikada! Panoda!
+5163|{target} mı? Ayın Çalışanı mı? Cidden mi?
+5164|{target:i} kim seçti?!
+5165|...Eh. Artık basıldı. Tebrikler, {target}.
+5166|Hım. Peki. Bir şeyi hak ettin... herhalde.
+5167|O sertifika yanlış. Üstünde {rich} yazmalı.
+5168|Düzeltme: Ayın Çalışanı {rich}. {target} değil.
+5169|'Olağanüstü çabanız için teşekkürler — Ahmet.' BANA mı?
+5170|Ahmet'ten el yazısıyla bir teşekkür notu! Bunu çerçeveletiyorum.
+5171|Ahmet Bey, o güzel not için teşekkür ederim!
+5172|Notunuz günümü güzelleştirdi, Ahmet Bey.
+5173|...Not mu? O not {rich} içindi.
+5174|Ah. O aslında {rich} içindi.
+5175|Demek her şeyi ben düzeltiyorum, teşekkür {target:e} gidiyor. Harika.
+5176|Güzel. Benim teşekkür notum, başkasının masasında.
+5177|Ahmet benim için 'güvenilir, geleceğin lideri' yazmış!
+5178|'Mükemmel' olduğumu düşünüyor! Yazılı olarak!
+5179|'Sürekli gözetim gerektirir' mi?! Benim hakkımda böyle mi düşünüyor?
+5180|Ahmet'in benim hakkımdaki notu: 'hayal kırıklığı'. Vay.
+5181|ÖZEL NOTLARIMI PANOYA KİM ASTI?!
+5182|Onlar ÖZELDİ!
+5183|Bir kelle avcısının kartı mı? 'Beni arayın — iki katını öderiz' mi?
+5184|'Kıdemli pozisyon, iki kat maaş. Arayın.' Masamın üstünde mi?
+5185|Ahmet Bey — bir kelle avcısı peşimde. Bilginiz olsun.
+5186|Biri bana iki katını teklif etti. Kalmayı tercih ederim... doğru fiyata.
+5187|...Peki. Maaşını konuşalım.
+5188|Onları arama. Bir çözüm buluruz.
+5189|O zaman git. Kimse vazgeçilmez değildir.
+5190|Ara o zaman.
+5191|'Zorunlu öfke kontrolü kursu' mu?! BANA mı?!
+5192|Beni ÖFKE KONTROLÜNE kim yazdırdı?!
+5193|Ha! Öfke kontrolü!
+5194|Birileri gelecek hafta çok sakin olacak!
+5195|Namaste, dostum.
+5196|...Peki. Belki giderim. İşe yarayabilir.
+5197|Tamam. Derin nefes. Sakinim. SAKİNİM.
+5198|Bordroda unvanım... 'STAJYER' mi?!
+5199|'Ekibe hoş geldin, stajyer!' Beş yıldır buradayım!
+5200|Ahmet Bey, neden STAJYER olarak görünüyorum?
+5201|Rütbem mi düşürüldü? Stajyerliğe mi?!
+5202|Stajyer mi? Saçmalık. İK hatası. Muhtemelen.
+5203|Sen stajyer değilsin. Sakin ol.
+5204|Kulübe hoş geldin!
+5205|Stajyerler, birleşin!
+5206|'Tayin talebi: Erzurum şubesine' mi?! Ben böyle bir şey istemedim!
+5207|Beni ERZURUM'a mı gönderiyorlar?
+5208|Ahmet Bey, benden kurtulmaya mı çalışıyorsunuz?
+5209|Bu tayin talebi sizin fikriniz mi?
+5210|Tayin mi? Sen mi? Senin işini kim yapacak?
+5211|Seni asla göndermem. Otur.
+5212|...Erzurum yılın bu zamanı çok güzeldir.
+5213|Hım. Benim fikrim değil. Ama kötü bir fikir de değil.
+5214|'Terfi kriterleri: cumaları pasta getirmek' mi? ...Bugün cuma sayılır.
+5215|Pasta terfi mi getiriyor? Pasta yapabilirim.
+5216|'Ahmet'in şakalarına gülmek zorunludur' mu? Not edildi.
+5217|Şakalarına gülmek. Tamam. Bunu taklit edebilirim.
+5218|HAHAHA! Ahmet Bey, çok komiksiniz!
+5219|Ha! Ah, Ahmet Bey, gülmekten öldüm.
+5220|...Komik bir şey söylemedim ki.
+5221|Bugün neden herkes söylediğim her şeye gülüyor?
+5222|Pasta! Herkese! Sebepsiz!
+5223|Pasta getirdim. Öylesine. Hiçbir şeyle alakası yok.
+5224|Bir referans mektubu mu? Ahmet'ten mi? 'Başka yerlerdeki pozisyonlar için şiddetle tavsiye edilir'...
+5225|Ahmet bana bir referans yazmış. BAŞKA işler için. Bu bir ima mı?
+5226|Gitmemi istiyor. Bu bunun anlamı.
+5227|'Başka yerler.' Anladım.
+5228|...Eh. Kullansam iyi olur.
+5229|Parlak bir referans mı? Onu işe koşacağım.
+5230|HAFTA SONU mesai listesinde miyim?! Kız kardeşimin düğünü var!
+5231|Hafta sonu vardiyası mı? Ben mi? Buna kim karar verdi?!
+5232|Bu listeleri {suspect} hazırlıyor. BİLİYORUM.
+5233|Bu {suspect:in} işi.
+5234|Ahmet Bey, bu hafta sonu çalışamam. Lütfen.
+5235|Mesai listesinde bir hata olmalı.
+5236|Listedeysen listedesin.
+5237|Kural kuraldır.
+5238|İstediğiniz evraklar, patron... şey, {target}?
+5239|{target}, kapıdaki tabelaya göre artık müdür sensin. Bunu imzalar mısın?
+5240|Yığının üstüne koy. Bakarım. Belki.
+5241|Evet, evet. Bana bırak.
+5242|Mükemmel. BENİM masama koy.
+5243|Ben müdür değilim! Tabela yanlış!
+5244|Onu bana vermeyin! İstemiyorum!
+5245|Kapımda neden '{target} — Müdür' yazıyor?!
+5246|İsim tabelamı kim değiştirdi?!
+5247|...Bu benim telefonum değil. Ve bu mesaj bana değil.
+5248|Bir dakika. Bu kimin telefonu— ah. AH.
+5249|Bu benim kilit ekranım değil. Ama mesajı çoktan okudum.
+5250|Sanırım telefonlarımız karıştı. Al. Ben... hiçbir şey okumadım.
+5251|Telefonun. Bir mesaj görmüş olabilirim. Kusura bakma.
+5252|OKUDUN mu?!
+5253|Lütfen mesajları okumadığını söyle.
+5254|Ha, tıpatıp aynılar. Sağ ol.
+5255|Sorun yok. Al, bu senin.
+5256|ANNE?! Şimdi olmaz, anne! İŞTEYİM!
+5257|Anne, seni seviyorum ama tam şeyin ortasındayım— alo? Anne?
+5258|...Eski sevgilim beni neden arıyor?
+5259|Eski sevgilim. Beni arıyor. Ofiste. Harika.
+5260|Bir işe alım uzmanı mı? Beni BURADA mı arıyor?
+5261|'Yetenek Ortakları Ltd.' mi? ...Bunu dışarıda konuşayım.
+5262|Ahmet arıyor! Evet, Ahmet Bey? ...Alo? ...Kapattı.
+5263|Ahmet masasından mı arıyor? Neden bağırmıyor ki?
+5264|{owner:i} arayan bir kelle avcısı mıydı?
+5265|Hım. {owner:e} az önce bir kelle avcısı aradı.
+5266|Telefondaki O kimdi?
+5267|Eski sevgilin mi? Seni arıyor? Bugün?
+5268|*VİİYUU VİİYUU*
+5269|*HAVA SAVUNMA SİRENİ*
+5270|♪ Kalbim senin için bum-bum-bum atıyooor ♪
+5271|♪ Şekerim, ballı lokmam, uuuh ♪
+5272|*VIIİİİK VIIİİİK*
+5273|*yüksek sesle ağlayan bebek*
+5274|Kimin zil sesi SİREN?!
+5275|Birinin telefonu... ağlıyor mu?
+5276|{owner:in} cebinden gelen o bir AŞK ŞARKISI mı?
+5277|Bu kimin telefonu?! KAPATIN onu!
+5278|O benim zil sesim değil! Susturun şunu!
+5279|Onu ben seçmedim! Yemin ederim!

@@ -189,8 +189,8 @@
 5267|callerid_jealous|_|1|Your ex? Calling you? Today?
 5268|ringtone_siren|_|0|*WEE-OOO WEE-OOO*
 5269|ringtone_siren|_|1|*AIR RAID SIREN*
-5270|ringtone_love|_|0|♪ I will always love yoooou ♪
-5271|ringtone_love|_|1|♪ Baby, baby, baby, ooh ♪
+5270|ringtone_love|_|0|♪ My heart goes boom-boom-boom for youuu ♪
+5271|ringtone_love|_|1|♪ Oh my sweetie, my sugar pie, ooh ♪
 5272|ringtone_baby|_|0|*WAAAAH WAAAAH*
 5273|ringtone_baby|_|1|*baby crying loudly*
 5274|ringtone_react|_|0|Who has a SIREN for a ringtone?!

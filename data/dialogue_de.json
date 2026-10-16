@@ -7041,5 +7041,598 @@
    "DRINGEND. DRINGEND. DRINGEND. Alles?!",
    "Okay. Heute kein Mittagessen. Atmen auch nicht."
   ]
+ },
+ "urgent_care": {
+  "_": [
+   "Hey... alles okay? Du siehst aus, als würdest du gleich explodieren.",
+   "Atmen. Soll ich dir was abnehmen?"
+  ]
+ },
+ "urgent_thanks": {
+  "_": [
+   "...Ja. Bitte. Danke.",
+   "Ich gehe unter. Danke."
+  ]
+ },
+ "orgchart_see": {
+  "_": [
+   "Warum steht {target} im Organigramm ÜBER Ahmet?!",
+   "Neues Organigramm? {target} ist jetzt... {target?der Chef|die Chefin}?",
+   "Ha! Schaut euch das Organigramm an. {target}: CEO."
+  ]
+ },
+ "orgchart_boss": {
+  "_": [
+   "WER hat das Organigramm geändert?!",
+   "{target} ist NICHT {target?mein Vorgesetzter|meine Vorgesetzte}. Ändern Sie das. Sofort."
+  ]
+ },
+ "orgchart_smug": {
+  "_": [
+   "Tja. Das Organigramm lügt nicht.",
+   "Ich wusste immer, dass sie irgendwann zur Vernunft kommen."
+  ],
+  "deniz": [
+   "Wurde auch Zeit."
+  ]
+ },
+ "orgchart_terrified": {
+  "_": [
+   "Das war ich nicht! Bitte glauben Sie mir!",
+   "Nehmt das ab! NEHMT DAS AB!"
+  ]
+ },
+ "lastpage_boss": {
+  "_": [
+   "{actor}, Ihr Bericht hört einfach... auf. Wo ist das Fazit?",
+   "Seite zwölf von zwölf fehlt, {actor}. Die wichtige."
+  ]
+ },
+ "lastpage_baffled": {
+  "_": [
+   "Die war da! Ich habe dreizehn Seiten gedruckt!",
+   "Was? Ich habe definitiv ein Fazit geschrieben!"
+  ]
+ },
+ "lastpage_read": {
+  "_": [
+   "...und das Fazit lautet— es gibt kein Fazit. {owner}!",
+   "Wo ist die letzte Seite? {owner}, kommen Sie her."
+  ]
+ },
+ "shortlist_joy": {
+  "_": [
+   "Ich bin auf der Shortlist?! GANZ OBEN auf der Shortlist?!",
+   "Ich! Der erste Name auf der Beförderungsliste!"
+  ],
+  "ece": [
+   "Ist das echt? Kneif mich. Nein, lieber nicht."
+  ]
+ },
+ "shortlist_brag": {
+  "_": [
+   "Rate mal, wessen Name ganz oben auf der Beförderungs-Shortlist steht?",
+   "Sag's keinem... aber ich steh ganz oben auf der Shortlist."
+  ]
+ },
+ "shortlist_boss_no": {
+  "_": [
+   "Welche Shortlist? Es GIBT noch keine Shortlist.",
+   "Wer Ihnen das erzählt hat, hat gelogen. Zurück an die Arbeit."
+  ]
+ },
+ "perf_boss_good": {
+  "_": [
+   "{actor}! Laut Ihrem Bericht haben Sie Ihre Leistung verdoppelt. Beeindruckend!",
+   "Ich habe gerade Ihren Leistungsbericht gelesen, {actor}. Vorbildlich."
+  ]
+ },
+ "perf_boss_bad": {
+  "_": [
+   "{actor}. Ihr Leistungsbericht ist... besorgniserregend.",
+   "Wir müssen über Ihre Zahlen reden, {actor}. Sie sind furchtbar."
+  ]
+ },
+ "perf_happy": {
+  "_": [
+   "Oh! Danke! Ich... wusste nicht, dass er so gut ist.",
+   "Wow. Nehm ich!"
+  ]
+ },
+ "perf_hurt": {
+  "_": [
+   "Furchtbar? Ich arbeite sogar am Wochenende!",
+   "Das stimmt nicht! Das können nicht meine Zahlen sein!"
+  ]
+ },
+ "perf_unfair": {
+  "_": [
+   "{actor} hat eine glänzende Beurteilung bekommen? Wofür denn?",
+   "Unglaublich. Ausgerechnet {actor}."
+  ]
+ },
+ "zero_read": {
+  "_": [
+   "„Budget für Gehaltserhöhungen dieses Jahr: NULL“?!",
+   "Null Gehaltserhöhungen. Für niemanden. Dieses Jahr.",
+   "Das war's also. Keine Erhöhungen. Super."
+  ],
+  "zeynep": [
+   "Null? Das steht so aber nicht im Budget..."
+  ]
+ },
+ "zero_grumble": {
+  "_": [
+   "Wozu strengen wir uns überhaupt an?",
+   "Heute Abend aktualisiere ich meinen Lebenslauf.",
+   "Null. Nach so einem Jahr."
+  ]
+ },
+ "zero_zeynep": {
+  "_": [
+   "Ahmet Bey, das Budget für Gehaltserhöhungen ist nicht null. Wer hat das aufgehängt?",
+   "Jemand verbreitet falsche Budgetzahlen. Es ist nicht null."
+  ]
+ },
+ "zero_boss": {
+  "_": [
+   "NULL? Ich habe nie null gesagt! Nehmen Sie das ab!",
+   "Das ist nicht meine Zahl! Wer hat das geschrieben?"
+  ]
+ },
+ "raiseletter_joy": {
+  "_": [
+   "Eine GEHALTSERHÖHUNG?! Für MICH?!",
+   "„Ihre Gehaltserhöhung wurde genehmigt“... JA!"
+  ],
+  "burak": [
+   "...Hm. Vielleicht bleib ich doch."
+  ]
+ },
+ "raiseletter_zeynep": {
+  "_": [
+   "Der Brief war nicht für dich, {target}. Der ist für {rich}.",
+   "Sorry, {target} — Verwechslung in der Lohnbuchhaltung. Die Erhöhung ist für {rich}."
+  ]
+ },
+ "raiseletter_crushed": {
+  "_": [
+   "...Natürlich.",
+   "Klar. Natürlich. Vergiss es."
+  ]
+ },
+ "app_boss_read": {
+  "_": [
+   "Eine Bewerbung? Von {applicant}? Bei der KONKURRENZ?",
+   "So. {applicant} will also gehen."
+  ]
+ },
+ "app_confront": {
+  "_": [
+   "{target}. Ich habe Ihre Bewerbung gefunden. Möchten Sie das erklären?",
+   "Sie planen, uns zu verlassen, {target}?"
+  ]
+ },
+ "app_counter": {
+  "_": [
+   "...Wenn es ums Geld geht, reden wir. Ich will Sie nicht verlieren.",
+   "Was müsste passieren, damit Sie bleiben?"
+  ]
+ },
+ "app_cold": {
+  "_": [
+   "Gut. Wenn Sie gehen wollen, gehen Sie. Aber erwarten Sie kein Zeugnis.",
+   "Illoyalität. Das merke ich mir."
+  ]
+ },
+ "app_admit": {
+  "_": [
+   "...Ja. Ich habe mich umgesehen. Ich bin hier nicht glücklich.",
+   "Ich werde Sie nicht anlügen. Ich habe mich beworben."
+  ]
+ },
+ "early_promo_go": {
+  "_": [
+   "Eigentlich — warum warten? Alle mal herkommen!",
+   "Ich habe mich entschieden. Zeit für eine Ankündigung. Jetzt."
+  ]
+ },
+ "early_promo_miss": {
+  "_": [
+   "Moment, die Beförderung wurde verkündet? Ich war in der Küche!",
+   "Die haben es OHNE mich verkündet?"
+  ]
+ },
+ "leader_see": {
+  "_": [
+   "{target} ist die Nummer eins auf der Verkaufstafel? Seit wann?",
+   "Moment, {target} hat mehr verkauft als MERT?"
+  ],
+  "mert": [
+   "Nummer ZWEI? Ich? Hinter {target}?!"
+  ]
+ },
+ "leader_boss": {
+  "_": [
+   "{target}! Ganz oben auf der Verkaufstafel! Gut gemacht!",
+   "Sieh einer an. {target}, unser neuer Verkaufschampion."
+  ]
+ },
+ "leader_mert": {
+  "_": [
+   "Das sind MEINE Zahlen! Ich hab diese Deals abgeschlossen!",
+   "Das ist ein Fehler. Ich bin die Nummer eins. Ich bin immer die Nummer eins."
+  ]
+ },
+ "postpone_read": {
+  "_": [
+   "Mein Gespräch ist verschoben... „auf unbestimmte Zeit“?",
+   "„Gespräch verschoben — kein neuer Termin.“ Was soll DAS heißen?"
+  ]
+ },
+ "postpone_ask": {
+  "_": [
+   "Ahmet Bey, warum wurde mein Gespräch auf unbestimmte Zeit verschoben?",
+   "Gibt es einen Grund, warum mein Gespräch immer wieder verschoben wird?"
+  ]
+ },
+ "postpone_boss": {
+  "_": [
+   "Verschoben? Ich habe nichts verschoben. ...Oder doch?",
+   "Ihr Gespräch? Hm. Nächsten Monat. Wahrscheinlich."
+  ]
+ },
+ "eotm_joy": {
+  "_": [
+   "{me?Mitarbeiter|Mitarbeiterin} des Monats? ICH?",
+   "Mein Name! Auf der Urkunde! An der Pinnwand!"
+  ]
+ },
+ "eotm_rival": {
+  "_": [
+   "{target}? {target?Mitarbeiter|Mitarbeiterin} des Monats? Im Ernst?",
+   "Wer hat denn {target} ausgewählt?!"
+  ]
+ },
+ "eotm_boss_keep": {
+  "_": [
+   "...Tja. Jetzt ist es gedruckt. Glückwunsch, {target}.",
+   "Hm. Na gut. Sie haben sich... irgendwas verdient."
+  ]
+ },
+ "eotm_boss_fix": {
+  "_": [
+   "Diese Urkunde ist falsch. Da sollte {rich} stehen.",
+   "Korrektur: {rich?Mitarbeiter|Mitarbeiterin} des Monats ist {rich}. Nicht {target}."
+  ]
+ },
+ "thanks_note_read": {
+  "_": [
+   "„Danke für Ihren herausragenden Einsatz — Ahmet.“ Für MICH?",
+   "Ein handgeschriebenes Dankeschön von Ahmet! Das lass ich einrahmen."
+  ]
+ },
+ "thanks_note_thank": {
+  "_": [
+   "Ahmet Bey, danke für die nette Notiz!",
+   "Ihre Notiz hat mir den Tag versüßt, Ahmet Bey."
+  ]
+ },
+ "thanks_note_boss": {
+  "_": [
+   "...Notiz? Die war für {rich}.",
+   "Ah. Die war eigentlich für {rich} gedacht."
+  ]
+ },
+ "thanks_unseen": {
+  "_": [
+   "Ich repariere also alles, und das Dankeschön geht an {target}. Super.",
+   "Schön. Meine Dankeskarte, jemand anderes Schreibtisch."
+  ]
+ },
+ "notes_good": {
+  "_": [
+   "Ahmet hat „zuverlässig, künftige Führungskraft“ über mich geschrieben!",
+   "Er findet mich „hervorragend“! Schriftlich!"
+  ]
+ },
+ "notes_bad": {
+  "_": [
+   "„Braucht ständige Aufsicht“?! Das denkt er von mir?",
+   "Ahmets Notiz über mich: „enttäuschend“. Wow."
+  ]
+ },
+ "notes_boss": {
+  "_": [
+   "WER HAT MEINE PRIVATEN NOTIZEN AN DIE PINNWAND GEHÄNGT?!",
+   "Die waren PRIVAT!"
+  ]
+ },
+ "card_find": {
+  "_": [
+   "Die Karte eines Headhunters? „Rufen Sie mich an — wir zahlen das Doppelte“?",
+   "„Führungsposition, doppeltes Gehalt. Rufen Sie an.“ Auf meinem Tisch?"
+  ]
+ },
+ "card_show_boss": {
+  "_": [
+   "Ahmet Bey — ein Headhunter wirbt um mich. Nur damit Sie es wissen.",
+   "Man hat mir das Doppelte angeboten. Ich würde lieber bleiben... zum richtigen Preis."
+  ]
+ },
+ "card_boss_raise": {
+  "_": [
+   "...Na gut. Reden wir über Ihr Gehalt.",
+   "Rufen Sie da nicht an. Wir finden eine Lösung."
+  ]
+ },
+ "card_boss_call_bluff": {
+  "_": [
+   "Dann gehen Sie. Niemand ist unersetzlich.",
+   "Dann rufen Sie halt an."
+  ]
+ },
+ "course_read": {
+  "_": [
+   "„Pflichtkurs Aggressionsbewältigung“?! Für MICH?!",
+   "Wer hat mich für AGGRESSIONSBEWÄLTIGUNG angemeldet?!"
+  ]
+ },
+ "course_laugh": {
+  "_": [
+   "Ha! Aggressionsbewältigung!",
+   "Da wird jemand nächste Woche sehr entspannt sein!"
+  ],
+  "mert": [
+   "Namaste, mein Freund."
+  ]
+ },
+ "course_calm": {
+  "_": [
+   "...Na gut. Vielleicht geh ich hin. Könnte nützlich sein.",
+   "Okay. Tief durchatmen. Ich bin ruhig. Ich bin RUHIG."
+  ]
+ },
+ "intern_read": {
+  "_": [
+   "Laut Lohnabrechnung ist mein Titel... „{me?PRAKTIKANT|PRAKTIKANTIN}“?!",
+   "„Willkommen im Team, {me?Praktikant|Praktikantin}!“ Ich bin seit fünf Jahren hier!"
+  ]
+ },
+ "intern_ask": {
+  "_": [
+   "Ahmet Bey, warum werde ich als {me?PRAKTIKANT|PRAKTIKANTIN} geführt?",
+   "Wurde ich degradiert? {me?Zum Praktikanten|Zur Praktikantin}?!"
+  ]
+ },
+ "intern_boss": {
+  "_": [
+   "{to?Praktikant|Praktikantin}? Unsinn. HR-Fehler. Wahrscheinlich.",
+   "Sie sind {to?kein Praktikant|keine Praktikantin}. Beruhigen Sie sich."
+  ]
+ },
+ "intern_ece": {
+  "_": [
+   "Willkommen im Club!",
+   "Praktikanten aller Länder, vereinigt euch!"
+  ]
+ },
+ "transfer_read": {
+  "_": [
+   "„Versetzungsantrag: in die Filiale Erzurum“?! Den hab ich nie gestellt!",
+   "Die schicken mich nach ERZURUM?"
+  ]
+ },
+ "transfer_ask": {
+  "_": [
+   "Ahmet Bey, wollen Sie mich loswerden?",
+   "War dieser Versetzungsantrag Ihre Idee?"
+  ]
+ },
+ "transfer_boss_no": {
+  "_": [
+   "Versetzung? Sie? Wer würde dann Ihre Arbeit machen?",
+   "Ich würde Sie nie wegschicken. Setzen Sie sich."
+  ]
+ },
+ "transfer_boss_hmm": {
+  "_": [
+   "...Erzurum ist um diese Jahreszeit herrlich.",
+   "Hm. Nicht meine Idee. Aber auch keine schlechte."
+  ]
+ },
+ "criteria_read_cake": {
+  "_": [
+   "„Beförderungskriterien: freitags Kuchen mitbringen“? ...Heute ist quasi Freitag.",
+   "Kuchen bringt einem eine Beförderung? Kuchen kann ich."
+  ]
+ },
+ "criteria_read_laugh": {
+  "_": [
+   "„Muss über Ahmets Witze lachen“? Notiert.",
+   "Über seine Witze lachen. Okay. Das kann ich vortäuschen."
+  ]
+ },
+ "criteria_laugh_boss": {
+  "_": [
+   "HAHAHA! Ahmet Bey, das ist zum Brüllen!",
+   "Ha! Ach, Ahmet Bey, ich kann nicht mehr!"
+  ]
+ },
+ "criteria_boss": {
+  "_": [
+   "...Ich habe gar nichts Lustiges gesagt.",
+   "Warum lachen heute alle über alles, was ich sage?"
+  ]
+ },
+ "criteria_cake_offer": {
+  "_": [
+   "Kuchen! Für alle! Ohne Grund!",
+   "Ich hab Kuchen mitgebracht. Einfach so. Hat überhaupt nichts mit irgendwas zu tun."
+  ]
+ },
+ "reference_read": {
+  "_": [
+   "Ein Empfehlungsschreiben? Von Ahmet? „Für Positionen anderswo wärmstens empfohlen“...",
+   "Ahmet hat mir ein Empfehlungsschreiben geschrieben. Für ANDERE Jobs. Ist das ein Wink?"
+  ]
+ },
+ "reference_hurt": {
+  "_": [
+   "Er will mich loswerden. Das soll das heißen.",
+   "„Anderswo.“ Verstanden."
+  ]
+ },
+ "reference_use": {
+  "_": [
+   "...Tja. Dann kann ich's auch benutzen.",
+   "Eine glänzende Empfehlung? Die setz ich ein."
+  ]
+ },
+ "overtime_read": {
+  "_": [
+   "Ich steh auf der WOCHENEND-Überstundenliste?! Da heiratet meine Schwester!",
+   "Wochenendschicht? Ich? Wer hat das entschieden?!"
+  ]
+ },
+ "overtime_blame": {
+  "_": [
+   "{suspect} macht diese Listen. Ich WEISS es.",
+   "Das war {suspect}."
+  ]
+ },
+ "overtime_plead": {
+  "_": [
+   "Ahmet Bey, ich kann dieses Wochenende nicht arbeiten. Bitte.",
+   "Da muss ein Fehler in der Überstundenliste sein."
+  ]
+ },
+ "overtime_boss_yes": {
+  "_": [
+   "Wer auf der Liste steht, steht auf der Liste.",
+   "Regeln sind Regeln."
+  ]
+ },
+ "plate_bring": {
+  "_": [
+   "Hier sind die Unterlagen, die Sie wollten, {target?Chef|Chefin}... äh, {target}?",
+   "{target}, laut Türschild bist du jetzt die Leitung. Unterschreibst du das?"
+  ]
+ },
+ "plate_power": {
+  "_": [
+   "Leg's auf den Stapel. Ich kümmer mich drum. Vielleicht.",
+   "Ja, ja. Lass es bei mir."
+  ],
+  "deniz": [
+   "Ausgezeichnet. Leg es auf MEINEN Schreibtisch."
+  ]
+ },
+ "plate_panic": {
+  "_": [
+   "Ich bin nicht die Leitung! Das Schild ist falsch!",
+   "Gebt mir das nicht! Ich will das nicht!"
+  ]
+ },
+ "plate_boss": {
+  "_": [
+   "WARUM steht an meiner Tür „{target} — Leitung“?!",
+   "Wer hat mein Namensschild geändert?!"
+  ]
+ },
+ "swapphone_read": {
+  "_": [
+   "...Das ist nicht mein Handy. Und diese Nachricht ist nicht für mich.",
+   "Moment. Wessen Handy ist— oh. OH.",
+   "Das ist nicht mein Sperrbildschirm. Aber die Nachricht hab ich schon gelesen."
+  ]
+ },
+ "swapphone_return": {
+  "_": [
+   "Ich glaube, wir haben die Handys vertauscht. Hier. Ich hab... nichts gelesen.",
+   "Dein Handy. Kann sein, dass ich eine Nachricht gesehen hab. Sorry."
+  ]
+ },
+ "swapphone_mortified": {
+  "_": [
+   "Du hast sie GELESEN?!",
+   "Bitte sag mir, dass du die Nachrichten nicht gelesen hast."
+  ]
+ },
+ "swapphone_cool": {
+  "_": [
+   "Ha, die sehen gleich aus. Danke.",
+   "Kein Problem. Hier ist deins."
+  ]
+ },
+ "callerid_mom": {
+  "_": [
+   "MAMA?! Jetzt nicht, Mama! Ich bin auf der ARBEIT!",
+   "Mama, ich hab dich lieb, aber ich bin gerade mitten in— hallo? Mama?"
+  ]
+ },
+ "callerid_ex": {
+  "_": [
+   "...Warum ruft mich mein EX an?",
+   "Mein Ex. Ruft mich an. Im Büro. Toll."
+  ]
+ },
+ "callerid_headhunter": {
+  "_": [
+   "Ein Personalvermittler? Ruft mich HIER an?",
+   "„Talent Partners GmbH“? ...Das nehm ich draußen an."
+  ]
+ },
+ "callerid_boss": {
+  "_": [
+   "Es ist Ahmet! Ja, Ahmet Bey? ...Hallo? ...Er hat aufgelegt.",
+   "Ahmet ruft von seinem Schreibtisch an? Warum schreit er nicht einfach?"
+  ]
+ },
+ "callerid_heard_hh": {
+  "_": [
+   "War das ein Headhunter, der {owner} angerufen hat?",
+   "Hm. {owner} hat gerade einen Anruf von einem Headhunter bekommen."
+  ]
+ },
+ "callerid_jealous": {
+  "_": [
+   "Wer war DAS am Telefon?",
+   "Dein Ex? Ruft dich an? Heute?"
+  ]
+ },
+ "ringtone_siren": {
+  "_": [
+   "*TATÜ-TATA*",
+   "*LUFTALARM-SIRENE*"
+  ]
+ },
+ "ringtone_love": {
+  "_": [
+   "♪ Mein Herz macht bum-bum-bum für diiich ♪",
+   "♪ Oh mein Zuckerschnäuzchen, mein Schatz, uuuh ♪"
+  ]
+ },
+ "ringtone_baby": {
+  "_": [
+   "*UÄÄÄH UÄÄÄH*",
+   "*Baby schreit laut*"
+  ]
+ },
+ "ringtone_react": {
+  "_": [
+   "Wer hat eine SIRENE als Klingelton?!",
+   "Weint da gerade... ein Handy?",
+   "Kommt da etwa ein LIEBESLIED aus {owner:s} Tasche?"
+  ],
+  "ahmet": [
+   "Wessen Handy ist das?! AUSSCHALTEN!"
+  ]
+ },
+ "ringtone_owner": {
+  "_": [
+   "Das ist nicht mein Klingelton! Mach, dass es aufhört!",
+   "Den hab ich nicht ausgesucht! Ich schwöre!"
+  ]
  }
 }

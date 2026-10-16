@@ -173,13 +173,13 @@
 6230|pb_both|_|1|Combine them. Together. Today.
 6231|kn_invite|_|0|KARAOKE! Kitchen! After five! Bring your voice!
 6232|kn_invite|_|1|Tonight: office karaoke. Attendance is mandatory. Joking. Mostly.
-6233|kn_rehearse|_|0|*very quietly, in the archive* ♪ ...and I will always love youuu... ♪
+6233|kn_rehearse|_|0|*very quietly, in the archive* ♪ ...and my heart goes boom-boom for youuu... ♪
 6234|kn_rehearse|_|1|*humming scales behind the filing cabinet*
 6235|kn_overheard|_|0|...Was that {shy}? Singing? Like THAT?
 6236|kn_overheard|_|1|Wait. {shy} can SING?
-6237|kn_sing|_|0|♪ I WILL SURVIIIIVE ♪
-6238|kn_sing|_|1|♪ Is this the real life? Is this just fantasy? ♪
-6239|kn_sing|_|2|♪ Bir İstanbul masalııı ♪
+6237|kn_sing|_|0|♪ PRINTER, PRINTER, PRINT MY HEAAART ♪
+6238|kn_sing|_|1|♪ Monday, oh Monday, why do you hate meee? ♪
+6239|kn_sing|_|2|♪ Ofisin yıldızııı, kahvenin kraliçesiii ♪
 6240|kn_star|_|0|...WOW. Encore! ENCORE!
 6241|kn_star|_|1|{shy}, where have you been hiding THAT?
 6242|kn_flop|_|0|*cracks on the high note* ...I'm fine. Totally fine.

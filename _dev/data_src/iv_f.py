@@ -58,7 +58,7 @@ iv("F02", "caller_id", title="Fake who's calling them", desc="Their phone rings.
 
 # --- F03 change their ringtone ----------------------------------------------------------------------
 L("ringtone_siren", ["*WEE-OOO WEE-OOO*", "*AIR RAID SIREN*"])
-L("ringtone_love", ["♪ I will always love yoooou ♪", "♪ Baby, baby, baby, ooh ♪"])
+L("ringtone_love", ["♪ My heart goes boom-boom-boom for youuu ♪", "♪ Oh my sweetie, my sugar pie, ooh ♪"])
 L("ringtone_baby", ["*WAAAAH WAAAAH*", "*baby crying loudly*"])
 L("ringtone_react", ["Who has a SIREN for a ringtone?!", "Is someone's phone... crying?", "Is that a LOVE SONG coming from {owner}'s pocket?"],
   ahmet=["Whose phone is that?! Turn it OFF!"])

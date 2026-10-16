@@ -7041,5 +7041,598 @@
    "ACİL. ACİL. ACİL. Hepsi mi?!",
    "Tamam. Bugün öğle yemeği yok. Nefes almak da yok."
   ]
+ },
+ "urgent_care": {
+  "_": [
+   "Hey... iyi misin? Patlamak üzereymiş gibi görünüyorsun.",
+   "Nefes al. Yükünün bir kısmını ben alayım mı?"
+  ]
+ },
+ "urgent_thanks": {
+  "_": [
+   "...Evet. Lütfen. Teşekkürler.",
+   "Boğuluyorum. Teşekkür ederim."
+  ]
+ },
+ "orgchart_see": {
+  "_": [
+   "Organizasyon şemasında {target} neden Ahmet'in ÜSTÜNDE?!",
+   "Yeni organizasyon şeması mı? {target} artık... patron mu?",
+   "Ha! Organizasyon şemasına bakın. {target}: CEO."
+  ]
+ },
+ "orgchart_boss": {
+  "_": [
+   "Organizasyon şemasını KİM değiştirdi?!",
+   "{target} benim üstüm DEĞİL. Bunu düzeltin. Hemen."
+  ]
+ },
+ "orgchart_smug": {
+  "_": [
+   "Eh. Şema yalan söylemez.",
+   "Eninde sonunda akıllarının başlarına geleceğini biliyordum."
+  ],
+  "deniz": [
+   "Tam zamanı."
+  ]
+ },
+ "orgchart_terrified": {
+  "_": [
+   "Ben yapmadım! Lütfen inanın bana!",
+   "Kaldırın onu! KALDIRIN!"
+  ]
+ },
+ "lastpage_boss": {
+  "_": [
+   "{actor}, raporun öylece... bitiyor. Sonuç bölümü nerede?",
+   "On iki sayfanın on ikincisi eksik, {actor}. En önemlisi."
+  ]
+ },
+ "lastpage_baffled": {
+  "_": [
+   "Oradaydı! On üç sayfa yazdırdım!",
+   "Ne? Sonuç bölümünü kesinlikle yazmıştım!"
+  ]
+ },
+ "lastpage_read": {
+  "_": [
+   "...ve sonuç şu ki— sonuç yok. {owner}!",
+   "Son sayfa nerede? {owner}, buraya gel."
+  ]
+ },
+ "shortlist_joy": {
+  "_": [
+   "Kısa listede miyim?! Kısa listenin EN ÜSTÜNDE mi?!",
+   "Ben! Terfi listesindeki ilk isim!"
+  ],
+  "ece": [
+   "Bu gerçek mi? Çimdikle beni. Yok, çimdikleme."
+  ]
+ },
+ "shortlist_brag": {
+  "_": [
+   "Bil bakalım terfi kısa listesinde ilk sırada kimin adı var?",
+   "Kimseye söyleme... ama kısa listenin en üstündeyim."
+  ]
+ },
+ "shortlist_boss_no": {
+  "_": [
+   "Ne kısa listesi? Daha ortada bir kısa liste YOK.",
+   "Bunu sana kim söylediyse yalan söylemiş. İşinin başına."
+  ]
+ },
+ "perf_boss_good": {
+  "_": [
+   "{actor}! Raporuna göre üretimini ikiye katlamışsın. Etkileyici!",
+   "Performans raporunu az önce okudum, {actor}. Örnek niteliğinde."
+  ]
+ },
+ "perf_boss_bad": {
+  "_": [
+   "{actor}. Performans raporun... endişe verici.",
+   "Rakamlarını konuşmamız lazım, {actor}. Berbatlar."
+  ]
+ },
+ "perf_happy": {
+  "_": [
+   "Ah! Teşekkürler! Ben... bu kadar iyi olduğunu bilmiyordum.",
+   "Vay. Kabul ediyorum!"
+  ]
+ },
+ "perf_hurt": {
+  "_": [
+   "Berbat mı? Hafta sonları çalışıyorum!",
+   "Bu doğru değil! Bunlar benim rakamlarım olamaz!"
+  ]
+ },
+ "perf_unfair": {
+  "_": [
+   "{actor} parlak bir değerlendirme mi aldı? NE için?",
+   "İnanılmaz. Herkes dururken {actor}."
+  ]
+ },
+ "zero_read": {
+  "_": [
+   "'Bu yılın zam bütçesi: SIFIR' mı?!",
+   "Sıfır zam. Hiç kimseye. Bu yıl.",
+   "Demek bu kadar. Zam yok. Harika."
+  ],
+  "zeynep": [
+   "Sıfır mı? Bütçede öyle yazmıyor ki..."
+  ]
+ },
+ "zero_grumble": {
+  "_": [
+   "Neden uğraşıyoruz ki?",
+   "Bu akşam CV'mi güncelliyorum.",
+   "Sıfır. Bunca yıldan sonra."
+  ]
+ },
+ "zero_zeynep": {
+  "_": [
+   "Ahmet Bey, zam bütçesi sıfır değil. Bunu kim astı?",
+   "Biri sahte bütçe rakamları yayıyor. Sıfır değil."
+  ]
+ },
+ "zero_boss": {
+  "_": [
+   "SIFIR mı? Ben asla sıfır demedim! İndirin onu!",
+   "O benim rakamım değil! Bunu kim yazdı?"
+  ]
+ },
+ "raiseletter_joy": {
+  "_": [
+   "ZAM mı?! BANA mı?!",
+   "'Maaş artışınız onaylanmıştır'... EVET!"
+  ],
+  "burak": [
+   "...Hıh. Belki de kalırım."
+  ]
+ },
+ "raiseletter_zeynep": {
+  "_": [
+   "O mektup sana değildi, {target}. {rich:in}.",
+   "Kusura bakma {target} — bordroda karışıklık olmuş. O zam {rich:in}."
+  ]
+ },
+ "raiseletter_crushed": {
+  "_": [
+   "...Tabii ki öyle.",
+   "Doğru. Tabii. Boş ver."
+  ]
+ },
+ "app_boss_read": {
+  "_": [
+   "Bir iş başvurusu mu? {applicant:den} mi? Bir RAKİBE mi?",
+   "Demek. {applicant} gitmek istiyor."
+  ]
+ },
+ "app_confront": {
+  "_": [
+   "{target}. İş başvurunu buldum. Açıklamak ister misin?",
+   "Bizden ayrılmayı mı planlıyorsun, {target}?"
+  ]
+ },
+ "app_counter": {
+  "_": [
+   "...Konu paraysa konuşalım. Seni kaybetmek istemiyorum.",
+   "Kalman için ne gerekir?"
+  ]
+ },
+ "app_cold": {
+  "_": [
+   "Peki. Gitmek istiyorsan git. Ama referans bekleme.",
+   "Vefasızlık. Bunu unutmayacağım."
+  ]
+ },
+ "app_admit": {
+  "_": [
+   "...Evet. Bakıyordum. Burada mutlu değilim.",
+   "Size yalan söylemeyeceğim. Başvurdum."
+  ]
+ },
+ "early_promo_go": {
+  "_": [
+   "Aslında — neden bekleyelim? Millet! Toplanın!",
+   "Kararımı verdim. Duyuru zamanı. Şimdi."
+  ]
+ },
+ "early_promo_miss": {
+  "_": [
+   "Dur, terfi açıklandı mı? Ben mutfaktaydım!",
+   "Bensiz mi açıkladılar?"
+  ]
+ },
+ "leader_see": {
+  "_": [
+   "Satış tablosunda {target} bir numara mı? Ne zamandan beri?",
+   "Dur, {target} MERT'ten fazla mı sattı?"
+  ],
+  "mert": [
+   "İKİNCİ mi? Ben mi? {target:in} arkasında mı?!"
+  ]
+ },
+ "leader_boss": {
+  "_": [
+   "{target}! Satış tablosunun zirvesinde! Aferin!",
+   "Şuna bakın. {target}, yeni satış şampiyonumuz."
+  ]
+ },
+ "leader_mert": {
+  "_": [
+   "O rakamlar BENİM! O anlaşmaları ben kapattım!",
+   "Bu bir hata. Bir numara benim. Ben hep bir numarayım."
+  ]
+ },
+ "postpone_read": {
+  "_": [
+   "Değerlendirmem ertelendi... 'süresiz' mi?",
+   "'Değerlendirme ertelendi — yeni tarih yok.' Bu NE demek?"
+  ]
+ },
+ "postpone_ask": {
+  "_": [
+   "Ahmet Bey, değerlendirmem neden süresiz ertelendi?",
+   "Değerlendirmemin sürekli ertelenmesinin bir sebebi var mı?"
+  ]
+ },
+ "postpone_boss": {
+  "_": [
+   "Ertelendi mi? Ben hiçbir şeyi ertelemedim. ...Erteledim mi?",
+   "Değerlendirmen mi? Hım. Gelecek ay. Muhtemelen."
+  ]
+ },
+ "eotm_joy": {
+  "_": [
+   "Ayın Çalışanı mı? BEN mi?",
+   "Adım! Sertifikada! Panoda!"
+  ]
+ },
+ "eotm_rival": {
+  "_": [
+   "{target} mı? Ayın Çalışanı mı? Cidden mi?",
+   "{target:i} kim seçti?!"
+  ]
+ },
+ "eotm_boss_keep": {
+  "_": [
+   "...Eh. Artık basıldı. Tebrikler, {target}.",
+   "Hım. Peki. Bir şeyi hak ettin... herhalde."
+  ]
+ },
+ "eotm_boss_fix": {
+  "_": [
+   "O sertifika yanlış. Üstünde {rich} yazmalı.",
+   "Düzeltme: Ayın Çalışanı {rich}. {target} değil."
+  ]
+ },
+ "thanks_note_read": {
+  "_": [
+   "'Olağanüstü çabanız için teşekkürler — Ahmet.' BANA mı?",
+   "Ahmet'ten el yazısıyla bir teşekkür notu! Bunu çerçeveletiyorum."
+  ]
+ },
+ "thanks_note_thank": {
+  "_": [
+   "Ahmet Bey, o güzel not için teşekkür ederim!",
+   "Notunuz günümü güzelleştirdi, Ahmet Bey."
+  ]
+ },
+ "thanks_note_boss": {
+  "_": [
+   "...Not mu? O not {rich} içindi.",
+   "Ah. O aslında {rich} içindi."
+  ]
+ },
+ "thanks_unseen": {
+  "_": [
+   "Demek her şeyi ben düzeltiyorum, teşekkür {target:e} gidiyor. Harika.",
+   "Güzel. Benim teşekkür notum, başkasının masasında."
+  ]
+ },
+ "notes_good": {
+  "_": [
+   "Ahmet benim için 'güvenilir, geleceğin lideri' yazmış!",
+   "'Mükemmel' olduğumu düşünüyor! Yazılı olarak!"
+  ]
+ },
+ "notes_bad": {
+  "_": [
+   "'Sürekli gözetim gerektirir' mi?! Benim hakkımda böyle mi düşünüyor?",
+   "Ahmet'in benim hakkımdaki notu: 'hayal kırıklığı'. Vay."
+  ]
+ },
+ "notes_boss": {
+  "_": [
+   "ÖZEL NOTLARIMI PANOYA KİM ASTI?!",
+   "Onlar ÖZELDİ!"
+  ]
+ },
+ "card_find": {
+  "_": [
+   "Bir kelle avcısının kartı mı? 'Beni arayın — iki katını öderiz' mi?",
+   "'Kıdemli pozisyon, iki kat maaş. Arayın.' Masamın üstünde mi?"
+  ]
+ },
+ "card_show_boss": {
+  "_": [
+   "Ahmet Bey — bir kelle avcısı peşimde. Bilginiz olsun.",
+   "Biri bana iki katını teklif etti. Kalmayı tercih ederim... doğru fiyata."
+  ]
+ },
+ "card_boss_raise": {
+  "_": [
+   "...Peki. Maaşını konuşalım.",
+   "Onları arama. Bir çözüm buluruz."
+  ]
+ },
+ "card_boss_call_bluff": {
+  "_": [
+   "O zaman git. Kimse vazgeçilmez değildir.",
+   "Ara o zaman."
+  ]
+ },
+ "course_read": {
+  "_": [
+   "'Zorunlu öfke kontrolü kursu' mu?! BANA mı?!",
+   "Beni ÖFKE KONTROLÜNE kim yazdırdı?!"
+  ]
+ },
+ "course_laugh": {
+  "_": [
+   "Ha! Öfke kontrolü!",
+   "Birileri gelecek hafta çok sakin olacak!"
+  ],
+  "mert": [
+   "Namaste, dostum."
+  ]
+ },
+ "course_calm": {
+  "_": [
+   "...Peki. Belki giderim. İşe yarayabilir.",
+   "Tamam. Derin nefes. Sakinim. SAKİNİM."
+  ]
+ },
+ "intern_read": {
+  "_": [
+   "Bordroda unvanım... 'STAJYER' mi?!",
+   "'Ekibe hoş geldin, stajyer!' Beş yıldır buradayım!"
+  ]
+ },
+ "intern_ask": {
+  "_": [
+   "Ahmet Bey, neden STAJYER olarak görünüyorum?",
+   "Rütbem mi düşürüldü? Stajyerliğe mi?!"
+  ]
+ },
+ "intern_boss": {
+  "_": [
+   "Stajyer mi? Saçmalık. İK hatası. Muhtemelen.",
+   "Sen stajyer değilsin. Sakin ol."
+  ]
+ },
+ "intern_ece": {
+  "_": [
+   "Kulübe hoş geldin!",
+   "Stajyerler, birleşin!"
+  ]
+ },
+ "transfer_read": {
+  "_": [
+   "'Tayin talebi: Erzurum şubesine' mi?! Ben böyle bir şey istemedim!",
+   "Beni ERZURUM'a mı gönderiyorlar?"
+  ]
+ },
+ "transfer_ask": {
+  "_": [
+   "Ahmet Bey, benden kurtulmaya mı çalışıyorsunuz?",
+   "Bu tayin talebi sizin fikriniz mi?"
+  ]
+ },
+ "transfer_boss_no": {
+  "_": [
+   "Tayin mi? Sen mi? Senin işini kim yapacak?",
+   "Seni asla göndermem. Otur."
+  ]
+ },
+ "transfer_boss_hmm": {
+  "_": [
+   "...Erzurum yılın bu zamanı çok güzeldir.",
+   "Hım. Benim fikrim değil. Ama kötü bir fikir de değil."
+  ]
+ },
+ "criteria_read_cake": {
+  "_": [
+   "'Terfi kriterleri: cumaları pasta getirmek' mi? ...Bugün cuma sayılır.",
+   "Pasta terfi mi getiriyor? Pasta yapabilirim."
+  ]
+ },
+ "criteria_read_laugh": {
+  "_": [
+   "'Ahmet'in şakalarına gülmek zorunludur' mu? Not edildi.",
+   "Şakalarına gülmek. Tamam. Bunu taklit edebilirim."
+  ]
+ },
+ "criteria_laugh_boss": {
+  "_": [
+   "HAHAHA! Ahmet Bey, çok komiksiniz!",
+   "Ha! Ah, Ahmet Bey, gülmekten öldüm."
+  ]
+ },
+ "criteria_boss": {
+  "_": [
+   "...Komik bir şey söylemedim ki.",
+   "Bugün neden herkes söylediğim her şeye gülüyor?"
+  ]
+ },
+ "criteria_cake_offer": {
+  "_": [
+   "Pasta! Herkese! Sebepsiz!",
+   "Pasta getirdim. Öylesine. Hiçbir şeyle alakası yok."
+  ]
+ },
+ "reference_read": {
+  "_": [
+   "Bir referans mektubu mu? Ahmet'ten mi? 'Başka yerlerdeki pozisyonlar için şiddetle tavsiye edilir'...",
+   "Ahmet bana bir referans yazmış. BAŞKA işler için. Bu bir ima mı?"
+  ]
+ },
+ "reference_hurt": {
+  "_": [
+   "Gitmemi istiyor. Bu bunun anlamı.",
+   "'Başka yerler.' Anladım."
+  ]
+ },
+ "reference_use": {
+  "_": [
+   "...Eh. Kullansam iyi olur.",
+   "Parlak bir referans mı? Onu işe koşacağım."
+  ]
+ },
+ "overtime_read": {
+  "_": [
+   "HAFTA SONU mesai listesinde miyim?! Kız kardeşimin düğünü var!",
+   "Hafta sonu vardiyası mı? Ben mi? Buna kim karar verdi?!"
+  ]
+ },
+ "overtime_blame": {
+  "_": [
+   "Bu listeleri {suspect} hazırlıyor. BİLİYORUM.",
+   "Bu {suspect:in} işi."
+  ]
+ },
+ "overtime_plead": {
+  "_": [
+   "Ahmet Bey, bu hafta sonu çalışamam. Lütfen.",
+   "Mesai listesinde bir hata olmalı."
+  ]
+ },
+ "overtime_boss_yes": {
+  "_": [
+   "Listedeysen listedesin.",
+   "Kural kuraldır."
+  ]
+ },
+ "plate_bring": {
+  "_": [
+   "İstediğiniz evraklar, patron... şey, {target}?",
+   "{target}, kapıdaki tabelaya göre artık müdür sensin. Bunu imzalar mısın?"
+  ]
+ },
+ "plate_power": {
+  "_": [
+   "Yığının üstüne koy. Bakarım. Belki.",
+   "Evet, evet. Bana bırak."
+  ],
+  "deniz": [
+   "Mükemmel. BENİM masama koy."
+  ]
+ },
+ "plate_panic": {
+  "_": [
+   "Ben müdür değilim! Tabela yanlış!",
+   "Onu bana vermeyin! İstemiyorum!"
+  ]
+ },
+ "plate_boss": {
+  "_": [
+   "Kapımda neden '{target} — Müdür' yazıyor?!",
+   "İsim tabelamı kim değiştirdi?!"
+  ]
+ },
+ "swapphone_read": {
+  "_": [
+   "...Bu benim telefonum değil. Ve bu mesaj bana değil.",
+   "Bir dakika. Bu kimin telefonu— ah. AH.",
+   "Bu benim kilit ekranım değil. Ama mesajı çoktan okudum."
+  ]
+ },
+ "swapphone_return": {
+  "_": [
+   "Sanırım telefonlarımız karıştı. Al. Ben... hiçbir şey okumadım.",
+   "Telefonun. Bir mesaj görmüş olabilirim. Kusura bakma."
+  ]
+ },
+ "swapphone_mortified": {
+  "_": [
+   "OKUDUN mu?!",
+   "Lütfen mesajları okumadığını söyle."
+  ]
+ },
+ "swapphone_cool": {
+  "_": [
+   "Ha, tıpatıp aynılar. Sağ ol.",
+   "Sorun yok. Al, bu senin."
+  ]
+ },
+ "callerid_mom": {
+  "_": [
+   "ANNE?! Şimdi olmaz, anne! İŞTEYİM!",
+   "Anne, seni seviyorum ama tam şeyin ortasındayım— alo? Anne?"
+  ]
+ },
+ "callerid_ex": {
+  "_": [
+   "...Eski sevgilim beni neden arıyor?",
+   "Eski sevgilim. Beni arıyor. Ofiste. Harika."
+  ]
+ },
+ "callerid_headhunter": {
+  "_": [
+   "Bir işe alım uzmanı mı? Beni BURADA mı arıyor?",
+   "'Yetenek Ortakları Ltd.' mi? ...Bunu dışarıda konuşayım."
+  ]
+ },
+ "callerid_boss": {
+  "_": [
+   "Ahmet arıyor! Evet, Ahmet Bey? ...Alo? ...Kapattı.",
+   "Ahmet masasından mı arıyor? Neden bağırmıyor ki?"
+  ]
+ },
+ "callerid_heard_hh": {
+  "_": [
+   "{owner:i} arayan bir kelle avcısı mıydı?",
+   "Hım. {owner:e} az önce bir kelle avcısı aradı."
+  ]
+ },
+ "callerid_jealous": {
+  "_": [
+   "Telefondaki O kimdi?",
+   "Eski sevgilin mi? Seni arıyor? Bugün?"
+  ]
+ },
+ "ringtone_siren": {
+  "_": [
+   "*VİİYUU VİİYUU*",
+   "*HAVA SAVUNMA SİRENİ*"
+  ]
+ },
+ "ringtone_love": {
+  "_": [
+   "♪ Kalbim senin için bum-bum-bum atıyooor ♪",
+   "♪ Şekerim, ballı lokmam, uuuh ♪"
+  ]
+ },
+ "ringtone_baby": {
+  "_": [
+   "*VIIİİİK VIIİİİK*",
+   "*yüksek sesle ağlayan bebek*"
+  ]
+ },
+ "ringtone_react": {
+  "_": [
+   "Kimin zil sesi SİREN?!",
+   "Birinin telefonu... ağlıyor mu?",
+   "{owner:in} cebinden gelen o bir AŞK ŞARKISI mı?"
+  ],
+  "ahmet": [
+   "Bu kimin telefonu?! KAPATIN onu!"
+  ]
+ },
+ "ringtone_owner": {
+  "_": [
+   "O benim zil sesim değil! Susturun şunu!",
+   "Onu ben seçmedim! Yemin ederim!"
+  ]
  }
 }
