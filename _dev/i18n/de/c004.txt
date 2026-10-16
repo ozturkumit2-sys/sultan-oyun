@@ -102,8 +102,8 @@
 1154|Ahmet hat sein Babyfoto überall im Büro gesehen. Er jagt den Schuldigen.
 1155|Ahmet hat sein Babyfoto überall im Büro gesehen… und gelacht. Das hat noch nie jemand erlebt.
 1156|Der Drucker hat 500 Kopien eines Babyfotos ausgespuckt. Es ist Ahmet. Im Matrosenanzug. Die Kopien verbreiten sich.
-1157|{owner:s} Mail an Ahmet begann mit „Lieber Ahmet Babe“. Ahmet war… seltsam amüsiert.
-1158|{owner:s} Mail an Ahmet begann mit „Lieber Ahmet Babe“. Ahmet war gar nicht amüsiert.
+1157|{owner:s} Mail an Ahmet begann mit „Lieber Ahmet Baby“. Ahmet war… seltsam amüsiert.
+1158|{owner:s} Mail an Ahmet begann mit „Lieber Ahmet Baby“. Ahmet war gar nicht amüsiert.
 1159|{actor:s} Handy ist aus heiterem Himmel ausgegangen. Buraks Ladegerät wurde ungefragt „ausgeliehen“.
 1160|{leader} hat Ahmet zu einem Kuchenverkauf überredet, um den Kaffee zu retten. Das Büro ist vorsichtig optimistisch.
 1161|Ahmet hat Kürzungen verkündet: kein Gratis-Kaffee mehr. Das Büro reagierte, als hätte er den Sauerstoff abgeschafft.

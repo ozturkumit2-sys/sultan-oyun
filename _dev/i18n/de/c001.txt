@@ -275,7 +275,7 @@
 662|Eine Entschuldigung an jemanden, mit dem es Krach gab. Wähle, wer sie stattdessen bekommt.
 663|Den gedruckten Bericht im Archiv ablegen
 664|Unter „Z“. Wo niemand nachschaut.
-665|Autokorrektur einstellen: „Ahmet Bey“ → „Ahmet Babe“
+665|Autokorrektur einstellen: „Ahmet Bey“ → „Ahmet Baby“
 666|Die nächste Mail an den Chef wird… unvergesslich.
 667|Die automatische Antwort auf „Ich kündige“ setzen
 668|Die nächste Person, die eine Mail schickt, ist der Chef.

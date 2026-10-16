@@ -93,3 +93,6 @@ Everywhere else (ui.*, why.*, state.*, iv.*, …) write gender-neutral; role pla
 - obj values carry their article in es/fr ({obj} = "la impresora"); de has no article → {obj?der|die|das} {obj}
   (m|f|n: Drucker m, Kaffeemaschine f, Tastatur f, Licht n); lights are plural in es/fr/hi (4th slot "p").
 - what.boss_folder/dayoff_vanish/job_ads/layoff_mail/prank_call are spoken by Ahmet (ivm_boss_ask) → formal "your" in de (Ihr), fr (votre), hi (आपका).
+- 'Ahmet Bae' autocorrect joke (665, 1157, 1158, 1488, bae_* dialogue): tr 'Ahmet Bebeğim', de „Ahmet Baby“, es «Ahmet Bebé»,
+  fr « Ahmet Bébé », zh “老板”→“老伴” (“艾哈迈特老伴”), hi 'अहमत साजन' (pun on साहब).
+- Ringtone/karaoke lines were replaced in the English source with ORIGINAL lyrics (no real songs); translate them freely.

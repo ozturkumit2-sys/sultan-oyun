@@ -65,7 +65,7 @@
 1485|Der Geist hat ein anonymes Kompliment über {target} aufgehängt.
 1486|Der Geist hat {owner:s} Entschuldigungsbrief an {target} zugestellt.
 1487|Der Geist hat {owner:s} gedruckten Bericht im Archiv unter „Z“ abgelegt.
-1488|Der Geist hat {owner:s} Autokorrektur geändert. Aus „Ahmet Bey“ wird jetzt „Ahmet Babe“.
+1488|Der Geist hat {owner:s} Autokorrektur geändert. Aus „Ahmet Bey“ wird jetzt „Ahmet Baby“.
 1489|Der Geist hat {owner:s} automatische Antwort auf „Ich kündige. Kontaktiert mich nicht.“ gestellt.
 1490|Der Geist hat eine „Bester Chef der Welt“-Tasse mit {target:s} Namen auf dem Anhänger auf Ahmets Schreibtisch gestellt.
 1491|Der Geist hat den geheimen Geburtstagsumschlag für {bdayp} auf den Küchentisch gelegt.
