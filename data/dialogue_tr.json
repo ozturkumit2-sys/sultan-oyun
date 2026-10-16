@@ -4183,5 +4183,507 @@
   "mert": [
    "Ben gidersem güzel zımbayı da götürürüm."
   ]
+ },
+ "lp_ask_boss": {
+  "_": [
+   "Ahmet Bey, bilmemiz gerekiyor. İşten çıkarma olacak mı?",
+   "Cumaya kadar birinin kovulacağı doğru mu?",
+   "Bütün ofis panikte. İşimize son mu veriliyor?"
+  ]
+ },
+ "lp_boss_baffled": {
+  "_": [
+   "İŞTEN ÇIKARMA mı? İşten çıkarmadan kim bahsetti?!",
+   "Allah aşkına neden bahsediyorsunuz?",
+   "Kovulmak mı? Kimse kovulmuyor! Bunu kim başlattı?"
+  ]
+ },
+ "lp_announce": {
+  "_": [
+   "HERKES. İşten çıkarma YOK. KAHVE ABONELİĞİNİ iptal ettim.",
+   "Dinleyin! Kimse kovulmuyor! Kahve makinesi sözleşmesinden bahsediyordum!",
+   "Kayıtlara geçsin: bu ofisten ayrılan tek şey pahalı kahve."
+  ]
+ },
+ "lp_relief": {
+  "_": [
+   "Oh, çok şükür.",
+   "KAHVE mi?!",
+   "Tuvalette boşuna mı ağladım?",
+   "...Dur, artık güzel kahve yok mu?"
+  ]
+ },
+ "sa_offer": {
+  "_": [
+   "İkimizin de bir {mark} sorunu var. Birlikte çözelim.",
+   "Sen bir şeyler duyuyorsun. Ben de onları nasıl kullanacağımı biliyorum. Ortak mıyız?",
+   "{mark} yolumuzu tıkıyor. Bana yardım et, ekip lideri olunca sıradaki sen olursun."
+  ]
+ },
+ "sa_yes": {
+  "_": [
+   "...Varım. Kimse bilmeyecek.",
+   "Anlaştık. Bu konuşma hiç yaşanmadı.",
+   "Bana ne faydası var? ...Peki. Anlaştık."
+  ]
+ },
+ "sa_no": {
+  "_": [
+   "Hayır. Pis işlerini yapacak başka birini bul.",
+   "Kesinlikle hayır. Ve kendine dikkat et.",
+   "Ben öyle biri değilim."
+  ]
+ },
+ "sa_warn": {
+  "_": [
+   "{schemer:e} karşı dikkatli ol. Seni batırmak için benden yardım istedi.",
+   "Sırf bu doğru olmadığı için söylüyorum: {schemer} sana karşı entrika çeviriyor."
+  ]
+ },
+ "sa_warn_thanks": {
+  "_": [
+   "...Biliyordum. Teşekkürler.",
+   "Tabii ki öyle. Söylediğin için sağ ol.",
+   "Sana bir borçluyum."
+  ]
+ },
+ "sa_trade": {
+  "_": [
+   "{mark} hakkında elinde ne var?",
+   "İşe yarar bir şey? Herhangi bir şey?"
+  ]
+ },
+ "sa_give_secret": {
+  "_": [
+   "Ah, bir şey var. {dirt}",
+   "Bu aramızda kalsın: {dirt}"
+  ]
+ },
+ "sa_make_up": {
+  "_": [
+   "Gerçek bir şey yok. Ama insanlar yeterince sık duyduklarına inanır...",
+   "Hiçbir şey. O zaman uyduracağız. Tembel, erkenden sıvışıyor. Kolay."
+  ]
+ },
+ "sa_strike": {
+  "_": [
+   "Ahmet Bey, bunu söylemekten hoşlanmıyorum ama bilmeniz gerek: {dirt}",
+   "{mark} için endişeleniyorum. Biliyor muydunuz: {dirt}"
+  ]
+ },
+ "sa_boss_hmm": {
+  "_": [
+   "...Öyle mi? İlginç.",
+   "Bunu aklımda tutacağım.",
+   "Hm. Bu işleri değiştirir."
+  ]
+ },
+ "sa_tip": {
+  "_": [
+   "{schemer} ile {partner:i} arşivde fısıldaşırken gördüm. Sonra {schemer} senin hakkında doğruca Ahmet'e gitti.",
+   "Haberin olsun: {schemer}, Ahmet'le senin hakkında konuşuyor. {partner} da işin içinde."
+  ]
+ },
+ "sa_tip_react": {
+  "_": [
+   "{partner} mı?! Ona güvenmiştim!",
+   "Tabii ki. TABİİ Kİ.",
+   "...Söylediğin için teşekkürler."
+  ]
+ },
+ "sa_confront": {
+  "_": [
+   "Sen ve {schemer} mi? Gerçekten mi? Onca şeyden sonra?",
+   "Arşivi biliyorum. Ahmet'i biliyorum. Açıkla.",
+   "{schemer} sana ne kadar söz verdi?"
+  ]
+ },
+ "sa_betray": {
+  "_": [
+   "Hepsi {schemer:in} fikriydi! Ben sadece... dinledim!",
+   "Ben yokum. Bunu hiç istemedim. {schemer:le} konuş."
+  ]
+ },
+ "sa_loyal": {
+  "_": [
+   "Neden bahsettiğini bilmiyorum.",
+   "Kuruntu yapıyorsun.",
+   "Kanıtla."
+  ]
+ },
+ "bd_plan": {
+  "_": [
+   "Dur — bugün {bday:in} doğum günü! Kimse bir şey planlamadı mı?!",
+   "{bday:in} doğum günü. Pasta. Kart. Sürpriz. Hadi hadi hadi.",
+   "Doğum Günü Operasyonu başlıyor. Hedef: {bday}."
+  ],
+  "ece": [
+   "BUGÜN {bday:in} DOĞUM GÜNÜ! Tamam, sessiz, sessiz. Gizli görev."
+  ]
+ },
+ "bd_collect": {
+  "_": [
+   "Pst. {bday:in} pastası için para atar mısın? Bir de şu kartı imzala. Görmesin!",
+   "{bday:in} sürprizi için beş lira. Gizli!"
+  ]
+ },
+ "bd_collect_yes": {
+  "_": [
+   "Oo, tabii! Al.",
+   "Ben de varım. Nereye imzalıyorum?",
+   "Sürpriz mi? Bayılırım."
+  ]
+ },
+ "bd_collect_blab": {
+  "_": [
+   "SÜRPRİZ mi? {bday} için mi? Ah, ben sır tutmada berbatımdır...",
+   "Ha! Söylemem. Herhalde."
+  ]
+ },
+ "bd_hide": {
+  "_": [
+   "Pasta buzdolabında. Yoğurtların arkasında. Mükemmel.",
+   "Saklandı. Turşuların arkasına kimse bakmaz."
+  ]
+ },
+ "bd_mert_cake": {
+  "_": [
+   "Oo, bu pasta birine mi?",
+   "Bu... koca bir pasta mı? Alabilir miyim—"
+  ],
+  "mert": [
+   "Bu pasta birine mi? Kendim için soruyorum."
+  ]
+ },
+ "bd_dont": {
+  "_": [
+   "SAKIN. DOKUNMA. ONA.",
+   "O {bday} için! Çek ellerini!",
+   "Bırak. O çatalı. Yere."
+  ]
+ },
+ "bd_surprise": {
+  "_": [
+   "SÜRPRİİİZ!!!",
+   "İYİ Kİ DOĞDUN!",
+   "🎂 SÜRPRİİİİZ!"
+  ]
+ },
+ "bd_bday_happy": {
+  "_": [
+   "Sizi gidi! Aman tanrım! Herkes unuttu sanmıştım!",
+   "OLAMAZ. Benim için mi?!",
+   "Ağlamıyorum. Sen ağlıyorsun."
+  ],
+  "ahmet": [
+   "...Hıh. Eh. Teşekkür ederim. Hepinize."
+  ],
+  "burak": [
+   "...Sürprizlerden nefret ederim. ...Teşekkürler."
+  ],
+  "deniz": [
+   "Eh. Bu... beklenmedik şekilde hoş."
+  ]
+ },
+ "bd_bday_knew": {
+  "_": [
+   "Ha! Biliyordum! Biri sır tutamıyor!",
+   "Pastayı bu sabah gördüm. Ama YİNE de duygulandım!"
+  ]
+ },
+ "bd_sing": {
+  "_": [
+   "♪ İyi ki doğdun ♪",
+   "Konuşma! Konuşma!",
+   "Bir dilek tut!",
+   "Pasta! PASTA!"
+  ]
+ },
+ "bd_where": {
+  "_": [
+   "Dur. {bday} nerede?!",
+   "Doğum günü kişisini getirmeyi unuttuk.",
+   "...Gerçekten {bday:e} gelmesini söyleyen oldu mu?"
+  ]
+ },
+ "bg_phone": {
+  "_": [
+   "NE? Rakamlar YANLIŞ mıydı? ...Sizi sonra arayacağım.",
+   "...Müşteri NE diyor? Rakamlarımızda bir SIFIR mı fazlaymış?!",
+   "Anlıyorum. Bir daha olmayacak."
+  ]
+ },
+ "bg_hunt": {
+  "_": [
+   "Biri müşteriye YANLIŞ rakamlar göndermiş. Bir isim istiyorum. HEMEN.",
+   "Müşteri rakamlarını kim hazırladı?! Öne çıksın!",
+   "Bunu kimin yaptığını bulacağım. Önce siz söylerseniz daha iyi olur."
+  ]
+ },
+ "bg_shift_think": {
+  "_": [
+   "Biri sorarsa, o rakamları {scapegoat} gönderdi.",
+   "Ben değil. Kesinlikle ben değil. Belki {scapegoat}."
+  ]
+ },
+ "bg_hide_think": {
+  "_": [
+   "Lütfen bana bakmayın. Lütfen bana bakmayın.",
+   "Belki geçip gider...",
+   "*monitörün arkasına saklanır*"
+  ]
+ },
+ "bg_confess": {
+  "_": [
+   "Ahmet Bey... bendim. Sütunları karıştırdım.",
+   "Rakamlar benimdi. Özür dilerim. Müşteriyi bizzat ben ararım.",
+   "Benim hatamdı."
+  ]
+ },
+ "bg_respect": {
+  "_": [
+   "...Söylediğin için teşekkürler. Düzelt. Bugün.",
+   "En azından dürüstsün. Onları geri ara.",
+   "Hm. Hata olur. İkincisi olmasın."
+  ]
+ },
+ "bg_explode": {
+  "_": [
+   "Bir SIFIR mı?! Bunun bizi nasıl gösterdiğini biliyor musun?!",
+   "Kabul edilemez! Tamamen kabul edilemez!"
+  ]
+ },
+ "bg_accuse": {
+  "_": [
+   "{scapegoat}. Müşteri rakamları. Açıkla.",
+   "O rakamları SENİN gönderdiğini duydum.",
+   "Ofisimin sana bir sorusu var, {scapegoat}: neden?"
+  ]
+ },
+ "bg_proof": {
+  "_": [
+   "Dosya geçmişine bakın. O tabloyu haftalardır açmadım.",
+   "Ben değildim. Zaman damgalarına bakın.",
+   "En son kimin düzenlediğini {culprit:e} sorun."
+  ]
+ },
+ "bg_crushed": {
+  "_": [
+   "...Ben yapmadım. Ama peki.",
+   "Ne diyeceğimi bilmiyorum.",
+   "...Tamam."
+  ]
+ },
+ "bg_truth": {
+  "_": [
+   "Dosya geçmişine göre o tabloyu {scapegoat} değil, SEN düzenlemişsin.",
+   "Evet. Zaman damgaları. Komik şeylerdir, zaman damgaları.",
+   "Suçu {scapegoat:in} üstlenmesine göz mü yumdun?"
+  ]
+ },
+ "bg_caught": {
+  "_": [
+   "Ben... açıklayabilirim.",
+   "Masum bir hataydı!",
+   "...Evet. Bendim."
+  ]
+ },
+ "mp_mistake": {
+  "_": [
+   "Eyvah. {mentor:in} raporuna yanlış toplamları girdim. Ve rapor çoktan Ahmet'in masasında!",
+   "{mentor:in} raporunda iki sütunu karıştırdım. Rapor Ahmet'te. Ben bittim."
+  ]
+ },
+ "mp_cover": {
+  "_": [
+   "Ahmet Bey, raporumda bir hata var. Benim suçum. Düzeltilmiş hâli on dakikaya hazır.",
+   "Toplamlarda hata yaptım. Düzeltildi. Bir daha olmayacak."
+  ]
+ },
+ "mp_boss_mild": {
+  "_": [
+   "Hm. Sana hiç yakışmadı. Düzelt.",
+   "Peki. On dakika."
+  ]
+ },
+ "mp_boss_annoyed": {
+  "_": [
+   "Özensiz. Senden daha iyisini beklerdim.",
+   "BENİM raporlarımda hata mı? Yine mi?"
+  ]
+ },
+ "mp_exploit": {
+  "_": [
+   "Komik bir şey Ahmet Bey — o rapor hatasının stajyerin olduğunu duydum. Biri onu koruyor. Pek şeffaf değil, değil mi?",
+   "{mentor:in} {protege:i} koruduğunu biliyorsunuz, değil mi? Bilmeniz gerektiğini düşündüm."
+  ]
+ },
+ "mp_boss_hmm": {
+  "_": [
+   "...Korumak mı? BENİM ofisimde mi?",
+   "Öyle mi.",
+   "Bakacağım."
+  ]
+ },
+ "mp_boss_dismiss": {
+  "_": [
+   "Kimin yazım hatası olduğu umurumda değil. İşinizin başına.",
+   "Ofis dedikodusu performans değerlendirmesi değildir, Deniz."
+  ]
+ },
+ "mp_confess": {
+  "_": [
+   "Ahmet Bey — hata benimdi. {mentor} beni koruyordu. Lütfen onu suçlamayın.",
+   "Bendim. {mentor} değil. Özür dilerim."
+  ]
+ },
+ "mp_boss_respect": {
+  "_": [
+   "...Hm. Hem sadakat HEM dürüstlük. İkiniz de, işinizin başına.",
+   "Peki. Buna saygı duyuyorum. Bir daha olmasın."
+  ]
+ },
+ "mp_thank": {
+  "_": [
+   "Teşekkürler. Beni koruduğun için. Zorunda değildin.",
+   "Bunu benim için neden yaptın?",
+   "Sana borçluyum. Hem de çok."
+  ]
+ },
+ "mp_mentor_reply": {
+  "_": [
+   "Burada böyle yaparız. Bir dahaki sefere toplamları iki kez kontrol et.",
+   "Herkes bir kere hata yapar. İki kere değil.",
+   "Sen de benim için aynısını yapardın."
+  ]
+ },
+ "pp_ask": {
+  "_": [
+   "Ahmet Bey, ekip liderliği pozisyonu hakkında konuşmak istiyorum.",
+   "Bence ekip liderliği için bir şansı hak ettim. Nerede durduğumu bilmek istiyorum.",
+   "Terfi almam için ne gerekiyor?"
+  ]
+ },
+ "pp_prove": {
+  "_": [
+   "Kanıtla. Kaya hesabının sunumunu kazan. Yarına kadar.",
+   "Sonuçlar konuşur. Bana Kaya'yı kazandıracak bir sunum getir.",
+   "Göster. Sonra konuşuruz."
+  ]
+ },
+ "pp_dismiss": {
+  "_": [
+   "Şimdi sırası değil.",
+   "Bir pozisyon açılınca sana haber veririm.",
+   "Sabır. Herkes terfi etmek istiyor."
+  ]
+ },
+ "pp_promise": {
+  "_": [
+   "Sıradaki sensin. Bunu söylediğimi kimseye söyleme.",
+   "Böyle devam et. Yakında senin."
+  ]
+ },
+ "pp_grind": {
+  "_": [
+   "Öğle yemeği mi? Hayır. Sunum.",
+   "Slayt on iki. Slayt ON ÜÇ.",
+   "Bunu bitirirsem ekip lideri benim. ODAKLAN."
+  ]
+ },
+ "pp_sabotage": {
+  "_": [
+   "Bu slaytlar... karışsa yazık olur.",
+   "Hay aksi. Bu son sürüm mü? Öyleydi.",
+   "Kişisel değil."
+  ]
+ },
+ "pp_present": {
+  "_": [
+   "...ve Kaya'nın bizimle anlaşmasının sebebi bu. Sorusu olan?",
+   "İşte sunum. Üç slayt. Laf kalabalığı yok.",
+   "Size Kaya teklifini anlatmak istiyorum."
+  ]
+ },
+ "pp_great": {
+  "_": [
+   "...Bu mükemmel. Gerçekten mükemmel.",
+   "İşte BU, bir ekip liderinin işi.",
+   "Etkilendim."
+  ]
+ },
+ "pp_flop": {
+  "_": [
+   "Rakamlar darmadağın. Ne oldu?",
+   "Bu hazır değil.",
+   "Daha fazlasını bekliyordum."
+  ]
+ },
+ "pp_flop_excuse": {
+  "_": [
+   "Biri masamı karıştırmış! Notlarım her yere dağılmıştı!",
+   "Ben... bu sabah hazırdı!"
+  ]
+ },
+ "pp_verdict_open": {
+  "_": [
+   "Dün hakkında...",
+   "Ekip liderliği rolünü düşünüyordum."
+  ]
+ },
+ "pp_yes": {
+  "_": [
+   "Pozisyon açılınca senin.",
+   "Hak ettin. Yakında resmî olarak."
+  ]
+ },
+ "pp_not_yet": {
+  "_": [
+   "Henüz değil. Çalışmaya devam et.",
+   "Yaklaştın. Ama henüz değil."
+  ]
+ },
+ "rv_brood": {
+  "_": [
+   "{victim:den} intikam alacağım. Sen de bana yardım edeceksin.",
+   "{victim} bunu hak etti. Bir planım var.",
+   "İntikam soğuk yenen bir yemektir... cumaya kadar."
+  ]
+ },
+ "rv_in": {
+  "_": [
+   "...Tamam, dinliyorum. Plan ne?",
+   "Ha! Ben de varım.",
+   "Peki. Ama kovulmamıza yol açacak bir şey olmasın."
+  ]
+ },
+ "rv_calm": {
+  "_": [
+   "Boş ver. Değmez.",
+   "İntikam mı? Cidden mi? Git onunla konuş.",
+   "Pişman olursun. Yapma."
+  ]
+ },
+ "rv_calmed": {
+  "_": [
+   "...Belki haklısın.",
+   "Off. Peki. Fazla mantıklısın."
+  ]
+ },
+ "rv_prank": {
+  "_": [
+   "Klavye tuşlarını değiştiriyorum. Her. Birini.",
+   "Şeker kavanozuna tuz. Onun kavanozuna.",
+   "Masaüstü duvar kâğıdını... şununla değiştiriyorum.",
+   "Çekmecenin içine bir Ahmet fotoğrafı yapıştırıyorum. Afiyet olsun."
+  ]
+ },
+ "rv_found": {
+  "_": [
+   "Klavyemin tuşlarını KİM değiştirdi?!",
+   "Şekerim TUZ olmuş. Bunu kim yaptı?!",
+   "Ahmet'in yüzü neden çekmecemde?!",
+   "Duvar kâğıdım bir lama. NEDEN."
+  ]
  }
 }

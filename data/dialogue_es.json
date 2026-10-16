@@ -4183,5 +4183,507 @@
   "mert": [
    "Si me voy, me llevo la grapadora buena."
   ]
+ },
+ "lp_ask_boss": {
+  "_": [
+   "Ahmet Bey, necesitamos saberlo. ¿Va a haber despidos?",
+   "¿Es verdad que van a despedir a alguien antes del viernes?",
+   "Toda la oficina está en pánico. ¿Nos van a echar?"
+  ]
+ },
+ "lp_boss_baffled": {
+  "_": [
+   "¿DESPIDOS? ¿Quién ha hablado de despidos?",
+   "¿Pero de qué me están hablando?",
+   "¿Despedir? ¡No se despide a nadie! ¿Quién empezó esto?"
+  ]
+ },
+ "lp_announce": {
+  "_": [
+   "TODOS. NO hay despidos. Cancelé la SUSCRIPCIÓN DEL CAFÉ.",
+   "¡Escuchen! ¡No se despide a nadie! ¡Hablaba del contrato de la cafetera!",
+   "Que conste: lo único que se va de esta oficina es el café caro."
+  ]
+ },
+ "lp_relief": {
+  "_": [
+   "Ay, gracias a Dios.",
+   "¿¡El CAFÉ!?",
+   "¿Lloré en el baño para nada?",
+   "…Espera, ¿se acabó el café bueno?"
+  ]
+ },
+ "sa_offer": {
+  "_": [
+   "Los dos tenemos un problema llamado {mark}. Resolvámoslo juntos.",
+   "Tú te enteras de cosas. Yo sé cómo usarlas. ¿Socios?",
+   "{mark} nos estorba. Ayúdame y serás {to?el primero|la primera} de la lista cuando yo sea {me?jefe|jefa} de equipo."
+  ]
+ },
+ "sa_yes": {
+  "_": [
+   "…Me apunto. Que nadie se entere.",
+   "Trato hecho. Esta conversación nunca existió.",
+   "¿Y yo qué gano? …Vale. Trato hecho."
+  ]
+ },
+ "sa_no": {
+  "_": [
+   "No. Búscate a otro para tu trabajo sucio.",
+   "Ni hablar. Y cuidadito.",
+   "Yo no soy ese tipo de persona."
+  ]
+ },
+ "sa_warn": {
+  "_": [
+   "Cuidado con {schemer}. Me pidió ayuda para hundirte.",
+   "Te lo digo solo porque no está bien: {schemer} está conspirando contra ti."
+  ]
+ },
+ "sa_warn_thanks": {
+  "_": [
+   "…Lo sabía. Gracias.",
+   "Claro que sí. Gracias por decírmelo.",
+   "Te debo una."
+  ]
+ },
+ "sa_trade": {
+  "_": [
+   "¿Qué tienes sobre {mark}?",
+   "¿Algo útil? ¿Lo que sea?"
+  ]
+ },
+ "sa_give_secret": {
+  "_": [
+   "Ay, sí que tengo algo. {dirt}",
+   "Esto queda entre nosotros: {dirt}"
+  ]
+ },
+ "sa_make_up": {
+  "_": [
+   "Nada real. Pero la gente se cree lo que oye muchas veces…",
+   "Nada. Así que nos lo inventaremos. Que si no da golpe, que si se escaquea temprano. Fácil."
+  ]
+ },
+ "sa_strike": {
+  "_": [
+   "Ahmet Bey, no me gusta decir esto, pero debería saberlo: {dirt}",
+   "Me preocupa {mark}. ¿Sabía que {dirt}"
+  ]
+ },
+ "sa_boss_hmm": {
+  "_": [
+   "…¿Ah, sí? Interesante.",
+   "Lo tendré en cuenta.",
+   "Mm. Eso cambia las cosas."
+  ]
+ },
+ "sa_tip": {
+  "_": [
+   "Vi a {schemer} y a {partner} cuchicheando en el archivo. Luego {schemer} fue directo a hablarle a Ahmet de ti.",
+   "Aviso: {schemer} ha estado hablando con Ahmet sobre ti. Y {partner} está metid{partner?o|a}."
+  ]
+ },
+ "sa_tip_react": {
+  "_": [
+   "¿¡{partner}!? ¡Confiaba en {partner?él|ella}!",
+   "Claro. CLARO.",
+   "…Gracias por decírmelo."
+  ]
+ },
+ "sa_confront": {
+  "_": [
+   "¿Tú y {schemer}? ¿En serio? ¿Después de todo?",
+   "Sé lo del archivo. Sé lo de Ahmet. Explícate.",
+   "¿Cuánto te prometió {schemer}?"
+  ]
+ },
+ "sa_betray": {
+  "_": [
+   "¡Todo fue idea de {schemer}! ¡Yo solo… escuché!",
+   "Me retiro. Nunca quise esto. Habla con {schemer}."
+  ]
+ },
+ "sa_loyal": {
+  "_": [
+   "No sé de qué me hablas.",
+   "Te lo estás imaginando.",
+   "Demuéstralo."
+  ]
+ },
+ "bd_plan": {
+  "_": [
+   "Espera… ¡hoy es el cumpleaños de {bday}! ¿¡Nadie ha planeado nada!?",
+   "Cumpleaños de {bday}. Pastel. Tarjeta. Sorpresa. Vamos, vamos, vamos.",
+   "Operación Cumpleaños en marcha. Objetivo: {bday}."
+  ],
+  "ece": [
+   "¡ES EL CUMPLEAÑOS DE {bday}! Vale, silencio, silencio. Misión secreta."
+  ]
+ },
+ "bd_collect": {
+  "_": [
+   "Psst. ¿Pones algo para el pastel de {bday}? Y firma esta tarjeta. ¡Que no lo vea!",
+   "Cinco liras para la sorpresa de {bday}. ¡Es secreto!"
+  ]
+ },
+ "bd_collect_yes": {
+  "_": [
+   "¡Uy, sí! Toma.",
+   "Cuenta conmigo. ¿Dónde firmo?",
+   "¿Una sorpresa? Me encanta."
+  ]
+ },
+ "bd_collect_blab": {
+  "_": [
+   "¿UNA SORPRESA? ¿Para {bday}? Ay, se me dan fatal los secretos…",
+   "¡Ja! No diré nada. Probablemente."
+  ]
+ },
+ "bd_hide": {
+  "_": [
+   "Pastel en la nevera. Detrás de los yogures. Perfecto.",
+   "Escondido. Nadie mira detrás de los pepinillos."
+  ]
+ },
+ "bd_mert_cake": {
+  "_": [
+   "Uy, ¿este pastel es para alguien?",
+   "¿Esto es… un pastel entero? ¿Puedo…?"
+  ],
+  "mert": [
+   "¿Este pastel es para alguien? Pregunto por mí."
+  ]
+ },
+ "bd_dont": {
+  "_": [
+   "NO. LO. TOQUES.",
+   "¡Eso es para {bday}! ¡Las manos quietas!",
+   "Suelta. El tenedor. Ya."
+  ]
+ },
+ "bd_surprise": {
+  "_": [
+   "¡¡¡SORPRESA!!!",
+   "¡FELIZ CUMPLEAÑOS!",
+   "🎂 ¡SORPREEESA!"
+  ]
+ },
+ "bd_bday_happy": {
+  "_": [
+   "¡Chicos! ¡Dios mío! ¡Creía que todos se habían olvidado!",
+   "NO PUEDE SER. ¿¡Para mí!?",
+   "No estoy llorando. Tú estás llorando."
+  ],
+  "ahmet": [
+   "…Hmpf. Bueno. Gracias. A todos."
+  ],
+  "burak": [
+   "…Odio las sorpresas. …Gracias."
+  ],
+  "deniz": [
+   "Vaya. Esto es… inesperadamente bonito."
+  ]
+ },
+ "bd_bday_knew": {
+  "_": [
+   "¡Ja! ¡Lo sabía! ¡Alguien no sabe guardar un secreto!",
+   "Vi el pastel esta mañana. ¡Pero me emociona IGUAL!"
+  ]
+ },
+ "bd_sing": {
+  "_": [
+   "♪ Cumpleaños feliz ♪",
+   "¡Que hable! ¡Que hable!",
+   "¡Pide un deseo!",
+   "¡Pastel! ¡PASTEL!"
+  ]
+ },
+ "bd_where": {
+  "_": [
+   "Espera. ¿¡Dónde está {bday}!?",
+   "Se nos olvidó traer a quien cumple años.",
+   "…¿Alguien le dijo a {bday} que viniera?"
+  ]
+ },
+ "bg_phone": {
+  "_": [
+   "¿QUÉ? ¿Las cifras estaban MAL? …Le llamo luego.",
+   "…¿El cliente dice QUÉ? ¿Nuestros números tenían un CERO de más?",
+   "Entiendo. No volverá a pasar."
+  ]
+ },
+ "bg_hunt": {
+  "_": [
+   "Alguien le mandó al cliente cifras EQUIVOCADAS. Quiero un nombre. YA.",
+   "¿¡Quién preparó las cifras del cliente!? ¡Que dé un paso al frente!",
+   "Voy a averiguar quién fue. Mejor que me lo digan antes."
+  ]
+ },
+ "bg_shift_think": {
+  "_": [
+   "Si alguien pregunta, esas cifras las mandó {scapegoat}.",
+   "Yo no. Yo seguro que no. {scapegoat}, quizá."
+  ]
+ },
+ "bg_hide_think": {
+  "_": [
+   "Por favor, no me mires. Por favor, no me mires.",
+   "A lo mejor se olvida…",
+   "*se esconde detrás del monitor*"
+  ]
+ },
+ "bg_confess": {
+  "_": [
+   "Ahmet Bey… fui yo. Mezclé las columnas.",
+   "Las cifras eran mías. Lo siento. Llamaré yo al cliente.",
+   "Fue error mío."
+  ]
+ },
+ "bg_respect": {
+  "_": [
+   "…Gracias por decírmelo. Arréglalo. Hoy.",
+   "Al menos eres sincer{to?o|a}. Llámalos.",
+   "Mm. Los errores pasan. Que no pase dos veces."
+  ]
+ },
+ "bg_explode": {
+  "_": [
+   "¿¡Un CERO!? ¿¡Sabes lo mal que nos deja eso!?",
+   "¡Inaceptable! ¡Completamente inaceptable!"
+  ]
+ },
+ "bg_accuse": {
+  "_": [
+   "{scapegoat}. Las cifras del cliente. Explícate.",
+   "Me han dicho que fuiste TÚ quien mandó esas cifras.",
+   "Mi despacho tiene una pregunta para ti, {scapegoat}: ¿por qué?"
+  ]
+ },
+ "bg_proof": {
+  "_": [
+   "Mire el historial del archivo. No abro esa hoja de cálculo desde hace semanas.",
+   "No fui yo. Mire las marcas de tiempo.",
+   "Pregúntele a {culprit} quién la editó por última vez."
+  ]
+ },
+ "bg_crushed": {
+  "_": [
+   "…No fui yo. Pero vale.",
+   "No sé qué decir.",
+   "…Vale."
+  ]
+ },
+ "bg_truth": {
+  "_": [
+   "Según el historial, fuiste TÚ quien editó esa hoja. No {scapegoat}.",
+   "Vaya. Las marcas de tiempo. Qué cosas tienen las marcas de tiempo.",
+   "¿Dejaste que {scapegoat} cargara con la culpa?"
+  ]
+ },
+ "bg_caught": {
+  "_": [
+   "Yo… puedo explicarlo.",
+   "¡Fue un error sin mala intención!",
+   "…Sí. Fui yo."
+  ]
+ },
+ "mp_mistake": {
+  "_": [
+   "Ay, no. Puse los totales equivocados en el informe de {mentor}. ¡Y ya está en el escritorio de Ahmet!",
+   "Mezclé dos columnas en el informe de {mentor}. Lo tiene Ahmet. Estoy muert{me?o|a}."
+  ]
+ },
+ "mp_cover": {
+  "_": [
+   "Ahmet Bey, hay un error en mi informe. Culpa mía. La versión corregida en diez minutos.",
+   "Me equivoqué en los totales. Ya está arreglado. No volverá a pasar."
+  ]
+ },
+ "mp_boss_mild": {
+  "_": [
+   "Mm. No es propio de ti. Arréglalo.",
+   "Bien. Diez minutos."
+  ]
+ },
+ "mp_boss_annoyed": {
+  "_": [
+   "Descuidad{to?o|a}. Esperaba más de ti.",
+   "¿Errores en MIS informes? ¿Otra vez?"
+  ]
+ },
+ "mp_exploit": {
+  "_": [
+   "Qué curioso, Ahmet Bey: me dijeron que el error del informe era de la becaria. Alguien la está cubriendo. No muy transparente, ¿verdad?",
+   "Sabe que {mentor} está encubriendo a {protege}, ¿no? Pensé que debía saberlo."
+  ]
+ },
+ "mp_boss_hmm": {
+  "_": [
+   "…¿Encubriendo? ¿En MI oficina?",
+   "¿Ah, sí?",
+   "Lo investigaré."
+  ]
+ },
+ "mp_boss_dismiss": {
+  "_": [
+   "Me da igual de quién fuera la errata. A trabajar.",
+   "Los chismes de oficina no son una evaluación de desempeño, Deniz."
+  ]
+ },
+ "mp_confess": {
+  "_": [
+   "Ahmet Bey: el error fue mío. {mentor} me estaba protegiendo. Por favor, no {mentor?lo|la} culpe.",
+   "Fui yo. No {mentor}. Lo siento."
+  ]
+ },
+ "mp_boss_respect": {
+  "_": [
+   "…Mm. Lealtad Y sinceridad. Los dos, a trabajar.",
+   "Bien. Eso lo respeto. Que no vuelva a pasar."
+  ]
+ },
+ "mp_thank": {
+  "_": [
+   "Gracias. Por cubrirme. No tenías por qué.",
+   "¿Por qué hiciste eso por mí?",
+   "Te debo una. Y gorda."
+  ]
+ },
+ "mp_mentor_reply": {
+  "_": [
+   "Aquí hacemos eso. La próxima vez, revisa los totales dos veces.",
+   "Todo el mundo mete la pata una vez. Solo que no dos.",
+   "Tú harías lo mismo por mí."
+  ]
+ },
+ "pp_ask": {
+  "_": [
+   "Ahmet Bey, me gustaría hablar del puesto de jefe de equipo.",
+   "Creo que me he ganado una oportunidad como {me?jefe|jefa} de equipo. Me gustaría saber dónde estoy.",
+   "¿Qué haría falta para que me ascendieran?"
+  ]
+ },
+ "pp_prove": {
+  "_": [
+   "Demuéstralo. Consigue la cuenta de Kaya con tu propuesta. Para mañana.",
+   "Los resultados hablan. Tráeme una propuesta que gane a Kaya.",
+   "Demuéstramelo. Luego hablamos."
+  ]
+ },
+ "pp_dismiss": {
+  "_": [
+   "No es el momento.",
+   "Cuando haya un puesto, te avisaré.",
+   "Paciencia. Todo el mundo quiere un ascenso."
+  ]
+ },
+ "pp_promise": {
+  "_": [
+   "Eres {to?el siguiente|la siguiente} en la fila. No digas que te lo dije.",
+   "Sigue así. Pronto será tuyo."
+  ]
+ },
+ "pp_grind": {
+  "_": [
+   "¿Almorzar? No. Propuesta.",
+   "Diapositiva doce. Diapositiva TRECE.",
+   "Si termino esto, soy {me?jefe|jefa} de equipo. CONCÉNTRATE."
+  ]
+ },
+ "pp_sabotage": {
+  "_": [
+   "Sería una pena que estas diapositivas se… desordenaran.",
+   "Uy. ¿Esta es la versión final? Lo era.",
+   "No es nada personal."
+  ]
+ },
+ "pp_present": {
+  "_": [
+   "…y por eso Kaya va a firmar con nosotros. ¿Preguntas?",
+   "Aquí está la propuesta. Tres diapositivas. Sin relleno.",
+   "Me gustaría presentarle la propuesta para Kaya."
+  ]
+ },
+ "pp_great": {
+  "_": [
+   "…Esto es excelente. De verdad, excelente.",
+   "ESTO es trabajo de un jefe de equipo.",
+   "Estoy impresionado."
+  ]
+ },
+ "pp_flop": {
+  "_": [
+   "Las cifras son un desastre. ¿Qué pasó?",
+   "Esto no está listo.",
+   "Esperaba más."
+  ]
+ },
+ "pp_flop_excuse": {
+  "_": [
+   "¡Alguien tocó mi escritorio! ¡Mis notas estaban por todas partes!",
+   "Yo… ¡esta mañana estaba listo!"
+  ]
+ },
+ "pp_verdict_open": {
+  "_": [
+   "Sobre lo de ayer…",
+   "He estado pensando en el puesto de jefe de equipo."
+  ]
+ },
+ "pp_yes": {
+  "_": [
+   "Cuando se abra el puesto, es tuyo.",
+   "Te lo has ganado. Pronto será oficial."
+  ]
+ },
+ "pp_not_yet": {
+  "_": [
+   "Todavía no. Sigue trabajando.",
+   "Estás cerca. Pero aún no."
+  ]
+ },
+ "rv_brood": {
+  "_": [
+   "Me voy a vengar de {victim}. Y tú me vas a ayudar.",
+   "{victim} se lo ha buscado. Tengo un plan.",
+   "La venganza es un plato que se sirve… antes del viernes."
+  ]
+ },
+ "rv_in": {
+  "_": [
+   "…Vale, te escucho. ¿Cuál es el plan?",
+   "¡Ja! Cuenta conmigo.",
+   "Vale. Pero nada que haga que nos despidan."
+  ]
+ },
+ "rv_calm": {
+  "_": [
+   "Déjalo. No vale la pena.",
+   "¿Venganza? ¿En serio? Mejor habla con esa persona.",
+   "Te vas a arrepentir. No lo hagas."
+  ]
+ },
+ "rv_calmed": {
+  "_": [
+   "…A lo mejor tienes razón.",
+   "Uf. Vale. Eres demasiado sensat{to?o|a}."
+  ]
+ },
+ "rv_prank": {
+  "_": [
+   "Cambiando de sitio las teclas del teclado. Todas. Y cada una.",
+   "Sal en el azucarero. En el suyo.",
+   "Cambiando el fondo de pantalla por… esto.",
+   "Pegando una foto de Ahmet dentro del cajón. Que la disfrute."
+  ]
+ },
+ "rv_found": {
+  "_": [
+   "¿¡QUIÉN me cambió las teclas!?",
+   "Mi azúcar es SAL. ¿¡Quién hizo esto!?",
+   "¿¡Por qué está la cara de Ahmet en mi cajón!?",
+   "Mi fondo de pantalla es una llama. ¿POR QUÉ?"
+  ]
  }
 }

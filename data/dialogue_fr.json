@@ -4183,5 +4183,507 @@
   "mert": [
    "Si je pars, j'emporte la bonne agrafeuse."
   ]
+ },
+ "lp_ask_boss": {
+  "_": [
+   "Ahmet Bey, on a besoin de savoir. Il va y avoir des licenciements ?",
+   "C'est vrai que quelqu'un va être viré d'ici vendredi ?",
+   "Tout le bureau panique. On va nous mettre à la porte ?"
+  ]
+ },
+ "lp_boss_baffled": {
+  "_": [
+   "DES LICENCIEMENTS ? Qui a parlé de licenciements ?!",
+   "Mais de quoi est-ce que vous parlez ?",
+   "Viré ? Personne n'est viré ! Qui a lancé ça ?"
+  ]
+ },
+ "lp_announce": {
+  "_": [
+   "TOUT LE MONDE. Il n'y a PAS de licenciements. J'ai résilié l'ABONNEMENT CAFÉ.",
+   "Écoutez ! Personne n'est viré ! Je parlais du contrat de la machine à café !",
+   "Pour mémoire : la seule chose qui quitte ce bureau, c'est le café hors de prix."
+  ]
+ },
+ "lp_relief": {
+  "_": [
+   "Oh, Dieu merci.",
+   "Le CAFÉ ?!",
+   "J'ai pleuré aux toilettes pour rien ?",
+   "… Attends, plus de bon café ?"
+  ]
+ },
+ "sa_offer": {
+  "_": [
+   "On a tous les deux un problème qui s'appelle {mark}. Réglons-le ensemble.",
+   "Toi, tu entends des choses. Moi, je sais m'en servir. Associés ?",
+   "{mark} nous barre la route. Aide-moi et tu seras {to?le premier|la première} sur la liste quand je serai {me?chef|cheffe} d'équipe."
+  ]
+ },
+ "sa_yes": {
+  "_": [
+   "… J'en suis. Personne ne doit savoir.",
+   "Marché conclu. Cette conversation n'a jamais eu lieu.",
+   "J'y gagne quoi ? … Bon. Marché conclu."
+  ]
+ },
+ "sa_no": {
+  "_": [
+   "Non. Trouve quelqu'un d'autre pour ton sale boulot.",
+   "Hors de question. Et fais attention à toi.",
+   "Je ne suis pas ce genre de personne."
+  ]
+ },
+ "sa_warn": {
+  "_": [
+   "Méfie-toi de {schemer}. On m'a demandé d'aider à te faire tomber.",
+   "Je te le dis seulement parce que ce n'est pas juste : {schemer} complote contre toi."
+  ]
+ },
+ "sa_warn_thanks": {
+  "_": [
+   "… Je le savais. Merci.",
+   "Évidemment. Merci de me le dire.",
+   "Je t'en dois une."
+  ]
+ },
+ "sa_trade": {
+  "_": [
+   "Qu'est-ce que tu as sur {mark} ?",
+   "Quelque chose d'utile ? N'importe quoi ?"
+  ]
+ },
+ "sa_give_secret": {
+  "_": [
+   "Oh, j'ai un truc. {dirt}",
+   "Ça reste entre nous : {dirt}"
+  ]
+ },
+ "sa_make_up": {
+  "_": [
+   "Rien de vrai. Mais les gens croient ce qu'ils entendent assez souvent…",
+   "Rien. Alors on va inventer. Tire-au-flanc, part tôt en douce. Facile."
+  ]
+ },
+ "sa_strike": {
+  "_": [
+   "Ahmet Bey, ça me coûte de le dire, mais vous devriez savoir : {dirt}",
+   "Je m'inquiète pour {mark}. Saviez-vous que {dirt}"
+  ]
+ },
+ "sa_boss_hmm": {
+  "_": [
+   "… Vraiment ? Intéressant.",
+   "Je garde ça en tête.",
+   "Hm. Ça change les choses."
+  ]
+ },
+ "sa_tip": {
+  "_": [
+   "J'ai vu {schemer} et {partner} chuchoter aux archives. Ensuite, {schemer} est allé{schemer?|e} directement voir Ahmet à ton sujet.",
+   "Attention : {schemer} parle de toi à Ahmet. Et {partner} est dans le coup."
+  ]
+ },
+ "sa_tip_react": {
+  "_": [
+   "{partner} ?! J'avais confiance en {partner?lui|elle} !",
+   "Évidemment. ÉVIDEMMENT.",
+   "… Merci de me l'avoir dit."
+  ]
+ },
+ "sa_confront": {
+  "_": [
+   "Toi et {schemer} ? Vraiment ? Après tout ça ?",
+   "Je sais pour les archives. Je sais pour Ahmet. Explique-toi.",
+   "Combien {schemer} t'a promis ?"
+  ]
+ },
+ "sa_betray": {
+  "_": [
+   "C'était l'idée de {schemer} ! Moi, j'ai juste… écouté !",
+   "Je me retire. Je n'ai jamais voulu ça. Parle à {schemer}."
+  ]
+ },
+ "sa_loyal": {
+  "_": [
+   "Je ne vois pas de quoi tu parles.",
+   "Tu te fais des idées.",
+   "Prouve-le."
+  ]
+ },
+ "bd_plan": {
+  "_": [
+   "Attends — c'est l'anniversaire de {bday} aujourd'hui ! Personne n'a rien prévu ?!",
+   "Anniversaire de {bday}. Gâteau. Carte. Surprise. Allez, allez, allez.",
+   "Opération Anniversaire lancée. Cible : {bday}."
+  ],
+  "ece": [
+   "C'EST L'ANNIVERSAIRE DE {bday} ! OK, chut, chut. Mission secrète."
+  ]
+ },
+ "bd_collect": {
+  "_": [
+   "Psst. Tu participes pour le gâteau de {bday} ? Et signe cette carte. Qu'on ne la voie pas !",
+   "Cinq lires pour la surprise de {bday}. C'est secret !"
+  ]
+ },
+ "bd_collect_yes": {
+  "_": [
+   "Oh, oui ! Tiens.",
+   "Je suis partant{me?|e}. Où est-ce que je signe ?",
+   "Une surprise ? J'adore."
+  ]
+ },
+ "bd_collect_blab": {
+  "_": [
+   "Une SURPRISE ? Pour {bday} ? Oh, je suis nul{me?|le} pour garder les secrets…",
+   "Ha ! Je ne dirai rien. Probablement."
+  ]
+ },
+ "bd_hide": {
+  "_": [
+   "Gâteau dans le frigo. Derrière les yaourts. Parfait.",
+   "Caché. Personne ne regarde derrière les cornichons."
+  ]
+ },
+ "bd_mert_cake": {
+  "_": [
+   "Oh, ce gâteau est pour quelqu'un ?",
+   "C'est… un gâteau entier ? Je peux—"
+  ],
+  "mert": [
+   "Ce gâteau est pour quelqu'un ? Je demande pour moi."
+  ]
+ },
+ "bd_dont": {
+  "_": [
+   "N'Y. TOUCHE. PAS.",
+   "C'est pour {bday} ! Bas les pattes !",
+   "Pose. Cette. Fourchette."
+  ]
+ },
+ "bd_surprise": {
+  "_": [
+   "SURPRISE !!!",
+   "JOYEUX ANNIVERSAIRE !",
+   "🎂 SURPRIIIISE !"
+  ]
+ },
+ "bd_bday_happy": {
+  "_": [
+   "Vous êtes fous ! Oh mon Dieu ! Je croyais que tout le monde avait oublié !",
+   "PAS POSSIBLE. Pour moi ?!",
+   "Je ne pleure pas. C'est toi qui pleures."
+  ],
+  "ahmet": [
+   "… Hmpf. Bon. Merci. À vous tous."
+  ],
+  "burak": [
+   "… Je déteste les surprises. … Merci."
+  ],
+  "deniz": [
+   "Eh bien. C'est… étonnamment gentil."
+  ]
+ },
+ "bd_bday_knew": {
+  "_": [
+   "Ha ! Je le savais ! Quelqu'un ne sait pas garder un secret !",
+   "J'ai vu le gâteau ce matin. Mais je suis QUAND MÊME touché{me?|e} !"
+  ]
+ },
+ "bd_sing": {
+  "_": [
+   "♪ Joyeux anniversaire ♪",
+   "Un discours ! Un discours !",
+   "Fais un vœu !",
+   "Du gâteau ! DU GÂTEAU !"
+  ]
+ },
+ "bd_where": {
+  "_": [
+   "Attendez. Où est {bday} ?!",
+   "On a oublié d'amener la personne qui fête son anniversaire.",
+   "… Quelqu'un a vraiment dit à {bday} de venir ?"
+  ]
+ },
+ "bg_phone": {
+  "_": [
+   "QUOI ? Les chiffres étaient FAUX ? … Je vous rappelle.",
+   "… Le client dit QUOI ? Nos chiffres avaient un ZÉRO de trop ?!",
+   "Je comprends. Ça ne se reproduira pas."
+  ]
+ },
+ "bg_hunt": {
+  "_": [
+   "Quelqu'un a envoyé de FAUX chiffres au client. Je veux un nom. TOUT DE SUITE.",
+   "Qui a préparé les chiffres du client ?! Avancez-vous !",
+   "Je trouverai qui a fait ça. Mieux vaut me le dire avant."
+  ]
+ },
+ "bg_shift_think": {
+  "_": [
+   "Si on demande, c'est {scapegoat} qui a envoyé ces chiffres.",
+   "Pas moi. Sûrement pas moi. {scapegoat}, peut-être."
+  ]
+ },
+ "bg_hide_think": {
+  "_": [
+   "S'il vous plaît, ne me regardez pas. Ne me regardez pas.",
+   "Ça va peut-être se tasser…",
+   "*se cache derrière son écran*"
+  ]
+ },
+ "bg_confess": {
+  "_": [
+   "Ahmet Bey… c'était moi. J'ai mélangé les colonnes.",
+   "Les chiffres venaient de moi. Je suis désolé{me?|e}. J'appellerai le client moi-même.",
+   "C'était mon erreur."
+  ]
+ },
+ "bg_respect": {
+  "_": [
+   "… Merci de me l'avoir dit. Corrigez ça. Aujourd'hui.",
+   "Au moins, vous êtes honnête. Rappelez-les.",
+   "Hm. Les erreurs, ça arrive. Pas deux fois."
+  ]
+ },
+ "bg_explode": {
+  "_": [
+   "Un ZÉRO ?! Vous savez de quoi on a l'air ?!",
+   "Inacceptable ! Totalement inacceptable !"
+  ]
+ },
+ "bg_accuse": {
+  "_": [
+   "{scapegoat}. Les chiffres du client. Expliquez-vous.",
+   "J'entends dire que c'est VOUS qui avez envoyé ces chiffres.",
+   "Mon bureau a une question pour vous, {scapegoat} : pourquoi ?"
+  ]
+ },
+ "bg_proof": {
+  "_": [
+   "Regardez l'historique du fichier. Je n'ai pas ouvert ce tableur depuis des semaines.",
+   "Ce n'est pas moi. Regardez les horodatages.",
+   "Demandez à {culprit} qui l'a modifié en dernier."
+  ]
+ },
+ "bg_crushed": {
+  "_": [
+   "… Ce n'est pas moi. Mais bon.",
+   "Je ne sais pas quoi dire.",
+   "… D'accord."
+  ]
+ },
+ "bg_truth": {
+  "_": [
+   "D'après l'historique, c'est VOUS qui avez modifié ce tableur. Pas {scapegoat}.",
+   "Eh oui. Les horodatages. Drôles de bêtes, les horodatages.",
+   "Vous avez laissé {scapegoat} porter le chapeau ?"
+  ]
+ },
+ "bg_caught": {
+  "_": [
+   "Je… je peux expliquer.",
+   "C'était une erreur de bonne foi !",
+   "… Oui. C'était moi."
+  ]
+ },
+ "mp_mistake": {
+  "_": [
+   "Oh non. J'ai tapé les mauvais totaux dans le rapport de {mentor}. Et il est déjà sur le bureau d'Ahmet !",
+   "J'ai inversé deux colonnes dans le rapport de {mentor}. Ahmet l'a. Je suis mort{me?|e}."
+  ]
+ },
+ "mp_cover": {
+  "_": [
+   "Ahmet Bey, il y a une erreur dans mon rapport. C'est ma faute. Version corrigée dans dix minutes.",
+   "Je me suis trompé{me?|e} dans les totaux. C'est corrigé. Ça ne se reproduira pas."
+  ]
+ },
+ "mp_boss_mild": {
+  "_": [
+   "Hm. Ça ne vous ressemble pas. Corrigez ça.",
+   "Bien. Dix minutes."
+  ]
+ },
+ "mp_boss_annoyed": {
+  "_": [
+   "Bâclé. J'attendais mieux de vous.",
+   "Des erreurs dans MES rapports ? Encore ?"
+  ]
+ },
+ "mp_exploit": {
+  "_": [
+   "C'est drôle, Ahmet Bey — j'ai entendu dire que l'erreur venait de la stagiaire. Quelqu'un la couvre. Pas très transparent, non ?",
+   "Vous savez que {mentor} couvre {protege}, n'est-ce pas ? Je pensais que vous deviez le savoir."
+  ]
+ },
+ "mp_boss_hmm": {
+  "_": [
+   "… Couvrir ? Dans MON bureau ?",
+   "Tiens donc.",
+   "Je vais regarder ça."
+  ]
+ },
+ "mp_boss_dismiss": {
+  "_": [
+   "Peu importe à qui est la faute de frappe. Au travail.",
+   "Les ragots de bureau ne sont pas une évaluation de performance, Deniz."
+  ]
+ },
+ "mp_confess": {
+  "_": [
+   "Ahmet Bey — l'erreur venait de moi. {mentor} me protégeait. S'il vous plaît, ne {mentor?le|la} blâmez pas.",
+   "C'était moi. Pas {mentor}. Je suis désolé{me?|e}."
+  ]
+ },
+ "mp_boss_respect": {
+  "_": [
+   "… Hm. Loyauté ET honnêteté. Tous les deux, au travail.",
+   "Bien. Je respecte ça. Que ça ne se reproduise pas."
+  ]
+ },
+ "mp_thank": {
+  "_": [
+   "Merci. De m'avoir couvert{me?|e}. Tu n'étais pas obligé{to?|e}.",
+   "Pourquoi tu as fait ça pour moi ?",
+   "Je t'en dois une. Une grosse."
+  ]
+ },
+ "mp_mentor_reply": {
+  "_": [
+   "C'est comme ça qu'on fait, ici. La prochaine fois, vérifie deux fois les totaux.",
+   "Tout le monde se plante une fois. Pas deux.",
+   "Tu ferais pareil pour moi."
+  ]
+ },
+ "pp_ask": {
+  "_": [
+   "Ahmet Bey, j'aimerais parler du poste de chef d'équipe.",
+   "Je crois avoir mérité ma chance pour le poste de chef d'équipe. J'aimerais savoir où j'en suis.",
+   "Qu'est-ce qu'il faudrait pour que je sois promu{me?|e} ?"
+  ]
+ },
+ "pp_prove": {
+  "_": [
+   "Prouvez-le. Décrochez le compte Kaya avec votre pitch. D'ici demain.",
+   "Les résultats parlent. Apportez-moi un pitch qui remporte Kaya.",
+   "Montrez-moi. Ensuite, on parlera."
+  ]
+ },
+ "pp_dismiss": {
+  "_": [
+   "Ce n'est pas le moment.",
+   "Quand il y aura un poste, je vous le dirai.",
+   "Patience. Tout le monde veut une promotion."
+  ]
+ },
+ "pp_promise": {
+  "_": [
+   "Vous êtes {to?le prochain|la prochaine} sur la liste. Ne dites à personne que je l'ai dit.",
+   "Continuez comme ça. Ce sera bientôt à vous."
+  ]
+ },
+ "pp_grind": {
+  "_": [
+   "Déjeuner ? Non. Pitch.",
+   "Diapo douze. Diapo TREIZE.",
+   "Si je finis ça, je suis {me?chef|cheffe} d'équipe. CONCENTRE-TOI."
+  ]
+ },
+ "pp_sabotage": {
+  "_": [
+   "Ce serait dommage que ces diapos se… mélangent.",
+   "Oups. C'est la version finale ? C'était.",
+   "Rien de personnel."
+  ]
+ },
+ "pp_present": {
+  "_": [
+   "… et voilà pourquoi Kaya va signer avec nous. Des questions ?",
+   "Voici le pitch. Trois diapos. Pas de blabla.",
+   "J'aimerais vous présenter la proposition pour Kaya."
+  ]
+ },
+ "pp_great": {
+  "_": [
+   "… C'est excellent. Vraiment excellent.",
+   "Ça, c'est le travail d'un chef d'équipe.",
+   "Je suis impressionné."
+  ]
+ },
+ "pp_flop": {
+  "_": [
+   "Les chiffres sont un désastre. Que s'est-il passé ?",
+   "Ce n'est pas prêt.",
+   "J'attendais plus."
+  ]
+ },
+ "pp_flop_excuse": {
+  "_": [
+   "Quelqu'un a trafiqué mon bureau ! Mes notes étaient partout !",
+   "Je… c'était prêt ce matin !"
+  ]
+ },
+ "pp_verdict_open": {
+  "_": [
+   "À propos d'hier…",
+   "J'ai réfléchi au poste de chef d'équipe."
+  ]
+ },
+ "pp_yes": {
+  "_": [
+   "Quand le poste s'ouvrira, il sera pour vous.",
+   "Vous l'avez mérité. Ce sera officiel bientôt."
+  ]
+ },
+ "pp_not_yet": {
+  "_": [
+   "Pas encore. Continuez à travailler.",
+   "Vous y êtes presque. Pas encore."
+  ]
+ },
+ "rv_brood": {
+  "_": [
+   "Je vais me venger de {victim}. Et tu vas m'aider.",
+   "{victim} l'a bien cherché. J'ai un plan.",
+   "La vengeance est un plat qui se mange… d'ici vendredi."
+  ]
+ },
+ "rv_in": {
+  "_": [
+   "… OK, je t'écoute. C'est quoi, le plan ?",
+   "Ha ! J'en suis.",
+   "Bon. Mais rien qui nous fasse virer."
+  ]
+ },
+ "rv_calm": {
+  "_": [
+   "Laisse tomber. Ça n'en vaut pas la peine.",
+   "La vengeance ? Sérieusement ? Va plutôt lui parler.",
+   "Tu vas le regretter. Ne fais pas ça."
+  ]
+ },
+ "rv_calmed": {
+  "_": [
+   "… Tu as peut-être raison.",
+   "Pff. Bon. Tu es trop raisonnable."
+  ]
+ },
+ "rv_prank": {
+  "_": [
+   "J'inverse les touches du clavier. Toutes. Sans. Exception.",
+   "Du sel dans le sucrier. Le sien.",
+   "Je change le fond d'écran pour… ça.",
+   "Je colle une photo d'Ahmet à l'intérieur du tiroir. Bonne surprise."
+  ]
+ },
+ "rv_found": {
+  "_": [
+   "QUI a inversé les touches de mon clavier ?!",
+   "Mon sucre, c'est du SEL. Qui a fait ça ?!",
+   "Pourquoi la tête d'Ahmet est dans mon tiroir ?!",
+   "Mon fond d'écran, c'est un lama. POURQUOI."
+  ]
  }
 }
