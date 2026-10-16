@@ -9303,5 +9303,584 @@
    "Démasqué{culprit?|e} par le piment ! C'est {culprit} !",
    "L'appât a marché ! {culprit}, tu es fait{culprit?|e} !"
   ]
+ },
+ "lm_confront": {
+  "_": [
+   "{culprit}. Tu as mangé mon déjeuner. Trois fois.",
+   "Alors c'était TOI depuis le début, {culprit}."
+  ]
+ },
+ "lm_sorry": {
+  "_": [
+   "...Je t'offre le déjeuner pendant une semaine. Je suis désolé{me?|e}.",
+   "OK. Coupable. Laisse-moi me rattraper."
+  ]
+ },
+ "lm_deny": {
+  "_": [
+   "Prouve-le.",
+   "Ton « détective » ment.",
+   "Je ne vois pas de quoi tu parles."
+  ]
+ },
+ "wp_announce": {
+  "_": [
+   "Tout le monde ! J'ai la fierté d'annoncer notre {credited?nouveau chef|nouvelle cheffe} d'équipe : {credited} !",
+   "Félicitations à {credited} — {credited?promu|promue} à compter d'aujourd'hui !"
+  ]
+ },
+ "wp_credited": {
+  "_": [
+   "Attends — MOI ? Vraiment ?!",
+   "Je... waouh. Merci ?!"
+  ],
+  "deniz": [
+   "Enfin. De la reconnaissance."
+  ]
+ },
+ "wp_rightful": {
+  "_": [
+   "...Quoi ? C'était censé être pour MOI.",
+   "{credited} ?! Sur quelle base ?"
+  ]
+ },
+ "wp_protest": {
+  "_": [
+   "Ahmet Bey, sauf votre respect — ce dossier de promotion était faux.",
+   "Quelqu'un a trafiqué le dossier. Vous savez que ça devait être moi."
+  ]
+ },
+ "wp_boss_doubt": {
+  "_": [
+   "...Je vais regarder ça.",
+   "Trafiqué ? Hm. Je vérifie."
+  ]
+ },
+ "wp_boss_stubborn": {
+  "_": [
+   "Je l'ai annoncé. C'est maintenu.",
+   "Je ne reviens pas sur mes décisions en public."
+  ]
+ },
+ "wp_correct": {
+  "_": [
+   "Rectification, tout le monde. Le dossier a été trafiqué. La promotion revient à {rightful}.",
+   "J'ai fait une erreur. {rightful} est {rightful?notre nouveau chef|notre nouvelle cheffe} d'équipe."
+  ]
+ },
+ "wp_credited_crushed": {
+  "_": [
+   "...Bien sûr. Bien sûr que c'était une erreur.",
+   "Merveilleux. {me?Promu et rétrogradé|Promue et rétrogradée} avant le déjeuner."
+  ]
+ },
+ "sa_leave": {
+  "_": [
+   "*glisse un mot plié sous le clavier de {beloved}*",
+   "*laisse un petit mot sur le bureau de {beloved} et s'éloigne vite*"
+  ]
+ },
+ "sa_find": {
+  "_": [
+   "« Tu rends les lundis supportables. » Pas de signature...",
+   "Encore un mot anonyme ? Mais QUI est-ce ?"
+  ]
+ },
+ "sa_guess": {
+  "_": [
+   "C'était toi ? Les mots ? Sois honnête.",
+   "Quelqu'un me laisse des mots. C'est toi ?"
+  ]
+ },
+ "sa_wrong_yes": {
+  "_": [
+   "...Peut-être.",
+   "Coupable ! Enfin... oui ?"
+  ]
+ },
+ "sa_wrong_no": {
+  "_": [
+   "Des mots ? Pas moi. Mais je suis jaloux{me?|se} !",
+   "Non... mais maintenant, moi aussi je veux savoir."
+  ]
+ },
+ "sa_confess": {
+  "_": [
+   "Les mots... c'était moi. Tous.",
+   "Je suis {me?ton admirateur secret|ton admiratrice secrète}. Surprise ?"
+  ]
+ },
+ "sad_yes": {
+  "_": [
+   "...J'espérais que ce soit toi.",
+   "Vraiment ? Toi ? ...Ça me plairait."
+  ]
+ },
+ "sa_kind_no": {
+  "_": [
+   "C'est vraiment adorable. Mais je ne ressens pas la même chose. Je suis désolé{me?|e}.",
+   "Je suis flatté{me?|e}. Sincèrement. Mais... non."
+  ]
+ },
+ "cs_call": {
+  "_": [
+   "*au téléphone* ...Oui, c'est moi qui m'occupe du compte maintenant. {victim} ? Oh, {victim?il|elle} est très {victim?occupé|occupée}.",
+   "*chuchote au téléphone* Laissez-moi m'occuper de vous personnellement."
+  ]
+ },
+ "cs_learn": {
+  "_": [
+   "Mon client dit qu'il « travaille avec {thief} » ?!",
+   "{thief} est allé{thief?|e} voir MON client dans mon dos !"
+  ]
+ },
+ "cs_pitch_boss": {
+  "_": [
+   "Ahmet Bey, ce client est À MOI. C'est moi qui ai construit ce compte.",
+   "Ahmet Bey, {thief} me pique mon client. Je veux le récupérer."
+  ]
+ },
+ "cs_boss_victim": {
+  "_": [
+   "Vous avez raison. Mert garde le compte. {thief}, pas touche.",
+   "Le compte reste chez vous."
+  ]
+ },
+ "cs_boss_thief": {
+  "_": [
+   "Le client préfère {thief}. Les résultats sont les résultats.",
+   "Désolé. Le client a demandé {thief}."
+  ]
+ },
+ "es_spot": {
+  "_": [
+   "Hm. Ça fait beaucoup de « déjeuners clients » pour {suspect}.",
+   "Trois taxis pour le même restaurant, {suspect} ? Un dimanche ?"
+  ]
+ },
+ "es_ask": {
+  "_": [
+   "{suspect}, tu peux m'expliquer ces reçus ?",
+   "Petite question sur tes notes de frais, {suspect}..."
+  ]
+ },
+ "es_explain": {
+  "_": [
+   "C'était légitime ! Des dîners clients !",
+   "Je peux expliquer chacun d'entre eux."
+  ]
+ },
+ "es_panic": {
+  "_": [
+   "...On peut garder ça entre nous ?",
+   "S'il te plaît, n'en parle pas à Ahmet."
+  ]
+ },
+ "es_report": {
+  "_": [
+   "Ahmet Bey, il faut que vous voyiez ces notes de frais.",
+   "J'ai trouvé des irrégularités. C'est {suspect}."
+  ]
+ },
+ "es_keep": {
+  "_": [
+   "...Je ne dirai rien. Pour cette fois. Tu m'en dois une.",
+   "Notre petit secret. Pour l'instant."
+  ]
+ },
+ "mm_assign": {
+  "_": [
+   "{mentor}, à partir d'aujourd'hui, vous êtes {mentor?le mentor|la mentore} de {mentee}. Faites que ça marche.",
+   "Nouvelle organisation : {mentor} encadre {mentee}. Pas de discussion."
+  ]
+ },
+ "mm_groan": {
+  "_": [
+   "...Génial.",
+   "Merveilleux. Tout simplement merveilleux.",
+   "De tous les gens possibles."
+  ]
+ },
+ "mm_teach": {
+  "_": [
+   "OK. Leçon numéro un : comment je fais les choses. C'est-à-dire correctement.",
+   "Écoute bien. Je ne l'expliquerai qu'une fois."
+  ]
+ },
+ "mm_useful": {
+  "_": [
+   "...Tiens. C'est vraiment utile, en fait.",
+   "OK, ça, je ne savais pas. Merci."
+  ]
+ },
+ "mm_sabotage": {
+  "_": [
+   "(...et ensuite tu l'envoies au client sans vérifier. Fais-moi confiance.)",
+   "(Ignore toujours les délais d'Ahmet. Il adore ça.)"
+  ]
+ },
+ "mm_eval_ask": {
+  "_": [
+   "Alors. Comment se passe le mentorat, vous deux ?",
+   "Point d'étape. Tous les deux."
+  ]
+ },
+ "mm_eval_good": {
+  "_": [
+   "Étonnamment bien, en fait.",
+   "On a... trouvé un terrain d'entente."
+  ]
+ },
+ "mm_eval_bad": {
+  "_": [
+   "{mentor} m'a dit d'ignorer vos délais !",
+   "Demandez à {mentor} pourquoi mon rapport est parti sans être vérifié."
+  ]
+ },
+ "rw_first": {
+  "_": [
+   "Tu savais que {enemy} a pleuré une fois dans le placard à fournitures ? Deux fois ?",
+   "Entre nous : {enemy} utilise encore Comic Sans. Exprès."
+  ]
+ },
+ "rw_hear": {
+  "_": [
+   "{gossip} raconte QUOI sur moi ?",
+   "Ah, c'est comme ça qu'on joue, {gossip} ? Très bien."
+  ]
+ },
+ "rw_back": {
+  "_": [
+   "C'est drôle — j'ai entendu dire que {gossip} lit les mails des autres. Tous les jours.",
+   "Tu savais que {gossip} a bidonné son CV ? Demande à n'importe qui."
+  ]
+ },
+ "rw_sides": {
+  "_": [
+   "OK, ça doit cesser. Tous les deux. Cuisine. Maintenant.",
+   "Assez de rumeurs. Réglons ça comme des adultes."
+  ]
+ },
+ "rw_truce": {
+  "_": [
+   "...Bon. Trêve. J'arrête si tu arrêtes.",
+   "OK. Ça nous a échappé."
+  ]
+ },
+ "rw_war": {
+  "_": [
+   "C'est l'autre qui a commencé !",
+   "J'arrêterai quand on m'aura présenté des excuses."
+  ]
+ },
+ "op_pitch": {
+  "_": [
+   "Écoutez-moi : fête. Cuisine. 16 h. Qui est partant ?",
+   "On a besoin d'une fête. J'en organise une. Aujourd'hui."
+  ],
+  "mert": [
+   "Fête. Cuisine. Quatre heures. Faites passer, mais pas à Ahmet."
+  ]
+ },
+ "op_ceren_yes": {
+  "_": [
+   "...D'accord. Une petite. Je m'occupe des snacks.",
+   "Bon. Mais personne ne touche à la tasse du patron."
+  ]
+ },
+ "op_ceren_no": {
+  "_": [
+   "On est mercredi. Non.",
+   "Hors de question. Ahmet exploserait."
+  ]
+ },
+ "op_prep": {
+  "_": [
+   "*dispose des snacks très discrètement*",
+   "Les chips ici, le gâteau là... personne ne regarde.",
+   "Du matériel de fête. Du matériel de cuisine tout à fait normal."
+  ]
+ },
+ "op_boss_what": {
+  "_": [
+   "C'est quoi, tout ça, {helper} ?",
+   "Pourquoi y a-t-il des ballons dans ma cuisine ?"
+  ]
+ },
+ "op_cover": {
+  "_": [
+   "C'est... l'anniversaire de la plante.",
+   "Des snacks de cohésion d'équipe ! Très professionnel.",
+   "Un gâteau... sain... motivant."
+  ]
+ },
+ "op_dance": {
+  "_": [
+   "*danse*",
+   "Meilleur. Mercredi. De tous les temps.",
+   "Qui a apporté l'enceinte ?!",
+   "Des snacks ! De la musique ! La liberté !"
+  ]
+ },
+ "op_boss_join": {
+  "_": [
+   "...Il y a du gâteau ? Bon. Une part.",
+   "Hm. Cinq minutes. Ensuite, au travail."
+  ]
+ },
+ "op_boss_stop": {
+  "_": [
+   "QU'EST-CE qui se passe dans ma cuisine ?!",
+   "C'est un LIEU DE TRAVAIL ! La fête est finie !"
+  ]
+ },
+ "cdm_hopeful": {
+  "_": [
+   "J'ai reçu ton mot. Et l'invitation. Je... ressens la même chose.",
+   "Alors. Le mot. Le café aux chandelles. J'en suis."
+  ]
+ },
+ "cdm_what": {
+  "_": [
+   "...Un mot ? Quel mot ?",
+   "Attends — quelle bougie ?",
+   "Pardon, la QUOI ?"
+  ]
+ },
+ "cdm_along": {
+  "_": [
+   "...Ah. Oui. Le mot. On va le prendre, ce café ?",
+   "Ha. Oui. Ce mot. Complètement moi."
+  ]
+ },
+ "cdm_truth": {
+  "_": [
+   "Je n'ai écrit aucun mot. Quelqu'un se moque de nous.",
+   "Je... crois qu'il y a une erreur. Je n'ai jamais envoyé ça."
+  ]
+ },
+ "cdm_mortified": {
+  "_": [
+   "Oh non. Oh non non non.",
+   "Je vais aller disparaître, là."
+  ]
+ },
+ "cdm_second_ask": {
+  "_": [
+   "Alors... pour hier. On essaie un vrai café ? Exprès, cette fois ?",
+   "Un déjeuner ? Un vrai. Sans mots mystérieux."
+  ]
+ },
+ "cdm_spark": {
+  "_": [
+   "...J'aimerais vraiment beaucoup.",
+   "Franchement ? Hier, c'était la plus belle erreur de tous les temps."
+  ]
+ },
+ "cdm_fizzle": {
+  "_": [
+   "Restons juste... amis ? Hier, c'était beaucoup.",
+   "Je crois qu'on sait tous les deux que c'était un malentendu."
+  ]
+ },
+ "cdm_jealous": {
+  "_": [
+   "Alors. Toi et {reader}. Tout le monde en parle.",
+   "Il paraît que tu sors avec {reader} maintenant. Félicitations, j'imagine."
+  ]
+ },
+ "cdm_confess_crush": {
+  "_": [
+   "C'est un malentendu ! C'est TOI qui me plais. Ça a toujours été toi.",
+   "Non — attends. Je n'ai jamais écrit ce mot. La personne qui me plaît, c'est toi."
+  ]
+ },
+ "cdm_clear": {
+  "_": [
+   "Sortir ensemble ? Non ! C'était un malentendu. On est juste amis.",
+   "Ah, ÇA. Faux mot, faux rendez-vous. Il ne s'est rien passé."
+  ]
+ },
+ "cdm_shrug": {
+  "_": [
+   "...Ouais. J'imagine que oui.",
+   "C'est arrivé comme ça."
+  ]
+ },
+ "cdm_vent": {
+  "_": [
+   "Je suis venu{me?|e} à un RENDEZ-VOUS. Avec des bougies. Dans la CUISINE.",
+   "Quelqu'un m'a piégé{me?|e}. Et je suis tombé{me?|e} dans le panneau. Littéralement."
+  ]
+ },
+ "cdm_laugh_it_off": {
+  "_": [
+   "...Tu sais quoi ? En fait, c'est hilarant.",
+   "OK. Un jour, on en rira. Peut-être aujourd'hui."
+  ]
+ },
+ "cdm_hurt": {
+  "_": [
+   "Je ne ferai plus jamais confiance à un mot.",
+   "Je ne parle à personne pendant une semaine."
+  ]
+ },
+ "lk_found": {
+  "_": [
+   "Attends. Pourquoi la liste confidentielle est dans le dossier partagé de {leaker} ?!",
+   "Tout le monde peut voir ça. Et c'est dans le dossier de {leaker}."
+  ]
+ },
+ "lk_accuse": {
+  "_": [
+   "Le fichier confidentiel. Dans TON dossier partagé. Explique-toi.",
+   "{leaker}. C'est toi qui as fait fuiter la liste confidentielle ?"
+  ]
+ },
+ "lk_deny": {
+  "_": [
+   "Je n'ai jamais vu ce fichier de ma vie !",
+   "Ce n'est pas moi qui l'ai mis là ! On veut me faire porter le chapeau !"
+  ]
+ },
+ "lk_panic": {
+  "_": [
+   "Je— je peux expliquer— non, je ne peux pas.",
+   "...On peut en parler plus tard ?"
+  ]
+ },
+ "lk_logs": {
+  "_": [
+   "Voyons qui a ouvert ce fichier... tiens. Le compte s'appelle « FANTÔME ».",
+   "Journal d'accès, journal d'accès... bizarre. Personne n'y a touché. Il s'est juste... déplacé."
+  ]
+ },
+ "lk_logs_unclear": {
+  "_": [
+   "Les journaux sont un vrai bazar. Ça pourrait être n'importe qui.",
+   "Aucune idée. Le serveur fait des siennes toute la semaine."
+  ]
+ },
+ "lk_sorry": {
+  "_": [
+   "Je te dois des excuses, {leaker}. J'ai tiré des conclusions hâtives.",
+   "Les journaux t'ont innocenté{to?|e}. Je suis désolé{me?|e}. Sincèrement."
+  ]
+ },
+ "lk_grudging": {
+  "_": [
+   "...Innocenté{to?|e}. Bon. Mais je surveille ce dossier.",
+   "Hm. Verrouille juste... tes dossiers, tu veux bien ?"
+  ]
+ },
+ "lk_accept": {
+  "_": [
+   "Merci. Ça compte beaucoup pour moi.",
+   "Excuses acceptées. Je crois."
+  ]
+ },
+ "lt2_mutter": {
+  "_": [
+   "Une demande de mutation ET une lettre de recommandation ? Pour {target} ? Hmm.",
+   "Alors {target} veut partir, hein ? On va voir ça."
+  ]
+ },
+ "lt2_offer": {
+  "_": [
+   "Il y a un poste dans notre agence d'Extrême-Orient. Très extrême. Intéressé{to?|e} ?",
+   "Je pourrais vous recommander pour une mutation. Demain. Il suffit de le dire."
+  ]
+ },
+ "lt2_refuse": {
+  "_": [
+   "Une mutation ? Non ! Je suis heureux{me?|se} ici !",
+   "Pourquoi je voudrais partir ? Je me plais ici. La plupart du temps."
+  ]
+ },
+ "lt2_tempted": {
+  "_": [
+   "...À quel point à l'est, exactement ?",
+   "Hm. Je peux y réfléchir ?"
+  ]
+ },
+ "lt2_praise": {
+  "_": [
+   "Tout le monde : {target} a refusé une mutation pour rester avec nous. ÇA, c'est de la loyauté.",
+   "Une salve d'applaudissements pour {target}. {target?Loyal|Loyale} jusqu'à l'os."
+  ]
+ },
+ "lt2_cringe": {
+  "_": [
+   "...Arrêtez, s'il vous plaît.",
+   "Oh non. Tout le monde me regarde."
+  ]
+ },
+ "lt2_friend": {
+  "_": [
+   "Ahmet dit que tu pourrais être muté{to?|e} ?! Tu PARS ?",
+   "Dis-moi que tu ne pars pas pour l'agence d'Extrême-Orient."
+  ]
+ },
+ "lt2_staying": {
+  "_": [
+   "Non ! J'étais juste poli{me?|e} ! Je reste.",
+   "Détends-toi. Je ne vais nulle part."
+  ]
+ },
+ "lt2_thinking": {
+  "_": [
+   "...Peut-être. Honnêtement, je suis fatigué{me?|e}.",
+   "Je ne sais plus."
+  ]
+ },
+ "dd_sit": {
+  "_": [
+   "Alors... c'est intime.",
+   "C'est un rendez-vous à quatre ? Personne ne m'a dit que c'était un rendez-vous à quatre.",
+   "Qui a invité qui, exactement ?"
+  ]
+ },
+ "dd_fun": {
+  "_": [
+   "OK, c'est franchement le meilleur déjeuner de l'année.",
+   "On devrait faire ça toutes les semaines !"
+  ]
+ },
+ "dd_awkward": {
+  "_": [
+   "*mâche très bruyamment dans le silence*",
+   "...Il fait beau.",
+   "Alors. La photo au tableau, hein."
+  ]
+ },
+ "dd_talk": {
+  "_": [
+   "À propos de cette photo. Tu sais que c'est un montage, hein ?",
+   "Alors maintenant, tout le monde pense qu'on est en couple."
+  ]
+ },
+ "dd_maybe": {
+  "_": [
+   "...Ce serait si terrible si ce n'était pas un montage ?",
+   "Enfin... on pourrait la rendre moins fausse."
+  ]
+ },
+ "dd_fake": {
+  "_": [
+   "Complètement fausse. Je vais trouver qui a fait ça.",
+   "Fausse. Évidemment. Hein ? Hein."
+  ]
+ },
+ "dd_official": {
+  "_": [
+   "Alors. On redéjeune ensemble ? Juste nous deux, cette fois ?",
+   "J'enlève la photo. On en fera une vraie."
+  ]
+ },
+ "dd_yes": {
+  "_": [
+   "Oui. Juste nous deux.",
+   "Marché conclu. Une vraie."
+  ]
  }
 }

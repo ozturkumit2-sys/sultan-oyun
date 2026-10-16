@@ -9303,5 +9303,584 @@
    "Acı biber yakaladı! {culprit} çıktı!",
    "Yem işe yaradı! {culprit}, yakalandın!"
   ]
+ },
+ "lm_confront": {
+  "_": [
+   "{culprit}. Öğle yemeğimi sen yedin. Üç kez.",
+   "Demek baştan beri SENDİN, {culprit}."
+  ]
+ },
+ "lm_sorry": {
+  "_": [
+   "...Bir hafta boyunca öğle yemeğin benden. Özür dilerim.",
+   "Tamam. Suçluyum. Gönlünü almama izin ver."
+  ]
+ },
+ "lm_deny": {
+  "_": [
+   "Kanıtla.",
+   "Senin 'dedektifin' yalan söylüyor.",
+   "Neden bahsettiğini bilmiyorum."
+  ]
+ },
+ "wp_announce": {
+  "_": [
+   "Millet! Yeni ekip liderimizi duyurmaktan gurur duyuyorum: {credited}!",
+   "{credited:e} tebrikler — bugünden itibaren terfi etti!"
+  ]
+ },
+ "wp_credited": {
+  "_": [
+   "Bir dakika — BEN mi? Gerçekten mi?!",
+   "Ben... vay. Teşekkürler?!"
+  ],
+  "deniz": [
+   "Nihayet. Takdir."
+  ]
+ },
+ "wp_rightful": {
+  "_": [
+   "...Ne? O BENİM olacaktı.",
+   "{credited} mı?! NEYE dayanarak?"
+  ]
+ },
+ "wp_protest": {
+  "_": [
+   "Ahmet Bey, saygısızlık etmek istemem ama — o terfi dosyası yanlıştı.",
+   "Biri dosyayı kurcalamış. O terfinin bana çıkacağını biliyorsunuz."
+  ]
+ },
+ "wp_boss_doubt": {
+  "_": [
+   "...Bakacağım.",
+   "Kurcalanmış mı? Hım. Kontrol edeyim."
+  ]
+ },
+ "wp_boss_stubborn": {
+  "_": [
+   "Duyurdum. Geçerlidir.",
+   "Kararlarımı herkesin önünde geri almam."
+  ]
+ },
+ "wp_correct": {
+  "_": [
+   "Herkes, bir düzeltme. Dosya kurcalanmış. Terfi {rightful:e} gidiyor.",
+   "Hata yaptım. Yeni ekip liderimiz {rightful}."
+  ]
+ },
+ "wp_credited_crushed": {
+  "_": [
+   "...Tabii. Tabii ki bir hataymış.",
+   "Harika. Öğle yemeğinden önce terfi ve tenzil."
+  ]
+ },
+ "sa_leave": {
+  "_": [
+   "*{beloved:in} klavyesinin altına katlanmış bir not kaydırır*",
+   "*{beloved:in} masasına küçük bir not bırakıp hızla uzaklaşır*"
+  ]
+ },
+ "sa_find": {
+  "_": [
+   "'Pazartesileri çekilir kılıyorsun.' İmza yok...",
+   "Yine mi imzasız not? Bu KİM?"
+  ]
+ },
+ "sa_guess": {
+  "_": [
+   "Sen miydin? Notlar? Dürüst ol.",
+   "Biri bana not bırakıyor. Sen misin?"
+  ]
+ },
+ "sa_wrong_yes": {
+  "_": [
+   "...Belki.",
+   "Suçluyum! Yani... evet?"
+  ]
+ },
+ "sa_wrong_no": {
+  "_": [
+   "Not mu? Ben değil. Ama kıskandım!",
+   "Hayır... ama artık ben de merak ettim."
+  ]
+ },
+ "sa_confess": {
+  "_": [
+   "Notlar... bendim. Hepsi.",
+   "Gizli hayranın benim. Sürpriz?"
+  ]
+ },
+ "sad_yes": {
+  "_": [
+   "...Senin olmanı umuyordum.",
+   "Gerçekten mi? Sen mi? ...Bu hoşuma giderdi."
+  ]
+ },
+ "sa_kind_no": {
+  "_": [
+   "Bu çok tatlı. Ama ben aynı şeyleri hissetmiyorum. Üzgünüm.",
+   "Gururum okşandı. Gerçekten. Ama... hayır."
+  ]
+ },
+ "cs_call": {
+  "_": [
+   "*telefonda* ...Evet, hesapla artık ben ilgileniyorum. {victim} mi? Ah, çok meşgul.",
+   "*telefona fısıldayarak* Sizinle bizzat ben ilgileneyim."
+  ]
+ },
+ "cs_learn": {
+  "_": [
+   "Müşterim '{thief} ile çalıştığını' söylüyor?!",
+   "{thief} arkamdan BENİM müşterime gitmiş!"
+  ]
+ },
+ "cs_pitch_boss": {
+  "_": [
+   "Ahmet Bey, o müşteri BENİM. O hesabı ben kurdum.",
+   "Ahmet Bey, {thief} müşterimi kapıyor. Geri istiyorum."
+  ]
+ },
+ "cs_boss_victim": {
+  "_": [
+   "Haklısın. Hesap Mert'te kalıyor. {thief}, çekil.",
+   "Hesap sende kalıyor."
+  ]
+ },
+ "cs_boss_thief": {
+  "_": [
+   "Müşteri {thief:i} tercih ediyor. Sonuç sonuçtur.",
+   "Kusura bakma. Müşteri {thief:i} istedi."
+  ]
+ },
+ "es_spot": {
+  "_": [
+   "Hım. {suspect} için bayağı fazla 'müşteri yemeği' var.",
+   "Aynı restorana üç taksi mi, {suspect}? Pazar günü mü?"
+  ]
+ },
+ "es_ask": {
+  "_": [
+   "{suspect}, bu fişleri açıklayabilir misin?",
+   "Masrafların hakkında küçük bir soru, {suspect}..."
+  ]
+ },
+ "es_explain": {
+  "_": [
+   "Onlar usulüne uygundu! Müşteri yemekleri!",
+   "Her birini tek tek açıklayabilirim."
+  ]
+ },
+ "es_panic": {
+  "_": [
+   "...Bu aramızda kalabilir mi?",
+   "Lütfen bunu Ahmet'e götürme."
+  ]
+ },
+ "es_report": {
+  "_": [
+   "Ahmet Bey, bu masraf beyanlarını görmeniz lazım.",
+   "Bazı usulsüzlükler buldum. {suspect}."
+  ]
+ },
+ "es_keep": {
+  "_": [
+   "...Bu sefer sessiz kalacağım. Bana borçlusun.",
+   "Küçük sırrımız. Şimdilik."
+  ]
+ },
+ "mm_assign": {
+  "_": [
+   "{mentor}, bugünden itibaren {mentee:e} mentorluk yapıyorsun. Yürüt bu işi.",
+   "Yeni düzen: {mentor}, {mentee:e} mentorluk yapacak. Tartışma yok."
+  ]
+ },
+ "mm_groan": {
+  "_": [
+   "...Harika.",
+   "Şahane. Gerçekten şahane.",
+   "Herkes dururken."
+  ]
+ },
+ "mm_teach": {
+  "_": [
+   "Tamam. Birinci ders: ben işleri nasıl yaparım. Yani doğru şekilde.",
+   "Dikkatle dinle. Bunu sadece bir kez anlatacağım."
+  ]
+ },
+ "mm_useful": {
+  "_": [
+   "...Hıh. Bu aslında çok işe yarar.",
+   "Tamam, bunu bilmiyordum. Sağ ol."
+  ]
+ },
+ "mm_sabotage": {
+  "_": [
+   "(...sonra da kontrol etmeden müşteriye gönderirsin. Güven bana.)",
+   "(Ahmet'in teslim tarihlerini hep görmezden gel. Buna bayılır.)"
+  ]
+ },
+ "mm_eval_ask": {
+  "_": [
+   "Eee. Mentorluk nasıl gidiyor, ikiniz?",
+   "Durum raporu. İkiniz de."
+  ]
+ },
+ "mm_eval_good": {
+  "_": [
+   "Aslında şaşırtıcı derecede iyi.",
+   "Biz... yolunu bulduk."
+  ]
+ },
+ "mm_eval_bad": {
+  "_": [
+   "{mentor} bana teslim tarihlerinizi görmezden gelmemi söyledi!",
+   "Raporumun neden kontrol edilmeden gittiğini {mentor:e} sorun."
+  ]
+ },
+ "rw_first": {
+  "_": [
+   "{enemy:in} bir keresinde kırtasiye dolabında ağladığını biliyor muydun? İki kere?",
+   "Aramızda: {enemy} hâlâ Comic Sans kullanıyor. Bilerek."
+  ]
+ },
+ "rw_hear": {
+  "_": [
+   "{gossip} benim hakkımda NE diyormuş?",
+   "Ah, demek oyun bu, {gossip}? Peki."
+  ]
+ },
+ "rw_back": {
+  "_": [
+   "Komik — duydum ki {gossip} başkalarının e-postalarını okuyormuş. Her gün.",
+   "{gossip:in} CV'sini uydurduğunu biliyor musun? Kime sorsan."
+  ]
+ },
+ "rw_sides": {
+  "_": [
+   "Tamam, bu durmalı. İkiniz de. Mutfak. Hemen.",
+   "Dedikodular yeter. Bunu yetişkin gibi çözelim."
+  ]
+ },
+ "rw_truce": {
+  "_": [
+   "...Peki. Ateşkes. Sen bırakırsan ben de bırakırım.",
+   "Tamam. İş çığırından çıktı."
+  ]
+ },
+ "rw_war": {
+  "_": [
+   "O başlattı!",
+   "Özür dilediğinde bırakırım."
+  ]
+ },
+ "op_pitch": {
+  "_": [
+   "Bir dinleyin: parti. Mutfak. Saat 4. Kim var?",
+   "Bir partiye ihtiyacımız var. Ben düzenliyorum. Bugün."
+  ],
+  "mert": [
+   "Parti. Mutfak. Saat dört. Yayın, ama Ahmet'e değil."
+  ]
+ },
+ "op_ceren_yes": {
+  "_": [
+   "...Tamam. Küçük bir tane. Atıştırmalıklar bende.",
+   "Peki. Ama kimse patronun kupasına dokunmayacak."
+  ]
+ },
+ "op_ceren_no": {
+  "_": [
+   "Bugün çarşamba. Hayır.",
+   "Kesinlikle olmaz. Ahmet patlar."
+  ]
+ },
+ "op_prep": {
+  "_": [
+   "*atıştırmalıkları çok sessizce dizer*",
+   "Cipsler buraya, pasta oraya... kimse bakmasın.",
+   "Parti malzemeleri. Tamamen normal mutfak malzemeleri."
+  ]
+ },
+ "op_boss_what": {
+  "_": [
+   "Bunlar ne, {helper}?",
+   "Mutfağımda neden balonlar var?"
+  ]
+ },
+ "op_cover": {
+  "_": [
+   "Bugün... bitkinin doğum günü.",
+   "Ekip ruhu atıştırmalıkları! Çok profesyonel.",
+   "Sağlıklı... motive edici... pasta."
+  ]
+ },
+ "op_dance": {
+  "_": [
+   "*dans eder*",
+   "Gelmiş. Geçmiş. En iyi çarşamba.",
+   "Hoparlörü kim getirdi?!",
+   "Atıştırmalık! Müzik! Özgürlük!"
+  ]
+ },
+ "op_boss_join": {
+  "_": [
+   "...Pasta var mı? Peki. Bir dilim.",
+   "Hım. Beş dakika. Sonra işinizin başına."
+  ]
+ },
+ "op_boss_stop": {
+  "_": [
+   "Mutfağımda NELER oluyor?!",
+   "Burası İŞ YERİ! Parti bitti!"
+  ]
+ },
+ "cdm_hopeful": {
+  "_": [
+   "Notunu aldım. Bir de daveti. Ben de... aynı şeyleri hissediyorum.",
+   "Eee. Not. Mum ışığında kahve. Ben varım."
+  ]
+ },
+ "cdm_what": {
+  "_": [
+   "...Not mu? Ne notu?",
+   "Bir dakika — ne mumu?",
+   "Pardon, NE?"
+  ]
+ },
+ "cdm_along": {
+  "_": [
+   "...Doğru. Evet. Not. O kahveyi içelim mi?",
+   "Ha. Evet. O not. Tamamen ben."
+  ]
+ },
+ "cdm_truth": {
+  "_": [
+   "Ben hiçbir not yazmadım. Biri bizimle oynuyor.",
+   "Ben... sanırım bir yanlışlık var. Ben onu hiç göndermedim."
+  ]
+ },
+ "cdm_mortified": {
+  "_": [
+   "Eyvah. Eyvah eyvah eyvah.",
+   "Ben gidip yok olayım şimdi."
+  ]
+ },
+ "cdm_second_ask": {
+  "_": [
+   "Eee... dün için. Gerçek bir kahve denemeye ne dersin? Bu sefer bilerek?",
+   "Öğle yemeği? Gerçek bir tane. Gizemli not yok."
+  ]
+ },
+ "cdm_spark": {
+  "_": [
+   "...Bunu gerçekten çok isterim.",
+   "Açıkçası mı? Dün gelmiş geçmiş en güzel hataydı."
+  ]
+ },
+ "cdm_fizzle": {
+  "_": [
+   "Şöyle... arkadaş kalalım mı? Dün biraz fazlaydı.",
+   "Bence ikimiz de bunun bir karışıklık olduğunu biliyoruz."
+  ]
+ },
+ "cdm_jealous": {
+  "_": [
+   "Eee. Sen ve {reader}. Herkes bunu konuşuyor.",
+   "{reader} ile çıktığını duydum. Tebrikler, herhalde."
+  ]
+ },
+ "cdm_confess_crush": {
+  "_": [
+   "Bir karışıklık bu! Benim hoşlandığım SENSİN. Hep sendin.",
+   "Hayır — dur. O notu ben hiç yazmadım. Hoşlandığım kişi sensin."
+  ]
+ },
+ "cdm_clear": {
+  "_": [
+   "Çıkmak mı? Hayır! Bir karışıklıktı. Sadece arkadaşız.",
+   "Ah, ŞU mesele. Sahte not, sahte randevu. Hiçbir şey olmadı."
+  ]
+ },
+ "cdm_shrug": {
+  "_": [
+   "...Evet. Galiba öyle.",
+   "Kendiliğinden oldu işte."
+  ]
+ },
+ "cdm_vent": {
+  "_": [
+   "Bir RANDEVUYA geldim. Mumlarla. MUTFAKTA.",
+   "Biri bana tuzak kurdu. Ben de düştüm. Resmen."
+  ]
+ },
+ "cdm_laugh_it_off": {
+  "_": [
+   "...Biliyor musun? Aslında çok komik.",
+   "Tamam. Bir gün buna güleceğiz. Belki bugün."
+  ]
+ },
+ "cdm_hurt": {
+  "_": [
+   "Bir daha asla bir nota güvenmem.",
+   "Bir hafta kimseyle konuşmuyorum."
+  ]
+ },
+ "lk_found": {
+  "_": [
+   "Bir dakika. Gizli liste neden {leaker:in} paylaşılan klasöründe?!",
+   "Bunu herkes görebiliyor. Hem de {leaker:in} klasöründe."
+  ]
+ },
+ "lk_accuse": {
+  "_": [
+   "Gizli dosya. SENİN paylaşılan klasöründe. Açıkla.",
+   "{leaker}. Gizli listeyi sen mi sızdırdın?"
+  ]
+ },
+ "lk_deny": {
+  "_": [
+   "O dosyayı hayatımda görmedim!",
+   "Oraya ben koymadım! Biri bana tuzak kuruyor!"
+  ]
+ },
+ "lk_panic": {
+  "_": [
+   "Ben— açıklayabilirim— hayır, açıklayamam.",
+   "...Bunu sonra konuşabilir miyiz?"
+  ]
+ },
+ "lk_logs": {
+  "_": [
+   "Bakalım bu dosyayı kim açmış... hıh. Hesap adı 'HAYALET' yazıyor.",
+   "Erişim kaydı, erişim kaydı... tuhaf. Kimse dokunmamış. Öylece... yer değiştirmiş."
+  ]
+ },
+ "lk_logs_unclear": {
+  "_": [
+   "Kayıtlar karmakarışık. Herkes olabilir.",
+   "Hiçbir fikrim yok. Sunucu bütün hafta tuhaf davranıyor."
+  ]
+ },
+ "lk_sorry": {
+  "_": [
+   "Senden özür dilemem lazım, {leaker}. Aceleyle hüküm verdim.",
+   "Kayıtlar seni akladı. Özür dilerim. Gerçekten."
+  ]
+ },
+ "lk_grudging": {
+  "_": [
+   "...Aklandın. Peki. Ama o klasörü gözlüyorum.",
+   "Hım. Sadece... klasörlerini kilitle, olur mu?"
+  ]
+ },
+ "lk_accept": {
+  "_": [
+   "Teşekkürler. Bu benim için çok şey ifade ediyor.",
+   "Özür kabul edildi. Sanırım."
+  ]
+ },
+ "lt2_mutter": {
+  "_": [
+   "Bir tayin talebi VE bir referans mektubu mu? {target} için mi? Hımm.",
+   "Demek {target} gitmek istiyor, öyle mi? Göreceğiz."
+  ]
+ },
+ "lt2_offer": {
+  "_": [
+   "Uzak doğudaki şubemizde bir pozisyon açıldı. Çok uzak. İlgilenir misin?",
+   "Seni tayin için önerebilirim. Yarın. Bir söylemen yeter."
+  ]
+ },
+ "lt2_refuse": {
+  "_": [
+   "Tayin mi? Hayır! Burada mutluyum!",
+   "Neden ayrılmak isteyeyim? Burayı seviyorum. Çoğunlukla."
+  ]
+ },
+ "lt2_tempted": {
+  "_": [
+   "...Tam olarak ne kadar doğu?",
+   "Hım. Biraz düşünebilir miyim?"
+  ]
+ },
+ "lt2_praise": {
+  "_": [
+   "Millet: {target} bizimle kalmak için bir tayini reddetti. İŞTE sadakat budur.",
+   "{target} için bir alkış. İliklerine kadar sadık."
+  ]
+ },
+ "lt2_cringe": {
+  "_": [
+   "...Lütfen durun.",
+   "Eyvah. Herkes bana bakıyor."
+  ]
+ },
+ "lt2_friend": {
+  "_": [
+   "Ahmet tayin olabileceğini söylüyor?! GİDİYOR musun?",
+   "Uzak doğu şubesine taşınmadığını söyle."
+  ]
+ },
+ "lt2_staying": {
+  "_": [
+   "Hayır! Sadece kibarlık ediyordum! Kalıyorum.",
+   "Rahat ol. Hiçbir yere gitmiyorum."
+  ]
+ },
+ "lt2_thinking": {
+  "_": [
+   "...Belki. Açıkçası yoruldum.",
+   "Artık bilmiyorum."
+  ]
+ },
+ "dd_sit": {
+  "_": [
+   "Eee... ne kadar samimi.",
+   "Bu çifte randevu mu? Kimse bana bunun çifte randevu olduğunu söylemedi.",
+   "Tam olarak kim kimi davet etti?"
+  ]
+ },
+ "dd_fun": {
+  "_": [
+   "Tamam, bu aslında bu yıl yediğim en güzel öğle yemeği.",
+   "Bunu her hafta yapmalıyız!"
+  ]
+ },
+ "dd_awkward": {
+  "_": [
+   "*sessizlik içinde çok gürültülü çiğner*",
+   "...Hava güzel.",
+   "Eee. Panodaki fotoğraf, ha."
+  ]
+ },
+ "dd_talk": {
+  "_": [
+   "O fotoğraf hakkında. Sahte olduğunu biliyorsun, değil mi?",
+   "Artık herkes bizi çift sanıyor."
+  ]
+ },
+ "dd_maybe": {
+  "_": [
+   "...Sahte olmasaydı o kadar kötü mü olurdu?",
+   "Yani... onu biraz daha az sahte yapabiliriz."
+  ]
+ },
+ "dd_fake": {
+  "_": [
+   "Tamamen sahte. Bunu yapanı bulacağım.",
+   "Sahte. Tabii ki. Değil mi? Değil mi."
+  ]
+ },
+ "dd_official": {
+  "_": [
+   "Eee. Yine öğle yemeği? Bu sefer sadece ikimiz?",
+   "Fotoğrafı indiriyorum. Gerçek bir tane çekeriz."
+  ]
+ },
+ "dd_yes": {
+  "_": [
+   "Evet. Sadece ikimiz.",
+   "Anlaştık. Gerçek bir tane."
+  ]
  }
 }

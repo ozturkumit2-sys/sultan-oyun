@@ -1,0 +1,199 @@
+5859|{culprit}. Tu as mangé mon déjeuner. Trois fois.
+5860|Alors c'était TOI depuis le début, {culprit}.
+5861|...Je t'offre le déjeuner pendant une semaine. Je suis désolé{me?|e}.
+5862|OK. Coupable. Laisse-moi me rattraper.
+5863|Prouve-le.
+5864|Ton « détective » ment.
+5865|Je ne vois pas de quoi tu parles.
+5866|Tout le monde ! J'ai la fierté d'annoncer notre {credited?nouveau chef|nouvelle cheffe} d'équipe : {credited} !
+5867|Félicitations à {credited} — {credited?promu|promue} à compter d'aujourd'hui !
+5868|Attends — MOI ? Vraiment ?!
+5869|Je... waouh. Merci ?!
+5870|Enfin. De la reconnaissance.
+5871|...Quoi ? C'était censé être pour MOI.
+5872|{credited} ?! Sur quelle base ?
+5873|Ahmet Bey, sauf votre respect — ce dossier de promotion était faux.
+5874|Quelqu'un a trafiqué le dossier. Vous savez que ça devait être moi.
+5875|...Je vais regarder ça.
+5876|Trafiqué ? Hm. Je vérifie.
+5877|Je l'ai annoncé. C'est maintenu.
+5878|Je ne reviens pas sur mes décisions en public.
+5879|Rectification, tout le monde. Le dossier a été trafiqué. La promotion revient à {rightful}.
+5880|J'ai fait une erreur. {rightful} est {rightful?notre nouveau chef|notre nouvelle cheffe} d'équipe.
+5881|...Bien sûr. Bien sûr que c'était une erreur.
+5882|Merveilleux. {me?Promu et rétrogradé|Promue et rétrogradée} avant le déjeuner.
+5883|*glisse un mot plié sous le clavier de {beloved}*
+5884|*laisse un petit mot sur le bureau de {beloved} et s'éloigne vite*
+5885|« Tu rends les lundis supportables. » Pas de signature...
+5886|Encore un mot anonyme ? Mais QUI est-ce ?
+5887|C'était toi ? Les mots ? Sois honnête.
+5888|Quelqu'un me laisse des mots. C'est toi ?
+5889|...Peut-être.
+5890|Coupable ! Enfin... oui ?
+5891|Des mots ? Pas moi. Mais je suis jaloux{me?|se} !
+5892|Non... mais maintenant, moi aussi je veux savoir.
+5893|Les mots... c'était moi. Tous.
+5894|Je suis {me?ton admirateur secret|ton admiratrice secrète}. Surprise ?
+5895|...J'espérais que ce soit toi.
+5896|Vraiment ? Toi ? ...Ça me plairait.
+5897|C'est vraiment adorable. Mais je ne ressens pas la même chose. Je suis désolé{me?|e}.
+5898|Je suis flatté{me?|e}. Sincèrement. Mais... non.
+5899|*au téléphone* ...Oui, c'est moi qui m'occupe du compte maintenant. {victim} ? Oh, {victim?il|elle} est très {victim?occupé|occupée}.
+5900|*chuchote au téléphone* Laissez-moi m'occuper de vous personnellement.
+5901|Mon client dit qu'il « travaille avec {thief} » ?!
+5902|{thief} est allé{thief?|e} voir MON client dans mon dos !
+5903|Ahmet Bey, ce client est À MOI. C'est moi qui ai construit ce compte.
+5904|Ahmet Bey, {thief} me pique mon client. Je veux le récupérer.
+5905|Vous avez raison. Mert garde le compte. {thief}, pas touche.
+5906|Le compte reste chez vous.
+5907|Le client préfère {thief}. Les résultats sont les résultats.
+5908|Désolé. Le client a demandé {thief}.
+5909|Hm. Ça fait beaucoup de « déjeuners clients » pour {suspect}.
+5910|Trois taxis pour le même restaurant, {suspect} ? Un dimanche ?
+5911|{suspect}, tu peux m'expliquer ces reçus ?
+5912|Petite question sur tes notes de frais, {suspect}...
+5913|C'était légitime ! Des dîners clients !
+5914|Je peux expliquer chacun d'entre eux.
+5915|...On peut garder ça entre nous ?
+5916|S'il te plaît, n'en parle pas à Ahmet.
+5917|Ahmet Bey, il faut que vous voyiez ces notes de frais.
+5918|J'ai trouvé des irrégularités. C'est {suspect}.
+5919|...Je ne dirai rien. Pour cette fois. Tu m'en dois une.
+5920|Notre petit secret. Pour l'instant.
+5921|{mentor}, à partir d'aujourd'hui, vous êtes {mentor?le mentor|la mentore} de {mentee}. Faites que ça marche.
+5922|Nouvelle organisation : {mentor} encadre {mentee}. Pas de discussion.
+5923|...Génial.
+5924|Merveilleux. Tout simplement merveilleux.
+5925|De tous les gens possibles.
+5926|OK. Leçon numéro un : comment je fais les choses. C'est-à-dire correctement.
+5927|Écoute bien. Je ne l'expliquerai qu'une fois.
+5928|...Tiens. C'est vraiment utile, en fait.
+5929|OK, ça, je ne savais pas. Merci.
+5930|(...et ensuite tu l'envoies au client sans vérifier. Fais-moi confiance.)
+5931|(Ignore toujours les délais d'Ahmet. Il adore ça.)
+5932|Alors. Comment se passe le mentorat, vous deux ?
+5933|Point d'étape. Tous les deux.
+5934|Étonnamment bien, en fait.
+5935|On a... trouvé un terrain d'entente.
+5936|{mentor} m'a dit d'ignorer vos délais !
+5937|Demandez à {mentor} pourquoi mon rapport est parti sans être vérifié.
+5938|Tu savais que {enemy} a pleuré une fois dans le placard à fournitures ? Deux fois ?
+5939|Entre nous : {enemy} utilise encore Comic Sans. Exprès.
+5940|{gossip} raconte QUOI sur moi ?
+5941|Ah, c'est comme ça qu'on joue, {gossip} ? Très bien.
+5942|C'est drôle — j'ai entendu dire que {gossip} lit les mails des autres. Tous les jours.
+5943|Tu savais que {gossip} a bidonné son CV ? Demande à n'importe qui.
+5944|OK, ça doit cesser. Tous les deux. Cuisine. Maintenant.
+5945|Assez de rumeurs. Réglons ça comme des adultes.
+5946|...Bon. Trêve. J'arrête si tu arrêtes.
+5947|OK. Ça nous a échappé.
+5948|C'est l'autre qui a commencé !
+5949|J'arrêterai quand on m'aura présenté des excuses.
+5950|Écoutez-moi : fête. Cuisine. 16 h. Qui est partant ?
+5951|On a besoin d'une fête. J'en organise une. Aujourd'hui.
+5952|Fête. Cuisine. Quatre heures. Faites passer, mais pas à Ahmet.
+5953|...D'accord. Une petite. Je m'occupe des snacks.
+5954|Bon. Mais personne ne touche à la tasse du patron.
+5955|On est mercredi. Non.
+5956|Hors de question. Ahmet exploserait.
+5957|*dispose des snacks très discrètement*
+5958|Les chips ici, le gâteau là... personne ne regarde.
+5959|Du matériel de fête. Du matériel de cuisine tout à fait normal.
+5960|C'est quoi, tout ça, {helper} ?
+5961|Pourquoi y a-t-il des ballons dans ma cuisine ?
+5962|C'est... l'anniversaire de la plante.
+5963|Des snacks de cohésion d'équipe ! Très professionnel.
+5964|Un gâteau... sain... motivant.
+5965|*danse*
+5966|Meilleur. Mercredi. De tous les temps.
+5967|Qui a apporté l'enceinte ?!
+5968|Des snacks ! De la musique ! La liberté !
+5969|...Il y a du gâteau ? Bon. Une part.
+5970|Hm. Cinq minutes. Ensuite, au travail.
+5971|QU'EST-CE qui se passe dans ma cuisine ?!
+5972|C'est un LIEU DE TRAVAIL ! La fête est finie !
+5973|J'ai reçu ton mot. Et l'invitation. Je... ressens la même chose.
+5974|Alors. Le mot. Le café aux chandelles. J'en suis.
+5975|...Un mot ? Quel mot ?
+5976|Attends — quelle bougie ?
+5977|Pardon, la QUOI ?
+5978|...Ah. Oui. Le mot. On va le prendre, ce café ?
+5979|Ha. Oui. Ce mot. Complètement moi.
+5980|Je n'ai écrit aucun mot. Quelqu'un se moque de nous.
+5981|Je... crois qu'il y a une erreur. Je n'ai jamais envoyé ça.
+5982|Oh non. Oh non non non.
+5983|Je vais aller disparaître, là.
+5984|Alors... pour hier. On essaie un vrai café ? Exprès, cette fois ?
+5985|Un déjeuner ? Un vrai. Sans mots mystérieux.
+5986|...J'aimerais vraiment beaucoup.
+5987|Franchement ? Hier, c'était la plus belle erreur de tous les temps.
+5988|Restons juste... amis ? Hier, c'était beaucoup.
+5989|Je crois qu'on sait tous les deux que c'était un malentendu.
+5990|Alors. Toi et {reader}. Tout le monde en parle.
+5991|Il paraît que tu sors avec {reader} maintenant. Félicitations, j'imagine.
+5992|C'est un malentendu ! C'est TOI qui me plais. Ça a toujours été toi.
+5993|Non — attends. Je n'ai jamais écrit ce mot. La personne qui me plaît, c'est toi.
+5994|Sortir ensemble ? Non ! C'était un malentendu. On est juste amis.
+5995|Ah, ÇA. Faux mot, faux rendez-vous. Il ne s'est rien passé.
+5996|...Ouais. J'imagine que oui.
+5997|C'est arrivé comme ça.
+5998|Je suis venu{me?|e} à un RENDEZ-VOUS. Avec des bougies. Dans la CUISINE.
+5999|Quelqu'un m'a piégé{me?|e}. Et je suis tombé{me?|e} dans le panneau. Littéralement.
+6000|...Tu sais quoi ? En fait, c'est hilarant.
+6001|OK. Un jour, on en rira. Peut-être aujourd'hui.
+6002|Je ne ferai plus jamais confiance à un mot.
+6003|Je ne parle à personne pendant une semaine.
+6004|Attends. Pourquoi la liste confidentielle est dans le dossier partagé de {leaker} ?!
+6005|Tout le monde peut voir ça. Et c'est dans le dossier de {leaker}.
+6006|Le fichier confidentiel. Dans TON dossier partagé. Explique-toi.
+6007|{leaker}. C'est toi qui as fait fuiter la liste confidentielle ?
+6008|Je n'ai jamais vu ce fichier de ma vie !
+6009|Ce n'est pas moi qui l'ai mis là ! On veut me faire porter le chapeau !
+6010|Je— je peux expliquer— non, je ne peux pas.
+6011|...On peut en parler plus tard ?
+6012|Voyons qui a ouvert ce fichier... tiens. Le compte s'appelle « FANTÔME ».
+6013|Journal d'accès, journal d'accès... bizarre. Personne n'y a touché. Il s'est juste... déplacé.
+6014|Les journaux sont un vrai bazar. Ça pourrait être n'importe qui.
+6015|Aucune idée. Le serveur fait des siennes toute la semaine.
+6016|Je te dois des excuses, {leaker}. J'ai tiré des conclusions hâtives.
+6017|Les journaux t'ont innocenté{to?|e}. Je suis désolé{me?|e}. Sincèrement.
+6018|...Innocenté{to?|e}. Bon. Mais je surveille ce dossier.
+6019|Hm. Verrouille juste... tes dossiers, tu veux bien ?
+6020|Merci. Ça compte beaucoup pour moi.
+6021|Excuses acceptées. Je crois.
+6022|Une demande de mutation ET une lettre de recommandation ? Pour {target} ? Hmm.
+6023|Alors {target} veut partir, hein ? On va voir ça.
+6024|Il y a un poste dans notre agence d'Extrême-Orient. Très extrême. Intéressé{to?|e} ?
+6025|Je pourrais vous recommander pour une mutation. Demain. Il suffit de le dire.
+6026|Une mutation ? Non ! Je suis heureux{me?|se} ici !
+6027|Pourquoi je voudrais partir ? Je me plais ici. La plupart du temps.
+6028|...À quel point à l'est, exactement ?
+6029|Hm. Je peux y réfléchir ?
+6030|Tout le monde : {target} a refusé une mutation pour rester avec nous. ÇA, c'est de la loyauté.
+6031|Une salve d'applaudissements pour {target}. {target?Loyal|Loyale} jusqu'à l'os.
+6032|...Arrêtez, s'il vous plaît.
+6033|Oh non. Tout le monde me regarde.
+6034|Ahmet dit que tu pourrais être muté{to?|e} ?! Tu PARS ?
+6035|Dis-moi que tu ne pars pas pour l'agence d'Extrême-Orient.
+6036|Non ! J'étais juste poli{me?|e} ! Je reste.
+6037|Détends-toi. Je ne vais nulle part.
+6038|...Peut-être. Honnêtement, je suis fatigué{me?|e}.
+6039|Je ne sais plus.
+6040|Alors... c'est intime.
+6041|C'est un rendez-vous à quatre ? Personne ne m'a dit que c'était un rendez-vous à quatre.
+6042|Qui a invité qui, exactement ?
+6043|OK, c'est franchement le meilleur déjeuner de l'année.
+6044|On devrait faire ça toutes les semaines !
+6045|*mâche très bruyamment dans le silence*
+6046|...Il fait beau.
+6047|Alors. La photo au tableau, hein.
+6048|À propos de cette photo. Tu sais que c'est un montage, hein ?
+6049|Alors maintenant, tout le monde pense qu'on est en couple.
+6050|...Ce serait si terrible si ce n'était pas un montage ?
+6051|Enfin... on pourrait la rendre moins fausse.
+6052|Complètement fausse. Je vais trouver qui a fait ça.
+6053|Fausse. Évidemment. Hein ? Hein.
+6054|Alors. On redéjeune ensemble ? Juste nous deux, cette fois ?
+6055|J'enlève la photo. On en fera une vraie.
+6056|Oui. Juste nous deux.
+6057|Marché conclu. Une vraie.
