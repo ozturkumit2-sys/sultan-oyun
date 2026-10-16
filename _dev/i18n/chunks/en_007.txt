@@ -1,130 +1,129 @@
-1415|log.garble_doubt|{owner}'s garbled voice message sounded like a threat. {target} isn't fully convinced it was dictation.
-1416|log.garble_laugh|{owner}'s dictated message to {target} came out as a death threat. They laughed about it in the end.
-1417|log.gh_announce|{believer} has declared the office officially haunted. Some people are nodding.
-1418|log.gh_believers|Burak tried to debunk the ghost. {believer} refused to believe him. The office now has a resident ghost.
-1419|log.gh_debunked|Burak explained the 'ghost' as a faulty relay. {believer} grudgingly gave up the ghost hunt.
-1420|log.gh_nothing|The séance in the meeting room produced nothing but awkward silence.
-1421|log.gh_recruit|{believer} recruited {medium} for a séance in the meeting room.
-1422|log.gh_refused|{believer} wanted to hold a séance. Nobody would join. The ghost hunt is over.
-1423|log.gh_scream|The séance in the meeting room went silent... then the lights flickered. Screams were heard across the office.
-1424|log.ghost_theory|{actor} is convinced the office is haunted.
-1425|log.giftcard|{giver}'s gift for {intended} had {target}'s name on the card. {target} said thank you. {intended} got nothing.
-1426|log.golf_away|A golf game appeared in Ahmet's calendar. He left the office. Right before his own meeting.
-1427|log.golf_takeover|With Ahmet off playing golf, {actor} took charge of the meeting. Not everyone liked it.
-1428|log.gossip|{actor} told {target}: "{gossip}"
-1429|log.gossip_kitchen|{actor} pulled {target} into the kitchen to whisper: "{gossip}"
-1430|log.gossip_twisted|{actor} spiced up the story while passing it to {target}: "{gossip}" (that's not what happened)
-1431|log.groupchat|{target} was added to a group chat where {hater} complains about them. {target} read everything.
-1432|log.guilty_denies|{target} smoothly denied everything. (He's lying.)
-1433|log.heart_admit|Three hearts in a work email led to a confession: {target} likes {actor}!
-1434|log.heart_deny|{actor} asked {target} about the hearts in their work email. {target} denied everything, bright red.
-1435|log.heartbreak|{actor} saw {crush} with {target} and is quietly heartbroken. The tension is obvious.
-1436|log.help_agreed|{target} agreed to help {actor} with the {obj}.
-1437|log.help_deadline|{actor} helped {target} with a deadline.
-1438|log.help_later|{target} promised to help {actor}… later.
-1439|log.help_refused|{target} flat-out refused to help {actor}.
-1440|log.hh_bluff_called|{seeker} told Ahmet about a job offer. Ahmet called the bluff: "Then go." {seeker} is shaken.
-1441|log.hh_call|{seeker} took a whispered call in the hallway: a job interview, this afternoon.
-1442|log.hh_call_heard|{seeker} took a whispered call about a job interview — and {listener} heard every word.
-1443|log.hh_counter|{seeker} told Ahmet about a job offer. Ahmet made a counteroffer — {seeker} is staying, with a raise.
-1444|log.hh_excuse|{seeker} told Ahmet they had a dentist appointment. (They don't.)
-1445|log.hh_excuse_no|{seeker} asked to leave for a "dentist appointment". Ahmet said no. {seeker} is going anyway.
-1446|log.hh_out|{seeker} left the office for their "dentist appointment" — in their best shirt.
-1447|log.hh_suspected|Ahmet noticed {seeker} came back from the "dentist" in a suit. He's suspicious.
-1448|log.hh_unsuspected|{seeker} came back from the "interview". Ahmet didn't suspect a thing.
-1449|log.hide_doc_found|{actor} searched the whole office for a missing report — it was hiding in a folder called 'Old Stuff 2019'.
-1450|log.hide_doc_gone|{actor} never found the missing report and has to start over.
-1451|log.hide_prank|{actor} hid {target}'s {item} as a joke.
-1452|log.holdmusic|Clients on hold were treated to {what}. Ahmet blamed Ceren.
-1453|log.hq_bad|The HQ inspector's verdict: 'Needs improvement.' Ahmet blamed {slob} in front of everyone.
-1454|log.hq_clean|Inspection day. Everyone's cleaning. {slob} is shoving things into drawers at alarming speed.
-1455|log.hq_fail|During the HQ inspection, Ahmet opened {slob}'s drawer. An avalanche of rubbish hit the inspector's shoes.
-1456|log.hq_good|The HQ inspector's verdict: 'Exemplary office.' Ahmet ordered pizza.
-1457|log.hq_pass|During the HQ inspection, Ahmet opened {slob}'s drawer. It was immaculate. Nobody can explain it.
-1458|log.hq_warn|Ahmet announced an HQ inspection for tomorrow. All eyes turned to {slob}'s desk.
-1459|log.iknow_confess|An anonymous 'I know what you did' note rattled {target} into confessing their secret to {friend}.
-1460|log.iknow_paranoid|An anonymous 'I know what you did' note has {target} suspecting everyone.
-1461|log.inside_joke|{actor} and {target} are cracking up in the kitchen over an inside joke.
-1462|log.intel|Secret allies {actor} and {target} met in the archive to trade information.
-1463|log.intern|{target}'s official job title changed to 'Intern' overnight. Ece is delighted. {target} is not.
-1464|log.item_found|{actor} found their {item}.
-1465|log.item_found_desk|{actor} found their {item} on {owner}'s desk!
-1466|log.item_found_friend|{actor} found their {item} at {owner}'s desk and laughed it off.
-1467|log.item_found_weird|{actor} found their {item} somewhere very strange.
-1468|log.item_missing|{actor} can't find their {item}.
-1469|log.item_pocketed|Deniz found Selin's USB stick… and kept it.
-1470|log.item_return_start|{actor} found {owner}'s {item} and went to return it.
-1471|log.item_returned|{actor} returned {target}'s {item}. A friendship blooms.
-1472|log.iv.add_to_groupchat|The ghost added {target} to a group chat full of complaints about them.
-1473|log.iv.agenda|The ghost rewrote today's meeting agenda.
-1474|log.iv.alliance_proof|The ghost left a signed alliance agreement between {a} and {b} in the archive.
-1475|log.iv.anger_course|The ghost enrolled {target} in a mandatory anger-management course.
-1476|log.iv.anon_complaint|The ghost pinned an anonymous complaint about {target}.
-1477|log.iv.anon_compliment|The ghost pinned an anonymous compliment about {target}.
-1478|log.iv.apology_wrong|The ghost delivered {owner}'s apology letter to {target}.
-1479|log.iv.archive_report|The ghost filed {owner}'s printed report in the archive, under 'Z'.
-1480|log.iv.autocorrect|The ghost changed {owner}'s autocorrect. 'Ahmet Bey' is now 'Ahmet Bae'.
-1481|log.iv.autoreply_quit|The ghost set {owner}'s email auto-reply to 'I quit. Don't contact me.'
-1482|log.iv.best_boss_mug|The ghost left a 'World's Best Boss' mug on Ahmet's desk with {target}'s name on the tag.
-1483|log.iv.birthday_collection|The ghost left the secret birthday collection envelope for {bdayp} on the kitchen table.
-1484|log.iv.boss_golf|The ghost added 'Golf with the regional director' to Ahmet's calendar.
-1485|log.iv.boss_memo|The ghost sent Ahmet's unfinished draft memo to the whole office.
-1486|log.iv.break_microwave|The ghost broke the microwave.
-1487|log.iv.break_projector|The ghost broke the meeting room projector.
-1488|log.iv.break_water|The ghost broke the water cooler.
-1489|log.iv.cake_early|The ghost put the hidden birthday cake out on the kitchen table.
-1490|log.iv.caller_id|The ghost spoofed the caller ID on {owner}'s phone.
-1491|log.iv.caps_lock|The ghost jammed {owner}'s caps lock.
-1492|log.iv.cc_boss|The ghost CC'd Ahmet on {owner}'s private chat.
-1493|log.iv.change_author|The ghost put {target}'s name on {owner}'s project file.
-1494|log.iv.change_subject|The ghost edited the subject line of {owner}'s next email.
-1495|log.iv.client_visit|The ghost wrote 'IMPORTANT CLIENT VISIT TODAY' on the board.
-1496|log.iv.coffee_late|The ghost set the coffee machine to a 40-minute warm-up.
-1497|log.iv.confidential_doc|The ghost left a confidential {choice} document lying open in the archive.
-1498|log.iv.couple_photo|The ghost pinned a doctored photo of {target} and {partner} together.
-1499|log.iv.decaf|The ghost replaced the office coffee with decaf.
-1500|log.iv.defense_message|The ghost forwarded {owner}'s message defending {best} — to {best}.
-1501|log.iv.delay_callback|The ghost delayed a client's callback to {owner}.
-1502|log.iv.delete_invite|The ghost deleted today's meeting invite.
-1503|log.iv.disco_lights|The ghost switched the office lights to disco mode.
-1504|log.iv.do_not_disturb|The ghost switched {owner}'s phone to Do Not Disturb.
-1505|log.iv.double_book|The ghost booked a fake 'budget sync' in the kitchen at the same time as the real meeting.
-1506|log.iv.drain_battery|The ghost drained {owner}'s phone battery.
-1507|log.iv.early_announcement|The ghost moved Ahmet's promotion announcement to right now.
-1508|log.iv.eotm_certificate|The ghost changed the Employee of the Month certificate to {target}.
-1509|log.iv.exclusion_invite|The ghost pinned an after-work drinks invite that leaves out {target}.
-1510|log.iv.expose_application|The ghost left {applicant}'s job application on Ahmet's desk.
-1511|log.iv.fake_appointment|The ghost added a fake {what} to {owner}'s calendar.
-1512|log.iv.fake_approval|The ghost sent {owner} a fake 'Approved!' reply from Ahmet.
-1513|log.iv.fake_invite|The ghost sent a fake '1:1 — kitchen' invite from {owner} to {target}.
-1514|log.iv.fake_minutes|The ghost added '{target} volunteered to organise the team retreat' to the meeting minutes.
-1515|log.iv.fake_reminder|The ghost set a mysterious reminder on {owner}'s phone.
-1516|log.iv.farewell_meeting|The ghost renamed today's meeting to '{target}'s farewell'.
-1517|log.iv.file_elsewhere|The ghost sent one of {owner}'s private files to {target}'s screen.
-1518|log.iv.fire_alarm|The ghost set off the fire alarm.
-1519|log.iv.fish_label|The ghost labelled a fish curry in the fridge with {target}'s name.
-1520|log.iv.fix_printer|The ghost quietly repaired the printer.
-1521|log.iv.flicker_lights|The ghost made the office lights flicker.
-1522|log.iv.forge_signature|The ghost forged Ahmet's signature on {owner}'s expense claim.
-1523|log.iv.forward_calls|The ghost forwarded {owner}'s calls to {target}.
-1524|log.iv.forward_chat|The ghost forwarded {owner}'s private chat about {worst} to {worst}.
-1525|log.iv.forward_payroll|The ghost forwarded the payroll sheet from Zeynep's inbox to {target}.
-1526|log.iv.fridge_note|The ghost stuck a passive-aggressive note on the fridge, 'signed' by {target}.
-1527|log.iv.fridge_purge|The ghost emptied the office fridge.
-1528|log.iv.garble_dictation|The ghost garbled {owner}'s dictated message to {target}.
-1529|log.iv.gift_card|The ghost rewrote the name on a gift card in the kitchen to {target}.
-1530|log.iv.group_photo|The ghost posted an embarrassing photo of {owner} to the office group chat.
-1531|log.iv.headhunter_card|The ghost left a headhunter's business card on {owner}'s desk.
-1532|log.iv.hide_doc|The ghost hid {owner}'s report deep in an old folder.
-1533|log.iv.hide_snacks|The ghost hid the office snack box in {target}'s desk drawer.
-1534|log.iv.hoard_supplies|The ghost moved every office supply into {target}'s drawer.
-1535|log.iv.hold_music|The ghost changed the reception hold music.
-1536|log.iv.i_know_note|The ghost left an anonymous 'I know what you did' note for {target}.
-1537|log.iv.invite_wrong|The ghost added {target} to today's meeting invite.
-1538|log.iv.j_acting_manager|The ghost changed the board: '{usurper} — Acting Manager'.
-1539|log.iv.j_callback_speaker|The ghost put {crush}'s call back through to {owner}'s phone — on speaker.
-1540|log.iv.j_candle_date|The ghost edited {owner}'s fake 1:1 invite to {reader}: 'Coffee — just us. Candles.'
-1541|log.iv.j_cc_the_letter|The ghost attached {owner}'s resignation draft to their 'I quit' auto-reply.
-1542|log.iv.j_client_presenter|The ghost wrote '{presenter} presents to the client' on the board.
-1543|log.iv.j_double_date|The ghost doodled 'DOUBLE DATE at lunch!' on the photo of {a} and {b}.
-1544|log.iv.j_haunting|The ghost synchronised the flickering lights with the fake virus siren.
+1421|log.fwdcall_help|{owner}'s calls were going to {target}. {target} handled a client call and passed the message on.
+1422|log.fwdcall_steal|{owner}'s calls were going to {target} — and {target} quietly kept {owner}'s client for themselves.
+1423|log.garble_doubt|{owner}'s garbled voice message sounded like a threat. {target} isn't fully convinced it was dictation.
+1424|log.garble_laugh|{owner}'s dictated message to {target} came out as a death threat. They laughed about it in the end.
+1425|log.gh_announce|{believer} has declared the office officially haunted. Some people are nodding.
+1426|log.gh_believers|Burak tried to debunk the ghost. {believer} refused to believe him. The office now has a resident ghost.
+1427|log.gh_debunked|Burak explained the 'ghost' as a faulty relay. {believer} grudgingly gave up the ghost hunt.
+1428|log.gh_nothing|The séance in the meeting room produced nothing but awkward silence.
+1429|log.gh_recruit|{believer} recruited {medium} for a séance in the meeting room.
+1430|log.gh_refused|{believer} wanted to hold a séance. Nobody would join. The ghost hunt is over.
+1431|log.gh_scream|The séance in the meeting room went silent... then the lights flickered. Screams were heard across the office.
+1432|log.ghost_theory|{actor} is convinced the office is haunted.
+1433|log.giftcard|{giver}'s gift for {intended} had {target}'s name on the card. {target} said thank you. {intended} got nothing.
+1434|log.golf_away|A golf game appeared in Ahmet's calendar. He left the office. Right before his own meeting.
+1435|log.golf_takeover|With Ahmet off playing golf, {actor} took charge of the meeting. Not everyone liked it.
+1436|log.gossip|{actor} told {target}: "{gossip}"
+1437|log.gossip_kitchen|{actor} pulled {target} into the kitchen to whisper: "{gossip}"
+1438|log.gossip_twisted|{actor} spiced up the story while passing it to {target}: "{gossip}" (that's not what happened)
+1439|log.groupchat|{target} was added to a group chat where {hater} complains about them. {target} read everything.
+1440|log.guilty_denies|{target} smoothly denied everything. (He's lying.)
+1441|log.heart_admit|Three hearts in a work email led to a confession: {target} likes {actor}!
+1442|log.heart_deny|{actor} asked {target} about the hearts in their work email. {target} denied everything, bright red.
+1443|log.heartbreak|{actor} saw {crush} with {target} and is quietly heartbroken. The tension is obvious.
+1444|log.help_agreed|{target} agreed to help {actor} with the {obj}.
+1445|log.help_deadline|{actor} helped {target} with a deadline.
+1446|log.help_later|{target} promised to help {actor}… later.
+1447|log.help_refused|{target} flat-out refused to help {actor}.
+1448|log.hh_bluff_called|{seeker} told Ahmet about a job offer. Ahmet called the bluff: "Then go." {seeker} is shaken.
+1449|log.hh_call|{seeker} took a whispered call in the hallway: a job interview, this afternoon.
+1450|log.hh_call_heard|{seeker} took a whispered call about a job interview — and {listener} heard every word.
+1451|log.hh_counter|{seeker} told Ahmet about a job offer. Ahmet made a counteroffer — {seeker} is staying, with a raise.
+1452|log.hh_excuse|{seeker} told Ahmet they had a dentist appointment. (They don't.)
+1453|log.hh_excuse_no|{seeker} asked to leave for a "dentist appointment". Ahmet said no. {seeker} is going anyway.
+1454|log.hh_out|{seeker} left the office for their "dentist appointment" — in their best shirt.
+1455|log.hh_suspected|Ahmet noticed {seeker} came back from the "dentist" in a suit. He's suspicious.
+1456|log.hh_unsuspected|{seeker} came back from the "interview". Ahmet didn't suspect a thing.
+1457|log.hide_doc_found|{actor} searched the whole office for a missing report — it was hiding in a folder called 'Old Stuff 2019'.
+1458|log.hide_doc_gone|{actor} never found the missing report and has to start over.
+1459|log.hide_prank|{actor} hid {target}'s {item} as a joke.
+1460|log.holdmusic|Clients on hold were treated to {what}. Ahmet blamed Ceren.
+1461|log.hq_bad|The HQ inspector's verdict: 'Needs improvement.' Ahmet blamed {slob} in front of everyone.
+1462|log.hq_clean|Inspection day. Everyone's cleaning. {slob} is shoving things into drawers at alarming speed.
+1463|log.hq_fail|During the HQ inspection, Ahmet opened {slob}'s drawer. An avalanche of rubbish hit the inspector's shoes.
+1464|log.hq_good|The HQ inspector's verdict: 'Exemplary office.' Ahmet ordered pizza.
+1465|log.hq_pass|During the HQ inspection, Ahmet opened {slob}'s drawer. It was immaculate. Nobody can explain it.
+1466|log.hq_warn|Ahmet announced an HQ inspection for tomorrow. All eyes turned to {slob}'s desk.
+1467|log.iknow_confess|An anonymous 'I know what you did' note rattled {target} into confessing their secret to {friend}.
+1468|log.iknow_paranoid|An anonymous 'I know what you did' note has {target} suspecting everyone.
+1469|log.inside_joke|{actor} and {target} are cracking up in the kitchen over an inside joke.
+1470|log.intel|Secret allies {actor} and {target} met in the archive to trade information.
+1471|log.intern|{target}'s official job title changed to 'Intern' overnight. Ece is delighted. {target} is not.
+1472|log.item_found|{actor} found their {item}.
+1473|log.item_found_desk|{actor} found their {item} on {owner}'s desk!
+1474|log.item_found_friend|{actor} found their {item} at {owner}'s desk and laughed it off.
+1475|log.item_found_weird|{actor} found their {item} somewhere very strange.
+1476|log.item_missing|{actor} can't find their {item}.
+1477|log.item_pocketed|Deniz found Selin's USB stick… and kept it.
+1478|log.item_return_start|{actor} found {owner}'s {item} and went to return it.
+1479|log.item_returned|{actor} returned {target}'s {item}. A friendship blooms.
+1480|log.iv.add_to_groupchat|The ghost added {target} to a group chat full of complaints about them.
+1481|log.iv.agenda|The ghost rewrote today's meeting agenda.
+1482|log.iv.alliance_proof|The ghost left a signed alliance agreement between {a} and {b} in the archive.
+1483|log.iv.anger_course|The ghost enrolled {target} in a mandatory anger-management course.
+1484|log.iv.anon_complaint|The ghost pinned an anonymous complaint about {target}.
+1485|log.iv.anon_compliment|The ghost pinned an anonymous compliment about {target}.
+1486|log.iv.apology_wrong|The ghost delivered {owner}'s apology letter to {target}.
+1487|log.iv.archive_report|The ghost filed {owner}'s printed report in the archive, under 'Z'.
+1488|log.iv.autocorrect|The ghost changed {owner}'s autocorrect. 'Ahmet Bey' is now 'Ahmet Bae'.
+1489|log.iv.autoreply_quit|The ghost set {owner}'s email auto-reply to 'I quit. Don't contact me.'
+1490|log.iv.best_boss_mug|The ghost left a 'World's Best Boss' mug on Ahmet's desk with {target}'s name on the tag.
+1491|log.iv.birthday_collection|The ghost left the secret birthday collection envelope for {bdayp} on the kitchen table.
+1492|log.iv.boss_golf|The ghost added 'Golf with the regional director' to Ahmet's calendar.
+1493|log.iv.boss_memo|The ghost sent Ahmet's unfinished draft memo to the whole office.
+1494|log.iv.break_microwave|The ghost broke the microwave.
+1495|log.iv.break_projector|The ghost broke the meeting room projector.
+1496|log.iv.break_water|The ghost broke the water cooler.
+1497|log.iv.cake_early|The ghost put the hidden birthday cake out on the kitchen table.
+1498|log.iv.caller_id|The ghost spoofed the caller ID on {owner}'s phone.
+1499|log.iv.caps_lock|The ghost jammed {owner}'s caps lock.
+1500|log.iv.cc_boss|The ghost CC'd Ahmet on {owner}'s private chat.
+1501|log.iv.change_author|The ghost put {target}'s name on {owner}'s project file.
+1502|log.iv.change_subject|The ghost edited the subject line of {owner}'s next email.
+1503|log.iv.client_visit|The ghost wrote 'IMPORTANT CLIENT VISIT TODAY' on the board.
+1504|log.iv.coffee_late|The ghost set the coffee machine to a 40-minute warm-up.
+1505|log.iv.confidential_doc|The ghost left a confidential {choice} document lying open in the archive.
+1506|log.iv.couple_photo|The ghost pinned a doctored photo of {target} and {partner} together.
+1507|log.iv.decaf|The ghost replaced the office coffee with decaf.
+1508|log.iv.defense_message|The ghost forwarded {owner}'s message defending {best} — to {best}.
+1509|log.iv.delay_callback|The ghost delayed a client's callback to {owner}.
+1510|log.iv.delete_invite|The ghost deleted today's meeting invite.
+1511|log.iv.disco_lights|The ghost switched the office lights to disco mode.
+1512|log.iv.do_not_disturb|The ghost switched {owner}'s phone to Do Not Disturb.
+1513|log.iv.double_book|The ghost booked a fake 'budget sync' in the kitchen at the same time as the real meeting.
+1514|log.iv.drain_battery|The ghost drained {owner}'s phone battery.
+1515|log.iv.early_announcement|The ghost moved Ahmet's promotion announcement to right now.
+1516|log.iv.eotm_certificate|The ghost changed the Employee of the Month certificate to {target}.
+1517|log.iv.exclusion_invite|The ghost pinned an after-work drinks invite that leaves out {target}.
+1518|log.iv.expose_application|The ghost left {applicant}'s job application on Ahmet's desk.
+1519|log.iv.fake_appointment|The ghost added a fake {what} to {owner}'s calendar.
+1520|log.iv.fake_approval|The ghost sent {owner} a fake 'Approved!' reply from Ahmet.
+1521|log.iv.fake_invite|The ghost sent a fake '1:1 — kitchen' invite from {owner} to {target}.
+1522|log.iv.fake_minutes|The ghost added '{target} volunteered to organise the team retreat' to the meeting minutes.
+1523|log.iv.fake_reminder|The ghost set a mysterious reminder on {owner}'s phone.
+1524|log.iv.farewell_meeting|The ghost renamed today's meeting to '{target}'s farewell'.
+1525|log.iv.file_elsewhere|The ghost sent one of {owner}'s private files to {target}'s screen.
+1526|log.iv.fire_alarm|The ghost set off the fire alarm.
+1527|log.iv.fish_label|The ghost labelled a fish curry in the fridge with {target}'s name.
+1528|log.iv.fix_printer|The ghost quietly repaired the printer.
+1529|log.iv.flicker_lights|The ghost made the office lights flicker.
+1530|log.iv.forge_signature|The ghost forged Ahmet's signature on {owner}'s expense claim.
+1531|log.iv.forward_calls|The ghost forwarded {owner}'s calls to {target}.
+1532|log.iv.forward_chat|The ghost forwarded {owner}'s private chat about {worst} to {worst}.
+1533|log.iv.forward_payroll|The ghost forwarded the payroll sheet from Zeynep's inbox to {target}.
+1534|log.iv.fridge_note|The ghost stuck a passive-aggressive note on the fridge, 'signed' by {target}.
+1535|log.iv.fridge_purge|The ghost emptied the office fridge.
+1536|log.iv.garble_dictation|The ghost garbled {owner}'s dictated message to {target}.
+1537|log.iv.gift_card|The ghost rewrote the name on a gift card in the kitchen to {target}.
+1538|log.iv.group_photo|The ghost posted an embarrassing photo of {owner} to the office group chat.
+1539|log.iv.headhunter_card|The ghost left a headhunter's business card on {owner}'s desk.
+1540|log.iv.hide_doc|The ghost hid {owner}'s report deep in an old folder.
+1541|log.iv.hide_snacks|The ghost hid the office snack box in {target}'s desk drawer.
+1542|log.iv.hoard_supplies|The ghost moved every office supply into {target}'s drawer.
+1543|log.iv.hold_music|The ghost changed the reception hold music.
+1544|log.iv.i_know_note|The ghost left an anonymous 'I know what you did' note for {target}.
+1545|log.iv.invite_wrong|The ghost added {target} to today's meeting invite.
+1546|log.iv.j_acting_manager|The ghost changed the board: '{usurper} — Acting Manager'.
+1547|log.iv.j_callback_speaker|The ghost put {crush}'s call back through to {owner}'s phone — on speaker.
+1548|log.iv.j_candle_date|The ghost edited {owner}'s fake 1:1 invite to {reader}: 'Coffee — just us. Candles.'
+1549|log.iv.j_cc_the_letter|The ghost attached {owner}'s resignation draft to their 'I quit' auto-reply.

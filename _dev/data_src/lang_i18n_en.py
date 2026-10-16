@@ -5,6 +5,7 @@ from iv_helpers import S_
 from characters import CHARACTERS
 
 for c in CHARACTERS:
+    S_("name." + c["id"], c["name"])
     S_("char.%s.role" % c["id"], c["role"])
     for i, b in enumerate(c["bio"]):
         S_("char.%s.bio%d" % (c["id"], i + 1), b)

@@ -1,109 +1,109 @@
-1197|log.bu_over|{a} and {b} have broken up. The office will be awkward for a while.
-1198|log.bu_sides|{confidant} talked to {a} about the fight with {b}. Friends are starting to take sides.
-1199|log.bu_storm|{a} and {b} had a whispered fight in the lounge. {b} stormed off. The office is officially worried.
-1200|log.bu_together|{a} and {b} talked it out. Still together — and holding hands at the coffee machine, which is worse.
-1201|log.cake|{actor} brought homemade cake. The kitchen filled up in seconds.
-1202|log.cake_early|The surprise birthday cake for {bday} was sitting out on the kitchen table hours early. {bday} saw it.
-1203|log.cal_doubt|{actor} found a {what} in their calendar they never made. Creepy.
-1204|log.cal_left|A {what} appeared in {actor}'s calendar. {actor} rushed out of the office for it.
-1205|log.cal_where|Ahmet noticed {owner} was gone. Rumours started about where.
-1206|log.callback|An important client callback reached {owner} an hour late. The deal went to a competitor.
-1207|log.callerid_boss|{owner}'s phone showed a call from Ahmet. Nobody was on the line.
-1208|log.callerid_ex|{owner}'s phone lit up with their ex's name. Someone noticed.
-1209|log.callerid_hh|{owner}'s phone rang: 'Talent Partners — recruiter'. People nearby put two and two together.
-1210|log.callerid_mom|{owner}'s phone rang — 'Mum' — right in the middle of work. Everyone heard.
-1211|log.caps_hurt|{actor} got an ALL-CAPS chat message from {target} and took it personally.
-1212|log.caps_laugh|{actor} thought {target} was shouting at them in chat. It was a stuck caps lock. They laughed it off.
-1213|log.card_bluff|{actor} waved a headhunter's card at Ahmet. Ahmet called the bluff.
-1214|log.card_leverage|{actor} found a headhunter's card and used it as leverage with Ahmet. It worked.
-1215|log.card_tempt|{actor} found a headhunter's business card on their desk — and kept it.
-1216|log.cc_chatter|Ahmet got CC'd on {owner}'s endless chat about kebab. He's not impressed with their 'productivity'.
-1217|log.cc_rant|Ahmet got CC'd on {owner}'s private chat — the part where {owner} complains about him.
-1218|log.cd_change|{suspect} admitted 'borrowing' coins from the charity box for the vending machine. They're paying double.
-1219|log.cd_collect|Coins are clinking into {organiser}'s charity box all afternoon.
-1220|log.cd_innocent|{organiser} accused {suspect} of taking charity money — then found the note stuck in the box. Awkward apology.
-1221|log.cd_launch|{organiser} put a charity box in the kitchen for the animal shelter.
-1222|log.cd_missing|{organiser} counted the charity box and money seems to be missing. {organiser} suspects {suspect}.
-1223|log.cd_record|{organiser} counted the charity box: a record! The shelter will be thrilled.
-1224|log.cdm_along|{reader} turned up for a 'date' with {sender}. {sender} had no idea — but played along. The kitchen saw everything.
-1225|log.cdm_clear|{crush} asked {sender} about the 'date' with {reader}. Just a mix-up, {sender} explained. {crush} looked... relieved.
-1226|log.cdm_fizzle|{sender} and {reader} agreed their date was a mix-up. Friends. Probably.
-1227|log.cdm_hurt|{reader} is still hurt by the fake date and is avoiding {sender}.
-1228|log.cdm_laughed|{reader} decided the fake date was funny. {reader} and {sender} now have an inside joke.
-1229|log.cdm_spark|{sender} and {reader}'s 'mix-up' date turned into a second, real one. Something is actually happening there.
-1230|log.cdm_tangled|{crush} confronted {sender} about dating {reader}. {sender} didn't deny it. {crush} walked away hurt.
-1231|log.cdm_true|{crush} confronted {sender} about {reader}. {sender} blurted out the truth: it's {crush} they like. {reader} found out last.
-1232|log.cdm_truth|{reader} turned up for a 'date' with {sender}. {sender} told the truth: there was no note. {reader} wanted the floor to swallow them.
-1233|log.ceren_noticed_board|Ceren noticed someone changed the meeting time.
-1234|log.ceren_notices_promo|Ceren noticed the promotion file doesn't add up.
-1235|log.ceren_snitch|Ceren told Ahmet: "{gossip}"
-1236|log.chair_clash|Ahmet walked in to find {target} running HIS meeting. {target} didn't back down. Tension.
-1237|log.chair_collapse|{actor}'s chair collapsed the moment they sat down. Someone had swapped it for the broken one.
-1238|log.chair_open|The board named {actor} as today's meeting chair. {actor} started the meeting without Ahmet.
-1239|log.chair_shrink|Ahmet walked in to find {target} running his meeting. {target} shrank back into a chair.
-1240|log.chair_sink|{actor}'s chair slowly sank until only their eyebrows were visible.
-1241|log.client_none|The 'client visit' never happened. Nobody knows who wrote it on the board. Everyone tidied for nothing.
-1242|log.client_tidy|The board announced a client visit. The whole office is tidying and working at double speed.
-1243|log.cliques|The office split into camps: {g1} vs. {g2}.
-1244|log.clock_late|{actor} was late for the meeting — their computer clock was running slow.
-1245|log.clock_leave_free|{target}'s computer clock ran fast and they left early. Ahmet let it slide.
-1246|log.clock_leave_scold|{target}'s computer clock ran 45 minutes fast. They packed up early — right past Ahmet. Back to the desk.
-1247|log.clock_left|{actor} left 45 minutes early because their computer clock was wrong. Nobody stopped them.
-1248|log.cm_dead|{it} declared the projector officially dead. {presenter} will have to improvise.
-1249|log.cm_disaster|With no projector, {presenter} tried to improvise with a marker. The client thought the sales graph was a horse.
-1250|log.cm_fixed|{it} brought the projector back from the dead with minutes to spare.
-1251|log.cm_legend|With no projector, {presenter} improvised with a marker and stick figures — and won the client. Office legend.
-1252|log.cm_lost|{presenter}'s client presentation fell flat. The client left 'to think about it'.
-1253|log.cm_panic|Ahmet discovered the projector is dead — an hour before the 'important client'. {presenter} is presenting. Panic.
-1254|log.cm_won|{presenter} nailed the client presentation. The client signed. Ahmet is beaming.
-1255|log.coat_home|{target} went home in {other}'s coat by mistake.
-1256|log.coat_romance|{actor} and {target} swapped coats back after a mix-up. Lingering eye contact.
-1257|log.coat_swap|{actor} and {target} swapped back the coats they'd taken home by mistake.
-1258|log.coatphone|{target}'s missing phone rang — from inside {coat}'s coat on the rack. Accusations followed.
-1259|log.coffee_blame|{actor} is blaming {suspect} for the coffee machine.
-1260|log.coffee_broken|{actor} discovered the coffee machine is broken.
-1261|log.coffee_date|{actor} and {target} snuck off to the kitchen together. Again.
-1262|log.coffee_date_spotted|{spotter} caught {actor} and {target} being very cosy by the coffee machine.
-1263|log.coffee_gift|Ece brought {target} a coffee.
-1264|log.coffee_gift_spill|Ece brought {target} a coffee… and spilled it on them.
-1265|log.coffee_mystery|The coffee machine fixed itself. {actor} is spooked.
-1266|log.cold|{target} walked away from {actor}.
-1267|log.collection|The secret envelope collecting money for {bdayp}'s upcoming birthday was left in plain sight. {bdayp} found it.
-1268|log.complaint|An anonymous complaint about {target}'s humming went up on the cork board. {target} has a suspect.
-1269|log.compliment|An anonymous note praising {target} appeared on the cork board. {target} is glowing — and investigating.
-1270|log.conf_read|{actor} found a confidential document left open in the archive — and read it.
-1271|log.confide|{actor} confided a secret to {target} in the lounge: "{fact}"
-1272|log.congrats|{actor} went over to congratulate {target}.
-1273|log.counteroffer|Ahmet offered Burak a raise to stay!
-1274|log.coup_ally|{usurper} recruited {ally} as a 'deputy'. The coup has a cabinet.
-1275|log.coup_alone|{usurper} tried to recruit {ally}. {ally} wants nothing to do with it.
-1276|log.coup_announce|{usurper} stood in the middle of the office and announced 'new efficiency measures'. Ahmet wasn't consulted.
-1277|log.coup_crushed|Ahmet confronted {usurper} about the 'coup'. It did not go well for {usurper}.
-1278|log.coup_impressed|Ahmet confronted {usurper} about the 'coup' — and ended up adopting half the ideas.
-1279|log.couplephoto|A doctored photo of {target} and {partner} 'holding hands' went up on the cork board.
-1280|log.course_calm|{target} was enrolled in an anger-management course — and took it surprisingly well.
-1281|log.course_rage|{target} was enrolled in a mandatory anger-management course. {target} responded by... getting very angry.
-1282|log.cover_friend|{friend} covered for {actor}'s late arrival. Ahmet bought it.
-1283|log.cover_friend_fail|{friend} tried to cover for {actor}'s late arrival. Ahmet didn't buy it.
-1284|log.cr_boss_bans|Ahmet found out about the chair race and banned it with a memo. {racer} got the blame.
-1285|log.cr_boss_joins|Ahmet found out about the chair race — and demanded a rematch with himself in it.
-1286|log.cr_challenge|{racer} challenged {rival} to an office-chair race. Bets are already being placed.
-1287|log.cr_crash|The office-chair race ended with {racer} crashing into the plant. {rival} wins by default.
-1288|log.cr_win|{racer} won the office-chair race against {rival}. The crowd went wild.
-1289|log.credit_fight|{actor} and {target} clashed over who did the work.
-1290|log.credit_steal|{actor} stole {target}'s thunder in front of Ahmet!
-1291|log.credit_steal_absent|With {victim} absent, {actor} took credit for her work.
-1292|log.criteria_cake|Fake 'promotion criteria' on the cork board say: bring cake. {climber} is already bringing cake.
-1293|log.criteria_laugh|Fake 'promotion criteria' say: laugh at Ahmet's jokes. {climber} is laughing at EVERYTHING Ahmet says.
-1294|log.crush_awkward|Ceren found out about Mert's crush. Awkward.
-1295|log.crush_sweet|Ceren found out about Mert's crush… and smiled.
-1296|log.cs_call|{thief} quietly called {victim}'s biggest client and offered to 'take care of them personally'.
-1297|log.cs_learn|{victim} found out {thief} has been talking to their client behind their back.
-1298|log.cs_thief_wins|Ahmet let {thief} keep {victim}'s client. {victim} is devastated.
-1299|log.cs_victim_wins|Ahmet ruled that {victim} keeps the client. {thief}'s poaching failed.
-1300|log.cwait_pair|The coffee machine took forever to warm up. {actor} and {target}, stuck waiting together, got chatting.
-1301|log.dark_bond|{actor} and {target} bonded during the blackout.
-1302|log.dark_scheme|In the dark, Deniz swiped Selin's USB stick!
-1303|log.dd_awkward|A redirected lunch invite turned into a double date with {a} and {b}, the 'couple' from the photo. Nobody knew where to look.
-1304|log.dd_fake|{a} and {b} agreed the couple photo was fake. Now they want to know who made it.
-1305|log.dd_fun|A redirected lunch invite turned into a double date with {a} and {b}, the 'couple' from the board photo. It was, somehow, great.
+1204|log.bu_makeup|{a} and {b} had a small fight in the lounge — and made up two minutes later.
+1205|log.bu_over|{a} and {b} have broken up. The office will be awkward for a while.
+1206|log.bu_sides|{confidant} talked to {a} about the fight with {b}. Friends are starting to take sides.
+1207|log.bu_storm|{a} and {b} had a whispered fight in the lounge. {b} stormed off. The office is officially worried.
+1208|log.bu_together|{a} and {b} talked it out. Still together — and holding hands at the coffee machine, which is worse.
+1209|log.cake|{actor} brought homemade cake. The kitchen filled up in seconds.
+1210|log.cake_early|The surprise birthday cake for {bday} was sitting out on the kitchen table hours early. {bday} saw it.
+1211|log.cal_doubt|{actor} found a {what} in their calendar they never made. Creepy.
+1212|log.cal_left|A {what} appeared in {actor}'s calendar. {actor} rushed out of the office for it.
+1213|log.cal_where|Ahmet noticed {owner} was gone. Rumours started about where.
+1214|log.callback|An important client callback reached {owner} an hour late. The deal went to a competitor.
+1215|log.callerid_boss|{owner}'s phone showed a call from Ahmet. Nobody was on the line.
+1216|log.callerid_ex|{owner}'s phone lit up with their ex's name. Someone noticed.
+1217|log.callerid_hh|{owner}'s phone rang: 'Talent Partners — recruiter'. People nearby put two and two together.
+1218|log.callerid_mom|{owner}'s phone rang — 'Mum' — right in the middle of work. Everyone heard.
+1219|log.caps_hurt|{actor} got an ALL-CAPS chat message from {target} and took it personally.
+1220|log.caps_laugh|{actor} thought {target} was shouting at them in chat. It was a stuck caps lock. They laughed it off.
+1221|log.card_bluff|{actor} waved a headhunter's card at Ahmet. Ahmet called the bluff.
+1222|log.card_leverage|{actor} found a headhunter's card and used it as leverage with Ahmet. It worked.
+1223|log.card_tempt|{actor} found a headhunter's business card on their desk — and kept it.
+1224|log.cc_chatter|Ahmet got CC'd on {owner}'s endless chat about kebab. He's not impressed with their 'productivity'.
+1225|log.cc_rant|Ahmet got CC'd on {owner}'s private chat — the part where {owner} complains about him.
+1226|log.cd_change|{suspect} admitted 'borrowing' coins from the charity box for the vending machine. They're paying double.
+1227|log.cd_collect|Coins are clinking into {organiser}'s charity box all afternoon.
+1228|log.cd_innocent|{organiser} accused {suspect} of taking charity money — then found the note stuck in the box. Awkward apology.
+1229|log.cd_launch|{organiser} put a charity box in the kitchen for the animal shelter.
+1230|log.cd_missing|{organiser} counted the charity box and money seems to be missing. {organiser} suspects {suspect}.
+1231|log.cd_record|{organiser} counted the charity box: a record! The shelter will be thrilled.
+1232|log.cdm_along|{reader} turned up for a 'date' with {sender}. {sender} had no idea — but played along. The kitchen saw everything.
+1233|log.cdm_clear|{crush} asked {sender} about the 'date' with {reader}. Just a mix-up, {sender} explained. {crush} looked... relieved.
+1234|log.cdm_fizzle|{sender} and {reader} agreed their date was a mix-up. Friends. Probably.
+1235|log.cdm_hurt|{reader} is still hurt by the fake date and is avoiding {sender}.
+1236|log.cdm_laughed|{reader} decided the fake date was funny. {reader} and {sender} now have an inside joke.
+1237|log.cdm_spark|{sender} and {reader}'s 'mix-up' date turned into a second, real one. Something is actually happening there.
+1238|log.cdm_tangled|{crush} confronted {sender} about dating {reader}. {sender} didn't deny it. {crush} walked away hurt.
+1239|log.cdm_true|{crush} confronted {sender} about {reader}. {sender} blurted out the truth: it's {crush} they like. {reader} found out last.
+1240|log.cdm_truth|{reader} turned up for a 'date' with {sender}. {sender} told the truth: there was no note. {reader} wanted the floor to swallow them.
+1241|log.ceren_noticed_board|Ceren noticed someone changed the meeting time.
+1242|log.ceren_notices_promo|Ceren noticed the promotion file doesn't add up.
+1243|log.ceren_snitch|Ceren told Ahmet: "{gossip}"
+1244|log.chair_clash|Ahmet walked in to find {target} running HIS meeting. {target} didn't back down. Tension.
+1245|log.chair_collapse|{actor}'s chair collapsed the moment they sat down. Someone had swapped it for the broken one.
+1246|log.chair_open|The board named {actor} as today's meeting chair. {actor} started the meeting without Ahmet.
+1247|log.chair_shrink|Ahmet walked in to find {target} running his meeting. {target} shrank back into a chair.
+1248|log.chair_sink|{actor}'s chair slowly sank until only their eyebrows were visible.
+1249|log.client_none|The 'client visit' never happened. Nobody knows who wrote it on the board. Everyone tidied for nothing.
+1250|log.client_tidy|The board announced a client visit. The whole office is tidying and working at double speed.
+1251|log.cliques|The office split into camps: {g1} vs. {g2}.
+1252|log.clock_late|{actor} was late for the meeting — their computer clock was running slow.
+1253|log.clock_leave_free|{target}'s computer clock ran fast and they left early. Ahmet let it slide.
+1254|log.clock_leave_scold|{target}'s computer clock ran 45 minutes fast. They packed up early — right past Ahmet. Back to the desk.
+1255|log.clock_left|{actor} left 45 minutes early because their computer clock was wrong. Nobody stopped them.
+1256|log.cm_dead|{it} declared the projector officially dead. {presenter} will have to improvise.
+1257|log.cm_disaster|With no projector, {presenter} tried to improvise with a marker. The client thought the sales graph was a horse.
+1258|log.cm_fixed|{it} brought the projector back from the dead with minutes to spare.
+1259|log.cm_legend|With no projector, {presenter} improvised with a marker and stick figures — and won the client. Office legend.
+1260|log.cm_lost|{presenter}'s client presentation fell flat. The client left 'to think about it'.
+1261|log.cm_panic|Ahmet discovered the projector is dead — an hour before the 'important client'. {presenter} is presenting. Panic.
+1262|log.cm_won|{presenter} nailed the client presentation. The client signed. Ahmet is beaming.
+1263|log.coat_home|{target} went home in {other}'s coat by mistake.
+1264|log.coat_romance|{actor} and {target} swapped coats back after a mix-up. Lingering eye contact.
+1265|log.coat_swap|{actor} and {target} swapped back the coats they'd taken home by mistake.
+1266|log.coatphone|{target}'s missing phone rang — from inside {coat}'s coat on the rack. Accusations followed.
+1267|log.coffee_blame|{actor} is blaming {suspect} for the coffee machine.
+1268|log.coffee_broken|{actor} discovered the coffee machine is broken.
+1269|log.coffee_date|{actor} and {target} snuck off to the kitchen together. Again.
+1270|log.coffee_date_spotted|{spotter} caught {actor} and {target} being very cosy by the coffee machine.
+1271|log.coffee_gift|Ece brought {target} a coffee.
+1272|log.coffee_gift_spill|Ece brought {target} a coffee… and spilled it on them.
+1273|log.coffee_mystery|The coffee machine fixed itself. {actor} is spooked.
+1274|log.cold|{target} walked away from {actor}.
+1275|log.collection|The secret envelope collecting money for {bdayp}'s upcoming birthday was left in plain sight. {bdayp} found it.
+1276|log.complaint|An anonymous complaint about {target}'s humming went up on the cork board. {target} has a suspect.
+1277|log.compliment|An anonymous note praising {target} appeared on the cork board. {target} is glowing — and investigating.
+1278|log.conf_read|{actor} found a confidential document left open in the archive — and read it.
+1279|log.confide|{actor} confided a secret to {target} in the lounge: "{fact}"
+1280|log.congrats|{actor} went over to congratulate {target}.
+1281|log.counteroffer|Ahmet offered Burak a raise to stay!
+1282|log.coup_ally|{usurper} recruited {ally} as a 'deputy'. The coup has a cabinet.
+1283|log.coup_alone|{usurper} tried to recruit {ally}. {ally} wants nothing to do with it.
+1284|log.coup_announce|{usurper} stood in the middle of the office and announced 'new efficiency measures'. Ahmet wasn't consulted.
+1285|log.coup_crushed|Ahmet confronted {usurper} about the 'coup'. It did not go well for {usurper}.
+1286|log.coup_impressed|Ahmet confronted {usurper} about the 'coup' — and ended up adopting half the ideas.
+1287|log.couplephoto|A doctored photo of {target} and {partner} 'holding hands' went up on the cork board.
+1288|log.course_calm|{target} was enrolled in an anger-management course — and took it surprisingly well.
+1289|log.course_rage|{target} was enrolled in a mandatory anger-management course. {target} responded by... getting very angry.
+1290|log.cover_friend|{friend} covered for {actor}'s late arrival. Ahmet bought it.
+1291|log.cover_friend_fail|{friend} tried to cover for {actor}'s late arrival. Ahmet didn't buy it.
+1292|log.cr_boss_bans|Ahmet found out about the chair race and banned it with a memo. {racer} got the blame.
+1293|log.cr_boss_joins|Ahmet found out about the chair race — and demanded a rematch with himself in it.
+1294|log.cr_challenge|{racer} challenged {rival} to an office-chair race. Bets are already being placed.
+1295|log.cr_crash|The office-chair race ended with {racer} crashing into the plant. {rival} wins by default.
+1296|log.cr_win|{racer} won the office-chair race against {rival}. The crowd went wild.
+1297|log.credit_fight|{actor} and {target} clashed over who did the work.
+1298|log.credit_steal|{actor} stole {target}'s thunder in front of Ahmet!
+1299|log.credit_steal_absent|With {victim} absent, {actor} took credit for her work.
+1300|log.criteria_cake|Fake 'promotion criteria' on the cork board say: bring cake. {climber} is already bringing cake.
+1301|log.criteria_laugh|Fake 'promotion criteria' say: laugh at Ahmet's jokes. {climber} is laughing at EVERYTHING Ahmet says.
+1302|log.crush_awkward|Ceren found out about Mert's crush. Awkward.
+1303|log.crush_sweet|Ceren found out about Mert's crush… and smiled.
+1304|log.cs_call|{thief} quietly called {victim}'s biggest client and offered to 'take care of them personally'.
+1305|log.cs_learn|{victim} found out {thief} has been talking to their client behind their back.
+1306|log.cs_thief_wins|Ahmet let {thief} keep {victim}'s client. {victim} is devastated.
+1307|log.cs_victim_wins|Ahmet ruled that {victim} keeps the client. {thief}'s poaching failed.
+1308|log.cwait_pair|The coffee machine took forever to warm up. {actor} and {target}, stuck waiting together, got chatting.
+1309|log.dark_bond|{actor} and {target} bonded during the blackout.
+1310|log.dark_scheme|In the dark, Deniz swiped Selin's USB stick!
+1311|log.dd_awkward|A redirected lunch invite turned into a double date with {a} and {b}, the 'couple' from the photo. Nobody knew where to look.
+1312|log.dd_fake|{a} and {b} agreed the couple photo was fake. Now they want to know who made it.

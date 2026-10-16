@@ -1,186 +1,186 @@
-6050|spc_ring|_|0|*ring ring* — on SPEAKER — 'You said we need to talk?'
-6051|spc_ring|_|1|*phone on speaker* '{owner}? You wanted to talk?'
-6052|spc_blurt|_|0|I— um— I've liked you for ages, okay?! There. I said it.
-6053|spc_blurt|_|1|I like you! A lot! ...Why is everyone looking at me?
-6054|spc_hangup|_|0|*panicked hang-up* ...Wrong number! Ha! Ha.
-6055|spc_hangup|_|1|*slams the phone down* That was... a client.
-6056|spc_tease|_|0|Ooooh, {owner}! 'I've liked you for ages'!
-6057|spc_tease|_|1|Heard your phone call, {owner}. Very romantic.
-6058|spc_tease|_|2|*makes kissing noises at {owner}*
-6059|spc_tease_back|_|0|Laugh it up. I hope your phone's on speaker next.
-6060|spc_tease_back|_|1|...I'm moving desks. To Antarctica.
-6061|spc_face|_|0|So... that phone call.
-6062|spc_face|_|1|I heard what you said. On the phone. Everybody did.
-6063|spc_mutual|_|0|...I like you too. Speakerphone and all.
-6064|spc_mutual|_|1|For the record? Same.
-6065|spc_no|_|0|You're sweet. But I don't feel that way. I'm sorry.
-6066|spc_no|_|1|I'm flattered. Really. But no.
-6067|spc_friends|_|0|Let's pretend it never happened and get a coffee?
-6068|spc_friends|_|1|Okay, that was the most embarrassing thing I've ever witnessed. Coffee?
-6069|cm_panic|_|0|The CLIENT is coming and the projector is DEAD?!
-6070|cm_panic|_|1|Who broke the projector? TODAY of all days?!
-6071|cm_fixing|_|0|Hold on... I've got a spare cable... somewhere.
-6072|cm_fixing|_|1|Okay projector. It's you and me.
-6073|cm_fixed|_|0|AND... we have light! You're welcome.
-6074|cm_fixed|_|1|Fixed. Don't touch it. Don't breathe on it.
-6075|cm_dead|_|0|It's dead, Jim. Completely dead.
-6076|cm_dead|_|1|Nope. It smells like burning. That's never good.
-6077|cm_present|_|0|And as you can see on slide four...
-6078|cm_present|_|1|Our numbers this quarter speak for themselves.
-6079|cm_client_happy|_|0|The client signed! On the spot!
-6080|cm_client_happy|_|1|They loved it. We got the contract!
-6081|cm_client_meh|_|0|...The client said they'll 'think about it'.
-6082|cm_client_meh|_|1|They left early. That's bad, right? That's bad.
-6083|cm_improv|_|0|No projector? No problem. *grabs a marker* Picture this...
-6084|cm_improv|_|1|Forget the slides. Let me draw you the future. *draws a very wobbly graph*
-6085|cm_legend|_|0|The client bought the WHOLE thing. Because of a stick-figure drawing.
-6086|cm_legend|_|1|They said it was 'refreshingly human'. We got it!
-6087|cm_disaster|_|0|The client asked if the drawing was of a horse. It was our sales graph.
-6088|cm_disaster|_|1|...They left. With their coats. Quickly.
-6089|ev_stuck|_|0|THE DOOR WON'T OPEN!
-6090|ev_stuck|_|1|We're TRAPPED!
-6091|ev_stuck|_|2|Why is the door locked during a FIRE ALARM?!
-6092|ev_panic|_|0|We're all going to— okay I'm calm. I'm calm. I'M NOT CALM.
-6093|ev_panic|_|1|Is this how it ends? At reception?
-6094|ev_lead|_|0|Everyone! Calm down! Fire exit's by the archive. Follow me.
-6095|ev_lead|_|1|Listen to me. Nobody panic. There's another way out.
-6096|ev_unjam|_|0|*shoulder-barges the door* ...It's open! Everyone out— oh, the alarm stopped.
-6097|ev_unjam|_|1|Got it! The latch was jammed. Out, everyone. Calmly.
-6098|ev_who|_|0|WHO jammed the front door? That's a SAFETY issue!
-6099|ev_who|_|1|Someone jammed that door. I want a name.
-6100|ev_scapegoat|_|0|{scapegoat}, you were the last one by the door. Explain.
-6101|ev_scapegoat|_|1|It was you, wasn't it, {scapegoat}?
-6102|ev_not_me|_|0|Me?! I was trying to GET OUT like everyone else!
-6103|ev_not_me|_|1|I didn't touch it! I swear!
-6104|ev_praise|_|0|Today, {hero} kept everyone safe. That's leadership.
-6105|ev_praise|_|1|Let's hear it for {hero}. Cool head in a crisis.
-6106|fw_outrage|_|0|My lunch is GONE and there's a note signed {signer}?!
-6107|fw_outrage|_|1|'Stop stealing my yoghurt — {signer}'?! You threw out EVERYTHING?!
-6108|fw_counter|_|0|*writes a VERY long counter-note in capital letters*
-6109|fw_counter|_|1|'DEAR {signer}: SOME OF US HAVE FEELINGS. AND LUNCHES.' *sticks it on the fridge*
-6110|fw_accuse|_|0|You threw out my lunch. And then you LECTURED me about yoghurt?
-6111|fw_accuse|_|1|Explain the note, {signer}.
-6112|fw_innocent|_|0|I didn't write that note! I don't even eat yoghurt!
-6113|fw_innocent|_|1|That's not my handwriting! Someone's setting us up!
-6114|fw_snap|_|0|Maybe if people labelled their food, it wouldn't get thrown out!
-6115|fw_snap|_|1|Oh, so now I'm the fridge police? Fine. I'm the fridge police.
-6116|fm_news|_|0|Did you hear? {leaver} is QUITTING. I saw the letter!
-6117|fm_news|_|1|{leaver}'s leaving! The auto-reply says 'I quit'!
-6118|fm_collect|_|0|We're collecting for {leaver}'s farewell gift. Chip in?
-6119|fm_collect|_|1|Sign the card! For {leaver}! Don't let them see!
-6120|fm_chip_in|_|0|Of course. I'll miss {leaver}.
-6121|fm_chip_in|_|1|Here. Get something nice.
-6122|fm_chip_in|_|2|I can't believe they're leaving.
-6123|fm_offer|_|0|Don't go, {leaver}. Whatever they're offering — I'll match it.
-6124|fm_offer|_|1|{leaver}. Before you leave... what would it take to keep you?
-6125|fm_confused|_|0|...Leave? I'm not leaving. Who said I'm leaving?
-6126|fm_confused|_|1|Wait. What offer? I'm not going anywhere!
-6127|fm_cunning|_|0|...Well. A raise would be a good start.
-6128|fm_cunning|_|1|Hm. A bigger desk. And a raise. Then we'll talk.
-6129|fm_surprise|_|0|SURPRISE! We'll miss you, {leaver}!
-6130|fm_surprise|_|1|Farewell, {leaver}! *pops a party popper*
-6131|fm_not_leaving|_|0|I'M NOT LEAVING! But... thank you? Is there cake?
-6132|fm_not_leaving|_|1|...I'm not quitting. But I'm keeping the card.
-6133|fm_staying_raise|_|0|Thanks, everyone! ...Small update: I'm staying. With a raise.
-6134|fm_staying_raise|_|1|Oh! About that. I'm staying. Ahmet made me an offer.
-6135|fm_outrage|_|0|We paid for a GIFT!
-6136|fm_outrage|_|1|You KNEW and you let us collect?!
-6137|gen_laugh|_|0|HAHAHA!
-6138|gen_laugh|_|1|Oh, that's priceless.
-6139|gen_laugh|_|2|*wheezes*
-6140|gen_laugh|_|3|I can't breathe!
-6141|bu_spark|_|0|You ALWAYS do this!
-6142|bu_spark|_|1|It's not about the dishes. It's never about the dishes.
-6143|bu_spark|_|2|Fine. FINE.
-6144|bu_spark_back|_|0|Me?! You're the one who forgot!
-6145|bu_spark_back|_|1|Oh, so it's MY fault now?
-6146|bu_spark_back|_|2|Don't 'fine' me.
-6147|bu_storm|_|0|I need some air.
-6148|bu_storm|_|1|We'll talk later. Or not.
-6149|bu_makeup|_|0|...Sorry. I'm just tired.
-6150|bu_makeup|_|1|Okay. I overreacted. Coffee?
-6151|bu_side_a|_|0|Honestly? {b} has been impossible lately.
-6152|bu_side_a|_|1|I'm on your side. Always.
-6153|bu_side_b|_|0|You should talk to {b}. Properly.
-6154|bu_side_b|_|1|Don't throw it away over nothing.
-6155|bu_talk|_|0|Can we talk? Really talk?
-6156|bu_talk|_|1|About earlier...
-6157|bu_together|_|0|I don't want to lose you over something this stupid.
-6158|bu_together|_|1|Let's never fight in the lounge again. Deal?
-6159|bu_over|_|0|...I think we need a break. A real one.
-6160|bu_over|_|1|Maybe we're better as colleagues.
-6161|pet_sneak|_|0|*whispering into a cardboard box* Shh. Shh. You're a stapler now.
-6162|pet_sneak|_|1|Nobody look in this box. It's... files. Very fluffy files.
-6163|pet_mew|_|0|*mew*
-6164|pet_mew|_|1|*tiny mew*
-6165|pet_ask|_|0|I need you to hide a kitten in the archive. Don't ask questions.
-6166|pet_ask|_|1|Okay, I found her in the car park. Help me hide her from Ahmet?
-6167|pet_yes|_|0|A KITTEN?! Give her to me. I'll guard her with my life.
-6168|pet_yes|_|1|...Fine. But I'm naming her.
-6169|pet_no|_|0|Absolutely not. I'm allergic to unemployment.
-6170|pet_no|_|1|No. Ahmet will kill us both.
-6171|pet_boss_hear|_|0|...Is something MEOWING in my office?
-6172|pet_boss_hear|_|1|Why is there a kitten on my keyboard?!
-6173|pet_melts|_|0|...Oh. Oh, look at her little face. Fine. She stays. She's the office manager now.
-6174|pet_melts|_|1|Who's a good kitty? Not a word to HQ, anyone.
-6175|pet_furious|_|0|Out. The kitten goes. TODAY. And {smuggler}: my office. Now.
-6176|pet_furious|_|1|This is an office, not a zoo!
-6177|pw_first|_|0|*wraps {p2}'s whole desk in cling film* Perfect.
-6178|pw_first|_|1|*replaces {p2}'s mouse with a potato* Art.
-6179|pw_found|_|0|...CLING FILM?! Oh, it's ON, {p1}.
-6180|pw_found|_|1|A POTATO. You'll pay for this, {p1}.
-6181|pw_revenge|_|0|*fills {p1}'s drawer with 300 sticky notes* Phase one complete.
-6182|pw_revenge|_|1|*sets {p1}'s keyboard to Turkish-F layout* Mwahaha.
-6183|pw_ultimate|_|0|The ultimate prank. Bucket of confetti. Over the door. When {p2} walks in...
-6184|pw_ultimate|_|1|*balances a bucket of confetti on the boss-office door* ...Wait, wrong door.
-6185|pw_boss_hit|_|0|*covered in confetti* ...WHO. DID. THIS.
-6186|pw_boss_hit|_|1|*spits out confetti* I am going to count to three.
-6187|pw_boss_laughs|_|0|...Ha. HA. Okay, that's actually good. Both of you, back to work.
-6188|pw_boss_laughs|_|1|I haven't laughed like that in years. Don't tell anyone.
-6189|pw_boss_rage|_|0|{p1}! {p2}! My office! NOW!
-6190|pw_boss_rage|_|1|This ends TODAY. Both of you. Written warning.
-6191|nw_ask|_|0|Could you PLEASE keep it down? Some of us are working.
-6192|nw_ask|_|1|Sorry — could you be a bit quieter? I'm on a deadline.
-6193|nw_sorry|_|0|Oh! Sorry. Didn't realise. I'll whisper.
-6194|nw_sorry|_|1|My bad. Inside voice. Got it.
-6195|nw_louder|_|0|It's an OPEN-PLAN office. It's called COMMUNICATION.
-6196|nw_louder|_|1|Buy headphones.
-6197|nw_music|_|0|Oh, you want noise? *turns the office speaker up* ENJOY.
-6198|nw_music|_|1|Fine. If I can't have quiet, NOBODY can. *cranks the music*
-6199|nw_annoyed|_|0|Who put on THIS music?!
-6200|nw_annoyed|_|1|My ears!
-6201|nw_annoyed|_|2|Can someone turn that off?
-6202|nw_showdown|_|0|Enough. This ends now. Kitchen. Both of you.
-6203|nw_showdown|_|1|You two are driving everyone mad. Sit. Talk.
-6204|nw_truce|_|0|...Headphones for me, quiet hours for you?
-6205|nw_truce|_|1|Fine. Music only after four. Deal.
-6206|nw_war|_|0|Never. I'll bring a TRUMPET tomorrow.
-6207|nw_war|_|1|Not until they apologise for the arabesk.
-6208|pb_challenge|_|0|Ahmet wants new ideas by four. Mine's better than yours. Want to bet?
-6209|pb_challenge|_|1|Pitch-off. You and me. Ahmet's office. Four o'clock.
-6210|pb_accept|_|0|You're on.
-6211|pb_accept|_|1|Oh, it is SO on.
-6212|pb_accept|_|2|Prepare to lose.
-6213|pb_prep|_|0|*typing furiously* Slide nine needs more synergy.
-6214|pb_prep|_|1|Okay. Graphs. Big ones. Ahmet loves big graphs.
-6215|pb_present|_|0|Picture this: everything, but faster.
-6216|pb_present|_|1|My idea will save us thirty percent. Possibly forty.
-6217|pb_win_a|_|0|{a}'s idea. Go with it. {b}, good effort.
-6218|pb_win_a|_|1|I'm going with {a}. Congratulations.
-6219|pb_win_b|_|0|{b}, that's the one. {a}, back to the drawing board.
-6220|pb_win_b|_|1|{b} wins. That was sharp.
-6221|pb_both|_|0|Why not both? {a} and {b}: you're a team now. Don't kill each other.
-6222|pb_both|_|1|Combine them. Together. Today.
-6223|kn_invite|_|0|KARAOKE! Kitchen! After five! Bring your voice!
-6224|kn_invite|_|1|Tonight: office karaoke. Attendance is mandatory. Joking. Mostly.
-6225|kn_rehearse|_|0|*very quietly, in the archive* ♪ ...and I will always love youuu... ♪
-6226|kn_rehearse|_|1|*humming scales behind the filing cabinet*
-6227|kn_overheard|_|0|...Was that {shy}? Singing? Like THAT?
-6228|kn_overheard|_|1|Wait. {shy} can SING?
-6229|kn_sing|_|0|♪ I WILL SURVIIIIVE ♪
-6230|kn_sing|_|1|♪ Is this the real life? Is this just fantasy? ♪
-6231|kn_sing|_|2|♪ Bir İstanbul masalııı ♪
-6232|kn_star|_|0|...WOW. Encore! ENCORE!
-6233|kn_star|_|1|{shy}, where have you been hiding THAT?
-6234|kn_flop|_|0|*cracks on the high note* ...I'm fine. Totally fine.
-6235|kn_flop|_|1|*sings the wrong song entirely*
+6058|spc_ring|_|0|*ring ring* — on SPEAKER — 'You said we need to talk?'
+6059|spc_ring|_|1|*phone on speaker* '{owner}? You wanted to talk?'
+6060|spc_blurt|_|0|I— um— I've liked you for ages, okay?! There. I said it.
+6061|spc_blurt|_|1|I like you! A lot! ...Why is everyone looking at me?
+6062|spc_hangup|_|0|*panicked hang-up* ...Wrong number! Ha! Ha.
+6063|spc_hangup|_|1|*slams the phone down* That was... a client.
+6064|spc_tease|_|0|Ooooh, {owner}! 'I've liked you for ages'!
+6065|spc_tease|_|1|Heard your phone call, {owner}. Very romantic.
+6066|spc_tease|_|2|*makes kissing noises at {owner}*
+6067|spc_tease_back|_|0|Laugh it up. I hope your phone's on speaker next.
+6068|spc_tease_back|_|1|...I'm moving desks. To Antarctica.
+6069|spc_face|_|0|So... that phone call.
+6070|spc_face|_|1|I heard what you said. On the phone. Everybody did.
+6071|spc_mutual|_|0|...I like you too. Speakerphone and all.
+6072|spc_mutual|_|1|For the record? Same.
+6073|spc_no|_|0|You're sweet. But I don't feel that way. I'm sorry.
+6074|spc_no|_|1|I'm flattered. Really. But no.
+6075|spc_friends|_|0|Let's pretend it never happened and get a coffee?
+6076|spc_friends|_|1|Okay, that was the most embarrassing thing I've ever witnessed. Coffee?
+6077|cm_panic|_|0|The CLIENT is coming and the projector is DEAD?!
+6078|cm_panic|_|1|Who broke the projector? TODAY of all days?!
+6079|cm_fixing|_|0|Hold on... I've got a spare cable... somewhere.
+6080|cm_fixing|_|1|Okay projector. It's you and me.
+6081|cm_fixed|_|0|AND... we have light! You're welcome.
+6082|cm_fixed|_|1|Fixed. Don't touch it. Don't breathe on it.
+6083|cm_dead|_|0|It's dead, Jim. Completely dead.
+6084|cm_dead|_|1|Nope. It smells like burning. That's never good.
+6085|cm_present|_|0|And as you can see on slide four...
+6086|cm_present|_|1|Our numbers this quarter speak for themselves.
+6087|cm_client_happy|_|0|The client signed! On the spot!
+6088|cm_client_happy|_|1|They loved it. We got the contract!
+6089|cm_client_meh|_|0|...The client said they'll 'think about it'.
+6090|cm_client_meh|_|1|They left early. That's bad, right? That's bad.
+6091|cm_improv|_|0|No projector? No problem. *grabs a marker* Picture this...
+6092|cm_improv|_|1|Forget the slides. Let me draw you the future. *draws a very wobbly graph*
+6093|cm_legend|_|0|The client bought the WHOLE thing. Because of a stick-figure drawing.
+6094|cm_legend|_|1|They said it was 'refreshingly human'. We got it!
+6095|cm_disaster|_|0|The client asked if the drawing was of a horse. It was our sales graph.
+6096|cm_disaster|_|1|...They left. With their coats. Quickly.
+6097|ev_stuck|_|0|THE DOOR WON'T OPEN!
+6098|ev_stuck|_|1|We're TRAPPED!
+6099|ev_stuck|_|2|Why is the door locked during a FIRE ALARM?!
+6100|ev_panic|_|0|We're all going to— okay I'm calm. I'm calm. I'M NOT CALM.
+6101|ev_panic|_|1|Is this how it ends? At reception?
+6102|ev_lead|_|0|Everyone! Calm down! Fire exit's by the archive. Follow me.
+6103|ev_lead|_|1|Listen to me. Nobody panic. There's another way out.
+6104|ev_unjam|_|0|*shoulder-barges the door* ...It's open! Everyone out— oh, the alarm stopped.
+6105|ev_unjam|_|1|Got it! The latch was jammed. Out, everyone. Calmly.
+6106|ev_who|_|0|WHO jammed the front door? That's a SAFETY issue!
+6107|ev_who|_|1|Someone jammed that door. I want a name.
+6108|ev_scapegoat|_|0|{scapegoat}, you were the last one by the door. Explain.
+6109|ev_scapegoat|_|1|It was you, wasn't it, {scapegoat}?
+6110|ev_not_me|_|0|Me?! I was trying to GET OUT like everyone else!
+6111|ev_not_me|_|1|I didn't touch it! I swear!
+6112|ev_praise|_|0|Today, {hero} kept everyone safe. That's leadership.
+6113|ev_praise|_|1|Let's hear it for {hero}. Cool head in a crisis.
+6114|fw_outrage|_|0|My lunch is GONE and there's a note signed {signer}?!
+6115|fw_outrage|_|1|'Stop stealing my yoghurt — {signer}'?! You threw out EVERYTHING?!
+6116|fw_counter|_|0|*writes a VERY long counter-note in capital letters*
+6117|fw_counter|_|1|'DEAR {signer}: SOME OF US HAVE FEELINGS. AND LUNCHES.' *sticks it on the fridge*
+6118|fw_accuse|_|0|You threw out my lunch. And then you LECTURED me about yoghurt?
+6119|fw_accuse|_|1|Explain the note, {signer}.
+6120|fw_innocent|_|0|I didn't write that note! I don't even eat yoghurt!
+6121|fw_innocent|_|1|That's not my handwriting! Someone's setting us up!
+6122|fw_snap|_|0|Maybe if people labelled their food, it wouldn't get thrown out!
+6123|fw_snap|_|1|Oh, so now I'm the fridge police? Fine. I'm the fridge police.
+6124|fm_news|_|0|Did you hear? {leaver} is QUITTING. I saw the letter!
+6125|fm_news|_|1|{leaver}'s leaving! The auto-reply says 'I quit'!
+6126|fm_collect|_|0|We're collecting for {leaver}'s farewell gift. Chip in?
+6127|fm_collect|_|1|Sign the card! For {leaver}! Don't let them see!
+6128|fm_chip_in|_|0|Of course. I'll miss {leaver}.
+6129|fm_chip_in|_|1|Here. Get something nice.
+6130|fm_chip_in|_|2|I can't believe they're leaving.
+6131|fm_offer|_|0|Don't go, {leaver}. Whatever they're offering — I'll match it.
+6132|fm_offer|_|1|{leaver}. Before you leave... what would it take to keep you?
+6133|fm_confused|_|0|...Leave? I'm not leaving. Who said I'm leaving?
+6134|fm_confused|_|1|Wait. What offer? I'm not going anywhere!
+6135|fm_cunning|_|0|...Well. A raise would be a good start.
+6136|fm_cunning|_|1|Hm. A bigger desk. And a raise. Then we'll talk.
+6137|fm_surprise|_|0|SURPRISE! We'll miss you, {leaver}!
+6138|fm_surprise|_|1|Farewell, {leaver}! *pops a party popper*
+6139|fm_not_leaving|_|0|I'M NOT LEAVING! But... thank you? Is there cake?
+6140|fm_not_leaving|_|1|...I'm not quitting. But I'm keeping the card.
+6141|fm_staying_raise|_|0|Thanks, everyone! ...Small update: I'm staying. With a raise.
+6142|fm_staying_raise|_|1|Oh! About that. I'm staying. Ahmet made me an offer.
+6143|fm_outrage|_|0|We paid for a GIFT!
+6144|fm_outrage|_|1|You KNEW and you let us collect?!
+6145|gen_laugh|_|0|HAHAHA!
+6146|gen_laugh|_|1|Oh, that's priceless.
+6147|gen_laugh|_|2|*wheezes*
+6148|gen_laugh|_|3|I can't breathe!
+6149|bu_spark|_|0|You ALWAYS do this!
+6150|bu_spark|_|1|It's not about the dishes. It's never about the dishes.
+6151|bu_spark|_|2|Fine. FINE.
+6152|bu_spark_back|_|0|Me?! You're the one who forgot!
+6153|bu_spark_back|_|1|Oh, so it's MY fault now?
+6154|bu_spark_back|_|2|Don't 'fine' me.
+6155|bu_storm|_|0|I need some air.
+6156|bu_storm|_|1|We'll talk later. Or not.
+6157|bu_makeup|_|0|...Sorry. I'm just tired.
+6158|bu_makeup|_|1|Okay. I overreacted. Coffee?
+6159|bu_side_a|_|0|Honestly? {b} has been impossible lately.
+6160|bu_side_a|_|1|I'm on your side. Always.
+6161|bu_side_b|_|0|You should talk to {b}. Properly.
+6162|bu_side_b|_|1|Don't throw it away over nothing.
+6163|bu_talk|_|0|Can we talk? Really talk?
+6164|bu_talk|_|1|About earlier...
+6165|bu_together|_|0|I don't want to lose you over something this stupid.
+6166|bu_together|_|1|Let's never fight in the lounge again. Deal?
+6167|bu_over|_|0|...I think we need a break. A real one.
+6168|bu_over|_|1|Maybe we're better as colleagues.
+6169|pet_sneak|_|0|*whispering into a cardboard box* Shh. Shh. You're a stapler now.
+6170|pet_sneak|_|1|Nobody look in this box. It's... files. Very fluffy files.
+6171|pet_mew|_|0|*mew*
+6172|pet_mew|_|1|*tiny mew*
+6173|pet_ask|_|0|I need you to hide a kitten in the archive. Don't ask questions.
+6174|pet_ask|_|1|Okay, I found her in the car park. Help me hide her from Ahmet?
+6175|pet_yes|_|0|A KITTEN?! Give her to me. I'll guard her with my life.
+6176|pet_yes|_|1|...Fine. But I'm naming her.
+6177|pet_no|_|0|Absolutely not. I'm allergic to unemployment.
+6178|pet_no|_|1|No. Ahmet will kill us both.
+6179|pet_boss_hear|_|0|...Is something MEOWING in my office?
+6180|pet_boss_hear|_|1|Why is there a kitten on my keyboard?!
+6181|pet_melts|_|0|...Oh. Oh, look at her little face. Fine. She stays. She's the office manager now.
+6182|pet_melts|_|1|Who's a good kitty? Not a word to HQ, anyone.
+6183|pet_furious|_|0|Out. The kitten goes. TODAY. And {smuggler}: my office. Now.
+6184|pet_furious|_|1|This is an office, not a zoo!
+6185|pw_first|_|0|*wraps {p2}'s whole desk in cling film* Perfect.
+6186|pw_first|_|1|*replaces {p2}'s mouse with a potato* Art.
+6187|pw_found|_|0|...CLING FILM?! Oh, it's ON, {p1}.
+6188|pw_found|_|1|A POTATO. You'll pay for this, {p1}.
+6189|pw_revenge|_|0|*fills {p1}'s drawer with 300 sticky notes* Phase one complete.
+6190|pw_revenge|_|1|*sets {p1}'s keyboard to Turkish-F layout* Mwahaha.
+6191|pw_ultimate|_|0|The ultimate prank. Bucket of confetti. Over the door. When {p2} walks in...
+6192|pw_ultimate|_|1|*balances a bucket of confetti on the boss-office door* ...Wait, wrong door.
+6193|pw_boss_hit|_|0|*covered in confetti* ...WHO. DID. THIS.
+6194|pw_boss_hit|_|1|*spits out confetti* I am going to count to three.
+6195|pw_boss_laughs|_|0|...Ha. HA. Okay, that's actually good. Both of you, back to work.
+6196|pw_boss_laughs|_|1|I haven't laughed like that in years. Don't tell anyone.
+6197|pw_boss_rage|_|0|{p1}! {p2}! My office! NOW!
+6198|pw_boss_rage|_|1|This ends TODAY. Both of you. Written warning.
+6199|nw_ask|_|0|Could you PLEASE keep it down? Some of us are working.
+6200|nw_ask|_|1|Sorry — could you be a bit quieter? I'm on a deadline.
+6201|nw_sorry|_|0|Oh! Sorry. Didn't realise. I'll whisper.
+6202|nw_sorry|_|1|My bad. Inside voice. Got it.
+6203|nw_louder|_|0|It's an OPEN-PLAN office. It's called COMMUNICATION.
+6204|nw_louder|_|1|Buy headphones.
+6205|nw_music|_|0|Oh, you want noise? *turns the office speaker up* ENJOY.
+6206|nw_music|_|1|Fine. If I can't have quiet, NOBODY can. *cranks the music*
+6207|nw_annoyed|_|0|Who put on THIS music?!
+6208|nw_annoyed|_|1|My ears!
+6209|nw_annoyed|_|2|Can someone turn that off?
+6210|nw_showdown|_|0|Enough. This ends now. Kitchen. Both of you.
+6211|nw_showdown|_|1|You two are driving everyone mad. Sit. Talk.
+6212|nw_truce|_|0|...Headphones for me, quiet hours for you?
+6213|nw_truce|_|1|Fine. Music only after four. Deal.
+6214|nw_war|_|0|Never. I'll bring a TRUMPET tomorrow.
+6215|nw_war|_|1|Not until they apologise for the arabesk.
+6216|pb_challenge|_|0|Ahmet wants new ideas by four. Mine's better than yours. Want to bet?
+6217|pb_challenge|_|1|Pitch-off. You and me. Ahmet's office. Four o'clock.
+6218|pb_accept|_|0|You're on.
+6219|pb_accept|_|1|Oh, it is SO on.
+6220|pb_accept|_|2|Prepare to lose.
+6221|pb_prep|_|0|*typing furiously* Slide nine needs more synergy.
+6222|pb_prep|_|1|Okay. Graphs. Big ones. Ahmet loves big graphs.
+6223|pb_present|_|0|Picture this: everything, but faster.
+6224|pb_present|_|1|My idea will save us thirty percent. Possibly forty.
+6225|pb_win_a|_|0|{a}'s idea. Go with it. {b}, good effort.
+6226|pb_win_a|_|1|I'm going with {a}. Congratulations.
+6227|pb_win_b|_|0|{b}, that's the one. {a}, back to the drawing board.
+6228|pb_win_b|_|1|{b} wins. That was sharp.
+6229|pb_both|_|0|Why not both? {a} and {b}: you're a team now. Don't kill each other.
+6230|pb_both|_|1|Combine them. Together. Today.
+6231|kn_invite|_|0|KARAOKE! Kitchen! After five! Bring your voice!
+6232|kn_invite|_|1|Tonight: office karaoke. Attendance is mandatory. Joking. Mostly.
+6233|kn_rehearse|_|0|*very quietly, in the archive* ♪ ...and I will always love youuu... ♪
+6234|kn_rehearse|_|1|*humming scales behind the filing cabinet*
+6235|kn_overheard|_|0|...Was that {shy}? Singing? Like THAT?
+6236|kn_overheard|_|1|Wait. {shy} can SING?
+6237|kn_sing|_|0|♪ I WILL SURVIIIIVE ♪
+6238|kn_sing|_|1|♪ Is this the real life? Is this just fantasy? ♪
+6239|kn_sing|_|2|♪ Bir İstanbul masalııı ♪
+6240|kn_star|_|0|...WOW. Encore! ENCORE!
+6241|kn_star|_|1|{shy}, where have you been hiding THAT?
+6242|kn_flop|_|0|*cracks on the high note* ...I'm fine. Totally fine.
+6243|kn_flop|_|1|*sings the wrong song entirely*

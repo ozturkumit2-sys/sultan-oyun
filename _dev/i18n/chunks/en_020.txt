@@ -1,219 +1,219 @@
-3798|rom_date_reply|_|0|You first.
-3799|rom_date_reply|_|1|...I collect snow globes. Don't laugh.
-3800|rom_date_reply|_|2|This is the best fifteen minutes of my week.
-3801|rom_spotted|_|0|WELL, well, well.
-3802|rom_spotted|_|1|I KNEW IT. I knew it!
-3803|rom_spotted|_|2|Oh this is too good.
-3804|rom_spotted|zeynep|0|And THAT is going in my notebook.
-3805|rom_spotted|mert|0|Get a room! A meeting room!
-3806|rom_gossip_start|_|0|Oh, I have to tell someone. I HAVE to.
-3807|rom_gossip_start|_|1|This cannot stay in my head.
-3808|rom_gossip_tell|_|0|Guess who I caught being VERY cosy in the kitchen? {lover} and {crush}!
-3809|rom_gossip_tell|_|1|{lover} and {crush}. Kitchen. Holding mugs. MEANINGFULLY.
-3810|rom_gossip_react|_|0|No WAY.
-3811|rom_gossip_react|_|1|I knew it! The way they look at each other!
-3812|rom_gossip_react|_|2|Get OUT.
-3813|rom_decide_open|_|0|So... people are talking.
-3814|rom_decide_open|_|1|Everyone knows, don't they.
-3815|rom_decide_open|_|2|We need to talk about... us. And them.
-3816|rom_public|_|0|Let them talk. I'm not hiding you.
-3817|rom_public|_|1|Honestly? I don't care who knows.
-3818|rom_public|_|2|We're adults. Let's just tell them.
-3819|rom_secret|_|0|Let's keep it quiet. Just a bit longer.
-3820|rom_secret|_|1|Not yet. Ahmet would make it weird.
-3821|rom_secret|_|2|Our secret. For now.
-3822|rom_breakup|_|0|Maybe this was a mistake. At work, I mean.
-3823|rom_breakup|_|1|I don't think I can do this with everyone watching.
-3824|rom_breakup|_|2|Let's... go back to being colleagues.
-3825|rom_congrats|_|0|Aww! Finally!
-3826|rom_congrats|_|1|You two! Congrats!
-3827|rom_congrats|_|2|I knew it from DAY ONE.
-3828|hh_call|_|0|Yes, this is {seeker}. ...Today? At two? I'll make it work.
-3829|hh_call|_|1|A second interview? Absolutely. I'll be there.
-3830|hh_call|_|2|Mm-hm. Yes. Quietly, please.
-3831|hh_overheard|_|0|...Interview? Today?
-3832|hh_overheard|_|1|Was that a recruiter?!
-3833|hh_overheard|_|2|Ooh. Someone's got plans.
-3834|hh_excuse|_|0|Ahmet Bey, I need to step out for an hour. Dentist.
-3835|hh_excuse|_|1|I have a... doctor's appointment. This afternoon. Urgent.
-3836|hh_excuse|_|2|Family thing. Back in an hour, promise.
-3837|hh_excuse|burak|0|Dentist. Again. My teeth are... complicated.
-3838|hh_ok|_|0|Fine. One hour.
-3839|hh_ok|_|1|Go. Don't make it a habit.
-3840|hh_ok|_|2|Hm. Alright.
-3841|hh_no|_|0|AGAIN? No. We have a deadline.
-3842|hh_no|_|1|Absolutely not. Not today.
-3843|hh_no|_|2|Your teeth can wait.
-3844|hh_sneak|_|0|Fine. I'll just... go anyway.
-3845|hh_sneak|_|1|...Then I'll take a very long lunch.
-3846|hh_leaving|_|0|Right. Off to the... dentist.
-3847|hh_leaving|_|1|Back soon!
-3848|hh_leaving|_|2|*grabs jacket, leaves quickly*
-3849|hh_boss_ask|_|0|Long dentist appointment. With a tie?
-3850|hh_boss_ask|_|1|Your teeth look exactly the same.
-3851|hh_boss_ask|_|2|So. How was the... dentist?
-3852|hh_bluff|_|0|Root canal. Very painful. Don't ask.
-3853|hh_bluff|_|1|They were running late!
-3854|hh_bluff|_|2|...It went fine. Thanks.
-3855|hh_boss_suspicious|_|0|Hm. I'm watching you.
-3856|hh_boss_suspicious|_|1|I wasn't born yesterday.
-3857|hh_boss_suspicious|_|2|Mm-hm.
-3858|hh_boss_fine|_|0|Get some rest then.
-3859|hh_boss_fine|_|1|Fine. Back to work.
-3860|hh_boss_fine|_|2|Hm. Take care of those teeth.
-3861|hh_offer|_|0|I'll be honest. I have an offer from another company.
-3862|hh_offer|_|1|They offered me more money. A lot more.
-3863|hh_offer|_|2|I'm thinking of leaving. I wanted you to hear it from me.
-3864|hh_counter|_|0|...What would it take for you to stay?
-3865|hh_counter|_|1|We'll match it. And you get the new server budget.
-3866|hh_counter|_|2|Don't do anything hasty. Let's talk numbers.
-3867|hh_call_bluff|_|0|Then go. Nobody's irreplaceable.
-3868|hh_call_bluff|_|1|Good luck finding a place that tolerates you.
-3869|hh_call_bluff|_|2|Door's that way.
-3870|hh_stay_happy|_|0|...Really? Okay. I'll stay.
-3871|hh_stay_happy|_|1|Deal. But I want it in writing.
-3872|hh_stunned|_|0|...Right.
-3873|hh_stunned|_|1|I... see.
-3874|hh_stunned|_|2|Wow. Okay.
-3875|rs_vent|_|0|I'm doing it. I'm writing my resignation letter. Today.
-3876|rs_vent|_|1|That's it. I'm done. I'm quitting.
-3877|rs_vent|_|2|I've decided. I'm handing in my notice.
-3878|rs_friend_shock|_|0|Wait — WHAT? You can't!
-3879|rs_friend_shock|_|1|Whoa, whoa. Sleep on it!
-3880|rs_friend_shock|_|2|You're serious?!
-3881|rs_print|_|0|"Dear Ahmet Bey, effective immediately..." Print.
-3882|rs_print|_|1|Print. Sign. Done.
-3883|rs_print|_|2|There. My freedom, in Times New Roman.
-3884|rs_printer_broken|_|0|Of course. Even the printer won't let me quit.
-3885|rs_printer_broken|_|1|The printer is broken. The universe is mocking me.
-3886|rs_spot_letter|_|0|Is that... a resignation letter?!
-3887|rs_spot_letter|_|1|Oh no. Oh no no.
-3888|rs_talk|_|0|Don't do this. Not like this. Not angry.
-3889|rs_talk|_|1|What if I talk to Ahmet for you?
-3890|rs_talk|_|2|We need you here. I need you here.
-3891|rs_persuaded|_|0|...Okay. Maybe I'll wait a week.
-3892|rs_persuaded|_|1|Fine. I'll put the letter in a drawer. For now.
-3893|rs_persuaded|_|2|You're right. Thanks.
-3894|rs_firm|_|0|No. My mind's made up.
-3895|rs_firm|_|1|I'm going to Ahmet. Now.
-3896|rs_firm|_|2|I appreciate it. But no.
-3897|rs_hand_in|_|0|Ahmet Bey. This is my resignation.
-3898|rs_hand_in|_|1|I'm resigning. Here's my letter.
-3899|rs_hand_in|_|2|I quit. Effective end of the month.
-3900|rs_boss_beg|_|0|Wait. Sit down. What do you need? Let's talk.
-3901|rs_boss_beg|_|1|No, no, no. We can fix whatever this is.
-3902|rs_boss_beg|_|2|...I didn't realise it was this bad. What can I do?
-3903|rs_boss_tear|_|0|*tears letter in half* Funny. Now get back to work.
-3904|rs_boss_tear|_|1|Nice try. *rip* You're not going anywhere.
-3905|rs_boss_accept|_|0|Fine. I accept.
-3906|rs_boss_accept|_|1|Very well. HR will be in touch.
-3907|rs_boss_accept|_|2|If that's what you want.
-3908|rs_panic|_|0|Wait. You... accept? Just like that?
-3909|rs_panic|_|1|...Oh. Okay. Um.
-3910|rs_panic|_|2|I didn't actually think you'd say yes.
-3911|rs_after|_|0|So... I asked for my letter back this morning.
-3912|rs_after|_|1|Turns out I don't actually want to leave.
-3913|rs_after|_|2|I'm staying. Please don't make it weird.
-3914|rs_after_react|_|0|Welcome back. You never left.
-3915|rs_after_react|_|1|Ha! I knew it.
-3916|rs_after_react|_|2|Good. I'd have missed you.
-3917|mc_panic|_|0|The Yıldız contract! It was RIGHT HERE!
-3918|mc_panic|_|1|Where is the signed contract?! WHERE?!
-3919|mc_panic|_|2|No. No no no. The original contract is gone.
-3920|mc_panic|zeynep|0|The contract. The ORIGINAL. With the wet signatures!
-3921|mc_panic|selin|0|Did someone take the contract from my desk?!
-3922|mc_witness|_|0|What's going on?
-3923|mc_witness|_|1|Uh oh.
-3924|mc_witness|_|2|Did you check the archive?
-3925|mc_search|_|0|Not under A. Not under C. Not under CONTRACT.
-3926|mc_search|_|1|It has to be here somewhere...
-3927|mc_search|_|2|Who organises this archive, a raccoon?
-3928|mc_suspect_think|_|0|Wait... {suspect} was hanging around my desk this morning.
-3929|mc_suspect_think|_|1|{suspect}. It must have been {suspect}.
-3930|mc_suspect_think|_|2|I bet {suspect} borrowed it. Without asking.
-3931|mc_ask|_|0|Did you take a contract from my desk? Blue folder?
-3932|mc_ask|_|1|I'm not accusing you, but... the contract. Have you seen it?
-3933|mc_ask|_|2|Be honest: did you borrow my contract?
-3934|mc_confess_now|_|0|...Oh no. The blue folder? I filed it. In the archive. Under "Y". Sorry!
-3935|mc_confess_now|_|1|Was it blue? I might have filed it. By accident.
-3936|mc_deny_guilty|_|0|Me? No. Never touched it.
-3937|mc_deny_guilty|_|1|Why would I take your contract?
-3938|mc_offended|_|0|Are you accusing me?!
-3939|mc_offended|_|1|Wow. Thanks for the trust.
-3940|mc_offended|_|2|I've never even SEEN your contract.
-3941|mc_realise|_|0|Wait. The blue folder I filed this morning... oh no.
-3942|mc_realise|_|1|Was that... their contract? In the archive? Oh no.
-3943|mc_realise|_|2|...I think I know where the contract is.
-3944|mc_confess|_|0|I'm so sorry. I filed your contract in the archive by mistake.
-3945|mc_confess|_|1|It was me. Archive. Under Y. I'm an idiot.
-3946|mc_confess|_|2|Your contract is safe. I... misfiled it. Sorry!
-3947|mc_forgive|_|0|Oh thank GOD. ...Okay. It happens.
-3948|mc_forgive|_|1|You scared me to death. But thank you for telling me.
-3949|mc_forgive|_|2|Fine. Just... label things.
-3950|mc_furious|_|0|Do you know what that contract is WORTH?!
-3951|mc_furious|_|1|Unbelievable. I accused someone else because of you!
-3952|mc_owe_apology|_|0|...I owe {suspect} an apology.
-3953|mc_owe_apology|_|1|Oh no. I accused {suspect}.
-3954|mc_found_back|_|0|It's... back on my desk? It wasn't here an hour ago!
-3955|mc_found_back|_|1|The contract! It's here! How?!
-3956|mc_still_blame|_|0|{suspect} must have put it back. Guilty conscience.
-3957|mc_still_blame|_|1|Of course it reappears after I asked {suspect}.
-3958|mc_found_quick|_|0|THERE it is. Archive, under Y. Of course.
-3959|mc_found_quick|_|1|Got it! Never do that again.
-3960|mc_found_quick|_|2|Found it. My heart can't take this.
-3961|df_oops|_|0|Wait. Where's the shared folder? Did I just... delete... everything?
-3962|df_oops|_|1|I pressed "empty bin". Why is the SHARED drive empty?!
-3963|df_oops|_|2|Okay. Don't panic. Everything is gone. DON'T PANIC.
-3964|df_oops|ece|0|Oh no. Oh no no no no no. NO.
-3965|df_ask_it|_|0|Burak... hypothetically... if someone deleted the shared drive...
-3966|df_ask_it|_|1|Please don't be mad. I deleted the shared folder.
-3967|df_ask_it|_|2|I need help. Big help. Secret help.
-3968|df_it_quiet|_|0|...Breathe. There's a backup from last night. Nobody needs to know.
-3969|df_it_quiet|_|1|Restoring now. You owe me coffee. For a month.
-3970|df_it_lecture|_|0|You WHAT? ...Fine. Backup. But we are having a talk about the bin.
-3971|df_it_lecture|_|1|Restoring. And I'm disabling your delete key.
-3972|df_it_nobackup|_|0|The backup failed last night. There is no backup. You need to tell Ahmet.
-3973|df_it_nobackup|_|1|...There's no backup. I'm so sorry.
-3974|df_alarm|_|0|My files! The shared folder is EMPTY!
-3975|df_alarm|_|1|Where did EVERYTHING go?!
-3976|df_alarm|_|2|Three months of work. Gone. GONE.
-3977|df_alarm_react|_|0|Mine too!
-3978|df_alarm_react|_|1|What?! The whole drive?
-3979|df_alarm_react|_|2|Burak! BURAAAK!
-3980|df_alarm_react|_|3|This is a disaster.
-3981|df_alarm_suspect|_|0|{suspect} was poking around the drive yesterday...
-3982|df_alarm_suspect|_|1|I bet {suspect} did something.
-3983|df_hunt|_|0|WHO touched the shared drive?! I want a name!
-3984|df_hunt|_|1|Nobody leaves until I know who deleted those files!
-3985|df_hunt|_|2|Somebody here destroyed three months of work.
-3986|df_confess|_|0|...It was me. I'm so sorry. I clicked the wrong thing.
-3987|df_confess|_|1|Me. It was me. I'll fix it. Somehow.
-3988|df_boss_forgive|_|0|...Mistakes happen. Burak, fix it.
-3989|df_boss_forgive|_|1|Thank you for owning up. Burak! Backups!
-3990|df_boss_blame|_|0|{suspect}! It was you, wasn't it?
-3991|df_boss_blame|_|1|I'm looking at you, {suspect}.
-3992|df_protest|_|0|What? I didn't touch anything!
-3993|df_protest|_|1|That's not fair!
-3994|df_restore|_|0|Restored from the off-site backup. You're welcome.
-3995|df_restore|_|1|Everything's back. And the logs say it was deleted from {culprit}'s computer.
-3996|df_restore|_|2|All restored. Mostly.
-3997|df_cover|_|0|Restored. Looks like a sync error. Happens.
-3998|df_cover|_|1|All back. Probably a glitch.
-3999|lp_phone|_|0|...We have to cut something. Someone has to go. ...Yes. By Friday.
-4000|lp_phone|_|1|Too expensive. It's out. ...I don't care how long it's been here.
-4001|lp_gasp|_|0|Wait. Someone has to GO?!
-4002|lp_gasp|_|1|Layoffs?! By FRIDAY?!
-4003|lp_gasp|_|2|Oh no. Oh no no no.
-4004|lp_tell|_|0|Don't freak out. But there are going to be layoffs. By Friday.
-4005|lp_tell|_|1|I heard Ahmet. Someone's getting fired. By Friday!
-4006|lp_tell|_|2|Update your CV. I'm serious.
-4007|lp_tell_react|_|0|WHAT?!
-4008|lp_tell_react|_|1|Who? WHO?
-4009|lp_tell_react|_|2|Oh my god. I have rent!
-4010|lp_doom|_|0|We're doomed.
-4011|lp_doom|_|1|I'm updating my CV. Right now.
-4012|lp_doom|_|2|Is it me? It's me, isn't it.
-4013|lp_doom|_|3|I KNEW I shouldn't have bought that car.
-4014|lp_doom|mert|0|If I go, I'm taking the good stapler.
-4015|lp_doom|burak|0|...Good timing, actually.
-4016|lp_doom|ece|0|But I'm an intern! Can they fire interns?!
+3806|rom_date_reply|_|0|You first.
+3807|rom_date_reply|_|1|...I collect snow globes. Don't laugh.
+3808|rom_date_reply|_|2|This is the best fifteen minutes of my week.
+3809|rom_spotted|_|0|WELL, well, well.
+3810|rom_spotted|_|1|I KNEW IT. I knew it!
+3811|rom_spotted|_|2|Oh this is too good.
+3812|rom_spotted|zeynep|0|And THAT is going in my notebook.
+3813|rom_spotted|mert|0|Get a room! A meeting room!
+3814|rom_gossip_start|_|0|Oh, I have to tell someone. I HAVE to.
+3815|rom_gossip_start|_|1|This cannot stay in my head.
+3816|rom_gossip_tell|_|0|Guess who I caught being VERY cosy in the kitchen? {lover} and {crush}!
+3817|rom_gossip_tell|_|1|{lover} and {crush}. Kitchen. Holding mugs. MEANINGFULLY.
+3818|rom_gossip_react|_|0|No WAY.
+3819|rom_gossip_react|_|1|I knew it! The way they look at each other!
+3820|rom_gossip_react|_|2|Get OUT.
+3821|rom_decide_open|_|0|So... people are talking.
+3822|rom_decide_open|_|1|Everyone knows, don't they.
+3823|rom_decide_open|_|2|We need to talk about... us. And them.
+3824|rom_public|_|0|Let them talk. I'm not hiding you.
+3825|rom_public|_|1|Honestly? I don't care who knows.
+3826|rom_public|_|2|We're adults. Let's just tell them.
+3827|rom_secret|_|0|Let's keep it quiet. Just a bit longer.
+3828|rom_secret|_|1|Not yet. Ahmet would make it weird.
+3829|rom_secret|_|2|Our secret. For now.
+3830|rom_breakup|_|0|Maybe this was a mistake. At work, I mean.
+3831|rom_breakup|_|1|I don't think I can do this with everyone watching.
+3832|rom_breakup|_|2|Let's... go back to being colleagues.
+3833|rom_congrats|_|0|Aww! Finally!
+3834|rom_congrats|_|1|You two! Congrats!
+3835|rom_congrats|_|2|I knew it from DAY ONE.
+3836|hh_call|_|0|Yes, this is {seeker}. ...Today? At two? I'll make it work.
+3837|hh_call|_|1|A second interview? Absolutely. I'll be there.
+3838|hh_call|_|2|Mm-hm. Yes. Quietly, please.
+3839|hh_overheard|_|0|...Interview? Today?
+3840|hh_overheard|_|1|Was that a recruiter?!
+3841|hh_overheard|_|2|Ooh. Someone's got plans.
+3842|hh_excuse|_|0|Ahmet Bey, I need to step out for an hour. Dentist.
+3843|hh_excuse|_|1|I have a... doctor's appointment. This afternoon. Urgent.
+3844|hh_excuse|_|2|Family thing. Back in an hour, promise.
+3845|hh_excuse|burak|0|Dentist. Again. My teeth are... complicated.
+3846|hh_ok|_|0|Fine. One hour.
+3847|hh_ok|_|1|Go. Don't make it a habit.
+3848|hh_ok|_|2|Hm. Alright.
+3849|hh_no|_|0|AGAIN? No. We have a deadline.
+3850|hh_no|_|1|Absolutely not. Not today.
+3851|hh_no|_|2|Your teeth can wait.
+3852|hh_sneak|_|0|Fine. I'll just... go anyway.
+3853|hh_sneak|_|1|...Then I'll take a very long lunch.
+3854|hh_leaving|_|0|Right. Off to the... dentist.
+3855|hh_leaving|_|1|Back soon!
+3856|hh_leaving|_|2|*grabs jacket, leaves quickly*
+3857|hh_boss_ask|_|0|Long dentist appointment. With a tie?
+3858|hh_boss_ask|_|1|Your teeth look exactly the same.
+3859|hh_boss_ask|_|2|So. How was the... dentist?
+3860|hh_bluff|_|0|Root canal. Very painful. Don't ask.
+3861|hh_bluff|_|1|They were running late!
+3862|hh_bluff|_|2|...It went fine. Thanks.
+3863|hh_boss_suspicious|_|0|Hm. I'm watching you.
+3864|hh_boss_suspicious|_|1|I wasn't born yesterday.
+3865|hh_boss_suspicious|_|2|Mm-hm.
+3866|hh_boss_fine|_|0|Get some rest then.
+3867|hh_boss_fine|_|1|Fine. Back to work.
+3868|hh_boss_fine|_|2|Hm. Take care of those teeth.
+3869|hh_offer|_|0|I'll be honest. I have an offer from another company.
+3870|hh_offer|_|1|They offered me more money. A lot more.
+3871|hh_offer|_|2|I'm thinking of leaving. I wanted you to hear it from me.
+3872|hh_counter|_|0|...What would it take for you to stay?
+3873|hh_counter|_|1|We'll match it. And you get the new server budget.
+3874|hh_counter|_|2|Don't do anything hasty. Let's talk numbers.
+3875|hh_call_bluff|_|0|Then go. Nobody's irreplaceable.
+3876|hh_call_bluff|_|1|Good luck finding a place that tolerates you.
+3877|hh_call_bluff|_|2|Door's that way.
+3878|hh_stay_happy|_|0|...Really? Okay. I'll stay.
+3879|hh_stay_happy|_|1|Deal. But I want it in writing.
+3880|hh_stunned|_|0|...Right.
+3881|hh_stunned|_|1|I... see.
+3882|hh_stunned|_|2|Wow. Okay.
+3883|rs_vent|_|0|I'm doing it. I'm writing my resignation letter. Today.
+3884|rs_vent|_|1|That's it. I'm done. I'm quitting.
+3885|rs_vent|_|2|I've decided. I'm handing in my notice.
+3886|rs_friend_shock|_|0|Wait — WHAT? You can't!
+3887|rs_friend_shock|_|1|Whoa, whoa. Sleep on it!
+3888|rs_friend_shock|_|2|You're serious?!
+3889|rs_print|_|0|"Dear Ahmet Bey, effective immediately..." Print.
+3890|rs_print|_|1|Print. Sign. Done.
+3891|rs_print|_|2|There. My freedom, in Times New Roman.
+3892|rs_printer_broken|_|0|Of course. Even the printer won't let me quit.
+3893|rs_printer_broken|_|1|The printer is broken. The universe is mocking me.
+3894|rs_spot_letter|_|0|Is that... a resignation letter?!
+3895|rs_spot_letter|_|1|Oh no. Oh no no.
+3896|rs_talk|_|0|Don't do this. Not like this. Not angry.
+3897|rs_talk|_|1|What if I talk to Ahmet for you?
+3898|rs_talk|_|2|We need you here. I need you here.
+3899|rs_persuaded|_|0|...Okay. Maybe I'll wait a week.
+3900|rs_persuaded|_|1|Fine. I'll put the letter in a drawer. For now.
+3901|rs_persuaded|_|2|You're right. Thanks.
+3902|rs_firm|_|0|No. My mind's made up.
+3903|rs_firm|_|1|I'm going to Ahmet. Now.
+3904|rs_firm|_|2|I appreciate it. But no.
+3905|rs_hand_in|_|0|Ahmet Bey. This is my resignation.
+3906|rs_hand_in|_|1|I'm resigning. Here's my letter.
+3907|rs_hand_in|_|2|I quit. Effective end of the month.
+3908|rs_boss_beg|_|0|Wait. Sit down. What do you need? Let's talk.
+3909|rs_boss_beg|_|1|No, no, no. We can fix whatever this is.
+3910|rs_boss_beg|_|2|...I didn't realise it was this bad. What can I do?
+3911|rs_boss_tear|_|0|*tears letter in half* Funny. Now get back to work.
+3912|rs_boss_tear|_|1|Nice try. *rip* You're not going anywhere.
+3913|rs_boss_accept|_|0|Fine. I accept.
+3914|rs_boss_accept|_|1|Very well. HR will be in touch.
+3915|rs_boss_accept|_|2|If that's what you want.
+3916|rs_panic|_|0|Wait. You... accept? Just like that?
+3917|rs_panic|_|1|...Oh. Okay. Um.
+3918|rs_panic|_|2|I didn't actually think you'd say yes.
+3919|rs_after|_|0|So... I asked for my letter back this morning.
+3920|rs_after|_|1|Turns out I don't actually want to leave.
+3921|rs_after|_|2|I'm staying. Please don't make it weird.
+3922|rs_after_react|_|0|Welcome back. You never left.
+3923|rs_after_react|_|1|Ha! I knew it.
+3924|rs_after_react|_|2|Good. I'd have missed you.
+3925|mc_panic|_|0|The Yıldız contract! It was RIGHT HERE!
+3926|mc_panic|_|1|Where is the signed contract?! WHERE?!
+3927|mc_panic|_|2|No. No no no. The original contract is gone.
+3928|mc_panic|zeynep|0|The contract. The ORIGINAL. With the wet signatures!
+3929|mc_panic|selin|0|Did someone take the contract from my desk?!
+3930|mc_witness|_|0|What's going on?
+3931|mc_witness|_|1|Uh oh.
+3932|mc_witness|_|2|Did you check the archive?
+3933|mc_search|_|0|Not under A. Not under C. Not under CONTRACT.
+3934|mc_search|_|1|It has to be here somewhere...
+3935|mc_search|_|2|Who organises this archive, a raccoon?
+3936|mc_suspect_think|_|0|Wait... {suspect} was hanging around my desk this morning.
+3937|mc_suspect_think|_|1|{suspect}. It must have been {suspect}.
+3938|mc_suspect_think|_|2|I bet {suspect} borrowed it. Without asking.
+3939|mc_ask|_|0|Did you take a contract from my desk? Blue folder?
+3940|mc_ask|_|1|I'm not accusing you, but... the contract. Have you seen it?
+3941|mc_ask|_|2|Be honest: did you borrow my contract?
+3942|mc_confess_now|_|0|...Oh no. The blue folder? I filed it. In the archive. Under "Y". Sorry!
+3943|mc_confess_now|_|1|Was it blue? I might have filed it. By accident.
+3944|mc_deny_guilty|_|0|Me? No. Never touched it.
+3945|mc_deny_guilty|_|1|Why would I take your contract?
+3946|mc_offended|_|0|Are you accusing me?!
+3947|mc_offended|_|1|Wow. Thanks for the trust.
+3948|mc_offended|_|2|I've never even SEEN your contract.
+3949|mc_realise|_|0|Wait. The blue folder I filed this morning... oh no.
+3950|mc_realise|_|1|Was that... their contract? In the archive? Oh no.
+3951|mc_realise|_|2|...I think I know where the contract is.
+3952|mc_confess|_|0|I'm so sorry. I filed your contract in the archive by mistake.
+3953|mc_confess|_|1|It was me. Archive. Under Y. I'm an idiot.
+3954|mc_confess|_|2|Your contract is safe. I... misfiled it. Sorry!
+3955|mc_forgive|_|0|Oh thank GOD. ...Okay. It happens.
+3956|mc_forgive|_|1|You scared me to death. But thank you for telling me.
+3957|mc_forgive|_|2|Fine. Just... label things.
+3958|mc_furious|_|0|Do you know what that contract is WORTH?!
+3959|mc_furious|_|1|Unbelievable. I accused someone else because of you!
+3960|mc_owe_apology|_|0|...I owe {suspect} an apology.
+3961|mc_owe_apology|_|1|Oh no. I accused {suspect}.
+3962|mc_found_back|_|0|It's... back on my desk? It wasn't here an hour ago!
+3963|mc_found_back|_|1|The contract! It's here! How?!
+3964|mc_still_blame|_|0|{suspect} must have put it back. Guilty conscience.
+3965|mc_still_blame|_|1|Of course it reappears after I asked {suspect}.
+3966|mc_found_quick|_|0|THERE it is. Archive, under Y. Of course.
+3967|mc_found_quick|_|1|Got it! Never do that again.
+3968|mc_found_quick|_|2|Found it. My heart can't take this.
+3969|df_oops|_|0|Wait. Where's the shared folder? Did I just... delete... everything?
+3970|df_oops|_|1|I pressed "empty bin". Why is the SHARED drive empty?!
+3971|df_oops|_|2|Okay. Don't panic. Everything is gone. DON'T PANIC.
+3972|df_oops|ece|0|Oh no. Oh no no no no no. NO.
+3973|df_ask_it|_|0|Burak... hypothetically... if someone deleted the shared drive...
+3974|df_ask_it|_|1|Please don't be mad. I deleted the shared folder.
+3975|df_ask_it|_|2|I need help. Big help. Secret help.
+3976|df_it_quiet|_|0|...Breathe. There's a backup from last night. Nobody needs to know.
+3977|df_it_quiet|_|1|Restoring now. You owe me coffee. For a month.
+3978|df_it_lecture|_|0|You WHAT? ...Fine. Backup. But we are having a talk about the bin.
+3979|df_it_lecture|_|1|Restoring. And I'm disabling your delete key.
+3980|df_it_nobackup|_|0|The backup failed last night. There is no backup. You need to tell Ahmet.
+3981|df_it_nobackup|_|1|...There's no backup. I'm so sorry.
+3982|df_alarm|_|0|My files! The shared folder is EMPTY!
+3983|df_alarm|_|1|Where did EVERYTHING go?!
+3984|df_alarm|_|2|Three months of work. Gone. GONE.
+3985|df_alarm_react|_|0|Mine too!
+3986|df_alarm_react|_|1|What?! The whole drive?
+3987|df_alarm_react|_|2|Burak! BURAAAK!
+3988|df_alarm_react|_|3|This is a disaster.
+3989|df_alarm_suspect|_|0|{suspect} was poking around the drive yesterday...
+3990|df_alarm_suspect|_|1|I bet {suspect} did something.
+3991|df_hunt|_|0|WHO touched the shared drive?! I want a name!
+3992|df_hunt|_|1|Nobody leaves until I know who deleted those files!
+3993|df_hunt|_|2|Somebody here destroyed three months of work.
+3994|df_confess|_|0|...It was me. I'm so sorry. I clicked the wrong thing.
+3995|df_confess|_|1|Me. It was me. I'll fix it. Somehow.
+3996|df_boss_forgive|_|0|...Mistakes happen. Burak, fix it.
+3997|df_boss_forgive|_|1|Thank you for owning up. Burak! Backups!
+3998|df_boss_blame|_|0|{suspect}! It was you, wasn't it?
+3999|df_boss_blame|_|1|I'm looking at you, {suspect}.
+4000|df_protest|_|0|What? I didn't touch anything!
+4001|df_protest|_|1|That's not fair!
+4002|df_restore|_|0|Restored from the off-site backup. You're welcome.
+4003|df_restore|_|1|Everything's back. And the logs say it was deleted from {culprit}'s computer.
+4004|df_restore|_|2|All restored. Mostly.
+4005|df_cover|_|0|Restored. Looks like a sync error. Happens.
+4006|df_cover|_|1|All back. Probably a glitch.
+4007|lp_phone|_|0|...We have to cut something. Someone has to go. ...Yes. By Friday.
+4008|lp_phone|_|1|Too expensive. It's out. ...I don't care how long it's been here.
+4009|lp_gasp|_|0|Wait. Someone has to GO?!
+4010|lp_gasp|_|1|Layoffs?! By FRIDAY?!
+4011|lp_gasp|_|2|Oh no. Oh no no no.
+4012|lp_tell|_|0|Don't freak out. But there are going to be layoffs. By Friday.
+4013|lp_tell|_|1|I heard Ahmet. Someone's getting fired. By Friday!
+4014|lp_tell|_|2|Update your CV. I'm serious.
+4015|lp_tell_react|_|0|WHAT?!
+4016|lp_tell_react|_|1|Who? WHO?
+4017|lp_tell_react|_|2|Oh my god. I have rent!
+4018|lp_doom|_|0|We're doomed.
+4019|lp_doom|_|1|I'm updating my CV. Right now.
+4020|lp_doom|_|2|Is it me? It's me, isn't it.
+4021|lp_doom|_|3|I KNEW I shouldn't have bought that car.
+4022|lp_doom|mert|0|If I go, I'm taking the good stapler.
+4023|lp_doom|burak|0|...Good timing, actually.
+4024|lp_doom|ece|0|But I'm an intern! Can they fire interns?!

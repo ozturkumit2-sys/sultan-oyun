@@ -1,102 +1,102 @@
-1680|log.j04|The OLD version of {owner}'s figures went to the client — with Ahmet in CC. The client is already dialling.
-1681|log.j05|{ear} put Ahmet's leaked memo together with today's agenda and concluded: layoffs are coming. Today.
-1682|log.j06|With Ahmet off to 'golf' and the board naming {usurper} as chair, {usurper} has declared themselves acting manager.
-1683|log.j07|The lights flickered in time with a virus siren. {believer} has seen enough: the office is haunted.
-1684|log.j08|{leader} saw the leaked payroll right next to 'Raise budget this year: 0'. {leader} is organising a revolt.
-1685|log.j09|Disco lights, music and a mystery snack tray: {host} has decided this is now an office party.
-1686|log.j10|Ahmet found a transfer request and a reference letter for {target} on his desk — together.
-1687|log.j11|Someone doodled 'DOUBLE DATE — lunch' on the couple photo of {a} and {b}. {c} and {d} are apparently invited too.
-1688|log.j12|The ghost made {crush} call {owner} back. {owner}'s phone is still on speaker.
-1689|log.j13|The board now says {presenter} presents to the client — on the projector that doesn't work.
-1690|log.j14|The ghost jammed the fire exit as well. With the alarm ringing, the whole office is trapped at reception.
-1691|log.j15|A second note appeared on the empty fridge: 'I threw it all out. Label your food. — {signer}'. {victim} saw it first.
-1692|log.j16|{organiser} saw {owner}'s 'I quit' auto-reply and the resignation letter. {organiser} is sure {owner} is leaving.
-1693|log.j17|The ghost copied the confidential document into {leaker}'s shared folder. Anyone can see it — and whose folder it's in.
-1694|log.j18|{rebel} came out of the surprise review convinced Ahmet rigged it. Open war with the boss has begun.
-1695|log.j19|{enemy} noticed the anonymous complaint is in the same handwriting as {gossip}'s rumours. A rumour war is coming.
-1696|log.j20|After a kind note and an anonymous compliment, {owner} is convinced they have a secret admirer. (They do: {admirer}.)
-1697|log.jam_aloud|A love letter from {writer} to {crush} got stuck in the copier. {actor} read it out loud.
-1698|log.jam_quiet|A love letter from {writer} to {crush} got stuck in the copier. {actor} quietly gave it back.
-1699|log.jealous_friend|{spotter} saw their best friend {actor} laughing with {target} and felt left out.
-1700|log.jealousy|{actor} is jealous of {target}.
-1701|log.jitter_fight|Two over-caffeinated colleagues, {actor} and {target}, snapped at each other over nothing.
-1702|log.job_hunt_clash|Ahmet and Burak clashed over the job hunt.
-1703|log.jobtab|{actor} walked past {owner}'s desk and saw job listings open on the screen.
-1704|log.karaoke_deny|Zeynep found a karaoke machine on {target}'s expense claim. {target} has never seen it. Zeynep isn't convinced.
-1705|log.karaoke_own|Zeynep found a karaoke machine on {target}'s expense claim. {target} defended it as 'team building'.
-1706|log.keyboard_spill|{actor} spilled tea all over their keyboard.
-1707|log.kick_me|{actor} stuck a "KICK ME" note on {target}'s back. Half the office has seen it.
-1708|log.kick_me_found|{target} finally found the note on their back.
-1709|log.kindnote_me|{best} found a note {owner} had written: '{best} is the only reason I come to work.' {best} was deeply touched.
-1710|log.kindnote_other|{actor} read a sweet note {owner} wrote about {best}. Now the office is wondering.
-1711|log.kn_flop|Office karaoke: {host} cracked on the high note in front of everyone. It will be remembered.
-1712|log.kn_invite|{host} announced karaoke in the kitchen after work.
-1713|log.kn_rehearse|{shy} was caught rehearsing for karaoke in the archive. Turns out {shy} can really sing.
-1714|log.kn_star|Office karaoke: quiet {shy} brought the house down. Standing ovation in the kitchen.
-1715|log.label_dumb|{actor} noticed {owner}'s folders are now labelled 'MY DUMB IDEAS'.
-1716|log.label_love|{actor} spotted a folder on {owner}'s desk labelled 'LOVE LETTERS'.
-1717|log.label_plans|{actor} spotted a folder on {owner}'s desk labelled 'SECRET PLANS'. Suspicious.
-1718|log.lastcup_keep|{actor} took the last cup of coffee right in front of {target}. Coldest move of the day.
-1719|log.lastcup_share|{actor} and {target} both wanted the last cup of coffee. They split it. Friendship +1.
-1720|log.lastpage|Ahmet read {actor}'s report — the last page, the conclusion, was missing. {actor} looked unprepared.
-1721|log.late|{actor} slipped into the meeting late.
-1722|log.late_board_confusion|{actor} was late because the board showed another time.
-1723|log.late_morning|{actor} came in late and Ahmet noticed.
-1724|log.late_scolded|{actor} was late to the meeting and got scolded.
-1725|log.leader|The sales leaderboard now shows {target} in first place. Mert is fuming — those were his deals.
-1726|log.lights_fixed|{actor} got the lights back on.
-1727|log.lights_ghost_on|The lights came back on by themselves. Everyone is creeped out.
-1728|log.lights_out|BLACKOUT! The whole office went dark.
-1729|log.lk_deny|Ahmet confronted {leaker} about the leak. {leaker} swore they'd never seen the file.
-1730|log.lk_found|{finder} found the confidential document sitting in {leaker}'s shared folder. Word reached Ahmet within minutes.
-1731|log.lk_ghost|{it} checked the server logs: nobody moved the confidential file. {leaker} is cleared — and the office is a little more spooked.
-1732|log.lk_grudging|Ahmet grudgingly admitted {leaker} was innocent. No actual apology.
-1733|log.lk_panic|Ahmet confronted {leaker} about the leak. {leaker} panicked — which looked very guilty.
-1734|log.lk_sorry|Ahmet apologised to {leaker} for the leak accusation. Rare. Witnessed.
-1735|log.lk_unclear|{it} checked the server logs. Inconclusive. {leaker} stays under a cloud of suspicion.
-1736|log.lm_bait|{detective} left an extra-spicy 'bait lunch' in the fridge to trap the thief.
-1737|log.lm_bite|{culprit} ate {detective}'s bait lunch and had to run for water. The lunch thief is unmasked.
-1738|log.lm_caught|{detective} staked out the fridge and caught {culprit} red-handed.
-1739|log.lm_deny|{victim} confronted {culprit} about the stolen lunches. {culprit} denied everything.
-1740|log.lm_hire|{victim} hired {detective} to catch the lunch thief.
-1741|log.lm_no_bite|Nobody touched {detective}'s bait lunch. The thief must be onto them. Case unsolved.
-1742|log.lm_nobody|{detective} staked out the fridge all lunch. The thief never showed.
-1743|log.lm_outrage|{victim} has had enough of lunch thefts and is launching an investigation.
-1744|log.lm_sorry|{victim} confronted the lunch thief, {culprit}. {culprit} confessed and is buying lunch for a week.
-1745|log.lockpc|{actor} got locked out of their own computer. Work: zero.
-1746|log.lockpc_reset|{actor} reset their own password, grumbling the whole time.
-1747|log.logs_found|Burak found something interesting in the server logs about Deniz.
-1748|log.logs_told|Burak showed {target} what he found in the server logs about Deniz.
-1749|log.lovenote|{owner}'s love note for {crush} landed on {target}'s desk. {target} thinks {owner} is in love with them.
-1750|log.lp2_collect|{organiser} collected ten lira from everyone for an office lottery ticket.
-1751|log.lp2_rumor|A rumour spread that the office lottery ticket WON. {dreamer} is already acting like a millionaire.
-1752|log.lp2_truth|{organiser} revealed the real lottery win: forty lira. {dreamer} had already told Ahmet exactly what they think of him.
-1753|log.lp_confront|{brave} asked Ahmet point-blank about the layoffs. Ahmet had no idea what they were talking about.
-1754|log.lp_debunked|Ahmet announced there are no layoffs — he'd only cancelled the coffee subscription. Everyone knows who started the panic: {ear}.
-1755|log.lp_overheard|{ear} overheard Ahmet on the phone: "someone has to go by Friday." (He was talking about the coffee subscription.)
-1756|log.lp_panic|The layoff rumour is everywhere. People are whispering, updating CVs and eyeing each other. {brave} is going to ask Ahmet directly.
-1757|log.lp_spread|{ear} told {listener} in the kitchen: layoffs are coming. The fear is spreading.
-1758|log.lt2_mutter|Ahmet found a transfer request and a glowing reference letter for {target} — and decided to test {target}'s loyalty.
-1759|log.lt2_praise|Ahmet publicly praised {target}'s 'loyalty'. {target} had no idea they'd been tested.
-1760|log.lt2_refuse|Ahmet offered {target} a far-away transfer as a loyalty test. {target} refused on the spot. Ahmet looked relieved.
-1761|log.lt2_staying|{friend} begged {target} not to transfer. {target} promised to stay.
-1762|log.lt2_tempted|Ahmet offered {target} a far-away transfer as a test. {target} said they'd think about it. Ahmet did not like that.
-1763|log.lt2_thinking|{friend} asked {target} if they're leaving. {target} didn't say no. A job search has quietly begun.
-1764|log.lt_backoff|{rival} told {lover} to back off from {crush}. {lover} stepped aside.
-1765|log.lt_gesture|{lover} made a grand gesture for {crush} — with {rival} watching from across the room.
-1766|log.lt_lover_wins|{crush} chose {lover}. {rival} took it badly.
-1767|log.lt_never|{rival} told {lover} to back off from {crush}. {lover} refused. It's on.
-1768|log.lt_nobody|{crush} told both {lover} and {rival} to grow up. Nobody wins.
-1769|log.lt_notice|{rival} noticed {lover} flirting with {crush}. {rival} has feelings for {crush} too.
-1770|log.lt_rival_wins|{crush} chose {rival} over {lover}. The triangle is now a couple and one very sad person.
-1771|log.lunch_gone|{target} discovered their lunch was eaten — and suspects {suspect}. (It was {actor}.)
-1772|log.lunch_gone_right|{target} discovered their lunch was eaten — and correctly suspects {actor}.
-1773|log.lunch_together|{actor} and {target} are having lunch together.
-1774|log.lunchinv_awk|{owner}'s lunch invitation went to {target} by mistake. A long, silent lunch followed.
-1775|log.lunchinv_click|{owner}'s lunch invitation went to {target} by mistake. They had lunch anyway — and really clicked.
-1776|log.lunchmove_found|{actor} found their 'stolen' lunch on a different fridge shelf. Someone was accused for nothing.
-1777|log.lunchseat_fight|Lunch name cards seated {a} beside {b}. It ended with raised voices.
-1778|log.lunchseat_peace|Lunch name cards seated {a} beside {b}. Somehow, over sandwiches, they made peace.
-1779|log.margin_angry|Ahmet found 'Ahmet is wrong about everything' in the margin of {actor}'s report. He did not take it well.
-1780|log.margin_respect|Ahmet found 'Ahmet is wrong about everything' in the margin of {actor}'s report. Oddly, he respected the honesty.
-1781|log.mc_advice|{friend} told {breaker} to come clean about Ahmet's mug.
+1686|log.j03_quit|{actor} was confronted about the application and the report — and quit on the spot. A resignation crisis has begun.
+1687|log.j03_read|Ahmet found {applicant}'s job application stapled to a terrible performance report. He summoned {applicant} immediately.
+1688|log.j04|The OLD version of {owner}'s figures went to the client — with Ahmet in CC. The client is already dialling.
+1689|log.j05|{ear} put Ahmet's leaked memo together with today's agenda and concluded: layoffs are coming. Today.
+1690|log.j06|With Ahmet off to 'golf' and the board naming {usurper} as chair, {usurper} has declared themselves acting manager.
+1691|log.j07|The lights flickered in time with a virus siren. {believer} has seen enough: the office is haunted.
+1692|log.j08|{leader} saw the leaked payroll right next to 'Raise budget this year: 0'. {leader} is organising a revolt.
+1693|log.j09|Disco lights, music and a mystery snack tray: {host} has decided this is now an office party.
+1694|log.j10|Ahmet found a transfer request and a reference letter for {target} on his desk — together.
+1695|log.j11|Someone doodled 'DOUBLE DATE — lunch' on the couple photo of {a} and {b}. {c} and {d} are apparently invited too.
+1696|log.j12|The ghost made {crush} call {owner} back. {owner}'s phone is still on speaker.
+1697|log.j13|The board now says {presenter} presents to the client — on the projector that doesn't work.
+1698|log.j14|The ghost jammed the fire exit as well. With the alarm ringing, the whole office is trapped at reception.
+1699|log.j15|A second note appeared on the empty fridge: 'I threw it all out. Label your food. — {signer}'. {victim} saw it first.
+1700|log.j16|{organiser} saw {owner}'s 'I quit' auto-reply and the resignation letter. {organiser} is sure {owner} is leaving.
+1701|log.j17|The ghost copied the confidential document into {leaker}'s shared folder. Anyone can see it — and whose folder it's in.
+1702|log.j18|{rebel} came out of the surprise review convinced Ahmet rigged it. Open war with the boss has begun.
+1703|log.j19|{enemy} noticed the anonymous complaint is in the same handwriting as {gossip}'s rumours. A rumour war is coming.
+1704|log.j20|After a kind note and an anonymous compliment, {owner} is convinced they have a secret admirer. (They do: {admirer}.)
+1705|log.jam_aloud|A love letter from {writer} to {crush} got stuck in the copier. {actor} read it out loud.
+1706|log.jam_quiet|A love letter from {writer} to {crush} got stuck in the copier. {actor} quietly gave it back.
+1707|log.jealous_friend|{spotter} saw their best friend {actor} laughing with {target} and felt left out.
+1708|log.jealousy|{actor} is jealous of {target}.
+1709|log.jitter_fight|Two over-caffeinated colleagues, {actor} and {target}, snapped at each other over nothing.
+1710|log.job_hunt_clash|Ahmet and Burak clashed over the job hunt.
+1711|log.jobtab|{actor} walked past {owner}'s desk and saw job listings open on the screen.
+1712|log.karaoke_deny|Zeynep found a karaoke machine on {target}'s expense claim. {target} has never seen it. Zeynep isn't convinced.
+1713|log.karaoke_own|Zeynep found a karaoke machine on {target}'s expense claim. {target} defended it as 'team building'.
+1714|log.keyboard_spill|{actor} spilled tea all over their keyboard.
+1715|log.kick_me|{actor} stuck a "KICK ME" note on {target}'s back. Half the office has seen it.
+1716|log.kick_me_found|{target} finally found the note on their back.
+1717|log.kindnote_me|{best} found a note {owner} had written: '{best} is the only reason I come to work.' {best} was deeply touched.
+1718|log.kindnote_other|{actor} read a sweet note {owner} wrote about {best}. Now the office is wondering.
+1719|log.kn_flop|Office karaoke: {host} cracked on the high note in front of everyone. It will be remembered.
+1720|log.kn_invite|{host} announced karaoke in the kitchen after work.
+1721|log.kn_rehearse|{shy} was caught rehearsing for karaoke in the archive. Turns out {shy} can really sing.
+1722|log.kn_star|Office karaoke: quiet {shy} brought the house down. Standing ovation in the kitchen.
+1723|log.label_dumb|{actor} noticed {owner}'s folders are now labelled 'MY DUMB IDEAS'.
+1724|log.label_love|{actor} spotted a folder on {owner}'s desk labelled 'LOVE LETTERS'.
+1725|log.label_plans|{actor} spotted a folder on {owner}'s desk labelled 'SECRET PLANS'. Suspicious.
+1726|log.lastcup_keep|{actor} took the last cup of coffee right in front of {target}. Coldest move of the day.
+1727|log.lastcup_share|{actor} and {target} both wanted the last cup of coffee. They split it. Friendship +1.
+1728|log.lastpage|Ahmet read {actor}'s report — the last page, the conclusion, was missing. {actor} looked unprepared.
+1729|log.late|{actor} slipped into the meeting late.
+1730|log.late_board_confusion|{actor} was late because the board showed another time.
+1731|log.late_morning|{actor} came in late and Ahmet noticed.
+1732|log.late_scolded|{actor} was late to the meeting and got scolded.
+1733|log.leader|The sales leaderboard now shows {target} in first place. Mert is fuming — those were his deals.
+1734|log.lights_fixed|{actor} got the lights back on.
+1735|log.lights_ghost_on|The lights came back on by themselves. Everyone is creeped out.
+1736|log.lights_out|BLACKOUT! The whole office went dark.
+1737|log.lk_deny|Ahmet confronted {leaker} about the leak. {leaker} swore they'd never seen the file.
+1738|log.lk_found|{finder} found the confidential document sitting in {leaker}'s shared folder. Word reached Ahmet within minutes.
+1739|log.lk_ghost|{it} checked the server logs: nobody moved the confidential file. {leaker} is cleared — and the office is a little more spooked.
+1740|log.lk_grudging|Ahmet grudgingly admitted {leaker} was innocent. No actual apology.
+1741|log.lk_panic|Ahmet confronted {leaker} about the leak. {leaker} panicked — which looked very guilty.
+1742|log.lk_sorry|Ahmet apologised to {leaker} for the leak accusation. Rare. Witnessed.
+1743|log.lk_unclear|{it} checked the server logs. Inconclusive. {leaker} stays under a cloud of suspicion.
+1744|log.lm_bait|{detective} left an extra-spicy 'bait lunch' in the fridge to trap the thief.
+1745|log.lm_bite|{culprit} ate {detective}'s bait lunch and had to run for water. The lunch thief is unmasked.
+1746|log.lm_caught|{detective} staked out the fridge and caught {culprit} red-handed.
+1747|log.lm_deny|{victim} confronted {culprit} about the stolen lunches. {culprit} denied everything.
+1748|log.lm_hire|{victim} hired {detective} to catch the lunch thief.
+1749|log.lm_no_bite|Nobody touched {detective}'s bait lunch. The thief must be onto them. Case unsolved.
+1750|log.lm_nobody|{detective} staked out the fridge all lunch. The thief never showed.
+1751|log.lm_outrage|{victim} has had enough of lunch thefts and is launching an investigation.
+1752|log.lm_sorry|{victim} confronted the lunch thief, {culprit}. {culprit} confessed and is buying lunch for a week.
+1753|log.lockpc|{actor} got locked out of their own computer. Work: zero.
+1754|log.lockpc_reset|{actor} reset their own password, grumbling the whole time.
+1755|log.logs_found|Burak found something interesting in the server logs about Deniz.
+1756|log.logs_told|Burak showed {target} what he found in the server logs about Deniz.
+1757|log.lovenote|{owner}'s love note for {crush} landed on {target}'s desk. {target} thinks {owner} is in love with them.
+1758|log.lp2_collect|{organiser} collected ten lira from everyone for an office lottery ticket.
+1759|log.lp2_rumor|A rumour spread that the office lottery ticket WON. {dreamer} is already acting like a millionaire.
+1760|log.lp2_truth|{organiser} revealed the real lottery win: forty lira. {dreamer} had already told Ahmet exactly what they think of him.
+1761|log.lp_confront|{brave} asked Ahmet point-blank about the layoffs. Ahmet had no idea what they were talking about.
+1762|log.lp_debunked|Ahmet announced there are no layoffs — he'd only cancelled the coffee subscription. Everyone knows who started the panic: {ear}.
+1763|log.lp_overheard|{ear} overheard Ahmet on the phone: "someone has to go by Friday." (He was talking about the coffee subscription.)
+1764|log.lp_panic|The layoff rumour is everywhere. People are whispering, updating CVs and eyeing each other. {brave} is going to ask Ahmet directly.
+1765|log.lp_spread|{ear} told {listener} in the kitchen: layoffs are coming. The fear is spreading.
+1766|log.lt2_mutter|Ahmet found a transfer request and a glowing reference letter for {target} — and decided to test {target}'s loyalty.
+1767|log.lt2_praise|Ahmet publicly praised {target}'s 'loyalty'. {target} had no idea they'd been tested.
+1768|log.lt2_refuse|Ahmet offered {target} a far-away transfer as a loyalty test. {target} refused on the spot. Ahmet looked relieved.
+1769|log.lt2_staying|{friend} begged {target} not to transfer. {target} promised to stay.
+1770|log.lt2_tempted|Ahmet offered {target} a far-away transfer as a test. {target} said they'd think about it. Ahmet did not like that.
+1771|log.lt2_thinking|{friend} asked {target} if they're leaving. {target} didn't say no. A job search has quietly begun.
+1772|log.lt_backoff|{rival} told {lover} to back off from {crush}. {lover} stepped aside.
+1773|log.lt_gesture|{lover} made a grand gesture for {crush} — with {rival} watching from across the room.
+1774|log.lt_lover_wins|{crush} chose {lover}. {rival} took it badly.
+1775|log.lt_never|{rival} told {lover} to back off from {crush}. {lover} refused. It's on.
+1776|log.lt_nobody|{crush} told both {lover} and {rival} to grow up. Nobody wins.
+1777|log.lt_notice|{rival} noticed {lover} flirting with {crush}. {rival} has feelings for {crush} too.
+1778|log.lt_rival_wins|{crush} chose {rival} over {lover}. The triangle is now a couple and one very sad person.
+1779|log.lunch_gone|{target} discovered their lunch was eaten — and suspects {suspect}. (It was {actor}.)
+1780|log.lunch_gone_right|{target} discovered their lunch was eaten — and correctly suspects {actor}.
+1781|log.lunch_together|{actor} and {target} are having lunch together.
+1782|log.lunchinv_awk|{owner}'s lunch invitation went to {target} by mistake. A long, silent lunch followed.
+1783|log.lunchinv_click|{owner}'s lunch invitation went to {target} by mistake. They had lunch anyway — and really clicked.
+1784|log.lunchmove_found|{actor} found their 'stolen' lunch on a different fridge shelf. Someone was accused for nothing.
+1785|log.lunchseat_fight|Lunch name cards seated {a} beside {b}. It ended with raised voices.
+1786|log.lunchseat_peace|Lunch name cards seated {a} beside {b}. Somehow, over sandwiches, they made peace.
+1787|log.margin_angry|Ahmet found 'Ahmet is wrong about everything' in the margin of {actor}'s report. He did not take it well.

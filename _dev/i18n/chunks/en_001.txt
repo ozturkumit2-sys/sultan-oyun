@@ -140,168 +140,175 @@
 527|rumor.stole_lunch|{a} has been eating other people's lunch from the fridge.
 528|rumor.threat|{a} threatened {b}.
 529|rumor.took_blame|{a} took the blame to keep the peace with {b}.
-530|char.ahmet.bio1|Authoritarian
-531|char.ahmet.bio2|Controlling
-532|char.ahmet.bio3|Loves discipline
-533|char.ahmet.bio4|Trusts Selin
-534|char.ahmet.bio5|Thinks Deniz is too ambitious
-535|char.ahmet.role|Office Manager
-536|char.burak.bio1|Quiet
-537|char.burak.bio2|Logical
-538|char.burak.bio3|Tech genius
-539|char.burak.bio4|Unhappy with his job
-540|char.burak.bio5|Secretly job hunting
-541|char.burak.bio6|Snaps when wrongly blamed
-542|char.burak.role|IT Specialist
-543|char.ceren.bio1|Smart
-544|char.ceren.bio2|Calm
-545|char.ceren.bio3|Reads people well
-546|char.ceren.bio4|Knows Mert likes her
-547|char.ceren.bio5|Knows the story behind many decisions
-548|char.ceren.role|Executive Assistant
-549|char.deniz.bio1|Competitive
-550|char.deniz.bio2|Cunning
-551|char.deniz.bio3|Self-confident
-552|char.deniz.bio4|Wants the promotion
-553|char.deniz.bio5|Sees Selin as a rival
-554|char.deniz.bio6|Takes credit for others' work
-555|char.deniz.role|Specialist
-556|char.ece.bio1|Energetic
-557|char.ece.bio2|Curious
-558|char.ece.bio3|A bit clumsy
-559|char.ece.bio4|Wants everyone to like her
-560|char.ece.bio5|Hides that she is the manager's niece
-561|char.ece.role|Intern
-562|char.mert.bio1|Social
-563|char.mert.bio2|Funny
-564|char.mert.bio3|Laid-back
-565|char.mert.bio4|Has a crush on Ceren
-566|char.mert.bio5|Friends with Burak
-567|char.mert.bio6|Leaves things to the last minute
-568|char.mert.role|Sales Specialist
-569|char.selin.bio1|Hard-working
-570|char.selin.bio2|Ambitious
-571|char.selin.bio3|Strong sense of justice
-572|char.selin.bio4|Waiting for a promotion
-573|char.selin.bio5|Rivals Deniz
-574|char.selin.bio6|Slow to forgive
-575|char.selin.role|Senior Specialist
-576|char.zeynep.bio1|Curious
-577|char.zeynep.bio2|Gossipy
-578|char.zeynep.bio3|Sharp observer
-579|char.zeynep.bio4|Knows many secrets
-580|char.zeynep.bio5|Uses information for her own ends
-581|char.zeynep.role|Accountant
-582|wall.agenda|AGENDA: {text}
-583|wall.chair|CHAIR: {name}
-584|wall.done|DONE!
-585|wall.fire|FIRE
-586|wall.hello|HELLO
-587|wall.meeting|MEETING
-588|wall.now|NOW!
-589|wall.out|OUT
-590|wall.power|POWER
-591|wall.printer1|PLEASE DON'T
-592|wall.printer2|KICK PRINTER
-593|wall.reception|RECEPTION
-594|wall.teamwork|TEAMWORK
-595|board.agenda.layoffs|LAYOFFS
-596|board.agenda.lunch|LUNCH THIEF
-597|board.agenda.promo|PROMOTIONS
-598|board.agenda.romance|ROMANCE POLICY
-599|board.t.5min|5 min!
-600|board.t.acting_boss|ACTING BOSS
-601|board.t.client|CLIENT!
-602|board.t.farewell|Farewell!
-603|board.t.pizza|PIZZA!
-604|board.t.promotion|PROMOTION!
-605|board.t.restructuring|RESTRUCTURING Q&A
-606|act.break_coffee|Break the coffee machine
-607|act.break_coffee.d|The next person who wants coffee is in for a surprise.
-608|act.break_printer|Jam the printer
-609|act.break_printer.d|Nothing happens… until someone has to print.
-610|act.edit_promo|Rewrite the promotion file
-611|act.edit_promo.d|Give credit for the big project to someone else.
-612|act.email_all|Send their draft to EVERYONE
-613|act.email_all.d|Next time they open their email, their most private draft goes out to the whole office.
-614|act.email_redirect|Change their email recipient
-615|act.email_redirect.d|Their next private message goes to someone else.
-616|act.fake_notif|Send a fake phone notification
-617|act.fake_notif.d|Phones are very convincing.
-618|act.fix_coffee|Secretly fix the coffee machine
-619|act.fix_coffee.d|Someone will get the credit. Probably the wrong someone.
-620|act.lights_off|Turn off all the lights
-621|act.lights_off.d|Instant panic. Someone will head for the breaker.
-622|act.lights_on|Switch the lights back on
-623|act.lights_on.d|Spooky.
-624|act.move_item|Move {owner}'s {item}
-625|act.move_item.d|They'll go looking for it when they need it.
-626|act.move_meeting|Change the meeting time
-627|act.move_meeting.d|Only people who check the board will know.
-628|act.reason_absent|Not in the office
-629|act.reason_broken|Already broken
-630|act.reason_dark|Already dark
-631|act.reason_email_pending|Sabotage already waiting
-632|act.reason_lit|Lights are on
-633|act.reason_meeting_over|The meeting already started
-634|act.reason_messed|Already a mess
-635|act.reason_promo_pending|Already doctored
-636|act.reason_working|It's working
-637|act.set_temp|Change the temperature
-638|act.set_temp.d|Everyone has a favourite temperature. Nobody agrees.
-639|act.shuffle_files|Mess up the files on the desk
-640|act.shuffle_files.d|They'll notice when they sit down. And they'll want someone to blame.
-641|iv.add_to_groupchat|Add someone to a group chat about them
-642|iv.add_to_groupchat.d|Somebody's been complaining about them in a group chat. Now they're a member.
-643|iv.agenda|Rewrite today's meeting agenda
-644|iv.agenda.d|Everyone reads the board on the way past.
-645|iv.alliance_proof|Leave proof of a secret alliance in the archive
-646|iv.alliance_proof.d|Two people have a secret pact. It's in writing. Not for long.
-647|iv.anger_course|Enrol someone in an anger-management course
-648|iv.anger_course.d|A very official, very public memo.
-649|iv.anon_complaint|Pin an anonymous complaint about someone
-650|iv.anon_complaint.d|'Please stop humming. Signed, everyone.' They'll look for a culprit.
-651|iv.anon_compliment|Pin an anonymous compliment about someone
-652|iv.anon_compliment.d|Kind words on the cork board. They'll want to know who wrote it.
-653|iv.apology_wrong|Deliver their apology letter to the wrong person
-654|iv.apology_wrong.d|They wrote an apology to someone they fell out with. Pick who gets it instead.
-655|iv.archive_report|File their printed report in the archive
-656|iv.archive_report.d|Under 'Z'. Where nobody looks.
-657|iv.autocorrect|Set autocorrect: 'Ahmet Bey' → 'Ahmet Bae'
-658|iv.autocorrect.d|Their next email to the boss will be... memorable.
-659|iv.autoreply_quit|Set their auto-reply to 'I quit'
-660|iv.autoreply_quit.d|The next person to email them is the boss.
-661|iv.best_boss_mug|Leave a 'World's Best Boss' mug for Ahmet — from someone
-662|iv.best_boss_mug.d|Pick who 'gave' it. Ahmet will thank them. Publicly.
-663|iv.birthday_collection|Leave the secret birthday collection in plain sight
-664|iv.birthday_collection.d|The envelope everyone's been secretly chipping into.
-665|iv.boss_golf|Put a golf game in Ahmet's calendar
-666|iv.boss_golf.d|He'll leave — right before his own meeting.
-667|iv.boss_memo|Send Ahmet's draft memo to everyone
-668|iv.boss_memo.d|'Restructuring — possible reductions.' (It's about the coffee budget.)
-669|iv.break_microwave|Break the microwave
-670|iv.break_microwave.d|Right before lunch.
-671|iv.break_projector|Break the projector
-672|iv.break_projector.d|It'll die the moment someone starts presenting.
-673|iv.break_water|Break the water cooler
-674|iv.break_water.d|No water, no small talk.
-675|iv.cake_early|Put the birthday cake out too early
-676|iv.cake_early.d|The surprise cake. On the table. Hours early.
-677|iv.caller_id|Fake who's calling them
-678|iv.caller_id.d|Their phone rings. The screen shows a name of your choice.
-679|iv.caps_lock|Jam caps lock on their chat
-680|iv.caps_lock.d|Their next message to their best friend arrives as SHOUTING.
-681|iv.cc_boss|CC Ahmet on their private chat
-682|iv.cc_boss.d|Whatever they've been typing to their best friend, Ahmet gets a copy.
-683|iv.change_author|Change the project file's author
-684|iv.change_author.d|Put someone else's name on their work. Ahmet reads it later.
-685|iv.change_subject|Change their next email's subject
-686|iv.change_subject.d|Their next email to the team goes out with a very different title.
-687|iv.client_visit|Announce a client visit
-688|iv.client_visit.d|'Important client at 14:00!' Watch everyone tidy and work twice as hard.
-689|iv.coffee_late|Make the coffee machine take 40 minutes to warm up
-690|iv.coffee_late.d|A queue forms. People talk.
-691|iv.confidential_doc|Leave a confidential document open in the archive
-692|iv.confidential_doc.d|The next person at the filing cabinets will read it.
-693|iv.couple_photo|Pin a doctored 'couple' photo
-694|iv.couple_photo.d|Pick one half of the 'couple'. The other half is whoever suits the story best.
+530|name.ahmet|Ahmet
+531|name.burak|Burak
+532|name.ceren|Ceren
+533|name.deniz|Deniz
+534|name.ece|Ece
+535|name.mert|Mert
+536|name.selin|Selin
+537|name.zeynep|Zeynep
+538|char.ahmet.bio1|Authoritarian
+539|char.ahmet.bio2|Controlling
+540|char.ahmet.bio3|Loves discipline
+541|char.ahmet.bio4|Trusts Selin
+542|char.ahmet.bio5|Thinks Deniz is too ambitious
+543|char.ahmet.role|Office Manager
+544|char.burak.bio1|Quiet
+545|char.burak.bio2|Logical
+546|char.burak.bio3|Tech genius
+547|char.burak.bio4|Unhappy with his job
+548|char.burak.bio5|Secretly job hunting
+549|char.burak.bio6|Snaps when wrongly blamed
+550|char.burak.role|IT Specialist
+551|char.ceren.bio1|Smart
+552|char.ceren.bio2|Calm
+553|char.ceren.bio3|Reads people well
+554|char.ceren.bio4|Knows Mert likes her
+555|char.ceren.bio5|Knows the story behind many decisions
+556|char.ceren.role|Executive Assistant
+557|char.deniz.bio1|Competitive
+558|char.deniz.bio2|Cunning
+559|char.deniz.bio3|Self-confident
+560|char.deniz.bio4|Wants the promotion
+561|char.deniz.bio5|Sees Selin as a rival
+562|char.deniz.bio6|Takes credit for others' work
+563|char.deniz.role|Specialist
+564|char.ece.bio1|Energetic
+565|char.ece.bio2|Curious
+566|char.ece.bio3|A bit clumsy
+567|char.ece.bio4|Wants everyone to like her
+568|char.ece.bio5|Hides that she is the manager's niece
+569|char.ece.role|Intern
+570|char.mert.bio1|Social
+571|char.mert.bio2|Funny
+572|char.mert.bio3|Laid-back
+573|char.mert.bio4|Has a crush on Ceren
+574|char.mert.bio5|Friends with Burak
+575|char.mert.bio6|Leaves things to the last minute
+576|char.mert.role|Sales Specialist
+577|char.selin.bio1|Hard-working
+578|char.selin.bio2|Ambitious
+579|char.selin.bio3|Strong sense of justice
+580|char.selin.bio4|Waiting for a promotion
+581|char.selin.bio5|Rivals Deniz
+582|char.selin.bio6|Slow to forgive
+583|char.selin.role|Senior Specialist
+584|char.zeynep.bio1|Curious
+585|char.zeynep.bio2|Gossipy
+586|char.zeynep.bio3|Sharp observer
+587|char.zeynep.bio4|Knows many secrets
+588|char.zeynep.bio5|Uses information for her own ends
+589|char.zeynep.role|Accountant
+590|wall.agenda|AGENDA: {text}
+591|wall.chair|CHAIR: {name}
+592|wall.done|DONE!
+593|wall.fire|FIRE
+594|wall.hello|HELLO
+595|wall.meeting|MEETING
+596|wall.now|NOW!
+597|wall.out|OUT
+598|wall.power|POWER
+599|wall.printer1|PLEASE DON'T
+600|wall.printer2|KICK PRINTER
+601|wall.reception|RECEPTION
+602|wall.teamwork|TEAMWORK
+603|board.agenda.layoffs|LAYOFFS
+604|board.agenda.lunch|LUNCH THIEF
+605|board.agenda.promo|PROMOTIONS
+606|board.agenda.romance|ROMANCE POLICY
+607|board.t.5min|5 min!
+608|board.t.acting_boss|ACTING BOSS
+609|board.t.client|CLIENT!
+610|board.t.farewell|Farewell!
+611|board.t.pizza|PIZZA!
+612|board.t.promotion|PROMOTION!
+613|board.t.restructuring|RESTRUCTURING Q&A
+614|act.break_coffee|Break the coffee machine
+615|act.break_coffee.d|The next person who wants coffee is in for a surprise.
+616|act.break_printer|Jam the printer
+617|act.break_printer.d|Nothing happens… until someone has to print.
+618|act.edit_promo|Rewrite the promotion file
+619|act.edit_promo.d|Give credit for the big project to someone else.
+620|act.email_all|Send their draft to EVERYONE
+621|act.email_all.d|Next time they open their email, their most private draft goes out to the whole office.
+622|act.email_redirect|Change their email recipient
+623|act.email_redirect.d|Their next private message goes to someone else.
+624|act.fake_notif|Send a fake phone notification
+625|act.fake_notif.d|Phones are very convincing.
+626|act.fix_coffee|Secretly fix the coffee machine
+627|act.fix_coffee.d|Someone will get the credit. Probably the wrong someone.
+628|act.lights_off|Turn off all the lights
+629|act.lights_off.d|Instant panic. Someone will head for the breaker.
+630|act.lights_on|Switch the lights back on
+631|act.lights_on.d|Spooky.
+632|act.move_item|Move {owner}'s {item}
+633|act.move_item.d|They'll go looking for it when they need it.
+634|act.move_meeting|Change the meeting time
+635|act.move_meeting.d|Only people who check the board will know.
+636|act.reason_absent|Not in the office
+637|act.reason_broken|Already broken
+638|act.reason_dark|Already dark
+639|act.reason_email_pending|Sabotage already waiting
+640|act.reason_lit|Lights are on
+641|act.reason_meeting_over|The meeting already started
+642|act.reason_messed|Already a mess
+643|act.reason_promo_pending|Already doctored
+644|act.reason_working|It's working
+645|act.set_temp|Change the temperature
+646|act.set_temp.d|Everyone has a favourite temperature. Nobody agrees.
+647|act.shuffle_files|Mess up the files on the desk
+648|act.shuffle_files.d|They'll notice when they sit down. And they'll want someone to blame.
+649|iv.add_to_groupchat|Add someone to a group chat about them
+650|iv.add_to_groupchat.d|Somebody's been complaining about them in a group chat. Now they're a member.
+651|iv.agenda|Rewrite today's meeting agenda
+652|iv.agenda.d|Everyone reads the board on the way past.
+653|iv.alliance_proof|Leave proof of a secret alliance in the archive
+654|iv.alliance_proof.d|Two people have a secret pact. It's in writing. Not for long.
+655|iv.anger_course|Enrol someone in an anger-management course
+656|iv.anger_course.d|A very official, very public memo.
+657|iv.anon_complaint|Pin an anonymous complaint about someone
+658|iv.anon_complaint.d|'Please stop humming. Signed, everyone.' They'll look for a culprit.
+659|iv.anon_compliment|Pin an anonymous compliment about someone
+660|iv.anon_compliment.d|Kind words on the cork board. They'll want to know who wrote it.
+661|iv.apology_wrong|Deliver their apology letter to the wrong person
+662|iv.apology_wrong.d|They wrote an apology to someone they fell out with. Pick who gets it instead.
+663|iv.archive_report|File their printed report in the archive
+664|iv.archive_report.d|Under 'Z'. Where nobody looks.
+665|iv.autocorrect|Set autocorrect: 'Ahmet Bey' → 'Ahmet Bae'
+666|iv.autocorrect.d|Their next email to the boss will be... memorable.
+667|iv.autoreply_quit|Set their auto-reply to 'I quit'
+668|iv.autoreply_quit.d|The next person to email them is the boss.
+669|iv.best_boss_mug|Leave a 'World's Best Boss' mug for Ahmet — from someone
+670|iv.best_boss_mug.d|Pick who 'gave' it. Ahmet will thank them. Publicly.
+671|iv.birthday_collection|Leave the secret birthday collection in plain sight
+672|iv.birthday_collection.d|The envelope everyone's been secretly chipping into.
+673|iv.boss_golf|Put a golf game in Ahmet's calendar
+674|iv.boss_golf.d|He'll leave — right before his own meeting.
+675|iv.boss_memo|Send Ahmet's draft memo to everyone
+676|iv.boss_memo.d|'Restructuring — possible reductions.' (It's about the coffee budget.)
+677|iv.break_microwave|Break the microwave
+678|iv.break_microwave.d|Right before lunch.
+679|iv.break_projector|Break the projector
+680|iv.break_projector.d|It'll die the moment someone starts presenting.
+681|iv.break_water|Break the water cooler
+682|iv.break_water.d|No water, no small talk.
+683|iv.cake_early|Put the birthday cake out too early
+684|iv.cake_early.d|The surprise cake. On the table. Hours early.
+685|iv.caller_id|Fake who's calling them
+686|iv.caller_id.d|Their phone rings. The screen shows a name of your choice.
+687|iv.caps_lock|Jam caps lock on their chat
+688|iv.caps_lock.d|Their next message to their best friend arrives as SHOUTING.
+689|iv.cc_boss|CC Ahmet on their private chat
+690|iv.cc_boss.d|Whatever they've been typing to their best friend, Ahmet gets a copy.
+691|iv.change_author|Change the project file's author
+692|iv.change_author.d|Put someone else's name on their work. Ahmet reads it later.
+693|iv.change_subject|Change their next email's subject
+694|iv.change_subject.d|Their next email to the team goes out with a very different title.
+695|iv.client_visit|Announce a client visit
+696|iv.client_visit.d|'Important client at 14:00!' Watch everyone tidy and work twice as hard.
+697|iv.coffee_late|Make the coffee machine take 40 minutes to warm up
+698|iv.coffee_late.d|A queue forms. People talk.
+699|iv.confidential_doc|Leave a confidential document open in the archive
+700|iv.confidential_doc.d|The next person at the filing cabinets will read it.
+701|iv.couple_photo|Pin a doctored 'couple' photo

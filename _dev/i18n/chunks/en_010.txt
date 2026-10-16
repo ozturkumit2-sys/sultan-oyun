@@ -1,115 +1,115 @@
-1782|log.mc_busted|Ahmet noticed his mug was swapped. {friend} cracked first.
-1783|log.mc_confess_now|{owner} asked {suspect} about the missing contract. {suspect} remembered filing it by mistake.
-1784|log.mc_confessed|{culprit} confessed to {owner}: the contract was misfiled. Crisis over.
-1785|log.mc_crash|{breaker} broke Ahmet's beloved 'World's Best Boss' mug in the kitchen.
-1786|log.mc_fooled|Ahmet is happily drinking from the 'World's Best Bass' mug. The cover-up worked.
-1787|log.mc_forgive|{breaker} confessed to breaking Ahmet's mug. Ahmet forgave them — and seemed to respect it.
-1788|log.mc_found_quick|{owner} got the contract back from the archive. Panic over.
-1789|log.mc_guilty_deny|{owner} asked {suspect} about the contract. {suspect} denied it. (They filed it by mistake.)
-1790|log.mc_help|{friend} agreed to help {breaker} replace Ahmet's broken mug before he notices.
-1791|log.mc_mystery|{culprit} secretly slipped the contract back onto {owner}'s desk. {owner} still blames {suspect}.
-1792|log.mc_mystery_nosuspect|{culprit} secretly slipped the contract back onto {owner}'s desk. Nobody will ever know.
-1793|log.mc_panic|{owner}'s signed client contract has vanished from their desk. Panic.
-1794|log.mc_realise|{culprit} just realised the missing contract is the folder they filed in the archive this morning.
-1795|log.mc_search|{owner} searched the whole archive for the missing contract. Nothing. Now they suspect {suspect}.
-1796|log.mc_swap|{friend} put a replacement mug on Ahmet's desk. It says 'World's Best Bass'.
-1797|log.mc_upset|{breaker} confessed to breaking Ahmet's mug. Ahmet took it very, very personally.
-1798|log.mc_wrong_suspect|{owner} accused {suspect} of taking the contract. {suspect} had nothing to do with it — and is offended.
-1799|log.meeting_absent|{actor} missed the meeting. Ahmet noticed.
-1800|log.meeting_end|The team meeting ended.
-1801|log.meeting_hijack|{hijacker} hijacked {actor}'s presentation — and Ahmet let him.
-1802|log.meeting_hijack_stopped|{hijacker} tried to hijack {actor}'s presentation. Ahmet shut it down.
-1803|log.meeting_snore|{sleeper} fell asleep in the meeting. Snoring included.
-1804|log.meeting_start|The team meeting started.
-1805|log.meeting_wait|{actor} waited for a meeting that never started.
-1806|log.memo|Ahmet's unfinished draft memo — 'restructuring, possible reductions' — went to the entire office.
-1807|log.meow|{actor}'s keyboard meows with every keystroke. The whole row can hear it.
-1808|log.meow_love|{actor}'s keyboard meows now. They've decided they love it.
-1809|log.micro_dead|The microwave died at lunchtime. {actor} is staring at a frozen lunch.
-1810|log.micromanage|Ahmet stood behind {target}'s desk, watching every keystroke.
-1811|log.micromanage_snap|Ahmet hovered over {target}'s desk until {target} snapped at him.
-1812|log.minutes_own|The meeting minutes say {target} volunteered to organise the team retreat. {target} decided to own it.
-1813|log.minutes_refuse|The meeting minutes say {target} volunteered to organise a retreat. {target} absolutely did not.
-1814|log.misfile|{actor} lost a file from their folder. It's now sitting in Ahmet's private folder.
-1815|log.misfile_boss|Ahmet found {owner}'s file in his private folder and wants to know how it got there.
-1816|log.misfiled_found|{actor} tore the archive apart looking for a report — and found it misfiled. They blame {suspect}.
-1817|log.misfiled_lost|{actor}'s report is truly lost. They'll have to start over.
-1818|log.misfiled_own|{actor} turned the archive upside down for a report that was in their own drawer.
-1819|log.misheard|{actor} half-heard {target} on the phone and is now convinced {victim} is about to be fired. ({target} was talking about a printer.)
-1820|log.misplaced_owner|{owner} can't find their report anywhere. (It's already on Ahmet's desk — under {thief}'s name.)
-1821|log.misplaced_read|{owner}'s report turned up on {actor}'s desk. {actor} read every page before returning it.
-1822|log.misplaced_return|{owner}'s report turned up on {actor}'s desk. {actor} brought it straight back.
-1823|log.misplaced_steal|{owner}'s report turned up on {actor}'s desk. {actor} handed it in to Ahmet. As their own.
-1824|log.mm_assign|Ahmet paired {mentor} with {mentee} as mentor and mentee. They exchanged a look of pure dread.
-1825|log.mm_bad|Ahmet checked on the mentoring. {mentee} revealed {mentor}'s terrible advice. Ahmet is not pleased.
-1826|log.mm_good|Ahmet checked on the mentoring. {mentor} and {mentee} have — astonishingly — become a good team.
-1827|log.mm_sabotage|{mentor} gave {mentee} some very bad advice. On purpose.
-1828|log.mm_useful|{mentor}'s first mentoring session with {mentee} was... actually helpful.
-1829|log.mp_bonded|{protege} thanked {mentor} over coffee. Those two have each other's backs now.
-1830|log.mp_confess|{protege} marched into Ahmet's office and confessed: the error was theirs, {mentor} was protecting them.
-1831|log.mp_cover|{mentor} told Ahmet the report error was their own fault — to protect {protege}.
-1832|log.mp_exploit|{rival} told Ahmet that {mentor} was covering for {protege}. Ahmet is not pleased.
-1833|log.mp_exploit_fail|{rival} tried to use {mentor}'s cover-up against them. Ahmet wasn't interested.
-1834|log.mp_mistake|{protege} realised they put the wrong numbers into {mentor}'s report — and Ahmet already has it.
-1835|log.mug_blush|{actor} drank from {target}'s mug by mistake. Somehow it turned into flirting.
-1836|log.mug_fight|{target} caught {actor} drinking from their mug. The mugs had been swapped. Words were exchanged.
-1837|log.mug_laugh|{actor} drank from {target}'s mug by mistake. They laughed it off.
-1838|log.music|The office speaker started playing {what}. Some people are dancing. Some are suffering.
-1839|log.music_off|Ahmet marched over and switched off the office music.
-1840|log.na_checkin|{actor} noticed {target} was struggling and took them for a tea. {target} looked lighter afterwards.
-1841|log.na_compliment|{actor} paid {target} a genuine compliment. {target} is still smiling.
-1842|log.na_cover|{actor} covered for {late} when Ahmet asked where they were. {late} owes {actor} one.
-1843|log.na_doze_boss|{actor} fell asleep at their desk — and Ahmet found them.
-1844|log.na_doze_prank|{actor} fell asleep at their desk. {prankster} stuck a note on their forehead. It said 'out of office'.
-1845|log.na_eaves|{actor} hung around outside Ahmet's office pretending to read a poster — and overheard something.
-1846|log.na_excuse_hit|{actor} invented a reason to visit {target}'s desk. {target} smiled. Progress.
-1847|log.na_excuse_miss|{actor} invented a reason to visit {target}'s desk. {target} didn't notice a thing.
-1848|log.na_false_rumor|{actor} told {target} that {victim} is about to be fired. There's no truth in it at all.
-1849|log.na_fish|{actor} microwaved fish. The whole office now knows.
-1850|log.na_flower|Someone left a flower on {actor}'s desk. {actor} has no idea it was {giver}.
-1851|log.na_huddle|A gossip huddle formed in the kitchen around {actor}. Whatever {actor} said, three people now know it.
-1852|log.na_interview|{actor} secretly booked a job interview — and told Ahmet it's 'the dentist'.
-1853|log.na_lunch_crew|{actor}, {target} and {friend} had lunch together at the kitchen table. A little clique is forming.
-1854|log.na_lunch_pair|{actor} and {target} had lunch together at the kitchen table.
-1855|log.na_mugs_deny|{actor} accused {target} of leaving mugs in the sink. {target} denied it — loudly.
-1856|log.na_mugs_own|{actor} confronted {target} about the mugs in the sink. {target} washed them. Peace in the kitchen.
-1857|log.na_oneup|{actor} and {target} had a loud contest about who works harder. Nobody won. Everyone heard.
-1858|log.na_photos|{actor} showed {target} approximately three hundred pet photos. {target} loved every one.
-1859|log.na_plant|{actor} was caught having a heartfelt conversation with the office plant.
-1860|log.na_promo_maybe|{actor} asked Ahmet straight out for a promotion. Ahmet didn't say no.
-1861|log.na_promo_no|{actor} asked Ahmet straight out for a promotion. 'Not yet.'
-1862|log.na_share|{actor} shared their lunch with {target}. It's the little things.
-1863|log.na_snap|{target} snapped at {actor} for interrupting. Again.
-1864|log.na_snitch|{actor} told Ahmet about {rival}'s mistake. Rivalry has a new weapon.
-1865|log.na_snitch_caught|{rival} overheard {actor} reporting their mistake to Ahmet. That will not be forgotten.
-1866|log.na_snoop|{actor} snooped through the papers on {target}'s empty desk — and found something.
-1867|log.na_teach|{actor} showed {target} a spreadsheet shortcut. {target} looked at {actor} like a wizard.
-1868|log.na_territory|{actor} and {target} had a border dispute over a stapler.
-1869|log.na_volunteer|{actor} volunteered for extra work in front of Ahmet. A few colleagues rolled their eyes.
-1870|log.na_weekend_flop|{actor} told {target} a very long weekend story. {target} survived it.
-1871|log.na_weekend_hit|{actor}'s weekend story had {target} in tears of laughter by the coffee machine.
-1872|log.nepotism|Word is out: Ece is the boss's niece.
-1873|log.net_down|The whole office network went down. Nobody can work — so everybody's chatting.
-1874|log.new_friends|{actor} and {target} are becoming real friends.
-1875|log.new_rule|Ahmet announced a new office rule. Nobody asked for it.
-1876|log.news|Ceren's newsletter announced that {target} and {crush2} were 'spotted at a candlelit dinner'. They weren't.
-1877|log.no_food|There was no cake. {actor} is devastated.
-1878|log.no_food_blame|{actor} blames {suspect} for the fake cake alert.
-1879|log.nopaper|{actor} went to print and found the printer — and the supply shelf — out of paper.
-1880|log.not_me|{target} honestly admitted they didn't fix the coffee machine.
-1881|log.note_drop|{actor} sneaked an anonymous note onto {target}'s desk.
-1882|log.note_found|{actor} found an anonymous note on their desk and thinks it was {guess}. (It was {writer}.)
-1883|log.note_found_right|{actor} found an anonymous note and guessed right: it was {writer}.
-1884|log.notebook_keep|{actor} found {target}'s private notebook on the sofa — and gave it back unread.
-1885|log.notebook_read|{actor} found {target}'s private notebook on the sofa. And read it.
-1886|log.notes|Ahmet's private notes about every employee appeared on the cork board. Everyone read what he thinks of them.
-1887|log.notif_admirer|{actor} has a secret admirer. Allegedly.
-1888|log.notif_boss|{actor} got a 'come to my office' message.
-1889|log.notif_cancel|{actor} thinks today's meeting is cancelled.
-1890|log.notif_food|{actor} is rushing to the kitchen for free cake.
-1891|log.notif_preview|{owner}'s message preview — complaining about {worst} — popped up on {target}'s phone.
-1892|log.ns_accepted|Ece faced the office about being Ahmet's niece. Most of them decided she'd earned her place.
-1893|log.ns_keeper_slip|{witness} pressed Ceren about Ece and Ahmet. Ceren's "no comment" said everything.
-1894|log.ns_lie|{witness} asked Ece about the "Uncle" slip. Ece told a terrible lie about ankles.
-1895|log.ns_resented|Ece faced the office about being Ahmet's niece. The room stayed cold.
-1896|log.ns_slip|Ece accidentally called Ahmet "Uncle". {witness} heard it.
+1788|log.margin_respect|Ahmet found 'Ahmet is wrong about everything' in the margin of {actor}'s report. Oddly, he respected the honesty.
+1789|log.mc_advice|{friend} told {breaker} to come clean about Ahmet's mug.
+1790|log.mc_busted|Ahmet noticed his mug was swapped. {friend} cracked first.
+1791|log.mc_confess_now|{owner} asked {suspect} about the missing contract. {suspect} remembered filing it by mistake.
+1792|log.mc_confessed|{culprit} confessed to {owner}: the contract was misfiled. Crisis over.
+1793|log.mc_crash|{breaker} broke Ahmet's beloved 'World's Best Boss' mug in the kitchen.
+1794|log.mc_fooled|Ahmet is happily drinking from the 'World's Best Bass' mug. The cover-up worked.
+1795|log.mc_forgive|{breaker} confessed to breaking Ahmet's mug. Ahmet forgave them — and seemed to respect it.
+1796|log.mc_found_quick|{owner} got the contract back from the archive. Panic over.
+1797|log.mc_guilty_deny|{owner} asked {suspect} about the contract. {suspect} denied it. (They filed it by mistake.)
+1798|log.mc_help|{friend} agreed to help {breaker} replace Ahmet's broken mug before he notices.
+1799|log.mc_mystery|{culprit} secretly slipped the contract back onto {owner}'s desk. {owner} still blames {suspect}.
+1800|log.mc_mystery_nosuspect|{culprit} secretly slipped the contract back onto {owner}'s desk. Nobody will ever know.
+1801|log.mc_panic|{owner}'s signed client contract has vanished from their desk. Panic.
+1802|log.mc_realise|{culprit} just realised the missing contract is the folder they filed in the archive this morning.
+1803|log.mc_search|{owner} searched the whole archive for the missing contract. Nothing. Now they suspect {suspect}.
+1804|log.mc_swap|{friend} put a replacement mug on Ahmet's desk. It says 'World's Best Bass'.
+1805|log.mc_upset|{breaker} confessed to breaking Ahmet's mug. Ahmet took it very, very personally.
+1806|log.mc_wrong_suspect|{owner} accused {suspect} of taking the contract. {suspect} had nothing to do with it — and is offended.
+1807|log.meeting_absent|{actor} missed the meeting. Ahmet noticed.
+1808|log.meeting_end|The team meeting ended.
+1809|log.meeting_hijack|{hijacker} hijacked {actor}'s presentation — and Ahmet let him.
+1810|log.meeting_hijack_stopped|{hijacker} tried to hijack {actor}'s presentation. Ahmet shut it down.
+1811|log.meeting_snore|{sleeper} fell asleep in the meeting. Snoring included.
+1812|log.meeting_start|The team meeting started.
+1813|log.meeting_wait|{actor} waited for a meeting that never started.
+1814|log.memo|Ahmet's unfinished draft memo — 'restructuring, possible reductions' — went to the entire office.
+1815|log.meow|{actor}'s keyboard meows with every keystroke. The whole row can hear it.
+1816|log.meow_love|{actor}'s keyboard meows now. They've decided they love it.
+1817|log.micro_dead|The microwave died at lunchtime. {actor} is staring at a frozen lunch.
+1818|log.micromanage|Ahmet stood behind {target}'s desk, watching every keystroke.
+1819|log.micromanage_snap|Ahmet hovered over {target}'s desk until {target} snapped at him.
+1820|log.minutes_own|The meeting minutes say {target} volunteered to organise the team retreat. {target} decided to own it.
+1821|log.minutes_refuse|The meeting minutes say {target} volunteered to organise a retreat. {target} absolutely did not.
+1822|log.misfile|{actor} lost a file from their folder. It's now sitting in Ahmet's private folder.
+1823|log.misfile_boss|Ahmet found {owner}'s file in his private folder and wants to know how it got there.
+1824|log.misfiled_found|{actor} tore the archive apart looking for a report — and found it misfiled. They blame {suspect}.
+1825|log.misfiled_lost|{actor}'s report is truly lost. They'll have to start over.
+1826|log.misfiled_own|{actor} turned the archive upside down for a report that was in their own drawer.
+1827|log.misheard|{actor} half-heard {target} on the phone and is now convinced {victim} is about to be fired. ({target} was talking about a printer.)
+1828|log.misplaced_owner|{owner} can't find their report anywhere. (It's already on Ahmet's desk — under {thief}'s name.)
+1829|log.misplaced_read|{owner}'s report turned up on {actor}'s desk. {actor} read every page before returning it.
+1830|log.misplaced_return|{owner}'s report turned up on {actor}'s desk. {actor} brought it straight back.
+1831|log.misplaced_steal|{owner}'s report turned up on {actor}'s desk. {actor} handed it in to Ahmet. As their own.
+1832|log.mm_assign|Ahmet paired {mentor} with {mentee} as mentor and mentee. They exchanged a look of pure dread.
+1833|log.mm_bad|Ahmet checked on the mentoring. {mentee} revealed {mentor}'s terrible advice. Ahmet is not pleased.
+1834|log.mm_good|Ahmet checked on the mentoring. {mentor} and {mentee} have — astonishingly — become a good team.
+1835|log.mm_sabotage|{mentor} gave {mentee} some very bad advice. On purpose.
+1836|log.mm_useful|{mentor}'s first mentoring session with {mentee} was... actually helpful.
+1837|log.mp_bonded|{protege} thanked {mentor} over coffee. Those two have each other's backs now.
+1838|log.mp_confess|{protege} marched into Ahmet's office and confessed: the error was theirs, {mentor} was protecting them.
+1839|log.mp_cover|{mentor} told Ahmet the report error was their own fault — to protect {protege}.
+1840|log.mp_exploit|{rival} told Ahmet that {mentor} was covering for {protege}. Ahmet is not pleased.
+1841|log.mp_exploit_fail|{rival} tried to use {mentor}'s cover-up against them. Ahmet wasn't interested.
+1842|log.mp_mistake|{protege} realised they put the wrong numbers into {mentor}'s report — and Ahmet already has it.
+1843|log.mug_blush|{actor} drank from {target}'s mug by mistake. Somehow it turned into flirting.
+1844|log.mug_fight|{target} caught {actor} drinking from their mug. The mugs had been swapped. Words were exchanged.
+1845|log.mug_laugh|{actor} drank from {target}'s mug by mistake. They laughed it off.
+1846|log.music|The office speaker started playing {what}. Some people are dancing. Some are suffering.
+1847|log.music_off|Ahmet marched over and switched off the office music.
+1848|log.na_checkin|{actor} noticed {target} was struggling and took them for a tea. {target} looked lighter afterwards.
+1849|log.na_compliment|{actor} paid {target} a genuine compliment. {target} is still smiling.
+1850|log.na_cover|{actor} covered for {late} when Ahmet asked where they were. {late} owes {actor} one.
+1851|log.na_doze_boss|{actor} fell asleep at their desk — and Ahmet found them.
+1852|log.na_doze_prank|{actor} fell asleep at their desk. {prankster} stuck a note on their forehead. It said 'out of office'.
+1853|log.na_eaves|{actor} hung around outside Ahmet's office pretending to read a poster — and overheard something.
+1854|log.na_excuse_hit|{actor} invented a reason to visit {target}'s desk. {target} smiled. Progress.
+1855|log.na_excuse_miss|{actor} invented a reason to visit {target}'s desk. {target} didn't notice a thing.
+1856|log.na_false_rumor|{actor} told {target} that {victim} is about to be fired. There's no truth in it at all.
+1857|log.na_fish|{actor} microwaved fish. The whole office now knows.
+1858|log.na_flower|Someone left a flower on {actor}'s desk. {actor} has no idea it was {giver}.
+1859|log.na_huddle|A gossip huddle formed in the kitchen around {actor}. Whatever {actor} said, three people now know it.
+1860|log.na_interview|{actor} secretly booked a job interview — and told Ahmet it's 'the dentist'.
+1861|log.na_lunch_crew|{actor}, {target} and {friend} had lunch together at the kitchen table. A little clique is forming.
+1862|log.na_lunch_pair|{actor} and {target} had lunch together at the kitchen table.
+1863|log.na_mugs_deny|{actor} accused {target} of leaving mugs in the sink. {target} denied it — loudly.
+1864|log.na_mugs_own|{actor} confronted {target} about the mugs in the sink. {target} washed them. Peace in the kitchen.
+1865|log.na_oneup|{actor} and {target} had a loud contest about who works harder. Nobody won. Everyone heard.
+1866|log.na_photos|{actor} showed {target} approximately three hundred pet photos. {target} loved every one.
+1867|log.na_plant|{actor} was caught having a heartfelt conversation with the office plant.
+1868|log.na_promo_maybe|{actor} asked Ahmet straight out for a promotion. Ahmet didn't say no.
+1869|log.na_promo_no|{actor} asked Ahmet straight out for a promotion. 'Not yet.'
+1870|log.na_share|{actor} shared their lunch with {target}. It's the little things.
+1871|log.na_snap|{target} snapped at {actor} for interrupting. Again.
+1872|log.na_snitch|{actor} told Ahmet about {rival}'s mistake. Rivalry has a new weapon.
+1873|log.na_snitch_caught|{rival} overheard {actor} reporting their mistake to Ahmet. That will not be forgotten.
+1874|log.na_snoop|{actor} snooped through the papers on {target}'s empty desk — and found something.
+1875|log.na_teach|{actor} showed {target} a spreadsheet shortcut. {target} looked at {actor} like a wizard.
+1876|log.na_territory|{actor} and {target} had a border dispute over a stapler.
+1877|log.na_volunteer|{actor} volunteered for extra work in front of Ahmet. A few colleagues rolled their eyes.
+1878|log.na_weekend_flop|{actor} told {target} a very long weekend story. {target} survived it.
+1879|log.na_weekend_hit|{actor}'s weekend story had {target} in tears of laughter by the coffee machine.
+1880|log.nepotism|Word is out: Ece is the boss's niece.
+1881|log.net_down|The whole office network went down. Nobody can work — so everybody's chatting.
+1882|log.new_friends|{actor} and {target} are becoming real friends.
+1883|log.new_rule|Ahmet announced a new office rule. Nobody asked for it.
+1884|log.news|Ceren's newsletter announced that {target} and {crush2} were 'spotted at a candlelit dinner'. They weren't.
+1885|log.no_food|There was no cake. {actor} is devastated.
+1886|log.no_food_blame|{actor} blames {suspect} for the fake cake alert.
+1887|log.nopaper|{actor} went to print and found the printer — and the supply shelf — out of paper.
+1888|log.not_me|{target} honestly admitted they didn't fix the coffee machine.
+1889|log.note_drop|{actor} sneaked an anonymous note onto {target}'s desk.
+1890|log.note_found|{actor} found an anonymous note on their desk and thinks it was {guess}. (It was {writer}.)
+1891|log.note_found_right|{actor} found an anonymous note and guessed right: it was {writer}.
+1892|log.notebook_keep|{actor} found {target}'s private notebook on the sofa — and gave it back unread.
+1893|log.notebook_read|{actor} found {target}'s private notebook on the sofa. And read it.
+1894|log.notes|Ahmet's private notes about every employee appeared on the cork board. Everyone read what he thinks of them.
+1895|log.notif_admirer|{actor} has a secret admirer. Allegedly.
+1896|log.notif_boss|{actor} got a 'come to my office' message.
+1897|log.notif_cancel|{actor} thinks today's meeting is cancelled.
+1898|log.notif_food|{actor} is rushing to the kitchen for free cake.
+1899|log.notif_preview|{owner}'s message preview — complaining about {worst} — popped up on {target}'s phone.
+1900|log.ns_accepted|Ece faced the office about being Ahmet's niece. Most of them decided she'd earned her place.
+1901|log.ns_keeper_slip|{witness} pressed Ceren about Ece and Ahmet. Ceren's "no comment" said everything.
+1902|log.ns_lie|{witness} asked Ece about the "Uncle" slip. Ece told a terrible lie about ankles.

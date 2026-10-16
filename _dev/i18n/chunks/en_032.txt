@@ -1,178 +1,178 @@
-6236|cd_launch|_|0|Charity box in the kitchen! For the animal shelter. Every lira counts!
-6237|cd_launch|_|1|Help the shelter! Box is in the kitchen. Be generous!
-6238|cd_give|_|0|*drops a note in the box*
-6239|cd_give|_|1|For the puppies.
-6240|cd_give|_|2|Here. Don't tell anyone how much.
-6241|cd_count|_|0|...That's odd. I'm sure there was more in here.
-6242|cd_count|_|1|Three hundred and— wait. Where did the big note go?
-6243|cd_record|_|0|We raised more than last year! Thank you, everyone!
-6244|cd_record|_|1|A record! The shelter's going to cry.
-6245|cd_accuse|_|0|Did you take money from the charity box, {suspect}?
-6246|cd_accuse|_|1|Some money's missing from the box. Anything you want to tell me?
-6247|cd_innocent|_|0|WHAT? No! I put money IN!
-6248|cd_innocent|_|1|Are you serious? From a SHELTER box?
-6249|cd_change|_|0|I... borrowed some change for the vending machine. I was going to put it back!
-6250|cd_change|_|1|Okay, okay — I took coins for the coffee machine. I'll pay double.
-6251|cd_found_it|_|0|...Oh. It was stuck under the flap. Never mind. Sorry.
-6252|cd_found_it|_|1|Wait — the note fell inside the lining. I'm an idiot.
-6253|bc2_announce|_|0|Bad news. HQ has cut our budget. Starting today: no more free coffee.
-6254|bc2_announce|_|1|Team. Budget cuts. The coffee machine is now... pay-per-cup.
-6255|bc2_gasp|_|0|WHAT?!
-6256|bc2_gasp|_|1|No coffee?! How are we supposed to WORK?
-6257|bc2_gasp|_|2|This is a human rights violation.
-6258|bc2_grumble|_|0|First the coffee. Next it'll be the chairs.
-6259|bc2_grumble|_|1|If the coffee goes, I go.
-6260|bc2_grumble|_|2|We need to DO something.
-6261|bc2_propose|_|0|Ahmet Bey, a proposal: we run a bake sale and fund the coffee ourselves.
-6262|bc2_propose|_|1|What if we pay for the beans and you keep the machine running?
-6263|bc2_accept|_|0|...A bake sale. Fine. Bring me a börek and we'll talk.
-6264|bc2_accept|_|1|Hm. Creative. Approved.
-6265|bc2_reject|_|0|No bake sales. This is a business, not a school fête.
-6266|bc2_reject|_|1|The budget is the budget.
-6267|sh_open|_|0|Homemade baklava! Five lira a slice. Don't tell Ahmet.
-6268|sh_open|_|1|*opens a drawer full of baklava* Business is open.
-6269|sh_buy|_|0|Two slices. No — three.
-6270|sh_buy|_|1|Shut up and take my money.
-6271|sh_buy|_|2|Is this pistachio? Give me the tray.
-6272|sh_boom|_|0|I'm taking orders for Friday. Trays only.
-6273|sh_boom|_|1|I've hired {runner} as my delivery person.
-6274|sh_caught|_|0|{seller}. Why does your desk smell like a pastry shop?
-6275|sh_caught|_|1|Is that... a PRICE LIST? On company paper?
-6276|sh_boss_buys|_|0|...How much for a whole tray? Asking for a client.
-6277|sh_boss_buys|_|1|Fine. Two trays for the board meeting. On the company card.
-6278|sh_shut|_|0|Close it. Today. You're paid to work, not to bake.
-6279|sh_shut|_|1|This is a workplace. Shut it down.
-6280|mc_crash|_|0|*CRASH* ...No. No no no. Not THE mug.
-6281|mc_crash|_|1|*picks up pieces of 'World's Best Boss'* I'm dead. I'm so dead.
-6282|mug_ask|_|0|I broke Ahmet's mug. THE mug. Help me.
-6283|mug_ask|_|1|Code red. The boss mug. In pieces. What do I do?
-6284|mc_help|_|0|Okay. Breathe. There's an identical one in the supply room. Probably.
-6285|mc_help|_|1|Leave it to me. I know a guy who knows a mug.
-6286|mc_confess_advice|_|0|Just tell him. He'll respect honesty. Probably.
-6287|mc_confess_advice|_|1|Tell him now, before he finds it.
-6288|mc_swap|_|0|*places a slightly-wrong replacement mug on Ahmet's desk* ...Perfect.
-6289|mc_swap|_|1|*swaps the mug* It says 'World's Best Bass'. He won't notice.
-6290|mc_bass|_|0|...'World's Best BASS'? Who swapped my mug?!
-6291|mc_bass|_|1|This is not my mug. My mug had a chip on the handle.
-6292|mc_fooled|_|0|*sips coffee happily from the wrong mug*
-6293|mc_fooled|_|1|Ahh. Nothing like my favourite mug.
-6294|mug_confess|_|0|Ahmet Bey... I broke your mug. I'm so sorry.
-6295|mug_confess|_|1|I have to confess something. It's about your mug.
-6296|mug_forgive|_|0|...That mug was a gift from my daughter. But thank you for telling me.
-6297|mug_forgive|_|1|Accidents happen. Thank you for being honest.
-6298|mc_upset|_|0|MY MUG?! Do you know how long I've had that mug?!
-6299|mc_upset|_|1|Twelve years. Twelve years that mug survived. Until you.
-6300|cr_challenge|_|0|You. Me. Office chairs. Corridor. Loser buys coffee for a week.
-6301|cr_challenge|_|1|I bet my chair is faster than yours.
-6302|cr_accept|_|0|Oh, you're going DOWN.
-6303|cr_accept|_|1|Name the time.
-6304|cr_go|_|0|Three... two... ONE!
-6305|cr_go|_|1|GO GO GO!
-6306|cr_go|_|2|*rolling at terrifying speed*
-6307|cr_cheer|_|0|GO {racer}!
-6308|cr_cheer|_|1|Faster! FASTER!
-6309|cr_cheer|_|2|My money's on {rival}!
-6310|cr_crash|_|0|*CRASH* ...I'm okay! The plant is not okay.
-6311|cr_crash|_|1|*spins into the water cooler*
-6312|cr_boss_ask|_|0|Why are there TYRE MARKS on my corridor?
-6313|cr_boss_ask|_|1|Was someone RACING CHAIRS in my office?
-6314|cr_boss_joins|_|0|...Rematch. Tomorrow. I'm racing. I was regional go-kart champion in '98.
-6315|cr_boss_joins|_|1|Hm. Where's the spare chair? I want a go.
-6316|cr_boss_bans|_|0|Chair racing is now officially banned. There will be a memo.
-6317|cr_boss_bans|_|1|Never again. Both of you. NEVER.
-6318|lp2_collect|_|0|Lottery pool! Ten lira each. If we win, nobody comes in Monday.
-6319|lp2_collect|_|1|Office lottery! In or out? Don't be the one who's left out when we win.
-6320|lp2_in|_|0|I'm in. Obviously.
-6321|lp2_in|_|1|Take my money. Take my hopes.
-6322|lp2_rumor|_|0|Did you hear? We WON. The lottery. I heard {organiser} on the phone!
-6323|lp2_rumor|_|1|We're RICH! {organiser} was screaming at their phone!
-6324|lp2_dreamer|_|0|That's it. I'm telling Ahmet what I REALLY think of his memos.
-6325|lp2_dreamer|_|1|I'm buying a boat. A big one. Bye, spreadsheets.
-6326|lp2_truth|_|0|Okay, everyone. We won. Forty lira. Total. Four lira each.
-6327|lp2_truth|_|1|Good news: we won! Bad news: it's enough for one simit each.
-6328|lp2_dreamer_crash|_|0|...Four lira. I told Ahmet his tie is ugly. FOR FOUR LIRA.
-6329|lp2_dreamer_crash|_|1|I already quit my gym. And insulted the boss. For a simit.
-6330|fp_assign|_|0|{a}, {b}: the quarterly report is yours. Together. By tomorrow.
-6331|fp_assign|_|1|New project. {a} and {b}. Make it work.
-6332|fp_groan|_|0|...Together?
-6333|fp_groan|_|1|With HIM? With HER?
-6334|fp_groan|_|2|Can I just do it alone? Twice?
-6335|fp_click|_|0|...Your chart is actually good.
-6336|fp_click|_|1|Okay. You do the numbers, I do the words. Deal?
-6337|fp_clash|_|0|That's not how you format a table!
-6338|fp_clash|_|1|Stop changing MY paragraphs!
-6339|fp_present|_|0|Here's the report. I did most of it.
-6340|fp_present|_|1|Our report. Mine, mostly.
-6341|fp_credit_fight|_|0|MOST of it?! I wrote every number in there!
-6342|fp_credit_fight|_|1|Excuse me?! Page three to nine are MINE.
-6343|fp_boss_good|_|0|This is excellent. Both of you. See? Teamwork.
-6344|fp_boss_good|_|1|Good work. Both of you. I knew it.
-6345|hq_warn|_|0|Listen up! HQ inspection TOMORROW. I want this office SPOTLESS.
-6346|hq_warn|_|1|Tomorrow, an inspector from HQ is coming. Clean. Everything.
-6347|hq_groan|_|0|Spotless? Have you SEEN {slob}'s desk?
-6348|hq_groan|_|1|We'll need a bulldozer for {slob}'s corner.
-6349|hq_clean|_|0|*scrubbing the keyboard with a toothbrush*
-6350|hq_clean|_|1|Is this... a sandwich from MARCH?
-6351|hq_clean|_|2|*shoves everything into a drawer*
-6352|hq_open_drawer|_|0|And what's in THIS drawer, {slob}?
-6353|hq_open_drawer|_|1|Open the drawer, {slob}. The inspector is watching.
-6354|hq_drawer_ok|_|0|...Neatly labelled folders. Huh. Well done.
-6355|hq_drawer_ok|_|1|Impressive. I take back what I said about your desk.
-6356|hq_avalanche|_|0|*an avalanche of crisp packets and old memos pours out*
-6357|hq_avalanche|_|1|*four months of receipts slide onto the inspector's shoes*
-6358|hq_result_good|_|0|The inspector's report is in: 'Exemplary office.' Well done, everyone!
-6359|hq_result_good|_|1|We PASSED. Pizza on me. Well, on the company.
-6360|hq_result_bad|_|0|The inspector's report says 'Needs improvement'. One drawer cost us everything.
-6361|hq_result_bad|_|1|We failed the inspection. I'm not naming names. {slob}.
-6362|na_lunch_round|_|0|Lunch? Kitchen table, five minutes.
-6363|na_lunch_round|_|1|Who's hungry? Kitchen table. Now.
-6364|na_lunch_chat|_|0|So then the waiter says—
-6365|na_lunch_chat|_|1|Did anyone watch the match?
-6366|na_lunch_chat|_|2|Pass the ayran, please.
-6367|na_weekend|_|0|So this weekend I accidentally joined a marathon.
-6368|na_weekend|_|1|Long story short: I'm banned from that IKEA.
-6369|na_weekend|_|2|My cat learned to open the fridge. We have a problem.
-6370|na_weekend_laugh|_|0|HAHA! No way!
-6371|na_weekend_laugh|_|1|Stop it. You did NOT.
-6372|na_weekend_laugh|_|2|That's the best thing I've heard all week.
-6373|na_weekend_bored|_|0|...Fascinating.
-6374|na_weekend_bored|_|1|Mm-hm. Mm-hm. Anyway—
-6375|na_weekend_bored|_|2|*nods politely, checks phone*
-6376|na_photo_show|_|0|Look! Look at this face! *shows a phone full of cat photos*
-6377|na_photo_show|_|1|Okay, one more photo. Just one. *shows forty*
-6378|na_photo_aww|_|0|Awwww! I need one!
-6379|na_photo_aww|_|1|That's the cutest thing I've ever seen.
-6380|na_brag|_|0|Closed three deals before lunch. Just saying.
-6381|na_brag|_|1|Ahmet called my report 'flawless'. His word.
-6382|na_counter|_|0|Three? Cute. I did four. Yesterday.
-6383|na_counter|_|1|Funny, he called mine 'exemplary'. That's better than flawless.
-6384|na_snitch|_|0|Ahmet Bey, I don't like to say this, but {rival}'s report went out with errors.
-6385|na_snitch|_|1|Small thing — {rival} missed the deadline again. Thought you should know.
-6386|na_snitch_boss|_|0|Hm. Thank you. I'll look into it.
-6387|na_snitch_boss|_|1|Is that so? Interesting.
-6388|na_snitch_caught|_|0|Did you just tell Ahmet about my report?!
-6389|na_snitch_caught|_|1|I heard that. Thanks a lot, {actor}.
-6390|na_territory|_|0|Is that YOUR stapler on MY side of the desk?
-6391|na_territory|_|1|Your plant is invading my keyboard.
-6392|na_territory_back|_|0|Your side? Since when is there a side?
-6393|na_territory_back|_|1|The plant goes where the light is.
-6394|na_promo_ask|_|0|Ahmet Bey, I think I'm ready for the team lead role.
-6395|na_promo_ask|_|1|I'd like to be considered for the promotion. Seriously considered.
-6396|na_promo_maybe|_|0|...Keep doing what you're doing. We'll see at the next review.
-6397|na_promo_maybe|_|1|I've noticed your work. Give me a few weeks.
-6398|na_promo_no|_|0|Not yet. You're not there yet.
-6399|na_promo_no|_|1|Ready? Let's talk again next year.
-6400|na_volunteer|_|0|I can take the Henderson file. I've got time.
-6401|na_volunteer|_|1|Need someone for the weekend report? I'll do it.
-6402|na_volunteer_thanks|_|0|See? THAT's the attitude I want.
-6403|na_volunteer_thanks|_|1|Excellent. Thank you.
-6404|na_teach|_|0|Ctrl+Shift+L. Trust me. It filters everything.
-6405|na_teach|_|1|You do that by hand?! Let me show you something.
-6406|na_teach_wow|_|0|...That just saved me two hours a week.
-6407|na_teach_wow|_|1|WHAT. Where has this been all my life?
-6408|na_checkin|_|0|Hey. You okay? You look like you need a break.
-6409|na_checkin|_|1|Rough day? Come get a tea with me.
-6410|na_checkin_open|_|0|...Honestly? Not great. Thanks for asking.
-6411|na_checkin_open|_|1|It's been a week. Tea sounds perfect.
-6412|na_checkin_closed|_|0|I'm fine. Really. Just busy.
-6413|na_checkin_closed|_|1|Thanks, but I'm okay.
+6244|cd_launch|_|0|Charity box in the kitchen! For the animal shelter. Every lira counts!
+6245|cd_launch|_|1|Help the shelter! Box is in the kitchen. Be generous!
+6246|cd_give|_|0|*drops a note in the box*
+6247|cd_give|_|1|For the puppies.
+6248|cd_give|_|2|Here. Don't tell anyone how much.
+6249|cd_count|_|0|...That's odd. I'm sure there was more in here.
+6250|cd_count|_|1|Three hundred and— wait. Where did the big note go?
+6251|cd_record|_|0|We raised more than last year! Thank you, everyone!
+6252|cd_record|_|1|A record! The shelter's going to cry.
+6253|cd_accuse|_|0|Did you take money from the charity box, {suspect}?
+6254|cd_accuse|_|1|Some money's missing from the box. Anything you want to tell me?
+6255|cd_innocent|_|0|WHAT? No! I put money IN!
+6256|cd_innocent|_|1|Are you serious? From a SHELTER box?
+6257|cd_change|_|0|I... borrowed some change for the vending machine. I was going to put it back!
+6258|cd_change|_|1|Okay, okay — I took coins for the coffee machine. I'll pay double.
+6259|cd_found_it|_|0|...Oh. It was stuck under the flap. Never mind. Sorry.
+6260|cd_found_it|_|1|Wait — the note fell inside the lining. I'm an idiot.
+6261|bc2_announce|_|0|Bad news. HQ has cut our budget. Starting today: no more free coffee.
+6262|bc2_announce|_|1|Team. Budget cuts. The coffee machine is now... pay-per-cup.
+6263|bc2_gasp|_|0|WHAT?!
+6264|bc2_gasp|_|1|No coffee?! How are we supposed to WORK?
+6265|bc2_gasp|_|2|This is a human rights violation.
+6266|bc2_grumble|_|0|First the coffee. Next it'll be the chairs.
+6267|bc2_grumble|_|1|If the coffee goes, I go.
+6268|bc2_grumble|_|2|We need to DO something.
+6269|bc2_propose|_|0|Ahmet Bey, a proposal: we run a bake sale and fund the coffee ourselves.
+6270|bc2_propose|_|1|What if we pay for the beans and you keep the machine running?
+6271|bc2_accept|_|0|...A bake sale. Fine. Bring me a börek and we'll talk.
+6272|bc2_accept|_|1|Hm. Creative. Approved.
+6273|bc2_reject|_|0|No bake sales. This is a business, not a school fête.
+6274|bc2_reject|_|1|The budget is the budget.
+6275|sh_open|_|0|Homemade baklava! Five lira a slice. Don't tell Ahmet.
+6276|sh_open|_|1|*opens a drawer full of baklava* Business is open.
+6277|sh_buy|_|0|Two slices. No — three.
+6278|sh_buy|_|1|Shut up and take my money.
+6279|sh_buy|_|2|Is this pistachio? Give me the tray.
+6280|sh_boom|_|0|I'm taking orders for Friday. Trays only.
+6281|sh_boom|_|1|I've hired {runner} as my delivery person.
+6282|sh_caught|_|0|{seller}. Why does your desk smell like a pastry shop?
+6283|sh_caught|_|1|Is that... a PRICE LIST? On company paper?
+6284|sh_boss_buys|_|0|...How much for a whole tray? Asking for a client.
+6285|sh_boss_buys|_|1|Fine. Two trays for the board meeting. On the company card.
+6286|sh_shut|_|0|Close it. Today. You're paid to work, not to bake.
+6287|sh_shut|_|1|This is a workplace. Shut it down.
+6288|mc_crash|_|0|*CRASH* ...No. No no no. Not THE mug.
+6289|mc_crash|_|1|*picks up pieces of 'World's Best Boss'* I'm dead. I'm so dead.
+6290|mug_ask|_|0|I broke Ahmet's mug. THE mug. Help me.
+6291|mug_ask|_|1|Code red. The boss mug. In pieces. What do I do?
+6292|mc_help|_|0|Okay. Breathe. There's an identical one in the supply room. Probably.
+6293|mc_help|_|1|Leave it to me. I know a guy who knows a mug.
+6294|mc_confess_advice|_|0|Just tell him. He'll respect honesty. Probably.
+6295|mc_confess_advice|_|1|Tell him now, before he finds it.
+6296|mc_swap|_|0|*places a slightly-wrong replacement mug on Ahmet's desk* ...Perfect.
+6297|mc_swap|_|1|*swaps the mug* It says 'World's Best Bass'. He won't notice.
+6298|mc_bass|_|0|...'World's Best BASS'? Who swapped my mug?!
+6299|mc_bass|_|1|This is not my mug. My mug had a chip on the handle.
+6300|mc_fooled|_|0|*sips coffee happily from the wrong mug*
+6301|mc_fooled|_|1|Ahh. Nothing like my favourite mug.
+6302|mug_confess|_|0|Ahmet Bey... I broke your mug. I'm so sorry.
+6303|mug_confess|_|1|I have to confess something. It's about your mug.
+6304|mug_forgive|_|0|...That mug was a gift from my daughter. But thank you for telling me.
+6305|mug_forgive|_|1|Accidents happen. Thank you for being honest.
+6306|mc_upset|_|0|MY MUG?! Do you know how long I've had that mug?!
+6307|mc_upset|_|1|Twelve years. Twelve years that mug survived. Until you.
+6308|cr_challenge|_|0|You. Me. Office chairs. Corridor. Loser buys coffee for a week.
+6309|cr_challenge|_|1|I bet my chair is faster than yours.
+6310|cr_accept|_|0|Oh, you're going DOWN.
+6311|cr_accept|_|1|Name the time.
+6312|cr_go|_|0|Three... two... ONE!
+6313|cr_go|_|1|GO GO GO!
+6314|cr_go|_|2|*rolling at terrifying speed*
+6315|cr_cheer|_|0|GO {racer}!
+6316|cr_cheer|_|1|Faster! FASTER!
+6317|cr_cheer|_|2|My money's on {rival}!
+6318|cr_crash|_|0|*CRASH* ...I'm okay! The plant is not okay.
+6319|cr_crash|_|1|*spins into the water cooler*
+6320|cr_boss_ask|_|0|Why are there TYRE MARKS on my corridor?
+6321|cr_boss_ask|_|1|Was someone RACING CHAIRS in my office?
+6322|cr_boss_joins|_|0|...Rematch. Tomorrow. I'm racing. I was regional go-kart champion in '98.
+6323|cr_boss_joins|_|1|Hm. Where's the spare chair? I want a go.
+6324|cr_boss_bans|_|0|Chair racing is now officially banned. There will be a memo.
+6325|cr_boss_bans|_|1|Never again. Both of you. NEVER.
+6326|lp2_collect|_|0|Lottery pool! Ten lira each. If we win, nobody comes in Monday.
+6327|lp2_collect|_|1|Office lottery! In or out? Don't be the one who's left out when we win.
+6328|lp2_in|_|0|I'm in. Obviously.
+6329|lp2_in|_|1|Take my money. Take my hopes.
+6330|lp2_rumor|_|0|Did you hear? We WON. The lottery. I heard {organiser} on the phone!
+6331|lp2_rumor|_|1|We're RICH! {organiser} was screaming at their phone!
+6332|lp2_dreamer|_|0|That's it. I'm telling Ahmet what I REALLY think of his memos.
+6333|lp2_dreamer|_|1|I'm buying a boat. A big one. Bye, spreadsheets.
+6334|lp2_truth|_|0|Okay, everyone. We won. Forty lira. Total. Four lira each.
+6335|lp2_truth|_|1|Good news: we won! Bad news: it's enough for one simit each.
+6336|lp2_dreamer_crash|_|0|...Four lira. I told Ahmet his tie is ugly. FOR FOUR LIRA.
+6337|lp2_dreamer_crash|_|1|I already quit my gym. And insulted the boss. For a simit.
+6338|fp_assign|_|0|{a}, {b}: the quarterly report is yours. Together. By tomorrow.
+6339|fp_assign|_|1|New project. {a} and {b}. Make it work.
+6340|fp_groan|_|0|...Together?
+6341|fp_groan|_|1|With HIM? With HER?
+6342|fp_groan|_|2|Can I just do it alone? Twice?
+6343|fp_click|_|0|...Your chart is actually good.
+6344|fp_click|_|1|Okay. You do the numbers, I do the words. Deal?
+6345|fp_clash|_|0|That's not how you format a table!
+6346|fp_clash|_|1|Stop changing MY paragraphs!
+6347|fp_present|_|0|Here's the report. I did most of it.
+6348|fp_present|_|1|Our report. Mine, mostly.
+6349|fp_credit_fight|_|0|MOST of it?! I wrote every number in there!
+6350|fp_credit_fight|_|1|Excuse me?! Page three to nine are MINE.
+6351|fp_boss_good|_|0|This is excellent. Both of you. See? Teamwork.
+6352|fp_boss_good|_|1|Good work. Both of you. I knew it.
+6353|hq_warn|_|0|Listen up! HQ inspection TOMORROW. I want this office SPOTLESS.
+6354|hq_warn|_|1|Tomorrow, an inspector from HQ is coming. Clean. Everything.
+6355|hq_groan|_|0|Spotless? Have you SEEN {slob}'s desk?
+6356|hq_groan|_|1|We'll need a bulldozer for {slob}'s corner.
+6357|hq_clean|_|0|*scrubbing the keyboard with a toothbrush*
+6358|hq_clean|_|1|Is this... a sandwich from MARCH?
+6359|hq_clean|_|2|*shoves everything into a drawer*
+6360|hq_open_drawer|_|0|And what's in THIS drawer, {slob}?
+6361|hq_open_drawer|_|1|Open the drawer, {slob}. The inspector is watching.
+6362|hq_drawer_ok|_|0|...Neatly labelled folders. Huh. Well done.
+6363|hq_drawer_ok|_|1|Impressive. I take back what I said about your desk.
+6364|hq_avalanche|_|0|*an avalanche of crisp packets and old memos pours out*
+6365|hq_avalanche|_|1|*four months of receipts slide onto the inspector's shoes*
+6366|hq_result_good|_|0|The inspector's report is in: 'Exemplary office.' Well done, everyone!
+6367|hq_result_good|_|1|We PASSED. Pizza on me. Well, on the company.
+6368|hq_result_bad|_|0|The inspector's report says 'Needs improvement'. One drawer cost us everything.
+6369|hq_result_bad|_|1|We failed the inspection. I'm not naming names. {slob}.
+6370|na_lunch_round|_|0|Lunch? Kitchen table, five minutes.
+6371|na_lunch_round|_|1|Who's hungry? Kitchen table. Now.
+6372|na_lunch_chat|_|0|So then the waiter says—
+6373|na_lunch_chat|_|1|Did anyone watch the match?
+6374|na_lunch_chat|_|2|Pass the ayran, please.
+6375|na_weekend|_|0|So this weekend I accidentally joined a marathon.
+6376|na_weekend|_|1|Long story short: I'm banned from that IKEA.
+6377|na_weekend|_|2|My cat learned to open the fridge. We have a problem.
+6378|na_weekend_laugh|_|0|HAHA! No way!
+6379|na_weekend_laugh|_|1|Stop it. You did NOT.
+6380|na_weekend_laugh|_|2|That's the best thing I've heard all week.
+6381|na_weekend_bored|_|0|...Fascinating.
+6382|na_weekend_bored|_|1|Mm-hm. Mm-hm. Anyway—
+6383|na_weekend_bored|_|2|*nods politely, checks phone*
+6384|na_photo_show|_|0|Look! Look at this face! *shows a phone full of cat photos*
+6385|na_photo_show|_|1|Okay, one more photo. Just one. *shows forty*
+6386|na_photo_aww|_|0|Awwww! I need one!
+6387|na_photo_aww|_|1|That's the cutest thing I've ever seen.
+6388|na_brag|_|0|Closed three deals before lunch. Just saying.
+6389|na_brag|_|1|Ahmet called my report 'flawless'. His word.
+6390|na_counter|_|0|Three? Cute. I did four. Yesterday.
+6391|na_counter|_|1|Funny, he called mine 'exemplary'. That's better than flawless.
+6392|na_snitch|_|0|Ahmet Bey, I don't like to say this, but {rival}'s report went out with errors.
+6393|na_snitch|_|1|Small thing — {rival} missed the deadline again. Thought you should know.
+6394|na_snitch_boss|_|0|Hm. Thank you. I'll look into it.
+6395|na_snitch_boss|_|1|Is that so? Interesting.
+6396|na_snitch_caught|_|0|Did you just tell Ahmet about my report?!
+6397|na_snitch_caught|_|1|I heard that. Thanks a lot, {actor}.
+6398|na_territory|_|0|Is that YOUR stapler on MY side of the desk?
+6399|na_territory|_|1|Your plant is invading my keyboard.
+6400|na_territory_back|_|0|Your side? Since when is there a side?
+6401|na_territory_back|_|1|The plant goes where the light is.
+6402|na_promo_ask|_|0|Ahmet Bey, I think I'm ready for the team lead role.
+6403|na_promo_ask|_|1|I'd like to be considered for the promotion. Seriously considered.
+6404|na_promo_maybe|_|0|...Keep doing what you're doing. We'll see at the next review.
+6405|na_promo_maybe|_|1|I've noticed your work. Give me a few weeks.
+6406|na_promo_no|_|0|Not yet. You're not there yet.
+6407|na_promo_no|_|1|Ready? Let's talk again next year.
+6408|na_volunteer|_|0|I can take the Henderson file. I've got time.
+6409|na_volunteer|_|1|Need someone for the weekend report? I'll do it.
+6410|na_volunteer_thanks|_|0|See? THAT's the attitude I want.
+6411|na_volunteer_thanks|_|1|Excellent. Thank you.
+6412|na_teach|_|0|Ctrl+Shift+L. Trust me. It filters everything.
+6413|na_teach|_|1|You do that by hand?! Let me show you something.
+6414|na_teach_wow|_|0|...That just saved me two hours a week.
+6415|na_teach_wow|_|1|WHAT. Where has this been all my life?
+6416|na_checkin|_|0|Hey. You okay? You look like you need a break.
+6417|na_checkin|_|1|Rough day? Come get a tea with me.
+6418|na_checkin_open|_|0|...Honestly? Not great. Thanks for asking.
+6419|na_checkin_open|_|1|It's been a week. Tea sounds perfect.
+6420|na_checkin_closed|_|0|I'm fine. Really. Just busy.
+6421|na_checkin_closed|_|1|Thanks, but I'm okay.

@@ -13,7 +13,7 @@ S = json.load(open(os.path.join(ROOT, "data", "lang", "en.json"), encoding="utf-
 D = json.load(open(os.path.join(ROOT, "data", "dialogue_en.json"), encoding="utf-8"))
 
 ORDER = ["ui", "title", "paper", "journal", "cat", "tab", "spot", "state", "opt", "why", "rel", "mood", "emo", "stat", "bond",
-         "plan", "doing", "loc", "what", "topic", "item", "obj", "office", "goal", "task", "fact", "rumor", "char", "wall", "board",
+         "plan", "doing", "loc", "what", "topic", "item", "obj", "office", "goal", "task", "fact", "rumor", "name", "char", "wall", "board",
          "act", "iv", "arc", "log", "mem"]
 
 

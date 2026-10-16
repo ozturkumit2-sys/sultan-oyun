@@ -76,7 +76,7 @@ func _build() -> void:
 		for ls in lab:
 			lx = maxf(lx, 72.0 + hf.get_string_size(ls, HORIZONTAL_ALIGNMENT_LEFT, -1, 19).x + 12.0)
 		ms.draw_string(hf, Vector2(72, 26), lab[0], HORIZONTAL_ALIGNMENT_LEFT, -1, 19, Color(0.3, 0.3, 0.35))
-		ms.draw_string(UiKit.font("marker"), Vector2(lx, 28), Loc.t(nn.mood_word()), HORIZONTAL_ALIGNMENT_LEFT, ms.size.x - lx - 8, 24, UiKit.INK)
+		ms.draw_string(UiKit.font("marker"), Vector2(lx, 28), Loc.t(nn.mood_word(), {"me": nn.name}), HORIZONTAL_ALIGNMENT_LEFT, ms.size.x - lx - 8, 24, UiKit.INK)
 		ms.draw_string(hf, Vector2(72, 62), lab[1], HORIZONTAL_ALIGNMENT_LEFT, -1, 19, Color(0.3, 0.3, 0.35))
 		UiKit.draw_scribble_bar(ms, Rect2(lx, 48, ms.size.x - lx - 20, 16), nn.stress / 100.0, UiKit.RED if nn.stress > 60 else Color("f4a261"))
 		ms.draw_string(hf, Vector2(72, 96), lab[2], HORIZONTAL_ALIGNMENT_LEFT, -1, 19, Color(0.3, 0.3, 0.35))
@@ -109,13 +109,13 @@ func _build() -> void:
 	if mems.is_empty():
 		v.add_child(Sheet.label(Loc.t("ui.no_memories"), 20, "type", Color(0.4, 0.4, 0.45)))
 	for m in mems:
-		var txt := w.memory_text(m)
+		var txt := w.memory_text(m, n.id)
 		if txt == "":
 			continue
 		var tags: Array = [Loc.t("ui.day_short", {"day": int(m["day"])})]
 		var emo := str(m.get("emo", ""))
 		if emo != "" and Loc.t("emo." + emo) != "":
-			tags.append(Loc.t("emo." + emo))
+			tags.append(Loc.t("emo." + emo, {"me": n.name}))
 		var cert := float(m.get("cert", 1.0))
 		if str(m.get("src", "")) == "heard" or cert < 0.8:
 			tags.append(Loc.t("ui.mem_heard") if cert >= 0.5 else Loc.t("ui.mem_doubt"))
@@ -149,13 +149,13 @@ func _ties(n: NPC) -> Array:
 	var r: Array = []
 	for kind in ["romance", "alliance", "feud", "mentor"]:
 		for other in w.bonds_of(n.id, kind):
-			r.append(Loc.t("bond." + kind, {"name": w.npc(other).name}))
+			r.append(Loc.t("bond." + kind, {"name": w.npc(other).name, "me": n.name}))
 	for p in n.plans:
 		var tgt: String = p.get("target", "")
 		var nm: String = w.npc(tgt).name if w.npc(tgt) != null else ""
 		var key := "plan." + str(p["kind"])
 		if Loc.has(key):
-			r.append(Loc.t(key, {"name": nm}))
+			r.append(Loc.t(key, {"name": nm, "me": n.name}))
 	return r
 
 

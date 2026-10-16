@@ -54,9 +54,9 @@ def check(code, tr):
     for i, t in tr.items():
         u = by_id[i]
         en = u["en"]
-        allowed = set(names(en))
+        allowed = set(names(en)) | {"me"}
         if u["key"].startswith("D|"):
-            allowed |= {"me", "to"}
+            allowed |= {"to"}
         tag = "%s #%d (%s)" % (code, i, u["key"])
         if t.strip() == "":
             errs.append(tag + ": empty")
@@ -65,6 +65,8 @@ def check(code, tr):
             n, case = m.group(1), m.group(2)
             if n not in allowed:
                 errs.append("%s: unknown placeholder {%s}" % (tag, m.group(0)[1:-1]))
+            if n in ("me", "to") and n not in names(en) and m.group(3) is None and not u["key"].startswith("D|"):
+                errs.append("%s: {%s} can only choose a word by gender here ({%s?..|..})" % (tag, n, n))
             if case and case not in CASES.get(code, set()):
                 errs.append("%s: grammar tag ':%s' not available in %s" % (tag, case, code))
         rest = PH.sub("", t)

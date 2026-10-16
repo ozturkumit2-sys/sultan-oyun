@@ -1,244 +1,247 @@
-3072|ceren_snitch|_|0|You should probably know... {gossip}
-3073|ceren_snitch|_|1|One more thing: {gossip}
-3074|deniz_suckup|_|0|Great tie today, sir.
-3075|deniz_suckup|_|1|Sir, I had a few ideas about the quarterly plan...
-3076|deniz_suckup|_|2|Have I mentioned how much I admire your leadership?
-3077|deniz_snitch|_|0|Between us, sir... {gossip}
-3078|deniz_snitch|_|1|I thought you should know: {gossip}
-3079|deniz_snitch|_|2|I hate to say it, but {gossip}
-3080|boss_pleased|_|0|Good, Deniz. Good.
-3081|boss_pleased|_|1|I like your attitude.
-3082|boss_pleased|_|2|Keep it up.
-3083|boss_too_ambitious|_|0|Less talking, more working, Deniz.
-3084|boss_too_ambitious|_|1|Your ambition is showing.
-3085|boss_too_ambitious|_|2|Is there anything else?
-3086|boss_check_good|_|0|Good. Keep going.
-3087|boss_check_good|_|1|Nice progress.
-3088|boss_check_good|_|2|That's what I like to see.
-3089|thanks_boss|_|0|Thank you, sir.
-3090|thanks_boss|_|1|Thanks!
-3091|boss_check_idle|_|0|Is this a holiday?
-3092|boss_check_idle|_|1|Shouldn't you be working?
-3093|boss_check_idle|_|2|I pay you to work, not to chat.
-3094|idle_excuse|_|0|Just a quick break!
-3095|idle_excuse|_|1|I was just going back!
-3096|idle_excuse|_|2|It's work-related! Sort of.
-3097|boss_check_nag|_|0|How's it coming along?
-3098|boss_check_nag|_|1|Deadline's today, right?
-3099|boss_check_nag|_|2|Don't forget the report.
-3100|yes_boss|_|0|Yes, sir.
-3101|yes_boss|_|1|On it!
-3102|yes_boss|_|2|Almost done!
-3103|stress_vent|_|0|I can't take this place anymore.
-3104|stress_vent|_|1|Is it just me or is today a nightmare?
-3105|stress_vent|_|2|I need a vacation. Or a new life.
-3106|comfort|_|0|Hey, you've got this.
-3107|comfort|_|1|Deep breaths. It'll be okay.
-3108|comfort|_|2|Want me to grab you a coffee?
-3109|not_now|_|0|Not now, I'm drowning too.
-3110|not_now|_|1|Can we talk later?
-3111|not_now|_|2|I have my own problems.
-3112|deadline_panic|_|0|I'm never going to finish in time!
-3113|deadline_panic|_|1|Deadline in an hour and I'm halfway done!
-3114|deadline_panic|_|2|Help. Someone. Anyone.
-3115|deadline_panic|mert|0|Why did I leave this to the last minute? Again?
-3116|deadline_alone|_|0|Fine. Me and caffeine against the world.
-3117|deadline_alone|_|1|Nobody's coming. Okay.
-3118|offer_help_work|_|0|Need a hand?
-3119|offer_help_work|_|1|I'll take half of that.
-3120|offer_help_work|_|2|Give me those, I'll help.
-3121|accept_help_work|_|0|You'd do that? Thank you!
-3122|accept_help_work|_|1|I didn't expect you of all people... thank you.
-3123|accept_help_work|_|2|You're saving my life.
-3124|deadline_missed_line|_|0|And... I missed the deadline.
-3125|deadline_missed_line|_|1|Well, that's late now.
-3126|deadline_missed_line|_|2|Too late. Great.
-3127|late_morning|_|0|Morning! Was I late? I wasn't late.
-3128|late_morning|_|1|Traffic was insane!
-3129|late_morning|_|2|Am I late? Don't answer that.
-3130|late_morning|mert|0|The bus was late. And then I was late. Circle of life.
-3131|boss_late_morning|_|0|Good AFTERNOON.
-3132|boss_late_morning|_|1|Look who decided to come to work.
-3133|boss_late_morning|_|2|Do you know what time it is?
-3134|ghost_theory|_|0|I'm telling you, this office is haunted.
-3135|ghost_theory|_|1|Things keep moving by themselves. Explain THAT.
-3136|ghost_theory|_|2|There's something in this office. Something... invisible.
-3137|ghost_reply|_|0|Don't say that! I have to stay late!
-3138|ghost_reply|_|1|Ghosts aren't real. ...Right?
-3139|ghost_reply|_|2|Okay, now I'm not sleeping tonight.
-3140|accuse_lunch|_|0|Did you eat my lunch? Be honest.
-3141|accuse_lunch|_|1|My lunch is gone and you were in the kitchen.
-3142|accuse_lunch|_|2|You ate my börek, didn't you.
-3143|kg_psst|_|0|Psst. {target}. Kitchen. Now.
-3144|kg_psst|_|1|{target}! Coffee? I have NEWS.
-3145|kg_psst|_|2|Got a minute, {target}? Not here though.
-3146|kg_psst|zeynep|0|{target}, kitchen. You'll want to sit down for this.
-3147|kg_psst|zeynep|1|Oh {target}, you have NO idea what I just heard.
-3148|kg_psst|mert|0|{target}! Kitchen summit, two minutes.
-3149|gossip_tell_unsure|_|0|I'm not a hundred percent sure, but... {gossip}
-3150|gossip_tell_unsure|_|1|Don't quote me, but apparently: {gossip}
-3151|gossip_tell_unsure|_|2|I only heard it secondhand, but — {gossip}
-3152|gossip_tell_unsure|zeynep|0|My source is... let's say semi-reliable. {gossip}
-3153|gossip_tell_unsure|ece|0|I might have heard wrong! But... {gossip}
-3154|gossip_tell_spicy|_|0|And it's worse than you think: {gossip}
-3155|gossip_tell_spicy|_|1|Okay, so — {gossip} I KNOW.
-3156|gossip_tell_spicy|zeynep|0|You didn't hear it from me, but {gossip}
-3157|gossip_tell_spicy|zeynep|1|Brace yourself. {gossip}
-3158|gossip_doubt|_|0|Hm. Are you sure about that?
-3159|gossip_doubt|_|1|That sounds made up.
-3160|gossip_doubt|_|2|I'll believe it when I see it.
-3161|gossip_doubt|ceren|0|Let's not repeat that until we know it's true.
-3162|gossip_doubt|selin|0|Gossip isn't evidence.
-3163|gossip_doubt|burak|0|Source?
-3164|paranoid_think|_|0|...Why did they stop talking when I walked in?
-3165|paranoid_think|_|1|Are they whispering about ME?
-3166|paranoid_think|_|2|Hmm. Suspicious huddle.
-3167|were_you_talking_about_me|_|0|Were you two talking about me?
-3168|were_you_talking_about_me|_|1|What was all that whispering about?
-3169|were_you_talking_about_me|_|2|If you have something to say, say it to my face.
-3170|were_you_talking_about_me|selin|0|I saw you whispering. About me?
-3171|were_you_talking_about_me|burak|0|You went quiet when I came in. Why?
-3172|caught_gossiping|_|0|Uh... no? Weather. We were talking about the weather.
-3173|caught_gossiping|_|1|What? No! ...Okay, maybe a little.
-3174|caught_gossiping|zeynep|0|Darling, I talk about EVERYONE. Don't take it personally.
-3175|paranoid_furious|_|0|Unbelievable. Behind my back?!
-3176|paranoid_furious|_|1|I knew it.
-3177|paranoid_furious|_|2|Keep my name out of your mouth.
-3178|not_about_you|_|0|Relax! We were talking about football.
-3179|not_about_you|_|1|It wasn't about you, I promise!
-3180|not_about_you|_|2|Not everything is about you.
-3181|not_about_you|mert|0|We were debating kebab places. Life or death stuff.
-3182|paranoid_relief|_|0|Oh. Right. Sorry.
-3183|paranoid_relief|_|1|...Okay. I'm just tired.
-3184|paranoid_relief|_|2|Fine. Carry on.
-3185|overheard_self|_|0|Excuse me?! I can HEAR you.
-3186|overheard_self|_|1|Wow. I'm standing right here.
-3187|overheard_self|_|2|That's about me, isn't it.
-3188|overheard_self|selin|0|Say it louder, I don't think the whole floor heard.
-3189|overheard_self|ahmet|0|Is that what you think? In MY office?
-3190|busted_sorry|_|0|Oh no. I didn't — sorry.
-3191|busted_sorry|_|1|That came out wrong!
-3192|busted_sorry|_|2|...How long have you been there?
-3193|rumor_check_think|_|0|I keep hearing things about {target}. I should just ask.
-3194|rumor_check_think|_|1|Is that rumour about {target} even true?
-3195|is_it_true|_|0|Can I ask you something? People are saying: {fact} Is that true?
-3196|is_it_true|_|1|{target}, is it true that... well. {fact}
-3197|is_it_true|_|2|Tell me straight: {fact}
-3198|is_it_true|ceren|0|I'd rather hear it from you than from the kitchen: {fact}
-3199|is_it_true|ece|0|Sorry if this is weird but — {fact} Is it true?
-3200|rumor_admit|_|0|...Yes. It's true. Happy?
-3201|rumor_admit|_|1|Ugh. Okay, yes. Please keep it quiet.
-3202|rumor_admit|_|2|Fine. It's true.
-3203|rumor_admit|burak|0|Yes. And I'd appreciate discretion.
-3204|rumor_false|_|0|WHAT? That's completely false!
-3205|rumor_false|_|1|Who on earth is saying that?!
-3206|rumor_false|_|2|Absolutely not. Where did you hear that?
-3207|rumor_false|selin|0|That is a lie, and I want to know who started it.
-3208|rumor_false|ahmet|0|Nonsense! Who's spreading this?
-3209|rumor_lie|_|0|Pfft. No. Of course not.
-3210|rumor_lie|_|1|Me? Never. Ridiculous.
-3211|rumor_lie|_|2|Haha. No. Next question.
-3212|rumor_lie|deniz|0|Do I look like someone who'd do that?
-3213|rumor_relief|_|0|Phew. I knew it sounded off.
-3214|rumor_relief|_|1|Good. I didn't believe it anyway.
-3215|rumor_relief|_|2|Okay, I'll set people straight.
-3216|who_started_it|_|0|Right. Who started this?
-3217|who_started_it|_|1|I'm going to find whoever made that up.
-3218|who_started_it|_|2|Someone's been talking. I'll find out who.
-3219|you_spread_lies|_|0|I hear you've been telling people {fact} It's a lie.
-3220|you_spread_lies|_|1|Did you tell people that {fact} Because it's NOT true.
-3221|you_spread_lies|_|2|Stop spreading rumours about me.
-3222|you_spread_lies|selin|0|You spread a lie about me. I'd like an explanation.
-3223|you_spread_lies|ahmet|0|You've been spreading false stories about me?
-3224|liar_apology|_|0|I... heard it somewhere. I'm sorry.
-3225|liar_apology|_|1|You're right. I shouldn't have repeated it.
-3226|liar_apology|_|2|Sorry. I got carried away.
-3227|liar_apology|ece|0|I'm so sorry! I thought it was true!
-3228|liar_deny|_|0|Me? I never said that.
-3229|liar_deny|_|1|Don't look at me. Ask around.
-3230|liar_deny|_|2|Wasn't me. I just listen.
-3231|liar_deny|zeynep|0|I merely... relay information.
-3232|liar_defiant|_|0|Well, everyone's saying it.
-3233|liar_defiant|_|1|If the shoe fits...
-3234|liar_defiant|_|2|Maybe if you weren't so suspicious...
-3235|misheard_think|_|0|Wait... did {target} just say {victim} is getting fired?!
-3236|misheard_think|_|1|Did I hear that right? {victim}... fired?!
-3237|misheard_think|_|2|Oh my god. {victim}'s days are numbered?
-3238|misheard_think|zeynep|0|Ooh. Ooh! {victim} is OUT? This is big.
-3239|suck_up_line|_|0|Ahmet Bey! Great tie today. Very... leadership.
-3240|suck_up_line|_|1|Brought you a coffee. The way you like it.
-3241|suck_up_line|_|2|Your speech yesterday really inspired me.
-3242|suck_up_line|deniz|0|Ahmet Bey, I took the liberty of summarising the market for you. One page. Bold font.
-3243|suck_up_line|ece|0|Uncle— Ahmet Bey! I made you tea!
-3244|boss_flattered|_|0|Hm. Good. Good man.
-3245|boss_flattered|_|1|That's the attitude I like to see.
-3246|boss_flattered|_|2|Finally, someone with initiative.
-3247|boss_sees_through|_|0|What do you want?
-3248|boss_sees_through|_|1|Flattery won't finish your report.
-3249|boss_sees_through|_|2|Back to work.
-3250|eye_roll|_|0|*eye roll*
-3251|eye_roll|_|1|Oh, please.
-3252|eye_roll|_|2|Subtle. Very subtle.
-3253|eye_roll|_|3|Somebody get a mop for all that sucking up.
-3254|eye_roll|mert|0|Brown-nose of the month award goes to...
-3255|eye_roll|selin|0|Unbelievable.
-3256|raise_ask|_|0|Ahmet Bey, can we talk about my salary?
-3257|raise_ask|_|1|I think it's time we discussed a raise.
-3258|raise_ask|_|2|I've been here long enough. I'd like a raise.
-3259|raise_ask|zeynep|0|I balance this company's books. I'd like mine balanced too.
-3260|raise_ask|burak|0|I fix everything here. I want that reflected in my pay.
-3261|raise_yes|_|0|...Fine. You've earned it. Don't tell anyone.
-3262|raise_yes|_|1|Alright. A small one. Keep it quiet.
-3263|raise_later|_|0|Next quarter. We'll see.
-3264|raise_later|_|1|Not now. Budgets are tight.
-3265|raise_later|_|2|Remind me in spring.
-3266|raise_no|_|0|A raise? In THIS economy?
-3267|raise_no|_|1|Absolutely not. Back to work.
-3268|raise_no|_|2|You should be grateful you have a job.
-3269|raise_happy|_|0|Thank you! Really!
-3270|raise_happy|_|1|Finally!
-3271|raise_happy|zeynep|0|Pleasure doing business.
-3272|raise_bitter|_|0|...Of course.
-3273|raise_bitter|_|1|Right. Spring. Sure.
-3274|raise_bitter|_|2|Unbelievable.
-3275|raise_bitter|burak|0|Noted. Very noted.
-3276|think_raise|_|0|Today's the day. I'm asking.
-3277|think_raise|_|1|Deep breath. Raise. You can do this.
-3278|hover_line|_|0|Mm-hm. And what's this?
-3279|hover_line|_|1|You type very slowly.
-3280|hover_line|_|2|Is that a spreadsheet or modern art?
-3281|hover_line|_|3|I'm just watching. Pretend I'm not here.
-3282|hover_nervous|_|0|...I'm almost done.
-3283|hover_nervous|_|1|Right. Yes. Faster. Yes.
-3284|hover_nervous|_|2|*types extremely fast*
-3285|hover_nervous|ece|0|I promise I know what I'm doing! Mostly!
-3286|hover_snap|_|0|Could you please NOT stand over my shoulder?
-3287|hover_snap|_|1|I work better without an audience.
-3288|hover_snap|_|2|Do you need something, or...?
-3289|hover_snap|burak|0|Breathing on my neck doesn't make the server faster.
-3290|hover_charm|_|0|Want me to make the font bigger for you, boss?
-3291|hover_charm|_|1|This is my good side. Take a photo.
-3292|hover_charm|mert|0|You're welcome to join the sales call! Bring snacks.
-3293|boss_hmph|_|0|Hmph. Carry on.
-3294|boss_hmph|_|1|Watch the attitude.
-3295|boss_hmph|_|2|...Fine.
-3296|boss_chuckle|_|0|Ha! Cheeky. Carry on.
-3297|boss_chuckle|_|1|Hah. Get back to it.
-3298|dump_work|_|0|I need this report by end of day. Urgent.
-3299|dump_work|_|1|Drop everything. HQ wants numbers. Today.
-3300|dump_work|_|2|Here. This is yours now. By five.
-3301|dump_accept|_|0|...Sure. Of course.
-3302|dump_accept|_|1|I'll stay late. Fine.
-3303|dump_accept|_|2|Okay. No problem. Big problem. Okay.
-3304|dump_push_back|_|0|By five? That's impossible.
-3305|dump_push_back|_|1|I'm already drowning, Ahmet Bey.
-3306|dump_push_back|_|2|Can it wait until tomorrow? Please?
-3307|boss_not_negotiable|_|0|It's not a request.
-3308|boss_not_negotiable|_|1|Five o'clock. Final.
-3309|boss_not_negotiable|_|2|Everyone's busy. Do it anyway.
-3310|pass_the_buck|_|0|{to}! Great learning opportunity for you!
-3311|pass_the_buck|_|1|{to}, you're good with numbers, right?
-3312|pass_the_buck|deniz|0|{to}, this will look great on your CV.
-3313|buck_taken|_|0|Oh! Sure! I'll... figure it out!
-3314|buck_taken|_|1|Um. Okay. How hard can it be?
-3315|buck_taken|burak|0|...Fine. Again.
+3074|ceren_brief|_|0|Your schedule for today, sir.
+3075|ceren_brief|_|1|A few updates for you.
+3076|ceren_brief|_|2|Quick briefing, sir.
+3077|boss_brief_reply|_|0|Good. Thank you.
+3078|boss_brief_reply|_|1|Keep me informed.
+3079|boss_brief_reply|_|2|Mm-hm.
+3080|ceren_snitch|_|0|You should probably know... {gossip}
+3081|ceren_snitch|_|1|One more thing: {gossip}
+3082|deniz_suckup|_|0|Great tie today, sir.
+3083|deniz_suckup|_|1|Sir, I had a few ideas about the quarterly plan...
+3084|deniz_suckup|_|2|Have I mentioned how much I admire your leadership?
+3085|deniz_snitch|_|0|Between us, sir... {gossip}
+3086|deniz_snitch|_|1|I thought you should know: {gossip}
+3087|deniz_snitch|_|2|I hate to say it, but {gossip}
+3088|boss_pleased|_|0|Good, Deniz. Good.
+3089|boss_pleased|_|1|I like your attitude.
+3090|boss_pleased|_|2|Keep it up.
+3091|boss_too_ambitious|_|0|Less talking, more working, Deniz.
+3092|boss_too_ambitious|_|1|Your ambition is showing.
+3093|boss_too_ambitious|_|2|Is there anything else?
+3094|boss_check_good|_|0|Good. Keep going.
+3095|boss_check_good|_|1|Nice progress.
+3096|boss_check_good|_|2|That's what I like to see.
+3097|thanks_boss|_|0|Thank you, sir.
+3098|thanks_boss|_|1|Thanks!
+3099|boss_check_idle|_|0|Is this a holiday?
+3100|boss_check_idle|_|1|Shouldn't you be working?
+3101|boss_check_idle|_|2|I pay you to work, not to chat.
+3102|idle_excuse|_|0|Just a quick break!
+3103|idle_excuse|_|1|I was just going back!
+3104|idle_excuse|_|2|It's work-related! Sort of.
+3105|boss_check_nag|_|0|How's it coming along?
+3106|boss_check_nag|_|1|Deadline's today, right?
+3107|boss_check_nag|_|2|Don't forget the report.
+3108|yes_boss|_|0|Yes, sir.
+3109|yes_boss|_|1|On it!
+3110|yes_boss|_|2|Almost done!
+3111|stress_vent|_|0|I can't take this place anymore.
+3112|stress_vent|_|1|Is it just me or is today a nightmare?
+3113|stress_vent|_|2|I need a vacation. Or a new life.
+3114|comfort|_|0|Hey, you've got this.
+3115|comfort|_|1|Deep breaths. It'll be okay.
+3116|comfort|_|2|Want me to grab you a coffee?
+3117|not_now|_|0|Not now, I'm drowning too.
+3118|not_now|_|1|Can we talk later?
+3119|not_now|_|2|I have my own problems.
+3120|deadline_panic|_|0|I'm never going to finish in time!
+3121|deadline_panic|_|1|Deadline in an hour and I'm halfway done!
+3122|deadline_panic|_|2|Help. Someone. Anyone.
+3123|deadline_panic|mert|0|Why did I leave this to the last minute? Again?
+3124|deadline_alone|_|0|Fine. Me and caffeine against the world.
+3125|deadline_alone|_|1|Nobody's coming. Okay.
+3126|offer_help_work|_|0|Need a hand?
+3127|offer_help_work|_|1|I'll take half of that.
+3128|offer_help_work|_|2|Give me those, I'll help.
+3129|accept_help_work|_|0|You'd do that? Thank you!
+3130|accept_help_work|_|1|I didn't expect you of all people... thank you.
+3131|accept_help_work|_|2|You're saving my life.
+3132|deadline_missed_line|_|0|And... I missed the deadline.
+3133|deadline_missed_line|_|1|Well, that's late now.
+3134|deadline_missed_line|_|2|Too late. Great.
+3135|late_morning|_|0|Morning! Was I late? I wasn't late.
+3136|late_morning|_|1|Traffic was insane!
+3137|late_morning|_|2|Am I late? Don't answer that.
+3138|late_morning|mert|0|The bus was late. And then I was late. Circle of life.
+3139|boss_late_morning|_|0|Good AFTERNOON.
+3140|boss_late_morning|_|1|Look who decided to come to work.
+3141|boss_late_morning|_|2|Do you know what time it is?
+3142|ghost_theory|_|0|I'm telling you, this office is haunted.
+3143|ghost_theory|_|1|Things keep moving by themselves. Explain THAT.
+3144|ghost_theory|_|2|There's something in this office. Something... invisible.
+3145|ghost_reply|_|0|Don't say that! I have to stay late!
+3146|ghost_reply|_|1|Ghosts aren't real. ...Right?
+3147|ghost_reply|_|2|Okay, now I'm not sleeping tonight.
+3148|accuse_lunch|_|0|Did you eat my lunch? Be honest.
+3149|accuse_lunch|_|1|My lunch is gone and you were in the kitchen.
+3150|accuse_lunch|_|2|You ate my börek, didn't you.
+3151|kg_psst|_|0|Psst. {target}. Kitchen. Now.
+3152|kg_psst|_|1|{target}! Coffee? I have NEWS.
+3153|kg_psst|_|2|Got a minute, {target}? Not here though.
+3154|kg_psst|zeynep|0|{target}, kitchen. You'll want to sit down for this.
+3155|kg_psst|zeynep|1|Oh {target}, you have NO idea what I just heard.
+3156|kg_psst|mert|0|{target}! Kitchen summit, two minutes.
+3157|gossip_tell_unsure|_|0|I'm not a hundred percent sure, but... {gossip}
+3158|gossip_tell_unsure|_|1|Don't quote me, but apparently: {gossip}
+3159|gossip_tell_unsure|_|2|I only heard it secondhand, but — {gossip}
+3160|gossip_tell_unsure|zeynep|0|My source is... let's say semi-reliable. {gossip}
+3161|gossip_tell_unsure|ece|0|I might have heard wrong! But... {gossip}
+3162|gossip_tell_spicy|_|0|And it's worse than you think: {gossip}
+3163|gossip_tell_spicy|_|1|Okay, so — {gossip} I KNOW.
+3164|gossip_tell_spicy|zeynep|0|You didn't hear it from me, but {gossip}
+3165|gossip_tell_spicy|zeynep|1|Brace yourself. {gossip}
+3166|gossip_doubt|_|0|Hm. Are you sure about that?
+3167|gossip_doubt|_|1|That sounds made up.
+3168|gossip_doubt|_|2|I'll believe it when I see it.
+3169|gossip_doubt|ceren|0|Let's not repeat that until we know it's true.
+3170|gossip_doubt|selin|0|Gossip isn't evidence.
+3171|gossip_doubt|burak|0|Source?
+3172|paranoid_think|_|0|...Why did they stop talking when I walked in?
+3173|paranoid_think|_|1|Are they whispering about ME?
+3174|paranoid_think|_|2|Hmm. Suspicious huddle.
+3175|were_you_talking_about_me|_|0|Were you two talking about me?
+3176|were_you_talking_about_me|_|1|What was all that whispering about?
+3177|were_you_talking_about_me|_|2|If you have something to say, say it to my face.
+3178|were_you_talking_about_me|selin|0|I saw you whispering. About me?
+3179|were_you_talking_about_me|burak|0|You went quiet when I came in. Why?
+3180|caught_gossiping|_|0|Uh... no? Weather. We were talking about the weather.
+3181|caught_gossiping|_|1|What? No! ...Okay, maybe a little.
+3182|caught_gossiping|zeynep|0|Darling, I talk about EVERYONE. Don't take it personally.
+3183|paranoid_furious|_|0|Unbelievable. Behind my back?!
+3184|paranoid_furious|_|1|I knew it.
+3185|paranoid_furious|_|2|Keep my name out of your mouth.
+3186|not_about_you|_|0|Relax! We were talking about football.
+3187|not_about_you|_|1|It wasn't about you, I promise!
+3188|not_about_you|_|2|Not everything is about you.
+3189|not_about_you|mert|0|We were debating kebab places. Life or death stuff.
+3190|paranoid_relief|_|0|Oh. Right. Sorry.
+3191|paranoid_relief|_|1|...Okay. I'm just tired.
+3192|paranoid_relief|_|2|Fine. Carry on.
+3193|overheard_self|_|0|Excuse me?! I can HEAR you.
+3194|overheard_self|_|1|Wow. I'm standing right here.
+3195|overheard_self|_|2|That's about me, isn't it.
+3196|overheard_self|selin|0|Say it louder, I don't think the whole floor heard.
+3197|overheard_self|ahmet|0|Is that what you think? In MY office?
+3198|busted_sorry|_|0|Oh no. I didn't — sorry.
+3199|busted_sorry|_|1|That came out wrong!
+3200|busted_sorry|_|2|...How long have you been there?
+3201|rumor_check_think|_|0|I keep hearing things about {target}. I should just ask.
+3202|rumor_check_think|_|1|Is that rumour about {target} even true?
+3203|is_it_true|_|0|Can I ask you something? People are saying: {fact} Is that true?
+3204|is_it_true|_|1|{target}, is it true that... well. {fact}
+3205|is_it_true|_|2|Tell me straight: {fact}
+3206|is_it_true|ceren|0|I'd rather hear it from you than from the kitchen: {fact}
+3207|is_it_true|ece|0|Sorry if this is weird but — {fact} Is it true?
+3208|rumor_admit|_|0|...Yes. It's true. Happy?
+3209|rumor_admit|_|1|Ugh. Okay, yes. Please keep it quiet.
+3210|rumor_admit|_|2|Fine. It's true.
+3211|rumor_admit|burak|0|Yes. And I'd appreciate discretion.
+3212|rumor_false|_|0|WHAT? That's completely false!
+3213|rumor_false|_|1|Who on earth is saying that?!
+3214|rumor_false|_|2|Absolutely not. Where did you hear that?
+3215|rumor_false|selin|0|That is a lie, and I want to know who started it.
+3216|rumor_false|ahmet|0|Nonsense! Who's spreading this?
+3217|rumor_lie|_|0|Pfft. No. Of course not.
+3218|rumor_lie|_|1|Me? Never. Ridiculous.
+3219|rumor_lie|_|2|Haha. No. Next question.
+3220|rumor_lie|deniz|0|Do I look like someone who'd do that?
+3221|rumor_relief|_|0|Phew. I knew it sounded off.
+3222|rumor_relief|_|1|Good. I didn't believe it anyway.
+3223|rumor_relief|_|2|Okay, I'll set people straight.
+3224|who_started_it|_|0|Right. Who started this?
+3225|who_started_it|_|1|I'm going to find whoever made that up.
+3226|who_started_it|_|2|Someone's been talking. I'll find out who.
+3227|you_spread_lies|_|0|I hear you've been telling people {fact} It's a lie.
+3228|you_spread_lies|_|1|Did you tell people that {fact} Because it's NOT true.
+3229|you_spread_lies|_|2|Stop spreading rumours about me.
+3230|you_spread_lies|selin|0|You spread a lie about me. I'd like an explanation.
+3231|you_spread_lies|ahmet|0|You've been spreading false stories about me?
+3232|liar_apology|_|0|I... heard it somewhere. I'm sorry.
+3233|liar_apology|_|1|You're right. I shouldn't have repeated it.
+3234|liar_apology|_|2|Sorry. I got carried away.
+3235|liar_apology|ece|0|I'm so sorry! I thought it was true!
+3236|liar_deny|_|0|Me? I never said that.
+3237|liar_deny|_|1|Don't look at me. Ask around.
+3238|liar_deny|_|2|Wasn't me. I just listen.
+3239|liar_deny|zeynep|0|I merely... relay information.
+3240|liar_defiant|_|0|Well, everyone's saying it.
+3241|liar_defiant|_|1|If the shoe fits...
+3242|liar_defiant|_|2|Maybe if you weren't so suspicious...
+3243|misheard_think|_|0|Wait... did {target} just say {victim} is getting fired?!
+3244|misheard_think|_|1|Did I hear that right? {victim}... fired?!
+3245|misheard_think|_|2|Oh my god. {victim}'s days are numbered?
+3246|misheard_think|zeynep|0|Ooh. Ooh! {victim} is OUT? This is big.
+3247|suck_up_line|_|0|Ahmet Bey! Great tie today. Very... leadership.
+3248|suck_up_line|_|1|Brought you a coffee. The way you like it.
+3249|suck_up_line|_|2|Your speech yesterday really inspired me.
+3250|suck_up_line|deniz|0|Ahmet Bey, I took the liberty of summarising the market for you. One page. Bold font.
+3251|suck_up_line|ece|0|Uncle— Ahmet Bey! I made you tea!
+3252|boss_flattered|_|0|Hm. Good. Good man.
+3253|boss_flattered|_|1|That's the attitude I like to see.
+3254|boss_flattered|_|2|Finally, someone with initiative.
+3255|boss_sees_through|_|0|What do you want?
+3256|boss_sees_through|_|1|Flattery won't finish your report.
+3257|boss_sees_through|_|2|Back to work.
+3258|eye_roll|_|0|*eye roll*
+3259|eye_roll|_|1|Oh, please.
+3260|eye_roll|_|2|Subtle. Very subtle.
+3261|eye_roll|_|3|Somebody get a mop for all that sucking up.
+3262|eye_roll|mert|0|Brown-nose of the month award goes to...
+3263|eye_roll|selin|0|Unbelievable.
+3264|raise_ask|_|0|Ahmet Bey, can we talk about my salary?
+3265|raise_ask|_|1|I think it's time we discussed a raise.
+3266|raise_ask|_|2|I've been here long enough. I'd like a raise.
+3267|raise_ask|zeynep|0|I balance this company's books. I'd like mine balanced too.
+3268|raise_ask|burak|0|I fix everything here. I want that reflected in my pay.
+3269|raise_yes|_|0|...Fine. You've earned it. Don't tell anyone.
+3270|raise_yes|_|1|Alright. A small one. Keep it quiet.
+3271|raise_later|_|0|Next quarter. We'll see.
+3272|raise_later|_|1|Not now. Budgets are tight.
+3273|raise_later|_|2|Remind me in spring.
+3274|raise_no|_|0|A raise? In THIS economy?
+3275|raise_no|_|1|Absolutely not. Back to work.
+3276|raise_no|_|2|You should be grateful you have a job.
+3277|raise_happy|_|0|Thank you! Really!
+3278|raise_happy|_|1|Finally!
+3279|raise_happy|zeynep|0|Pleasure doing business.
+3280|raise_bitter|_|0|...Of course.
+3281|raise_bitter|_|1|Right. Spring. Sure.
+3282|raise_bitter|_|2|Unbelievable.
+3283|raise_bitter|burak|0|Noted. Very noted.
+3284|think_raise|_|0|Today's the day. I'm asking.
+3285|think_raise|_|1|Deep breath. Raise. You can do this.
+3286|hover_line|_|0|Mm-hm. And what's this?
+3287|hover_line|_|1|You type very slowly.
+3288|hover_line|_|2|Is that a spreadsheet or modern art?
+3289|hover_line|_|3|I'm just watching. Pretend I'm not here.
+3290|hover_nervous|_|0|...I'm almost done.
+3291|hover_nervous|_|1|Right. Yes. Faster. Yes.
+3292|hover_nervous|_|2|*types extremely fast*
+3293|hover_nervous|ece|0|I promise I know what I'm doing! Mostly!
+3294|hover_snap|_|0|Could you please NOT stand over my shoulder?
+3295|hover_snap|_|1|I work better without an audience.
+3296|hover_snap|_|2|Do you need something, or...?
+3297|hover_snap|burak|0|Breathing on my neck doesn't make the server faster.
+3298|hover_charm|_|0|Want me to make the font bigger for you, boss?
+3299|hover_charm|_|1|This is my good side. Take a photo.
+3300|hover_charm|mert|0|You're welcome to join the sales call! Bring snacks.
+3301|boss_hmph|_|0|Hmph. Carry on.
+3302|boss_hmph|_|1|Watch the attitude.
+3303|boss_hmph|_|2|...Fine.
+3304|boss_chuckle|_|0|Ha! Cheeky. Carry on.
+3305|boss_chuckle|_|1|Hah. Get back to it.
+3306|dump_work|_|0|I need this report by end of day. Urgent.
+3307|dump_work|_|1|Drop everything. HQ wants numbers. Today.
+3308|dump_work|_|2|Here. This is yours now. By five.
+3309|dump_accept|_|0|...Sure. Of course.
+3310|dump_accept|_|1|I'll stay late. Fine.
+3311|dump_accept|_|2|Okay. No problem. Big problem. Okay.
+3312|dump_push_back|_|0|By five? That's impossible.
+3313|dump_push_back|_|1|I'm already drowning, Ahmet Bey.
+3314|dump_push_back|_|2|Can it wait until tomorrow? Please?
+3315|boss_not_negotiable|_|0|It's not a request.
+3316|boss_not_negotiable|_|1|Five o'clock. Final.
+3317|boss_not_negotiable|_|2|Everyone's busy. Do it anyway.
+3318|pass_the_buck|_|0|{to}! Great learning opportunity for you!
+3319|pass_the_buck|_|1|{to}, you're good with numbers, right?
+3320|pass_the_buck|deniz|0|{to}, this will look great on your CV.

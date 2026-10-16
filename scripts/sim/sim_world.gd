@@ -645,13 +645,15 @@ func remember(id: String, kind: String, about: String, val: float, wgt: float, t
 
 
 ## Renders a stored memory line for the character file panel.
-func memory_text(m: Dictionary) -> String:
+func memory_text(m: Dictionary, owner := "") -> String:
 	if m.get("text", "") == "":
 		return ""
 	var args: Dictionary = m.get("args", {})
 	var named := {}
 	for k in args:
 		named[k] = display_var(k, args[k])
+	if owner != "" and npcs.has(owner):
+		named["me"] = npcs[owner].name
 	return T(m["text"], named)
 
 

@@ -57,7 +57,7 @@ class StaffBoard extends Sheet:
 			info.draw_string(UiKit.font("marker"), Vector2(10, 46), n.name, HORIZONTAL_ALIGNMENT_LEFT, 130, 24, UiKit.NPC_COLOR.get(id, UiKit.INK))
 			info.draw_multiline_string(UiKit.font("hand"), Vector2(10, 70), n.role_title(), HORIZONTAL_ALIGNMENT_LEFT, 130, 17, 2, Color(0.25, 0.25, 0.3))
 			Hud._mood_face(info, Vector2(30, 122), 18, n.mood)
-			info.draw_string(UiKit.font("hand"), Vector2(54, 128), Loc.t(n.mood_word()), HORIZONTAL_ALIGNMENT_LEFT, 90, 19, UiKit.INK)
+			info.draw_string(UiKit.font("hand"), Vector2(54, 128), Loc.t(n.mood_word(), {"me": n.name}), HORIZONTAL_ALIGNMENT_LEFT, 90, 19, UiKit.INK)
 			var d: String = Loc.t("doing." + n.act) if n.present else Loc.t("ui.not_in_office")
 			info.draw_multiline_string(UiKit.font("hand"), Vector2(10, 160), d, HORIZONTAL_ALIGNMENT_LEFT, 132, 17, 2, Color(0.3, 0.3, 0.38)))
 		b.add_child(info)

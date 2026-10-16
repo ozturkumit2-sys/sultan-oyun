@@ -1,199 +1,199 @@
-5851|lm_confront|_|0|{culprit}. You ate my lunch. Three times.
-5852|lm_confront|_|1|So it was YOU all along, {culprit}.
-5853|lm_sorry|_|0|...I'll buy you lunch for a week. I'm sorry.
-5854|lm_sorry|_|1|Okay. Guilty. Let me make it up to you.
-5855|lm_deny|_|0|Prove it.
-5856|lm_deny|_|1|Your 'detective' is lying.
-5857|lm_deny|_|2|I don't know what you're talking about.
-5858|wp_announce|_|0|Everyone! I'm proud to announce our new team lead: {credited}!
-5859|wp_announce|_|1|Congratulations to {credited} — promoted, effective today!
-5860|wp_credited|_|0|Wait — ME? Really?!
-5861|wp_credited|_|1|I... wow. Thank you?!
-5862|wp_credited|deniz|0|Finally. Recognition.
-5863|wp_rightful|_|0|...What? That was supposed to be MINE.
-5864|wp_rightful|_|1|{credited}?! Based on WHAT?
-5865|wp_protest|_|0|Ahmet Bey, with respect — that promotion file was wrong.
-5866|wp_protest|_|1|Somebody tampered with the file. You know it was supposed to be me.
-5867|wp_boss_doubt|_|0|...I'll look into it.
-5868|wp_boss_doubt|_|1|Tampered? Hm. Let me check.
-5869|wp_boss_stubborn|_|0|I've announced it. It stands.
-5870|wp_boss_stubborn|_|1|I don't reverse my decisions in public.
-5871|wp_correct|_|0|Correction, everyone. The file was tampered with. The promotion goes to {rightful}.
-5872|wp_correct|_|1|I made a mistake. {rightful} is our new team lead.
-5873|wp_credited_crushed|_|0|...Of course. Of course it was a mistake.
-5874|wp_credited_crushed|_|1|Wonderful. Promoted and demoted before lunch.
-5875|sa_leave|_|0|*slides a folded note under {beloved}'s keyboard*
-5876|sa_leave|_|1|*leaves a little note on {beloved}'s desk and walks away fast*
-5877|sa_find|_|0|'You make Mondays bearable.' No signature...
-5878|sa_find|_|1|Another anonymous note? Who IS this?
-5879|sa_guess|_|0|Was it you? The notes? Be honest.
-5880|sa_guess|_|1|Somebody's leaving me notes. Is it you?
-5881|sa_wrong_yes|_|0|...Maybe.
-5882|sa_wrong_yes|_|1|Guilty! I mean... yes?
-5883|sa_wrong_no|_|0|Notes? Not me. But I'm jealous!
-5884|sa_wrong_no|_|1|No... but now I want to know too.
-5885|sa_confess|_|0|The notes... they were me. All of them.
-5886|sa_confess|_|1|I'm your secret admirer. Surprise?
-5887|sad_yes|_|0|...I was hoping it was you.
-5888|sad_yes|_|1|Really? You? ...I'd like that.
-5889|sa_kind_no|_|0|That's really sweet. But I don't feel the same. I'm sorry.
-5890|sa_kind_no|_|1|I'm flattered. Truly. But... no.
-5891|cs_call|_|0|*on the phone* ...Yes, I'm handling the account now. {victim}? Oh, they're very busy.
-5892|cs_call|_|1|*whispering into phone* Let me take care of you personally.
-5893|cs_learn|_|0|My client says they've been 'working with {thief}'?!
-5894|cs_learn|_|1|{thief} went behind my back to MY client!
-5895|cs_pitch_boss|_|0|Ahmet Bey, that client is MINE. I built that account.
-5896|cs_pitch_boss|_|1|Ahmet Bey, {thief} is poaching my client. I want it back.
-5897|cs_boss_victim|_|0|You're right. Mert keeps the account. {thief}, back off.
-5898|cs_boss_victim|_|1|The account stays with you.
-5899|cs_boss_thief|_|0|The client prefers {thief}. Results are results.
-5900|cs_boss_thief|_|1|Sorry. The client asked for {thief}.
-5901|es_spot|_|0|Hm. That's a lot of 'client lunches' for {suspect}.
-5902|es_spot|_|1|Three taxis to the same restaurant, {suspect}? On a Sunday?
-5903|es_ask|_|0|{suspect}, can you explain these receipts?
-5904|es_ask|_|1|Quick question about your expenses, {suspect}...
-5905|es_explain|_|0|Those were legitimate! Client dinners!
-5906|es_explain|_|1|I can explain every single one.
-5907|es_panic|_|0|...Can we keep this between us?
-5908|es_panic|_|1|Please don't take this to Ahmet.
-5909|es_report|_|0|Ahmet Bey, you need to see these expense claims.
-5910|es_report|_|1|I found some irregularities. It's {suspect}.
-5911|es_keep|_|0|...I'll keep it quiet. This time. You owe me.
-5912|es_keep|_|1|Our little secret. For now.
-5913|mm_assign|_|0|{mentor}, from today you're mentoring {mentee}. Make it work.
-5914|mm_assign|_|1|New arrangement: {mentor} mentors {mentee}. Don't argue.
-5915|mm_groan|_|0|...Great.
-5916|mm_groan|_|1|Wonderful. Just wonderful.
-5917|mm_groan|_|2|Of all people.
-5918|mm_teach|_|0|Okay. Lesson one: how I do things. Which is correctly.
-5919|mm_teach|_|1|Pay attention. I'll only explain this once.
-5920|mm_useful|_|0|...Huh. That's actually really useful.
-5921|mm_useful|_|1|Okay, I didn't know that. Thanks.
-5922|mm_sabotage|_|0|(...and then you send it to the client without checking. Trust me.)
-5923|mm_sabotage|_|1|(Always ignore Ahmet's deadlines. He loves that.)
-5924|mm_eval_ask|_|0|So. How's the mentoring going, you two?
-5925|mm_eval_ask|_|1|Progress report. Both of you.
-5926|mm_eval_good|_|0|Surprisingly well, actually.
-5927|mm_eval_good|_|1|We've... figured it out.
-5928|mm_eval_bad|_|0|{mentor} told me to ignore your deadlines!
-5929|mm_eval_bad|_|1|Ask {mentor} why my report went out unchecked.
-5930|rw_first|_|0|Did you know {enemy} once cried in the stationery cupboard? Twice?
-5931|rw_first|_|1|Between us: {enemy} still uses Comic Sans. On purpose.
-5932|rw_hear|_|0|{gossip} is saying WHAT about me?
-5933|rw_hear|_|1|Oh, so that's the game, {gossip}? Fine.
-5934|rw_back|_|0|Funny — I heard {gossip} reads other people's emails. Every day.
-5935|rw_back|_|1|You know {gossip} faked their CV? Ask anyone.
-5936|rw_sides|_|0|Okay, this has to stop. Both of you. Kitchen. Now.
-5937|rw_sides|_|1|Enough with the rumours. Let's sort this out like adults.
-5938|rw_truce|_|0|...Fine. Truce. I'll stop if you stop.
-5939|rw_truce|_|1|Okay. That got out of hand.
-5940|rw_war|_|0|They started it!
-5941|rw_war|_|1|I'll stop when they apologise.
-5942|op_pitch|_|0|Hear me out: party. Kitchen. 4 pm. Who's in?
-5943|op_pitch|_|1|We need a party. I'm organising one. Today.
-5944|op_pitch|mert|0|Party. Kitchen. Four o'clock. Spread the word, but not to Ahmet.
-5945|op_ceren_yes|_|0|...Okay. A small one. I'll handle the snacks.
-5946|op_ceren_yes|_|1|Fine. But nobody touches the boss's mug.
-5947|op_ceren_no|_|0|It's a Wednesday. No.
-5948|op_ceren_no|_|1|Absolutely not. Ahmet would explode.
-5949|op_prep|_|0|*arranging snacks very quietly*
-5950|op_prep|_|1|Crisps here, cake there... nobody look.
-5951|op_prep|_|2|Party supplies. Totally normal kitchen supplies.
-5952|op_boss_what|_|0|What's all this, {helper}?
-5953|op_boss_what|_|1|Why are there balloons in my kitchen?
-5954|op_cover|_|0|It's... the plant's birthday.
-5955|op_cover|_|1|Team-building snacks! Very professional.
-5956|op_cover|_|2|Healthy... motivational... cake.
-5957|op_dance|_|0|*dancing*
-5958|op_dance|_|1|Best. Wednesday. Ever.
-5959|op_dance|_|2|Who brought the speaker?!
-5960|op_dance|_|3|Snacks! Music! Freedom!
-5961|op_boss_join|_|0|...Is there cake? Fine. One slice.
-5962|op_boss_join|_|1|Hm. Five minutes. Then back to work.
-5963|op_boss_stop|_|0|WHAT is going on in my kitchen?!
-5964|op_boss_stop|_|1|This is a WORKPLACE! Party's over!
-5965|cdm_hopeful|_|0|I got your note. And the invite. I... feel the same way.
-5966|cdm_hopeful|_|1|So. The note. The candle-lit coffee. I'm in.
-5967|cdm_what|_|0|...Note? What note?
-5968|cdm_what|_|1|Wait — what candle?
-5969|cdm_what|_|2|I'm sorry, the WHAT?
-5970|cdm_along|_|0|...Right. Yes. The note. Shall we get that coffee?
-5971|cdm_along|_|1|Ha. Yes. That note. Totally me.
-5972|cdm_truth|_|0|I didn't write any note. Somebody's messing with us.
-5973|cdm_truth|_|1|I... think there's been a mistake. I never sent that.
-5974|cdm_mortified|_|0|Oh no. Oh no no no.
-5975|cdm_mortified|_|1|I'm going to go and disappear now.
-5976|cdm_second_ask|_|0|So... about yesterday. Want to try a real coffee? On purpose this time?
-5977|cdm_second_ask|_|1|Lunch? A real one. No mysterious notes.
-5978|cdm_spark|_|0|...I'd really like that.
-5979|cdm_spark|_|1|Honestly? Yesterday was the best mistake ever.
-5980|cdm_fizzle|_|0|Let's just... be friends? Yesterday was a lot.
-5981|cdm_fizzle|_|1|I think we both know it was a mix-up.
-5982|cdm_jealous|_|0|So. You and {reader}. Everyone's talking about it.
-5983|cdm_jealous|_|1|I heard you're dating {reader} now. Congratulations, I guess.
-5984|cdm_confess_crush|_|0|It's a mix-up! It's YOU I like. It's always been you.
-5985|cdm_confess_crush|_|1|No — wait. I never wrote that note. The person I like is you.
-5986|cdm_clear|_|0|Dating? No! It was a mix-up. We're just friends.
-5987|cdm_clear|_|1|Oh, THAT. Fake note, fake date. Nothing happened.
-5988|cdm_shrug|_|0|...Yeah. I guess I am.
-5989|cdm_shrug|_|1|It just sort of happened.
-5990|cdm_vent|_|0|I showed up for a DATE. With candles. In the KITCHEN.
-5991|cdm_vent|_|1|Someone set me up. And I fell for it. Literally.
-5992|cdm_laugh_it_off|_|0|...You know what? It's actually hilarious.
-5993|cdm_laugh_it_off|_|1|Okay. One day this will be funny. Maybe today.
-5994|cdm_hurt|_|0|I'm never trusting a note again.
-5995|cdm_hurt|_|1|I'm not talking to anyone for a week.
-5996|lk_found|_|0|Wait. Why is the confidential list in {leaker}'s shared folder?!
-5997|lk_found|_|1|Everyone can see this. And it's in {leaker}'s folder.
-5998|lk_accuse|_|0|The confidential file. In YOUR shared folder. Explain.
-5999|lk_accuse|_|1|{leaker}. Did you leak the confidential list?
-6000|lk_deny|_|0|I've never seen that file in my life!
-6001|lk_deny|_|1|I didn't put it there! Someone's framing me!
-6002|lk_panic|_|0|I— I can explain— no I can't.
-6003|lk_panic|_|1|...Can we talk about this later?
-6004|lk_logs|_|0|Let's see who opened this file... huh. The account says 'GHOST'.
-6005|lk_logs|_|1|Access log, access log... that's odd. Nobody touched it. It just... moved.
-6006|lk_logs_unclear|_|0|The logs are a mess. Could've been anyone.
-6007|lk_logs_unclear|_|1|No idea. The server's been acting weird all week.
-6008|lk_sorry|_|0|I owe you an apology, {leaker}. I jumped to conclusions.
-6009|lk_sorry|_|1|The logs cleared you. I'm sorry. Genuinely.
-6010|lk_grudging|_|0|...Cleared. Fine. But I'm watching that folder.
-6011|lk_grudging|_|1|Hm. Just... lock your folders, will you?
-6012|lk_accept|_|0|Thank you. That means a lot.
-6013|lk_accept|_|1|Apology accepted. I think.
-6014|lt2_mutter|_|0|A transfer request AND a reference letter? For {target}? Hmm.
-6015|lt2_mutter|_|1|So {target} wants out, do they? We'll see about that.
-6016|lt2_offer|_|0|There's an opening at our far-east branch. Very far. Interested?
-6017|lt2_offer|_|1|I could recommend you for a transfer. Tomorrow. Say the word.
-6018|lt2_refuse|_|0|Transfer? No! I'm happy here!
-6019|lt2_refuse|_|1|Why would I want to leave? I like it here. Mostly.
-6020|lt2_tempted|_|0|...How far east, exactly?
-6021|lt2_tempted|_|1|Hm. Can I think about it?
-6022|lt2_praise|_|0|Everyone: {target} turned down a transfer to stay with us. THAT is loyalty.
-6023|lt2_praise|_|1|A round of applause for {target}. Loyal to the bone.
-6024|lt2_cringe|_|0|...Please stop.
-6025|lt2_cringe|_|1|Oh no. Everyone's looking at me.
-6026|lt2_friend|_|0|Ahmet says you might transfer?! Are you LEAVING?
-6027|lt2_friend|_|1|Tell me you're not moving to the far-east branch.
-6028|lt2_staying|_|0|No! I was just being polite! I'm staying.
-6029|lt2_staying|_|1|Relax. I'm not going anywhere.
-6030|lt2_thinking|_|0|...Maybe. Honestly, I'm tired.
-6031|lt2_thinking|_|1|I don't know anymore.
-6032|dd_sit|_|0|So... this is cosy.
-6033|dd_sit|_|1|Is this a double date? Nobody told me this was a double date.
-6034|dd_sit|_|2|Who invited whom, exactly?
-6035|dd_fun|_|0|Okay, this is actually the best lunch I've had all year.
-6036|dd_fun|_|1|We should do this every week!
-6037|dd_awkward|_|0|*chews very loudly in silence*
-6038|dd_awkward|_|1|...Nice weather.
-6039|dd_awkward|_|2|So. The photo on the board, huh.
-6040|dd_talk|_|0|About that photo. You know it's fake, right?
-6041|dd_talk|_|1|So everyone thinks we're a couple now.
-6042|dd_maybe|_|0|...Would it be so bad if it wasn't fake?
-6043|dd_maybe|_|1|I mean... we could make it less fake.
-6044|dd_fake|_|0|Completely fake. I'm finding whoever did it.
-6045|dd_fake|_|1|Fake. Obviously. Right? Right.
-6046|dd_official|_|0|So. Lunch again? Just us this time?
-6047|dd_official|_|1|I'm taking the photo down. We'll take a real one.
-6048|dd_yes|_|0|Yes. Just us.
-6049|dd_yes|_|1|Deal. A real one.
+5859|lm_confront|_|0|{culprit}. You ate my lunch. Three times.
+5860|lm_confront|_|1|So it was YOU all along, {culprit}.
+5861|lm_sorry|_|0|...I'll buy you lunch for a week. I'm sorry.
+5862|lm_sorry|_|1|Okay. Guilty. Let me make it up to you.
+5863|lm_deny|_|0|Prove it.
+5864|lm_deny|_|1|Your 'detective' is lying.
+5865|lm_deny|_|2|I don't know what you're talking about.
+5866|wp_announce|_|0|Everyone! I'm proud to announce our new team lead: {credited}!
+5867|wp_announce|_|1|Congratulations to {credited} — promoted, effective today!
+5868|wp_credited|_|0|Wait — ME? Really?!
+5869|wp_credited|_|1|I... wow. Thank you?!
+5870|wp_credited|deniz|0|Finally. Recognition.
+5871|wp_rightful|_|0|...What? That was supposed to be MINE.
+5872|wp_rightful|_|1|{credited}?! Based on WHAT?
+5873|wp_protest|_|0|Ahmet Bey, with respect — that promotion file was wrong.
+5874|wp_protest|_|1|Somebody tampered with the file. You know it was supposed to be me.
+5875|wp_boss_doubt|_|0|...I'll look into it.
+5876|wp_boss_doubt|_|1|Tampered? Hm. Let me check.
+5877|wp_boss_stubborn|_|0|I've announced it. It stands.
+5878|wp_boss_stubborn|_|1|I don't reverse my decisions in public.
+5879|wp_correct|_|0|Correction, everyone. The file was tampered with. The promotion goes to {rightful}.
+5880|wp_correct|_|1|I made a mistake. {rightful} is our new team lead.
+5881|wp_credited_crushed|_|0|...Of course. Of course it was a mistake.
+5882|wp_credited_crushed|_|1|Wonderful. Promoted and demoted before lunch.
+5883|sa_leave|_|0|*slides a folded note under {beloved}'s keyboard*
+5884|sa_leave|_|1|*leaves a little note on {beloved}'s desk and walks away fast*
+5885|sa_find|_|0|'You make Mondays bearable.' No signature...
+5886|sa_find|_|1|Another anonymous note? Who IS this?
+5887|sa_guess|_|0|Was it you? The notes? Be honest.
+5888|sa_guess|_|1|Somebody's leaving me notes. Is it you?
+5889|sa_wrong_yes|_|0|...Maybe.
+5890|sa_wrong_yes|_|1|Guilty! I mean... yes?
+5891|sa_wrong_no|_|0|Notes? Not me. But I'm jealous!
+5892|sa_wrong_no|_|1|No... but now I want to know too.
+5893|sa_confess|_|0|The notes... they were me. All of them.
+5894|sa_confess|_|1|I'm your secret admirer. Surprise?
+5895|sad_yes|_|0|...I was hoping it was you.
+5896|sad_yes|_|1|Really? You? ...I'd like that.
+5897|sa_kind_no|_|0|That's really sweet. But I don't feel the same. I'm sorry.
+5898|sa_kind_no|_|1|I'm flattered. Truly. But... no.
+5899|cs_call|_|0|*on the phone* ...Yes, I'm handling the account now. {victim}? Oh, they're very busy.
+5900|cs_call|_|1|*whispering into phone* Let me take care of you personally.
+5901|cs_learn|_|0|My client says they've been 'working with {thief}'?!
+5902|cs_learn|_|1|{thief} went behind my back to MY client!
+5903|cs_pitch_boss|_|0|Ahmet Bey, that client is MINE. I built that account.
+5904|cs_pitch_boss|_|1|Ahmet Bey, {thief} is poaching my client. I want it back.
+5905|cs_boss_victim|_|0|You're right. Mert keeps the account. {thief}, back off.
+5906|cs_boss_victim|_|1|The account stays with you.
+5907|cs_boss_thief|_|0|The client prefers {thief}. Results are results.
+5908|cs_boss_thief|_|1|Sorry. The client asked for {thief}.
+5909|es_spot|_|0|Hm. That's a lot of 'client lunches' for {suspect}.
+5910|es_spot|_|1|Three taxis to the same restaurant, {suspect}? On a Sunday?
+5911|es_ask|_|0|{suspect}, can you explain these receipts?
+5912|es_ask|_|1|Quick question about your expenses, {suspect}...
+5913|es_explain|_|0|Those were legitimate! Client dinners!
+5914|es_explain|_|1|I can explain every single one.
+5915|es_panic|_|0|...Can we keep this between us?
+5916|es_panic|_|1|Please don't take this to Ahmet.
+5917|es_report|_|0|Ahmet Bey, you need to see these expense claims.
+5918|es_report|_|1|I found some irregularities. It's {suspect}.
+5919|es_keep|_|0|...I'll keep it quiet. This time. You owe me.
+5920|es_keep|_|1|Our little secret. For now.
+5921|mm_assign|_|0|{mentor}, from today you're mentoring {mentee}. Make it work.
+5922|mm_assign|_|1|New arrangement: {mentor} mentors {mentee}. Don't argue.
+5923|mm_groan|_|0|...Great.
+5924|mm_groan|_|1|Wonderful. Just wonderful.
+5925|mm_groan|_|2|Of all people.
+5926|mm_teach|_|0|Okay. Lesson one: how I do things. Which is correctly.
+5927|mm_teach|_|1|Pay attention. I'll only explain this once.
+5928|mm_useful|_|0|...Huh. That's actually really useful.
+5929|mm_useful|_|1|Okay, I didn't know that. Thanks.
+5930|mm_sabotage|_|0|(...and then you send it to the client without checking. Trust me.)
+5931|mm_sabotage|_|1|(Always ignore Ahmet's deadlines. He loves that.)
+5932|mm_eval_ask|_|0|So. How's the mentoring going, you two?
+5933|mm_eval_ask|_|1|Progress report. Both of you.
+5934|mm_eval_good|_|0|Surprisingly well, actually.
+5935|mm_eval_good|_|1|We've... figured it out.
+5936|mm_eval_bad|_|0|{mentor} told me to ignore your deadlines!
+5937|mm_eval_bad|_|1|Ask {mentor} why my report went out unchecked.
+5938|rw_first|_|0|Did you know {enemy} once cried in the stationery cupboard? Twice?
+5939|rw_first|_|1|Between us: {enemy} still uses Comic Sans. On purpose.
+5940|rw_hear|_|0|{gossip} is saying WHAT about me?
+5941|rw_hear|_|1|Oh, so that's the game, {gossip}? Fine.
+5942|rw_back|_|0|Funny — I heard {gossip} reads other people's emails. Every day.
+5943|rw_back|_|1|You know {gossip} faked their CV? Ask anyone.
+5944|rw_sides|_|0|Okay, this has to stop. Both of you. Kitchen. Now.
+5945|rw_sides|_|1|Enough with the rumours. Let's sort this out like adults.
+5946|rw_truce|_|0|...Fine. Truce. I'll stop if you stop.
+5947|rw_truce|_|1|Okay. That got out of hand.
+5948|rw_war|_|0|They started it!
+5949|rw_war|_|1|I'll stop when they apologise.
+5950|op_pitch|_|0|Hear me out: party. Kitchen. 4 pm. Who's in?
+5951|op_pitch|_|1|We need a party. I'm organising one. Today.
+5952|op_pitch|mert|0|Party. Kitchen. Four o'clock. Spread the word, but not to Ahmet.
+5953|op_ceren_yes|_|0|...Okay. A small one. I'll handle the snacks.
+5954|op_ceren_yes|_|1|Fine. But nobody touches the boss's mug.
+5955|op_ceren_no|_|0|It's a Wednesday. No.
+5956|op_ceren_no|_|1|Absolutely not. Ahmet would explode.
+5957|op_prep|_|0|*arranging snacks very quietly*
+5958|op_prep|_|1|Crisps here, cake there... nobody look.
+5959|op_prep|_|2|Party supplies. Totally normal kitchen supplies.
+5960|op_boss_what|_|0|What's all this, {helper}?
+5961|op_boss_what|_|1|Why are there balloons in my kitchen?
+5962|op_cover|_|0|It's... the plant's birthday.
+5963|op_cover|_|1|Team-building snacks! Very professional.
+5964|op_cover|_|2|Healthy... motivational... cake.
+5965|op_dance|_|0|*dancing*
+5966|op_dance|_|1|Best. Wednesday. Ever.
+5967|op_dance|_|2|Who brought the speaker?!
+5968|op_dance|_|3|Snacks! Music! Freedom!
+5969|op_boss_join|_|0|...Is there cake? Fine. One slice.
+5970|op_boss_join|_|1|Hm. Five minutes. Then back to work.
+5971|op_boss_stop|_|0|WHAT is going on in my kitchen?!
+5972|op_boss_stop|_|1|This is a WORKPLACE! Party's over!
+5973|cdm_hopeful|_|0|I got your note. And the invite. I... feel the same way.
+5974|cdm_hopeful|_|1|So. The note. The candle-lit coffee. I'm in.
+5975|cdm_what|_|0|...Note? What note?
+5976|cdm_what|_|1|Wait — what candle?
+5977|cdm_what|_|2|I'm sorry, the WHAT?
+5978|cdm_along|_|0|...Right. Yes. The note. Shall we get that coffee?
+5979|cdm_along|_|1|Ha. Yes. That note. Totally me.
+5980|cdm_truth|_|0|I didn't write any note. Somebody's messing with us.
+5981|cdm_truth|_|1|I... think there's been a mistake. I never sent that.
+5982|cdm_mortified|_|0|Oh no. Oh no no no.
+5983|cdm_mortified|_|1|I'm going to go and disappear now.
+5984|cdm_second_ask|_|0|So... about yesterday. Want to try a real coffee? On purpose this time?
+5985|cdm_second_ask|_|1|Lunch? A real one. No mysterious notes.
+5986|cdm_spark|_|0|...I'd really like that.
+5987|cdm_spark|_|1|Honestly? Yesterday was the best mistake ever.
+5988|cdm_fizzle|_|0|Let's just... be friends? Yesterday was a lot.
+5989|cdm_fizzle|_|1|I think we both know it was a mix-up.
+5990|cdm_jealous|_|0|So. You and {reader}. Everyone's talking about it.
+5991|cdm_jealous|_|1|I heard you're dating {reader} now. Congratulations, I guess.
+5992|cdm_confess_crush|_|0|It's a mix-up! It's YOU I like. It's always been you.
+5993|cdm_confess_crush|_|1|No — wait. I never wrote that note. The person I like is you.
+5994|cdm_clear|_|0|Dating? No! It was a mix-up. We're just friends.
+5995|cdm_clear|_|1|Oh, THAT. Fake note, fake date. Nothing happened.
+5996|cdm_shrug|_|0|...Yeah. I guess I am.
+5997|cdm_shrug|_|1|It just sort of happened.
+5998|cdm_vent|_|0|I showed up for a DATE. With candles. In the KITCHEN.
+5999|cdm_vent|_|1|Someone set me up. And I fell for it. Literally.
+6000|cdm_laugh_it_off|_|0|...You know what? It's actually hilarious.
+6001|cdm_laugh_it_off|_|1|Okay. One day this will be funny. Maybe today.
+6002|cdm_hurt|_|0|I'm never trusting a note again.
+6003|cdm_hurt|_|1|I'm not talking to anyone for a week.
+6004|lk_found|_|0|Wait. Why is the confidential list in {leaker}'s shared folder?!
+6005|lk_found|_|1|Everyone can see this. And it's in {leaker}'s folder.
+6006|lk_accuse|_|0|The confidential file. In YOUR shared folder. Explain.
+6007|lk_accuse|_|1|{leaker}. Did you leak the confidential list?
+6008|lk_deny|_|0|I've never seen that file in my life!
+6009|lk_deny|_|1|I didn't put it there! Someone's framing me!
+6010|lk_panic|_|0|I— I can explain— no I can't.
+6011|lk_panic|_|1|...Can we talk about this later?
+6012|lk_logs|_|0|Let's see who opened this file... huh. The account says 'GHOST'.
+6013|lk_logs|_|1|Access log, access log... that's odd. Nobody touched it. It just... moved.
+6014|lk_logs_unclear|_|0|The logs are a mess. Could've been anyone.
+6015|lk_logs_unclear|_|1|No idea. The server's been acting weird all week.
+6016|lk_sorry|_|0|I owe you an apology, {leaker}. I jumped to conclusions.
+6017|lk_sorry|_|1|The logs cleared you. I'm sorry. Genuinely.
+6018|lk_grudging|_|0|...Cleared. Fine. But I'm watching that folder.
+6019|lk_grudging|_|1|Hm. Just... lock your folders, will you?
+6020|lk_accept|_|0|Thank you. That means a lot.
+6021|lk_accept|_|1|Apology accepted. I think.
+6022|lt2_mutter|_|0|A transfer request AND a reference letter? For {target}? Hmm.
+6023|lt2_mutter|_|1|So {target} wants out, do they? We'll see about that.
+6024|lt2_offer|_|0|There's an opening at our far-east branch. Very far. Interested?
+6025|lt2_offer|_|1|I could recommend you for a transfer. Tomorrow. Say the word.
+6026|lt2_refuse|_|0|Transfer? No! I'm happy here!
+6027|lt2_refuse|_|1|Why would I want to leave? I like it here. Mostly.
+6028|lt2_tempted|_|0|...How far east, exactly?
+6029|lt2_tempted|_|1|Hm. Can I think about it?
+6030|lt2_praise|_|0|Everyone: {target} turned down a transfer to stay with us. THAT is loyalty.
+6031|lt2_praise|_|1|A round of applause for {target}. Loyal to the bone.
+6032|lt2_cringe|_|0|...Please stop.
+6033|lt2_cringe|_|1|Oh no. Everyone's looking at me.
+6034|lt2_friend|_|0|Ahmet says you might transfer?! Are you LEAVING?
+6035|lt2_friend|_|1|Tell me you're not moving to the far-east branch.
+6036|lt2_staying|_|0|No! I was just being polite! I'm staying.
+6037|lt2_staying|_|1|Relax. I'm not going anywhere.
+6038|lt2_thinking|_|0|...Maybe. Honestly, I'm tired.
+6039|lt2_thinking|_|1|I don't know anymore.
+6040|dd_sit|_|0|So... this is cosy.
+6041|dd_sit|_|1|Is this a double date? Nobody told me this was a double date.
+6042|dd_sit|_|2|Who invited whom, exactly?
+6043|dd_fun|_|0|Okay, this is actually the best lunch I've had all year.
+6044|dd_fun|_|1|We should do this every week!
+6045|dd_awkward|_|0|*chews very loudly in silence*
+6046|dd_awkward|_|1|...Nice weather.
+6047|dd_awkward|_|2|So. The photo on the board, huh.
+6048|dd_talk|_|0|About that photo. You know it's fake, right?
+6049|dd_talk|_|1|So everyone thinks we're a couple now.
+6050|dd_maybe|_|0|...Would it be so bad if it wasn't fake?
+6051|dd_maybe|_|1|I mean... we could make it less fake.
+6052|dd_fake|_|0|Completely fake. I'm finding whoever did it.
+6053|dd_fake|_|1|Fake. Obviously. Right? Right.
+6054|dd_official|_|0|So. Lunch again? Just us this time?
+6055|dd_official|_|1|I'm taking the photo down. We'll take a real one.
+6056|dd_yes|_|0|Yes. Just us.
+6057|dd_yes|_|1|Deal. A real one.

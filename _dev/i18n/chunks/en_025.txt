@@ -1,211 +1,211 @@
-4860|chair_boss|_|0|Excuse me. Since when do YOU run my meetings?
-4861|chair_boss|_|1|{target}. That's my chair. Literally.
-4862|chair_proud|_|0|The board said so, Ahmet Bey. I was just following instructions.
-4863|chair_proud|_|1|Someone had to start it.
-4864|chair_shrink|_|0|Sorry! Sorry. The board said... never mind.
-4865|chair_shrink|_|1|I'll just... sit over here.
-4866|secret_mtg_see|_|0|'Private: HR review — {subject}'? In Ahmet's calendar?
-4867|secret_mtg_see|_|1|Ahmet and Ceren are meeting about {subject}... in secret?
-4868|door_rattle|_|0|The door's locked?!
-4869|door_rattle|_|1|Why is the meeting room locked?
-4870|door_rattle|_|2|Hello? Is anyone in there?
-4871|door_rattle|ahmet|0|MY meeting room. LOCKED.
-4872|door_fetch|_|0|I'll get the key.
-4873|door_fetch|_|1|Hang on, I know where the spare key is.
-4874|door_fetch|burak|0|Stand back. I'll deal with it.
-4875|door_open|_|0|Got it! It was locked from the INSIDE. How?!
-4876|door_open|_|1|Open! ...But who locked it? Nobody was in there.
-4877|seats_hiss|_|0|Why am I sitting next to YOU?
-4878|seats_hiss|_|1|Of all the seats...
-4879|seats_hiss|_|2|Move your elbow.
-4880|seats_hiss2|_|0|Believe me, I didn't choose this either.
-4881|seats_hiss2|_|1|Name cards. Not my idea.
-4882|seats_boss_shush|_|0|Would you two like to share with the class?!
-4883|seats_boss_shush|_|1|Quiet! Both of you!
-4884|seats_truce|_|0|...Fine. Truce for one hour.
-4885|seats_truce|_|1|Let's just survive this meeting.
-4886|seats_sweet|_|0|Oh! Hi. We're... neighbours today.
-4887|seats_sweet|_|1|Funny, the name cards put us together.
-4888|walkout_leave|_|0|The board said five minutes. I have work.
-4889|walkout_leave|_|1|Five-minute meeting, right? Bye!
-4890|walkout_boss|_|0|WHERE do you think you're going?!
-4891|walkout_boss|_|1|Sit DOWN. This meeting is over when I say it's over!
-4892|pizza_hype|_|0|Free pizza at the meeting! I'm going early.
-4893|pizza_hype|_|1|Pizza?! Best meeting ever.
-4894|pizza_hype|mert|0|PIZZA. I'll be first.
-4895|pizza_none|_|0|Where's the pizza?
-4896|pizza_none|_|1|There's... no pizza?
-4897|pizza_none|_|2|We were promised pizza!
-4898|pizza_none|mert|0|I skipped breakfast for this.
-4899|pizza_boss|_|0|What pizza? Nobody ordered pizza!
-4900|pizza_boss|_|1|There is no pizza. There was never any pizza.
-4901|proj_dead|_|0|...The projector's dead.
-4902|proj_dead|_|1|Nothing on the screen? Nothing at all?
-4903|proj_dead|_|2|Of course. The projector picked today.
-4904|proj_improv|_|0|Fine. I'll draw it on the whiteboard.
-4905|proj_improv|_|1|Who needs slides? Gather round.
-4906|proj_panic|_|0|I can't present without slides!
-4907|proj_panic|_|1|My whole talk is IN the slides!
-4908|minutes_thank|_|0|Thanks for organising the team retreat, {target}! So excited!
-4909|minutes_thank|_|1|You're organising the retreat? You're a hero, {target}.
-4910|minutes_what|_|0|The WHAT? I never volunteered for anything!
-4911|minutes_what|_|1|Retreat? Me? Since when?
-4912|minutes_own_it|_|0|...Yes. Yes, I am. It'll be amazing.
-4913|minutes_own_it|_|1|That's right. Leave it to me.
-4914|minutes_refuse|_|0|Someone wrote that in the minutes. Not me. I'm not doing it.
-4915|minutes_refuse|_|1|No. Absolutely not. Find another volunteer.
-4916|golf_go|_|0|Golf with the regional director? Now? ...Right. Ceren, run my morning.
-4917|golf_go|_|1|Oh! The golf thing. I completely forgot. I'm off.
-4918|golf_takeover|_|0|Ahmet's not coming. Fine — I'll run this meeting.
-4919|golf_takeover|_|1|No boss? Then let's do it properly. Item one.
-4920|golf_follow|_|0|Okay, boss.
-4921|golf_follow|_|1|Sure, why not.
-4922|golf_follow|_|2|Fine by me.
-4923|golf_resist|_|0|Who made you the boss?
-4924|golf_resist|_|1|Nice try.
-4925|review_call|_|0|{actor}. My office. Your performance review is now.
-4926|review_call|_|1|Ah, {actor}. Sit. It's review time, apparently.
-4927|review_nervous|_|0|N-now? I didn't prepare anything!
-4928|review_nervous|_|1|My review? Today?!
-4929|review_good|_|0|Honestly? You've been excellent. Keep it up.
-4930|review_good|_|1|Strong work this quarter. I've noticed.
-4931|review_bad|_|0|Frankly, I expected more from you.
-4932|review_bad|_|1|Your numbers worry me. A lot.
-4933|client_tidy|_|0|A client visit? Today?! Clean everything!
-4934|client_tidy|_|1|Client at two! Hide the mess!
-4935|client_tidy|ahmet|0|Everyone! Look busy! LOOK. BUSY.
-4936|client_none|_|0|Where's the client? It's past two!
-4937|client_none|_|1|So... no client then?
-4938|client_none|ahmet|0|Ceren! Where is my client?!
-4939|client_ceren|_|0|What client? There's nothing in the calendar.
-4940|client_ceren|_|1|I didn't book any visit, Ahmet Bey.
-4941|farewell_sad|_|0|{target} is LEAVING?!
-4942|farewell_sad|_|1|Farewell meeting for {target}? Nobody told me!
-4943|farewell_sad|_|2|We'll miss you, {target}!
-4944|farewell_speech|_|0|{target}, you've been... honestly, the best. We'll miss you.
-4945|farewell_speech|_|1|To {target}! The office won't be the same.
-4946|farewell_not|_|0|I'm not leaving! Who wrote that?!
-4947|farewell_not|_|1|Farewell? I'm not going anywhere!
-4948|farewell_moved|_|0|...You'd really miss me? I didn't know that.
-4949|farewell_moved|_|1|I'm not leaving, but... thank you. Really.
-4950|farewell_maybe|_|0|...Actually. Maybe it's a sign.
-4951|farewell_maybe|_|1|Hm. Leaving doesn't sound that bad.
-4952|sigpage_boss|_|0|{target}, why is this contract signed by {other}?!
-4953|sigpage_boss|_|1|Your contract has {other}'s signature on the last page. Explain.
-4954|sigpage_baffled|_|0|That's impossible! I signed it myself!
-4955|sigpage_baffled|_|1|Someone swapped my pages!
-4956|sigpage_blame|_|0|...This was {other}. It has to be.
-4957|sigpage_blame|_|1|Ask {other} how their signature got there.
-4958|archive_hide_react|_|0|My printout! It was right on my desk!
-4959|archive_hide_react|_|1|Where's my report? I printed it an HOUR ago.
-4960|archive_found|_|0|...In the ARCHIVE? Under 'Z'? Who does that?!
-4961|archive_found|_|1|Found it. Filed. Under 'Z'. Unbelievable.
-4962|label_see_dumb|_|0|'My Dumb Ideas'? That's what {owner}'s folder says?
-4963|label_see_dumb|_|1|Ha! {owner}'s binder: 'MY DUMB IDEAS'.
-4964|label_see_plans|_|0|'Secret Plans'... on {owner}'s folder. Hm.
-4965|label_see_plans|_|1|Why does {owner} have a folder called 'SECRET PLANS'?
-4966|label_see_love|_|0|'Love Letters'?! On {owner}'s desk? In plain sight?
-4967|label_see_love|_|1|{owner} has a folder labelled 'LOVE LETTERS'. Wow.
-4968|label_owner|_|0|Who relabelled my folders?!
-4969|label_owner|_|1|That's NOT what my folders say!
-4970|baby_find|_|0|Why is the printer full of... baby photos?
-4971|baby_find|_|1|Five hundred copies of a BABY. Whose baby is this?!
-4972|baby_find|_|2|Is this... Ahmet as a baby?!
-4973|baby_find|burak|0|The printer ran out of paper printing a baby. Five hundred times.
-4974|baby_laugh|_|0|Look at those cheeks! It's AHMET!
-4975|baby_laugh|_|1|Ahmet in a sailor suit! I'm framing this.
-4976|baby_boss|_|0|WHO PRINTED MY BABY PHOTO?!
-4977|baby_boss|_|1|That is a private family photograph!
-4978|misplaced_find|_|0|Hm? Whose report is this? Oh — it's {owner}'s.
-4979|misplaced_find|_|1|This isn't mine. {owner}'s report... on MY desk?
-4980|misplaced_return|_|0|Here — this ended up on my desk.
-4981|misplaced_return|_|1|Found your report on my desk. Weird, right?
-4982|misplaced_thanks|_|0|Thank you! I was about to panic.
-4983|misplaced_thanks|_|1|You're a lifesaver!
-4984|misplaced_steal|_|0|...Nobody would know if I handed this in.
-4985|misplaced_steal|_|1|Finders keepers.
-4986|misplaced_steal|deniz|0|Excellent work. My work, now.
-4987|misplaced_owner|_|0|Where's my report?! I left it RIGHT HERE.
-4988|misplaced_owner|_|1|My report is gone. Gone!
-4989|pages_chaos|_|0|...And as you can see on page seven— this is page two. Hang on.
-4990|pages_chaos|_|1|So our results show— wait, where's the chart?
-4991|pages_chaos|_|2|Page four. No. Nine? Why is there a page nine?
-4992|pages_joke|_|0|Okay! Interactive presentation: guess the next page!
-4993|pages_joke|_|1|Nobody panic. I'll do it from memory. Ha.
-4994|pages_meltdown|_|0|I— I'm so sorry, the pages— I can't—
-4995|pages_meltdown|_|1|I swear these were in order this morning.
-4996|conf_read_salary|_|0|The salary list... {subject} earns THAT much?
-4997|conf_read_salary|_|1|This is everyone's salary. Oh. OH.
-4998|conf_read_layoff|_|0|'Positions under review: {subject}'?!
-4999|conf_read_layoff|_|1|This list says {subject}'s job is 'under review'...
-5000|conf_read_promo|_|0|'Promotion shortlist: {subject}'. Interesting.
-5001|conf_read_promo|_|1|So {subject} is on the shortlist. Huh.
-5002|swapreview_praise|_|0|{actor}, your review is outstanding. Outstanding!
-5003|swapreview_praise|_|1|I read your review, {actor}. Excellent quarter.
-5004|swapreview_confused|_|0|...Thank you? I wasn't expecting that.
-5005|swapreview_confused|_|1|Really? Wow. Okay!
-5006|swapreview_scold|_|0|Your review is a disaster, {actor}.
-5007|swapreview_scold|_|1|Frankly, {actor}, these numbers are embarrassing.
-5008|swapreview_shock|_|0|What? My numbers were great!
-5009|swapreview_shock|_|1|That can't be my review. It can't be.
-5010|recycle_react|_|0|The contract! The signed one! Where is it?!
-5011|recycle_react|_|1|No, no, no — the original contract is GONE.
-5012|recycle_found|_|0|...In the RECYCLING bin. Next to the yoghurt pots.
-5013|recycle_found|_|1|Found it. In the recycling. With coffee on it.
-5014|forge_spot|_|0|This signature... Ahmet doesn't loop his A like that.
-5015|forge_spot|_|1|Hm. This 'Ahmet' signature is forged.
-5016|forge_pass|_|0|Approved, signed... fine. Paid.
-5017|forge_pass|_|1|Another expense claim. Processed.
-5018|forge_accuse|_|0|{target}. Your expense claim has a FORGED signature.
-5019|forge_accuse|_|1|Did you forge Ahmet's signature, {target}?
-5020|forge_deny|_|0|Forged?! I'd never! I didn't even submit it yet!
-5021|forge_deny|_|1|That's not my doing! I swear!
-5022|karaoke_spot|_|0|'One karaoke machine — 4,000'? On {target}'s expenses?!
-5023|karaoke_spot|_|1|Who expenses a KARAOKE MACHINE?
-5024|karaoke_ask|_|0|{target}, explain the karaoke machine.
-5025|karaoke_ask|_|1|Care to tell me about the karaoke machine, {target}?
-5026|karaoke_deny|_|0|The WHAT? I don't even sing!
-5027|karaoke_deny|_|1|Karaoke machine? I've never bought one in my life!
-5028|karaoke_own|_|0|...It's for team building. Obviously.
-5029|karaoke_own|_|1|Morale is important, Zeynep.
-5030|karaoke_own|mert|0|Team building, Zeynep. Team. Building.
-5031|margin_boss|_|0|'Ahmet is wrong about everything' — in YOUR handwriting, {actor}?
-5032|margin_boss|_|1|Interesting margin note in your report, {actor}.
-5033|margin_explain|_|0|I didn't write that! I swear!
-5034|margin_explain|_|1|That's not my handwriting! ...Is it?
-5035|margin_respect|_|0|...Well, at least you're honest. Wrong, but honest.
-5036|margin_respect|_|1|Hm. Bold. I almost respect it.
-5037|margin_angry|_|0|I don't want to see that kind of thing again.
-5038|margin_angry|_|1|Remember who signs your reviews.
-5039|margin_read|_|0|...'Ahmet is wrong about everything'? In {owner}'s report?
-5040|margin_read|_|1|Hm. A margin note. About ME. {owner}, my office.
-5041|jam_find|_|0|Paper jam... wait. This is a letter. A LOVE letter.
-5042|jam_find|_|1|There's something stuck in the rollers... 'Dear {crush}...'
-5043|jam_read_aloud|_|0|'Dear {crush}, every time you walk past my desk...' — signed {writer}!
-5044|jam_read_aloud|_|1|Listen to this: '{crush}, your laugh is my favourite sound.' From {writer}!
-5045|jam_pocket|_|0|...I'll just give this back to {writer}. Quietly.
-5046|jam_pocket|_|1|This isn't mine to read. I'll return it.
-5047|jam_mortified|_|0|THAT WAS PRIVATE!
-5048|jam_mortified|_|1|Give that BACK!
-5049|jam_mortified|mert|0|...I can explain. No I can't.
-5050|supplies_none|_|0|No staplers. No pens. Nothing. Where did it all go?
-5051|supplies_none|_|1|The supply shelf is EMPTY.
-5052|supplies_found|_|0|...It's all in {target}'s drawer. ALL of it.
-5053|supplies_found|_|1|{target}'s drawer: forty pens, six staplers, and every sticky note we own.
-5054|supplies_hoarder|_|0|Supply hoarder!
-5055|supplies_hoarder|_|1|So YOU'RE the stapler thief!
-5056|supplies_hoarder|mert|0|Dragon on a pile of pens!
-5057|supplies_innocent|_|0|Those aren't mine! I don't even like staplers!
-5058|supplies_innocent|_|1|How did all that get in my drawer?!
-5059|archive_mess|_|0|Who reorganised the archive?! Nothing's where it should be!
-5060|archive_mess|_|1|'Accounts' is in 'Holidays'. 'Holidays' is in 'Legal'. WHY?
-5061|archive_together|_|0|You're looking too? Okay — I'll take A to M.
-5062|archive_together|_|1|Let's do this together or we'll be here all night.
-5063|archive_fight|_|0|Stop moving my piles!
-5064|archive_fight|_|1|I was here first!
-5065|resdraft_see|_|0|Is that a... resignation letter? On {owner}'s desk?
-5066|resdraft_see|_|1|'Dear Ahmet, I hereby resign...' — {owner}?!
-5067|resdraft_see|ahmet|0|A resignation letter. From {owner}. On their desk.
-5068|urgent_panic|_|0|Everything is URGENT?! Since when?!
-5069|urgent_panic|_|1|URGENT. URGENT. URGENT. All of it?!
-5070|urgent_panic|_|2|Okay. No lunch today. No breathing either.
+4868|chair_boss|_|0|Excuse me. Since when do YOU run my meetings?
+4869|chair_boss|_|1|{target}. That's my chair. Literally.
+4870|chair_proud|_|0|The board said so, Ahmet Bey. I was just following instructions.
+4871|chair_proud|_|1|Someone had to start it.
+4872|chair_shrink|_|0|Sorry! Sorry. The board said... never mind.
+4873|chair_shrink|_|1|I'll just... sit over here.
+4874|secret_mtg_see|_|0|'Private: HR review — {subject}'? In Ahmet's calendar?
+4875|secret_mtg_see|_|1|Ahmet and Ceren are meeting about {subject}... in secret?
+4876|door_rattle|_|0|The door's locked?!
+4877|door_rattle|_|1|Why is the meeting room locked?
+4878|door_rattle|_|2|Hello? Is anyone in there?
+4879|door_rattle|ahmet|0|MY meeting room. LOCKED.
+4880|door_fetch|_|0|I'll get the key.
+4881|door_fetch|_|1|Hang on, I know where the spare key is.
+4882|door_fetch|burak|0|Stand back. I'll deal with it.
+4883|door_open|_|0|Got it! It was locked from the INSIDE. How?!
+4884|door_open|_|1|Open! ...But who locked it? Nobody was in there.
+4885|seats_hiss|_|0|Why am I sitting next to YOU?
+4886|seats_hiss|_|1|Of all the seats...
+4887|seats_hiss|_|2|Move your elbow.
+4888|seats_hiss2|_|0|Believe me, I didn't choose this either.
+4889|seats_hiss2|_|1|Name cards. Not my idea.
+4890|seats_boss_shush|_|0|Would you two like to share with the class?!
+4891|seats_boss_shush|_|1|Quiet! Both of you!
+4892|seats_truce|_|0|...Fine. Truce for one hour.
+4893|seats_truce|_|1|Let's just survive this meeting.
+4894|seats_sweet|_|0|Oh! Hi. We're... neighbours today.
+4895|seats_sweet|_|1|Funny, the name cards put us together.
+4896|walkout_leave|_|0|The board said five minutes. I have work.
+4897|walkout_leave|_|1|Five-minute meeting, right? Bye!
+4898|walkout_boss|_|0|WHERE do you think you're going?!
+4899|walkout_boss|_|1|Sit DOWN. This meeting is over when I say it's over!
+4900|pizza_hype|_|0|Free pizza at the meeting! I'm going early.
+4901|pizza_hype|_|1|Pizza?! Best meeting ever.
+4902|pizza_hype|mert|0|PIZZA. I'll be first.
+4903|pizza_none|_|0|Where's the pizza?
+4904|pizza_none|_|1|There's... no pizza?
+4905|pizza_none|_|2|We were promised pizza!
+4906|pizza_none|mert|0|I skipped breakfast for this.
+4907|pizza_boss|_|0|What pizza? Nobody ordered pizza!
+4908|pizza_boss|_|1|There is no pizza. There was never any pizza.
+4909|proj_dead|_|0|...The projector's dead.
+4910|proj_dead|_|1|Nothing on the screen? Nothing at all?
+4911|proj_dead|_|2|Of course. The projector picked today.
+4912|proj_improv|_|0|Fine. I'll draw it on the whiteboard.
+4913|proj_improv|_|1|Who needs slides? Gather round.
+4914|proj_panic|_|0|I can't present without slides!
+4915|proj_panic|_|1|My whole talk is IN the slides!
+4916|minutes_thank|_|0|Thanks for organising the team retreat, {target}! So excited!
+4917|minutes_thank|_|1|You're organising the retreat? You're a hero, {target}.
+4918|minutes_what|_|0|The WHAT? I never volunteered for anything!
+4919|minutes_what|_|1|Retreat? Me? Since when?
+4920|minutes_own_it|_|0|...Yes. Yes, I am. It'll be amazing.
+4921|minutes_own_it|_|1|That's right. Leave it to me.
+4922|minutes_refuse|_|0|Someone wrote that in the minutes. Not me. I'm not doing it.
+4923|minutes_refuse|_|1|No. Absolutely not. Find another volunteer.
+4924|golf_go|_|0|Golf with the regional director? Now? ...Right. Ceren, run my morning.
+4925|golf_go|_|1|Oh! The golf thing. I completely forgot. I'm off.
+4926|golf_takeover|_|0|Ahmet's not coming. Fine — I'll run this meeting.
+4927|golf_takeover|_|1|No boss? Then let's do it properly. Item one.
+4928|golf_follow|_|0|Okay, boss.
+4929|golf_follow|_|1|Sure, why not.
+4930|golf_follow|_|2|Fine by me.
+4931|golf_resist|_|0|Who made you the boss?
+4932|golf_resist|_|1|Nice try.
+4933|review_call|_|0|{actor}. My office. Your performance review is now.
+4934|review_call|_|1|Ah, {actor}. Sit. It's review time, apparently.
+4935|review_nervous|_|0|N-now? I didn't prepare anything!
+4936|review_nervous|_|1|My review? Today?!
+4937|review_good|_|0|Honestly? You've been excellent. Keep it up.
+4938|review_good|_|1|Strong work this quarter. I've noticed.
+4939|review_bad|_|0|Frankly, I expected more from you.
+4940|review_bad|_|1|Your numbers worry me. A lot.
+4941|client_tidy|_|0|A client visit? Today?! Clean everything!
+4942|client_tidy|_|1|Client at two! Hide the mess!
+4943|client_tidy|ahmet|0|Everyone! Look busy! LOOK. BUSY.
+4944|client_none|_|0|Where's the client? It's past two!
+4945|client_none|_|1|So... no client then?
+4946|client_none|ahmet|0|Ceren! Where is my client?!
+4947|client_ceren|_|0|What client? There's nothing in the calendar.
+4948|client_ceren|_|1|I didn't book any visit, Ahmet Bey.
+4949|farewell_sad|_|0|{target} is LEAVING?!
+4950|farewell_sad|_|1|Farewell meeting for {target}? Nobody told me!
+4951|farewell_sad|_|2|We'll miss you, {target}!
+4952|farewell_speech|_|0|{target}, you've been... honestly, the best. We'll miss you.
+4953|farewell_speech|_|1|To {target}! The office won't be the same.
+4954|farewell_not|_|0|I'm not leaving! Who wrote that?!
+4955|farewell_not|_|1|Farewell? I'm not going anywhere!
+4956|farewell_moved|_|0|...You'd really miss me? I didn't know that.
+4957|farewell_moved|_|1|I'm not leaving, but... thank you. Really.
+4958|farewell_maybe|_|0|...Actually. Maybe it's a sign.
+4959|farewell_maybe|_|1|Hm. Leaving doesn't sound that bad.
+4960|sigpage_boss|_|0|{target}, why is this contract signed by {other}?!
+4961|sigpage_boss|_|1|Your contract has {other}'s signature on the last page. Explain.
+4962|sigpage_baffled|_|0|That's impossible! I signed it myself!
+4963|sigpage_baffled|_|1|Someone swapped my pages!
+4964|sigpage_blame|_|0|...This was {other}. It has to be.
+4965|sigpage_blame|_|1|Ask {other} how their signature got there.
+4966|archive_hide_react|_|0|My printout! It was right on my desk!
+4967|archive_hide_react|_|1|Where's my report? I printed it an HOUR ago.
+4968|archive_found|_|0|...In the ARCHIVE? Under 'Z'? Who does that?!
+4969|archive_found|_|1|Found it. Filed. Under 'Z'. Unbelievable.
+4970|label_see_dumb|_|0|'My Dumb Ideas'? That's what {owner}'s folder says?
+4971|label_see_dumb|_|1|Ha! {owner}'s binder: 'MY DUMB IDEAS'.
+4972|label_see_plans|_|0|'Secret Plans'... on {owner}'s folder. Hm.
+4973|label_see_plans|_|1|Why does {owner} have a folder called 'SECRET PLANS'?
+4974|label_see_love|_|0|'Love Letters'?! On {owner}'s desk? In plain sight?
+4975|label_see_love|_|1|{owner} has a folder labelled 'LOVE LETTERS'. Wow.
+4976|label_owner|_|0|Who relabelled my folders?!
+4977|label_owner|_|1|That's NOT what my folders say!
+4978|baby_find|_|0|Why is the printer full of... baby photos?
+4979|baby_find|_|1|Five hundred copies of a BABY. Whose baby is this?!
+4980|baby_find|_|2|Is this... Ahmet as a baby?!
+4981|baby_find|burak|0|The printer ran out of paper printing a baby. Five hundred times.
+4982|baby_laugh|_|0|Look at those cheeks! It's AHMET!
+4983|baby_laugh|_|1|Ahmet in a sailor suit! I'm framing this.
+4984|baby_boss|_|0|WHO PRINTED MY BABY PHOTO?!
+4985|baby_boss|_|1|That is a private family photograph!
+4986|misplaced_find|_|0|Hm? Whose report is this? Oh — it's {owner}'s.
+4987|misplaced_find|_|1|This isn't mine. {owner}'s report... on MY desk?
+4988|misplaced_return|_|0|Here — this ended up on my desk.
+4989|misplaced_return|_|1|Found your report on my desk. Weird, right?
+4990|misplaced_thanks|_|0|Thank you! I was about to panic.
+4991|misplaced_thanks|_|1|You're a lifesaver!
+4992|misplaced_steal|_|0|...Nobody would know if I handed this in.
+4993|misplaced_steal|_|1|Finders keepers.
+4994|misplaced_steal|deniz|0|Excellent work. My work, now.
+4995|misplaced_owner|_|0|Where's my report?! I left it RIGHT HERE.
+4996|misplaced_owner|_|1|My report is gone. Gone!
+4997|pages_chaos|_|0|...And as you can see on page seven— this is page two. Hang on.
+4998|pages_chaos|_|1|So our results show— wait, where's the chart?
+4999|pages_chaos|_|2|Page four. No. Nine? Why is there a page nine?
+5000|pages_joke|_|0|Okay! Interactive presentation: guess the next page!
+5001|pages_joke|_|1|Nobody panic. I'll do it from memory. Ha.
+5002|pages_meltdown|_|0|I— I'm so sorry, the pages— I can't—
+5003|pages_meltdown|_|1|I swear these were in order this morning.
+5004|conf_read_salary|_|0|The salary list... {subject} earns THAT much?
+5005|conf_read_salary|_|1|This is everyone's salary. Oh. OH.
+5006|conf_read_layoff|_|0|'Positions under review: {subject}'?!
+5007|conf_read_layoff|_|1|This list says {subject}'s job is 'under review'...
+5008|conf_read_promo|_|0|'Promotion shortlist: {subject}'. Interesting.
+5009|conf_read_promo|_|1|So {subject} is on the shortlist. Huh.
+5010|swapreview_praise|_|0|{actor}, your review is outstanding. Outstanding!
+5011|swapreview_praise|_|1|I read your review, {actor}. Excellent quarter.
+5012|swapreview_confused|_|0|...Thank you? I wasn't expecting that.
+5013|swapreview_confused|_|1|Really? Wow. Okay!
+5014|swapreview_scold|_|0|Your review is a disaster, {actor}.
+5015|swapreview_scold|_|1|Frankly, {actor}, these numbers are embarrassing.
+5016|swapreview_shock|_|0|What? My numbers were great!
+5017|swapreview_shock|_|1|That can't be my review. It can't be.
+5018|recycle_react|_|0|The contract! The signed one! Where is it?!
+5019|recycle_react|_|1|No, no, no — the original contract is GONE.
+5020|recycle_found|_|0|...In the RECYCLING bin. Next to the yoghurt pots.
+5021|recycle_found|_|1|Found it. In the recycling. With coffee on it.
+5022|forge_spot|_|0|This signature... Ahmet doesn't loop his A like that.
+5023|forge_spot|_|1|Hm. This 'Ahmet' signature is forged.
+5024|forge_pass|_|0|Approved, signed... fine. Paid.
+5025|forge_pass|_|1|Another expense claim. Processed.
+5026|forge_accuse|_|0|{target}. Your expense claim has a FORGED signature.
+5027|forge_accuse|_|1|Did you forge Ahmet's signature, {target}?
+5028|forge_deny|_|0|Forged?! I'd never! I didn't even submit it yet!
+5029|forge_deny|_|1|That's not my doing! I swear!
+5030|karaoke_spot|_|0|'One karaoke machine — 4,000'? On {target}'s expenses?!
+5031|karaoke_spot|_|1|Who expenses a KARAOKE MACHINE?
+5032|karaoke_ask|_|0|{target}, explain the karaoke machine.
+5033|karaoke_ask|_|1|Care to tell me about the karaoke machine, {target}?
+5034|karaoke_deny|_|0|The WHAT? I don't even sing!
+5035|karaoke_deny|_|1|Karaoke machine? I've never bought one in my life!
+5036|karaoke_own|_|0|...It's for team building. Obviously.
+5037|karaoke_own|_|1|Morale is important, Zeynep.
+5038|karaoke_own|mert|0|Team building, Zeynep. Team. Building.
+5039|margin_boss|_|0|'Ahmet is wrong about everything' — in YOUR handwriting, {actor}?
+5040|margin_boss|_|1|Interesting margin note in your report, {actor}.
+5041|margin_explain|_|0|I didn't write that! I swear!
+5042|margin_explain|_|1|That's not my handwriting! ...Is it?
+5043|margin_respect|_|0|...Well, at least you're honest. Wrong, but honest.
+5044|margin_respect|_|1|Hm. Bold. I almost respect it.
+5045|margin_angry|_|0|I don't want to see that kind of thing again.
+5046|margin_angry|_|1|Remember who signs your reviews.
+5047|margin_read|_|0|...'Ahmet is wrong about everything'? In {owner}'s report?
+5048|margin_read|_|1|Hm. A margin note. About ME. {owner}, my office.
+5049|jam_find|_|0|Paper jam... wait. This is a letter. A LOVE letter.
+5050|jam_find|_|1|There's something stuck in the rollers... 'Dear {crush}...'
+5051|jam_read_aloud|_|0|'Dear {crush}, every time you walk past my desk...' — signed {writer}!
+5052|jam_read_aloud|_|1|Listen to this: '{crush}, your laugh is my favourite sound.' From {writer}!
+5053|jam_pocket|_|0|...I'll just give this back to {writer}. Quietly.
+5054|jam_pocket|_|1|This isn't mine to read. I'll return it.
+5055|jam_mortified|_|0|THAT WAS PRIVATE!
+5056|jam_mortified|_|1|Give that BACK!
+5057|jam_mortified|mert|0|...I can explain. No I can't.
+5058|supplies_none|_|0|No staplers. No pens. Nothing. Where did it all go?
+5059|supplies_none|_|1|The supply shelf is EMPTY.
+5060|supplies_found|_|0|...It's all in {target}'s drawer. ALL of it.
+5061|supplies_found|_|1|{target}'s drawer: forty pens, six staplers, and every sticky note we own.
+5062|supplies_hoarder|_|0|Supply hoarder!
+5063|supplies_hoarder|_|1|So YOU'RE the stapler thief!
+5064|supplies_hoarder|mert|0|Dragon on a pile of pens!
+5065|supplies_innocent|_|0|Those aren't mine! I don't even like staplers!
+5066|supplies_innocent|_|1|How did all that get in my drawer?!
+5067|archive_mess|_|0|Who reorganised the archive?! Nothing's where it should be!
+5068|archive_mess|_|1|'Accounts' is in 'Holidays'. 'Holidays' is in 'Legal'. WHY?
+5069|archive_together|_|0|You're looking too? Okay — I'll take A to M.
+5070|archive_together|_|1|Let's do this together or we'll be here all night.
+5071|archive_fight|_|0|Stop moving my piles!
+5072|archive_fight|_|1|I was here first!
+5073|resdraft_see|_|0|Is that a... resignation letter? On {owner}'s desk?
+5074|resdraft_see|_|1|'Dear Ahmet, I hereby resign...' — {owner}?!
+5075|resdraft_see|ahmet|0|A resignation letter. From {owner}. On their desk.
+5076|urgent_panic|_|0|Everything is URGENT?! Since when?!
+5077|urgent_panic|_|1|URGENT. URGENT. URGENT. All of it?!
+5078|urgent_panic|_|2|Okay. No lunch today. No breathing either.
