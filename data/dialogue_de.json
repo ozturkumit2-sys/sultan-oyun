@@ -1,1 +1,468 @@
-{}
+{
+ "printer_dead": {
+  "_": [
+   "Der Drucker ist tot. Natürlich ist er tot.",
+   "Warum blinkt der Drucker rot?!",
+   "PAPIERSTAU?! Da ist doch gar kein Papier drin!",
+   "Komm schon, komm schon ... druck!"
+  ],
+  "ahmet": [
+   "Dieser Drucker ist eine Schande."
+  ],
+  "ceren": [
+   "Hm. Außer Betrieb."
+  ],
+  "deniz": [
+   "Typisch."
+  ],
+  "ece": [
+   "Hab ich ihn kaputt gemacht? Ich hab nichts angefasst!"
+  ],
+  "mert": [
+   "Der Drucker hat wohl einen schlechten Tag, was?"
+  ],
+  "selin": [
+   "Ich brauche das JETZT ausgedruckt. Nicht später. Jetzt."
+  ],
+  "zeynep": [
+   "Boah, er frisst meine Seiten!"
+  ]
+ },
+ "printer_selffix": {
+  "_": [
+   "Wer hat dir das angetan, Kumpel? Ich reparier dich.",
+   "Klassiker. Gib mir fünf Minuten."
+  ],
+  "burak": [
+   "Wer hat ihn diesmal getreten? ... Na gut. Ich repariere ihn."
+  ]
+ },
+ "printer_need_help": {
+  "_": [
+   "Ich brauche jemanden, der Druckisch spricht.",
+   "{helper}! Kannst du mir mit dem Ding helfen?"
+  ],
+  "ece": [
+   "Ich frag {helper}! Keine Panik. Ich bin nicht in Panik."
+  ],
+  "selin": [
+   "{helper} weiß bestimmt, was zu tun ist."
+  ]
+ },
+ "printer_kick": {
+  "_": [
+   "Funktionier endlich, du nutzlose Kiste!",
+   "*tritt gegen den Drucker*",
+   "Da hast du’s!"
+  ],
+  "ahmet": [
+   "Ich sagte DRUCKEN!"
+  ],
+  "burak": [
+   "... Darauf bin ich nicht stolz."
+  ],
+  "selin": [
+   "Unfassbar!"
+  ]
+ },
+ "witness_kick": {
+  "_": [
+   "Wurde da gerade der Drucker getreten?",
+   "Ganz ruhig, Champion.",
+   "So funktioniert IT nicht."
+  ],
+  "mert": [
+   "Zehn Punkte für die Haltung!"
+  ],
+  "zeynep": [
+   "Uuh, da hat aber jemand schlechte Laune."
+  ]
+ },
+ "printer_giveup": {
+  "_": [
+   "Vergiss es. Mach ich später.",
+   "Ich geb auf. Ich zeig’s auf dem Laptop."
+  ],
+  "ece": [
+   "Okay! Neuer Plan! ... Ich hab keinen Plan."
+  ]
+ },
+ "ask_help_obj": {
+  "_": [
+   "{target}, {obj?der|die|das|die} {obj} ist kaputt. Kannst du mal schauen?",
+   "Hey {target} ... könntest du vielleicht {obj?den|die|das|die} {obj} reparieren?",
+   "{target}, ich brauche deine Magie. {obj?Der|Die|Das|Die} {obj} ist tot."
+  ],
+  "ahmet": [
+   "{target}. {obj?Der|Die|Das|Die} {obj}. Reparieren Sie das."
+  ],
+  "ece": [
+   "Sorry, sorry, sorry — {target}, könntest du mir mit {obj?dem|der|dem|den} {obj} helfen?"
+  ],
+  "mert": [
+   "{target}, {target?mein Freund, mein Held|meine Freundin, meine Heldin}, {target?mein|meine} {obj}-{target?Flüsterer|Flüsterin} …"
+  ],
+  "selin": [
+   "{target}, ich hab eine Deadline. {obj?Der|Die|Das|Die} {obj} ist tot. Hilfe?"
+  ]
+ },
+ "agree_help": {
+  "_": [
+   "Klar, gib mir eine Minute.",
+   "Ja, ich mach das.",
+   "Bin dran."
+  ],
+  "burak": [
+   "Seufz. Ja. Ich repariere es.",
+   "Hast du es mal aus- und wieder eingeschaltet? ... Egal, ich komme."
+  ],
+  "ceren": [
+   "Kein Problem, ich kümmere mich darum."
+  ],
+  "ece": [
+   "Natürlich! Ich helfe so gern!"
+  ]
+ },
+ "refuse_help": {
+  "_": [
+   "Sorry, ich ersticke in Arbeit.",
+   "Nicht mein Job.",
+   "Gerade nicht."
+  ],
+  "ahmet": [
+   "Sehe ich etwa aus wie die IT?"
+  ],
+  "burak": [
+   "Heute nicht.",
+   "Mach ein Ticket auf.",
+   "Ich bin nicht dein persönlicher IT-Support."
+  ],
+  "deniz": [
+   "Hm. Ich würde ja gern, aber ... nein."
+  ],
+  "selin": [
+   "Ich hab selbst eine Deadline, sorry."
+  ]
+ },
+ "react_refused": {
+  "_": [
+   "Wow. Vielen Dank auch.",
+   "Na gut. NA GUT.",
+   "Das merk ich mir."
+  ],
+  "ece": [
+   "Oh ... okay. Schon gut. Alles gut."
+  ],
+  "mert": [
+   "Autsch. Okay."
+  ],
+  "selin": [
+   "Das werde ich mir merken.",
+   "Notiert. Dauerhaft."
+  ]
+ },
+ "help_later": {
+  "_": [
+   "Später, okay? Ich bin gerade mitten in was.",
+   "Gib mir ein bisschen. Ich komm vorbei."
+  ],
+  "burak": [
+   "Nach diesem Ticket. Versprochen."
+  ]
+ },
+ "fine_wait": {
+  "_": [
+   "Okay ... ich warte.",
+   "Vergiss mich nicht!"
+  ]
+ },
+ "lights_fixed_me": {
+  "_": [
+   "Und ... es werde Licht!",
+   "Repariert. Gern geschehen."
+  ],
+  "burak": [
+   "Sicherung rausgeflogen. Schon wieder. Keiner fasst was an."
+  ]
+ },
+ "lights_back": {
+  "_": [
+   "Endlich!",
+   "Danke!",
+   "Ich kann wieder sehen!",
+   "Oh, Gott sei Dank."
+  ],
+  "mert": [
+   "Mein Held!"
+  ],
+  "zeynep": [
+   "Hat ja lange genug gedauert."
+  ]
+ },
+ "fixed_it": {
+  "_": [
+   "Fertig. Sollte jetzt gehen.",
+   "Hab’s dir repariert.",
+   "Wie neu."
+  ],
+  "burak": [
+   "Läuft wieder. Bitte hört auf, dagegen zu treten."
+  ]
+ },
+ "thanks_fix": {
+  "_": [
+   "Tausend Dank!",
+   "Du bist meine Rettung.",
+   "Ich schulde dir was."
+  ],
+  "mert": [
+   "Ich schulde dir einen Döner."
+  ],
+  "selin": [
+   "Danke. Wirklich."
+  ]
+ },
+ "fixed_solo": {
+  "_": [
+   "So. Repariert.",
+   "Wieder im Geschäft."
+  ],
+  "burak": [
+   "Neuer Tag, neues Wunder."
+  ]
+ },
+ "coffee_dead": {
+  "_": [
+   "Kein Kaffee?! KEIN KAFFEE?!",
+   "Die Kaffeemaschine ist kaputt ...",
+   "Warum macht sie dieses Geräusch?"
+  ],
+  "ahmet": [
+   "Wer hat die Kaffeemaschine kaputt gemacht?!"
+  ],
+  "burak": [
+   "... Die repariere ich nicht."
+  ],
+  "deniz": [
+   "Wunderbar. Einfach wunderbar."
+  ],
+  "mert": [
+   "Neeein, mein Treibstoff!"
+  ],
+  "zeynep": [
+   "Wie soll ich denn so funktionieren?!"
+  ]
+ },
+ "ece_try_fix": {
+  "_": [
+   "Ich krieg das hin! Ich hab mal ein Video gesehen!",
+   "Überlasst das mir! Halt mal ... nein, warte."
+  ]
+ },
+ "ece_fix_success": {
+  "_": [
+   "ES GEHT! Ich bin ein Genie!",
+   "Tadaa! Kaffee für alle!"
+  ]
+ },
+ "praise_ece": {
+  "_": [
+   "Wow, stark, Ece!",
+   "Ece, du bist eine Legende.",
+   "Die Praktikantin hat uns gerettet!"
+  ]
+ },
+ "ece_fix_fail": {
+  "_": [
+   "Ups. Oh nein. Oh nein, nein, nein.",
+   "Das ... sollte eigentlich nicht spritzen.",
+   "Warum ist alles auf mir?!"
+  ]
+ },
+ "witness_spill": {
+  "_": [
+   "Ece, alles okay?",
+   "Jemand soll einen Wischmopp holen!",
+   "Oje."
+  ]
+ },
+ "coffee_rage": {
+  "_": [
+   "Wer WAR das?!",
+   "Ich schwöre, gleich raste ich aus.",
+   "Unfassbar! UNFASSBAR!"
+  ],
+  "ahmet": [
+   "Dieses Büro fällt auseinander!"
+  ],
+  "selin": [
+   "Dafür wird jemand geradestehen."
+  ]
+ },
+ "witness_coffee_rage": {
+  "_": [
+   "Uff.",
+   "Da geht man besser aus dem Weg.",
+   "Da ist jemand schlecht gelaunt."
+  ],
+  "mert": [
+   "Ab jetzt nur noch Entkoffeinierten, bitte."
+  ]
+ },
+ "coffee_blame": {
+  "_": [
+   "Wetten, das war {suspect}? Fummelt ständig daran rum.",
+   "{suspect} war zuletzt hier. Zufall? Nein.",
+   "Ich WEISS, dass {suspect} sie kaputt gemacht hat."
+  ],
+  "selin": [
+   "Mal wieder {suspect}, nehme ich an."
+  ],
+  "zeynep": [
+   "Das war {suspect}, darauf wette ich."
+  ]
+ },
+ "coffee_ask_fix": {
+  "_": [
+   "Vielleicht kann {helper} sie reparieren ...",
+   "Ich hol {helper}."
+  ]
+ },
+ "coffee_sad": {
+  "_": [
+   "Das wird ein langer Tag.",
+   "Kein Kaffee. Keine Freude.",
+   "*trauriger Seufzer*"
+  ],
+  "ece": [
+   "Alles gut! Ich trink Wasser! ... Trauriges Wasser."
+  ]
+ },
+ "coffee_works_again": {
+  "_": [
+   "Moment. Sie geht wieder?",
+   "Hä? Hat sie jemand repariert?",
+   "Die Kaffeemaschine lebt!"
+  ]
+ },
+ "coffee_who_fixed": {
+  "_": [
+   "Wer hat sie repariert? Muss {credited} gewesen sein.",
+   "Bestimmt hat {credited} sie repariert. Ich sollte mich bedanken."
+  ]
+ },
+ "coffee_spooky": {
+  "_": [
+   "Niemand hat sie angefasst. Sie hat sich einfach ... selbst repariert.",
+   "Okay, das ist gruselig.",
+   "In diesem Büro spukt es. Ich sag’s, wie es ist."
+  ]
+ },
+ "thanks_coffee_fix": {
+  "_": [
+   "Danke, dass du die Kaffeemaschine repariert hast, {target}!",
+   "Du hast den Kaffee repariert? Du bist {to?der|die} Beste!"
+  ]
+ },
+ "take_credit": {
+  "_": [
+   "Ach, das? Ja. Alles fürs Team.",
+   "Hehe. Gern geschehen.",
+   "War doch nichts, ehrlich."
+  ],
+  "deniz": [
+   "Selbstverständlich. Ich kümmere mich um die Dinge."
+  ]
+ },
+ "not_me": {
+  "_": [
+   "Ich war’s eigentlich nicht.",
+   "Ich hab nichts repariert ...",
+   "Nö. Nicht ich."
+  ],
+  "burak": [
+   "Ich hab sie nicht angefasst. Seltsam."
+  ]
+ },
+ "then_who": {
+  "_": [
+   "Wer war’s dann?",
+   "Moment ... wer dann?!",
+   "Okay, jetzt hab ich Angst."
+  ]
+ },
+ "burak_sigh_fix": {
+  "_": [
+   "Der Drucker ist immer noch tot. Na gut. Ich mach’s.",
+   "Keiner hat’s gemeldet. Natürlich nicht."
+  ]
+ },
+ "burak_sigh_fix_coffee": {
+  "_": [
+   "Schon wieder die Kaffeemaschine? Na gut.",
+   "Ich repariere den Kaffee. Fürs Gemeinwohl."
+  ]
+ },
+ "lights_out_react": {
+  "_": [
+   "AAAH!",
+   "Wer hat das Licht ausgemacht?!",
+   "Hey! Ich war am Tippen!",
+   "Haben wir vergessen, die Rechnung zu bezahlen?"
+  ],
+  "ahmet": [
+   "Was ist hier los?!"
+  ],
+  "burak": [
+   "... Sicherung."
+  ],
+  "ceren": [
+   "Alle bleiben ruhig."
+  ],
+  "deniz": [
+   "Interessant ..."
+  ],
+  "ece": [
+   "Ich sehe nichts! Ist das eine Übung?!"
+  ],
+  "mert": [
+   "Uuuh, gruselig!"
+  ],
+  "selin": [
+   "Mein Dokument! Ist es gespeichert?!"
+  ],
+  "zeynep": [
+   "Da spielt jemand Spielchen ..."
+  ]
+ },
+ "lights_will_fix": {
+  "_": [
+   "Ich schau mal nach der Sicherung.",
+   "Moment, ich mach das.",
+   "Keiner bewegt sich, ich kümmere mich drum."
+  ],
+  "burak": [
+   "Sicherung. Ich mach das."
+  ],
+  "ceren": [
+   "Ich kümmere mich darum."
+  ]
+ },
+ "ece_spill_oops": {
+  "_": [
+   "Oh nein! Es tut mir so leid!",
+   "Ups! Dein Hemd ...",
+   "AAH! Sorry, sorry, sorry!"
+  ]
+ },
+ "spill_forgive": {
+  "_": [
+   "Schon okay, ist nur ein Hemd.",
+   "Keine Sorge, so was passiert.",
+   "Ha! Ich brauchte sowieso einen neuen Look."
+  ],
+  "mert": [
+   "Mit Kaffeeduft. Sehr trendy."
+  ]
+ }
+}

@@ -1,1 +1,468 @@
-{}
+{
+ "printer_dead": {
+  "_": [
+   "Yazıcı ölmüş. Tabii ki ölmüş.",
+   "Yazıcı neden kırmızı yanıp sönüyor?!",
+   "KÂĞIT SIKIŞMASI MI?! İçinde kâğıt yok ki!",
+   "Hadi, hadi... yazdır!"
+  ],
+  "ahmet": [
+   "Bu yazıcı tam bir rezalet."
+  ],
+  "ceren": [
+   "Hm. Arızalı."
+  ],
+  "deniz": [
+   "Tipik."
+  ],
+  "ece": [
+   "Ben mi bozdum? Hiçbir şeye dokunmadım!"
+  ],
+  "mert": [
+   "Yazıcının keyfi yok galiba, ha?"
+  ],
+  "selin": [
+   "Bunun ŞİMDİ çıktısı lazım. Sonra değil. Şimdi."
+  ],
+  "zeynep": [
+   "Off, sayfalarımı yiyor!"
+  ]
+ },
+ "printer_selffix": {
+  "_": [
+   "Sana bunu kim yaptı dostum? Ben tamir ederim.",
+   "Klasik. Bana beş dakika ver."
+  ],
+  "burak": [
+   "Bu sefer kim tekmeledi? ...Peki. Tamir ederim."
+  ]
+ },
+ "printer_need_help": {
+  "_": [
+   "Yazıcı dilinden anlayan birine ihtiyacım var.",
+   "{helper}! Şu aletle bana yardım edebilir misin?"
+  ],
+  "ece": [
+   "{helper:e} soracağım! Panik yok. Ben panik yapmıyorum."
+  ],
+  "selin": [
+   "{helper} ne yapılacağını bilir."
+  ]
+ },
+ "printer_kick": {
+  "_": [
+   "Çalış be, işe yaramaz kutu!",
+   "*yazıcıyı tekmeler*",
+   "Al BAKALIM!"
+  ],
+  "ahmet": [
+   "YAZDIR dedim!"
+  ],
+  "burak": [
+   "...Bununla gurur duymuyorum."
+  ],
+  "selin": [
+   "İnanılmaz!"
+  ]
+ },
+ "witness_kick": {
+  "_": [
+   "Az önce yazıcıyı tekmeledi mi?",
+   "Sakin ol, şampiyon.",
+   "Bilgi işlem öyle çalışmıyor."
+  ],
+  "mert": [
+   "Stile on puan!"
+  ],
+  "zeynep": [
+   "Oo, birinin keyfi yok."
+  ]
+ },
+ "printer_giveup": {
+  "_": [
+   "Boş ver. Sonra yaparım.",
+   "Pes ediyorum. Laptopta gösteririm."
+  ],
+  "ece": [
+   "Tamam! Yeni plan! ...Planım yok."
+  ]
+ },
+ "ask_help_obj": {
+  "_": [
+   "{target}, {obj} bozuldu. Bir bakabilir misin?",
+   "{target}, {obj:i} tamir etme şansın var mı acaba?",
+   "{target}, senin sihrine ihtiyacım var. {obj} öldü."
+  ],
+  "ahmet": [
+   "{target}. {obj}. Tamir et."
+  ],
+  "ece": [
+   "Pardon pardon pardon — {target}, {obj} için yardım edebilir misin?"
+  ],
+  "mert": [
+   "{target}, dostum, kahramanım, {obj} fısıldayıcım..."
+  ],
+  "selin": [
+   "{target}, teslim tarihim var. {obj} öldü. Yardım?"
+  ]
+ },
+ "agree_help": {
+  "_": [
+   "Tabii, bir dakika ver.",
+   "Tamam, hallederim.",
+   "Hemen."
+  ],
+  "burak": [
+   "Of. Evet. Tamir ederim.",
+   "Kapatıp açmayı denedin mi? ...Boş ver, geliyorum."
+  ],
+  "ceren": [
+   "Sorun değil, ben hallederim."
+  ],
+  "ece": [
+   "Tabii ki! Yardım etmeye bayılırım!"
+  ]
+ },
+ "refuse_help": {
+  "_": [
+   "Kusura bakma, işim başımdan aşkın.",
+   "Benim işim değil.",
+   "Şu an olmaz."
+  ],
+  "ahmet": [
+   "Size bilgi işlemci gibi mi görünüyorum?"
+  ],
+  "burak": [
+   "Bugün değil.",
+   "Talep aç.",
+   "Senin kişisel teknik destek elemanın değilim."
+  ],
+  "deniz": [
+   "Hm. Çok isterdim ama... hayır."
+  ],
+  "selin": [
+   "Benim de teslim tarihim var, kusura bakma."
+  ]
+ },
+ "react_refused": {
+  "_": [
+   "Vay. Çok sağ ol.",
+   "Peki. PEKİ.",
+   "Bunu unutmayacağım."
+  ],
+  "ece": [
+   "Ah... tamam. Sorun değil. Hiç sorun değil."
+  ],
+  "mert": [
+   "Ah. Tamam."
+  ],
+  "selin": [
+   "Bunu unutmayacağım.",
+   "Not edildi. Kalıcı olarak."
+  ]
+ },
+ "help_later": {
+  "_": [
+   "Sonra olur mu? Bir işin ortasındayım.",
+   "Bana biraz zaman ver. Uğrarım."
+  ],
+  "burak": [
+   "Bu talepten sonra. Söz."
+  ]
+ },
+ "fine_wait": {
+  "_": [
+   "Tamam... beklerim.",
+   "Beni unutma!"
+  ]
+ },
+ "lights_fixed_me": {
+  "_": [
+   "Ve... ışık olsun!",
+   "Tamir edildi. Rica ederim."
+  ],
+  "burak": [
+   "Sigorta attı. Yine. Kimse bir şeye dokunmasın."
+  ]
+ },
+ "lights_back": {
+  "_": [
+   "Sonunda!",
+   "Teşekkürler!",
+   "Yeniden görebiliyorum!",
+   "Oh, çok şükür."
+  ],
+  "mert": [
+   "Kahramanım!"
+  ],
+  "zeynep": [
+   "Amma uzun sürdü."
+  ]
+ },
+ "fixed_it": {
+  "_": [
+   "Tamam. Artık çalışır.",
+   "Senin için tamir ettim.",
+   "Yepyeni gibi."
+  ],
+  "burak": [
+   "Çalışıyor. Lütfen tekmelemeyi bırakın."
+  ]
+ },
+ "thanks_fix": {
+  "_": [
+   "Çok teşekkürler!",
+   "Hayat kurtardın.",
+   "Sana bir borçluyum."
+  ],
+  "mert": [
+   "Sana bir kebap borçluyum."
+  ],
+  "selin": [
+   "Teşekkürler. Gerçekten."
+  ]
+ },
+ "fixed_solo": {
+  "_": [
+   "İşte. Tamir oldu.",
+   "İşler yeniden yolunda."
+  ],
+  "burak": [
+   "Yeni bir gün, yeni bir mucize."
+  ]
+ },
+ "coffee_dead": {
+  "_": [
+   "Kahve yok mu?! KAHVE YOK MU?!",
+   "Kahve makinesi bozuk...",
+   "Neden böyle ses çıkarıyor?"
+  ],
+  "ahmet": [
+   "Kahve makinesini kim bozdu?!"
+  ],
+  "burak": [
+   "...Bunu ben tamir etmiyorum."
+  ],
+  "deniz": [
+   "Harika. Gerçekten harika."
+  ],
+  "mert": [
+   "Hayııır, yakıtım!"
+  ],
+  "zeynep": [
+   "Ben nasıl çalışacağım şimdi?!"
+  ]
+ },
+ "ece_try_fix": {
+  "_": [
+   "Ben tamir ederim! Bir kere video izlemiştim!",
+   "Bana bırakın! Şunu tutun... yok, bekleyin."
+  ]
+ },
+ "ece_fix_success": {
+  "_": [
+   "ÇALIŞIYOR! Ben bir dâhiyim!",
+   "Tadaa! Herkese kahve!"
+  ]
+ },
+ "praise_ece": {
+  "_": [
+   "Vay, helal olsun Ece!",
+   "Ece, sen bir efsanesin.",
+   "Stajyer bizi kurtardı!"
+  ]
+ },
+ "ece_fix_fail": {
+  "_": [
+   "Hay aksi. Eyvah. Eyvah eyvah eyvah.",
+   "Bunun... fışkırması gerekmiyordu.",
+   "Neden her yerim kahve oldu?!"
+  ]
+ },
+ "witness_spill": {
+  "_": [
+   "Ece, iyi misin?",
+   "Biri paspas getirsin!",
+   "Ay, ay."
+  ]
+ },
+ "coffee_rage": {
+  "_": [
+   "Bunu kim YAPTI?!",
+   "Yemin ederim çıldıracağım.",
+   "İnanılmaz! İNANILMAZ!"
+  ],
+  "ahmet": [
+   "Bu ofis dökülüyor!"
+  ],
+  "selin": [
+   "Biri bunun hesabını verecek."
+  ]
+ },
+ "witness_coffee_rage": {
+  "_": [
+   "Eyvah.",
+   "Yolundan çekilsek iyi olur.",
+   "Birinin morali bozuk."
+  ],
+  "mert": [
+   "Ona kafeinsiz verin."
+  ]
+ },
+ "coffee_blame": {
+  "_": [
+   "Bahse girerim {suspect}. Hep onu kurcalıyor.",
+   "En son {suspect} buradaydı. Tesadüf mü? Hayır.",
+   "{suspect:in} bozduğunu BİLİYORUM."
+  ],
+  "selin": [
+   "Yine {suspect} herhalde."
+  ],
+  "zeynep": [
+   "{suspect}, bahse girerim."
+  ]
+ },
+ "coffee_ask_fix": {
+  "_": [
+   "Belki {helper} tamir edebilir...",
+   "Gidip {helper:i} çağırayım."
+  ]
+ },
+ "coffee_sad": {
+  "_": [
+   "Bugün uzun bir gün olacak.",
+   "Kahve yok. Neşe yok.",
+   "*hüzünlü bir iç çekiş*"
+  ],
+  "ece": [
+   "Sorun değil! Su içerim! ...Hüzünlü su."
+  ]
+ },
+ "coffee_works_again": {
+  "_": [
+   "Dur. Yine mi çalışıyor?",
+   "Ha? Biri tamir mi etti?",
+   "Kahve makinesi hayatta!"
+  ]
+ },
+ "coffee_who_fixed": {
+  "_": [
+   "Kim tamir etti? {credited} olmalı.",
+   "Muhtemelen {credited} tamir etti. Teşekkür etmeliyim."
+  ]
+ },
+ "coffee_spooky": {
+  "_": [
+   "Kimse dokunmadı. Kendi kendine... düzeldi.",
+   "Tamam, bu ürkütücü.",
+   "Bu ofiste hayalet var. Ben söyleyeyim."
+  ]
+ },
+ "thanks_coffee_fix": {
+  "_": [
+   "Kahve makinesini tamir ettiğin için sağ ol, {target}!",
+   "Kahveyi sen mi tamir ettin? Sen bir harikasın!"
+  ]
+ },
+ "take_credit": {
+  "_": [
+   "Ha, o mu? Evet. Ekip için her şey.",
+   "Heh. Rica ederim.",
+   "Lafı bile olmaz."
+  ],
+  "deniz": [
+   "Elbette. Ben işleri hallederim."
+  ]
+ },
+ "not_me": {
+  "_": [
+   "Aslında ben değildim.",
+   "Ben hiçbir şey tamir etmedim...",
+   "Yok. Ben değilim."
+  ],
+  "burak": [
+   "Ben dokunmadım. Tuhaf."
+  ]
+ },
+ "then_who": {
+  "_": [
+   "O zaman kim yaptı?",
+   "Dur... o zaman kim?!",
+   "Tamam, artık korkuyorum."
+  ]
+ },
+ "burak_sigh_fix": {
+  "_": [
+   "Yazıcı hâlâ ölü. Peki. Ben yaparım.",
+   "Kimse bildirmemiş. Tabii ki."
+  ]
+ },
+ "burak_sigh_fix_coffee": {
+  "_": [
+   "Yine mi kahve makinesi? Peki.",
+   "Kahveyi tamir edeceğim. Daha büyük bir iyilik için."
+  ]
+ },
+ "lights_out_react": {
+  "_": [
+   "AAAH!",
+   "Işıkları kim kapattı?!",
+   "Hey! Yazı yazıyordum!",
+   "Faturayı ödemeyi mi unuttuk?"
+  ],
+  "ahmet": [
+   "Burada neler oluyor?!"
+  ],
+  "burak": [
+   "...Sigorta."
+  ],
+  "ceren": [
+   "Herkes sakin olsun."
+  ],
+  "deniz": [
+   "İlginç..."
+  ],
+  "ece": [
+   "Göremiyorum! Bu bir tatbikat mı?!"
+  ],
+  "mert": [
+   "Uuuu, ürkütücü!"
+  ],
+  "selin": [
+   "Belgem! Kaydoldu mu?!"
+  ],
+  "zeynep": [
+   "Biri oyun oynuyor..."
+  ]
+ },
+ "lights_will_fix": {
+  "_": [
+   "Sigortaya bakarım.",
+   "Bekleyin, ben hallederim.",
+   "Kimse kıpırdamasın, ben ilgileniyorum."
+  ],
+  "burak": [
+   "Sigorta. Ben hallederim."
+  ],
+  "ceren": [
+   "Ben ilgilenirim."
+  ]
+ },
+ "ece_spill_oops": {
+  "_": [
+   "Eyvah! Çok özür dilerim!",
+   "Hay aksi! Gömleğin...",
+   "AAH! Pardon pardon pardon!"
+  ]
+ },
+ "spill_forgive": {
+  "_": [
+   "Sorun değil, alt tarafı bir gömlek.",
+   "Merak etme, kaza olur.",
+   "Ha! Zaten yeni bir tarza ihtiyacım vardı."
+  ],
+  "mert": [
+   "Kahve kokulu. Çok moda."
+  ]
+ }
+}

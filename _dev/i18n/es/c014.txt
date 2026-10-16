@@ -1,0 +1,263 @@
+2259|¡{actor} me acusó de algo que no hice!
+2260|{target} y yo no nos hablamos.
+2261|Todos creen que calenté pescado en el microondas de la oficina.
+2262|{b} y yo hicimos las paces.
+2263|{owner} escribió cosas horribles sobre mí en un chat.
+2264|{target} chismeó sobre mí a mis espaldas.
+2265|{actor} me trajo flores.
+2266|{hater} tiene un chat grupal dedicado a quejarse de mí.
+2267|Nunca olvidaré lo que me hizo {target}.
+2268|{crush} eligió a {target}.
+2269|{actor} me ayudó a llegar a mi fecha límite.
+2270|{target} me ayudó con {obj}.
+2271|Ahmet me dijo que, si quería, me fuera.
+2272|Ahmet luchó por retenerme.
+2273|{hijacker} me secuestró la presentación.
+2274|{actor} me acusó de algo que no hice.
+2275|{target} rescató mi computadora.
+2276|Guardé el secreto de {subject}.
+2277|Ahmet me sermoneó por {what}. ¡Yo no hice nada!
+2278|Estoy casi {me?seguro|segura} de que {suspect} me tocó las cosas.
+2279|{actor} fue corriendo a Ahmet a hablar de mí.
+2280|{target} hizo algo bonito por mí. (O eso creo.)
+2281|La noche de karaoke en la cocina fue increíble.
+2282|Llegué tarde y Ahmet se dio cuenta.
+2283|{winner} se llevó lo que debería haber sido mío.
+2284|Hicimos las paces. Sienta bien.
+2285|{owner} me acusó de llevarme su contrato.
+2286|{culprit} admitió que perdió mi contrato.
+2287|Ahmet me estuvo respirando en la nuca toda la tarde.
+2288|{suspect} archivó mal mi informe.
+2289|{actor} me devolvió mi informe perdido.
+2290|{mentor} me protegió cuando metí la pata.
+2291|{actor} vino a ver cómo estaba cuando tenía un día difícil.
+2292|{actor} me cubrió con Ahmet.
+2293|Ahmet rechazó mi petición de ascenso.
+2294|{actor} fue corriendo a contarle a Ahmet mi error.
+2295|Mi memoria USB desapareció justo antes de mi presentación.
+2296|Tuvimos una fiesta de oficina increíble.
+2297|{target} organizó una fiesta para todos.
+2298|{actor} me pasó su trabajo urgente.
+2299|{rich} gana mucho más que yo.
+2300|Ahmet nos dejó quedarnos con el gatito de la oficina.
+2301|Alguien le mandó a toda la oficina una foto vergonzosa mía.
+2302|Ahmet me dio largas con lo del ascenso.
+2303|A Ahmet le encantó mi propuesta.
+2304|¡Ahmet elogió mi presentación!
+2305|Alguien me hizo una broma. Seguramente {suspect}.
+2306|Ahmet rompió una promesa que me hizo por escrito.
+2307|No dije nada, pero sé que fue {suspect}.
+2308|Ahmet me subió el sueldo.
+2309|Ahmet me negó el aumento.
+2310|{text}
+2311|{target} se negó a ayudarme.
+2312|{actor} me devolvió mi {item}. ¡Qué amable!
+2313|{actor} me devolvió mi cuaderno sin leerlo.
+2314|Ahmet me hizo una evaluación sorpresa terrible.
+2315|Ahmet me elogió en una evaluación sorpresa.
+2316|{crush} y yo lo dejamos.
+2317|{crush} me rechazó.
+2318|Ahmet aceptó mi renuncia sin pestañear.
+2319|{partner} me vendió.
+2320|Alguien manipuló mi expediente de ascenso. ¿{credited}?
+2321|{actor} se burló de mí.
+2322|Ahmet me echó la bronca.
+2323|Ahmet me pilló tomándome un descanso.
+2324|Llegué tarde y Ahmet me regañó.
+2325|{actor} reconoció mi mérito delante de todos.
+2326|{friend} dio la cara por mí delante de Ahmet.
+2327|Presumí de un ascenso que no existe. Delante de Ahmet.
+2328|{victim} me delató ante Ahmet.
+2329|Ahmet elogió a {thief} por una idea que se parece mucho a la mía.
+2330|Ahmet me creyó lo de {thief}.
+2331|Me quedé {me?congelado|congelada} en la reunión. Alguien cambió mis diapositivas.
+2332|A {actor} se le escapó mi secreto.
+2333|{actor} me tiró café por todas partes.
+2334|{target} difundió mentiras sobre mí.
+2335|Todos creen que he estado acaparando el material de oficina.
+2336|Estoy {me?seguro|segura} de que {suspect} rompió la cafetera.
+2337|Creo que {suspect} me tocó los archivos.
+2338|Le contesté a Ahmet. No me arrepiento. Un poco sí.
+2339|Cargué con la culpa para que {actor} se calmara.
+2340|Mi {item} apareció en el escritorio de {owner}.
+2341|Me dejaron fuera de la reunión a propósito.
+2342|Le pedí perdón a {target}. Me ignoró.
+2343|Zeynep me dijo que fue {suspect}.
+2344|La impresora está muerta. Cómo no.
+2345|¿¡Por qué parpadea en rojo la impresora!?
+2346|¿¡ATASCO DE PAPEL!? ¡Si no tiene papel!
+2347|Vamos, vamos… ¡imprime!
+2348|Esta impresora es una vergüenza.
+2349|Necesito esto impreso YA. No luego. Ya.
+2350|La impresora está en uno de sus días, ¿eh?
+2351|¡Uf, se está comiendo mis hojas!
+2352|¿La rompí yo? ¡No toqué nada!
+2353|Típico.
+2354|Mm. Fuera de servicio.
+2355|¿Quién te hizo esto, amiga? Yo te arreglo.
+2356|Clásico. Dame cinco minutos.
+2357|¿Quién la pateó esta vez? …Vale. La arreglo.
+2358|Necesito a alguien que hable impresora.
+2359|¡{helper}! ¿Me ayudas con este trasto?
+2360|{helper} sabrá qué hacer.
+2361|¡Le pregunto a {helper}! Que no cunda el pánico. Yo no estoy en pánico.
+2362|¡Funciona, caja inútil!
+2363|*patea la impresora*
+2364|¡TOMA!
+2365|¡He dicho que IMPRIMAS!
+2366|¡Increíble!
+2367|…No estoy orgulloso de eso.
+2368|¿Acaba de patear la impresora?
+2369|Calma, campeón.
+2370|Así no funciona la informática.
+2371|¡Diez puntos por estilo!
+2372|Uy, alguien está de malas.
+2373|Olvídalo. Lo hago luego.
+2374|Me rindo. Lo enseño en el portátil.
+2375|¡Vale! ¡Nuevo plan! …No tengo plan.
+2376|{target}, {obj} {obj?está roto|está rota|está roto|están rotas}. ¿Le echas un vistazo?
+2377|Oye, {target}… ¿podrías arreglar {obj}?
+2378|{target}, necesito tu magia. {obj} {obj?murió|murió|murió|murieron}.
+2379|{target}, tengo una entrega. {obj} {obj?murió|murió|murió|murieron}. ¿Me ayudas?
+2380|{target}, {target?amigo mío, mi héroe|amiga mía, mi heroína}, {target?mi encantador|mi encantadora} de {obj}…
+2381|Perdón perdón perdón… {target}, ¿me ayudas con {obj}?
+2382|{target}. {obj}. Arréglalo.
+2383|Claro, dame un minuto.
+2384|Sí, yo me encargo.
+2385|Voy.
+2386|Suspiro. Sí. Lo arreglo.
+2387|¿Probaste a apagarlo y encenderlo? …Da igual, ya voy.
+2388|¡Claro que sí! ¡Me encanta ayudar!
+2389|No hay problema, yo me encargo.
+2390|Lo siento, estoy hasta arriba.
+2391|No es mi trabajo.
+2392|Ahora no puedo.
+2393|Hoy no.
+2394|Abre un ticket.
+2395|No soy tu soporte técnico personal.
+2396|Mm. Me encantaría, pero… no.
+2397|Yo también tengo una entrega, lo siento.
+2398|¿Tengo cara de informático?
+2399|Vaya. Muchas gracias.
+2400|Vale. VALE.
+2401|Me acordaré de esto.
+2402|Me acordaré de esto.
+2403|Anotado. Para siempre.
+2404|Ay. Vale.
+2405|Ah… vale. No pasa nada. Nada de nada.
+2406|Luego, ¿vale? Estoy en medio de algo.
+2407|Dame un rato. Me paso.
+2408|Después de este ticket. Prometido.
+2409|Vale… espero.
+2410|¡No te olvides de mí!
+2411|Y… ¡hágase la luz!
+2412|Arreglado. De nada.
+2413|Saltó el diferencial. Otra vez. Que nadie toque nada.
+2414|¡Por fin!
+2415|¡Gracias!
+2416|¡Ya veo otra vez!
+2417|Ay, menos mal.
+2418|¡Mi héroe!
+2419|Ya era hora.
+2420|Listo. Ya debería funcionar.
+2421|Te lo arreglé.
+2422|Como nuevo.
+2423|Funciona. Por favor, dejen de darle patadas.
+2424|¡Muchísimas gracias!
+2425|Me salvaste la vida.
+2426|Te debo una.
+2427|Gracias. De verdad.
+2428|Te debo un kebab.
+2429|Listo. Arreglado.
+2430|Otra vez en marcha.
+2431|Otro día, otro milagro.
+2432|¿¡No hay café!? ¿¡NO HAY CAFÉ!?
+2433|La cafetera está rota…
+2434|¿Por qué hace ese ruido?
+2435|¿¡Quién rompió la cafetera!?
+2436|¡Nooo, mi combustible!
+2437|¿¡Cómo se supone que voy a funcionar!?
+2438|Maravilloso. Sencillamente maravilloso.
+2439|…Esto no lo arreglo yo.
+2440|¡Yo la arreglo! ¡Una vez vi un video!
+2441|¡Déjenmelo a mí! Sujeta esto… no, espera.
+2442|¡FUNCIONA! ¡Soy un genio!
+2443|¡Tachán! ¡Café para todos!
+2444|¡Guau, bien hecho, Ece!
+2445|Ece, eres una leyenda.
+2446|¡La becaria nos salvó!
+2447|Uy. Ay, no. Ay, no, no, no.
+2448|Eso… no tenía que salpicar.
+2449|¿¡Por qué está todo encima de mí!?
+2450|Ece, ¿estás bien?
+2451|¡Que alguien traiga una fregona!
+2452|Ay, madre.
+2453|¿¡Quién HIZO esto!?
+2454|Juro que voy a perder los nervios.
+2455|¡Increíble! ¡INCREÍBLE!
+2456|¡Esta oficina se cae a pedazos!
+2457|Alguien va a pagar por esto.
+2458|Uf.
+2459|Mejor apartarse de su camino.
+2460|Alguien está de mal humor.
+2461|Para esa persona, descafeinado.
+2462|Seguro que fue {suspect}. Siempre está toqueteándola.
+2463|{suspect} fue {suspect?el último|la última} en estar aquí. ¿Casualidad? No.
+2464|SÉ que {suspect} la rompió.
+2465|Fue {suspect}, me apuesto lo que sea.
+2466|{suspect} otra vez, supongo.
+2467|A lo mejor {helper} puede arreglarla…
+2468|Voy a buscar a {helper}.
+2469|Hoy va a ser un día largo.
+2470|Sin café. Sin alegría.
+2471|*suspiro triste*
+2472|¡No pasa nada! ¡Beberé agua! …Agua triste.
+2473|Espera. ¿Vuelve a funcionar?
+2474|¿Eh? ¿Alguien la arregló?
+2475|¡La cafetera está viva!
+2476|¿Quién la arregló? Habrá sido {credited}.
+2477|Seguro que la arregló {credited}. Debería darle las gracias.
+2478|Nadie la tocó. Se arregló… sola.
+2479|Vale, esto da miedo.
+2480|Esta oficina está embrujada. Lo digo yo.
+2481|¡Gracias por arreglar la cafetera, {target}!
+2482|¿Arreglaste el café? ¡Eres {to?el mejor|la mejor}!
+2483|Ah, ¿eso? Sí. Lo que sea por el equipo.
+2484|Je. De nada.
+2485|No fue nada, de verdad.
+2486|Naturalmente. Yo me ocupo de las cosas.
+2487|En realidad no fui yo.
+2488|Yo no arreglé nada…
+2489|Nop. Yo no.
+2490|Yo no la toqué. Qué raro.
+2491|¿Entonces quién fue?
+2492|Espera… ¿¡entonces quién!?
+2493|Vale, ahora tengo miedo.
+2494|La impresora sigue muerta. Vale. Lo hago yo.
+2495|Nadie avisó. Cómo no.
+2496|¿Otra vez la cafetera? Vale.
+2497|Arreglaré el café. Por el bien común.
+2498|¡AAAH!
+2499|¿¡Quién apagó las luces!?
+2500|¡Oye! ¡Estaba escribiendo!
+2501|¿Se nos olvidó pagar la factura?
+2502|¡No veo nada! ¿¡Es un simulacro!?
+2503|¡Uuuh, qué miedo!
+2504|Alguien está jugando…
+2505|¿¡Qué está pasando aquí!?
+2506|Interesante…
+2507|¡Mi documento! ¿¡Se guardó!?
+2508|…El diferencial.
+2509|Todos mantengan la calma.
+2510|Voy a mirar el cuadro eléctrico.
+2511|Esperen, yo lo arreglo.
+2512|Que nadie se mueva, me encargo yo.
+2513|El diferencial. Yo me encargo.
+2514|Yo me ocupo.
+2515|¡Ay, no! ¡Lo siento muchísimo!
+2516|¡Uy! Tu camisa…
+2517|¡AAH! ¡Perdón perdón perdón!
+2518|Tranquila, es solo una camisa.
+2519|No te preocupes, son cosas que pasan.
+2520|¡Ja! Igual necesitaba un look nuevo.
+2521|Con aroma a café. Muy a la moda.

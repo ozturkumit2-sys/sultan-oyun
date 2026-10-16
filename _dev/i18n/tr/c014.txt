@@ -1,0 +1,263 @@
+2259|{actor} beni yapmadığım bir şeyle suçladı!
+2260|{target} ile konuşmuyoruz.
+2261|Herkes ofiste mikrodalgada balık ısıttığımı sanıyor.
+2262|{b} ile barıştık.
+2263|{owner}, bir sohbette hakkımda berbat şeyler yazmış.
+2264|{target} arkamdan hakkımda dedikodu yaptı.
+2265|{actor} bana çiçek getirdi.
+2266|{hater:in}, sırf benden yakınmak için açılmış bir grup sohbeti var.
+2267|{target:in} yaptığını asla unutmayacağım.
+2268|{crush}, {target:i} seçti.
+2269|{actor}, teslim tarihine yetişmem için bana yardım etti.
+2270|{target}, {obj} konusunda bana yardım etti.
+2271|Ahmet, istiyorsam gidebileceğimi söyledi.
+2272|Ahmet beni tutmak için savaştı.
+2273|{hijacker} sunumumu ele geçirdi.
+2274|{actor} beni yapmadığım bir şeyle suçladı.
+2275|{target} bilgisayarımı kurtardı.
+2276|{subject:in} sırrını sakladım.
+2277|Ahmet bana {what} hakkında nutuk çekti. Ben bir şey yapmadım ki!
+2278|Eşyalarımı {suspect:in} kurcaladığından neredeyse eminim.
+2279|{actor} beni Ahmet'e şikâyet etti.
+2280|{target} benim için güzel bir şey yaptı. (Ya da bana öyle geliyor.)
+2281|Mutfaktaki karaoke gecesi muhteşemdi.
+2282|Geç kaldım ve Ahmet fark etti.
+2283|Benim olması gerekeni {winner} aldı.
+2284|Barıştık. İyi hissettiriyor.
+2285|{owner}, sözleşmesini aldığımı söyleyerek beni suçladı.
+2286|{culprit}, sözleşmemi kaybettiğini itiraf etti.
+2287|Ahmet bütün öğleden sonra ensemde boza pişirdi.
+2288|{suspect} raporumu yanlış yere dosyaladı.
+2289|{actor} kayıp raporumu geri getirdi.
+2290|Hata yaptığımda {mentor} beni korudu.
+2291|Zor bir gün geçirirken {actor} hâlimi hatırımı sordu.
+2292|{actor}, Ahmet'e karşı beni idare etti.
+2293|Ahmet terfi isteğimi reddetti.
+2294|{actor} hatamı Ahmet'e yetiştirdi.
+2295|USB belleğim sunumdan hemen önce ortadan kayboldu.
+2296|Muhteşem bir ofis partisi yaptık.
+2297|{target} herkese parti verdi.
+2298|{actor} acil işini bana devretti.
+2299|{rich} benden çok daha fazla kazanıyor.
+2300|Ahmet ofis kedisini tutmamıza izin verdi.
+2301|Biri utanç verici bir fotoğrafımı bütün ofise paylaştı.
+2302|Ahmet terfi isteğimi geçiştirdi.
+2303|Ahmet sunumuma bayıldı.
+2304|Ahmet sunumumu övdü!
+2305|Biri bana şaka yaptı. Muhtemelen {suspect}.
+2306|Ahmet bana yazılı verdiği sözü tutmadı.
+2307|Bir şey demedim ama {suspect} olduğunu biliyorum.
+2308|Ahmet bana zam yaptı.
+2309|Ahmet zammımı reddetti.
+2310|{text}
+2311|{target} bana yardım etmeyi reddetti.
+2312|{actor} sayesinde {item:m} geri geldi. Ne incelik!
+2313|{actor} defterimi okumadan geri verdi.
+2314|Ahmet bana berbat bir sürpriz değerlendirme yaptı.
+2315|Ahmet sürpriz bir değerlendirmede beni övdü.
+2316|{crush} ile ayrıldık.
+2317|{crush} beni reddetti.
+2318|Ahmet istifamı gözünü bile kırpmadan kabul etti.
+2319|{partner} beni sattı.
+2320|Biri terfi dosyamı kurcalamış. {credited} mi?
+2321|{actor} benimle dalga geçti.
+2322|Ahmet bana fırça attı.
+2323|Ahmet mola verirken beni yakaladı.
+2324|Geç kaldım ve Ahmet beni azarladı.
+2325|{actor} herkesin önünde emeğimi teslim etti.
+2326|{friend}, Ahmet'in önünde beni savundu.
+2327|Var olmayan bir terfiyle böbürlendim. Hem de Ahmet'in önünde.
+2328|{victim} beni Ahmet'e ifşa etti.
+2329|Ahmet, {thief:i} benimkine çok benzeyen bir fikir için övdü.
+2330|Ahmet, {thief} konusunda bana inandı.
+2331|Toplantıda donup kaldım. Biri slaytlarımı değiştirmiş.
+2332|{actor} sırrımı ağzından kaçırdı.
+2333|{actor} üstüme başıma kahve döktü.
+2334|{target} hakkımda yalanlar yaydı.
+2335|Herkes ofis malzemelerini istiflediğimi sanıyor.
+2336|Kahve makinesini {suspect:in} bozduğundan eminim.
+2337|Bence dosyalarımı {suspect} kurcaladı.
+2338|Ahmet'e karşılık verdim. Pişman değilim. Biraz pişmanım.
+2339|{actor} sakinleşsin diye suçu üstlendim.
+2340|{item:m}, {owner:in} masasından çıktı.
+2341|Toplantının dışında bilerek bırakıldım.
+2342|{target:den} özür diledim. Görmezden geldi.
+2343|Zeynep bana bunu {suspect:in} yaptığını söyledi.
+2344|Yazıcı ölmüş. Tabii ki ölmüş.
+2345|Yazıcı neden kırmızı yanıp sönüyor?!
+2346|KÂĞIT SIKIŞMASI MI?! İçinde kâğıt yok ki!
+2347|Hadi, hadi... yazdır!
+2348|Bu yazıcı tam bir rezalet.
+2349|Bunun ŞİMDİ çıktısı lazım. Sonra değil. Şimdi.
+2350|Yazıcının keyfi yok galiba, ha?
+2351|Off, sayfalarımı yiyor!
+2352|Ben mi bozdum? Hiçbir şeye dokunmadım!
+2353|Tipik.
+2354|Hm. Arızalı.
+2355|Sana bunu kim yaptı dostum? Ben tamir ederim.
+2356|Klasik. Bana beş dakika ver.
+2357|Bu sefer kim tekmeledi? ...Peki. Tamir ederim.
+2358|Yazıcı dilinden anlayan birine ihtiyacım var.
+2359|{helper}! Şu aletle bana yardım edebilir misin?
+2360|{helper} ne yapılacağını bilir.
+2361|{helper:e} soracağım! Panik yok. Ben panik yapmıyorum.
+2362|Çalış be, işe yaramaz kutu!
+2363|*yazıcıyı tekmeler*
+2364|Al BAKALIM!
+2365|YAZDIR dedim!
+2366|İnanılmaz!
+2367|...Bununla gurur duymuyorum.
+2368|Az önce yazıcıyı tekmeledi mi?
+2369|Sakin ol, şampiyon.
+2370|Bilgi işlem öyle çalışmıyor.
+2371|Stile on puan!
+2372|Oo, birinin keyfi yok.
+2373|Boş ver. Sonra yaparım.
+2374|Pes ediyorum. Laptopta gösteririm.
+2375|Tamam! Yeni plan! ...Planım yok.
+2376|{target}, {obj} bozuldu. Bir bakabilir misin?
+2377|{target}, {obj:i} tamir etme şansın var mı acaba?
+2378|{target}, senin sihrine ihtiyacım var. {obj} öldü.
+2379|{target}, teslim tarihim var. {obj} öldü. Yardım?
+2380|{target}, dostum, kahramanım, {obj} fısıldayıcım...
+2381|Pardon pardon pardon — {target}, {obj} için yardım edebilir misin?
+2382|{target}. {obj}. Tamir et.
+2383|Tabii, bir dakika ver.
+2384|Tamam, hallederim.
+2385|Hemen.
+2386|Of. Evet. Tamir ederim.
+2387|Kapatıp açmayı denedin mi? ...Boş ver, geliyorum.
+2388|Tabii ki! Yardım etmeye bayılırım!
+2389|Sorun değil, ben hallederim.
+2390|Kusura bakma, işim başımdan aşkın.
+2391|Benim işim değil.
+2392|Şu an olmaz.
+2393|Bugün değil.
+2394|Talep aç.
+2395|Senin kişisel teknik destek elemanın değilim.
+2396|Hm. Çok isterdim ama... hayır.
+2397|Benim de teslim tarihim var, kusura bakma.
+2398|Size bilgi işlemci gibi mi görünüyorum?
+2399|Vay. Çok sağ ol.
+2400|Peki. PEKİ.
+2401|Bunu unutmayacağım.
+2402|Bunu unutmayacağım.
+2403|Not edildi. Kalıcı olarak.
+2404|Ah. Tamam.
+2405|Ah... tamam. Sorun değil. Hiç sorun değil.
+2406|Sonra olur mu? Bir işin ortasındayım.
+2407|Bana biraz zaman ver. Uğrarım.
+2408|Bu talepten sonra. Söz.
+2409|Tamam... beklerim.
+2410|Beni unutma!
+2411|Ve... ışık olsun!
+2412|Tamir edildi. Rica ederim.
+2413|Sigorta attı. Yine. Kimse bir şeye dokunmasın.
+2414|Sonunda!
+2415|Teşekkürler!
+2416|Yeniden görebiliyorum!
+2417|Oh, çok şükür.
+2418|Kahramanım!
+2419|Amma uzun sürdü.
+2420|Tamam. Artık çalışır.
+2421|Senin için tamir ettim.
+2422|Yepyeni gibi.
+2423|Çalışıyor. Lütfen tekmelemeyi bırakın.
+2424|Çok teşekkürler!
+2425|Hayat kurtardın.
+2426|Sana bir borçluyum.
+2427|Teşekkürler. Gerçekten.
+2428|Sana bir kebap borçluyum.
+2429|İşte. Tamir oldu.
+2430|İşler yeniden yolunda.
+2431|Yeni bir gün, yeni bir mucize.
+2432|Kahve yok mu?! KAHVE YOK MU?!
+2433|Kahve makinesi bozuk...
+2434|Neden böyle ses çıkarıyor?
+2435|Kahve makinesini kim bozdu?!
+2436|Hayııır, yakıtım!
+2437|Ben nasıl çalışacağım şimdi?!
+2438|Harika. Gerçekten harika.
+2439|...Bunu ben tamir etmiyorum.
+2440|Ben tamir ederim! Bir kere video izlemiştim!
+2441|Bana bırakın! Şunu tutun... yok, bekleyin.
+2442|ÇALIŞIYOR! Ben bir dâhiyim!
+2443|Tadaa! Herkese kahve!
+2444|Vay, helal olsun Ece!
+2445|Ece, sen bir efsanesin.
+2446|Stajyer bizi kurtardı!
+2447|Hay aksi. Eyvah. Eyvah eyvah eyvah.
+2448|Bunun... fışkırması gerekmiyordu.
+2449|Neden her yerim kahve oldu?!
+2450|Ece, iyi misin?
+2451|Biri paspas getirsin!
+2452|Ay, ay.
+2453|Bunu kim YAPTI?!
+2454|Yemin ederim çıldıracağım.
+2455|İnanılmaz! İNANILMAZ!
+2456|Bu ofis dökülüyor!
+2457|Biri bunun hesabını verecek.
+2458|Eyvah.
+2459|Yolundan çekilsek iyi olur.
+2460|Birinin morali bozuk.
+2461|Ona kafeinsiz verin.
+2462|Bahse girerim {suspect}. Hep onu kurcalıyor.
+2463|En son {suspect} buradaydı. Tesadüf mü? Hayır.
+2464|{suspect:in} bozduğunu BİLİYORUM.
+2465|{suspect}, bahse girerim.
+2466|Yine {suspect} herhalde.
+2467|Belki {helper} tamir edebilir...
+2468|Gidip {helper:i} çağırayım.
+2469|Bugün uzun bir gün olacak.
+2470|Kahve yok. Neşe yok.
+2471|*hüzünlü bir iç çekiş*
+2472|Sorun değil! Su içerim! ...Hüzünlü su.
+2473|Dur. Yine mi çalışıyor?
+2474|Ha? Biri tamir mi etti?
+2475|Kahve makinesi hayatta!
+2476|Kim tamir etti? {credited} olmalı.
+2477|Muhtemelen {credited} tamir etti. Teşekkür etmeliyim.
+2478|Kimse dokunmadı. Kendi kendine... düzeldi.
+2479|Tamam, bu ürkütücü.
+2480|Bu ofiste hayalet var. Ben söyleyeyim.
+2481|Kahve makinesini tamir ettiğin için sağ ol, {target}!
+2482|Kahveyi sen mi tamir ettin? Sen bir harikasın!
+2483|Ha, o mu? Evet. Ekip için her şey.
+2484|Heh. Rica ederim.
+2485|Lafı bile olmaz.
+2486|Elbette. Ben işleri hallederim.
+2487|Aslında ben değildim.
+2488|Ben hiçbir şey tamir etmedim...
+2489|Yok. Ben değilim.
+2490|Ben dokunmadım. Tuhaf.
+2491|O zaman kim yaptı?
+2492|Dur... o zaman kim?!
+2493|Tamam, artık korkuyorum.
+2494|Yazıcı hâlâ ölü. Peki. Ben yaparım.
+2495|Kimse bildirmemiş. Tabii ki.
+2496|Yine mi kahve makinesi? Peki.
+2497|Kahveyi tamir edeceğim. Daha büyük bir iyilik için.
+2498|AAAH!
+2499|Işıkları kim kapattı?!
+2500|Hey! Yazı yazıyordum!
+2501|Faturayı ödemeyi mi unuttuk?
+2502|Göremiyorum! Bu bir tatbikat mı?!
+2503|Uuuu, ürkütücü!
+2504|Biri oyun oynuyor...
+2505|Burada neler oluyor?!
+2506|İlginç...
+2507|Belgem! Kaydoldu mu?!
+2508|...Sigorta.
+2509|Herkes sakin olsun.
+2510|Sigortaya bakarım.
+2511|Bekleyin, ben hallederim.
+2512|Kimse kıpırdamasın, ben ilgileniyorum.
+2513|Sigorta. Ben hallederim.
+2514|Ben ilgilenirim.
+2515|Eyvah! Çok özür dilerim!
+2516|Hay aksi! Gömleğin...
+2517|AAH! Pardon pardon pardon!
+2518|Sorun değil, alt tarafı bir gömlek.
+2519|Merak etme, kaza olur.
+2520|Ha! Zaten yeni bir tarza ihtiyacım vardı.
+2521|Kahve kokulu. Çok moda.

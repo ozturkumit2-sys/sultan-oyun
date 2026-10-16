@@ -83,3 +83,11 @@ Everywhere else (ui.*, why.*, state.*, iv.*, …) write gender-neutral; role pla
 - lira: de Lira, es liras, fr lires, zh 里拉, hi लीरा.
 - Ece's "Uncle" slip and her lie (chunk 22 dialogue + log 1902): tr Amca → "ancak dedim", de Onkel → „Knöchel“,
   es tío → «frío», fr Tonton → « menton », zh 叔叔 → “不舒服”, hi चाचा → "चा… चाय". niece: tr yeğen, zh 侄女, hi भतीजी.
+
+## Dialogue register (decided at chunk 14)
+- Colleague ↔ colleague: tr sen, de du, es tú, fr tu, hi तुम.
+- Anyone → Ahmet: tr siz / "Ahmet Bey", de Sie, es usted, fr vous, hi आप / "अहमत साहब".
+- Ahmet → employees: tr sen, de Sie, es tú, fr vous, hi आप.
+- Generic speaker lines ("_") can be said by anyone: gendered words via {me?m|f}; Hindi first-person verbs always {me?..|..}.
+- obj values carry their article in es/fr ({obj} = "la impresora"); de has no article → {obj?der|die|das} {obj}
+  (m|f|n: Drucker m, Kaffeemaschine f, Tastatur f, Licht n); lights are plural in es/fr/hi (4th slot "p").
