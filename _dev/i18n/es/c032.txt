@@ -1,0 +1,178 @@
+6244|¡Caja solidaria en la cocina! Para el refugio de animales. ¡Cada lira cuenta!
+6245|¡Ayuden al refugio! La caja está en la cocina. ¡Sean generosos!
+6246|*mete un billete en la caja*
+6247|Para los cachorritos.
+6248|Toma. No le digas a nadie cuánto.
+6249|...Qué raro. Estoy {me?seguro|segura} de que aquí había más.
+6250|Trescientas y... espera. ¿Adónde fue el billete grande?
+6251|¡Recaudamos más que el año pasado! ¡Gracias a todos!
+6252|¡Un récord! En el refugio van a llorar.
+6253|¿Sacaste dinero de la caja solidaria, {suspect}?
+6254|Falta dinero en la caja. ¿Algo que quieras contarme?
+6255|¡¿QUÉ?! ¡No! ¡Yo METÍ dinero!
+6256|¿Hablas en serio? ¿De la caja de un REFUGIO?
+6257|Yo... tomé prestadas unas monedas para la máquina expendedora. ¡Iba a devolverlas!
+6258|Vale, vale: tomé monedas para la cafetera. Pagaré el doble.
+6259|...Ah. Estaba atascado bajo la tapa. Olvídalo. Perdón.
+6260|Espera... el billete se metió en el forro. Soy {me?un idiota|una idiota}.
+6261|Malas noticias. La central recortó nuestro presupuesto. Desde hoy: se acabó el café gratis.
+6262|Equipo. Recortes. La cafetera ahora es... de pago por taza.
+6263|¡¿QUÉ?!
+6264|¡¿Sin café?! ¡¿Cómo se supone que vamos a TRABAJAR?!
+6265|Esto es una violación de los derechos humanos.
+6266|Primero el café. Luego serán las sillas.
+6267|Si se va el café, me voy yo.
+6268|Tenemos que HACER algo.
+6269|Ahmet Bey, una propuesta: hacemos una venta de pasteles y financiamos el café nosotros.
+6270|¿Y si nosotros pagamos los granos y usted mantiene la máquina funcionando?
+6271|...Una venta de pasteles. Está bien. Tráeme un börek y hablamos.
+6272|Mmm. Creativo. Aprobado.
+6273|Nada de ventas de pasteles. Esto es una empresa, no una kermés escolar.
+6274|El presupuesto es el presupuesto.
+6275|¡Baklava casero! Cinco liras la porción. No se lo digan a Ahmet.
+6276|*abre un cajón lleno de baklava* El negocio está abierto.
+6277|Dos porciones. No... tres.
+6278|Calla y toma mi dinero.
+6279|¿Esto es de pistacho? Dame la bandeja.
+6280|Acepto pedidos para el viernes. Solo bandejas.
+6281|He contratado a {runner} como {runner?repartidor|repartidora}.
+6282|{seller}. ¿Por qué tu escritorio huele a pastelería?
+6283|¿Eso es... una LISTA DE PRECIOS? ¿En papel de la empresa?
+6284|...¿Cuánto cuesta una bandeja entera? Pregunto por un cliente.
+6285|Está bien. Dos bandejas para la reunión del consejo. Con la tarjeta de la empresa.
+6286|Ciérralo. Hoy. Te pagan por trabajar, no por hornear.
+6287|Esto es un lugar de trabajo. Ciérralo.
+6288|*CRAC* ...No. No, no, no. LA taza no.
+6289|*recoge los pedazos de «El mejor jefe del mundo»* Estoy {me?muerto|muerta}. Estoy {me?muertísimo|muertísima}.
+6290|Rompí la taza de Ahmet. LA taza. Ayúdame.
+6291|Código rojo. La taza del jefe. Hecha pedazos. ¿Qué hago?
+6292|Vale. Respira. Hay una idéntica en el cuarto de material. Probablemente.
+6293|Déjamelo a mí. Conozco a alguien que conoce a una taza.
+6294|Díselo y ya. Valora la sinceridad. Probablemente.
+6295|Díselo ahora, antes de que lo descubra.
+6296|*pone una taza de repuesto ligeramente distinta en el escritorio de Ahmet* ...Perfecto.
+6297|*cambia la taza* Dice «El mejor jefe del mudo». No se dará cuenta.
+6298|...¿«El mejor jefe del MUDO»? ¡¿Quién cambió mi taza?!
+6299|Esta no es mi taza. La mía tenía una muesca en el asa.
+6300|*sorbe café feliz de la taza equivocada*
+6301|Ahh. No hay nada como mi taza favorita.
+6302|Ahmet Bey... rompí su taza. Lo siento muchísimo.
+6303|Tengo que confesarle algo. Es sobre su taza.
+6304|...Esa taza me la regaló mi hija. Pero gracias por decírmelo.
+6305|Los accidentes pasan. Gracias por ser {to?sincero|sincera}.
+6306|¡¿MI TAZA?! ¡¿Sabes cuánto tiempo tenía esa taza?!
+6307|Doce años. Doce años sobrevivió esa taza. Hasta que llegaste tú.
+6308|Tú. Yo. Sillas de oficina. Pasillo. El que pierda paga el café una semana.
+6309|Apuesto a que mi silla es más rápida que la tuya.
+6310|Ay, vas a PERDER.
+6311|Tú dices la hora.
+6312|Tres... dos... ¡UNO!
+6313|¡VAMOS VAMOS VAMOS!
+6314|*rueda a una velocidad aterradora*
+6315|¡VAMOS, {racer}!
+6316|¡Más rápido! ¡MÁS RÁPIDO!
+6317|¡Mi dinero está con {rival}!
+6318|*CRAC* ...¡Estoy bien! La planta no.
+6319|*gira y choca contra el dispensador de agua*
+6320|¿Por qué hay MARCAS DE RUEDAS en mi pasillo?
+6321|¿Alguien hizo CARRERAS DE SILLAS en mi oficina?
+6322|...Revancha. Mañana. Yo corro. Fui {me?campeón|campeona} regional de karts en el 98.
+6323|Mmm. ¿Dónde está la silla de repuesto? Quiero probar.
+6324|Las carreras de sillas quedan oficialmente prohibidas. Habrá un memo.
+6325|Nunca más. Los dos. NUNCA.
+6326|¡Lotería en grupo! Diez liras cada uno. Si ganamos, el lunes no viene nadie.
+6327|¡Lotería de la oficina! ¿Entras o no? No seas quien se queda fuera cuando ganemos.
+6328|Me apunto. Obviamente.
+6329|Toma mi dinero. Toma mis esperanzas.
+6330|¿Te enteraste? GANAMOS. La lotería. ¡Oí a {organiser} por teléfono!
+6331|¡Somos RICOS! ¡{organiser} le gritaba al teléfono!
+6332|Se acabó. Voy a decirle a Ahmet lo que REALMENTE pienso de sus memos.
+6333|Me compro un barco. Uno grande. Adiós, hojas de cálculo.
+6334|Vale, todos. Ganamos. Cuarenta liras. En total. Cuatro liras por cabeza.
+6335|Buena noticia: ¡ganamos! Mala noticia: da para un simit por persona.
+6336|...Cuatro liras. Le dije a Ahmet que su corbata es fea. POR CUATRO LIRAS.
+6337|Ya me di de baja del gimnasio. E insulté al jefe. Por un simit.
+6338|{a}, {b}: el informe trimestral es suyo. Juntos. Para mañana.
+6339|Nuevo proyecto. {a} y {b}. Que funcione.
+6340|...¿Juntos?
+6341|¡¿Con ESA persona?!
+6342|¿No puedo hacerlo {me?solo|sola}? ¿Dos veces?
+6343|...Tu gráfico está bastante bien.
+6344|Vale. Tú haces los números, yo los textos. ¿Trato?
+6345|¡Así no se formatea una tabla!
+6346|¡Deja de cambiar MIS párrafos!
+6347|Aquí está el informe. La mayor parte la hice yo.
+6348|Nuestro informe. Sobre todo mío.
+6349|¡¿La MAYOR PARTE?! ¡Yo escribí cada número de ahí!
+6350|¡¿Perdona?! Las páginas tres a nueve son MÍAS.
+6351|Esto es excelente. Los dos. ¿Ven? Trabajo en equipo.
+6352|Buen trabajo. Los dos. Lo sabía.
+6353|¡Escuchen! MAÑANA hay inspección de la central. Quiero esta oficina RELUCIENTE.
+6354|Mañana viene un inspector de la central. Limpien. Todo.
+6355|¿Reluciente? ¿Han VISTO el escritorio de {slob}?
+6356|Vamos a necesitar una excavadora para el rincón de {slob}.
+6357|*frota el teclado con un cepillo de dientes*
+6358|¿Esto es... un sándwich de MARZO?
+6359|*mete todo en un cajón*
+6360|¿Y qué hay en ESTE cajón, {slob}?
+6361|Abre el cajón, {slob}. El inspector está mirando.
+6362|...Carpetas bien etiquetadas. Vaya. Bien hecho.
+6363|Impresionante. Retiro lo que dije de tu escritorio.
+6364|*sale una avalancha de bolsas de papas y memos viejos*
+6365|*cuatro meses de recibos resbalan sobre los zapatos del inspector*
+6366|Llegó el informe del inspector: «Oficina ejemplar». ¡Bien hecho, todos!
+6367|APROBAMOS. Pizza a mi cuenta. Bueno, a cuenta de la empresa.
+6368|El informe del inspector dice «Necesita mejorar». Un solo cajón nos costó todo.
+6369|Suspendimos la inspección. No voy a dar nombres. {slob}.
+6370|¿Comemos? Mesa de la cocina, cinco minutos.
+6371|¿Quién tiene hambre? Mesa de la cocina. Ya.
+6372|Y entonces el camarero dice...
+6373|¿Alguien vio el partido?
+6374|¿Me pasas el ayran, por favor?
+6375|Pues este fin de semana me apunté por accidente a un maratón.
+6376|Resumiendo: tengo prohibida la entrada en ese IKEA.
+6377|Mi gato aprendió a abrir la nevera. Tenemos un problema.
+6378|¡JAJA! ¡No puede ser!
+6379|Para. No lo hiciste.
+6380|Es lo mejor que he oído en toda la semana.
+6381|...Fascinante.
+6382|Ajá. Ajá. En fin...
+6383|*asiente con educación, mira el móvil*
+6384|¡Mira! ¡Mira esta carita! *enseña un teléfono lleno de fotos de gatos*
+6385|Vale, una foto más. Solo una. *enseña cuarenta*
+6386|¡Ayyy! ¡Necesito uno!
+6387|Es lo más tierno que he visto en mi vida.
+6388|Cerré tres tratos antes de comer. Solo lo comento.
+6389|Ahmet dijo que mi informe era «impecable». Palabras suyas.
+6390|¿Tres? Qué mono. Yo cerré cuatro. Ayer.
+6391|Qué curioso, al mío lo llamó «ejemplar». Eso es mejor que impecable.
+6392|Ahmet Bey, no me gusta decirlo, pero el informe de {rival} salió con errores.
+6393|Una cosita: {rival} volvió a saltarse el plazo. Pensé que debía saberlo.
+6394|Mmm. Gracias. Lo revisaré.
+6395|¿Ah, sí? Interesante.
+6396|¡¿Acabas de hablarle a Ahmet de mi informe?!
+6397|Lo oí. Muchas gracias, {actor}.
+6398|¿Esa es TU grapadora en MI lado del escritorio?
+6399|Tu planta está invadiendo mi teclado.
+6400|¿Tu lado? ¿Desde cuándo hay lados?
+6401|La planta va donde hay luz.
+6402|Ahmet Bey, creo que estoy {me?listo|lista} para dirigir el equipo.
+6403|Me gustaría que me tuviera en cuenta para el ascenso. En serio.
+6404|...Sigue haciendo lo que haces. Ya veremos en la próxima evaluación.
+6405|He notado tu trabajo. Dame unas semanas.
+6406|Todavía no. Aún no estás {to?preparado|preparada}.
+6407|¿{to?Preparado|Preparada}? Volvamos a hablar el año que viene.
+6408|Puedo encargarme del expediente Henderson. Tengo tiempo.
+6409|¿Necesitan a alguien para el informe del fin de semana? Lo hago yo.
+6410|¿Ven? ESA es la actitud que quiero.
+6411|Excelente. Gracias.
+6412|Ctrl+Mayús+L. Hazme caso. Lo filtra todo.
+6413|¡¿Eso lo haces a mano?! Déjame enseñarte algo.
+6414|...Eso me acaba de ahorrar dos horas a la semana.
+6415|QUÉ. ¿Dónde ha estado esto toda mi vida?
+6416|Oye. ¿Estás bien? Parece que necesitas un descanso.
+6417|¿Día difícil? Ven a tomarte un té conmigo.
+6418|...¿Sinceramente? No muy bien. Gracias por preguntar.
+6419|Ha sido una semana dura. Un té suena perfecto.
+6420|Estoy bien. De verdad. Solo estoy {me?ocupado|ocupada}.
+6421|Gracias, pero estoy bien.

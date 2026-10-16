@@ -10420,5 +10420,723 @@
    "*tiz notada sesi çatlar* ...İyiyim. Gayet iyiyim.",
    "*bambaşka bir şarkı söyler*"
   ]
+ },
+ "cd_launch": {
+  "_": [
+   "Mutfakta bağış kutusu! Hayvan barınağı için. Her lira önemli!",
+   "Barınağa yardım edin! Kutu mutfakta. Cömert olun!"
+  ]
+ },
+ "cd_give": {
+  "_": [
+   "*kutuya bir banknot atar*",
+   "Yavru köpekler için.",
+   "Al. Kimseye ne kadar olduğunu söyleme."
+  ]
+ },
+ "cd_count": {
+  "_": [
+   "...Tuhaf. Burada daha fazlası olduğuna eminim.",
+   "Üç yüz ve— dur. Büyük banknot nereye gitti?"
+  ]
+ },
+ "cd_record": {
+  "_": [
+   "Geçen yıldan fazla topladık! Herkese teşekkürler!",
+   "Rekor! Barınaktakiler ağlayacak."
+  ]
+ },
+ "cd_accuse": {
+  "_": [
+   "Bağış kutusundan para aldın mı, {suspect}?",
+   "Kutudan biraz para eksik. Bana söylemek istediğin bir şey var mı?"
+  ]
+ },
+ "cd_innocent": {
+  "_": [
+   "NE? Hayır! Ben İÇİNE para koydum!",
+   "Ciddi misin? Bir BARINAK kutusundan mı?"
+  ]
+ },
+ "cd_change": {
+  "_": [
+   "Ben... otomat için biraz bozuk para ödünç aldım. Geri koyacaktım!",
+   "Tamam, tamam — kahve makinesi için bozuk para aldım. İki katını öderim."
+  ]
+ },
+ "cd_found_it": {
+  "_": [
+   "...Ah. Kapağın altına sıkışmış. Boş ver. Pardon.",
+   "Dur — banknot astarın içine düşmüş. Ben bir aptalım."
+  ]
+ },
+ "bc2_announce": {
+  "_": [
+   "Kötü haber. Merkez bütçemizi kesti. Bugünden itibaren: bedava kahve yok.",
+   "Ekip. Bütçe kesintisi. Kahve makinesi artık... bardak başı ücretli."
+  ]
+ },
+ "bc2_gasp": {
+  "_": [
+   "NE?!",
+   "Kahve yok mu?! Nasıl ÇALIŞACAĞIZ?",
+   "Bu bir insan hakları ihlali."
+  ]
+ },
+ "bc2_grumble": {
+  "_": [
+   "Önce kahve. Sıra sandalyelerde.",
+   "Kahve giderse ben de giderim.",
+   "Bir şey YAPMALIYIZ."
+  ]
+ },
+ "bc2_propose": {
+  "_": [
+   "Ahmet Bey, bir önerim var: kermes yapıp kahveyi kendimiz finanse edelim.",
+   "Çekirdekleri biz alsak, siz de makineyi çalışır tutsanız?"
+  ]
+ },
+ "bc2_accept": {
+  "_": [
+   "...Kermes. Peki. Bana bir börek getirin, konuşuruz.",
+   "Hım. Yaratıcı. Onaylandı."
+  ]
+ },
+ "bc2_reject": {
+  "_": [
+   "Kermes yok. Burası şirket, okul şenliği değil.",
+   "Bütçe bütçedir."
+  ]
+ },
+ "sh_open": {
+  "_": [
+   "Ev yapımı baklava! Dilimi beş lira. Ahmet'e söylemeyin.",
+   "*baklavayla dolu bir çekmece açar* Dükkân açık."
+  ]
+ },
+ "sh_buy": {
+  "_": [
+   "İki dilim. Yok — üç.",
+   "Sus ve paramı al.",
+   "Bu fıstıklı mı? Tepsiyi ver bana."
+  ]
+ },
+ "sh_boom": {
+  "_": [
+   "Cuma için sipariş alıyorum. Sadece tepsi.",
+   "Kuryem olarak {runner:i} işe aldım."
+  ]
+ },
+ "sh_caught": {
+  "_": [
+   "{seller}. Masan neden pastane gibi kokuyor?",
+   "Bu... bir FİYAT LİSTESİ mi? Şirket kâğıdına mı?"
+  ]
+ },
+ "sh_boss_buys": {
+  "_": [
+   "...Bir tepsi kaça? Bir müşteri için soruyorum.",
+   "Peki. Yönetim toplantısı için iki tepsi. Şirket kartından."
+  ]
+ },
+ "sh_shut": {
+  "_": [
+   "Kapat şunu. Bugün. Sana çalışman için para veriliyor, pasta yapman için değil.",
+   "Burası iş yeri. Kapat şunu."
+  ]
+ },
+ "mc_crash": {
+  "_": [
+   "*ÇAT* ...Hayır. Hayır hayır hayır. O kupa olmaz.",
+   "*'Dünyanın En İyi Patronu'nun parçalarını toplar* Öldüm. Resmen öldüm."
+  ]
+ },
+ "mug_ask": {
+  "_": [
+   "Ahmet'in kupasını kırdım. O kupayı. Yardım et.",
+   "Kırmızı alarm. Patron kupası. Paramparça. Ne yapayım?"
+  ]
+ },
+ "mc_help": {
+  "_": [
+   "Tamam. Nefes al. Malzeme odasında aynısından var. Herhalde.",
+   "Bana bırak. Kupa işinden anlayan birini tanıyan birini tanıyorum."
+  ]
+ },
+ "mc_confess_advice": {
+  "_": [
+   "Söyle gitsin. Dürüstlüğe saygı duyar. Herhalde.",
+   "O fark etmeden şimdi söyle."
+  ]
+ },
+ "mc_swap": {
+  "_": [
+   "*Ahmet'in masasına birazcık farklı bir yedek kupa koyar* ...Mükemmel.",
+   "*kupayı değiştirir* Üstünde 'Dünyanın En İyi Paronu' yazıyor. Fark etmez."
+  ]
+ },
+ "mc_bass": {
+  "_": [
+   "...'Dünyanın En İyi PARONU' mu? Kupamı kim değiştirdi?!",
+   "Bu benim kupam değil. Benim kupamın sapında bir çentik vardı."
+  ]
+ },
+ "mc_fooled": {
+  "_": [
+   "*yanlış kupadan mutlu mutlu kahvesini yudumlar*",
+   "Ahh. En sevdiğim kupa gibisi yok."
+  ]
+ },
+ "mug_confess": {
+  "_": [
+   "Ahmet Bey... kupanızı kırdım. Çok özür dilerim.",
+   "Size bir şey itiraf etmem lazım. Kupanızla ilgili."
+  ]
+ },
+ "mug_forgive": {
+  "_": [
+   "...O kupa kızımın hediyesiydi. Ama söylediğin için teşekkürler.",
+   "Kazalar olur. Dürüst olduğun için teşekkürler."
+  ]
+ },
+ "mc_upset": {
+  "_": [
+   "KUPAM mı?! O kupa ne zamandır bende, biliyor musun?!",
+   "On iki yıl. On iki yıl dayandı o kupa. Sana kadar."
+  ]
+ },
+ "cr_challenge": {
+  "_": [
+   "Sen. Ben. Ofis sandalyeleri. Koridor. Kaybeden bir hafta kahve ısmarlar.",
+   "Bahse girerim benim sandalyem seninkinden hızlı."
+  ]
+ },
+ "cr_accept": {
+  "_": [
+   "Ah, KAYBEDECEKSİN.",
+   "Saatini sen söyle."
+  ]
+ },
+ "cr_go": {
+  "_": [
+   "Üç... iki... BİR!",
+   "HADİ HADİ HADİ!",
+   "*dehşet verici bir hızla kayar*"
+  ]
+ },
+ "cr_cheer": {
+  "_": [
+   "HADİ {racer}!",
+   "Daha hızlı! DAHA HIZLI!",
+   "Benim param {rival} üstüne!"
+  ]
+ },
+ "cr_crash": {
+  "_": [
+   "*ÇAT* ...İyiyim! Bitki iyi değil.",
+   "*dönerek su sebiline çarpar*"
+  ]
+ },
+ "cr_boss_ask": {
+  "_": [
+   "Koridorumda neden LASTİK İZLERİ var?",
+   "Ofisimde biri SANDALYE YARIŞI mı yaptı?"
+  ]
+ },
+ "cr_boss_joins": {
+  "_": [
+   "...Rövanş. Yarın. Ben de yarışıyorum. '98'de bölge go-kart şampiyonuydum.",
+   "Hım. Yedek sandalye nerede? Ben de denemek istiyorum."
+  ]
+ },
+ "cr_boss_bans": {
+  "_": [
+   "Sandalye yarışı resmen yasaklanmıştır. Genelge gelecek.",
+   "Bir daha asla. İkiniz de. ASLA."
+  ]
+ },
+ "lp2_collect": {
+  "_": [
+   "Piyango ortaklığı! Kişi başı on lira. Kazanırsak pazartesi kimse gelmiyor.",
+   "Ofis piyangosu! Var mısın, yok musun? Kazandığımızda dışarıda kalan sen olma."
+  ]
+ },
+ "lp2_in": {
+  "_": [
+   "Varım. Tabii ki.",
+   "Al paramı. Al umutlarımı."
+  ]
+ },
+ "lp2_rumor": {
+  "_": [
+   "Duydun mu? KAZANDIK. Piyangoyu. {organiser:i} telefonda duydum!",
+   "ZENGİNİZ! {organiser} telefona bağırıyordu!"
+  ]
+ },
+ "lp2_dreamer": {
+  "_": [
+   "Tamam. Ahmet'e genelgeleri hakkında GERÇEKTEN ne düşündüğümü söylüyorum.",
+   "Bir tekne alıyorum. Büyük bir tane. Elveda, tablolar."
+  ]
+ },
+ "lp2_truth": {
+  "_": [
+   "Tamam millet. Kazandık. Kırk lira. Toplam. Kişi başı dört lira.",
+   "İyi haber: kazandık! Kötü haber: kişi başı bir simit ediyor."
+  ]
+ },
+ "lp2_dreamer_crash": {
+  "_": [
+   "...Dört lira. Ahmet'e kravatının çirkin olduğunu söyledim. DÖRT LİRA İÇİN.",
+   "Spor salonu üyeliğimi iptal ettim bile. Bir de patrona hakaret ettim. Bir simit için."
+  ]
+ },
+ "fp_assign": {
+  "_": [
+   "{a}, {b}: üç aylık rapor sizde. Birlikte. Yarına kadar.",
+   "Yeni proje. {a} ve {b}. Yürütün bunu."
+  ]
+ },
+ "fp_groan": {
+  "_": [
+   "...Birlikte mi?",
+   "ONUNLA mı?",
+   "Tek başıma yapsam olmaz mı? İki kere?"
+  ]
+ },
+ "fp_click": {
+  "_": [
+   "...Grafiğin aslında iyi.",
+   "Tamam. Rakamlar senden, yazı benden. Anlaştık mı?"
+  ]
+ },
+ "fp_clash": {
+  "_": [
+   "Tablo öyle biçimlendirilmez!",
+   "BENİM paragraflarımı değiştirmeyi bırak!"
+  ]
+ },
+ "fp_present": {
+  "_": [
+   "İşte rapor. Çoğunu ben yaptım.",
+   "Raporumuz. Daha çok benim."
+  ]
+ },
+ "fp_credit_fight": {
+  "_": [
+   "ÇOĞUNU mu?! İçindeki her rakamı ben yazdım!",
+   "Pardon?! Üçten dokuza kadar sayfalar BENİM."
+  ]
+ },
+ "fp_boss_good": {
+  "_": [
+   "Bu mükemmel. İkiniz de. Gördünüz mü? Ekip çalışması.",
+   "İyi iş. İkiniz de. Biliyordum."
+  ]
+ },
+ "hq_warn": {
+  "_": [
+   "Dinleyin! YARIN merkez denetimi var. Bu ofisi PIRIL PIRIL istiyorum.",
+   "Yarın merkezden bir denetçi geliyor. Temizleyin. Her şeyi."
+  ]
+ },
+ "hq_groan": {
+  "_": [
+   "Pırıl pırıl mı? {slob:in} masasını GÖRDÜNÜZ mü?",
+   "{slob:in} köşesi için kepçe lazım."
+  ]
+ },
+ "hq_clean": {
+  "_": [
+   "*klavyeyi diş fırçasıyla ovalar*",
+   "Bu... MART'tan kalma bir sandviç mi?",
+   "*her şeyi bir çekmeceye tıkar*"
+  ]
+ },
+ "hq_open_drawer": {
+  "_": [
+   "Peki BU çekmecede ne var, {slob}?",
+   "Çekmeceyi aç, {slob}. Denetçi izliyor."
+  ]
+ },
+ "hq_drawer_ok": {
+  "_": [
+   "...Düzgünce etiketlenmiş klasörler. Hıh. Aferin.",
+   "Etkileyici. Masan hakkında söylediklerimi geri alıyorum."
+  ]
+ },
+ "hq_avalanche": {
+  "_": [
+   "*bir cips paketi ve eski not çığı dökülür*",
+   "*dört aylık fişler denetçinin ayakkabılarına kayar*"
+  ]
+ },
+ "hq_result_good": {
+  "_": [
+   "Denetçi raporu geldi: 'Örnek ofis.' Herkese aferin!",
+   "GEÇTİK. Pizzalar benden. Yani şirketten."
+  ]
+ },
+ "hq_result_bad": {
+  "_": [
+   "Denetçi raporunda 'Geliştirilmeli' yazıyor. Tek bir çekmece her şeye mal oldu.",
+   "Denetimden kaldık. İsim vermiyorum. {slob}."
+  ]
+ },
+ "na_lunch_round": {
+  "_": [
+   "Öğle yemeği? Mutfak masası, beş dakika.",
+   "Kim aç? Mutfak masası. Hemen."
+  ]
+ },
+ "na_lunch_chat": {
+  "_": [
+   "Sonra garson diyor ki—",
+   "Maçı izleyen oldu mu?",
+   "Ayranı uzatır mısın?"
+  ]
+ },
+ "na_weekend": {
+  "_": [
+   "Bu hafta sonu yanlışlıkla bir maratona katıldım.",
+   "Uzun lafın kısası: o IKEA'ya girmem yasak.",
+   "Kedim buzdolabını açmayı öğrendi. Başımız dertte."
+  ]
+ },
+ "na_weekend_laugh": {
+  "_": [
+   "HAHA! Olamaz!",
+   "Yapma. Yapmadın.",
+   "Bu hafta duyduğum en güzel şey."
+  ]
+ },
+ "na_weekend_bored": {
+  "_": [
+   "...Büyüleyici.",
+   "Hı-hı. Hı-hı. Neyse—",
+   "*kibarca başını sallar, telefonuna bakar*"
+  ]
+ },
+ "na_photo_show": {
+  "_": [
+   "Bak! Şu surata bak! *kedi fotoğraflarıyla dolu bir telefon gösterir*",
+   "Tamam, bir fotoğraf daha. Sadece bir. *kırk tane gösterir*"
+  ]
+ },
+ "na_photo_aww": {
+  "_": [
+   "Ayyy! Benim de olmalı!",
+   "Bu gördüğüm en tatlı şey."
+  ]
+ },
+ "na_brag": {
+  "_": [
+   "Öğleden önce üç anlaşma kapattım. Söylemiş olayım.",
+   "Ahmet raporuma 'kusursuz' dedi. Onun kelimesi."
+  ]
+ },
+ "na_counter": {
+  "_": [
+   "Üç mü? Tatlı. Ben dört yaptım. Dün.",
+   "Komik, benimkine 'örnek' dedi. Kusursuzdan iyidir."
+  ]
+ },
+ "na_snitch": {
+  "_": [
+   "Ahmet Bey, söylemek istemezdim ama {rival:in} raporu hatalarla gitti.",
+   "Ufak bir şey — {rival} yine teslim tarihini kaçırdı. Bilmeniz gerektiğini düşündüm."
+  ]
+ },
+ "na_snitch_boss": {
+  "_": [
+   "Hım. Teşekkürler. Bakacağım.",
+   "Öyle mi? İlginç."
+  ]
+ },
+ "na_snitch_caught": {
+  "_": [
+   "Az önce Ahmet'e raporumu mu söyledin?!",
+   "Duydum. Çok sağ ol, {actor}."
+  ]
+ },
+ "na_territory": {
+  "_": [
+   "BENİM masa tarafımdaki o SENİN zımban mı?",
+   "Bitkin klavyemi istila ediyor."
+  ]
+ },
+ "na_territory_back": {
+  "_": [
+   "Senin tarafın mı? Ne zamandan beri taraf var?",
+   "Bitki ışık neredeyse oraya gider."
+  ]
+ },
+ "na_promo_ask": {
+  "_": [
+   "Ahmet Bey, ekip liderliğine hazır olduğumu düşünüyorum.",
+   "Terfi için değerlendirilmek istiyorum. Ciddi ciddi değerlendirilmek."
+  ]
+ },
+ "na_promo_maybe": {
+  "_": [
+   "...Yaptığın şeyi yapmaya devam et. Bir sonraki değerlendirmede görürüz.",
+   "Çalışmalarını fark ettim. Bana birkaç hafta ver."
+  ]
+ },
+ "na_promo_no": {
+  "_": [
+   "Henüz değil. Henüz o seviyede değilsin.",
+   "Hazır mısın? Seneye tekrar konuşalım."
+  ]
+ },
+ "na_volunteer": {
+  "_": [
+   "Henderson dosyasını ben alabilirim. Vaktim var.",
+   "Hafta sonu raporu için birine mi ihtiyaç var? Ben yaparım."
+  ]
+ },
+ "na_volunteer_thanks": {
+  "_": [
+   "Gördünüz mü? İŞTE istediğim tavır bu.",
+   "Mükemmel. Teşekkürler."
+  ]
+ },
+ "na_teach": {
+  "_": [
+   "Ctrl+Shift+L. Güven bana. Her şeyi filtreler.",
+   "Bunu elle mi yapıyorsun?! Sana bir şey göstereyim."
+  ]
+ },
+ "na_teach_wow": {
+  "_": [
+   "...Bu az önce bana haftada iki saat kazandırdı.",
+   "NE. Bu ömrüm boyunca neredeydi?"
+  ]
+ },
+ "na_checkin": {
+  "_": [
+   "Hey. İyi misin? Bir molaya ihtiyacın var gibi.",
+   "Zor bir gün mü? Gel, benimle bir çay iç."
+  ]
+ },
+ "na_checkin_open": {
+  "_": [
+   "...Açıkçası mı? Pek iyi değil. Sorduğun için teşekkürler.",
+   "Zor bir hafta oldu. Çay harika olur."
+  ]
+ },
+ "na_checkin_closed": {
+  "_": [
+   "İyiyim. Gerçekten. Sadece meşgulüm.",
+   "Sağ ol ama iyiyim."
+  ]
+ },
+ "na_tea": {
+  "_": [
+   "*sessizce çayını yudumlar*",
+   "...Bu iyi geldi. Sağ ol.",
+   "Yarın aynı saatte?"
+  ]
+ },
+ "na_compliment": {
+  "_": [
+   "Dünkü sunumun mu? Gerçekten çok iyiydi. Söylemek istiyordum.",
+   "Yeterince söylemiyorum: bu işte harikasın."
+  ]
+ },
+ "na_compliment_thx": {
+  "_": [
+   "Ah! Teşekkürler. Günümü güzelleştirdin.",
+   "...Vay. Teşekkürler. Gerçekten."
+  ]
+ },
+ "na_excuse": {
+  "_": [
+   "Sende bir... zımba var mı? Benimkilerin hepsini kaybetmişim galiba.",
+   "Hey! Bu kalem senin mi? Değil mi? ...Bu arada masan çok güzel."
+  ]
+ },
+ "na_excuse_smile": {
+  "_": [
+   "*gülümser* Al. Sende kalsın.",
+   "Ha. Tabii. Ne zaman istersen uğra."
+  ]
+ },
+ "na_excuse_oblivious": {
+  "_": [
+   "Zımba malzeme odasında.",
+   "Yok. Benim kalemim değil."
+  ]
+ },
+ "na_flower_leave": {
+  "_": [
+   "*{target:in} klavyesine tek bir çiçek bırakır*",
+   "*{target:in} kalemliğine minicik bir çiçek koyup hızla uzaklaşır*"
+  ]
+ },
+ "na_flower_find": {
+  "_": [
+   "...Çiçek mi? Bunu kim bıraktı?",
+   "Biri bana çiçek bırakmış!"
+  ]
+ },
+ "na_mugs": {
+  "_": [
+   "Bu kupalar kimin? PAZARTESİDEN beri lavaboda duruyorlar.",
+   "Buradaki biri lavaboyu müze sanıyor."
+  ]
+ },
+ "na_mugs_accuse": {
+  "_": [
+   "{target}, bunlar senin mi? Üstlerinde rujun var. Ya da kahve. Ya da ikisi birden.",
+   "{target}. Kupalar. Açıkla."
+  ]
+ },
+ "na_mugs_own": {
+  "_": [
+   "...Tamam, ikisi benim. Yıkarım.",
+   "Pardon! Hemen yıkıyorum."
+  ]
+ },
+ "na_mugs_deny": {
+  "_": [
+   "Benim değil! TEK bir kupam var ve o da masamda!",
+   "Neden hep ben?!"
+  ]
+ },
+ "na_interrupt": {
+  "_": [
+   "—ve bütçeyle ilgili BİR şey daha—",
+   "Pardon, araya bir girebilir miyim—"
+  ]
+ },
+ "na_snap": {
+  "_": [
+   "Bir cümleyi BİTİREBİLİR miyim? Bir kere? Bugün?",
+   "Ben KONUŞUYORDUM."
+  ]
+ },
+ "na_false_tell": {
+  "_": [
+   "{victim:in} 'değerlendirmeye' alındığını duydum. Benden duymadın.",
+   "Aramızda kalsın mı? {victim} burada çok uzun kalmayabilir."
+  ]
+ },
+ "na_false_react": {
+  "_": [
+   "Olamaz! Gerçekten mi?",
+   "Dur, ciddi misin? Ne zamandan beri?"
+  ]
+ },
+ "na_huddle": {
+  "_": [
+   "Pışt. Buraya. Bunu duymak isteyeceksin.",
+   "Tamam, toplanın. Sessizce."
+  ]
+ },
+ "na_huddle_react": {
+  "_": [
+   "HAYIR.",
+   "Sus YA.",
+   "BİLİYORDUM!",
+   "*nefesini tutar*"
+  ]
+ },
+ "na_where_is": {
+  "_": [
+   "{late} nerede? Saat neredeyse on.",
+   "Bu sabah {late:i} gören oldu mu?"
+  ]
+ },
+ "na_cover": {
+  "_": [
+   "{late} müşteri toplantısında. Birazdan gelir.",
+   "Ah, {late} aradı — dişçi. Tamamen normal."
+  ]
+ },
+ "na_share": {
+  "_": [
+   "Yemeğini mi unuttun? Al, yarısı senin. Hep fazla yapıyorum.",
+   "İki böreğim var. Biri fazla. Al."
+  ]
+ },
+ "na_share_thx": {
+  "_": [
+   "Hayat kurtardın.",
+   "Cidden mi? Teşekkürler!"
+  ]
+ },
+ "na_interview_call": {
+  "_": [
+   "*fısıldayarak* Evet, perşembe saat 3 uyar. ...Hayır, patronumun haberi yok.",
+   "*telefonda, çok sessizce* Orada olacağım. Dişçiye gidiyorum derim."
+  ]
+ },
+ "na_interview_alibi": {
+  "_": [
+   "Ahmet Bey, perşembe öğleden sonra dişçi randevum var.",
+   "Perşembe erken çıkabilir miyim? Dişçi."
+  ]
+ },
+ "na_interview_ok": {
+  "_": [
+   "Yine mi? Dişlerin berbat durumda olmalı.",
+   "Peki. Peki."
+  ]
+ },
+ "na_eaves": {
+  "_": [
+   "*yangın güvenliği afişini çok dikkatli okuyormuş gibi yapar*",
+   "*birden patronun odasındaki bitkiyle çok ilgilenir*"
+  ]
+ },
+ "na_snoop": {
+  "_": [
+   "*{target:in} boş masasındaki kâğıtlara göz atar* ...Ah. AH.",
+   "Sadece... {target:in} kâğıtlarını düzeltiyorum. Hım. İlginç."
+  ]
+ },
+ "na_plant": {
+  "_": [
+   "Harika gidiyorsun, Fikret. Büyü, dostum. Büyü.",
+   "*bitkiye fısıldar* Ahmet'e söyleme ama en sevdiğim iş arkadaşım sensin."
+  ]
+ },
+ "na_plant_seen": {
+  "_": [
+   "...Bitkiyle mi konuşuyorsun?",
+   "Bitki cevap verdi mi?"
+  ]
+ },
+ "na_fish": {
+  "_": [
+   "*artık balığı mikrodalgada ısıtır* Ne? Öğle yemeği bu.",
+   "Balık köri. Isıtılmış. Yargılama beni."
+  ]
+ },
+ "na_fish_smell": {
+  "_": [
+   "Bu KOKU da NE?!",
+   "Kim BALIK ısıttı?!",
+   "Tadını alabiliyorum. Kokunun TADINI alabiliyorum."
+  ]
+ },
+ "na_doze": {
+  "_": [
+   "*başı yavaşça klavyeye düşer* zzz...",
+   "*monitörün arkasında çok hafifçe horlar*"
+  ]
+ },
+ "na_doze_prank": {
+  "_": [
+   "*çok sessizce alnına bir yapışkan not yapıştırır*",
+   "*fotoğraf çeker* Bülten için."
+  ]
+ },
+ "na_doze_boss": {
+  "_": [
+   "GÜNAYDIN, {actor}. Rahat mısın?",
+   "Sana uyuman için mi para veriyorum?"
+  ]
  }
 }

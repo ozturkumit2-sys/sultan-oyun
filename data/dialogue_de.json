@@ -10420,5 +10420,723 @@
    "*Stimme bricht beim hohen Ton* ...Alles gut. Alles total gut.",
    "*singt ein komplett anderes Lied*"
   ]
+ },
+ "cd_launch": {
+  "_": [
+   "Spendenbox in der Küche! Für das Tierheim. Jede Lira zählt!",
+   "Helft dem Tierheim! Die Box steht in der Küche. Seid großzügig!"
+  ]
+ },
+ "cd_give": {
+  "_": [
+   "*wirft einen Schein in die Box*",
+   "Für die Welpen.",
+   "Hier. Sag keinem, wie viel."
+  ]
+ },
+ "cd_count": {
+  "_": [
+   "...Komisch. Ich bin sicher, da war mehr drin.",
+   "Dreihundert und— Moment. Wo ist der große Schein hin?"
+  ]
+ },
+ "cd_record": {
+  "_": [
+   "Wir haben mehr gesammelt als letztes Jahr! Danke an alle!",
+   "Ein Rekord! Im Tierheim werden sie weinen."
+  ]
+ },
+ "cd_accuse": {
+  "_": [
+   "Hast du Geld aus der Spendenbox genommen, {suspect}?",
+   "In der Box fehlt Geld. Möchtest du mir etwas sagen?"
+  ]
+ },
+ "cd_innocent": {
+  "_": [
+   "WAS? Nein! Ich hab Geld REINGETAN!",
+   "Ist das dein Ernst? Aus einer TIERHEIM-Box?"
+  ]
+ },
+ "cd_change": {
+  "_": [
+   "Ich... hab mir Kleingeld für den Automaten geliehen. Ich wollte es zurücklegen!",
+   "Okay, okay — ich hab Münzen für die Kaffeemaschine genommen. Ich zahl das Doppelte."
+  ]
+ },
+ "cd_found_it": {
+  "_": [
+   "...Oh. Es klemmte unter der Klappe. Vergiss es. Sorry.",
+   "Moment — der Schein ist ins Futter gerutscht. Ich bin ein Idiot."
+  ]
+ },
+ "bc2_announce": {
+  "_": [
+   "Schlechte Nachrichten. Die Zentrale hat unser Budget gekürzt. Ab heute: kein Gratis-Kaffee mehr.",
+   "Team. Budgetkürzungen. Die Kaffeemaschine ist jetzt... kostenpflichtig pro Tasse."
+  ]
+ },
+ "bc2_gasp": {
+  "_": [
+   "WAS?!",
+   "Kein Kaffee?! Wie sollen wir denn ARBEITEN?",
+   "Das ist eine Menschenrechtsverletzung."
+  ]
+ },
+ "bc2_grumble": {
+  "_": [
+   "Erst der Kaffee. Als Nächstes die Stühle.",
+   "Wenn der Kaffee geht, geh ich auch.",
+   "Wir müssen was TUN."
+  ]
+ },
+ "bc2_propose": {
+  "_": [
+   "Ahmet Bey, ein Vorschlag: Wir machen einen Kuchenbasar und finanzieren den Kaffee selbst.",
+   "Was, wenn wir die Bohnen bezahlen und Sie die Maschine laufen lassen?"
+  ]
+ },
+ "bc2_accept": {
+  "_": [
+   "...Ein Kuchenbasar. Na gut. Bringen Sie mir einen Börek, dann reden wir.",
+   "Hm. Kreativ. Genehmigt."
+  ]
+ },
+ "bc2_reject": {
+  "_": [
+   "Keine Kuchenbasare. Das hier ist ein Unternehmen, kein Schulfest.",
+   "Budget ist Budget."
+  ]
+ },
+ "sh_open": {
+  "_": [
+   "Hausgemachtes Baklava! Fünf Lira das Stück. Nichts Ahmet sagen.",
+   "*öffnet eine Schublade voller Baklava* Der Laden ist offen."
+  ]
+ },
+ "sh_buy": {
+  "_": [
+   "Zwei Stück. Nein — drei.",
+   "Halt die Klappe und nimm mein Geld.",
+   "Ist das Pistazie? Gib mir das Blech."
+  ]
+ },
+ "sh_boom": {
+  "_": [
+   "Ich nehme Bestellungen für Freitag an. Nur ganze Bleche.",
+   "Ich habe {runner} als Lieferdienst eingestellt."
+  ]
+ },
+ "sh_caught": {
+  "_": [
+   "{seller}. Warum riecht Ihr Schreibtisch wie eine Konditorei?",
+   "Ist das... eine PREISLISTE? Auf Firmenpapier?"
+  ]
+ },
+ "sh_boss_buys": {
+  "_": [
+   "...Was kostet ein ganzes Blech? Ich frage für einen Kunden.",
+   "Na gut. Zwei Bleche für die Vorstandssitzung. Auf Firmenkarte."
+  ]
+ },
+ "sh_shut": {
+  "_": [
+   "Machen Sie das zu. Heute. Sie werden fürs Arbeiten bezahlt, nicht fürs Backen.",
+   "Das hier ist ein Arbeitsplatz. Schluss damit."
+  ]
+ },
+ "mc_crash": {
+  "_": [
+   "*KRACH* ...Nein. Nein, nein, nein. Nicht DIE Tasse.",
+   "*hebt die Scherben von „Bester Chef der Welt“ auf* Ich bin tot. Ich bin so was von tot."
+  ]
+ },
+ "mug_ask": {
+  "_": [
+   "Ich hab Ahmets Tasse kaputt gemacht. DIE Tasse. Hilf mir.",
+   "Alarmstufe Rot. Die Chef-Tasse. In Scherben. Was mach ich?"
+  ]
+ },
+ "mc_help": {
+  "_": [
+   "Okay. Atmen. Im Materialraum gibt's eine identische. Wahrscheinlich.",
+   "Überlass das mir. Ich kenne jemanden, der jemanden mit Tassen kennt."
+  ]
+ },
+ "mc_confess_advice": {
+  "_": [
+   "Sag's ihm einfach. Er schätzt Ehrlichkeit. Wahrscheinlich.",
+   "Sag's ihm jetzt, bevor er es selbst merkt."
+  ]
+ },
+ "mc_swap": {
+  "_": [
+   "*stellt eine leicht falsche Ersatztasse auf Ahmets Schreibtisch* ...Perfekt.",
+   "*tauscht die Tasse* Da steht „Bester Chaf der Welt“. Das merkt er nicht."
+  ]
+ },
+ "mc_bass": {
+  "_": [
+   "...„Bester CHAF der Welt“? Wer hat meine Tasse ausgetauscht?!",
+   "Das ist nicht meine Tasse. Meine hatte eine Macke am Henkel."
+  ]
+ },
+ "mc_fooled": {
+  "_": [
+   "*schlürft glücklich Kaffee aus der falschen Tasse*",
+   "Ahh. Nichts geht über meine Lieblingstasse."
+  ]
+ },
+ "mug_confess": {
+  "_": [
+   "Ahmet Bey... ich habe Ihre Tasse kaputt gemacht. Es tut mir so leid.",
+   "Ich muss Ihnen etwas gestehen. Es geht um Ihre Tasse."
+  ]
+ },
+ "mug_forgive": {
+  "_": [
+   "...Die Tasse war ein Geschenk meiner Tochter. Aber danke, dass Sie es mir gesagt haben.",
+   "Unfälle passieren. Danke für Ihre Ehrlichkeit."
+  ]
+ },
+ "mc_upset": {
+  "_": [
+   "MEINE TASSE?! Wissen Sie, wie lange ich diese Tasse schon habe?!",
+   "Zwölf Jahre. Zwölf Jahre hat diese Tasse überlebt. Bis Sie kamen."
+  ]
+ },
+ "cr_challenge": {
+  "_": [
+   "Du. Ich. Bürostühle. Flur. Wer verliert, zahlt eine Woche Kaffee.",
+   "Ich wette, mein Stuhl ist schneller als deiner."
+  ]
+ },
+ "cr_accept": {
+  "_": [
+   "Oh, du gehst UNTER.",
+   "Nenn die Uhrzeit."
+  ]
+ },
+ "cr_go": {
+  "_": [
+   "Drei... zwei... EINS!",
+   "LOS LOS LOS!",
+   "*rollt mit furchterregender Geschwindigkeit*"
+  ]
+ },
+ "cr_cheer": {
+  "_": [
+   "LOS, {racer}!",
+   "Schneller! SCHNELLER!",
+   "Ich setze auf {rival}!"
+  ]
+ },
+ "cr_crash": {
+  "_": [
+   "*KRACH* ...Mir geht's gut! Der Pflanze nicht.",
+   "*dreht sich in den Wasserspender*"
+  ]
+ },
+ "cr_boss_ask": {
+  "_": [
+   "Warum sind REIFENSPUREN auf meinem Flur?",
+   "Hat hier jemand in meinem Büro STUHLRENNEN veranstaltet?"
+  ]
+ },
+ "cr_boss_joins": {
+  "_": [
+   "...Revanche. Morgen. Ich fahre mit. Ich war '98 regionaler Kartmeister.",
+   "Hm. Wo ist der Ersatzstuhl? Ich will auch mal."
+  ]
+ },
+ "cr_boss_bans": {
+  "_": [
+   "Stuhlrennen sind hiermit offiziell verboten. Es wird ein Memo geben.",
+   "Nie wieder. Sie beide. NIE."
+  ]
+ },
+ "lp2_collect": {
+  "_": [
+   "Lotto-Tippgemeinschaft! Zehn Lira pro Kopf. Wenn wir gewinnen, kommt Montag keiner.",
+   "Büro-Lotto! Bist du dabei oder nicht? Sei nicht die einzige Person, die leer ausgeht, wenn wir gewinnen."
+  ]
+ },
+ "lp2_in": {
+  "_": [
+   "Bin dabei. Natürlich.",
+   "Nimm mein Geld. Nimm meine Hoffnungen."
+  ]
+ },
+ "lp2_rumor": {
+  "_": [
+   "Hast du gehört? Wir haben GEWONNEN. Im Lotto. Ich hab {organiser} am Telefon gehört!",
+   "Wir sind REICH! {organiser} hat ins Telefon geschrien!"
+  ]
+ },
+ "lp2_dreamer": {
+  "_": [
+   "Das war's. Ich sag Ahmet, was ich WIRKLICH von seinen Memos halte.",
+   "Ich kauf mir ein Boot. Ein großes. Tschüss, Tabellen."
+  ]
+ },
+ "lp2_truth": {
+  "_": [
+   "Okay, Leute. Wir haben gewonnen. Vierzig Lira. Insgesamt. Vier Lira pro Kopf.",
+   "Gute Nachricht: Wir haben gewonnen! Schlechte Nachricht: Es reicht für einen Simit pro Person."
+  ]
+ },
+ "lp2_dreamer_crash": {
+  "_": [
+   "...Vier Lira. Ich hab Ahmet gesagt, dass seine Krawatte hässlich ist. FÜR VIER LIRA.",
+   "Ich hab schon mein Fitnessstudio gekündigt. Und den Chef beleidigt. Für einen Simit."
+  ]
+ },
+ "fp_assign": {
+  "_": [
+   "{a}, {b}: Der Quartalsbericht gehört Ihnen. Gemeinsam. Bis morgen.",
+   "Neues Projekt. {a} und {b}. Sorgen Sie dafür, dass es klappt."
+  ]
+ },
+ "fp_groan": {
+  "_": [
+   "...Gemeinsam?",
+   "Mit DER Person?",
+   "Kann ich's nicht allein machen? Zweimal?"
+  ]
+ },
+ "fp_click": {
+  "_": [
+   "...Dein Diagramm ist eigentlich gut.",
+   "Okay. Du machst die Zahlen, ich die Texte. Deal?"
+  ]
+ },
+ "fp_clash": {
+  "_": [
+   "So formatiert man doch keine Tabelle!",
+   "Hör auf, MEINE Absätze zu ändern!"
+  ]
+ },
+ "fp_present": {
+  "_": [
+   "Hier ist der Bericht. Das meiste davon hab ich gemacht.",
+   "Unser Bericht. Hauptsächlich meiner."
+  ]
+ },
+ "fp_credit_fight": {
+  "_": [
+   "Das MEISTE?! Ich hab jede einzelne Zahl da drin geschrieben!",
+   "Wie bitte?! Seite drei bis neun sind MEINE."
+  ]
+ },
+ "fp_boss_good": {
+  "_": [
+   "Das ist ausgezeichnet. Sie beide. Sehen Sie? Teamwork.",
+   "Gute Arbeit. Sie beide. Ich wusste es."
+  ]
+ },
+ "hq_warn": {
+  "_": [
+   "Alle mal herhören! MORGEN ist Inspektion von der Zentrale. Ich will dieses Büro BLITZBLANK.",
+   "Morgen kommt ein Prüfer aus der Zentrale. Putzen. Alles."
+  ]
+ },
+ "hq_groan": {
+  "_": [
+   "Blitzblank? Schon mal {slob:s} Schreibtisch GESEHEN?",
+   "Für {slob:s} Ecke brauchen wir einen Bulldozer."
+  ]
+ },
+ "hq_clean": {
+  "_": [
+   "*schrubbt die Tastatur mit einer Zahnbürste*",
+   "Ist das... ein Sandwich aus dem MÄRZ?",
+   "*stopft alles in eine Schublade*"
+  ]
+ },
+ "hq_open_drawer": {
+  "_": [
+   "Und was ist in DIESER Schublade, {slob}?",
+   "Öffnen Sie die Schublade, {slob}. Der Prüfer schaut zu."
+  ]
+ },
+ "hq_drawer_ok": {
+  "_": [
+   "...Ordentlich beschriftete Ordner. Hm. Gut gemacht.",
+   "Beeindruckend. Ich nehme zurück, was ich über Ihren Schreibtisch gesagt habe."
+  ]
+ },
+ "hq_avalanche": {
+  "_": [
+   "*eine Lawine aus Chipstüten und alten Memos ergießt sich*",
+   "*vier Monate Belege rutschen auf die Schuhe des Prüfers*"
+  ]
+ },
+ "hq_result_good": {
+  "_": [
+   "Der Prüfbericht ist da: „Vorbildliches Büro.“ Gut gemacht, alle!",
+   "Wir haben BESTANDEN. Pizza geht auf mich. Na ja, auf die Firma."
+  ]
+ },
+ "hq_result_bad": {
+  "_": [
+   "Im Prüfbericht steht „Verbesserungsbedürftig“. Eine einzige Schublade hat uns alles gekostet.",
+   "Wir sind durch die Prüfung gefallen. Ich nenne keine Namen. {slob}."
+  ]
+ },
+ "na_lunch_round": {
+  "_": [
+   "Mittagessen? Küchentisch, fünf Minuten.",
+   "Wer hat Hunger? Küchentisch. Jetzt."
+  ]
+ },
+ "na_lunch_chat": {
+  "_": [
+   "Und dann sagt der Kellner—",
+   "Hat jemand das Spiel gesehen?",
+   "Reichst du mir mal den Ayran?"
+  ]
+ },
+ "na_weekend": {
+  "_": [
+   "Also, dieses Wochenende bin ich aus Versehen bei einem Marathon mitgelaufen.",
+   "Lange Rede, kurzer Sinn: Ich hab Hausverbot bei diesem IKEA.",
+   "Meine Katze hat gelernt, den Kühlschrank zu öffnen. Wir haben ein Problem."
+  ]
+ },
+ "na_weekend_laugh": {
+  "_": [
+   "HAHA! Niemals!",
+   "Hör auf. Hast du NICHT.",
+   "Das ist das Beste, was ich die ganze Woche gehört hab."
+  ]
+ },
+ "na_weekend_bored": {
+  "_": [
+   "...Faszinierend.",
+   "Mhm. Mhm. Jedenfalls—",
+   "*nickt höflich, schaut aufs Handy*"
+  ]
+ },
+ "na_photo_show": {
+  "_": [
+   "Schau! Schau dir dieses Gesicht an! *zeigt ein Handy voller Katzenfotos*",
+   "Okay, noch ein Foto. Nur eins. *zeigt vierzig*"
+  ]
+ },
+ "na_photo_aww": {
+  "_": [
+   "Ooooh! Ich brauch auch eine!",
+   "Das ist das Süßeste, was ich je gesehen hab."
+  ]
+ },
+ "na_brag": {
+  "_": [
+   "Vor dem Mittagessen drei Deals abgeschlossen. Nur so nebenbei.",
+   "Ahmet hat meinen Bericht „makellos“ genannt. Sein Wort."
+  ]
+ },
+ "na_counter": {
+  "_": [
+   "Drei? Niedlich. Ich hatte vier. Gestern.",
+   "Komisch, meinen hat er „vorbildlich“ genannt. Das ist besser als makellos."
+  ]
+ },
+ "na_snitch": {
+  "_": [
+   "Ahmet Bey, ich sage das nur ungern, aber {rival:s} Bericht ist mit Fehlern rausgegangen.",
+   "Nur eine Kleinigkeit — {rival} hat schon wieder die Deadline verpasst. Ich dachte, Sie sollten das wissen."
+  ]
+ },
+ "na_snitch_boss": {
+  "_": [
+   "Hm. Danke. Ich sehe es mir an.",
+   "Ach ja? Interessant."
+  ]
+ },
+ "na_snitch_caught": {
+  "_": [
+   "Hast du Ahmet gerade von meinem Bericht erzählt?!",
+   "Hab ich gehört. Vielen Dank auch, {actor}."
+  ]
+ },
+ "na_territory": {
+  "_": [
+   "Ist das DEIN Tacker auf MEINER Seite des Tisches?",
+   "Deine Pflanze erobert meine Tastatur."
+  ]
+ },
+ "na_territory_back": {
+  "_": [
+   "Deine Seite? Seit wann gibt's Seiten?",
+   "Die Pflanze geht dahin, wo das Licht ist."
+  ]
+ },
+ "na_promo_ask": {
+  "_": [
+   "Ahmet Bey, ich glaube, ich bin bereit für die Teamleitung.",
+   "Ich möchte für die Beförderung in Betracht gezogen werden. Ernsthaft in Betracht gezogen."
+  ]
+ },
+ "na_promo_maybe": {
+  "_": [
+   "...Machen Sie weiter so. Bei der nächsten Beurteilung sehen wir weiter.",
+   "Mir ist Ihre Arbeit aufgefallen. Geben Sie mir ein paar Wochen."
+  ]
+ },
+ "na_promo_no": {
+  "_": [
+   "Noch nicht. Sie sind noch nicht so weit.",
+   "Bereit? Reden wir nächstes Jahr noch mal."
+  ]
+ },
+ "na_volunteer": {
+  "_": [
+   "Ich kann die Henderson-Akte übernehmen. Ich hab Zeit.",
+   "Braucht jemand wen für den Wochenendbericht? Ich mach das."
+  ]
+ },
+ "na_volunteer_thanks": {
+  "_": [
+   "Sehen Sie? DAS ist die Einstellung, die ich sehen will.",
+   "Ausgezeichnet. Danke."
+  ]
+ },
+ "na_teach": {
+  "_": [
+   "Strg+Umschalt+L. Vertrau mir. Das filtert alles.",
+   "Das machst du per Hand?! Lass mich dir was zeigen."
+  ]
+ },
+ "na_teach_wow": {
+  "_": [
+   "...Das hat mir gerade zwei Stunden pro Woche gespart.",
+   "WAS. Wo war das mein ganzes Leben lang?"
+  ]
+ },
+ "na_checkin": {
+  "_": [
+   "Hey. Alles okay? Du siehst aus, als bräuchtest du eine Pause.",
+   "Harter Tag? Komm, trink einen Tee mit mir."
+  ]
+ },
+ "na_checkin_open": {
+  "_": [
+   "...Ehrlich? Nicht so toll. Danke, dass du fragst.",
+   "Es war eine Woche. Tee klingt perfekt."
+  ]
+ },
+ "na_checkin_closed": {
+  "_": [
+   "Mir geht's gut. Wirklich. Nur viel zu tun.",
+   "Danke, aber mir geht's gut."
+  ]
+ },
+ "na_tea": {
+  "_": [
+   "*nippt leise am Tee*",
+   "...Das hilft. Danke.",
+   "Morgen um die gleiche Zeit?"
+  ]
+ },
+ "na_compliment": {
+  "_": [
+   "Deine Präsentation gestern? Echt gut. Wollte ich dir noch sagen.",
+   "Ich sag's nicht oft genug: Du bist richtig gut darin."
+  ]
+ },
+ "na_compliment_thx": {
+  "_": [
+   "Oh! Danke. Das hat mir den Tag gerettet.",
+   "...Wow. Danke. Wirklich."
+  ]
+ },
+ "na_excuse": {
+  "_": [
+   "Hast du einen... Tacker? Ich hab anscheinend alle meine verloren.",
+   "Hey! Ist das dein Stift? Nein? ...Schöner Schreibtisch übrigens."
+  ]
+ },
+ "na_excuse_smile": {
+  "_": [
+   "*lächelt* Hier. Behalt ihn.",
+   "Ha. Klar. Komm jederzeit vorbei."
+  ]
+ },
+ "na_excuse_oblivious": {
+  "_": [
+   "Tacker sind im Materialraum.",
+   "Nö. Nicht mein Stift."
+  ]
+ },
+ "na_flower_leave": {
+  "_": [
+   "*legt eine einzelne Blume auf {target:s} Tastatur*",
+   "*steckt eine winzige Blume in {target:s} Stiftebecher und geht schnell weg*"
+  ]
+ },
+ "na_flower_find": {
+  "_": [
+   "...Eine Blume? Wer hat die hingelegt?",
+   "Jemand hat mir eine Blume dagelassen!"
+  ]
+ },
+ "na_mugs": {
+  "_": [
+   "Wem gehören diese Tassen? Die stehen seit MONTAG in der Spüle.",
+   "Hier hält wohl jemand die Spüle für ein Museum."
+  ]
+ },
+ "na_mugs_accuse": {
+  "_": [
+   "{target}, sind das deine? Da ist dein Lippenstift dran. Oder Kaffee. Oder beides.",
+   "{target}. Die Tassen. Erklär das."
+  ]
+ },
+ "na_mugs_own": {
+  "_": [
+   "...Okay, zwei davon sind meine. Ich spül sie.",
+   "Sorry! Ich mach sie gleich."
+  ]
+ },
+ "na_mugs_deny": {
+  "_": [
+   "Nicht meine! Ich hab EINE Tasse, und die steht auf meinem Tisch!",
+   "Warum immer ich?!"
+  ]
+ },
+ "na_interrupt": {
+  "_": [
+   "—und noch ETWAS zum Budget—",
+   "Sorry, darf ich mal kurz einhaken—"
+  ]
+ },
+ "na_snap": {
+  "_": [
+   "Darf ich einen Satz ZU ENDE sprechen? Einmal? Heute?",
+   "Ich hab gerade GEREDET."
+  ]
+ },
+ "na_false_tell": {
+  "_": [
+   "Ich hab gehört, {victim} wird „überprüft“. Von mir hast du's nicht.",
+   "Unter uns? {victim} ist vielleicht nicht mehr lange hier."
+  ]
+ },
+ "na_false_react": {
+  "_": [
+   "Nein! Echt?",
+   "Moment, im Ernst? Seit wann?"
+  ]
+ },
+ "na_huddle": {
+  "_": [
+   "Psst. Hierher. Das willst du hören.",
+   "Okay, alle herkommen. Leise."
+  ]
+ },
+ "na_huddle_react": {
+  "_": [
+   "NEIN.",
+   "Hör AUF.",
+   "Ich WUSSTE es!",
+   "*schnappt nach Luft*"
+  ]
+ },
+ "na_where_is": {
+  "_": [
+   "Wo ist {late}? Es ist fast zehn.",
+   "Hat jemand {late} heute Morgen gesehen?"
+  ]
+ },
+ "na_cover": {
+  "_": [
+   "{late} ist bei einem Kundentermin. Gleich zurück.",
+   "Oh, {late} hat angerufen — Zahnarzt. Ganz normal."
+  ]
+ },
+ "na_share": {
+  "_": [
+   "Mittagessen vergessen? Hier, nimm die Hälfte. Ich mach immer zu viel.",
+   "Ich hab zwei Börek. Einer zu viel. Nimm ihn."
+  ]
+ },
+ "na_share_thx": {
+  "_": [
+   "Du rettest mir das Leben.",
+   "Ernsthaft? Danke!"
+  ]
+ },
+ "na_interview_call": {
+  "_": [
+   "*flüsternd* Ja, Donnerstag um 15 Uhr passt. ...Nein, mein Chef weiß nichts davon.",
+   "*ganz leise am Telefon* Ich werde da sein. Ich sag, ich bin beim Zahnarzt."
+  ]
+ },
+ "na_interview_alibi": {
+  "_": [
+   "Ahmet Bey, ich habe Donnerstagnachmittag einen Zahnarzttermin.",
+   "Darf ich am Donnerstag früher gehen? Zahnarzt."
+  ]
+ },
+ "na_interview_ok": {
+  "_": [
+   "Schon wieder? Ihre Zähne müssen in einem furchtbaren Zustand sein.",
+   "Na gut. Na gut."
+  ]
+ },
+ "na_eaves": {
+  "_": [
+   "*liest scheinbar sehr aufmerksam das Brandschutzplakat*",
+   "*interessiert sich plötzlich sehr für die Pflanze im Chefbüro*"
+  ]
+ },
+ "na_snoop": {
+  "_": [
+   "*wirft einen Blick auf die Papiere auf {target:s} leerem Schreibtisch* ...Oh. OH.",
+   "Ich... richte nur {target:s} Papiere gerade. Hm. Interessant."
+  ]
+ },
+ "na_plant": {
+  "_": [
+   "Du machst das super, Fikret. Wachse, Kumpel. Wachse.",
+   "*flüstert der Pflanze zu* Sag's nicht Ahmet, aber du bist mein Lieblingskollege."
+  ]
+ },
+ "na_plant_seen": {
+  "_": [
+   "...Redest du mit der Pflanze?",
+   "Hat die Pflanze geantwortet?"
+  ]
+ },
+ "na_fish": {
+  "_": [
+   "*wärmt Fischreste in der Mikrowelle auf* Was? Ist Mittagessen.",
+   "Fisch-Curry. Aufgewärmt. Verurteil mich nicht."
+  ]
+ },
+ "na_fish_smell": {
+  "_": [
+   "WAS ist das für ein GERUCH?!",
+   "Wer hat FISCH in der Mikrowelle gemacht?!",
+   "Ich kann ihn schmecken. Ich kann den Geruch SCHMECKEN."
+  ]
+ },
+ "na_doze": {
+  "_": [
+   "*Kopf sinkt langsam auf die Tastatur* zzz...",
+   "*schnarcht ganz leise hinter dem Monitor*"
+  ]
+ },
+ "na_doze_prank": {
+  "_": [
+   "*klebt ganz leise einen Klebezettel auf die schlafende Stirn*",
+   "*macht ein Foto* Für den Newsletter."
+  ]
+ },
+ "na_doze_boss": {
+  "_": [
+   "Guten MORGEN, {actor}. Bequem?",
+   "Bezahle ich Sie fürs Schlafen?"
+  ]
  }
 }

@@ -1,0 +1,72 @@
+6422|*nippt leise am Tee*
+6423|...Das hilft. Danke.
+6424|Morgen um die gleiche Zeit?
+6425|Deine Präsentation gestern? Echt gut. Wollte ich dir noch sagen.
+6426|Ich sag's nicht oft genug: Du bist richtig gut darin.
+6427|Oh! Danke. Das hat mir den Tag gerettet.
+6428|...Wow. Danke. Wirklich.
+6429|Hast du einen... Tacker? Ich hab anscheinend alle meine verloren.
+6430|Hey! Ist das dein Stift? Nein? ...Schöner Schreibtisch übrigens.
+6431|*lächelt* Hier. Behalt ihn.
+6432|Ha. Klar. Komm jederzeit vorbei.
+6433|Tacker sind im Materialraum.
+6434|Nö. Nicht mein Stift.
+6435|*legt eine einzelne Blume auf {target:s} Tastatur*
+6436|*steckt eine winzige Blume in {target:s} Stiftebecher und geht schnell weg*
+6437|...Eine Blume? Wer hat die hingelegt?
+6438|Jemand hat mir eine Blume dagelassen!
+6439|Wem gehören diese Tassen? Die stehen seit MONTAG in der Spüle.
+6440|Hier hält wohl jemand die Spüle für ein Museum.
+6441|{target}, sind das deine? Da ist dein Lippenstift dran. Oder Kaffee. Oder beides.
+6442|{target}. Die Tassen. Erklär das.
+6443|...Okay, zwei davon sind meine. Ich spül sie.
+6444|Sorry! Ich mach sie gleich.
+6445|Nicht meine! Ich hab EINE Tasse, und die steht auf meinem Tisch!
+6446|Warum immer ich?!
+6447|—und noch ETWAS zum Budget—
+6448|Sorry, darf ich mal kurz einhaken—
+6449|Darf ich einen Satz ZU ENDE sprechen? Einmal? Heute?
+6450|Ich hab gerade GEREDET.
+6451|Ich hab gehört, {victim} wird „überprüft“. Von mir hast du's nicht.
+6452|Unter uns? {victim} ist vielleicht nicht mehr lange hier.
+6453|Nein! Echt?
+6454|Moment, im Ernst? Seit wann?
+6455|Psst. Hierher. Das willst du hören.
+6456|Okay, alle herkommen. Leise.
+6457|NEIN.
+6458|Hör AUF.
+6459|Ich WUSSTE es!
+6460|*schnappt nach Luft*
+6461|Wo ist {late}? Es ist fast zehn.
+6462|Hat jemand {late} heute Morgen gesehen?
+6463|{late} ist bei einem Kundentermin. Gleich zurück.
+6464|Oh, {late} hat angerufen — Zahnarzt. Ganz normal.
+6465|Mittagessen vergessen? Hier, nimm die Hälfte. Ich mach immer zu viel.
+6466|Ich hab zwei Börek. Einer zu viel. Nimm ihn.
+6467|Du rettest mir das Leben.
+6468|Ernsthaft? Danke!
+6469|*flüsternd* Ja, Donnerstag um 15 Uhr passt. ...Nein, mein Chef weiß nichts davon.
+6470|*ganz leise am Telefon* Ich werde da sein. Ich sag, ich bin beim Zahnarzt.
+6471|Ahmet Bey, ich habe Donnerstagnachmittag einen Zahnarzttermin.
+6472|Darf ich am Donnerstag früher gehen? Zahnarzt.
+6473|Schon wieder? Ihre Zähne müssen in einem furchtbaren Zustand sein.
+6474|Na gut. Na gut.
+6475|*liest scheinbar sehr aufmerksam das Brandschutzplakat*
+6476|*interessiert sich plötzlich sehr für die Pflanze im Chefbüro*
+6477|*wirft einen Blick auf die Papiere auf {target:s} leerem Schreibtisch* ...Oh. OH.
+6478|Ich... richte nur {target:s} Papiere gerade. Hm. Interessant.
+6479|Du machst das super, Fikret. Wachse, Kumpel. Wachse.
+6480|*flüstert der Pflanze zu* Sag's nicht Ahmet, aber du bist mein Lieblingskollege.
+6481|...Redest du mit der Pflanze?
+6482|Hat die Pflanze geantwortet?
+6483|*wärmt Fischreste in der Mikrowelle auf* Was? Ist Mittagessen.
+6484|Fisch-Curry. Aufgewärmt. Verurteil mich nicht.
+6485|WAS ist das für ein GERUCH?!
+6486|Wer hat FISCH in der Mikrowelle gemacht?!
+6487|Ich kann ihn schmecken. Ich kann den Geruch SCHMECKEN.
+6488|*Kopf sinkt langsam auf die Tastatur* zzz...
+6489|*schnarcht ganz leise hinter dem Monitor*
+6490|*klebt ganz leise einen Klebezettel auf die schlafende Stirn*
+6491|*macht ein Foto* Für den Newsletter.
+6492|Guten MORGEN, {actor}. Bequem?
+6493|Bezahle ich Sie fürs Schlafen?

@@ -1,0 +1,178 @@
+6244|Mutfakta bağış kutusu! Hayvan barınağı için. Her lira önemli!
+6245|Barınağa yardım edin! Kutu mutfakta. Cömert olun!
+6246|*kutuya bir banknot atar*
+6247|Yavru köpekler için.
+6248|Al. Kimseye ne kadar olduğunu söyleme.
+6249|...Tuhaf. Burada daha fazlası olduğuna eminim.
+6250|Üç yüz ve— dur. Büyük banknot nereye gitti?
+6251|Geçen yıldan fazla topladık! Herkese teşekkürler!
+6252|Rekor! Barınaktakiler ağlayacak.
+6253|Bağış kutusundan para aldın mı, {suspect}?
+6254|Kutudan biraz para eksik. Bana söylemek istediğin bir şey var mı?
+6255|NE? Hayır! Ben İÇİNE para koydum!
+6256|Ciddi misin? Bir BARINAK kutusundan mı?
+6257|Ben... otomat için biraz bozuk para ödünç aldım. Geri koyacaktım!
+6258|Tamam, tamam — kahve makinesi için bozuk para aldım. İki katını öderim.
+6259|...Ah. Kapağın altına sıkışmış. Boş ver. Pardon.
+6260|Dur — banknot astarın içine düşmüş. Ben bir aptalım.
+6261|Kötü haber. Merkez bütçemizi kesti. Bugünden itibaren: bedava kahve yok.
+6262|Ekip. Bütçe kesintisi. Kahve makinesi artık... bardak başı ücretli.
+6263|NE?!
+6264|Kahve yok mu?! Nasıl ÇALIŞACAĞIZ?
+6265|Bu bir insan hakları ihlali.
+6266|Önce kahve. Sıra sandalyelerde.
+6267|Kahve giderse ben de giderim.
+6268|Bir şey YAPMALIYIZ.
+6269|Ahmet Bey, bir önerim var: kermes yapıp kahveyi kendimiz finanse edelim.
+6270|Çekirdekleri biz alsak, siz de makineyi çalışır tutsanız?
+6271|...Kermes. Peki. Bana bir börek getirin, konuşuruz.
+6272|Hım. Yaratıcı. Onaylandı.
+6273|Kermes yok. Burası şirket, okul şenliği değil.
+6274|Bütçe bütçedir.
+6275|Ev yapımı baklava! Dilimi beş lira. Ahmet'e söylemeyin.
+6276|*baklavayla dolu bir çekmece açar* Dükkân açık.
+6277|İki dilim. Yok — üç.
+6278|Sus ve paramı al.
+6279|Bu fıstıklı mı? Tepsiyi ver bana.
+6280|Cuma için sipariş alıyorum. Sadece tepsi.
+6281|Kuryem olarak {runner:i} işe aldım.
+6282|{seller}. Masan neden pastane gibi kokuyor?
+6283|Bu... bir FİYAT LİSTESİ mi? Şirket kâğıdına mı?
+6284|...Bir tepsi kaça? Bir müşteri için soruyorum.
+6285|Peki. Yönetim toplantısı için iki tepsi. Şirket kartından.
+6286|Kapat şunu. Bugün. Sana çalışman için para veriliyor, pasta yapman için değil.
+6287|Burası iş yeri. Kapat şunu.
+6288|*ÇAT* ...Hayır. Hayır hayır hayır. O kupa olmaz.
+6289|*'Dünyanın En İyi Patronu'nun parçalarını toplar* Öldüm. Resmen öldüm.
+6290|Ahmet'in kupasını kırdım. O kupayı. Yardım et.
+6291|Kırmızı alarm. Patron kupası. Paramparça. Ne yapayım?
+6292|Tamam. Nefes al. Malzeme odasında aynısından var. Herhalde.
+6293|Bana bırak. Kupa işinden anlayan birini tanıyan birini tanıyorum.
+6294|Söyle gitsin. Dürüstlüğe saygı duyar. Herhalde.
+6295|O fark etmeden şimdi söyle.
+6296|*Ahmet'in masasına birazcık farklı bir yedek kupa koyar* ...Mükemmel.
+6297|*kupayı değiştirir* Üstünde 'Dünyanın En İyi Paronu' yazıyor. Fark etmez.
+6298|...'Dünyanın En İyi PARONU' mu? Kupamı kim değiştirdi?!
+6299|Bu benim kupam değil. Benim kupamın sapında bir çentik vardı.
+6300|*yanlış kupadan mutlu mutlu kahvesini yudumlar*
+6301|Ahh. En sevdiğim kupa gibisi yok.
+6302|Ahmet Bey... kupanızı kırdım. Çok özür dilerim.
+6303|Size bir şey itiraf etmem lazım. Kupanızla ilgili.
+6304|...O kupa kızımın hediyesiydi. Ama söylediğin için teşekkürler.
+6305|Kazalar olur. Dürüst olduğun için teşekkürler.
+6306|KUPAM mı?! O kupa ne zamandır bende, biliyor musun?!
+6307|On iki yıl. On iki yıl dayandı o kupa. Sana kadar.
+6308|Sen. Ben. Ofis sandalyeleri. Koridor. Kaybeden bir hafta kahve ısmarlar.
+6309|Bahse girerim benim sandalyem seninkinden hızlı.
+6310|Ah, KAYBEDECEKSİN.
+6311|Saatini sen söyle.
+6312|Üç... iki... BİR!
+6313|HADİ HADİ HADİ!
+6314|*dehşet verici bir hızla kayar*
+6315|HADİ {racer}!
+6316|Daha hızlı! DAHA HIZLI!
+6317|Benim param {rival} üstüne!
+6318|*ÇAT* ...İyiyim! Bitki iyi değil.
+6319|*dönerek su sebiline çarpar*
+6320|Koridorumda neden LASTİK İZLERİ var?
+6321|Ofisimde biri SANDALYE YARIŞI mı yaptı?
+6322|...Rövanş. Yarın. Ben de yarışıyorum. '98'de bölge go-kart şampiyonuydum.
+6323|Hım. Yedek sandalye nerede? Ben de denemek istiyorum.
+6324|Sandalye yarışı resmen yasaklanmıştır. Genelge gelecek.
+6325|Bir daha asla. İkiniz de. ASLA.
+6326|Piyango ortaklığı! Kişi başı on lira. Kazanırsak pazartesi kimse gelmiyor.
+6327|Ofis piyangosu! Var mısın, yok musun? Kazandığımızda dışarıda kalan sen olma.
+6328|Varım. Tabii ki.
+6329|Al paramı. Al umutlarımı.
+6330|Duydun mu? KAZANDIK. Piyangoyu. {organiser:i} telefonda duydum!
+6331|ZENGİNİZ! {organiser} telefona bağırıyordu!
+6332|Tamam. Ahmet'e genelgeleri hakkında GERÇEKTEN ne düşündüğümü söylüyorum.
+6333|Bir tekne alıyorum. Büyük bir tane. Elveda, tablolar.
+6334|Tamam millet. Kazandık. Kırk lira. Toplam. Kişi başı dört lira.
+6335|İyi haber: kazandık! Kötü haber: kişi başı bir simit ediyor.
+6336|...Dört lira. Ahmet'e kravatının çirkin olduğunu söyledim. DÖRT LİRA İÇİN.
+6337|Spor salonu üyeliğimi iptal ettim bile. Bir de patrona hakaret ettim. Bir simit için.
+6338|{a}, {b}: üç aylık rapor sizde. Birlikte. Yarına kadar.
+6339|Yeni proje. {a} ve {b}. Yürütün bunu.
+6340|...Birlikte mi?
+6341|ONUNLA mı?
+6342|Tek başıma yapsam olmaz mı? İki kere?
+6343|...Grafiğin aslında iyi.
+6344|Tamam. Rakamlar senden, yazı benden. Anlaştık mı?
+6345|Tablo öyle biçimlendirilmez!
+6346|BENİM paragraflarımı değiştirmeyi bırak!
+6347|İşte rapor. Çoğunu ben yaptım.
+6348|Raporumuz. Daha çok benim.
+6349|ÇOĞUNU mu?! İçindeki her rakamı ben yazdım!
+6350|Pardon?! Üçten dokuza kadar sayfalar BENİM.
+6351|Bu mükemmel. İkiniz de. Gördünüz mü? Ekip çalışması.
+6352|İyi iş. İkiniz de. Biliyordum.
+6353|Dinleyin! YARIN merkez denetimi var. Bu ofisi PIRIL PIRIL istiyorum.
+6354|Yarın merkezden bir denetçi geliyor. Temizleyin. Her şeyi.
+6355|Pırıl pırıl mı? {slob:in} masasını GÖRDÜNÜZ mü?
+6356|{slob:in} köşesi için kepçe lazım.
+6357|*klavyeyi diş fırçasıyla ovalar*
+6358|Bu... MART'tan kalma bir sandviç mi?
+6359|*her şeyi bir çekmeceye tıkar*
+6360|Peki BU çekmecede ne var, {slob}?
+6361|Çekmeceyi aç, {slob}. Denetçi izliyor.
+6362|...Düzgünce etiketlenmiş klasörler. Hıh. Aferin.
+6363|Etkileyici. Masan hakkında söylediklerimi geri alıyorum.
+6364|*bir cips paketi ve eski not çığı dökülür*
+6365|*dört aylık fişler denetçinin ayakkabılarına kayar*
+6366|Denetçi raporu geldi: 'Örnek ofis.' Herkese aferin!
+6367|GEÇTİK. Pizzalar benden. Yani şirketten.
+6368|Denetçi raporunda 'Geliştirilmeli' yazıyor. Tek bir çekmece her şeye mal oldu.
+6369|Denetimden kaldık. İsim vermiyorum. {slob}.
+6370|Öğle yemeği? Mutfak masası, beş dakika.
+6371|Kim aç? Mutfak masası. Hemen.
+6372|Sonra garson diyor ki—
+6373|Maçı izleyen oldu mu?
+6374|Ayranı uzatır mısın?
+6375|Bu hafta sonu yanlışlıkla bir maratona katıldım.
+6376|Uzun lafın kısası: o IKEA'ya girmem yasak.
+6377|Kedim buzdolabını açmayı öğrendi. Başımız dertte.
+6378|HAHA! Olamaz!
+6379|Yapma. Yapmadın.
+6380|Bu hafta duyduğum en güzel şey.
+6381|...Büyüleyici.
+6382|Hı-hı. Hı-hı. Neyse—
+6383|*kibarca başını sallar, telefonuna bakar*
+6384|Bak! Şu surata bak! *kedi fotoğraflarıyla dolu bir telefon gösterir*
+6385|Tamam, bir fotoğraf daha. Sadece bir. *kırk tane gösterir*
+6386|Ayyy! Benim de olmalı!
+6387|Bu gördüğüm en tatlı şey.
+6388|Öğleden önce üç anlaşma kapattım. Söylemiş olayım.
+6389|Ahmet raporuma 'kusursuz' dedi. Onun kelimesi.
+6390|Üç mü? Tatlı. Ben dört yaptım. Dün.
+6391|Komik, benimkine 'örnek' dedi. Kusursuzdan iyidir.
+6392|Ahmet Bey, söylemek istemezdim ama {rival:in} raporu hatalarla gitti.
+6393|Ufak bir şey — {rival} yine teslim tarihini kaçırdı. Bilmeniz gerektiğini düşündüm.
+6394|Hım. Teşekkürler. Bakacağım.
+6395|Öyle mi? İlginç.
+6396|Az önce Ahmet'e raporumu mu söyledin?!
+6397|Duydum. Çok sağ ol, {actor}.
+6398|BENİM masa tarafımdaki o SENİN zımban mı?
+6399|Bitkin klavyemi istila ediyor.
+6400|Senin tarafın mı? Ne zamandan beri taraf var?
+6401|Bitki ışık neredeyse oraya gider.
+6402|Ahmet Bey, ekip liderliğine hazır olduğumu düşünüyorum.
+6403|Terfi için değerlendirilmek istiyorum. Ciddi ciddi değerlendirilmek.
+6404|...Yaptığın şeyi yapmaya devam et. Bir sonraki değerlendirmede görürüz.
+6405|Çalışmalarını fark ettim. Bana birkaç hafta ver.
+6406|Henüz değil. Henüz o seviyede değilsin.
+6407|Hazır mısın? Seneye tekrar konuşalım.
+6408|Henderson dosyasını ben alabilirim. Vaktim var.
+6409|Hafta sonu raporu için birine mi ihtiyaç var? Ben yaparım.
+6410|Gördünüz mü? İŞTE istediğim tavır bu.
+6411|Mükemmel. Teşekkürler.
+6412|Ctrl+Shift+L. Güven bana. Her şeyi filtreler.
+6413|Bunu elle mi yapıyorsun?! Sana bir şey göstereyim.
+6414|...Bu az önce bana haftada iki saat kazandırdı.
+6415|NE. Bu ömrüm boyunca neredeydi?
+6416|Hey. İyi misin? Bir molaya ihtiyacın var gibi.
+6417|Zor bir gün mü? Gel, benimle bir çay iç.
+6418|...Açıkçası mı? Pek iyi değil. Sorduğun için teşekkürler.
+6419|Zor bir hafta oldu. Çay harika olur.
+6420|İyiyim. Gerçekten. Sadece meşgulüm.
+6421|Sağ ol ama iyiyim.

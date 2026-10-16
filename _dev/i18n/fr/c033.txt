@@ -1,0 +1,72 @@
+6422|*sirote son thé en silence*
+6423|...Ça fait du bien. Merci.
+6424|Demain, même heure ?
+6425|Ta présentation d'hier ? Vraiment bien. Je voulais te le dire.
+6426|Je ne le dis pas assez : tu es {to?excellent|excellente} dans ce que tu fais.
+6427|Oh ! Merci. Tu as illuminé ma journée.
+6428|...Waouh. Merci. Vraiment.
+6429|Tu as une... agrafeuse ? On dirait que j'ai perdu toutes les miennes.
+6430|Hé ! Ce stylo est à toi ? Non ? ...Joli bureau, au fait.
+6431|*sourit* Tiens. Garde-le.
+6432|Ha. Bien sûr. Passe quand tu veux.
+6433|Les agrafeuses sont dans la réserve.
+6434|Non. Pas mon stylo.
+6435|*dépose une seule fleur sur le clavier de {target}*
+6436|*glisse une minuscule fleur dans le pot à crayons de {target} et s'éloigne vite*
+6437|...Une fleur ? Qui a laissé ça ?
+6438|Quelqu'un m'a laissé une fleur !
+6439|C'est à qui, ces tasses ? Elles sont dans l'évier depuis LUNDI.
+6440|Quelqu'un ici prend l'évier pour un musée.
+6441|{target}, elles sont à toi ? Il y a ton rouge à lèvres dessus. Ou du café. Ou les deux.
+6442|{target}. Les tasses. Explique-toi.
+6443|...OK, deux sont à moi. Je vais les laver.
+6444|Pardon ! Je les fais tout de suite.
+6445|Pas à moi ! J'ai UNE tasse et elle est sur mon bureau !
+6446|Pourquoi c'est toujours moi ?!
+6447|—et AUTRE chose concernant le budget—
+6448|Pardon, je peux juste intervenir—
+6449|Je peux FINIR une phrase ? Une fois ? Aujourd'hui ?
+6450|J'étais en train de PARLER.
+6451|J'ai entendu dire que {victim} est « en cours d'évaluation ». Tu ne le tiens pas de moi.
+6452|Entre nous ? {victim} ne sera peut-être plus là très longtemps.
+6453|Non ! Vraiment ?
+6454|Attends, sérieux ? Depuis quand ?
+6455|Psst. Par ici. Tu vas vouloir entendre ça.
+6456|OK, approchez. Doucement.
+6457|NON.
+6458|Tais-TOI.
+6459|Je le SAVAIS !
+6460|*retient son souffle*
+6461|Où est {late} ? Il est presque dix heures.
+6462|Quelqu'un a vu {late} ce matin ?
+6463|{late} est en rendez-vous client. {late?Il|Elle} revient vite.
+6464|Oh, {late} a appelé — dentiste. Tout à fait normal.
+6465|Tu as oublié ton déjeuner ? Tiens, prends la moitié. J'en fais toujours trop.
+6466|J'ai deux börek. Un de trop. Prends-le.
+6467|Tu me sauves la vie.
+6468|Sérieux ? Merci !
+6469|*chuchote* Oui, jeudi à 15 h, ça me va. ...Non, mon patron n'est pas au courant.
+6470|*au téléphone, très doucement* J'y serai. Je dirai que c'est le dentiste.
+6471|Ahmet Bey, j'ai rendez-vous chez le dentiste jeudi après-midi.
+6472|Je peux partir plus tôt jeudi ? Dentiste.
+6473|Encore ? Vos dents doivent être dans un état épouvantable.
+6474|Bon. Bon.
+6475|*fait semblant de lire très attentivement l'affiche de sécurité incendie*
+6476|*s'intéresse soudain énormément à la plante du bureau du patron*
+6477|*jette un œil aux papiers sur le bureau vide de {target}* ...Oh. OH.
+6478|Je... range juste les papiers de {target}. Hm. Intéressant.
+6479|Tu t'en sors très bien, Fikret. Pousse, mon pote. Pousse.
+6480|*chuchote à la plante* Ne le dis pas à Ahmet, mais tu es mon collègue préféré.
+6481|...Tu parles à la plante ?
+6482|La plante t'a répondu ?
+6483|*réchauffe un reste de poisson au micro-ondes* Quoi ? C'est mon déjeuner.
+6484|Curry de poisson. Réchauffé. Ne me jugez pas.
+6485|C'est QUOI cette ODEUR ?!
+6486|Qui a réchauffé du POISSON ?!
+6487|Je la sens dans ma bouche. Je GOÛTE l'odeur.
+6488|*la tête s'affaisse lentement sur le clavier* zzz...
+6489|*ronfle tout doucement derrière l'écran*
+6490|*colle tout doucement un post-it sur le front du dormeur*
+6491|*prend une photo* Pour la newsletter.
+6492|BONJOUR, {actor}. Bien {actor?installé|installée} ?
+6493|Je vous paie pour dormir ?

@@ -1,0 +1,72 @@
+6422|*sessizce çayını yudumlar*
+6423|...Bu iyi geldi. Sağ ol.
+6424|Yarın aynı saatte?
+6425|Dünkü sunumun mu? Gerçekten çok iyiydi. Söylemek istiyordum.
+6426|Yeterince söylemiyorum: bu işte harikasın.
+6427|Ah! Teşekkürler. Günümü güzelleştirdin.
+6428|...Vay. Teşekkürler. Gerçekten.
+6429|Sende bir... zımba var mı? Benimkilerin hepsini kaybetmişim galiba.
+6430|Hey! Bu kalem senin mi? Değil mi? ...Bu arada masan çok güzel.
+6431|*gülümser* Al. Sende kalsın.
+6432|Ha. Tabii. Ne zaman istersen uğra.
+6433|Zımba malzeme odasında.
+6434|Yok. Benim kalemim değil.
+6435|*{target:in} klavyesine tek bir çiçek bırakır*
+6436|*{target:in} kalemliğine minicik bir çiçek koyup hızla uzaklaşır*
+6437|...Çiçek mi? Bunu kim bıraktı?
+6438|Biri bana çiçek bırakmış!
+6439|Bu kupalar kimin? PAZARTESİDEN beri lavaboda duruyorlar.
+6440|Buradaki biri lavaboyu müze sanıyor.
+6441|{target}, bunlar senin mi? Üstlerinde rujun var. Ya da kahve. Ya da ikisi birden.
+6442|{target}. Kupalar. Açıkla.
+6443|...Tamam, ikisi benim. Yıkarım.
+6444|Pardon! Hemen yıkıyorum.
+6445|Benim değil! TEK bir kupam var ve o da masamda!
+6446|Neden hep ben?!
+6447|—ve bütçeyle ilgili BİR şey daha—
+6448|Pardon, araya bir girebilir miyim—
+6449|Bir cümleyi BİTİREBİLİR miyim? Bir kere? Bugün?
+6450|Ben KONUŞUYORDUM.
+6451|{victim:in} 'değerlendirmeye' alındığını duydum. Benden duymadın.
+6452|Aramızda kalsın mı? {victim} burada çok uzun kalmayabilir.
+6453|Olamaz! Gerçekten mi?
+6454|Dur, ciddi misin? Ne zamandan beri?
+6455|Pışt. Buraya. Bunu duymak isteyeceksin.
+6456|Tamam, toplanın. Sessizce.
+6457|HAYIR.
+6458|Sus YA.
+6459|BİLİYORDUM!
+6460|*nefesini tutar*
+6461|{late} nerede? Saat neredeyse on.
+6462|Bu sabah {late:i} gören oldu mu?
+6463|{late} müşteri toplantısında. Birazdan gelir.
+6464|Ah, {late} aradı — dişçi. Tamamen normal.
+6465|Yemeğini mi unuttun? Al, yarısı senin. Hep fazla yapıyorum.
+6466|İki böreğim var. Biri fazla. Al.
+6467|Hayat kurtardın.
+6468|Cidden mi? Teşekkürler!
+6469|*fısıldayarak* Evet, perşembe saat 3 uyar. ...Hayır, patronumun haberi yok.
+6470|*telefonda, çok sessizce* Orada olacağım. Dişçiye gidiyorum derim.
+6471|Ahmet Bey, perşembe öğleden sonra dişçi randevum var.
+6472|Perşembe erken çıkabilir miyim? Dişçi.
+6473|Yine mi? Dişlerin berbat durumda olmalı.
+6474|Peki. Peki.
+6475|*yangın güvenliği afişini çok dikkatli okuyormuş gibi yapar*
+6476|*birden patronun odasındaki bitkiyle çok ilgilenir*
+6477|*{target:in} boş masasındaki kâğıtlara göz atar* ...Ah. AH.
+6478|Sadece... {target:in} kâğıtlarını düzeltiyorum. Hım. İlginç.
+6479|Harika gidiyorsun, Fikret. Büyü, dostum. Büyü.
+6480|*bitkiye fısıldar* Ahmet'e söyleme ama en sevdiğim iş arkadaşım sensin.
+6481|...Bitkiyle mi konuşuyorsun?
+6482|Bitki cevap verdi mi?
+6483|*artık balığı mikrodalgada ısıtır* Ne? Öğle yemeği bu.
+6484|Balık köri. Isıtılmış. Yargılama beni.
+6485|Bu KOKU da NE?!
+6486|Kim BALIK ısıttı?!
+6487|Tadını alabiliyorum. Kokunun TADINI alabiliyorum.
+6488|*başı yavaşça klavyeye düşer* zzz...
+6489|*monitörün arkasında çok hafifçe horlar*
+6490|*çok sessizce alnına bir yapışkan not yapıştırır*
+6491|*fotoğraf çeker* Bülten için.
+6492|GÜNAYDIN, {actor}. Rahat mısın?
+6493|Sana uyuman için mi para veriyorum?
