@@ -248,3 +248,22 @@
 2769|Bueno. Es una forma de decírmelo.
 2770|Jaja… sí… sobre eso…
 2771|¡Puedo explicarlo! …No, no puedo.
+2772|*se pone {me?rojo|roja} como un tomate*
+2773|Mert, trabajamos juntos. Esto es… incómodo.
+2774|Yo… necesito un minuto.
+2775|Mejor mantengamos las cosas en lo profesional.
+2776|Así que… Ceren, ¿eh?
+2777|Vi tu cartita de amor, Romeo.
+2778|¿Ceren? Movimiento audaz, amigo mío.
+2779|¿Quién movió la reunión? Yo no cambié eso.
+2780|Esa no es la hora que yo puse…
+2781|Alguien está tocando mi calendario.
+2782|Ah, ¿la reunión cambió de hora?
+2783|Nueva hora de la reunión, anotada.
+2784|Vaya. La reunión es a otra hora ahora.
+2785|Señor, cambiaron la hora de la reunión en el tablero.
+2786|Aviso: alguien movió la reunión de hoy.
+2787|Bien. Nos quedamos con la nueva hora.
+2788|Anotado. Gracias, Ceren.
+2789|¿Cambiada? ¡TÚ llevas el calendario, Ceren!
+2790|¿¡Cómo se mueve sola una reunión!?

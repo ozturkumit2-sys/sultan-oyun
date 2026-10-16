@@ -1,0 +1,283 @@
+2791|Moment ... hat sich die Meeting-Zeit gerade geändert?
+2792|Hat sich die Tafel gerade ... verändert?
+2793|Ich bin nicht verrückt. Da stand eine andere Uhrzeit.
+2794|Also gut, fangen wir an.
+2795|Alle hinsetzen. Wir fangen an.
+2796|Handys weg. Das Meeting beginnt jetzt.
+2797|Endlich!
+2798|Sieh mal einer an, wer sich herbemüht.
+2799|Wir warten schon ewig.
+2800|Der Chef kommt zu spät? Schreibt das auf!
+2801|Ceren, warum war mein Kalender falsch?!
+2802|Wer hat das terminiert? Ceren?
+2803|Ähem. Tun wir so, als wäre ich pünktlich gewesen.
+2804|Ja, ja. Auch ich habe mal viel zu tun.
+2805|Sorry! Sorry, dass ich zu spät bin!
+2806|Ich dachte, es wäre später!
+2807|Stau! Büro-Stau!
+2808|Ich war ... am Netzwerken. An der Kaffeemaschine.
+2809|Es tut mir so leid! Ich hab mich verlaufen! Im Büro!
+2810|Auf der Tafel stand eine andere Uhrzeit!
+2811|Aber laut Plan war es später!
+2812|Wer ändert ständig die Tafel?!
+2813|Jemand pfuscht am Zeitplan herum.
+2814|Zu spät. Schon wieder.
+2815|Zeit ist Geld. Ihres wird langsam knapp.
+2816|Glauben Sie, das hier ist ein Café?
+2817|Setzen Sie sich. Schnell.
+2818|Setzen Sie sich einfach.
+2819|Wo sind denn alle?
+2820|Wurde das Meeting abgesagt?
+2821|Bin ich im falschen Raum?
+2822|Hallo? Meeting?
+2823|Sie haben das Meeting verpasst. Erklären Sie das.
+2824|Wo waren Sie während des Meetings?
+2825|Wegen Ihrer E-Mail ...
+2826|Ich habe Ihre E-Mail gelesen. Wir müssen reden.
+2827|Sie haben Ihre Deadline verpasst.
+2828|Wo ist Ihre Arbeit? Die war fällig.
+2829|Wir müssen über Ihre Leistung sprechen.
+2830|Ich erwarte mehr von Ihnen.
+2831|Entschuldigung, das kommt nicht wieder vor.
+2832|Jawohl. Verstanden.
+2833|Ich bring das in Ordnung.
+2834|Entschuldigung, Onkel— ich meine, Ahmet Bey!
+2835|Bei allem Respekt, das ist nicht fair.
+2836|Vielleicht, wenn dieses Büro mal richtig funktionieren würde ...
+2837|Wissen Sie was? Ich hab das satt.
+2838|Vielleicht bin ich ja eh nicht mehr lange hier.
+2839|Achten Sie auf Ihren Ton!
+2840|Wie bitte?!
+2841|Vorsicht.
+2842|Wie Sie sehen, sprechen die Zahlen für sich.
+2843|Und das ist unser Plan fürs nächste Quartal.
+2844|Hier die Ergebnisse. Alles im grünen Bereich.
+2845|Hervorragende Arbeit.
+2846|DAS sehe ich gern.
+2847|Sehr gut. Sehr gut.
+2848|*verdreht die Augen*
+2849|Angeberei.
+2850|Das hätte jeder gekonnt.
+2851|Meine Präsentation war auf meinem USB-Stick ... und der ist weg.
+2852|Ich ... ich finde meine Folien nicht.
+2853|Unvorbereitet. Enttäuschend.
+2854|Das ist inakzeptabel.
+2855|Kommen Sie wieder, wenn Sie so weit sind.
+2856|Äh ... ich bin noch nicht ganz fertig ...
+2857|Die vollständige Version gibt’s morgen?
+2858|Also ... Zeit für den Rohentwurf.
+2859|Eigentlich war die Kernidee von mir. Ich erkläre sie Ihnen gern.
+2860|Ich kann das Projekt präsentieren — ich hab sowieso den Großteil gemacht.
+2861|Erlauben Sie. Ich kenne dieses Projekt in- und auswendig.
+2862|Beeindruckend, Deniz. Sehr beeindruckend.
+2863|DAS nenne ich Initiative.
+2864|Gut. Ich mag Leute, die Verantwortung übernehmen.
+2865|Das war MEINE Arbeit!
+2866|Du hast gerade mein Projekt präsentiert!
+2867|Willst du mich veräppeln?! Das ist meins!
+2868|Beweis es.
+2869|Komisch, ich sehe deinen Namen nirgends darauf.
+2870|Teamwork, Selin. Teamwork.
+2871|Hätte dieses Meeting nicht eine E-Mail sein können?
+2872|Ich hab eine Frage: Wann ist Mittagspause?
+2873|Tolles Meeting. Zehn von zehn.
+2874|Kurze Frage: Sind Snacks ein Budgetposten?
+2875|Ha! Okay, okay.
+2876|Sehr witzig. Und jetzt zurück zum Thema.
+2877|Das hier ist kein Comedy-Club.
+2878|Sollte das lustig sein?
+2879|Hmm ... ich wusste gar nicht, dass diese Person so viel geleistet hat.
+2880|Interessant. Sehr interessant.
+2881|Das ändert einiges.
+2882|Hm. Wie erwartet.
+2883|Gut, gut.
+2884|Unter uns ... jemand hat deine Beförderungsakte geändert.
+2885|Ich hab die Akte gesehen. Dein Name wurde beim großen Projekt gestrichen.
+2886|WAS?!
+2887|Ich wusste, dass da was faul ist!
+2888|Wer macht denn so was?!
+2889|Alle mal kurz herhören. Wir haben eine neue Teamleitung.
+2890|Achtung! Nach sorgfältiger Prüfung habe ich über die Beförderung entschieden.
+2891|Alle mal herhören! Die Auszeichnung der Woche geht an ...
+2892|Der Star dieser Woche ist ...
+2893|Danke! Ich werde Sie nicht enttäuschen!
+2894|Wow ... ich? Danke!
+2895|Endlich!
+2896|Selbstverständlich. Danke sehr.
+2897|Danke. Ich habe so hart dafür gearbeitet.
+2898|Glückwunsch!
+2899|Wohlverdient ... schätze ich.
+2900|*höflicher Applaus*
+2901|Hmm. Interessante Wahl.
+2902|... Unfassbar.
+2903|Das ist so unfair.
+2904|Nach allem, was ich getan habe?
+2905|Das ist falsch. Das ist so was von falsch.
+2906|Das ist noch nicht vorbei.
+2907|*starrt eisig*
+2908|Das werde ich nicht vergessen.
+2909|Glückwunsch. Genieß es, solange es anhält.
+2910|„Kommen Sie in mein Büro. Sofort.“ ... Oh oh.
+2911|Der Chef will mich sehen?!
+2912|Oh nein. Was hab ich getan?
+2913|Gratiskuchen in der Küche?! Mehr muss man nicht sagen!
+2914|Gratisessen! GRATISESSEN!
+2915|Meeting abgesagt? Super!
+2916|Heute kein Meeting? Beste Nachricht überhaupt.
+2917|„Ein heimlicher Verehrer lässt grüßen“ ...?!
+2918|Jemand hier ist in mich verknallt?!
+2919|Uuh, ein heimlicher Verehrer!
+2920|Sie wollten mich sprechen?
+2921|Ich habe Ihre Nachricht bekommen.
+2922|Ich bin da! Was hab ich getan?
+2923|Ich habe Sie nicht gerufen.
+2924|Welche Nachricht? Ich habe nichts geschickt.
+2925|Ich habe nie nach Ihnen verlangt.
+2926|Hören Sie auf, meine Zeit zu verschwenden. Zurück an die Arbeit.
+2927|Wo Sie schon mal hier rumstehen — gehen Sie arbeiten.
+2928|Na, wo Sie schon mal da sind ... gute Arbeit in letzter Zeit.
+2929|Setzen Sie sich, setzen Sie sich. Wie läuft’s?
+2930|Es gibt keinen Kuchen ...
+2931|Wo ist das Gratisessen?
+2932|Da ist nur alter Joghurt.
+2933|Sehr witzig, {suspect}.
+2934|Wetten, das hat {suspect} geschickt.
+2935|Jemand spielt mir Streiche. Und ich glaube, ich weiß, wer.
+2936|*schließt traurig den Kühlschrank*
+2937|Lügen. Alles Lügen.
+2938|Also ... warst du das? {to?Der heimliche Verehrer|Die heimliche Verehrerin}?
+2939|Hast du mir diese Nachricht geschickt?
+2940|... Vielleicht. Wäre das so schlimm?
+2941|Haha, vielleicht! Wer weiß?
+2942|Ein Gentleman genießt und schweigt.
+2943|Was? Nein! Sorry ...
+2944|Äh, nein. Definitiv nicht ich.
+2945|Das ... bin ich nicht.
+2946|Burak sucht einen anderen Job? Hinter meinem Rücken?
+2947|Deshalb hängt er also ständig am Handy.
+2948|Ich höre, Sie suchen einen anderen Job.
+2949|Haben Sie vor, uns zu verlassen, Burak?
+2950|Hören Sie ... Sie sind hier wertvoll. Was braucht es, um Sie zu halten?
+2951|Ich bin ehrlich. Ich will Sie nicht verlieren.
+2952|Wirklich? Ich ... damit hab ich nicht gerechnet.
+2953|Na ja. Vielleicht bleibe ich doch noch ein bisschen.
+2954|Vielleicht ja. Vielleicht weiß man hier niemanden zu schätzen.
+2955|Ich darf ja wohl Optionen haben.
+2956|Dann lassen Sie sich nicht aufhalten.
+2957|Gut. Wir werden sehen, wer wen braucht.
+2958|Die Praktikantin ist die NICHTE vom Chef? Na klar ist sie das.
+2959|Tja, das erklärt einiges.
+2960|Vetternwirtschaft. Reizend.
+2961|Die Zentrale überprüft MICH?!
+2962|Meine Position ... wird überprüft?
+2963|*flüstert* Ja, Donnerstag passt für das Vorstellungsgespräch ...
+2964|*flüstert* Ich kann nächsten Monat anfangen, wenn das Angebot stimmt.
+2965|*flüstert* Nein, mein Chef weiß nichts davon.
+2966|Hat Burak gerade von einem Vorstellungsgespräch geredet?
+2967|Hab ich das gerade richtig gehört?!
+2968|Uuh. Uuh! Burak sucht einen neuen Job!
+2969|Psst. Komm mal her.
+2970|Hast du schon gehört?
+2971|Okay, das hast du NICHT von mir ...
+2972|Setz dich. Das willst du im Sitzen hören.
+2973|Oh, hab ich Neuigkeiten für dich.
+2974|{gossip}
+2975|Angeblich ... {gossip}
+2976|Sag’s keinem, aber {gossip}
+2977|Man munkelt ... {gossip}
+2978|Niemals!
+2979|Echt jetzt?!
+2980|Ich wusste es!
+2981|Hör auf!
+2982|Darüber sollten wir nicht reden.
+2983|Das geht uns nichts an.
+2984|Tratschen ist nicht nett, weißt du.
+2985|Lasst uns das nicht weitererzählen.
+2986|Erzähl mir ALLES.
+2987|Uuh, was noch?
+2988|Ich brauche Details!
+2989|Ceren, hat dir schon mal jemand gesagt, dass deine Tabellen wunderschön sind?
+2990|Also ... später Kaffee? Nur als Kollegen. Kollegen, die Kaffee trinken.
+2991|Du siehst heute toll aus. Nicht dass du das sonst nicht tust.
+2992|Haha, du bist albern, Mert.
+2993|Vielleicht. Wenn du dich benimmst.
+2994|Du bist süß. Komisch, aber süß.
+2995|Mert, ich arbeite.
+2996|Nicht jetzt, Mert.
+2997|Netter Versuch.
+2998|Also ... Abendessen? Ein richtiges?
+2999|Würdest du mit mir ausgehen? So richtig?
+3000|... Ja. Aber niemand darf es wissen.
+3001|Okay. Unser kleines Geheimnis.
+3002|Sieh mal an. Die beiden stecken aber auffällig oft zusammen.
+3003|Seit wann sind die zwei befreundet?
+3004|Interessant ... sehr interessant.
+3005|Genießt du das Rampenlicht?
+3006|Muss schön sein, Chefliebling zu sein.
+3007|Gewöhn dich nicht dran.
+3008|Neidisch?
+3009|Ich genieße es tatsächlich, danke.
+3010|Manche von uns verdienen es sich eben.
+3011|Warum sagst du so was?
+3012|Das ist nicht fair.
+3013|... Okay.
+3014|Hey ... wegen vorhin. Tut mir leid.
+3015|Können wir reden? Ich glaube, ich hab überreagiert.
+3016|Waffenstillstand?
+3017|Ja. Mir auch.
+3018|Okay. Waffenstillstand.
+3019|Vergessen wir’s. Kaffee?
+3020|Zu wenig, zu spät.
+3021|Ich bin noch nicht so weit.
+3022|Nein.
+3023|So leicht verzeihe ich nicht.
+3024|Ach. Du bist’s.
+3025|Sieh mal einer an.
+3026|Immer noch hier?
+3027|Was soll das denn heißen?
+3028|Wie bitte?
+3029|Hast du ein Problem?
+3030|Ja, tatsächlich, hab ich!
+3031|Du weißt genau, was ich meine!
+3032|Spiel nicht die Unschuld vom Lande!
+3033|Darauf hab ich keine Lust.
+3034|Egal.
+3035|Lohnt sich nicht.
+3036|Warum hat die Tabelle mit dem Taschenrechner Schluss gemacht? Er hat immer alles nachgerechnet.
+3037|Ich bin nicht faul, ich bin im Energiesparmodus.
+3038|Mein Chef hat gesagt, ich soll mir einen schönen Tag machen. Also bin ich nach Hause gegangen.
+3039|Ich hab meinem Computer gesagt, ich brauche eine Pause. Er meinte: „Kein Problem, ich geh in den Ruhezustand.“
+3040|Teamwork heißt, nie die ganze Schuld allein tragen zu müssen.
+3041|Was ist der längste Tag der Woche? Montag. Warum? Weil er nie aufhört.
+3042|Ich mache eine Seh-Diät. Ich seh Essen, ich ess es.
+3043|Hahaha!
+3044|Okay, der war gut.
+3045|Hör auf! Haha!
+3046|HAHAHA! Moment, ich versteh’s nicht. HAHAHA!
+3047|Uff.
+3048|Bitte hör auf.
+3049|Der war furchtbar.
+3050|Ich habe zu arbeiten.
+3051|Zurück an die Arbeit.
+3052|{topic}
+3053|Oh, total.
+3054|Ha, oder?
+3055|Fang bloß nicht damit an.
+3056|Geht mir genauso!
+3057|Hmm, nicht wirklich.
+3058|Mhm.
+3059|Klar.
+3060|Apropos, hast du schon von ... gehört?
+3061|Oh, dazu hab ich eine Meinung.
+3062|Ja! Oh mein Gott, ja!
+3063|Hm. In der Tat.
+3064|...
+3065|Ich hab zu tun.
+3066|Mhm.
+3067|Ich hab dir einen Kaffee mitgebracht!
+3068|Überraschung! Kaffee, genau wie du ihn magst. Glaube ich.
+3069|Kaffee-Lieferung!
+3070|Ach, danke, Ece!
+3071|Du bist ein Engel.
+3072|Genau das, was ich gebraucht hab.
+3073|Hm. Braves Mädchen. Ich meine, gute Arbeit.

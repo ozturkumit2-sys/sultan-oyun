@@ -1084,5 +1084,765 @@
    "Alors… je te plais ? C'est… gentil.",
    "Eh bien. C'est une façon de me le dire."
   ]
+ },
+ "mert_blush": {
+  "_": [
+   "Haha… ouais… à propos de ça…",
+   "Je peux tout expliquer ! … Non, je ne peux pas.",
+   "*devient rouge écarlate*"
+  ]
+ },
+ "crush_awkward": {
+  "_": [
+   "Mert, on travaille ensemble. C'est… gênant.",
+   "Je… j'ai besoin d'une minute.",
+   "Restons professionnels, d'accord ?"
+  ]
+ },
+ "tease_crush_line": {
+  "_": [
+   "Alors… Ceren, hein ?",
+   "J'ai vu ta petite lettre d'amour, Roméo.",
+   "Ceren ? Audacieux, mon ami."
+  ]
+ },
+ "board_who_moved": {
+  "_": [
+   "Qui a déplacé la réunion ? Ce n'est pas moi qui ai changé ça.",
+   "Ce n'est pas l'heure que j'avais prévue…",
+   "Quelqu'un trafique mon agenda."
+  ]
+ },
+ "board_moved_note": {
+  "_": [
+   "Oh, la réunion a été déplacée ?",
+   "Nouvelle heure de réunion, c'est noté.",
+   "Tiens. La réunion est à une autre heure maintenant."
+  ]
+ },
+ "tell_boss_meeting_moved": {
+  "_": [
+   "Monsieur, l'heure de la réunion a été changée sur le tableau.",
+   "Petite alerte — quelqu'un a déplacé la réunion d'aujourd'hui."
+  ]
+ },
+ "boss_meeting_moved_ok": {
+  "_": [
+   "Bien. On garde la nouvelle heure.",
+   "C'est noté. Merci, Ceren."
+  ]
+ },
+ "boss_meeting_moved_blame": {
+  "_": [
+   "Changée ? C'est VOUS qui gérez l'agenda, Ceren !",
+   "Comment une réunion peut-elle se déplacer toute seule ?!"
+  ]
+ },
+ "board_changed_live": {
+  "_": [
+   "Attends… l'heure de la réunion vient de changer ?",
+   "Le tableau vient de… changer ?",
+   "Je ne suis pas {me?fou|folle}. C'était écrit une autre heure."
+  ]
+ },
+ "meeting_open": {
+  "_": [
+   "Bien, commençons.",
+   "Tout le monde s'assoit. On commence.",
+   "Téléphones rangés. La réunion commence maintenant."
+  ]
+ },
+ "boss_finally": {
+  "_": [
+   "Enfin !",
+   "Tiens, regardez qui daigne se montrer.",
+   "On attend depuis une éternité."
+  ],
+  "mert": [
+   "Le patron est en retard ? Notez-le quelque part !"
+  ]
+ },
+ "boss_blames_calendar": {
+  "_": [
+   "Ceren, pourquoi mon agenda était faux ?!",
+   "Qui a programmé ça ? Ceren ?"
+  ]
+ },
+ "boss_late_laugh": {
+  "_": [
+   "Hum. Faisons comme si j'étais pile à l'heure.",
+   "Oui, oui. Même moi, j'ai du travail."
+  ]
+ },
+ "late_excuse": {
+  "_": [
+   "Pardon ! Pardon pour le retard !",
+   "Je croyais que c'était plus tard !",
+   "Les bouchons ! Les bouchons du bureau !"
+  ],
+  "ece": [
+   "Je suis vraiment désolée ! Je me suis perdue ! Dans le bureau !"
+  ],
+  "mert": [
+   "Je faisais… du networking. À la machine à café."
+  ]
+ },
+ "board_said_other_time": {
+  "_": [
+   "Le tableau indiquait une autre heure !",
+   "Mais le planning disait plus tard !"
+  ]
+ },
+ "who_changed_board": {
+  "_": [
+   "Qui n'arrête pas de modifier le tableau ?!",
+   "Quelqu'un trafique le planning."
+  ]
+ },
+ "boss_scold_late": {
+  "_": [
+   "En retard. Encore.",
+   "Le temps, c'est de l'argent. Le vôtre s'épuise.",
+   "Vous vous croyez dans un café ?"
+  ]
+ },
+ "boss_sit_down": {
+  "_": [
+   "Asseyez-vous. Vite.",
+   "Asseyez-vous, c'est tout."
+  ]
+ },
+ "where_is_everyone": {
+  "_": [
+   "Ils sont où, tous ?",
+   "La réunion a été annulée ?",
+   "Je me suis trompé{me?|e} de salle ?",
+   "Allô ? Réunion ?"
+  ]
+ },
+ "scold_meeting": {
+  "_": [
+   "Vous avez raté la réunion. Expliquez-vous.",
+   "Où étiez-vous pendant la réunion ?"
+  ]
+ },
+ "scold_email": {
+  "_": [
+   "À propos de votre mail…",
+   "J'ai lu votre mail. Il faut qu'on parle."
+  ]
+ },
+ "scold_deadline": {
+  "_": [
+   "Vous avez raté votre échéance.",
+   "Où est votre travail ? C'était pour aujourd'hui."
+  ]
+ },
+ "scold_general": {
+  "_": [
+   "Il faut qu'on parle de vos performances.",
+   "J'attends mieux de votre part."
+  ]
+ },
+ "sorry_boss": {
+  "_": [
+   "Pardon, ça ne se reproduira pas.",
+   "Oui, monsieur. Compris.",
+   "Je vais arranger ça."
+  ],
+  "ece": [
+   "Pardon, Tonton… euh, monsieur !"
+  ]
+ },
+ "talk_back": {
+  "_": [
+   "Sauf votre respect, ce n'est pas juste.",
+   "Peut-être que si ce bureau fonctionnait correctement…",
+   "Vous savez quoi ? J'en ai assez."
+  ],
+  "burak": [
+   "De toute façon, je ne serai peut-être plus là très longtemps."
+  ]
+ },
+ "boss_how_dare": {
+  "_": [
+   "Surveillez votre ton !",
+   "Pardon ?!",
+   "Attention."
+  ]
+ },
+ "present_good": {
+  "_": [
+   "Comme vous pouvez le voir, les chiffres parlent d'eux-mêmes.",
+   "Et voilà notre plan pour le prochain trimestre.",
+   "Voici les résultats. Tout est au vert."
+  ]
+ },
+ "boss_praise": {
+  "_": [
+   "Excellent travail.",
+   "Voilà CE que j'aime voir.",
+   "Très bien. Très bien."
+  ]
+ },
+ "rival_jealous": {
+  "_": [
+   "*lève les yeux au ciel*",
+   "Frime.",
+   "N'importe qui aurait pu le faire."
+  ]
+ },
+ "present_no_usb": {
+  "_": [
+   "Ma présentation était sur ma clé USB… et elle a disparu.",
+   "Je… je ne trouve pas mes diapos."
+  ]
+ },
+ "boss_unimpressed": {
+  "_": [
+   "Pas préparé{to?|e}. Décevant.",
+   "C'est inacceptable.",
+   "Revenez quand vous serez prêt{to?|e}."
+  ]
+ },
+ "present_bad": {
+  "_": [
+   "Euh… je n'ai pas tout à fait fini…",
+   "La version complète pour demain ?",
+   "Bon… place au brouillon."
+  ]
+ },
+ "credit_steal_pitch": {
+  "_": [
+   "En fait, monsieur, l'idée de départ était la mienne. Laissez-moi vous l'expliquer.",
+   "Je peux présenter ce projet — de toute façon, c'est moi qui ai fait l'essentiel.",
+   "Permettez. Je connais ce projet sur le bout des doigts."
+  ]
+ },
+ "boss_impressed_thief": {
+  "_": [
+   "Impressionnant, Deniz. Très impressionnant.",
+   "Ça, c'est de l'initiative.",
+   "Bien. J'aime les gens qui prennent les devants."
+  ]
+ },
+ "that_was_my_work": {
+  "_": [
+   "C'était MON travail !",
+   "Tu viens de présenter mon projet !",
+   "Tu te moques de moi ?! C'est à moi !"
+  ]
+ },
+ "prove_it": {
+  "_": [
+   "Prouve-le.",
+   "Bizarre, je ne vois pas ton nom dessus.",
+   "Travail d'équipe, Selin. Travail d'équipe."
+  ]
+ },
+ "meeting_joke": {
+  "_": [
+   "Cette réunion aurait pu être un mail, non ?",
+   "J'ai une question : on déjeune quand ?",
+   "Super réunion. Dix sur dix."
+  ],
+  "mert": [
+   "Petite question : les snacks, c'est une ligne budgétaire ?"
+  ]
+ },
+ "boss_laughs": {
+  "_": [
+   "Ha ! D'accord, d'accord.",
+   "Très drôle. Revenons à nos moutons."
+  ]
+ },
+ "boss_not_funny": {
+  "_": [
+   "On n'est pas dans un club de stand-up.",
+   "C'était censé être drôle ?"
+  ]
+ },
+ "promo_reading": {
+  "_": [
+   "Hmm… je ne savais pas que cette personne en faisait autant.",
+   "Intéressant. Très intéressant.",
+   "Ça change les choses."
+  ]
+ },
+ "promo_reading_clean": {
+  "_": [
+   "Hm. Comme prévu.",
+   "Bien, bien."
+  ]
+ },
+ "promo_tip": {
+  "_": [
+   "Entre nous… quelqu'un a modifié ton dossier de promotion.",
+   "J'ai vu le dossier. Ton nom a été retiré du gros projet."
+  ]
+ },
+ "promo_outraged": {
+  "_": [
+   "QUOI ?!",
+   "Je savais que quelque chose clochait !",
+   "Qui ferait une chose pareille ?!"
+  ]
+ },
+ "promo_announce": {
+  "_": [
+   "Un instant, tout le monde. Nous avons désormais quelqu'un pour diriger l'équipe.",
+   "Attention ! Après mûre réflexion, j'ai pris ma décision pour la promotion."
+  ]
+ },
+ "award_announce": {
+  "_": [
+   "Votre attention ! La distinction de la semaine revient à…",
+   "La star de la semaine est…"
+  ]
+ },
+ "promo_winner": {
+  "_": [
+   "Merci ! Je ne vous décevrai pas !",
+   "Waouh… moi ? Merci !",
+   "Enfin !"
+  ],
+  "deniz": [
+   "Naturellement. Merci, monsieur."
+  ],
+  "selin": [
+   "Merci. J'ai tellement travaillé pour ça."
+  ]
+ },
+ "promo_clap": {
+  "_": [
+   "Félicitations !",
+   "Bien mérité… j'imagine.",
+   "*applaudissements polis*"
+  ],
+  "zeynep": [
+   "Hmm. Choix intéressant."
+  ]
+ },
+ "promo_loser": {
+  "_": [
+   "… Incroyable.",
+   "C'est tellement injuste.",
+   "Après tout ce que j'ai fait ?"
+  ],
+  "deniz": [
+   "Ce n'est pas fini."
+  ],
+  "selin": [
+   "C'est mal. C'est tellement mal."
+  ]
+ },
+ "cold_grudge": {
+  "_": [
+   "*fixe d'un regard glacial*",
+   "Je n'oublierai pas.",
+   "Félicitations. Profites-en tant que ça dure."
+  ]
+ },
+ "notif_boss_read": {
+  "_": [
+   "« Venez dans mon bureau. Tout de suite. » … Oh oh.",
+   "Le patron veut me voir ?!",
+   "Oh non. Qu'est-ce que j'ai fait ?"
+  ]
+ },
+ "notif_food_read": {
+  "_": [
+   "Du gâteau gratuit dans la cuisine ?! Pas besoin d'en dire plus !",
+   "De la bouffe gratuite ! DE LA BOUFFE GRATUITE !"
+  ]
+ },
+ "notif_cancel_read": {
+  "_": [
+   "Réunion annulée ? Génial !",
+   "Pas de réunion aujourd'hui ? La meilleure nouvelle du monde."
+  ]
+ },
+ "notif_admirer_read": {
+  "_": [
+   "« Un admirateur secret te salue »… ?!",
+   "Quelqu'un ici a le béguin pour moi ?!",
+   "Oh, un admirateur secret !"
+  ]
+ },
+ "you_wanted_me": {
+  "_": [
+   "Vous vouliez me voir ?",
+   "J'ai reçu votre message, monsieur.",
+   "Je suis là ! Qu'est-ce que j'ai fait ?"
+  ]
+ },
+ "i_didnt_call": {
+  "_": [
+   "Je ne vous ai pas appelé{to?|e}.",
+   "Quel message ? Je n'ai rien envoyé.",
+   "Je ne vous ai jamais demandé{to?|e}."
+  ]
+ },
+ "boss_get_back_to_work": {
+  "_": [
+   "Arrêtez de me faire perdre mon temps. Au travail.",
+   "Puisque vous êtes là à ne rien faire — allez travailler."
+  ]
+ },
+ "boss_since_youre_here": {
+  "_": [
+   "Bon, puisque vous êtes là… du bon travail ces derniers temps.",
+   "Asseyez-vous, asseyez-vous. Comment ça se passe ?"
+  ]
+ },
+ "no_food_here": {
+  "_": [
+   "Il n'y a pas de gâteau…",
+   "Elle est où, la bouffe gratuite ?",
+   "Il n'y a qu'un vieux yaourt."
+  ]
+ },
+ "who_pranked": {
+  "_": [
+   "Très drôle, {suspect}.",
+   "Je parie que c'est {suspect} qui a envoyé ça.",
+   "Quelqu'un me fait des blagues. Et je crois savoir qui."
+  ]
+ },
+ "fridge_sigh": {
+  "_": [
+   "*referme tristement le frigo*",
+   "Mensonges. Que des mensonges."
+  ]
+ },
+ "admirer_was_it_you": {
+  "_": [
+   "Alors… c'était toi ? {to?L'admirateur secret|L'admiratrice secrète} ?",
+   "C'est toi qui m'as envoyé ce message ?"
+  ]
+ },
+ "admirer_maybe": {
+  "_": [
+   "… Peut-être. Ce serait si terrible ?",
+   "Haha, peut-être ! Qui sait ?",
+   "Un gentleman ne dit jamais rien."
+  ]
+ },
+ "admirer_no": {
+  "_": [
+   "Quoi ? Non ! Désolé{me?|e}…",
+   "Euh, non. Certainement pas moi.",
+   "Ce n'est… pas moi."
+  ]
+ },
+ "boss_job_hunt_discovered": {
+  "_": [
+   "Burak cherche un autre boulot ? Dans mon dos ?",
+   "Voilà donc pourquoi il est toujours sur son téléphone."
+  ]
+ },
+ "boss_job_hunt_confront": {
+  "_": [
+   "J'entends dire que vous cherchez un autre emploi.",
+   "Vous comptez nous quitter, Burak ?"
+  ]
+ },
+ "boss_counteroffer": {
+  "_": [
+   "Écoutez… vous êtes précieux ici. Que faudrait-il pour vous garder ?",
+   "Je vais être honnête. Je ne veux pas vous perdre."
+  ]
+ },
+ "burak_surprised_stay": {
+  "_": [
+   "Vraiment ? Je… je ne m'y attendais pas.",
+   "Bon. Je vais peut-être rester encore un peu."
+  ]
+ },
+ "burak_defiant": {
+  "_": [
+   "Peut-être que oui. Peut-être qu'ici, personne n'est apprécié à sa juste valeur.",
+   "J'ai bien le droit d'avoir des options."
+  ]
+ },
+ "boss_cold": {
+  "_": [
+   "Alors la porte est par là.",
+   "Très bien. On verra qui a besoin de qui."
+  ]
+ },
+ "nepotism_mutter": {
+  "_": [
+   "La stagiaire est la NIÈCE du patron ? Évidemment.",
+   "Eh bien, ça explique beaucoup de choses.",
+   "Du piston. Charmant."
+  ]
+ },
+ "boss_review_shock": {
+  "_": [
+   "Le siège m'évalue, MOI ?!",
+   "Mon poste… est en cours d'évaluation ?"
+  ]
+ },
+ "secret_call_line": {
+  "_": [
+   "*chuchote* Oui, jeudi me va pour l'entretien…",
+   "*chuchote* Je peux commencer le mois prochain, si l'offre est bonne.",
+   "*chuchote* Non, mon patron n'est pas au courant."
+  ]
+ },
+ "overheard_call": {
+  "_": [
+   "Burak vient de parler d'un entretien d'embauche ?",
+   "J'ai bien entendu ?!"
+  ],
+  "zeynep": [
+   "Oh. Oh ! Burak cherche un boulot !"
+  ]
+ },
+ "gossip_open": {
+  "_": [
+   "Psst. Viens par là.",
+   "Tu es au courant ?",
+   "OK, tu ne tiens PAS ça de moi…"
+  ],
+  "zeynep": [
+   "Assieds-toi. Tu vas vouloir être assis{to?|e} pour entendre ça.",
+   "Oh, j'en ai, des nouvelles pour toi."
+  ]
+ },
+ "gossip_tell": {
+  "_": [
+   "{gossip}",
+   "Apparemment… {gossip}",
+   "Ne le répète à personne, mais {gossip}",
+   "Il paraît que… {gossip}"
+  ]
+ },
+ "gossip_react": {
+  "_": [
+   "Pas possible !",
+   "Sérieux ?!",
+   "Je le savais !",
+   "Arrête !"
+  ]
+ },
+ "gossip_disapprove": {
+  "_": [
+   "On ne devrait pas parler de ça.",
+   "Ce ne sont pas nos affaires.",
+   "Les ragots, ce n'est pas gentil, tu sais."
+  ],
+  "ceren": [
+   "N'allons pas répandre ça."
+  ]
+ },
+ "gossip_eager": {
+  "_": [
+   "Raconte-moi TOUT.",
+   "Oh, et quoi d'autre ?",
+   "Il me faut des détails !"
+  ]
+ },
+ "flirt_line": {
+  "_": [
+   "Ceren, on t'a déjà dit que tes tableurs étaient magnifiques ?",
+   "Alors… un café plus tard ? Juste entre collègues. Des collègues qui boivent du café.",
+   "Tu es superbe aujourd'hui. Pas que tu ne le sois pas toujours."
+  ]
+ },
+ "flirt_charmed": {
+  "_": [
+   "Haha, t'es ridicule, Mert.",
+   "Peut-être. Si tu es sage.",
+   "T'es mignon. Bizarre, mais mignon."
+  ]
+ },
+ "flirt_brush": {
+  "_": [
+   "Mert, je travaille.",
+   "Pas maintenant, Mert.",
+   "Bien essayé."
+  ]
+ },
+ "date_ask": {
+  "_": [
+   "Alors… un dîner ? Un vrai ?",
+   "Tu voudrais sortir avec moi ? Pour de vrai ?"
+  ]
+ },
+ "date_yes": {
+  "_": [
+   "… Oui. Mais personne ne doit le savoir.",
+   "D'accord. Notre petit secret."
+  ]
+ },
+ "spotted_secret_friends": {
+  "_": [
+   "Tiens, tiens. Ces deux-là sont drôlement proches.",
+   "Depuis quand ces deux-là sont amis ?",
+   "Intéressant… très intéressant."
+  ]
+ },
+ "jealous_jab": {
+  "_": [
+   "Tu profites des projecteurs ?",
+   "Ça doit être sympa d'être {to?le chouchou|la chouchoute} du patron.",
+   "T'y habitue pas."
+  ]
+ },
+ "jealous_smug": {
+  "_": [
+   "Jaloux{to?|se} ?",
+   "J'en profite, oui, merci.",
+   "Certains d'entre nous le méritent."
+  ]
+ },
+ "jealous_hurt": {
+  "_": [
+   "Pourquoi tu dis ça ?",
+   "Ce n'est pas juste.",
+   "… D'accord."
+  ]
+ },
+ "apology_offer": {
+  "_": [
+   "Hé… pour tout à l'heure. Je suis désolé{me?|e}.",
+   "On peut parler ? Je crois que j'ai réagi de façon excessive.",
+   "Trêve ?"
+  ]
+ },
+ "apology_accept": {
+  "_": [
+   "Oui. Moi aussi.",
+   "D'accord. Trêve.",
+   "Oublions ça. Un café ?"
+  ]
+ },
+ "apology_reject": {
+  "_": [
+   "Trop peu, trop tard.",
+   "Je ne suis pas prêt{me?|e}.",
+   "Non."
+  ],
+  "selin": [
+   "Je ne pardonne pas si facilement."
+  ]
+ },
+ "grudge_jab": {
+  "_": [
+   "Ah. C'est toi.",
+   "Tiens, regardez qui voilà.",
+   "Encore là ?"
+  ]
+ },
+ "grudge_reply": {
+  "_": [
+   "Qu'est-ce que c'est censé vouloir dire ?",
+   "Pardon ?",
+   "Un problème ?"
+  ]
+ },
+ "grudge_escalate": {
+  "_": [
+   "Oui, en fait, j'en ai un !",
+   "Tu sais très bien ce que je veux dire !",
+   "Ne joue pas {to?l'innocent|l'innocente} !"
+  ]
+ },
+ "walk_away": {
+  "_": [
+   "Je ne rentre pas là-dedans.",
+   "Peu importe.",
+   "Ça n'en vaut pas la peine."
+  ]
+ },
+ "joke": {
+  "_": [
+   "Pourquoi le tableur a-t-il quitté la calculatrice ? Elle le prenait toujours pour un calcul.",
+   "Je ne suis pas paresseux{me?|se}, je suis en mode économie d'énergie.",
+   "Mon patron m'a dit de passer une bonne journée. Alors je suis rentré{me?|e} chez moi.",
+   "J'ai dit à mon ordi que j'avais besoin d'une pause. Il m'a dit : « Pas de souci, je me mets en veille. »",
+   "Le travail d'équipe, c'est ne jamais avoir à porter toute la faute tout seul."
+  ],
+  "mert": [
+   "Quel est le jour le plus long de la semaine ? Le lundi. Pourquoi ? Parce qu'il ne finit jamais.",
+   "Je fais un régime « vu-mangé » : je vois de la nourriture, je la mange."
+  ]
+ },
+ "joke_laugh": {
+  "_": [
+   "Hahaha !",
+   "OK, elle était bonne.",
+   "Arrête ! Haha !"
+  ],
+  "ece": [
+   "HAHAHA ! Attends, j'ai pas compris. HAHAHA !"
+  ]
+ },
+ "joke_groan": {
+  "_": [
+   "Pff.",
+   "Arrête, s'il te plaît.",
+   "C'était nul."
+  ],
+  "ahmet": [
+   "Au travail."
+  ],
+  "selin": [
+   "J'ai du travail."
+  ]
+ },
+ "topic_open": {
+  "_": [
+   "{topic}"
+  ]
+ },
+ "topic_reply": {
+  "_": [
+   "Oh, carrément.",
+   "Ha, hein ?",
+   "Ne me lance pas là-dessus.",
+   "Pareil pour moi !",
+   "Hmm, pas vraiment."
+  ],
+  "ahmet": [
+   "Hm. En effet."
+  ],
+  "burak": [
+   "Mm.",
+   "Bien sûr."
+  ],
+  "ece": [
+   "Oui ! Oh mon Dieu, oui !"
+  ],
+  "zeynep": [
+   "En parlant de ça, tu as entendu parler de…",
+   "Oh, j'ai un avis là-dessus."
+  ]
+ },
+ "cold_shoulder": {
+  "_": [
+   "…",
+   "Je suis occupé{me?|e}.",
+   "Mmh."
+  ]
+ },
+ "coffee_gift_offer": {
+  "_": [
+   "Je t'ai apporté un café !",
+   "Surprise ! Un café comme tu l'aimes. Je crois.",
+   "Livraison de café !"
+  ]
+ },
+ "coffee_gift_thanks": {
+  "_": [
+   "Oh, merci, Ece !",
+   "Tu es un ange.",
+   "Exactement ce qu'il me fallait."
+  ],
+  "ahmet": [
+   "Hm. Brave petite. Je veux dire, beau travail."
+  ]
  }
 }
