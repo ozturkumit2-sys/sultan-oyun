@@ -1,0 +1,210 @@
+4456|Je... n'ai franchement aucune idée de ce que vous voulez dire.
+4457|Première nouvelle, Ahmet Bey.
+4458|Il doit y avoir une erreur.
+4459|Alors vous feriez bien de trouver. Vite.
+4460|J'attends mieux de votre part.
+4461|C'est votre dernier avertissement.
+4462|...Bon. Bizarre. Très bizarre. Allez-y.
+4463|Hm. Un malentendu, donc. Vous pouvez disposer.
+4464|Alors quelqu'un dans ce bureau a le sens de l'humour.
+4465|Bizarre. Bref.
+4466|OK... on passe à autre chose.
+4467|Pas aujourd'hui, l'univers.
+4468|Je ne veux même pas savoir.
+4469|Ha. Quelqu'un s'ennuie.
+4470|Bon. Réparé. Suivant.
+4471|Hm. Je vais en prendre note.
+4472|Mot de passe incorrect ?! J'ai le même mot de passe depuis six ans !
+4473|Pourquoi il ne me laisse pas entrer ?!
+4474|BLOQUÉ{me?|E}. Hors de mon propre ordinateur.
+4475|C'est quoi, ça ? « Compte verrouillé » ? Le compte, c'est MOI !
+4476|Quelqu'un M'a bloqué{me?|e} ? C'est... impressionnant.
+4477|C'est « MotDePasse1 » ? « MotDePasse2 » ? Au secours !
+4478|Bon. Je vais le réinitialiser moi-même.
+4479|Question de sécurité... « nom de votre premier animal »... c'est bon.
+4480|Trente secondes. ...Vingt.
+4481|Où est mon fichier ? Il était JUSTE LÀ.
+4482|Mon dossier est vide. Pourquoi mon dossier est vide ?!
+4483|Non non non, il est passé où ?
+4484|Toute ma proposition. Disparue. De MON dossier.
+4485|Un fichier ? Quel fichier ? ...Oh non, CE fichier-là.
+4486|Pourquoi le dossier de {owner} se trouve-t-il dans MON classeur privé ?
+4487|Qu'est-ce que le travail de {owner} fait dans mon dossier ?
+4488|{target} ! Ce fichier de projet — excellent travail.
+4489|Je viens de lire le projet de {target}. Enfin un peu de qualité.
+4490|Merci, Ahmet Bey. J'y ai beaucoup travaillé.
+4491|Oh — ravi{me?|e} que ça vous plaise !
+4492|Évidemment. Je livre toujours.
+4493|En fait, Ahmet Bey, c'est le travail de {owner}, pas le mien.
+4494|Celui-là, c'est celui de {owner}. Je ne peux pas m'en attribuer le mérite.
+4495|C'est le projet de {owner}. Rendons à César ce qui est à César.
+4496|Ce n'est pas le mien. C'est celui de {owner}.
+4497|...Attendez. C'est MON projet.
+4498|Pardon ? C'est moi qui l'ai écrit !
+4499|...Ce ne sont pas mes slides.
+4500|Attendez. C'est la présentation de qui, ça ?!
+4501|Euh. La slide un... n'est pas ma slide un.
+4502|Ce n'est pas ma présentation. Quelqu'un a échangé mon fichier !
+4503|OK, rebondissement : je vais présenter le travail de quelqu'un d'autre.
+4504|Bon. Je vais vous en parler quand même — de mémoire.
+4505|Oubliez les slides. Voilà l'idée.
+4506|Je... euh... désolé{me?|e}, je...
+4507|On peut... faire une pause de cinq minutes ?
+4508|En fait, ce sont quelques idées que j'explore depuis un moment.
+4509|Comme vous pouvez le voir... ma vision.
+4510|Ce sont MES slides !
+4511|Hé ! C'est ma présentation !
+4512|Où croyez-vous aller comme ça ? Il est {time} !
+4513|Vous partez déjà, {target} ? Il n'est que {time}.
+4514|Mais mon ordinateur dit qu'il est cinq heures !
+4515|Quoi ? D'après mon horloge, j'ai fini !
+4516|Alors votre ordinateur n'a qu'à faire votre travail. Retournez à votre bureau.
+4517|Faites réparer cette horloge. Et asseyez-vous.
+4518|...Votre horloge est fausse. Allez, filez, pour cette fois.
+4519|Ha. Allez-y. Mais faites réparer ça.
+4520|Mon horloge disait qu'il me restait vingt minutes !
+4521|En retard ?! Mon ordinateur me MENT.
+4522|Où il est ? Il était sur mon bureau il y a une seconde !
+4523|Mon rapport. A. Disparu.
+4524|OK, pas de panique. Pas de panique. PANIQUE.
+4525|Ce fichier était juste là. Je ne me trompe jamais sur l'emplacement des choses.
+4526|Mon tableur ! Quelqu'un a pris mon tableur !
+4527|Quelqu'un a imprimé mon rapport ? Quelqu'un l'a VU ?
+4528|Je vérifie l'imprimante... les archives... partout !
+4529|TE VOILÀ ! Dans « Vieux trucs 2019 » ?! Comment ?!
+4530|Trouvé. Dans un dossier que je n'avais jamais vu. Flippant.
+4531|Il a disparu. Je vais devoir tout refaire.
+4532|Trois heures de travail... envolées.
+4533|Pourquoi mon rapport date de la SEMAINE DERNIÈRE ?!
+4534|Toutes mes modifications... envolées !
+4535|Qui a remis une vieille version de mon fichier ?!
+4536|J'ai réécrit cette partie quatre fois. QUATRE.
+4537|C'est... la version de mardi dernier. Intéressant.
+4538|{target}, on a des sauvegardes ? Dis-moi qu'on a des sauvegardes.
+4539|{target}, tu peux récupérer mon fichier ? Mes modifs ont disparu.
+4540|Restauré depuis la sauvegarde de cette nuit. Ça mérite un café.
+4541|Voilà. Chaque virgule à sa place.
+4542|Les sauvegardes, c'est le vendredi. On n'est pas vendredi.
+4543|Désolé{me?|e}. Cette version est perdue.
+4544|Bon. Je le refais. Ce soir. Apparemment.
+4545|Heures sup, alors.
+4546|AAAH ! « VOTRE ORDINATEUR EST INFECTÉ » !
+4547|Un virus ! UN VIRUS ! Tout le monde débranche tout !
+4548|C'est écrit « tous vos fichiers ont été chiffrés » !!
+4549|C'est quoi ce truc rouge qui clignote ?! Burak !
+4550|...Un faux pop-up. Sur MON réseau ? Culotté.
+4551|J'ai cliqué sur rien ! Je jure que j'ai cliqué sur rien !
+4552|{target} ! VIRUS ! Écran rouge ! Tête de mort !
+4553|{target}, mon ordinateur s'est fait pirater !
+4554|...C'est un faux pop-up. Il suffit de fermer la fenêtre.
+4555|Ce n'est pas un virus. C'est une blague. On ferme, et voilà.
+4556|Je coupe le réseau. QUE PERSONNE NE TOUCHE À RIEN.
+4557|Je coupe le courant de tout l'étage, au cas où.
+4558|Hahaha !
+4559|Oh, ça n'a pas de prix.
+4560|J'arrive plus à respirer !
+4561|Que quelqu'un filme ça !
+4562|Meilleure journée de ma vie.
+4563|Ooh, ça, ça va dans mon journal intime.
+4564|Attends... pourquoi c'est sur MON écran ?
+4565|Tiens. Ce n'est pas mon fichier. Oh. OH.
+4566|...Je n'étais clairement pas censé{me?|e} voir ça.
+4567|Tiens, tiens. Regardez ce qui a atterri sur mon bureau.
+4568|On a dû me l'envoyer par erreur. ...N'empêche.
+4569|Pourquoi il y a quarante chatons sur mon écran ?
+4570|Des chatons. Partout. ...Bon, ils sont mignons.
+4571|QUI A MIS DES CHATONS SUR MON ORDINATEUR ?
+4572|Des chatons. Sur MON écran. D'accord.
+4573|Pourquoi le visage d'Ahmet est en fond d'écran ?!
+4574|Ahmet... me fixe. Depuis mon bureau.
+4575|C'est une photo ÉNORME de notre patron.
+4576|...Eh bien. C'est une belle photo.
+4577|Ahh... une plage. Je pourrais juste... partir.
+4578|Des palmiers. L'océan. Et moi, je fais des notes de frais.
+4579|Tu sais quoi ? Je le garde.
+4580|Je le garde. Je commence à l'aimer.
+4581|Non. Je remets l'ancien.
+4582|Hors de question. Retour au bleu.
+4583|Joli fond d'écran !
+4584|C'est... ce que je crois ?
+4585|Ha ! J'adore.
+4586|« Cher Ahmet Bébé » ?! {owner} ! Ici. TOUT DE SUITE.
+4587|{owner} vient de m'appeler... « Bébé » ?
+4588|C'est le CORRECTEUR ! Je vous jure, c'est le correcteur automatique !
+4589|Je ne ferais JAMAIS— ce n'est pas— mon clavier !
+4590|...Hm. Faites réparer votre clavier. Et — laissez tomber.
+4591|On m'a déjà appelé pire. Allez-y.
+4592|Ici, c'est un lieu de travail, pas une appli de rencontres.
+4593|Pas professionnel. Pas du tout.
+4594|T'as entendu ? {owner} a appelé Ahmet « Bébé » !
+4595|« Ahmet Bébé » ! Je vais faire encadrer ce mail.
+4596|{owner} regarde des offres d'emploi ?!
+4597|Hm. « Postes de cadre — postulez maintenant. » Sur l'écran de {owner}.
+4598|{owner} consulte des offres d'emploi. Intéressant.
+4599|Des offres d'emploi. Pendant les heures de travail. Sur l'écran de {owner}.
+4600|Oh, {owner} fait du shopping de bureaux !
+4601|Mon écran est noir. Mon ordinateur est mort ?!
+4602|Il est mort. Complètement mort.
+4603|Allô ? ALLÔ ? L'écran ?
+4604|Mon écran est cassé. Que quelqu'un le répare.
+4605|...Le câble est débranché. Quelqu'un a débranché mon écran.
+4606|Oh. Il est... débranché. Hé. Ne le dites à personne.
+4607|Attends. Le câble. Qui débranche un écran ?!
+4608|Pourquoi MON document privé sort de l'imprimante ?!
+4609|Attends — je n'ai pas imprimé ça ! Donne-moi ça !
+4610|Ooh. C'est à qui, ça ? Oh. OH.
+4611|C'était dans le bac de l'imprimante. Je ne l'ai pas lu. ...Je l'ai lu.
+4612|Hm. Quelqu'un a imprimé un truc privé.
+4613|L'imprimante, c'est mon journal préféré.
+4614|Je ne le lis pas ! ...J'en ai lu un petit bout.
+4615|Oh non — mon {what} est dans dix minutes ! J'avais complètement oublié !
+4616|Mon agenda dit : {what}. Ah oui. Faut que j'y aille !
+4617|Un {what} ? Je n'ai pas de {what}, moi...
+4618|Ce n'est pas à moi. Qui a mis ça dans mon agenda ?
+4619|Où est {owner} ? Quelqu'un sait ?
+4620|Quelqu'un a vu {owner} ? Son bureau est vide depuis une éternité.
+4621|Pourquoi tout charge à la vitesse des années 90 ?
+4622|ALLEZ. Un mail. UN SEUL.
+4623|La petite roue. La roue qui tourne de l'apocalypse.
+4624|Mon internet est plus lent qu'un lundi.
+4625|Je ne peux pas travailler comme ça.
+4626|Laisse tomber. Pause café jusqu'à ce qu'internet se souvienne de moi.
+4627|Je vais faire un tour. Internet n'a qu'à venir me chercher.
+4628|Pourquoi {owner} me CRIE dessus ?!
+4629|« ÇA VA » — en majuscules ? {owner} est {owner?fâché|fâchée} contre moi ?
+4630|{target}, pourquoi tu m'as crié dessus dans le chat ?
+4631|Qu'est-ce que j'ai fait pour mériter TOUT EN MAJUSCULES, {target} ?
+4632|Quoi ? J'ai pas crié ! Ma touche majuscule doit être coincée !
+4633|J'ai écrit « ça va » ! Normalement !
+4634|C'est ça. Si tu le dis.
+4635|Dis-le, si tu m'en veux.
+4636|Oh mon Dieu, c'est juste la touche majuscule. Ha !
+4637|OK, c'est drôle. Ton clavier te déteste.
+4638|Pourquoi mon clavier MIAULE ?!
+4639|Chaque touche. Miaou. Miaou. MIAOU.
+4640|Il y a un chat dans mon ordinateur ?
+4641|Pourquoi mon clavier miaule ?! QUI A FAIT ÇA ?
+4642|...Je respecte le travail d'artisan. Mais je le déteste aussi.
+4643|...Franchement ? J'adore. Miaou.
+4644|Je ne change plus jamais ça. Miaou miaou.
+4645|C'est... un miaulement ?
+4646|*glousse*
+4647|Il y a un CHAT dans le bureau ?
+4648|Tiens. Le dossier privé de {owner} est partagé avec tout le monde ?
+4649|Oups. Je vois tous les fichiers de {owner}. Je... regarde juste.
+4650|Oh, {owner}, tu devrais vraiment vérifier tes paramètres.
+4651|Un dossier ouvert, c'est une invitation, mon chou.
+4652|Quelqu'un a mis le dossier de {owner} en « tout le monde ». Erreur de débutant.
+4653|« URGENT : licenciements » ?! De la part de {owner} ?!
+4654|Attends, {owner} vient d'envoyer un mail à tout le monde sur des LICENCIEMENTS ?
+4655|« Re : ton augmentation »... {owner} a eu une AUGMENTATION ?
+4656|Pourquoi le mail de {owner} dit « ton augmentation est approuvée » ?
+4657|« Soirée chez moi ce soir, tout le monde est invité ! » — {owner} ? J'en suis !
+4658|{owner} organise une soirée ? J'y serai !
+4659|Je n'ai PAS écrit cet objet !
+4660|Ce n'est pas ce que j'ai tapé ! Je le jure !
+4661|Alors ! Ta soirée ! J'apporte quoi ?
+4662|C'est ce soir, hein ? J'apporte des snacks !
+4663|J'apporte l'enceinte. Et mes pas de danse.
+4664|À ce sujet... il n'y a pas de soirée. C'était une erreur.
+4665|Il n'y a pas de soirée ! Mon mail s'est fait pirater, ou je sais pas quoi !

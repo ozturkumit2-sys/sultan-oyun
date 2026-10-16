@@ -5262,5 +5262,589 @@
    "Erklären Sie mir {what}.",
    "Wir müssen über {what} reden."
   ]
+ },
+ "ivm_boss_clueless": {
+  "_": [
+   "Ich... habe ehrlich gesagt keine Ahnung, was Sie meinen.",
+   "Das höre ich zum ersten Mal, Ahmet Bey.",
+   "Das muss ein Irrtum sein."
+  ]
+ },
+ "ivm_boss_scold": {
+  "_": [
+   "Dann finden Sie es besser heraus. Schnell.",
+   "Ich erwarte mehr von Ihnen.",
+   "Das ist Ihre letzte Warnung."
+  ]
+ },
+ "ivm_boss_ok": {
+  "_": [
+   "...Na gut. Seltsam. Sehr seltsam. Gehen Sie.",
+   "Hm. Also ein Missverständnis. Sie können gehen.",
+   "Dann hat in diesem Büro jemand Humor."
+  ]
+ },
+ "ivm_shrug": {
+  "_": [
+   "Komisch. Egal.",
+   "Okay... weiter im Text.",
+   "Heute nicht, Universum.",
+   "Ich will's gar nicht wissen."
+  ],
+  "burak": [
+   "Gut. Repariert. Nächstes."
+  ],
+  "ceren": [
+   "Hm. Das notiere ich mir."
+  ],
+  "mert": [
+   "Ha. Da langweilt sich jemand."
+  ]
+ },
+ "lockpc_react": {
+  "_": [
+   "Falsches Passwort?! Ich hab seit sechs Jahren dasselbe Passwort!",
+   "Warum lässt er mich nicht rein?!",
+   "AUSGESPERRT. Aus meinem eigenen Computer."
+  ],
+  "ahmet": [
+   "Was ist das? „Konto gesperrt“? Ich BIN das Konto!"
+  ],
+  "burak": [
+   "Jemand hat MICH ausgesperrt? Das ist... beeindruckend."
+  ],
+  "ece": [
+   "Ist es „Passwort1“? „Passwort2“? Hilfe!"
+  ]
+ },
+ "lockpc_reset": {
+  "_": [
+   "Na gut. Dann setz ich es selbst zurück.",
+   "Sicherheitsfrage... „Name des ersten Haustiers“... hab's."
+  ],
+  "burak": [
+   "Dreißig Sekunden. ...Zwanzig."
+  ]
+ },
+ "misfile_react": {
+  "_": [
+   "Wo ist meine Datei? Sie war GENAU HIER.",
+   "Mein Ordner ist leer. Warum ist mein Ordner leer?!",
+   "Nein, nein, nein, wo ist sie hin?"
+  ],
+  "mert": [
+   "Datei? Welche Datei? ...Oh nein, DIE Datei."
+  ],
+  "selin": [
+   "Mein ganzes Angebot. Weg. Aus MEINEM Ordner."
+  ]
+ },
+ "misfile_boss": {
+  "_": [
+   "Warum liegt {owner:s} Akte in MEINEM privaten Ordner?",
+   "Was macht {owner:s} Arbeit in meinem Ordner?"
+  ]
+ },
+ "author_boss_sees": {
+  "_": [
+   "{target}! Diese Projektdatei — hervorragende Arbeit.",
+   "Ich habe gerade {target:s} Projekt gelesen. Endlich mal Qualität."
+  ]
+ },
+ "author_take": {
+  "_": [
+   "Danke, Ahmet Bey. Ich habe hart daran gearbeitet.",
+   "Oh — freut mich, dass es Ihnen gefällt!"
+  ],
+  "deniz": [
+   "Natürlich. Ich liefere immer."
+  ]
+ },
+ "author_correct": {
+  "_": [
+   "Eigentlich, Ahmet Bey, ist das {owner:s} Arbeit, nicht meine.",
+   "Das ist von {owner}. Die Lorbeeren kann ich nicht annehmen."
+  ],
+  "ceren": [
+   "Das ist {owner:s} Projekt. Ehre, wem Ehre gebührt."
+  ],
+  "selin": [
+   "Das ist nicht meins. Das ist von {owner}."
+  ]
+ },
+ "author_owner_hears": {
+  "_": [
+   "...Moment. Das ist MEIN Projekt.",
+   "Wie bitte? Das habe ich geschrieben!"
+  ]
+ },
+ "slides_wrong": {
+  "_": [
+   "...Das sind nicht meine Folien.",
+   "Moment. Wessen Präsentation ist das?!",
+   "Ähm. Folie eins... ist nicht meine Folie eins."
+  ],
+  "mert": [
+   "Okay, Plot-Twist: Ich präsentiere jetzt die Arbeit von jemand anderem."
+  ],
+  "selin": [
+   "Das ist nicht mein Foliensatz. Jemand hat meine Datei vertauscht!"
+  ]
+ },
+ "slides_improv": {
+  "_": [
+   "Tja. Dann erzähle ich trotzdem davon — aus dem Gedächtnis.",
+   "Vergessen Sie die Folien. Hier ist die Idee."
+  ]
+ },
+ "slides_freeze": {
+  "_": [
+   "Ich... ähm... Entschuldigung, ich...",
+   "Können wir... fünf Minuten Pause machen?"
+  ]
+ },
+ "slides_steal": {
+  "_": [
+   "Eigentlich sind das ein paar Ideen, mit denen ich mich beschäftigt habe.",
+   "Wie Sie sehen... meine Vision."
+  ]
+ },
+ "slides_target_angry": {
+  "_": [
+   "Das sind MEINE Folien!",
+   "Hey! Das ist meine Präsentation!"
+  ]
+ },
+ "clock_leave_boss": {
+  "_": [
+   "Wo wollen Sie denn hin? Es ist {time}!",
+   "Schon auf dem Sprung, {target}? Es ist erst {time}."
+  ]
+ },
+ "clock_leave_excuse": {
+  "_": [
+   "Aber mein Computer sagt, es ist fünf Uhr!",
+   "Was? Laut meiner Uhr hab ich Feierabend!"
+  ]
+ },
+ "clock_leave_scold": {
+  "_": [
+   "Dann kann ja Ihr Computer Ihre Arbeit machen. Zurück an den Schreibtisch.",
+   "Lassen Sie die Uhr reparieren. Und setzen Sie sich."
+  ]
+ },
+ "clock_leave_laugh": {
+  "_": [
+   "...Ihre Uhr geht falsch. Na los, gehen Sie, ausnahmsweise.",
+   "Ha. Gehen Sie. Aber lassen Sie das reparieren."
+  ]
+ },
+ "clock_late_react": {
+  "_": [
+   "Laut meiner Uhr hatte ich noch zwanzig Minuten!",
+   "Zu spät?! Mein Computer LÜGT mich an."
+  ]
+ },
+ "hide_doc_react": {
+  "_": [
+   "Wo ist sie? Gerade war sie noch auf meinem Desktop!",
+   "Mein Bericht. Ist. Verschwunden.",
+   "Okay, keine Panik. Keine Panik. PANIK."
+  ],
+  "ceren": [
+   "Die Datei war genau hier. Ich irre mich nie, wo etwas liegt."
+  ],
+  "zeynep": [
+   "Meine Tabelle! Jemand hat meine Tabelle genommen!"
+  ]
+ },
+ "hide_doc_search": {
+  "_": [
+   "Hat jemand meinen Bericht gedruckt? Hat ihn jemand GESEHEN?",
+   "Ich schau im Drucker... im Archiv... überall!"
+  ]
+ },
+ "hide_doc_found": {
+  "_": [
+   "DA bist du ja! In „Altes Zeug 2019“?! Wie?!",
+   "Gefunden. In einem Ordner, den ich noch nie gesehen hab. Unheimlich."
+  ]
+ },
+ "hide_doc_gone": {
+  "_": [
+   "Sie ist weg. Ich muss alles neu machen.",
+   "Drei Stunden Arbeit... weg."
+  ]
+ },
+ "oldver_react": {
+  "_": [
+   "Warum ist mein Bericht von LETZTER WOCHE?!",
+   "All meine Änderungen... weg!",
+   "Wer hat meine Datei zurückgesetzt?!"
+  ],
+  "deniz": [
+   "Das ist... die Version von letztem Dienstag. Interessant."
+  ],
+  "selin": [
+   "Ich habe diesen Abschnitt viermal umgeschrieben. VIERMAL."
+  ]
+ },
+ "oldver_ask": {
+  "_": [
+   "{target}, haben wir Backups? Bitte sag, dass wir Backups haben.",
+   "{target}, kannst du meine Datei zurückholen? Meine Änderungen sind weg."
+  ]
+ },
+ "oldver_saved": {
+  "_": [
+   "Aus dem Backup von gestern Nacht wiederhergestellt. Dafür ist ein Kaffee fällig.",
+   "So. Jedes Komma wieder an seinem Platz."
+  ]
+ },
+ "oldver_none": {
+  "_": [
+   "Backups laufen freitags. Heute ist nicht Freitag.",
+   "Tut mir leid. Diese Version ist weg."
+  ]
+ },
+ "oldver_redo": {
+  "_": [
+   "Na gut. Ich mach's neu. Heute Abend. Offenbar.",
+   "Dann eben Überstunden."
+  ]
+ },
+ "virus_scream": {
+  "_": [
+   "AAAH! „IHR COMPUTER IST INFIZIERT“!",
+   "Virus! VIRUS! Alle Stecker ziehen!",
+   "Da steht: „Alle Ihre Dateien wurden verschlüsselt“!!"
+  ],
+  "ahmet": [
+   "Was ist dieses rot blinkende Ding?! Burak!"
+  ],
+  "burak": [
+   "...Ein Fake-Pop-up. In MEINEM Netzwerk? Mutig."
+  ],
+  "ece": [
+   "Ich hab nichts angeklickt! Ich schwöre, ich hab nichts angeklickt!"
+  ]
+ },
+ "virus_ask": {
+  "_": [
+   "{target}! VIRUS! Roter Bildschirm! Totenkopf!",
+   "{target}, mein Computer wurde gehackt!"
+  ]
+ },
+ "virus_fake": {
+  "_": [
+   "...Ein Fake-Pop-up. Fenster schließen.",
+   "Das ist kein Virus. Das ist ein Scherz. Einfach zumachen."
+  ]
+ },
+ "virus_shutdown": {
+  "_": [
+   "Ich trenne das Netzwerk. NIEMAND FASST WAS AN.",
+   "Ich zieh der ganzen Etage den Stecker, sicherheitshalber."
+  ]
+ },
+ "witness_laugh": {
+  "_": [
+   "Hahaha!",
+   "Oh, das ist unbezahlbar.",
+   "Ich krieg keine Luft!",
+   "Nimmt das jemand auf?!"
+  ],
+  "mert": [
+   "Bester Tag aller Zeiten."
+  ],
+  "zeynep": [
+   "Oh, das kommt in mein Tagebuch."
+  ]
+ },
+ "onscreen_read": {
+  "_": [
+   "Moment... warum ist das auf MEINEM Bildschirm?",
+   "Hä. Das ist nicht meine Datei. Oh. OH.",
+   "...Das hätte ich definitiv nicht sehen sollen."
+  ],
+  "ceren": [
+   "Das wurde mir bestimmt aus Versehen geschickt. ...Trotzdem."
+  ],
+  "zeynep": [
+   "Sieh mal einer an. Was da auf meinem Desktop gelandet ist."
+  ]
+ },
+ "wall_kittens": {
+  "_": [
+   "Warum sind vierzig Kätzchen auf meinem Bildschirm?",
+   "Kätzchen. Überall. ...Okay, sie sind süß."
+  ],
+  "ahmet": [
+   "WER HAT KÄTZCHEN AUF MEINEN COMPUTER GETAN?"
+  ],
+  "burak": [
+   "Kätzchen. Auf MEINEM Bildschirm. Okay."
+  ]
+ },
+ "wall_boss": {
+  "_": [
+   "Warum ist Ahmets Gesicht mein Hintergrundbild?!",
+   "Ahmet... starrt mich an. Von meinem Desktop.",
+   "Das ist ein RIESIGES Foto von unserem Chef."
+  ],
+  "ahmet": [
+   "...Tja. Es ist ein gutes Foto."
+  ]
+ },
+ "wall_beach": {
+  "_": [
+   "Ahh... ein Strand. Ich könnte einfach... gehen.",
+   "Palmen. Ozean. Und ich sitze hier und mache Spesenabrechnungen."
+  ]
+ },
+ "wall_keep": {
+  "_": [
+   "Weißt du was? Das bleibt.",
+   "Ich behalte es. Es wächst mir ans Herz."
+  ]
+ },
+ "wall_change": {
+  "_": [
+   "Nein. Ich stell's zurück.",
+   "Auf keinen Fall. Zurück zu Blau."
+  ]
+ },
+ "wall_witness": {
+  "_": [
+   "Schönes Hintergrundbild!",
+   "Ist das... das, was ich denke?",
+   "Ha! Herrlich."
+  ]
+ },
+ "bae_boss_reads": {
+  "_": [
+   "„Lieber Ahmet Baby“?! {owner}! Hier rein. SOFORT.",
+   "Hat {owner} mich gerade... „Baby“ genannt?"
+  ]
+ },
+ "bae_mortified": {
+  "_": [
+   "Das war die AUTOKORREKTUR! Ich schwöre, die Autokorrektur!",
+   "Ich würde NIE— das ist nicht— meine Tastatur!"
+  ]
+ },
+ "bae_boss_amused": {
+  "_": [
+   "...Hm. Lassen Sie Ihre Tastatur reparieren. Und — schon gut.",
+   "Ich wurde schon Schlimmeres genannt. Gehen Sie."
+  ]
+ },
+ "bae_boss_offended": {
+  "_": [
+   "Das ist ein Arbeitsplatz, keine Dating-App.",
+   "Unprofessionell. Äußerst."
+  ]
+ },
+ "bae_gossip": {
+  "_": [
+   "Hast du gehört? {owner} hat Ahmet „Baby“ genannt!",
+   "„Ahmet Baby“! Die Mail lass ich mir einrahmen."
+  ]
+ },
+ "jobtab_see": {
+  "_": [
+   "Schaut sich {owner} etwa Stellenanzeigen an?!",
+   "Hm. „Führungspositionen — jetzt bewerben.“ Auf {owner:s} Bildschirm.",
+   "{owner} stöbert in Stellenanzeigen. Interessant."
+  ],
+  "ahmet": [
+   "Stellenanzeigen. Während der Arbeitszeit. Auf {owner:s} Bildschirm."
+  ],
+  "zeynep": [
+   "Oh, {owner} geht auf Büro-Shopping!"
+  ]
+ },
+ "unplug_react": {
+  "_": [
+   "Mein Bildschirm ist schwarz. Ist mein Computer gestorben?!",
+   "Er ist tot. Mausetot.",
+   "Hallo? HALLO? Bildschirm?"
+  ],
+  "ahmet": [
+   "Mein Monitor ist kaputt. Jemand soll ihn reparieren."
+  ],
+  "burak": [
+   "...Das Kabel ist raus. Jemand hat meinen Monitor ausgesteckt."
+  ]
+ },
+ "unplug_self": {
+  "_": [
+   "Oh. Der ist... ausgesteckt. Hah. Sagt's keinem.",
+   "Moment. Das Kabel. Wer steckt denn einen Monitor aus?!"
+  ]
+ },
+ "printjob_mine": {
+  "_": [
+   "Warum kommt MEIN privates Dokument aus dem Drucker?!",
+   "Moment — das hab ich nicht gedruckt! Gib das her!"
+  ]
+ },
+ "printjob_other": {
+  "_": [
+   "Oh. Wem gehört das? Oh. OH.",
+   "Das lag im Druckerfach. Ich hab's nicht gelesen. ...Ich hab's gelesen.",
+   "Hm. Da hat jemand was Privates gedruckt."
+  ],
+  "ece": [
+   "Ich lese das nicht! ...Ich hab ein bisschen gelesen."
+  ],
+  "zeynep": [
+   "Der Drucker ist meine Lieblingszeitung."
+  ]
+ },
+ "cal_remind": {
+  "_": [
+   "Oh nein — mein {what} ist in zehn Minuten! Total vergessen!",
+   "Mein Kalender sagt: {what}. Stimmt. Muss los!"
+  ]
+ },
+ "cal_doubt": {
+  "_": [
+   "Ein {what}? Davon weiß ich nichts...",
+   "Das ist nicht meins. Wer hat das in meinen Kalender eingetragen?"
+  ]
+ },
+ "cal_where": {
+  "_": [
+   "Wo ist {owner}? Irgendwer?",
+   "Hat jemand {owner} gesehen? Der Platz ist schon ewig leer."
+  ]
+ },
+ "slow_react": {
+  "_": [
+   "Warum lädt alles im Tempo der 90er?",
+   "Na LOS. Eine Mail. EINE.",
+   "Das kleine Rad. Das Drehrad des Grauens."
+  ],
+  "mert": [
+   "Mein Internet ist langsamer als ein Montag."
+  ],
+  "selin": [
+   "So kann ich nicht arbeiten."
+  ]
+ },
+ "slow_break": {
+  "_": [
+   "Vergiss es. Kaffeepause, bis sich das Internet an mich erinnert.",
+   "Ich geh spazieren. Das Internet kann mich ja suchen."
+  ]
+ },
+ "caps_read": {
+  "_": [
+   "Warum SCHREIT {owner} mich an?!",
+   "„WIE GEHT'S“ — in Großbuchstaben? Ist {owner} sauer auf mich?"
+  ]
+ },
+ "caps_confront": {
+  "_": [
+   "{target}, warum hast du mich im Chat angeschrien?",
+   "Womit hab ich LAUTER GROSSBUCHSTABEN verdient, {target}?"
+  ]
+ },
+ "caps_explain": {
+  "_": [
+   "Was? Ich hab nicht geschrien! Meine Feststelltaste muss klemmen!",
+   "Ich hab „wie geht's“ geschrieben! Ganz normal!"
+  ]
+ },
+ "caps_hurt": {
+  "_": [
+   "Klar. Egal.",
+   "Sag's einfach, wenn du sauer auf mich bist."
+  ]
+ },
+ "caps_laugh": {
+  "_": [
+   "Oh mein Gott, das ist nur die Feststelltaste. Ha!",
+   "Okay, das ist lustig. Deine Tastatur hasst dich."
+  ]
+ },
+ "meow_react": {
+  "_": [
+   "Warum MIAUT meine Tastatur?!",
+   "Jede Taste. Miau. Miau. MIAU.",
+   "Ist da eine Katze in meinem Computer?"
+  ],
+  "ahmet": [
+   "Warum miaut meine Tastatur?! WER WAR DAS?"
+  ],
+  "burak": [
+   "...Ich respektiere die Handwerkskunst. Ich hasse sie aber auch."
+  ]
+ },
+ "meow_love": {
+  "_": [
+   "...Ehrlich? Ich liebe es. Miau.",
+   "Das ändere ich nie wieder. Miau miau."
+  ]
+ },
+ "meow_witness": {
+  "_": [
+   "Ist das... ein Miauen?",
+   "*kichert*",
+   "Ist hier eine KATZE im Büro?"
+  ]
+ },
+ "snoop_find": {
+  "_": [
+   "Hä. {owner:s} privater Ordner ist für alle freigegeben?",
+   "Ups. Ich sehe alle Dateien von {owner}. Ich... schau nur.",
+   "Oh, {owner}, du solltest echt mal deine Einstellungen prüfen."
+  ],
+  "burak": [
+   "Jemand hat {owner:s} Ordner auf „alle“ gestellt. Anfängerfehler."
+  ],
+  "zeynep": [
+   "Ein offener Ordner ist eine Einladung, Schätzchen."
+  ]
+ },
+ "subj_layoffs_read": {
+  "_": [
+   "„DRINGEND: Entlassungen“?! Von {owner}?!",
+   "Moment, {owner} hat gerade allen wegen ENTLASSUNGEN geschrieben?"
+  ]
+ },
+ "subj_raise_read": {
+  "_": [
+   "„AW: deine Gehaltserhöhung“... {owner} hat eine GEHALTSERHÖHUNG bekommen?",
+   "Warum steht in {owner:s} Mail „Gehaltserhöhung genehmigt“?"
+  ]
+ },
+ "subj_party_read": {
+  "_": [
+   "„Heute Abend Party bei mir, alle willkommen!“ — {owner}? Ich bin dabei!",
+   "{owner} schmeißt eine Party? Ich komme!"
+  ]
+ },
+ "subj_owner_baffled": {
+  "_": [
+   "Diese Betreffzeile habe ich NICHT geschrieben!",
+   "Das hab ich nicht getippt! Ich schwöre!"
+  ]
+ },
+ "party_rsvp": {
+  "_": [
+   "Also! Deine Party! Was soll ich mitbringen?",
+   "Heute Abend, oder? Ich bring Snacks mit!"
+  ],
+  "mert": [
+   "Ich bring die Box mit. Und meine Moves."
+  ]
+ },
+ "party_cancel": {
+  "_": [
+   "Was das angeht... es gibt keine Party. Das war ein Fehler.",
+   "Es gibt keine Party! Meine Mail wurde gehackt oder so!"
+  ]
  }
 }

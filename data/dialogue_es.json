@@ -5262,5 +5262,589 @@
    "Explícame {what}.",
    "Tenemos que hablar de {what}."
   ]
+ },
+ "ivm_boss_clueless": {
+  "_": [
+   "Yo... sinceramente no tengo ni idea de a qué se refiere.",
+   "Es la primera noticia que tengo, Ahmet Bey.",
+   "Debe de haber algún error."
+  ]
+ },
+ "ivm_boss_scold": {
+  "_": [
+   "Pues más te vale averiguarlo. Rápido.",
+   "Espero más de ti.",
+   "Es tu última advertencia."
+  ]
+ },
+ "ivm_boss_ok": {
+  "_": [
+   "...Está bien. Raro. Muy raro. Vete.",
+   "Mmm. Un malentendido, entonces. Puedes irte.",
+   "Entonces alguien en esta oficina tiene sentido del humor."
+  ]
+ },
+ "ivm_shrug": {
+  "_": [
+   "Qué raro. En fin.",
+   "Vale... sigamos.",
+   "Hoy no, universo.",
+   "Ni quiero saberlo."
+  ],
+  "burak": [
+   "Listo. Arreglado. Siguiente."
+  ],
+  "ceren": [
+   "Mmm. Tomaré nota de eso."
+  ],
+  "mert": [
+   "Ja. Alguien se aburre."
+  ]
+ },
+ "lockpc_react": {
+  "_": [
+   "¡¿Contraseña incorrecta?! ¡Llevo seis años con la misma contraseña!",
+   "¡¿Por qué no me deja entrar?!",
+   "{me?BLOQUEADO|BLOQUEADA}. De mi propia computadora."
+  ],
+  "ahmet": [
+   "¿Qué es esto? ¿«Cuenta bloqueada»? ¡YO SOY la cuenta!"
+  ],
+  "burak": [
+   "¿Alguien me bloqueó a MÍ? Eso es... impresionante."
+  ],
+  "ece": [
+   "¿Es «Contraseña1»? ¿«Contraseña2»? ¡Socorro!"
+  ]
+ },
+ "lockpc_reset": {
+  "_": [
+   "Bueno. La restableceré yo.",
+   "Pregunta de seguridad... «nombre de tu primera mascota»... listo."
+  ],
+  "burak": [
+   "Treinta segundos. ...Veinte."
+  ]
+ },
+ "misfile_react": {
+  "_": [
+   "¿Dónde está mi archivo? Estaba JUSTO AQUÍ.",
+   "Mi carpeta está vacía. ¡¿Por qué está vacía mi carpeta?!",
+   "No, no, no, ¿adónde fue?"
+  ],
+  "mert": [
+   "¿Archivo? ¿Qué archivo? ...Ay, no, ESE archivo."
+  ],
+  "selin": [
+   "Mi propuesta entera. Desaparecida. De MI carpeta."
+  ]
+ },
+ "misfile_boss": {
+  "_": [
+   "¿Por qué está el archivo de {owner} en MI carpeta privada?",
+   "¿Qué hace el trabajo de {owner} en mi carpeta?"
+  ]
+ },
+ "author_boss_sees": {
+  "_": [
+   "¡{target}! Este archivo del proyecto: un trabajo excelente.",
+   "Acabo de leer el proyecto de {target}. Por fin, algo de calidad."
+  ]
+ },
+ "author_take": {
+  "_": [
+   "Gracias, Ahmet Bey. Me esforcé mucho.",
+   "Ah, ¡me alegra que le haya gustado!"
+  ],
+  "deniz": [
+   "Por supuesto. Yo siempre cumplo."
+  ]
+ },
+ "author_correct": {
+  "_": [
+   "En realidad, Ahmet Bey, ese es el trabajo de {owner}, no el mío.",
+   "Ese es de {owner}. No puedo llevarme el mérito."
+  ],
+  "ceren": [
+   "Ese es el proyecto de {owner}. Démosle el mérito a quien le corresponde."
+  ],
+  "selin": [
+   "Eso no es mío. Es de {owner}."
+  ]
+ },
+ "author_owner_hears": {
+  "_": [
+   "...Un momento. Ese es MI proyecto.",
+   "¿Perdón? ¡Eso lo escribí yo!"
+  ]
+ },
+ "slides_wrong": {
+  "_": [
+   "...Estas no son mis diapositivas.",
+   "Un momento. ¡¿De quién es esta presentación?!",
+   "Eh. La diapositiva uno... no es mi diapositiva uno."
+  ],
+  "mert": [
+   "Vale, giro argumental: voy a presentar el trabajo de otra persona."
+  ],
+  "selin": [
+   "Esta no es mi presentación. ¡Alguien cambió mi archivo!"
+  ]
+ },
+ "slides_improv": {
+  "_": [
+   "Bueno. Se lo contaré de todos modos, de memoria.",
+   "Olvídense de las diapositivas. Esta es la idea."
+  ]
+ },
+ "slides_freeze": {
+  "_": [
+   "Yo... eh... lo siento, yo...",
+   "¿Podemos... hacer una pausa de cinco minutos?"
+  ]
+ },
+ "slides_steal": {
+  "_": [
+   "En realidad, son algunas ideas que he estado explorando.",
+   "Como pueden ver... mi visión."
+  ]
+ },
+ "slides_target_angry": {
+  "_": [
+   "¡Esas son MIS diapositivas!",
+   "¡Oye! ¡Esa es mi presentación!"
+  ]
+ },
+ "clock_leave_boss": {
+  "_": [
+   "¿Adónde crees que vas? ¡Son las {time}!",
+   "¿Ya te vas, {target}? Son solo las {time}."
+  ]
+ },
+ "clock_leave_excuse": {
+  "_": [
+   "¡Pero mi computadora dice que son las cinco!",
+   "¿Qué? ¡Según mi reloj, ya terminé!"
+  ]
+ },
+ "clock_leave_scold": {
+  "_": [
+   "Entonces que tu computadora haga tu trabajo. A tu escritorio.",
+   "Haz que arreglen ese reloj. Y siéntate."
+  ]
+ },
+ "clock_leave_laugh": {
+  "_": [
+   "...Tu reloj está mal. Anda, vete, solo por esta vez.",
+   "Ja. Vete. Pero arregla eso."
+  ]
+ },
+ "clock_late_react": {
+  "_": [
+   "¡Mi reloj decía que me quedaban veinte minutos!",
+   "¡¿Tarde?! Mi computadora me está MINTIENDO."
+  ]
+ },
+ "hide_doc_react": {
+  "_": [
+   "¿Dónde está? ¡Hace un segundo estaba en mi escritorio!",
+   "Mi informe. Ha. Desaparecido.",
+   "Vale, que no cunda el pánico. Que no cunda. PÁNICO."
+  ],
+  "ceren": [
+   "Ese archivo estaba justo aquí. Nunca me equivoco sobre dónde están las cosas."
+  ],
+  "zeynep": [
+   "¡Mi hoja de cálculo! ¡Alguien se llevó mi hoja de cálculo!"
+  ]
+ },
+ "hide_doc_search": {
+  "_": [
+   "¿Alguien imprimió mi informe? ¿Alguien lo ha VISTO?",
+   "Revisando la impresora... el archivo... ¡donde sea!"
+  ]
+ },
+ "hide_doc_found": {
+  "_": [
+   "¡AHÍ estás! ¡¿En «Cosas viejas 2019»?! ¡¿Cómo?!",
+   "Lo encontré. En una carpeta que nunca había visto. Escalofriante."
+  ]
+ },
+ "hide_doc_gone": {
+  "_": [
+   "Se perdió. Tendré que rehacerlo.",
+   "Tres horas de trabajo... perdidas."
+  ]
+ },
+ "oldver_react": {
+  "_": [
+   "¡¿Por qué mi informe es de la SEMANA PASADA?!",
+   "Todos mis cambios... ¡se perdieron!",
+   "¡¿Quién restauró una versión vieja de mi archivo?!"
+  ],
+  "deniz": [
+   "Esta es... la versión del martes pasado. Interesante."
+  ],
+  "selin": [
+   "He reescrito esta sección cuatro veces. CUATRO."
+  ]
+ },
+ "oldver_ask": {
+  "_": [
+   "{target}, ¿tenemos copias de seguridad? Por favor, dime que sí.",
+   "{target}, ¿puedes recuperar mi archivo? Mis cambios desaparecieron."
+  ]
+ },
+ "oldver_saved": {
+  "_": [
+   "Restaurado desde la copia de anoche. Esto vale un café.",
+   "Listo. Cada coma en su sitio."
+  ]
+ },
+ "oldver_none": {
+  "_": [
+   "Las copias se hacen los viernes. Hoy no es viernes.",
+   "Lo siento. Esa versión ya no existe."
+  ]
+ },
+ "oldver_redo": {
+  "_": [
+   "Bueno. Lo rehago. Esta noche. Por lo visto.",
+   "Pues horas extra."
+  ]
+ },
+ "virus_scream": {
+  "_": [
+   "¡AAAH! «¡SU COMPUTADORA ESTÁ INFECTADA!»",
+   "¡Virus! ¡VIRUS! ¡Todo el mundo, desenchufen todo!",
+   "¡¡Dice «todos sus archivos han sido cifrados»!!"
+  ],
+  "ahmet": [
+   "¡¿Qué es esta cosa roja que parpadea?! ¡Burak!"
+  ],
+  "burak": [
+   "...Una ventana emergente falsa. ¿En MI red? Qué valor."
+  ],
+  "ece": [
+   "¡No hice clic en nada! ¡Lo juro, no hice clic en nada!"
+  ]
+ },
+ "virus_ask": {
+  "_": [
+   "¡{target}! ¡VIRUS! ¡Pantalla roja! ¡Una calavera!",
+   "{target}, ¡me hackearon la computadora!"
+  ]
+ },
+ "virus_fake": {
+  "_": [
+   "...Es una ventana emergente falsa. Basta con cerrarla.",
+   "Eso no es un virus. Es una broma. Se cierra y listo."
+  ]
+ },
+ "virus_shutdown": {
+  "_": [
+   "Desconecto la red. QUE NADIE TOQUE NADA.",
+   "Corto la corriente de toda la planta, por si acaso."
+  ]
+ },
+ "witness_laugh": {
+  "_": [
+   "¡Jajaja!",
+   "Ay, esto no tiene precio.",
+   "¡No puedo respirar!",
+   "¡Que alguien grabe esto!"
+  ],
+  "mert": [
+   "El mejor día de mi vida."
+  ],
+  "zeynep": [
+   "Uy, esto va directo a mi diario."
+  ]
+ },
+ "onscreen_read": {
+  "_": [
+   "Un momento... ¿por qué está esto en MI pantalla?",
+   "Vaya. Este no es mi archivo. Ah. AH.",
+   "...Definitivamente no debía ver esto."
+  ],
+  "ceren": [
+   "Me lo habrán enviado por error. ...Aun así."
+  ],
+  "zeynep": [
+   "Vaya, vaya. Miren lo que aterrizó en mi escritorio."
+  ]
+ },
+ "wall_kittens": {
+  "_": [
+   "¿Por qué hay cuarenta gatitos en mi pantalla?",
+   "Gatitos. Por todas partes. ...Vale, son monos."
+  ],
+  "ahmet": [
+   "¡¿QUIÉN PUSO GATITOS EN MI COMPUTADORA?!"
+  ],
+  "burak": [
+   "Gatitos. En MI pantalla. Vale."
+  ]
+ },
+ "wall_boss": {
+  "_": [
+   "¡¿Por qué está la cara de Ahmet en mi fondo de pantalla?!",
+   "Ahmet... me está mirando. Desde mi escritorio.",
+   "Eso es una foto ENORME de nuestro jefe."
+  ],
+  "ahmet": [
+   "...Bueno. Es una buena foto."
+  ]
+ },
+ "wall_beach": {
+  "_": [
+   "Ahh... una playa. Podría simplemente... irme.",
+   "Palmeras. Océano. Y yo aquí, con los gastos."
+  ]
+ },
+ "wall_keep": {
+  "_": [
+   "¿Sabes qué? Se queda.",
+   "Me lo quedo. Me está empezando a gustar."
+  ]
+ },
+ "wall_change": {
+  "_": [
+   "No. Lo cambio de vuelta.",
+   "Ni hablar. Vuelta al azul."
+  ]
+ },
+ "wall_witness": {
+  "_": [
+   "¡Lindo fondo de pantalla!",
+   "¿Eso es... lo que creo que es?",
+   "¡Ja! Me encanta."
+  ]
+ },
+ "bae_boss_reads": {
+  "_": [
+   "¡¿«Querido Ahmet Bebé»?! ¡{owner}! Aquí. YA.",
+   "¿{owner} acaba de llamarme... «Bebé»?"
+  ]
+ },
+ "bae_mortified": {
+  "_": [
+   "¡Es el AUTOCORRECTOR! ¡Lo juro, es el autocorrector!",
+   "Yo NUNCA... eso no es... ¡mi teclado!"
+  ]
+ },
+ "bae_boss_amused": {
+  "_": [
+   "...Mmm. Arregla tu teclado. Y... olvídalo.",
+   "Me han llamado cosas peores. Vete."
+  ]
+ },
+ "bae_boss_offended": {
+  "_": [
+   "Esto es un lugar de trabajo, no una app de citas.",
+   "Poco profesional. Muchísimo."
+  ]
+ },
+ "bae_gossip": {
+  "_": [
+   "¿Te enteraste? ¡{owner} llamó a Ahmet «Bebé»!",
+   "¡«Ahmet Bebé»! Voy a enmarcar ese correo."
+  ]
+ },
+ "jobtab_see": {
+  "_": [
+   "¡¿{owner} está mirando ofertas de empleo?!",
+   "Mmm. «Puestos sénior: postúlate ya». En la pantalla de {owner}.",
+   "{owner} está mirando ofertas de empleo. Interesante."
+  ],
+  "ahmet": [
+   "Ofertas de empleo. En horario laboral. En la pantalla de {owner}."
+  ],
+  "zeynep": [
+   "¡Ay, {owner} anda buscando oficina nueva!"
+  ]
+ },
+ "unplug_react": {
+  "_": [
+   "Mi pantalla está negra. ¡¿Se murió mi computadora?!",
+   "Está muerta. Completamente muerta.",
+   "¿Hola? ¿HOLA? ¿Pantalla?"
+  ],
+  "ahmet": [
+   "Mi monitor está roto. Que alguien lo arregle."
+  ],
+  "burak": [
+   "...El cable está suelto. Alguien desenchufó mi monitor."
+  ]
+ },
+ "unplug_self": {
+  "_": [
+   "Ah. Está... desenchufado. Je. No se lo digan a nadie.",
+   "Un momento. El cable. ¡¿Quién desenchufa un monitor?!"
+  ]
+ },
+ "printjob_mine": {
+  "_": [
+   "¡¿Por qué sale MI documento privado de la impresora?!",
+   "¡Espera, yo no imprimí esto! ¡Dame eso!"
+  ]
+ },
+ "printjob_other": {
+  "_": [
+   "Uy. ¿De quién es esto? Ah. AH.",
+   "Estaba en la bandeja de la impresora. No lo leí. ...Lo leí.",
+   "Mmm. Alguien imprimió algo privado."
+  ],
+  "ece": [
+   "¡No lo estoy leyendo! ...Leí un poquito."
+  ],
+  "zeynep": [
+   "La impresora es mi periódico favorito."
+  ]
+ },
+ "cal_remind": {
+  "_": [
+   "¡Ay, no! ¡Mi {what} es en diez minutos! ¡Se me olvidó por completo!",
+   "Mi agenda dice: {what}. Cierto. ¡Me voy!"
+  ]
+ },
+ "cal_doubt": {
+  "_": [
+   "¿Cómo que {what}? Yo no tengo nada de eso...",
+   "Eso no es mío. ¿Quién puso esto en mi agenda?"
+  ]
+ },
+ "cal_where": {
+  "_": [
+   "¿Dónde está {owner}? ¿Alguien sabe?",
+   "¿Alguien ha visto a {owner}? Su escritorio lleva siglos vacío."
+  ]
+ },
+ "slow_react": {
+  "_": [
+   "¿Por qué todo carga a velocidad de los 90?",
+   "VAMOS. Un correo. UNO.",
+   "La ruedita. La ruedita giratoria de la perdición."
+  ],
+  "mert": [
+   "Mi internet va más lento que un lunes."
+  ],
+  "selin": [
+   "No puedo trabajar así."
+  ]
+ },
+ "slow_break": {
+  "_": [
+   "Olvídalo. Pausa para café hasta que internet se acuerde de mí.",
+   "Me voy a dar una vuelta. Que internet venga a buscarme."
+  ]
+ },
+ "caps_read": {
+  "_": [
+   "¡¿Por qué me está GRITANDO {owner}?!",
+   "«¿CÓMO ESTÁS?», ¿en mayúsculas? ¿{owner} está {owner?enojado|enojada} conmigo?"
+  ]
+ },
+ "caps_confront": {
+  "_": [
+   "{target}, ¿por qué me gritaste en el chat?",
+   "¿Qué hice para merecer TODO EN MAYÚSCULAS, {target}?"
+  ]
+ },
+ "caps_explain": {
+  "_": [
+   "¿Qué? ¡No grité! ¡Se me debe de haber trabado el bloqueo de mayúsculas!",
+   "¡Escribí «cómo estás»! ¡Normal!"
+  ]
+ },
+ "caps_hurt": {
+  "_": [
+   "Claro. Lo que sea.",
+   "Si estás {to?enojado|enojada} conmigo, dilo y ya."
+  ]
+ },
+ "caps_laugh": {
+  "_": [
+   "Dios mío, es solo el bloqueo de mayúsculas. ¡Ja!",
+   "Vale, eso tiene gracia. Tu teclado te odia."
+  ]
+ },
+ "meow_react": {
+  "_": [
+   "¡¿Por qué MAÚLLA mi teclado?!",
+   "Cada tecla. Miau. Miau. MIAU.",
+   "¿Hay un gato en mi computadora?"
+  ],
+  "ahmet": [
+   "¡¿Por qué maúlla mi teclado?! ¡¿QUIÉN HIZO ESTO?!"
+  ],
+  "burak": [
+   "...Respeto la artesanía. También la odio."
+  ]
+ },
+ "meow_love": {
+  "_": [
+   "...¿Sinceramente? Me encanta. Miau.",
+   "No pienso cambiarlo nunca. Miau, miau."
+  ]
+ },
+ "meow_witness": {
+  "_": [
+   "¿Eso es... un maullido?",
+   "*se ríe por lo bajo*",
+   "¿Hay un GATO en la oficina?"
+  ]
+ },
+ "snoop_find": {
+  "_": [
+   "Vaya. ¿La carpeta privada de {owner} está compartida con todo el mundo?",
+   "Uy. Puedo ver todos los archivos de {owner}. Solo... estoy mirando.",
+   "Ay, {owner}, deberías revisar tu configuración."
+  ],
+  "burak": [
+   "Alguien puso la carpeta de {owner} en «todos». Error de novato."
+  ],
+  "zeynep": [
+   "Una carpeta abierta es una invitación, {to?querido|querida}."
+  ]
+ },
+ "subj_layoffs_read": {
+  "_": [
+   "¡¿«URGENTE: despidos»?! ¡¿De {owner}?!",
+   "Un momento, ¿{owner} acaba de escribirle a todo el mundo sobre DESPIDOS?"
+  ]
+ },
+ "subj_raise_read": {
+  "_": [
+   "«Re: tu aumento»... ¿{owner} consiguió un AUMENTO?",
+   "¿Por qué el correo de {owner} dice «tu aumento fue aprobado»?"
+  ]
+ },
+ "subj_party_read": {
+  "_": [
+   "«¡Fiesta en mi casa esta noche, todos invitados!» — ¿{owner}? ¡Cuenten conmigo!",
+   "¿{owner} da una fiesta? ¡Ahí estaré!"
+  ]
+ },
+ "subj_owner_baffled": {
+  "_": [
+   "¡YO NO escribí ese asunto!",
+   "¡Eso no es lo que escribí! ¡Lo juro!"
+  ]
+ },
+ "party_rsvp": {
+  "_": [
+   "¡Bueno! ¡Tu fiesta! ¿Qué llevo?",
+   "Es esta noche, ¿no? ¡Yo llevo los snacks!"
+  ],
+  "mert": [
+   "Yo llevo el altavoz. Y mis pasos de baile."
+  ]
+ },
+ "party_cancel": {
+  "_": [
+   "Sobre eso... no hay fiesta. Fue un error.",
+   "¡No hay fiesta! ¡Me hackearon el correo o algo así!"
+  ]
  }
 }

@@ -5262,5 +5262,589 @@
    "Bana {what} meselesini açıkla.",
    "{what} hakkında konuşmamız lazım."
   ]
+ },
+ "ivm_boss_clueless": {
+  "_": [
+   "Ben... açıkçası ne demek istediğinizi hiç anlamadım.",
+   "Bunu ilk defa duyuyorum, Ahmet Bey.",
+   "Bir yanlışlık olmalı."
+  ]
+ },
+ "ivm_boss_scold": {
+  "_": [
+   "O zaman bir an önce çözsen iyi olur. Hem de çabuk.",
+   "Senden daha iyisini beklerim.",
+   "Bu son uyarın."
+  ]
+ },
+ "ivm_boss_ok": {
+  "_": [
+   "...Peki. Tuhaf. Çok tuhaf. Git.",
+   "Hım. Bir yanlış anlaşılma o zaman. Gidebilirsin.",
+   "O zaman bu ofiste birinin espri anlayışı var."
+  ]
+ },
+ "ivm_shrug": {
+  "_": [
+   "Tuhaf. Neyse.",
+   "Tamam... geçelim.",
+   "Bugün olmaz, evren.",
+   "Bilmek bile istemiyorum."
+  ],
+  "burak": [
+   "Tamam. Düzeldi. Sıradaki."
+  ],
+  "ceren": [
+   "Hım. Bunu not alayım."
+  ],
+  "mert": [
+   "Ha. Birileri sıkılmış."
+  ]
+ },
+ "lockpc_react": {
+  "_": [
+   "Yanlış şifre mi?! Altı yıldır aynı şifreyi kullanıyorum!",
+   "Neden girmeme izin vermiyor?!",
+   "DIŞARIDA KALDIM. Kendi bilgisayarımdan."
+  ],
+  "ahmet": [
+   "Bu da ne? 'Hesap kilitlendi' mi? Hesap BENİM!"
+  ],
+  "burak": [
+   "Biri BENİ mi dışarıda bıraktı? Bu... etkileyici."
+  ],
+  "ece": [
+   "'Sifre1' mi? 'Sifre2' mi? İmdat!"
+  ]
+ },
+ "lockpc_reset": {
+  "_": [
+   "Peki. Kendim sıfırlarım.",
+   "Güvenlik sorusu... 'ilk evcil hayvanınızın adı'... tamam."
+  ],
+  "burak": [
+   "Otuz saniye. ...Yirmi."
+  ]
+ },
+ "misfile_react": {
+  "_": [
+   "Dosyam nerede? TAM BURADAYDI.",
+   "Klasörüm boş. Klasörüm neden boş?!",
+   "Yok yok yok, nereye gitti?"
+  ],
+  "mert": [
+   "Dosya mı? Ne dosyası? ...Eyvah, O dosya."
+  ],
+  "selin": [
+   "Koca teklifim. Gitmiş. BENİM klasörümden."
+  ]
+ },
+ "misfile_boss": {
+  "_": [
+   "{owner:in} dosyası neden BENİM özel klasörümde duruyor?",
+   "{owner:in} işinin benim klasörümde ne işi var?"
+  ]
+ },
+ "author_boss_sees": {
+  "_": [
+   "{target}! Bu proje dosyası — mükemmel iş.",
+   "Az önce {target:in} projesini okudum. Nihayet biraz kalite."
+  ]
+ },
+ "author_take": {
+  "_": [
+   "Teşekkür ederim Ahmet Bey. Çok emek verdim.",
+   "Ah — beğenmenize sevindim!"
+  ],
+  "deniz": [
+   "Elbette. Ben her zaman teslim ederim."
+  ]
+ },
+ "author_correct": {
+  "_": [
+   "Aslında Ahmet Bey, o benim değil, {owner:in} işi.",
+   "O, {owner:in} işi. Hakkını yiyemem."
+  ],
+  "ceren": [
+   "O {owner:in} projesi. Hakkı neyse verelim."
+  ],
+  "selin": [
+   "O benim değil. {owner:in}."
+  ]
+ },
+ "author_owner_hears": {
+  "_": [
+   "...Bir dakika. O BENİM projem.",
+   "Pardon? Onu ben yazdım!"
+  ]
+ },
+ "slides_wrong": {
+  "_": [
+   "...Bunlar benim slaytlarım değil.",
+   "Bir dakika. Bu kimin sunumu?!",
+   "Şey. Birinci slayt... benim birinci slaytım değil."
+  ],
+  "mert": [
+   "Tamam, olay örgüsünde sürpriz: başkasının işini sunacağım."
+  ],
+  "selin": [
+   "Bu benim sunumum değil. Biri dosyamı değiştirmiş!"
+  ]
+ },
+ "slides_improv": {
+  "_": [
+   "Neyse. Yine de anlatayım — ezberden.",
+   "Slaytları boş verin. Fikir şu."
+  ]
+ },
+ "slides_freeze": {
+  "_": [
+   "Ben... şey... özür dilerim, ben...",
+   "Beş dakika... ara verebilir miyiz?"
+  ]
+ },
+ "slides_steal": {
+  "_": [
+   "Aslında bunlar bir süredir üzerinde düşündüğüm bazı fikirler.",
+   "Gördüğünüz gibi... benim vizyonum."
+  ]
+ },
+ "slides_target_angry": {
+  "_": [
+   "Onlar BENİM slaytlarım!",
+   "Hey! O benim sunumum!"
+  ]
+ },
+ "clock_leave_boss": {
+  "_": [
+   "Nereye gittiğini sanıyorsun? Saat daha {time}!",
+   "Şimdiden mi gidiyorsun, {target}? Saat daha {time}."
+  ]
+ },
+ "clock_leave_excuse": {
+  "_": [
+   "Ama bilgisayarım saatin beş olduğunu söylüyor!",
+   "Ne? Saatime göre mesaim bitti!"
+  ]
+ },
+ "clock_leave_scold": {
+  "_": [
+   "O zaman işini de bilgisayarın yapsın. Masana dön.",
+   "O saati tamir ettir. Ve otur."
+  ]
+ },
+ "clock_leave_laugh": {
+  "_": [
+   "...Saatin yanlış. Hadi git bakalım, bir seferlik.",
+   "Ha. Git. Ama şunu düzelttir."
+  ]
+ },
+ "clock_late_react": {
+  "_": [
+   "Saatime göre yirmi dakikam vardı!",
+   "Geç mi?! Bilgisayarım bana YALAN söylüyor."
+  ]
+ },
+ "hide_doc_react": {
+  "_": [
+   "Nerede? Bir saniye önce masaüstümdeydi!",
+   "Raporum. Yok. Oldu.",
+   "Tamam, panik yok. Panik yok. PANİK."
+  ],
+  "ceren": [
+   "O dosya tam buradaydı. Bir şeyin yeri konusunda asla yanılmam."
+  ],
+  "zeynep": [
+   "Tablom! Biri tablomu almış!"
+  ]
+ },
+ "hide_doc_search": {
+  "_": [
+   "Raporumu yazdıran oldu mu? GÖREN var mı?",
+   "Yazıcıya bakıyorum... arşive... her yere!"
+  ]
+ },
+ "hide_doc_found": {
+  "_": [
+   "İŞTE buradasın! 'Eski Şeyler 2019' klasöründe mi?! Nasıl?!",
+   "Buldum. Daha önce hiç görmediğim bir klasörde. Ürkütücü."
+  ]
+ },
+ "hide_doc_gone": {
+  "_": [
+   "Gitmiş. Baştan yapmam gerekecek.",
+   "Üç saatlik emek... gitti."
+  ]
+ },
+ "oldver_react": {
+  "_": [
+   "Raporum neden GEÇEN HAFTAKİ hâlinde?!",
+   "Bütün değişikliklerim... gitmiş!",
+   "Dosyamı kim eski sürüme döndürdü?!"
+  ],
+  "deniz": [
+   "Bu... geçen salının sürümü. İlginç."
+  ],
+  "selin": [
+   "Bu bölümü dört kez yeniden yazdım. DÖRT."
+  ]
+ },
+ "oldver_ask": {
+  "_": [
+   "{target}, yedeğimiz var mı? Lütfen var de.",
+   "{target}, dosyamı geri getirebilir misin? Değişikliklerim uçmuş."
+  ]
+ },
+ "oldver_saved": {
+  "_": [
+   "Dün geceki yedekten geri yükledim. Bana borçlusun.",
+   "İşte. Her virgül yerli yerinde."
+  ]
+ },
+ "oldver_none": {
+  "_": [
+   "Yedekler cuma alınıyor. Bugün cuma değil.",
+   "Üzgünüm. O sürüm gitti."
+  ]
+ },
+ "oldver_redo": {
+  "_": [
+   "Peki. Baştan yaparım. Bu gece. Galiba.",
+   "Mesai o zaman."
+  ]
+ },
+ "virus_scream": {
+  "_": [
+   "AAAH! 'BİLGİSAYARINIZ VİRÜSLÜ'!",
+   "Virüs! VİRÜS! Herkes her şeyin fişini çeksin!",
+   "'Tüm dosyalarınız şifrelendi' yazıyor!!"
+  ],
+  "ahmet": [
+   "Bu yanıp sönen kırmızı şey de ne?! Burak!"
+  ],
+  "burak": [
+   "...Sahte bir pop-up. BENİM ağımda mı? Cesaret."
+  ],
+  "ece": [
+   "Hiçbir şeye tıklamadım! Yemin ederim hiçbir şeye tıklamadım!"
+  ]
+ },
+ "virus_ask": {
+  "_": [
+   "{target}! VİRÜS! Kırmızı ekran! Kurukafa!",
+   "{target}, bilgisayarım hacklendi!"
+  ]
+ },
+ "virus_fake": {
+  "_": [
+   "...Sahte bir pop-up. Pencereyi kapatmak yeterli.",
+   "Bu virüs değil. Şaka. Kapatınca geçer."
+  ]
+ },
+ "virus_shutdown": {
+  "_": [
+   "Ağın fişini çekiyorum. KİMSE HİÇBİR ŞEYE DOKUNMASIN.",
+   "Ne olur ne olmaz, bütün katın fişini çekiyorum."
+  ]
+ },
+ "witness_laugh": {
+  "_": [
+   "Hahaha!",
+   "Ah, bu paha biçilemez.",
+   "Nefes alamıyorum!",
+   "Biri bunu kaydetsin!"
+  ],
+  "mert": [
+   "Hayatımın en güzel günü."
+  ],
+  "zeynep": [
+   "Ooo, bu günlüğüme giriyor."
+  ]
+ },
+ "onscreen_read": {
+  "_": [
+   "Bir dakika... bu neden BENİM ekranımda?",
+   "Hıh. Bu benim dosyam değil. Ah. AH.",
+   "...Bunu kesinlikle görmemem gerekiyordu."
+  ],
+  "ceren": [
+   "Bu bana yanlışlıkla gönderilmiş olmalı. ...Yine de."
+  ],
+  "zeynep": [
+   "Vay vay. Bakın masaüstüme ne düşmüş."
+  ]
+ },
+ "wall_kittens": {
+  "_": [
+   "Ekranımda neden kırk tane yavru kedi var?",
+   "Yavru kediler. Her yerde. ...Tamam, tatlılar."
+  ],
+  "ahmet": [
+   "BİLGİSAYARIMA YAVRU KEDİLERİ KİM KOYDU?"
+  ],
+  "burak": [
+   "Yavru kediler. BENİM ekranımda. Peki."
+  ]
+ },
+ "wall_boss": {
+  "_": [
+   "Ahmet'in yüzü neden duvar kâğıdımda?!",
+   "Ahmet... bana bakıyor. Masaüstümden.",
+   "Bu, patronumuzun DEV bir fotoğrafı."
+  ],
+  "ahmet": [
+   "...Eh. Güzel fotoğraf."
+  ]
+ },
+ "wall_beach": {
+  "_": [
+   "Ahh... bir plaj. Öylece... gidebilirim.",
+   "Palmiyeler. Okyanus. Ben de burada masraf raporu yapıyorum."
+  ]
+ },
+ "wall_keep": {
+  "_": [
+   "Biliyor musun? Kalıyor.",
+   "Bunu tutuyorum. Gittikçe hoşuma gidiyor."
+  ]
+ },
+ "wall_change": {
+  "_": [
+   "Yok. Eskisine çeviriyorum.",
+   "Asla. Maviye geri dönüyoruz."
+  ]
+ },
+ "wall_witness": {
+  "_": [
+   "Güzel duvar kâğıdı!",
+   "O... düşündüğüm şey mi?",
+   "Ha! Bayıldım."
+  ]
+ },
+ "bae_boss_reads": {
+  "_": [
+   "'Sayın Ahmet Bebeğim' mi?! {owner}! İçeri. HEMEN.",
+   "{owner} bana az önce... 'Bebeğim' mi dedi?"
+  ]
+ },
+ "bae_mortified": {
+  "_": [
+   "OTOMATİK DÜZELTME! Yemin ederim otomatik düzeltme!",
+   "Ben ASLA— o şey değil— klavyem!"
+  ]
+ },
+ "bae_boss_amused": {
+  "_": [
+   "...Hım. Klavyeni düzelt. Ve — boş ver.",
+   "Bundan beterlerini duydum. Git."
+  ]
+ },
+ "bae_boss_offended": {
+  "_": [
+   "Burası iş yeri, tanışma uygulaması değil.",
+   "Profesyonellikten uzak. Fazlasıyla."
+  ]
+ },
+ "bae_gossip": {
+  "_": [
+   "Duydun mu? {owner}, Ahmet'e 'Bebeğim' demiş!",
+   "'Ahmet Bebeğim'! O e-postayı çerçeveletiyorum."
+  ]
+ },
+ "jobtab_see": {
+  "_": [
+   "{owner} iş ilanlarına mı bakıyor?!",
+   "Hım. 'Kıdemli pozisyonlar — hemen başvurun.' {owner:in} ekranında.",
+   "{owner} iş ilanlarına göz atıyor. İlginç."
+  ],
+  "ahmet": [
+   "İş ilanları. Mesai saatinde. {owner:in} ekranında."
+  ],
+  "zeynep": [
+   "Ooo, {owner} kendine yeni ofis bakıyor!"
+  ]
+ },
+ "unplug_react": {
+  "_": [
+   "Ekranım karardı. Bilgisayarım öldü mü?!",
+   "Öldü. Tamamen öldü.",
+   "Alo? ALO? Ekran?"
+  ],
+  "ahmet": [
+   "Monitörüm bozuldu. Biri düzeltsin."
+  ],
+  "burak": [
+   "...Kablo çıkmış. Biri monitörümün fişini çekmiş."
+  ]
+ },
+ "unplug_self": {
+  "_": [
+   "Ah. Fişi... çekilmiş. Hah. Kimseye söylemeyin.",
+   "Bir dakika. Kablo. Kim bir monitörün fişini çeker ki?!"
+  ]
+ },
+ "printjob_mine": {
+  "_": [
+   "BENİM özel belgem neden yazıcıdan çıkıyor?!",
+   "Dur — bunu ben yazdırmadım! Ver onu bana!"
+  ]
+ },
+ "printjob_other": {
+  "_": [
+   "Ooo. Bu kimin? Ah. AH.",
+   "Bu yazıcı tepsisindeydi. Okumadım. ...Okudum.",
+   "Hım. Biri özel bir şey yazdırmış."
+  ],
+  "ece": [
+   "Okumuyorum! ...Azıcık okudum."
+  ],
+  "zeynep": [
+   "Yazıcı benim en sevdiğim gazetedir."
+  ]
+ },
+ "cal_remind": {
+  "_": [
+   "Eyvah — on dakika sonra {what} var! Tamamen unutmuşum!",
+   "Takvimimde yazıyor: {what}. Doğru. Gitmem lazım!"
+  ]
+ },
+ "cal_doubt": {
+  "_": [
+   "{what} mı? Benim {what} falan yok ki...",
+   "O benim değil. Bunu takvimime kim koydu?"
+  ]
+ },
+ "cal_where": {
+  "_": [
+   "{owner} nerede? Kimse yok mu?",
+   "{owner:i} gören oldu mu? Masası epeydir boş."
+  ]
+ },
+ "slow_react": {
+  "_": [
+   "Neden her şey 90'lar hızında yükleniyor?",
+   "Hadi AMA. Tek bir e-posta. TEK.",
+   "O küçük çark. Dönen kıyamet çarkı."
+  ],
+  "mert": [
+   "İnternetim pazartesiden bile yavaş."
+  ],
+  "selin": [
+   "Böyle çalışamam."
+  ]
+ },
+ "slow_break": {
+  "_": [
+   "Boş ver. İnternet beni hatırlayana kadar kahve molası.",
+   "Yürüyüşe çıkıyorum. İnternet gelsin beni bulsun."
+  ]
+ },
+ "caps_read": {
+  "_": [
+   "{owner} neden bana BAĞIRIYOR?!",
+   "'NASILSIN' — büyük harflerle mi? {owner} bana kızgın mı?"
+  ]
+ },
+ "caps_confront": {
+  "_": [
+   "{target}, sohbette bana neden bağırdın?",
+   "Bu BÜYÜK HARFLERİ hak edecek ne yaptım, {target}?"
+  ]
+ },
+ "caps_explain": {
+  "_": [
+   "Ne? Bağırmadım! Caps lock'um takılmış olmalı!",
+   "'Nasılsın' yazdım! Normal bir şekilde!"
+  ]
+ },
+ "caps_hurt": {
+  "_": [
+   "Tabii. Neyse.",
+   "Bana kızgınsan söyle gitsin."
+  ]
+ },
+ "caps_laugh": {
+  "_": [
+   "Aman Tanrım, sadece caps lock. Ha!",
+   "Tamam, bu komik. Klavyen senden nefret ediyor."
+  ]
+ },
+ "meow_react": {
+  "_": [
+   "Klavyem neden MİYAVLIYOR?!",
+   "Her tuş. Miyav. Miyav. MİYAV.",
+   "Bilgisayarımda kedi mi var?"
+  ],
+  "ahmet": [
+   "Klavyem neden miyavlıyor?! BUNU KİM YAPTI?"
+  ],
+  "burak": [
+   "...İşçiliğe saygı duyuyorum. Bir yandan da nefret ediyorum."
+  ]
+ },
+ "meow_love": {
+  "_": [
+   "...Açıkçası mı? Bayıldım. Miyav.",
+   "Bunu asla değiştirmiyorum. Miyav miyav."
+  ]
+ },
+ "meow_witness": {
+  "_": [
+   "Bu... miyavlama mı?",
+   "*kıkırdar*",
+   "Ofiste KEDİ mi var?"
+  ]
+ },
+ "snoop_find": {
+  "_": [
+   "Hıh. {owner:in} özel klasörü herkesle mi paylaşılmış?",
+   "Hoppala. {owner:in} bütün dosyalarını görebiliyorum. Sadece... bakıyorum.",
+   "Ah {owner}, ayarlarına gerçekten bir göz atmalısın."
+  ],
+  "burak": [
+   "Biri {owner:in} klasörünü 'herkes' yapmış. Acemi hatası."
+  ],
+  "zeynep": [
+   "Açık klasör bir davetiyedir, canım."
+  ]
+ },
+ "subj_layoffs_read": {
+  "_": [
+   "'ACİL: işten çıkarmalar' mı?! {owner:den} mi?!",
+   "Bir dakika, {owner} az önce herkese İŞTEN ÇIKARMALAR hakkında e-posta mı attı?"
+  ]
+ },
+ "subj_raise_read": {
+  "_": [
+   "'Ynt: zammın'... {owner} ZAM mı aldı?",
+   "{owner:in} e-postasında neden 'zammın onaylandı' yazıyor?"
+  ]
+ },
+ "subj_party_read": {
+  "_": [
+   "'Bu akşam bende parti, herkes davetli!' — {owner} mi? Ben varım!",
+   "{owner} parti mi veriyor? Oradayım!"
+  ]
+ },
+ "subj_owner_baffled": {
+  "_": [
+   "O konu satırını ben YAZMADIM!",
+   "Benim yazdığım bu değildi! Yemin ederim!"
+  ]
+ },
+ "party_rsvp": {
+  "_": [
+   "Eee! Partin! Ne getireyim?",
+   "Bu akşam, değil mi? Atıştırmalık getiriyorum!"
+  ],
+  "mert": [
+   "Hoparlörü ben getiriyorum. Bir de dans figürlerimi."
+  ]
+ },
+ "party_cancel": {
+  "_": [
+   "Şey... parti falan yok. Bir hataydı.",
+   "Parti yok! E-postam hacklendi ya da bir şey oldu!"
+  ]
  }
 }

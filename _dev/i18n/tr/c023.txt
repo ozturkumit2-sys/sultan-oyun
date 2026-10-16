@@ -1,0 +1,210 @@
+4456|Ben... açıkçası ne demek istediğinizi hiç anlamadım.
+4457|Bunu ilk defa duyuyorum, Ahmet Bey.
+4458|Bir yanlışlık olmalı.
+4459|O zaman bir an önce çözsen iyi olur. Hem de çabuk.
+4460|Senden daha iyisini beklerim.
+4461|Bu son uyarın.
+4462|...Peki. Tuhaf. Çok tuhaf. Git.
+4463|Hım. Bir yanlış anlaşılma o zaman. Gidebilirsin.
+4464|O zaman bu ofiste birinin espri anlayışı var.
+4465|Tuhaf. Neyse.
+4466|Tamam... geçelim.
+4467|Bugün olmaz, evren.
+4468|Bilmek bile istemiyorum.
+4469|Ha. Birileri sıkılmış.
+4470|Tamam. Düzeldi. Sıradaki.
+4471|Hım. Bunu not alayım.
+4472|Yanlış şifre mi?! Altı yıldır aynı şifreyi kullanıyorum!
+4473|Neden girmeme izin vermiyor?!
+4474|DIŞARIDA KALDIM. Kendi bilgisayarımdan.
+4475|Bu da ne? 'Hesap kilitlendi' mi? Hesap BENİM!
+4476|Biri BENİ mi dışarıda bıraktı? Bu... etkileyici.
+4477|'Sifre1' mi? 'Sifre2' mi? İmdat!
+4478|Peki. Kendim sıfırlarım.
+4479|Güvenlik sorusu... 'ilk evcil hayvanınızın adı'... tamam.
+4480|Otuz saniye. ...Yirmi.
+4481|Dosyam nerede? TAM BURADAYDI.
+4482|Klasörüm boş. Klasörüm neden boş?!
+4483|Yok yok yok, nereye gitti?
+4484|Koca teklifim. Gitmiş. BENİM klasörümden.
+4485|Dosya mı? Ne dosyası? ...Eyvah, O dosya.
+4486|{owner:in} dosyası neden BENİM özel klasörümde duruyor?
+4487|{owner:in} işinin benim klasörümde ne işi var?
+4488|{target}! Bu proje dosyası — mükemmel iş.
+4489|Az önce {target:in} projesini okudum. Nihayet biraz kalite.
+4490|Teşekkür ederim Ahmet Bey. Çok emek verdim.
+4491|Ah — beğenmenize sevindim!
+4492|Elbette. Ben her zaman teslim ederim.
+4493|Aslında Ahmet Bey, o benim değil, {owner:in} işi.
+4494|O, {owner:in} işi. Hakkını yiyemem.
+4495|O {owner:in} projesi. Hakkı neyse verelim.
+4496|O benim değil. {owner:in}.
+4497|...Bir dakika. O BENİM projem.
+4498|Pardon? Onu ben yazdım!
+4499|...Bunlar benim slaytlarım değil.
+4500|Bir dakika. Bu kimin sunumu?!
+4501|Şey. Birinci slayt... benim birinci slaytım değil.
+4502|Bu benim sunumum değil. Biri dosyamı değiştirmiş!
+4503|Tamam, olay örgüsünde sürpriz: başkasının işini sunacağım.
+4504|Neyse. Yine de anlatayım — ezberden.
+4505|Slaytları boş verin. Fikir şu.
+4506|Ben... şey... özür dilerim, ben...
+4507|Beş dakika... ara verebilir miyiz?
+4508|Aslında bunlar bir süredir üzerinde düşündüğüm bazı fikirler.
+4509|Gördüğünüz gibi... benim vizyonum.
+4510|Onlar BENİM slaytlarım!
+4511|Hey! O benim sunumum!
+4512|Nereye gittiğini sanıyorsun? Saat daha {time}!
+4513|Şimdiden mi gidiyorsun, {target}? Saat daha {time}.
+4514|Ama bilgisayarım saatin beş olduğunu söylüyor!
+4515|Ne? Saatime göre mesaim bitti!
+4516|O zaman işini de bilgisayarın yapsın. Masana dön.
+4517|O saati tamir ettir. Ve otur.
+4518|...Saatin yanlış. Hadi git bakalım, bir seferlik.
+4519|Ha. Git. Ama şunu düzelttir.
+4520|Saatime göre yirmi dakikam vardı!
+4521|Geç mi?! Bilgisayarım bana YALAN söylüyor.
+4522|Nerede? Bir saniye önce masaüstümdeydi!
+4523|Raporum. Yok. Oldu.
+4524|Tamam, panik yok. Panik yok. PANİK.
+4525|O dosya tam buradaydı. Bir şeyin yeri konusunda asla yanılmam.
+4526|Tablom! Biri tablomu almış!
+4527|Raporumu yazdıran oldu mu? GÖREN var mı?
+4528|Yazıcıya bakıyorum... arşive... her yere!
+4529|İŞTE buradasın! 'Eski Şeyler 2019' klasöründe mi?! Nasıl?!
+4530|Buldum. Daha önce hiç görmediğim bir klasörde. Ürkütücü.
+4531|Gitmiş. Baştan yapmam gerekecek.
+4532|Üç saatlik emek... gitti.
+4533|Raporum neden GEÇEN HAFTAKİ hâlinde?!
+4534|Bütün değişikliklerim... gitmiş!
+4535|Dosyamı kim eski sürüme döndürdü?!
+4536|Bu bölümü dört kez yeniden yazdım. DÖRT.
+4537|Bu... geçen salının sürümü. İlginç.
+4538|{target}, yedeğimiz var mı? Lütfen var de.
+4539|{target}, dosyamı geri getirebilir misin? Değişikliklerim uçmuş.
+4540|Dün geceki yedekten geri yükledim. Bana borçlusun.
+4541|İşte. Her virgül yerli yerinde.
+4542|Yedekler cuma alınıyor. Bugün cuma değil.
+4543|Üzgünüm. O sürüm gitti.
+4544|Peki. Baştan yaparım. Bu gece. Galiba.
+4545|Mesai o zaman.
+4546|AAAH! 'BİLGİSAYARINIZ VİRÜSLÜ'!
+4547|Virüs! VİRÜS! Herkes her şeyin fişini çeksin!
+4548|'Tüm dosyalarınız şifrelendi' yazıyor!!
+4549|Bu yanıp sönen kırmızı şey de ne?! Burak!
+4550|...Sahte bir pop-up. BENİM ağımda mı? Cesaret.
+4551|Hiçbir şeye tıklamadım! Yemin ederim hiçbir şeye tıklamadım!
+4552|{target}! VİRÜS! Kırmızı ekran! Kurukafa!
+4553|{target}, bilgisayarım hacklendi!
+4554|...Sahte bir pop-up. Pencereyi kapatmak yeterli.
+4555|Bu virüs değil. Şaka. Kapatınca geçer.
+4556|Ağın fişini çekiyorum. KİMSE HİÇBİR ŞEYE DOKUNMASIN.
+4557|Ne olur ne olmaz, bütün katın fişini çekiyorum.
+4558|Hahaha!
+4559|Ah, bu paha biçilemez.
+4560|Nefes alamıyorum!
+4561|Biri bunu kaydetsin!
+4562|Hayatımın en güzel günü.
+4563|Ooo, bu günlüğüme giriyor.
+4564|Bir dakika... bu neden BENİM ekranımda?
+4565|Hıh. Bu benim dosyam değil. Ah. AH.
+4566|...Bunu kesinlikle görmemem gerekiyordu.
+4567|Vay vay. Bakın masaüstüme ne düşmüş.
+4568|Bu bana yanlışlıkla gönderilmiş olmalı. ...Yine de.
+4569|Ekranımda neden kırk tane yavru kedi var?
+4570|Yavru kediler. Her yerde. ...Tamam, tatlılar.
+4571|BİLGİSAYARIMA YAVRU KEDİLERİ KİM KOYDU?
+4572|Yavru kediler. BENİM ekranımda. Peki.
+4573|Ahmet'in yüzü neden duvar kâğıdımda?!
+4574|Ahmet... bana bakıyor. Masaüstümden.
+4575|Bu, patronumuzun DEV bir fotoğrafı.
+4576|...Eh. Güzel fotoğraf.
+4577|Ahh... bir plaj. Öylece... gidebilirim.
+4578|Palmiyeler. Okyanus. Ben de burada masraf raporu yapıyorum.
+4579|Biliyor musun? Kalıyor.
+4580|Bunu tutuyorum. Gittikçe hoşuma gidiyor.
+4581|Yok. Eskisine çeviriyorum.
+4582|Asla. Maviye geri dönüyoruz.
+4583|Güzel duvar kâğıdı!
+4584|O... düşündüğüm şey mi?
+4585|Ha! Bayıldım.
+4586|'Sayın Ahmet Bebeğim' mi?! {owner}! İçeri. HEMEN.
+4587|{owner} bana az önce... 'Bebeğim' mi dedi?
+4588|OTOMATİK DÜZELTME! Yemin ederim otomatik düzeltme!
+4589|Ben ASLA— o şey değil— klavyem!
+4590|...Hım. Klavyeni düzelt. Ve — boş ver.
+4591|Bundan beterlerini duydum. Git.
+4592|Burası iş yeri, tanışma uygulaması değil.
+4593|Profesyonellikten uzak. Fazlasıyla.
+4594|Duydun mu? {owner}, Ahmet'e 'Bebeğim' demiş!
+4595|'Ahmet Bebeğim'! O e-postayı çerçeveletiyorum.
+4596|{owner} iş ilanlarına mı bakıyor?!
+4597|Hım. 'Kıdemli pozisyonlar — hemen başvurun.' {owner:in} ekranında.
+4598|{owner} iş ilanlarına göz atıyor. İlginç.
+4599|İş ilanları. Mesai saatinde. {owner:in} ekranında.
+4600|Ooo, {owner} kendine yeni ofis bakıyor!
+4601|Ekranım karardı. Bilgisayarım öldü mü?!
+4602|Öldü. Tamamen öldü.
+4603|Alo? ALO? Ekran?
+4604|Monitörüm bozuldu. Biri düzeltsin.
+4605|...Kablo çıkmış. Biri monitörümün fişini çekmiş.
+4606|Ah. Fişi... çekilmiş. Hah. Kimseye söylemeyin.
+4607|Bir dakika. Kablo. Kim bir monitörün fişini çeker ki?!
+4608|BENİM özel belgem neden yazıcıdan çıkıyor?!
+4609|Dur — bunu ben yazdırmadım! Ver onu bana!
+4610|Ooo. Bu kimin? Ah. AH.
+4611|Bu yazıcı tepsisindeydi. Okumadım. ...Okudum.
+4612|Hım. Biri özel bir şey yazdırmış.
+4613|Yazıcı benim en sevdiğim gazetedir.
+4614|Okumuyorum! ...Azıcık okudum.
+4615|Eyvah — on dakika sonra {what} var! Tamamen unutmuşum!
+4616|Takvimimde yazıyor: {what}. Doğru. Gitmem lazım!
+4617|{what} mı? Benim {what} falan yok ki...
+4618|O benim değil. Bunu takvimime kim koydu?
+4619|{owner} nerede? Kimse yok mu?
+4620|{owner:i} gören oldu mu? Masası epeydir boş.
+4621|Neden her şey 90'lar hızında yükleniyor?
+4622|Hadi AMA. Tek bir e-posta. TEK.
+4623|O küçük çark. Dönen kıyamet çarkı.
+4624|İnternetim pazartesiden bile yavaş.
+4625|Böyle çalışamam.
+4626|Boş ver. İnternet beni hatırlayana kadar kahve molası.
+4627|Yürüyüşe çıkıyorum. İnternet gelsin beni bulsun.
+4628|{owner} neden bana BAĞIRIYOR?!
+4629|'NASILSIN' — büyük harflerle mi? {owner} bana kızgın mı?
+4630|{target}, sohbette bana neden bağırdın?
+4631|Bu BÜYÜK HARFLERİ hak edecek ne yaptım, {target}?
+4632|Ne? Bağırmadım! Caps lock'um takılmış olmalı!
+4633|'Nasılsın' yazdım! Normal bir şekilde!
+4634|Tabii. Neyse.
+4635|Bana kızgınsan söyle gitsin.
+4636|Aman Tanrım, sadece caps lock. Ha!
+4637|Tamam, bu komik. Klavyen senden nefret ediyor.
+4638|Klavyem neden MİYAVLIYOR?!
+4639|Her tuş. Miyav. Miyav. MİYAV.
+4640|Bilgisayarımda kedi mi var?
+4641|Klavyem neden miyavlıyor?! BUNU KİM YAPTI?
+4642|...İşçiliğe saygı duyuyorum. Bir yandan da nefret ediyorum.
+4643|...Açıkçası mı? Bayıldım. Miyav.
+4644|Bunu asla değiştirmiyorum. Miyav miyav.
+4645|Bu... miyavlama mı?
+4646|*kıkırdar*
+4647|Ofiste KEDİ mi var?
+4648|Hıh. {owner:in} özel klasörü herkesle mi paylaşılmış?
+4649|Hoppala. {owner:in} bütün dosyalarını görebiliyorum. Sadece... bakıyorum.
+4650|Ah {owner}, ayarlarına gerçekten bir göz atmalısın.
+4651|Açık klasör bir davetiyedir, canım.
+4652|Biri {owner:in} klasörünü 'herkes' yapmış. Acemi hatası.
+4653|'ACİL: işten çıkarmalar' mı?! {owner:den} mi?!
+4654|Bir dakika, {owner} az önce herkese İŞTEN ÇIKARMALAR hakkında e-posta mı attı?
+4655|'Ynt: zammın'... {owner} ZAM mı aldı?
+4656|{owner:in} e-postasında neden 'zammın onaylandı' yazıyor?
+4657|'Bu akşam bende parti, herkes davetli!' — {owner} mi? Ben varım!
+4658|{owner} parti mi veriyor? Oradayım!
+4659|O konu satırını ben YAZMADIM!
+4660|Benim yazdığım bu değildi! Yemin ederim!
+4661|Eee! Partin! Ne getireyim?
+4662|Bu akşam, değil mi? Atıştırmalık getiriyorum!
+4663|Hoparlörü ben getiriyorum. Bir de dans figürlerimi.
+4664|Şey... parti falan yok. Bir hataydı.
+4665|Parti yok! E-postam hacklendi ya da bir şey oldu!
