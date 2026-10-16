@@ -8174,5 +8174,605 @@
   "mert": [
    "Şu an on anlaşma kapatabilirim. ON."
   ]
+ },
+ "jitter_snap": {
+  "_": [
+   "Şu TIKIRDATMAYI KESER misin?!",
+   "Biraz daha SESSİZ nefes alabilir misin?",
+   "NEDEN bu kadar GÜRÜLTÜLÜSÜN?"
+  ]
+ },
+ "jitter_snap2": {
+  "_": [
+   "BEN TIKIRDATMIYORUM! SEN tıkırdatıyorsun!",
+   "Ah, BEN mi gürültülüyüm?!"
+  ]
+ },
+ "tray_call": {
+  "_": [
+   "Mutfakta bedava kurabiye! Bunları kim getirdi?",
+   "Çay ve kurabiye! Mutfak! Hemen!"
+  ]
+ },
+ "tray_claim": {
+  "_": [
+   "...Ah, kurabiyeler mi? Evet. Bendim. Rica ederim.",
+   "Ekip için ufak bir şey."
+  ]
+ },
+ "tray_thanks": {
+  "_": [
+   "Sen bir harikasın!",
+   "Teşekkürler! Bunlar muhteşem."
+  ]
+ },
+ "lastcup_take": {
+  "_": [
+   "Son bardak! Ha! Benim.",
+   "Ooo, tam bir bardak kalmış. Şanslıyım."
+  ]
+ },
+ "lastcup_whine": {
+  "_": [
+   "SON bardağı mı aldın?!",
+   "O son kahveydi. Gördüm. Gördüğümü de gördün."
+  ]
+ },
+ "lastcup_share": {
+  "_": [
+   "...Peki. Yarı yarıya?",
+   "Al. Yarısı senin. Canavar değilim."
+  ]
+ },
+ "lastcup_keep": {
+  "_": [
+   "İlk gelen alır.",
+   "Uyuyan kaybeder."
+  ]
+ },
+ "bestboss_boss": {
+  "_": [
+   "'Dünyanın En İyi Patronu'... {target:den} mi? Vay. Vay, vay.",
+   "Bir kupa! Bana! {target:den}! Ne kadar düşünceli."
+  ]
+ },
+ "bestboss_thank": {
+  "_": [
+   "{target}, kupa için teşekkürler. Duygulandım.",
+   "Kupa konusunda zevkin harika, {target}."
+  ]
+ },
+ "bestboss_confused": {
+  "_": [
+   "...Rica ederim? Ne kupası?",
+   "Ah — şey — evet! Kupa! Tabii ki."
+  ]
+ },
+ "bestboss_eyeroll": {
+  "_": [
+   "'Dünyanın En İyi Patronu' kupası mı? Cidden mi, {target}?",
+   "Vay. Utanmazlık."
+  ]
+ },
+ "spa_enjoy": {
+  "_": [
+   "Limonlu su mu? Salatalık dilimleri mi? Ben buradan hiç gitmem.",
+   "'Spa günü'. Buna alışabilirim.",
+   "Ahh. Su. Lüks."
+  ]
+ },
+ "spa_boss": {
+  "_": [
+   "Burası spa mı, ofis mi?!",
+   "Masalarınıza! Burası tatil köyü değil!"
+  ]
+ },
+ "printer_ghostfix": {
+  "_": [
+   "...Çalışıyor mu? ÇALIŞIYOR! Kim tamir etti?",
+   "Yazıcı tamir edilmiş! Kimse dokunmadı... değil mi?"
+  ]
+ },
+ "wchair_collapse": {
+  "_": [
+   "VAY— *ÇAT*",
+   "AAH! Sandalyem!",
+   "*güm* ...Ay."
+  ],
+  "ahmet": [
+   "*ÇAT* BU SANDALYEYİ BANA KİM VERDİ?!"
+  ]
+ },
+ "wchair_help": {
+  "_": [
+   "İyi misin?! Al, elimi tut.",
+   "Eyvah! Bir yerin acıdı mı?"
+  ]
+ },
+ "wchair_laugh": {
+  "_": [
+   "HAHAHA! Pardon! Pardon. İyi misin? HAHA!",
+   "Bu hafta gördüğüm en güzel şeydi."
+  ]
+ },
+ "packed_see": {
+  "_": [
+   "...Neden bütün eşyalarım bir KUTUDA?",
+   "Masam toplanmış. Bir kutuya. Ben... kovuldum mu?!",
+   "Bir karton kutu. Eşyalarımla. Eyvah."
+  ]
+ },
+ "packed_witness": {
+  "_": [
+   "{owner} işten mi çıkarılıyor?!",
+   "{owner:in} masası kutuya konmuş... zavallı."
+  ]
+ },
+ "packed_ask": {
+  "_": [
+   "Ahmet Bey — kovuldum mu? Eşyalarım kutuda!",
+   "Lütfen hâlâ bir işim olduğunu söyleyin."
+  ]
+ },
+ "packed_boss_no": {
+  "_": [
+   "Kovulmak mı? Masanı kim topladı? Hiçbir yere gitmiyorsun.",
+   "Kimse kovulmadı. Kutuyu boşalt. Ve bunu kimin yaptığını bul."
+  ]
+ },
+ "nopaper": {
+  "_": [
+   "Kâğıt mı bitti? Yine mi?",
+   "'Kâğıt yükleyin'. NEYLE? Tepsi boş!"
+  ]
+ },
+ "nopaper_shelf": {
+  "_": [
+   "Malzeme rafında da mı kâğıt yok?!",
+   "Bütün ofiste tek bir yaprak bile yok."
+  ]
+ },
+ "nopaper_ok": {
+  "_": [
+   "Biraz buldum. Kriz önlendi.",
+   "İşte. Kâğıt."
+  ]
+ },
+ "music_love": {
+  "_": [
+   "Ooo, bu şarkıya BAYILIYORUM!",
+   "Nihayet, güzel bir müzik!",
+   "*sandalyede dans eder*"
+  ],
+  "ece": [
+   "Bu benim şarkım!"
+  ],
+  "mert": [
+   "DJ, sesi AÇ!"
+  ]
+ },
+ "music_hate": {
+  "_": [
+   "BUNU kim açtı?!",
+   "Durdurun şunu. Lütfen.",
+   "Kulaklarım. Zavallı kulaklarım."
+  ],
+  "burak": [
+   "Gürültü önleyici kulaklık: AÇIK."
+  ]
+ },
+ "music_boss_off": {
+  "_": [
+   "BENİM ofisimde kim müzik çalıyor?!",
+   "Kapatın şunu! Burası iş yeri!"
+  ]
+ },
+ "alarm_panic": {
+  "_": [
+   "YANGIN ALARMI! Herkes dışarı!",
+   "Tatbikat mı bu?! Dışarı, dışarı, dışarı!",
+   "Her şeyi bırakın! ÇIKIN!"
+  ],
+  "ahmet": [
+   "Herkes — sakin bir şekilde — DIŞARI. HEMEN!"
+  ],
+  "burak": [
+   "Muhtemelen bir şey yok. Yine de çıkıyorum."
+  ],
+  "ece": [
+   "Laptopum! Yok — bırak onu! Koş!"
+  ]
+ },
+ "alarm_outside": {
+  "_": [
+   "Gerçek miydi? Duman kokusu almıyorum.",
+   "Eh, bu hafta ilk defa bu kadar sosyalleştik.",
+   "Alarmı kim çekti?!"
+  ]
+ },
+ "alarm_back": {
+  "_": [
+   "Yanlış alarm. Herkes işinin başına.",
+   "Hiçbir şey. HİÇBİR ŞEY. İçeri."
+  ]
+ },
+ "wallclock_see": {
+  "_": [
+   "Saat gerçekten {time} mi olmuş?",
+   "Saat {time} diyor! Gün nereye gitti?"
+  ]
+ },
+ "wallclock_leave_boss": {
+  "_": [
+   "Nereye gidiyorsun? Daha beş bile olmadı!",
+   "Otur. O saat yanlış ve bunu biliyorsun."
+  ]
+ },
+ "wallclock_excuse": {
+  "_": [
+   "Duvar saati eve gitme vakti olduğunu söylüyordu!",
+   "Ama... saat!"
+  ]
+ },
+ "plant_notice": {
+  "_": [
+   "Kauçuk ağacı... hayata mı döndü?",
+   "Bitkiye bakın! Yine YEŞİL!",
+   "Biri Kauçuk'la ilgileniyormuş."
+  ]
+ },
+ "plant_thank": {
+  "_": [
+   "{target}, bitkiyi kurtaran sen miydin? Çok tatlısın.",
+   "Bahse girerim kauçuk ağacını sen kurtardın, {target}."
+  ]
+ },
+ "plant_nope": {
+  "_": [
+   "Ben değil! Ben bir kaktüsü bile yaşatamam.",
+   "Ben değildim. Ama harika görünüyor!"
+  ]
+ },
+ "door_stuck": {
+  "_": [
+   "Kapı açılmıyor! İçeride KİLİTLİ kaldık!",
+   "Sıkıştı! Çıkamıyorum!"
+  ]
+ },
+ "door_fix": {
+  "_": [
+   "Geri çekilin. Sadece mandal.",
+   "Bak — hem kaldırıp HEM itmen lazım."
+  ],
+  "burak": [
+   "Klasik. Yine mandal."
+  ]
+ },
+ "thermo_locked": {
+  "_": [
+   "Termostat KİLİTLİ mi?! Kim kilitledi?!",
+   "'Ayarlar kilitli'. KİLİTLİ. DONUYORUM.",
+   "Değiştirmeme izin vermiyor!"
+  ]
+ },
+ "net_down": {
+  "_": [
+   "İnternet gitti! Her yerde!",
+   "Ağ yok mu?! HİÇBİR ŞEY yapamıyorum.",
+   "Taş Devri'ne mi döndük?"
+  ],
+  "burak": [
+   "...Bu bir arıza değil. Biri switch'in fişini çekmiş."
+  ]
+ },
+ "net_hero": {
+  "_": [
+   "Tekrar çevrimiçi. Rica ederim.",
+   "Ağ çalışıyor. Kimse mavi kutuya dokunmasın."
+  ]
+ },
+ "coat_wrong": {
+  "_": [
+   "...Bu ceket başka birinin parfümü gibi kokuyor.",
+   "Kollar neden bu kadar uzun? ...Bu benim ceketim değil."
+  ]
+ },
+ "coat_swapback": {
+  "_": [
+   "Sanırım dün eve benim ceketimle gittin.",
+   "Bu senin mi? Bütün akşam giydim. Pardon!"
+  ]
+ },
+ "coat_laugh": {
+  "_": [
+   "Ha! Açıkçası sende daha iyi duruyordu.",
+   "Sende kalsın. Şaka. Geri ver."
+  ]
+ },
+ "coat_romance": {
+  "_": [
+   "Hâlâ senin gibi kokuyor. ...Yani. Al ceketin.",
+   "Ben... onu giymekten biraz hoşlandım."
+  ]
+ },
+ "slip": {
+  "_": [
+   "VAY— *ŞAP*",
+   "*kayar* AAAH!",
+   "Buraya bir SU BİRİKİNTİSİ kim koydu?!"
+  ]
+ },
+ "slip_help": {
+  "_": [
+   "İyi misin?! Dikkat et!",
+   "Gel, kalkmana yardım edeyim."
+  ]
+ },
+ "disco_wow": {
+  "_": [
+   "DİSKO IŞIKLARI mı?! OFİSTE mi?!",
+   "Neden her yer mor ve yanıp sönüyor?!",
+   "Parti zamanı mı? Bugün salı!"
+  ],
+  "ece": [
+   "DANS MOLASI!"
+  ],
+  "mert": [
+   "Nihayet. Benim anım geldi."
+  ]
+ },
+ "disco_boss": {
+  "_": [
+   "IŞIKLARIMA NE OLUYOR?!",
+   "Burası ofis, gece kulübü değil!"
+  ]
+ },
+ "flicker_scared": {
+  "_": [
+   "Işıklar neden öyle titriyor?!",
+   "Tamam, korku filmleri böyle başlar.",
+   "Gördün mü? Işıklar... nefes aldı."
+  ],
+  "ece": [
+   "Korkmuyorum. KORKMUYORUM. AZICIK korkuyorum."
+  ],
+  "zeynep": [
+   "Biliyordum. Bu binada hayalet var."
+  ]
+ },
+ "flicker_burak": {
+  "_": [
+   "Gevşek bir bağlantı. Hayalet değil. Muhtemelen.",
+   "Sigortaya bakarım. Kimse panik yapmasın."
+  ]
+ },
+ "kindnote_read": {
+  "_": [
+   "'İşe gelmemin tek sebebi {best}.' — {owner:in} notu mu?",
+   "{owner:in} masasında bir not: '{best} her zaman günümü güzelleştiriyor.'"
+  ]
+ },
+ "kindnote_me": {
+  "_": [
+   "...{owner} bunu BENİM için mi yazmış?",
+   "Ah. {owner} benim hakkımda böyle mi düşünüyor? Ben... vay."
+  ]
+ },
+ "giftcard_find": {
+  "_": [
+   "Bir hediye mi? Üstünde BENİM adım mı var? {giver:den} mi?",
+   "'{target} için, sevgilerle — {giver}'. Bana mı?!"
+  ]
+ },
+ "giftcard_thank": {
+  "_": [
+   "{target}! Yani — {giver}! Hediye için teşekkürler!",
+   "Hediyeni aldım! Hiç zahmet etmeseydin!"
+  ]
+ },
+ "giftcard_what": {
+  "_": [
+   "...O hediye {intended} içindi.",
+   "Eyvah. O {intended} için olacaktı!"
+  ]
+ },
+ "giftcard_intended": {
+  "_": [
+   "Demek hediyem başkasına gitti. Ne güzel.",
+   "Bana bir şey gelmedi. Peki. Peki peki peki."
+  ]
+ },
+ "source_read": {
+  "_": [
+   "'{subject} hakkındaki dedikodu mu? {origin} başlattı.' Tam oraya asılmış.",
+   "Demek {subject} hakkındaki o hikâyeyi {origin} başlatmış..."
+  ]
+ },
+ "stickyswap_read": {
+  "_": [
+   "'Saat birde öğle yemeği? Benden.' — {owner:den} mi? Bana mı?",
+   "{owner:den} bir not: 'Saat 1'de öğle yemeği?' ...Olur!"
+  ]
+ },
+ "stickyswap_meet": {
+  "_": [
+   "Öğle yemeği mi istedin? ...Benimle mi?",
+   "İşte geldim, yemek arkadaşı."
+  ]
+ },
+ "stickyswap_ok": {
+  "_": [
+   "Ha. Neden olmasın? Gidelim.",
+   "Yanlış not, doğru kişi, belki."
+  ]
+ },
+ "apology_wrong_read": {
+  "_": [
+   "'Söylediklerim için çok özür dilerim'... {owner:den} mi? {owner} ne söylemiş ki?",
+   "{owner:den} bir özür mektubu mu? Bana mı? Ne için?"
+  ]
+ },
+ "apology_wrong_ask": {
+  "_": [
+   "{target}, özrünü aldım. Benim hakkımda... bir şey mi söyledin?",
+   "Neden benden özür diliyorsun? Ne oldu?"
+  ]
+ },
+ "apology_wrong_explain": {
+  "_": [
+   "O mektup sana değildi! {foe} içindi!",
+   "Eyvah. O {foe} için olacaktı."
+  ]
+ },
+ "collection_see": {
+  "_": [
+   "'{bdayp} için doğum günü toplaması'... BENİM için mi?",
+   "Doğum günüm için para toplanan gizli bir zarf mı? Ayy."
+  ]
+ },
+ "collection_sad": {
+  "_": [
+   "Zarfı kim DIŞARIDA bıraktı?! O bir sırdı!",
+   "Sürpriz de gitti."
+  ]
+ },
+ "defend_read": {
+  "_": [
+   "{owner}, Ahmet'e yazmış: '{best} buradaki herkesten fazla takdiri hak ediyor.'",
+   "{owner} beni savunmuş mu? AHMET'e mi? Ben orada bile değilken mi?"
+  ]
+ },
+ "defend_thank": {
+  "_": [
+   "{target}... Benim hakkımda yazdıklarını gördüm. Teşekkür ederim.",
+   "Benim için ayağa kalkmışsın. Bilmiyordum. Teşekkürler."
+  ]
+ },
+ "defend_shy": {
+  "_": [
+   "Ah — gördün mü? Sadece gerçek bu.",
+   "Abartma. Bunu hak ediyorsun."
+  ]
+ },
+ "lunchinv_read": {
+  "_": [
+   "Öğle yemeği daveti — {owner:den} mi? Bana mı?",
+   "'Bugün birlikte öğle yemeği?' — {owner}. ...Tamam!"
+  ]
+ },
+ "lunchinv_awk": {
+  "_": [
+   "Eee. Şey. Öğle yemeği. Hava güzel.",
+   "...",
+   "Güzel sandviç."
+  ]
+ },
+ "lunchinv_click": {
+  "_": [
+   "Tamam, bunu neden daha önce hiç yapmadık?!",
+   "Aslında çok komiksin!"
+  ]
+ },
+ "lovenote_read": {
+  "_": [
+   "'Ne zaman yanımdan geçsen, şifremi unutuyorum.' — {owner} mu? BANA mı?",
+   "Bir aşk notu. {owner:den}. Masamın üstünde. Aman Tanrım."
+  ]
+ },
+ "lovenote_jealous": {
+  "_": [
+   "{owner} SANA aşk notu mu göndermiş?!",
+   "Bir dakika. {owner}, {target:den} hoşlanıyor mu?"
+  ]
+ },
+ "pact_read": {
+  "_": [
+   "'İttifak anlaşması: {a} ve {b} birbirlerini destekleyecek.' İmzalı mı?!",
+   "{a} ile {b:in} YAZILI bir anlaşması mı var? Vay."
+  ]
+ },
+ "compliment_read": {
+  "_": [
+   "'{target}, bu ofisteki en iyi kalpli insan.' İmzasız!",
+   "Biri {target} hakkında bir iltifat asmış. Ayy."
+  ]
+ },
+ "compliment_self": {
+  "_": [
+   "Biri bunu BENİM hakkımda mı yazmış? Kim?!",
+   "İmzasız bir iltifat... bana. Kimin yazdığını öğrenmeliyim."
+  ]
+ },
+ "complaint_read": {
+  "_": [
+   "'Sevgili {target}: lütfen mırıldanmayı bırak. İmza: herkes.' ...Vay.",
+   "Panoda imzasız bir not. Benim hakkımda. MIRILDANMAM hakkında."
+  ]
+ },
+ "complaint_suspect": {
+  "_": [
+   "Bu {hater}. Biliyorum.",
+   "{hater}. Başka kim olabilir."
+  ]
+ },
+ "santa_give": {
+  "_": [
+   "Eee... kurada senin adın çıktı. Al. Hediye.",
+   "Gizli hediye zamanı. Bana... sen çıktın."
+  ]
+ },
+ "santa_nice": {
+  "_": [
+   "...Bu gerçekten çok düşünceli. Teşekkürler.",
+   "Bunu sevdiğimi hatırladın mı? Vay."
+  ]
+ },
+ "santa_mean": {
+  "_": [
+   "'Daha Az Sinir Bozucu Olmanın Yolları' adlı bir kitap mı? Cidden mi?",
+   "Bu şaka mı? Çünkü hiç komik değil."
+  ]
+ },
+ "notebook_find": {
+  "_": [
+   "Bu kimin defteri? ...{target:in}.",
+   "{target} defterini kanepede unutmuş. Açık hâlde."
+  ]
+ },
+ "notebook_close": {
+  "_": [
+   "Yok. Okumuyorum. Geri vereceğim.",
+   "Bu özel. Bakmıyorum."
+  ]
+ },
+ "notebook_return": {
+  "_": [
+   "Bunu kanepede unutmuşsun. Okumadım.",
+   "Defterin. Merak etme, bakmadım."
+  ]
+ },
+ "notebook_thanks": {
+  "_": [
+   "Teşekkürler. Cidden.",
+   "Sen iyi bir insansın."
+  ]
+ },
+ "lunchseat_a": {
+  "_": [
+   "...Tabii ya. İsim kartları beni SENİN yanına koymuş.",
+   "Harika. Seninle öğle yemeği."
+  ]
+ },
+ "lunchseat_fight": {
+  "_": [
+   "Daha sessiz çiğneyebilir misin?",
+   "Dirsek alanıma giriyorsun."
+  ]
+ },
+ "lunchseat_peace": {
+  "_": [
+   "...Tamam. Bak. Belki de yanlış başladık.",
+   "Sandviç eşliğinde ateşkes?"
+  ]
  }
 }

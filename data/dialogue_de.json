@@ -8174,5 +8174,605 @@
   "mert": [
    "Ich könnte jetzt zehn Deals abschließen. ZEHN."
   ]
+ },
+ "jitter_snap": {
+  "_": [
+   "Kannst du mal AUFHÖREN ZU TROMMELN?!",
+   "Könntest du LEISER atmen?",
+   "WARUM bist du so LAUT?"
+  ]
+ },
+ "jitter_snap2": {
+  "_": [
+   "ICH TROMMLE NICHT! DU trommelst!",
+   "Ach, ICH bin laut?!"
+  ]
+ },
+ "tray_call": {
+  "_": [
+   "Gratis-Kekse in der Küche! Wer hat die mitgebracht?",
+   "Tee und Kekse! Küche! Sofort!"
+  ]
+ },
+ "tray_claim": {
+  "_": [
+   "...Oh, die Kekse? Ja. Das war ich. Gern geschehen.",
+   "Nur eine Kleinigkeit fürs Team."
+  ]
+ },
+ "tray_thanks": {
+  "_": [
+   "Du bist {to?der Beste|die Beste}!",
+   "Danke! Die sind fantastisch."
+  ]
+ },
+ "lastcup_take": {
+  "_": [
+   "Letzte Tasse! Ha! Meine.",
+   "Ooh, genau noch eine Tasse übrig. Glück gehabt."
+  ]
+ },
+ "lastcup_whine": {
+  "_": [
+   "Hast du dir gerade die LETZTE Tasse genommen?!",
+   "Das war der letzte Kaffee. Ich hab's gesehen. Du hast gesehen, dass ich's gesehen hab."
+  ]
+ },
+ "lastcup_share": {
+  "_": [
+   "...Na gut. Halbe-halbe?",
+   "Hier. Nimm die Hälfte. Ich bin ja kein Monster."
+  ]
+ },
+ "lastcup_keep": {
+  "_": [
+   "Wer zuerst kommt, mahlt zuerst.",
+   "Wer schläft, verliert."
+  ]
+ },
+ "bestboss_boss": {
+  "_": [
+   "„Bester Chef der Welt“... von {target}? Na. Na, na.",
+   "Eine Tasse! Für mich! Von {target}! Wie aufmerksam."
+  ]
+ },
+ "bestboss_thank": {
+  "_": [
+   "{target}, danke für die Tasse. Ich bin gerührt.",
+   "Ausgezeichneter Geschmack bei Tassen, {target}."
+  ]
+ },
+ "bestboss_confused": {
+  "_": [
+   "...Gern geschehen? Welche Tasse?",
+   "Oh — ähm — ja! Die Tasse! Natürlich."
+  ]
+ },
+ "bestboss_eyeroll": {
+  "_": [
+   "Eine „Bester Chef der Welt“-Tasse? Echt jetzt, {target}?",
+   "Wow. Schamlos."
+  ]
+ },
+ "spa_enjoy": {
+  "_": [
+   "Zitronenwasser? Gurkenscheiben? Ich geh hier nie wieder weg.",
+   "„Wellness-Tag“. Daran könnte ich mich gewöhnen.",
+   "Ahh. Hydration. Luxus."
+  ]
+ },
+ "spa_boss": {
+  "_": [
+   "Ist das hier ein Spa oder ein Büro?!",
+   "Zurück an die Schreibtische! Das hier ist keine Ferienanlage!"
+  ]
+ },
+ "printer_ghostfix": {
+  "_": [
+   "...Er geht? Er GEHT! Wer hat ihn repariert?",
+   "Der Drucker ist repariert! Keiner hat ihn angefasst... oder?"
+  ]
+ },
+ "wchair_collapse": {
+  "_": [
+   "WOAH— *KRACH*",
+   "AAH! Mein Stuhl!",
+   "*plumps* ...Au."
+  ],
+  "ahmet": [
+   "*KRACH* WER HAT MIR DIESEN STUHL GEGEBEN?!"
+  ]
+ },
+ "wchair_help": {
+  "_": [
+   "Alles okay?! Hier, nimm meine Hand.",
+   "Oh nein! Hast du dir wehgetan?"
+  ]
+ },
+ "wchair_laugh": {
+  "_": [
+   "HAHAHA! Sorry! Sorry. Alles okay? HAHA!",
+   "Das war das Beste, was ich die ganze Woche gesehen hab."
+  ]
+ },
+ "packed_see": {
+  "_": [
+   "...Warum sind all meine Sachen in einer KISTE?",
+   "Mein Schreibtisch ist eingepackt. In einer Kiste. Bin ich... gefeuert?!",
+   "Ein Karton. Mit meinen Sachen. Oh nein."
+  ]
+ },
+ "packed_witness": {
+  "_": [
+   "Wird {owner} etwa entlassen?!",
+   "{owner:s} Schreibtisch ist in einer Kiste... {owner?der Arme|die Arme}."
+  ]
+ },
+ "packed_ask": {
+  "_": [
+   "Ahmet Bey — bin ich gefeuert? Meine Sachen sind in einer Kiste!",
+   "Bitte sagen Sie mir, dass ich noch einen Job habe."
+  ]
+ },
+ "packed_boss_no": {
+  "_": [
+   "Gefeuert? Wer hat Ihren Schreibtisch eingepackt? Sie gehen nirgendwohin.",
+   "Niemand ist gefeuert. Packen Sie aus. Und finden Sie heraus, wer das war."
+  ]
+ },
+ "nopaper": {
+  "_": [
+   "Kein Papier mehr? Schon wieder?",
+   "„Papier einlegen“. Mit WAS? Das Fach ist leer!"
+  ]
+ },
+ "nopaper_shelf": {
+  "_": [
+   "Im Materialregal ist auch kein Papier?!",
+   "Kein einziges Blatt im ganzen Büro."
+  ]
+ },
+ "nopaper_ok": {
+  "_": [
+   "Hab welches gefunden. Krise abgewendet.",
+   "Na also. Papier."
+  ]
+ },
+ "music_love": {
+  "_": [
+   "Ooh, ich LIEBE dieses Lied!",
+   "Endlich mal gute Musik!",
+   "*tanzt auf dem Stuhl*"
+  ],
+  "ece": [
+   "Das ist MEIN Song!"
+  ],
+  "mert": [
+   "DJ, mach LAUTER!"
+  ]
+ },
+ "music_hate": {
+  "_": [
+   "Wer hat DAS angemacht?!",
+   "Macht, dass es aufhört. Bitte.",
+   "Meine Ohren. Meine armen Ohren."
+  ],
+  "burak": [
+   "Noise-Cancelling-Kopfhörer: AN."
+  ]
+ },
+ "music_boss_off": {
+  "_": [
+   "Wer spielt in MEINEM Büro Musik?!",
+   "Machen Sie das aus! Das hier ist ein Arbeitsplatz!"
+  ]
+ },
+ "alarm_panic": {
+  "_": [
+   "FEUERALARM! Alle raus!",
+   "Ist das eine Übung?! Raus, raus, raus!",
+   "Lasst alles liegen! LOS!"
+  ],
+  "ahmet": [
+   "Alle — ruhig — RAUS. SOFORT!"
+  ],
+  "burak": [
+   "Wahrscheinlich nichts. Ich geh trotzdem."
+  ],
+  "ece": [
+   "Mein Laptop! Nein — lass ihn! Lauf!"
+  ]
+ },
+ "alarm_outside": {
+  "_": [
+   "War das echt? Ich rieche keinen Rauch.",
+   "Na ja, so gesellig waren wir die ganze Woche nicht.",
+   "Wer hat den Alarm ausgelöst?!"
+  ]
+ },
+ "alarm_back": {
+  "_": [
+   "Fehlalarm. Alle zurück an die Arbeit.",
+   "Nichts. NICHTS. Wieder rein."
+  ]
+ },
+ "wallclock_see": {
+  "_": [
+   "Ist es wirklich schon {time}?",
+   "Die Uhr sagt {time}! Wo ist der Tag hin?"
+  ]
+ },
+ "wallclock_leave_boss": {
+  "_": [
+   "Wo wollen Sie hin? Es ist noch nicht mal fünf!",
+   "Setzen Sie sich. Die Uhr geht falsch, und das wissen Sie."
+  ]
+ },
+ "wallclock_excuse": {
+  "_": [
+   "Die Wanduhr hat gesagt, es ist Feierabend!",
+   "Aber... die Uhr!"
+  ]
+ },
+ "plant_notice": {
+  "_": [
+   "Ist der Ficus... wieder zum Leben erwacht?",
+   "Schaut euch die Pflanze an! Sie ist wieder GRÜN!",
+   "Da hat sich jemand um Ficus gekümmert."
+  ]
+ },
+ "plant_thank": {
+  "_": [
+   "{target}, hast du die Pflanze gerettet? Das ist so lieb.",
+   "Ich wette, du hast den Ficus gerettet, {target}."
+  ]
+ },
+ "plant_nope": {
+  "_": [
+   "Ich nicht! Ich krieg nicht mal einen Kaktus am Leben.",
+   "Ich war's nicht. Aber sieht super aus!"
+  ]
+ },
+ "door_stuck": {
+  "_": [
+   "Die Tür geht nicht auf! Wir sind EINGESPERRT!",
+   "Sie klemmt! Ich komm nicht raus!"
+  ]
+ },
+ "door_fix": {
+  "_": [
+   "Zurücktreten. Das ist nur der Riegel.",
+   "Hier — man muss anheben UND drücken."
+  ],
+  "burak": [
+   "Klassiker. Wieder der Riegel."
+  ]
+ },
+ "thermo_locked": {
+  "_": [
+   "Das Thermostat ist GESPERRT?! Wer hat das gesperrt?!",
+   "„Einstellungen gesperrt“. GESPERRT. Ich ERFRIERE.",
+   "Es lässt mich nichts ändern!"
+  ]
+ },
+ "net_down": {
+  "_": [
+   "Das Internet ist weg! Überall!",
+   "Kein Netz?! Ich kann GAR NICHTS machen.",
+   "Sind wir gerade in die Steinzeit zurück?"
+  ],
+  "burak": [
+   "...Das ist kein Fehler. Jemand hat den Switch ausgesteckt."
+  ]
+ },
+ "net_hero": {
+  "_": [
+   "Wieder online. Gern geschehen.",
+   "Netz läuft. Keiner fasst die blaue Kiste an."
+  ]
+ },
+ "coat_wrong": {
+  "_": [
+   "...Dieser Mantel riecht nach dem Parfüm von jemand anderem.",
+   "Warum sind die Ärmel so lang? ...Das ist nicht mein Mantel."
+  ]
+ },
+ "coat_swapback": {
+  "_": [
+   "Ich glaube, du bist gestern in meinem Mantel nach Hause gegangen.",
+   "Ist das deiner? Ich hab ihn den ganzen Abend getragen. Sorry!"
+  ]
+ },
+ "coat_laugh": {
+  "_": [
+   "Ha! Ehrlich gesagt stand er dir besser.",
+   "Behalt ihn. Spaß. Gib ihn zurück."
+  ]
+ },
+ "coat_romance": {
+  "_": [
+   "Er riecht immer noch nach dir. ...Ich meine. Hier ist dein Mantel.",
+   "Ich... hab ihn irgendwie gern getragen."
+  ]
+ },
+ "slip": {
+  "_": [
+   "WOAH— *PLATSCH*",
+   "*rutscht aus* AAAH!",
+   "Wer hat hier eine PFÜTZE hingemacht?!"
+  ]
+ },
+ "slip_help": {
+  "_": [
+   "Alles okay?! Vorsicht!",
+   "Komm, ich helf dir hoch."
+  ]
+ },
+ "disco_wow": {
+  "_": [
+   "DISCOLICHTER?! Im BÜRO?!",
+   "Warum ist alles lila und blinkt?!",
+   "Partyzeit? Es ist Dienstag!"
+  ],
+  "ece": [
+   "TANZPAUSE!"
+  ],
+  "mert": [
+   "Endlich. Meine Stunde ist gekommen."
+  ]
+ },
+ "disco_boss": {
+  "_": [
+   "WAS PASSIERT MIT MEINEM LICHT?!",
+   "Das hier ist ein Büro, kein Nachtclub!"
+  ]
+ },
+ "flicker_scared": {
+  "_": [
+   "Warum flackert das Licht so?!",
+   "Okay, so fangen Horrorfilme an.",
+   "Hast du das gesehen? Das Licht hat... geatmet."
+  ],
+  "ece": [
+   "Ich hab keine Angst. Ich hab KEINE Angst. Ich hab ein BISSCHEN Angst."
+  ],
+  "zeynep": [
+   "Ich wusste es. In diesem Gebäude spukt es."
+  ]
+ },
+ "flicker_burak": {
+  "_": [
+   "Ein Wackelkontakt. Keine Geister. Wahrscheinlich.",
+   "Ich schau mir den Sicherungskasten an. Keine Panik."
+  ]
+ },
+ "kindnote_read": {
+  "_": [
+   "„{best} ist der einzige Grund, warum ich zur Arbeit komme.“ — {owner:s} Zettel?",
+   "Ein Zettel auf {owner:s} Tisch: „{best} macht meinen Tag immer schöner.“"
+  ]
+ },
+ "kindnote_me": {
+  "_": [
+   "...{owner} hat das über MICH geschrieben?",
+   "Oh. Das denkt {owner} über mich? Ich... wow."
+  ]
+ },
+ "giftcard_find": {
+  "_": [
+   "Ein Geschenk? Mit MEINEM Namen drauf? Von {giver}?",
+   "„Für {target}, in Liebe — {giver}“. Für mich?!"
+  ]
+ },
+ "giftcard_thank": {
+  "_": [
+   "{target}! Ich meine — {giver}! Danke für das Geschenk!",
+   "Ich hab dein Geschenk bekommen! Das wäre doch nicht nötig gewesen!"
+  ]
+ },
+ "giftcard_what": {
+  "_": [
+   "...Das Geschenk war für {intended}.",
+   "Oh nein. Das war für {intended} gedacht!"
+  ]
+ },
+ "giftcard_intended": {
+  "_": [
+   "Mein Geschenk ging also an jemand anderen. Schön.",
+   "Ich hab nichts bekommen. Super. Super, super, super."
+  ]
+ },
+ "source_read": {
+  "_": [
+   "„Das Gerücht über {subject}? Hat {origin} in die Welt gesetzt.“ Hängt genau da.",
+   "{origin} hat also die Geschichte über {subject} in die Welt gesetzt..."
+  ]
+ },
+ "stickyswap_read": {
+  "_": [
+   "„Mittagessen um eins? Ich lade ein.“ — von {owner}? An mich?",
+   "Ein Zettel von {owner}: „Mittag um 1?“ ...Klar!"
+  ]
+ },
+ "stickyswap_meet": {
+  "_": [
+   "Du wolltest Mittag essen? ...Mit mir?",
+   "Da bin ich, Mittagskumpel."
+  ]
+ },
+ "stickyswap_ok": {
+  "_": [
+   "Ha. Warum nicht? Gehen wir.",
+   "Falscher Zettel, richtige Person, vielleicht."
+  ]
+ },
+ "apology_wrong_read": {
+  "_": [
+   "„Es tut mir so leid, was ich gesagt habe“... von {owner}? Was hat {owner} denn gesagt?",
+   "Ein Entschuldigungsbrief von {owner}? An mich? Wofür?"
+  ]
+ },
+ "apology_wrong_ask": {
+  "_": [
+   "{target}, ich hab deine Entschuldigung bekommen. Hast du... was über mich gesagt?",
+   "Warum entschuldigst du dich bei mir? Was ist passiert?"
+  ]
+ },
+ "apology_wrong_explain": {
+  "_": [
+   "Der Brief war nicht für dich! Er war für {foe}!",
+   "Oh nein. Der war für {foe} gedacht."
+  ]
+ },
+ "collection_see": {
+  "_": [
+   "„Sammlung für {bdayp:s} Geburtstag“... für MICH?",
+   "Ein geheimer Umschlag, in dem für meinen Geburtstag gesammelt wird? Ach."
+  ]
+ },
+ "collection_sad": {
+  "_": [
+   "Wer hat den Umschlag LIEGEN LASSEN?! Das war geheim!",
+   "Da geht die Überraschung dahin."
+  ]
+ },
+ "defend_read": {
+  "_": [
+   "{owner} hat an Ahmet geschrieben: „{best} verdient mehr Anerkennung als alle anderen hier.“",
+   "{owner} hat mich verteidigt? Bei AHMET? Als ich nicht mal dabei war?"
+  ]
+ },
+ "defend_thank": {
+  "_": [
+   "{target}... Ich hab gesehen, was du über mich geschrieben hast. Danke.",
+   "Du hast dich für mich eingesetzt. Ich wusste das nicht. Danke."
+  ]
+ },
+ "defend_shy": {
+  "_": [
+   "Oh — das hast du gesehen? Das ist einfach die Wahrheit.",
+   "Mach keine große Sache draus. Du hast es verdient."
+  ]
+ },
+ "lunchinv_read": {
+  "_": [
+   "Eine Einladung zum Mittagessen — von {owner}? Für mich?",
+   "„Heute zusammen Mittag essen?“ — {owner}. ...Okay!"
+  ]
+ },
+ "lunchinv_awk": {
+  "_": [
+   "Also. Ähm. Mittagessen. Schönes Wetter.",
+   "...",
+   "Schönes Sandwich."
+  ]
+ },
+ "lunchinv_click": {
+  "_": [
+   "Okay, warum haben wir das noch nie gemacht?!",
+   "Du bist ja richtig witzig!"
+  ]
+ },
+ "lovenote_read": {
+  "_": [
+   "„Jedes Mal, wenn du vorbeigehst, vergesse ich mein Passwort.“ — {owner}? An MICH?",
+   "Ein Liebesbrief. Von {owner}. Auf meinem Tisch. Oh je."
+  ]
+ },
+ "lovenote_jealous": {
+  "_": [
+   "{owner} hat DIR einen Liebesbrief geschickt?!",
+   "Moment. {owner} steht auf {target}?"
+  ]
+ },
+ "pact_read": {
+  "_": [
+   "„Bündnisvertrag: {a} und {b} unterstützen sich gegenseitig.“ Unterschrieben?!",
+   "{a} und {b} haben einen SCHRIFTLICHEN Pakt? Wow."
+  ]
+ },
+ "compliment_read": {
+  "_": [
+   "„{target} ist der freundlichste Mensch in diesem Büro.“ Anonym!",
+   "Jemand hat ein Kompliment über {target} aufgehängt. Ach."
+  ]
+ },
+ "compliment_self": {
+  "_": [
+   "Jemand hat das über MICH geschrieben? Wer?!",
+   "Ein anonymes Kompliment... für mich. Ich muss wissen, wer das war."
+  ]
+ },
+ "complaint_read": {
+  "_": [
+   "„{target?Lieber|Liebe} {target}: Bitte hör auf zu summen. Gezeichnet: alle.“ ...Wow.",
+   "Ein anonymer Zettel an der Pinnwand. Über mich. Über mein SUMMEN."
+  ]
+ },
+ "complaint_suspect": {
+  "_": [
+   "Das war {hater}. Ich weiß es.",
+   "{hater}. Muss so sein."
+  ]
+ },
+ "santa_give": {
+  "_": [
+   "Also... ich hab dich gezogen. Hier. Ein Geschenk.",
+   "Wichtel-Zeit. Ich hab... dich."
+  ]
+ },
+ "santa_nice": {
+  "_": [
+   "...Das ist echt aufmerksam. Danke.",
+   "Du hast dir gemerkt, dass ich das mag? Hm."
+  ]
+ },
+ "santa_mean": {
+  "_": [
+   "Ein Buch namens „Wie man weniger nervt“? Echt jetzt?",
+   "Ist das ein Witz? Denn lustig ist das nicht."
+  ]
+ },
+ "notebook_find": {
+  "_": [
+   "Wessen Notizbuch ist das? ...{target:s}.",
+   "{target} hat das Notizbuch auf dem Sofa liegen lassen. Offen."
+  ]
+ },
+ "notebook_close": {
+  "_": [
+   "Nö. Ich les das nicht. Ich geb's zurück.",
+   "Das ist privat. Ich schau nicht rein."
+  ]
+ },
+ "notebook_return": {
+  "_": [
+   "Das hast du auf dem Sofa liegen lassen. Ich hab's nicht gelesen.",
+   "Dein Notizbuch. Keine Sorge, ich hab nicht reingeschaut."
+  ]
+ },
+ "notebook_thanks": {
+  "_": [
+   "Danke. Ernsthaft.",
+   "Du bist ein guter Mensch."
+  ]
+ },
+ "lunchseat_a": {
+  "_": [
+   "...Natürlich. Die Namensschilder haben mich neben DICH gesetzt.",
+   "Toll. Mittagessen mit dir."
+  ]
+ },
+ "lunchseat_fight": {
+  "_": [
+   "Kannst du leiser kauen?",
+   "Du bist in meinem Ellbogenbereich."
+  ]
+ },
+ "lunchseat_peace": {
+  "_": [
+   "...Okay. Hör zu. Vielleicht sind wir auf dem falschen Fuß gestartet.",
+   "Waffenstillstand bei Sandwiches?"
+  ]
  }
 }

@@ -1,0 +1,210 @@
+5466|Tu peux ARRÊTER DE TAPOTER ?!
+5467|Tu pourrais respirer plus DOUCEMENT ?
+5468|POURQUOI tu fais autant de BRUIT ?
+5469|JE NE TAPOTE PAS ! C'est TOI qui tapotes !
+5470|Oh, c'est MOI qui fais du bruit ?!
+5471|Des cookies gratuits dans la cuisine ! Qui les a apportés ?
+5472|Thé et cookies ! Cuisine ! Maintenant !
+5473|...Oh, les cookies ? Oui. C'était moi. De rien.
+5474|Juste une petite attention pour l'équipe.
+5475|Tu es {to?le meilleur|la meilleure} !
+5476|Merci ! Ils sont incroyables.
+5477|Dernier gobelet ! Ha ! À moi.
+5478|Ooh, il reste pile un gobelet. Quelle chance.
+5479|Tu viens de prendre le DERNIER gobelet ?!
+5480|C'était le dernier café. Je l'ai vu. Tu m'as vu{me?|e} le voir.
+5481|...Bon. Moitié-moitié ?
+5482|Tiens. La moitié. Je ne suis pas un monstre.
+5483|Premier arrivé, premier servi.
+5484|Qui va à la chasse perd sa place.
+5485|« Meilleur patron du monde »... de la part de {target} ? Tiens. Tiens, tiens.
+5486|Une tasse ! Pour moi ! De la part de {target} ! Quelle attention.
+5487|{target}, merci pour la tasse. Je suis touché.
+5488|Excellent goût en matière de tasses, {target}.
+5489|...De rien ? Quelle tasse ?
+5490|Oh — euh — oui ! La tasse ! Bien sûr.
+5491|Une tasse « Meilleur patron du monde » ? Sérieusement, {target} ?
+5492|Waouh. Sans vergogne.
+5493|De l'eau citronnée ? Des rondelles de concombre ? Je ne pars plus jamais d'ici.
+5494|« Journée spa ». Je pourrais m'y habituer.
+5495|Ahh. Hydratation. Le luxe.
+5496|C'est un spa ou un bureau, ici ?!
+5497|À vos bureaux ! Ce n'est pas un club de vacances !
+5498|...Elle marche ? Elle MARCHE ! Qui l'a réparée ?
+5499|L'imprimante est réparée ! Personne n'y a touché... si ?
+5500|OUAH— *CRAC*
+5501|AAH ! Ma chaise !
+5502|*boum* ...Aïe.
+5503|*CRAC* QUI M'A DONNÉ CETTE CHAISE ?!
+5504|Ça va ?! Tiens, prends ma main.
+5505|Oh non ! Tu t'es fait mal ?
+5506|HAHAHA ! Pardon ! Pardon. Ça va ? HAHA !
+5507|C'est le meilleur truc que j'ai vu de la semaine.
+5508|...Pourquoi toutes mes affaires sont dans un CARTON ?
+5509|Mon bureau est emballé. Dans un carton. Je suis... viré{me?|e} ?!
+5510|Un carton. Avec mes affaires. Oh non.
+5511|{owner} va se faire licencier ?!
+5512|Le bureau de {owner} est dans un carton... {owner?le pauvre|la pauvre}.
+5513|Ahmet Bey — je suis viré{me?|e} ? Mes affaires sont dans un carton !
+5514|Dites-moi que j'ai encore un travail, je vous en prie.
+5515|Viré{to?|e} ? Qui a emballé votre bureau ? Vous n'allez nulle part.
+5516|Personne n'est viré. Déballez. Et trouvez qui a fait ça.
+5517|Plus de papier ? Encore ?
+5518|« Chargez du papier ». Avec QUOI ? Le bac est vide !
+5519|Il n'y a pas de papier non plus dans l'armoire à fournitures ?!
+5520|Pas une seule feuille dans tout le bureau.
+5521|J'en ai trouvé. Crise évitée.
+5522|Et voilà. Du papier.
+5523|Ooh, j'ADORE cette chanson !
+5524|Enfin de la bonne musique !
+5525|*danse sur sa chaise*
+5526|DJ, MONTE le son !
+5527|C'est MA chanson !
+5528|Qui a mis ÇA ?!
+5529|Arrêtez ça. Pitié.
+5530|Mes oreilles. Mes pauvres oreilles.
+5531|Casque à réduction de bruit : ACTIVÉ.
+5532|Qui passe de la musique dans MON bureau ?!
+5533|Éteignez-moi ça ! C'est un lieu de travail !
+5534|ALARME INCENDIE ! Tout le monde dehors !
+5535|C'est un exercice ?! Dehors, dehors, dehors !
+5536|Laissez tout ! ALLEZ !
+5537|Tout le monde — calmement — DEHORS. TOUT DE SUITE !
+5538|Mon ordi ! Non — laisse-le ! Cours !
+5539|Sûrement rien. Je sors quand même.
+5540|C'était réel ? Je ne sens pas de fumée.
+5541|Bon, c'est le moment le plus convivial de la semaine.
+5542|Qui a déclenché l'alarme ?!
+5543|Fausse alerte. Tout le monde au travail.
+5544|Rien. RIEN. On rentre.
+5545|Il est vraiment déjà {time} ?
+5546|L'horloge indique {time} ! Où est passée la journée ?
+5547|Où allez-vous ? Il n'est même pas cinq heures !
+5548|Asseyez-vous. Cette horloge est fausse et vous le savez.
+5549|L'horloge murale disait que c'était l'heure de rentrer !
+5550|Mais... l'horloge !
+5551|Le ficus est... revenu à la vie ?
+5552|Regardez la plante ! Elle est de nouveau VERTE !
+5553|Quelqu'un s'est occupé de Ficus.
+5554|{target}, c'est toi qui as sauvé la plante ? C'est trop mignon.
+5555|Je parie que c'est toi qui as sauvé le ficus, {target}.
+5556|Pas moi ! Je n'arrive même pas à garder un cactus en vie.
+5557|Ce n'était pas moi. Mais elle est superbe !
+5558|La porte ne s'ouvre pas ! On est ENFERMÉS !
+5559|Elle est coincée ! Je ne peux pas sortir !
+5560|Reculez. C'est juste le loquet.
+5561|Tiens — il faut soulever ET pousser.
+5562|Classique. Encore le loquet.
+5563|Le thermostat est VERROUILLÉ ?! Qui l'a verrouillé ?!
+5564|« Réglages verrouillés ». VERROUILLÉS. Je GÈLE.
+5565|Il ne me laisse pas le changer !
+5566|Internet est coupé ! Partout !
+5567|Plus de réseau ?! Je ne peux RIEN faire.
+5568|On vient de retourner à l'âge de pierre ?
+5569|...Ce n'est pas un bug. Quelqu'un a débranché le switch.
+5570|De nouveau en ligne. De rien.
+5571|Le réseau marche. Personne ne touche à la boîte bleue.
+5572|...Ce manteau sent le parfum de quelqu'un d'autre.
+5573|Pourquoi les manches sont si longues ? ...Ce n'est pas mon manteau.
+5574|Je crois que tu es rentré{to?|e} chez toi avec mon manteau hier.
+5575|C'est le tien ? Je l'ai porté toute la soirée. Pardon !
+5576|Ha ! Franchement, il t'allait mieux.
+5577|Garde-le. Je rigole. Rends-le-moi.
+5578|Il sent encore ton odeur. ...Enfin. Voilà ton manteau.
+5579|J'ai... un peu aimé le porter.
+5580|OUAH— *SPLATCH*
+5581|*glisse* AAAH !
+5582|Qui a laissé une FLAQUE ici ?!
+5583|Ça va ?! Attention !
+5584|Viens, je t'aide à te relever.
+5585|DES LUMIÈRES DISCO ?! Au BUREAU ?!
+5586|Pourquoi tout est violet et clignote ?!
+5587|C'est la fête ? On est mardi !
+5588|Enfin. Mon heure est venue.
+5589|PAUSE DANSE !
+5590|QU'EST-CE QUI ARRIVE À MES LUMIÈRES ?!
+5591|C'est un bureau, pas une boîte de nuit !
+5592|Pourquoi les lumières clignotent comme ça ?!
+5593|OK, c'est comme ça que commencent les films d'horreur.
+5594|T'as vu ça ? Les lumières... ont respiré.
+5595|Je n'ai pas peur. Je n'ai PAS peur. J'ai UN PEU peur.
+5596|Je le savais. Ce bâtiment est hanté.
+5597|C'est un faux contact. Pas des fantômes. Probablement.
+5598|Je vais vérifier le disjoncteur. Pas de panique.
+5599|« {best} est la seule raison pour laquelle je viens travailler. » — le mot de {owner} ?
+5600|Un mot sur le bureau de {owner} : « {best} illumine toujours ma journée. »
+5601|...{owner} a écrit ça sur MOI ?
+5602|Oh. {owner} pense ça de moi ? Je... waouh.
+5603|Un cadeau ? Avec MON nom dessus ? De la part de {giver} ?
+5604|« Pour {target}, avec tendresse — {giver} ». Pour moi ?!
+5605|{target} ! Enfin — {giver} ! Merci pour le cadeau !
+5606|J'ai reçu ton cadeau ! Il ne fallait pas !
+5607|...Ce cadeau était pour {intended}.
+5608|Oh non. C'était destiné à {intended} !
+5609|Alors mon cadeau est allé à quelqu'un d'autre. Charmant.
+5610|Je n'ai rien reçu. Cool. Cool, cool, cool.
+5611|« La rumeur sur {subject} ? C'est {origin} qui l'a lancée. » Affiché juste là.
+5612|Alors c'est {origin} qui a lancé cette histoire sur {subject}...
+5613|« Déjeuner à 13 h ? C'est moi qui invite. » — de la part de {owner} ? Pour moi ?
+5614|Un mot de {owner} : « Déjeuner à 13 h ? » ...Avec plaisir !
+5615|Tu voulais déjeuner ? ...Avec moi ?
+5616|Me voilà, {to?copain|copine} de déjeuner.
+5617|Ha. Pourquoi pas ? On y va.
+5618|Mauvais mot, bonne personne, peut-être.
+5619|« Je suis vraiment désolé{owner?|e} pour ce que j'ai dit »... de la part de {owner} ? Qu'est-ce que {owner} a dit ?
+5620|Une lettre d'excuses de {owner} ? Pour moi ? Pour quoi ?
+5621|{target}, j'ai reçu tes excuses. Tu as... dit quelque chose sur moi ?
+5622|Pourquoi tu t'excuses auprès de moi ? Il s'est passé quoi ?
+5623|Cette lettre n'était pas pour toi ! Elle était pour {foe} !
+5624|Oh non. C'était destiné à {foe}.
+5625|« Cagnotte pour l'anniversaire de {bdayp} »... pour MOI ?
+5626|Une enveloppe secrète pour mon anniversaire ? Ooh.
+5627|Qui a laissé l'enveloppe EN VUE ?! C'était un secret !
+5628|Adieu la surprise.
+5629|{owner} a écrit à Ahmet : « {best} mérite plus de reconnaissance que n'importe qui ici. »
+5630|{owner} m'a défendu{me?|e} ? Auprès d'AHMET ? Alors que je n'étais même pas là ?
+5631|{target}... J'ai vu ce que tu as écrit sur moi. Merci.
+5632|Tu as pris ma défense. Je ne savais pas. Merci.
+5633|Oh — tu as vu ça ? C'est juste la vérité.
+5634|N'en fais pas toute une histoire. Tu le mérites.
+5635|Une invitation à déjeuner — de la part de {owner} ? Pour moi ?
+5636|« On déjeune ensemble aujourd'hui ? » — {owner}. ...OK !
+5637|Alors. Euh. Le déjeuner. Il fait beau.
+5638|...
+5639|Joli sandwich.
+5640|OK, pourquoi on n'a jamais fait ça avant ?!
+5641|En fait, tu es vraiment drôle !
+5642|« Chaque fois que tu passes, j'oublie mon mot de passe. » — {owner} ? Pour MOI ?
+5643|Un mot doux. De {owner}. Sur mon bureau. Oh là là.
+5644|{owner} T'a envoyé un mot doux ?!
+5645|Attends. {owner} craque pour {target} ?
+5646|« Pacte d'alliance : {a} et {b} se soutiendront mutuellement. » Signé ?!
+5647|{a} et {b} ont un pacte ÉCRIT ? Waouh.
+5648|« {target} est la personne la plus gentille de ce bureau. » Anonyme !
+5649|Quelqu'un a affiché un compliment sur {target}. Ooh.
+5650|Quelqu'un a écrit ça sur MOI ? Qui ?!
+5651|Un compliment anonyme... pour moi. Il faut que je sache qui l'a écrit.
+5652|« {target?Cher|Chère} {target} : arrête de fredonner, s'il te plaît. Signé : tout le monde. » ...Waouh.
+5653|Un mot anonyme au tableau. Sur moi. Sur ma façon de FREDONNER.
+5654|C'est {hater}. Je le sais.
+5655|{hater}. Forcément.
+5656|Alors... j'ai tiré ton nom. Tiens. C'est un cadeau.
+5657|C'est l'heure du Père Noël secret. Je suis tombé{me?|e} sur... toi.
+5658|...C'est vraiment très attentionné. Merci.
+5659|Tu t'es souvenu{to?|e} que j'aimais ça ? Tiens.
+5660|Un livre intitulé « Comment être moins agaçant » ? Sérieusement ?
+5661|C'est une blague ? Parce que ce n'est pas drôle.
+5662|C'est le carnet de qui ? ...De {target}.
+5663|{target} a laissé son carnet sur le canapé. Ouvert.
+5664|Non. Je ne le lis pas. Je vais le rendre.
+5665|C'est privé. Je ne regarde pas.
+5666|Tu as laissé ça sur le canapé. Je ne l'ai pas lu.
+5667|Ton carnet. T'inquiète, je n'ai pas regardé.
+5668|Merci. Sincèrement.
+5669|Tu es quelqu'un de bien.
+5670|...Évidemment. Les chevalets m'ont mis{me?|e} à côté de TOI.
+5671|Génial. Déjeuner avec toi.
+5672|Tu peux mâcher plus doucement ?
+5673|Tu empiètes sur l'espace de mon coude.
+5674|...OK. Écoute. On est peut-être partis du mauvais pied.
+5675|Trêve autour d'un sandwich ?

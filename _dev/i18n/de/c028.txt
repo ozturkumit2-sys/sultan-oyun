@@ -1,0 +1,210 @@
+5466|Kannst du mal AUFHÖREN ZU TROMMELN?!
+5467|Könntest du LEISER atmen?
+5468|WARUM bist du so LAUT?
+5469|ICH TROMMLE NICHT! DU trommelst!
+5470|Ach, ICH bin laut?!
+5471|Gratis-Kekse in der Küche! Wer hat die mitgebracht?
+5472|Tee und Kekse! Küche! Sofort!
+5473|...Oh, die Kekse? Ja. Das war ich. Gern geschehen.
+5474|Nur eine Kleinigkeit fürs Team.
+5475|Du bist {to?der Beste|die Beste}!
+5476|Danke! Die sind fantastisch.
+5477|Letzte Tasse! Ha! Meine.
+5478|Ooh, genau noch eine Tasse übrig. Glück gehabt.
+5479|Hast du dir gerade die LETZTE Tasse genommen?!
+5480|Das war der letzte Kaffee. Ich hab's gesehen. Du hast gesehen, dass ich's gesehen hab.
+5481|...Na gut. Halbe-halbe?
+5482|Hier. Nimm die Hälfte. Ich bin ja kein Monster.
+5483|Wer zuerst kommt, mahlt zuerst.
+5484|Wer schläft, verliert.
+5485|„Bester Chef der Welt“... von {target}? Na. Na, na.
+5486|Eine Tasse! Für mich! Von {target}! Wie aufmerksam.
+5487|{target}, danke für die Tasse. Ich bin gerührt.
+5488|Ausgezeichneter Geschmack bei Tassen, {target}.
+5489|...Gern geschehen? Welche Tasse?
+5490|Oh — ähm — ja! Die Tasse! Natürlich.
+5491|Eine „Bester Chef der Welt“-Tasse? Echt jetzt, {target}?
+5492|Wow. Schamlos.
+5493|Zitronenwasser? Gurkenscheiben? Ich geh hier nie wieder weg.
+5494|„Wellness-Tag“. Daran könnte ich mich gewöhnen.
+5495|Ahh. Hydration. Luxus.
+5496|Ist das hier ein Spa oder ein Büro?!
+5497|Zurück an die Schreibtische! Das hier ist keine Ferienanlage!
+5498|...Er geht? Er GEHT! Wer hat ihn repariert?
+5499|Der Drucker ist repariert! Keiner hat ihn angefasst... oder?
+5500|WOAH— *KRACH*
+5501|AAH! Mein Stuhl!
+5502|*plumps* ...Au.
+5503|*KRACH* WER HAT MIR DIESEN STUHL GEGEBEN?!
+5504|Alles okay?! Hier, nimm meine Hand.
+5505|Oh nein! Hast du dir wehgetan?
+5506|HAHAHA! Sorry! Sorry. Alles okay? HAHA!
+5507|Das war das Beste, was ich die ganze Woche gesehen hab.
+5508|...Warum sind all meine Sachen in einer KISTE?
+5509|Mein Schreibtisch ist eingepackt. In einer Kiste. Bin ich... gefeuert?!
+5510|Ein Karton. Mit meinen Sachen. Oh nein.
+5511|Wird {owner} etwa entlassen?!
+5512|{owner:s} Schreibtisch ist in einer Kiste... {owner?der Arme|die Arme}.
+5513|Ahmet Bey — bin ich gefeuert? Meine Sachen sind in einer Kiste!
+5514|Bitte sagen Sie mir, dass ich noch einen Job habe.
+5515|Gefeuert? Wer hat Ihren Schreibtisch eingepackt? Sie gehen nirgendwohin.
+5516|Niemand ist gefeuert. Packen Sie aus. Und finden Sie heraus, wer das war.
+5517|Kein Papier mehr? Schon wieder?
+5518|„Papier einlegen“. Mit WAS? Das Fach ist leer!
+5519|Im Materialregal ist auch kein Papier?!
+5520|Kein einziges Blatt im ganzen Büro.
+5521|Hab welches gefunden. Krise abgewendet.
+5522|Na also. Papier.
+5523|Ooh, ich LIEBE dieses Lied!
+5524|Endlich mal gute Musik!
+5525|*tanzt auf dem Stuhl*
+5526|DJ, mach LAUTER!
+5527|Das ist MEIN Song!
+5528|Wer hat DAS angemacht?!
+5529|Macht, dass es aufhört. Bitte.
+5530|Meine Ohren. Meine armen Ohren.
+5531|Noise-Cancelling-Kopfhörer: AN.
+5532|Wer spielt in MEINEM Büro Musik?!
+5533|Machen Sie das aus! Das hier ist ein Arbeitsplatz!
+5534|FEUERALARM! Alle raus!
+5535|Ist das eine Übung?! Raus, raus, raus!
+5536|Lasst alles liegen! LOS!
+5537|Alle — ruhig — RAUS. SOFORT!
+5538|Mein Laptop! Nein — lass ihn! Lauf!
+5539|Wahrscheinlich nichts. Ich geh trotzdem.
+5540|War das echt? Ich rieche keinen Rauch.
+5541|Na ja, so gesellig waren wir die ganze Woche nicht.
+5542|Wer hat den Alarm ausgelöst?!
+5543|Fehlalarm. Alle zurück an die Arbeit.
+5544|Nichts. NICHTS. Wieder rein.
+5545|Ist es wirklich schon {time}?
+5546|Die Uhr sagt {time}! Wo ist der Tag hin?
+5547|Wo wollen Sie hin? Es ist noch nicht mal fünf!
+5548|Setzen Sie sich. Die Uhr geht falsch, und das wissen Sie.
+5549|Die Wanduhr hat gesagt, es ist Feierabend!
+5550|Aber... die Uhr!
+5551|Ist der Ficus... wieder zum Leben erwacht?
+5552|Schaut euch die Pflanze an! Sie ist wieder GRÜN!
+5553|Da hat sich jemand um Ficus gekümmert.
+5554|{target}, hast du die Pflanze gerettet? Das ist so lieb.
+5555|Ich wette, du hast den Ficus gerettet, {target}.
+5556|Ich nicht! Ich krieg nicht mal einen Kaktus am Leben.
+5557|Ich war's nicht. Aber sieht super aus!
+5558|Die Tür geht nicht auf! Wir sind EINGESPERRT!
+5559|Sie klemmt! Ich komm nicht raus!
+5560|Zurücktreten. Das ist nur der Riegel.
+5561|Hier — man muss anheben UND drücken.
+5562|Klassiker. Wieder der Riegel.
+5563|Das Thermostat ist GESPERRT?! Wer hat das gesperrt?!
+5564|„Einstellungen gesperrt“. GESPERRT. Ich ERFRIERE.
+5565|Es lässt mich nichts ändern!
+5566|Das Internet ist weg! Überall!
+5567|Kein Netz?! Ich kann GAR NICHTS machen.
+5568|Sind wir gerade in die Steinzeit zurück?
+5569|...Das ist kein Fehler. Jemand hat den Switch ausgesteckt.
+5570|Wieder online. Gern geschehen.
+5571|Netz läuft. Keiner fasst die blaue Kiste an.
+5572|...Dieser Mantel riecht nach dem Parfüm von jemand anderem.
+5573|Warum sind die Ärmel so lang? ...Das ist nicht mein Mantel.
+5574|Ich glaube, du bist gestern in meinem Mantel nach Hause gegangen.
+5575|Ist das deiner? Ich hab ihn den ganzen Abend getragen. Sorry!
+5576|Ha! Ehrlich gesagt stand er dir besser.
+5577|Behalt ihn. Spaß. Gib ihn zurück.
+5578|Er riecht immer noch nach dir. ...Ich meine. Hier ist dein Mantel.
+5579|Ich... hab ihn irgendwie gern getragen.
+5580|WOAH— *PLATSCH*
+5581|*rutscht aus* AAAH!
+5582|Wer hat hier eine PFÜTZE hingemacht?!
+5583|Alles okay?! Vorsicht!
+5584|Komm, ich helf dir hoch.
+5585|DISCOLICHTER?! Im BÜRO?!
+5586|Warum ist alles lila und blinkt?!
+5587|Partyzeit? Es ist Dienstag!
+5588|Endlich. Meine Stunde ist gekommen.
+5589|TANZPAUSE!
+5590|WAS PASSIERT MIT MEINEM LICHT?!
+5591|Das hier ist ein Büro, kein Nachtclub!
+5592|Warum flackert das Licht so?!
+5593|Okay, so fangen Horrorfilme an.
+5594|Hast du das gesehen? Das Licht hat... geatmet.
+5595|Ich hab keine Angst. Ich hab KEINE Angst. Ich hab ein BISSCHEN Angst.
+5596|Ich wusste es. In diesem Gebäude spukt es.
+5597|Ein Wackelkontakt. Keine Geister. Wahrscheinlich.
+5598|Ich schau mir den Sicherungskasten an. Keine Panik.
+5599|„{best} ist der einzige Grund, warum ich zur Arbeit komme.“ — {owner:s} Zettel?
+5600|Ein Zettel auf {owner:s} Tisch: „{best} macht meinen Tag immer schöner.“
+5601|...{owner} hat das über MICH geschrieben?
+5602|Oh. Das denkt {owner} über mich? Ich... wow.
+5603|Ein Geschenk? Mit MEINEM Namen drauf? Von {giver}?
+5604|„Für {target}, in Liebe — {giver}“. Für mich?!
+5605|{target}! Ich meine — {giver}! Danke für das Geschenk!
+5606|Ich hab dein Geschenk bekommen! Das wäre doch nicht nötig gewesen!
+5607|...Das Geschenk war für {intended}.
+5608|Oh nein. Das war für {intended} gedacht!
+5609|Mein Geschenk ging also an jemand anderen. Schön.
+5610|Ich hab nichts bekommen. Super. Super, super, super.
+5611|„Das Gerücht über {subject}? Hat {origin} in die Welt gesetzt.“ Hängt genau da.
+5612|{origin} hat also die Geschichte über {subject} in die Welt gesetzt...
+5613|„Mittagessen um eins? Ich lade ein.“ — von {owner}? An mich?
+5614|Ein Zettel von {owner}: „Mittag um 1?“ ...Klar!
+5615|Du wolltest Mittag essen? ...Mit mir?
+5616|Da bin ich, Mittagskumpel.
+5617|Ha. Warum nicht? Gehen wir.
+5618|Falscher Zettel, richtige Person, vielleicht.
+5619|„Es tut mir so leid, was ich gesagt habe“... von {owner}? Was hat {owner} denn gesagt?
+5620|Ein Entschuldigungsbrief von {owner}? An mich? Wofür?
+5621|{target}, ich hab deine Entschuldigung bekommen. Hast du... was über mich gesagt?
+5622|Warum entschuldigst du dich bei mir? Was ist passiert?
+5623|Der Brief war nicht für dich! Er war für {foe}!
+5624|Oh nein. Der war für {foe} gedacht.
+5625|„Sammlung für {bdayp:s} Geburtstag“... für MICH?
+5626|Ein geheimer Umschlag, in dem für meinen Geburtstag gesammelt wird? Ach.
+5627|Wer hat den Umschlag LIEGEN LASSEN?! Das war geheim!
+5628|Da geht die Überraschung dahin.
+5629|{owner} hat an Ahmet geschrieben: „{best} verdient mehr Anerkennung als alle anderen hier.“
+5630|{owner} hat mich verteidigt? Bei AHMET? Als ich nicht mal dabei war?
+5631|{target}... Ich hab gesehen, was du über mich geschrieben hast. Danke.
+5632|Du hast dich für mich eingesetzt. Ich wusste das nicht. Danke.
+5633|Oh — das hast du gesehen? Das ist einfach die Wahrheit.
+5634|Mach keine große Sache draus. Du hast es verdient.
+5635|Eine Einladung zum Mittagessen — von {owner}? Für mich?
+5636|„Heute zusammen Mittag essen?“ — {owner}. ...Okay!
+5637|Also. Ähm. Mittagessen. Schönes Wetter.
+5638|...
+5639|Schönes Sandwich.
+5640|Okay, warum haben wir das noch nie gemacht?!
+5641|Du bist ja richtig witzig!
+5642|„Jedes Mal, wenn du vorbeigehst, vergesse ich mein Passwort.“ — {owner}? An MICH?
+5643|Ein Liebesbrief. Von {owner}. Auf meinem Tisch. Oh je.
+5644|{owner} hat DIR einen Liebesbrief geschickt?!
+5645|Moment. {owner} steht auf {target}?
+5646|„Bündnisvertrag: {a} und {b} unterstützen sich gegenseitig.“ Unterschrieben?!
+5647|{a} und {b} haben einen SCHRIFTLICHEN Pakt? Wow.
+5648|„{target} ist der freundlichste Mensch in diesem Büro.“ Anonym!
+5649|Jemand hat ein Kompliment über {target} aufgehängt. Ach.
+5650|Jemand hat das über MICH geschrieben? Wer?!
+5651|Ein anonymes Kompliment... für mich. Ich muss wissen, wer das war.
+5652|„{target?Lieber|Liebe} {target}: Bitte hör auf zu summen. Gezeichnet: alle.“ ...Wow.
+5653|Ein anonymer Zettel an der Pinnwand. Über mich. Über mein SUMMEN.
+5654|Das war {hater}. Ich weiß es.
+5655|{hater}. Muss so sein.
+5656|Also... ich hab dich gezogen. Hier. Ein Geschenk.
+5657|Wichtel-Zeit. Ich hab... dich.
+5658|...Das ist echt aufmerksam. Danke.
+5659|Du hast dir gemerkt, dass ich das mag? Hm.
+5660|Ein Buch namens „Wie man weniger nervt“? Echt jetzt?
+5661|Ist das ein Witz? Denn lustig ist das nicht.
+5662|Wessen Notizbuch ist das? ...{target:s}.
+5663|{target} hat das Notizbuch auf dem Sofa liegen lassen. Offen.
+5664|Nö. Ich les das nicht. Ich geb's zurück.
+5665|Das ist privat. Ich schau nicht rein.
+5666|Das hast du auf dem Sofa liegen lassen. Ich hab's nicht gelesen.
+5667|Dein Notizbuch. Keine Sorge, ich hab nicht reingeschaut.
+5668|Danke. Ernsthaft.
+5669|Du bist ein guter Mensch.
+5670|...Natürlich. Die Namensschilder haben mich neben DICH gesetzt.
+5671|Toll. Mittagessen mit dir.
+5672|Kannst du leiser kauen?
+5673|Du bist in meinem Ellbogenbereich.
+5674|...Okay. Hör zu. Vielleicht sind wir auf dem falschen Fuß gestartet.
+5675|Waffenstillstand bei Sandwiches?
