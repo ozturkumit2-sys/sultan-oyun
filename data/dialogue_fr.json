@@ -8774,5 +8774,534 @@
    "...OK. Écoute. On est peut-être partis du mauvais pied.",
    "Trêve autour d'un sandwich ?"
   ]
+ },
+ "couplephoto_see": {
+  "_": [
+   "C'est {target} et {partner}... main dans la main ?!",
+   "Une photo de {target} et {partner} ! Ensemble !"
+  ]
+ },
+ "couplephoto_deny": {
+  "_": [
+   "C'est un FAUX ! C'est photoshoppé !",
+   "On ne s'est JAMAIS tenu la main !"
+  ]
+ },
+ "couplephoto_secret": {
+  "_": [
+   "...C'est un faux. Évidemment. ...C'est une jolie photo, cela dit.",
+   "Ha. Un faux. C'est ça. Complètement faux."
+  ]
+ },
+ "excluded_read": {
+  "_": [
+   "« Apéro après le boulot ! Tout le monde est invité ! » ...Sauf moi, apparemment.",
+   "Tous les noms sont sur la liste, sauf le mien."
+  ]
+ },
+ "excluded_ask": {
+  "_": [
+   "Alors... ton invitation à l'apéro. Tu m'as oublié{me?|e} exprès ?",
+   "Pourquoi je n'étais pas sur la liste ?"
+  ]
+ },
+ "excluded_sorry": {
+  "_": [
+   "Quoi ? Non ! Tu es invité{to?|e} ! Bien sûr que tu es invité{to?|e} !",
+   "Ce n'est pas ma liste ! Viens ! S'il te plaît, viens !"
+  ]
+ },
+ "excluded_cold": {
+  "_": [
+   "Bon... c'est un petit groupe.",
+   "Ce n'est pas bien grave."
+  ]
+ },
+ "tipjar_see": {
+  "_": [
+   "« Merci Burak de tout réparer. » Une cagnotte de pourboires ! J'en suis.",
+   "Une cagnotte pour Burak ? Il la mérite."
+  ]
+ },
+ "tipjar_burak": {
+  "_": [
+   "...C'est pour moi ? Qui a fait ça ?",
+   "Une cagnotte. Pour moi. Tiens. Merci, tout le monde."
+  ]
+ },
+ "sbox_boss_promote": {
+  "_": [
+   "Six mots disant « Promouvez {target} ». Intéressant.",
+   "Le personnel semble adorer {target}. Noté."
+  ]
+ },
+ "sbox_boss_fire": {
+  "_": [
+   "Six mots disant « Virez {target} » ?! Qu'est-ce qui se passe ?",
+   "Hm. Quelqu'un n'aime VRAIMENT pas {target}."
+  ]
+ },
+ "sbox_target_hear": {
+  "_": [
+   "Des gens ont écrit « virez-moi » dans la boîte à idées ?!",
+   "Qui écrirait ça sur moi ?!"
+  ]
+ },
+ "iknow_read": {
+  "_": [
+   "« Je sais ce que tu as fait. » ...Quoi ? QUI sait QUOI ?",
+   "« Je sais ce que tu as fait. » Pas de signature. Mes mains tremblent."
+  ]
+ },
+ "iknow_confess": {
+  "_": [
+   "Il faut que je le dise à quelqu'un. OK. {friend}... j'ai quelque chose à te dire.",
+   "{friend}, on peut parler ? Quelque part à l'abri des oreilles ?"
+  ]
+ },
+ "iknow_paranoid": {
+  "_": [
+   "Tout le monde me regarde. Ils savent tous. Pas vrai ?",
+   "C'était toi ? C'était TOI ?"
+  ]
+ },
+ "j01_intro": {
+  "_": [
+   "Avant de commencer — j'ai des nouvelles concernant la promotion. J'ai lu le dossier.",
+   "D'abord une annonce. Le dossier de promotion est très clair."
+  ]
+ },
+ "j02_blush": {
+  "_": [
+   "Un mot doux ET une invitation à prendre un café ? De la part de {owner} ? Aujourd'hui ?",
+   "Oh mon Dieu. {owner} veut un RENDEZ-VOUS ?"
+  ]
+ },
+ "j03_read": {
+  "_": [
+   "Une candidature — agrafée à CE rapport de performance ? {applicant}. Dans mon bureau.",
+   "Alors {applicant} veut partir. Et regardez ce rapport."
+  ]
+ },
+ "j03_accuse": {
+  "_": [
+   "Votre rapport est une catastrophe et vous postulez ailleurs. Expliquez-vous.",
+   "Vous cherchez du travail ? Avec des chiffres pareils ? Intéressant."
+  ]
+ },
+ "j03_quit": {
+  "_": [
+   "Vous savez quoi ? Très bien. Je démissionne. J'imprime ma lettre tout de suite.",
+   "J'en ai assez. Vous aurez ma démission dans dix minutes."
+  ]
+ },
+ "j03_plead": {
+  "_": [
+   "Je vous en prie — le rapport est faux ! Je peux tout expliquer !",
+   "Ce n'est pas mon rapport ! Quelqu'un l'a modifié !"
+  ]
+ },
+ "j04_send": {
+  "_": [
+   "*fiouuu* — « Chiffres définitifs, Ahmet en copie » — envoyé.",
+   "*le vieux tableur quitte le bâtiment*"
+  ]
+ },
+ "j05_read": {
+  "_": [
+   "« Restructuration — questions-réponses, 11h00 » ?! C'est à l'ORDRE DU JOUR ?!",
+   "La note ET l'ordre du jour ? C'est réel. Ils licencient des gens."
+  ]
+ },
+ "j06_crown": {
+  "_": [
+   "Le tableau dit que je suis responsable par intérim aujourd'hui. Qui suis-je pour discuter ?",
+   "« Responsable par intérim : moi. » Eh bien. Si le tableau le dit."
+  ]
+ },
+ "j07_scream": {
+  "_": [
+   "LES LUMIÈRES CLIGNOTENT ET IL Y A UNE TÊTE DE MORT SUR MON ÉCRAN !",
+   "Il est dans les ORDINATEURS maintenant. Le fantôme est dans les ordinateurs !"
+  ]
+ },
+ "j08_read": {
+  "_": [
+   "Budget augmentations ZÉRO — et c'est ÇA que gagnent certains ?!",
+   "J'ai vu la fiche de paie. Et maintenant « pas d'augmentations » ? Non. Hors de question."
+  ]
+ },
+ "j09_kickoff": {
+  "_": [
+   "De la musique ? Des lumières disco ? Des SNACKS ? C'est une fête. Je décrète que c'est une fête.",
+   "OK, l'univers veut une fête. Qui suis-je pour dire non ?"
+  ]
+ },
+ "j10_find": {
+  "_": [
+   "Une demande de mutation. ET une lettre de recommandation. Les deux pour {target}.",
+   "Hm. Les papiers de {target}. Les deux. Intéressant."
+  ]
+ },
+ "j11_note": {
+  "_": [
+   "« Double rendez-vous au déjeuner ? » Qui a écrit ça sur notre photo ?!",
+   "Quelqu'un a dessiné des cœurs sur la photo. Et une table de déjeuner. Pour quatre."
+  ]
+ },
+ "j13_reminder": {
+  "_": [
+   "CLIENT DANS 30 MINUTES — d'abord le projecteur.",
+   "*tapote le tableau* « Présentation client : {presenter} ». Attends. Moi ?"
+  ]
+ },
+ "j15_sign": {
+  "_": [
+   "« J'ai tout jeté. Étiquetez votre nourriture. — {signer} » ?!",
+   "{signer} a jeté le déjeuner de TOUT LE MONDE ? Et a signé ?!"
+  ]
+ },
+ "j16_see": {
+  "_": [
+   "Réponse automatique « je démissionne » ET une lettre de démission ? {owner} s'en va vraiment !",
+   "Oh non. {owner} s'en va. C'est réel. La lettre est juste là."
+  ]
+ },
+ "j18_storm": {
+  "_": [
+   "Cette évaluation était TRUQUÉE. Quelqu'un a réécrit mon rapport et il a cru chaque mot !",
+   "Il m'a lu un rapport que je n'ai jamais écrit. Et il a adoré."
+  ]
+ },
+ "j19_sign": {
+  "_": [
+   "La plainte anonyme contre moi est de l'écriture de {gossip} ?!",
+   "Alors c'était {gossip}. La rumeur ET la plainte."
+  ]
+ },
+ "j20_wonder": {
+  "_": [
+   "Un mot gentil ET un compliment au tableau ? Quelqu'un m'apprécie. Qui ?!",
+   "Deux gentillesses anonymes en un jour ? C'est un admirateur secret."
+  ]
+ },
+ "gh_announce": {
+  "_": [
+   "Je vous le dis : ce bureau est HANTÉ.",
+   "Les lumières. Les imprimantes. Les machines à café. C'est un fantôme. J'en suis sûr{me?|e}.",
+   "Quelque chose vit dans ce bureau. Quelque chose... d'invisible."
+  ],
+  "ece": [
+   "Il y a un FANTÔME. J'ai peur, mais je suis aussi TROP excitée."
+  ],
+  "zeynep": [
+   "J'ai vu des choses. Je prends des notes."
+  ]
+ },
+ "gh_recruit": {
+  "_": [
+   "Séance de spiritisme. Salle de réunion. Après le déjeuner. Tu en es ?",
+   "Il faut entrer en contact avec le fantôme. Correctement. Tu es avec moi ?"
+  ]
+ },
+ "gh_recruit_yes": {
+  "_": [
+   "OUI. J'apporte les bougies.",
+   "J'en suis. J'ai toujours voulu faire une séance de spiritisme."
+  ]
+ },
+ "gh_recruit_no": {
+  "_": [
+   "Hors de question. Tu as besoin de sommeil.",
+   "Je ne vais pas parler à l'âme de l'imprimante."
+  ]
+ },
+ "gh_chant": {
+  "_": [
+   "Esprit du bureau... es-tu là ? Frappe un coup pour oui.",
+   "Ô fantôme... si tu es là... fais clignoter les lumières."
+  ]
+ },
+ "gh_scream": {
+  "_": [
+   "AAAAAH ! IL A RÉPONDU !",
+   "LES LUMIÈRES ! VOUS AVEZ VU LES LUMIÈRES ?!"
+  ]
+ },
+ "gh_nothing": {
+  "_": [
+   "...Rien.",
+   "Il est peut-être en pause déjeuner.",
+   "Bon. Voilà une heure de ma vie."
+  ]
+ },
+ "gh_debunk": {
+  "_": [
+   "C'était un fil mal fixé dans le plafond. Pas un fantôme. Arrêtez, s'il vous plaît.",
+   "J'ai vérifié le tableau électrique. Relais défectueux. Il n'y a pas de fantôme."
+  ]
+ },
+ "gh_believe_burak": {
+  "_": [
+   "...Oh. Un relais. D'accord. Bien sûr.",
+   "Bon. Pas de fantôme. ...Probablement."
+  ]
+ },
+ "gh_dont_believe": {
+  "_": [
+   "C'est EXACTEMENT ce qu'un fantôme voudrait que tu dises.",
+   "Tu ne peux pas tout expliquer avec des « relais », Burak."
+  ]
+ },
+ "coup_announce": {
+  "_": [
+   "Votre attention, tout le monde ! Nouvelles mesures d'efficacité, applicables immédiatement.",
+   "Écoutez. Pendant qu'Ahmet est occupé, je rationalise les choses."
+  ],
+  "deniz": [
+   "L'équipe. Quelques changements. Effectifs maintenant. Des questions ? Non ? Parfait."
+  ]
+ },
+ "coup_follow": {
+  "_": [
+   "Bien sûr, comme tu veux.",
+   "OK ! Nouvelles règles !"
+  ]
+ },
+ "coup_resist": {
+  "_": [
+   "Qui t'a mis{to?|e} aux commandes, TOI ?",
+   "Tu n'es pas {to?le chef|la cheffe}.",
+   "Bien essayé."
+  ]
+ },
+ "coup_ally_ask": {
+  "_": [
+   "Toi et moi. Quand Ahmet n'est pas là, on dirige la boutique. Marché conclu ?",
+   "J'ai besoin d'un bras droit. Intéressé{to?|e} ?"
+  ]
+ },
+ "coup_ally_yes": {
+  "_": [
+   "...Marché conclu. J'y gagne quoi ?",
+   "Je t'écoute."
+  ]
+ },
+ "coup_ally_no": {
+  "_": [
+   "Tu vas nous faire virer tous les deux.",
+   "Laisse-moi en dehors de ça."
+  ]
+ },
+ "coup_boss": {
+  "_": [
+   "Il paraît que c'est VOUS qui dirigez mon bureau, {usurper}.",
+   "Des « mesures d'efficacité », {usurper} ? Dans MON bureau ?"
+  ]
+ },
+ "coup_bold": {
+  "_": [
+   "Il fallait bien que quelqu'un le fasse. Tout partait en vrille.",
+   "J'ai pris des initiatives. De rien."
+  ]
+ },
+ "coup_crushed": {
+  "_": [
+   "Vous marchez sur des œufs. Vraiment.",
+   "Encore un coup pareil et c'est fini pour vous ici."
+  ]
+ },
+ "coup_impressed": {
+  "_": [
+   "...En fait, certaines de ces mesures ne sont pas mauvaises. Mettez-les par écrit.",
+   "Hm. Audacieux. Peut-être trop. Mais pas idiot."
+  ]
+ },
+ "lt_notice": {
+  "_": [
+   "...{lover} drague {crush} ? Juste sous mes yeux ?",
+   "Ah, je vois. {lover} et {crush}. Mignon."
+  ]
+ },
+ "lt_warn": {
+  "_": [
+   "Recule. J'ai vu {crush} en premier.",
+   "Ne t'approche pas de {crush}. Je suis sérieux{me?|se}."
+  ]
+ },
+ "lt_backoff": {
+  "_": [
+   "...Bon. Si ça compte autant pour toi.",
+   "D'accord. D'accord. Je m'efface."
+  ]
+ },
+ "lt_never": {
+  "_": [
+   "Que le meilleur gagne.",
+   "Aucune chance. C'est {crush} qui choisira."
+  ]
+ },
+ "lt_gesture": {
+  "_": [
+   "Je t'ai fait un café. Comme tu l'aimes. Avec un cœur dans la mousse.",
+   "Je t'ai pris un petit truc. Je l'ai vu et j'ai pensé à toi."
+  ]
+ },
+ "lt_gesture_react": {
+  "_": [
+   "...C'est vraiment adorable.",
+   "Oh ! Merci !",
+   "Tu t'en es souvenu{to?|e} ?!"
+  ]
+ },
+ "lt_choice_ask": {
+  "_": [
+   "Alors. Moi ou {lover} ? J'ai besoin de savoir.",
+   "Je dois te demander : il y a quelque chose entre toi et {lover} ?"
+  ]
+ },
+ "lt_choose_rival": {
+  "_": [
+   "...Franchement ? C'est toi. Ça a toujours été toi.",
+   "Toi. Évidemment, toi."
+  ]
+ },
+ "lt_choose_lover": {
+  "_": [
+   "Je suis désolé{me?|e}. C'est {lover} qui me plaît.",
+   "C'est {lover}. Désolé{me?|e}."
+  ]
+ },
+ "lt_choose_none": {
+  "_": [
+   "Aucun de vous deux ! Vous êtes ridicules, tous les deux !",
+   "Je ne suis pas un trophée. Je ne choisis personne."
+  ]
+ },
+ "sr_grumble": {
+  "_": [
+   "On travaille plus chaque année et on gagne MOINS. Ça suffit.",
+   "Quelqu'un d'autre en a marre ? Parce que moi, oui.",
+   "On devrait faire quelque chose. Ensemble."
+  ]
+ },
+ "sr_sign": {
+  "_": [
+   "Tu signes la pétition ? Des augmentations justes pour tous.",
+   "Une signature. Pour nous tous."
+  ]
+ },
+ "sr_signed": {
+  "_": [
+   "Donne-moi ce stylo.",
+   "Signé. Il était temps.",
+   "OK. J'en suis."
+  ]
+ },
+ "sr_refused": {
+  "_": [
+   "Je ne peux pas prendre ce risque.",
+   "Laisse-moi en dehors de ça. J'aime mon travail.",
+   "Ce n'est pas mon combat."
+  ]
+ },
+ "sr_count_many": {
+  "_": [
+   "Regarde toutes ces signatures. Ils ne peuvent pas ignorer ça.",
+   "On est nombreux. Maintenant, on y va."
+  ]
+ },
+ "sr_count_few": {
+  "_": [
+   "...Deux signatures. Dont la mienne.",
+   "Personne n'a signé. Des lâches. Tous autant qu'ils sont."
+  ]
+ },
+ "sr_demand": {
+  "_": [
+   "Ahmet Bey, nous demandons des augmentations justes. Pour tous.",
+   "Nous avons signé une pétition. Nous voulons être payés équitablement."
+  ]
+ },
+ "sr_concede": {
+  "_": [
+   "...Bon. Je porterai ça au siège. Vous aurez quelque chose. Promis.",
+   "Vous marquez un point. Je vais me battre pour ça."
+  ]
+ },
+ "sr_refuse": {
+  "_": [
+   "Une PÉTITION ? On n'est pas à la bourse du travail !",
+   "Ceux qui ne sont pas contents savent où est la porte."
+  ]
+ },
+ "lm_outrage": {
+  "_": [
+   "C'est la TROISIÈME fois ! Je vais trouver qui c'est.",
+   "Il y a un VOLEUR DE DÉJEUNERS dans ce bureau. Et je vais l'attraper."
+  ]
+ },
+ "lm_hire": {
+  "_": [
+   "Tu remarques tout. Tu m'aides à attraper un voleur de déjeuners ?",
+   "J'ai besoin d'un détective. Tu es la personne la plus curieuse que je connaisse. C'est un compliment."
+  ]
+ },
+ "lm_accept": {
+  "_": [
+   "Un mystère ? J'en SUIS.",
+   "Laisse-moi faire. Personne ne vole de déjeuner sous ma surveillance."
+  ]
+ },
+ "lm_watch": {
+  "_": [
+   "*caché{me?|e} derrière la porte du frigo* D'une minute à l'autre...",
+   "Planque. Frigo. Les yeux ouverts."
+  ]
+ },
+ "lm_caught": {
+  "_": [
+   "JE T'AI {culprit?EU|EUE} ! Pas touche à ce déjeuner, {culprit} !",
+   "Pris{culprit?|e} la main dans le sac, {culprit} ! Avec une FOURCHETTE !"
+  ]
+ },
+ "lm_caught_excuse": {
+  "_": [
+   "Je— il avait l'air abandonné !",
+   "Je croyais que c'était à manger pour tout le monde !",
+   "Ce n'est pas ce que tu crois. C'est exactement ce que tu crois."
+  ]
+ },
+ "lm_nobody": {
+  "_": [
+   "Rien. Personne. Le voleur doit savoir qu'on surveille.",
+   "Deux heures devant le frigo. Pas même un yaourt."
+  ]
+ },
+ "lm_bait": {
+  "_": [
+   "Un « déjeuner » extra-pimenté, étiqueté « NE PAS MANGER ». Voyons qui résistera.",
+   "*pose une boîte étrangement appétissante dans le frigo* L'appât est en place."
+  ]
+ },
+ "lm_spicy": {
+  "_": [
+   "HHHHH— DE L'EAU ! DE L'EAU !",
+   "POURQUOI C'EST AUSSI PIMENTÉ ?!",
+   "Ma bouche est en FEU !"
+  ]
+ },
+ "lm_laugh": {
+  "_": [
+   "HAHA ! Bien fait !",
+   "Que quelqu'un apporte du lait !",
+   "Voilà ce qui arrive quand on vole !"
+  ]
+ },
+ "lm_gotcha_bait": {
+  "_": [
+   "Démasqué{culprit?|e} par le piment ! C'est {culprit} !",
+   "L'appât a marché ! {culprit}, tu es fait{culprit?|e} !"
+  ]
  }
 }

@@ -8774,5 +8774,534 @@
    "...Vale. Mira. Quizás empezamos con mal pie.",
    "¿Tregua con sándwiches?"
   ]
+ },
+ "couplephoto_see": {
+  "_": [
+   "¡¿Esos son {target} y {partner}... tomados de la mano?!",
+   "¡Una foto de {target} y {partner}! ¡Juntos!"
+  ]
+ },
+ "couplephoto_deny": {
+  "_": [
+   "¡Es FALSA! ¡Es un montaje!",
+   "¡NUNCA nos hemos tomado de la mano!"
+  ]
+ },
+ "couplephoto_secret": {
+  "_": [
+   "...Es falsa. Obviamente. ...Aunque es una foto bonita.",
+   "Ja. Falsa. Claro. Totalmente falsa."
+  ]
+ },
+ "excluded_read": {
+  "_": [
+   "«¡Copas después del trabajo! ¡Todos invitados!» ...Menos yo, por lo visto.",
+   "Están todos los nombres en la lista menos el mío."
+  ]
+ },
+ "excluded_ask": {
+  "_": [
+   "Bueno... tu invitación a las copas. ¿Me dejaste fuera a propósito?",
+   "¿Por qué no estaba en la lista?"
+  ]
+ },
+ "excluded_sorry": {
+  "_": [
+   "¿Qué? ¡No! ¡Estás {to?invitado|invitada}! ¡Claro que estás {to?invitado|invitada}!",
+   "¡Esa no es mi lista! ¡Ven! ¡Por favor, ven!"
+  ]
+ },
+ "excluded_cold": {
+  "_": [
+   "Bueno... es un grupo pequeño.",
+   "No es para tanto."
+  ]
+ },
+ "tipjar_see": {
+  "_": [
+   "«Gracias, Burak, por arreglarlo todo.» ¡Un bote de propinas! Me apunto.",
+   "¿Un bote de propinas para Burak? Se lo merece."
+  ]
+ },
+ "tipjar_burak": {
+  "_": [
+   "...¿Esto es para mí? ¿Quién hizo esto?",
+   "Un bote de propinas. Para mí. Vaya. Gracias a todos."
+  ]
+ },
+ "sbox_boss_promote": {
+  "_": [
+   "Seis notas que dicen «Asciendan a {target}». Interesante.",
+   "Parece que el personal adora a {target}. Anotado."
+  ]
+ },
+ "sbox_boss_fire": {
+  "_": [
+   "¡¿Seis notas que dicen «Despidan a {target}»?! ¿Qué está pasando?",
+   "Mmm. A alguien de VERDAD no le cae bien {target}."
+  ]
+ },
+ "sbox_target_hear": {
+  "_": [
+   "¡¿La gente escribió «despídanme» en el buzón de sugerencias?!",
+   "¡¿Quién escribiría eso sobre mí?!"
+  ]
+ },
+ "iknow_read": {
+  "_": [
+   "«Sé lo que hiciste.» ...¿Qué? ¡¿QUIÉN sabe QUÉ?!",
+   "«Sé lo que hiciste.» Sin firma. Me tiemblan las manos."
+  ]
+ },
+ "iknow_confess": {
+  "_": [
+   "Tengo que contárselo a alguien. Vale. {friend}... tengo que decirte algo.",
+   "{friend}, ¿podemos hablar? ¿En algún lugar privado?"
+  ]
+ },
+ "iknow_paranoid": {
+  "_": [
+   "Todos me están mirando. Todos lo saben. ¿Verdad?",
+   "¿Fuiste tú? ¡¿Fuiste TÚ?!"
+  ]
+ },
+ "j01_intro": {
+  "_": [
+   "Antes de empezar: tengo noticias sobre el ascenso. He leído el expediente.",
+   "Primero un anuncio. El expediente de ascensos es muy claro."
+  ]
+ },
+ "j02_blush": {
+  "_": [
+   "¿Una nota de amor Y una invitación a un café? ¿De {owner}? ¿Hoy?",
+   "Dios mío. ¿{owner} quiere una CITA?"
+  ]
+ },
+ "j03_read": {
+  "_": [
+   "¿Una solicitud de empleo grapada a ESTE informe de desempeño? {applicant}. A mi oficina.",
+   "Así que {applicant} se quiere ir. Y miren este informe."
+  ]
+ },
+ "j03_accuse": {
+  "_": [
+   "Tu informe es un desastre y estás buscando trabajo en otro sitio. Explícate.",
+   "¿Buscando trabajo? ¿Con estos números? Interesante."
+  ]
+ },
+ "j03_quit": {
+  "_": [
+   "¿Sabe qué? Está bien. Renuncio. Voy a imprimir mi carta ahora mismo.",
+   "Se acabó. Tendrá mi renuncia en diez minutos."
+  ]
+ },
+ "j03_plead": {
+  "_": [
+   "Por favor, ¡el informe está mal! ¡Puedo explicarlo todo!",
+   "¡Ese no es mi informe! ¡Alguien lo cambió!"
+  ]
+ },
+ "j04_send": {
+  "_": [
+   "*fiuuu* — «Cifras finales, CC Ahmet» — enviado.",
+   "*la hoja de cálculo vieja abandona el edificio*"
+  ]
+ },
+ "j05_read": {
+  "_": [
+   "¡¿«Reestructuración — preguntas y respuestas, 11:00»?! ¡¿Está en el ORDEN DEL DÍA?!",
+   "¿El memo Y el orden del día? Esto es real. Están despidiendo gente."
+  ]
+ },
+ "j06_crown": {
+  "_": [
+   "La pizarra dice que hoy dirijo yo en funciones. ¿Quién soy yo para discutir?",
+   "«Dirección en funciones: yo.» Bueno. Si la pizarra lo dice."
+  ]
+ },
+ "j07_scream": {
+  "_": [
+   "¡LAS LUCES PARPADEAN Y EN MI PANTALLA HAY UNA CALAVERA!",
+   "Ahora está en las COMPUTADORAS. ¡El fantasma está en las computadoras!"
+  ]
+ },
+ "j08_read": {
+  "_": [
+   "Presupuesto para aumentos: CERO. ¡¿Y ESO es lo que ganan algunos?!",
+   "He visto la nómina. ¿Y ahora «no hay aumentos»? No. De ninguna manera."
+  ]
+ },
+ "j09_kickoff": {
+  "_": [
+   "¿Música? ¿Luces de discoteca? ¿SNACKS? Esto es una fiesta. Lo voy a convertir en una fiesta.",
+   "Vale, el universo quiere una fiesta. ¿Quién soy yo para decir que no?"
+  ]
+ },
+ "j10_find": {
+  "_": [
+   "Una solicitud de traslado. Y una carta de recomendación. Ambas para {target}.",
+   "Mmm. Los papeles de {target}. Los dos. Interesante."
+  ]
+ },
+ "j11_note": {
+  "_": [
+   "«¿Cita doble en el almuerzo?» ¡¿Quién escribió eso en nuestra foto?!",
+   "Alguien dibujó corazones en la foto. Y una mesa de almuerzo. Para cuatro."
+  ]
+ },
+ "j13_reminder": {
+  "_": [
+   "EL CLIENTE LLEGA EN 30 MINUTOS: primero el proyector.",
+   "*da un golpecito a la pizarra* «Presentación al cliente: {presenter}». Un momento. ¿Yo?"
+  ]
+ },
+ "j15_sign": {
+  "_": [
+   "¡¿«Lo tiré todo. Etiqueten su comida. — {signer}»?!",
+   "¡¿{signer} tiró el almuerzo de TODOS? ¿Y lo firmó?!"
+  ]
+ },
+ "j16_see": {
+  "_": [
+   "¿Respuesta automática de «renuncio» Y una carta de renuncia? ¡{owner} se va de verdad!",
+   "Ay, no. {owner} se va. Es real. La carta está ahí."
+  ]
+ },
+ "j18_storm": {
+  "_": [
+   "Esa evaluación estaba AMAÑADA. ¡Alguien reescribió mi informe y él se creyó cada palabra!",
+   "Me leyó un informe que yo nunca escribí. Y lo disfrutó."
+  ]
+ },
+ "j19_sign": {
+  "_": [
+   "¡¿La queja anónima sobre mí está escrita con la letra de {gossip}?!",
+   "Así que fue {gossip}. El rumor Y la queja."
+  ]
+ },
+ "j20_wonder": {
+  "_": [
+   "¿Una nota amable Y un cumplido en el tablón? Le gusto a alguien. ¡¿A quién?!",
+   "¿Dos cosas bonitas anónimas en un día? Esto es un admirador secreto."
+  ]
+ },
+ "gh_announce": {
+  "_": [
+   "Se los digo: esta oficina está EMBRUJADA.",
+   "Luces. Impresoras. Cafeteras. Es un fantasma. Estoy {me?seguro|segura}.",
+   "Algo vive en esta oficina. Algo... invisible."
+  ],
+  "ece": [
+   "Hay un FANTASMA. Tengo miedo pero también estoy SÚPER emocionada."
+  ],
+  "zeynep": [
+   "He visto cosas. Estoy tomando notas."
+  ]
+ },
+ "gh_recruit": {
+  "_": [
+   "Sesión de espiritismo. Sala de reuniones. Después de comer. ¿Te apuntas?",
+   "Tenemos que contactar con el fantasma. Como es debido. ¿Estás conmigo?"
+  ]
+ },
+ "gh_recruit_yes": {
+  "_": [
+   "SÍ. Yo traigo las velas.",
+   "Me apunto. Siempre he querido hacer una sesión de espiritismo."
+  ]
+ },
+ "gh_recruit_no": {
+  "_": [
+   "Ni hablar. Tú necesitas dormir.",
+   "No pienso hablar con el alma de la impresora."
+  ]
+ },
+ "gh_chant": {
+  "_": [
+   "Espíritu de la oficina... ¿estás ahí? Golpea una vez para decir sí.",
+   "Oh, fantasma... si estás aquí... haz parpadear las luces."
+  ]
+ },
+ "gh_scream": {
+  "_": [
+   "¡AAAAAH! ¡RESPONDIÓ!",
+   "¡LAS LUCES! ¡¿VIERON LAS LUCES?!"
+  ]
+ },
+ "gh_nothing": {
+  "_": [
+   "...Nada.",
+   "Quizás está en su descanso para comer.",
+   "Bueno. Ahí se fue una hora de mi vida."
+  ]
+ },
+ "gh_debunk": {
+  "_": [
+   "Era un cable suelto en el techo. No un fantasma. Por favor, paren.",
+   "Revisé el cuadro eléctrico. Un relé defectuoso. No hay ningún fantasma."
+  ]
+ },
+ "gh_believe_burak": {
+  "_": [
+   "...Ah. Un relé. Claro. Por supuesto.",
+   "Está bien. No hay fantasma. ...Probablemente."
+  ]
+ },
+ "gh_dont_believe": {
+  "_": [
+   "Eso es EXACTAMENTE lo que un fantasma querría que dijeras.",
+   "No puedes explicarlo todo con «relés», Burak."
+  ]
+ },
+ "coup_announce": {
+  "_": [
+   "¡Atención, todos! Nuevas medidas de eficiencia, con efecto inmediato.",
+   "Escuchen. Mientras Ahmet está ocupado, voy a optimizar las cosas."
+  ],
+  "deniz": [
+   "Equipo. Unos cambios. Vigentes desde ya. ¿Preguntas? ¿No? Bien."
+  ]
+ },
+ "coup_follow": {
+  "_": [
+   "Claro, lo que tú digas.",
+   "¡Vale! ¡Nuevas reglas!"
+  ]
+ },
+ "coup_resist": {
+  "_": [
+   "¿Quién te puso a TI al mando?",
+   "Tú no eres {to?el jefe|la jefa}.",
+   "Buen intento."
+  ]
+ },
+ "coup_ally_ask": {
+  "_": [
+   "Tú y yo. Cuando Ahmet no esté, dirigimos esto. ¿Trato hecho?",
+   "Necesito una mano derecha. ¿Te interesa?"
+  ]
+ },
+ "coup_ally_yes": {
+  "_": [
+   "...Trato hecho. ¿Qué gano yo?",
+   "Te escucho."
+  ]
+ },
+ "coup_ally_no": {
+  "_": [
+   "Vas a hacer que nos despidan a los dos.",
+   "A mí no me metas en esto."
+  ]
+ },
+ "coup_boss": {
+  "_": [
+   "Me han dicho que TÚ has estado dirigiendo mi oficina, {usurper}.",
+   "¿«Medidas de eficiencia», {usurper}? ¿En MI oficina?"
+  ]
+ },
+ "coup_bold": {
+  "_": [
+   "Alguien tenía que hacerlo. Todo se estaba viniendo abajo.",
+   "Tomé la iniciativa. De nada."
+  ]
+ },
+ "coup_crushed": {
+  "_": [
+   "Estás pisando hielo fino. Muy fino.",
+   "Una más de estas y se acabó para ti aquí."
+  ]
+ },
+ "coup_impressed": {
+  "_": [
+   "...En realidad, algunas de esas medidas no están mal. Ponlas por escrito.",
+   "Mmm. Atrevido. Quizás demasiado. Pero no es una tontería."
+  ]
+ },
+ "lt_notice": {
+  "_": [
+   "...¿{lover} está coqueteando con {crush}? ¿Delante de mí?",
+   "Ah, ya veo. {lover} y {crush}. Qué tierno."
+  ]
+ },
+ "lt_warn": {
+  "_": [
+   "Apártate. Yo vi a {crush} primero.",
+   "Aléjate de {crush}. Lo digo en serio."
+  ]
+ },
+ "lt_backoff": {
+  "_": [
+   "...Está bien. Si tanto te importa.",
+   "Vale. Vale. Me hago a un lado."
+  ]
+ },
+ "lt_never": {
+  "_": [
+   "Que gane el mejor.",
+   "Ni lo sueñes. Que decida {crush}."
+  ]
+ },
+ "lt_gesture": {
+  "_": [
+   "Te hice un café. Como te gusta. Con un corazón en la espuma.",
+   "Te traje algo. Lo vi y pensé en ti."
+  ]
+ },
+ "lt_gesture_react": {
+  "_": [
+   "...Qué detalle tan bonito.",
+   "¡Ah! ¡Gracias!",
+   "¡¿Te acordaste?!"
+  ]
+ },
+ "lt_choice_ask": {
+  "_": [
+   "Bueno. ¿Yo o {lover}? Necesito saberlo.",
+   "Tengo que preguntarlo: ¿hay algo entre tú y {lover}?"
+  ]
+ },
+ "lt_choose_rival": {
+  "_": [
+   "...¿Sinceramente? Eres tú. Siempre fuiste tú.",
+   "Tú. Obviamente tú."
+  ]
+ },
+ "lt_choose_lover": {
+  "_": [
+   "Lo siento. Me gusta {lover}.",
+   "Es {lover}. Lo siento."
+  ]
+ },
+ "lt_choose_none": {
+  "_": [
+   "¡Ninguno de los dos! ¡Son ridículos los dos!",
+   "No soy un trofeo. No voy a elegir a nadie."
+  ]
+ },
+ "sr_grumble": {
+  "_": [
+   "Cada año trabajamos más y ganamos MENOS. Basta.",
+   "¿Alguien más está harto de esto? Porque yo sí.",
+   "Deberíamos hacer algo. Juntos."
+  ]
+ },
+ "sr_sign": {
+  "_": [
+   "¿Firmas la petición? Aumentos justos para todos.",
+   "Una firma. Por todos nosotros."
+  ]
+ },
+ "sr_signed": {
+  "_": [
+   "Dame ese bolígrafo.",
+   "Firmado. Ya era hora.",
+   "Vale. Me apunto."
+  ]
+ },
+ "sr_refused": {
+  "_": [
+   "No puedo arriesgarme.",
+   "A mí déjame fuera. Me gusta mi trabajo.",
+   "No es mi lucha."
+  ]
+ },
+ "sr_count_many": {
+  "_": [
+   "Mira todas estas firmas. No pueden ignorar esto.",
+   "Somos muchos. Ahora, a por ellos."
+  ]
+ },
+ "sr_count_few": {
+  "_": [
+   "...Dos firmas. Una es la mía.",
+   "Nadie firmó. Cobardes. Todos."
+  ]
+ },
+ "sr_demand": {
+  "_": [
+   "Ahmet Bey, pedimos aumentos justos. Todos.",
+   "Hemos firmado una petición. Queremos un sueldo justo."
+  ]
+ },
+ "sr_concede": {
+  "_": [
+   "...Está bien. Lo llevaré a la central. Recibirán algo. Lo prometo.",
+   "Tienen razón. Lucharé por ello."
+  ]
+ },
+ "sr_refuse": {
+  "_": [
+   "¡¿Una PETICIÓN?! ¡Esto no es un sindicato!",
+   "El que no esté contento ya sabe dónde está la puerta."
+  ]
+ },
+ "lm_outrage": {
+  "_": [
+   "¡Es la TERCERA vez! Voy a averiguar quién es.",
+   "En esta oficina hay un LADRÓN DE ALMUERZOS. Y lo voy a atrapar."
+  ]
+ },
+ "lm_hire": {
+  "_": [
+   "Tú te fijas en todo. ¿Me ayudas a atrapar a un ladrón de almuerzos?",
+   "Necesito un detective. Eres la persona más chismosa que conozco. Es un cumplido."
+  ]
+ },
+ "lm_accept": {
+  "_": [
+   "¿Un misterio? ¡Me APUNTO!",
+   "Déjamelo a mí. Nadie roba un almuerzo en mi guardia."
+  ]
+ },
+ "lm_watch": {
+  "_": [
+   "*{me?escondido|escondida} tras la puerta de la nevera* En cualquier momento...",
+   "Vigilancia. Nevera. Ojos abiertos."
+  ]
+ },
+ "lm_caught": {
+  "_": [
+   "¡TE PILLÉ! ¡Las manos fuera de ese almuerzo, {culprit}!",
+   "¡Te pillamos con las manos en la masa, {culprit}! ¡Con un TENEDOR!"
+  ]
+ },
+ "lm_caught_excuse": {
+  "_": [
+   "Yo... ¡parecía abandonado!",
+   "¡Creí que era comida gratis!",
+   "No es lo que parece. Es exactamente lo que parece."
+  ]
+ },
+ "lm_nobody": {
+  "_": [
+   "Nada. Nadie. El ladrón debe de saber que estamos vigilando.",
+   "Dos horas junto a la nevera. Ni un yogur."
+  ]
+ },
+ "lm_bait": {
+  "_": [
+   "Un «almuerzo» extrapicante, con la etiqueta «NO COMER». A ver quién se resiste.",
+   "*deja una caja sospechosamente deliciosa en la nevera* El cebo está listo."
+  ]
+ },
+ "lm_spicy": {
+  "_": [
+   "¡JJJJJ...! ¡AGUA! ¡AGUA!",
+   "¡¿POR QUÉ PICA TANTO?!",
+   "¡Me ARDE la boca!"
+  ]
+ },
+ "lm_laugh": {
+  "_": [
+   "¡JAJA! ¡Te lo mereces!",
+   "¡Que alguien le traiga leche!",
+   "¡Eso te pasa por robar!"
+  ]
+ },
+ "lm_gotcha_bait": {
+  "_": [
+   "¡{culprit?Atrapado|Atrapada} por el chile! ¡Es {culprit}!",
+   "¡El cebo funcionó! ¡{culprit}, te pillamos!"
+  ]
  }
 }

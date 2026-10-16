@@ -1,0 +1,183 @@
+5676|Bunlar {target} ve {partner}... el ele mi?!
+5677|{target} ile {partner:in} bir fotoğrafı! Birlikte!
+5678|Bu SAHTE! Photoshop bu!
+5679|Biz HİÇ el ele tutuşmadık!
+5680|...Sahte. Belli ki. ...Ama güzel bir fotoğraf.
+5681|Ha. Sahte. Tabii. Tamamen sahte.
+5682|'İş çıkışı içki! Herkes davetli!' ...Ben hariç, görünüşe göre.
+5683|Listede benimki hariç herkesin adı var.
+5684|Eee... içki davetin. Beni bilerek mi dışarıda bıraktın?
+5685|Neden listede yoktum?
+5686|Ne? Hayır! Davetlisin! Tabii ki davetlisin!
+5687|O benim listem değil! Gel! Lütfen gel!
+5688|Eh... küçük bir grup.
+5689|Büyütülecek bir şey değil.
+5690|'Her şeyi tamir ettiğin için teşekkürler Burak.' Bahşiş kavanozu! Ben de varım.
+5691|Burak için bahşiş kavanozu mu? Hak ediyor.
+5692|...Bu benim için mi? Bunu kim yaptı?
+5693|Bir bahşiş kavanozu. Benim için. Hıh. Teşekkürler millet.
+5694|'{target:i} terfi ettirin' yazan altı not. İlginç.
+5695|Çalışanlar {target:i} çok seviyor gibi. Not edildi.
+5696|'{target:i} kovun' yazan altı not mu?! Neler oluyor?
+5697|Hım. Biri {target:den} GERÇEKTEN hoşlanmıyor.
+5698|İnsanlar öneri kutusuna 'kovun onu' mu yazmış?!
+5699|Benim hakkımda bunu kim yazar?!
+5700|'Ne yaptığını biliyorum.' ...Ne? KİM, NEYİ biliyor?
+5701|'Ne yaptığını biliyorum.' İmza yok. Ellerim titriyor.
+5702|Birine anlatmam lazım. Tamam. {friend}... sana bir şey söylemem gerek.
+5703|{friend}, konuşabilir miyiz? Baş başa?
+5704|Herkes bana bakıyor. Hepsi biliyor. Değil mi?
+5705|Sen miydin? SEN miydin?
+5706|Başlamadan önce — terfi haberim var. Dosyayı okudum.
+5707|Önce bir duyuru. Terfi dosyası gayet açık.
+5708|Bir aşk notu VE bir kahve daveti mi? {owner:den} mi? Bugün mü?
+5709|Aman Tanrım. {owner} benimle ÇIKMAK mı istiyor?
+5710|BU performans raporuna zımbalanmış bir iş başvurusu mu? {applicant}. Odama.
+5711|Demek {applicant} gitmek istiyor. Bir de şu rapora bakın.
+5712|Raporun bir felaket ve başka yerlere başvuruyorsun. Açıkla.
+5713|İş mi arıyorsun? Bu rakamlarla mı? İlginç.
+5714|Biliyor musunuz? Peki. İstifa ediyorum. Mektubumu şimdi yazdırıyorum.
+5715|Bıktım. On dakikaya istifam masanızda olur.
+5716|Lütfen — rapor yanlış! Her şeyi açıklayabilirim!
+5717|O benim raporum değil! Biri değiştirmiş!
+5718|*vınnn* — 'Kesin rakamlar, Ahmet bilgide' — gönderildi.
+5719|*eski tablo binayı terk ediyor*
+5720|'Yeniden yapılanma — Soru-Cevap, 11:00' mı?! GÜNDEMDE mi?!
+5721|Not VE gündem mi? Bu gerçek. İnsanları kovuyorlar.
+5722|Tahtaya göre bugün vekil müdür benim. İtiraz edecek değilim.
+5723|'Vekil müdür: ben.' Eh. Tahta öyle diyorsa.
+5724|IŞIKLAR TİTRİYOR VE EKRANIMDA KURUKAFA VAR!
+5725|Artık BİLGİSAYARLARDA. Hayalet bilgisayarlara girdi!
+5726|Zam bütçesi SIFIR — ve bazıları BU kadar mı kazanıyor?!
+5727|Bordroyu gördüm. Şimdi de 'zam yok' mu? Hayır. Kesinlikle olmaz.
+5728|Müzik mi? Disko ışıkları mı? ATIŞTIRMALIK mı? Bu bir parti. Ben bunu partiye çeviriyorum.
+5729|Tamam, evren parti istiyor. Ben kim oluyorum da hayır diyorum?
+5730|Bir tayin talebi. VE bir referans mektubu. İkisi de {target} için.
+5731|Hım. {target:in} evrakları. İkisi birden. İlginç.
+5732|'Öğlen çifte randevu?' Bunu fotoğrafımıza kim yazdı?!
+5733|Biri fotoğrafa kalpler çizmiş. Bir de öğle yemeği masası. Dört kişilik.
+5734|MÜŞTERİ 30 DAKİKAYA GELİYOR — önce projektör.
+5735|*tahtaya vurur* 'Müşteri sunumu: {presenter}'. Bir dakika. Ben mi?
+5736|'Hepsini attım. Yemeğinizi etiketleyin. — {signer}' mi?!
+5737|{signer} HERKESİN yemeğini mi atmış? Bir de imzalamış mı?!
+5738|'İstifa ettim' otomatik yanıtı VE bir istifa mektubu mu? {owner} gerçekten gidiyor!
+5739|Eyvah. {owner} gidiyor. Gerçek bu. Mektup orada duruyor.
+5740|O değerlendirme HİLELİYDİ. Biri raporumu yeniden yazmış ve o da her kelimesine inanmış!
+5741|Bana hiç yazmadığım bir raporu okudu. Hem de keyifle.
+5742|Benim hakkımdaki imzasız şikâyet {gossip:in} el yazısıyla mı?!
+5743|Demek {gossip}. Hem dedikodu HEM şikâyet.
+5744|Bir nazik not VE panoda bir iltifat mı? Biri benden hoşlanıyor. Kim?!
+5745|Bir günde iki imzasız güzel şey mi? Bu gizli bir hayran.
+5746|Size söylüyorum: bu ofiste HAYALET var.
+5747|Işıklar. Yazıcılar. Kahve makineleri. Bu bir hayalet. Eminim.
+5748|Bu ofiste bir şey yaşıyor. Bir şey... görünmez.
+5749|HAYALET var. Korkuyorum ama aynı zamanda ÇOK heyecanlıyım.
+5750|Bazı şeyler gördüm. Not alıyorum.
+5751|Ruh çağırma seansı. Toplantı odası. Öğleden sonra. Var mısın?
+5752|Hayaletle iletişime geçmemiz lazım. Usulünce. Benimle misin?
+5753|EVET. Mumları ben getiririm.
+5754|Varım. Hep bir ruh çağırma seansına katılmak istemiştim.
+5755|Kesinlikle hayır. Senin uykuya ihtiyacın var.
+5756|Yazıcının ruhuyla konuşmayacağım.
+5757|Ofisin ruhu... orada mısın? Evet için bir kez vur.
+5758|Ey hayalet... buradaysan... ışıkları titret.
+5759|AAAAAH! CEVAP VERDİ!
+5760|IŞIKLAR! IŞIKLARI GÖRDÜN MÜ?!
+5761|...Hiçbir şey.
+5762|Belki öğle arasındadır.
+5763|Eh. Hayatımın bir saati gitti.
+5764|Tavanda gevşek bir kabloymuş. Hayalet değil. Lütfen bırakın artık.
+5765|Sigortaya baktım. Arızalı röle. Hayalet falan yok.
+5766|...Ah. Röle. Doğru. Tabii ki.
+5767|Peki. Hayalet yok. ...Muhtemelen.
+5768|Bir hayalet de TAM olarak bunu söylemeni isterdi.
+5769|Her şeyi 'röle'yle açıklayamazsın, Burak.
+5770|Herkes dikkat! Yeni verimlilik önlemleri, derhâl yürürlükte.
+5771|Dinleyin. Ahmet meşgulken işleri ben düzene sokuyorum.
+5772|Ekip. Birkaç değişiklik. Şu andan itibaren geçerli. Soru? Yok mu? Güzel.
+5773|Tabii, sen nasıl istersen.
+5774|Tamam! Yeni kurallar!
+5775|SENİ kim yetkili yaptı?
+5776|Sen patron değilsin.
+5777|Güzel deneme.
+5778|Sen ve ben. Ahmet yokken burayı biz yönetiriz. Anlaştık mı?
+5779|Bir yardımcıya ihtiyacım var. İlgilenir misin?
+5780|...Anlaştık. Benim çıkarım ne?
+5781|Dinliyorum.
+5782|İkimizi de kovduracaksın.
+5783|Beni bu işe karıştırma.
+5784|Duydum ki ofisimi SEN yönetiyormuşsun, {usurper}.
+5785|'Verimlilik önlemleri' mi, {usurper}? BENİM ofisimde mi?
+5786|Birinin yapması gerekiyordu. İşler dağılıyordu.
+5787|İnisiyatif aldım. Rica ederim.
+5788|İnce buz üstündesin. Çok ince.
+5789|Bir numara daha yaparsan burada işin biter.
+5790|...Aslında o önlemlerin bazıları fena değil. Yazıya dök.
+5791|Hım. Cüretkâr. Belki fazla cüretkâr. Ama aptalca değil.
+5792|...{lover}, {crush} ile flört mü ediyor? Tam gözümün önünde?
+5793|Ah, anlıyorum. {lover} ve {crush}. Ne tatlı.
+5794|Çekil. {crush:i} ilk ben gördüm.
+5795|{crush:den} uzak dur. Ciddiyim.
+5796|...Peki. Senin için bu kadar önemliyse.
+5797|Tamam. Tamam. Geri çekiliyorum.
+5798|En iyi olan kazansın.
+5799|Hayatta olmaz. Kararı {crush} versin.
+5800|Sana bir kahve yaptım. Sevdiğin gibi. Köpüğünde kalple.
+5801|Sana bir şey aldım. Görünce aklıma sen geldin.
+5802|...Bu gerçekten çok tatlı.
+5803|Ah! Teşekkürler!
+5804|Hatırladın mı?!
+5805|Eee. Ben mi, {lover} mı? Bilmem lazım.
+5806|Sormak zorundayım: seninle {lover} arasında bir şey var mı?
+5807|...Açıkçası mı? Sensin. Hep sendin.
+5808|Sen. Tabii ki sen.
+5809|Üzgünüm. Ben {lover:den} hoşlanıyorum.
+5810|{lover}. Üzgünüm.
+5811|İkiniz de değil! İkiniz de gülünçsünüz!
+5812|Ben bir ödül değilim. Kimseyi seçmiyorum.
+5813|Her yıl daha çok çalışıp daha AZ kazanıyoruz. Yeter.
+5814|Bundan bıkan başka kimse var mı? Çünkü ben bıktım.
+5815|Bir şey yapmalıyız. Birlikte.
+5816|Dilekçeyi imzalar mısın? Herkese adil zam.
+5817|Bir imza. Hepimiz için.
+5818|Ver şu kalemi.
+5819|İmzaladım. Tam zamanı.
+5820|Tamam. Ben de varım.
+5821|Bu riski alamam.
+5822|Beni karıştırma. İşimi seviyorum.
+5823|Benim savaşım değil.
+5824|Şu imzalara bak. Bunu görmezden gelemezler.
+5825|Kalabalığız. Şimdi yürüyoruz.
+5826|...İki imza. Biri benim.
+5827|Kimse imzalamadı. Korkaklar. Hepsi.
+5828|Ahmet Bey, adil zam istiyoruz. Hepimiz.
+5829|Bir dilekçe imzaladık. Adil ücret istiyoruz.
+5830|...Peki. Merkeze götüreceğim. Bir şeyler alacaksınız. Söz.
+5831|Haklı bir noktaya değiniyorsunuz. Bunun için savaşacağım.
+5832|DİLEKÇE mi? Burası sendika lokali değil!
+5833|Memnun olmayan kapının yerini bilir.
+5834|Bu ÜÇÜNCÜ kez! Kim olduğunu bulacağım.
+5835|Bu ofiste bir YEMEK HIRSIZI var. Ve onu yakalayacağım.
+5836|Sen her şeyi fark edersin. Bir yemek hırsızını yakalamama yardım eder misin?
+5837|Bir dedektife ihtiyacım var. Tanıdığım en meraklı kişi sensin. Bu bir iltifat.
+5838|Bir gizem mi? Ben VARIM.
+5839|Bana bırak. Benim nöbetimde kimse yemek çalamaz.
+5840|*buzdolabı kapısının arkasına saklanır* Her an olabilir...
+5841|Pusu. Buzdolabı. Gözler açık.
+5842|YAKALADIM! Çek ellerini o yemekten, {culprit}!
+5843|Suçüstü yakalandın, {culprit}! ÇATALLA!
+5844|Ben— sahipsiz gibi duruyordu!
+5845|Bedava yemek sandım!
+5846|Göründüğü gibi değil. Tam olarak göründüğü gibi.
+5847|Hiçbir şey. Hiç kimse. Hırsız izlediğimizi biliyor olmalı.
+5848|Buzdolabının başında iki saat. Bir yoğurt bile yok.
+5849|Ekstra acılı bir 'öğle yemeği', üstünde 'YEMEYİN' etiketi. Bakalım kim dayanabilecek.
+5850|*buzdolabına şüpheli derecede iştah açıcı bir kutu koyar* Yem hazır.
+5851|HHHHH— SU! SU!
+5852|BU NEDEN BU KADAR ACI?!
+5853|Ağzım YANIYOR!
+5854|HAHA! Oh olsun!
+5855|Biri ona süt getirsin!
+5856|Hırsızlık yapmanın sonu bu!
+5857|Acı biber yakaladı! {culprit} çıktı!
+5858|Yem işe yaradı! {culprit}, yakalandın!

@@ -8774,5 +8774,534 @@
    "...Tamam. Bak. Belki de yanlış başladık.",
    "Sandviç eşliğinde ateşkes?"
   ]
+ },
+ "couplephoto_see": {
+  "_": [
+   "Bunlar {target} ve {partner}... el ele mi?!",
+   "{target} ile {partner:in} bir fotoğrafı! Birlikte!"
+  ]
+ },
+ "couplephoto_deny": {
+  "_": [
+   "Bu SAHTE! Photoshop bu!",
+   "Biz HİÇ el ele tutuşmadık!"
+  ]
+ },
+ "couplephoto_secret": {
+  "_": [
+   "...Sahte. Belli ki. ...Ama güzel bir fotoğraf.",
+   "Ha. Sahte. Tabii. Tamamen sahte."
+  ]
+ },
+ "excluded_read": {
+  "_": [
+   "'İş çıkışı içki! Herkes davetli!' ...Ben hariç, görünüşe göre.",
+   "Listede benimki hariç herkesin adı var."
+  ]
+ },
+ "excluded_ask": {
+  "_": [
+   "Eee... içki davetin. Beni bilerek mi dışarıda bıraktın?",
+   "Neden listede yoktum?"
+  ]
+ },
+ "excluded_sorry": {
+  "_": [
+   "Ne? Hayır! Davetlisin! Tabii ki davetlisin!",
+   "O benim listem değil! Gel! Lütfen gel!"
+  ]
+ },
+ "excluded_cold": {
+  "_": [
+   "Eh... küçük bir grup.",
+   "Büyütülecek bir şey değil."
+  ]
+ },
+ "tipjar_see": {
+  "_": [
+   "'Her şeyi tamir ettiğin için teşekkürler Burak.' Bahşiş kavanozu! Ben de varım.",
+   "Burak için bahşiş kavanozu mu? Hak ediyor."
+  ]
+ },
+ "tipjar_burak": {
+  "_": [
+   "...Bu benim için mi? Bunu kim yaptı?",
+   "Bir bahşiş kavanozu. Benim için. Hıh. Teşekkürler millet."
+  ]
+ },
+ "sbox_boss_promote": {
+  "_": [
+   "'{target:i} terfi ettirin' yazan altı not. İlginç.",
+   "Çalışanlar {target:i} çok seviyor gibi. Not edildi."
+  ]
+ },
+ "sbox_boss_fire": {
+  "_": [
+   "'{target:i} kovun' yazan altı not mu?! Neler oluyor?",
+   "Hım. Biri {target:den} GERÇEKTEN hoşlanmıyor."
+  ]
+ },
+ "sbox_target_hear": {
+  "_": [
+   "İnsanlar öneri kutusuna 'kovun onu' mu yazmış?!",
+   "Benim hakkımda bunu kim yazar?!"
+  ]
+ },
+ "iknow_read": {
+  "_": [
+   "'Ne yaptığını biliyorum.' ...Ne? KİM, NEYİ biliyor?",
+   "'Ne yaptığını biliyorum.' İmza yok. Ellerim titriyor."
+  ]
+ },
+ "iknow_confess": {
+  "_": [
+   "Birine anlatmam lazım. Tamam. {friend}... sana bir şey söylemem gerek.",
+   "{friend}, konuşabilir miyiz? Baş başa?"
+  ]
+ },
+ "iknow_paranoid": {
+  "_": [
+   "Herkes bana bakıyor. Hepsi biliyor. Değil mi?",
+   "Sen miydin? SEN miydin?"
+  ]
+ },
+ "j01_intro": {
+  "_": [
+   "Başlamadan önce — terfi haberim var. Dosyayı okudum.",
+   "Önce bir duyuru. Terfi dosyası gayet açık."
+  ]
+ },
+ "j02_blush": {
+  "_": [
+   "Bir aşk notu VE bir kahve daveti mi? {owner:den} mi? Bugün mü?",
+   "Aman Tanrım. {owner} benimle ÇIKMAK mı istiyor?"
+  ]
+ },
+ "j03_read": {
+  "_": [
+   "BU performans raporuna zımbalanmış bir iş başvurusu mu? {applicant}. Odama.",
+   "Demek {applicant} gitmek istiyor. Bir de şu rapora bakın."
+  ]
+ },
+ "j03_accuse": {
+  "_": [
+   "Raporun bir felaket ve başka yerlere başvuruyorsun. Açıkla.",
+   "İş mi arıyorsun? Bu rakamlarla mı? İlginç."
+  ]
+ },
+ "j03_quit": {
+  "_": [
+   "Biliyor musunuz? Peki. İstifa ediyorum. Mektubumu şimdi yazdırıyorum.",
+   "Bıktım. On dakikaya istifam masanızda olur."
+  ]
+ },
+ "j03_plead": {
+  "_": [
+   "Lütfen — rapor yanlış! Her şeyi açıklayabilirim!",
+   "O benim raporum değil! Biri değiştirmiş!"
+  ]
+ },
+ "j04_send": {
+  "_": [
+   "*vınnn* — 'Kesin rakamlar, Ahmet bilgide' — gönderildi.",
+   "*eski tablo binayı terk ediyor*"
+  ]
+ },
+ "j05_read": {
+  "_": [
+   "'Yeniden yapılanma — Soru-Cevap, 11:00' mı?! GÜNDEMDE mi?!",
+   "Not VE gündem mi? Bu gerçek. İnsanları kovuyorlar."
+  ]
+ },
+ "j06_crown": {
+  "_": [
+   "Tahtaya göre bugün vekil müdür benim. İtiraz edecek değilim.",
+   "'Vekil müdür: ben.' Eh. Tahta öyle diyorsa."
+  ]
+ },
+ "j07_scream": {
+  "_": [
+   "IŞIKLAR TİTRİYOR VE EKRANIMDA KURUKAFA VAR!",
+   "Artık BİLGİSAYARLARDA. Hayalet bilgisayarlara girdi!"
+  ]
+ },
+ "j08_read": {
+  "_": [
+   "Zam bütçesi SIFIR — ve bazıları BU kadar mı kazanıyor?!",
+   "Bordroyu gördüm. Şimdi de 'zam yok' mu? Hayır. Kesinlikle olmaz."
+  ]
+ },
+ "j09_kickoff": {
+  "_": [
+   "Müzik mi? Disko ışıkları mı? ATIŞTIRMALIK mı? Bu bir parti. Ben bunu partiye çeviriyorum.",
+   "Tamam, evren parti istiyor. Ben kim oluyorum da hayır diyorum?"
+  ]
+ },
+ "j10_find": {
+  "_": [
+   "Bir tayin talebi. VE bir referans mektubu. İkisi de {target} için.",
+   "Hım. {target:in} evrakları. İkisi birden. İlginç."
+  ]
+ },
+ "j11_note": {
+  "_": [
+   "'Öğlen çifte randevu?' Bunu fotoğrafımıza kim yazdı?!",
+   "Biri fotoğrafa kalpler çizmiş. Bir de öğle yemeği masası. Dört kişilik."
+  ]
+ },
+ "j13_reminder": {
+  "_": [
+   "MÜŞTERİ 30 DAKİKAYA GELİYOR — önce projektör.",
+   "*tahtaya vurur* 'Müşteri sunumu: {presenter}'. Bir dakika. Ben mi?"
+  ]
+ },
+ "j15_sign": {
+  "_": [
+   "'Hepsini attım. Yemeğinizi etiketleyin. — {signer}' mi?!",
+   "{signer} HERKESİN yemeğini mi atmış? Bir de imzalamış mı?!"
+  ]
+ },
+ "j16_see": {
+  "_": [
+   "'İstifa ettim' otomatik yanıtı VE bir istifa mektubu mu? {owner} gerçekten gidiyor!",
+   "Eyvah. {owner} gidiyor. Gerçek bu. Mektup orada duruyor."
+  ]
+ },
+ "j18_storm": {
+  "_": [
+   "O değerlendirme HİLELİYDİ. Biri raporumu yeniden yazmış ve o da her kelimesine inanmış!",
+   "Bana hiç yazmadığım bir raporu okudu. Hem de keyifle."
+  ]
+ },
+ "j19_sign": {
+  "_": [
+   "Benim hakkımdaki imzasız şikâyet {gossip:in} el yazısıyla mı?!",
+   "Demek {gossip}. Hem dedikodu HEM şikâyet."
+  ]
+ },
+ "j20_wonder": {
+  "_": [
+   "Bir nazik not VE panoda bir iltifat mı? Biri benden hoşlanıyor. Kim?!",
+   "Bir günde iki imzasız güzel şey mi? Bu gizli bir hayran."
+  ]
+ },
+ "gh_announce": {
+  "_": [
+   "Size söylüyorum: bu ofiste HAYALET var.",
+   "Işıklar. Yazıcılar. Kahve makineleri. Bu bir hayalet. Eminim.",
+   "Bu ofiste bir şey yaşıyor. Bir şey... görünmez."
+  ],
+  "ece": [
+   "HAYALET var. Korkuyorum ama aynı zamanda ÇOK heyecanlıyım."
+  ],
+  "zeynep": [
+   "Bazı şeyler gördüm. Not alıyorum."
+  ]
+ },
+ "gh_recruit": {
+  "_": [
+   "Ruh çağırma seansı. Toplantı odası. Öğleden sonra. Var mısın?",
+   "Hayaletle iletişime geçmemiz lazım. Usulünce. Benimle misin?"
+  ]
+ },
+ "gh_recruit_yes": {
+  "_": [
+   "EVET. Mumları ben getiririm.",
+   "Varım. Hep bir ruh çağırma seansına katılmak istemiştim."
+  ]
+ },
+ "gh_recruit_no": {
+  "_": [
+   "Kesinlikle hayır. Senin uykuya ihtiyacın var.",
+   "Yazıcının ruhuyla konuşmayacağım."
+  ]
+ },
+ "gh_chant": {
+  "_": [
+   "Ofisin ruhu... orada mısın? Evet için bir kez vur.",
+   "Ey hayalet... buradaysan... ışıkları titret."
+  ]
+ },
+ "gh_scream": {
+  "_": [
+   "AAAAAH! CEVAP VERDİ!",
+   "IŞIKLAR! IŞIKLARI GÖRDÜN MÜ?!"
+  ]
+ },
+ "gh_nothing": {
+  "_": [
+   "...Hiçbir şey.",
+   "Belki öğle arasındadır.",
+   "Eh. Hayatımın bir saati gitti."
+  ]
+ },
+ "gh_debunk": {
+  "_": [
+   "Tavanda gevşek bir kabloymuş. Hayalet değil. Lütfen bırakın artık.",
+   "Sigortaya baktım. Arızalı röle. Hayalet falan yok."
+  ]
+ },
+ "gh_believe_burak": {
+  "_": [
+   "...Ah. Röle. Doğru. Tabii ki.",
+   "Peki. Hayalet yok. ...Muhtemelen."
+  ]
+ },
+ "gh_dont_believe": {
+  "_": [
+   "Bir hayalet de TAM olarak bunu söylemeni isterdi.",
+   "Her şeyi 'röle'yle açıklayamazsın, Burak."
+  ]
+ },
+ "coup_announce": {
+  "_": [
+   "Herkes dikkat! Yeni verimlilik önlemleri, derhâl yürürlükte.",
+   "Dinleyin. Ahmet meşgulken işleri ben düzene sokuyorum."
+  ],
+  "deniz": [
+   "Ekip. Birkaç değişiklik. Şu andan itibaren geçerli. Soru? Yok mu? Güzel."
+  ]
+ },
+ "coup_follow": {
+  "_": [
+   "Tabii, sen nasıl istersen.",
+   "Tamam! Yeni kurallar!"
+  ]
+ },
+ "coup_resist": {
+  "_": [
+   "SENİ kim yetkili yaptı?",
+   "Sen patron değilsin.",
+   "Güzel deneme."
+  ]
+ },
+ "coup_ally_ask": {
+  "_": [
+   "Sen ve ben. Ahmet yokken burayı biz yönetiriz. Anlaştık mı?",
+   "Bir yardımcıya ihtiyacım var. İlgilenir misin?"
+  ]
+ },
+ "coup_ally_yes": {
+  "_": [
+   "...Anlaştık. Benim çıkarım ne?",
+   "Dinliyorum."
+  ]
+ },
+ "coup_ally_no": {
+  "_": [
+   "İkimizi de kovduracaksın.",
+   "Beni bu işe karıştırma."
+  ]
+ },
+ "coup_boss": {
+  "_": [
+   "Duydum ki ofisimi SEN yönetiyormuşsun, {usurper}.",
+   "'Verimlilik önlemleri' mi, {usurper}? BENİM ofisimde mi?"
+  ]
+ },
+ "coup_bold": {
+  "_": [
+   "Birinin yapması gerekiyordu. İşler dağılıyordu.",
+   "İnisiyatif aldım. Rica ederim."
+  ]
+ },
+ "coup_crushed": {
+  "_": [
+   "İnce buz üstündesin. Çok ince.",
+   "Bir numara daha yaparsan burada işin biter."
+  ]
+ },
+ "coup_impressed": {
+  "_": [
+   "...Aslında o önlemlerin bazıları fena değil. Yazıya dök.",
+   "Hım. Cüretkâr. Belki fazla cüretkâr. Ama aptalca değil."
+  ]
+ },
+ "lt_notice": {
+  "_": [
+   "...{lover}, {crush} ile flört mü ediyor? Tam gözümün önünde?",
+   "Ah, anlıyorum. {lover} ve {crush}. Ne tatlı."
+  ]
+ },
+ "lt_warn": {
+  "_": [
+   "Çekil. {crush:i} ilk ben gördüm.",
+   "{crush:den} uzak dur. Ciddiyim."
+  ]
+ },
+ "lt_backoff": {
+  "_": [
+   "...Peki. Senin için bu kadar önemliyse.",
+   "Tamam. Tamam. Geri çekiliyorum."
+  ]
+ },
+ "lt_never": {
+  "_": [
+   "En iyi olan kazansın.",
+   "Hayatta olmaz. Kararı {crush} versin."
+  ]
+ },
+ "lt_gesture": {
+  "_": [
+   "Sana bir kahve yaptım. Sevdiğin gibi. Köpüğünde kalple.",
+   "Sana bir şey aldım. Görünce aklıma sen geldin."
+  ]
+ },
+ "lt_gesture_react": {
+  "_": [
+   "...Bu gerçekten çok tatlı.",
+   "Ah! Teşekkürler!",
+   "Hatırladın mı?!"
+  ]
+ },
+ "lt_choice_ask": {
+  "_": [
+   "Eee. Ben mi, {lover} mı? Bilmem lazım.",
+   "Sormak zorundayım: seninle {lover} arasında bir şey var mı?"
+  ]
+ },
+ "lt_choose_rival": {
+  "_": [
+   "...Açıkçası mı? Sensin. Hep sendin.",
+   "Sen. Tabii ki sen."
+  ]
+ },
+ "lt_choose_lover": {
+  "_": [
+   "Üzgünüm. Ben {lover:den} hoşlanıyorum.",
+   "{lover}. Üzgünüm."
+  ]
+ },
+ "lt_choose_none": {
+  "_": [
+   "İkiniz de değil! İkiniz de gülünçsünüz!",
+   "Ben bir ödül değilim. Kimseyi seçmiyorum."
+  ]
+ },
+ "sr_grumble": {
+  "_": [
+   "Her yıl daha çok çalışıp daha AZ kazanıyoruz. Yeter.",
+   "Bundan bıkan başka kimse var mı? Çünkü ben bıktım.",
+   "Bir şey yapmalıyız. Birlikte."
+  ]
+ },
+ "sr_sign": {
+  "_": [
+   "Dilekçeyi imzalar mısın? Herkese adil zam.",
+   "Bir imza. Hepimiz için."
+  ]
+ },
+ "sr_signed": {
+  "_": [
+   "Ver şu kalemi.",
+   "İmzaladım. Tam zamanı.",
+   "Tamam. Ben de varım."
+  ]
+ },
+ "sr_refused": {
+  "_": [
+   "Bu riski alamam.",
+   "Beni karıştırma. İşimi seviyorum.",
+   "Benim savaşım değil."
+  ]
+ },
+ "sr_count_many": {
+  "_": [
+   "Şu imzalara bak. Bunu görmezden gelemezler.",
+   "Kalabalığız. Şimdi yürüyoruz."
+  ]
+ },
+ "sr_count_few": {
+  "_": [
+   "...İki imza. Biri benim.",
+   "Kimse imzalamadı. Korkaklar. Hepsi."
+  ]
+ },
+ "sr_demand": {
+  "_": [
+   "Ahmet Bey, adil zam istiyoruz. Hepimiz.",
+   "Bir dilekçe imzaladık. Adil ücret istiyoruz."
+  ]
+ },
+ "sr_concede": {
+  "_": [
+   "...Peki. Merkeze götüreceğim. Bir şeyler alacaksınız. Söz.",
+   "Haklı bir noktaya değiniyorsunuz. Bunun için savaşacağım."
+  ]
+ },
+ "sr_refuse": {
+  "_": [
+   "DİLEKÇE mi? Burası sendika lokali değil!",
+   "Memnun olmayan kapının yerini bilir."
+  ]
+ },
+ "lm_outrage": {
+  "_": [
+   "Bu ÜÇÜNCÜ kez! Kim olduğunu bulacağım.",
+   "Bu ofiste bir YEMEK HIRSIZI var. Ve onu yakalayacağım."
+  ]
+ },
+ "lm_hire": {
+  "_": [
+   "Sen her şeyi fark edersin. Bir yemek hırsızını yakalamama yardım eder misin?",
+   "Bir dedektife ihtiyacım var. Tanıdığım en meraklı kişi sensin. Bu bir iltifat."
+  ]
+ },
+ "lm_accept": {
+  "_": [
+   "Bir gizem mi? Ben VARIM.",
+   "Bana bırak. Benim nöbetimde kimse yemek çalamaz."
+  ]
+ },
+ "lm_watch": {
+  "_": [
+   "*buzdolabı kapısının arkasına saklanır* Her an olabilir...",
+   "Pusu. Buzdolabı. Gözler açık."
+  ]
+ },
+ "lm_caught": {
+  "_": [
+   "YAKALADIM! Çek ellerini o yemekten, {culprit}!",
+   "Suçüstü yakalandın, {culprit}! ÇATALLA!"
+  ]
+ },
+ "lm_caught_excuse": {
+  "_": [
+   "Ben— sahipsiz gibi duruyordu!",
+   "Bedava yemek sandım!",
+   "Göründüğü gibi değil. Tam olarak göründüğü gibi."
+  ]
+ },
+ "lm_nobody": {
+  "_": [
+   "Hiçbir şey. Hiç kimse. Hırsız izlediğimizi biliyor olmalı.",
+   "Buzdolabının başında iki saat. Bir yoğurt bile yok."
+  ]
+ },
+ "lm_bait": {
+  "_": [
+   "Ekstra acılı bir 'öğle yemeği', üstünde 'YEMEYİN' etiketi. Bakalım kim dayanabilecek.",
+   "*buzdolabına şüpheli derecede iştah açıcı bir kutu koyar* Yem hazır."
+  ]
+ },
+ "lm_spicy": {
+  "_": [
+   "HHHHH— SU! SU!",
+   "BU NEDEN BU KADAR ACI?!",
+   "Ağzım YANIYOR!"
+  ]
+ },
+ "lm_laugh": {
+  "_": [
+   "HAHA! Oh olsun!",
+   "Biri ona süt getirsin!",
+   "Hırsızlık yapmanın sonu bu!"
+  ]
+ },
+ "lm_gotcha_bait": {
+  "_": [
+   "Acı biber yakaladı! {culprit} çıktı!",
+   "Yem işe yaradı! {culprit}, yakalandın!"
+  ]
  }
 }
