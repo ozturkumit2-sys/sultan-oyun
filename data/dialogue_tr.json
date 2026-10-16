@@ -1844,5 +1844,618 @@
   "ahmet": [
    "Hm. Aferin kızım. Yani, aferin, güzel iş."
   ]
+ },
+ "ceren_brief": {
+  "_": [
+   "Bugünkü programınız, efendim.",
+   "Size birkaç güncelleme var.",
+   "Kısa bir brifing, efendim."
+  ]
+ },
+ "boss_brief_reply": {
+  "_": [
+   "Güzel. Teşekkürler.",
+   "Beni haberdar et.",
+   "Hı hı."
+  ]
+ },
+ "ceren_snitch": {
+  "_": [
+   "Bilmeniz gerekebilir... {gossip}",
+   "Bir şey daha: {gossip}"
+  ]
+ },
+ "deniz_suckup": {
+  "_": [
+   "Bugün kravatınız harika, efendim.",
+   "Efendim, çeyreklik plan hakkında birkaç fikrim vardı...",
+   "Liderliğinize ne kadar hayran olduğumu söylemiş miydim?"
+  ]
+ },
+ "deniz_snitch": {
+  "_": [
+   "Aramızda kalsın efendim... {gossip}",
+   "Bilmeniz gerektiğini düşündüm: {gossip}",
+   "Söylemek istemezdim ama {gossip}"
+  ]
+ },
+ "boss_pleased": {
+  "_": [
+   "Güzel, Deniz. Güzel.",
+   "Tavrını beğeniyorum.",
+   "Böyle devam."
+  ]
+ },
+ "boss_too_ambitious": {
+  "_": [
+   "Daha az laf, daha çok iş, Deniz.",
+   "Hırsın belli oluyor.",
+   "Başka bir şey var mı?"
+  ]
+ },
+ "boss_check_good": {
+  "_": [
+   "Güzel. Devam et.",
+   "İyi ilerleme.",
+   "İşte görmek istediğim bu."
+  ]
+ },
+ "thanks_boss": {
+  "_": [
+   "Teşekkürler, efendim.",
+   "Sağ olun!"
+  ]
+ },
+ "boss_check_idle": {
+  "_": [
+   "Bayram mı var?",
+   "Senin çalışıyor olman gerekmiyor mu?",
+   "Sana çalışman için para ödüyorum, sohbet için değil."
+  ]
+ },
+ "idle_excuse": {
+  "_": [
+   "Kısa bir mola sadece!",
+   "Tam dönüyordum!",
+   "İşle ilgili! Bir nevi."
+  ]
+ },
+ "boss_check_nag": {
+  "_": [
+   "Ne durumda?",
+   "Teslim bugün, değil mi?",
+   "Raporu unutma."
+  ]
+ },
+ "yes_boss": {
+  "_": [
+   "Peki efendim.",
+   "Hemen!",
+   "Bitmek üzere!"
+  ]
+ },
+ "stress_vent": {
+  "_": [
+   "Burayı artık kaldıramıyorum.",
+   "Bana mı öyle geliyor, yoksa bugün kâbus mu?",
+   "Tatile ihtiyacım var. Ya da yeni bir hayata."
+  ]
+ },
+ "comfort": {
+  "_": [
+   "Hey, sen bunu halledersin.",
+   "Derin nefes. Her şey yoluna girecek.",
+   "Sana bir kahve getireyim mi?"
+  ]
+ },
+ "not_now": {
+  "_": [
+   "Şimdi olmaz, ben de boğuluyorum.",
+   "Sonra konuşsak olur mu?",
+   "Benim de kendi dertlerim var."
+  ]
+ },
+ "deadline_panic": {
+  "_": [
+   "Asla zamanında yetiştiremeyeceğim!",
+   "Teslime bir saat var ve daha yarıdayım!",
+   "İmdat. Biri. Herhangi biri."
+  ],
+  "mert": [
+   "Bunu neden son dakikaya bıraktım? Yine?"
+  ]
+ },
+ "deadline_alone": {
+  "_": [
+   "Peki. Ben ve kafein, dünyaya karşı.",
+   "Kimse gelmiyor. Tamam."
+  ]
+ },
+ "offer_help_work": {
+  "_": [
+   "Yardım lazım mı?",
+   "Yarısını ben alayım.",
+   "Ver onları, yardım edeyim."
+  ]
+ },
+ "accept_help_work": {
+  "_": [
+   "Bunu yapar mısın? Teşekkürler!",
+   "Senden hiç beklemezdim... teşekkürler.",
+   "Hayatımı kurtarıyorsun."
+  ]
+ },
+ "deadline_missed_line": {
+  "_": [
+   "Ve... teslim tarihini kaçırdım.",
+   "Eh, artık geç kaldı.",
+   "Çok geç. Harika."
+  ]
+ },
+ "late_morning": {
+  "_": [
+   "Günaydın! Geç mi kaldım? Geç kalmadım.",
+   "Trafik çılgındı!",
+   "Geç mi kaldım? Cevap verme."
+  ],
+  "mert": [
+   "Otobüs geç kaldı. Sonra ben geç kaldım. Hayatın döngüsü."
+  ]
+ },
+ "boss_late_morning": {
+  "_": [
+   "Tünaydın.",
+   "Bakın kim işe gelmeye karar vermiş.",
+   "Saatin kaç olduğunu biliyor musun?"
+  ]
+ },
+ "ghost_theory": {
+  "_": [
+   "Size söylüyorum, bu ofiste hayalet var.",
+   "Eşyalar kendi kendine yer değiştiriyor. Bunu açıklayın BAKALIM.",
+   "Bu ofiste bir şey var. Bir şey... görünmez."
+  ]
+ },
+ "ghost_reply": {
+  "_": [
+   "Öyle deme! Geç saate kadar kalmam lazım!",
+   "Hayalet diye bir şey yok. ...Değil mi?",
+   "Tamam, bu gece uyku yok."
+  ]
+ },
+ "accuse_lunch": {
+  "_": [
+   "Öğle yemeğimi sen mi yedin? Dürüst ol.",
+   "Öğle yemeğim yok ve sen mutfaktaydın.",
+   "Böreğimi sen yedin, değil mi?"
+  ]
+ },
+ "kg_psst": {
+  "_": [
+   "Pst. {target}. Mutfak. Hemen.",
+   "{target}! Kahve? HABERLERİM var.",
+   "Bir dakikan var mı, {target}? Ama burada değil."
+  ],
+  "mert": [
+   "{target}! Mutfak zirvesi, iki dakika."
+  ],
+  "zeynep": [
+   "{target}, mutfağa. Bunu otururken dinlemek isteyeceksin.",
+   "Ah {target}, az önce ne duyduğumu TAHMİN BİLE edemezsin."
+  ]
+ },
+ "gossip_tell_unsure": {
+  "_": [
+   "Yüzde yüz emin değilim ama... {gossip}",
+   "Benden duymuş olma ama görünüşe göre: {gossip}",
+   "Sadece kulaktan dolma duydum ama — {gossip}"
+  ],
+  "ece": [
+   "Yanlış duymuş olabilirim! Ama... {gossip}"
+  ],
+  "zeynep": [
+   "Kaynağım... yarı güvenilir diyelim. {gossip}"
+  ]
+ },
+ "gossip_tell_spicy": {
+  "_": [
+   "Ve sandığından da kötü: {gossip}",
+   "Tamam, şöyle — {gossip} BİLİYORUM."
+  ],
+  "zeynep": [
+   "Benden duymadın ama {gossip}",
+   "Sıkı tutun. {gossip}"
+  ]
+ },
+ "gossip_doubt": {
+  "_": [
+   "Hm. Bundan emin misin?",
+   "Uydurma gibi geliyor.",
+   "Görmeden inanmam."
+  ],
+  "burak": [
+   "Kaynak?"
+  ],
+  "ceren": [
+   "Doğru olduğunu bilmeden bunu tekrarlamayalım."
+  ],
+  "selin": [
+   "Dedikodu kanıt değildir."
+  ]
+ },
+ "paranoid_think": {
+  "_": [
+   "...Ben girince neden sustular?",
+   "BENİM hakkımda mı fısıldaşıyorlar?",
+   "Hmm. Şüpheli bir toplantı."
+  ]
+ },
+ "were_you_talking_about_me": {
+  "_": [
+   "Siz ikiniz benim hakkımda mı konuşuyordunuz?",
+   "O fısıltılar neyin nesiydi?",
+   "Söyleyecek bir şeyin varsa yüzüme söyle."
+  ],
+  "burak": [
+   "Ben girince sustunuz. Neden?"
+  ],
+  "selin": [
+   "Fısıldaştığınızı gördüm. Benim hakkımda mı?"
+  ]
+ },
+ "caught_gossiping": {
+  "_": [
+   "Şey... hayır? Hava. Havadan konuşuyorduk.",
+   "Ne? Hayır! ...Tamam, belki biraz."
+  ],
+  "zeynep": [
+   "Canım, ben HERKES hakkında konuşurum. Üstüne alınma."
+  ]
+ },
+ "paranoid_furious": {
+  "_": [
+   "İnanılmaz. Arkamdan mı?!",
+   "Biliyordum.",
+   "Adımı ağzına alma."
+  ]
+ },
+ "not_about_you": {
+  "_": [
+   "Rahatla! Futbol konuşuyorduk.",
+   "Seninle ilgili değildi, söz!",
+   "Her şey seninle ilgili değil."
+  ],
+  "mert": [
+   "Kebapçıları tartışıyorduk. Ölüm kalım meselesi."
+  ]
+ },
+ "paranoid_relief": {
+  "_": [
+   "Ha. Doğru. Pardon.",
+   "...Tamam. Sadece yorgunum.",
+   "Peki. Devam edin."
+  ]
+ },
+ "overheard_self": {
+  "_": [
+   "Pardon?! Sizi DUYABİLİYORUM.",
+   "Vay. Tam buradayım.",
+   "Benden bahsediyorsunuz, değil mi?"
+  ],
+  "ahmet": [
+   "Böyle mi düşünüyorsunuz? BENİM ofisimde?"
+  ],
+  "selin": [
+   "Daha yüksek sesle söyle, bütün kat duymadı galiba."
+  ]
+ },
+ "busted_sorry": {
+  "_": [
+   "Eyvah. Ben öyle — pardon.",
+   "Yanlış anlaşıldı!",
+   "...Ne zamandır oradasın?"
+  ]
+ },
+ "rumor_check_think": {
+  "_": [
+   "{target} hakkında hep bir şeyler duyuyorum. Gidip sorsam iyi olacak.",
+   "{target} hakkındaki o söylenti doğru mu acaba?"
+  ]
+ },
+ "is_it_true": {
+  "_": [
+   "Sana bir şey sorabilir miyim? İnsanlar şunu diyor: {fact} Doğru mu?",
+   "{target}, doğru mu... yani. {fact}",
+   "Bana açık söyle: {fact}"
+  ],
+  "ceren": [
+   "Mutfaktan değil, senden duymayı tercih ederim: {fact}"
+  ],
+  "ece": [
+   "Tuhaf olduysa kusura bakma ama — {fact} Doğru mu?"
+  ]
+ },
+ "rumor_admit": {
+  "_": [
+   "...Evet. Doğru. Mutlu musun?",
+   "Off. Tamam, evet. Lütfen kimseye söyleme.",
+   "Peki. Doğru."
+  ],
+  "burak": [
+   "Evet. Ve ketum davranırsan sevinirim."
+  ]
+ },
+ "rumor_false": {
+  "_": [
+   "NE? Bu tamamen yalan!",
+   "Bunu kim söylüyor allah aşkına?!",
+   "Kesinlikle hayır. Nereden duydun bunu?"
+  ],
+  "ahmet": [
+   "Saçmalık! Bunu kim yayıyor?"
+  ],
+  "selin": [
+   "Bu bir yalan ve kimin başlattığını bilmek istiyorum."
+  ]
+ },
+ "rumor_lie": {
+  "_": [
+   "Pöh. Hayır. Tabii ki hayır.",
+   "Ben mi? Asla. Saçma.",
+   "Haha. Hayır. Sonraki soru."
+  ],
+  "deniz": [
+   "Ben öyle bir şey yapacak birine benziyor muyum?"
+  ]
+ },
+ "rumor_relief": {
+  "_": [
+   "Oh. Bir tuhaflık olduğunu biliyordum.",
+   "Güzel. Zaten inanmamıştım.",
+   "Tamam, herkesi düzelteceğim."
+  ]
+ },
+ "who_started_it": {
+  "_": [
+   "Pekâlâ. Bunu kim başlattı?",
+   "Bunu uyduranı bulacağım.",
+   "Biri konuşuyor. Kim olduğunu bulacağım."
+  ]
+ },
+ "you_spread_lies": {
+  "_": [
+   "Duyduğuma göre insanlara şunu anlatıyormuşsun: {fact} Bu bir yalan.",
+   "İnsanlara şunu mu söyledin: {fact} Çünkü bu doğru DEĞİL.",
+   "Hakkımda söylenti yaymayı bırak."
+  ],
+  "ahmet": [
+   "Hakkımda asılsız hikâyeler mi yayıyorsun?"
+  ],
+  "selin": [
+   "Hakkımda bir yalan yaydın. Bir açıklama bekliyorum."
+  ]
+ },
+ "liar_apology": {
+  "_": [
+   "Ben... bir yerde duymuştum. Özür dilerim.",
+   "Haklısın. Tekrarlamamalıydım.",
+   "Özür dilerim. Kendimi kaptırdım."
+  ],
+  "ece": [
+   "Çok özür dilerim! Doğru sanmıştım!"
+  ]
+ },
+ "liar_deny": {
+  "_": [
+   "Ben mi? Ben öyle bir şey demedim.",
+   "Bana bakma. Etrafa sor.",
+   "Ben değildim. Ben sadece dinlerim."
+  ],
+  "zeynep": [
+   "Ben sadece... bilgi aktarırım."
+  ]
+ },
+ "liar_defiant": {
+  "_": [
+   "Eh, herkes söylüyor.",
+   "Kim üstüne alınıyorsa...",
+   "Belki bu kadar şüpheli davranmasaydın..."
+  ]
+ },
+ "misheard_think": {
+  "_": [
+   "Dur... {target} az önce {victim:in} kovulacağını mı söyledi?!",
+   "Doğru mu duydum? {victim}... kovuluyor mu?!",
+   "Aman tanrım. {victim:in} günleri sayılı mı?"
+  ],
+  "zeynep": [
+   "Oo. Oo! {victim} GİDİYOR mu? Bu büyük haber."
+  ]
+ },
+ "suck_up_line": {
+  "_": [
+   "Ahmet Bey! Kravatınız bugün harika. Çok... liderce.",
+   "Size kahve getirdim. Tam sevdiğiniz gibi.",
+   "Dünkü konuşmanız bana gerçekten ilham verdi."
+  ],
+  "deniz": [
+   "Ahmet Bey, piyasayı sizin için özetleme cüretini gösterdim. Tek sayfa. Kalın yazı."
+  ],
+  "ece": [
+   "Amca— Ahmet Bey! Size çay yaptım!"
+  ]
+ },
+ "boss_flattered": {
+  "_": [
+   "Hm. Güzel. Aferin.",
+   "İşte görmek istediğim tavır bu.",
+   "Nihayet, inisiyatifi olan biri."
+  ]
+ },
+ "boss_sees_through": {
+  "_": [
+   "Ne istiyorsun?",
+   "Dalkavukluk raporunu bitirmez.",
+   "İşinin başına."
+  ]
+ },
+ "eye_roll": {
+  "_": [
+   "*göz devirir*",
+   "Hadi canım.",
+   "Çok ince. Çok.",
+   "Biri şu yalakalığı silmek için paspas getirsin."
+  ],
+  "mert": [
+   "Ayın yalakası ödülü gidiyor..."
+  ],
+  "selin": [
+   "İnanılmaz."
+  ]
+ },
+ "raise_ask": {
+  "_": [
+   "Ahmet Bey, maaşım hakkında konuşabilir miyiz?",
+   "Bence zam konuşmanın zamanı geldi.",
+   "Yeterince uzun zamandır buradayım. Zam istiyorum."
+  ],
+  "burak": [
+   "Burada her şeyi ben tamir ediyorum. Bunun maaşıma yansımasını istiyorum."
+  ],
+  "zeynep": [
+   "Bu şirketin defterlerini ben denkleştiriyorum. Benimkinin de denkleşmesini istiyorum."
+  ]
+ },
+ "raise_yes": {
+  "_": [
+   "...Peki. Hak ettin. Kimseye söyleme.",
+   "Tamam. Küçük bir zam. Ses çıkarma."
+  ]
+ },
+ "raise_later": {
+  "_": [
+   "Gelecek çeyrek. Bakarız.",
+   "Şimdi olmaz. Bütçeler kısıtlı.",
+   "Baharda hatırlat."
+  ]
+ },
+ "raise_no": {
+  "_": [
+   "Zam mı? BU ekonomide mi?",
+   "Kesinlikle hayır. İşinin başına.",
+   "İşin olduğu için şükretmelisin."
+  ]
+ },
+ "raise_happy": {
+  "_": [
+   "Teşekkürler! Gerçekten!",
+   "Nihayet!"
+  ],
+  "zeynep": [
+   "Sizinle iş yapmak bir zevkti."
+  ]
+ },
+ "raise_bitter": {
+  "_": [
+   "...Tabii ya.",
+   "Tabii. Bahar. Elbette.",
+   "İnanılmaz."
+  ],
+  "burak": [
+   "Not edildi. Çok iyi not edildi."
+  ]
+ },
+ "think_raise": {
+  "_": [
+   "Bugün o gün. Soracağım.",
+   "Derin nefes. Zam. Yapabilirsin."
+  ]
+ },
+ "hover_line": {
+  "_": [
+   "Hı hı. Peki bu ne?",
+   "Çok yavaş yazıyorsun.",
+   "Bu bir tablo mu, yoksa modern sanat mı?",
+   "Sadece izliyorum. Burada değilmişim gibi davran."
+  ]
+ },
+ "hover_nervous": {
+  "_": [
+   "...Bitmek üzere.",
+   "Doğru. Evet. Daha hızlı. Evet.",
+   "*son derece hızlı yazar*"
+  ],
+  "ece": [
+   "Ne yaptığımı bildiğime söz veriyorum! Çoğunlukla!"
+  ]
+ },
+ "hover_snap": {
+  "_": [
+   "Lütfen tepemde dikilmeseniz?",
+   "Seyirci olmadan daha iyi çalışırım.",
+   "Bir şey mi lazımdı, yoksa...?"
+  ],
+  "burak": [
+   "Ensemde soluk almanız sunucuyu hızlandırmıyor."
+  ]
+ },
+ "hover_charm": {
+  "_": [
+   "Yazıyı sizin için büyüteyim mi, patron?",
+   "Bu benim iyi profilim. Bir fotoğraf çekin."
+  ],
+  "mert": [
+   "Satış görüşmesine buyurun! Atıştırmalık getirin."
+  ]
+ },
+ "boss_hmph": {
+  "_": [
+   "Hıh. Devam et.",
+   "Tavrına dikkat et.",
+   "...Peki."
+  ]
+ },
+ "boss_chuckle": {
+  "_": [
+   "Ha! Şımarık. Devam et.",
+   "Hah. İşine dön."
+  ]
+ },
+ "dump_work": {
+  "_": [
+   "Bu rapor gün sonuna kadar lazım. Acil.",
+   "Her şeyi bırak. Genel merkez rakam istiyor. Bugün.",
+   "Al. Bu artık senin. Saat beşe kadar."
+  ]
+ },
+ "dump_accept": {
+  "_": [
+   "...Tabii. Elbette.",
+   "Geç saate kadar kalırım. Peki.",
+   "Tamam. Sorun yok. Büyük sorun. Tamam."
+  ]
+ },
+ "dump_push_back": {
+  "_": [
+   "Beşe kadar mı? Bu imkânsız.",
+   "Zaten boğuluyorum, Ahmet Bey.",
+   "Yarına kalabilir mi? Lütfen?"
+  ]
+ },
+ "boss_not_negotiable": {
+  "_": [
+   "Bu bir rica değil.",
+   "Saat beş. Son söz.",
+   "Herkes meşgul. Yine de yap."
+  ]
+ },
+ "pass_the_buck": {
+  "_": [
+   "{to}! Senin için harika bir öğrenme fırsatı!",
+   "{to}, rakamlarla aran iyidir, değil mi?"
+  ],
+  "deniz": [
+   "{to}, bu CV'nde harika görünecek."
+  ]
  }
 }

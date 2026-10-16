@@ -1844,5 +1844,618 @@
   "ahmet": [
    "Hm. Braves Mädchen. Ich meine, gute Arbeit."
   ]
+ },
+ "ceren_brief": {
+  "_": [
+   "Ihr Tagesplan für heute.",
+   "Ein paar Neuigkeiten für Sie.",
+   "Kurzes Briefing, Ahmet Bey."
+  ]
+ },
+ "boss_brief_reply": {
+  "_": [
+   "Gut. Danke.",
+   "Halten Sie mich auf dem Laufenden.",
+   "Mhm."
+  ]
+ },
+ "ceren_snitch": {
+  "_": [
+   "Das sollten Sie vielleicht wissen ... {gossip}",
+   "Noch etwas: {gossip}"
+  ]
+ },
+ "deniz_suckup": {
+  "_": [
+   "Tolle Krawatte heute, Ahmet Bey.",
+   "Ahmet Bey, ich hätte da ein paar Ideen zum Quartalsplan ...",
+   "Hab ich schon erwähnt, wie sehr ich Ihre Führung bewundere?"
+  ]
+ },
+ "deniz_snitch": {
+  "_": [
+   "Unter uns, Ahmet Bey ... {gossip}",
+   "Ich dachte, Sie sollten das wissen: {gossip}",
+   "Ich sag’s ungern, aber {gossip}"
+  ]
+ },
+ "boss_pleased": {
+  "_": [
+   "Gut, Deniz. Gut.",
+   "Ihre Einstellung gefällt mir.",
+   "Weiter so."
+  ]
+ },
+ "boss_too_ambitious": {
+  "_": [
+   "Weniger reden, mehr arbeiten, Deniz.",
+   "Ihr Ehrgeiz ist nicht zu übersehen.",
+   "Gibt es sonst noch etwas?"
+  ]
+ },
+ "boss_check_good": {
+  "_": [
+   "Gut. Weitermachen.",
+   "Schöne Fortschritte.",
+   "Das sehe ich gern."
+  ]
+ },
+ "thanks_boss": {
+  "_": [
+   "Danke, Ahmet Bey.",
+   "Danke!"
+  ]
+ },
+ "boss_check_idle": {
+  "_": [
+   "Ist heute Feiertag?",
+   "Sollten Sie nicht arbeiten?",
+   "Ich bezahle Sie fürs Arbeiten, nicht fürs Plaudern."
+  ]
+ },
+ "idle_excuse": {
+  "_": [
+   "Nur eine kurze Pause!",
+   "Ich wollte gerade zurück!",
+   "Ist dienstlich! Irgendwie."
+  ]
+ },
+ "boss_check_nag": {
+  "_": [
+   "Wie kommen Sie voran?",
+   "Abgabe ist heute, richtig?",
+   "Vergessen Sie den Bericht nicht."
+  ]
+ },
+ "yes_boss": {
+  "_": [
+   "Jawohl.",
+   "Bin dran!",
+   "Fast fertig!"
+  ]
+ },
+ "stress_vent": {
+  "_": [
+   "Ich halte diesen Laden nicht mehr aus.",
+   "Liegt’s an mir, oder ist heute ein Albtraum?",
+   "Ich brauche Urlaub. Oder ein neues Leben."
+  ]
+ },
+ "comfort": {
+  "_": [
+   "Hey, du schaffst das.",
+   "Tief durchatmen. Wird schon.",
+   "Soll ich dir einen Kaffee holen?"
+  ]
+ },
+ "not_now": {
+  "_": [
+   "Nicht jetzt, ich ertrinke selbst.",
+   "Können wir später reden?",
+   "Ich hab meine eigenen Probleme."
+  ]
+ },
+ "deadline_panic": {
+  "_": [
+   "Das schaffe ich nie rechtzeitig!",
+   "Abgabe in einer Stunde und ich bin bei der Hälfte!",
+   "Hilfe. Irgendwer. Egal wer."
+  ],
+  "mert": [
+   "Warum hab ich das auf den letzten Drücker gelassen? Schon wieder?"
+  ]
+ },
+ "deadline_alone": {
+  "_": [
+   "Na gut. Ich und das Koffein gegen den Rest der Welt.",
+   "Es kommt keiner. Okay."
+  ]
+ },
+ "offer_help_work": {
+  "_": [
+   "Brauchst du Hilfe?",
+   "Ich nehm dir die Hälfte ab.",
+   "Gib her, ich helfe dir."
+  ]
+ },
+ "accept_help_work": {
+  "_": [
+   "Das würdest du tun? Danke!",
+   "Ausgerechnet von dir hätte ich das nicht erwartet ... danke.",
+   "Du rettest mir das Leben."
+  ]
+ },
+ "deadline_missed_line": {
+  "_": [
+   "Und ... Deadline verpasst.",
+   "Tja, jetzt ist es zu spät.",
+   "Zu spät. Toll."
+  ]
+ },
+ "late_morning": {
+  "_": [
+   "Morgen! War ich zu spät? Ich war nicht zu spät.",
+   "Der Verkehr war Wahnsinn!",
+   "Bin ich zu spät? Nicht antworten."
+  ],
+  "mert": [
+   "Der Bus war zu spät. Und dann war ich zu spät. Der Kreislauf des Lebens."
+  ]
+ },
+ "boss_late_morning": {
+  "_": [
+   "Guten MITTAG.",
+   "Sieh mal einer an, wer sich zur Arbeit bequemt.",
+   "Wissen Sie, wie spät es ist?"
+  ]
+ },
+ "ghost_theory": {
+  "_": [
+   "Ich sag’s euch, in diesem Büro spukt es.",
+   "Sachen bewegen sich von selbst. Erklärt mir DAS mal.",
+   "Hier im Büro ist etwas. Etwas ... Unsichtbares."
+  ]
+ },
+ "ghost_reply": {
+  "_": [
+   "Sag so was nicht! Ich muss heute länger bleiben!",
+   "Geister gibt es nicht. ... Oder?",
+   "Okay, heute Nacht schlafe ich nicht."
+  ]
+ },
+ "accuse_lunch": {
+  "_": [
+   "Hast du mein Mittagessen gegessen? Sei ehrlich.",
+   "Mein Mittagessen ist weg, und du warst in der Küche.",
+   "Du hast meinen Börek gegessen, oder?"
+  ]
+ },
+ "kg_psst": {
+  "_": [
+   "Psst. {target}. Küche. Sofort.",
+   "{target}! Kaffee? Ich hab NEUIGKEITEN.",
+   "Hast du kurz Zeit, {target}? Aber nicht hier."
+  ],
+  "mert": [
+   "{target}! Küchengipfel, in zwei Minuten."
+  ],
+  "zeynep": [
+   "{target}, Küche. Das willst du im Sitzen hören.",
+   "Oh {target}, du hast KEINE Ahnung, was ich gerade gehört hab."
+  ]
+ },
+ "gossip_tell_unsure": {
+  "_": [
+   "Ich bin mir nicht hundertprozentig sicher, aber ... {gossip}",
+   "Nagel mich nicht drauf fest, aber angeblich: {gossip}",
+   "Ich hab’s nur aus zweiter Hand, aber — {gossip}"
+  ],
+  "ece": [
+   "Vielleicht hab ich mich verhört! Aber ... {gossip}"
+  ],
+  "zeynep": [
+   "Meine Quelle ist ... sagen wir, halbwegs zuverlässig. {gossip}"
+  ]
+ },
+ "gossip_tell_spicy": {
+  "_": [
+   "Und es ist schlimmer, als du denkst: {gossip}",
+   "Okay, also — {gossip} ICH WEISS."
+  ],
+  "zeynep": [
+   "Von mir hast du das nicht, aber {gossip}",
+   "Halt dich fest. {gossip}"
+  ]
+ },
+ "gossip_doubt": {
+  "_": [
+   "Hm. Bist du sicher?",
+   "Klingt erfunden.",
+   "Das glaube ich erst, wenn ich’s sehe."
+  ],
+  "burak": [
+   "Quelle?"
+  ],
+  "ceren": [
+   "Lasst uns das nicht weitererzählen, bevor wir wissen, ob es stimmt."
+  ],
+  "selin": [
+   "Tratsch ist kein Beweis."
+  ]
+ },
+ "paranoid_think": {
+  "_": [
+   "... Warum haben die aufgehört zu reden, als ich reinkam?",
+   "Flüstern die über MICH?",
+   "Hmm. Verdächtiges Grüppchen."
+  ]
+ },
+ "were_you_talking_about_me": {
+  "_": [
+   "Habt ihr zwei über mich geredet?",
+   "Was sollte das ganze Geflüster?",
+   "Wenn du was zu sagen hast, sag’s mir ins Gesicht."
+  ],
+  "burak": [
+   "Ihr wurdet still, als ich reinkam. Warum?"
+  ],
+  "selin": [
+   "Ich hab euch flüstern sehen. Über mich?"
+  ]
+ },
+ "caught_gossiping": {
+  "_": [
+   "Äh ... nein? Wetter. Wir haben übers Wetter geredet.",
+   "Was? Nein! ... Okay, vielleicht ein bisschen."
+  ],
+  "zeynep": [
+   "Schätzchen, ich rede über ALLE. Nimm’s nicht persönlich."
+  ]
+ },
+ "paranoid_furious": {
+  "_": [
+   "Unfassbar. Hinter meinem Rücken?!",
+   "Ich wusste es.",
+   "Nimm meinen Namen nicht in den Mund."
+  ]
+ },
+ "not_about_you": {
+  "_": [
+   "Entspann dich! Wir haben über Fußball geredet.",
+   "Es ging nicht um dich, versprochen!",
+   "Nicht alles dreht sich um dich."
+  ],
+  "mert": [
+   "Wir haben über Dönerläden diskutiert. Eine Frage von Leben und Tod."
+  ]
+ },
+ "paranoid_relief": {
+  "_": [
+   "Oh. Klar. Sorry.",
+   "... Okay. Ich bin nur müde.",
+   "Gut. Macht weiter."
+  ]
+ },
+ "overheard_self": {
+  "_": [
+   "Wie bitte?! Ich kann euch HÖREN.",
+   "Wow. Ich steh direkt hier.",
+   "Das geht um mich, oder?"
+  ],
+  "ahmet": [
+   "Das denken Sie also? In MEINEM Büro?"
+  ],
+  "selin": [
+   "Sag’s lauter, ich glaube, nicht die ganze Etage hat’s gehört."
+  ]
+ },
+ "busted_sorry": {
+  "_": [
+   "Oh nein. Ich wollte nicht — sorry.",
+   "Das kam falsch rüber!",
+   "... Wie lange stehst du schon da?"
+  ]
+ },
+ "rumor_check_think": {
+  "_": [
+   "Ich höre ständig was über {target}. Ich sollte einfach fragen.",
+   "Stimmt dieses Gerücht über {target} überhaupt?"
+  ]
+ },
+ "is_it_true": {
+  "_": [
+   "Darf ich dich was fragen? Die Leute sagen: {fact} Stimmt das?",
+   "{target}, stimmt es, dass ... na ja. {fact}",
+   "Sag’s mir direkt: {fact}"
+  ],
+  "ceren": [
+   "Ich höre es lieber von dir als aus der Küche: {fact}"
+  ],
+  "ece": [
+   "Sorry, wenn das komisch ist, aber — {fact} Stimmt das?"
+  ]
+ },
+ "rumor_admit": {
+  "_": [
+   "... Ja. Es stimmt. Zufrieden?",
+   "Boah. Okay, ja. Bitte behalt’s für dich.",
+   "Na gut. Es stimmt."
+  ],
+  "burak": [
+   "Ja. Und ich würde Diskretion zu schätzen wissen."
+  ]
+ },
+ "rumor_false": {
+  "_": [
+   "WAS? Das ist komplett falsch!",
+   "Wer um alles in der Welt behauptet das?!",
+   "Auf keinen Fall. Wo hast du das gehört?"
+  ],
+  "ahmet": [
+   "Unsinn! Wer verbreitet das?"
+  ],
+  "selin": [
+   "Das ist eine Lüge, und ich will wissen, wer sie in die Welt gesetzt hat."
+  ]
+ },
+ "rumor_lie": {
+  "_": [
+   "Pff. Nein. Natürlich nicht.",
+   "Ich? Niemals. Lächerlich.",
+   "Haha. Nein. Nächste Frage."
+  ],
+  "deniz": [
+   "Seh ich aus wie jemand, der so was tut?"
+  ]
+ },
+ "rumor_relief": {
+  "_": [
+   "Puh. Ich wusste, dass da was nicht stimmt.",
+   "Gut. Ich hab’s sowieso nicht geglaubt.",
+   "Okay, ich stell das bei den Leuten richtig."
+  ]
+ },
+ "who_started_it": {
+  "_": [
+   "Also gut. Wer hat damit angefangen?",
+   "Ich finde raus, wer sich das ausgedacht hat.",
+   "Jemand hat geredet. Ich finde raus, wer."
+  ]
+ },
+ "you_spread_lies": {
+  "_": [
+   "Ich höre, du erzählst rum: {fact} Das ist gelogen.",
+   "Hast du den Leuten erzählt: {fact} Das stimmt nämlich NICHT.",
+   "Hör auf, Gerüchte über mich zu verbreiten."
+  ],
+  "ahmet": [
+   "Sie verbreiten falsche Geschichten über mich?"
+  ],
+  "selin": [
+   "Du hast eine Lüge über mich verbreitet. Ich hätte gern eine Erklärung."
+  ]
+ },
+ "liar_apology": {
+  "_": [
+   "Ich ... hab’s irgendwo gehört. Tut mir leid.",
+   "Du hast recht. Ich hätte das nicht weitererzählen sollen.",
+   "Sorry. Ich hab mich hinreißen lassen."
+  ],
+  "ece": [
+   "Es tut mir so leid! Ich dachte, es stimmt!"
+  ]
+ },
+ "liar_deny": {
+  "_": [
+   "Ich? Das hab ich nie gesagt.",
+   "Guck mich nicht an. Hör dich mal um.",
+   "Ich war’s nicht. Ich hör nur zu."
+  ],
+  "zeynep": [
+   "Ich ... gebe Informationen lediglich weiter."
+  ]
+ },
+ "liar_defiant": {
+  "_": [
+   "Na ja, alle sagen das.",
+   "Wem der Schuh passt ...",
+   "Vielleicht, wenn du nicht so verdächtig wärst ..."
+  ]
+ },
+ "misheard_think": {
+  "_": [
+   "Moment ... hat {target} gerade gesagt, dass {victim} gefeuert wird?!",
+   "Hab ich richtig gehört? {victim} ... gefeuert?!",
+   "Oh Gott. {victim:s} Tage sind gezählt?"
+  ],
+  "zeynep": [
+   "Uuh. Uuh! {victim} fliegt RAUS? Das ist groß."
+  ]
+ },
+ "suck_up_line": {
+  "_": [
+   "Ahmet Bey! Tolle Krawatte heute. Sehr ... chefmäßig.",
+   "Ich hab Ihnen einen Kaffee mitgebracht. Genau wie Sie ihn mögen.",
+   "Ihre Rede gestern hat mich wirklich inspiriert."
+  ],
+  "deniz": [
+   "Ahmet Bey, ich habe mir erlaubt, den Markt für Sie zusammenzufassen. Eine Seite. Fettdruck."
+  ],
+  "ece": [
+   "Onkel— Ahmet Bey! Ich hab Ihnen Tee gemacht!"
+  ]
+ },
+ "boss_flattered": {
+  "_": [
+   "Hm. Gut. Sehr gut.",
+   "Das ist die Einstellung, die ich sehen will.",
+   "Endlich mal jemand mit Initiative."
+  ]
+ },
+ "boss_sees_through": {
+  "_": [
+   "Was wollen Sie?",
+   "Schmeicheleien schreiben Ihren Bericht nicht.",
+   "Zurück an die Arbeit."
+  ]
+ },
+ "eye_roll": {
+  "_": [
+   "*verdreht die Augen*",
+   "Ach, bitte.",
+   "Subtil. Sehr subtil.",
+   "Holt mal jemand einen Wischmopp für die ganze Schleimspur."
+  ],
+  "mert": [
+   "Der Schleimer-Preis des Monats geht an ..."
+  ],
+  "selin": [
+   "Unfassbar."
+  ]
+ },
+ "raise_ask": {
+  "_": [
+   "Ahmet Bey, können wir über mein Gehalt sprechen?",
+   "Ich finde, es ist Zeit, über eine Gehaltserhöhung zu reden.",
+   "Ich bin lange genug hier. Ich hätte gern eine Gehaltserhöhung."
+  ],
+  "burak": [
+   "Ich repariere hier alles. Das soll sich in meinem Gehalt widerspiegeln."
+  ],
+  "zeynep": [
+   "Ich halte die Bücher dieser Firma im Gleichgewicht. Meine hätte ich auch gern ausgeglichen."
+  ]
+ },
+ "raise_yes": {
+  "_": [
+   "... Na gut. Sie haben es sich verdient. Erzählen Sie’s keinem.",
+   "Also gut. Eine kleine. Behalten Sie’s für sich."
+  ]
+ },
+ "raise_later": {
+  "_": [
+   "Nächstes Quartal. Mal sehen.",
+   "Nicht jetzt. Die Budgets sind knapp.",
+   "Erinnern Sie mich im Frühjahr daran."
+  ]
+ },
+ "raise_no": {
+  "_": [
+   "Eine Gehaltserhöhung? In DIESER Wirtschaftslage?",
+   "Auf keinen Fall. Zurück an die Arbeit.",
+   "Seien Sie froh, dass Sie überhaupt einen Job haben."
+  ]
+ },
+ "raise_happy": {
+  "_": [
+   "Danke! Wirklich!",
+   "Endlich!"
+  ],
+  "zeynep": [
+   "Angenehme Geschäfte."
+  ]
+ },
+ "raise_bitter": {
+  "_": [
+   "... Natürlich.",
+   "Klar. Frühjahr. Sicher.",
+   "Unfassbar."
+  ],
+  "burak": [
+   "Notiert. Sehr notiert."
+  ]
+ },
+ "think_raise": {
+  "_": [
+   "Heute ist der Tag. Ich frage.",
+   "Tief durchatmen. Gehaltserhöhung. Du schaffst das."
+  ]
+ },
+ "hover_line": {
+  "_": [
+   "Mhm. Und was ist das?",
+   "Sie tippen sehr langsam.",
+   "Ist das eine Tabelle oder moderne Kunst?",
+   "Ich schaue nur zu. Tun Sie so, als wäre ich nicht da."
+  ]
+ },
+ "hover_nervous": {
+  "_": [
+   "... Ich bin fast fertig.",
+   "Klar. Ja. Schneller. Ja.",
+   "*tippt extrem schnell*"
+  ],
+  "ece": [
+   "Ich verspreche, ich weiß, was ich tue! Meistens!"
+  ]
+ },
+ "hover_snap": {
+  "_": [
+   "Könnten Sie bitte NICHT über meiner Schulter stehen?",
+   "Ich arbeite besser ohne Publikum.",
+   "Brauchen Sie etwas, oder ...?"
+  ],
+  "burak": [
+   "Mir in den Nacken zu atmen macht den Server nicht schneller."
+  ]
+ },
+ "hover_charm": {
+  "_": [
+   "Soll ich die Schrift für Sie größer machen, Chef?",
+   "Das ist meine gute Seite. Machen Sie ein Foto."
+  ],
+  "mert": [
+   "Sie dürfen gern beim Verkaufsgespräch mitmachen! Bringen Sie Snacks mit."
+  ]
+ },
+ "boss_hmph": {
+  "_": [
+   "Hmpf. Weitermachen.",
+   "Achten Sie auf Ihren Ton.",
+   "... Na gut."
+  ]
+ },
+ "boss_chuckle": {
+  "_": [
+   "Ha! Frech. Weitermachen.",
+   "Hah. Zurück an die Arbeit."
+  ]
+ },
+ "dump_work": {
+  "_": [
+   "Ich brauche diesen Bericht bis Feierabend. Dringend.",
+   "Lassen Sie alles stehen und liegen. Die Zentrale will Zahlen. Heute.",
+   "Hier. Das gehört jetzt Ihnen. Bis fünf."
+  ]
+ },
+ "dump_accept": {
+  "_": [
+   "... Klar. Natürlich.",
+   "Ich bleibe länger. Na gut.",
+   "Okay. Kein Problem. Großes Problem. Okay."
+  ]
+ },
+ "dump_push_back": {
+  "_": [
+   "Bis fünf? Das ist unmöglich.",
+   "Ich ertrinke jetzt schon, Ahmet Bey.",
+   "Kann das bis morgen warten? Bitte?"
+  ]
+ },
+ "boss_not_negotiable": {
+  "_": [
+   "Das ist keine Bitte.",
+   "Fünf Uhr. Endgültig.",
+   "Alle sind beschäftigt. Machen Sie’s trotzdem."
+  ]
+ },
+ "pass_the_buck": {
+  "_": [
+   "{to}! Tolle Lerngelegenheit für dich!",
+   "{to}, du kannst doch gut mit Zahlen, oder?"
+  ],
+  "deniz": [
+   "{to}, das macht sich super in deinem Lebenslauf."
+  ]
  }
 }

@@ -1,0 +1,247 @@
+3074|Ihr Tagesplan für heute.
+3075|Ein paar Neuigkeiten für Sie.
+3076|Kurzes Briefing, Ahmet Bey.
+3077|Gut. Danke.
+3078|Halten Sie mich auf dem Laufenden.
+3079|Mhm.
+3080|Das sollten Sie vielleicht wissen ... {gossip}
+3081|Noch etwas: {gossip}
+3082|Tolle Krawatte heute, Ahmet Bey.
+3083|Ahmet Bey, ich hätte da ein paar Ideen zum Quartalsplan ...
+3084|Hab ich schon erwähnt, wie sehr ich Ihre Führung bewundere?
+3085|Unter uns, Ahmet Bey ... {gossip}
+3086|Ich dachte, Sie sollten das wissen: {gossip}
+3087|Ich sag’s ungern, aber {gossip}
+3088|Gut, Deniz. Gut.
+3089|Ihre Einstellung gefällt mir.
+3090|Weiter so.
+3091|Weniger reden, mehr arbeiten, Deniz.
+3092|Ihr Ehrgeiz ist nicht zu übersehen.
+3093|Gibt es sonst noch etwas?
+3094|Gut. Weitermachen.
+3095|Schöne Fortschritte.
+3096|Das sehe ich gern.
+3097|Danke, Ahmet Bey.
+3098|Danke!
+3099|Ist heute Feiertag?
+3100|Sollten Sie nicht arbeiten?
+3101|Ich bezahle Sie fürs Arbeiten, nicht fürs Plaudern.
+3102|Nur eine kurze Pause!
+3103|Ich wollte gerade zurück!
+3104|Ist dienstlich! Irgendwie.
+3105|Wie kommen Sie voran?
+3106|Abgabe ist heute, richtig?
+3107|Vergessen Sie den Bericht nicht.
+3108|Jawohl.
+3109|Bin dran!
+3110|Fast fertig!
+3111|Ich halte diesen Laden nicht mehr aus.
+3112|Liegt’s an mir, oder ist heute ein Albtraum?
+3113|Ich brauche Urlaub. Oder ein neues Leben.
+3114|Hey, du schaffst das.
+3115|Tief durchatmen. Wird schon.
+3116|Soll ich dir einen Kaffee holen?
+3117|Nicht jetzt, ich ertrinke selbst.
+3118|Können wir später reden?
+3119|Ich hab meine eigenen Probleme.
+3120|Das schaffe ich nie rechtzeitig!
+3121|Abgabe in einer Stunde und ich bin bei der Hälfte!
+3122|Hilfe. Irgendwer. Egal wer.
+3123|Warum hab ich das auf den letzten Drücker gelassen? Schon wieder?
+3124|Na gut. Ich und das Koffein gegen den Rest der Welt.
+3125|Es kommt keiner. Okay.
+3126|Brauchst du Hilfe?
+3127|Ich nehm dir die Hälfte ab.
+3128|Gib her, ich helfe dir.
+3129|Das würdest du tun? Danke!
+3130|Ausgerechnet von dir hätte ich das nicht erwartet ... danke.
+3131|Du rettest mir das Leben.
+3132|Und ... Deadline verpasst.
+3133|Tja, jetzt ist es zu spät.
+3134|Zu spät. Toll.
+3135|Morgen! War ich zu spät? Ich war nicht zu spät.
+3136|Der Verkehr war Wahnsinn!
+3137|Bin ich zu spät? Nicht antworten.
+3138|Der Bus war zu spät. Und dann war ich zu spät. Der Kreislauf des Lebens.
+3139|Guten MITTAG.
+3140|Sieh mal einer an, wer sich zur Arbeit bequemt.
+3141|Wissen Sie, wie spät es ist?
+3142|Ich sag’s euch, in diesem Büro spukt es.
+3143|Sachen bewegen sich von selbst. Erklärt mir DAS mal.
+3144|Hier im Büro ist etwas. Etwas ... Unsichtbares.
+3145|Sag so was nicht! Ich muss heute länger bleiben!
+3146|Geister gibt es nicht. ... Oder?
+3147|Okay, heute Nacht schlafe ich nicht.
+3148|Hast du mein Mittagessen gegessen? Sei ehrlich.
+3149|Mein Mittagessen ist weg, und du warst in der Küche.
+3150|Du hast meinen Börek gegessen, oder?
+3151|Psst. {target}. Küche. Sofort.
+3152|{target}! Kaffee? Ich hab NEUIGKEITEN.
+3153|Hast du kurz Zeit, {target}? Aber nicht hier.
+3154|{target}, Küche. Das willst du im Sitzen hören.
+3155|Oh {target}, du hast KEINE Ahnung, was ich gerade gehört hab.
+3156|{target}! Küchengipfel, in zwei Minuten.
+3157|Ich bin mir nicht hundertprozentig sicher, aber ... {gossip}
+3158|Nagel mich nicht drauf fest, aber angeblich: {gossip}
+3159|Ich hab’s nur aus zweiter Hand, aber — {gossip}
+3160|Meine Quelle ist ... sagen wir, halbwegs zuverlässig. {gossip}
+3161|Vielleicht hab ich mich verhört! Aber ... {gossip}
+3162|Und es ist schlimmer, als du denkst: {gossip}
+3163|Okay, also — {gossip} ICH WEISS.
+3164|Von mir hast du das nicht, aber {gossip}
+3165|Halt dich fest. {gossip}
+3166|Hm. Bist du sicher?
+3167|Klingt erfunden.
+3168|Das glaube ich erst, wenn ich’s sehe.
+3169|Lasst uns das nicht weitererzählen, bevor wir wissen, ob es stimmt.
+3170|Tratsch ist kein Beweis.
+3171|Quelle?
+3172|... Warum haben die aufgehört zu reden, als ich reinkam?
+3173|Flüstern die über MICH?
+3174|Hmm. Verdächtiges Grüppchen.
+3175|Habt ihr zwei über mich geredet?
+3176|Was sollte das ganze Geflüster?
+3177|Wenn du was zu sagen hast, sag’s mir ins Gesicht.
+3178|Ich hab euch flüstern sehen. Über mich?
+3179|Ihr wurdet still, als ich reinkam. Warum?
+3180|Äh ... nein? Wetter. Wir haben übers Wetter geredet.
+3181|Was? Nein! ... Okay, vielleicht ein bisschen.
+3182|Schätzchen, ich rede über ALLE. Nimm’s nicht persönlich.
+3183|Unfassbar. Hinter meinem Rücken?!
+3184|Ich wusste es.
+3185|Nimm meinen Namen nicht in den Mund.
+3186|Entspann dich! Wir haben über Fußball geredet.
+3187|Es ging nicht um dich, versprochen!
+3188|Nicht alles dreht sich um dich.
+3189|Wir haben über Dönerläden diskutiert. Eine Frage von Leben und Tod.
+3190|Oh. Klar. Sorry.
+3191|... Okay. Ich bin nur müde.
+3192|Gut. Macht weiter.
+3193|Wie bitte?! Ich kann euch HÖREN.
+3194|Wow. Ich steh direkt hier.
+3195|Das geht um mich, oder?
+3196|Sag’s lauter, ich glaube, nicht die ganze Etage hat’s gehört.
+3197|Das denken Sie also? In MEINEM Büro?
+3198|Oh nein. Ich wollte nicht — sorry.
+3199|Das kam falsch rüber!
+3200|... Wie lange stehst du schon da?
+3201|Ich höre ständig was über {target}. Ich sollte einfach fragen.
+3202|Stimmt dieses Gerücht über {target} überhaupt?
+3203|Darf ich dich was fragen? Die Leute sagen: {fact} Stimmt das?
+3204|{target}, stimmt es, dass ... na ja. {fact}
+3205|Sag’s mir direkt: {fact}
+3206|Ich höre es lieber von dir als aus der Küche: {fact}
+3207|Sorry, wenn das komisch ist, aber — {fact} Stimmt das?
+3208|... Ja. Es stimmt. Zufrieden?
+3209|Boah. Okay, ja. Bitte behalt’s für dich.
+3210|Na gut. Es stimmt.
+3211|Ja. Und ich würde Diskretion zu schätzen wissen.
+3212|WAS? Das ist komplett falsch!
+3213|Wer um alles in der Welt behauptet das?!
+3214|Auf keinen Fall. Wo hast du das gehört?
+3215|Das ist eine Lüge, und ich will wissen, wer sie in die Welt gesetzt hat.
+3216|Unsinn! Wer verbreitet das?
+3217|Pff. Nein. Natürlich nicht.
+3218|Ich? Niemals. Lächerlich.
+3219|Haha. Nein. Nächste Frage.
+3220|Seh ich aus wie jemand, der so was tut?
+3221|Puh. Ich wusste, dass da was nicht stimmt.
+3222|Gut. Ich hab’s sowieso nicht geglaubt.
+3223|Okay, ich stell das bei den Leuten richtig.
+3224|Also gut. Wer hat damit angefangen?
+3225|Ich finde raus, wer sich das ausgedacht hat.
+3226|Jemand hat geredet. Ich finde raus, wer.
+3227|Ich höre, du erzählst rum: {fact} Das ist gelogen.
+3228|Hast du den Leuten erzählt: {fact} Das stimmt nämlich NICHT.
+3229|Hör auf, Gerüchte über mich zu verbreiten.
+3230|Du hast eine Lüge über mich verbreitet. Ich hätte gern eine Erklärung.
+3231|Sie verbreiten falsche Geschichten über mich?
+3232|Ich ... hab’s irgendwo gehört. Tut mir leid.
+3233|Du hast recht. Ich hätte das nicht weitererzählen sollen.
+3234|Sorry. Ich hab mich hinreißen lassen.
+3235|Es tut mir so leid! Ich dachte, es stimmt!
+3236|Ich? Das hab ich nie gesagt.
+3237|Guck mich nicht an. Hör dich mal um.
+3238|Ich war’s nicht. Ich hör nur zu.
+3239|Ich ... gebe Informationen lediglich weiter.
+3240|Na ja, alle sagen das.
+3241|Wem der Schuh passt ...
+3242|Vielleicht, wenn du nicht so verdächtig wärst ...
+3243|Moment ... hat {target} gerade gesagt, dass {victim} gefeuert wird?!
+3244|Hab ich richtig gehört? {victim} ... gefeuert?!
+3245|Oh Gott. {victim:s} Tage sind gezählt?
+3246|Uuh. Uuh! {victim} fliegt RAUS? Das ist groß.
+3247|Ahmet Bey! Tolle Krawatte heute. Sehr ... chefmäßig.
+3248|Ich hab Ihnen einen Kaffee mitgebracht. Genau wie Sie ihn mögen.
+3249|Ihre Rede gestern hat mich wirklich inspiriert.
+3250|Ahmet Bey, ich habe mir erlaubt, den Markt für Sie zusammenzufassen. Eine Seite. Fettdruck.
+3251|Onkel— Ahmet Bey! Ich hab Ihnen Tee gemacht!
+3252|Hm. Gut. Sehr gut.
+3253|Das ist die Einstellung, die ich sehen will.
+3254|Endlich mal jemand mit Initiative.
+3255|Was wollen Sie?
+3256|Schmeicheleien schreiben Ihren Bericht nicht.
+3257|Zurück an die Arbeit.
+3258|*verdreht die Augen*
+3259|Ach, bitte.
+3260|Subtil. Sehr subtil.
+3261|Holt mal jemand einen Wischmopp für die ganze Schleimspur.
+3262|Der Schleimer-Preis des Monats geht an ...
+3263|Unfassbar.
+3264|Ahmet Bey, können wir über mein Gehalt sprechen?
+3265|Ich finde, es ist Zeit, über eine Gehaltserhöhung zu reden.
+3266|Ich bin lange genug hier. Ich hätte gern eine Gehaltserhöhung.
+3267|Ich halte die Bücher dieser Firma im Gleichgewicht. Meine hätte ich auch gern ausgeglichen.
+3268|Ich repariere hier alles. Das soll sich in meinem Gehalt widerspiegeln.
+3269|... Na gut. Sie haben es sich verdient. Erzählen Sie’s keinem.
+3270|Also gut. Eine kleine. Behalten Sie’s für sich.
+3271|Nächstes Quartal. Mal sehen.
+3272|Nicht jetzt. Die Budgets sind knapp.
+3273|Erinnern Sie mich im Frühjahr daran.
+3274|Eine Gehaltserhöhung? In DIESER Wirtschaftslage?
+3275|Auf keinen Fall. Zurück an die Arbeit.
+3276|Seien Sie froh, dass Sie überhaupt einen Job haben.
+3277|Danke! Wirklich!
+3278|Endlich!
+3279|Angenehme Geschäfte.
+3280|... Natürlich.
+3281|Klar. Frühjahr. Sicher.
+3282|Unfassbar.
+3283|Notiert. Sehr notiert.
+3284|Heute ist der Tag. Ich frage.
+3285|Tief durchatmen. Gehaltserhöhung. Du schaffst das.
+3286|Mhm. Und was ist das?
+3287|Sie tippen sehr langsam.
+3288|Ist das eine Tabelle oder moderne Kunst?
+3289|Ich schaue nur zu. Tun Sie so, als wäre ich nicht da.
+3290|... Ich bin fast fertig.
+3291|Klar. Ja. Schneller. Ja.
+3292|*tippt extrem schnell*
+3293|Ich verspreche, ich weiß, was ich tue! Meistens!
+3294|Könnten Sie bitte NICHT über meiner Schulter stehen?
+3295|Ich arbeite besser ohne Publikum.
+3296|Brauchen Sie etwas, oder ...?
+3297|Mir in den Nacken zu atmen macht den Server nicht schneller.
+3298|Soll ich die Schrift für Sie größer machen, Chef?
+3299|Das ist meine gute Seite. Machen Sie ein Foto.
+3300|Sie dürfen gern beim Verkaufsgespräch mitmachen! Bringen Sie Snacks mit.
+3301|Hmpf. Weitermachen.
+3302|Achten Sie auf Ihren Ton.
+3303|... Na gut.
+3304|Ha! Frech. Weitermachen.
+3305|Hah. Zurück an die Arbeit.
+3306|Ich brauche diesen Bericht bis Feierabend. Dringend.
+3307|Lassen Sie alles stehen und liegen. Die Zentrale will Zahlen. Heute.
+3308|Hier. Das gehört jetzt Ihnen. Bis fünf.
+3309|... Klar. Natürlich.
+3310|Ich bleibe länger. Na gut.
+3311|Okay. Kein Problem. Großes Problem. Okay.
+3312|Bis fünf? Das ist unmöglich.
+3313|Ich ertrinke jetzt schon, Ahmet Bey.
+3314|Kann das bis morgen warten? Bitte?
+3315|Das ist keine Bitte.
+3316|Fünf Uhr. Endgültig.
+3317|Alle sind beschäftigt. Machen Sie’s trotzdem.
+3318|{to}! Tolle Lerngelegenheit für dich!
+3319|{to}, du kannst doch gut mit Zahlen, oder?
+3320|{to}, das macht sich super in deinem Lebenslauf.

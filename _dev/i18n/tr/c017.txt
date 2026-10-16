@@ -1,0 +1,247 @@
+3074|Bugünkü programınız, efendim.
+3075|Size birkaç güncelleme var.
+3076|Kısa bir brifing, efendim.
+3077|Güzel. Teşekkürler.
+3078|Beni haberdar et.
+3079|Hı hı.
+3080|Bilmeniz gerekebilir... {gossip}
+3081|Bir şey daha: {gossip}
+3082|Bugün kravatınız harika, efendim.
+3083|Efendim, çeyreklik plan hakkında birkaç fikrim vardı...
+3084|Liderliğinize ne kadar hayran olduğumu söylemiş miydim?
+3085|Aramızda kalsın efendim... {gossip}
+3086|Bilmeniz gerektiğini düşündüm: {gossip}
+3087|Söylemek istemezdim ama {gossip}
+3088|Güzel, Deniz. Güzel.
+3089|Tavrını beğeniyorum.
+3090|Böyle devam.
+3091|Daha az laf, daha çok iş, Deniz.
+3092|Hırsın belli oluyor.
+3093|Başka bir şey var mı?
+3094|Güzel. Devam et.
+3095|İyi ilerleme.
+3096|İşte görmek istediğim bu.
+3097|Teşekkürler, efendim.
+3098|Sağ olun!
+3099|Bayram mı var?
+3100|Senin çalışıyor olman gerekmiyor mu?
+3101|Sana çalışman için para ödüyorum, sohbet için değil.
+3102|Kısa bir mola sadece!
+3103|Tam dönüyordum!
+3104|İşle ilgili! Bir nevi.
+3105|Ne durumda?
+3106|Teslim bugün, değil mi?
+3107|Raporu unutma.
+3108|Peki efendim.
+3109|Hemen!
+3110|Bitmek üzere!
+3111|Burayı artık kaldıramıyorum.
+3112|Bana mı öyle geliyor, yoksa bugün kâbus mu?
+3113|Tatile ihtiyacım var. Ya da yeni bir hayata.
+3114|Hey, sen bunu halledersin.
+3115|Derin nefes. Her şey yoluna girecek.
+3116|Sana bir kahve getireyim mi?
+3117|Şimdi olmaz, ben de boğuluyorum.
+3118|Sonra konuşsak olur mu?
+3119|Benim de kendi dertlerim var.
+3120|Asla zamanında yetiştiremeyeceğim!
+3121|Teslime bir saat var ve daha yarıdayım!
+3122|İmdat. Biri. Herhangi biri.
+3123|Bunu neden son dakikaya bıraktım? Yine?
+3124|Peki. Ben ve kafein, dünyaya karşı.
+3125|Kimse gelmiyor. Tamam.
+3126|Yardım lazım mı?
+3127|Yarısını ben alayım.
+3128|Ver onları, yardım edeyim.
+3129|Bunu yapar mısın? Teşekkürler!
+3130|Senden hiç beklemezdim... teşekkürler.
+3131|Hayatımı kurtarıyorsun.
+3132|Ve... teslim tarihini kaçırdım.
+3133|Eh, artık geç kaldı.
+3134|Çok geç. Harika.
+3135|Günaydın! Geç mi kaldım? Geç kalmadım.
+3136|Trafik çılgındı!
+3137|Geç mi kaldım? Cevap verme.
+3138|Otobüs geç kaldı. Sonra ben geç kaldım. Hayatın döngüsü.
+3139|Tünaydın.
+3140|Bakın kim işe gelmeye karar vermiş.
+3141|Saatin kaç olduğunu biliyor musun?
+3142|Size söylüyorum, bu ofiste hayalet var.
+3143|Eşyalar kendi kendine yer değiştiriyor. Bunu açıklayın BAKALIM.
+3144|Bu ofiste bir şey var. Bir şey... görünmez.
+3145|Öyle deme! Geç saate kadar kalmam lazım!
+3146|Hayalet diye bir şey yok. ...Değil mi?
+3147|Tamam, bu gece uyku yok.
+3148|Öğle yemeğimi sen mi yedin? Dürüst ol.
+3149|Öğle yemeğim yok ve sen mutfaktaydın.
+3150|Böreğimi sen yedin, değil mi?
+3151|Pst. {target}. Mutfak. Hemen.
+3152|{target}! Kahve? HABERLERİM var.
+3153|Bir dakikan var mı, {target}? Ama burada değil.
+3154|{target}, mutfağa. Bunu otururken dinlemek isteyeceksin.
+3155|Ah {target}, az önce ne duyduğumu TAHMİN BİLE edemezsin.
+3156|{target}! Mutfak zirvesi, iki dakika.
+3157|Yüzde yüz emin değilim ama... {gossip}
+3158|Benden duymuş olma ama görünüşe göre: {gossip}
+3159|Sadece kulaktan dolma duydum ama — {gossip}
+3160|Kaynağım... yarı güvenilir diyelim. {gossip}
+3161|Yanlış duymuş olabilirim! Ama... {gossip}
+3162|Ve sandığından da kötü: {gossip}
+3163|Tamam, şöyle — {gossip} BİLİYORUM.
+3164|Benden duymadın ama {gossip}
+3165|Sıkı tutun. {gossip}
+3166|Hm. Bundan emin misin?
+3167|Uydurma gibi geliyor.
+3168|Görmeden inanmam.
+3169|Doğru olduğunu bilmeden bunu tekrarlamayalım.
+3170|Dedikodu kanıt değildir.
+3171|Kaynak?
+3172|...Ben girince neden sustular?
+3173|BENİM hakkımda mı fısıldaşıyorlar?
+3174|Hmm. Şüpheli bir toplantı.
+3175|Siz ikiniz benim hakkımda mı konuşuyordunuz?
+3176|O fısıltılar neyin nesiydi?
+3177|Söyleyecek bir şeyin varsa yüzüme söyle.
+3178|Fısıldaştığınızı gördüm. Benim hakkımda mı?
+3179|Ben girince sustunuz. Neden?
+3180|Şey... hayır? Hava. Havadan konuşuyorduk.
+3181|Ne? Hayır! ...Tamam, belki biraz.
+3182|Canım, ben HERKES hakkında konuşurum. Üstüne alınma.
+3183|İnanılmaz. Arkamdan mı?!
+3184|Biliyordum.
+3185|Adımı ağzına alma.
+3186|Rahatla! Futbol konuşuyorduk.
+3187|Seninle ilgili değildi, söz!
+3188|Her şey seninle ilgili değil.
+3189|Kebapçıları tartışıyorduk. Ölüm kalım meselesi.
+3190|Ha. Doğru. Pardon.
+3191|...Tamam. Sadece yorgunum.
+3192|Peki. Devam edin.
+3193|Pardon?! Sizi DUYABİLİYORUM.
+3194|Vay. Tam buradayım.
+3195|Benden bahsediyorsunuz, değil mi?
+3196|Daha yüksek sesle söyle, bütün kat duymadı galiba.
+3197|Böyle mi düşünüyorsunuz? BENİM ofisimde?
+3198|Eyvah. Ben öyle — pardon.
+3199|Yanlış anlaşıldı!
+3200|...Ne zamandır oradasın?
+3201|{target} hakkında hep bir şeyler duyuyorum. Gidip sorsam iyi olacak.
+3202|{target} hakkındaki o söylenti doğru mu acaba?
+3203|Sana bir şey sorabilir miyim? İnsanlar şunu diyor: {fact} Doğru mu?
+3204|{target}, doğru mu... yani. {fact}
+3205|Bana açık söyle: {fact}
+3206|Mutfaktan değil, senden duymayı tercih ederim: {fact}
+3207|Tuhaf olduysa kusura bakma ama — {fact} Doğru mu?
+3208|...Evet. Doğru. Mutlu musun?
+3209|Off. Tamam, evet. Lütfen kimseye söyleme.
+3210|Peki. Doğru.
+3211|Evet. Ve ketum davranırsan sevinirim.
+3212|NE? Bu tamamen yalan!
+3213|Bunu kim söylüyor allah aşkına?!
+3214|Kesinlikle hayır. Nereden duydun bunu?
+3215|Bu bir yalan ve kimin başlattığını bilmek istiyorum.
+3216|Saçmalık! Bunu kim yayıyor?
+3217|Pöh. Hayır. Tabii ki hayır.
+3218|Ben mi? Asla. Saçma.
+3219|Haha. Hayır. Sonraki soru.
+3220|Ben öyle bir şey yapacak birine benziyor muyum?
+3221|Oh. Bir tuhaflık olduğunu biliyordum.
+3222|Güzel. Zaten inanmamıştım.
+3223|Tamam, herkesi düzelteceğim.
+3224|Pekâlâ. Bunu kim başlattı?
+3225|Bunu uyduranı bulacağım.
+3226|Biri konuşuyor. Kim olduğunu bulacağım.
+3227|Duyduğuma göre insanlara şunu anlatıyormuşsun: {fact} Bu bir yalan.
+3228|İnsanlara şunu mu söyledin: {fact} Çünkü bu doğru DEĞİL.
+3229|Hakkımda söylenti yaymayı bırak.
+3230|Hakkımda bir yalan yaydın. Bir açıklama bekliyorum.
+3231|Hakkımda asılsız hikâyeler mi yayıyorsun?
+3232|Ben... bir yerde duymuştum. Özür dilerim.
+3233|Haklısın. Tekrarlamamalıydım.
+3234|Özür dilerim. Kendimi kaptırdım.
+3235|Çok özür dilerim! Doğru sanmıştım!
+3236|Ben mi? Ben öyle bir şey demedim.
+3237|Bana bakma. Etrafa sor.
+3238|Ben değildim. Ben sadece dinlerim.
+3239|Ben sadece... bilgi aktarırım.
+3240|Eh, herkes söylüyor.
+3241|Kim üstüne alınıyorsa...
+3242|Belki bu kadar şüpheli davranmasaydın...
+3243|Dur... {target} az önce {victim:in} kovulacağını mı söyledi?!
+3244|Doğru mu duydum? {victim}... kovuluyor mu?!
+3245|Aman tanrım. {victim:in} günleri sayılı mı?
+3246|Oo. Oo! {victim} GİDİYOR mu? Bu büyük haber.
+3247|Ahmet Bey! Kravatınız bugün harika. Çok... liderce.
+3248|Size kahve getirdim. Tam sevdiğiniz gibi.
+3249|Dünkü konuşmanız bana gerçekten ilham verdi.
+3250|Ahmet Bey, piyasayı sizin için özetleme cüretini gösterdim. Tek sayfa. Kalın yazı.
+3251|Amca— Ahmet Bey! Size çay yaptım!
+3252|Hm. Güzel. Aferin.
+3253|İşte görmek istediğim tavır bu.
+3254|Nihayet, inisiyatifi olan biri.
+3255|Ne istiyorsun?
+3256|Dalkavukluk raporunu bitirmez.
+3257|İşinin başına.
+3258|*göz devirir*
+3259|Hadi canım.
+3260|Çok ince. Çok.
+3261|Biri şu yalakalığı silmek için paspas getirsin.
+3262|Ayın yalakası ödülü gidiyor...
+3263|İnanılmaz.
+3264|Ahmet Bey, maaşım hakkında konuşabilir miyiz?
+3265|Bence zam konuşmanın zamanı geldi.
+3266|Yeterince uzun zamandır buradayım. Zam istiyorum.
+3267|Bu şirketin defterlerini ben denkleştiriyorum. Benimkinin de denkleşmesini istiyorum.
+3268|Burada her şeyi ben tamir ediyorum. Bunun maaşıma yansımasını istiyorum.
+3269|...Peki. Hak ettin. Kimseye söyleme.
+3270|Tamam. Küçük bir zam. Ses çıkarma.
+3271|Gelecek çeyrek. Bakarız.
+3272|Şimdi olmaz. Bütçeler kısıtlı.
+3273|Baharda hatırlat.
+3274|Zam mı? BU ekonomide mi?
+3275|Kesinlikle hayır. İşinin başına.
+3276|İşin olduğu için şükretmelisin.
+3277|Teşekkürler! Gerçekten!
+3278|Nihayet!
+3279|Sizinle iş yapmak bir zevkti.
+3280|...Tabii ya.
+3281|Tabii. Bahar. Elbette.
+3282|İnanılmaz.
+3283|Not edildi. Çok iyi not edildi.
+3284|Bugün o gün. Soracağım.
+3285|Derin nefes. Zam. Yapabilirsin.
+3286|Hı hı. Peki bu ne?
+3287|Çok yavaş yazıyorsun.
+3288|Bu bir tablo mu, yoksa modern sanat mı?
+3289|Sadece izliyorum. Burada değilmişim gibi davran.
+3290|...Bitmek üzere.
+3291|Doğru. Evet. Daha hızlı. Evet.
+3292|*son derece hızlı yazar*
+3293|Ne yaptığımı bildiğime söz veriyorum! Çoğunlukla!
+3294|Lütfen tepemde dikilmeseniz?
+3295|Seyirci olmadan daha iyi çalışırım.
+3296|Bir şey mi lazımdı, yoksa...?
+3297|Ensemde soluk almanız sunucuyu hızlandırmıyor.
+3298|Yazıyı sizin için büyüteyim mi, patron?
+3299|Bu benim iyi profilim. Bir fotoğraf çekin.
+3300|Satış görüşmesine buyurun! Atıştırmalık getirin.
+3301|Hıh. Devam et.
+3302|Tavrına dikkat et.
+3303|...Peki.
+3304|Ha! Şımarık. Devam et.
+3305|Hah. İşine dön.
+3306|Bu rapor gün sonuna kadar lazım. Acil.
+3307|Her şeyi bırak. Genel merkez rakam istiyor. Bugün.
+3308|Al. Bu artık senin. Saat beşe kadar.
+3309|...Tabii. Elbette.
+3310|Geç saate kadar kalırım. Peki.
+3311|Tamam. Sorun yok. Büyük sorun. Tamam.
+3312|Beşe kadar mı? Bu imkânsız.
+3313|Zaten boğuluyorum, Ahmet Bey.
+3314|Yarına kalabilir mi? Lütfen?
+3315|Bu bir rica değil.
+3316|Saat beş. Son söz.
+3317|Herkes meşgul. Yine de yap.
+3318|{to}! Senin için harika bir öğrenme fırsatı!
+3319|{to}, rakamlarla aran iyidir, değil mi?
+3320|{to}, bu CV'nde harika görünecek.
