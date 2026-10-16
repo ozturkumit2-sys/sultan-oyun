@@ -1,0 +1,129 @@
+1421|{owner:in} aramaları {target:e} gidiyordu. {target} bir müşteri aramasını halledip mesajı iletti.
+1422|{owner:in} aramaları {target:e} gidiyordu — ve {target}, {owner:in} müşterisini sessizce kendine aldı.
+1423|{owner:in} bozuk sesli mesajı bir tehdit gibi geldi. {target} bunun gerçekten sesle yazdırma olduğuna tam inanmış değil.
+1424|{owner:in} {target:e} sesle yazdırdığı mesaj bir ölüm tehdidi olarak çıktı. Sonunda birlikte güldüler.
+1425|{believer} ofisi resmen perili ilan etti. Bazıları başını sallıyor.
+1426|Burak hayaleti çürütmeye çalıştı. {believer} ona inanmayı reddetti. Ofisin artık kalıcı bir hayaleti var.
+1427|Burak 'hayaleti' arızalı bir röleyle açıkladı. {believer} istemeye istemeye hayalet avından vazgeçti.
+1428|Toplantı odasındaki ruh çağırma seansından garip bir sessizlikten başka bir şey çıkmadı.
+1429|{believer}, toplantı odasındaki ruh çağırma seansı için {medium:i} ikna etti.
+1430|{believer} ruh çağırma seansı yapmak istedi. Kimse katılmadı. Hayalet avı sona erdi.
+1431|Toplantı odasındaki seans sessizliğe gömüldü... sonra ışıklar titredi. Çığlıklar bütün ofiste duyuldu.
+1432|{actor} ofiste hayalet olduğuna emin.
+1433|{giver:in} {intended} için aldığı hediyenin kartında {target:in} adı yazıyordu. {target} teşekkür etti. {intended} eli boş kaldı.
+1434|Ahmet'in takviminde bir golf maçı belirdi. Ofisten çıktı. Hem de kendi toplantısından hemen önce.
+1435|Ahmet golf oynamaya gidince toplantının yönetimini {actor} ele aldı. Herkes bundan hoşlanmadı.
+1436|{actor}, {target:e} anlattı: "{gossip}"
+1437|{actor}, {target:i} mutfağa çekip fısıldadı: "{gossip}"
+1438|{actor} hikâyeyi {target:e} aktarırken biraz baharatladı: "{gossip}" (olan bu değildi)
+1439|{target}, {hater:in} onun hakkında yakındığı bir grup sohbetine eklendi. {target} her şeyi okudu.
+1440|{target} her şeyi pürüzsüzce inkâr etti. (Yalan söylüyor.)
+1441|Bir iş e-postasındaki üç kalp bir itirafa yol açtı: {target}, {actor:den} hoşlanıyor!
+1442|{actor}, iş e-postasındaki kalpleri {target:e} sordu. {target} kıpkırmızı olup her şeyi inkâr etti.
+1443|{actor}, {crush:i} {target} ile gördü ve içten içe kalbi kırık. Gerginlik ortada.
+1444|{target}, {obj} konusunda {actor:e} yardım etmeyi kabul etti.
+1445|{actor}, bir teslim tarihi için {target:e} yardım etti.
+1446|{target}, {actor:e} yardım edeceğine söz verdi… sonra.
+1447|{target}, {actor:e} yardım etmeyi açıkça reddetti.
+1448|{seeker}, Ahmet'e bir iş teklifinden bahsetti. Ahmet blöfü gördü: "O zaman git." {seeker} sarsıldı.
+1449|{seeker} koridorda fısıltıyla bir telefon açtı: bu öğleden sonra bir iş görüşmesi.
+1450|{seeker} bir iş görüşmesiyle ilgili fısıltılı bir telefon açtı — ve {listener} her kelimesini duydu.
+1451|{seeker}, Ahmet'e bir iş teklifinden bahsetti. Ahmet karşı teklif yaptı — {seeker} zamla birlikte kalıyor.
+1452|{seeker}, Ahmet'e diş randevusu olduğunu söyledi. (Yok.)
+1453|{seeker} bir "diş randevusu" için çıkmak istedi. Ahmet hayır dedi. {seeker} yine de gidiyor.
+1454|{seeker} "diş randevusu" için ofisten çıktı — en güzel gömleğiyle.
+1455|Ahmet, {seeker:in} "dişçiden" takım elbiseyle döndüğünü fark etti. Şüpheleniyor.
+1456|{seeker} "görüşmeden" döndü. Ahmet hiçbir şeyden şüphelenmedi.
+1457|{actor} kayıp bir raporu bütün ofiste aradı — rapor 'Eski Şeyler 2019' adlı bir klasörde saklanıyormuş.
+1458|{actor} kayıp raporu asla bulamadı ve baştan başlaması gerekiyor.
+1459|{actor} şaka olsun diye {target:in} {item:sini} sakladı.
+1460|Hatta bekleyen müşterilere {what} dinletildi. Ahmet suçu Ceren'e attı.
+1461|Genel merkez müfettişinin kararı: 'Geliştirilmesi gerekiyor.' Ahmet herkesin önünde {slob:i} suçladı.
+1462|Denetim günü. Herkes temizlik yapıyor. {slob} eşyaları korkutucu bir hızla çekmecelere tıkıştırıyor.
+1463|Genel merkez denetimi sırasında Ahmet {slob:in} çekmecesini açtı. Bir çöp çığı müfettişin ayakkabılarına indi.
+1464|Genel merkez müfettişinin kararı: 'Örnek bir ofis.' Ahmet pizza ısmarladı.
+1465|Genel merkez denetimi sırasında Ahmet {slob:in} çekmecesini açtı. Pırıl pırıldı. Kimse açıklayamıyor.
+1466|Ahmet yarın için genel merkez denetimi duyurdu. Bütün gözler {slob:in} masasına çevrildi.
+1467|İsimsiz bir 'Ne yaptığını biliyorum' notu {target:i} öyle sarstı ki sırrını {friend:e} itiraf etti.
+1468|İsimsiz bir 'Ne yaptığını biliyorum' notu yüzünden {target} artık herkesten şüpheleniyor.
+1469|{actor} ile {target} mutfakta kendi aralarındaki bir espri yüzünden gülmekten kırılıyor.
+1470|Gizli müttefikler {actor} ile {target}, bilgi alışverişi için arşivde buluştu.
+1471|{target:in} resmî unvanı bir gecede 'Stajyer' oldu. Ece çok sevindi. {target} hiç sevinmedi.
+1472|{actor}, {item:sini} buldu.
+1473|{actor}, {item:sini} {owner:in} masasında buldu!
+1474|{actor}, {item:sini} {owner:in} masasında buldu ve gülüp geçti.
+1475|{actor}, {item:sini} çok tuhaf bir yerde buldu.
+1476|{actor}, {item:sini} bulamıyor.
+1477|Deniz, Selin'in USB belleğini buldu… ve kendine sakladı.
+1478|{actor}, {owner:in} {item:sini} buldu ve geri vermeye gitti.
+1479|{actor}, {target:in} {item:sini} geri verdi. Bir dostluk filizleniyor.
+1480|Hayalet, {target:i} onun hakkındaki şikâyetlerle dolu bir grup sohbetine ekledi.
+1481|Hayalet bugünkü toplantı gündemini yeniden yazdı.
+1482|Hayalet, {a} ile {b} arasında imzalı bir ittifak anlaşmasını arşivde bıraktı.
+1483|Hayalet, {target:i} zorunlu bir öfke kontrolü kursuna yazdırdı.
+1484|Hayalet, {target} hakkında isimsiz bir şikâyet astı.
+1485|Hayalet, {target} hakkında isimsiz bir iltifat astı.
+1486|Hayalet, {owner:in} özür mektubunu {target:e} ulaştırdı.
+1487|Hayalet, {owner:in} basılı raporunu arşivde 'Z' harfinin altına kaldırdı.
+1488|Hayalet, {owner:in} otomatik düzeltmesini değiştirdi. 'Ahmet Bey' artık 'Ahmet Bebeğim'.
+1489|Hayalet, {owner:in} e-posta otomatik yanıtını 'İstifa ediyorum. Bana ulaşmayın.' yaptı.
+1490|Hayalet, Ahmet'in masasına üzerinde {target:in} adı yazan bir 'Dünyanın En İyi Patronu' kupası bıraktı.
+1491|Hayalet, {bdayp} için toplanan gizli doğum günü zarfını mutfak masasına bıraktı.
+1492|Hayalet, Ahmet'in takvimine 'Bölge müdürüyle golf' ekledi.
+1493|Hayalet, Ahmet'in bitmemiş taslak duyurusunu bütün ofise gönderdi.
+1494|Hayalet mikrodalgayı bozdu.
+1495|Hayalet toplantı odasının projeksiyonunu bozdu.
+1496|Hayalet su sebilini bozdu.
+1497|Hayalet, saklanan doğum günü pastasını mutfak masasına çıkardı.
+1498|Hayalet, {owner:in} telefonundaki arayan kimliğini sahteledi.
+1499|Hayalet, {owner:in} caps lock'unu takılı bıraktı.
+1500|Hayalet, Ahmet'i {owner:in} özel sohbetine bilgi olarak ekledi.
+1501|Hayalet, {owner:in} proje dosyasına {target:in} adını yazdı.
+1502|Hayalet, {owner:in} bir sonraki e-postasının konu satırını değiştirdi.
+1503|Hayalet panoya 'BUGÜN ÖNEMLİ MÜŞTERİ ZİYARETİ' yazdı.
+1504|Hayalet kahve makinesinin ısınma süresini 40 dakikaya ayarladı.
+1505|Hayalet arşivde gizli bir belgeyi açık bıraktı.
+1506|Hayalet, {target} ile {partner:in} birlikte olduğu montajlı bir fotoğraf astı.
+1507|Hayalet ofisin kahvesini kafeinsizle değiştirdi.
+1508|Hayalet, {owner:in} {best:i} savunduğu mesajı {best:e} iletti.
+1509|Hayalet bir müşterinin {owner:e} geri aramasını geciktirdi.
+1510|Hayalet bugünkü toplantı davetini sildi.
+1511|Hayalet ofis ışıklarını disko moduna aldı.
+1512|Hayalet, {owner:in} telefonunu Rahatsız Etmeyin moduna aldı.
+1513|Hayalet, gerçek toplantıyla aynı saatte mutfakta sahte bir 'bütçe toplantısı' ayarladı.
+1514|Hayalet, {owner:in} telefonunun şarjını bitirdi.
+1515|Hayalet, Ahmet'in terfi duyurusunu hemen şimdiye aldı.
+1516|Hayalet, Ayın Çalışanı belgesini {target} olarak değiştirdi.
+1517|Hayalet, {target:i} dışarıda bırakan bir iş çıkışı içki daveti astı.
+1518|Hayalet, {applicant:in} iş başvurusunu Ahmet'in masasına bıraktı.
+1519|Hayalet, {owner:in} takvimine sahte bir {what} ekledi.
+1520|Hayalet, {owner:e} Ahmet'ten sahte bir 'Onaylandı!' yanıtı gönderdi.
+1521|Hayalet, {owner:den} {target:e} sahte bir 'Birebir — mutfak' daveti gönderdi.
+1522|Hayalet toplantı tutanağına '{target} ekip kampını düzenlemeye gönüllü oldu' satırını ekledi.
+1523|Hayalet, {owner:in} telefonuna gizemli bir hatırlatıcı kurdu.
+1524|Hayalet bugünkü toplantının adını '{target:in} vedası' yaptı.
+1525|Hayalet, {owner:in} özel dosyalarından birini {target:in} ekranına gönderdi.
+1526|Hayalet yangın alarmını çalıştırdı.
+1527|Hayalet, buzdolabındaki balıklı köriyi {target:in} adıyla etiketledi.
+1528|Hayalet yazıcıyı sessizce tamir etti.
+1529|Hayalet ofis ışıklarını titretti.
+1530|Hayalet, {owner:in} masraf beyanına Ahmet'in imzasını taklit etti.
+1531|Hayalet, {owner:in} aramalarını {target:e} yönlendirdi.
+1532|Hayalet, {owner:in} {worst} hakkındaki özel sohbetini {worst:e} iletti.
+1533|Hayalet, bordro tablosunu Zeynep'in gelen kutusundan {target:e} iletti.
+1534|Hayalet buzdolabına {target} 'imzalı' pasif agresif bir not yapıştırdı.
+1535|Hayalet ofis buzdolabını boşalttı.
+1536|Hayalet, {owner:in} {target:e} sesle yazdırdığı mesajı karıştırdı.
+1537|Hayalet, mutfaktaki bir hediye kartının üstündeki adı {target} olarak değiştirdi.
+1538|Hayalet, {owner:in} utanç verici bir fotoğrafını ofis grup sohbetine attı.
+1539|Hayalet, {owner:in} masasına bir kelle avcısının kartvizitini bıraktı.
+1540|Hayalet, {owner:in} raporunu eski bir klasörün derinliklerine sakladı.
+1541|Hayalet ofisin atıştırmalık kutusunu {target:in} çekmecesine sakladı.
+1542|Hayalet bütün ofis malzemelerini {target:in} çekmecesine taşıdı.
+1543|Hayalet resepsiyonun bekleme müziğini değiştirdi.
+1544|Hayalet, {target} için isimsiz bir 'Ne yaptığını biliyorum' notu bıraktı.
+1545|Hayalet, {target:i} bugünkü toplantı davetine ekledi.
+1546|Hayalet panoyu değiştirdi: '{usurper} — Müdür Vekili'.
+1547|Hayalet, {crush:in} geri aramasını {owner:in} telefonuna bağladı — hoparlörden.
+1548|Hayalet, {owner:in} {reader} için sahte birebir davetini düzenledi: 'Kahve — sadece biz. Mumlar.'
+1549|Hayalet, {owner:in} istifa taslağını 'İstifa ediyorum' otomatik yanıtına ekledi.

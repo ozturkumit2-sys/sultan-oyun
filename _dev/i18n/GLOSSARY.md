@@ -71,3 +71,6 @@ Everywhere else (ui.*, why.*, state.*, iv.*, …) write gender-neutral; role pla
   fr chargeur(m), étui à lunettes(m), tasse porte-bonheur(f), agenda(m), clé USB(f) — no article; cases le/du/mon/ton/son in extra
   zh 笔记本充电器, 老花镜, 幸运马克杯, 日程本, U盘
   hi लैपटॉप चार्जर, पढ़ने का चश्मा, लकी मग, प्लानर, यूएसबी — all masculine
+- Turkish possessed+case: `sini` (kupasını, belleğini), `sine`, `sinde`, `sinden`, `sinin`. "found their mug" → `{item:sini} buldu`.
+- German items in sentences: use the article form `{item?den|die|das} {item}` (accusative) or the name genitive `{owner:s} {item}`.
+- `{choice}` (only in log.iv.confidential_doc) is an internal id — leave it out of translations.

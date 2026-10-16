@@ -264,6 +264,10 @@ func _tr_suffix(word: String, kase: String, proper: bool) -> String:
 			suf = ("t" if hard else "d") + I + "r"
 		"si":
 			suf = ("s" + I) if vowel_end else I
+		"sini", "sine", "sinde", "sinden", "sinin":
+			# possessed + case: kupasını, belleğine, ajandasında…
+			var tail: String = {"sini": "n" + I, "sine": "n" + A, "sinde": "nd" + A, "sinden": "nd" + A + "n", "sinin": "n" + I + "n"}[kase]
+			suf = ("s" + I + tail) if vowel_end else (I + tail)
 		"m":
 			suf = "m" if vowel_end else (I + "m")
 		"n":

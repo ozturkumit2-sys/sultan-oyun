@@ -10,7 +10,7 @@ import json, os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 LANGS = ["tr", "de", "es", "fr", "zh", "hi"]
-CASES = {"tr": {"in", "i", "e", "de", "den", "le", "dir", "si", "m", "n"}, "de": {"s"}}
+CASES = {"tr": {"in", "i", "e", "de", "den", "le", "dir", "si", "m", "n", "sini", "sine", "sinde", "sinden", "sinin"}, "de": {"s"}}
 PH = re.compile(r"\{(\w+)(?::(\w+))?(?:\?([^|{}]*)\|([^{}]*))?\}")
 BAD_BRACES = re.compile(r"\{[^}]*$|^[^{]*\}")
 

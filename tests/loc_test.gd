@@ -8,7 +8,7 @@ func _ready():
 	for c in [["Selin", "in", true, "Selin'in"], ["Ece", "in", true, "Ece'nin"], ["Burak", "e", true, "Burak'a"], ["Zeynep", "de", true, "Zeynep'te"],
 			["Ahmet", "den", true, "Ahmet'ten"], ["Ece", "le", true, "Ece'yle"], ["Mert", "i", true, "Mert'i"], ["Deniz", "e", true, "Deniz'e"],
 			["kupa", "si", false, "kupası"], ["bellek", "si", false, "belleği"], ["kitap", "i", false, "kitabı"], ["gözlük", "e", false, "gözlüğe"],
-			["ajanda", "i", false, "ajandayı"], ["top", "u", false, "top"], ["çay", "i", false, "çayı"], ["İstanbul", "de", true, "İstanbul'da"]]:
+			["ajanda", "i", false, "ajandayı"], ["top", "u", false, "top"], ["çay", "i", false, "çayı"], ["İstanbul", "de", true, "İstanbul'da"], ["kupa", "sini", false, "kupasını"], ["bellek", "sini", false, "belleğini"], ["ajanda", "sinde", false, "ajandasında"]]:
 		var got := Loc.inflect(c[0], c[1], c[2])
 		if got != c[3]:
 			bad += 1

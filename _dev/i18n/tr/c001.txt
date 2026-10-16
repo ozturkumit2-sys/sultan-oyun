@@ -242,7 +242,7 @@
 629|Anında panik. Biri sigorta kutusuna koşacak.
 630|Işıkları geri aç
 631|Ürkütücü.
-632|{owner:in} {item:si} yerini değiştir
+632|{owner:in} {item:sini} başka yere koy
 633|İhtiyacı olunca aramaya çıkacak.
 634|Toplantı saatini değiştir
 635|Sadece panoya bakanlar bilecek.
