@@ -1,0 +1,211 @@
+4868|Perdona. ¿Desde cuándo diriges TÚ mis reuniones?
+4869|{target}. Esa es mi silla. Literalmente.
+4870|Lo decía la pizarra, Ahmet Bey. Yo solo seguí las instrucciones.
+4871|Alguien tenía que empezar.
+4872|¡Perdón! Perdón. La pizarra decía... olvídelo.
+4873|Yo me siento... por aquí.
+4874|¿«Privado: revisión de RR. HH. — {subject}»? ¿En la agenda de Ahmet?
+4875|¿Ahmet y Ceren se reúnen para hablar de {subject}... en secreto?
+4876|¡¿La puerta está cerrada con llave?!
+4877|¿Por qué está cerrada la sala de reuniones?
+4878|¿Hola? ¿Hay alguien ahí dentro?
+4879|MI sala de reuniones. CERRADA CON LLAVE.
+4880|Voy por la llave.
+4881|Esperen, sé dónde está la llave de repuesto.
+4882|Atrás. Yo me encargo.
+4883|¡Listo! Estaba cerrada por DENTRO. ¡¿Cómo?!
+4884|¡Abierta! ...Pero ¿quién la cerró? No había nadie dentro.
+4885|¿Por qué estoy {me?sentado|sentada} al lado de TI?
+4886|De todos los asientos...
+4887|Quita el codo.
+4888|Créeme, yo tampoco elegí esto.
+4889|Tarjetas con nombre. No fue idea mía.
+4890|¡¿Quieren compartirlo con toda la clase?!
+4891|¡Silencio! ¡Los dos!
+4892|...Está bien. Tregua de una hora.
+4893|Sobrevivamos a esta reunión y ya.
+4894|¡Ah! Hola. Hoy somos... vecinos de asiento.
+4895|Qué curioso, las tarjetas nos pusieron juntos.
+4896|La pizarra decía cinco minutos. Tengo trabajo.
+4897|Reunión de cinco minutos, ¿no? ¡Chao!
+4898|¡¿ADÓNDE crees que vas?!
+4899|SIÉNTATE. ¡Esta reunión termina cuando yo diga que termina!
+4900|¡Pizza gratis en la reunión! Voy temprano.
+4901|¡¿Pizza?! La mejor reunión de la historia.
+4902|PIZZA. Seré el primero.
+4903|¿Dónde está la pizza?
+4904|¿No hay... pizza?
+4905|¡Nos prometieron pizza!
+4906|Me salté el desayuno por esto.
+4907|¿Qué pizza? ¡Nadie pidió pizza!
+4908|No hay pizza. Nunca hubo pizza.
+4909|...El proyector está muerto.
+4910|¿Nada en la pantalla? ¿Nada de nada?
+4911|Claro. El proyector eligió justo hoy.
+4912|Bueno. Lo dibujaré en la pizarra.
+4913|¿Quién necesita diapositivas? Acérquense.
+4914|¡No puedo presentar sin diapositivas!
+4915|¡Toda mi charla está EN las diapositivas!
+4916|¡Gracias por organizar el retiro del equipo, {target}! ¡Qué emoción!
+4917|¿Tú organizas el retiro? Eres {target?un héroe|una heroína}, {target}.
+4918|¡¿El QUÉ?! ¡Yo nunca me ofrecí para nada!
+4919|¿Retiro? ¿Yo? ¿Desde cuándo?
+4920|...Sí. Sí, soy yo. Será increíble.
+4921|Así es. Déjenmelo a mí.
+4922|Alguien escribió eso en el acta. Yo no. No lo voy a hacer.
+4923|No. Ni hablar. Busquen otro voluntario.
+4924|¿Golf con el director regional? ¿Ahora? ...Bien. Ceren, encárgate de mi mañana.
+4925|¡Ah! Lo del golf. Se me olvidó por completo. Me voy.
+4926|Ahmet no viene. Bien: yo dirijo esta reunión.
+4927|¿Sin jefe? Entonces hagámoslo bien. Punto uno.
+4928|Vale, jefe.
+4929|Claro, ¿por qué no?
+4930|Por mí, bien.
+4931|¿Quién te hizo jefe a ti?
+4932|Buen intento.
+4933|{actor}. A mi oficina. Tu evaluación de desempeño es ahora.
+4934|Ah, {actor}. Siéntate. Al parecer, es hora de tu evaluación.
+4935|¿A-ahora? ¡No preparé nada!
+4936|¿Mi evaluación? ¡¿Hoy?!
+4937|¿Sinceramente? Has estado excelente. Sigue así.
+4938|Buen trabajo este trimestre. Lo he notado.
+4939|Francamente, esperaba más de ti.
+4940|Tus números me preocupan. Mucho.
+4941|¿Una visita de cliente? ¡¿Hoy?! ¡Limpien todo!
+4942|¡Cliente a las dos! ¡Escondan el desorden!
+4943|¡Todos! ¡Parezcan ocupados! PA-REZ-CAN. O-CU-PA-DOS.
+4944|¿Dónde está el cliente? ¡Ya pasaron las dos!
+4945|Entonces... ¿no hay cliente?
+4946|¡Ceren! ¡¿Dónde está mi cliente?!
+4947|¿Qué cliente? No hay nada en la agenda.
+4948|Yo no programé ninguna visita, Ahmet Bey.
+4949|¡¿{target} SE VA?!
+4950|¿Reunión de despedida para {target}? ¡Nadie me avisó!
+4951|¡Te vamos a extrañar, {target}!
+4952|{target}, has sido... sinceramente, {target?el mejor|la mejor}. Te vamos a extrañar.
+4953|¡Por {target}! La oficina no será la misma.
+4954|¡No me voy! ¡¿Quién escribió eso?!
+4955|¿Despedida? ¡No me voy a ninguna parte!
+4956|...¿De verdad me extrañarían? No lo sabía.
+4957|No me voy, pero... gracias. De verdad.
+4958|...En realidad. Quizás sea una señal.
+4959|Mmm. Irme no suena tan mal.
+4960|{target}, ¡¿por qué este contrato está firmado por {other}?!
+4961|Tu contrato tiene la firma de {other} en la última página. Explícate.
+4962|¡Imposible! ¡Lo firmé yo {me?mismo|misma}!
+4963|¡Alguien cambió mis páginas!
+4964|...Esto fue {other}. Tiene que ser.
+4965|Pregúntele a {other} cómo llegó su firma ahí.
+4966|¡Mi impresión! ¡Estaba justo en mi escritorio!
+4967|¿Dónde está mi informe? Lo imprimí hace UNA HORA.
+4968|...¡¿En el ARCHIVO?! ¿Bajo la «Z»? ¡¿Quién hace eso?!
+4969|Lo encontré. Archivado. Bajo la «Z». Increíble.
+4970|¿«Mis ideas tontas»? ¿Eso dice la carpeta de {owner}?
+4971|¡Ja! La carpeta de {owner}: «MIS IDEAS TONTAS».
+4972|«Planes secretos»... en la carpeta de {owner}. Mmm.
+4973|¿Por qué tiene {owner} una carpeta llamada «PLANES SECRETOS»?
+4974|¡¿«Cartas de amor»?! ¿En el escritorio de {owner}? ¿A la vista de todos?
+4975|{owner} tiene una carpeta con la etiqueta «CARTAS DE AMOR». Vaya.
+4976|¡¿Quién cambió las etiquetas de mis carpetas?!
+4977|¡Eso NO es lo que dicen mis carpetas!
+4978|¿Por qué la impresora está llena de... fotos de bebé?
+4979|Quinientas copias de un BEBÉ. ¡¿De quién es este bebé?!
+4980|¡¿Esto es... Ahmet de bebé?!
+4981|La impresora se quedó sin papel imprimiendo un bebé. Quinientas veces.
+4982|¡Miren esos cachetes! ¡Es AHMET!
+4983|¡Ahmet vestido de marinerito! Voy a enmarcar esto.
+4984|¡¿QUIÉN IMPRIMIÓ MI FOTO DE BEBÉ?!
+4985|¡Es una foto familiar privada!
+4986|¿Eh? ¿De quién es este informe? Ah, es de {owner}.
+4987|Esto no es mío. ¿El informe de {owner}... en MI escritorio?
+4988|Toma, esto acabó en mi escritorio.
+4989|Encontré tu informe en mi escritorio. Raro, ¿no?
+4990|¡Gracias! Estaba a punto de entrar en pánico.
+4991|¡Me salvaste la vida!
+4992|...Nadie se enteraría si lo entrego yo.
+4993|El que se lo encuentra se lo queda.
+4994|Excelente trabajo. Ahora es mi trabajo.
+4995|¡¿Dónde está mi informe?! Lo dejé JUSTO AQUÍ.
+4996|Mi informe desapareció. ¡Desapareció!
+4997|...Y como pueden ver en la página siete... esta es la página dos. Un momento.
+4998|Entonces nuestros resultados muestran... espera, ¿dónde está el gráfico?
+4999|Página cuatro. No. ¿Nueve? ¿Por qué hay una página nueve?
+5000|¡Bueno! Presentación interactiva: ¡adivinen la siguiente página!
+5001|Que nadie entre en pánico. Lo haré de memoria. Ja.
+5002|Yo... lo siento mucho, las páginas... no puedo...
+5003|Les juro que esta mañana estaban en orden.
+5004|La lista de sueldos... ¿{subject} gana TANTO?
+5005|Estos son los sueldos de todos. Ah. AH.
+5006|¡¿«Puestos en revisión: {subject}»?!
+5007|Esta lista dice que el puesto de {subject} está «en revisión»...
+5008|«Lista corta de ascensos: {subject}». Interesante.
+5009|Así que {subject} está en la lista corta. Vaya.
+5010|{actor}, tu evaluación es sobresaliente. ¡Sobresaliente!
+5011|Leí tu evaluación, {actor}. Un trimestre excelente.
+5012|...¿Gracias? No me lo esperaba.
+5013|¿En serio? Vaya. ¡Vale!
+5014|Tu evaluación es un desastre, {actor}.
+5015|Francamente, {actor}, estas cifras son vergonzosas.
+5016|¿Qué? ¡Mis cifras eran geniales!
+5017|Esa no puede ser mi evaluación. No puede ser.
+5018|¡El contrato! ¡El firmado! ¡¿Dónde está?!
+5019|No, no, no... el contrato original DESAPARECIÓ.
+5020|...En el contenedor de RECICLAJE. Junto a los yogures.
+5021|Lo encontré. En el reciclaje. Con manchas de café.
+5022|Esta firma... Ahmet no hace así el bucle de la A.
+5023|Mmm. Esta firma de «Ahmet» es falsa.
+5024|Aprobado, firmado... bien. Pagado.
+5025|Otra solicitud de gastos. Procesada.
+5026|{target}. Tu solicitud de gastos tiene una firma FALSIFICADA.
+5027|¿Falsificaste la firma de Ahmet, {target}?
+5028|¡¿Falsificada?! ¡Jamás! ¡Ni siquiera la he presentado!
+5029|¡Eso no es cosa mía! ¡Lo juro!
+5030|¡¿«Una máquina de karaoke: 4000»?! ¿En los gastos de {target}?
+5031|¿Quién pasa una MÁQUINA DE KARAOKE como gasto?
+5032|{target}, explícame lo de la máquina de karaoke.
+5033|¿Me cuentas algo de la máquina de karaoke, {target}?
+5034|¿La QUÉ? ¡Si ni siquiera canto!
+5035|¿Máquina de karaoke? ¡Nunca en mi vida he comprado una!
+5036|...Es para fomentar el trabajo en equipo. Obviamente.
+5037|La moral es importante, Zeynep.
+5038|Trabajo en equipo, Zeynep. Tra-ba-jo. En. E-qui-po.
+5039|¿«Ahmet se equivoca en todo»? ¿Con TU letra, {actor}?
+5040|Interesante nota al margen en tu informe, {actor}.
+5041|¡Yo no escribí eso! ¡Lo juro!
+5042|¡Esa no es mi letra! ...¿O sí?
+5043|...Bueno, al menos eres {to?sincero|sincera}. {to?Equivocado|Equivocada}, pero {to?sincero|sincera}.
+5044|Mmm. Atrevido. Casi lo respeto.
+5045|No quiero volver a ver algo así.
+5046|Recuerda quién firma tus evaluaciones.
+5047|...¿«Ahmet se equivoca en todo»? ¿En el informe de {owner}?
+5048|Mmm. Una nota al margen. Sobre MÍ. {owner}, a mi oficina.
+5049|Atasco de papel... espera. Esto es una carta. Una carta de AMOR.
+5050|Hay algo atascado en los rodillos... «{crush?Querido|Querida} {crush}...»
+5051|«{crush?Querido|Querida} {crush}, cada vez que pasas junto a mi escritorio...». ¡Firmado: {writer}!
+5052|Escuchen esto: «{crush}, tu risa es mi sonido favorito». ¡De {writer}!
+5053|...Se la devolveré a {writer}. Discretamente.
+5054|No me corresponde leer esto. Lo devolveré.
+5055|¡ESO ERA PRIVADO!
+5056|¡DEVUÉLVEME eso!
+5057|...Puedo explicarlo. No, no puedo.
+5058|Ni grapadoras. Ni bolígrafos. Nada. ¿Adónde fue todo?
+5059|El estante de material está VACÍO.
+5060|...Está todo en el cajón de {target}. TODO.
+5061|El cajón de {target}: cuarenta bolígrafos, seis grapadoras y todas las notas adhesivas que tenemos.
+5062|¡{to?Acaparador|Acaparadora} de material!
+5063|¡Así que TÚ eres {to?el ladrón|la ladrona} de grapadoras!
+5064|¡Un dragón sobre una montaña de bolígrafos!
+5065|¡Eso no es mío! ¡Ni siquiera me gustan las grapadoras!
+5066|¡¿Cómo llegó todo eso a mi cajón?!
+5067|¡¿Quién reorganizó el archivo?! ¡Nada está donde debería!
+5068|«Contabilidad» está en «Vacaciones». «Vacaciones» está en «Legal». ¿POR QUÉ?
+5069|¿Tú también buscas? Vale, yo me encargo de la A a la M.
+5070|Hagámoslo juntos o estaremos aquí toda la noche.
+5071|¡Deja de mover mis montones!
+5072|¡Yo llegué primero!
+5073|¿Eso es una... carta de renuncia? ¿En el escritorio de {owner}?
+5074|«Querido Ahmet, por la presente renuncio...». ¡¿{owner}?!
+5075|Una carta de renuncia. De {owner}. Sobre su escritorio.
+5076|¡¿Todo es URGENTE?! ¡¿Desde cuándo?!
+5077|URGENTE. URGENTE. URGENTE. ¡¿Todo?!
+5078|Vale. Hoy no hay almuerzo. Ni respirar tampoco.

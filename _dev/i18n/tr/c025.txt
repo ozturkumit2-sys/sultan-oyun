@@ -1,0 +1,211 @@
+4868|Pardon. Ne zamandan beri SEN benim toplantılarımı yönetiyorsun?
+4869|{target}. O benim sandalyem. Kelimenin tam anlamıyla.
+4870|Tahtada öyle yazıyordu, Ahmet Bey. Ben sadece talimata uydum.
+4871|Birinin başlatması gerekiyordu.
+4872|Pardon! Pardon. Tahtada yazıyordu ki... neyse.
+4873|Ben şöyle... şuraya oturayım.
+4874|'Özel: İK değerlendirmesi — {subject}' mi? Ahmet'in takviminde mi?
+4875|Ahmet ve Ceren, {subject} hakkında... gizlice mi toplanıyor?
+4876|Kapı kilitli mi?!
+4877|Toplantı odası neden kilitli?
+4878|Alo? İçeride kimse var mı?
+4879|BENİM toplantı odam. KİLİTLİ.
+4880|Anahtarı ben getiririm.
+4881|Bekleyin, yedek anahtarın yerini biliyorum.
+4882|Geri çekilin. Ben hallederim.
+4883|Açtım! İÇERİDEN kilitlenmiş. Nasıl?!
+4884|Açıldı! ...Ama kim kilitledi? İçeride kimse yoktu.
+4885|Neden SENİN yanında oturuyorum?
+4886|Onca sandalye varken...
+4887|Dirseğini çek.
+4888|İnan bana, bunu ben de seçmedim.
+4889|İsim kartları. Benim fikrim değil.
+4890|İkiniz bunu sınıfla paylaşmak ister misiniz?!
+4891|Sessiz olun! İkiniz de!
+4892|...Peki. Bir saatlik ateşkes.
+4893|Şu toplantıyı bir atlatalım.
+4894|Ah! Selam. Bugün... komşuyuz.
+4895|Komik, isim kartları bizi yan yana koymuş.
+4896|Tahtada beş dakika yazıyordu. İşim var.
+4897|Beş dakikalık toplantı, değil mi? Hoşça kalın!
+4898|NEREYE gittiğini sanıyorsun?!
+4899|OTUR. Bu toplantı ben bitti diyene kadar bitmez!
+4900|Toplantıda bedava pizza var! Erken gidiyorum.
+4901|Pizza mı?! Gelmiş geçmiş en iyi toplantı.
+4902|PİZZA. İlk ben varım.
+4903|Pizza nerede?
+4904|Pizza... yok mu?
+4905|Bize pizza sözü verilmişti!
+4906|Bunun için kahvaltıyı atladım.
+4907|Ne pizzası? Kimse pizza sipariş etmedi!
+4908|Pizza yok. Hiç pizza olmadı.
+4909|...Projektör öldü.
+4910|Ekranda bir şey yok mu? Hiç mi?
+4911|Tabii ya. Projektör de bugünü seçti.
+4912|Peki. Beyaz tahtaya çizerim.
+4913|Slayta kim muhtaç? Toplanın.
+4914|Slayt olmadan sunum yapamam!
+4915|Bütün konuşmam slaytların İÇİNDE!
+4916|Ekip kampını organize ettiğin için teşekkürler, {target}! Çok heyecanlıyım!
+4917|Kampı sen mi organize ediyorsun? Sen bir kahramansın, {target}.
+4918|NEYİ? Ben hiçbir şeye gönüllü olmadım!
+4919|Kamp mı? Ben mi? Ne zamandan beri?
+4920|...Evet. Evet, ben. Muhteşem olacak.
+4921|Aynen öyle. Bana bırakın.
+4922|Biri bunu toplantı tutanağına yazmış. Ben değil. Yapmıyorum.
+4923|Hayır. Kesinlikle olmaz. Başka gönüllü bulun.
+4924|Bölge müdürüyle golf mü? Şimdi mi? ...Tamam. Ceren, sabahımı sen idare et.
+4925|Ah! Şu golf meselesi. Tamamen unutmuşum. Ben çıkıyorum.
+4926|Ahmet gelmiyor. Peki — bu toplantıyı ben yönetirim.
+4927|Patron yok mu? O zaman doğru düzgün yapalım. Birinci madde.
+4928|Tamam, patron.
+4929|Olur, neden olmasın.
+4930|Bana uyar.
+4931|Seni kim patron yaptı?
+4932|Güzel deneme.
+4933|{actor}. Odama. Performans değerlendirmen şimdi.
+4934|Ah, {actor}. Otur. Görünüşe göre değerlendirme zamanı.
+4935|Ş-şimdi mi? Hiçbir şey hazırlamadım!
+4936|Değerlendirmem mi? Bugün mü?!
+4937|Açıkçası mı? Mükemmeldin. Böyle devam et.
+4938|Bu çeyrekte güçlü bir iş çıkardın. Fark ettim.
+4939|Açık konuşayım, senden daha fazlasını bekliyordum.
+4940|Rakamların beni endişelendiriyor. Hem de çok.
+4941|Müşteri ziyareti mi? Bugün mü?! Her yeri toplayın!
+4942|Saat ikide müşteri var! Dağınıklığı saklayın!
+4943|Herkes! Meşgul görünün! MEŞGUL. GÖRÜNÜN.
+4944|Müşteri nerede? Saat ikiyi geçti!
+4945|Eee... müşteri yok yani?
+4946|Ceren! Müşterim nerede?!
+4947|Ne müşterisi? Takvimde hiçbir şey yok.
+4948|Ben hiçbir ziyaret ayarlamadım, Ahmet Bey.
+4949|{target} GİDİYOR mu?!
+4950|{target} için veda toplantısı mı? Kimse bana söylemedi!
+4951|Seni özleyeceğiz, {target}!
+4952|{target}, sen... açıkçası, en iyisiydin. Seni özleyeceğiz.
+4953|{target:e} şerefe! Ofis eskisi gibi olmayacak.
+4954|Gitmiyorum! Bunu kim yazdı?!
+4955|Veda mı? Hiçbir yere gitmiyorum!
+4956|...Beni gerçekten özler miydiniz? Bunu bilmiyordum.
+4957|Gitmiyorum ama... teşekkürler. Gerçekten.
+4958|...Aslında. Belki de bu bir işarettir.
+4959|Hım. Gitmek o kadar da kötü gelmiyor.
+4960|{target}, bu sözleşmeyi neden {other} imzalamış?!
+4961|Sözleşmenin son sayfasında {other:in} imzası var. Açıkla.
+4962|İmkânsız! Kendim imzaladım!
+4963|Biri sayfalarımı değiştirmiş!
+4964|...Bu {other:in} işi. Başka biri olamaz.
+4965|İmzasının oraya nasıl geldiğini {other:e} sorun.
+4966|Yazıcı çıktım! Tam masamın üstündeydi!
+4967|Raporum nerede? Bir SAAT önce yazdırdım.
+4968|...ARŞİVDE mi? 'Z' harfinin altında mı? Kim böyle bir şey yapar?!
+4969|Buldum. Dosyalanmış. 'Z' altına. İnanılmaz.
+4970|'Aptal Fikirlerim' mi? {owner:in} klasörünün üstünde bu mu yazıyor?
+4971|Ha! {owner:in} klasörü: 'APTAL FİKİRLERİM'.
+4972|'Gizli Planlar'... {owner:in} klasöründe. Hım.
+4973|{owner:in} neden 'GİZLİ PLANLAR' adlı bir klasörü var?
+4974|'Aşk Mektupları' mı?! {owner:in} masasında mı? Herkesin gözü önünde mi?
+4975|{owner:in} 'AŞK MEKTUPLARI' etiketli bir klasörü var. Vay.
+4976|Klasörlerimin etiketini kim değiştirdi?!
+4977|Klasörlerimde bunlar YAZMIYOR!
+4978|Yazıcı neden... bebek fotoğraflarıyla dolu?
+4979|Bir BEBEĞİN beş yüz kopyası. Bu kimin bebeği?!
+4980|Bu... bebekken Ahmet mi?!
+4981|Yazıcının kâğıdı bir bebeği basarken bitti. Beş yüz kez.
+4982|Şu yanaklara bakın! Bu AHMET!
+4983|Denizci kıyafetli Ahmet! Bunu çerçeveletiyorum.
+4984|BEBEKLİK FOTOĞRAFIMI KİM BASTI?!
+4985|O özel bir aile fotoğrafı!
+4986|Hı? Bu kimin raporu? Ah — {owner:in}.
+4987|Bu benim değil. {owner:in} raporu... BENİM masamda mı?
+4988|Al — bu benim masama düşmüş.
+4989|Raporunu masamda buldum. Tuhaf, değil mi?
+4990|Teşekkürler! Tam paniğe kapılmak üzereydim.
+4991|Hayat kurtardın!
+4992|...Bunu ben teslim etsem kimse anlamaz.
+4993|Bulan alır.
+4994|Mükemmel iş. Artık benim işim.
+4995|Raporum nerede?! TAM BURAYA bırakmıştım.
+4996|Raporum gitti. Gitti!
+4997|...Ve yedinci sayfada gördüğünüz gibi— bu ikinci sayfa. Bir saniye.
+4998|Yani sonuçlarımız gösteriyor ki— dur, grafik nerede?
+4999|Dördüncü sayfa. Yok. Dokuz mu? Neden dokuzuncu sayfa var?
+5000|Tamam! İnteraktif sunum: sıradaki sayfayı tahmin edin!
+5001|Kimse panik yapmasın. Ezberden anlatırım. Ha.
+5002|Ben— çok özür dilerim, sayfalar— yapamıyorum—
+5003|Yemin ederim bu sabah sıralıydılar.
+5004|Maaş listesi... {subject} O kadar mı kazanıyor?
+5005|Bu herkesin maaşı. Ah. AH.
+5006|'Gözden geçirilen pozisyonlar: {subject}' mi?!
+5007|Bu listeye göre {subject:in} işi 'gözden geçiriliyor'...
+5008|'Terfi kısa listesi: {subject}'. İlginç.
+5009|Demek {subject} kısa listede. Hıh.
+5010|{actor}, değerlendirmen olağanüstü. Olağanüstü!
+5011|Değerlendirmeni okudum, {actor}. Mükemmel bir çeyrek.
+5012|...Teşekkürler? Bunu beklemiyordum.
+5013|Gerçekten mi? Vay. Tamam!
+5014|Değerlendirmen bir felaket, {actor}.
+5015|Açık konuşayım {actor}, bu rakamlar utanç verici.
+5016|Ne? Rakamlarım harikaydı!
+5017|Bu benim değerlendirmem olamaz. Olamaz.
+5018|Sözleşme! İmzalı olan! Nerede?!
+5019|Yok, yok, yok — orijinal sözleşme GİTMİŞ.
+5020|...GERİ DÖNÜŞÜM kutusunda. Yoğurt kaplarının yanında.
+5021|Buldum. Geri dönüşümde. Üstünde kahve lekesiyle.
+5022|Bu imza... Ahmet A harfini böyle kıvırmaz.
+5023|Hım. Bu 'Ahmet' imzası sahte.
+5024|Onaylı, imzalı... tamam. Ödendi.
+5025|Bir masraf beyanı daha. İşlendi.
+5026|{target}. Masraf beyanında SAHTE bir imza var.
+5027|Ahmet'in imzasını sen mi taklit ettin, {target}?
+5028|Sahte mi?! Asla! Daha göndermedim bile!
+5029|Bu benim işim değil! Yemin ederim!
+5030|'Bir karaoke makinesi — 4.000' mi? {target:in} masraflarında mı?!
+5031|Kim bir KARAOKE MAKİNESİNİ masrafa yazar?
+5032|{target}, karaoke makinesini açıkla.
+5033|Bana karaoke makinesinden bahsetmek ister misin, {target}?
+5034|NE? Ben şarkı bile söylemem!
+5035|Karaoke makinesi mi? Hayatımda bir tane bile almadım!
+5036|...Ekip ruhu için. Belli değil mi.
+5037|Moral önemlidir, Zeynep.
+5038|Ekip ruhu, Zeynep. Ekip. Ruhu.
+5039|'Ahmet her konuda yanılıyor' — SENİN el yazınla mı, {actor}?
+5040|Raporunda ilginç bir kenar notu var, {actor}.
+5041|Onu ben yazmadım! Yemin ederim!
+5042|O benim el yazım değil! ...Değil mi?
+5043|...Eh, en azından dürüstsün. Yanılıyorsun ama dürüstsün.
+5044|Hım. Cesur. Neredeyse saygı duyacağım.
+5045|Bu tür şeyleri bir daha görmek istemiyorum.
+5046|Değerlendirmelerini kimin imzaladığını unutma.
+5047|...'Ahmet her konuda yanılıyor' mu? {owner:in} raporunda mı?
+5048|Hım. Bir kenar notu. BENİM hakkımda. {owner}, odama.
+5049|Kâğıt sıkışması... bir dakika. Bu bir mektup. Bir AŞK mektubu.
+5050|Silindirlere bir şey sıkışmış... 'Sevgili {crush}...'
+5051|'Sevgili {crush}, masamın önünden her geçtiğinde...' — imza: {writer}!
+5052|Şunu dinleyin: '{crush}, kahkahan en sevdiğim ses.' {writer:den}!
+5053|...Bunu sessizce {writer:e} geri veririm.
+5054|Bunu okumak bana düşmez. Geri vereceğim.
+5055|O ÖZELDİ!
+5056|Onu GERİ ver!
+5057|...Açıklayabilirim. Hayır, açıklayamam.
+5058|Zımba yok. Kalem yok. Hiçbir şey yok. Hepsi nereye gitti?
+5059|Malzeme rafı BOMBOŞ.
+5060|...Hepsi {target:in} çekmecesinde. HEPSİ.
+5061|{target:in} çekmecesi: kırk kalem, altı zımba ve elimizdeki bütün yapışkan notlar.
+5062|Malzeme istifçisi!
+5063|Demek zımba hırsızı SENSİN!
+5064|Kalem yığınının üstünde yatan ejderha!
+5065|Onlar benim değil! Ben zımbayı sevmem bile!
+5066|Bütün bunlar çekmeceme nasıl girdi?!
+5067|Arşivi kim yeniden düzenledi?! Hiçbir şey olması gereken yerde değil!
+5068|'Muhasebe', 'Tatiller'in içinde. 'Tatiller', 'Hukuk'un içinde. NEDEN?
+5069|Sen de mi arıyorsun? Tamam — A'dan M'ye ben bakarım.
+5070|Birlikte yapalım, yoksa bütün gece burada kalırız.
+5071|Yığınlarımı yerinden oynatmayı bırak!
+5072|Buraya önce ben geldim!
+5073|O bir... istifa mektubu mu? {owner:in} masasında mı?
+5074|'Sayın Ahmet, işbu yazıyla istifamı sunarım...' — {owner} mu?!
+5075|Bir istifa mektubu. {owner:den}. Masasının üstünde.
+5076|Her şey ACİL mi?! Ne zamandan beri?!
+5077|ACİL. ACİL. ACİL. Hepsi mi?!
+5078|Tamam. Bugün öğle yemeği yok. Nefes almak da yok.

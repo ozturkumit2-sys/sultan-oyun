@@ -6426,5 +6426,620 @@
   "ece": [
    "Şey, merhaba! Ben... galiba toplantı başkanıyım? Hadi başlayalım!"
   ]
+ },
+ "chair_boss": {
+  "_": [
+   "Pardon. Ne zamandan beri SEN benim toplantılarımı yönetiyorsun?",
+   "{target}. O benim sandalyem. Kelimenin tam anlamıyla."
+  ]
+ },
+ "chair_proud": {
+  "_": [
+   "Tahtada öyle yazıyordu, Ahmet Bey. Ben sadece talimata uydum.",
+   "Birinin başlatması gerekiyordu."
+  ]
+ },
+ "chair_shrink": {
+  "_": [
+   "Pardon! Pardon. Tahtada yazıyordu ki... neyse.",
+   "Ben şöyle... şuraya oturayım."
+  ]
+ },
+ "secret_mtg_see": {
+  "_": [
+   "'Özel: İK değerlendirmesi — {subject}' mi? Ahmet'in takviminde mi?",
+   "Ahmet ve Ceren, {subject} hakkında... gizlice mi toplanıyor?"
+  ]
+ },
+ "door_rattle": {
+  "_": [
+   "Kapı kilitli mi?!",
+   "Toplantı odası neden kilitli?",
+   "Alo? İçeride kimse var mı?"
+  ],
+  "ahmet": [
+   "BENİM toplantı odam. KİLİTLİ."
+  ]
+ },
+ "door_fetch": {
+  "_": [
+   "Anahtarı ben getiririm.",
+   "Bekleyin, yedek anahtarın yerini biliyorum."
+  ],
+  "burak": [
+   "Geri çekilin. Ben hallederim."
+  ]
+ },
+ "door_open": {
+  "_": [
+   "Açtım! İÇERİDEN kilitlenmiş. Nasıl?!",
+   "Açıldı! ...Ama kim kilitledi? İçeride kimse yoktu."
+  ]
+ },
+ "seats_hiss": {
+  "_": [
+   "Neden SENİN yanında oturuyorum?",
+   "Onca sandalye varken...",
+   "Dirseğini çek."
+  ]
+ },
+ "seats_hiss2": {
+  "_": [
+   "İnan bana, bunu ben de seçmedim.",
+   "İsim kartları. Benim fikrim değil."
+  ]
+ },
+ "seats_boss_shush": {
+  "_": [
+   "İkiniz bunu sınıfla paylaşmak ister misiniz?!",
+   "Sessiz olun! İkiniz de!"
+  ]
+ },
+ "seats_truce": {
+  "_": [
+   "...Peki. Bir saatlik ateşkes.",
+   "Şu toplantıyı bir atlatalım."
+  ]
+ },
+ "seats_sweet": {
+  "_": [
+   "Ah! Selam. Bugün... komşuyuz.",
+   "Komik, isim kartları bizi yan yana koymuş."
+  ]
+ },
+ "walkout_leave": {
+  "_": [
+   "Tahtada beş dakika yazıyordu. İşim var.",
+   "Beş dakikalık toplantı, değil mi? Hoşça kalın!"
+  ]
+ },
+ "walkout_boss": {
+  "_": [
+   "NEREYE gittiğini sanıyorsun?!",
+   "OTUR. Bu toplantı ben bitti diyene kadar bitmez!"
+  ]
+ },
+ "pizza_hype": {
+  "_": [
+   "Toplantıda bedava pizza var! Erken gidiyorum.",
+   "Pizza mı?! Gelmiş geçmiş en iyi toplantı."
+  ],
+  "mert": [
+   "PİZZA. İlk ben varım."
+  ]
+ },
+ "pizza_none": {
+  "_": [
+   "Pizza nerede?",
+   "Pizza... yok mu?",
+   "Bize pizza sözü verilmişti!"
+  ],
+  "mert": [
+   "Bunun için kahvaltıyı atladım."
+  ]
+ },
+ "pizza_boss": {
+  "_": [
+   "Ne pizzası? Kimse pizza sipariş etmedi!",
+   "Pizza yok. Hiç pizza olmadı."
+  ]
+ },
+ "proj_dead": {
+  "_": [
+   "...Projektör öldü.",
+   "Ekranda bir şey yok mu? Hiç mi?",
+   "Tabii ya. Projektör de bugünü seçti."
+  ]
+ },
+ "proj_improv": {
+  "_": [
+   "Peki. Beyaz tahtaya çizerim.",
+   "Slayta kim muhtaç? Toplanın."
+  ]
+ },
+ "proj_panic": {
+  "_": [
+   "Slayt olmadan sunum yapamam!",
+   "Bütün konuşmam slaytların İÇİNDE!"
+  ]
+ },
+ "minutes_thank": {
+  "_": [
+   "Ekip kampını organize ettiğin için teşekkürler, {target}! Çok heyecanlıyım!",
+   "Kampı sen mi organize ediyorsun? Sen bir kahramansın, {target}."
+  ]
+ },
+ "minutes_what": {
+  "_": [
+   "NEYİ? Ben hiçbir şeye gönüllü olmadım!",
+   "Kamp mı? Ben mi? Ne zamandan beri?"
+  ]
+ },
+ "minutes_own_it": {
+  "_": [
+   "...Evet. Evet, ben. Muhteşem olacak.",
+   "Aynen öyle. Bana bırakın."
+  ]
+ },
+ "minutes_refuse": {
+  "_": [
+   "Biri bunu toplantı tutanağına yazmış. Ben değil. Yapmıyorum.",
+   "Hayır. Kesinlikle olmaz. Başka gönüllü bulun."
+  ]
+ },
+ "golf_go": {
+  "_": [
+   "Bölge müdürüyle golf mü? Şimdi mi? ...Tamam. Ceren, sabahımı sen idare et.",
+   "Ah! Şu golf meselesi. Tamamen unutmuşum. Ben çıkıyorum."
+  ]
+ },
+ "golf_takeover": {
+  "_": [
+   "Ahmet gelmiyor. Peki — bu toplantıyı ben yönetirim.",
+   "Patron yok mu? O zaman doğru düzgün yapalım. Birinci madde."
+  ]
+ },
+ "golf_follow": {
+  "_": [
+   "Tamam, patron.",
+   "Olur, neden olmasın.",
+   "Bana uyar."
+  ]
+ },
+ "golf_resist": {
+  "_": [
+   "Seni kim patron yaptı?",
+   "Güzel deneme."
+  ]
+ },
+ "review_call": {
+  "_": [
+   "{actor}. Odama. Performans değerlendirmen şimdi.",
+   "Ah, {actor}. Otur. Görünüşe göre değerlendirme zamanı."
+  ]
+ },
+ "review_nervous": {
+  "_": [
+   "Ş-şimdi mi? Hiçbir şey hazırlamadım!",
+   "Değerlendirmem mi? Bugün mü?!"
+  ]
+ },
+ "review_good": {
+  "_": [
+   "Açıkçası mı? Mükemmeldin. Böyle devam et.",
+   "Bu çeyrekte güçlü bir iş çıkardın. Fark ettim."
+  ]
+ },
+ "review_bad": {
+  "_": [
+   "Açık konuşayım, senden daha fazlasını bekliyordum.",
+   "Rakamların beni endişelendiriyor. Hem de çok."
+  ]
+ },
+ "client_tidy": {
+  "_": [
+   "Müşteri ziyareti mi? Bugün mü?! Her yeri toplayın!",
+   "Saat ikide müşteri var! Dağınıklığı saklayın!"
+  ],
+  "ahmet": [
+   "Herkes! Meşgul görünün! MEŞGUL. GÖRÜNÜN."
+  ]
+ },
+ "client_none": {
+  "_": [
+   "Müşteri nerede? Saat ikiyi geçti!",
+   "Eee... müşteri yok yani?"
+  ],
+  "ahmet": [
+   "Ceren! Müşterim nerede?!"
+  ]
+ },
+ "client_ceren": {
+  "_": [
+   "Ne müşterisi? Takvimde hiçbir şey yok.",
+   "Ben hiçbir ziyaret ayarlamadım, Ahmet Bey."
+  ]
+ },
+ "farewell_sad": {
+  "_": [
+   "{target} GİDİYOR mu?!",
+   "{target} için veda toplantısı mı? Kimse bana söylemedi!",
+   "Seni özleyeceğiz, {target}!"
+  ]
+ },
+ "farewell_speech": {
+  "_": [
+   "{target}, sen... açıkçası, en iyisiydin. Seni özleyeceğiz.",
+   "{target:e} şerefe! Ofis eskisi gibi olmayacak."
+  ]
+ },
+ "farewell_not": {
+  "_": [
+   "Gitmiyorum! Bunu kim yazdı?!",
+   "Veda mı? Hiçbir yere gitmiyorum!"
+  ]
+ },
+ "farewell_moved": {
+  "_": [
+   "...Beni gerçekten özler miydiniz? Bunu bilmiyordum.",
+   "Gitmiyorum ama... teşekkürler. Gerçekten."
+  ]
+ },
+ "farewell_maybe": {
+  "_": [
+   "...Aslında. Belki de bu bir işarettir.",
+   "Hım. Gitmek o kadar da kötü gelmiyor."
+  ]
+ },
+ "sigpage_boss": {
+  "_": [
+   "{target}, bu sözleşmeyi neden {other} imzalamış?!",
+   "Sözleşmenin son sayfasında {other:in} imzası var. Açıkla."
+  ]
+ },
+ "sigpage_baffled": {
+  "_": [
+   "İmkânsız! Kendim imzaladım!",
+   "Biri sayfalarımı değiştirmiş!"
+  ]
+ },
+ "sigpage_blame": {
+  "_": [
+   "...Bu {other:in} işi. Başka biri olamaz.",
+   "İmzasının oraya nasıl geldiğini {other:e} sorun."
+  ]
+ },
+ "archive_hide_react": {
+  "_": [
+   "Yazıcı çıktım! Tam masamın üstündeydi!",
+   "Raporum nerede? Bir SAAT önce yazdırdım."
+  ]
+ },
+ "archive_found": {
+  "_": [
+   "...ARŞİVDE mi? 'Z' harfinin altında mı? Kim böyle bir şey yapar?!",
+   "Buldum. Dosyalanmış. 'Z' altına. İnanılmaz."
+  ]
+ },
+ "label_see_dumb": {
+  "_": [
+   "'Aptal Fikirlerim' mi? {owner:in} klasörünün üstünde bu mu yazıyor?",
+   "Ha! {owner:in} klasörü: 'APTAL FİKİRLERİM'."
+  ]
+ },
+ "label_see_plans": {
+  "_": [
+   "'Gizli Planlar'... {owner:in} klasöründe. Hım.",
+   "{owner:in} neden 'GİZLİ PLANLAR' adlı bir klasörü var?"
+  ]
+ },
+ "label_see_love": {
+  "_": [
+   "'Aşk Mektupları' mı?! {owner:in} masasında mı? Herkesin gözü önünde mi?",
+   "{owner:in} 'AŞK MEKTUPLARI' etiketli bir klasörü var. Vay."
+  ]
+ },
+ "label_owner": {
+  "_": [
+   "Klasörlerimin etiketini kim değiştirdi?!",
+   "Klasörlerimde bunlar YAZMIYOR!"
+  ]
+ },
+ "baby_find": {
+  "_": [
+   "Yazıcı neden... bebek fotoğraflarıyla dolu?",
+   "Bir BEBEĞİN beş yüz kopyası. Bu kimin bebeği?!",
+   "Bu... bebekken Ahmet mi?!"
+  ],
+  "burak": [
+   "Yazıcının kâğıdı bir bebeği basarken bitti. Beş yüz kez."
+  ]
+ },
+ "baby_laugh": {
+  "_": [
+   "Şu yanaklara bakın! Bu AHMET!",
+   "Denizci kıyafetli Ahmet! Bunu çerçeveletiyorum."
+  ]
+ },
+ "baby_boss": {
+  "_": [
+   "BEBEKLİK FOTOĞRAFIMI KİM BASTI?!",
+   "O özel bir aile fotoğrafı!"
+  ]
+ },
+ "misplaced_find": {
+  "_": [
+   "Hı? Bu kimin raporu? Ah — {owner:in}.",
+   "Bu benim değil. {owner:in} raporu... BENİM masamda mı?"
+  ]
+ },
+ "misplaced_return": {
+  "_": [
+   "Al — bu benim masama düşmüş.",
+   "Raporunu masamda buldum. Tuhaf, değil mi?"
+  ]
+ },
+ "misplaced_thanks": {
+  "_": [
+   "Teşekkürler! Tam paniğe kapılmak üzereydim.",
+   "Hayat kurtardın!"
+  ]
+ },
+ "misplaced_steal": {
+  "_": [
+   "...Bunu ben teslim etsem kimse anlamaz.",
+   "Bulan alır."
+  ],
+  "deniz": [
+   "Mükemmel iş. Artık benim işim."
+  ]
+ },
+ "misplaced_owner": {
+  "_": [
+   "Raporum nerede?! TAM BURAYA bırakmıştım.",
+   "Raporum gitti. Gitti!"
+  ]
+ },
+ "pages_chaos": {
+  "_": [
+   "...Ve yedinci sayfada gördüğünüz gibi— bu ikinci sayfa. Bir saniye.",
+   "Yani sonuçlarımız gösteriyor ki— dur, grafik nerede?",
+   "Dördüncü sayfa. Yok. Dokuz mu? Neden dokuzuncu sayfa var?"
+  ]
+ },
+ "pages_joke": {
+  "_": [
+   "Tamam! İnteraktif sunum: sıradaki sayfayı tahmin edin!",
+   "Kimse panik yapmasın. Ezberden anlatırım. Ha."
+  ]
+ },
+ "pages_meltdown": {
+  "_": [
+   "Ben— çok özür dilerim, sayfalar— yapamıyorum—",
+   "Yemin ederim bu sabah sıralıydılar."
+  ]
+ },
+ "conf_read_salary": {
+  "_": [
+   "Maaş listesi... {subject} O kadar mı kazanıyor?",
+   "Bu herkesin maaşı. Ah. AH."
+  ]
+ },
+ "conf_read_layoff": {
+  "_": [
+   "'Gözden geçirilen pozisyonlar: {subject}' mi?!",
+   "Bu listeye göre {subject:in} işi 'gözden geçiriliyor'..."
+  ]
+ },
+ "conf_read_promo": {
+  "_": [
+   "'Terfi kısa listesi: {subject}'. İlginç.",
+   "Demek {subject} kısa listede. Hıh."
+  ]
+ },
+ "swapreview_praise": {
+  "_": [
+   "{actor}, değerlendirmen olağanüstü. Olağanüstü!",
+   "Değerlendirmeni okudum, {actor}. Mükemmel bir çeyrek."
+  ]
+ },
+ "swapreview_confused": {
+  "_": [
+   "...Teşekkürler? Bunu beklemiyordum.",
+   "Gerçekten mi? Vay. Tamam!"
+  ]
+ },
+ "swapreview_scold": {
+  "_": [
+   "Değerlendirmen bir felaket, {actor}.",
+   "Açık konuşayım {actor}, bu rakamlar utanç verici."
+  ]
+ },
+ "swapreview_shock": {
+  "_": [
+   "Ne? Rakamlarım harikaydı!",
+   "Bu benim değerlendirmem olamaz. Olamaz."
+  ]
+ },
+ "recycle_react": {
+  "_": [
+   "Sözleşme! İmzalı olan! Nerede?!",
+   "Yok, yok, yok — orijinal sözleşme GİTMİŞ."
+  ]
+ },
+ "recycle_found": {
+  "_": [
+   "...GERİ DÖNÜŞÜM kutusunda. Yoğurt kaplarının yanında.",
+   "Buldum. Geri dönüşümde. Üstünde kahve lekesiyle."
+  ]
+ },
+ "forge_spot": {
+  "_": [
+   "Bu imza... Ahmet A harfini böyle kıvırmaz.",
+   "Hım. Bu 'Ahmet' imzası sahte."
+  ]
+ },
+ "forge_pass": {
+  "_": [
+   "Onaylı, imzalı... tamam. Ödendi.",
+   "Bir masraf beyanı daha. İşlendi."
+  ]
+ },
+ "forge_accuse": {
+  "_": [
+   "{target}. Masraf beyanında SAHTE bir imza var.",
+   "Ahmet'in imzasını sen mi taklit ettin, {target}?"
+  ]
+ },
+ "forge_deny": {
+  "_": [
+   "Sahte mi?! Asla! Daha göndermedim bile!",
+   "Bu benim işim değil! Yemin ederim!"
+  ]
+ },
+ "karaoke_spot": {
+  "_": [
+   "'Bir karaoke makinesi — 4.000' mi? {target:in} masraflarında mı?!",
+   "Kim bir KARAOKE MAKİNESİNİ masrafa yazar?"
+  ]
+ },
+ "karaoke_ask": {
+  "_": [
+   "{target}, karaoke makinesini açıkla.",
+   "Bana karaoke makinesinden bahsetmek ister misin, {target}?"
+  ]
+ },
+ "karaoke_deny": {
+  "_": [
+   "NE? Ben şarkı bile söylemem!",
+   "Karaoke makinesi mi? Hayatımda bir tane bile almadım!"
+  ]
+ },
+ "karaoke_own": {
+  "_": [
+   "...Ekip ruhu için. Belli değil mi.",
+   "Moral önemlidir, Zeynep."
+  ],
+  "mert": [
+   "Ekip ruhu, Zeynep. Ekip. Ruhu."
+  ]
+ },
+ "margin_boss": {
+  "_": [
+   "'Ahmet her konuda yanılıyor' — SENİN el yazınla mı, {actor}?",
+   "Raporunda ilginç bir kenar notu var, {actor}."
+  ]
+ },
+ "margin_explain": {
+  "_": [
+   "Onu ben yazmadım! Yemin ederim!",
+   "O benim el yazım değil! ...Değil mi?"
+  ]
+ },
+ "margin_respect": {
+  "_": [
+   "...Eh, en azından dürüstsün. Yanılıyorsun ama dürüstsün.",
+   "Hım. Cesur. Neredeyse saygı duyacağım."
+  ]
+ },
+ "margin_angry": {
+  "_": [
+   "Bu tür şeyleri bir daha görmek istemiyorum.",
+   "Değerlendirmelerini kimin imzaladığını unutma."
+  ]
+ },
+ "margin_read": {
+  "_": [
+   "...'Ahmet her konuda yanılıyor' mu? {owner:in} raporunda mı?",
+   "Hım. Bir kenar notu. BENİM hakkımda. {owner}, odama."
+  ]
+ },
+ "jam_find": {
+  "_": [
+   "Kâğıt sıkışması... bir dakika. Bu bir mektup. Bir AŞK mektubu.",
+   "Silindirlere bir şey sıkışmış... 'Sevgili {crush}...'"
+  ]
+ },
+ "jam_read_aloud": {
+  "_": [
+   "'Sevgili {crush}, masamın önünden her geçtiğinde...' — imza: {writer}!",
+   "Şunu dinleyin: '{crush}, kahkahan en sevdiğim ses.' {writer:den}!"
+  ]
+ },
+ "jam_pocket": {
+  "_": [
+   "...Bunu sessizce {writer:e} geri veririm.",
+   "Bunu okumak bana düşmez. Geri vereceğim."
+  ]
+ },
+ "jam_mortified": {
+  "_": [
+   "O ÖZELDİ!",
+   "Onu GERİ ver!"
+  ],
+  "mert": [
+   "...Açıklayabilirim. Hayır, açıklayamam."
+  ]
+ },
+ "supplies_none": {
+  "_": [
+   "Zımba yok. Kalem yok. Hiçbir şey yok. Hepsi nereye gitti?",
+   "Malzeme rafı BOMBOŞ."
+  ]
+ },
+ "supplies_found": {
+  "_": [
+   "...Hepsi {target:in} çekmecesinde. HEPSİ.",
+   "{target:in} çekmecesi: kırk kalem, altı zımba ve elimizdeki bütün yapışkan notlar."
+  ]
+ },
+ "supplies_hoarder": {
+  "_": [
+   "Malzeme istifçisi!",
+   "Demek zımba hırsızı SENSİN!"
+  ],
+  "mert": [
+   "Kalem yığınının üstünde yatan ejderha!"
+  ]
+ },
+ "supplies_innocent": {
+  "_": [
+   "Onlar benim değil! Ben zımbayı sevmem bile!",
+   "Bütün bunlar çekmeceme nasıl girdi?!"
+  ]
+ },
+ "archive_mess": {
+  "_": [
+   "Arşivi kim yeniden düzenledi?! Hiçbir şey olması gereken yerde değil!",
+   "'Muhasebe', 'Tatiller'in içinde. 'Tatiller', 'Hukuk'un içinde. NEDEN?"
+  ]
+ },
+ "archive_together": {
+  "_": [
+   "Sen de mi arıyorsun? Tamam — A'dan M'ye ben bakarım.",
+   "Birlikte yapalım, yoksa bütün gece burada kalırız."
+  ]
+ },
+ "archive_fight": {
+  "_": [
+   "Yığınlarımı yerinden oynatmayı bırak!",
+   "Buraya önce ben geldim!"
+  ]
+ },
+ "resdraft_see": {
+  "_": [
+   "O bir... istifa mektubu mu? {owner:in} masasında mı?",
+   "'Sayın Ahmet, işbu yazıyla istifamı sunarım...' — {owner} mu?!"
+  ],
+  "ahmet": [
+   "Bir istifa mektubu. {owner:den}. Masasının üstünde."
+  ]
+ },
+ "urgent_panic": {
+  "_": [
+   "Her şey ACİL mi?! Ne zamandan beri?!",
+   "ACİL. ACİL. ACİL. Hepsi mi?!",
+   "Tamam. Bugün öğle yemeği yok. Nefes almak da yok."
+  ]
  }
 }

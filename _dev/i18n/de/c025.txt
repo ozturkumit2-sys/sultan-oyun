@@ -1,0 +1,211 @@
+4868|Entschuldigung. Seit wann leiten SIE meine Meetings?
+4869|{target}. Das ist mein Stuhl. Buchstäblich.
+4870|Das stand an der Tafel, Ahmet Bey. Ich habe nur Anweisungen befolgt.
+4871|Irgendwer musste ja anfangen.
+4872|Entschuldigung! Entschuldigung. An der Tafel stand... ach, egal.
+4873|Ich setz mich einfach... da drüben hin.
+4874|„Privat: HR-Gespräch — {subject}“? In Ahmets Kalender?
+4875|Ahmet und Ceren treffen sich wegen {subject}... heimlich?
+4876|Die Tür ist abgeschlossen?!
+4877|Warum ist der Meetingraum abgeschlossen?
+4878|Hallo? Ist da jemand drin?
+4879|MEIN Meetingraum. ABGESCHLOSSEN.
+4880|Ich hol den Schlüssel.
+4881|Moment, ich weiß, wo der Ersatzschlüssel ist.
+4882|Zurücktreten. Ich kümmere mich darum.
+4883|Geschafft! Sie war von INNEN abgeschlossen. Wie?!
+4884|Offen! ...Aber wer hat abgeschlossen? Da war niemand drin.
+4885|Warum sitze ich neben DIR?
+4886|Von allen Plätzen...
+4887|Nimm deinen Ellbogen weg.
+4888|Glaub mir, ich hab mir das auch nicht ausgesucht.
+4889|Namensschilder. Nicht meine Idee.
+4890|Möchten Sie beide das vielleicht mit der ganzen Klasse teilen?!
+4891|Ruhe! Alle beide!
+4892|...Na gut. Waffenstillstand für eine Stunde.
+4893|Lass uns dieses Meeting einfach überleben.
+4894|Oh! Hi. Wir sind heute... Nachbarn.
+4895|Lustig, die Namensschilder haben uns zusammengesetzt.
+4896|An der Tafel stand fünf Minuten. Ich hab zu tun.
+4897|Fünf-Minuten-Meeting, oder? Tschüss!
+4898|WO wollen Sie denn hin?!
+4899|Hinsetzen! Dieses Meeting ist vorbei, wenn ICH sage, dass es vorbei ist!
+4900|Gratis-Pizza beim Meeting! Ich geh früher hin.
+4901|Pizza?! Bestes Meeting aller Zeiten.
+4902|PIZZA. Ich bin Erster.
+4903|Wo ist die Pizza?
+4904|Es gibt... keine Pizza?
+4905|Uns wurde Pizza versprochen!
+4906|Dafür hab ich das Frühstück ausfallen lassen.
+4907|Welche Pizza? Niemand hat Pizza bestellt!
+4908|Es gibt keine Pizza. Es gab nie Pizza.
+4909|...Der Beamer ist tot.
+4910|Nichts auf der Leinwand? Gar nichts?
+4911|Natürlich. Der Beamer sucht sich ausgerechnet heute aus.
+4912|Na gut. Ich zeichne es ans Whiteboard.
+4913|Wer braucht schon Folien? Kommt alle her.
+4914|Ohne Folien kann ich nicht präsentieren!
+4915|Mein ganzer Vortrag steckt IN den Folien!
+4916|Danke, dass du den Teamausflug organisierst, {target}! Ich freu mich so!
+4917|Du organisierst den Ausflug? Du bist {target?ein Held|eine Heldin}, {target}.
+4918|Den WAS? Ich hab mich für gar nichts gemeldet!
+4919|Ausflug? Ich? Seit wann?
+4920|...Ja. Ja, genau. Das wird großartig.
+4921|Richtig. Überlasst das mir.
+4922|Jemand hat das ins Protokoll geschrieben. Nicht ich. Ich mach das nicht.
+4923|Nein. Auf keinen Fall. Sucht euch jemand anderen.
+4924|Golf mit dem Regionaldirektor? Jetzt? ...Gut. Ceren, übernehmen Sie meinen Vormittag.
+4925|Oh! Die Golf-Sache. Hab ich total vergessen. Ich bin weg.
+4926|Ahmet kommt nicht. Gut — dann leite ich dieses Meeting.
+4927|Kein Chef? Dann machen wir's ordentlich. Punkt eins.
+4928|Okay, Chef.
+4929|Klar, warum nicht.
+4930|Mir recht.
+4931|Wer hat dich denn zum Chef gemacht?
+4932|Netter Versuch.
+4933|{actor}. In mein Büro. Ihr Leistungsgespräch ist jetzt.
+4934|Ah, {actor}. Setzen Sie sich. Zeit für Ihr Mitarbeitergespräch, wie es scheint.
+4935|J-jetzt? Ich hab nichts vorbereitet!
+4936|Mein Gespräch? Heute?!
+4937|Ehrlich? Sie waren hervorragend. Weiter so.
+4938|Starke Arbeit in diesem Quartal. Das ist mir aufgefallen.
+4939|Offen gesagt, ich habe mehr von Ihnen erwartet.
+4940|Ihre Zahlen machen mir Sorgen. Große Sorgen.
+4941|Kundenbesuch? Heute?! Alles aufräumen!
+4942|Kunde um zwei! Versteckt das Chaos!
+4943|Alle mal herhören! Sehen Sie beschäftigt aus! BE. SCHÄFTIGT.
+4944|Wo ist der Kunde? Es ist nach zwei!
+4945|Also... doch kein Kunde?
+4946|Ceren! Wo ist mein Kunde?!
+4947|Welcher Kunde? Im Kalender steht nichts.
+4948|Ich habe keinen Besuch eingetragen, Ahmet Bey.
+4949|{target} GEHT?!
+4950|Abschiedsmeeting für {target}? Mir hat keiner was gesagt!
+4951|Wir werden dich vermissen, {target}!
+4952|{target}, du warst... ehrlich, {target?der Beste|die Beste}. Wir werden dich vermissen.
+4953|Auf {target}! Das Büro wird nicht mehr dasselbe sein.
+4954|Ich gehe nicht! Wer hat das geschrieben?!
+4955|Abschied? Ich gehe nirgendwohin!
+4956|...Ihr würdet mich echt vermissen? Das wusste ich nicht.
+4957|Ich gehe nicht, aber... danke. Wirklich.
+4958|...Eigentlich. Vielleicht ist das ein Zeichen.
+4959|Hm. Gehen klingt gar nicht so schlecht.
+4960|{target}, warum ist dieser Vertrag von {other} unterschrieben?!
+4961|Auf der letzten Seite Ihres Vertrags steht {other:s} Unterschrift. Erklären Sie das.
+4962|Das ist unmöglich! Ich habe selbst unterschrieben!
+4963|Jemand hat meine Seiten vertauscht!
+4964|...Das war {other}. Muss so sein.
+4965|Fragen Sie {other}, wie die Unterschrift dahin gekommen ist.
+4966|Mein Ausdruck! Der lag direkt auf meinem Tisch!
+4967|Wo ist mein Bericht? Ich hab ihn vor einer STUNDE gedruckt.
+4968|...Im ARCHIV? Unter „Z“? Wer macht denn so was?!
+4969|Gefunden. Abgelegt. Unter „Z“. Unglaublich.
+4970|„Meine dummen Ideen“? Das steht auf {owner:s} Ordner?
+4971|Ha! {owner:s} Ordner: „MEINE DUMMEN IDEEN“.
+4972|„Geheime Pläne“... auf {owner:s} Ordner. Hm.
+4973|Warum hat {owner} einen Ordner namens „GEHEIME PLÄNE“?
+4974|„Liebesbriefe“?! Auf {owner:s} Tisch? Für alle sichtbar?
+4975|{owner} hat einen Ordner mit der Aufschrift „LIEBESBRIEFE“. Wow.
+4976|Wer hat meine Ordner umbeschriftet?!
+4977|DAS steht nicht auf meinen Ordnern!
+4978|Warum ist der Drucker voller... Babyfotos?
+4979|Fünfhundert Kopien von einem BABY. Wessen Baby ist das?!
+4980|Ist das... Ahmet als Baby?!
+4981|Dem Drucker ist beim Drucken eines Babys das Papier ausgegangen. Fünfhundert Mal.
+4982|Schau dir diese Bäckchen an! Das ist AHMET!
+4983|Ahmet im Matrosenanzug! Das lass ich mir einrahmen.
+4984|WER HAT MEIN BABYFOTO GEDRUCKT?!
+4985|Das ist ein privates Familienfoto!
+4986|Hm? Wessen Bericht ist das? Ach — der ist von {owner}.
+4987|Der gehört nicht mir. {owner:s} Bericht... auf MEINEM Tisch?
+4988|Hier — der ist auf meinem Tisch gelandet.
+4989|Hab deinen Bericht auf meinem Tisch gefunden. Komisch, oder?
+4990|Danke! Ich wollte gerade in Panik geraten.
+4991|Du rettest mir das Leben!
+4992|...Niemand würde es merken, wenn ich den abgebe.
+4993|Wer's findet, dem gehört's.
+4994|Hervorragende Arbeit. Ab jetzt meine Arbeit.
+4995|Wo ist mein Bericht?! Ich hab ihn GENAU HIER hingelegt.
+4996|Mein Bericht ist weg. Weg!
+4997|...Und wie Sie auf Seite sieben sehen— das ist Seite zwei. Moment.
+4998|Unsere Ergebnisse zeigen also— Moment, wo ist das Diagramm?
+4999|Seite vier. Nein. Neun? Warum gibt es eine Seite neun?
+5000|Okay! Interaktive Präsentation: Raten Sie die nächste Seite!
+5001|Keine Panik. Ich mach's aus dem Gedächtnis. Ha.
+5002|Ich— es tut mir so leid, die Seiten— ich kann nicht—
+5003|Ich schwöre, heute Morgen waren die noch in der richtigen Reihenfolge.
+5004|Die Gehaltsliste... {subject} verdient SO viel?
+5005|Das sind die Gehälter von allen. Oh. OH.
+5006|„Stellen auf dem Prüfstand: {subject}“?!
+5007|Laut dieser Liste steht {subject:s} Stelle „auf dem Prüfstand“...
+5008|„Beförderungs-Shortlist: {subject}“. Interessant.
+5009|{subject} steht also auf der Shortlist. Hä.
+5010|{actor}, Ihre Beurteilung ist herausragend. Herausragend!
+5011|Ich habe Ihre Beurteilung gelesen, {actor}. Ein ausgezeichnetes Quartal.
+5012|...Danke? Damit hab ich nicht gerechnet.
+5013|Wirklich? Wow. Okay!
+5014|Ihre Beurteilung ist eine Katastrophe, {actor}.
+5015|Offen gesagt, {actor}, diese Zahlen sind peinlich.
+5016|Was? Meine Zahlen waren super!
+5017|Das kann nicht meine Beurteilung sein. Kann nicht sein.
+5018|Der Vertrag! Der unterschriebene! Wo ist er?!
+5019|Nein, nein, nein — der Originalvertrag ist WEG.
+5020|...Im ALTPAPIER. Neben den Joghurtbechern.
+5021|Gefunden. Im Altpapier. Mit Kaffeeflecken.
+5022|Diese Unterschrift... Ahmet schwingt sein A nicht so.
+5023|Hm. Diese „Ahmet“-Unterschrift ist gefälscht.
+5024|Genehmigt, unterschrieben... gut. Bezahlt.
+5025|Noch eine Spesenabrechnung. Bearbeitet.
+5026|{target}. Deine Spesenabrechnung hat eine GEFÄLSCHTE Unterschrift.
+5027|Hast du Ahmets Unterschrift gefälscht, {target}?
+5028|Gefälscht?! Niemals! Ich hab sie noch nicht mal eingereicht!
+5029|Das war ich nicht! Ich schwöre!
+5030|„Eine Karaoke-Maschine — 4.000“? In {target:s} Spesen?!
+5031|Wer rechnet denn eine KARAOKE-MASCHINE als Spesen ab?
+5032|{target}, erklär mir die Karaoke-Maschine.
+5033|Magst du mir was über die Karaoke-Maschine erzählen, {target}?
+5034|Die WAS? Ich singe nicht mal!
+5035|Karaoke-Maschine? Ich hab in meinem Leben noch nie eine gekauft!
+5036|...Für das Teambuilding. Offensichtlich.
+5037|Die Moral ist wichtig, Zeynep.
+5038|Teambuilding, Zeynep. Team. Building.
+5039|„Ahmet liegt in allem falsch“ — in IHRER Handschrift, {actor}?
+5040|Interessante Randnotiz in Ihrem Bericht, {actor}.
+5041|Das hab ich nicht geschrieben! Ich schwöre!
+5042|Das ist nicht meine Handschrift! ...Oder?
+5043|...Na ja, wenigstens sind Sie ehrlich. Falsch, aber ehrlich.
+5044|Hm. Mutig. Fast hätte ich Respekt davor.
+5045|So etwas möchte ich nicht noch einmal sehen.
+5046|Denken Sie daran, wer Ihre Beurteilungen unterschreibt.
+5047|...„Ahmet liegt in allem falsch“? In {owner:s} Bericht?
+5048|Hm. Eine Randnotiz. Über MICH. {owner}, in mein Büro.
+5049|Papierstau... Moment. Das ist ein Brief. Ein LIEBESbrief.
+5050|In den Walzen klemmt was... „{crush?Lieber|Liebe} {crush}...“
+5051|„{crush}, jedes Mal, wenn du an meinem Tisch vorbeigehst...“ — unterschrieben: {writer}!
+5052|Hört euch das an: „{crush}, dein Lachen ist mein Lieblingsgeräusch.“ Von {writer}!
+5053|...Ich geb das einfach {writer} zurück. Ganz leise.
+5054|Das geht mich nichts an. Ich geb's zurück.
+5055|DAS WAR PRIVAT!
+5056|Gib das ZURÜCK!
+5057|...Ich kann das erklären. Nein, kann ich nicht.
+5058|Keine Tacker. Keine Stifte. Nichts. Wo ist das alles hin?
+5059|Das Materialregal ist LEER.
+5060|...Das ist alles in {target:s} Schublade. ALLES.
+5061|{target:s} Schublade: vierzig Stifte, sechs Tacker und jeder Klebezettel, den wir besitzen.
+5062|Material-Hamster!
+5063|DU bist also {to?der Tacker-Dieb|die Tacker-Diebin}!
+5064|Ein Drache auf einem Stiftehaufen!
+5065|Die gehören nicht mir! Ich mag nicht mal Tacker!
+5066|Wie ist das alles in meine Schublade gekommen?!
+5067|Wer hat das Archiv umsortiert?! Nichts ist da, wo es hingehört!
+5068|„Buchhaltung“ ist bei „Urlaub“. „Urlaub“ ist bei „Recht“. WARUM?
+5069|Du suchst auch? Okay — ich nehm A bis M.
+5070|Lass es uns zusammen machen, sonst sitzen wir die ganze Nacht hier.
+5071|Hör auf, meine Stapel zu verschieben!
+5072|Ich war zuerst hier!
+5073|Ist das ein... Kündigungsschreiben? Auf {owner:s} Tisch?
+5074|„Lieber Ahmet, hiermit kündige ich...“ — {owner}?!
+5075|Ein Kündigungsschreiben. Von {owner}. Auf dem eigenen Tisch.
+5076|Alles ist DRINGEND?! Seit wann?!
+5077|DRINGEND. DRINGEND. DRINGEND. Alles?!
+5078|Okay. Heute kein Mittagessen. Atmen auch nicht.

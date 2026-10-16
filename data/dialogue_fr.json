@@ -6426,5 +6426,620 @@
   "ece": [
    "Euh, salut ! Je suis... apparemment la présidente de séance ? C'est parti !"
   ]
+ },
+ "chair_boss": {
+  "_": [
+   "Pardon. Depuis quand est-ce VOUS qui dirigez mes réunions ?",
+   "{target}. C'est ma chaise. Littéralement."
+  ]
+ },
+ "chair_proud": {
+  "_": [
+   "C'était écrit au tableau, Ahmet Bey. J'ai juste suivi les consignes.",
+   "Il fallait bien que quelqu'un commence."
+  ]
+ },
+ "chair_shrink": {
+  "_": [
+   "Pardon ! Pardon. Le tableau disait... laissez tomber.",
+   "Je vais juste... m'asseoir par là."
+  ]
+ },
+ "secret_mtg_see": {
+  "_": [
+   "« Privé : entretien RH — {subject} » ? Dans l'agenda d'Ahmet ?",
+   "Ahmet et Ceren se réunissent au sujet de {subject}... en secret ?"
+  ]
+ },
+ "door_rattle": {
+  "_": [
+   "La porte est fermée à clé ?!",
+   "Pourquoi la salle de réunion est fermée à clé ?",
+   "Allô ? Il y a quelqu'un ?"
+  ],
+  "ahmet": [
+   "MA salle de réunion. FERMÉE À CLÉ."
+  ]
+ },
+ "door_fetch": {
+  "_": [
+   "Je vais chercher la clé.",
+   "Attendez, je sais où est le double."
+  ],
+  "burak": [
+   "Reculez. Je m'en occupe."
+  ]
+ },
+ "door_open": {
+  "_": [
+   "Ça y est ! Elle était fermée de l'INTÉRIEUR. Comment ?!",
+   "Ouvert ! ...Mais qui l'a fermée ? Il n'y avait personne dedans."
+  ]
+ },
+ "seats_hiss": {
+  "_": [
+   "Pourquoi je suis assis{me?|e} à côté de TOI ?",
+   "De toutes les places...",
+   "Pousse ton coude."
+  ]
+ },
+ "seats_hiss2": {
+  "_": [
+   "Crois-moi, je ne l'ai pas choisi non plus.",
+   "Les chevalets nominatifs. Pas mon idée."
+  ]
+ },
+ "seats_boss_shush": {
+  "_": [
+   "Vous voulez partager ça avec toute la classe, tous les deux ?!",
+   "Silence ! Tous les deux !"
+  ]
+ },
+ "seats_truce": {
+  "_": [
+   "...Bon. Trêve d'une heure.",
+   "Survivons juste à cette réunion."
+  ]
+ },
+ "seats_sweet": {
+  "_": [
+   "Oh ! Salut. On est... voisins aujourd'hui.",
+   "C'est drôle, les chevalets nous ont mis ensemble."
+  ]
+ },
+ "walkout_leave": {
+  "_": [
+   "Le tableau disait cinq minutes. J'ai du travail.",
+   "Réunion de cinq minutes, c'est ça ? Salut !"
+  ]
+ },
+ "walkout_boss": {
+  "_": [
+   "OÙ croyez-vous aller comme ça ?!",
+   "ASSEYEZ-VOUS. Cette réunion se termine quand JE le dis !"
+  ]
+ },
+ "pizza_hype": {
+  "_": [
+   "Pizza gratuite à la réunion ! J'y vais en avance.",
+   "De la pizza ?! Meilleure réunion de tous les temps."
+  ],
+  "mert": [
+   "PIZZA. Je serai le premier."
+  ]
+ },
+ "pizza_none": {
+  "_": [
+   "Elle est où, la pizza ?",
+   "Il n'y a... pas de pizza ?",
+   "On nous avait promis de la pizza !"
+  ],
+  "mert": [
+   "J'ai sauté le petit-déj pour ça."
+  ]
+ },
+ "pizza_boss": {
+  "_": [
+   "Quelle pizza ? Personne n'a commandé de pizza !",
+   "Il n'y a pas de pizza. Il n'y en a jamais eu."
+  ]
+ },
+ "proj_dead": {
+  "_": [
+   "...Le projecteur est mort.",
+   "Rien à l'écran ? Rien du tout ?",
+   "Évidemment. Le projecteur a choisi aujourd'hui."
+  ]
+ },
+ "proj_improv": {
+  "_": [
+   "Bon. Je vais le dessiner au tableau.",
+   "Qui a besoin de slides ? Approchez-vous."
+  ]
+ },
+ "proj_panic": {
+  "_": [
+   "Je ne peux pas présenter sans slides !",
+   "Toute ma présentation est DANS les slides !"
+  ]
+ },
+ "minutes_thank": {
+  "_": [
+   "Merci d'organiser le séminaire d'équipe, {target} ! J'ai trop hâte !",
+   "C'est toi qui organises le séminaire ? Tu es {target?un héros|une héroïne}, {target}."
+  ]
+ },
+ "minutes_what": {
+  "_": [
+   "Le QUOI ? Je ne me suis porté{me?|e} volontaire pour rien du tout !",
+   "Un séminaire ? Moi ? Depuis quand ?"
+  ]
+ },
+ "minutes_own_it": {
+  "_": [
+   "...Oui. Oui, c'est moi. Ça va être génial.",
+   "Exactement. Laissez-moi faire."
+  ]
+ },
+ "minutes_refuse": {
+  "_": [
+   "Quelqu'un a écrit ça dans le compte rendu. Pas moi. Je ne le ferai pas.",
+   "Non. Hors de question. Trouvez un autre volontaire."
+  ]
+ },
+ "golf_go": {
+  "_": [
+   "Un golf avec le directeur régional ? Maintenant ? ...Bien. Ceren, gérez ma matinée.",
+   "Oh ! Le golf. J'avais complètement oublié. J'y vais."
+  ]
+ },
+ "golf_takeover": {
+  "_": [
+   "Ahmet ne vient pas. Bon — c'est moi qui mène cette réunion.",
+   "Pas de patron ? Alors faisons ça bien. Premier point."
+  ]
+ },
+ "golf_follow": {
+  "_": [
+   "OK, chef.",
+   "Bien sûr, pourquoi pas.",
+   "Ça me va."
+  ]
+ },
+ "golf_resist": {
+  "_": [
+   "Qui t'a nommé{to?|e} chef ?",
+   "Bien essayé."
+  ]
+ },
+ "review_call": {
+  "_": [
+   "{actor}. Dans mon bureau. Votre entretien d'évaluation, c'est maintenant.",
+   "Ah, {actor}. Asseyez-vous. C'est l'heure de l'évaluation, apparemment."
+  ]
+ },
+ "review_nervous": {
+  "_": [
+   "M-maintenant ? Je n'ai rien préparé !",
+   "Mon évaluation ? Aujourd'hui ?!"
+  ]
+ },
+ "review_good": {
+  "_": [
+   "Franchement ? Vous avez été excellent{to?|e}. Continuez comme ça.",
+   "Du beau travail ce trimestre. Je l'ai remarqué."
+  ]
+ },
+ "review_bad": {
+  "_": [
+   "Honnêtement, j'attendais plus de vous.",
+   "Vos chiffres m'inquiètent. Beaucoup."
+  ]
+ },
+ "client_tidy": {
+  "_": [
+   "Une visite client ? Aujourd'hui ?! Rangez tout !",
+   "Client à quatorze heures ! Cachez le bazar !"
+  ],
+  "ahmet": [
+   "Tout le monde ! Ayez l'air occupés ! OC-CU-PÉS."
+  ]
+ },
+ "client_none": {
+  "_": [
+   "Il est où, le client ? Il est plus de deux heures !",
+   "Alors... pas de client ?"
+  ],
+  "ahmet": [
+   "Ceren ! Où est mon client ?!"
+  ]
+ },
+ "client_ceren": {
+  "_": [
+   "Quel client ? Il n'y a rien dans l'agenda.",
+   "Je n'ai programmé aucune visite, Ahmet Bey."
+  ]
+ },
+ "farewell_sad": {
+  "_": [
+   "{target} S'EN VA ?!",
+   "Un pot de départ pour {target} ? Personne ne m'a rien dit !",
+   "Tu vas nous manquer, {target} !"
+  ]
+ },
+ "farewell_speech": {
+  "_": [
+   "{target}, tu as été... franchement, {target?le meilleur|la meilleure}. Tu vas nous manquer.",
+   "À {target} ! Le bureau ne sera plus jamais pareil."
+  ]
+ },
+ "farewell_not": {
+  "_": [
+   "Je ne pars pas ! Qui a écrit ça ?!",
+   "Un départ ? Je ne vais nulle part !"
+  ]
+ },
+ "farewell_moved": {
+  "_": [
+   "...Je vous manquerais vraiment ? Je ne savais pas.",
+   "Je ne pars pas, mais... merci. Vraiment."
+  ]
+ },
+ "farewell_maybe": {
+  "_": [
+   "...En fait. C'est peut-être un signe.",
+   "Hm. Partir, ça ne sonne pas si mal."
+  ]
+ },
+ "sigpage_boss": {
+  "_": [
+   "{target}, pourquoi ce contrat est-il signé par {other} ?!",
+   "Votre contrat porte la signature de {other} en dernière page. Expliquez-vous."
+  ]
+ },
+ "sigpage_baffled": {
+  "_": [
+   "C'est impossible ! Je l'ai signé moi-même !",
+   "Quelqu'un a échangé mes pages !"
+  ]
+ },
+ "sigpage_blame": {
+  "_": [
+   "...C'est {other}. Forcément.",
+   "Demandez à {other} comment sa signature est arrivée là."
+  ]
+ },
+ "archive_hide_react": {
+  "_": [
+   "Mon impression ! Elle était juste sur mon bureau !",
+   "Où est mon rapport ? Je l'ai imprimé il y a une HEURE."
+  ]
+ },
+ "archive_found": {
+  "_": [
+   "...Aux ARCHIVES ? À la lettre « Z » ? Qui fait ça ?!",
+   "Trouvé. Classé. À « Z ». Incroyable."
+  ]
+ },
+ "label_see_dumb": {
+  "_": [
+   "« Mes idées débiles » ? C'est ce qui est écrit sur le classeur de {owner} ?",
+   "Ha ! Le classeur de {owner} : « MES IDÉES DÉBILES »."
+  ]
+ },
+ "label_see_plans": {
+  "_": [
+   "« Plans secrets »... sur le classeur de {owner}. Hm.",
+   "Pourquoi {owner} a un classeur qui s'appelle « PLANS SECRETS » ?"
+  ]
+ },
+ "label_see_love": {
+  "_": [
+   "« Lettres d'amour » ?! Sur le bureau de {owner} ? À la vue de tous ?",
+   "{owner} a un classeur étiqueté « LETTRES D'AMOUR ». Waouh."
+  ]
+ },
+ "label_owner": {
+  "_": [
+   "Qui a changé les étiquettes de mes classeurs ?!",
+   "Ce n'est PAS ce qui est écrit sur mes classeurs !"
+  ]
+ },
+ "baby_find": {
+  "_": [
+   "Pourquoi l'imprimante est pleine de... photos de bébé ?",
+   "Cinq cents copies d'un BÉBÉ. C'est le bébé de qui ?!",
+   "C'est... Ahmet bébé ?!"
+  ],
+  "burak": [
+   "L'imprimante a manqué de papier en imprimant un bébé. Cinq cents fois."
+  ]
+ },
+ "baby_laugh": {
+  "_": [
+   "Regardez ces joues ! C'est AHMET !",
+   "Ahmet en costume de marin ! Je l'encadre."
+  ]
+ },
+ "baby_boss": {
+  "_": [
+   "QUI A IMPRIMÉ MA PHOTO DE BÉBÉ ?!",
+   "C'est une photo de famille privée !"
+  ]
+ },
+ "misplaced_find": {
+  "_": [
+   "Hein ? C'est le rapport de qui ? Ah — c'est celui de {owner}.",
+   "Ce n'est pas à moi. Le rapport de {owner}... sur MON bureau ?"
+  ]
+ },
+ "misplaced_return": {
+  "_": [
+   "Tiens — c'est atterri sur mon bureau.",
+   "J'ai trouvé ton rapport sur mon bureau. Bizarre, non ?"
+  ]
+ },
+ "misplaced_thanks": {
+  "_": [
+   "Merci ! J'allais paniquer.",
+   "Tu me sauves la vie !"
+  ]
+ },
+ "misplaced_steal": {
+  "_": [
+   "...Personne ne le saurait si je le rendais à mon nom.",
+   "Qui trouve garde."
+  ],
+  "deniz": [
+   "Excellent travail. Mon travail, désormais."
+  ]
+ },
+ "misplaced_owner": {
+  "_": [
+   "Où est mon rapport ?! Je l'ai laissé JUSTE ICI.",
+   "Mon rapport a disparu. Disparu !"
+  ]
+ },
+ "pages_chaos": {
+  "_": [
+   "...Et comme vous le voyez page sept— ça, c'est la page deux. Une seconde.",
+   "Donc nos résultats montrent— attendez, où est le graphique ?",
+   "Page quatre. Non. Neuf ? Pourquoi il y a une page neuf ?"
+  ]
+ },
+ "pages_joke": {
+  "_": [
+   "OK ! Présentation interactive : devinez la page suivante !",
+   "Pas de panique. Je fais ça de mémoire. Ha."
+  ]
+ },
+ "pages_meltdown": {
+  "_": [
+   "Je— je suis vraiment désolé{me?|e}, les pages— je n'y arrive pas—",
+   "Je vous jure qu'elles étaient dans l'ordre ce matin."
+  ]
+ },
+ "conf_read_salary": {
+  "_": [
+   "La liste des salaires... {subject} gagne AUTANT ?",
+   "Ce sont les salaires de tout le monde. Oh. OH."
+  ]
+ },
+ "conf_read_layoff": {
+  "_": [
+   "« Postes en cours d'examen : {subject} » ?!",
+   "D'après cette liste, le poste de {subject} est « en cours d'examen »..."
+  ]
+ },
+ "conf_read_promo": {
+  "_": [
+   "« Liste des promus potentiels : {subject} ». Intéressant.",
+   "Alors {subject} est sur la liste. Tiens."
+  ]
+ },
+ "swapreview_praise": {
+  "_": [
+   "{actor}, votre évaluation est remarquable. Remarquable !",
+   "J'ai lu votre évaluation, {actor}. Un excellent trimestre."
+  ]
+ },
+ "swapreview_confused": {
+  "_": [
+   "...Merci ? Je ne m'y attendais pas.",
+   "Vraiment ? Waouh. OK !"
+  ]
+ },
+ "swapreview_scold": {
+  "_": [
+   "Votre évaluation est une catastrophe, {actor}.",
+   "Franchement, {actor}, ces chiffres sont gênants."
+  ]
+ },
+ "swapreview_shock": {
+  "_": [
+   "Quoi ? Mes chiffres étaient excellents !",
+   "Ça ne peut pas être mon évaluation. Impossible."
+  ]
+ },
+ "recycle_react": {
+  "_": [
+   "Le contrat ! Celui qui est signé ! Où est-il ?!",
+   "Non, non, non — le contrat original a DISPARU."
+  ]
+ },
+ "recycle_found": {
+  "_": [
+   "...Dans la poubelle de RECYCLAGE. À côté des pots de yaourt.",
+   "Trouvé. Dans le recyclage. Avec du café dessus."
+  ]
+ },
+ "forge_spot": {
+  "_": [
+   "Cette signature... Ahmet ne fait pas la boucle de son A comme ça.",
+   "Hm. Cette signature « Ahmet » est fausse."
+  ]
+ },
+ "forge_pass": {
+  "_": [
+   "Approuvé, signé... bon. Payé.",
+   "Encore une note de frais. Traitée."
+  ]
+ },
+ "forge_accuse": {
+  "_": [
+   "{target}. Ta note de frais porte une signature CONTREFAITE.",
+   "Tu as imité la signature d'Ahmet, {target} ?"
+  ]
+ },
+ "forge_deny": {
+  "_": [
+   "Contrefaite ?! Jamais ! Je ne l'ai même pas encore déposée !",
+   "Ce n'est pas moi ! Je le jure !"
+  ]
+ },
+ "karaoke_spot": {
+  "_": [
+   "« Une machine à karaoké — 4 000 » ? Dans les notes de frais de {target} ?!",
+   "Qui met une MACHINE À KARAOKÉ en note de frais ?"
+  ]
+ },
+ "karaoke_ask": {
+  "_": [
+   "{target}, explique-moi la machine à karaoké.",
+   "Tu veux bien me parler de la machine à karaoké, {target} ?"
+  ]
+ },
+ "karaoke_deny": {
+  "_": [
+   "La QUOI ? Je ne chante même pas !",
+   "Une machine à karaoké ? Je n'en ai jamais acheté de ma vie !"
+  ]
+ },
+ "karaoke_own": {
+  "_": [
+   "...C'est pour la cohésion d'équipe. Évidemment.",
+   "Le moral, c'est important, Zeynep."
+  ],
+  "mert": [
+   "Cohésion d'équipe, Zeynep. Co-hé-sion."
+  ]
+ },
+ "margin_boss": {
+  "_": [
+   "« Ahmet a tort sur tout » — de VOTRE main, {actor} ?",
+   "Intéressante note dans la marge de votre rapport, {actor}."
+  ]
+ },
+ "margin_explain": {
+  "_": [
+   "Je n'ai pas écrit ça ! Je le jure !",
+   "Ce n'est pas mon écriture ! ...Si ?"
+  ]
+ },
+ "margin_respect": {
+  "_": [
+   "...Eh bien, au moins vous êtes honnête. Dans l'erreur, mais honnête.",
+   "Hm. Audacieux. Je respecte presque."
+  ]
+ },
+ "margin_angry": {
+  "_": [
+   "Je ne veux plus voir ce genre de chose.",
+   "N'oubliez pas qui signe vos évaluations."
+  ]
+ },
+ "margin_read": {
+  "_": [
+   "...« Ahmet a tort sur tout » ? Dans le rapport de {owner} ?",
+   "Hm. Une note dans la marge. Sur MOI. {owner}, dans mon bureau."
+  ]
+ },
+ "jam_find": {
+  "_": [
+   "Bourrage papier... attends. C'est une lettre. Une lettre d'AMOUR.",
+   "Il y a un truc coincé dans les rouleaux... « {crush?Cher|Chère} {crush}... »"
+  ]
+ },
+ "jam_read_aloud": {
+  "_": [
+   "« {crush?Cher|Chère} {crush}, chaque fois que tu passes devant mon bureau... » — signé {writer} !",
+   "Écoutez ça : « {crush}, ton rire est mon son préféré. » De la part de {writer} !"
+  ]
+ },
+ "jam_pocket": {
+  "_": [
+   "...Je vais juste rendre ça à {writer}. Discrètement.",
+   "Ce n'est pas à moi de lire ça. Je vais le rendre."
+  ]
+ },
+ "jam_mortified": {
+  "_": [
+   "C'ÉTAIT PRIVÉ !",
+   "RENDS-MOI ça !"
+  ],
+  "mert": [
+   "...Je peux expliquer. Non, je ne peux pas."
+  ]
+ },
+ "supplies_none": {
+  "_": [
+   "Pas d'agrafeuses. Pas de stylos. Rien. Tout est passé où ?",
+   "L'étagère des fournitures est VIDE."
+  ]
+ },
+ "supplies_found": {
+  "_": [
+   "...Tout est dans le tiroir de {target}. TOUT.",
+   "Le tiroir de {target} : quarante stylos, six agrafeuses et tous les post-it de la boîte."
+  ]
+ },
+ "supplies_hoarder": {
+  "_": [
+   "Écureuil des fournitures !",
+   "Alors c'est TOI, {to?le voleur|la voleuse} d'agrafeuses !"
+  ],
+  "mert": [
+   "Un dragon couché sur un tas de stylos !"
+  ]
+ },
+ "supplies_innocent": {
+  "_": [
+   "Ce n'est pas à moi ! Je n'aime même pas les agrafeuses !",
+   "Comment tout ça s'est retrouvé dans mon tiroir ?!"
+  ]
+ },
+ "archive_mess": {
+  "_": [
+   "Qui a réorganisé les archives ?! Rien n'est à sa place !",
+   "« Comptabilité » est dans « Vacances ». « Vacances » est dans « Juridique ». POURQUOI ?"
+  ]
+ },
+ "archive_together": {
+  "_": [
+   "Tu cherches aussi ? OK — je prends de A à M.",
+   "Faisons ça ensemble, sinon on y sera toute la nuit."
+  ]
+ },
+ "archive_fight": {
+  "_": [
+   "Arrête de déplacer mes piles !",
+   "J'étais là avant !"
+  ]
+ },
+ "resdraft_see": {
+  "_": [
+   "C'est une... lettre de démission ? Sur le bureau de {owner} ?",
+   "« Cher Ahmet, par la présente je démissionne... » — {owner} ?!"
+  ],
+  "ahmet": [
+   "Une lettre de démission. De {owner}. Sur son bureau."
+  ]
+ },
+ "urgent_panic": {
+  "_": [
+   "Tout est URGENT ?! Depuis quand ?!",
+   "URGENT. URGENT. URGENT. Tout ?!",
+   "Bon. Pas de déjeuner aujourd'hui. Pas de respiration non plus."
+  ]
  }
 }
