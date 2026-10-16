@@ -1,0 +1,219 @@
+3806|Du zuerst.
+3807|... Ich sammle Schneekugeln. Nicht lachen.
+3808|Das sind die besten fünfzehn Minuten meiner Woche.
+3809|Na, sieh mal einer an.
+3810|Ich WUSSTE es. Ich wusste es!
+3811|Oh, das ist zu gut.
+3812|Und DAS kommt in mein Notizbuch.
+3813|Nehmt euch ein Zimmer! Einen Meetingraum!
+3814|Oh, das muss ich jemandem erzählen. Ich MUSS.
+3815|Das kann nicht in meinem Kopf bleiben.
+3816|Rate mal, wen ich SEHR kuschelig in der Küche erwischt hab? {lover} und {crush}!
+3817|{lover} und {crush}. Küche. Mit Tassen in der Hand. BEDEUTUNGSVOLL.
+3818|NIEMALS.
+3819|Ich wusste es! Wie die sich ansehen!
+3820|Hör auf.
+3821|Also ... die Leute reden.
+3822|Alle wissen es, oder?
+3823|Wir müssen über ... uns reden. Und über die anderen.
+3824|Lass sie reden. Ich verstecke dich nicht.
+3825|Ehrlich? Mir ist egal, wer es weiß.
+3826|Wir sind erwachsen. Sagen wir’s ihnen einfach.
+3827|Lass es uns noch für uns behalten. Nur noch ein bisschen.
+3828|Noch nicht. Ahmet würde es komisch machen.
+3829|Unser Geheimnis. Vorerst.
+3830|Vielleicht war das ein Fehler. Auf der Arbeit, meine ich.
+3831|Ich glaube nicht, dass ich das kann, wenn alle zuschauen.
+3832|Lass uns ... wieder Kollegen sein.
+3833|Ach! Endlich!
+3834|Ihr zwei! Glückwunsch!
+3835|Ich wusste es vom ERSTEN TAG an.
+3836|Ja, hier ist {seeker}. ... Heute? Um zwei? Das krieg ich hin.
+3837|Ein zweites Gespräch? Auf jeden Fall. Ich bin da.
+3838|Mhm. Ja. Bitte diskret.
+3839|... Vorstellungsgespräch? Heute?
+3840|War das ein Headhunter?!
+3841|Uuh. Da hat jemand Pläne.
+3842|Ahmet Bey, ich muss für eine Stunde weg. Zahnarzt.
+3843|Ich habe einen ... Arzttermin. Heute Nachmittag. Dringend.
+3844|Was Familiäres. In einer Stunde bin ich zurück, versprochen.
+3845|Zahnarzt. Schon wieder. Meine Zähne sind ... kompliziert.
+3846|Gut. Eine Stunde.
+3847|Gehen Sie. Aber machen Sie keine Gewohnheit daraus.
+3848|Hm. Na gut.
+3849|SCHON WIEDER? Nein. Wir haben eine Deadline.
+3850|Auf keinen Fall. Nicht heute.
+3851|Ihre Zähne können warten.
+3852|Na gut. Dann geh ich ... eben trotzdem.
+3853|... Dann mache ich eben eine sehr lange Mittagspause.
+3854|Also. Ab zum ... Zahnarzt.
+3855|Bin gleich zurück!
+3856|*schnappt sich die Jacke und geht schnell*
+3857|Langer Zahnarzttermin. Mit Krawatte?
+3858|Ihre Zähne sehen genau gleich aus.
+3859|Und? Wie war der ... Zahnarzt?
+3860|Wurzelbehandlung. Sehr schmerzhaft. Fragen Sie nicht.
+3861|Die hatten Verspätung!
+3862|... Lief gut. Danke.
+3863|Hm. Ich behalte Sie im Auge.
+3864|Ich bin doch nicht von gestern.
+3865|Mhm.
+3866|Dann ruhen Sie sich aus.
+3867|Gut. Zurück an die Arbeit.
+3868|Hm. Passen Sie gut auf diese Zähne auf.
+3869|Ich bin ehrlich. Ich habe ein Angebot von einer anderen Firma.
+3870|Die bieten mir mehr Geld. Viel mehr.
+3871|Ich denke ans Gehen. Sie sollten es von mir hören.
+3872|... Was müsste passieren, damit Sie bleiben?
+3873|Wir ziehen gleich. Und Sie bekommen das neue Serverbudget.
+3874|Nichts überstürzen. Reden wir über Zahlen.
+3875|Dann gehen Sie doch. Niemand ist unersetzlich.
+3876|Viel Glück beim Suchen einer Firma, die Sie erträgt.
+3877|Die Tür ist da drüben.
+3878|... Wirklich? Okay. Ich bleibe.
+3879|Abgemacht. Aber ich will es schriftlich.
+3880|... Verstehe.
+3881|Ich ... verstehe.
+3882|Wow. Okay.
+3883|Ich mach’s. Ich schreibe meine Kündigung. Heute.
+3884|Das war’s. Mir reicht’s. Ich kündige.
+3885|Ich hab mich entschieden. Ich reiche meine Kündigung ein.
+3886|Moment — WAS? Das kannst du nicht machen!
+3887|Hoppla, hoppla. Schlaf eine Nacht drüber!
+3888|Ist das dein Ernst?!
+3889|„Sehr geehrter Ahmet Bey, mit sofortiger Wirkung ...“ Drucken.
+3890|Drucken. Unterschreiben. Fertig.
+3891|So. Meine Freiheit, in Times New Roman.
+3892|Natürlich. Nicht mal der Drucker lässt mich kündigen.
+3893|Der Drucker ist kaputt. Das Universum verspottet mich.
+3894|Ist das ... ein Kündigungsschreiben?!
+3895|Oh nein. Oh nein, nein.
+3896|Tu das nicht. Nicht so. Nicht im Zorn.
+3897|Was, wenn ich für dich mit Ahmet rede?
+3898|Wir brauchen dich hier. Ich brauche dich hier.
+3899|... Okay. Vielleicht warte ich eine Woche.
+3900|Na gut. Ich leg den Brief in eine Schublade. Vorerst.
+3901|Du hast recht. Danke.
+3902|Nein. Mein Entschluss steht.
+3903|Ich gehe zu Ahmet. Jetzt.
+3904|Ich weiß das zu schätzen. Aber nein.
+3905|Ahmet Bey. Das ist meine Kündigung.
+3906|Ich kündige. Hier ist mein Schreiben.
+3907|Ich kündige. Zum Monatsende.
+3908|Moment. Setzen Sie sich. Was brauchen Sie? Reden wir.
+3909|Nein, nein, nein. Was auch immer es ist, das kriegen wir hin.
+3910|... Mir war nicht klar, dass es so schlimm ist. Was kann ich tun?
+3911|*reißt den Brief entzwei* Witzig. Und jetzt zurück an die Arbeit.
+3912|Netter Versuch. *ratsch* Sie gehen nirgendwohin.
+3913|Gut. Ich nehme an.
+3914|Sehr wohl. Die Personalabteilung meldet sich.
+3915|Wenn Sie das so wollen.
+3916|Moment. Sie ... nehmen an? Einfach so?
+3917|... Oh. Okay. Äh.
+3918|Ich hätte nicht gedacht, dass Sie wirklich Ja sagen.
+3919|Also ... ich hab heute Morgen um mein Kündigungsschreiben zurückgebeten.
+3920|Wie sich herausstellt, will ich gar nicht gehen.
+3921|Ich bleibe. Bitte macht es nicht komisch.
+3922|Willkommen zurück. Du warst ja nie weg.
+3923|Ha! Ich wusste es.
+3924|Gut. Ich hätte dich vermisst.
+3925|Der Yıldız-Vertrag! Der lag GENAU HIER!
+3926|Wo ist der unterschriebene Vertrag?! WO?!
+3927|Nein. Nein, nein, nein. Der Originalvertrag ist weg.
+3928|Der Vertrag. Das ORIGINAL. Mit den echten Unterschriften!
+3929|Hat jemand den Vertrag von meinem Schreibtisch genommen?!
+3930|Was ist los?
+3931|Oh oh.
+3932|Hast du im Archiv nachgesehen?
+3933|Nicht unter A. Nicht unter C. Nicht unter VERTRAG.
+3934|Er muss hier irgendwo sein ...
+3935|Wer organisiert dieses Archiv, ein Waschbär?
+3936|Moment ... {suspect} war heute Morgen an meinem Schreibtisch.
+3937|{suspect}. Das muss {suspect} gewesen sein.
+3938|Wetten, {suspect} hat ihn sich ausgeliehen. Ohne zu fragen.
+3939|Hast du einen Vertrag von meinem Schreibtisch genommen? Blaue Mappe?
+3940|Ich beschuldige dich nicht, aber ... der Vertrag. Hast du ihn gesehen?
+3941|Sei ehrlich: Hast du dir meinen Vertrag ausgeliehen?
+3942|... Oh nein. Die blaue Mappe? Die hab ich abgelegt. Im Archiv. Unter „Y“. Sorry!
+3943|War die blau? Kann sein, dass ich sie abgelegt hab. Aus Versehen.
+3944|Ich? Nein. Nie angefasst.
+3945|Warum sollte ich deinen Vertrag nehmen?
+3946|Beschuldigst du etwa mich?!
+3947|Wow. Danke für das Vertrauen.
+3948|Ich hab deinen Vertrag noch nie GESEHEN.
+3949|Moment. Die blaue Mappe, die ich heute Morgen abgelegt hab ... oh nein.
+3950|War das ... der Vertrag? Im Archiv? Oh nein.
+3951|... Ich glaube, ich weiß, wo der Vertrag ist.
+3952|Es tut mir so leid. Ich hab deinen Vertrag versehentlich im Archiv abgelegt.
+3953|Ich war’s. Archiv. Unter Y. Ich bin so ein Idiot.
+3954|Dein Vertrag ist sicher. Ich hab ihn ... falsch abgelegt. Sorry!
+3955|Oh, Gott sei DANK. ... Okay. Kann passieren.
+3956|Du hast mich zu Tode erschreckt. Aber danke, dass du es mir sagst.
+3957|Na gut. Beschrifte einfach ... Sachen.
+3958|Weißt du, was dieser Vertrag WERT ist?!
+3959|Unfassbar. Wegen dir hab ich jemand anderen beschuldigt!
+3960|... Ich schulde {suspect} eine Entschuldigung.
+3961|Oh nein. Ich hab {suspect} beschuldigt.
+3962|Er liegt ... wieder auf meinem Schreibtisch? Vor einer Stunde war er noch nicht da!
+3963|Der Vertrag! Er ist da! Wie?!
+3964|{suspect} muss ihn zurückgelegt haben. Schlechtes Gewissen.
+3965|Natürlich taucht er wieder auf, nachdem ich {suspect} gefragt hab.
+3966|DA ist er ja. Archiv, unter Y. Natürlich.
+3967|Hab ihn! Nie wieder.
+3968|Gefunden. Mein Herz verkraftet das nicht.
+3969|Moment. Wo ist der gemeinsame Ordner? Hab ich gerade ... alles ... gelöscht?
+3970|Ich hab auf „Papierkorb leeren“ gedrückt. Warum ist das GEMEINSAME Laufwerk leer?!
+3971|Okay. Keine Panik. Alles ist weg. KEINE PANIK.
+3972|Oh nein. Oh nein, nein, nein, nein, nein. NEIN.
+3973|Burak ... rein hypothetisch ... wenn jemand das gemeinsame Laufwerk gelöscht hätte ...
+3974|Bitte sei nicht sauer. Ich hab den gemeinsamen Ordner gelöscht.
+3975|Ich brauche Hilfe. Große Hilfe. Geheime Hilfe.
+3976|... Atmen. Es gibt ein Backup von letzter Nacht. Niemand muss es erfahren.
+3977|Stelle wieder her. Du schuldest mir Kaffee. Einen Monat lang.
+3978|Du hast WAS? ... Na gut. Backup. Aber wir reden noch über den Papierkorb.
+3979|Stelle wieder her. Und ich deaktiviere deine Entf-Taste.
+3980|Das Backup letzte Nacht ist fehlgeschlagen. Es gibt kein Backup. Du musst es Ahmet sagen.
+3981|... Es gibt kein Backup. Tut mir so leid.
+3982|Meine Dateien! Der gemeinsame Ordner ist LEER!
+3983|Wo ist ALLES hin?!
+3984|Drei Monate Arbeit. Weg. WEG.
+3985|Meine auch!
+3986|Was?! Das ganze Laufwerk?
+3987|Burak! BURAAAK!
+3988|Das ist eine Katastrophe.
+3989|{suspect} hat gestern am Laufwerk herumgefummelt ...
+3990|Wetten, {suspect} hat was angestellt.
+3991|WER hat das gemeinsame Laufwerk angefasst?! Ich will einen Namen!
+3992|Niemand geht, bis ich weiß, wer diese Dateien gelöscht hat!
+3993|Jemand hier hat drei Monate Arbeit vernichtet.
+3994|... Ich war’s. Es tut mir so leid. Ich hab das Falsche angeklickt.
+3995|Ich. Ich war’s. Ich bring das in Ordnung. Irgendwie.
+3996|... Fehler passieren. Burak, reparieren Sie das.
+3997|Danke, dass Sie dazu stehen. Burak! Backups!
+3998|{suspect}! Das waren Sie, oder?
+3999|Ich habe Sie im Blick, {suspect}.
+4000|Was? Ich hab nichts angefasst!
+4001|Das ist nicht fair!
+4002|Aus dem externen Backup wiederhergestellt. Gern geschehen.
+4003|Alles wieder da. Und laut Logs wurde von {culprit:s} Computer aus gelöscht.
+4004|Alles wiederhergestellt. Größtenteils.
+4005|Wiederhergestellt. Sieht nach einem Sync-Fehler aus. Kommt vor.
+4006|Alles wieder da. Wahrscheinlich ein Bug.
+4007|... Wir müssen etwas streichen. Jemand muss gehen. ... Ja. Bis Freitag.
+4008|Zu teuer. Das fliegt raus. ... Mir egal, wie lange das schon hier ist.
+4009|Moment. Jemand muss GEHEN?!
+4010|Entlassungen?! Bis FREITAG?!
+4011|Oh nein. Oh nein, nein, nein.
+4012|Keine Panik. Aber es wird Entlassungen geben. Bis Freitag.
+4013|Ich hab Ahmet gehört. Jemand wird gefeuert. Bis Freitag!
+4014|Aktualisier deinen Lebenslauf. Im Ernst.
+4015|WAS?!
+4016|Wer? WER?
+4017|Oh mein Gott. Ich muss Miete zahlen!
+4018|Wir sind verloren.
+4019|Ich aktualisiere meinen Lebenslauf. Sofort.
+4020|Bin ich das? Ich bin das, oder?
+4021|Ich WUSSTE, ich hätte das Auto nicht kaufen sollen.
+4022|Wenn ich gehe, nehme ich den guten Tacker mit.
+4023|... Eigentlich gutes Timing.
+4024|Aber ich bin Praktikantin! Darf man Praktikanten feuern?!

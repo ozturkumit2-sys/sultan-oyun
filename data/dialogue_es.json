@@ -3638,5 +3638,550 @@
    "Puede que te haya guardado la última taza decente.",
    "Cuéntame algo de ti que nadie sepa aquí."
   ]
+ },
+ "rom_date_reply": {
+  "_": [
+   "Tú primero.",
+   "…Colecciono bolas de nieve. No te rías.",
+   "Estos son los mejores quince minutos de mi semana."
+  ]
+ },
+ "rom_spotted": {
+  "_": [
+   "Vaya, vaya, vaya.",
+   "LO SABÍA. ¡Lo sabía!",
+   "Ay, esto es demasiado bueno."
+  ],
+  "mert": [
+   "¡Búsquense una habitación! ¡Una sala de reuniones!"
+  ],
+  "zeynep": [
+   "Y ESTO va a mi libreta."
+  ]
+ },
+ "rom_gossip_start": {
+  "_": [
+   "Ay, tengo que contárselo a alguien. TENGO que hacerlo.",
+   "Esto no se puede quedar en mi cabeza."
+  ]
+ },
+ "rom_gossip_tell": {
+  "_": [
+   "¿A que no adivinas a quién pillé MUY acaramelados en la cocina? ¡A {lover} y {crush}!",
+   "{lover} y {crush}. Cocina. Con tazas en la mano. SIGNIFICATIVAMENTE."
+  ]
+ },
+ "rom_gossip_react": {
+  "_": [
+   "NO PUEDE SER.",
+   "¡Lo sabía! ¡Cómo se miran!",
+   "Anda ya."
+  ]
+ },
+ "rom_decide_open": {
+  "_": [
+   "Bueno… la gente habla.",
+   "Lo sabe todo el mundo, ¿no?",
+   "Tenemos que hablar de… nosotros. Y de ellos."
+  ]
+ },
+ "rom_public": {
+  "_": [
+   "Que hablen. No pienso esconderte.",
+   "¿Sinceramente? Me da igual quién lo sepa.",
+   "Somos adultos. Digámoselo y ya."
+  ]
+ },
+ "rom_secret": {
+  "_": [
+   "Mantengámoslo en secreto. Un poco más.",
+   "Todavía no. Ahmet lo haría raro.",
+   "Nuestro secreto. Por ahora."
+  ]
+ },
+ "rom_breakup": {
+  "_": [
+   "Quizá esto fue un error. En el trabajo, digo.",
+   "No creo que pueda con esto con todo el mundo mirando.",
+   "Volvamos a… ser compañeros."
+  ]
+ },
+ "rom_congrats": {
+  "_": [
+   "¡Ay! ¡Por fin!",
+   "¡Ustedes dos! ¡Enhorabuena!",
+   "Lo supe desde el PRIMER DÍA."
+  ]
+ },
+ "hh_call": {
+  "_": [
+   "Sí, soy {seeker}. …¿Hoy? ¿A las dos? Me las arreglo.",
+   "¿Una segunda entrevista? Por supuesto. Allí estaré.",
+   "Ajá. Sí. Con discreción, por favor."
+  ]
+ },
+ "hh_overheard": {
+  "_": [
+   "…¿Entrevista? ¿Hoy?",
+   "¿¡Eso era un cazatalentos!?",
+   "Uy. Alguien tiene planes."
+  ]
+ },
+ "hh_excuse": {
+  "_": [
+   "Ahmet Bey, necesito salir una hora. Dentista.",
+   "Tengo una… cita médica. Esta tarde. Urgente.",
+   "Un asunto familiar. Vuelvo en una hora, lo prometo."
+  ],
+  "burak": [
+   "Dentista. Otra vez. Mis dientes son… complicados."
+  ]
+ },
+ "hh_ok": {
+  "_": [
+   "Bien. Una hora.",
+   "Ve. Que no se convierta en costumbre.",
+   "Mm. Vale."
+  ]
+ },
+ "hh_no": {
+  "_": [
+   "¿OTRA VEZ? No. Tenemos una entrega.",
+   "Ni hablar. Hoy no.",
+   "Tus dientes pueden esperar."
+  ]
+ },
+ "hh_sneak": {
+  "_": [
+   "Vale. Me iré… igualmente.",
+   "…Entonces me tomaré un almuerzo muy largo."
+  ]
+ },
+ "hh_leaving": {
+  "_": [
+   "Bueno. Me voy al… dentista.",
+   "¡Vuelvo enseguida!",
+   "*agarra la chaqueta y se va rápido*"
+  ]
+ },
+ "hh_boss_ask": {
+  "_": [
+   "Larga cita con el dentista. ¿Con corbata?",
+   "Tus dientes están exactamente igual.",
+   "Bueno. ¿Qué tal el… dentista?"
+  ]
+ },
+ "hh_bluff": {
+  "_": [
+   "Endodoncia. Muy dolorosa. No pregunte.",
+   "¡Iban con retraso!",
+   "…Fue bien. Gracias."
+  ]
+ },
+ "hh_boss_suspicious": {
+  "_": [
+   "Mm. Te estoy vigilando.",
+   "No nací ayer.",
+   "Ajá."
+  ]
+ },
+ "hh_boss_fine": {
+  "_": [
+   "Entonces descansa.",
+   "Bien. A trabajar.",
+   "Mm. Cuida esos dientes."
+  ]
+ },
+ "hh_offer": {
+  "_": [
+   "Seré sincer{me?o|a}. Tengo una oferta de otra empresa.",
+   "Me ofrecieron más dinero. Mucho más.",
+   "Estoy pensando en irme. Quería que lo supiera por mí."
+  ]
+ },
+ "hh_counter": {
+  "_": [
+   "…¿Qué haría falta para que te quedes?",
+   "Igualamos la oferta. Y te quedas con el nuevo presupuesto de servidores.",
+   "No hagas nada precipitado. Hablemos de números."
+  ]
+ },
+ "hh_call_bluff": {
+  "_": [
+   "Entonces vete. Nadie es imprescindible.",
+   "Suerte encontrando un sitio que te aguante.",
+   "La puerta está por ahí."
+  ]
+ },
+ "hh_stay_happy": {
+  "_": [
+   "…¿En serio? Vale. Me quedo.",
+   "Trato hecho. Pero lo quiero por escrito."
+  ]
+ },
+ "hh_stunned": {
+  "_": [
+   "…Ya.",
+   "Ya… veo.",
+   "Vaya. Vale."
+  ]
+ },
+ "rs_vent": {
+  "_": [
+   "Lo hago. Estoy escribiendo mi carta de renuncia. Hoy.",
+   "Se acabó. Estoy hart{me?o|a}. Renuncio.",
+   "Lo he decidido. Presento mi renuncia."
+  ]
+ },
+ "rs_friend_shock": {
+  "_": [
+   "Espera… ¿QUÉ? ¡No puedes!",
+   "Eh, eh. ¡Consúltalo con la almohada!",
+   "¿¡Lo dices en serio!?"
+  ]
+ },
+ "rs_print": {
+  "_": [
+   "«Estimado Ahmet Bey, con efecto inmediato…». Imprimir.",
+   "Imprimir. Firmar. Listo.",
+   "Ahí está. Mi libertad, en Times New Roman."
+  ]
+ },
+ "rs_printer_broken": {
+  "_": [
+   "Cómo no. Ni la impresora me deja renunciar.",
+   "La impresora está rota. El universo se burla de mí."
+  ]
+ },
+ "rs_spot_letter": {
+  "_": [
+   "¿Eso es… una carta de renuncia?",
+   "Ay, no. Ay, no, no."
+  ]
+ },
+ "rs_talk": {
+  "_": [
+   "No lo hagas. Así no. No en caliente.",
+   "¿Y si hablo yo con Ahmet por ti?",
+   "Te necesitamos aquí. Yo te necesito aquí."
+  ]
+ },
+ "rs_persuaded": {
+  "_": [
+   "…Vale. Quizá espere una semana.",
+   "Bien. Guardaré la carta en un cajón. Por ahora.",
+   "Tienes razón. Gracias."
+  ]
+ },
+ "rs_firm": {
+  "_": [
+   "No. Ya lo he decidido.",
+   "Voy a ver a Ahmet. Ahora.",
+   "Te lo agradezco. Pero no."
+  ]
+ },
+ "rs_hand_in": {
+  "_": [
+   "Ahmet Bey. Esta es mi renuncia.",
+   "Renuncio. Aquí está mi carta.",
+   "Me voy. A final de mes."
+  ]
+ },
+ "rs_boss_beg": {
+  "_": [
+   "Espera. Siéntate. ¿Qué necesitas? Hablemos.",
+   "No, no, no. Sea lo que sea, podemos arreglarlo.",
+   "…No me había dado cuenta de que estaba tan mal. ¿Qué puedo hacer?"
+  ]
+ },
+ "rs_boss_tear": {
+  "_": [
+   "*rompe la carta por la mitad* Qué gracioso. Ahora, a trabajar.",
+   "Buen intento. *ras* No te vas a ningún sitio."
+  ]
+ },
+ "rs_boss_accept": {
+  "_": [
+   "Bien. Acepto.",
+   "Muy bien. Recursos Humanos se pondrá en contacto.",
+   "Si eso es lo que quieres."
+  ]
+ },
+ "rs_panic": {
+  "_": [
+   "Espere. ¿Usted… acepta? ¿Así sin más?",
+   "…Ah. Vale. Eh.",
+   "La verdad es que no pensé que diría que sí."
+  ]
+ },
+ "rs_after": {
+  "_": [
+   "Bueno… esta mañana pedí que me devolvieran la carta.",
+   "Resulta que en realidad no me quiero ir.",
+   "Me quedo. Por favor, no lo hagan raro."
+  ]
+ },
+ "rs_after_react": {
+  "_": [
+   "Bienvenid{to?o|a} de vuelta. Nunca te fuiste.",
+   "¡Ja! Lo sabía.",
+   "Bien. Te habría echado de menos."
+  ]
+ },
+ "mc_panic": {
+  "_": [
+   "¡El contrato de Yıldız! ¡Estaba JUSTO AQUÍ!",
+   "¿¡Dónde está el contrato firmado!? ¡¿DÓNDE?!",
+   "No. No, no, no. El contrato original ha desaparecido."
+  ],
+  "selin": [
+   "¿¡Alguien se llevó el contrato de mi escritorio!?"
+  ],
+  "zeynep": [
+   "El contrato. El ORIGINAL. ¡Con las firmas en tinta!"
+  ]
+ },
+ "mc_witness": {
+  "_": [
+   "¿Qué pasa?",
+   "Ay, ay.",
+   "¿Miraste en el archivo?"
+  ]
+ },
+ "mc_search": {
+  "_": [
+   "No está en la A. Ni en la C. Ni en CONTRATO.",
+   "Tiene que estar por aquí…",
+   "¿Quién organiza este archivo, un mapache?"
+  ]
+ },
+ "mc_suspect_think": {
+  "_": [
+   "Espera… {suspect} anduvo rondando mi escritorio esta mañana.",
+   "{suspect}. Tiene que haber sido {suspect}.",
+   "Seguro que {suspect} lo tomó prestado. Sin preguntar."
+  ]
+ },
+ "mc_ask": {
+  "_": [
+   "¿Te llevaste un contrato de mi escritorio? ¿Carpeta azul?",
+   "No te estoy acusando, pero… el contrato. ¿Lo has visto?",
+   "Sé sincer{to?o|a}: ¿me tomaste prestado el contrato?"
+  ]
+ },
+ "mc_confess_now": {
+  "_": [
+   "…Ay, no. ¿La carpeta azul? La archivé. En el archivo. En la «Y». ¡Perdón!",
+   "¿Era azul? Puede que la haya archivado. Sin querer."
+  ]
+ },
+ "mc_deny_guilty": {
+  "_": [
+   "¿Yo? No. Ni lo toqué.",
+   "¿Para qué iba a llevarme tu contrato?"
+  ]
+ },
+ "mc_offended": {
+  "_": [
+   "¿¡Me estás acusando!?",
+   "Vaya. Gracias por la confianza.",
+   "Yo nunca he VISTO tu contrato."
+  ]
+ },
+ "mc_realise": {
+  "_": [
+   "Espera. La carpeta azul que archivé esta mañana… ay, no.",
+   "¿Eso era… su contrato? ¿En el archivo? Ay, no.",
+   "…Creo que sé dónde está el contrato."
+  ]
+ },
+ "mc_confess": {
+  "_": [
+   "Lo siento muchísimo. Archivé tu contrato por error.",
+   "Fui yo. Archivo. En la Y. Soy un desastre.",
+   "Tu contrato está a salvo. Lo… archivé mal. ¡Perdón!"
+  ]
+ },
+ "mc_forgive": {
+  "_": [
+   "Ay, GRACIAS a Dios. …Vale. Son cosas que pasan.",
+   "Me diste un susto de muerte. Pero gracias por decírmelo.",
+   "Bueno. Solo… etiqueta las cosas."
+  ]
+ },
+ "mc_furious": {
+  "_": [
+   "¿¡Sabes cuánto VALE ese contrato!?",
+   "Increíble. ¡Acusé a otra persona por tu culpa!"
+  ]
+ },
+ "mc_owe_apology": {
+  "_": [
+   "…Le debo una disculpa a {suspect}.",
+   "Ay, no. Acusé a {suspect}."
+  ]
+ },
+ "mc_found_back": {
+  "_": [
+   "¿Está… otra vez en mi escritorio? ¡Hace una hora no estaba!",
+   "¡El contrato! ¡Está aquí! ¿¡Cómo!?"
+  ]
+ },
+ "mc_still_blame": {
+  "_": [
+   "{suspect} tuvo que devolverlo. Remordimientos.",
+   "Claro, reaparece justo después de que le pregunté a {suspect}."
+  ]
+ },
+ "mc_found_quick": {
+  "_": [
+   "AHÍ está. Archivo, en la Y. Cómo no.",
+   "¡Lo tengo! Nunca más.",
+   "Lo encontré. Mi corazón no aguanta esto."
+  ]
+ },
+ "df_oops": {
+  "_": [
+   "Espera. ¿Dónde está la carpeta compartida? ¿Acabo de… borrar… todo?",
+   "Le di a «vaciar papelera». ¿¡Por qué está vacía la unidad COMPARTIDA!?",
+   "Vale. Que no cunda el pánico. Todo ha desaparecido. QUE NO CUNDA EL PÁNICO."
+  ],
+  "ece": [
+   "Ay, no. Ay, no, no, no, no, no. NO."
+  ]
+ },
+ "df_ask_it": {
+  "_": [
+   "Burak… hipotéticamente… si alguien hubiera borrado la unidad compartida…",
+   "Por favor, no te enfades. Borré la carpeta compartida.",
+   "Necesito ayuda. Mucha ayuda. Ayuda secreta."
+  ]
+ },
+ "df_it_quiet": {
+  "_": [
+   "…Respira. Hay una copia de anoche. Nadie tiene por qué enterarse.",
+   "Restaurando. Me debes café. Durante un mes."
+  ]
+ },
+ "df_it_lecture": {
+  "_": [
+   "¿Que hiciste QUÉ? …Bien. Copia de seguridad. Pero vamos a hablar de la papelera.",
+   "Restaurando. Y te voy a desactivar la tecla de borrar."
+  ]
+ },
+ "df_it_nobackup": {
+  "_": [
+   "La copia de anoche falló. No hay copia. Tienes que decírselo a Ahmet.",
+   "…No hay copia de seguridad. Lo siento muchísimo."
+  ]
+ },
+ "df_alarm": {
+  "_": [
+   "¡Mis archivos! ¡La carpeta compartida está VACÍA!",
+   "¿¡Adónde fue TODO!?",
+   "Tres meses de trabajo. Desaparecidos. DESAPARECIDOS."
+  ]
+ },
+ "df_alarm_react": {
+  "_": [
+   "¡Los míos también!",
+   "¿¡Qué!? ¿La unidad entera?",
+   "¡Burak! ¡BURAAAK!",
+   "Esto es un desastre."
+  ]
+ },
+ "df_alarm_suspect": {
+  "_": [
+   "{suspect} estuvo toqueteando la unidad ayer…",
+   "Seguro que {suspect} hizo algo."
+  ]
+ },
+ "df_hunt": {
+  "_": [
+   "¿¡QUIÉN tocó la unidad compartida!? ¡Quiero un nombre!",
+   "¡Nadie se va hasta que sepa quién borró esos archivos!",
+   "Alguien aquí destruyó tres meses de trabajo."
+  ]
+ },
+ "df_confess": {
+  "_": [
+   "…Fui yo. Lo siento muchísimo. Hice clic donde no era.",
+   "Yo. Fui yo. Lo arreglaré. Como sea."
+  ]
+ },
+ "df_boss_forgive": {
+  "_": [
+   "…Los errores pasan. Burak, arréglalo.",
+   "Gracias por reconocerlo. ¡Burak! ¡Copias de seguridad!"
+  ]
+ },
+ "df_boss_blame": {
+  "_": [
+   "¡{suspect}! Fuiste tú, ¿verdad?",
+   "Te estoy mirando, {suspect}."
+  ]
+ },
+ "df_protest": {
+  "_": [
+   "¿Qué? ¡Yo no toqué nada!",
+   "¡Eso no es justo!"
+  ]
+ },
+ "df_restore": {
+  "_": [
+   "Restaurado desde la copia externa. De nada.",
+   "Todo ha vuelto. Y según los registros, se borró desde la computadora de {culprit}.",
+   "Todo restaurado. Casi todo."
+  ]
+ },
+ "df_cover": {
+  "_": [
+   "Restaurado. Parece un error de sincronización. Pasa.",
+   "Todo de vuelta. Seguramente un fallo técnico."
+  ]
+ },
+ "lp_phone": {
+  "_": [
+   "…Tenemos que recortar algo. Alguien tiene que irse. …Sí. Antes del viernes.",
+   "Demasiado caro. Fuera. …Me da igual cuánto tiempo lleve aquí."
+  ]
+ },
+ "lp_gasp": {
+  "_": [
+   "Espera. ¿¡Alguien tiene que IRSE!?",
+   "¿¡Despidos!? ¿¡Antes del VIERNES!?",
+   "Ay, no. Ay, no, no, no."
+  ]
+ },
+ "lp_tell": {
+  "_": [
+   "No te asustes. Pero va a haber despidos. Antes del viernes.",
+   "Oí a Ahmet. Van a despedir a alguien. ¡Antes del viernes!",
+   "Actualiza tu CV. Lo digo en serio."
+  ]
+ },
+ "lp_tell_react": {
+  "_": [
+   "¿¡QUÉ!?",
+   "¿Quién? ¿QUIÉN?",
+   "Dios mío. ¡Tengo que pagar el alquiler!"
+  ]
+ },
+ "lp_doom": {
+  "_": [
+   "Estamos perdidos.",
+   "Voy a actualizar mi CV. Ahora mismo.",
+   "¿Soy yo? Soy yo, ¿verdad?",
+   "SABÍA que no debía comprarme ese coche."
+  ],
+  "burak": [
+   "…La verdad es que viene en buen momento."
+  ],
+  "ece": [
+   "¡Pero si soy becaria! ¿¡Pueden despedir a los becarios!?"
+  ],
+  "mert": [
+   "Si me voy, me llevo la grapadora buena."
+  ]
  }
 }

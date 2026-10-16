@@ -3638,5 +3638,550 @@
    "Vielleicht hab ich dir die letzte gute Tasse aufgehoben.",
    "Erzähl mir etwas, das hier keiner über dich weiß."
   ]
+ },
+ "rom_date_reply": {
+  "_": [
+   "Du zuerst.",
+   "... Ich sammle Schneekugeln. Nicht lachen.",
+   "Das sind die besten fünfzehn Minuten meiner Woche."
+  ]
+ },
+ "rom_spotted": {
+  "_": [
+   "Na, sieh mal einer an.",
+   "Ich WUSSTE es. Ich wusste es!",
+   "Oh, das ist zu gut."
+  ],
+  "mert": [
+   "Nehmt euch ein Zimmer! Einen Meetingraum!"
+  ],
+  "zeynep": [
+   "Und DAS kommt in mein Notizbuch."
+  ]
+ },
+ "rom_gossip_start": {
+  "_": [
+   "Oh, das muss ich jemandem erzählen. Ich MUSS.",
+   "Das kann nicht in meinem Kopf bleiben."
+  ]
+ },
+ "rom_gossip_tell": {
+  "_": [
+   "Rate mal, wen ich SEHR kuschelig in der Küche erwischt hab? {lover} und {crush}!",
+   "{lover} und {crush}. Küche. Mit Tassen in der Hand. BEDEUTUNGSVOLL."
+  ]
+ },
+ "rom_gossip_react": {
+  "_": [
+   "NIEMALS.",
+   "Ich wusste es! Wie die sich ansehen!",
+   "Hör auf."
+  ]
+ },
+ "rom_decide_open": {
+  "_": [
+   "Also ... die Leute reden.",
+   "Alle wissen es, oder?",
+   "Wir müssen über ... uns reden. Und über die anderen."
+  ]
+ },
+ "rom_public": {
+  "_": [
+   "Lass sie reden. Ich verstecke dich nicht.",
+   "Ehrlich? Mir ist egal, wer es weiß.",
+   "Wir sind erwachsen. Sagen wir’s ihnen einfach."
+  ]
+ },
+ "rom_secret": {
+  "_": [
+   "Lass es uns noch für uns behalten. Nur noch ein bisschen.",
+   "Noch nicht. Ahmet würde es komisch machen.",
+   "Unser Geheimnis. Vorerst."
+  ]
+ },
+ "rom_breakup": {
+  "_": [
+   "Vielleicht war das ein Fehler. Auf der Arbeit, meine ich.",
+   "Ich glaube nicht, dass ich das kann, wenn alle zuschauen.",
+   "Lass uns ... wieder Kollegen sein."
+  ]
+ },
+ "rom_congrats": {
+  "_": [
+   "Ach! Endlich!",
+   "Ihr zwei! Glückwunsch!",
+   "Ich wusste es vom ERSTEN TAG an."
+  ]
+ },
+ "hh_call": {
+  "_": [
+   "Ja, hier ist {seeker}. ... Heute? Um zwei? Das krieg ich hin.",
+   "Ein zweites Gespräch? Auf jeden Fall. Ich bin da.",
+   "Mhm. Ja. Bitte diskret."
+  ]
+ },
+ "hh_overheard": {
+  "_": [
+   "... Vorstellungsgespräch? Heute?",
+   "War das ein Headhunter?!",
+   "Uuh. Da hat jemand Pläne."
+  ]
+ },
+ "hh_excuse": {
+  "_": [
+   "Ahmet Bey, ich muss für eine Stunde weg. Zahnarzt.",
+   "Ich habe einen ... Arzttermin. Heute Nachmittag. Dringend.",
+   "Was Familiäres. In einer Stunde bin ich zurück, versprochen."
+  ],
+  "burak": [
+   "Zahnarzt. Schon wieder. Meine Zähne sind ... kompliziert."
+  ]
+ },
+ "hh_ok": {
+  "_": [
+   "Gut. Eine Stunde.",
+   "Gehen Sie. Aber machen Sie keine Gewohnheit daraus.",
+   "Hm. Na gut."
+  ]
+ },
+ "hh_no": {
+  "_": [
+   "SCHON WIEDER? Nein. Wir haben eine Deadline.",
+   "Auf keinen Fall. Nicht heute.",
+   "Ihre Zähne können warten."
+  ]
+ },
+ "hh_sneak": {
+  "_": [
+   "Na gut. Dann geh ich ... eben trotzdem.",
+   "... Dann mache ich eben eine sehr lange Mittagspause."
+  ]
+ },
+ "hh_leaving": {
+  "_": [
+   "Also. Ab zum ... Zahnarzt.",
+   "Bin gleich zurück!",
+   "*schnappt sich die Jacke und geht schnell*"
+  ]
+ },
+ "hh_boss_ask": {
+  "_": [
+   "Langer Zahnarzttermin. Mit Krawatte?",
+   "Ihre Zähne sehen genau gleich aus.",
+   "Und? Wie war der ... Zahnarzt?"
+  ]
+ },
+ "hh_bluff": {
+  "_": [
+   "Wurzelbehandlung. Sehr schmerzhaft. Fragen Sie nicht.",
+   "Die hatten Verspätung!",
+   "... Lief gut. Danke."
+  ]
+ },
+ "hh_boss_suspicious": {
+  "_": [
+   "Hm. Ich behalte Sie im Auge.",
+   "Ich bin doch nicht von gestern.",
+   "Mhm."
+  ]
+ },
+ "hh_boss_fine": {
+  "_": [
+   "Dann ruhen Sie sich aus.",
+   "Gut. Zurück an die Arbeit.",
+   "Hm. Passen Sie gut auf diese Zähne auf."
+  ]
+ },
+ "hh_offer": {
+  "_": [
+   "Ich bin ehrlich. Ich habe ein Angebot von einer anderen Firma.",
+   "Die bieten mir mehr Geld. Viel mehr.",
+   "Ich denke ans Gehen. Sie sollten es von mir hören."
+  ]
+ },
+ "hh_counter": {
+  "_": [
+   "... Was müsste passieren, damit Sie bleiben?",
+   "Wir ziehen gleich. Und Sie bekommen das neue Serverbudget.",
+   "Nichts überstürzen. Reden wir über Zahlen."
+  ]
+ },
+ "hh_call_bluff": {
+  "_": [
+   "Dann gehen Sie doch. Niemand ist unersetzlich.",
+   "Viel Glück beim Suchen einer Firma, die Sie erträgt.",
+   "Die Tür ist da drüben."
+  ]
+ },
+ "hh_stay_happy": {
+  "_": [
+   "... Wirklich? Okay. Ich bleibe.",
+   "Abgemacht. Aber ich will es schriftlich."
+  ]
+ },
+ "hh_stunned": {
+  "_": [
+   "... Verstehe.",
+   "Ich ... verstehe.",
+   "Wow. Okay."
+  ]
+ },
+ "rs_vent": {
+  "_": [
+   "Ich mach’s. Ich schreibe meine Kündigung. Heute.",
+   "Das war’s. Mir reicht’s. Ich kündige.",
+   "Ich hab mich entschieden. Ich reiche meine Kündigung ein."
+  ]
+ },
+ "rs_friend_shock": {
+  "_": [
+   "Moment — WAS? Das kannst du nicht machen!",
+   "Hoppla, hoppla. Schlaf eine Nacht drüber!",
+   "Ist das dein Ernst?!"
+  ]
+ },
+ "rs_print": {
+  "_": [
+   "„Sehr geehrter Ahmet Bey, mit sofortiger Wirkung ...“ Drucken.",
+   "Drucken. Unterschreiben. Fertig.",
+   "So. Meine Freiheit, in Times New Roman."
+  ]
+ },
+ "rs_printer_broken": {
+  "_": [
+   "Natürlich. Nicht mal der Drucker lässt mich kündigen.",
+   "Der Drucker ist kaputt. Das Universum verspottet mich."
+  ]
+ },
+ "rs_spot_letter": {
+  "_": [
+   "Ist das ... ein Kündigungsschreiben?!",
+   "Oh nein. Oh nein, nein."
+  ]
+ },
+ "rs_talk": {
+  "_": [
+   "Tu das nicht. Nicht so. Nicht im Zorn.",
+   "Was, wenn ich für dich mit Ahmet rede?",
+   "Wir brauchen dich hier. Ich brauche dich hier."
+  ]
+ },
+ "rs_persuaded": {
+  "_": [
+   "... Okay. Vielleicht warte ich eine Woche.",
+   "Na gut. Ich leg den Brief in eine Schublade. Vorerst.",
+   "Du hast recht. Danke."
+  ]
+ },
+ "rs_firm": {
+  "_": [
+   "Nein. Mein Entschluss steht.",
+   "Ich gehe zu Ahmet. Jetzt.",
+   "Ich weiß das zu schätzen. Aber nein."
+  ]
+ },
+ "rs_hand_in": {
+  "_": [
+   "Ahmet Bey. Das ist meine Kündigung.",
+   "Ich kündige. Hier ist mein Schreiben.",
+   "Ich kündige. Zum Monatsende."
+  ]
+ },
+ "rs_boss_beg": {
+  "_": [
+   "Moment. Setzen Sie sich. Was brauchen Sie? Reden wir.",
+   "Nein, nein, nein. Was auch immer es ist, das kriegen wir hin.",
+   "... Mir war nicht klar, dass es so schlimm ist. Was kann ich tun?"
+  ]
+ },
+ "rs_boss_tear": {
+  "_": [
+   "*reißt den Brief entzwei* Witzig. Und jetzt zurück an die Arbeit.",
+   "Netter Versuch. *ratsch* Sie gehen nirgendwohin."
+  ]
+ },
+ "rs_boss_accept": {
+  "_": [
+   "Gut. Ich nehme an.",
+   "Sehr wohl. Die Personalabteilung meldet sich.",
+   "Wenn Sie das so wollen."
+  ]
+ },
+ "rs_panic": {
+  "_": [
+   "Moment. Sie ... nehmen an? Einfach so?",
+   "... Oh. Okay. Äh.",
+   "Ich hätte nicht gedacht, dass Sie wirklich Ja sagen."
+  ]
+ },
+ "rs_after": {
+  "_": [
+   "Also ... ich hab heute Morgen um mein Kündigungsschreiben zurückgebeten.",
+   "Wie sich herausstellt, will ich gar nicht gehen.",
+   "Ich bleibe. Bitte macht es nicht komisch."
+  ]
+ },
+ "rs_after_react": {
+  "_": [
+   "Willkommen zurück. Du warst ja nie weg.",
+   "Ha! Ich wusste es.",
+   "Gut. Ich hätte dich vermisst."
+  ]
+ },
+ "mc_panic": {
+  "_": [
+   "Der Yıldız-Vertrag! Der lag GENAU HIER!",
+   "Wo ist der unterschriebene Vertrag?! WO?!",
+   "Nein. Nein, nein, nein. Der Originalvertrag ist weg."
+  ],
+  "selin": [
+   "Hat jemand den Vertrag von meinem Schreibtisch genommen?!"
+  ],
+  "zeynep": [
+   "Der Vertrag. Das ORIGINAL. Mit den echten Unterschriften!"
+  ]
+ },
+ "mc_witness": {
+  "_": [
+   "Was ist los?",
+   "Oh oh.",
+   "Hast du im Archiv nachgesehen?"
+  ]
+ },
+ "mc_search": {
+  "_": [
+   "Nicht unter A. Nicht unter C. Nicht unter VERTRAG.",
+   "Er muss hier irgendwo sein ...",
+   "Wer organisiert dieses Archiv, ein Waschbär?"
+  ]
+ },
+ "mc_suspect_think": {
+  "_": [
+   "Moment ... {suspect} war heute Morgen an meinem Schreibtisch.",
+   "{suspect}. Das muss {suspect} gewesen sein.",
+   "Wetten, {suspect} hat ihn sich ausgeliehen. Ohne zu fragen."
+  ]
+ },
+ "mc_ask": {
+  "_": [
+   "Hast du einen Vertrag von meinem Schreibtisch genommen? Blaue Mappe?",
+   "Ich beschuldige dich nicht, aber ... der Vertrag. Hast du ihn gesehen?",
+   "Sei ehrlich: Hast du dir meinen Vertrag ausgeliehen?"
+  ]
+ },
+ "mc_confess_now": {
+  "_": [
+   "... Oh nein. Die blaue Mappe? Die hab ich abgelegt. Im Archiv. Unter „Y“. Sorry!",
+   "War die blau? Kann sein, dass ich sie abgelegt hab. Aus Versehen."
+  ]
+ },
+ "mc_deny_guilty": {
+  "_": [
+   "Ich? Nein. Nie angefasst.",
+   "Warum sollte ich deinen Vertrag nehmen?"
+  ]
+ },
+ "mc_offended": {
+  "_": [
+   "Beschuldigst du etwa mich?!",
+   "Wow. Danke für das Vertrauen.",
+   "Ich hab deinen Vertrag noch nie GESEHEN."
+  ]
+ },
+ "mc_realise": {
+  "_": [
+   "Moment. Die blaue Mappe, die ich heute Morgen abgelegt hab ... oh nein.",
+   "War das ... der Vertrag? Im Archiv? Oh nein.",
+   "... Ich glaube, ich weiß, wo der Vertrag ist."
+  ]
+ },
+ "mc_confess": {
+  "_": [
+   "Es tut mir so leid. Ich hab deinen Vertrag versehentlich im Archiv abgelegt.",
+   "Ich war’s. Archiv. Unter Y. Ich bin so ein Idiot.",
+   "Dein Vertrag ist sicher. Ich hab ihn ... falsch abgelegt. Sorry!"
+  ]
+ },
+ "mc_forgive": {
+  "_": [
+   "Oh, Gott sei DANK. ... Okay. Kann passieren.",
+   "Du hast mich zu Tode erschreckt. Aber danke, dass du es mir sagst.",
+   "Na gut. Beschrifte einfach ... Sachen."
+  ]
+ },
+ "mc_furious": {
+  "_": [
+   "Weißt du, was dieser Vertrag WERT ist?!",
+   "Unfassbar. Wegen dir hab ich jemand anderen beschuldigt!"
+  ]
+ },
+ "mc_owe_apology": {
+  "_": [
+   "... Ich schulde {suspect} eine Entschuldigung.",
+   "Oh nein. Ich hab {suspect} beschuldigt."
+  ]
+ },
+ "mc_found_back": {
+  "_": [
+   "Er liegt ... wieder auf meinem Schreibtisch? Vor einer Stunde war er noch nicht da!",
+   "Der Vertrag! Er ist da! Wie?!"
+  ]
+ },
+ "mc_still_blame": {
+  "_": [
+   "{suspect} muss ihn zurückgelegt haben. Schlechtes Gewissen.",
+   "Natürlich taucht er wieder auf, nachdem ich {suspect} gefragt hab."
+  ]
+ },
+ "mc_found_quick": {
+  "_": [
+   "DA ist er ja. Archiv, unter Y. Natürlich.",
+   "Hab ihn! Nie wieder.",
+   "Gefunden. Mein Herz verkraftet das nicht."
+  ]
+ },
+ "df_oops": {
+  "_": [
+   "Moment. Wo ist der gemeinsame Ordner? Hab ich gerade ... alles ... gelöscht?",
+   "Ich hab auf „Papierkorb leeren“ gedrückt. Warum ist das GEMEINSAME Laufwerk leer?!",
+   "Okay. Keine Panik. Alles ist weg. KEINE PANIK."
+  ],
+  "ece": [
+   "Oh nein. Oh nein, nein, nein, nein, nein. NEIN."
+  ]
+ },
+ "df_ask_it": {
+  "_": [
+   "Burak ... rein hypothetisch ... wenn jemand das gemeinsame Laufwerk gelöscht hätte ...",
+   "Bitte sei nicht sauer. Ich hab den gemeinsamen Ordner gelöscht.",
+   "Ich brauche Hilfe. Große Hilfe. Geheime Hilfe."
+  ]
+ },
+ "df_it_quiet": {
+  "_": [
+   "... Atmen. Es gibt ein Backup von letzter Nacht. Niemand muss es erfahren.",
+   "Stelle wieder her. Du schuldest mir Kaffee. Einen Monat lang."
+  ]
+ },
+ "df_it_lecture": {
+  "_": [
+   "Du hast WAS? ... Na gut. Backup. Aber wir reden noch über den Papierkorb.",
+   "Stelle wieder her. Und ich deaktiviere deine Entf-Taste."
+  ]
+ },
+ "df_it_nobackup": {
+  "_": [
+   "Das Backup letzte Nacht ist fehlgeschlagen. Es gibt kein Backup. Du musst es Ahmet sagen.",
+   "... Es gibt kein Backup. Tut mir so leid."
+  ]
+ },
+ "df_alarm": {
+  "_": [
+   "Meine Dateien! Der gemeinsame Ordner ist LEER!",
+   "Wo ist ALLES hin?!",
+   "Drei Monate Arbeit. Weg. WEG."
+  ]
+ },
+ "df_alarm_react": {
+  "_": [
+   "Meine auch!",
+   "Was?! Das ganze Laufwerk?",
+   "Burak! BURAAAK!",
+   "Das ist eine Katastrophe."
+  ]
+ },
+ "df_alarm_suspect": {
+  "_": [
+   "{suspect} hat gestern am Laufwerk herumgefummelt ...",
+   "Wetten, {suspect} hat was angestellt."
+  ]
+ },
+ "df_hunt": {
+  "_": [
+   "WER hat das gemeinsame Laufwerk angefasst?! Ich will einen Namen!",
+   "Niemand geht, bis ich weiß, wer diese Dateien gelöscht hat!",
+   "Jemand hier hat drei Monate Arbeit vernichtet."
+  ]
+ },
+ "df_confess": {
+  "_": [
+   "... Ich war’s. Es tut mir so leid. Ich hab das Falsche angeklickt.",
+   "Ich. Ich war’s. Ich bring das in Ordnung. Irgendwie."
+  ]
+ },
+ "df_boss_forgive": {
+  "_": [
+   "... Fehler passieren. Burak, reparieren Sie das.",
+   "Danke, dass Sie dazu stehen. Burak! Backups!"
+  ]
+ },
+ "df_boss_blame": {
+  "_": [
+   "{suspect}! Das waren Sie, oder?",
+   "Ich habe Sie im Blick, {suspect}."
+  ]
+ },
+ "df_protest": {
+  "_": [
+   "Was? Ich hab nichts angefasst!",
+   "Das ist nicht fair!"
+  ]
+ },
+ "df_restore": {
+  "_": [
+   "Aus dem externen Backup wiederhergestellt. Gern geschehen.",
+   "Alles wieder da. Und laut Logs wurde von {culprit:s} Computer aus gelöscht.",
+   "Alles wiederhergestellt. Größtenteils."
+  ]
+ },
+ "df_cover": {
+  "_": [
+   "Wiederhergestellt. Sieht nach einem Sync-Fehler aus. Kommt vor.",
+   "Alles wieder da. Wahrscheinlich ein Bug."
+  ]
+ },
+ "lp_phone": {
+  "_": [
+   "... Wir müssen etwas streichen. Jemand muss gehen. ... Ja. Bis Freitag.",
+   "Zu teuer. Das fliegt raus. ... Mir egal, wie lange das schon hier ist."
+  ]
+ },
+ "lp_gasp": {
+  "_": [
+   "Moment. Jemand muss GEHEN?!",
+   "Entlassungen?! Bis FREITAG?!",
+   "Oh nein. Oh nein, nein, nein."
+  ]
+ },
+ "lp_tell": {
+  "_": [
+   "Keine Panik. Aber es wird Entlassungen geben. Bis Freitag.",
+   "Ich hab Ahmet gehört. Jemand wird gefeuert. Bis Freitag!",
+   "Aktualisier deinen Lebenslauf. Im Ernst."
+  ]
+ },
+ "lp_tell_react": {
+  "_": [
+   "WAS?!",
+   "Wer? WER?",
+   "Oh mein Gott. Ich muss Miete zahlen!"
+  ]
+ },
+ "lp_doom": {
+  "_": [
+   "Wir sind verloren.",
+   "Ich aktualisiere meinen Lebenslauf. Sofort.",
+   "Bin ich das? Ich bin das, oder?",
+   "Ich WUSSTE, ich hätte das Auto nicht kaufen sollen."
+  ],
+  "burak": [
+   "... Eigentlich gutes Timing."
+  ],
+  "ece": [
+   "Aber ich bin Praktikantin! Darf man Praktikanten feuern?!"
+  ],
+  "mert": [
+   "Wenn ich gehe, nehme ich den guten Tacker mit."
+  ]
  }
 }

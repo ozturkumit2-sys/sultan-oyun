@@ -3638,5 +3638,550 @@
    "Sana son düzgün kupayı ayırmış olabilirim.",
    "Bana buradaki kimsenin bilmediği bir şey anlat."
   ]
+ },
+ "rom_date_reply": {
+  "_": [
+   "Önce sen.",
+   "...Kar küresi biriktiriyorum. Gülme.",
+   "Bu, haftamın en güzel on beş dakikası."
+  ]
+ },
+ "rom_spotted": {
+  "_": [
+   "VAY vay vay.",
+   "BİLİYORDUM. Biliyordum!",
+   "Ah, bu çok iyi."
+  ],
+  "mert": [
+   "Bir oda tutun! Bir toplantı odası!"
+  ],
+  "zeynep": [
+   "Ve BU, defterime giriyor."
+  ]
+ },
+ "rom_gossip_start": {
+  "_": [
+   "Ah, birine anlatmam lazım. ŞART.",
+   "Bu kafamda kalamaz."
+  ]
+ },
+ "rom_gossip_tell": {
+  "_": [
+   "Bil bakalım mutfakta ÇOK samimi hâlde kimi yakaladım? {lover} ile {crush:i}!",
+   "{lover} ve {crush}. Mutfak. Ellerinde kupa. ANLAMLI ANLAMLI."
+  ]
+ },
+ "rom_gossip_react": {
+  "_": [
+   "OLAMAZ.",
+   "Biliyordum! Birbirlerine bakışları!",
+   "Hadi oradan."
+  ]
+ },
+ "rom_decide_open": {
+  "_": [
+   "Şey... insanlar konuşuyor.",
+   "Herkes biliyor, değil mi?",
+   "Bizim hakkımızda konuşmamız lazım... ve onlar hakkında."
+  ]
+ },
+ "rom_public": {
+  "_": [
+   "Bırak konuşsunlar. Seni saklamıyorum.",
+   "Açıkçası mı? Kimin bildiği umurumda değil.",
+   "Yetişkin insanlarız. Söyleyelim gitsin."
+  ]
+ },
+ "rom_secret": {
+  "_": [
+   "Sessiz kalalım. Biraz daha.",
+   "Henüz değil. Ahmet bunu tuhaflaştırır.",
+   "Bizim sırrımız. Şimdilik."
+  ]
+ },
+ "rom_breakup": {
+  "_": [
+   "Belki bu bir hataydı. İş yerinde, yani.",
+   "Herkes izlerken bunu yapabileceğimi sanmıyorum.",
+   "Hadi... yeniden iş arkadaşı olalım."
+  ]
+ },
+ "rom_congrats": {
+  "_": [
+   "Aww! Nihayet!",
+   "Siz ikiniz! Tebrikler!",
+   "Ben bunu İLK GÜNDEN biliyordum."
+  ]
+ },
+ "hh_call": {
+  "_": [
+   "Evet, ben {seeker}. ...Bugün mü? Saat ikide mi? Ayarlarım.",
+   "İkinci mülakat mı? Kesinlikle. Orada olurum.",
+   "Hı hı. Evet. Sessizce, lütfen."
+  ]
+ },
+ "hh_overheard": {
+  "_": [
+   "...Mülakat mı? Bugün mü?",
+   "O bir işe alım uzmanı mıydı?!",
+   "Oo. Birinin planları var."
+  ]
+ },
+ "hh_excuse": {
+  "_": [
+   "Ahmet Bey, bir saatliğine çıkmam lazım. Dişçi.",
+   "Bir... doktor randevum var. Bu öğleden sonra. Acil.",
+   "Ailevi bir mesele. Bir saate dönerim, söz."
+  ],
+  "burak": [
+   "Dişçi. Yine. Dişlerim... karmaşık."
+  ]
+ },
+ "hh_ok": {
+  "_": [
+   "Peki. Bir saat.",
+   "Git. Alışkanlık yapma.",
+   "Hm. Tamam."
+  ]
+ },
+ "hh_no": {
+  "_": [
+   "YİNE mi? Hayır. Teslim tarihimiz var.",
+   "Kesinlikle hayır. Bugün olmaz.",
+   "Dişlerin bekleyebilir."
+  ]
+ },
+ "hh_sneak": {
+  "_": [
+   "Peki. Ben de... yine de giderim.",
+   "...O zaman çok uzun bir öğle arası veririm."
+  ]
+ },
+ "hh_leaving": {
+  "_": [
+   "Pekâlâ. Ben... dişçiye.",
+   "Hemen dönerim!",
+   "*ceketini kapar, hızla çıkar*"
+  ]
+ },
+ "hh_boss_ask": {
+  "_": [
+   "Uzun bir dişçi randevusu. Kravatla mı?",
+   "Dişlerin tıpatıp aynı görünüyor.",
+   "Eee. Dişçi... nasıldı?"
+  ]
+ },
+ "hh_bluff": {
+  "_": [
+   "Kanal tedavisi. Çok acılı. Sorma.",
+   "Gecikmeleri vardı!",
+   "...İyi geçti. Teşekkürler."
+  ]
+ },
+ "hh_boss_suspicious": {
+  "_": [
+   "Hm. Gözüm üstünde.",
+   "Ben dünkü çocuk değilim.",
+   "Hı hı."
+  ]
+ },
+ "hh_boss_fine": {
+  "_": [
+   "O zaman biraz dinlen.",
+   "Peki. İşinin başına.",
+   "Hm. O dişlere iyi bak."
+  ]
+ },
+ "hh_offer": {
+  "_": [
+   "Dürüst olacağım. Başka bir şirketten teklif aldım.",
+   "Bana daha fazla para teklif ettiler. Çok daha fazla.",
+   "Ayrılmayı düşünüyorum. Benden duymanızı istedim."
+  ]
+ },
+ "hh_counter": {
+  "_": [
+   "...Kalman için ne gerekiyor?",
+   "Teklifi eşitleriz. Üstüne yeni sunucu bütçesi de senin.",
+   "Aceleci davranma. Rakamları konuşalım."
+  ]
+ },
+ "hh_call_bluff": {
+  "_": [
+   "O zaman git. Kimse vazgeçilmez değildir.",
+   "Sana katlanacak bir yer bulursan bol şans.",
+   "Kapı şu tarafta."
+  ]
+ },
+ "hh_stay_happy": {
+  "_": [
+   "...Gerçekten mi? Tamam. Kalıyorum.",
+   "Anlaştık. Ama yazılı istiyorum."
+  ]
+ },
+ "hh_stunned": {
+  "_": [
+   "...Peki.",
+   "Ben... anlıyorum.",
+   "Vay. Tamam."
+  ]
+ },
+ "rs_vent": {
+  "_": [
+   "Yapıyorum. İstifa mektubumu yazıyorum. Bugün.",
+   "Bu kadar. Bitti. İstifa ediyorum.",
+   "Kararımı verdim. İstifamı veriyorum."
+  ]
+ },
+ "rs_friend_shock": {
+  "_": [
+   "Dur — NE? Yapamazsın!",
+   "Hop, hop. Bir gece uyu üstüne!",
+   "Ciddi misin?!"
+  ]
+ },
+ "rs_print": {
+  "_": [
+   "\"Sayın Ahmet Bey, derhâl geçerli olmak üzere...\" Yazdır.",
+   "Yazdır. İmzala. Bitti.",
+   "İşte. Özgürlüğüm, Times New Roman'la."
+  ]
+ },
+ "rs_printer_broken": {
+  "_": [
+   "Tabii ya. Yazıcı bile istifa etmeme izin vermiyor.",
+   "Yazıcı bozuk. Evren benimle dalga geçiyor."
+  ]
+ },
+ "rs_spot_letter": {
+  "_": [
+   "Bu... bir istifa mektubu mu?!",
+   "Eyvah. Eyvah eyvah."
+  ]
+ },
+ "rs_talk": {
+  "_": [
+   "Yapma. Böyle değil. Öfkeyle değil.",
+   "Ya senin için Ahmet'le ben konuşsam?",
+   "Burada sana ihtiyacımız var. Benim sana ihtiyacım var."
+  ]
+ },
+ "rs_persuaded": {
+  "_": [
+   "...Tamam. Belki bir hafta beklerim.",
+   "Peki. Mektubu bir çekmeceye koyacağım. Şimdilik.",
+   "Haklısın. Sağ ol."
+  ]
+ },
+ "rs_firm": {
+  "_": [
+   "Hayır. Kararımı verdim.",
+   "Ahmet'e gidiyorum. Hemen.",
+   "Sağ ol ama hayır."
+  ]
+ },
+ "rs_hand_in": {
+  "_": [
+   "Ahmet Bey. Bu benim istifam.",
+   "İstifa ediyorum. İşte mektubum.",
+   "Ayrılıyorum. Ay sonu itibarıyla."
+  ]
+ },
+ "rs_boss_beg": {
+  "_": [
+   "Dur. Otur. Neye ihtiyacın var? Konuşalım.",
+   "Hayır, hayır, hayır. Mesele neyse düzeltebiliriz.",
+   "...Bu kadar kötü olduğunu fark etmemiştim. Ne yapabilirim?"
+  ]
+ },
+ "rs_boss_tear": {
+  "_": [
+   "*mektubu ikiye yırtar* Komik. Şimdi işinin başına.",
+   "İyi denemeydi. *cırt* Hiçbir yere gitmiyorsun."
+  ]
+ },
+ "rs_boss_accept": {
+  "_": [
+   "Peki. Kabul ediyorum.",
+   "Pekâlâ. İK seninle iletişime geçecek.",
+   "İstediğin buysa."
+  ]
+ },
+ "rs_panic": {
+  "_": [
+   "Dur. Siz... kabul mü ediyorsunuz? Öylece?",
+   "...Ha. Tamam. Şey.",
+   "Aslında evet diyeceğinizi düşünmemiştim."
+  ]
+ },
+ "rs_after": {
+  "_": [
+   "Şey... bu sabah mektubumu geri istedim.",
+   "Meğer aslında gitmek istemiyormuşum.",
+   "Kalıyorum. Lütfen bunu tuhaflaştırmayın."
+  ]
+ },
+ "rs_after_react": {
+  "_": [
+   "Tekrar hoş geldin. Zaten hiç gitmemiştin.",
+   "Ha! Biliyordum.",
+   "Güzel. Seni özlerdim."
+  ]
+ },
+ "mc_panic": {
+  "_": [
+   "Yıldız sözleşmesi! TAM BURADAYDI!",
+   "İmzalı sözleşme nerede?! NEREDE?!",
+   "Hayır. Hayır hayır hayır. Orijinal sözleşme yok."
+  ],
+  "selin": [
+   "Masamdan sözleşmeyi biri mi aldı?!"
+  ],
+  "zeynep": [
+   "Sözleşme. ORİJİNALİ. Islak imzalı olanı!"
+  ]
+ },
+ "mc_witness": {
+  "_": [
+   "Ne oluyor?",
+   "Eyvah.",
+   "Arşive baktın mı?"
+  ]
+ },
+ "mc_search": {
+  "_": [
+   "A'da yok. C'de yok. SÖZLEŞME'de yok.",
+   "Buralarda bir yerde olmalı...",
+   "Bu arşivi kim düzenliyor, bir rakun mu?"
+  ]
+ },
+ "mc_suspect_think": {
+  "_": [
+   "Dur... {suspect} bu sabah masamın etrafında dolanıyordu.",
+   "{suspect}. {suspect} olmalı.",
+   "Bahse girerim {suspect} ödünç almıştır. Sormadan."
+  ]
+ },
+ "mc_ask": {
+  "_": [
+   "Masamdan bir sözleşme aldın mı? Mavi klasör?",
+   "Seni suçlamıyorum ama... sözleşme. Gördün mü?",
+   "Dürüst ol: sözleşmemi ödünç aldın mı?"
+  ]
+ },
+ "mc_confess_now": {
+  "_": [
+   "...Eyvah. Mavi klasör mü? Onu dosyaladım. Arşive. \"Y\" harfine. Pardon!",
+   "Mavi miydi? Sanırım dosyalamış olabilirim. Yanlışlıkla."
+  ]
+ },
+ "mc_deny_guilty": {
+  "_": [
+   "Ben mi? Hayır. Hiç dokunmadım.",
+   "Senin sözleşmeni neden alayım?"
+  ]
+ },
+ "mc_offended": {
+  "_": [
+   "Beni mi suçluyorsun?!",
+   "Vay. Güvenin için sağ ol.",
+   "Ben senin sözleşmeni hiç GÖRMEDİM bile."
+  ]
+ },
+ "mc_realise": {
+  "_": [
+   "Dur. Bu sabah dosyaladığım mavi klasör... eyvah.",
+   "O... onun sözleşmesi miydi? Arşivde mi? Eyvah.",
+   "...Sanırım sözleşmenin nerede olduğunu biliyorum."
+  ]
+ },
+ "mc_confess": {
+  "_": [
+   "Çok özür dilerim. Sözleşmeni yanlışlıkla arşive dosyaladım.",
+   "Bendim. Arşiv. Y harfinde. Gerizekalının tekiyim.",
+   "Sözleşmen güvende. Ben... yanlış yere dosyaladım. Pardon!"
+  ]
+ },
+ "mc_forgive": {
+  "_": [
+   "Oh ÇOK ŞÜKÜR. ...Tamam. Olur böyle şeyler.",
+   "Ödümü kopardın. Ama söylediğin için teşekkürler.",
+   "Peki. Sadece... her şeyi etiketle."
+  ]
+ },
+ "mc_furious": {
+  "_": [
+   "O sözleşmenin ne kadar ETTİĞİNİ biliyor musun?!",
+   "İnanılmaz. Senin yüzünden başkasını suçladım!"
+  ]
+ },
+ "mc_owe_apology": {
+  "_": [
+   "...{suspect:den} özür dilemem lazım.",
+   "Eyvah. {suspect:i} suçladım."
+  ]
+ },
+ "mc_found_back": {
+  "_": [
+   "Masama... geri mi gelmiş? Bir saat önce burada değildi!",
+   "Sözleşme! Burada! Nasıl?!"
+  ]
+ },
+ "mc_still_blame": {
+  "_": [
+   "{suspect} geri koymuş olmalı. Vicdan azabı.",
+   "Tabii, {suspect:e} sorduktan sonra ortaya çıkıyor."
+  ]
+ },
+ "mc_found_quick": {
+  "_": [
+   "İŞTE orada. Arşiv, Y harfi. Tabii ki.",
+   "Buldum! Bir daha asla.",
+   "Buldum. Kalbim bunu kaldıramaz."
+  ]
+ },
+ "df_oops": {
+  "_": [
+   "Dur. Ortak klasör nerede? Ben az önce... her şeyi... sildim mi?",
+   "\"Çöpü boşalt\"a bastım. ORTAK sürücü neden boş?!",
+   "Tamam. Panik yok. Her şey gitti. PANİK YOK."
+  ],
+  "ece": [
+   "Eyvah. Eyvah eyvah eyvah eyvah. HAYIR."
+  ]
+ },
+ "df_ask_it": {
+  "_": [
+   "Burak... farazi olarak... biri ortak sürücüyü silmiş olsa...",
+   "Lütfen kızma. Ortak klasörü sildim.",
+   "Yardım lazım. Büyük yardım. Gizli yardım."
+  ]
+ },
+ "df_it_quiet": {
+  "_": [
+   "...Nefes al. Dün geceden bir yedek var. Kimsenin bilmesine gerek yok.",
+   "Geri yüklüyorum. Bana bir ay kahve borçlusun."
+  ]
+ },
+ "df_it_lecture": {
+  "_": [
+   "NE yaptın? ...Peki. Yedek. Ama çöp kutusu hakkında konuşacağız.",
+   "Geri yüklüyorum. Ve silme tuşunu iptal ediyorum."
+  ]
+ },
+ "df_it_nobackup": {
+  "_": [
+   "Dün geceki yedekleme başarısız olmuş. Yedek yok. Ahmet'e söylemen lazım.",
+   "...Yedek yok. Çok üzgünüm."
+  ]
+ },
+ "df_alarm": {
+  "_": [
+   "Dosyalarım! Ortak klasör BOŞ!",
+   "HER ŞEY nereye gitti?!",
+   "Üç aylık emek. Gitti. GİTTİ."
+  ]
+ },
+ "df_alarm_react": {
+  "_": [
+   "Benimkiler de!",
+   "Ne?! Bütün sürücü mü?",
+   "Burak! BURAAAK!",
+   "Bu bir felaket."
+  ]
+ },
+ "df_alarm_suspect": {
+  "_": [
+   "{suspect} dün sürücüyü kurcalıyordu...",
+   "Bahse girerim {suspect} bir şey yaptı."
+  ]
+ },
+ "df_hunt": {
+  "_": [
+   "Ortak sürücüye KİM dokundu?! Bir isim istiyorum!",
+   "O dosyaları kimin sildiğini öğrenene kadar kimse çıkmıyor!",
+   "Burada biri üç aylık emeği yok etti."
+  ]
+ },
+ "df_confess": {
+  "_": [
+   "...Bendim. Çok özür dilerim. Yanlış yere tıkladım.",
+   "Ben. Bendim. Düzelteceğim. Bir şekilde."
+  ]
+ },
+ "df_boss_forgive": {
+  "_": [
+   "...Hata olur. Burak, düzelt.",
+   "Üstlendiğin için teşekkürler. Burak! Yedekler!"
+  ]
+ },
+ "df_boss_blame": {
+  "_": [
+   "{suspect}! Sendin, değil mi?",
+   "Sana bakıyorum, {suspect}."
+  ]
+ },
+ "df_protest": {
+  "_": [
+   "Ne? Ben hiçbir şeye dokunmadım!",
+   "Bu haksızlık!"
+  ]
+ },
+ "df_restore": {
+  "_": [
+   "Dış yedekten geri yüklendi. Rica ederim.",
+   "Her şey geri geldi. Ve kayıtlara göre silme işlemi {culprit:in} bilgisayarından yapılmış.",
+   "Hepsi geri yüklendi. Çoğunlukla."
+  ]
+ },
+ "df_cover": {
+  "_": [
+   "Geri yüklendi. Bir senkronizasyon hatası gibi görünüyor. Olur öyle.",
+   "Hepsi geri geldi. Muhtemelen bir aksaklık."
+  ]
+ },
+ "lp_phone": {
+  "_": [
+   "...Bir şeyi kesmemiz lazım. Biri gitmeli. ...Evet. Cumaya kadar.",
+   "Çok pahalı. Gidiyor. ...Ne kadar zamandır burada olduğu umurumda değil."
+  ]
+ },
+ "lp_gasp": {
+  "_": [
+   "Dur. Biri GİTMELİ mi?!",
+   "İşten çıkarma mı?! CUMAYA kadar mı?!",
+   "Eyvah. Eyvah eyvah eyvah."
+  ]
+ },
+ "lp_tell": {
+  "_": [
+   "Panik yapma. Ama işten çıkarmalar olacak. Cumaya kadar.",
+   "Ahmet'i duydum. Biri kovulacak. Cumaya kadar!",
+   "CV'ni güncelle. Ciddiyim."
+  ]
+ },
+ "lp_tell_react": {
+  "_": [
+   "NE?!",
+   "Kim? KİM?",
+   "Aman tanrım. Kira ödüyorum ben!"
+  ]
+ },
+ "lp_doom": {
+  "_": [
+   "Mahvolduk.",
+   "CV'mi güncelliyorum. Şu an.",
+   "Ben miyim? Benim, değil mi?",
+   "O arabayı almamam gerektiğini BİLİYORDUM."
+  ],
+  "burak": [
+   "...Aslında tam zamanında."
+  ],
+  "ece": [
+   "Ama ben stajyerim! Stajyerleri kovabilirler mi?!"
+  ],
+  "mert": [
+   "Ben gidersem güzel zımbayı da götürürüm."
+  ]
  }
 }
