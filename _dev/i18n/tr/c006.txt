@@ -1,0 +1,108 @@
+1313|Yönlendirilen bir öğle yemeği daveti, panodaki fotoğrafın 'çifti' {a} ve {b} ile çifte randevuya dönüştü. Nasıl olduysa harika geçti.
+1314|{a} ile {b} sahte çift fotoğrafı hakkında konuştu — ve o kadar da sahte olmamasına itirazları olmadığına karar verdi.
+1315|{a} ile {b} sahte çift fotoğrafını panodan indirdi — ve birlikte öğle yemeğine çıktı. Sadece ikisi.
+1316|{actor} bir teslim tarihini kaçırdı.
+1317|{actor} büyük bir anlaşma kapattı ve yüksek sesle kutladı. Bütün ofis alkışladı.
+1318|Biri ofisin kahvesini kafeinsizle değiştirdi. Her yerde esneyen insanlar var.
+1319|{actor}, para biriktirmek için ucuz kafeinsize geçmekle Zeynep'i suçladı. Zeynep yapmadığına yemin ediyor.
+1320|{best}, {owner:in} Ahmet'e yazdığı bir e-postada sessizce kendisini savunduğunu öğrendi. {best} duygulandı.
+1321|{defender}, {actor:e} karşı {target:i} savundu.
+1322|Deniz, Ahmet'e ispiyonladı: "{gossip}"
+1323|{actor}, {target:in} boş masasına gizlice gidip evraklarını darmadağın etti. Kimse görmedi. Galiba.
+1324|{actor}, {target:in} masasını darmadağın etti — ve {spotter} her şeyi gördü.
+1325|{victim} ortak sürücünün boş olduğunu fark etti. Ofis çapında panik. Parmaklar {suspect:i} gösteriyor.
+1326|Ahmet bir isim istedi. Kimse konuşmadı — o da {suspect:i} suçladı. ({culprit} tek kelime etmedi.)
+1327|Ahmet bir isim istedi. {culprit} öne çıktı ve ortak sürücüyü sildiğini itiraf etti.
+1328|Burak ortak sürücüyü geri yükledi ve suçu bir "senkronizasyon hatasına" attı. {culprit:i} koruyor.
+1329|Burak ortak sürücüyü geri yükledi — ve kayıtlar silme işleminin {culprit:in} bilgisayarından yapıldığını gösterdi.
+1330|{culprit}, silinen klasörü Burak'a itiraf etti. Yedek yok.
+1331|{culprit} yanlışlıkla bütün ortak klasörü sildi. Henüz kimse bilmiyor.
+1332|{culprit}, silinen klasörü Burak'a itiraf etti. Burak onu yedekten geri yükledi — sessizce.
+1333|Burak ortak sürücüyü geri yükledi. Kriz bitti.
+1334|Ofis ışıkları disko moduna geçti. Ofisin yarısı dans ediyor.
+1335|Ahmet hışımla sigorta kutusuna gidip disko ışıklarını kapattı.
+1336|Ahmet {target:e} ulaşamadı — telefonu Rahatsız Etmeyin modundaydı. Hışımla masasına geldi.
+1337|Toplantı odası kilitliydi. {fixer} anahtarı almaya giderken insanlar kapının önüne yığıldı.
+1338|{actor} toplantı odasının kilidini açtı. İçeriden kilitlenmişti — içeride kimse yokken.
+1339|Takvimde aynı saate ikinci bir 'toplantı' belirdi. {actor} ile {target} mutfakta onu bekledi — sonra gerçek toplantıya koşarak, geç gittiler.
+1340|Ahmet terfiyi aniden saatler önce açıkladı. Duymak için herkes etrafta değildi.
+1341|Ece kahve makinesini tamir etti. Nasıl, kimse bilmiyor.
+1342|Ece kahve makinesini tamir etmeye çalıştı ve fışkıran kahveyi yedi.
+1343|Ece, {target:in} ortalığı toplamasına yardım etti.
+1344|{actor:in} Ahmet hakkındaki şikâyeti bütün ofise gitti — Ahmet dahil.
+1345|Ahmet'in ekibe 'tembel' dediği e-posta ekibe gitti.
+1346|Zeynep'in dedikodu e-postası herkese gitti: "{fact}"
+1347|Mert'in Ceren'e aşk mektubu HERKESE gitti.
+1348|{actor:in} {subject} hakkında içini döktüğü yazı bütün ofise gitti!
+1349|Deniz'in Selin'e karşı planı herkese e-postayla gitti!
+1350|{actor:in} özel e-postası HERKESE gitti: "{fact}"
+1351|{target}, e-posta için {actor:den} özür diledi.
+1352|{actor:in} Ahmet hakkındaki şikâyeti {target:e} gitti.
+1353|Ahmet'in huysuz e-postası {target:e} gitti.
+1354|Zeynep'in {intended} için yazdığı dedikodu {target:e} gitti.
+1355|Mert'in Ceren hakkındaki mesajı {target:e} gitti.
+1356|{actor:in} {subject} hakkındaki öfke dolu yazısı {target:e} gitti.
+1357|Deniz'in Selin'e karşı planı {target:e} gitti.
+1358|{actor:in} özel mesajı {target:e} gitti: "{fact}"
+1359|Biri toplantı davetini sildi. Ahmet toplantı odasında neredeyse tek başına oturdu — ve çok öfkeli.
+1360|Ayın Çalışanı belgesinde {target} yazıyordu. Ahmet herkesin önünde bunu {rich} olarak düzeltti. Acımasız.
+1361|Ayın Çalışanı belgesinde {target} yazıyor. Ahmet onu seçmemişti — ama böyle kalmasına karar verdi.
+1362|Zeynep masrafları hakkında {suspect:i} sorguladı. Her şey tutarlı çıktı.
+1363|Zeynep, bir iyilik karşılığında {suspect:in} masraf sırrını saklamaya karar verdi.
+1364|Zeynep masrafları hakkında {suspect:i} sorguladı. {suspect} ona kimseye söylememesi için yalvardı.
+1365|Zeynep, {suspect:in} şüpheli masraflarını Ahmet'e bildirdi.
+1366|Zeynep, {suspect:in} masraf beyanlarında tuhaf bir şey buldu.
+1367|Yangın alarmı sırasında herkes sıkışan ön kapıda mahsur kaldı. Tam bir kaos. En yüksek sesle {panicker} çığlık attı.
+1368|Yangın alarmı sırasında herkes sıkışan ön kapıda mahsur kaldı. {hero} soğukkanlılığını koruyup idareyi ele aldı.
+1369|Ahmet tahliyeyi yönettiği için herkesin önünde {hero:i} övdü.
+1370|Ahmet sıkışan ön kapı için {scapegoat:i} suçladı. {scapegoat:in} bununla hiçbir ilgisi yoktu.
+1371|{hero} ön kapıyı açtı. Herkes dışarı çıktı — tam alarm sustuğunda. Yine de alkış.
+1372|{target}, {organizer:den} 'gelen' iş çıkışı içki davetinin dışında bırakıldı. {organizer} pek de düzeltmedi.
+1373|{target}, {organizer:den} 'gelen' iş çıkışı içki davetinin dışında bırakıldı. {organizer}, onun da davetli olduğunda ısrar etti.
+1374|{actor} ile {target} kimsenin göndermediği bir davet yüzünden buluştu. Çok tuhaf oldu.
+1375|{actor} ile {target} birbirinden toplantı daveti aldı. İkisi de göndermemişti. Yine de kahve içtiler.
+1376|{actor} ile {target} kimsenin göndermediği bir davet yüzünden mutfakta buluştu. Uzun, sıcak bir sohbete dönüştü...
+1377|Pano bugünkü toplantının adını '{target:in} vedası' koymuş. {target} ayrılmıyor... ama artık düşünmeye başladı.
+1378|Pano bugünkü toplantının adını '{target:in} vedası' koymuş. {target} ayrılmıyor — ama insanların onu ne kadar özleyeceğini duydu.
+1379|{actor} ile {target} artık konuşmuyor.
+1380|{actor} ile {target} tek kelime etmeden birbirinin yanından geçti. Hâlâ küsler.
+1381|{actor:in} kâğıtları masadan kendi kendine uçtu!
+1382|{actor} masasını darmadağın buldu.
+1383|{actor} birden sunum listesinin başına geçti. Hazır değildi. Belli oldu.
+1384|{actor} sunum listesinin başına alındı — ve döktürdü.
+1385|Biri öğlen mikrodalgada balıklı köri ısıttı. Etikette {target:in} olduğu yazıyordu. {target} kendisinin olmadığına yemin ediyor.
+1386|{actor}, {obj:i} tamir etti.
+1387|{actor}, {requester} için {obj:i} tamir etti.
+1388|Ofis ışıkları kendi kendine titremeye başladı. Bazıları artık ofiste hayalet olduğuna emin.
+1389|Mert, Ceren'e kur yaptı. İyi gitmedi.
+1390|Mert, Ceren'e kur yaptı. İyi gitti!
+1391|{a} ile {b:in} küslüğünün ikinci günü. Ofis etraflarında yumurta kabuğunun üstünde yürüyor. {mediator} fark etti.
+1392|{a} ile {b:in} küslüğünün ikinci günü. Kimse araya girmeye cesaret edemiyor.
+1393|{organiser}, {leaver:in} veda hediyesi için gizlice para topluyor. Herkes kartı imzaladı.
+1394|Ahmet, {leaver:e} istifa etmemesi için yalvardı. {leaver:in} neden bahsettiği hakkında hiçbir fikri yoktu.
+1395|Ahmet, {leaver:e} istifa etmemesi için yalvardı. {leaver} onu düzeltmedi — ve bir zam kopardı.
+1396|{organiser}, herkese {leaver:in} istifa ettiğini söyledi — istifa mektubu ve 'İstifa ediyorum' otomatik yanıtı yeterli kanıttı.
+1397|Ofis, {leaver:e} sürpriz bir veda partisi yaptı. {leaver} ayrılmıyor. Pastayı yine de aldı.
+1398|Ofis {leaver:e} veda partisi yaptı — ve {leaver}, yeni bir zamla birlikte kaldığını açıkladı. İnsanlar hediye paralarını geri istiyor.
+1399|{a} ile {b} sonunda mutfakta konuşup anlaştı. Yeniden arkadaşlar — {mediator} sayesinde.
+1400|{mediator}, {other} ile barışması için {target:i} ikna etmeye çalıştı. {target} reddetti.
+1401|{mediator}, {other} ile olan küslüğü hakkında {target:le} konuştu. {target} yumuşuyor.
+1402|{mediator}, {a} ile {b:i} aynı odaya soktu. Berbat geçti. Küslük hiç olmadığı kadar kötü.
+1403|Buzdolabında {target} 'imzalı' pasif agresif bir not var. İnsanlar bunu çok küçük buluyor. {target} yazmadı.
+1404|Zeynep, {target:in} masraf beyanında sahte bir Ahmet imzası fark etti. {target} hiçbir şey bilmediğine yemin ediyor.
+1405|{target:in} masraf beyanı sahte bir imzayla sorunsuz geçti. Kimse fark etmedi. Henüz.
+1406|Ahmet, ezeli rakipler {a} ile {b:i} çeyrek dönem raporunda birlikte çalıştırıyor.
+1407|{a} ile {b} raporu arşivde birlikte hazırladı. Yazı tipleri yüzünden bağırış çağırış oldu.
+1408|{a} ile {b} raporu arşivde birlikte hazırladı — ve her şeye rağmen iyi gitti.
+1409|{a} ortak raporu teslim etti ve başarının çoğunu sahiplendi. {b} patladı.
+1410|{a} ile {b} ortak raporu teslim etti. Ahmet bayıldı ve ikisini de övdü.
+1411|{actor}, buzdolabından {target:in} öğle yemeğini sessizce yedi.
+1412|{actor:in} telefonu masasından kayboldu ve ofis buzdolabında çıktı. Buz gibi.
+1413|Ön kapı sıkıştı. {fixer} açana kadar {actor} içeride mahsur kaldı.
+1414|{victim}, buzdolabına {signer:e} hitaben öfkeli bir karşı not yapıştırdı. Buzdolabı savaşı başladı.
+1415|{victim}, buzdolabı notu yüzünden {signer:le} yüzleşti. {signer} ters cevap verdi. Mutfak artık savaş alanı.
+1416|{victim}, buzdolabı notu yüzünden {signer:le} yüzleşti. {signer} el yazısının kendisine ait olmadığını kanıtladı. Şimdi ikisi de üçüncü birinden şüpheleniyor.
+1417|{victim} buzdolabını boş ve {signer} 'imzalı' bir not buldu. {victim}, herkesin yemeğini {signer:in} çöpe attığına emin.
+1418|{actor}, iletilen sohbet yüzünden {target:le} yüzleşti. {target} geri adım atmadı. Artık konuşmuyorlar.
+1419|{actor}, {owner:in} kendisi hakkında yazdığı bir sohbeti aldı. Hiç de iltifat dolu değildi.
+1420|{actor}, iletilen sohbet yüzünden {target:le} yüzleşti. {target} özür diledi — biraz işe yaradı.
