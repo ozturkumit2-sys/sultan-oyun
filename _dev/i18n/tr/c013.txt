@@ -1,0 +1,124 @@
+2135|{actor} yazıcının önündeki su birikintisinde kaydı. Hem de muhteşem bir şekilde.
+2136|{actor:in} interneti kaplumbağa hızına düştü. İş de öyle.
+2137|{actor} yavaş internetine pes edip uzun bir kahve molasına çıktı.
+2138|{actor}, {target:in} stresli olduğunu fark etti ve ona bir atıştırmalık getirdi.
+2139|Atıştırmalık kutusu {target:in} çekmecesinden çıktı — ve {target} geri vermedi.
+2140|Atıştırmalık kutusu {target:in} çekmecesinden çıktı. {target} hepsini dağıttı. Anında popülerlik.
+2141|{actor} gizlice geç geldi.
+2142|{owner:in} özel klasörü birden bütün ofise görünür oldu. {actor} bir göz attı.
+2143|Mantar panodaki bir not, {subject} hakkındaki söylentinin kaynağı olarak {origin:i} gösterdi. {subject} okudu.
+2144|Biri su sebilini bir 'spa köşesine' çevirmiş. İnsanlar orada oyalanıp duruyor.
+2145|Ahmet 'spa' su sebilinin başında bir kalabalık buldu ve dağıttı.
+2146|Ahmet'in {target:e} gönderdiği acil talep spama düşmüştü. Ahmet umursamadı: bugün teslim.
+2147|Ahmet'in {target:e} gönderdiği acil talep spamda takılı kalmıştı. Ahmet suçu e-posta sistemine attı.
+2148|{crush}, {owner:i} geri aradı — hoparlörde. Ofisin yarısı {owner:in} {crush:e} olan duygularını itiraf ettiğini duydu.
+2149|{crush} ve {owner}, hoparlör itirafını bir kahve eşliğinde gülüp geçti.
+2150|{crush}, {owner:i} hoparlörde geri aradı. {owner} paniğe kapılıp telefonu kapattı. Herkes tahmin edecek kadarını duydu.
+2151|{crush}, {owner:e} duyguların karşılıklı olduğunu söyledi. Hoparlör onlara iyilik yaptı.
+2152|{crush}, hoparlör itirafından sonra {owner:i} kibarca geri çevirdi.
+2153|{teaser}, hoparlör itirafı yüzünden {owner:e} takılmayı bırakmıyor.
+2154|{owner:in} özel telefon görüşmesi hoparlörden çaldı. Yakındaki herkes her kelimeyi duydu.
+2155|Ece, {target:in} üstüne kahve döktü. {target} hiç eğlenmedi.
+2156|Ece, {target:in} üstüne kahve döktü; {target} gülüp geçti.
+2157|{leader}, elinde dilekçeyle bir grubu Ahmet'in odasına götürdü. Ahmet zamlar için savaşacağına söz verdi. Herkeste sevinç.
+2158|{leader:in} zam dilekçesi yeterli imzayı topladı. Sıradaki durak: Ahmet'in odası.
+2159|{leader:in} zam dilekçesi neredeyse hiç imza almadı. İsyan söndü.
+2160|{leader}, mutsuzları mutfakta topladı. Konu zamlara geldi.
+2161|{leader}, elinde dilekçeyle bir grubu Ahmet'in odasına götürdü. Ahmet hepsini kapı dışarı etti. Hava kasvetli.
+2162|{owner:in} {friend} için yazdığı 'saat 1'de öğle yemeği?' notu {target:in} masasına düştü. Sonunda birlikte öğle yemeği yediler.
+2163|Kahve bugün üç kat sert. {actor} titriyor.
+2164|{owner:in} sıradan e-postası 'ACİL: işten çıkarmalar' konusuyla gitti. Ofis panikte.
+2165|{owner:in} e-postası 'Bu akşam bende parti var!' başlığıyla gitti. İnsanlar katılacağını bildiriyor. {owner:in} hiç parti planı yok.
+2166|{owner:in} e-postası 'Re: zammın' başlığıyla gitti. Şimdi herkes {owner:in} zam aldığını sanıyor.
+2167|{actor}, Ahmet'e yağ çekti. İşe yaradı.
+2168|{actor}, Ahmet'e yağ çekmeye çalıştı. Ahmet yemedi.
+2169|{actor} ofis malzemesi aramaya gitti ve HEPSİNİ {target:in} çekmecesinde istiflenmiş buldu.
+2170|{actor}, masasını {suspect:in} kurcaladığından şüpheleniyor.
+2171|{target} yanlışlıkla {owner:in} telefonunu aldı ve kendisine yazılmamış bir mesajı okudu.
+2172|{owner} ve {target} telefonlarını geri değiştirdi. {target} bir şeyler biliyormuş gibi görünüyordu.
+2173|İki performans değerlendirmesi yer değiştirdi. Ahmet {owner:i} övdü... ve {target:i} {owner:in} rakamları yüzünden sorguya çekti.
+2174|Resepsiyon santrali çıldırdı. Aramalar ofisin her yerinde yanlış masalara düşüyor.
+2175|{actor}, {intended} için gelen bir aramayı açtı — ve öğrenmemesi gereken bir şey öğrendi.
+2176|{target}, Ahmet'e karşılık verdi!
+2177|{actor}, Ceren konusunda Mert'e takıldı.
+2178|Biri (sen) termostatla oynadı. Şu an {temp}.
+2179|Ahmet'in {rich} için yazdığı teşekkür notu {target:e} gitti. {target} bunun için Ahmet'e teşekkür etti. Herkes için tuhaf bir an.
+2180|{target}, {actor} ve termostat hakkında söyleniyor.
+2181|{actor} sıcaklığı değiştirmeye çalıştı — termostat kilitliydi.
+2182|Termostat savaşı! {actor} ve {target} klima için kapışıyor.
+2183|Mutfakta 'Her şeyi tamir ettiğin için teşekkürler Burak' yazan bir bahşiş kavanozu belirdi. İnsanlar para atıyor. Burak'ın dili tutuldu.
+2184|{target}, yapmadığı bir şeyin suçunu üstlendi.
+2185|{actor}, uzak bir şubeye tayin talebi buldu. Ahmet pek de inkâr etmedi.
+2186|{actor}, uzak bir şubeye tayin talebi buldu. Ahmet onu asla göndermeyeceğine yemin etti. {actor} kendini değerli hissediyor.
+2187|İsimsiz bir çay-kurabiye tepsisi ofisin yarısını mutfağa çekti. Övgüyü {claimer} kaptı.
+2188|{target:in} müşteri e-postası yazım hatalarıyla doluydu. Neyse ki müşteri 'saygılırımla'yı komik buldu.
+2189|Bir müşteri, {target:in} e-postasındaki yazım hatalarından şikâyet etti. Ahmet köpürdü.
+2190|Beklenmedik dayanışma: {actor}, {target:in} bir teslim tarihini yakalamasına yardım etti.
+2191|{target} toplantı davetinden sessizce çıkarıldı — ve sonradan öğrendi.
+2192|{actor:in} 'ölü' monitörünün sadece fişi çekilmişti. Fark etti. Sonunda.
+2193|{actor:in} {target:e} yazdığı özür okunmadan kayboldu. Şimdi özrün hiç gönderilip gönderilmediği konusunda kavga ediyorlar.
+2194|{actor}, özrünün {target:e} ulaştığını sanıyordu. Ulaşmamış. {actor} da yüz yüze özür diledi — ve işe yaradı.
+2195|{actor} masasında sessizce CV'sini güncelliyor.
+2196|{spotter}, {actor:in} ekranında bir iş ilanı sitesi gördü.
+2197|{actor:in} masasındaki her kâğıda birden ACİL damgası basılmış. {actor} panik içinde öğle arasında da çalışıyor.
+2198|{target}, {actor:in} 'ACİL' kâğıtlar içinde boğulduğunu gördü ve yardım etti.
+2199|{listener}, stresli {actor:i} teselli etti.
+2200|{actor} virüs var diye çığlık attı. {target} sahte açılır pencereyi iki saniyede kapattı. Ofis hâlâ gülüyor.
+2201|{actor:in} 'virüsü' yüzünden {target} ofis ağının fişini çekti. Kimse çalışamıyor.
+2202|{owner}, {crush:e} itiraf provası yaptığı bir sesli mesaj kaydetti. Mesaj {crush:e} ulaştı.
+2203|{owner:in} özel bir sesli mesajı {target:in} posta kutusuna düştü.
+2204|Panoya göre bugünkü toplantı '5 dakika' sürecekti. On dakika sonra insanlar Ahmet'i bırakıp çıkmaya başladı.
+2205|{actor:in} duvar kâğıdı tropik bir plaj. Verimlilik: yok oldu.
+2206|{actor:in} duvar kâğıdı artık dev bir Ahmet fotoğrafı. İnsanlar bakakalıyor.
+2207|{actor}, hayaletin seçtiği duvar kâğıdını tutmaya karar verdi.
+2208|{actor} oturduğunda duvar kâğıdında kırk kedi yavrusu buldu.
+2209|Biri ofisin duvar saatini {what} almış. İnsanlar ona güveniyor.
+2210|{actor} duvar saatine güvenip erkenden toplandı. Ahmet onu kapıda yakaladı.
+2211|{actor}, su sebilini ölü buldu.
+2212|Ece su sebilini tamir etmeye çalıştı. Dinlenme alanı artık bir göl.
+2213|{owner:in} telefonundan gelen 'konuşmamız lazım' mesajı, {crush:e} beklenmedik bir itirafla sonuçlandı.
+2214|{crush}, {owner:den} gelen 'konuşmamız lazım' mesajı yüzünden bir saat panik yaptı. {owner} o mesajı hiç göndermemişti.
+2215|Ahmet son dakikada {target:in} kucağına acil bir rapor bıraktı.
+2216|Ahmet, {target:in} kucağına acil bir rapor bıraktı; {target} da onu derhal {helper:e} paslardı.
+2217|{target}, Ahmet'in son dakika raporuna itiraz etti. Ahmet geri adım atmadı.
+2218|Toplantıda doğrudan kurcalanmış terfi dosyasından okuyan Ahmet, yeni ekip lideri olarak {credited:i} açıkladı. {rightful} şokta.
+2219|Ahmet terfiyi herkesin önünde düzeltti: terfi {rightful:in}. {credited} terfiyi tam bir öğleden sonra elinde tuttu.
+2220|{rightful}, Ahmet'e gitti: terfi dosyası kurcalanmış.
+2221|Ahmet terfiyi geri almayı reddetti. Terfi {credited:de} kalıyor. {rightful} öfkeden kuduruyor.
+2222|Kahve makinesini tamir etme övgüsünü {target} kaptı. (Tamir eden sendin.)
+2223|{target} toplantıya yanlışlıkla davet edildi — ve odadaki en iyi fikri ortaya attı.
+2224|{target}, hiç katılmaması gereken bir toplantıya geldi. Ahmet onu geri gönderdi.
+2225|Ahmet, {target:e} yanlış isimle seslendi. Yine.
+2226|{owner}, bir 'cevapsız aramaya' geri döndü — numara {target:in} numarasıydı. Uzun uzun sohbet ettiler.
+2227|{owner}, {target:e} bir 'cevapsız aramayı' geri döndü. İkisi de aramamıştı. Ortam gerildi.
+2228|Mantar panodaki bir nota göre bu yılki zam bütçesi sıfır. Ofisin morali yerle bir oldu.
+2229|Zeynep, Ahmet'e 'sıfır zam bütçesi' notunun sahte olduğunu söyledi. Ahmet notu söküp attı — ama hasar çoktan verildi.
+2230|Zeynep, {target:e} bunu {suspect:in} yaptığını söyledi.
+2231|{actor} beni suçladı. Sakin sakin ama yine de.
+2232|Talebimin onaylandığını sanmıştım. Onaylanmamış. Ahmet bana güldü.
+2233|{target} ile kavga ettim.
+2234|{actor} dedikodu yapmak yerine bana doğrudan sordu.
+2235|Ahmet muhasebe hatamı yakaladı.
+2236|{target} projemin övgüsünü kaptı.
+2237|{target}, Ahmet'e o projenin benim olduğunu söyledi.
+2238|Ahmet beni gerçekten dinledi.
+2239|Ahmet bana son uyarıyı verdi.
+2240|Herkes bana sürpriz doğum günü partisi yaptı.
+2241|Ahmet, suçu {scapegoat:e} atarken beni yakaladı.
+2242|Ahmet, {culprit:in} hatası için beni suçladı.
+2243|{target}, Ahmet'in önünde kendi hatası için beni suçladı.
+2244|Ahmet takvim karmaşası için beni suçladı.
+2245|Ahmet iyi iş çıkardığımı söyledi.
+2246|Ahmet herkesin önünde bana bağırdı.
+2247|Boğulurken {actor} bana bir atıştırmalık getirdi.
+2248|Ayrıldık.
+2249|Var olmayan bir randevuya gittim.
+2250|{friend}, Ahmet'e karşı beni idare etti.
+2251|{target} BENİM işimi kendi işiymiş gibi sundu.
+2252|Elektrik kesintisini birlikte atlattık.
+2253|{defender} beni savundu.
+2254|Biri masamı talan etti.
+2255|Burak beni felaketten kurtardı ve ağzını sıkı tuttu.
+2256|Ahmet son dakikada acil işi benim kucağıma bıraktı.
+2257|Ece masamı toplamama yardım etti.
+2258|{target} ile kazara kahve içmiş olduk.
