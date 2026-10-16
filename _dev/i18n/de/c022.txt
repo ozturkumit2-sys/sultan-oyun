@@ -1,0 +1,231 @@
+4225|{avenger}. Es war {avenger}. Ich WEISS es.
+4226|Natürlich. {avenger}. Rache, was?
+4227|Das trägt eindeutig {suspect:s} Handschrift.
+4228|{suspect}! Ich weiß, dass du es warst!
+4229|Warst du das? Sei ehrlich.
+4230|Sehr erwachsen. Wirklich sehr erwachsen.
+4231|Du willst Krieg? Kannst du haben.
+4232|Ha! Hat ja lange genug gedauert.
+4233|Jetzt sind wir quitt.
+4234|Hoppla. War ich das etwa?
+4235|...Ja. Das war ich. Es war dumm. Tut mir leid.
+4236|Okay, okay. Ich war wütend. Waffenstillstand?
+4237|...Na gut. Waffenstillstand. Aber du reparierst meine Tastatur.
+4238|Okay. Wir sind quitt. Erledigt.
+4239|*macht einen großen Bogen um {b:s} Schreibtisch*
+4240|Ich setz mich nicht neben {b}.
+4241|Sag {b}, ich hab zu tun. Für immer.
+4242|Oh, {a} tut so, als gäbe es mich nicht? Schön. Das kann ich auch.
+4243|*ignoriert {a} demonstrativ*
+4244|Ihr zwei könnt so nicht weitermachen. Alle leiden darunter.
+4245|Können wir über dich und {other} reden? Fünf Minuten?
+4246|Das Leben ist zu kurz. Redet einfach miteinander.
+4247|...Ich weiß. Mir fehlt, wie es früher war.
+4248|Na gut. Wenn eine Entschuldigung kommt, hör ich zu.
+4249|Vielleicht. Ich hab das auch satt.
+4250|Nein. Nicht nach dieser Aktion.
+4251|Halt dich da raus. Bitte.
+4252|Da weiß jemand ganz genau, was er getan hat.
+4253|...Hi.
+4254|Also. Ähm.
+4255|Das ist unangenehm.
+4256|Es tut mir leid. Ich hab Sachen gesagt, die ich nicht so gemeint hab.
+4257|Ich bin zu weit gegangen. Tut mir leid.
+4258|Können wir einfach... neu anfangen?
+4259|Mir auch. Mir tut's auch leid.
+4260|Ja. Fangen wir neu an.
+4261|Komm her, du Idiot.
+4262|Sorry? DAS ist deine Entschuldigung?
+4263|Du hast dich kein bisschen verändert.
+4264|Vergiss es.
+4265|Warum dauert das so lange?
+4266|Ich bleibe hier stehen, bis es fertig ist.
+4267|Ist das etwa die Schriftart, die Sie nehmen? Wirklich?
+4268|...Es ist fertig, wenn es fertig ist.
+4269|Ich arbeite, so schnell ich kann.
+4270|*tippt sehr, sehr laut*
+4271|Wenn er noch EIN Mal um meinen Schreibtisch kreist...
+4272|Ich schwöre, heute sag ich was.
+4273|So kann ich nicht arbeiten. Ich sag's ihm.
+4274|Mach's. Einer muss es ja tun.
+4275|Sag's ihm! Wir denken das alle.
+4276|Ich steh hinter dir.
+4277|Lass es. Nicht heute. Er hat schlechte Laune.
+4278|Such dir deine Kämpfe aus. Das ist nicht der richtige.
+4279|Atmen. Erst mal Kaffee.
+4280|Bei allem Respekt, Ahmet Bey — ich kann nicht arbeiten, wenn Sie mir ständig im Nacken sitzen!
+4281|Genug! Entweder Sie vertrauen mir, dass ich meinen Job mache, oder Sie machen ihn selbst!
+4282|Sie kreisen um mich, Sie nörgeln, Sie sagen nie Danke. Ich tu nicht länger so, als wäre das okay.
+4283|Wie BITTE?
+4284|Wie können Sie es WAGEN, so mit mir zu reden!
+4285|Vor allen Leuten? Wirklich?
+4286|Oh nein.
+4287|Hat das gerade echt...
+4288|*schnappt nach Luft*
+4289|Popcorn. Jemand soll Popcorn holen.
+4290|Ehrlich gesagt: Da ist was dran.
+4291|Ahmet Bey, wir sehen das alle so.
+4292|Falls es was zählt — ich stimme zu.
+4293|...So, so.
+4294|Alle? Wirklich?
+4295|Hm.
+4296|In mein Büro. Sofort.
+4297|Wegen vorhin...
+4298|...Vielleicht war ich etwas zu viel. Ich halte mich zurück.
+4299|Ich habe verstanden. Ich versuche es. Mehr sage ich dazu nicht.
+4300|Na gut. Ich höre auf, um Sie herumzuschleichen. Meistens.
+4301|Das war Ihre letzte Warnung. Nächstes Mal: Personalabteilung.
+4302|Reden Sie noch einmal so mit mir, und Sie sind raus.
+4303|Betrachten Sie das als offizielle Abmahnung.
+4304|Onkel— ich meine, Ahmet Bey! Hier ist die Akte!
+4305|Onkelchen, äh— AHMET BEY. Entschuldigung. Der Bericht.
+4306|Bitte sehr, Onkel Ahm— Herr Ahmet. Chef.
+4307|*hust* Danke, ECE.
+4308|...Ja. Danke. Praktikantin.
+4309|*sehr lautes Husten*
+4310|...Onkel?!
+4311|Hat sie gerade ONKEL gesagt?
+4312|Oho-ho.
+4313|Soso... „Onkel Ahmet“? Willst du das erklären?
+4314|Ece, Schätzchen. Onkel? Echt jetzt?
+4315|Gibt es etwas, das du mir über dich und Ahmet erzählen möchtest?
+4316|Das ist so ein... türkisches Ding! Wir nennen alle Chefs Onkel!
+4317|Onkel? Ich hab „Knöchel“ gesagt! Ich hab mir den Knöchel verletzt!
+4318|Ich hab nicht Onkel gesagt. Oder? Nein.
+4319|...Okay. Er ist mein Onkel. Bitte, BITTE sag's niemandem.
+4320|Na gut. Ja. Der Bruder meiner Mutter. Ich wollte es allein schaffen.
+4321|Meine Lippen sind versiegelt. Größtenteils.
+4322|Dein Geheimnis ist bei mir sicher.
+4323|Ach. Natürlich verrate ich nichts.
+4324|Ceren, du weißt doch alles. Ist Ece mit Ahmet verwandt?
+4325|Kurze Frage, ganz harmlos: Ist Ece Ahmets Nichte?
+4326|Das zu sagen, steht mir nicht zu.
+4327|Über die Familien anderer Leute rede ich nicht. Sorry.
+4328|Frag Ece. Oder besser: lass es.
+4329|...Wer hat dir das erzählt? — Ich meine. Kein Kommentar.
+4330|Das kann ich... nicht bestätigen. Was kein Nein ist.
+4331|Das glaubst du NIE. Ece ist Ahmets NICHTE.
+4332|Weißt du noch, wie Ece das Praktikum ohne Vorstellungsgespräch bekommen hat? Rate mal, warum. Onkel Ahmet.
+4333|Vetternwirtschaft-Alarm. Ece. Ahmet. Familie.
+4334|DAS erklärt so einiges.
+4335|Im Ernst?! Unglaublich.
+4336|Ich WUSSTE, dass sie eine Sonderbehandlung bekommt.
+4337|...Ich wünschte wirklich, du hättest mir das nicht erzählt.
+4338|Ich weiß, was alle sagen. Ja, Ahmet ist mein Onkel. Und ich werde doppelt so hart arbeiten, um zu beweisen, dass ich hierhergehöre.
+4339|Okay. Alle wissen es. Er ist mein Onkel. Ich habe nie um eine Sonderbehandlung gebeten. Beurteilt mich nach meiner Arbeit.
+4340|Fair. Du hast immer deinen Teil geleistet.
+4341|Ehrlich? Du arbeitest hier am härtesten.
+4342|Respekt, Ece.
+4343|Leicht gesagt, wenn dein Onkel deine Beurteilung unterschreibt.
+4344|Mhm.
+4345|Klar.
+4346|Familienbetrieb, was?
+4347|Okay. Wer war das?
+4348|Das hat jemand mit Absicht gemacht.
+4349|Wer hat an meinen Sachen rumgefummelt?!
+4350|Jemand sabotiert mich. Schon wieder.
+4351|WER ist dafür verantwortlich?
+4352|Das war kein Bug. Das war ein Mensch.
+4353|Hab... hab ich das gemacht? Nein. Das war jemand anderes.
+4354|Na schön, Spaßvogel. Zeig dich.
+4355|Das trägt eindeutig {suspect:s} Handschrift.
+4356|Ich wette, das war {suspect}.
+4357|{suspect}. Es ist immer {suspect}.
+4358|Ich weiß genau, wer das war. {suspect}.
+4359|Oh, ich hab da eine Theorie. Fängt an mit... ach, egal: {suspect}.
+4360|{suspect} will, dass ich einen Fehler mache. Süß.
+4361|{target}. Warst du das? Sei ehrlich.
+4362|Okay, {target}, Spaß beiseite. Warst du das?
+4363|Ich weiß, dass du es warst, {target}.
+4364|{target}, ich hätte gern eine Erklärung. Sofort.
+4365|{target}! Mein Büro wäre ein guter Ort für ein Geständnis.
+4366|{target}. Logs lügen nicht. Du solltest es auch nicht.
+4367|{target}... ähm... warst du das? Sorry, dass ich frage!
+4368|Was? Ich hab nichts angefasst!
+4369|Ich?! Ich war den ganzen Tag an meinem Platz!
+4370|Warum geben immer alle mir die Schuld?
+4371|Ich würde mir das SO gern auf die Fahne schreiben, aber nein.
+4372|Bitte. Wenn ich es gewesen wäre, würdest du es nie erfahren.
+4373|Ich war's nicht! Ich schwöre auf meinen Kaffee!
+4374|Schätzchen, ich REDE nur über Streiche.
+4375|Ich hab Besseres zu tun. Buchstäblich alles andere.
+4376|Lüg mich nicht an.
+4377|Klar. Und ich bin {me?der Vorstandschef|die Vorstandschefin}.
+4378|Unglaublich.
+4379|Du lügst, und das wissen wir beide.
+4380|...Okay. Vielleicht warst du's nicht. Sorry.
+4381|Na gut. Mein Fehler.
+4382|Wer zum Teufel dann...?
+4383|Ha! Okay, okay. Waffenstillstand?
+4384|Na gut. Aber ich behalte dich im Auge.
+4385|Wenn du es nicht warst, schulde ich dir einen Kaffee.
+4386|{target}, mit meinem Computer stimmt was nicht. Hilfe?
+4387|{target}! Notfall. Technischer Notfall.
+4388|Kannst du dir meinen Rechner ansehen? Er ist besessen.
+4389|{target}. Mein Computer. Sofort.
+4390|{target}, ich hab eine Deadline, und mein PC hat mich gerade verraten.
+4391|{target}, ich glaube, ich hab das Internet kaputt gemacht. Schon wieder.
+4392|{target}, mein Lieblingsgenie. Ich hab ein winziges Problem.
+4393|Zwei Minuten.
+4394|Mal sehen.
+4395|Okay, okay. Bin dran.
+4396|*seufz* Aus- und wieder einsch— ach, egal. Ich mach's selbst.
+4397|Erst mal ein Ticket.
+4398|Nach dem Mittagessen. Vielleicht.
+4399|Schon mal aus- und wieder eingeschaltet?
+4400|Ich bin nur ein Mensch, Leute.
+4401|Ticket. Warteschlange. Geduld.
+4402|Das ist kein Fehler. Das hat jemand mit Absicht gemacht.
+4403|Interessant. Das war Handarbeit.
+4404|Da hat jemand an der Tastatur rumgespielt.
+4405|Das war kein Zufall. Jemand war an diesem Rechner.
+4406|{to?Ein echter Lebensretter|Eine echte Lebensretterin}!
+4407|Danke!!
+4408|Das vergess ich nicht.
+4409|Ich schulde dir einen Döner. Zwei Döner.
+4410|...Das hab ich nicht gesehen. Ich hab gar nichts gesehen.
+4411|Nicht meine Sache. Nicht meine Sache.
+4412|Das behalte ich für mich.
+4413|Manche Dinge bleiben besser ungesagt.
+4414|Notiert. Gelöscht. Weiter.
+4415|Meine Lippen sind versiegelt! ...Größtenteils versiegelt.
+4416|Ich sollte {subject} einfach fragen, ob das stimmt.
+4417|Stimmt das überhaupt? Ich frag {subject}.
+4418|Besser, ich hör's direkt von {subject}.
+4419|Oh. Ach du meine Güte.
+4420|Sieh mal einer an.
+4421|Wenn die Leute DAS hören...
+4422|Weihnachten kommt dieses Jahr früher!
+4423|Interessant. Sehr interessant.
+4424|Ahmet Bey, ich glaube, Sie sollten etwas wissen.
+4425|Ahmet Bey, haben Sie eine Minute? Es geht um {subject}.
+4426|Ich petze ja nicht gern, aber... {gossip}
+4427|Ich sag's nur ungern, Ahmet Bey... {gossip}
+4428|Ahmet Bey, das betrifft das Team: {gossip}
+4429|Ach ja? Ich werde {subject} im Auge behalten.
+4430|Danke, dass Sie mir das gesagt haben.
+4431|Hm. Das ist... sehr nützlich zu wissen.
+4432|Wir sind hier nicht im Kindergarten. Zurück an die Arbeit.
+4433|Büroklatsch interessiert mich nicht.
+4434|Und warum erzählen Sie mir das?
+4435|Hey {target}... warst du das? Ich meine {what}.
+4436|{target}! Ich weiß, dass du für {what} verantwortlich bist!
+4437|Also... was {what} angeht: Das warst du, oder?
+4438|{target}! Warst du das?? Ich meine {what}!
+4439|{target}, warst du für {what} verantwortlich?
+4440|{target}. Erklären Sie mir {what}.
+4441|...Ja. Ja, das war ich. Gern geschehen.
+4442|Schuldig. Ich meine — freut mich, dass es dir gefallen hat.
+4443|Vielleicht. Wer will das wissen?
+4444|Natürlich. Ich stecke voller Überraschungen.
+4445|Haha, ja! Voll ich. Definitiv.
+4446|Ich? Keine Ahnung, wovon du redest.
+4447|Das war ich nicht. Sorry.
+4448|Hä? Ich hab nichts gemacht.
+4449|Das war ich nicht. Aber ich wüsste gern, wer es war.
+4450|Ich... ähm... vielleicht?
+4451|*wird rot* Wer hat dir das erzählt?
+4452|Es ist doch egal, wer es war. Oder?
+4453|Setzen Sie sich. Ich habe einiges über {what} gehört.
+4454|Erklären Sie mir {what}.
+4455|Wir müssen über {what} reden.

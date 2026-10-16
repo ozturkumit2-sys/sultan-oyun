@@ -1,0 +1,231 @@
+4225|{avenger}. Fue {avenger}. Lo SÉ.
+4226|Claro. {avenger}. Venganza, ¿eh?
+4227|Esto lleva la firma de {suspect} por todas partes.
+4228|¡{suspect}! ¡Sé que fuiste tú!
+4229|¿Fuiste tú? Sé {to?sincero|sincera}.
+4230|Qué maduro. Qué maduro.
+4231|¿Quieres guerra? Pues la tendrás.
+4232|¡Ja! Ya era hora.
+4233|Ahora estamos a mano.
+4234|Uy. ¿Eso lo hice yo?
+4235|...Sí. Fui yo. Fue una estupidez. Lo siento.
+4236|Vale, vale. Estaba {me?enojado|enojada}. ¿Tregua?
+4237|...Está bien. Tregua. Pero arregla mi teclado.
+4238|Vale. Estamos a mano. Se acabó.
+4239|*da un rodeo enorme para no pasar por el escritorio de {b}*
+4240|No me siento cerca de {b}.
+4241|Dile a {b} que estoy {me?ocupado|ocupada}. Para siempre.
+4242|Ah, ¿{a} finge que no existo? Bien. Dos pueden jugar a eso.
+4243|*ignora a {a} muy ostensiblemente*
+4244|Ustedes dos no pueden seguir así. Todos lo estamos pasando mal.
+4245|¿Podemos hablar de lo tuyo con {other}? ¿Cinco minutos?
+4246|La vida es muy corta. Solo tienen que hablar.
+4247|...Lo sé. Extraño cómo era antes.
+4248|Está bien. Si se disculpa, escucharé.
+4249|Quizás. Yo también estoy {me?cansado|cansada} de esto.
+4250|No. No después de lo que hizo.
+4251|No te metas. Por favor.
+4252|Sabe muy bien lo que hizo.
+4253|...Hola.
+4254|Bueno. Eh.
+4255|Qué incómodo.
+4256|Lo siento. Dije cosas que no sentía.
+4257|Me pasé de la raya. Lo siento.
+4258|¿Podemos simplemente... empezar de cero?
+4259|Yo también. Yo también lo siento.
+4260|Sí. Empecemos de cero.
+4261|Ven aquí, {to?tonto|tonta}.
+4262|¿Lo siento? ¿ESA es tu disculpa?
+4263|No has cambiado nada.
+4264|Olvídalo.
+4265|¿Por qué tarda tanto esto?
+4266|Me voy a quedar aquí hasta que esté listo.
+4267|¿Esa es la fuente que estás usando? ¿En serio?
+4268|...Estará listo cuando esté listo.
+4269|Trabajo lo más rápido que puedo.
+4270|*teclea muy, muy fuerte*
+4271|Si vuelve a rondar mi escritorio UNA vez más...
+4272|Te juro que hoy digo algo.
+4273|No puedo trabajar así. Se lo voy a decir.
+4274|Hazlo. Alguien tiene que hacerlo.
+4275|¡Díselo! Todos lo estamos pensando.
+4276|Yo te respaldo.
+4277|No. Hoy no. Está de malas.
+4278|Elige tus batallas. Esta no es.
+4279|Respira. Primero, café.
+4280|Con todo respeto, Ahmet Bey: ¡no puedo trabajar con usted encima todo el tiempo!
+4281|¡Basta! ¡O confía en que haga mi trabajo o hágalo usted mismo!
+4282|Me vigila, me regaña y nunca da las gracias. Se acabó fingir que eso está bien.
+4283|¿PERDÓN?
+4284|¡Cómo te ATREVES a hablarme así!
+4285|¿Delante de todos? ¿En serio?
+4286|Ay, no.
+4287|¿Acaba de...?
+4288|*se queda sin aliento*
+4289|Palomitas. Que alguien traiga palomitas.
+4290|La verdad es que tiene razón.
+4291|Ahmet Bey, todos sentimos lo mismo.
+4292|Por si sirve de algo: estoy de acuerdo.
+4293|...Conque esas tenemos.
+4294|¿Todos? ¿En serio?
+4295|Mmm.
+4296|A mi oficina. Ya.
+4297|Sobre lo de antes...
+4298|...Quizás me he pasado un poco. Voy a dar un paso atrás.
+4299|Te escucho. Lo intentaré. Es todo lo que diré.
+4300|Está bien. Dejaré de rondarte. Casi siempre.
+4301|Esa fue tu última advertencia. La próxima vez, Recursos Humanos.
+4302|Vuelve a hablarme así y estás fuera.
+4303|Considéralo una advertencia formal.
+4304|Tío— digo, ¡Ahmet Bey! ¡Aquí tiene el archivo!
+4305|Tito, el— AHMET BEY. Perdón. El informe.
+4306|Aquí tiene, tío Ahm— señor Ahmet. Jefe.
+4307|*tos* Gracias, ECE.
+4308|...Sí. Gracias. Becaria.
+4309|*tos muy fuerte*
+4310|...¡¿Tío?!
+4311|¿Acaba de decir TÍO?
+4312|Ajá-já-já.
+4313|Así que... ¿«tío Ahmet»? ¿Me lo explicas?
+4314|Ece, cariño. ¿Tío? ¿En serio?
+4315|¿Hay algo que quieras contarme sobre ti y Ahmet?
+4316|¡Es una costumbre... turca! ¡A todos los jefes les decimos tío!
+4317|¿Tío? ¡Dije «frío»! ¡Tengo frío!
+4318|No dije tío. ¿O sí? No.
+4319|...Vale. Es mi tío. Por favor, POR FAVOR, no se lo digas a nadie.
+4320|Está bien. Sí. El hermano de mi madre. Quería lograrlo por mí {me?mismo|misma}.
+4321|Mis labios están sellados. Casi del todo.
+4322|Tu secreto está a salvo conmigo.
+4323|Ay. Claro que no se lo diré a nadie.
+4324|Ceren, tú lo sabes todo. ¿Ece es pariente de Ahmet?
+4325|Pregunta rápida, totalmente inocente: ¿Ece es sobrina de Ahmet?
+4326|No me corresponde decirlo.
+4327|No hablo de las familias de la gente. Lo siento.
+4328|Pregúntale a Ece. O mejor: no lo hagas.
+4329|...¿Quién te lo dijo? — Digo. Sin comentarios.
+4330|No puedo... confirmarlo. Lo cual no es un no.
+4331|No te lo VAS a creer. Ece es la SOBRINA de Ahmet.
+4332|¿Te acuerdas de que Ece consiguió las prácticas sin entrevista? Adivina por qué. El tío Ahmet.
+4333|Alerta de enchufe. Ece. Ahmet. Familia.
+4334|ESO explica muchas cosas.
+4335|¡¿En serio?! Increíble.
+4336|SABÍA que le daban trato especial.
+4337|...De verdad preferiría que no me lo hubieras contado.
+4338|Sé lo que todos dicen. Sí, Ahmet es mi tío. Y voy a trabajar el doble para demostrar que merezco estar aquí.
+4339|Vale. Todos lo saben. Es mi tío. Nunca pedí trato especial. Júzguenme por mi trabajo.
+4340|Me parece justo. Siempre has cumplido con tu parte.
+4341|¿Sinceramente? Eres {to?el que|la que} más trabaja aquí.
+4342|Respeto, Ece.
+4343|Fácil decirlo cuando tu tío firma tu evaluación.
+4344|Ajá.
+4345|Claro.
+4346|Negocio familiar, ¿no?
+4347|A ver. ¿Quién hizo esto?
+4348|Alguien hizo esto a propósito.
+4349|¡¿Quién ha estado tocando mis cosas?!
+4350|Alguien me está saboteando. Otra vez.
+4351|¿QUIÉN es el responsable de esto?
+4352|Esto no fue un bug. Fue una persona.
+4353|¿Lo... lo hice yo? No. Esto lo hizo otra persona.
+4354|Muy bien, bromista. Da la cara.
+4355|Esto lleva la firma de {suspect} por todas partes.
+4356|Apuesto a que fue {suspect}.
+4357|{suspect}. Siempre es {suspect}.
+4358|Sé exactamente quién hizo esto. {suspect}.
+4359|Ay, tengo una teoría. Empieza por... bah, da igual: {suspect}.
+4360|{suspect} quiere que me equivoque. Qué tierno.
+4361|{target}. ¿Fuiste tú? Sé {to?sincero|sincera}.
+4362|Vale, {target}, se acabó la broma. ¿Fuiste tú?
+4363|Sé que fuiste tú, {target}.
+4364|{target}, quiero una explicación. Ya.
+4365|¡{target}! Mi oficina sería un buen lugar para confesar.
+4366|{target}. Los logs no mienten. Tú tampoco deberías.
+4367|{target}... eh... ¿fuiste tú? ¡Perdón por preguntar!
+4368|¿Qué? ¡Yo no toqué nada!
+4369|¡¿Yo?! ¡He estado en mi escritorio todo el día!
+4370|¿Por qué todos me culpan siempre a mí?
+4371|Me ENCANTARÍA llevarme el mérito, pero no.
+4372|Por favor. Si hubiera sido yo, nunca te habrías enterado.
+4373|¡No fui yo! ¡Lo juro por mi café!
+4374|Cariño, yo solo HABLO de bromas.
+4375|Tengo cosas mejores que hacer. Literalmente cualquier cosa.
+4376|No me mientas.
+4377|Claro. Y yo soy {me?el director general|la directora general}.
+4378|Increíble.
+4379|Estás mintiendo, y ambos lo sabemos.
+4380|...Vale. Quizás no fuiste tú. Perdón.
+4381|Está bien. Error mío.
+4382|Entonces, ¿quién demonios...?
+4383|¡Ja! Vale, vale. ¿Tregua?
+4384|Está bien. Pero te estoy vigilando.
+4385|Si no fuiste tú, te debo un café.
+4386|{target}, algo le pasa a mi computadora. ¿Me ayudas?
+4387|¡{target}! Emergencia. Emergencia técnica.
+4388|¿Puedes mirar mi computadora? Está poseída.
+4389|{target}. Mi computadora. Ya.
+4390|{target}, tengo una entrega y mi PC me acaba de traicionar.
+4391|{target}, creo que rompí internet. Otra vez.
+4392|{target}, mi genio favorito. Tengo un problemita.
+4393|Dos minutos.
+4394|A ver qué pasa.
+4395|Vale, vale. Me pongo con ello.
+4396|*suspiro* Apagar y volver a— olvídalo. Ya lo hago yo.
+4397|Primero, un ticket.
+4398|Después de comer. Tal vez.
+4399|¿Y apagarlo y volver a encenderlo?
+4400|Soy una sola persona, gente.
+4401|Ticket. Cola. Paciencia.
+4402|Esto no es un fallo. Alguien lo hizo a propósito.
+4403|Interesante. Esto se hizo a mano.
+4404|Alguien ha estado tocando este teclado.
+4405|No fue un accidente. Alguien tocó esta máquina.
+4406|¡Me salvaste la vida!
+4407|¡¡Gracias!!
+4408|Te debo una.
+4409|Te debo un kebab. Dos kebabs.
+4410|...No vi eso. No vi nada.
+4411|No es asunto mío. No es asunto mío.
+4412|Me lo guardaré para mí.
+4413|Hay cosas que es mejor no decir.
+4414|Anotado. Borrado. Sigamos.
+4415|¡Mis labios están sellados! ...Casi sellados.
+4416|Debería preguntarle a {subject} si es verdad.
+4417|¿Será verdad? Le preguntaré a {subject}.
+4418|Mejor oírlo directamente de {subject}.
+4419|Oh. Madre mía.
+4420|Vaya, vaya, vaya.
+4421|Espera a que la gente se entere de ESTO.
+4422|¡La Navidad se adelantó!
+4423|Interesante. Muy interesante.
+4424|Ahmet Bey, creo que debería saber algo.
+4425|Ahmet Bey, ¿tiene un minuto? Es sobre {subject}.
+4426|No me gusta ir con chismes, pero... {gossip}
+4427|Odio ser quien se lo diga, Ahmet Bey... {gossip}
+4428|Ahmet Bey, esto afecta al equipo: {gossip}
+4429|¿Ah, sí? Vigilaré de cerca a {subject}.
+4430|Gracias por decírmelo.
+4431|Mmm. Eso es... muy útil saberlo.
+4432|Esto no es un patio de recreo. A trabajar.
+4433|Los chismes de oficina no me interesan.
+4434|¿Y por qué me cuentas esto?
+4435|Oye, {target}... ¿fuiste tú? Lo digo por {what}.
+4436|¡{target}! Sé que {what} fue cosa tuya.
+4437|Así que... {what}. Fuiste tú, ¿verdad?
+4438|¡{target}! ¿¿Fuiste tú?? ¡Lo digo por {what}!
+4439|{target}, ¿tuviste algo que ver con {what}?
+4440|{target}. Explícame {what}.
+4441|...Sí. Sí, fui yo. De nada.
+4442|Culpable. Digo... me alegra que te gustara.
+4443|Quizás. ¿Quién pregunta?
+4444|Naturalmente. Estoy lleno de sorpresas.
+4445|¡Jaja, sí! Totalmente yo. Sin duda.
+4446|¿Yo? Ni idea de qué hablas.
+4447|Eso no fue cosa mía. Lo siento.
+4448|¿Eh? Yo no hice nada.
+4449|No fui yo. Pero me gustaría saber quién fue.
+4450|Yo... eh... ¿quizás?
+4451|*se sonroja* ¿Quién te lo dijo?
+4452|No importa quién fue. ¿O sí?
+4453|Siéntate. Me han contado {what}.
+4454|Explícame {what}.
+4455|Tenemos que hablar de {what}.

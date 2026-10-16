@@ -9,24 +9,24 @@
 396|Table de réunion
 397|rendez-vous chez le dentiste
 398|entretien d'embauche
-399|ton dossier retrouvé dans mon classeur privé
+399|votre dossier retrouvé dans mon classeur privé
 400|45 minutes en avance
 401|30 minutes en retard
 402|de 45 minutes en avant
 403|de 30 minutes en arrière
 404|le mot sur le tableau en liège
 405|après-midi de congé
-406|ta disparition d'hier après-midi
+406|votre disparition d'hier après-midi
 407|une ballade de rupture en sanglots
 408|du heavy metal hurlant
-409|les offres d'emploi sur ton écran
-410|ton mail « URGENT : licenciements »
+409|les offres d'emploi sur votre écran
+410|votre mail « URGENT : licenciements »
 411|le mot doux
 412|de l'arabesk déchirant
 413|de la musique classique
 414|du disco des années 70
 415|des tubes pop ringards
-416|cet appel avec des halètements depuis ton poste
+416|cet appel avec des halètements depuis votre poste
 417|augmentation
 418|la cuisine
 419|le coin détente

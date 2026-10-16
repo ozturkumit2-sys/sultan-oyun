@@ -4685,5 +4685,582 @@
    "¿¡Por qué está la cara de Ahmet en mi cajón!?",
    "Mi fondo de pantalla es una llama. ¿POR QUÉ?"
   ]
+ },
+ "rv_knows": {
+  "_": [
+   "{avenger}. Fue {avenger}. Lo SÉ.",
+   "Claro. {avenger}. Venganza, ¿eh?"
+  ]
+ },
+ "rv_wrong": {
+  "_": [
+   "Esto lleva la firma de {suspect} por todas partes.",
+   "¡{suspect}! ¡Sé que fuiste tú!"
+  ]
+ },
+ "rv_confront": {
+  "_": [
+   "¿Fuiste tú? Sé {to?sincero|sincera}.",
+   "Qué maduro. Qué maduro.",
+   "¿Quieres guerra? Pues la tendrás."
+  ]
+ },
+ "rv_gloat": {
+  "_": [
+   "¡Ja! Ya era hora.",
+   "Ahora estamos a mano.",
+   "Uy. ¿Eso lo hice yo?"
+  ]
+ },
+ "rv_sorry": {
+  "_": [
+   "...Sí. Fui yo. Fue una estupidez. Lo siento.",
+   "Vale, vale. Estaba {me?enojado|enojada}. ¿Tregua?"
+  ]
+ },
+ "rv_accept_sorry": {
+  "_": [
+   "...Está bien. Tregua. Pero arregla mi teclado.",
+   "Vale. Estamos a mano. Se acabó."
+  ]
+ },
+ "fm_cold_a": {
+  "_": [
+   "*da un rodeo enorme para no pasar por el escritorio de {b}*",
+   "No me siento cerca de {b}.",
+   "Dile a {b} que estoy {me?ocupado|ocupada}. Para siempre."
+  ]
+ },
+ "fm_cold_b": {
+  "_": [
+   "Ah, ¿{a} finge que no existo? Bien. Dos pueden jugar a eso.",
+   "*ignora a {a} muy ostensiblemente*"
+  ]
+ },
+ "fm_talk": {
+  "_": [
+   "Ustedes dos no pueden seguir así. Todos lo estamos pasando mal.",
+   "¿Podemos hablar de lo tuyo con {other}? ¿Cinco minutos?",
+   "La vida es muy corta. Solo tienen que hablar."
+  ]
+ },
+ "fm_open": {
+  "_": [
+   "...Lo sé. Extraño cómo era antes.",
+   "Está bien. Si se disculpa, escucharé.",
+   "Quizás. Yo también estoy {me?cansado|cansada} de esto."
+  ]
+ },
+ "fm_stubborn": {
+  "_": [
+   "No. No después de lo que hizo.",
+   "No te metas. Por favor.",
+   "Sabe muy bien lo que hizo."
+  ]
+ },
+ "fm_summit_open": {
+  "_": [
+   "...Hola.",
+   "Bueno. Eh.",
+   "Qué incómodo."
+  ]
+ },
+ "fm_summit_sorry": {
+  "_": [
+   "Lo siento. Dije cosas que no sentía.",
+   "Me pasé de la raya. Lo siento.",
+   "¿Podemos simplemente... empezar de cero?"
+  ]
+ },
+ "fm_summit_yes": {
+  "_": [
+   "Yo también. Yo también lo siento.",
+   "Sí. Empecemos de cero.",
+   "Ven aquí, {to?tonto|tonta}."
+  ]
+ },
+ "fm_summit_blowup": {
+  "_": [
+   "¿Lo siento? ¿ESA es tu disculpa?",
+   "No has cambiado nada.",
+   "Olvídalo."
+  ]
+ },
+ "bc_hover": {
+  "_": [
+   "¿Por qué tarda tanto esto?",
+   "Me voy a quedar aquí hasta que esté listo.",
+   "¿Esa es la fuente que estás usando? ¿En serio?"
+  ]
+ },
+ "bc_tense": {
+  "_": [
+   "...Estará listo cuando esté listo.",
+   "Trabajo lo más rápido que puedo.",
+   "*teclea muy, muy fuerte*"
+  ]
+ },
+ "bc_vent": {
+  "_": [
+   "Si vuelve a rondar mi escritorio UNA vez más...",
+   "Te juro que hoy digo algo.",
+   "No puedo trabajar así. Se lo voy a decir."
+  ]
+ },
+ "bc_egg": {
+  "_": [
+   "Hazlo. Alguien tiene que hacerlo.",
+   "¡Díselo! Todos lo estamos pensando.",
+   "Yo te respaldo."
+  ]
+ },
+ "bc_calm": {
+  "_": [
+   "No. Hoy no. Está de malas.",
+   "Elige tus batallas. Esta no es.",
+   "Respira. Primero, café."
+  ]
+ },
+ "bc_clash": {
+  "_": [
+   "Con todo respeto, Ahmet Bey: ¡no puedo trabajar con usted encima todo el tiempo!",
+   "¡Basta! ¡O confía en que haga mi trabajo o hágalo usted mismo!",
+   "Me vigila, me regaña y nunca da las gracias. Se acabó fingir que eso está bien."
+  ]
+ },
+ "bc_boss_reply": {
+  "_": [
+   "¿PERDÓN?",
+   "¡Cómo te ATREVES a hablarme así!",
+   "¿Delante de todos? ¿En serio?"
+  ]
+ },
+ "bc_gasp": {
+  "_": [
+   "Ay, no.",
+   "¿Acaba de...?",
+   "*se queda sin aliento*",
+   "Palomitas. Que alguien traiga palomitas."
+  ]
+ },
+ "bc_side": {
+  "_": [
+   "La verdad es que tiene razón.",
+   "Ahmet Bey, todos sentimos lo mismo.",
+   "Por si sirve de algo: estoy de acuerdo."
+  ]
+ },
+ "bc_boss_isolated": {
+  "_": [
+   "...Conque esas tenemos.",
+   "¿Todos? ¿En serio?",
+   "Mmm."
+  ]
+ },
+ "bc_after_open": {
+  "_": [
+   "A mi oficina. Ya.",
+   "Sobre lo de antes..."
+  ]
+ },
+ "bc_boss_sorry": {
+  "_": [
+   "...Quizás me he pasado un poco. Voy a dar un paso atrás.",
+   "Te escucho. Lo intentaré. Es todo lo que diré.",
+   "Está bien. Dejaré de rondarte. Casi siempre."
+  ]
+ },
+ "bc_boss_warning": {
+  "_": [
+   "Esa fue tu última advertencia. La próxima vez, Recursos Humanos.",
+   "Vuelve a hablarme así y estás fuera.",
+   "Considéralo una advertencia formal."
+  ]
+ },
+ "ns_slip": {
+  "_": [
+   "Tío— digo, ¡Ahmet Bey! ¡Aquí tiene el archivo!",
+   "Tito, el— AHMET BEY. Perdón. El informe.",
+   "Aquí tiene, tío Ahm— señor Ahmet. Jefe."
+  ]
+ },
+ "ns_boss_cough": {
+  "_": [
+   "*tos* Gracias, ECE.",
+   "...Sí. Gracias. Becaria.",
+   "*tos muy fuerte*"
+  ]
+ },
+ "ns_witness": {
+  "_": [
+   "...¡¿Tío?!",
+   "¿Acaba de decir TÍO?",
+   "Ajá-já-já."
+  ]
+ },
+ "ns_probe": {
+  "_": [
+   "Así que... ¿«tío Ahmet»? ¿Me lo explicas?",
+   "Ece, cariño. ¿Tío? ¿En serio?",
+   "¿Hay algo que quieras contarme sobre ti y Ahmet?"
+  ]
+ },
+ "ns_lie": {
+  "_": [
+   "¡Es una costumbre... turca! ¡A todos los jefes les decimos tío!",
+   "¿Tío? ¡Dije «frío»! ¡Tengo frío!",
+   "No dije tío. ¿O sí? No."
+  ]
+ },
+ "ns_truth": {
+  "_": [
+   "...Vale. Es mi tío. Por favor, POR FAVOR, no se lo digas a nadie.",
+   "Está bien. Sí. El hermano de mi madre. Quería lograrlo por mí {me?mismo|misma}."
+  ]
+ },
+ "ns_promise": {
+  "_": [
+   "Mis labios están sellados. Casi del todo.",
+   "Tu secreto está a salvo conmigo.",
+   "Ay. Claro que no se lo diré a nadie."
+  ]
+ },
+ "ns_verify": {
+  "_": [
+   "Ceren, tú lo sabes todo. ¿Ece es pariente de Ahmet?",
+   "Pregunta rápida, totalmente inocente: ¿Ece es sobrina de Ahmet?"
+  ]
+ },
+ "ns_keeper_no": {
+  "_": [
+   "No me corresponde decirlo.",
+   "No hablo de las familias de la gente. Lo siento.",
+   "Pregúntale a Ece. O mejor: no lo hagas."
+  ]
+ },
+ "ns_keeper_slip": {
+  "_": [
+   "...¿Quién te lo dijo? — Digo. Sin comentarios.",
+   "No puedo... confirmarlo. Lo cual no es un no."
+  ]
+ },
+ "ns_spread": {
+  "_": [
+   "No te lo VAS a creer. Ece es la SOBRINA de Ahmet.",
+   "¿Te acuerdas de que Ece consiguió las prácticas sin entrevista? Adivina por qué. El tío Ahmet.",
+   "Alerta de enchufe. Ece. Ahmet. Familia."
+  ]
+ },
+ "ns_spread_react": {
+  "_": [
+   "ESO explica muchas cosas.",
+   "¡¿En serio?! Increíble.",
+   "SABÍA que le daban trato especial."
+  ],
+  "ceren": [
+   "...De verdad preferiría que no me lo hubieras contado."
+  ]
+ },
+ "ns_reckon": {
+  "_": [
+   "Sé lo que todos dicen. Sí, Ahmet es mi tío. Y voy a trabajar el doble para demostrar que merezco estar aquí.",
+   "Vale. Todos lo saben. Es mi tío. Nunca pedí trato especial. Júzguenme por mi trabajo."
+  ]
+ },
+ "ns_support": {
+  "_": [
+   "Me parece justo. Siempre has cumplido con tu parte.",
+   "¿Sinceramente? Eres {to?el que|la que} más trabaja aquí.",
+   "Respeto, Ece."
+  ]
+ },
+ "ns_cold": {
+  "_": [
+   "Fácil decirlo cuando tu tío firma tu evaluación.",
+   "Ajá.",
+   "Claro."
+  ],
+  "deniz": [
+   "Negocio familiar, ¿no?"
+  ]
+ },
+ "ivm_who": {
+  "_": [
+   "A ver. ¿Quién hizo esto?",
+   "Alguien hizo esto a propósito.",
+   "¡¿Quién ha estado tocando mis cosas?!"
+  ],
+  "ahmet": [
+   "¿QUIÉN es el responsable de esto?"
+  ],
+  "burak": [
+   "Esto no fue un bug. Fue una persona."
+  ],
+  "ece": [
+   "¿Lo... lo hice yo? No. Esto lo hizo otra persona."
+  ],
+  "mert": [
+   "Muy bien, bromista. Da la cara."
+  ],
+  "selin": [
+   "Alguien me está saboteando. Otra vez."
+  ]
+ },
+ "ivm_blame": {
+  "_": [
+   "Esto lleva la firma de {suspect} por todas partes.",
+   "Apuesto a que fue {suspect}.",
+   "{suspect}. Siempre es {suspect}."
+  ],
+  "deniz": [
+   "{suspect} quiere que me equivoque. Qué tierno."
+  ],
+  "selin": [
+   "Sé exactamente quién hizo esto. {suspect}."
+  ],
+  "zeynep": [
+   "Ay, tengo una teoría. Empieza por... bah, da igual: {suspect}."
+  ]
+ },
+ "ivm_accuse": {
+  "_": [
+   "{target}. ¿Fuiste tú? Sé {to?sincero|sincera}.",
+   "Vale, {target}, se acabó la broma. ¿Fuiste tú?",
+   "Sé que fuiste tú, {target}."
+  ],
+  "ahmet": [
+   "¡{target}! Mi oficina sería un buen lugar para confesar."
+  ],
+  "burak": [
+   "{target}. Los logs no mienten. Tú tampoco deberías."
+  ],
+  "ece": [
+   "{target}... eh... ¿fuiste tú? ¡Perdón por preguntar!"
+  ],
+  "selin": [
+   "{target}, quiero una explicación. Ya."
+  ]
+ },
+ "ivm_innocent": {
+  "_": [
+   "¿Qué? ¡Yo no toqué nada!",
+   "¡¿Yo?! ¡He estado en mi escritorio todo el día!",
+   "¿Por qué todos me culpan siempre a mí?"
+  ],
+  "burak": [
+   "Tengo cosas mejores que hacer. Literalmente cualquier cosa."
+  ],
+  "deniz": [
+   "Por favor. Si hubiera sido yo, nunca te habrías enterado."
+  ],
+  "ece": [
+   "¡No fui yo! ¡Lo juro por mi café!"
+  ],
+  "mert": [
+   "Me ENCANTARÍA llevarme el mérito, pero no."
+  ],
+  "zeynep": [
+   "Cariño, yo solo HABLO de bromas."
+  ]
+ },
+ "ivm_accuse_argue": {
+  "_": [
+   "No me mientas.",
+   "Claro. Y yo soy {me?el director general|la directora general}.",
+   "Increíble."
+  ],
+  "selin": [
+   "Estás mintiendo, y ambos lo sabemos."
+  ]
+ },
+ "ivm_accuse_sorry": {
+  "_": [
+   "...Vale. Quizás no fuiste tú. Perdón.",
+   "Está bien. Error mío.",
+   "Entonces, ¿quién demonios...?"
+  ]
+ },
+ "ivm_accuse_laugh": {
+  "_": [
+   "¡Ja! Vale, vale. ¿Tregua?",
+   "Está bien. Pero te estoy vigilando.",
+   "Si no fuiste tú, te debo un café."
+  ]
+ },
+ "ivm_it_ask": {
+  "_": [
+   "{target}, algo le pasa a mi computadora. ¿Me ayudas?",
+   "¡{target}! Emergencia. Emergencia técnica.",
+   "¿Puedes mirar mi computadora? Está poseída."
+  ],
+  "ahmet": [
+   "{target}. Mi computadora. Ya."
+  ],
+  "ece": [
+   "{target}, creo que rompí internet. Otra vez."
+  ],
+  "mert": [
+   "{target}, mi genio favorito. Tengo un problemita."
+  ],
+  "selin": [
+   "{target}, tengo una entrega y mi PC me acaba de traicionar."
+  ]
+ },
+ "ivm_it_yes": {
+  "_": [
+   "Dos minutos.",
+   "A ver qué pasa.",
+   "Vale, vale. Me pongo con ello."
+  ],
+  "burak": [
+   "*suspiro* Apagar y volver a— olvídalo. Ya lo hago yo."
+  ]
+ },
+ "ivm_it_grumble": {
+  "_": [
+   "Primero, un ticket.",
+   "Después de comer. Tal vez.",
+   "¿Y apagarlo y volver a encenderlo?"
+  ],
+  "burak": [
+   "Soy una sola persona, gente.",
+   "Ticket. Cola. Paciencia."
+  ]
+ },
+ "ivm_it_sabotage": {
+  "_": [
+   "Esto no es un fallo. Alguien lo hizo a propósito.",
+   "Interesante. Esto se hizo a mano.",
+   "Alguien ha estado tocando este teclado."
+  ],
+  "burak": [
+   "No fue un accidente. Alguien tocó esta máquina."
+  ]
+ },
+ "ivm_it_thanks": {
+  "_": [
+   "¡Me salvaste la vida!",
+   "¡¡Gracias!!",
+   "Te debo una."
+  ],
+  "mert": [
+   "Te debo un kebab. Dos kebabs."
+  ]
+ },
+ "ivm_keep": {
+  "_": [
+   "...No vi eso. No vi nada.",
+   "No es asunto mío. No es asunto mío.",
+   "Me lo guardaré para mí."
+  ],
+  "burak": [
+   "Anotado. Borrado. Sigamos."
+  ],
+  "ceren": [
+   "Hay cosas que es mejor no decir."
+  ],
+  "ece": [
+   "¡Mis labios están sellados! ...Casi sellados."
+  ]
+ },
+ "ivm_ask_think": {
+  "_": [
+   "Debería preguntarle a {subject} si es verdad.",
+   "¿Será verdad? Le preguntaré a {subject}.",
+   "Mejor oírlo directamente de {subject}."
+  ]
+ },
+ "ivm_juicy": {
+  "_": [
+   "Oh. Madre mía.",
+   "Vaya, vaya, vaya.",
+   "Espera a que la gente se entere de ESTO."
+  ],
+  "deniz": [
+   "Interesante. Muy interesante."
+  ],
+  "zeynep": [
+   "¡La Navidad se adelantó!"
+  ]
+ },
+ "ivm_tattle": {
+  "_": [
+   "Ahmet Bey, creo que debería saber algo.",
+   "Ahmet Bey, ¿tiene un minuto? Es sobre {subject}.",
+   "No me gusta ir con chismes, pero... {gossip}"
+  ],
+  "deniz": [
+   "Odio ser quien se lo diga, Ahmet Bey... {gossip}"
+  ],
+  "selin": [
+   "Ahmet Bey, esto afecta al equipo: {gossip}"
+  ]
+ },
+ "ivm_boss_cares": {
+  "_": [
+   "¿Ah, sí? Vigilaré de cerca a {subject}.",
+   "Gracias por decírmelo.",
+   "Mmm. Eso es... muy útil saberlo."
+  ]
+ },
+ "ivm_boss_tattle_no": {
+  "_": [
+   "Esto no es un patio de recreo. A trabajar.",
+   "Los chismes de oficina no me interesan.",
+   "¿Y por qué me cuentas esto?"
+  ]
+ },
+ "ivm_misattrib": {
+  "_": [
+   "Oye, {target}... ¿fuiste tú? Lo digo por {what}.",
+   "¡{target}! Sé que {what} fue cosa tuya.",
+   "Así que... {what}. Fuiste tú, ¿verdad?"
+  ],
+  "ahmet": [
+   "{target}. Explícame {what}."
+  ],
+  "ece": [
+   "¡{target}! ¿¿Fuiste tú?? ¡Lo digo por {what}!"
+  ],
+  "selin": [
+   "{target}, ¿tuviste algo que ver con {what}?"
+  ]
+ },
+ "ivm_take_credit": {
+  "_": [
+   "...Sí. Sí, fui yo. De nada.",
+   "Culpable. Digo... me alegra que te gustara.",
+   "Quizás. ¿Quién pregunta?"
+  ],
+  "deniz": [
+   "Naturalmente. Estoy lleno de sorpresas."
+  ],
+  "mert": [
+   "¡Jaja, sí! Totalmente yo. Sin duda."
+  ]
+ },
+ "ivm_not_me": {
+  "_": [
+   "¿Yo? Ni idea de qué hablas.",
+   "Eso no fue cosa mía. Lo siento.",
+   "¿Eh? Yo no hice nada."
+  ],
+  "ceren": [
+   "No fui yo. Pero me gustaría saber quién fue."
+  ]
+ },
+ "ivm_blush": {
+  "_": [
+   "Yo... eh... ¿quizás?",
+   "*se sonroja* ¿Quién te lo dijo?",
+   "No importa quién fue. ¿O sí?"
+  ]
+ },
+ "ivm_boss_ask": {
+  "_": [
+   "Siéntate. Me han contado {what}.",
+   "Explícame {what}.",
+   "Tenemos que hablar de {what}."
+  ]
  }
 }

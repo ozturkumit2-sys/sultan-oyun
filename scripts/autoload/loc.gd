@@ -26,10 +26,12 @@ var available: Array = []
 var people: Dictionary = {}       # id -> {"name": default name, "gender": "m"/"f"}
 var genders: Dictionary = {}      # display name -> "m"/"f"
 var _re := RegEx.new()
+var _fr_elide := RegEx.new()
 
 
 func _ready() -> void:
 	_re.compile("\\{(\\w+)(?::(\\w+))?(?:\\?([^|{}]*)\\|([^{}]*))?\\}")
+	_fr_elide.compile("(?i)(?:^|[\\s(«\"“—–-])(?:de|que|lorsque|puisque|jusque) $")
 	for l in LANGS:
 		available.append(l[0])
 	en_strings = _read_json("res://data/lang/en.json")
@@ -167,9 +169,11 @@ func fill_with(s: String, getter: Callable) -> String:
 			if idx >= forms.size():
 				idx = 0
 			out += str(forms[idx])
-		elif m.get_string(2) != "":
-			out += inflect(val, m.get_string(2), genders.has(val))
 		else:
+			if m.get_string(2) != "":
+				val = inflect(val, m.get_string(2), genders.has(val))
+			if lang == "fr":
+				out = _fr_elision(out, val)
 			out += val
 	out += s.substr(pos)
 	return out
@@ -187,6 +191,17 @@ func placeholders(s: String) -> Array:
 
 
 # ------------------------------------------------------------------ grammar helpers
+
+## French: "de Ece" -> "d'Ece", "que Ahmet" -> "qu'Ahmet" when a value starting with a vowel follows.
+func _fr_elision(before: String, val: String) -> String:
+	if val == "" or not before.ends_with(" "):
+		return before
+	if "AEIOUYÉÈÊÂÎÔaeiouyéèêâîô".find(val.left(1)) < 0:
+		return before
+	if _fr_elide.search(before) == null:
+		return before
+	return before.left(before.length() - 2) + "'"
+
 
 ## Gender of a person's name, or of a word the language file describes ("gender.<word>").
 func gender_of(val: String) -> String:

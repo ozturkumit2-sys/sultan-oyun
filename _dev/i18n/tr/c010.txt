@@ -112,4 +112,4 @@
 1899|{owner:in} {worst} hakkında yakındığı mesajın önizlemesi {target:in} telefonunda belirdi.
 1900|Ece, Ahmet'in yeğeni olduğu konusunda ofisin karşısına çıktı. Çoğu, onun yerini hak ettiğine karar verdi.
 1901|{witness}, Ece ve Ahmet konusunda Ceren'i sıkıştırdı. Ceren'in "yorum yok"u her şeyi anlattı.
-1902|{witness}, Ece'ye "Amca" gafını sordu. Ece berbat bir yalan uydurdu: aslında "ancak" demiş.
+1902|{witness}, Ece'ye "Dayı" gafını sordu. Ece berbat bir yalan uydurdu: aslında "daha" demiş.

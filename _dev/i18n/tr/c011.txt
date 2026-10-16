@@ -1,9 +1,9 @@
 1903|Ece, Ahmet'in yeğeni olduğu konusunda ofisin karşısına çıktı. Ortam buz gibi kaldı.
-1904|Ece yanlışlıkla Ahmet'e "Amca" dedi. {witness} duydu.
-1905|Ece yanlışlıkla Ahmet'e "Amca" dedi. Neyse ki kimse duyacak kadar yakında değildi.
+1904|Ece yanlışlıkla Ahmet'e "Dayı" dedi. {witness} duydu.
+1905|Ece yanlışlıkla Ahmet'e "Dayı" dedi. Neyse ki kimse duyacak kadar yakında değildi.
 1906|{witness}, {listener:e} Ece'nin Ahmet'in yeğeni olduğunu söyledi. Yarına herkes bilecek.
 1907|{witness}, Ceren'e Ece-Ahmet söylentisini doğrulatmaya çalıştı. Ceren ağzından tek kelime kaçırmadı.
-1908|{witness}, Ece'ye "Amca" gafını sordu. Ece itiraf etti: Ahmet onun amcası.
+1908|{witness}, Ece'ye "Dayı" gafını sordu. Ece itiraf etti: Ahmet onun dayısı.
 1909|{quiet}, {loud:den} sesini alçaltmasını istedi. {loud} daha da yükseltti. Gürültü savaşı başladı.
 1910|{loud}, gürültü savaşını kazanmak için ofis hoparlörünün sesini sonuna kadar açtı. Geri kalan herkes kaybetti.
 1911|{quiet}, {loud:den} sesini alçaltmasını istedi. {loud} özür diledi. Şimdilik barış.

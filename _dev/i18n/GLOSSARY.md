@@ -81,8 +81,9 @@ Everywhere else (ui.*, why.*, state.*, iv.*, …) write gender-neutral; role pla
 - misprinted replacement 'World's Best Bass': tr 'Dünyanın En İyi Paronu', de „Bester Chaf der Welt“,
   es «El mejor jefe del mudo», fr « Meilleur poltron du monde », zh “世界最佳老扳”, hi 'दुनिया का सबसे अच्छा बोस'.
 - lira: de Lira, es liras, fr lires, zh 里拉, hi लीरा.
-- Ece's "Uncle" slip and her lie (chunk 22 dialogue + log 1902): tr Amca → "ancak dedim", de Onkel → „Knöchel“,
-  es tío → «frío», fr Tonton → « menton », zh 叔叔 → “不舒服”, hi चाचा → "चा… चाय". niece: tr yeğen, zh 侄女, hi भतीजी.
+- Ece's "Uncle" slip and her lie (chunk 22 dialogue + log 1902). Ahmet is her MOTHER's brother (line 4320), so:
+  tr Dayı → "daha dedim", de Onkel → „Knöchel“, es tío → «frío», fr Tonton → « menton », zh 舅舅 → “救救”,
+  hi मामा → "मामला". niece: tr yeğen, zh 外甥女, hi भांजी.
 
 ## Dialogue register (decided at chunk 14)
 - Colleague ↔ colleague: tr sen, de du, es tú, fr tu, hi तुम.
@@ -91,3 +92,4 @@ Everywhere else (ui.*, why.*, state.*, iv.*, …) write gender-neutral; role pla
 - Generic speaker lines ("_") can be said by anyone: gendered words via {me?m|f}; Hindi first-person verbs always {me?..|..}.
 - obj values carry their article in es/fr ({obj} = "la impresora"); de has no article → {obj?der|die|das} {obj}
   (m|f|n: Drucker m, Kaffeemaschine f, Tastatur f, Licht n); lights are plural in es/fr/hi (4th slot "p").
+- what.boss_folder/dayoff_vanish/job_ads/layoff_mail/prank_call are spoken by Ahmet (ivm_boss_ask) → formal "your" in de (Ihr), fr (votre), hi (आपका).

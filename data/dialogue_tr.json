@@ -1251,7 +1251,7 @@
    "Düzelteceğim."
   ],
   "ece": [
-   "Pardon, Amca— yani, Ahmet Bey!"
+   "Pardon, Dayı— yani, Ahmet Bey!"
   ]
  },
  "talk_back": {
@@ -2282,7 +2282,7 @@
    "Ahmet Bey, piyasayı sizin için özetleme cüretini gösterdim. Tek sayfa. Kalın yazı."
   ],
   "ece": [
-   "Amca— Ahmet Bey! Size çay yaptım!"
+   "Dayı— Ahmet Bey! Size çay yaptım!"
   ]
  },
  "boss_flattered": {
@@ -4684,6 +4684,583 @@
    "Şekerim TUZ olmuş. Bunu kim yaptı?!",
    "Ahmet'in yüzü neden çekmecemde?!",
    "Duvar kâğıdım bir lama. NEDEN."
+  ]
+ },
+ "rv_knows": {
+  "_": [
+   "{avenger}. {avenger} yaptı. BİLİYORUM.",
+   "Tabii ya. {avenger}. İntikam, ha?"
+  ]
+ },
+ "rv_wrong": {
+  "_": [
+   "Bunun her yerinde {suspect} yazıyor.",
+   "{suspect}! Sen olduğunu biliyorum!"
+  ]
+ },
+ "rv_confront": {
+  "_": [
+   "Bu sen miydin? Dürüst ol.",
+   "Çok olgunca. Gerçekten çok olgunca.",
+   "Savaş mı istiyorsun? Al sana savaş."
+  ]
+ },
+ "rv_gloat": {
+  "_": [
+   "Ha! Epey sürdü.",
+   "Şimdi ödeştik.",
+   "Hoppala. Bunu ben mi yaptım?"
+  ]
+ },
+ "rv_sorry": {
+  "_": [
+   "...Evet. Bendim. Aptallıktı. Özür dilerim.",
+   "Tamam, tamam. Kızgındım. Ateşkes?"
+  ]
+ },
+ "rv_accept_sorry": {
+  "_": [
+   "...Peki. Ateşkes. Ama klavyemi düzelteceksin.",
+   "Tamam. Ödeştik. Bitti."
+  ]
+ },
+ "fm_cold_a": {
+  "_": [
+   "*{b:in} masasının etrafından uzun yoldan dolaşır*",
+   "{b:in} yanına oturmam.",
+   "{b:e} meşgul olduğumu söyle. Sonsuza dek."
+  ]
+ },
+ "fm_cold_b": {
+  "_": [
+   "Ooo, {a} ben yokmuşum gibi mi davranıyor? Peki. Bu oyunu ben de oynarım.",
+   "*{a:i} gösterişli bir şekilde görmezden gelir*"
+  ]
+ },
+ "fm_talk": {
+  "_": [
+   "İkiniz böyle devam edemezsiniz. Herkesin keyfi kaçtı.",
+   "Seninle {other} arasındaki durumu konuşabilir miyiz? Beş dakika?",
+   "Hayat çok kısa. Gidip konuşun işte."
+  ]
+ },
+ "fm_open": {
+  "_": [
+   "...Biliyorum. Eskisi gibi olmayı özlüyorum.",
+   "Peki. Özür dilerse dinlerim.",
+   "Belki. Ben de bundan yoruldum."
+  ]
+ },
+ "fm_stubborn": {
+  "_": [
+   "Hayır. Yaptığından sonra olmaz.",
+   "Sen karışma. Lütfen.",
+   "Ne yaptığını gayet iyi biliyor."
+  ]
+ },
+ "fm_summit_open": {
+  "_": [
+   "...Selam.",
+   "Eee. Şey.",
+   "Bu biraz tuhaf oldu."
+  ]
+ },
+ "fm_summit_sorry": {
+  "_": [
+   "Özür dilerim. Aslında kastetmediğim şeyler söyledim.",
+   "Haddimi aştım. Özür dilerim.",
+   "Her şeye... baştan başlayabilir miyiz?"
+  ]
+ },
+ "fm_summit_yes": {
+  "_": [
+   "Ben de. Ben de özür dilerim.",
+   "Evet. Baştan başlayalım.",
+   "Gel buraya, seni salak."
+  ]
+ },
+ "fm_summit_blowup": {
+  "_": [
+   "Özür mü? Senin özrün BU mu?",
+   "Hiç değişmemişsin.",
+   "Boş ver."
+  ]
+ },
+ "bc_hover": {
+  "_": [
+   "Bu neden bu kadar uzun sürüyor?",
+   "Bitene kadar burada dikileceğim.",
+   "Kullandığın font bu mu? Cidden mi?"
+  ]
+ },
+ "bc_tense": {
+  "_": [
+   "...Bitince biter.",
+   "Elimden geldiğince hızlı çalışıyorum.",
+   "*çok, çok gürültülü yazar*"
+  ]
+ },
+ "bc_vent": {
+  "_": [
+   "Masamın başında BİR kez daha dikilirse...",
+   "Yemin ederim, bugün bir şey söyleyeceğim.",
+   "Böyle çalışamam. Ona söyleyeceğim."
+  ]
+ },
+ "bc_egg": {
+  "_": [
+   "Söyle. Birinin söylemesi lazım.",
+   "Söyle ona! Hepimiz aynı şeyi düşünüyoruz.",
+   "Arkandayım."
+  ]
+ },
+ "bc_calm": {
+  "_": [
+   "Yapma. Bugün olmaz. Keyfi yok.",
+   "Savaşlarını iyi seç. Bu o savaş değil.",
+   "Nefes al. Önce kahve."
+  ]
+ },
+ "bc_clash": {
+  "_": [
+   "Kusura bakmayın Ahmet Bey ama siz ensemde soluyup dururken çalışamıyorum!",
+   "Yeter! Ya işimi yapacağıma güvenin ya da kendiniz yapın!",
+   "Başımda dikiliyorsunuz, söylenip duruyorsunuz, bir kez olsun teşekkür etmiyorsunuz. Bu normalmiş gibi davranmaktan bıktım."
+  ]
+ },
+ "bc_boss_reply": {
+  "_": [
+   "NE dedin sen?",
+   "Benimle bu şekilde konuşmaya nasıl CÜRET edersin!",
+   "Herkesin önünde mi? Cidden mi?"
+  ]
+ },
+ "bc_gasp": {
+  "_": [
+   "Eyvah.",
+   "Az önce... gerçekten...",
+   "*nefesini tutar*",
+   "Patlamış mısır. Biri patlamış mısır getirsin."
+  ]
+ },
+ "bc_side": {
+  "_": [
+   "Aslında haklı.",
+   "Ahmet Bey, hepimiz aynı şeyi hissediyoruz.",
+   "Bir önemi varsa — katılıyorum."
+  ]
+ },
+ "bc_boss_isolated": {
+  "_": [
+   "...Öyle mi.",
+   "Herkes mi? Cidden mi?",
+   "Hım."
+  ]
+ },
+ "bc_after_open": {
+  "_": [
+   "Odama. Hemen.",
+   "Az önceki konuya gelince..."
+  ]
+ },
+ "bc_boss_sorry": {
+  "_": [
+   "...Belki biraz fazla üstüne geldim. Geri çekileceğim.",
+   "Anlıyorum. Deneyeceğim. Söyleyeceğim bu kadar.",
+   "Peki. Başında dikilmeyi bırakacağım. Çoğunlukla."
+  ]
+ },
+ "bc_boss_warning": {
+  "_": [
+   "Bu son uyarındı. Bir dahakine İK.",
+   "Benimle bir daha böyle konuşursan kapı orada.",
+   "Bunu resmî bir uyarı say."
+  ]
+ },
+ "ns_slip": {
+  "_": [
+   "Dayı— yani, Ahmet Bey! Dosya burada!",
+   "Dayıcığım, şey— AHMET BEY. Pardon. Rapor.",
+   "Buyrun Ahmet Dayı— Ahmet Bey. Efendim."
+  ]
+ },
+ "ns_boss_cough": {
+  "_": [
+   "*öhö* Teşekkürler, ECE.",
+   "...Evet. Teşekkürler. Stajyer.",
+   "*çok gürültülü öksürük*"
+  ]
+ },
+ "ns_witness": {
+  "_": [
+   "...Dayı mı?!",
+   "Az önce DAYI mı dedi?",
+   "Ooo-hooo."
+  ]
+ },
+ "ns_probe": {
+  "_": [
+   "Eee... \"Ahmet Dayı\" ha? Açıklamak ister misin?",
+   "Ece'ciğim. Dayı mı? Cidden mi?",
+   "Ahmet'le aranızda bana anlatmak istediğin bir şey var mı?"
+  ]
+ },
+ "ns_lie": {
+  "_": [
+   "Bu bir... Türk geleneği! Biz bütün patronlara dayı deriz!",
+   "Dayı mı? \"Daha\" dedim! Daha... dosya bitmedi diyecektim!",
+   "Dayı demedim. Dedim mi? Yok."
+  ]
+ },
+ "ns_truth": {
+  "_": [
+   "...Tamam. O benim dayım. Lütfen, LÜTFEN kimseye söyleme.",
+   "Peki. Evet. Annemin kardeşi. Kendi başıma başarmak istedim."
+  ]
+ },
+ "ns_promise": {
+  "_": [
+   "Ağzım mühürlü. Çoğunlukla.",
+   "Sırrın bende güvende.",
+   "Ayy. Tabii ki kimseye söylemem."
+  ]
+ },
+ "ns_verify": {
+  "_": [
+   "Ceren, sen her şeyi bilirsin. Ece'nin Ahmet'le akrabalığı var mı?",
+   "Hızlı bir soru, tamamen masum: Ece, Ahmet'in yeğeni mi?"
+  ]
+ },
+ "ns_keeper_no": {
+  "_": [
+   "Bunu söylemek bana düşmez.",
+   "İnsanların aile meselelerini konuşmam. Kusura bakma.",
+   "Ece'ye sor. Ya da daha iyisi: sorma."
+  ]
+ },
+ "ns_keeper_slip": {
+  "_": [
+   "...Sana kim söyledi? — Yani. Yorum yok.",
+   "Bunu... doğrulayamam. Ki bu bir hayır değil."
+  ]
+ },
+ "ns_spread": {
+  "_": [
+   "İnanMAYACAKSIN. Ece, Ahmet'in YEĞENİ.",
+   "Ece'nin stajı mülakatsız aldığını hatırlıyor musun? Bil bakalım neden. Ahmet Dayı.",
+   "Torpil alarmı. Ece. Ahmet. Aile."
+  ]
+ },
+ "ns_spread_react": {
+  "_": [
+   "Bu çok şeyi AÇIKLIYOR.",
+   "Cidden mi?! İnanılmaz.",
+   "Ona torpil geçildiğini BİLİYORDUM."
+  ],
+  "ceren": [
+   "...Keşke bunu bana hiç söylemeseydin."
+  ]
+ },
+ "ns_reckon": {
+  "_": [
+   "Herkesin ne dediğini biliyorum. Evet, Ahmet benim dayım. Ve buraya ait olduğumu kanıtlamak için iki kat fazla çalışacağım.",
+   "Tamam. Herkes biliyor. O benim dayım. Hiçbir zaman ayrıcalık istemedim. Beni işime bakarak yargılayın."
+  ]
+ },
+ "ns_support": {
+  "_": [
+   "Haklısın. Sen hep üzerine düşeni yaptın.",
+   "Açık konuşayım mı? Buradaki en çalışkan kişi sensin.",
+   "Helal olsun, Ece."
+  ]
+ },
+ "ns_cold": {
+  "_": [
+   "Değerlendirmeni dayın imzalarken söylemesi kolay tabii.",
+   "Hı-hı.",
+   "Tabii."
+  ],
+  "deniz": [
+   "Aile şirketi, öyle mi?"
+  ]
+ },
+ "ivm_who": {
+  "_": [
+   "Tamam. Bunu kim yaptı?",
+   "Biri bunu bilerek yaptı.",
+   "Kim eşyalarımı kurcalayıp duruyor?!"
+  ],
+  "ahmet": [
+   "Bundan KİM sorumlu?"
+  ],
+  "burak": [
+   "Bu bir bug değildi. Bu bir insandı."
+  ],
+  "ece": [
+   "Bunu... bunu ben mi yaptım? Hayır. Bunu başkası yaptı."
+  ],
+  "mert": [
+   "Pekâlâ, şakacı. Göster kendini."
+  ],
+  "selin": [
+   "Biri beni sabote ediyor. Yine."
+  ]
+ },
+ "ivm_blame": {
+  "_": [
+   "Bunun her yerinde {suspect} yazıyor.",
+   "Bahse girerim {suspect} yapmıştır.",
+   "{suspect}. Hep {suspect}."
+  ],
+  "deniz": [
+   "{suspect} hata yapmamı istiyor. Ne tatlı."
+  ],
+  "selin": [
+   "Bunu kimin yaptığını çok iyi biliyorum. {suspect}."
+  ],
+  "zeynep": [
+   "Ah, benim bir teorim var. Baş harfi... boş ver, direkt söyleyeyim: {suspect}."
+  ]
+ },
+ "ivm_accuse": {
+  "_": [
+   "{target}. Sen miydin? Dürüst ol.",
+   "Tamam {target}, şaka bitti. Sen miydin?",
+   "Sen olduğunu biliyorum, {target}."
+  ],
+  "ahmet": [
+   "{target}! İtiraf etmek için odam iyi bir yer olur."
+  ],
+  "burak": [
+   "{target}. Loglar yalan söylemez. Sen de söyleme."
+  ],
+  "ece": [
+   "{target}... şey... sen miydin? Sorduğum için kusura bakma!"
+  ],
+  "selin": [
+   "{target}, bir açıklama bekliyorum. Hemen."
+  ]
+ },
+ "ivm_innocent": {
+  "_": [
+   "Ne? Ben hiçbir şeye dokunmadım!",
+   "Ben mi?! Bütün gün masamdaydım!",
+   "Neden herkes hep beni suçluyor?"
+  ],
+  "burak": [
+   "Daha iyi işlerim var. Yani kelimenin tam anlamıyla her şey."
+  ],
+  "deniz": [
+   "Lütfen. Ben olsaydım, asla öğrenemezdin."
+  ],
+  "ece": [
+   "Ben değildim! Kahvem üzerine yemin ederim!"
+  ],
+  "mert": [
+   "Bunu üstlenmeyi ÇOK isterdim ama hayır."
+  ],
+  "zeynep": [
+   "Canım, ben şakaların sadece LAFINI ederim."
+  ]
+ },
+ "ivm_accuse_argue": {
+  "_": [
+   "Bana yalan söyleme.",
+   "Tabii. Ben de genel müdürüm.",
+   "İnanılmaz."
+  ],
+  "selin": [
+   "Yalan söylüyorsun ve ikimiz de bunu biliyoruz."
+  ]
+ },
+ "ivm_accuse_sorry": {
+  "_": [
+   "...Tamam. Belki sen değildin. Pardon.",
+   "Peki. Benim hatam.",
+   "O zaman kim...?"
+  ]
+ },
+ "ivm_accuse_laugh": {
+  "_": [
+   "Ha! Tamam, tamam. Ateşkes?",
+   "Peki. Ama gözüm üstünde.",
+   "Sen değilsen, sana bir kahve borçluyum."
+  ]
+ },
+ "ivm_it_ask": {
+  "_": [
+   "{target}, bilgisayarımda bir sorun var. Yardım?",
+   "{target}! Acil durum. Teknik acil durum.",
+   "Makineme bakabilir misin? İçine cin girmiş."
+  ],
+  "ahmet": [
+   "{target}. Bilgisayarım. Hemen."
+  ],
+  "ece": [
+   "{target}, sanırım interneti bozdum. Yine."
+  ],
+  "mert": [
+   "{target}, en sevdiğim dâhi. Ufacık bir sorunum var."
+  ],
+  "selin": [
+   "{target}, teslim tarihim kapıda ve bilgisayarım az önce bana ihanet etti."
+  ]
+ },
+ "ivm_it_yes": {
+  "_": [
+   "İki dakikaya hallederim.",
+   "Şöyle bir bakayım.",
+   "Tamam, tamam. İlgileniyorum."
+  ],
+  "burak": [
+   "*iç çeker* Kapatıp aç— boş ver. Ben yaparım."
+  ]
+ },
+ "ivm_it_grumble": {
+  "_": [
+   "Önce ticket açılsın.",
+   "Öğle yemeğinden sonra. Belki.",
+   "Kapatıp açmayı denedik mi?"
+  ],
+  "burak": [
+   "Ben tek kişiyim, millet.",
+   "Ticket. Sıra. Sabır."
+  ]
+ },
+ "ivm_it_sabotage": {
+  "_": [
+   "Bu bir arıza değil. Biri bunu bilerek yapmış.",
+   "İlginç. Bu elle yapılmış.",
+   "Biri bu klavyeyi kurcalamış."
+  ],
+  "burak": [
+   "Bu bir kaza değildi. Biri bu makineyi ellemiş."
+  ]
+ },
+ "ivm_it_thanks": {
+  "_": [
+   "Hayat kurtardın.",
+   "Teşekkürler!!",
+   "Sana bir iyilik borçluyum."
+  ],
+  "mert": [
+   "Sana bir kebap borçluyum. İki kebap."
+  ]
+ },
+ "ivm_keep": {
+  "_": [
+   "...Bunu görmedim. Hiçbir şey görmedim.",
+   "Beni ilgilendirmez. Beni ilgilendirmez.",
+   "Bunu kendime saklarım."
+  ],
+  "burak": [
+   "Not edildi. Silindi. Devam."
+  ],
+  "ceren": [
+   "Bazı şeyler söylenmeden kalsa daha iyi."
+  ],
+  "ece": [
+   "Ağzım mühürlü! ...Çoğunlukla mühürlü."
+  ]
+ },
+ "ivm_ask_think": {
+  "_": [
+   "En iyisi {subject:e} doğru mu diye sorayım.",
+   "Bu doğru mu ki? {subject:e} soracağım.",
+   "En iyisi doğrudan {subject:den} duymak."
+  ]
+ },
+ "ivm_juicy": {
+  "_": [
+   "Ah. Aman Tanrım.",
+   "Vay, vay, vay.",
+   "Millet BUNU bir duysun."
+  ],
+  "deniz": [
+   "İlginç. Çok ilginç."
+  ],
+  "zeynep": [
+   "Bayram erken geldi!"
+  ]
+ },
+ "ivm_tattle": {
+  "_": [
+   "Ahmet Bey, bilmeniz gereken bir şey var sanırım.",
+   "Ahmet Bey, bir dakikanız var mı? {subject} hakkında.",
+   "Laf taşımayı sevmem ama... {gossip}"
+  ],
+  "deniz": [
+   "Bunu size söyleyen ben olmak istemezdim Ahmet Bey ama... {gossip}"
+  ],
+  "selin": [
+   "Ahmet Bey, bu ekibi etkiliyor: {gossip}"
+  ]
+ },
+ "ivm_boss_cares": {
+  "_": [
+   "Öyle mi? {subject:i} gözümün önünden ayırmayacağım.",
+   "Söylediğin için teşekkürler.",
+   "Hım. Bu... bilmesi çok faydalı bir şey."
+  ]
+ },
+ "ivm_boss_tattle_no": {
+  "_": [
+   "Burası oyun parkı değil. İşinin başına.",
+   "Ofis dedikodusu beni ilgilendirmez.",
+   "Peki bunu bana neden anlatıyorsun?"
+  ]
+ },
+ "ivm_misattrib": {
+  "_": [
+   "Hey {target}... {what} meselesi... sen miydin?",
+   "{target}! Sen olduğunu biliyorum. Hani {what}!",
+   "Eee... {what}. O sendin, değil mi?"
+  ],
+  "ahmet": [
+   "{target}. Açıkla bakalım: {what}."
+  ],
+  "ece": [
+   "{target}! Sen miydin?? Hani {what}!"
+  ],
+  "selin": [
+   "{target}, {what} ile bir ilgin var mı?"
+  ]
+ },
+ "ivm_take_credit": {
+  "_": [
+   "...Evet. Evet, bendim. Rica ederim.",
+   "Suçluyum. Yani — beğenmene sevindim.",
+   "Belki. Kim soruyor?"
+  ],
+  "deniz": [
+   "Elbette. Ben sürprizlerle doluyum."
+  ],
+  "mert": [
+   "Haha, evet! Tamamen ben. Kesinlikle."
+  ]
+ },
+ "ivm_not_me": {
+  "_": [
+   "Ben mi? Neden bahsettiğin hakkında hiçbir fikrim yok.",
+   "O ben değildim. Kusura bakma.",
+   "Ha? Ben bir şey yapmadım."
+  ],
+  "ceren": [
+   "O ben değildim. Ama kim olduğunu bilmek isterim."
+  ]
+ },
+ "ivm_blush": {
+  "_": [
+   "Ben... şey... belki?",
+   "*kızarır* Sana kim söyledi?",
+   "Kim olduğu önemli değil. Değil mi?"
+  ]
+ },
+ "ivm_boss_ask": {
+  "_": [
+   "Otur. Bana {what} hakkında bir şeyler anlattılar.",
+   "Bana {what} meselesini açıkla.",
+   "{what} hakkında konuşmamız lazım."
   ]
  }
 }

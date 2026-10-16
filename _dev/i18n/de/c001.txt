@@ -9,24 +9,24 @@
 396|Konferenztisch
 397|Zahnarzttermin
 398|Vorstellungsgespräch
-399|deine Akte in meinem privaten Ordner
+399|Ihre Akte in meinem privaten Ordner
 400|45 Minuten vor
 401|30 Minuten nach
 402|45 Minuten vor
 403|30 Minuten zurück
 404|den Zettel an der Pinnwand
 405|Urlaubsnachmittag
-406|dein Verschwinden gestern Nachmittag
+406|Ihr Verschwinden gestern Nachmittag
 407|eine schluchzende Trennungsballade
 408|kreischenden Heavy Metal
-409|die Stellenanzeigen auf deinem Bildschirm
-410|deine „DRINGEND: Entlassungen“-Mail
+409|die Stellenanzeigen auf Ihrem Bildschirm
+410|Ihre „DRINGEND: Entlassungen“-Mail
 411|den Liebesbrief
 412|herzzerreißende Arabesk-Musik
 413|klassische Musik
 414|70er-Disco
 415|kitschige Pophits
-416|den Stöhn-Anruf von deiner Durchwahl
+416|den Stöhn-Anruf von Ihrer Durchwahl
 417|Gehaltserhöhung
 418|Küche
 419|Lounge
