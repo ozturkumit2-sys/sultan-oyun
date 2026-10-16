@@ -464,5 +464,625 @@
   "mert": [
    "Parfum café. Très tendance."
   ]
+ },
+ "spill_angry": {
+  "_": [
+   "Sérieusement ?!",
+   "Regarde où tu vas !",
+   "C'était propre !"
+  ],
+  "ahmet": [
+   "Faites plus attention !"
+  ],
+  "selin": [
+   "Ece. Vraiment ?"
+  ]
+ },
+ "dark_scheme_whisper": {
+  "_": [
+   "Timing parfait…",
+   "Personne ne regarde…",
+   "L'obscurité, c'est juste une occasion sans éclairage."
+  ]
+ },
+ "lights_ghost_on": {
+  "_": [
+   "Les lumières se sont rallumées toutes seules ?",
+   "Qui… a fait ça ?",
+   "Personne n'a touché à l'interrupteur !"
+  ]
+ },
+ "dark_scared": {
+  "_": [
+   "Je n'aime pas ça.",
+   "C'est moi ou c'est flippant ici ?",
+   "Reste près de moi, d'accord ?"
+  ],
+  "ece": [
+   "Je peux tenir ta manche ? Juste un peu ?"
+  ]
+ },
+ "dark_comfort": {
+  "_": [
+   "Ça va, je suis là.",
+   "Détends-toi, c'est juste une panne de courant.",
+   "Ha, t'inquiète. Je veille sur toi."
+  ],
+  "mert": [
+   "T'inquiète, je brille dans le noir. Je rigole."
+  ]
+ },
+ "too_cold": {
+  "_": [
+   "Brrr ! Pourquoi il fait si froid ?",
+   "J'ai les doigts gelés !",
+   "La clim est réglée sur Antarctique ou quoi ?"
+  ],
+  "ece": [
+   "Je vois ma respiration !"
+  ],
+  "zeynep": [
+   "Je suis en train de me transformer en sculpture de glace !"
+  ]
+ },
+ "too_hot": {
+  "_": [
+   "On étouffe ici !",
+   "Qui a allumé le sauna ?",
+   "Je fonds…"
+  ],
+  "ahmet": [
+   "Qui a touché à la clim ?!"
+  ],
+  "burak": [
+   "Les serveurs vont cuire."
+  ]
+ },
+ "temp_complain": {
+  "_": [
+   "C'en est trop. Je règle le thermostat.",
+   "Je ne peux pas travailler comme ça.",
+   "Qui n'arrête pas de changer la température ?!"
+  ]
+ },
+ "temp_suffer": {
+  "_": [
+   "Je vais juste… souffrir en silence.",
+   "*grelotte*",
+   "*s'évente avec une chemise cartonnée*"
+  ]
+ },
+ "thermo_grumble": {
+  "_": [
+   "Qui a touché au thermostat ?",
+   "Sérieux ? Encore ?",
+   "*marmonne au sujet de la clim*"
+  ]
+ },
+ "thermo_argue_1": {
+  "_": [
+   "Pourquoi tu as changé la température ?",
+   "Ne touche pas au thermostat !",
+   "C'était parfait avant !"
+  ],
+  "zeynep": [
+   "Certains d'entre nous ont des problèmes de circulation !"
+  ]
+ },
+ "thermo_argue_2": {
+  "_": [
+   "On gelait !",
+   "C'était un sauna !",
+   "Je ne suis pas la seule personne à travailler ici !"
+  ],
+  "ahmet": [
+   "C'est moi le manager. C'est moi qui règle la température."
+  ]
+ },
+ "thermo_argue_3": {
+  "_": [
+   "Très bien ! Mets un pull !",
+   "Incroyable.",
+   "C'est la guerre, maintenant."
+  ]
+ },
+ "files_flew": {
+  "_": [
+   "Mes papiers viennent de… s'envoler ?!",
+   "Tu as vu ça ?! Les dossiers ont bougé tout seuls !",
+   "OK. C'est décidé. Des fantômes."
+  ]
+ },
+ "witness_ghost": {
+  "_": [
+   "C'était QUOI, ça ?",
+   "Je l'ai vu aussi !",
+   "Non. Non non non."
+  ]
+ },
+ "who_did_this": {
+  "_": [
+   "Qui a mis le bazar dans mes documents ?!",
+   "Qui a touché à mon bureau ?!",
+   "Mes dossiers ! Tout est dans le désordre !"
+  ],
+  "ahmet": [
+   "Qui a osé toucher à mon bureau ?!"
+  ],
+  "burak": [
+   "Mon bureau. Mon système. Ruinés."
+  ],
+  "deniz": [
+   "Quelqu'un essaie de me saboter."
+  ],
+  "selin": [
+   "Qui. A. Touché. À. Mes. Dossiers.",
+   "Quelqu'un est passé à mon bureau."
+  ],
+  "zeynep": [
+   "Quelqu'un a fouiné. Et pour une fois, ce n'est pas moi !"
+  ]
+ },
+ "suspect_named": {
+  "_": [
+   "C'était {suspect}. Je le sais, c'est tout.",
+   "{suspect}… je vais lui dire deux mots.",
+   "Ça porte la signature de {suspect} partout."
+  ]
+ },
+ "dont_look_at_me": {
+  "_": [
+   "Ne me regarde pas comme ça !",
+   "Ce n'est pas moi !",
+   "C'était pas moi !",
+   "J'ai été à mon bureau toute la journée !"
+  ],
+  "burak": [
+   "J'ai un alibi. Mon code."
+  ],
+  "mert": [
+   "Je suis innocent ! En grande partie."
+  ]
+ },
+ "tidy_sigh": {
+  "_": [
+   "*soupire et commence à trier les papiers*",
+   "Retour à la case départ.",
+   "Bon. Je vais tout refaire."
+  ],
+  "ceren": [
+   "Rangeons tranquillement."
+  ]
+ },
+ "ece_offer_tidy": {
+  "_": [
+   "Laisse-moi t'aider à trier tout ça !",
+   "Je suis super douée pour le classement ! En général !"
+  ]
+ },
+ "ece_tidy_thanks": {
+  "_": [
+   "Merci, Ece. Tu es adorable.",
+   "Tu n'étais pas obligée… merci.",
+   "OK, tu es officiellement ma préférée."
+  ]
+ },
+ "i_think_i_know": {
+  "_": [
+   "Je crois que je sais qui a fait ça…",
+   "Psst. J'ai vu quelque chose.",
+   "Tu veux savoir ce que j'ai vu ?"
+  ],
+  "zeynep": [
+   "Oh, je sais EXACTEMENT qui a fait ça."
+  ]
+ },
+ "who_was_it": {
+  "_": [
+   "Qui ?!",
+   "Dis-moi.",
+   "Crache le morceau."
+  ]
+ },
+ "zeynep_accuse": {
+  "_": [
+   "{suspect}. Je {suspect?l'ai vu|l'ai vue} près de ton bureau.",
+   "C'était {suspect}. Ne dis pas que ça vient de moi.",
+   "Disons que {suspect} avait l'air très louche."
+  ]
+ },
+ "accuse_files": {
+  "_": [
+   "Tu as touché à mon bureau, {target} ?",
+   "C'est toi qui as touché à mes dossiers ?",
+   "{target}. Mes dossiers. Explique-toi."
+  ],
+  "selin": [
+   "Je sais que c'était toi, {target}."
+  ]
+ },
+ "accuse_coffee": {
+  "_": [
+   "C'est toi qui as cassé la machine à café, hein ?",
+   "{target}, avoue. La machine à café."
+  ]
+ },
+ "accuse_item": {
+  "_": [
+   "Pourquoi {item?mon|ma} {item} était sur TON bureau, {target} ?",
+   "{target}, tu peux m'expliquer pour {item?mon|ma} {item} ?"
+  ]
+ },
+ "accuse_promo": {
+  "_": [
+   "C'est toi qui as trafiqué mon dossier de promotion, hein ?",
+   "{target}, tu as saboté ma promotion ?"
+  ],
+  "selin": [
+   "Tu as trafiqué ce dossier, {target}. Avoue."
+  ]
+ },
+ "smooth_deny": {
+  "_": [
+   "Moi ? Jamais. Ça doit être le fantôme.",
+   "Aucune idée de quoi tu parles.",
+   "Waouh. Un brin parano, non ?"
+  ]
+ },
+ "not_convinced": {
+  "_": [
+   "Mmh. C'est ça.",
+   "Je t'ai à l'œil.",
+   "On verra."
+  ]
+ },
+ "deny_angry": {
+  "_": [
+   "Pardon ?! Je n'ai rien fait !",
+   "Comment OSES-tu m'accuser !",
+   "Tu es sérieux{to?|se}, là ?!"
+  ],
+  "ahmet": [
+   "Vous m'accusez, MOI ?"
+  ],
+  "burak": [
+   "Ne me mets pas ça sur le dos !",
+   "Je n'y ai pas touché. Arrête de m'accuser !"
+  ],
+  "deniz": [
+   "Waouh. Un peu jaloux{to?|se}, non ?"
+  ]
+ },
+ "insist": {
+  "_": [
+   "Alors qui d'autre ?!",
+   "Tu étais {to?le seul|la seule} près de mon bureau !",
+   "Ne me mens pas !"
+  ]
+ },
+ "deny_angry2": {
+  "_": [
+   "Dégage de ma vue !",
+   "J'en ai assez !",
+   "Pense ce que tu veux !"
+  ]
+ },
+ "witness_argument": {
+  "_": [
+   "Wow, wow…",
+   "Et c'est reparti.",
+   "Quelqu'un devrait les arrêter, non ?"
+  ],
+  "mert": [
+   "Quelqu'un veut du pop-corn ?"
+  ],
+  "zeynep": [
+   "Oh, ça devient intéressant."
+  ]
+ },
+ "deny_calm": {
+  "_": [
+   "Ce n'est pas moi, promis.",
+   "Je comprends que tu sois contrarié{to?|e}, mais ce n'est pas moi.",
+   "Je ne te ferais jamais ça."
+  ],
+  "ceren": [
+   "Ce n'est pas moi, mais je vais t'aider à trouver qui c'est."
+  ]
+ },
+ "sorry_accuse": {
+  "_": [
+   "OK… pardon. Je suis juste stressé{me?|e}.",
+   "Tu as raison. Pardon.",
+   "Ma faute. Je suis à cran."
+  ]
+ },
+ "take_blame": {
+  "_": [
+   "C'était… c'était moi. Désolé{me?|e}.",
+   "OK, je prends la faute. Passons à autre chose.",
+   "Désolé{me?|e} ! Sûrement ma faute !"
+  ],
+  "ece": [
+   "C'était sûrement moi ! Je suis maladroite ! Je suis vraiment désolée !"
+  ]
+ },
+ "accept_apology": {
+  "_": [
+   "… Bon. Ne recommence pas.",
+   "OK. Merci pour ton honnêteté.",
+   "Excuses acceptées. De justesse."
+  ]
+ },
+ "defend": {
+  "_": [
+   "Laisse tomber, ce n'est pas qui tu crois.",
+   "Hé ! Recule. Ce n'est pas qui tu crois.",
+   "On était ensemble tout le temps."
+  ],
+  "ceren": [
+   "N'accusons personne sans preuve."
+  ],
+  "mert": [
+   "Allez, personne ici ne ferait ça."
+  ]
+ },
+ "stay_out": {
+  "_": [
+   "Ne te mêle pas de ça !",
+   "On ne t'a rien demandé.",
+   "Occupe-toi de tes affaires."
+  ]
+ },
+ "fight_crowd": {
+  "_": [
+   "Qu'est-ce qui se passe ?!",
+   "Pas encore !",
+   "Quelqu'un, appelez Ahmet !",
+   "Tout le monde se calme !"
+  ],
+  "zeynep": [
+   "J'enregistre tout dans ma mémoire."
+  ]
+ },
+ "boss_outburst": {
+  "_": [
+   "ÇA SUFFIT ! C'est un bureau ici, pas un cirque !",
+   "Qu'est-ce qui se passe ici ?! Au travail, TOUS !",
+   "Encore une dispute et j'annule le déjeuner de tout le monde !"
+  ]
+ },
+ "missing_glasses": {
+  "_": [
+   "Où sont mes lunettes ?! Je ne peux rien lire !",
+   "Quelqu'un a vu mes lunettes de lecture ?"
+  ]
+ },
+ "missing_usb": {
+  "_": [
+   "Ma clé USB ! Toute ma présentation est dessus !",
+   "Où est ma clé USB ?! Elle était juste là !"
+  ]
+ },
+ "missing_mug": {
+  "_": [
+   "Où est ma tasse porte-bonheur ? Je ne peux pas boire de café dans une tasse normale !",
+   "Qui a pris ma tasse ?!"
+  ]
+ },
+ "missing_planner": {
+  "_": [
+   "Mon agenda a disparu. Toute ma vie est dans cet agenda.",
+   "Où est mon agenda ?"
+  ]
+ },
+ "missing_charger": {
+  "_": [
+   "Mon chargeur a disparu. Ordi à 3 %.",
+   "Qui a pris mon chargeur ? Qui fait ça ?"
+  ]
+ },
+ "found_at_desk": {
+  "_": [
+   "{item?Mon|Ma} {item}… sur le bureau de {owner} ?!",
+   "Pourquoi {item?mon|ma} {item} est chez {owner} ?",
+   "Alors c'est {owner} qui avait {item?mon|ma} {item} depuis le début."
+  ]
+ },
+ "found_at_friend": {
+  "_": [
+   "Ha ! {owner}, {owner?espèce de voleur|espèce de voleuse} ! Haha.",
+   "{item?Mon|Ma} {item} chez {owner} ? Drôle."
+  ]
+ },
+ "found_weird_place": {
+  "_": [
+   "Comment {item?mon|ma} {item} a atterri ici ?",
+   "Je n'ai jamais apporté {item?mon|ma} {item} ici…",
+   "Dans ce bureau, les choses n'arrêtent pas de bouger."
+  ]
+ },
+ "found_item_relief": {
+  "_": [
+   "Trouvé ! Ouf.",
+   "Te voilà !"
+  ]
+ },
+ "pocket_item": {
+  "_": [
+   "Qui trouve garde…",
+   "Hm. Ça pourrait servir.",
+   "*le glisse discrètement dans un tiroir*"
+  ]
+ },
+ "found_foreign_item": {
+  "_": [
+   "Pourquoi {item:le} de {owner} est sur mon bureau ? Je vais {item?le|la} rapporter.",
+   "C'est {item:le} de {owner}… je vais {item?le|la} rapporter."
+  ]
+ },
+ "whose_is_this": {
+  "_": [
+   "C'est à qui, ça ?",
+   "Pas à moi. Pas mon problème."
+  ]
+ },
+ "return_item_line": {
+  "_": [
+   "J'ai trouvé {item?ton|ta} {item} sur mon bureau !",
+   "Tiens — {item?ton|ta} {item} était chez moi.",
+   "Je crois que c'est à toi."
+  ]
+ },
+ "thanks_return": {
+  "_": [
+   "Oh mon Dieu, merci !",
+   "Tu me sauves la vie !",
+   "Merci ! J'étais en train de devenir {me?fou|folle} !"
+  ],
+  "ahmet": [
+   "Hm. Merci."
+  ],
+  "selin": [
+   "Merci. Sérieusement. Merci."
+  ]
+ },
+ "email_oops": {
+  "_": [
+   "Attends. C'est parti à… TOUT LE MONDE ?!",
+   "Non. Non non non non non.",
+   "Annuler ! ANNULER ! Où est le bouton annuler ?!"
+  ],
+  "ahmet": [
+   "Ce n'était PAS destiné à l'équipe."
+  ],
+  "burak": [
+   "… Il va me falloir un nouveau boulot. Plus vite."
+  ],
+  "deniz": [
+   "C'est… un malentendu."
+  ],
+  "ece": [
+   "Je veux disparaître."
+  ],
+  "mert": [
+   "Oh non. Oh non. Je déménage à l'étranger."
+  ],
+  "selin": [
+   "Ce n'était pas pour tout le monde."
+  ],
+  "zeynep": [
+   "Bon. C'est gênant."
+  ]
+ },
+ "email_read_all": {
+  "_": [
+   "Tout le monde vient de recevoir ce mail ?",
+   "Oh. Mon. Dieu.",
+   "Je le relis deux fois.",
+   "Répondre à tous ? À TOUS ?"
+  ],
+  "ahmet": [
+   "Qu'est-ce que ça signifie ?"
+  ],
+  "ceren": [
+   "Oh là là."
+  ],
+  "mert": [
+   "Oh, c'est de l'or."
+  ],
+  "zeynep": [
+   "Meilleur mail DE TOUS LES TEMPS.",
+   "Je l'imprime et je l'encadre."
+  ]
+ },
+ "secret_exposed": {
+  "_": [
+   "C'était privé !",
+   "Tout le monde est au courant maintenant. Génial.",
+   "Comment tu as pu ?!"
+  ]
+ },
+ "own_secret_out": {
+  "_": [
+   "Tout le monde est au courant maintenant…",
+   "Génial. Vraiment génial.",
+   "Bon, le chat est sorti du sac."
+  ]
+ },
+ "team_complaint_react": {
+  "_": [
+   "Fainéants ? NOUS, fainéants ?",
+   "Waouh. Dis-nous vraiment ce que tu penses.",
+   "Voilà donc ce qu'il pense de nous."
+  ]
+ },
+ "boss_backpedal": {
+  "_": [
+   "C'était… un brouillon. Un premier jet.",
+   "Faisons tous comme si ça n'était jamais arrivé."
+  ]
+ },
+ "email_sent_wrong": {
+  "_": [
+   "Attends… à qui j'ai envoyé ça ?",
+   "Ça vient de partir chez {target} ?!",
+   "Mauvais destinataire… oh non."
+  ]
+ },
+ "email_redirect_read": {
+  "_": [
+   "Euh… {actor}, je crois que ce n'était pas pour moi.",
+   "Tiens, VOILÀ qui est intéressant.",
+   "Hmm. J'étais censé{me?|e} voir ça ?"
+  ],
+  "ahmet": [
+   "{actor}. Mon bureau. Tout de suite. Non, en fait, je viens vous voir."
+  ],
+  "zeynep": [
+   "Oh, c'est croustillant."
+  ]
+ },
+ "email_confront": {
+  "_": [
+   "J'ai lu ton mail, {target}.",
+   "Alors C'EST ÇA que tu penses de moi ?",
+   "Il faut qu'on parle de ce mail."
+  ]
+ },
+ "email_apology": {
+  "_": [
+   "Je suis désolé{me?|e}. Je vidais mon sac. Je ne le pensais pas.",
+   "C'était déplacé. Je suis désolé{me?|e}.",
+   "On peut repartir de zéro ?"
+  ]
+ },
+ "email_apology_accept": {
+  "_": [
+   "D'accord. Mais ça m'a blessé{me?|e}.",
+   "Bon. Passons à autre chose.",
+   "Excuses acceptées. Pour l'instant."
+  ]
+ },
+ "email_defiant": {
+  "_": [
+   "Je pensais chaque mot.",
+   "Tu avais peut-être besoin de l'entendre.",
+   "Bon, maintenant c'est dit."
+  ]
+ },
+ "email_furious": {
+  "_": [
+   "Incroyable !",
+   "Tu es incroyable !",
+   "On n'a plus rien à se dire."
+  ]
+ },
+ "crush_flattered": {
+  "_": [
+   "Mert… c'était plutôt mignon, en fait.",
+   "Alors… je te plais ? C'est… gentil.",
+   "Eh bien. C'est une façon de me le dire."
+  ]
  }
 }

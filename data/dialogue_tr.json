@@ -464,5 +464,625 @@
   "mert": [
    "Kahve kokulu. Çok moda."
   ]
+ },
+ "spill_angry": {
+  "_": [
+   "Ciddi misin?!",
+   "Önüne baksana!",
+   "Bu temizdi!"
+  ],
+  "ahmet": [
+   "Daha dikkatli ol!"
+  ],
+  "selin": [
+   "Ece. Gerçekten mi?"
+  ]
+ },
+ "dark_scheme_whisper": {
+  "_": [
+   "Tam zamanı...",
+   "Kimse bakmıyor...",
+   "Karanlık dediğin, aydınlatması olmayan bir fırsattır."
+  ]
+ },
+ "lights_ghost_on": {
+  "_": [
+   "Işıklar kendi kendine mi yandı?",
+   "Bunu... kim yaptı?",
+   "Kimse düğmeye dokunmadı!"
+  ]
+ },
+ "dark_scared": {
+  "_": [
+   "Bundan hiç hoşlanmadım.",
+   "Bana mı öyle geliyor, yoksa burası ürkütücü mü?",
+   "Yakınımda dur, tamam mı?"
+  ],
+  "ece": [
+   "Koluna tutunabilir miyim? Azıcık?"
+  ]
+ },
+ "dark_comfort": {
+  "_": [
+   "Sorun yok, buradayım.",
+   "Rahatla, sadece elektrik kesildi.",
+   "Ha, merak etme. Ben yanındayım."
+  ],
+  "mert": [
+   "Merak etme, ben karanlıkta parlarım. Şaka."
+  ]
+ },
+ "too_cold": {
+  "_": [
+   "Brrr! Burası neden bu kadar soğuk?",
+   "Parmaklarım donuyor!",
+   "Klimayı Antarktika'ya mı ayarladılar?"
+  ],
+  "ece": [
+   "Nefesimi görebiliyorum!"
+  ],
+  "zeynep": [
+   "Burada buzdan heykele dönüşüyorum!"
+  ]
+ },
+ "too_hot": {
+  "_": [
+   "Burası kaynıyor!",
+   "Saunayı kim açtı?",
+   "Eriyorum..."
+  ],
+  "ahmet": [
+   "Klimaya kim dokundu?!"
+  ],
+  "burak": [
+   "Sunucular pişecek."
+  ]
+ },
+ "temp_complain": {
+  "_": [
+   "Tamam, yeter. Termostatı ben ayarlıyorum.",
+   "Böyle çalışamam.",
+   "Sıcaklığı kim durmadan değiştiriyor?!"
+  ]
+ },
+ "temp_suffer": {
+  "_": [
+   "Ben... sessizce acı çekerim.",
+   "*titrer*",
+   "*bir dosyayla kendini yelpazeler*"
+  ]
+ },
+ "thermo_grumble": {
+  "_": [
+   "Termostata kim dokundu?",
+   "Ciddi misiniz? Yine mi?",
+   "*klima hakkında söylenir*"
+  ]
+ },
+ "thermo_argue_1": {
+  "_": [
+   "Sıcaklığı neden değiştirdin?",
+   "Termostata dokunma!",
+   "Önceden mükemmeldi!"
+  ],
+  "zeynep": [
+   "Bazılarımızın kan dolaşımı sorunu var!"
+  ]
+ },
+ "thermo_argue_2": {
+  "_": [
+   "Buz gibiydi!",
+   "Sauna gibiydi!",
+   "Burada çalışan bir tek ben değilim!"
+  ],
+  "ahmet": [
+   "Müdür benim. Sıcaklığı ben ayarlarım."
+  ]
+ },
+ "thermo_argue_3": {
+  "_": [
+   "Peki! Kazak giy!",
+   "İnanılmaz.",
+   "Bu artık bir savaş."
+  ]
+ },
+ "files_flew": {
+  "_": [
+   "Kâğıtlarım az önce... uçtu mu?!",
+   "Gördün mü?! Dosyalar kendi kendine hareket etti!",
+   "Tamam. Bu kadar. Hayalet."
+  ]
+ },
+ "witness_ghost": {
+  "_": [
+   "O da NEYDİ?",
+   "Ben de gördüm!",
+   "Yok. Yok yok yok."
+  ]
+ },
+ "who_did_this": {
+  "_": [
+   "Belgelerimi kim karıştırdı?!",
+   "Masama kim dokundu?!",
+   "Dosyalarım! Her şeyin sırası bozulmuş!"
+  ],
+  "ahmet": [
+   "Masama dokunmaya kim cüret etti?!"
+  ],
+  "burak": [
+   "Masam. Sistemim. Mahvolmuş."
+  ],
+  "deniz": [
+   "Biri beni sabote etmeye çalışıyor."
+  ],
+  "selin": [
+   "Kim. Dokundu. Dosyalarıma.",
+   "Biri masamı kurcalamış."
+  ],
+  "zeynep": [
+   "Biri ortalığı kolaçan etmiş. Ve bu sefer ben değilim!"
+  ]
+ },
+ "suspect_named": {
+  "_": [
+   "{suspect} yaptı. İçime doğuyor.",
+   "{suspect}... onunla bir konuşacağım.",
+   "Bunun her yerinde {suspect} yazıyor."
+  ]
+ },
+ "dont_look_at_me": {
+  "_": [
+   "Bana bakma!",
+   "Ben yapmadım!",
+   "Ben değildim!",
+   "Bütün gün masamdaydım!"
+  ],
+  "burak": [
+   "Bir tanığım var. Kodum."
+  ],
+  "mert": [
+   "Ben masumum! Çoğunlukla."
+  ]
+ },
+ "tidy_sigh": {
+  "_": [
+   "*iç çeker ve kâğıtları ayıklamaya başlar*",
+   "Başa döndük.",
+   "Peki. Baştan yaparım."
+  ],
+  "ceren": [
+   "Sessizce toparlayalım."
+  ]
+ },
+ "ece_offer_tidy": {
+  "_": [
+   "Bunları ayırmana yardım edeyim!",
+   "Dosyalamada harikayımdır! Çoğunlukla!"
+  ]
+ },
+ "ece_tidy_thanks": {
+  "_": [
+   "Sağ ol Ece. Çok tatlısın.",
+   "Hiç gerek yoktu... teşekkürler.",
+   "Tamam, resmen en sevdiğim insansın."
+  ]
+ },
+ "i_think_i_know": {
+  "_": [
+   "Sanırım kimin yaptığını biliyorum...",
+   "Pst. Bir şey gördüm.",
+   "Ne gördüğümü bilmek ister misin?"
+  ],
+  "zeynep": [
+   "Ah, kimin yaptığını ÇOK İYİ biliyorum."
+  ]
+ },
+ "who_was_it": {
+  "_": [
+   "Kim?!",
+   "Söyle.",
+   "Dök içini."
+  ]
+ },
+ "zeynep_accuse": {
+  "_": [
+   "{suspect}. Masanın yanında gördüm.",
+   "{suspect} yaptı. Benden duymuş olma.",
+   "Diyelim ki {suspect} çok şüpheli görünüyordu."
+  ]
+ },
+ "accuse_files": {
+  "_": [
+   "Masamı sen mi karıştırdın, {target}?",
+   "Dosyalarıma dokunan sen miydin?",
+   "{target}. Dosyalarım. Açıkla."
+  ],
+  "selin": [
+   "Sen olduğunu biliyorum, {target}."
+  ]
+ },
+ "accuse_coffee": {
+  "_": [
+   "Kahve makinesini sen bozdun, değil mi?",
+   "{target}, itiraf et. Kahve makinesi."
+  ]
+ },
+ "accuse_item": {
+  "_": [
+   "{item:m} neden SENİN masandaydı, {target}?",
+   "{target}, {item:m} hakkında bir açıklaman var mı?"
+  ]
+ },
+ "accuse_promo": {
+  "_": [
+   "Terfi dosyamı sen kurcaladın, değil mi?",
+   "{target}, terfimi sen mi sabote ettin?"
+  ],
+  "selin": [
+   "O dosyayı sen değiştirdin, {target}. İtiraf et."
+  ]
+ },
+ "smooth_deny": {
+  "_": [
+   "Ben mi? Asla. Hayalettir.",
+   "Neden bahsettiğin hakkında hiçbir fikrim yok.",
+   "Vay. Biraz paranoyak mıyız?"
+  ]
+ },
+ "not_convinced": {
+  "_": [
+   "Hı hı. Tabii.",
+   "Gözüm üstünde.",
+   "Göreceğiz."
+  ]
+ },
+ "deny_angry": {
+  "_": [
+   "Pardon?! Ben hiçbir şey yapmadım!",
+   "Beni suçlamaya NASIL cüret edersin!",
+   "Şu an ciddi misin?!"
+  ],
+  "ahmet": [
+   "BENİ mi suçluyorsun?"
+  ],
+  "burak": [
+   "Bunun için sakın beni suçlama!",
+   "Dokunmadım. Beni suçlamayı bırak!"
+  ],
+  "deniz": [
+   "Vay. Biraz kıskançlık mı var?"
+  ]
+ },
+ "insist": {
+  "_": [
+   "O zaman başka kim?!",
+   "Masamın yanında bir tek sen vardın!",
+   "Bana yalan söyleme!"
+  ]
+ },
+ "deny_angry2": {
+  "_": [
+   "Çekil karşımdan!",
+   "Yeter artık!",
+   "Ne düşünürsen düşün!"
+  ]
+ },
+ "witness_argument": {
+  "_": [
+   "Hop, hop...",
+   "Yine başlıyoruz.",
+   "Biri onları durdursa mı?"
+  ],
+  "mert": [
+   "Patlamış mısır isteyen?"
+  ],
+  "zeynep": [
+   "Oo, iş ilginçleşiyor."
+  ]
+ },
+ "deny_calm": {
+  "_": [
+   "Ben değildim, söz veriyorum.",
+   "Üzgün olduğunu anlıyorum ama ben değildim.",
+   "Sana asla böyle bir şey yapmam."
+  ],
+  "ceren": [
+   "Ben yapmadım ama kimin yaptığını bulmana yardım ederim."
+  ]
+ },
+ "sorry_accuse": {
+  "_": [
+   "Tamam... özür dilerim. Sadece stresliyim.",
+   "Haklısın. Özür dilerim.",
+   "Benim hatam. Gerginim."
+  ]
+ },
+ "take_blame": {
+  "_": [
+   "Ben... bendim. Özür dilerim.",
+   "Tamam, suçu üstleniyorum. Geçelim artık.",
+   "Özür dilerim! Muhtemelen benim hatam!"
+  ],
+  "ece": [
+   "Muhtemelen bendim! Sakarım! Çok özür dilerim!"
+  ]
+ },
+ "accept_apology": {
+  "_": [
+   "...Peki. Bir daha yapma yeter.",
+   "Tamam. Dürüst olduğun için sağ ol.",
+   "Özür kabul edildi. Zar zor."
+  ]
+ },
+ "defend": {
+  "_": [
+   "Rahat bırak, o yapmadı.",
+   "Hey! Geri çekil. O yapmadı.",
+   "Bütün zaman onunla birlikteydim."
+  ],
+  "ceren": [
+   "Kanıt olmadan kimseyi suçlamayalım."
+  ],
+  "mert": [
+   "Hadi ama, o asla öyle bir şey yapmaz."
+  ]
+ },
+ "stay_out": {
+  "_": [
+   "Sen karışma!",
+   "Sana soran olmadı.",
+   "Kendi işine bak."
+  ]
+ },
+ "fight_crowd": {
+  "_": [
+   "Neler oluyor?!",
+   "Yine mi!",
+   "Biri Ahmet'i çağırsın!",
+   "Herkes sakin olsun!"
+  ],
+  "zeynep": [
+   "Bunların hepsini hafızama kaydediyorum."
+  ]
+ },
+ "boss_outburst": {
+  "_": [
+   "YETER! Burası ofis, sirk değil!",
+   "Burada neler oluyor?! Hepiniz İŞİNİZİN BAŞINA!",
+   "Bir kavga daha olursa herkesin öğle yemeğini iptal ederim!"
+  ]
+ },
+ "missing_glasses": {
+  "_": [
+   "Gözlüğüm nerede?! Hiçbir şey okuyamıyorum!",
+   "Okuma gözlüğümü gören var mı?"
+  ]
+ },
+ "missing_usb": {
+  "_": [
+   "USB belleğim! Bütün sunumum onun içinde!",
+   "USB'm nerede?! Tam buradaydı!"
+  ]
+ },
+ "missing_mug": {
+  "_": [
+   "Uğurlu kupam nerede? Normal bir bardaktan kahve içemem!",
+   "Kupamı kim aldı?!"
+  ]
+ },
+ "missing_planner": {
+  "_": [
+   "Ajandam yok. Bütün hayatım o ajandada.",
+   "Ajandam nerede?"
+  ]
+ },
+ "missing_charger": {
+  "_": [
+   "Şarj aletim yok. Laptopun şarjı %3.",
+   "Şarj aletimi kim aldı? Kim böyle bir şey yapar?"
+  ]
+ },
+ "found_at_desk": {
+  "_": [
+   "{item:m}... {owner:in} masasında mı?!",
+   "{item:m} neden {owner:in} masasında?",
+   "Demek {item:m} başından beri {owner:de}ymiş."
+  ]
+ },
+ "found_at_friend": {
+  "_": [
+   "Ha! {owner}, seni hırsız! Haha.",
+   "{item:m} {owner:de} mi? Komik."
+  ]
+ },
+ "found_weird_place": {
+  "_": [
+   "{item:m} buraya nasıl geldi?",
+   "{item:m} burada ne arıyor? Ben getirmedim ki...",
+   "Bu ofiste eşyalar durmadan yer değiştiriyor."
+  ]
+ },
+ "found_item_relief": {
+  "_": [
+   "Buldum! Oh be.",
+   "İşte buradasın!"
+  ]
+ },
+ "pocket_item": {
+  "_": [
+   "Bulan alır...",
+   "Hm. Bu işe yarayabilir.",
+   "*sessizce bir çekmeceye kaydırır*"
+  ]
+ },
+ "found_foreign_item": {
+  "_": [
+   "{owner:in} {item:si} neden benim masamda? Geri götüreyim.",
+   "Bu {owner:in} {item:si}... geri götüreyim."
+  ]
+ },
+ "whose_is_this": {
+  "_": [
+   "Bu kimin?",
+   "Benim değil. Benim sorunum değil."
+  ]
+ },
+ "return_item_line": {
+  "_": [
+   "{item:n} masamdaydı!",
+   "Al — {item:n} bendeydi.",
+   "Sanırım bu senin."
+  ]
+ },
+ "thanks_return": {
+  "_": [
+   "Aman tanrım, teşekkürler!",
+   "Hayat kurtardın!",
+   "Teşekkürler! Aklımı kaçırıyordum!"
+  ],
+  "ahmet": [
+   "Hm. Teşekkür ederim."
+  ],
+  "selin": [
+   "Teşekkürler. Cidden. Teşekkürler."
+  ]
+ },
+ "email_oops": {
+  "_": [
+   "Dur. Bu... HERKESE mi gitti?!",
+   "Hayır. Hayır hayır hayır hayır.",
+   "Geri al! GERİ AL! Geri alma nerede?!"
+  ],
+  "ahmet": [
+   "Bu ekip için DEĞİLDİ."
+  ],
+  "burak": [
+   "...Yeni bir işe ihtiyacım olacak. Daha hızlı."
+  ],
+  "deniz": [
+   "Bu bir... yanlış anlaşılma."
+  ],
+  "ece": [
+   "Yer yarılsa da içine girsem."
+  ],
+  "mert": [
+   "Eyvah. Eyvah. Başka bir ülkeye taşınıyorum."
+  ],
+  "selin": [
+   "Bu herkes için değildi."
+  ],
+  "zeynep": [
+   "Eh. Bu tuhaf oldu."
+  ]
+ },
+ "email_read_all": {
+  "_": [
+   "Herkese mi gitti o e-posta?",
+   "Aman. Tanrım.",
+   "Bunu iki kere okuyorum.",
+   "Tümünü yanıtla mı? TÜMÜNÜ mü?"
+  ],
+  "ahmet": [
+   "Bunun anlamı ne?"
+  ],
+  "ceren": [
+   "Ay, ay."
+  ],
+  "mert": [
+   "Ah, bu altın değerinde."
+  ],
+  "zeynep": [
+   "Gelmiş geçmiş EN İYİ e-posta.",
+   "Bunu yazdırıp çerçeveleteceğim."
+  ]
+ },
+ "secret_exposed": {
+  "_": [
+   "O özeldi!",
+   "Artık herkes biliyor. Harika.",
+   "Bunu nasıl yaparsın?!"
+  ]
+ },
+ "own_secret_out": {
+  "_": [
+   "Artık herkes biliyor...",
+   "Harika. Gerçekten harika.",
+   "Eh, baklayı ağzımdan çıkarmış oldum."
+  ]
+ },
+ "team_complaint_react": {
+  "_": [
+   "Tembel mi? BİZ mi tembeliz?",
+   "Vay. Gerçekte ne düşündüğünü de söyle bari.",
+   "Demek bizim hakkımızda böyle düşünüyor."
+  ]
+ },
+ "boss_backpedal": {
+  "_": [
+   "O bir... taslaktı. Kaba bir taslak.",
+   "Hepimiz bu hiç olmamış gibi davranalım."
+  ]
+ },
+ "email_sent_wrong": {
+  "_": [
+   "Dur... bunu kime gönderdim?",
+   "Bu az önce {target:e} mi gitti?!",
+   "Yanlış alıcı... eyvah."
+  ]
+ },
+ "email_redirect_read": {
+  "_": [
+   "Şey... {actor}, bunun bana yazıldığını sanmıyorum.",
+   "Vay, BU ilginç.",
+   "Hmm. Bunu görmem mi gerekiyordu?"
+  ],
+  "ahmet": [
+   "{actor}. Odama. Hemen. Yok, aslında ben sana geliyorum."
+  ],
+  "zeynep": [
+   "Oo, bu çok sulu."
+  ]
+ },
+ "email_confront": {
+  "_": [
+   "E-postanı okudum, {target}.",
+   "Demek benim hakkımda BÖYLE düşünüyorsun?",
+   "O e-posta hakkında konuşmamız lazım."
+  ]
+ },
+ "email_apology": {
+  "_": [
+   "Özür dilerim. Dertleşiyordum. Öyle demek istemedim.",
+   "Haddimi aştım. Özür dilerim.",
+   "Baştan başlayabilir miyiz?"
+  ]
+ },
+ "email_apology_accept": {
+  "_": [
+   "Tamam. Ama kırıldım.",
+   "Peki. Geçelim.",
+   "Özür kabul edildi. Şimdilik."
+  ]
+ },
+ "email_defiant": {
+  "_": [
+   "Her kelimesinde ciddiydim.",
+   "Belki de duyman gerekiyordu.",
+   "Eh, artık ortada."
+  ]
+ },
+ "email_furious": {
+  "_": [
+   "İnanılmaz!",
+   "Sen inanılmazsın!",
+   "Konuşacak bir şeyimiz kalmadı."
+  ]
+ },
+ "crush_flattered": {
+  "_": [
+   "Mert... aslında bu biraz tatlıydı.",
+   "Yani... benden hoşlanıyor musun? Bu... hoş.",
+   "Eh. Bunu söylemenin bir yolu da bu."
+  ]
  }
 }
