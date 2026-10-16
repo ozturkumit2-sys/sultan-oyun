@@ -24,7 +24,7 @@
 1573|log.iv.left_on_read|The ghost marked {friend}'s message to {owner} as read. No reply is coming.
 1574|log.iv.lock_door|The ghost locked the meeting room door.
 1575|log.iv.lock_pc|The ghost locked {owner}'s computer.
-1576|log.iv.lock_thermostat|The ghost locked the thermostat at {temp}°C.
+1576|log.iv.lock_thermostat|The ghost locked the thermostat at {temp}.
 1577|log.iv.lost_notebook|The ghost left {target}'s private notebook open on the sofa.
 1578|log.iv.love_emoji|The ghost added heart emojis to {owner}'s email to {target}.
 1579|log.iv.love_note_wrong|The ghost delivered {owner}'s love note to {target} instead of {crush}.

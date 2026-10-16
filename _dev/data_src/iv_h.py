@@ -179,7 +179,7 @@ ev(id="iv_thermo_locked", trigger="thermostat_locked", priority=70, scope="actor
              out("kick", [emote("actor", "anger", delay=1.2), sfx("thump", delay=1.2), fx("shake", "actor", delay=1.2)], score=[s_trait("actor", "temper", 1.2)]),
              O_blame()])
 iv("H15", "lock_thermostat", title="Lock the thermostat", desc="Whatever the temperature is now — that's how it stays.",
-   log="The ghost locked the thermostat at {temp}°C.", obj="ac", cat="H", icon="thermo",
+   log="The ghost locked the thermostat at {temp}.", obj="ac", cat="H", icon="thermo",
    conds=[why(c_os("ac.locked", neg=True), "already_locked")],
    state=[oset("ac.locked", True), {"e": "set", "key": "temp", "v": 22}], watch=["iv_thermo_locked", "ivm_it_fix"], test={"setup": [{"e": "obj", "obj": "ac", "key": "temp", "v": 16}]})
 

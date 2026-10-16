@@ -1,0 +1,136 @@
+1550|Le fantôme a écrit « {presenter} présente au client » sur le tableau.
+1551|Le fantôme a griffonné « DOUBLE RENDEZ-VOUS au déjeuner ! » sur la photo de {a} et {b}.
+1552|Le fantôme a synchronisé le clignotement des lumières avec la fausse sirène du virus.
+1553|Le fantôme a bloqué la sortie de secours pendant que l'alarme sonnait.
+1554|Le fantôme a copié le document confidentiel dans le dossier partagé de {leaker}.
+1555|Le fantôme a mis ensemble la demande de mutation et la lettre de recommandation de {target} dans la corbeille d'Ahmet.
+1556|Le fantôme a accroché une banderole « FÊTE ! » au-dessus de la porte de la cuisine.
+1557|Le fantôme a épinglé la paie qui a fuité juste à côté de « Budget augmentations cette année : 0 ».
+1558|Le fantôme a ajouté « Annonce de promotion » en haut de l'ordre du jour.
+1559|Le fantôme a écrit « Restructuration — questions-réponses » sur le tableau, juste sous l'ordre du jour.
+1560|Le fantôme a glissé le rapport réécrit de {rebel} dans le dossier d'évaluation d'Ahmet.
+1561|Le fantôme a signé le gentil mot et le compliment de {owner} « ton admirateur secret ».
+1562|Le fantôme a envoyé au client l'ancienne version des chiffres de {owner}, avec Ahmet en copie.
+1563|Le fantôme a signé la plainte anonyme contre {enemy} du nom de {gossip}.
+1564|Le fantôme a ajouté « C'est moi qui ai tout jeté. Étiquetez votre nourriture. » au mot de {signer} sur le frigo.
+1565|Le fantôme a agrafé la candidature secrète de {applicant} à son rapport d'évaluation réécrit.
+1566|Le fantôme a bloqué la porte d'entrée du bureau.
+1567|Le fantôme a coincé la lettre d'amour de {target} dans la photocopieuse.
+1568|Le fantôme a ouvert des offres d'emploi sur l'écran de {owner}.
+1569|Le fantôme a ajouté « une machine à karaoké » à la note de frais de {target}.
+1570|Le fantôme a laissé le mot privé de {owner} sur {best} bien en haut de son bureau.
+1571|Le fantôme a laissé exactement une tasse de café dans la machine.
+1572|Le fantôme a laissé {target} voir une réunion privée « entretien RH » dans l'agenda d'Ahmet.
+1573|Le fantôme a marqué comme lu le message de {friend} à {owner}. Aucune réponse ne viendra.
+1574|Le fantôme a verrouillé la porte de la salle de réunion.
+1575|Le fantôme a verrouillé l'ordinateur de {owner}.
+1576|Le fantôme a bloqué le thermostat à {temp}.
+1577|Le fantôme a laissé le carnet intime de {target} ouvert sur le canapé.
+1578|Le fantôme a ajouté des émojis cœur au mail de {owner} à {target}.
+1579|Le fantôme a remis le mot doux de {owner} à {target} au lieu de {crush}.
+1580|Le fantôme a redirigé l'invitation à déjeuner de {owner} vers {target}.
+1581|Le fantôme a posé des marque-places sur la table de la cuisine : {a} à côté de {b}.
+1582|Le fantôme a écrit « Ahmet a tort sur tout » dans la marge du rapport de {owner}.
+1583|Le fantôme a réglé l'alarme du téléphone de {owner} pour qu'elle sonne pendant la réunion.
+1584|Le fantôme a fait miauler le clavier de {owner}.
+1585|Le fantôme a déplacé le fichier de {owner} dans le dossier privé d'Ahmet.
+1586|Le fantôme a mélangé le classement des archives.
+1587|Le fantôme a retiré la dernière page du rapport de {owner}.
+1588|Le fantôme a poussé le déjeuner de {target} au fond du frigo.
+1589|Le fantôme a déplacé la réunion du jour dans {what}.
+1590|Le fantôme a remplacé le nom sur la plaque du directeur par « {target} ».
+1591|Le fantôme a glissé une fausse rubrique « Aperçu » sur {target} dans la newsletter de Ceren.
+1592|Le fantôme a vidé le bac à papier de l'imprimante.
+1593|Le fantôme a dupliqué les notifications de {owner} sur le téléphone de {target}.
+1594|Le fantôme a mis {what} dans le haut-parleur du bureau.
+1595|Le fantôme a fait remonter une vieille promesse d'Ahmet en haut de la boîte de réception de {owner}.
+1596|Le fantôme a ramené le rapport de {owner} à la version de la semaine dernière.
+1597|Le fantôme a épinglé un organigramme plaçant {target} au-dessus d'Ahmet.
+1598|Le fantôme a ajouté {target} à la liste des heures sup du week-end.
+1599|Le fantôme a mis le bureau de {owner} en carton.
+1600|Le fantôme a réglé l'horloge de l'ordinateur de {owner} avec {what}.
+1601|Le fantôme a réécrit le rapport d'évaluation de {target}.
+1602|Le fantôme a glissé le téléphone de {target} dans un manteau du portemanteau.
+1603|Le fantôme a caché le téléphone de {owner} dans le frigo du bureau.
+1604|Le fantôme a épinglé au tableau en liège les notes privées d'Ahmet sur le personnel.
+1605|Le fantôme a écrit « PIZZAS GRATUITES ! » à côté de la réunion du jour.
+1606|Le fantôme a reporté indéfiniment l'entretien d'évaluation de {target}.
+1607|Le fantôme a fait une blague téléphonique à Ahmet depuis le poste de {owner}.
+1608|Le fantôme a mis {target} en tête de la liste des présentations du jour.
+1609|Le fantôme a lancé l'impression de 500 copies de la photo de bébé d'Ahmet.
+1610|Le fantôme a envoyé un des fichiers privés de {owner} à l'imprimante du bureau.
+1611|Le fantôme a épinglé de faux critères de promotion sur le tableau en liège.
+1612|Le fantôme a laissé une flaque glissante devant l'imprimante.
+1613|Le fantôme a posé une lettre de confirmation d'augmentation sur le bureau de {target}. Elle ne lui était pas destinée.
+1614|Le fantôme a mis le contrat signé de {owner} dans le bac de recyclage de la cuisine.
+1615|Le fantôme a laissé à {target} une lettre de recommandation « d'Ahmet ».
+1616|Le fantôme a ré-étiqueté les classeurs sur le bureau de {owner}.
+1617|Le fantôme a déplacé le rapport de {owner} sur le bureau de {target}.
+1618|Le fantôme a accroché un panneau « Réservé — déjeuner privé d'Ahmet » sur la cuisine.
+1619|Le fantôme a laissé le brouillon de démission de {owner} bien en haut de son bureau.
+1620|Le fantôme a arrosé et ranimé la plante du coin détente.
+1621|Le fantôme a truqué le Secret Santa : {a} a tiré {b}.
+1622|Le fantôme a changé la sonnerie de {owner}.
+1623|Le fantôme a épinglé un mot désignant {origin} comme la source de la rumeur sur {subject}.
+1624|Le fantôme a mis {target} en tête du classement des ventes.
+1625|Le fantôme a rempli le sucrier de la cuisine de sel.
+1626|Le fantôme a mélangé le standard de l'accueil.
+1627|Le fantôme a passé le dossier privé de {owner} en « partagé avec tout le monde ».
+1628|Le fantôme a écrit « 5 minutes max ! » sur la réunion du jour.
+1629|Le fantôme a rédigé une liste restreinte de promotion avec {target} en tête.
+1630|Le fantôme a mélangé les pages de la présentation imprimée de {owner}.
+1631|Le fantôme a réécrit la signature d'e-mail de {owner}.
+1632|Le fantôme a bridé la connexion internet de {owner}.
+1633|Le fantôme a transformé la fontaine à eau en « coin spa ».
+1634|Le fantôme a déplacé la consigne urgente d'Ahmet dans les spams de {owner}.
+1635|Le fantôme a mis le téléphone de {owner} sur haut-parleur.
+1636|Le fantôme a réglé la machine à café sur triple dose.
+1637|Le fantôme a bourré la boîte à idées de mots sur {target}.
+1638|Le fantôme a programmé dans l'agenda d'Ahmet un entretien d'évaluation surprise pour {target}.
+1639|Le fantôme a échangé sur le portemanteau le manteau de {target} avec celui de {other}.
+1640|Le fantôme a mélangé les tasses de l'étagère de la cuisine.
+1641|Le fantôme a déplacé le post-it de {owner} sur le bureau de {target}.
+1642|Le fantôme a échangé le portable de {owner} avec celui de {target}.
+1643|Le fantôme a échangé les évaluations de {owner} et de {target}.
+1644|Le fantôme a réarrangé les marque-places de la salle de réunion.
+1645|Le fantôme a échangé la page de signature du contrat de {owner} avec celle de {target}.
+1646|Le fantôme a échangé la présentation de {owner} avec les diapos de {target}.
+1647|Le fantôme a posé un plateau de thé et de biscuits dans la cuisine.
+1648|Le fantôme a déplacé le mot de remerciement d'Ahmet sur le bureau de {target}.
+1649|Le fantôme a posé dans la cuisine une tirelire « Merci Burak de tout réparer ».
+1650|Le fantôme a changé l'intitulé de poste de {target} en « Stagiaire ».
+1651|Le fantôme a rédigé une demande de mutation envoyant {target} dans une agence lointaine.
+1652|Le fantôme a mis l'orthographe sens dessus dessous dans le mail client de {owner}.
+1653|Le fantôme a retiré {target} de l'invitation à la réunion du jour.
+1654|Le fantôme a débranché l'écran de {owner}.
+1655|Le fantôme a débranché le switch réseau du bureau.
+1656|Le fantôme a supprimé les excuses de {owner} à {foe} avant qu'elles soient lues.
+1657|Le fantôme a tamponné URGENT sur chaque papier du bureau de {owner}.
+1658|Le fantôme a affiché une fausse alerte virus sur l'écran de {owner}.
+1659|Le fantôme a redirigé le message vocal privé de {owner} vers {target}.
+1660|Le fantôme a décalé l'horloge murale du bureau {what}.
+1661|Le fantôme a changé le fond d'écran de {owner}.
+1662|Le fantôme a envoyé « Il faut qu'on parle. » depuis le téléphone de {owner} à {crush}.
+1663|Le fantôme a échangé la chaise de bureau de {owner} contre la chaise cassée.
+1664|Le fantôme a mis le numéro de {target} dans les appels manqués de {owner}.
+1665|Le fantôme a inscrit « {target} » à la présidence de la réunion du jour.
+1666|Le fantôme a épinglé « Budget augmentations cette année : 0 » sur le tableau en liège.
+1667|Le téléphone de {owner} a sonné avec une toute nouvelle sonnerie. Tout l'étage l'a entendue.
+1668|{actor} a accusé {target} de la farce. {target} jure être {target?innocent|innocente} — le ton est monté.
+1669|{actor} a accusé {target} de la farce. Ils ont fini par en rire.
+1670|{actor} a accusé {target} de la farce, puis l'a cru{target?|e}. Gênant, mais ça va.
+1671|{actor} a interrogé {target} concernant {what}. {target} a rougi et n'a pas dit non. Il se passe quelque chose.
+1672|Ahmet a convoqué {actor} pour {what}. C'était un malentendu. Ahmet se méfie désormais de tout le monde.
+1673|Ahmet a convoqué {actor} pour {what}. {actor} n'en savait rien — et a eu droit au sermon quand même.
+1674|{actor} a remercié {target} pour {what}. {target} a accepté le mérite. Ce n'était pas {target?lui|elle}.
+1675|{target} a réglé le problème informatique de {actor} en deux minutes chrono.
+1676|{actor} a demandé de l'aide technique à {target} et s'est fait dire d'ouvrir un ticket.
+1677|{target} a examiné l'ordinateur de {actor} : « Quelqu'un a fait ça exprès. » Maintenant, {actor} se méfie.
+1678|{actor} a découvert quelque chose sur {subject} — et a décidé de le garder pour soi.
+1679|{actor} pensait que {target} était derrière {what}. {target} ne voyait pas du tout de quoi il s'agissait.
+1680|{actor} a découvert quelque chose sur {subject}. Trop bon pour ne pas le partager.
+1681|{actor} est {actor?allé|allée} tout droit voir Ahmet au sujet de {subject}. Ahmet a écouté.
+1682|{actor} est {actor?allé|allée} voir Ahmet au sujet de {subject}. Ahmet n'avait aucune envie d'écouter des cafardages.
+1683|Ahmet a ouvert la réunion du jour avec des « nouvelles de la promotion ». Il lit le dossier trafiqué.
+1684|{reader} croit maintenant que {owner} {reader?l'a invité|l'a invitée} à sortir — le mot doux mal distribué et la fausse invitation à un café venaient tous deux « de » {owner}.
+1685|{actor} a supplié Ahmet de croire que le rapport était faux. Ahmet n'y a pas cru. {actor} est {actor?ébranlé|ébranlée} — et songe à partir.

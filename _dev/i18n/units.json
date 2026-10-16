@@ -7877,7 +7877,7 @@
 {
 "id": 1576,
 "key": "S|log.iv.lock_thermostat",
-"en": "The ghost locked the thermostat at {temp}°C."
+"en": "The ghost locked the thermostat at {temp}."
 },
 {
 "id": 1577,

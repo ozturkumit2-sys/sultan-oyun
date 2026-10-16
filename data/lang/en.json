@@ -1660,7 +1660,7 @@
  "log.thermo_locked": "{actor} tried to change the temperature — the thermostat was locked.",
  "iv.lock_thermostat": "Lock the thermostat",
  "iv.lock_thermostat.d": "Whatever the temperature is now — that's how it stays.",
- "log.iv.lock_thermostat": "The ghost locked the thermostat at {temp}°C.",
+ "log.iv.lock_thermostat": "The ghost locked the thermostat at {temp}.",
  "log.net_down": "The whole office network went down. Nobody can work — so everybody's chatting.",
  "why.net_down": "The network is already down.",
  "iv.unplug_network": "Unplug the network switch",
