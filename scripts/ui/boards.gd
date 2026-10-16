@@ -11,11 +11,11 @@ class StaffBoard extends Sheet:
 
 	func _init() -> void:
 		super._init()
-		setup_paper("cork", 0.78, "STAFF")
+		setup_paper("cork", 0.78, Loc.t("ui.board_staff"))
 
 	func open_for(world: SimWorld) -> void:
 		w = world
-		paper.tab_text = Loc.t("ui.staff").to_upper()
+		paper.tab_text = Loc.upper(Loc.t("ui.staff"))
 		clear_body()
 		cards.clear()
 		var sc := Sheet.scroll()
@@ -80,11 +80,11 @@ class GossipBoard extends Sheet:
 
 	func _init() -> void:
 		super._init()
-		setup_paper("cork", 0.8, "GOSSIP BOARD")
+		setup_paper("cork", 0.8, Loc.t("ui.board_gossip"))
 
 	func open_for(world: SimWorld) -> void:
 		w = world
-		paper.tab_text = Loc.t("ui.log").to_upper()
+		paper.tab_text = Loc.upper(Loc.t("ui.log"))
 		clear_body()
 		var sc := Sheet.scroll()
 		var v := VBoxContainer.new()
@@ -122,7 +122,7 @@ class GossipBoard extends Sheet:
 				items.append({"arc": f["arc"], "beat": w.story_beat(f), "part": int(f.get("steps", 1)), "done": true, "cast": f["cast"]})
 		if items.is_empty():
 			return
-		var hl := Sheet.label("— " + Loc.t("ui.storylines").to_upper() + " —", 24, "marker", Color("fffdf5"))
+		var hl := Sheet.label("— " + Loc.upper(Loc.t("ui.storylines")) + " —", 24, "marker", Color("fffdf5"))
 		hl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		v.add_child(hl)
 		for i in items.size():
@@ -156,9 +156,9 @@ class GossipBoard extends Sheet:
 			n.draw_string(UiKit.font("marker"), rr.position + Vector2(34, 36), title, HORIZONTAL_ALIGNMENT_LEFT, rr.size.x - 210, 24, UiKit.INK)
 			n.draw_set_transform(r.get_center() + Vector2(rr.end.x - 92, rr.position.y + 26).rotated(deg_to_rad(tilt)), deg_to_rad(tilt) - 0.1, Vector2.ONE)
 			var stamp := UiKit.RED if not done else Color(0.3, 0.45, 0.35)
-			var sw: float = UiKit.font("slab").get_string_size(tag.to_upper(), HORIZONTAL_ALIGNMENT_LEFT, -1, 15).x + 20.0
+			var sw: float = UiKit.font("slab").get_string_size(Loc.upper(tag), HORIZONTAL_ALIGNMENT_LEFT, -1, 15).x + 20.0
 			n.draw_rect(Rect2(-sw * 0.5, -14, sw, 28), stamp, false, 2.5)
-			n.draw_string(UiKit.font("slab"), Vector2(-sw * 0.5, 7), tag.to_upper(), HORIZONTAL_ALIGNMENT_CENTER, sw, 15, stamp)
+			n.draw_string(UiKit.font("slab"), Vector2(-sw * 0.5, 7), Loc.upper(tag), HORIZONTAL_ALIGNMENT_CENTER, sw, 15, stamp)
 			n.draw_set_transform(r.get_center(), deg_to_rad(tilt), Vector2.ONE)
 			if beat != "":
 				n.draw_multiline_string(UiKit.font("hand"), rr.position + Vector2(16, 70), beat, HORIZONTAL_ALIGNMENT_LEFT, rr.size.x - 32, 20, -1, UiKit.INK)
@@ -312,6 +312,13 @@ class SettingsSheet extends Sheet:
 		b2.pressed.connect(func(): credits.emit())
 		h.add_child(b1)
 		h.add_child(b2)
+		# language: opens a row of sticky notes, one per language, each in its own script
+		var lr := NoteButton.make(Loc.t("ui.language") + Loc.colon() + " " + Loc.lang_name(Loc.lang), "", "row", Color("fff7d6"), Vector2(0, 62))
+		lr.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		lr.icon = "globe"
+		lr.font_size = 23
+		lr.pressed.connect(_pick_language)
+		body.add_child(lr)
 		if in_game:
 			var b3 := NoteButton.make(Loc.t("ui.main_menu"), "home", "sticky", UiKit.sticky("pink"), Vector2(220, 92))
 			b3.tilt = -1
@@ -324,11 +331,32 @@ class SettingsSheet extends Sheet:
 		_refresh()
 		open()
 
+	func _pick_language() -> void:
+		clear_body()
+		body.add_child(Sheet.label(Loc.t("ui.choose_language"), 32, "marker"))
+		var grid := GridContainer.new()
+		grid.columns = 2
+		grid.add_theme_constant_override("h_separation", 14)
+		grid.add_theme_constant_override("v_separation", 12)
+		var cols := ["yellow", "pink", "blue", "green", "orange", "lilac", "white"]
+		var i := 0
+		for l in Loc.LANGS:
+			var code: String = l[0]
+			var b := NoteButton.make(l[1], "check" if code == Loc.lang else "", "sticky", UiKit.sticky(cols[i % cols.size()]), Vector2(250, 84))
+			b.tilt = [-2.0, 1.5, -1.0, 2.5, -2.5, 1.0, 2.0][i % 7]
+			b.font_size = 27
+			b.pressed.connect(func():
+				close()
+				Game.change_language(code))
+			grid.add_child(b)
+			i += 1
+		body.add_child(grid)
+
 	func _refresh() -> void:
 		var names := {"sound": "ui.sound", "music": "ui.music", "auto_next": "ui.auto_next"}
 		for k in rows:
 			var on: bool = Game.settings.get(k, true)
-			rows[k].text = "%s:  %s" % [Loc.t(names[k]), Loc.t("ui.on") if on else Loc.t("ui.off")]
+			rows[k].text = Loc.t(names[k]) + Loc.colon() + " " + (Loc.t("ui.on") if on else Loc.t("ui.off"))
 			rows[k].col = Color("e9f7e4") if on else Color("f6e3e3")
 			rows[k].queue_redraw()
 

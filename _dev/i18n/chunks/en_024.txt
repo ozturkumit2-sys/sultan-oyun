@@ -1,0 +1,202 @@
+4658|party_yes|_|0|...You know what? Fine. Party at my place. Why not!
+4659|party_yes|_|1|Okay. OKAY. Party's on. Bring chips.
+4660|fwd_read|_|0|...{owner} wrote THIS about me?
+4661|fwd_read|_|1|Wow. So that's what {owner} really thinks.
+4662|fwd_read|_|2|I wasn't supposed to see this, was I.
+4663|fwd_read|selin|0|I knew it. I KNEW {owner} talked about me.
+4664|fwd_read|ece|0|Oh. Oh no. {owner} doesn't like me?
+4665|fwd_confront|_|0|I read your little chat about me, {target}.
+4666|fwd_confront|_|1|You want to say that to my face, {target}?
+4667|fwd_confront|_|2|Nice chat you had about me.
+4668|fwd_sorry|_|0|I'm sorry. I was venting. I didn't mean it.
+4669|fwd_sorry|_|1|That was a bad day. I'm sorry you saw it.
+4670|fwd_double|_|0|Well, it's true.
+4671|fwd_double|_|1|Maybe if you didn't make it so easy...
+4672|approve_cheer|_|0|YES! Approved! APPROVED!
+4673|approve_cheer|_|1|Ahmet said yes! I can't believe it!
+4674|approve_cheer|_|2|Finally! It's official!
+4675|approve_cheer|burak|0|...Approved? Huh. Okay. YES.
+4676|approve_brag|_|0|Guess who just got their {what} approved?
+4677|approve_brag|_|1|Ahmet approved my {what}! Today's a good day.
+4678|approve_boss_what|_|0|I approved WHAT? I never approved anything!
+4679|approve_boss_what|_|1|There's been no approval. Who told you that?
+4680|approve_crushed|_|0|But... the email said...
+4681|approve_crushed|_|1|It said 'Approved'. In writing!
+4682|spam_boss_check|_|0|{target}, did you finish what I asked this morning?
+4683|spam_boss_check|_|1|Where's the thing I emailed you about, {target}?
+4684|spam_what|_|0|What thing? I never got anything!
+4685|spam_what|_|1|Asked me? When? There's nothing in my inbox!
+4686|spam_found|_|0|Wait... it's in my SPAM folder?! Since this morning!
+4687|spam_found|_|1|Oh no. It's in spam. Of course it's in spam.
+4688|spam_scold|_|0|Check your spam, then! It's urgent and it's due today.
+4689|spam_scold|_|1|Excuses. I want it before you leave.
+4690|spam_understand|_|0|Spam? Hm. Burak will hear about this. Do it now, please.
+4691|spam_understand|_|1|Fine. Our email is a disaster. Get it done.
+4692|fake_date_q|_|0|You wanted to see me?
+4693|fake_date_q|_|1|So... what's this meeting about?
+4694|fake_date_q|_|2|I got your invite. Kitchen, right?
+4695|fake_date_a|_|0|What? I thought YOU invited ME.
+4696|fake_date_a|_|1|I didn't send anything. You did!
+4697|fake_date_laugh|_|0|Well, we're here. Coffee?
+4698|fake_date_laugh|_|1|Ha! Okay. Since we're both here...
+4699|fake_date_spark|_|0|Maybe the universe wanted us to have a coffee.
+4700|fake_date_spark|_|1|I'm... actually glad it happened.
+4701|fake_date_cold|_|0|I've got better things to do.
+4702|fake_date_cold|_|1|Great. A waste of time.
+4703|promise_find|_|0|Wait. Ahmet PROMISED me a promotion. In writing. Two years ago!
+4704|promise_find|_|1|Look at this old email... 'next year, a raise, I promise.' Next year was last year!
+4705|promise_claim|_|0|Ahmet Bey, remember this email? You promised me a raise.
+4706|promise_claim|_|1|I found your old promise. In writing. I'd like to talk about it.
+4707|promise_honour|_|0|...I did write that. Fine. I keep my word. Let's talk numbers.
+4708|promise_honour|_|1|Hm. A promise is a promise.
+4709|promise_dodge|_|0|Times change. Budgets change.
+4710|promise_dodge|_|1|That was a different year. A different me.
+4711|promise_dodge|_|2|I don't recall writing that.
+4712|quit_reply_read|_|0|'I quit. Don't contact me.' — {owner}'s auto-reply?!
+4713|quit_reply_read|_|1|{owner}... QUIT? Since when?!
+4714|quit_boss_rush|_|0|{target}! What is this 'I quit' business?!
+4715|quit_boss_rush|_|1|You're QUITTING? Without telling me?!
+4716|quit_explain|_|0|What? No! I'm not quitting! ...Am I?
+4717|quit_explain|_|1|That's not my auto-reply! I never set that!
+4718|quit_counter|_|0|Look... whatever it is, we can talk. More money? A better title?
+4719|quit_counter|_|1|Don't do anything rash. Let's discuss your future here.
+4720|quit_leverage|_|0|...Actually, now that you mention it — a raise would be nice.
+4721|quit_leverage|_|1|Well. Since you're offering...
+4722|quit_real|_|0|You know what? Maybe it's true. Maybe I SHOULD quit.
+4723|quit_real|_|1|...It's not wrong, though.
+4724|unsent_hope|_|0|So... we're good now? After my message?
+4725|unsent_hope|_|1|Hey. Thanks for reading my message. Friends again?
+4726|unsent_cold|_|0|What message? You never apologised.
+4727|unsent_cold|_|1|Good? You didn't even say sorry.
+4728|unsent_say_it|_|0|...Then I'll say it now. I'm sorry.
+4729|unsent_say_it|_|1|It vanished? Okay. In person, then: I'm sorry.
+4730|unsent_fight|_|0|I DID apologise! Don't pretend I didn't!
+4731|unsent_fight|_|1|Unbelievable. I apologised and you're acting like I didn't.
+4732|groupchat_read|_|0|...Why am I in a group called 'Ugh, {target}'?
+4733|groupchat_read|_|1|Oh. A whole group chat. About me.
+4734|groupchat_read|_|2|'{hater} says: can't stand {target}.' Lovely.
+4735|groupchat_confront|_|0|Nice group chat, {target}. I can read it now, you know.
+4736|groupchat_confront|_|1|So you have a whole CHAT about me?
+4737|groupchat_busted|_|0|...How are you in that chat?
+4738|groupchat_busted|_|1|Oh no. Who added you?!
+4739|typo_boss|_|0|{target}. The client called. 'Dear Valued Cliient, we regert to infrom you...'?!
+4740|typo_boss|_|1|The client says your email was 'unreadable'. Explain.
+4741|typo_explain|_|0|That's impossible, I proofread it twice!
+4742|typo_explain|_|1|What?! It was perfect when I sent it!
+4743|typo_scold|_|0|Proofread it THREE times next time.
+4744|typo_scold|_|1|This company has a reputation. Had.
+4745|typo_laugh|_|0|...'Regert'. Ha. Fine. Call them and apologise.
+4746|typo_laugh|_|1|At least the client laughed. Fix it.
+4747|cc_boss_read|_|0|Interesting reading, {owner}'s little chat.
+4748|cc_boss_read|_|1|I've been CC'd on {owner}'s 'private' chat. How educational.
+4749|cc_boss_rant|_|0|'Ahmet is a dinosaur'? Is that so, {target}?
+4750|cc_boss_rant|_|1|So I'm 'a walking meeting', {target}?
+4751|cc_boss_chatter|_|0|Forty messages about kebab during work hours, {target}?
+4752|cc_boss_chatter|_|1|You two chat more than you work.
+4753|cc_owner_mortified|_|0|...That was meant to be private!
+4754|cc_owner_mortified|_|1|Oh no. Oh NO. You were CC'd?
+4755|seen_hurt|_|0|{owner} read my message an hour ago. No reply. Cool.
+4756|seen_hurt|_|1|'Seen'. Just 'seen'. Wow, {owner}.
+4757|seen_confront|_|0|You read my message and just... ignored it?
+4758|seen_confront|_|1|I can see you read it, you know.
+4759|seen_explain|_|0|What message? I never even opened it!
+4760|seen_explain|_|1|I didn't see anything! I swear!
+4761|seen_ok|_|0|...Fine. Maybe your phone's weird.
+4762|seen_ok|_|1|Okay. I believe you. Mostly.
+4763|sig_ceo_react|_|0|'Future CEO'? In your signature, {owner}?
+4764|sig_ceo_react|_|1|Bold signature, {owner}. Very bold.
+4765|sig_ceo_react|ahmet|0|'Future CEO.' Is that a threat, {owner}?
+4766|sig_ceo_react|deniz|0|Future CEO? Over my dead body.
+4767|sig_bath_react|_|0|'Sent from my bathtub'?! {owner}!
+4768|sig_bath_react|_|1|Why does your email say you're in a bathtub?
+4769|sig_bath_react|mert|0|Bathtub emails! Legend.
+4770|sig_fav_react|_|0|'Ahmet's favourite employee'? Really, {owner}?
+4771|sig_fav_react|_|1|Teacher's pet signature. Nice.
+4772|sig_fav_react|ahmet|0|Hm. 'Favourite.' Well. Maybe.
+4773|sig_owner|_|0|My signature says WHAT?!
+4774|sig_owner|_|1|I didn't write that! I would never!
+4775|heart_read|_|0|...Did {owner} just send me a heart?
+4776|heart_read|_|1|Three heart emojis. On a budget email. From {owner}.
+4777|heart_read|_|2|Hearts? From {owner}? Huh.
+4778|heart_ask|_|0|So... about those hearts in your email...
+4779|heart_ask|_|1|Was that heart... intentional?
+4780|heart_deny|_|0|Hearts?! No! I sent you a spreadsheet!
+4781|heart_deny|_|1|That wasn't me! My keyboard has a mind of its own!
+4782|heart_admit|_|0|...Maybe it was a little bit intentional.
+4783|heart_admit|_|1|Okay. Yes. I like you. There, I said it.
+4784|payroll_read|_|0|...{rich} earns HOW much more than me?!
+4785|payroll_read|_|1|This is the payroll. I shouldn't— wait. {rich}?!
+4786|payroll_read|_|2|So that's what {rich} makes. Interesting.
+4787|payroll_demand|_|0|Ahmet Bey, I've seen what others earn. I want what's fair.
+4788|payroll_demand|_|1|I'd like to talk about my salary. Now. Please.
+4789|payroll_boss_angry|_|0|Who showed you the payroll?! That's confidential!
+4790|payroll_boss_angry|_|1|Where did you get those numbers?!
+4791|memo_read|_|0|'Restructuring... possible reductions'... REDUCTIONS?!
+4792|memo_read|_|1|Ahmet's memo says 'reductions'. That means us!
+4793|memo_read|_|2|Did everyone just get Ahmet's draft memo?!
+4794|memo_read|burak|0|'Reductions.' Good thing my CV is up to date.
+4795|memo_read|ece|0|Reductions of WHAT? Of people?!
+4796|memo_boss|_|0|That was a DRAFT! Who sent my draft?!
+4797|memo_boss|_|1|That memo was NOT ready!
+4798|news_read|_|0|'Spotted: {target} and {crush2} at a candlelit dinner'?!
+4799|news_read|_|1|The newsletter says {target} and {crush2}... are a THING?
+4800|news_read|zeynep|0|Finally, journalism!
+4801|news_deny|_|0|That's not true! We've never had dinner!
+4802|news_deny|_|1|Who wrote that?! It's a lie!
+4803|news_blush|_|0|...I mean. It's not TRUE. But it's not... terrible.
+4804|news_blush|_|1|Dinner? With them? ...Hm.
+4805|garble_read|_|0|'I'm going to KILL... ...the presentation'?! From {owner}?
+4806|garble_read|_|1|{owner}'s message says 'I'll destroy you'. Should I be worried?
+4807|garble_confront|_|0|Did you just threaten me?!
+4808|garble_confront|_|1|What does 'I'll destroy you' mean, exactly?
+4809|garble_explain|_|0|I said 'I'll DEPLOY it for you'! Dictation!
+4810|garble_explain|_|1|That was voice-to-text! I said 'kill it' as in 'do great'!
+4811|garble_laugh|_|0|Oh thank god. Your phone hates you.
+4812|garble_laugh|_|1|...Okay. That's hilarious, actually.
+4813|garble_doubt|_|0|Sure. 'Dictation'.
+4814|garble_doubt|_|1|I'm keeping a screenshot. Just in case.
+4815|wrong_invitee_boss|_|0|{target}? What are you doing in this meeting?
+4816|wrong_invitee_boss|_|1|Did someone invite {target}? Why?
+4817|wrong_invitee_contrib|_|0|Well, since I'm here — I have an idea about that.
+4818|wrong_invitee_contrib|_|1|Actually, I can help with this.
+4819|wrong_invitee_leave|_|0|I got an invite! ...I'll go.
+4820|wrong_invitee_leave|_|1|Sorry! I'll just... leave.
+4821|uninv_notice|_|0|Where's {target}? They're always here.
+4822|uninv_notice|_|1|Has anyone seen {target}?
+4823|uninv_find_out|_|0|I was taken off the invite list?! By whom?
+4824|uninv_find_out|_|1|So there was a meeting. Without me. Nice.
+4825|first_shine|_|0|Oh — me first? Okay. Here's where we are...
+4826|first_shine|_|1|Right. Let's do this.
+4827|first_shine|_|2|First? Perfect, I'm ready.
+4828|first_bomb|_|0|Me? FIRST? I... wasn't ready to be first.
+4829|first_bomb|_|1|Um. Can I go last? No? Okay...
+4830|agenda_layoffs|_|0|'Agenda: Layoffs'?!
+4831|agenda_layoffs|_|1|Why does the board say LAYOFFS?
+4832|agenda_layoffs|_|2|Layoffs. On the agenda. Today.
+4833|agenda_romance|_|0|'New office romance policy'? Uh-oh.
+4834|agenda_romance|_|1|Romance policy?! Who's that aimed at?
+4835|agenda_lunch|_|0|'Agenda: Who's been stealing lunches?' Finally!
+4836|agenda_lunch|_|1|Lunch thief on the agenda. Somebody's sweating.
+4837|agenda_promo|_|0|'Promotions' on the agenda? Today?!
+4838|agenda_promo|_|1|Promotions! Okay. Okay. Be cool.
+4839|agenda_boss|_|0|Who wrote THAT on my agenda?!
+4840|agenda_boss|_|1|That is NOT my agenda. Who touched my board?
+4841|room_boss|_|0|Why are we having a meeting next to the fridge?!
+4842|room_boss|_|1|Who moved my meeting to the lounge?
+4843|room_boss|_|2|This is a kitchen. Not a boardroom.
+4844|room_fun|_|0|I kind of like it here, Ahmet Bey.
+4845|room_fun|_|1|Snacks within reach. Best meeting ever.
+4846|room_fun|mert|0|Best meeting room ever. Fridge access.
+4847|empty_room|_|0|Where IS everybody?!
+4848|empty_room|_|1|I'm here. Alone. In my own meeting.
+4849|empty_room|_|2|Is it a holiday? Nobody told me.
+4850|cancelled_think|_|0|The meeting's been cancelled? Great, more time!
+4851|cancelled_think|_|1|Meeting cancelled? Wonderful.
+4852|double_where|_|0|Hello? Where's everyone? Is this the right meeting?
+4853|double_where|_|1|We're the 'budget sync'... in the kitchen... right?
+4854|double_realise|_|0|Wait. There's no budget sync. The real meeting started!
+4855|double_realise|_|1|We're in the wrong meeting! RUN!
+4856|chair_open|_|0|Right, everyone! Let's begin. I'm chairing today.
+4857|chair_open|_|1|Okay! Since I'm running this meeting — first item!
+4858|chair_open|deniz|0|Ladies and gentlemen. Let's make this efficient.
+4859|chair_open|ece|0|Um, hi! I'm... apparently the chair? Let's go!

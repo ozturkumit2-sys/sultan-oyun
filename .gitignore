@@ -4,3 +4,4 @@
 *.jks
 export_credentials.cfg
 __pycache__/
+_dev/fonts_full/

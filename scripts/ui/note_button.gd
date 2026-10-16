@@ -89,11 +89,12 @@ func _draw() -> void:
 			Icons.draw(self, icon, Vector2(x0 + 22, 0), 34, tc)
 			x0 += 54.0
 		var tw := rr.size.x - (x0 + c.x) - 12.0
+		var fs := UiKit.fit_size(font, text, tw, font_size)
 		if sub != "":
-			draw_string(font, Vector2(x0, -6), text, HORIZONTAL_ALIGNMENT_LEFT, tw, font_size, tc)
+			draw_string(font, Vector2(x0, -6), text, HORIZONTAL_ALIGNMENT_LEFT, tw, fs, tc)
 			draw_multiline_string(UiKit.font("hand"), Vector2(x0, 18), sub, HORIZONTAL_ALIGNMENT_LEFT, tw, 18, 2, Color(tc.r, tc.g, tc.b, 0.75))
 		else:
-			draw_string(font, Vector2(x0, font_size * 0.35), text, HORIZONTAL_ALIGNMENT_LEFT, tw, font_size, tc)
+			draw_string(font, Vector2(x0, fs * 0.35), text, HORIZONTAL_ALIGNMENT_LEFT, tw, fs, tc)
 	else:
 		var ty := font_size * 0.35
 		if icon != "":
@@ -104,7 +105,15 @@ func _draw() -> void:
 			else:
 				Icons.draw(self, icon, Vector2.ZERO, isz, tc)
 		if text != "":
-			draw_string(font, Vector2(-c.x + 6, ty), text, HORIZONTAL_ALIGNMENT_CENTER, rr.size.x - 12, font_size, tc)
+			var avail := rr.size.x - 12.0
+			var fs2 := UiKit.fit_size(font, text, avail, font_size, 0.72)
+			if font.get_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, -1, fs2).x > avail and (text.find(" ") > 0 or Loc.is_cjk()):
+				# too long for one line even when smaller: two lines
+				var fs3 := int(font_size * 0.8)
+				var lh := fs3 + 2.0
+				draw_multiline_string(font, Vector2(-c.x + 6, ty - lh * 0.5), text, HORIZONTAL_ALIGNMENT_CENTER, avail, fs3, 2, tc)
+			else:
+				draw_string(font, Vector2(-c.x + 6, ty), text, HORIZONTAL_ALIGNMENT_CENTER, avail, fs2, tc)
 	if tag != "" and kind == "row":
 		var tf := UiKit.font("slab")
 		var tw2 := tf.get_string_size(tag, HORIZONTAL_ALIGNMENT_LEFT, -1, 13).x + 14.0

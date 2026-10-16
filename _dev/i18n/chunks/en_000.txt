@@ -1,0 +1,387 @@
+1|ui.age|Age {age}
+2|ui.auto_next|Start next day automatically
+3|ui.back|Back
+4|ui.beliefs|What they've heard
+5|ui.board_gossip|GOSSIP BOARD
+6|ui.board_staff|STAFF
+7|ui.bonds|Ties & plans
+8|ui.choose|Choose…
+9|ui.choose_language|Choose a language
+10|ui.classified|CLASSIFIED
+11|ui.close|Close
+12|ui.continue|Continue
+13|ui.continue_day|Continue · Day {day}
+14|ui.credits|Credits
+15|ui.credits_text|OFFICE POLTERGEIST\nGame design, code, art & audio generated for this project.\n\nFonts:\nPermanent Marker — Font Diner (Apache License 2.0; Turkish letters added)\nPatrick Hand — Patrick Wagesreiter (SIL Open Font License 1.1)\nSpecial Elite — Astigmatic (Apache License 2.0)\nAlfa Slab One — JM Solé (SIL Open Font License 1.1)\nKalam, Yatra One — Indian Type Foundry / Catherine Leigh Schmidt (SIL OFL 1.1)\nZCOOL KuaiLe — Liu Zhengjiang (SIL OFL 1.1)\nLXGW WenKai — LXGW (SIL OFL 1.1)\n\nAll characters, art, music and sound effects are original and procedurally created.\nMade with Godot Engine (MIT License).
+16|ui.day|DAY {day}
+17|ui.day_label|DAY
+18|ui.day_over|The office is closed for today.
+19|ui.day_short|Day {day}
+20|ui.debunked|turned out false
+21|ui.doing|Right now
+22|ui.done_meddling|Done! Now wait and watch…
+23|ui.fast|FAST x2
+24|ui.found_here|Found here: {n} / {total}
+25|ui.friendship|Friendship
+26|ui.goal|Wants
+27|ui.heard|heard it
+28|ui.how_to|How to Play
+29|ui.how_to_text|You are an invisible force haunting a small office.\n\nYou can't control anyone. Instead, tap the glowing things — the coffee machine, the printer, computers, the meeting board, the thermostat, the light breaker, the boss's promotion file, people's belongings — and meddle.\n\nMost meddling is sneaky: nothing happens until someone actually uses that thing. Break the printer and wait for someone to need it. Swap an email recipient and wait for them to hit send.\n\nEveryone has a personality, a goal, friendships, rivalries, secrets and a memory. What happens next depends on all of it — and on yesterday.\n\nThere are 200 ways to meddle. Desks have four drawers: Computer, Inbox, Phone and Desk. Some meddles are secret: they only appear (with a little gold key) once the right things have already happened that day — and they can set off whole stories that run for days.\n\nThe green notebook bottom-left is your Discovery Journal: what you've found, the stories you've seen end, and your biggest chain reaction.\n\nThere are no missions and no score. Help them, ruin them, or just watch.
+30|ui.interventions_total|Total meddling: {n}
+31|ui.journal|Discovery Journal
+32|ui.language|Language
+33|ui.leaked|LEAKED
+34|ui.locate|Find them
+35|ui.log|Gossip Board
+36|ui.main_menu|Save & Main Menu
+37|ui.meddle|Meddle
+38|ui.mem_doubt|not sure
+39|ui.mem_heard|heard it
+40|ui.mem_sure|sure
+41|ui.memories|Recent memories
+42|ui.mood|Mood
+43|ui.morale|Job satisfaction
+44|ui.music|Music
+45|ui.new_game|New Game
+46|ui.new_game_confirm|Start over? Your current office will be lost.
+47|ui.new_tag|NEW
+48|ui.next_day|Next Day →
+49|ui.next_day_in|Next day in {n}…
+50|ui.no|No
+51|ui.no_beliefs|Hasn't heard anything juicy.
+52|ui.no_bonds|Nothing brewing.
+53|ui.no_events|Nothing has happened yet. Give it a minute… or give it a nudge.
+54|ui.no_memories|Nothing memorable yet.
+55|ui.no_secrets|No known secrets.
+56|ui.no_stories|No big stories brewing… yet.
+57|ui.not_in_office|Not in the office
+58|ui.not_sure|not sure
+59|ui.nothing_here|Nothing to meddle with here right now.
+60|ui.off|OFF
+61|ui.office_mood|Office mood
+62|ui.on|ON
+63|ui.paused|PAUSED
+64|ui.personnel_file|PERSONNEL FILE
+65|ui.picked|For {name} — now choose how
+66|ui.quote|“{text}”
+67|ui.relationships|Relationships
+68|ui.report|Today
+69|ui.resentment|Grudge
+70|ui.respect|Respect
+71|ui.resume|Resume
+72|ui.rivalry|Rivalry
+73|ui.romance|Crush
+74|ui.saved|Saved
+75|ui.secret_combo|SECRET COMBINATION
+76|ui.secrets|Secrets
+77|ui.secrets_here|{n} secret
+78|ui.settings|Settings
+79|ui.sound|Sound effects
+80|ui.speed_1|Play
+81|ui.speed_2|Fast
+82|ui.speed_pause|Pause
+83|ui.staff|Staff
+84|ui.stories|Top stories
+85|ui.story_chapter|Part {n}
+86|ui.story_done|Wrapped up
+87|ui.storylines|Storylines
+88|ui.stress|Stress
+89|ui.subtitle|8 coworkers. 1 invisible meddler. Zero rules.
+90|ui.sure|sure
+91|ui.suspicion|Suspicion
+92|ui.tap_hint|Tap glowing objects to meddle. Tap people to read their file.
+93|ui.title|OFFICE POLTERGEIST
+94|ui.today_so_far|Today so far
+95|ui.trust|Trust
+96|ui.version|v{v}
+97|ui.yes|Yes
+98|title.employee_week|Employee of the Week
+99|title.team_lead|Team Lead
+100|paper.concluded|STORY CONCLUDED
+101|paper.continued|TO BE CONTINUED
+102|paper.day|DAY {day}
+103|paper.edition|OFFICE EDITION
+104|paper.name|THE DAILY GRIND
+105|paper.no_stories|Nothing newsworthy happened. Suspicious.
+106|paper.stats|BY THE NUMBERS
+107|paper.tagline|All the office news that's fit to whisper
+108|paper.title_calm|A QUIET DAY
+109|paper.title_chaos|TOTAL CHAOS!
+110|paper.title_drama|SOME DRAMA
+111|paper.title_mayhem|OFFICE MAYHEM!
+112|journal.all_categories|All categories
+113|journal.biggest|Biggest chain reaction
+114|journal.biggest_arcs|It even started: {arcs}
+115|journal.biggest_line|'{what}' (day {day}) set off {n} consequences.
+116|journal.endings|{n} different endings discovered
+117|journal.found_pct|{n}  ·  {pct}%
+118|journal.meddles|Meddles
+119|journal.meddles_found|meddles discovered
+120|journal.moment_unrecorded|(It happened. Nobody wrote it down.)
+121|journal.moments|Moments
+122|journal.moments_hint|Big moments the office will be talking about for weeks.
+123|journal.moments_seen|special moments witnessed
+124|journal.no_biggest|Nothing has snowballed yet. Give it time.
+125|journal.outcomes|{n} different outcomes seen
+126|journal.r_endings|Different endings
+127|journal.r_meddles|Meddles discovered
+128|journal.r_moments|Special moments
+129|journal.r_outcomes|Different outcomes seen
+130|journal.r_secrets|Secret combinations found
+131|journal.r_stories|Stories finished
+132|journal.records|Records
+133|journal.secrets_left|{n} secret combinations still hidden
+134|journal.stories|Stories
+135|journal.stories_done|stories seen to the end
+136|journal.stories_left|{n} stories nobody has lived through yet
+137|journal.story_line|Seen {n}× · endings: {ends}
+138|journal.undiscovered|{n} still undiscovered. Some only appear when the right things line up…
+139|journal.unknown_left|{n} more to discover in this category
+140|journal.used|Used {n}× · first on day {day}
+141|cat.A|Computers & digital
+142|cat.B|Email & messages
+143|cat.C|Meetings & calendar
+144|cat.D|Documents & paperwork
+145|cat.E|Career, promotion & pay
+146|cat.F|Phones & calls
+147|cat.G|Kitchen & coffee
+148|cat.H|Equipment & environment
+149|cat.I|Social & gossip
+150|cat.J|Hidden combinations
+151|tab.mail|Inbox
+152|tab.papers|Desk
+153|tab.pc|Computer
+154|tab.phone|Phone
+155|spot.ac|Air Conditioner
+156|spot.alarm_panel|Fire alarm panel
+157|spot.coat_rack|Coat rack
+158|spot.coffee_machine|Coffee Machine
+159|spot.file_cabinet|Filing cabinets
+160|spot.fridge|Fridge
+161|spot.front_door|Front door
+162|spot.hr_cabinet|HR cabinet
+163|spot.item|{owner}'s {item}
+164|spot.kitchen_table|Kitchen table
+165|spot.lights|Light Breaker
+166|spot.meeting_board|Meeting Board
+167|spot.meeting_table|Meeting room table
+168|spot.microwave|Microwave
+169|spot.noticeboard|Cork noticeboard
+170|spot.plant|Office plant
+171|spot.printer|Printer
+172|spot.promo_file|Promotion File
+173|spot.server_box|Server cupboard
+174|spot.sofa|Lounge sofa
+175|spot.speaker|Office speaker
+176|spot.supply_shelf|Supply shelf
+177|spot.wall_clock|Wall clock
+178|spot.water_cooler|Water cooler
+179|spot.ws|{name}'s Desk
+180|state.alarm_off|Quiet
+181|state.alarm_on|RINGING
+182|state.broken|BROKEN
+183|state.clock|Shows {time}
+184|state.coffee_odd|Working… mostly
+185|state.desk|{name} · {doing}
+186|state.item_at|Currently at: {loc}
+187|state.lights_off|Lights are OFF
+188|state.lights_on|Lights are on
+189|state.meeting_at|Today's meeting: {time}
+190|state.meeting_done|Today's meeting is over
+191|state.music|Playing {what}
+192|state.music_off|Silent
+193|state.no_paper|Out of paper
+194|state.pins|{n} notes pinned
+195|state.promo|Ahmet reads this every afternoon.
+196|state.promo_altered|Doctored, waiting for Ahmet…
+197|state.temp|Set to {temp}
+198|state.working|Working fine
+199|opt.credit|Credit {name}
+200|opt.iv.arabesk|Arabesk
+201|opt.iv.baby|A crying baby
+202|opt.iv.ballad|A sobbing break-up ballad
+203|opt.iv.bath|'Sent from my bathtub'
+204|opt.iv.beach|A tropical beach
+205|opt.iv.boss|A huge photo of Ahmet
+206|opt.iv.cake|'Bring cake on Fridays'
+207|opt.iv.ceo|'Future CEO'
+208|opt.iv.classical|Classical
+209|opt.iv.dayoff|Their afternoon off
+210|opt.iv.dentist|Dentist appointment
+211|opt.iv.disco|Disco
+212|opt.iv.dumb|'MY DUMB IDEAS'
+213|opt.iv.ex|Their ex
+214|opt.iv.fast|45 minutes fast
+215|opt.iv.fav|'Ahmet's favourite employee'
+216|opt.iv.fire|'Fire them!'
+217|opt.iv.flowers|'Buy flowers for (their crush)'
+218|opt.iv.glowing|Make it glow
+219|opt.iv.gym|'Gym at 16:30 — leave early'
+220|opt.iv.headhunter|A headhunter
+221|opt.iv.interview|'Job interview' (in the shared calendar)
+222|opt.iv.kitchen|The kitchen
+223|opt.iv.kittens|Forty kittens
+224|opt.iv.laugh|'Laugh at Ahmet's jokes'
+225|opt.iv.layoff|a 'positions under review' list
+226|opt.iv.layoffs|'URGENT: layoffs'
+227|opt.iv.lounge|The lounge
+228|opt.iv.love|'LOVE LETTERS'
+229|opt.iv.lunch|'Who's stealing lunches?'
+230|opt.iv.metal|Screaming heavy metal
+231|opt.iv.mom|'Mum'
+232|opt.iv.party|'Party at my place tonight!'
+233|opt.iv.plans|'SECRET PLANS'
+234|opt.iv.pop|Cheesy pop
+235|opt.iv.promo|'Promotions — today'
+236|opt.iv.promote|'Promote them!'
+237|opt.iv.raise|'Re: your raise (approved!)'
+238|opt.iv.romance|'New office romance policy'
+239|opt.iv.salary|the salary list
+240|opt.iv.siren|Air-raid siren
+241|opt.iv.slow|30 minutes slow
+242|opt.iv.terrible|Make it a disaster
+243|opt.meeting_at|Move it to {time}
+244|opt.notif_admirer|"A secret admirer says hi 😊"
+245|opt.notif_boss|"Come to my office. NOW." — Ahmet
+246|opt.notif_cancel|"Today's meeting is cancelled."
+247|opt.notif_food|"Free cake in the kitchen!"
+248|opt.person|Send it to {name}
+249|opt.temp_16|16°C — Arctic
+250|opt.temp_19|19°C — Chilly
+251|opt.temp_22|22°C — Normal
+252|opt.temp_25|25°C — Warm
+253|opt.temp_29|29°C — Sauna
+254|why.absent|They're not in the office right now.
+255|why.after_lunch|Lunch time is already over.
+256|why.alarm_on|The alarm is already ringing.
+257|why.already|Already done.
+258|why.already_broken|It's already broken.
+259|why.already_locked|It's already locked.
+260|why.boss_busy|Ahmet is in a meeting.
+261|why.clock_time|Nobody's watching the clock right now.
+262|why.coffee_broken|The machine is broken.
+263|why.cooldown|Too soon — someone might notice the pattern.
+264|why.dark|The lights are off.
+265|why.happy_here|They're happy here — there's no resignation letter.
+266|why.hunt_running|The office is already hunting a ghost.
+267|why.in_meeting|They're in a meeting.
+268|why.meeting_over|Today's meeting is already over.
+269|why.meeting_started|The meeting has already started.
+270|why.net_down|The network is already down.
+271|why.no_alliance|Nobody has a secret alliance right now.
+272|why.no_birthday|Nobody has a birthday today.
+273|why.no_burak|There's no spare charger around.
+274|why.no_crush|They don't have a crush on anyone who's here.
+275|why.no_false_rumor|No false rumours are going around right now.
+276|why.no_foe|They're not in conflict with anyone right now.
+277|why.no_friend|They don't have a close friend here.
+278|why.no_grudge|They don't have anything bad to say about anyone. Yet.
+279|why.no_haters|Nobody has a problem with them. Yet.
+280|why.no_promo|There's no promotion announcement today.
+281|why.no_rivals|Nobody here is at odds right now.
+282|why.no_seeker|Nobody is secretly job hunting right now.
+283|why.no_upcoming|Nobody's birthday is coming up soon.
+284|why.no_work|They don't have any work in progress.
+285|why.not_attending|They're not at today's meeting.
+286|why.not_now|Not possible right now.
+287|why.owner_absent|They're not at their desk today.
+288|why.panic_running|The office is already panicking about layoffs.
+289|why.party_running|There's already a party going on.
+290|why.plant_ok|The plant is already thriving.
+291|why.printer_broken|The printer is broken.
+292|why.printer_working|The printer is working fine.
+293|why.promo_done|The promotion was already announced.
+294|why.too_late|Too late in the day for that.
+295|why.used_today|Already done today.
+296|why.water_broken|The water cooler is broken.
+297|why.worst_absent|The person they wrote about isn't here.
+298|rel.best|Best friends
+299|rel.dislike|Dislikes
+300|rel.enemy|Can't stand
+301|rel.friend|Friends
+302|rel.neutral|Neutral
+303|rel.ok|Gets along
+304|rel.rival|Arch-rival
+305|mood.content|Content
+306|mood.ecstatic|Ecstatic
+307|mood.furious|Furious
+308|mood.grumpy|Grumpy
+309|mood.happy|Happy
+310|mood.meh|Meh
+311|mood.upset|Upset
+312|emo.anger|angry
+313|emo.annoyed|annoyed
+314|emo.fear|scared
+315|emo.grateful|grateful
+316|emo.hurt|hurt
+317|emo.jealousy|jealous
+318|emo.joy|happy
+319|emo.love|touched
+320|emo.neutral|
+321|emo.pleased|pleased
+322|emo.pride|proud
+323|emo.relief|relieved
+324|emo.sad|sad
+325|emo.shame|embarrassed
+326|emo.surprise|surprised
+327|stat.arguments|Arguments
+328|stat.big_fights|Big Fights
+329|stat.blames|Blame Games
+330|stat.breakdowns|Breakdowns
+331|stat.broken_promotions|Broken Promotions
+332|stat.cliques|Office Cliques
+333|stat.debunked|Rumours debunked
+334|stat.defenses|Defended a Coworker
+335|stat.emails|Email Disasters
+336|stat.helps|Helping Hands
+337|stat.interventions|Player Interventions
+338|stat.jealousy|Jealous Jabs
+339|stat.late_arrivals|Late Arrivals
+340|stat.new_friendships|New Friendships
+341|stat.praises|Praises
+342|stat.pranks_found|Pranks Discovered
+343|stat.reconciliations|Reconciliations
+344|stat.refusals|Refusals
+345|stat.rumors|Office Rumors
+346|stat.scoldings|Scoldings
+347|stat.secrets_revealed|Secrets Exposed
+348|stat.took_blame|Took the Blame
+349|stat.wrong_rewards|Wrong Person Rewarded
+350|bond.alliance|Secret ally of {name}
+351|bond.feud|Not speaking to {name}
+352|bond.mentor|Looks out for {name}
+353|bond.romance|Seeing {name}
+354|plan.apologize|Owes {name} an apology
+355|plan.expose|Wants to expose {name}
+356|plan.job_search|Looking for another job
+357|plan.prove_self|Determined to prove themselves
+358|plan.revenge|Wants revenge on {name}
+359|plan.undermine|Working against {name}
+360|doing.|standing around
+361|doing.announce|making an announcement
+362|doing.archive|in the archive
+363|doing.arrive|arriving
+364|doing.chat|chatting
+365|doing.coffee|getting coffee
+366|doing.fix|fixing something
+367|doing.gift_coffee|bringing coffee
+368|doing.go_npc|on a mission
+369|doing.go_place|on the move
+370|doing.idle|standing around
+371|doing.leave|heading home
+372|doing.lunch|having lunch
+373|doing.meeting|in a meeting
+374|doing.patrol|patrolling
+375|doing.phone|on the phone
+376|doing.print|printing
+377|doing.rest|taking a break
+378|doing.return_item|returning something
+379|doing.review|reviewing files
+380|doing.search|searching for something
+381|doing.thermostat|fiddling with the AC
+382|doing.wander|stretching their legs
+383|doing.water|at the water cooler
+384|doing.work|working
+385|loc.archive|Archive cabinet
+386|loc.desk_ahmet|Ahmet's desk
+387|loc.desk_burak|Burak's desk

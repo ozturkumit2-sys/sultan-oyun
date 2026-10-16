@@ -3266,7 +3266,7 @@
     {
      "e": "oset",
      "path": "board.title",
-     "v": "5 min!"
+     "v": "5min"
     }
    ],
    "reuse": {
@@ -3303,7 +3303,7 @@
     {
      "e": "oset",
      "path": "board.title",
-     "v": "PIZZA!"
+     "v": "pizza"
     },
     {
      "e": "each",
@@ -3605,7 +3605,7 @@
     {
      "e": "oset",
      "path": "board.title",
-     "v": "CLIENT!"
+     "v": "client"
     }
    ],
    "react": [
@@ -3670,7 +3670,7 @@
     {
      "e": "oset",
      "path": "board.title",
-     "v": "Farewell!"
+     "v": "farewell"
     },
     {
      "e": "rumor",
@@ -10022,7 +10022,7 @@
     {
      "e": "oset",
      "path": "board.title",
-     "v": "PROMOTION!"
+     "v": "promotion"
     }
    ],
    "react": [
@@ -10341,7 +10341,7 @@
     {
      "e": "oset",
      "path": "board.title",
-     "v": "RESTRUCTURING Q&A"
+     "v": "restructuring"
     }
    ],
    "react": [
@@ -10406,7 +10406,7 @@
     {
      "e": "oset",
      "path": "board.title",
-     "v": "ACTING BOSS"
+     "v": "acting_boss"
     }
    ],
    "react": [

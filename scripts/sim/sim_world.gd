@@ -577,7 +577,7 @@ func say(id: String, key: String, ctx: Dictionary, to := "") -> void:
 		face_toward(n, to)
 	# overhearing a line that names a secret means the player learns it too
 	var g = ctx.get("vars", {}).get("gossip", "")
-	if g != "" and tmpl.find("{gossip}") >= 0:
+	if g != "" and tmpl.find("{gossip") >= 0:
 		reveal(str(g))
 	said.emit(id, text, to)
 
@@ -856,7 +856,7 @@ func log_event(key: String, ctx: Dictionary, imp: int, cat: String, actors: Arra
 	var text := dialogue.format(T(key), ctx)
 	if OS.has_environment("OC_DEBUG_TEXT") and text.find("{") >= 0:
 		print("UNRESOLVED ", key, " roles=", ctx.get("roles", {}), " vars=", ctx.get("vars", {}).keys())
-	var entry := {"day": day, "minute": minute, "text": text, "imp": imp, "cat": cat, "actors": actors}
+	var entry := {"day": day, "minute": minute, "text": text, "ref": make_ref(key, ctx), "imp": imp, "cat": cat, "actors": actors}
 	director.on_logged(entry, ctx)
 	discovery.on_log(entry, ctx)
 	log_entries.append(entry)
@@ -864,7 +864,7 @@ func log_event(key: String, ctx: Dictionary, imp: int, cat: String, actors: Arra
 		log_entries.pop_front()
 	# a consequence of meddling leaves a memory with the people it happened to
 	if str(ctx.get("vars", {}).get("_iv", "")) != "" and imp >= 2:
-		_meddle_memory(text, cat, actors, imp)
+		_meddle_memory(text, entry["ref"], cat, actors, imp)
 	if imp >= 2:
 		stats.note(entry)
 	logged.emit(entry)
@@ -877,7 +877,7 @@ const MEDDLE_MEM_VAL := {"conflict": -0.45, "blame": -0.5, "boss": -0.2, "prank"
 
 ## People involved in a meddling consequence remember it (what happened, with whom,
 ## good or bad for them, the day) — unless the scene already gave them a memory just now.
-func _meddle_memory(text: String, cat: String, actors: Array, imp: int) -> void:
+func _meddle_memory(text: String, ref: Dictionary, cat: String, actors: Array, imp: int) -> void:
 	var ids: Array = []
 	for a in actors:
 		if npcs.has(str(a)) and not ids.has(str(a)):
@@ -896,7 +896,65 @@ func _meddle_memory(text: String, cat: String, actors: Array, imp: int) -> void:
 			continue
 		var others: Array = ids.filter(func(x): return x != id)
 		var about: String = others[0] if not others.is_empty() else ""
-		n.remember("meddle_" + cat, about, v, 0.45, "mem.raw", {"text": text}, day, minute, mini(imp, 3), {"with": others, "src": "saw"})
+		n.remember("meddle_" + cat, about, v, 0.45, "mem.raw", {"text": text, "text_ref": ref}, day, minute, mini(imp, 3), {"with": others, "src": "saw"})
+
+
+## A language-independent recipe for a log line, so it can be shown again in
+## another language: the text key plus the people and values it names.
+func make_ref(key: String, ctx: Dictionary) -> Dictionary:
+	var r := {}
+	var v := {}
+	var roles: Dictionary = ctx.get("roles", {})
+	var vars: Dictionary = ctx.get("vars", {})
+	for ph in Loc.ref_names(key):
+		if roles.has(ph):
+			r[ph] = str(roles[ph])
+		elif vars.has(ph) and typeof(vars[ph]) in [TYPE_STRING, TYPE_INT, TYPE_FLOAT, TYPE_BOOL]:
+			v[ph] = vars[ph]
+	return {"k": key, "r": r, "v": v}
+
+
+## Renders a stored recipe in the current language ("" if something it names is gone).
+func render_ref(ref) -> String:
+	if typeof(ref) != TYPE_DICTIONARY or str(ref.get("k", "")) == "":
+		return ""
+	var vars: Dictionary = ref.get("v", {})
+	for k in vars:
+		if str(k) in ["gossip", "fact", "rumor"] and fact_text(str(vars[k])) == "":
+			return ""
+	var out := dialogue.format(T(str(ref["k"])), {"roles": ref.get("r", {}), "vars": vars})
+	return "" if out.find("{") >= 0 else out
+
+
+## After switching language: re-render every stored line that kept its recipe.
+func relocalize() -> void:
+	_reloc_walk(log_entries)
+	_reloc_walk(stats.notable)
+	_reloc_walk(stats.history)
+	_reloc_walk(director.arcs)
+	_reloc_walk(director.finished)
+	for id in order:
+		_reloc_walk(npcs[id].memories)
+	discovery.relocalize(Callable(self, "render_ref"))
+
+
+func _reloc_walk(x) -> void:
+	if typeof(x) == TYPE_ARRAY:
+		for y in x:
+			_reloc_walk(y)
+	elif typeof(x) == TYPE_DICTIONARY:
+		for k in x.keys():
+			var ks := str(k)
+			if ks == "ref" and x.has("text"):
+				var t1 := render_ref(x["ref"])
+				if t1 != "":
+					x["text"] = t1
+			elif ks.ends_with("_ref") and x.has(ks.trim_suffix("_ref")):
+				var t2 := render_ref(x[k])
+				if t2 != "":
+					x[ks.trim_suffix("_ref")] = t2
+			elif typeof(x[k]) in [TYPE_ARRAY, TYPE_DICTIONARY] and ks != "r" and ks != "v":
+				_reloc_walk(x[k])
 
 
 func hold(ids: Array, dur: float) -> void:

@@ -221,7 +221,7 @@ ev(id="iv_walkout", trigger="meeting_walkout", priority=70,
             stress("actor", 12), favor("target", -5), call("scold", target="target", reason="meeting", prio=62, delay=10), log("log.walkout", 4, "meeting")])
 iv("C13", "short_meeting", title="Write '5 minutes' on the meeting", desc="People will take the board at its word.",
    log="The ghost wrote 'max 5 minutes!' on today's meeting.", **BOARD, icon="board", conds=BEFORE,
-   state=[mtg("short", True), oset("board.title", "5 min!")], watch=["iv_walkout"])
+   state=[mtg("short", True), oset("board.title", "5min")], watch=["iv_walkout"])
 
 # --- C14 promise free pizza at the meeting --------------------------------------------------------
 L("pizza_hype", ["Free pizza at the meeting! I'm going early.", "Pizza?! Best meeting ever."], mert=["PIZZA. I'll be first."])
@@ -233,7 +233,7 @@ scene("iv_no_pizza", allow_absent=True, conditions=[c_present("actor")],
                log("log.pizza", 3, "meeting"), rel("@mert", "@ceren", "suspicion", 6)])
 iv("C14", "pizza", title="Promise free pizza at the meeting", desc="Everyone will arrive early. Hungry.",
    log="The ghost wrote 'FREE PIZZA!' next to today's meeting.", **BOARD, icon="coffee", conds=BEFORE,
-   state=[oset("board.title", "PIZZA!"), each([say("self", "pizza_hype", p=0.4), mood("self", 4), {"e": "meeting", "key": "belief", "who": "self", "d": -10}],
+   state=[oset("board.title", "pizza"), each([say("self", "pizza_hype", p=0.4), mood("self", 4), {"e": "meeting", "key": "belief", "who": "self", "d": -10}],
                                               exclude=["@ahmet"], where=[{"c": "attends", "who": "self"}])],
    react=[on_trap("meeting_start", "iv_no_pizza", who="@ahmet", key="pizza")])
 
@@ -331,7 +331,7 @@ scene("iv_client_none", allow_absent=True, conditions=[c_present("@ahmet")],
                each([mood("self", -4)], stagger=0.2), ghost(), call("ghost_theory"), log("log.client_none", 3, "misunderstanding")])
 iv("C19", "client_visit", title="Announce a client visit", desc="'Important client at 14:00!' Watch everyone tidy and work twice as hard.",
    log="The ghost wrote 'IMPORTANT CLIENT VISIT TODAY' on the board.", **BOARD, icon="people", conds=[r_time(before="14:00")],
-   state=[flag("client_visit", True, day=True), oset("board.title", "CLIENT!")], react=[chain("iv_client_prep", delay=1), chain("iv_client_none", delay=60)])
+   state=[flag("client_visit", True, day=True), oset("board.title", "client")], react=[chain("iv_client_prep", delay=1), chain("iv_client_none", delay=60)])
 
 # --- C20 rename the meeting: "(Someone)'s farewell" ------------------------------------------------------------------
 L("farewell_sad", ["{target} is LEAVING?!", "Farewell meeting for {target}? Nobody told me!", "We'll miss you, {target}!"])
@@ -351,6 +351,6 @@ scene("iv_farewell", noise=0.8, allow_absent=True, conditions=[c_present("target
 iv("C20", "farewell_meeting", title="Rename the meeting '(Someone)'s farewell'", desc="Everyone will think they're leaving. Including, maybe, them.",
    log="The ghost renamed today's meeting to '{target}'s farewell'.", **BOARD, needs="person", icon="star", conds=BEFORE,
    pick=[c_is("self", "ahmet", neg=True), {"c": "attends", "who": "self"}],
-   state=[oset("board.title", "Farewell!"), rumor("resigning", a="target", b="target", juicy=0.8, truth=False, knowers=[], key="fact"),
+   state=[oset("board.title", "farewell"), rumor("resigning", a="target", b="target", juicy=0.8, truth=False, knowers=[], key="fact"),
           each([learn("self", "$fact", c=0.65), say("self", "farewell_sad", p=0.3, delay=1.0)], exclude=["target"], stagger=0.5)],
    react=[on_trap("meeting_start", "iv_farewell", who="@ahmet", key="farewell")])

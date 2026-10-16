@@ -1,0 +1,260 @@
+3316|rule_announce|_|0|Attention! From today: no personal mugs in the kitchen.
+3317|rule_announce|_|1|New rule: meetings start five minutes EARLY. Always.
+3318|rule_announce|_|2|From now on, lunch is thirty minutes. Not thirty-five.
+3319|rule_announce|_|3|Effective immediately: no headphones at desks.
+3320|rule_grumble|_|0|Are you serious?
+3321|rule_grumble|_|1|That's ridiculous.
+3322|rule_grumble|_|2|Here we go again.
+3323|rule_grumble|_|3|Who comes up with this?
+3324|rule_grumble|burak|0|...No headphones. Wonderful.
+3325|rule_grumble|mert|0|What about emotional-support mugs?
+3326|rule_grumble|zeynep|0|I'm writing this down. For posterity.
+3327|rule_support|_|0|Good idea, Ahmet Bey.
+3328|rule_support|_|1|Makes sense!
+3329|rule_support|_|2|Discipline is important.
+3330|rule_support|deniz|0|Excellent policy. Long overdue.
+3331|bet_pitch|_|0|Betting pool! Who gets the next promotion? Five lira.
+3332|bet_pitch|_|1|Office pool's open. Selin or Deniz?
+3333|bet_pitch|_|2|Place your bets, folks.
+3334|bet_pitch|mert|0|Ladies and gentlemen, the promotion pool is OPEN.
+3335|bet_place|_|0|Put me down for Selin.
+3336|bet_place|_|1|Deniz. He'll find a way.
+3337|bet_place|_|2|Ten on the dark horse.
+3338|bet_place|_|3|I'm not betting on my colleagues! ...Fine, five.
+3339|bet_boss_caught|_|0|Is that a BETTING POOL in my office?
+3340|bet_boss_caught|_|1|Mert. My office. Now.
+3341|brag_line|_|0|Closed three deals before lunch. How about you?
+3342|brag_line|_|1|Ahmet Bey loved my numbers. Just saying.
+3343|brag_line|_|2|Did you see my report? Everyone did.
+3344|brag_line|deniz|0|Funny how my numbers keep beating yours.
+3345|brag_line|deniz|1|I'd offer to help, but you seem... busy.
+3346|brag_line|selin|0|My client renewed. Two years. Beat that.
+3347|brag_retort|_|0|Congratulations. Want a medal?
+3348|brag_retort|_|1|Great. Now do it without stealing anyone's slides.
+3349|brag_retort|_|2|Wow. Did you also invent coffee?
+3350|brag_retort|selin|0|Talk is cheap. Results are on my desk.
+3351|brag_retort|deniz|0|Cute. Call me when you're senior.
+3352|brag_ignore|_|0|Mm-hm. Good for you.
+3353|brag_ignore|_|1|...Okay.
+3354|brag_ignore|_|2|I'm busy.
+3355|sabotage_mutter|_|0|Let's see how you like this...
+3356|sabotage_mutter|_|1|Oops. Clumsy me.
+3357|sabotage_mutter|_|2|Payback time.
+3358|sabotage_mutter|deniz|0|Nothing personal. Just business.
+3359|hide_prank_think|_|0|Hehe. This is going to be good.
+3360|hide_prank_think|_|1|Let's see how long it takes them...
+3361|hide_prank_think|_|2|Comedy is all about timing.
+3362|lunch_ask|_|0|Lunch together today?
+3363|lunch_ask|_|1|Want to grab lunch? My treat. Partly.
+3364|lunch_ask|_|2|Kebab place? You and me?
+3365|lunch_ask|ece|0|Can I sit with you at lunch?
+3366|lunch_ask|mert|0|Lunch? I know a guy who knows a guy who makes great lahmacun.
+3367|lunch_yes|_|0|Yes! Please. Save me from my desk.
+3368|lunch_yes|_|1|Sure, let's go.
+3369|lunch_yes|_|2|Deal.
+3370|lunch_no|_|0|Sorry, I'm eating at my desk today.
+3371|lunch_no|_|1|Can't, deadline.
+3372|lunch_no|_|2|Maybe tomorrow?
+3373|snack_offer|_|0|You look like you need this. Simit.
+3374|snack_offer|_|1|Here — chocolate. Doctor's orders.
+3375|snack_offer|_|2|Brought you a snack. Breathe.
+3376|snack_offer|ece|0|I baked cookies! They're... mostly cookie-shaped.
+3377|snack_offer|ceren|0|Tea and a biscuit. Five minutes off. Go.
+3378|snack_thanks|_|0|You're an angel.
+3379|snack_thanks|_|1|Oh, thank you. Really.
+3380|snack_thanks|_|2|I needed that more than you know.
+3381|snack_thanks|burak|0|...Thanks. Seriously.
+3382|inside_joke|_|0|Remember the fax machine incident?
+3383|inside_joke|_|1|Say it. Say the thing.
+3384|inside_joke|_|2|...Pineapple.
+3385|inside_joke|_|3|Same time next year?
+3386|inside_laugh|_|0|HAHAHA stop!
+3387|inside_laugh|_|1|I can't breathe!
+3388|inside_laugh|_|2|Every time!
+3389|inside_laugh|_|3|*wheezes*
+3390|cover_line|_|0|Oh, {actor}'s been in since early — went to pick up the client files for me.
+3391|cover_line|_|1|That's on me — I sent {actor} to the bank.
+3392|cover_line|_|2|{actor} was here! Archive. Dust everywhere.
+3393|boss_not_buying|_|0|Nice try. Very nice try.
+3394|boss_not_buying|_|1|I wasn't born yesterday.
+3395|boss_not_buying|_|2|Mm-hm. Both of you, back to work.
+3396|boss_buys_it|_|0|Hm. Fine.
+3397|boss_buys_it|_|1|Next time, tell me first.
+3398|boss_buys_it|_|2|Oh. Alright then.
+3399|congrats|_|0|Heard Ahmet loved your work. Well done!
+3400|congrats|_|1|Look at you, star of the day!
+3401|congrats|_|2|Congrats! You earned it.
+3402|congrats_thanks|_|0|Thanks! That means a lot.
+3403|congrats_thanks|_|1|Aw, thank you!
+3404|congrats_thanks|_|2|Ha, thanks.
+3405|confide_open|_|0|Can you keep a secret? Like, really keep it?
+3406|confide_open|_|1|Between us. Promise?
+3407|confide_open|_|2|I have to tell someone or I'll explode.
+3408|confide_tell|_|0|{fact}
+3409|confide_tell|_|1|So... {fact}
+3410|confide_tell|_|2|Okay. {fact} Don't tell anyone.
+3411|confide_promise|_|0|My lips are sealed.
+3412|confide_promise|_|1|I won't say a word.
+3413|confide_promise|_|2|Wow. Okay. Safe with me.
+3414|confide_wow|_|0|No WAY.
+3415|confide_wow|_|1|Shut up. Really?!
+3416|confide_wow|_|2|Oh, that's juicy.
+3417|note_drop_think|_|0|Just... leave it here. Anonymous. Smooth.
+3418|note_drop_think|_|1|No name. Mysterious. Perfect.
+3419|note_drop_think|_|2|Okay. Okay. Leave the note. RUN.
+3420|note_read|_|0|A note? "You make Mondays bearable." ...Who?!
+3421|note_read|_|1|Who left this on my desk?
+3422|note_read|_|2|"Have a great day :)" — no name?
+3423|date_whisper|_|0|Hi. Act normal.
+3424|date_whisper|_|1|Five minutes. Nobody's looking.
+3425|date_whisper|_|2|I saved you the last simit.
+3426|date_whisper|mert|0|Is it weird that I rehearsed this?
+3427|date_whisper|ceren|0|We have exactly four minutes before Ahmet needs me.
+3428|date_reply|_|0|Hi yourself.
+3429|date_reply|_|1|You're ridiculous. Thank you.
+3430|date_reply|_|2|Shh, someone's coming.
+3431|spot_couple|_|0|Well, well, well...
+3432|spot_couple|_|1|Oh-ho! What do we have here?
+3433|spot_couple|_|2|I KNEW it.
+3434|spot_couple|zeynep|0|Christmas came early.
+3435|jealous_friend_mutter|_|0|Since when are THEY best friends?
+3436|jealous_friend_mutter|_|1|Oh, so {actor} has a new favourite.
+3437|jealous_friend_mutter|_|2|Hmph. I see how it is.
+3438|jealous_friend_mutter|ece|0|...They didn't invite me.
+3439|jealous_friend_mutter|mert|0|Burak's replacing me? With HIM?
+3440|heartbreak_jab|_|0|Cute. Really cute. You two.
+3441|heartbreak_jab|_|1|Hope you're happy together.
+3442|heartbreak_jab|_|2|Don't mind me. Just getting water.
+3443|heartbreak_jab|burak|0|...Congratulations, I guess.
+3444|heartbreak_reply|_|0|Uh... thanks?
+3445|heartbreak_reply|_|1|Is something wrong?
+3446|heartbreak_reply|_|2|Okay, what's that tone about?
+3447|sarcasm|_|0|Wow, another meeting. My favourite.
+3448|sarcasm|_|1|Love what you've done with your desk. Very... brave.
+3449|sarcasm|_|2|Great shirt. Bold choice for an adult.
+3450|sarcasm|mert|0|Nice tie! Did you lose a bet?
+3451|sarcasm|zeynep|0|Oh, you're wearing THAT? Brave.
+3452|sarcasm|deniz|0|Interesting approach to the report. Very... creative.
+3453|sarcasm_hurt|_|0|...Excuse me?
+3454|sarcasm_hurt|_|1|Wow. Okay. Thanks.
+3455|sarcasm_hurt|_|2|Was that supposed to be funny?
+3456|sarcasm_hurt|burak|0|I'll remember that.
+3457|sarcasm_hurt|selin|0|Is that what you think of me?
+3458|sarcasm_explain|_|0|I was JOKING!
+3459|sarcasm_explain|_|1|Kidding! It was a joke!
+3460|sarcasm_explain|_|2|Oh no, that came out wrong.
+3461|sarcasm_laugh|_|0|Ha! Fair.
+3462|sarcasm_laugh|_|1|Rude. Accurate, but rude.
+3463|sarcasm_laugh|_|2|Hahaha, okay, you got me.
+3464|wrong_name_call|_|0|Ceren! Er— Ece. Whoever. Bring me the file.
+3465|wrong_name_call|_|1|Selin, the— Zeynep. Yes. You.
+3466|wrong_name_call|_|2|Mert! I mean Burak. The computer man.
+3467|wrong_name_reply|_|0|...It's {target}, actually.
+3468|wrong_name_reply|_|1|Still {target}. Three years now.
+3469|wrong_name_reply|_|2|Close enough, I guess.
+3470|wrong_name_reply|ece|0|That's okay! Everyone does it! ...Do they?
+3471|quit_vent|_|0|I swear, one more day like this and I quit.
+3472|quit_vent|_|1|I'm updating my CV tonight. I mean it.
+3473|quit_vent|_|2|Why do I even work here?
+3474|quit_vent|burak|0|The job market can't be worse than this.
+3475|quit_vent|selin|0|If that promotion doesn't come, I'm gone.
+3476|quit_vent|zeynep|0|I could audit a much nicer company.
+3477|quit_comfort|_|0|Hey. Don't decide anything angry. Sleep on it.
+3478|quit_comfort|_|1|We'd fall apart without you, you know.
+3479|quit_comfort|_|2|Come on. Kebab after work. On me.
+3480|quit_egg_on|_|0|Honestly? Do it. You're wasted here.
+3481|quit_egg_on|_|1|If I were you, I'd already be gone.
+3482|quit_egg_on|_|2|Show them. Walk out.
+3483|quit_egg_on|deniz|0|You should absolutely leave. For your own good.
+3484|cv_think|_|0|CV... "excellent team player." Ha.
+3485|cv_think|_|1|Let's just see what's out there.
+3486|cv_think|_|2|Updating my CV. Just in case.
+3487|cv_spotted|_|0|Is that a job site on your screen?
+3488|cv_spotted|_|1|Ooh, LinkedIn. Interesting.
+3489|cv_spotted|_|2|Looking for something?
+3490|cv_cover|_|0|What? No! It's... research.
+3491|cv_cover|_|1|That's for a friend!
+3492|cv_cover|_|2|Mind your own screen.
+3493|recruiter_line|_|0|Yes, this is me. Thursday works.
+3494|recruiter_line|_|1|Salary? Let's discuss that in person.
+3495|recruiter_line|_|2|No, I can talk. Quietly.
+3496|recruiter_line|burak|0|Yes, I can start in a month. ...No, they don't know.
+3497|overheard_recruiter|_|0|Was that a recruiter?!
+3498|overheard_recruiter|_|1|Thursday? Interview?
+3499|overheard_recruiter|_|2|Ohhh. Someone's leaving.
+3500|lost_report|_|0|Where's my report?! It was right here!
+3501|lost_report|_|1|My folder is GONE.
+3502|lost_report|_|2|Has anyone seen a blue folder?
+3503|lost_report|zeynep|0|My invoices. My precious invoices. WHERE.
+3504|lost_report|selin|0|I put it here. I always put it here.
+3505|found_misfiled|_|0|Found it — filed under "miscellaneous"?! Who did this?
+3506|found_misfiled|_|1|In the ARCHIVE. Under Q. Q!
+3507|found_misfiled|_|2|{suspect} filed this. I know that handwriting.
+3508|found_own_fault|_|0|...Oh. It's in my own drawer.
+3509|found_own_fault|_|1|Found it. Exactly where I left it. Don't say anything.
+3510|found_own_fault|_|2|Ah. My mistake.
+3511|still_lost|_|0|It's gone. Completely gone.
+3512|still_lost|_|1|I'll have to redo the whole thing.
+3513|still_lost|_|2|This is a nightmare.
+3514|reply_all_oops|_|0|Oh no. Oh no no no. That was REPLY ALL.
+3515|reply_all_oops|_|1|Why did that go to EVERYONE?!
+3516|reply_all_oops|_|2|Undo. UNDO. Where's undo?!
+3517|reply_all_oops|mert|0|...That cat video was meant for Burak only.
+3518|reply_all_oops|ece|0|I sent my grocery list to the whole company.
+3519|reply_all_react|_|0|HAHAHA, the cat!
+3520|reply_all_react|_|1|Oh, this is going in the hall of fame.
+3521|reply_all_react|_|2|Did everyone get that?
+3522|reply_all_react|_|3|Thanks for the... video?
+3523|boss_reply_all_laugh|_|0|...Ha. Okay, that cat is funny.
+3524|boss_reply_all_laugh|_|1|Delete it. ...After I watch it again.
+3525|hijack_line|_|0|If I may — I think what she's TRYING to say is...
+3526|hijack_line|_|1|Let me just jump in here, because the real insight is mine.
+3527|hijack_line|_|2|Sorry to interrupt, but I had this idea first.
+3528|hijack_line|deniz|0|Allow me to rescue this presentation.
+3529|hijack_protest|_|0|Excuse me, I'm not finished.
+3530|hijack_protest|_|1|I'm PRESENTING, thank you.
+3531|hijack_protest|_|2|Could you not?
+3532|hijack_protest|selin|0|I'll take questions at the END.
+3533|boss_sides_hijack|_|0|No, no, let him speak. Interesting.
+3534|boss_sides_hijack|_|1|Go on, Deniz.
+3535|boss_stops_hijack|_|0|Let her finish.
+3536|boss_stops_hijack|_|1|Wait your turn.
+3537|boss_stops_hijack|_|2|Deniz. Sit.
+3538|snore|_|0|Zzz... hrnk... zzz...
+3539|snore|_|1|*snooooore*
+3540|snore|_|2|...mmh, five more minutes...
+3541|snore_laugh|_|0|Is... is someone SNORING?
+3542|snore_laugh|_|1|Hahaha!
+3543|snore_laugh|_|2|Shh, let them sleep. It's adorable.
+3544|boss_wake_up|_|0|Are we BORING you?
+3545|boss_wake_up|_|1|Wake up! This is a meeting, not a hotel.
+3546|boss_wake_up|_|2|Coffee. Now.
+3547|ringtone|_|0|♪ I'm a Barbie girl... ♪
+3548|ringtone|_|1|♪ BAKA BAKA BAKA ♪
+3549|ringtone|_|2|*phone plays a goat screaming*
+3550|ringtone_sorry|_|0|Sorry! Sorry! My nephew changed it!
+3551|ringtone_sorry|_|1|That's not mine. ...It's mine.
+3552|ringtone_sorry|_|2|I can explain!
+3553|room_mine|_|0|Excuse me, I booked this room.
+3554|room_mine|_|1|I have this room until eleven.
+3555|room_mine|_|2|This room is reserved. For me.
+3556|room_no_mine|_|0|No, I booked it. Check the calendar.
+3557|room_no_mine|_|1|I've had this booked since Monday!
+3558|room_no_mine|_|2|Then the calendar is lying.
+3559|room_share|_|0|Fine. You take the left half.
+3560|room_share|_|1|Okay, okay — ten minutes each.
+3561|room_share|_|2|Let's not make this a thing.
+3562|room_fight|_|0|I'm not moving.
+3563|room_fight|_|1|Neither am I.
+3564|room_fight|_|2|This is ridiculous.
+3565|blame_shift|_|0|To be fair, Ahmet Bey, {suspect} never sent me the data.
+3566|blame_shift|_|1|I was waiting on {suspect}. Ask them.
+3567|blame_shift|_|2|It's not my fault — {suspect} dropped the ball.
+3568|blame_shift|deniz|0|I hate to say it, but {suspect} has been... unreliable lately.
+3569|blame_shift_heard|_|0|EXCUSE me?!
+3570|blame_shift_heard|_|1|Are you kidding me?
+3571|blame_shift_heard|_|2|That is a flat-out lie!
+3572|shield_line|_|0|Ahmet Bey, that's partly on me. I gave them the wrong numbers.
+3573|shield_line|_|1|Go easy — they were covering my work this morning.
+3574|shield_line|_|2|With respect, that wasn't entirely their fault.
+3575|shield_line|ceren|0|Ahmet Bey, the schedule change came from me.

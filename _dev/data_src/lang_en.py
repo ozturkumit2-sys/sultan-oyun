@@ -6,7 +6,7 @@ def s(k, v): S[k] = v
 
 # ---------------------------------------------------------------- UI
 for k, v in {
-    "ui.title": "OFFICE CHAOS",
+    "ui.title": "OFFICE POLTERGEIST",
     "ui.subtitle": "8 coworkers. 1 invisible meddler. Zero rules.",
     "ui.new_game": "New Game",
     "ui.continue": "Continue",
@@ -59,7 +59,7 @@ for k, v in {
     "ui.interventions_total": "Total meddling: {n}",
     "ui.stories": "Top stories",
     "ui.how_to_text": "You are an invisible force haunting a small office.\n\nYou can't control anyone. Instead, tap the glowing things — the coffee machine, the printer, computers, the meeting board, the thermostat, the light breaker, the boss's promotion file, people's belongings — and meddle.\n\nMost meddling is sneaky: nothing happens until someone actually uses that thing. Break the printer and wait for someone to need it. Swap an email recipient and wait for them to hit send.\n\nEveryone has a personality, a goal, friendships, rivalries, secrets and a memory. What happens next depends on all of it — and on yesterday.\n\nThere are 200 ways to meddle. Desks have four drawers: Computer, Inbox, Phone and Desk. Some meddles are secret: they only appear (with a little gold key) once the right things have already happened that day — and they can set off whole stories that run for days.\n\nThe green notebook bottom-left is your Discovery Journal: what you've found, the stories you've seen end, and your biggest chain reaction.\n\nThere are no missions and no score. Help them, ruin them, or just watch.",
-    "ui.credits_text": "OFFICE CHAOS\nGame design, code, art & audio generated for this project.\n\nFonts:\nPermanent Marker — Font Diner (Apache License 2.0)\nPatrick Hand — Patrick Wagesreiter (SIL Open Font License 1.1)\nSpecial Elite — Astigmatic (Apache License 2.0)\nAlfa Slab One — JM Solé (SIL Open Font License 1.1)\n\nAll characters, art, music and sound effects are original and procedurally created.\nMade with Godot Engine (MIT License).",
+    "ui.credits_text": "OFFICE POLTERGEIST\nGame design, code, art & audio generated for this project.\n\nFonts:\nPermanent Marker — Font Diner (Apache License 2.0; Turkish letters added)\nPatrick Hand — Patrick Wagesreiter (SIL Open Font License 1.1)\nSpecial Elite — Astigmatic (Apache License 2.0)\nAlfa Slab One — JM Solé (SIL Open Font License 1.1)\nKalam, Yatra One — Indian Type Foundry / Catherine Leigh Schmidt (SIL OFL 1.1)\nZCOOL KuaiLe — Liu Zhengjiang (SIL OFL 1.1)\nLXGW WenKai — LXGW (SIL OFL 1.1)\n\nAll characters, art, music and sound effects are original and procedurally created.\nMade with Godot Engine (MIT License).",
     "ui.speed_pause": "Pause",
     "ui.speed_1": "Play",
     "ui.speed_2": "Fast",

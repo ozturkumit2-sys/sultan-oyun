@@ -1,0 +1,200 @@
+4017|lp_ask_boss|_|0|Ahmet Bey, we need to know. Are there going to be layoffs?
+4018|lp_ask_boss|_|1|Is it true someone's getting fired by Friday?
+4019|lp_ask_boss|_|2|The whole office is panicking. Are we being let go?
+4020|lp_boss_baffled|_|0|LAYOFFS? Who said anything about layoffs?!
+4021|lp_boss_baffled|_|1|What on earth are you talking about?
+4022|lp_boss_baffled|_|2|Fired? Nobody's being fired! Who started this?
+4023|lp_announce|_|0|EVERYONE. There are NO layoffs. I cancelled the COFFEE SUBSCRIPTION.
+4024|lp_announce|_|1|Listen! Nobody is being fired! I was talking about the coffee machine contract!
+4025|lp_announce|_|2|For the record: the only thing leaving this office is the expensive coffee.
+4026|lp_relief|_|0|Oh thank god.
+4027|lp_relief|_|1|The COFFEE?!
+4028|lp_relief|_|2|I cried in the bathroom for nothing?
+4029|lp_relief|_|3|...Wait, no more good coffee?
+4030|sa_offer|_|0|We both have a {mark} problem. Let's solve it together.
+4031|sa_offer|_|1|You hear things. I know how to use them. Partners?
+4032|sa_offer|_|2|{mark} is in our way. Help me and you'll be first in line when I'm team lead.
+4033|sa_yes|_|0|...I'm in. Nobody can know.
+4034|sa_yes|_|1|Deal. This conversation never happened.
+4035|sa_yes|_|2|What's in it for me? ...Fine. Deal.
+4036|sa_no|_|0|No. Find someone else to do your dirty work.
+4037|sa_no|_|1|Absolutely not. And watch yourself.
+4038|sa_no|_|2|I'm not that kind of person.
+4039|sa_warn|_|0|Watch your back with {schemer}. They asked me to help bring you down.
+4040|sa_warn|_|1|I'm only telling you because it's not right: {schemer} is plotting against you.
+4041|sa_warn_thanks|_|0|...I knew it. Thank you.
+4042|sa_warn_thanks|_|1|Of course they are. Thanks for telling me.
+4043|sa_warn_thanks|_|2|I owe you one.
+4044|sa_trade|_|0|What have you got on {mark}?
+4045|sa_trade|_|1|Anything useful? Anything at all?
+4046|sa_give_secret|_|0|Oh, I've got something. {dirt}
+4047|sa_give_secret|_|1|This stays between us: {dirt}
+4048|sa_make_up|_|0|Nothing real. But people believe what they hear often enough...
+4049|sa_make_up|_|1|Nothing. So we'll invent something. Lazy, sneaks off early. Easy.
+4050|sa_strike|_|0|Ahmet Bey, I don't like saying this, but you should know: {dirt}
+4051|sa_strike|_|1|I'm worried about {mark}. Did you know {dirt}
+4052|sa_boss_hmm|_|0|...Is that so? Interesting.
+4053|sa_boss_hmm|_|1|I'll keep that in mind.
+4054|sa_boss_hmm|_|2|Hm. That changes things.
+4055|sa_tip|_|0|I saw {schemer} and {partner} whispering in the archive. Then {schemer} went straight to Ahmet about you.
+4056|sa_tip|_|1|Heads up: {schemer} has been talking to Ahmet about you. And {partner} is in on it.
+4057|sa_tip_react|_|0|{partner}?! I trusted them!
+4058|sa_tip_react|_|1|Of course. Of COURSE.
+4059|sa_tip_react|_|2|...Thank you for telling me.
+4060|sa_confront|_|0|You and {schemer}? Really? After everything?
+4061|sa_confront|_|1|I know about the archive. I know about Ahmet. Explain.
+4062|sa_confront|_|2|How much did {schemer} promise you?
+4063|sa_betray|_|0|It was all {schemer}'s idea! I just... listened!
+4064|sa_betray|_|1|I'm out. I never wanted this. Talk to {schemer}.
+4065|sa_loyal|_|0|I don't know what you're talking about.
+4066|sa_loyal|_|1|You're imagining things.
+4067|sa_loyal|_|2|Prove it.
+4068|bd_plan|_|0|Wait — it's {bday}'s birthday today! Nobody's planned anything?!
+4069|bd_plan|_|1|{bday}'s birthday. Cake. Card. Surprise. Go go go.
+4070|bd_plan|_|2|Operation Birthday is a go. Target: {bday}.
+4071|bd_plan|ece|0|IT'S {bday}'S BIRTHDAY! Okay, quiet, quiet. Secret mission.
+4072|bd_collect|_|0|Psst. Chip in for {bday}'s cake? And sign this card. Don't let them see!
+4073|bd_collect|_|1|Five lira for {bday}'s surprise. It's a secret!
+4074|bd_collect_yes|_|0|Ooh, yes! Here.
+4075|bd_collect_yes|_|1|Count me in. Where do I sign?
+4076|bd_collect_yes|_|2|A surprise? I love it.
+4077|bd_collect_blab|_|0|A SURPRISE? For {bday}? Oh, I'm terrible at secrets...
+4078|bd_collect_blab|_|1|Ha! I won't tell. Probably.
+4079|bd_hide|_|0|Cake in the fridge. Behind the yogurts. Perfect.
+4080|bd_hide|_|1|Hidden. Nobody will look behind the pickles.
+4081|bd_mert_cake|_|0|Ooh, is this cake for anyone?
+4082|bd_mert_cake|_|1|Is this... a whole cake? Can I—
+4083|bd_mert_cake|mert|0|Is this cake for anyone? Asking for me.
+4084|bd_dont|_|0|DON'T. TOUCH. IT.
+4085|bd_dont|_|1|That is for {bday}! Hands off!
+4086|bd_dont|_|2|Put. The fork. Down.
+4087|bd_surprise|_|0|SURPRISE!!!
+4088|bd_surprise|_|1|HAPPY BIRTHDAY!
+4089|bd_surprise|_|2|🎂 SURPRIIIISE!
+4090|bd_bday_happy|_|0|You guys! Oh my god! I thought everyone forgot!
+4091|bd_bday_happy|_|1|No WAY. For me?!
+4092|bd_bday_happy|_|2|I'm not crying. You're crying.
+4093|bd_bday_happy|ahmet|0|...Hmph. Well. Thank you. All of you.
+4094|bd_bday_happy|burak|0|...I hate surprises. ...Thank you.
+4095|bd_bday_happy|deniz|0|Well. This is... unexpectedly nice.
+4096|bd_bday_knew|_|0|Ha! I knew! Someone can't keep a secret!
+4097|bd_bday_knew|_|1|I saw the cake this morning. But I'm STILL touched!
+4098|bd_sing|_|0|♪ Happy birthday to you ♪
+4099|bd_sing|_|1|Speech! Speech!
+4100|bd_sing|_|2|Make a wish!
+4101|bd_sing|_|3|Cake! CAKE!
+4102|bd_where|_|0|Wait. Where's {bday}?!
+4103|bd_where|_|1|We forgot to bring the birthday person.
+4104|bd_where|_|2|...Did anyone actually tell {bday} to come?
+4105|bg_phone|_|0|WHAT? The figures were WRONG? ...I'll call you back.
+4106|bg_phone|_|1|...The client says WHAT? Our numbers were off by a ZERO?!
+4107|bg_phone|_|2|I understand. It won't happen again.
+4108|bg_hunt|_|0|Someone sent the client WRONG figures. I want a name. NOW.
+4109|bg_hunt|_|1|Who prepared the client numbers?! Step forward!
+4110|bg_hunt|_|2|I will find out who did this. Better if you tell me first.
+4111|bg_shift_think|_|0|If anyone asks, {scapegoat} sent those numbers.
+4112|bg_shift_think|_|1|Not me. Definitely not me. {scapegoat}, maybe.
+4113|bg_hide_think|_|0|Please don't look at me. Please don't look at me.
+4114|bg_hide_think|_|1|Maybe it'll blow over...
+4115|bg_hide_think|_|2|*hides behind monitor*
+4116|bg_confess|_|0|Ahmet Bey... it was me. I mixed up the columns.
+4117|bg_confess|_|1|The figures were mine. I'm sorry. I'll call the client myself.
+4118|bg_confess|_|2|It was my mistake.
+4119|bg_respect|_|0|...Thank you for telling me. Fix it. Today.
+4120|bg_respect|_|1|At least you're honest. Call them back.
+4121|bg_respect|_|2|Hm. Mistakes happen. Don't let it happen twice.
+4122|bg_explode|_|0|A ZERO?! Do you know how that makes us look?!
+4123|bg_explode|_|1|Unacceptable! Completely unacceptable!
+4124|bg_accuse|_|0|{scapegoat}. The client figures. Explain.
+4125|bg_accuse|_|1|I hear it was YOU who sent those numbers.
+4126|bg_accuse|_|2|My office has a question for you, {scapegoat}: why?
+4127|bg_proof|_|0|Check the file history. I haven't opened that spreadsheet in weeks.
+4128|bg_proof|_|1|It wasn't me. Look at the timestamps.
+4129|bg_proof|_|2|Ask {culprit} who last edited it.
+4130|bg_crushed|_|0|...I didn't do it. But fine.
+4131|bg_crushed|_|1|I don't know what to say.
+4132|bg_crushed|_|2|...Okay.
+4133|bg_truth|_|0|The file history says YOU edited that spreadsheet. Not {scapegoat}.
+4134|bg_truth|_|1|So. Timestamps. Funny things, timestamps.
+4135|bg_truth|_|2|You let {scapegoat} take the blame?
+4136|bg_caught|_|0|I... I can explain.
+4137|bg_caught|_|1|It was an honest mistake!
+4138|bg_caught|_|2|...Yes. It was me.
+4139|mp_mistake|_|0|Oh no. I typed the wrong totals into {mentor}'s report. And it's already on Ahmet's desk!
+4140|mp_mistake|_|1|I mixed up two columns in {mentor}'s report. Ahmet has it. I'm dead.
+4141|mp_cover|_|0|Ahmet Bey, there's an error in my report. My fault. Corrected version in ten minutes.
+4142|mp_cover|_|1|I made a mistake in the totals. It's fixed. It won't happen again.
+4143|mp_boss_mild|_|0|Hm. Not like you. Fix it.
+4144|mp_boss_mild|_|1|Alright. Ten minutes.
+4145|mp_boss_annoyed|_|0|Sloppy. I expected better from you.
+4146|mp_boss_annoyed|_|1|Mistakes in MY reports? Again?
+4147|mp_exploit|_|0|Funny thing, Ahmet Bey — I heard that report error was the intern's. Someone's covering. Not very transparent, is it?
+4148|mp_exploit|_|1|You know {mentor} is covering for {protege}, right? Just thought you should know.
+4149|mp_boss_hmm|_|0|...Covering? In MY office?
+4150|mp_boss_hmm|_|1|Is that so.
+4151|mp_boss_hmm|_|2|I'll look into it.
+4152|mp_boss_dismiss|_|0|I don't care whose typo it was. Get back to work.
+4153|mp_boss_dismiss|_|1|Office gossip is not a performance review, Deniz.
+4154|mp_confess|_|0|Ahmet Bey — the mistake was mine. {mentor} was protecting me. Please don't blame them.
+4155|mp_confess|_|1|It was me. Not {mentor}. I'm sorry.
+4156|mp_boss_respect|_|0|...Hm. Loyalty AND honesty. Both of you, back to work.
+4157|mp_boss_respect|_|1|Fine. I respect that. Don't let it happen again.
+4158|mp_thank|_|0|Thank you. For covering for me. You didn't have to.
+4159|mp_thank|_|1|Why did you do that for me?
+4160|mp_thank|_|2|I owe you. Big time.
+4161|mp_mentor_reply|_|0|That's what we do here. Next time, double-check the totals.
+4162|mp_mentor_reply|_|1|Everyone messes up once. Just not twice.
+4163|mp_mentor_reply|_|2|You'd do the same for me.
+4164|pp_ask|_|0|Ahmet Bey, I'd like to talk about the team lead position.
+4165|pp_ask|_|1|I think I've earned a shot at team lead. I'd like to know where I stand.
+4166|pp_ask|_|2|What would it take for me to get promoted?
+4167|pp_prove|_|0|Prove it. Land the Kaya account pitch. By tomorrow.
+4168|pp_prove|_|1|Results talk. Bring me a pitch that wins Kaya.
+4169|pp_prove|_|2|Show me. Then we talk.
+4170|pp_dismiss|_|0|Now is not the time.
+4171|pp_dismiss|_|1|When there's a position, I'll let you know.
+4172|pp_dismiss|_|2|Patience. Everyone wants to be promoted.
+4173|pp_promise|_|0|You're first in line. Don't tell anyone I said that.
+4174|pp_promise|_|1|Keep doing what you're doing. It's yours soon.
+4175|pp_grind|_|0|Lunch? No. Pitch.
+4176|pp_grind|_|1|Slide twelve. Slide THIRTEEN.
+4177|pp_grind|_|2|If I finish this, I'm team lead. FOCUS.
+4178|pp_sabotage|_|0|Shame if these slides got... shuffled.
+4179|pp_sabotage|_|1|Oops. Is this the final version? Was.
+4180|pp_sabotage|_|2|Nothing personal.
+4181|pp_present|_|0|...and that's why Kaya will sign with us. Questions?
+4182|pp_present|_|1|Here's the pitch. Three slides. No fluff.
+4183|pp_present|_|2|I'd like to walk you through the Kaya proposal.
+4184|pp_great|_|0|...That's excellent. Really excellent.
+4185|pp_great|_|1|Now THAT is a team lead's work.
+4186|pp_great|_|2|I'm impressed.
+4187|pp_flop|_|0|The numbers are a mess. What happened?
+4188|pp_flop|_|1|This isn't ready.
+4189|pp_flop|_|2|I expected more.
+4190|pp_flop_excuse|_|0|Someone messed with my desk! My notes were everywhere!
+4191|pp_flop_excuse|_|1|I... it was ready this morning!
+4192|pp_verdict_open|_|0|About yesterday...
+4193|pp_verdict_open|_|1|I've been thinking about the team lead role.
+4194|pp_yes|_|0|When the position opens, it's yours.
+4195|pp_yes|_|1|You've earned it. Officially, soon.
+4196|pp_not_yet|_|0|Not yet. Keep working.
+4197|pp_not_yet|_|1|You're close. Not there.
+4198|rv_brood|_|0|I'm going to get {victim} back. And you're going to help.
+4199|rv_brood|_|1|{victim} has it coming. I have a plan.
+4200|rv_brood|_|2|Revenge is a dish best served... by Friday.
+4201|rv_in|_|0|...Okay, I'm listening. What's the plan?
+4202|rv_in|_|1|Ha! Count me in.
+4203|rv_in|_|2|Fine. But nothing that gets us fired.
+4204|rv_calm|_|0|Let it go. It's not worth it.
+4205|rv_calm|_|1|Revenge? Seriously? Talk to them instead.
+4206|rv_calm|_|2|You'll regret it. Don't.
+4207|rv_calmed|_|0|...Maybe you're right.
+4208|rv_calmed|_|1|Ugh. Fine. You're too reasonable.
+4209|rv_prank|_|0|Swapping the keyboard keys. Every. Single. One.
+4210|rv_prank|_|1|Salt in the sugar jar. Their jar.
+4211|rv_prank|_|2|Changing the desktop wallpaper to... this.
+4212|rv_prank|_|3|Taping a photo of Ahmet inside the drawer. Enjoy.
+4213|rv_found|_|0|WHO swapped my keyboard keys?!
+4214|rv_found|_|1|My sugar is SALT. Who did this?!
+4215|rv_found|_|2|Why is Ahmet's face in my drawer?!
+4216|rv_found|_|3|My wallpaper is a llama. WHY.

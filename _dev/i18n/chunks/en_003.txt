@@ -1,0 +1,184 @@
+863|iv.newsletter|Add a juicy line to the office newsletter
+864|iv.newsletter.d|'Spotted: (someone) at a candlelit dinner with...' Ceren sends it at noon.
+865|iv.no_paper|Empty the printer's paper tray
+866|iv.no_paper.d|The next print job won't happen. Someone goes hunting for paper.
+867|iv.notif_elsewhere|Show their message preview on someone else's phone
+868|iv.notif_elsewhere.d|Pick whose phone. The preview isn't kind.
+869|iv.office_music|Change the office music
+870|iv.office_music.d|Everybody hears the speaker. Not everybody likes the same music.
+871|iv.old_promise|Resurface Ahmet's old promise
+872|iv.old_promise.d|An ancient email: 'next year, a raise — I promise.' Bring it back to the top of their inbox.
+873|iv.old_version|Restore an old version of their file
+874|iv.old_version.d|Roll their report back to last week. Every change: gone.
+875|iv.org_chart|Edit the org chart on the cork board
+876|iv.org_chart.d|Put someone above Ahmet. Everyone in the meeting room will see it.
+877|iv.overtime_list|Add someone to the weekend overtime list
+878|iv.overtime_list.d|Pinned up for everyone to see.
+879|iv.pack_desk|Pack their desk into a cardboard box
+880|iv.pack_desk.d|Everything. Neatly. Like someone who's been let go.
+881|iv.pc_clock|Change their computer clock
+882|iv.pc_clock.d|Fast: they pack up early. Slow: they're late for everything.
+883|iv.perf_report|Rewrite someone's performance report
+884|iv.perf_report.d|Pick whose report, then make it glow — or make it a disaster. Ahmet reads these at his desk.
+885|iv.phone_in_coat|Slip someone's phone into another person's coat
+886|iv.phone_in_coat.d|Pick whose phone. It'll ring from the wrong pocket.
+887|iv.phone_in_fridge|Hide their phone in the fridge
+888|iv.phone_in_fridge.d|Next to the milk. They'll look everywhere else first.
+889|iv.pin_boss_notes|Pin Ahmet's private notes about everyone
+890|iv.pin_boss_notes.d|What he really thinks of each employee. On the cork board.
+891|iv.pizza|Promise free pizza at the meeting
+892|iv.pizza.d|Everyone will arrive early. Hungry.
+893|iv.postpone_review|Postpone someone's review — indefinitely
+894|iv.postpone_review.d|No new date. Just 'postponed'. They'll wonder why.
+895|iv.prank_boss|Prank-call Ahmet from their extension
+896|iv.prank_boss.d|Heavy breathing. Ahmet's phone shows exactly where it came from.
+897|iv.present_first|Move someone to the top of the presentation list
+898|iv.present_first.d|Ready or not, they're up first.
+899|iv.print_500|Print 500 copies of Ahmet's baby photo
+900|iv.print_500.d|The next person to use the printer gets buried in them.
+901|iv.print_private|Send their private file to the shared printer
+902|iv.print_private.d|Whoever prints next gets a surprise page.
+903|iv.promo_criteria|Pin fake 'promotion criteria'
+904|iv.promo_criteria.d|The ambitious will follow them to the letter.
+905|iv.puddle|Spill water in front of the printer
+906|iv.puddle.d|The next person printing won't see it coming.
+907|iv.raise_letter|Deliver someone's raise letter to the wrong person
+908|iv.raise_letter.d|The letter's for Ahmet's favourite. Pick who opens it instead.
+909|iv.recycle_contract|Put their signed contract in the recycling
+910|iv.recycle_contract.d|The kitchen recycling bin. Next to the yoghurt pots.
+911|iv.reference_letter|Leave a glowing reference letter for someone
+912|iv.reference_letter.d|From Ahmet. 'Highly recommended — for positions elsewhere.'
+913|iv.relabel_folders|Relabel their folders
+914|iv.relabel_folders.d|Anyone walking past their desk will read the new labels.
+915|iv.report_elsewhere|Put their report on someone else's desk
+916|iv.report_elsewhere.d|Pick whose desk. What they do with it is up to them.
+917|iv.reserve_kitchen|Put a 'Reserved' sign on the kitchen
+918|iv.reserve_kitchen.d|'Reserved for Ahmet's private lunch.' Nobody else gets the kitchen today.
+919|iv.resignation_draft|Leave their resignation draft in plain sight
+920|iv.resignation_draft.d|They wrote it on a bad day. They never sent it. Now it's on top of the pile.
+921|iv.revive_plant|Bring the dying office plant back to life
+922|iv.revive_plant.d|A small, kind haunting.
+923|iv.rig_gift_draw|Rig the secret gift draw
+924|iv.rig_gift_draw.d|The two people who can't stand each other will have to give each other a present.
+925|iv.ringtone|Change their ringtone
+926|iv.ringtone.d|Their next call will ring with... this.
+927|iv.rumor_source|Pin up who started a false rumour
+928|iv.rumor_source.d|Someone made something up. Name them on the cork board.
+929|iv.sales_board|Rewrite the sales leaderboard
+930|iv.sales_board.d|Put someone else in first place. Mert checks it every day.
+931|iv.salt_sugar|Fill the sugar jar with salt
+932|iv.salt_sugar.d|The next two coffees will be memorable.
+933|iv.scramble_switchboard|Scramble the reception switchboard
+934|iv.scramble_switchboard.d|Every incoming call goes to the wrong desk for an hour.
+935|iv.share_folder|Share their private folder with everyone
+936|iv.share_folder.d|The most curious person in the office will find it first.
+937|iv.short_meeting|Write '5 minutes' on the meeting
+938|iv.short_meeting.d|People will take the board at its word.
+939|iv.shortlist|Put someone at the top of the promotion shortlist
+940|iv.shortlist.d|A shortlist that doesn't exist yet — with their name first.
+941|iv.shuffle_pages|Shuffle the pages of their presentation
+942|iv.shuffle_pages.d|They'll find out in front of everyone.
+943|iv.signature|Change their email signature
+944|iv.signature.d|Every email they send from now on carries it.
+945|iv.slow_net|Throttle their internet
+946|iv.slow_net.d|Everything they do takes twice as long — until IT fixes it.
+947|iv.spa_water|Turn the water cooler into a 'spa corner'
+948|iv.spa_water.d|Lemon slices, cucumber, a little sign. People will linger.
+949|iv.spam_instruction|Send Ahmet's instruction to their spam
+950|iv.spam_instruction.d|An urgent request they'll never see — until Ahmet asks for it.
+951|iv.speakerphone|Switch their phone to speaker
+952|iv.speakerphone.d|Their next personal call: broadcast to everyone nearby.
+953|iv.strong_coffee|Set the coffee to triple strength
+954|iv.strong_coffee.d|Productivity up. Patience down.
+955|iv.suggestion_box|Stuff the suggestion box
+956|iv.suggestion_box.d|Six identical notes about one person. Ahmet reads the box at his desk.
+957|iv.surprise_review|Book a surprise performance review
+958|iv.surprise_review.d|Put a 1:1 review for someone into Ahmet's calendar — starting now.
+959|iv.swap_coats|Swap two coats on the rack
+960|iv.swap_coats.d|Pick one coat owner. They'll take home someone else's coat.
+961|iv.swap_mugs|Swap everyone's mugs on the rack
+962|iv.swap_mugs.d|The next person making coffee grabs the wrong one.
+963|iv.swap_notes|Swap their sticky note to someone else's desk
+964|iv.swap_notes.d|'Lunch at 1? My treat.' Pick who finds it.
+965|iv.swap_phones|Swap their mobile with someone's identical one
+966|iv.swap_phones.d|Pick whose. One of them will read a message that wasn't for them.
+967|iv.swap_reviews|Swap two people's performance reviews
+968|iv.swap_reviews.d|Pick whose file trades places with this desk owner's.
+969|iv.swap_seats|Swap the name cards on the meeting seats
+970|iv.swap_seats.d|Seat the worst possible pair side by side. (Or the best.)
+971|iv.swap_sigpage|Swap the signature page of their contract
+972|iv.swap_sigpage.d|Their contract now ends with someone else's signature.
+973|iv.swap_slides|Swap their presentation file
+974|iv.swap_slides.d|Their deck now contains someone else's slides — and they're presenting first.
+975|iv.tea_tray|Set out an anonymous tea & cookies tray
+976|iv.tea_tray.d|Nobody knows who brought it. Someone will claim it.
+977|iv.thank_wrong|Deliver Ahmet's thank-you note to the wrong person
+978|iv.thank_wrong.d|It was meant for his favourite. Pick who opens it.
+979|iv.tip_jar|Put out a 'Thank you Burak' tip jar
+980|iv.tip_jar.d|He fixes everything. Nobody ever says thanks.
+981|iv.title_intern|Change someone's job title to 'Intern'
+982|iv.title_intern.d|In the HR system. Payroll will send a welcome email.
+983|iv.transfer_request|Draft a transfer request for someone
+984|iv.transfer_request.d|To a branch office very, very far away.
+985|iv.typo_bomb|Sprinkle typos into their client email
+986|iv.typo_bomb.d|'Dear Valued Cliient...' The client will call Ahmet.
+987|iv.uninvite|Remove someone from the meeting invite
+988|iv.uninvite.d|They won't know there's a meeting. Until later.
+989|iv.unplug_monitor|Unplug their monitor
+990|iv.unplug_monitor.d|The simplest prank. Watch them panic.
+991|iv.unplug_network|Unplug the network switch
+992|iv.unplug_network.d|The little blue box behind the archive. The whole office goes offline.
+993|iv.unsend_apology|Unsend their apology
+994|iv.unsend_apology.d|They've just written someone an apology. Make it vanish before it's read.
+995|iv.urgent_stamps|Stamp URGENT on every paper on their desk
+996|iv.urgent_stamps.d|All of it. Every single sheet.
+997|iv.virus_alert|Pop up a fake virus alert
+998|iv.virus_alert.d|Flashing red skull, scary sirens. It's harmless. They don't know that.
+999|iv.voicemail_wrong|Deliver their voicemail to the wrong person
+1000|iv.voicemail_wrong.d|Something private they recorded. Pick who hears it.
+1001|iv.wall_clock|Change the office wall clock
+1002|iv.wall_clock.d|People trust that clock. Some will act on it.
+1003|iv.wallpaper|Change their wallpaper
+1004|iv.wallpaper.d|Something they'll definitely notice.
+1005|iv.we_need_to_talk|Text 'we need to talk' from their phone
+1006|iv.we_need_to_talk.d|To the person they have feelings for.
+1007|iv.wobbly_chair|Swap their chair for the broken one
+1008|iv.wobbly_chair.d|It looks fine. It isn't.
+1009|iv.wrong_callback|Make them call back the wrong person
+1010|iv.wrong_callback.d|Their 'missed call' list now shows someone else's number. Pick whose.
+1011|iv.wrong_chair|Name someone else as the meeting chair
+1012|iv.wrong_chair.d|The board will say who runs today's meeting.
+1013|iv.zero_raise|Pin 'Raise budget this year: 0'
+1014|iv.zero_raise.d|A small note on the cork board. A big drop in morale.
+1015|arc.birthday|Surprise Party
+1016|arc.birthday.teaser|It's {bday}'s birthday — and {organizer} has a plan.
+1017|arc.blame_game|The Blame Game
+1018|arc.blame_game.teaser|Ahmet's phone is ringing. It sounds like an angry client.
+1019|arc.boss_clash|Boss vs. Employee
+1020|arc.boss_clash.teaser|Ahmet keeps hovering over {rebel}'s desk. {rebel} is losing patience.
+1021|arc.breakup|The Break-up
+1022|arc.breakup.teaser|{a} and {b} are fighting. The whole office is pretending not to listen.
+1023|arc.budget_cuts|The Budget Cuts
+1024|arc.budget_cuts.teaser|HQ cut the budget. The free coffee is the first casualty.
+1025|arc.chair_race|The Office Chair Race
+1026|arc.chair_race.teaser|{racer} challenged {rival} to an office-chair race down the corridor.
+1027|arc.charity_drive|The Charity Box
+1028|arc.charity_drive.teaser|{organiser} is collecting for the animal shelter. Somebody's counting wrong.
+1029|arc.client_meltdown|The Client Meltdown
+1030|arc.client_meltdown.teaser|The client is on the way. The projector is dead. {presenter} is up.
+1031|arc.client_steal|The Stolen Client
+1032|arc.client_steal.teaser|{thief} has their eye on {victim}'s biggest client.
+1033|arc.coffee_date_mixup|The Coffee Date Mix-up
+1034|arc.coffee_date_mixup.teaser|{reader} thinks {sender} asked them out. {sender} has no idea.
+1035|arc.deleted_folder|The Deleted Folder
+1036|arc.deleted_folder.teaser|{culprit} is clicking things they really shouldn't.
+1037|arc.double_date|The Accidental Double Date
+1038|arc.double_date.teaser|{a} and {b} (the 'couple' from the photo) ended up at lunch with {c} and {d}.
+1039|arc.evacuation|The Great Evacuation
+1040|arc.evacuation.teaser|Fire alarm. Front door jammed. Everyone is stuck at reception.
+1041|arc.expense_scandal|The Expense Scandal
+1042|arc.expense_scandal.teaser|Zeynep found something odd in {suspect}'s expenses.
+1043|arc.farewell_mixup|The Farewell That Wasn't
+1044|arc.farewell_mixup.teaser|Everyone thinks {leaver} is quitting. {leaver} isn't. Probably.
+1045|arc.feud_mediation|Not on Speaking Terms
+1046|arc.feud_mediation.teaser|{a} and {b} have stopped talking. Will anyone step in?

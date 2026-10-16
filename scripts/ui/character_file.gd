@@ -12,7 +12,7 @@ var _tick := 0.0
 
 func _init() -> void:
 	super._init()
-	setup_paper("manila", 0.8, "PERSONNEL FILE")
+	setup_paper("manila", 0.8, Loc.t("ui.personnel_file"))
 
 
 func open_for(world: SimWorld, id: String) -> void:
@@ -53,11 +53,11 @@ func _build() -> void:
 	var info := VBoxContainer.new()
 	info.add_theme_constant_override("separation", 2)
 	info.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	info.add_child(Sheet.label(n.name.to_upper(), 40, "marker", UiKit.NPC_COLOR.get(npc_id, UiKit.INK)))
+	info.add_child(Sheet.label(Loc.upper(n.name), 40, "marker", UiKit.NPC_COLOR.get(npc_id, UiKit.INK)))
 	info.add_child(Sheet.label("%s · %s" % [n.role_title(), Loc.t("ui.age", {"age": int(n.def.get("age", 30))})], 20, "type"))
-	var bio: Array = n.def.get("bio", [])
+	var bio: Array = n.bio()
 	info.add_child(Sheet.label(" · ".join(bio), 18, "hand", Color(0.3, 0.3, 0.36)))
-	var goal_l := Sheet.label("%s: %s" % [Loc.t("ui.goal"), Loc.t("goal." + n.goal)], 20, "hand", UiKit.BLUE)
+	var goal_l := Sheet.label(Loc.t("ui.goal") + Loc.colon() + Loc.t("goal." + n.goal), 20, "hand", UiKit.BLUE)
 	info.add_child(goal_l)
 	var doing := Sheet.label("", 20, "hand", Color(0.3, 0.3, 0.36))
 	info.add_child(doing)
@@ -70,12 +70,17 @@ func _build() -> void:
 	ms.draw.connect(func():
 		var nn: NPC = w.npc(npc_id)
 		Hud._mood_face(ms, Vector2(32, 36), 28, nn.mood)
-		ms.draw_string(UiKit.font("hand"), Vector2(72, 26), Loc.t("ui.mood") + ":", HORIZONTAL_ALIGNMENT_LEFT, -1, 19, Color(0.3, 0.3, 0.35))
-		ms.draw_string(UiKit.font("marker"), Vector2(140, 28), Loc.t(nn.mood_word()), HORIZONTAL_ALIGNMENT_LEFT, -1, 24, UiKit.INK)
-		ms.draw_string(UiKit.font("hand"), Vector2(72, 62), Loc.t("ui.stress") + ":", HORIZONTAL_ALIGNMENT_LEFT, -1, 19, Color(0.3, 0.3, 0.35))
-		UiKit.draw_scribble_bar(ms, Rect2(140, 48, ms.size.x - 160, 16), nn.stress / 100.0, UiKit.RED if nn.stress > 60 else Color("f4a261"))
-		ms.draw_string(UiKit.font("hand"), Vector2(72, 96), Loc.t("ui.morale") + ":", HORIZONTAL_ALIGNMENT_LEFT, -1, 19, Color(0.3, 0.3, 0.35))
-		UiKit.draw_scribble_bar(ms, Rect2(240, 82, ms.size.x - 260, 16), nn.morale / 100.0, Color("2a9d8f") if nn.morale > 40 else UiKit.RED))
+		var hf := UiKit.font("hand")
+		var lab := [Loc.t("ui.mood") + Loc.colon(), Loc.t("ui.stress") + Loc.colon(), Loc.t("ui.morale") + Loc.colon()]
+		var lx := 72.0
+		for ls in lab:
+			lx = maxf(lx, 72.0 + hf.get_string_size(ls, HORIZONTAL_ALIGNMENT_LEFT, -1, 19).x + 12.0)
+		ms.draw_string(hf, Vector2(72, 26), lab[0], HORIZONTAL_ALIGNMENT_LEFT, -1, 19, Color(0.3, 0.3, 0.35))
+		ms.draw_string(UiKit.font("marker"), Vector2(lx, 28), Loc.t(nn.mood_word()), HORIZONTAL_ALIGNMENT_LEFT, ms.size.x - lx - 8, 24, UiKit.INK)
+		ms.draw_string(hf, Vector2(72, 62), lab[1], HORIZONTAL_ALIGNMENT_LEFT, -1, 19, Color(0.3, 0.3, 0.35))
+		UiKit.draw_scribble_bar(ms, Rect2(lx, 48, ms.size.x - lx - 20, 16), nn.stress / 100.0, UiKit.RED if nn.stress > 60 else Color("f4a261"))
+		ms.draw_string(hf, Vector2(72, 96), lab[2], HORIZONTAL_ALIGNMENT_LEFT, -1, 19, Color(0.3, 0.3, 0.35))
+		UiKit.draw_scribble_bar(ms, Rect2(lx, 82, ms.size.x - lx - 20, 16), nn.morale / 100.0, Color("2a9d8f") if nn.morale > 40 else UiKit.RED))
 	_live["ms"] = ms
 	v.add_child(ms)
 	# --- relationships
@@ -107,14 +112,14 @@ func _build() -> void:
 		var txt := w.memory_text(m)
 		if txt == "":
 			continue
-		var tags: Array = [Loc.t("ui.day", {"day": int(m["day"])}).capitalize()]
+		var tags: Array = [Loc.t("ui.day_short", {"day": int(m["day"])})]
 		var emo := str(m.get("emo", ""))
 		if emo != "" and Loc.t("emo." + emo) != "":
 			tags.append(Loc.t("emo." + emo))
 		var cert := float(m.get("cert", 1.0))
 		if str(m.get("src", "")) == "heard" or cert < 0.8:
 			tags.append(Loc.t("ui.mem_heard") if cert >= 0.5 else Loc.t("ui.mem_doubt"))
-		var row := Sheet.label("“%s”  — %s" % [txt, " · ".join(tags)], 19, "type", UiKit.INK)
+		var row := Sheet.label("%s  — %s" % [Loc.t("ui.quote", {"text": txt}), " · ".join(tags)], 19, "type", UiKit.INK)
 		v.add_child(row)
 	# --- secrets
 	v.add_child(_section(Loc.t("ui.secrets")))
@@ -165,7 +170,7 @@ func _heard(n: NPC) -> Array:
 			continue
 		var c := n.certainty(f)
 		var tag := Loc.t("ui.sure") if c >= 0.8 else (Loc.t("ui.heard") if c >= 0.5 else Loc.t("ui.not_sure"))
-		items.append([float(n.known[f]) + c * 0.1, "“%s” (%s)" % [w.fact_text(f), tag]])
+		items.append([float(n.known[f]) + c * 0.1, "%s (%s)" % [Loc.t("ui.quote", {"text": w.fact_text(f)}), tag]])
 	items.sort_custom(func(a, b): return a[0] > b[0])
 	var out: Array = []
 	for i in mini(5, items.size()):
@@ -225,7 +230,7 @@ func _secret_row(fid: String) -> Control:
 			# rubber stamp
 			c.draw_set_transform(Vector2(c.size.x - 70, 26), -0.2, Vector2.ONE)
 			c.draw_rect(Rect2(-58, -16, 116, 32), UiKit.RED, false, 3.0)
-			c.draw_string(UiKit.font("slab"), Vector2(-58, 8), "LEAKED", HORIZONTAL_ALIGNMENT_CENTER, 116, 20, UiKit.RED)
+			c.draw_string(UiKit.font("slab"), Vector2(-58, 8), Loc.t("ui.leaked"), HORIZONTAL_ALIGNMENT_CENTER, 116, 20, UiKit.RED)
 			c.draw_set_transform(Vector2.ZERO, 0, Vector2.ONE)
 		else:
 			c.draw_rect(Rect2(6, 10, c.size.x * 0.62, 14), Color("1d1d22"))
@@ -243,7 +248,7 @@ func _refresh_live() -> void:
 	var n: NPC = w.npc(npc_id)
 	var doing: Label = _live["doing"]
 	var d: String = Loc.t("doing." + n.act) if n.present else Loc.t("ui.not_in_office")
-	doing.text = "%s: %s" % [Loc.t("ui.doing"), d]
+	doing.text = Loc.t("ui.doing") + Loc.colon() + d
 	(_live["ms"] as Control).queue_redraw()
 
 

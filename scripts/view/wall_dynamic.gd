@@ -36,23 +36,23 @@ func _draw() -> void:
 	var bd := _decor("board")
 	var wd := _wall_xf(bd["side"], bd["a"], bd["b"], 88)
 	var hand := UiKit.font("marker")
-	draw_string(hand, Vector2(5, 12), "MEETING", HORIZONTAL_ALIGNMENT_LEFT, wd - 8, 9, Color("2b6cb0"))
+	draw_string(hand, Vector2(5, 12), Loc.t("wall.meeting"), HORIZONTAL_ALIGNMENT_LEFT, wd - 8, 9, Color("2b6cb0"))
 	var mt_text := C.fmt(float(o["board"]["time"]))
 	if w.meeting.get("ended", false):
-		mt_text = "DONE!"
+		mt_text = Loc.t("wall.done")
 	elif w.meeting.get("started", false):
-		mt_text = "NOW!"
+		mt_text = Loc.t("wall.now")
 	draw_string(hand, Vector2(8, 34), mt_text, HORIZONTAL_ALIGNMENT_LEFT, wd - 10, 17, Color("e63946") if o["board"].get("changed", false) else Color("2b2d42"))
 	if o["board"].get("changed", false) and not w.meeting.get("ended", false):
 		draw_line(Vector2(6, 38), Vector2(wd - 8, 36), Color(0.9, 0.2, 0.25, 0.6), 1.5)
 	# what the ghost wrote on the board: a title, the agenda, a 'chair'
 	var extra := ""
 	if str(o["board"].get("title", "")) != "":
-		extra = str(o["board"]["title"])
+		extra = Loc.t("board.t." + str(o["board"]["title"]))
 	elif str(o["board"].get("agenda", "")) != "":
-		extra = "AGENDA: " + str(o["board"]["agenda"]).to_upper()
+		extra = Loc.t("wall.agenda", {"text": Loc.t("board.agenda." + str(o["board"]["agenda"]))})
 	elif str(o["board"].get("chair", "")) != "" and w.npc(str(o["board"]["chair"])) != null:
-		extra = "CHAIR: " + w.npc(str(o["board"]["chair"])).name.to_upper()
+		extra = Loc.t("wall.chair", {"name": Loc.upper(w.npc(str(o["board"]["chair"])).name)})
 	if extra != "":
 		draw_string(hand, Vector2(wd * 0.45, 12), extra, HORIZONTAL_ALIGNMENT_LEFT, wd * 0.55 - 4, 7, Color("e63946"))
 	# --- fire alarm panel lamp

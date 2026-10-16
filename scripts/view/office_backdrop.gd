@@ -93,7 +93,7 @@ func _draw_floor(off: Vector2) -> void:
 	Iso.diamond(self, off, 12.85, 10.75, 1.0, 1.5, 0.3, Color("8e5a4c"), Iso.INK_SOFT)
 	var tf := Transform2D(Vector2(1, 0.5), Vector2(-1, 0.5), Iso.P(13.05, 11.0, 0.3) + off)
 	draw_set_transform_matrix(tf)
-	draw_string(UiKit.font("slab"), Vector2(2, 14), "HELLO", HORIZONTAL_ALIGNMENT_LEFT, -1, 9, Color("f3d9a4"))
+	draw_string(UiKit.font("slab"), Vector2(2, 14), Loc.t("wall.hello"), HORIZONTAL_ALIGNMENT_LEFT, -1, 9, Color("f3d9a4"))
 	draw_set_transform_matrix(Transform2D())
 	# zone outlines (soft) so rooms read clearly
 	Iso.poly(self, PackedVector2Array([Iso.P(0, 0) + off, Iso.P(5, 0) + off, Iso.P(5, 5) + off, Iso.P(0, 5) + off]), Color(0, 0, 0, 0), Color(0.4, 0.3, 0.6, 0.35), 1.4)
@@ -183,8 +183,8 @@ func _draw_decor(d: Dictionary, off: Vector2) -> void:
 			var wd3 := _wall(side, a, b, 96, off)
 			draw_rect(Rect2(0, 0, wd3, 16), Color("fff07a"))
 			draw_rect(Rect2(0, 0, wd3, 16), Iso.INK, false, 1.0)
-			draw_string(UiKit.font("marker"), Vector2(2, 7), "PLEASE DON'T", HORIZONTAL_ALIGNMENT_LEFT, wd3 - 3, 6, Color("e63946"))
-			draw_string(UiKit.font("marker"), Vector2(2, 14), "KICK PRINTER", HORIZONTAL_ALIGNMENT_LEFT, wd3 - 3, 6, Color("e63946"))
+			draw_string(UiKit.font("marker"), Vector2(2, 7), Loc.t("wall.printer1"), HORIZONTAL_ALIGNMENT_LEFT, wd3 - 3, 6, Color("e63946"))
+			draw_string(UiKit.font("marker"), Vector2(2, 14), Loc.t("wall.printer2"), HORIZONTAL_ALIGNMENT_LEFT, wd3 - 3, 6, Color("e63946"))
 		"ac":
 			var wd4 := _wall(side, a, b, 100, off)
 			draw_rect(Rect2(0, 0, wd4, 22), Color("fbfbfb"))
@@ -204,7 +204,7 @@ func _draw_decor(d: Dictionary, off: Vector2) -> void:
 			var wda := _wall(side, a, b, 84, off)
 			draw_rect(Rect2(0, 0, wda, 26), Color("d62828"))
 			draw_rect(Rect2(3, 14, wda - 6, 9), Color("f8f9fa"))
-			draw_string(UiKit.font("slab"), Vector2(4, 22), "FIRE", HORIZONTAL_ALIGNMENT_LEFT, wda - 6, 6, Color("d62828"))
+			draw_string(UiKit.font("slab"), Vector2(4, 22), Loc.t("wall.fire"), HORIZONTAL_ALIGNMENT_LEFT, wda - 6, 6, Color("d62828"))
 			draw_rect(Rect2(0, 0, wda, 26), Iso.INK, false, 1.2)
 		"speaker":
 			var wds := _wall(side, a, b, 90, off)
@@ -218,14 +218,14 @@ func _draw_decor(d: Dictionary, off: Vector2) -> void:
 			draw_rect(Rect2(0, 0, wd6, 30), Color("2b2d42"))
 			draw_rect(Rect2(2, 2, wd6 - 4, 18), Color("f4a261"))
 			draw_circle(Vector2(wd6 * 0.5, 11), 5, Color("fff07a"))
-			draw_string(UiKit.font("slab"), Vector2(2, 27), "TEAMWORK", HORIZONTAL_ALIGNMENT_LEFT, wd6 - 2, 5, Color("ffffff"))
+			draw_string(UiKit.font("slab"), Vector2(2, 27), Loc.t("wall.teamwork"), HORIZONTAL_ALIGNMENT_LEFT, wd6 - 2, 5, Color("ffffff"))
 			draw_rect(Rect2(0, 0, wd6, 30), Iso.INK, false, 1.0)
 		"breaker":
 			var wd7 := _wall(side, a, b, 76, off)
 			draw_rect(Rect2(0, 0, wd7, 32), Color("9aa5b1"))
 			draw_rect(Rect2(3, 3, wd7 - 6, 26), Color("b7c1cc"))
 			draw_rect(Rect2(0, 0, wd7, 32), Iso.INK, false, 1.2)
-			draw_string(UiKit.font("slab"), Vector2(4, 11), "POWER", HORIZONTAL_ALIGNMENT_LEFT, -1, 6, Color("2b2d42"))
+			draw_string(UiKit.font("slab"), Vector2(4, 11), Loc.t("wall.power"), HORIZONTAL_ALIGNMENT_LEFT, -1, 6, Color("2b2d42"))
 		"cabinets":
 			var wd8 := _wall(side, a, b, 100, off)
 			# backsplash tiles

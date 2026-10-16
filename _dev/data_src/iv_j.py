@@ -23,7 +23,7 @@ iv("J01", "j_promo_meeting", title="Put 'Promotion announcement' on the agenda",
    log="The ghost added 'Promotion announcement' to the top of today's agenda.", **BOARD, icon="star", hidden=True, combo=["E01", "C01"],
    vars=[var("credited", "ostate", path="promo.credit", role=True), var("rightful", "promo_rightful", role=True, **{"not": "credited"})],
    conds=[c_iv("E01"), c_iv("C01"), r_meeting_pending(), r_meeting_not_started(), r_present("@ahmet")],
-   state=[oset("board.agenda", "promo"), oset("board.title", "PROMOTION!")],
+   state=[oset("board.agenda", "promo"), oset("board.title", "promotion")],
    react=[on_trap("meeting_start", "j01_announce", who="@ahmet", key="j01")], reuse=J_REUSE, imp=4, arc="wrong_promotion",
    test={"at": "09:40", "minutes": 420})
 
@@ -90,7 +90,7 @@ iv("J05", "j_restructure_qa", title="Add 'Restructuring Q&A' under the leaked me
    log="The ghost wrote 'Restructuring — Q&A' on the meeting board, right under the agenda.", **BOARD, icon="board", hidden=True, combo=["B18", "C05"],
    vars=[var("ear", "most_curious", role=True, **{"not": "@ahmet"})],
    conds=[c_iv("B18"), c_iv("C05"), why({"c": "arc", "arc": "layoff_panic", "not": True}, "panic_running")],
-   state=[oset("board.title", "RESTRUCTURING Q&A")], react=[chain("j05_panic", delay=3)], reuse=J_REUSE, imp=4, arc="layoff_panic")
+   state=[oset("board.title", "restructuring")], react=[chain("j05_panic", delay=3)], reuse=J_REUSE, imp=4, arc="layoff_panic")
 
 # --- J06 wrong meeting chair + boss's golf game = a coup ----------------------------------------------------------
 L("j06_crown", ["The board says I'm acting manager today. Who am I to argue?", "'Acting manager: me.' Well. If the board says so."])
@@ -102,7 +102,7 @@ iv("J06", "j_acting_manager", title="Rename the chair 'Acting Manager'", desc="A
    log="The ghost changed the board: '{usurper} — Acting Manager'.", **BOARD, icon="star", hidden=True, combo=["C09", "C17"],
    vars=[var("usurper", "ostate", path="board.chair", role=True)],
    conds=[c_iv("C09"), c_iv("C17"), r_present("usurper")],
-   state=[oset("board.title", "ACTING BOSS")], react=[chain("j06_usurp", delay=3)], reuse=J_REUSE, imp=4, arc="office_coup")
+   state=[oset("board.title", "acting_boss")], react=[chain("j06_usurp", delay=3)], reuse=J_REUSE, imp=4, arc="office_coup")
 
 # --- J07 flickering lights + fake virus alert = the ghost hunt -----------------------------------------------------
 L("j07_scream", ["THE LIGHTS ARE FLICKERING AND MY SCREEN HAS A SKULL ON IT!", "It's in the COMPUTERS now. The ghost is in the computers!"])

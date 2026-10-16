@@ -1,0 +1,210 @@
+5458|jitter_snap|_|0|Can you STOP TAPPING?!
+5459|jitter_snap|_|1|Could you breathe more QUIETLY?
+5460|jitter_snap|_|2|WHY are you so LOUD?
+5461|jitter_snap2|_|0|I'M NOT TAPPING! YOU'RE tapping!
+5462|jitter_snap2|_|1|Oh, I'M loud?!
+5463|tray_call|_|0|Free cookies in the kitchen! Who brought these?
+5464|tray_call|_|1|Tea and cookies! Kitchen! Now!
+5465|tray_claim|_|0|...Oh, the cookies? Yes. That was me. You're welcome.
+5466|tray_claim|_|1|Just a little something for the team.
+5467|tray_thanks|_|0|You're the best!
+5468|tray_thanks|_|1|Thank you! These are amazing.
+5469|lastcup_take|_|0|Last cup! Ha! Mine.
+5470|lastcup_take|_|1|Ooh, exactly one cup left. Lucky me.
+5471|lastcup_whine|_|0|Did you just take the LAST cup?!
+5472|lastcup_whine|_|1|That was the last coffee. I saw it. You saw me see it.
+5473|lastcup_share|_|0|...Fine. Half each?
+5474|lastcup_share|_|1|Here. Have half. I'm not a monster.
+5475|lastcup_keep|_|0|First come, first served.
+5476|lastcup_keep|_|1|Snooze you lose.
+5477|bestboss_boss|_|0|'World's Best Boss'... from {target}? Well. Well, well.
+5478|bestboss_boss|_|1|A mug! For me! From {target}! How thoughtful.
+5479|bestboss_thank|_|0|{target}, thank you for the mug. I'm touched.
+5480|bestboss_thank|_|1|Excellent taste in mugs, {target}.
+5481|bestboss_confused|_|0|...You're welcome? What mug?
+5482|bestboss_confused|_|1|Oh — um — yes! The mug! Of course.
+5483|bestboss_eyeroll|_|0|A 'World's Best Boss' mug? Really, {target}?
+5484|bestboss_eyeroll|_|1|Wow. Shameless.
+5485|spa_enjoy|_|0|Lemon water? Cucumber slices? I'm never leaving.
+5486|spa_enjoy|_|1|'Spa day'. I could get used to this.
+5487|spa_enjoy|_|2|Ahh. Hydration. Luxury.
+5488|spa_boss|_|0|Is this a spa or an office?!
+5489|spa_boss|_|1|Back to your desks! This isn't a holiday resort!
+5490|printer_ghostfix|_|0|...It works? It WORKS! Who fixed it?
+5491|printer_ghostfix|_|1|The printer's fixed! Nobody touched it... did they?
+5492|wchair_collapse|_|0|WHOA— *CRASH*
+5493|wchair_collapse|_|1|AAH! My chair!
+5494|wchair_collapse|_|2|*thud* ...Ow.
+5495|wchair_collapse|ahmet|0|*CRASH* WHO GAVE ME THIS CHAIR?!
+5496|wchair_help|_|0|Are you okay?! Here, take my hand.
+5497|wchair_help|_|1|Oh no! Are you hurt?
+5498|wchair_laugh|_|0|HAHAHA! Sorry! Sorry. Are you okay? HAHA!
+5499|wchair_laugh|_|1|That was the best thing I've seen all week.
+5500|packed_see|_|0|...Why is all my stuff in a BOX?
+5501|packed_see|_|1|My desk is packed. In a box. Am I... fired?!
+5502|packed_see|_|2|A cardboard box. With my things. Oh no.
+5503|packed_witness|_|0|Is {owner} being let go?!
+5504|packed_witness|_|1|{owner}'s desk is in a box... poor thing.
+5505|packed_ask|_|0|Ahmet Bey — am I fired? My things are in a box!
+5506|packed_ask|_|1|Please tell me I still have a job.
+5507|packed_boss_no|_|0|Fired? Who packed your desk? You're not going anywhere.
+5508|packed_boss_no|_|1|Nobody's fired. Unpack. And find out who did that.
+5509|nopaper|_|0|Out of paper? Again?
+5510|nopaper|_|1|'Load paper'. With WHAT? The tray's empty!
+5511|nopaper_shelf|_|0|The supply shelf has no paper either?!
+5512|nopaper_shelf|_|1|Not a single sheet in the whole office.
+5513|nopaper_ok|_|0|Found some. Crisis averted.
+5514|nopaper_ok|_|1|There we go. Paper.
+5515|music_love|_|0|Ooh, I LOVE this song!
+5516|music_love|_|1|Finally, some good music!
+5517|music_love|_|2|*dancing in chair*
+5518|music_love|mert|0|DJ, turn it UP!
+5519|music_love|ece|0|This is my JAM!
+5520|music_hate|_|0|Who put THIS on?!
+5521|music_hate|_|1|Make it stop. Please.
+5522|music_hate|_|2|My ears. My poor ears.
+5523|music_hate|burak|0|Noise-cancelling headphones: ON.
+5524|music_boss_off|_|0|Who's playing music in MY office?!
+5525|music_boss_off|_|1|Turn that off! This is a workplace!
+5526|alarm_panic|_|0|FIRE ALARM! Everybody out!
+5527|alarm_panic|_|1|Is this a drill?! Out, out, out!
+5528|alarm_panic|_|2|Leave everything! GO!
+5529|alarm_panic|ahmet|0|Everyone — calmly — OUT. NOW!
+5530|alarm_panic|ece|0|My laptop! No — leave it! Run!
+5531|alarm_panic|burak|0|Probably nothing. Still leaving.
+5532|alarm_outside|_|0|Was it real? I don't smell smoke.
+5533|alarm_outside|_|1|Well, this is the most social we've been all week.
+5534|alarm_outside|_|2|Who pulled the alarm?!
+5535|alarm_back|_|0|False alarm. Back to work, everyone.
+5536|alarm_back|_|1|Nothing. NOTHING. Back inside.
+5537|wallclock_see|_|0|Is it really {time} already?
+5538|wallclock_see|_|1|The clock says {time}! Where did the day go?
+5539|wallclock_leave_boss|_|0|Where are you going? It's not even five!
+5540|wallclock_leave_boss|_|1|Sit down. That clock is wrong and you know it.
+5541|wallclock_excuse|_|0|The wall clock said it was home time!
+5542|wallclock_excuse|_|1|But... the clock!
+5543|plant_notice|_|0|Has the ficus... come back to life?
+5544|plant_notice|_|1|Look at the plant! It's GREEN again!
+5545|plant_notice|_|2|Someone's been looking after Ficus.
+5546|plant_thank|_|0|{target}, was it you who saved the plant? That's so sweet.
+5547|plant_thank|_|1|I bet you rescued the ficus, {target}.
+5548|plant_nope|_|0|Not me! I can't even keep a cactus alive.
+5549|plant_nope|_|1|Wasn't me. But it looks great!
+5550|door_stuck|_|0|The door won't open! We're locked IN!
+5551|door_stuck|_|1|It's stuck! I can't get out!
+5552|door_fix|_|0|Stand back. It's just the latch.
+5553|door_fix|_|1|Here — you have to lift it AND push.
+5554|door_fix|burak|0|Classic. The latch again.
+5555|thermo_locked|_|0|The thermostat's LOCKED?! Who locked it?!
+5556|thermo_locked|_|1|'Settings locked'. LOCKED. I'm FREEZING.
+5557|thermo_locked|_|2|It won't let me change it!
+5558|net_down|_|0|The internet's down! Everywhere!
+5559|net_down|_|1|No network?! I can't do ANYTHING.
+5560|net_down|_|2|Did we just go back to the Stone Age?
+5561|net_down|burak|0|...That's not a glitch. Someone unplugged the switch.
+5562|net_hero|_|0|Back online. You're welcome.
+5563|net_hero|_|1|Network's up. Nobody touch the blue box.
+5564|coat_wrong|_|0|...This coat smells like someone else's perfume.
+5565|coat_wrong|_|1|Why are the sleeves so long? ...This isn't my coat.
+5566|coat_swapback|_|0|I think you went home in my coat yesterday.
+5567|coat_swapback|_|1|Is this yours? I wore it all evening. Sorry!
+5568|coat_laugh|_|0|Ha! It looked better on you, honestly.
+5569|coat_laugh|_|1|Keep it. Kidding. Give it back.
+5570|coat_romance|_|0|It still smells like you. ...I mean. Here's your coat.
+5571|coat_romance|_|1|I... kind of liked wearing it.
+5572|slip|_|0|WHOA— *SPLAT*
+5573|slip|_|1|*slips* AAAH!
+5574|slip|_|2|Who put a PUDDLE here?!
+5575|slip_help|_|0|Are you okay?! Careful!
+5576|slip_help|_|1|Here, let me help you up.
+5577|disco_wow|_|0|DISCO LIGHTS?! In the OFFICE?!
+5578|disco_wow|_|1|Why is everything purple and flashing?!
+5579|disco_wow|_|2|Party time? It's a Tuesday!
+5580|disco_wow|mert|0|Finally. My moment has come.
+5581|disco_wow|ece|0|DANCE BREAK!
+5582|disco_boss|_|0|WHAT IS HAPPENING TO MY LIGHTS?!
+5583|disco_boss|_|1|This is an office, not a nightclub!
+5584|flicker_scared|_|0|Why are the lights flickering like that?!
+5585|flicker_scared|_|1|Okay, this is how horror movies start.
+5586|flicker_scared|_|2|Did you see that? The lights... breathed.
+5587|flicker_scared|ece|0|I'm not scared. I'm NOT scared. I'm a LITTLE scared.
+5588|flicker_scared|zeynep|0|I knew it. This building is haunted.
+5589|flicker_burak|_|0|It's a loose connection. Not ghosts. Probably.
+5590|flicker_burak|_|1|I'll check the breaker. Nobody panic.
+5591|kindnote_read|_|0|'{best} is the only reason I come to work.' — {owner}'s note?
+5592|kindnote_read|_|1|A note on {owner}'s desk: '{best} always makes my day better.'
+5593|kindnote_me|_|0|...{owner} wrote that about ME?
+5594|kindnote_me|_|1|Oh. {owner} thinks that about me? I... wow.
+5595|giftcard_find|_|0|A present? With MY name on it? From {giver}?
+5596|giftcard_find|_|1|'For {target}, with love — {giver}'. For me?!
+5597|giftcard_thank|_|0|{target}! I mean — {giver}! Thank you for the present!
+5598|giftcard_thank|_|1|I got your gift! You shouldn't have!
+5599|giftcard_what|_|0|...That gift was for {intended}.
+5600|giftcard_what|_|1|Oh no. That was meant for {intended}!
+5601|giftcard_intended|_|0|So my present went to someone else. Nice.
+5602|giftcard_intended|_|1|I didn't get anything. Cool. Cool cool cool.
+5603|source_read|_|0|'The rumour about {subject}? Started by {origin}.' Pinned right there.
+5604|source_read|_|1|So {origin} started that story about {subject}...
+5605|stickyswap_read|_|0|'Lunch at one? My treat.' — from {owner}? To me?
+5606|stickyswap_read|_|1|A note from {owner}: 'Lunch at 1?' ...Sure!
+5607|stickyswap_meet|_|0|You wanted lunch? ...With me?
+5608|stickyswap_meet|_|1|Here I am, lunch buddy.
+5609|stickyswap_ok|_|0|Ha. Why not? Let's go.
+5610|stickyswap_ok|_|1|Wrong note, right person, maybe.
+5611|apology_wrong_read|_|0|'I'm so sorry for what I said'... from {owner}? What did {owner} say?
+5612|apology_wrong_read|_|1|An apology letter from {owner}? To me? For what?
+5613|apology_wrong_ask|_|0|{target}, I got your apology. Did you... say something about me?
+5614|apology_wrong_ask|_|1|Why are you apologising to me? What happened?
+5615|apology_wrong_explain|_|0|That letter wasn't for you! It was for {foe}!
+5616|apology_wrong_explain|_|1|Oh no. That was meant for {foe}.
+5617|collection_see|_|0|'Collection for {bdayp}'s birthday'... for ME?
+5618|collection_see|_|1|A secret envelope collecting for my birthday? Aww.
+5619|collection_sad|_|0|Who left the envelope OUT?! It was a secret!
+5620|collection_sad|_|1|There goes the surprise.
+5621|defend_read|_|0|{owner} wrote to Ahmet: '{best} deserves more credit than anyone here.'
+5622|defend_read|_|1|{owner} defended me? To AHMET? When I wasn't even there?
+5623|defend_thank|_|0|{target}... I saw what you wrote about me. Thank you.
+5624|defend_thank|_|1|You stood up for me. I didn't know. Thank you.
+5625|defend_shy|_|0|Oh — you saw that? It's just the truth.
+5626|defend_shy|_|1|Don't make it a big deal. You deserve it.
+5627|lunchinv_read|_|0|An invitation to lunch — from {owner}? For me?
+5628|lunchinv_read|_|1|'Lunch together today?' — {owner}. ...Okay!
+5629|lunchinv_awk|_|0|So. Um. Lunch. Great weather.
+5630|lunchinv_awk|_|1|...
+5631|lunchinv_awk|_|2|Nice sandwich.
+5632|lunchinv_click|_|0|Okay, why have we never done this before?!
+5633|lunchinv_click|_|1|You're actually really funny!
+5634|lovenote_read|_|0|'Every time you walk by, I forget my password.' — {owner}? To ME?
+5635|lovenote_read|_|1|A love note. From {owner}. On my desk. Oh my.
+5636|lovenote_jealous|_|0|{owner} sent YOU a love note?!
+5637|lovenote_jealous|_|1|Wait. {owner} likes {target}?
+5638|pact_read|_|0|'Alliance agreement: {a} and {b} will back each other up.' Signed?!
+5639|pact_read|_|1|{a} and {b} have a WRITTEN pact? Wow.
+5640|compliment_read|_|0|'{target} is the kindest person in this office.' Anonymous!
+5641|compliment_read|_|1|Someone pinned a compliment about {target}. Aww.
+5642|compliment_self|_|0|Someone wrote that about ME? Who?!
+5643|compliment_self|_|1|An anonymous compliment... for me. I need to know who wrote it.
+5644|complaint_read|_|0|'Dear {target}: please stop humming. Signed, everyone.' ...Wow.
+5645|complaint_read|_|1|An anonymous note on the board. About me. About my HUMMING.
+5646|complaint_suspect|_|0|This is {hater}. I know it is.
+5647|complaint_suspect|_|1|{hater}. Has to be.
+5648|santa_give|_|0|So... I drew your name. Here. It's a gift.
+5649|santa_give|_|1|Secret gift time. I got... you.
+5650|santa_nice|_|0|...This is actually really thoughtful. Thank you.
+5651|santa_nice|_|1|You remembered I like this? Huh.
+5652|santa_mean|_|0|A book called 'How To Be Less Annoying'? Really?
+5653|santa_mean|_|1|Is this a joke? Because it's not funny.
+5654|notebook_find|_|0|Whose notebook is this? ...{target}'s.
+5655|notebook_find|_|1|{target} left their notebook on the sofa. Open.
+5656|notebook_close|_|0|Nope. Not reading it. I'll give it back.
+5657|notebook_close|_|1|This is private. I'm not looking.
+5658|notebook_return|_|0|You left this on the sofa. I didn't read it.
+5659|notebook_return|_|1|Your notebook. Don't worry, I didn't look.
+5660|notebook_thanks|_|0|Thank you. Seriously.
+5661|notebook_thanks|_|1|You're a good person.
+5662|lunchseat_a|_|0|...Of course. The name cards put me next to YOU.
+5663|lunchseat_a|_|1|Great. Lunch with you.
+5664|lunchseat_fight|_|0|Can you chew more quietly?
+5665|lunchseat_fight|_|1|You're in my elbow space.
+5666|lunchseat_peace|_|0|...Okay. Look. Maybe we got off on the wrong foot.
+5667|lunchseat_peace|_|1|Truce over sandwiches?

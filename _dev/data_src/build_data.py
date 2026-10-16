@@ -18,6 +18,7 @@ import arcs_more2  # noqa: F401  (stories set off by hidden combinations)
 import arcs_more3  # noqa: F401  (stories the office starts on its own)
 import npc_actions  # noqa: F401  (more things people do on their own)
 import lang_ui_more  # noqa: F401  (UI strings for v1.2)
+import lang_i18n_en  # noqa: F401  (strings that used to live in the code; bios)
 IV = iv_all.IV
 A = arcs_mod.A
 

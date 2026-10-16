@@ -52,7 +52,7 @@ func show_day(world: SimWorld, sm: Dictionary) -> void:
 		mast.draw_line(Vector2(0, 98), Vector2(ww, 98), UiKit.INK, 1.5)
 		mast.draw_line(Vector2(0, 102), Vector2(ww, 102), UiKit.INK, 1.0)
 		mast.draw_string(UiKit.font("type"), Vector2(4, 118), Loc.t("paper.day", {"day": sm["day"]}), HORIZONTAL_ALIGNMENT_LEFT, -1, 16, UiKit.INK)
-		mast.draw_string(UiKit.font("type"), Vector2(0, 118), "OFFICE EDITION", HORIZONTAL_ALIGNMENT_RIGHT, ww - 4, 16, UiKit.INK))
+		mast.draw_string(UiKit.font("type"), Vector2(0, 118), Loc.t("paper.edition"), HORIZONTAL_ALIGNMENT_RIGHT, ww - 4, 16, UiKit.INK))
 	v.add_child(mast)
 	# headline
 	var head := Sheet.label(Loc.t("ui.day", {"day": sm["day"]}) + " — " + Loc.t(sm["headline"]), 46, "slab", UiKit.RED)
@@ -86,7 +86,7 @@ func show_day(world: SimWorld, sm: Dictionary) -> void:
 	# storylines: what's still unresolved (and what wrapped up today)
 	var arcs: Array = sm.get("arcs", [])
 	if not arcs.is_empty():
-		v.add_child(_rule(Loc.t("ui.storylines").to_upper()))
+		v.add_child(_rule(Loc.upper(Loc.t("ui.storylines"))))
 		for a in arcs.slice(0, 4):
 			v.add_child(_arc_line(a))
 	# next day

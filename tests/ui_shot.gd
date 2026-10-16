@@ -7,6 +7,11 @@ var shots := []
 var out_dir := "/tmp/claude-0/ui"
 
 func _ready():
+	for a in OS.get_cmdline_user_args():
+		var kv := a.split("=")
+		if kv.size() == 2 and kv[0] == "lang":
+			Game.change_language(kv[1])
+			out_dir = "/tmp/claude-0/ui_" + kv[1]
 	DirAccess.make_dir_recursive_absolute(out_dir)
 	Game.delete_save()
 	Game.set_setting("tips_seen", false)
@@ -69,8 +74,11 @@ func _process(_d):
 		19:
 			gs().today.close()
 			gs().hud.open_settings.emit()
-		20: _shot("10_settings")
+		20:
+			_shot("10_settings")
+			gs().settings_sheet._pick_language()
 		21:
+			_shot("10b_language")
 			gs().settings_sheet.close()
 			# line up a secret combination on Mert's desk: love note to the wrong person + fake 1:1 invite
 			var w := Game.world

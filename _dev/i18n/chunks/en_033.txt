@@ -1,0 +1,72 @@
+6414|na_tea|_|0|*sips tea quietly*
+6415|na_tea|_|1|...This helps. Thanks.
+6416|na_tea|_|2|Same time tomorrow?
+6417|na_compliment|_|0|Your presentation yesterday? Really good. I meant to say.
+6418|na_compliment|_|1|I don't say it enough: you're great at this.
+6419|na_compliment_thx|_|0|Oh! Thank you. That made my day.
+6420|na_compliment_thx|_|1|...Wow. Thanks. Really.
+6421|na_excuse|_|0|Do you have a... stapler? I seem to have lost all of mine.
+6422|na_excuse|_|1|Hey! Is this pen yours? No? ...Nice desk, by the way.
+6423|na_excuse_smile|_|0|*smiles* Here. Keep it.
+6424|na_excuse_smile|_|1|Ha. Sure. Come by any time.
+6425|na_excuse_oblivious|_|0|Stapler's in the supply room.
+6426|na_excuse_oblivious|_|1|Nope. Not my pen.
+6427|na_flower_leave|_|0|*leaves a single flower on {target}'s keyboard*
+6428|na_flower_leave|_|1|*places a tiny flower in {target}'s pen pot and walks off fast*
+6429|na_flower_find|_|0|...A flower? Who left this?
+6430|na_flower_find|_|1|Somebody left me a flower!
+6431|na_mugs|_|0|Whose mugs are these? They've been in the sink since MONDAY.
+6432|na_mugs|_|1|Somebody here thinks the sink is a museum.
+6433|na_mugs_accuse|_|0|{target}, are these yours? They have your lipstick. Or coffee. Or both.
+6434|na_mugs_accuse|_|1|{target}. The mugs. Explain.
+6435|na_mugs_own|_|0|...Okay, two of them are mine. I'll wash them.
+6436|na_mugs_own|_|1|Sorry! I'll do them now.
+6437|na_mugs_deny|_|0|Not mine! I have ONE mug and it's on my desk!
+6438|na_mugs_deny|_|1|Why is it always me?!
+6439|na_interrupt|_|0|—and ANOTHER thing about the budget—
+6440|na_interrupt|_|1|Sorry, can I just jump in here—
+6441|na_snap|_|0|Can I FINISH a sentence? Once? Today?
+6442|na_snap|_|1|I was TALKING.
+6443|na_false_tell|_|0|I heard {victim} is being 'reviewed'. You didn't hear it from me.
+6444|na_false_tell|_|1|Between us? {victim} might not be here much longer.
+6445|na_false_react|_|0|No! Really?
+6446|na_false_react|_|1|Wait, seriously? Since when?
+6447|na_huddle|_|0|Psst. Over here. You'll want to hear this.
+6448|na_huddle|_|1|Okay, gather round. Quietly.
+6449|na_huddle_react|_|0|NO.
+6450|na_huddle_react|_|1|Shut UP.
+6451|na_huddle_react|_|2|I KNEW it!
+6452|na_huddle_react|_|3|*gasps*
+6453|na_where_is|_|0|Where's {late}? It's nearly ten.
+6454|na_where_is|_|1|Has anyone seen {late} this morning?
+6455|na_cover|_|0|{late}'s at a client meeting. Back soon.
+6456|na_cover|_|1|Oh, {late} called — dentist. Totally normal.
+6457|na_share|_|0|Forgot your lunch? Here, have half. I always make too much.
+6458|na_share|_|1|I've got two börek. That's one too many. Take it.
+6459|na_share_thx|_|0|You're a lifesaver.
+6460|na_share_thx|_|1|Seriously? Thank you!
+6461|na_interview_call|_|0|*whispering* Yes, Thursday at 3 works. ...No, my boss doesn't know.
+6462|na_interview_call|_|1|*on the phone, very quietly* I'll be there. I'll say it's the dentist.
+6463|na_interview_alibi|_|0|Ahmet Bey, I have a dentist appointment on Thursday afternoon.
+6464|na_interview_alibi|_|1|Can I leave early Thursday? Dentist.
+6465|na_interview_ok|_|0|Again? Your teeth must be in a terrible state.
+6466|na_interview_ok|_|1|Fine. Fine.
+6467|na_eaves|_|0|*pretends to read the fire safety poster very carefully*
+6468|na_eaves|_|1|*suddenly very interested in the boss's office plant*
+6469|na_snoop|_|0|*glances at the papers on {target}'s empty desk* ...Oh. OH.
+6470|na_snoop|_|1|Just... straightening {target}'s papers. Hm. Interesting.
+6471|na_plant|_|0|You're doing great, Fikret. Grow, buddy. Grow.
+6472|na_plant|_|1|*whispering to the plant* Don't tell Ahmet, but you're my favourite colleague.
+6473|na_plant_seen|_|0|...Are you talking to the plant?
+6474|na_plant_seen|_|1|Did the plant answer?
+6475|na_fish|_|0|*microwaves leftover fish* What? It's lunch.
+6476|na_fish|_|1|Fish curry. Reheated. Don't judge me.
+6477|na_fish_smell|_|0|WHAT is that SMELL?!
+6478|na_fish_smell|_|1|Who microwaved FISH?!
+6479|na_fish_smell|_|2|I can taste it. I can TASTE the smell.
+6480|na_doze|_|0|*head slowly sinks onto the keyboard* zzz...
+6481|na_doze|_|1|*snores very softly behind the monitor*
+6482|na_doze_prank|_|0|*very quietly places a sticky note on their forehead*
+6483|na_doze_prank|_|1|*takes a photo* For the newsletter.
+6484|na_doze_boss|_|0|Good MORNING, {actor}. Comfortable?
+6485|na_doze_boss|_|1|Am I paying you to sleep?

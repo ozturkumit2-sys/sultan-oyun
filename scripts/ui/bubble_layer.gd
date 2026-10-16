@@ -24,7 +24,7 @@ func add(npc_id: String, text: String, to: String) -> void:
 	for b in bubbles.duplicate():
 		if b["id"] == npc_id:
 			bubbles.erase(b)
-	var dur := clampf(2.2 + text.length() * 0.045, 2.6, 5.5)
+	var dur := clampf(2.2 + text.length() * 0.045 * Loc.read_scale(), 2.6, 5.5)
 	var lines := _wrap(text)
 	var wmax := 0.0
 	for l in lines:
@@ -40,11 +40,11 @@ func clear_all() -> void:
 
 
 func _wrap(text: String) -> Array:
-	var words := text.split(" ")
 	var lines: Array = []
 	var cur := ""
-	for wd in words:
-		var cand := wd if cur == "" else cur + " " + wd
+	for tk in Loc.wrap_tokens(text):
+		var wd: String = tk[0]
+		var cand: String = wd if cur == "" else cur + str(tk[1]) + wd
 		if font.get_string_size(cand, HORIZONTAL_ALIGNMENT_LEFT, -1, FONT_SIZE).x > MAX_W and cur != "":
 			lines.append(cur)
 			cur = wd

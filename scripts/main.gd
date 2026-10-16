@@ -6,7 +6,19 @@ var current: Node
 
 func _ready() -> void:
 	get_window().theme = UiTheme.build()
+	Loc.changed.connect(_on_lang_changed)
 	_show_menu()
+
+
+func _on_lang_changed() -> void:
+	if current is GameScreen:
+		_clear()
+		var g := GameScreen.new()
+		g.quit_to_menu.connect(_show_menu)
+		add_child(g)
+		current = g
+	else:
+		_show_menu()
 
 
 func _show_menu() -> void:

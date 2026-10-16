@@ -216,7 +216,7 @@ func _records(list: VBoxContainer) -> void:
 				names.append(Loc.t("arc." + str(a)))
 			list.add_child(Sheet.label(Loc.t("journal.biggest_arcs", {"arcs": ", ".join(names)}), 19, "hand", Color("b23a48")))
 		if str(b.get("text", "")) != "":
-			list.add_child(Sheet.label("“" + str(b["text"]) + "”", 19, "type", UiKit.INK_SOFT))
+			list.add_child(Sheet.label(Loc.t("ui.quote", {"text": str(b["text"])}), 19, "type", UiKit.INK_SOFT))
 	list.add_child(HSeparator.new())
 	var rows := [
 		[Loc.t("journal.r_meddles"), w.discovery.ivs.size()],

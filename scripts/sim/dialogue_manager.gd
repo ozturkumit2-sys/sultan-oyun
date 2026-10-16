@@ -59,24 +59,18 @@ func pick(key: String, speaker: String) -> String:
 func format(tmpl: String, ctx: Dictionary, speaker := "", to := "") -> String:
 	if tmpl.find("{") < 0:
 		return tmpl
-	var out := tmpl
 	var roles: Dictionary = ctx.get("roles", {})
-	for r in roles:
-		var n = w.npc(roles[r])
-		if n:
-			out = out.replace("{" + r + "}", n.name)
-	if to != "":
-		var tn = w.npc(to)
-		if tn:
-			out = out.replace("{to}", tn.name)
-	if speaker != "":
-		var sn = w.npc(speaker)
-		if sn:
-			out = out.replace("{me}", sn.name)
 	var vars: Dictionary = ctx.get("vars", {})
-	for k in vars:
-		var key := "{" + str(k) + "}"
-		if out.find(key) < 0:
-			continue
-		out = out.replace(key, w.display_var(str(k), vars[k]))
-	return out
+	return Loc.fill_with(tmpl, func(k: String):
+		if roles.has(k):
+			var n = w.npc(str(roles[k]))
+			return n.name if n else null
+		if k == "to" and to != "":
+			var tn = w.npc(to)
+			return tn.name if tn else null
+		if k == "me" and speaker != "":
+			var sn = w.npc(speaker)
+			return sn.name if sn else null
+		if vars.has(k):
+			return w.display_var(k, vars[k])
+		return null)

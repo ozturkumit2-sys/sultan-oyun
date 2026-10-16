@@ -1,0 +1,222 @@
+3576|boss_softens|_|0|...Fine. Both of you, fix it.
+3577|boss_softens|_|1|Hm. Alright. Don't let it happen again.
+3578|boss_softens|_|2|Next time, tell me sooner.
+3579|pact_offer|_|0|We both know {enemy} is a problem. Maybe we help each other.
+3580|pact_offer|_|1|You and me against {enemy}. Think about it.
+3581|pact_offer|_|2|I've got information. You've got access. Partners?
+3582|pact_offer|deniz|0|Let's be practical. {enemy} is in our way. Together, we move faster.
+3583|pact_yes|_|0|...I'm listening.
+3584|pact_yes|_|1|Deal. But this conversation never happened.
+3585|pact_yes|_|2|Partners. Quietly.
+3586|pact_no|_|0|I'm not getting involved in your schemes.
+3587|pact_no|_|1|No. And I'd stop if I were you.
+3588|pact_no|_|2|Leave me out of this.
+3589|intel_trade|_|0|Here's what I know...
+3590|intel_trade|_|1|Fresh intel. Listen.
+3591|intel_trade|_|2|You didn't hear this from me.
+3592|intel_nod|_|0|Useful. Very useful.
+3593|intel_nod|_|1|Interesting...
+3594|intel_nod|_|2|Now we're talking.
+3595|chair_sink|_|0|Whoa— whoa— WHOA.
+3596|chair_sink|_|1|Why is my chair sinking?!
+3597|chair_sink|_|2|*slowly sinks below the desk*
+3598|chair_laugh|_|0|HAHAHA, where did you go?
+3599|chair_laugh|_|1|Man overboard!
+3600|chair_laugh|_|2|Someone get a crane!
+3601|chair_laugh|mert|0|Captain going down with the ship!
+3602|chair_laugh_self|_|0|...I meant to do that.
+3603|chair_laugh_self|_|1|Well. That's my dignity gone.
+3604|chair_laugh_self|_|2|Hahaha, okay, that was funny.
+3605|fridge_steal_think|_|0|Nobody will miss ONE yogurt.
+3606|fridge_steal_think|_|1|Whose börek is this? ...Mine now.
+3607|fridge_steal_think|_|2|Finders keepers.
+3608|lunch_gone|_|0|WHO ATE MY LUNCH?!
+3609|lunch_gone|_|1|My börek! It had my NAME on it!
+3610|lunch_gone|_|2|Someone ate my food. I'm going to scream.
+3611|lunch_gone|ahmet|0|Whoever ate my lunch: I will find you.
+3612|lunch_gone|burak|0|...My sandwich. My one joy.
+3613|lunch_suspect|_|0|It was {suspect}. I'm sure of it.
+3614|lunch_suspect|_|1|I bet {suspect} did it.
+3615|lunch_suspect|_|2|{suspect} was hovering by the fridge earlier...
+3616|kick_me_stick|_|0|*pat pat* Great work today, buddy!
+3617|kick_me_stick|_|1|Hey, nice shirt. *pats back*
+3618|kick_me_stick|_|2|Good job, champ. *slap on the back*
+3619|kick_me_giggle|_|0|*snort*
+3620|kick_me_giggle|_|1|Pfff— nothing! Nothing.
+3621|kick_me_giggle|_|2|Hahaha, did you see his back?
+3622|kick_me_found|_|0|Is there something on my— "KICK ME"?! MERT!
+3623|kick_me_found|_|1|Very funny. VERY funny.
+3624|kick_me_found|_|2|How long has THIS been on my back?!
+3625|kick_me_laugh|_|0|...Okay, I respect the commitment.
+3626|kick_me_laugh|_|1|Hah. You'll pay for this. Lovingly.
+3627|bonk|_|0|OW! Who put a glass wall there?!
+3628|bonk|_|1|*BONK*
+3629|bonk|_|2|...That door wasn't open. Noted.
+3630|bonk_laugh|_|0|Oof! You okay?
+3631|bonk_laugh|_|1|That's going to leave a mark.
+3632|bonk_laugh|_|2|Ten out of ten, would watch again.
+3633|keyboard_spill|_|0|NO NO NO, not the keyboard!
+3634|keyboard_spill|_|1|My tea! My KEYBOARD!
+3635|keyboard_spill|_|2|Why is my keyboard... crunchy?
+3636|cake_announce|_|0|I baked! Kitchen! Everyone!
+3637|cake_announce|_|1|Homemade cake in the kitchen. Come quick before Mert finds it.
+3638|cake_announce|_|2|Cake! I made cake!
+3639|cake_announce|ece|0|I made a cake! It's a bit lopsided but it's FULL of love!
+3640|cake_yum|_|0|Oh my god, this is amazing.
+3641|cake_yum|_|1|Can I have the recipe?
+3642|cake_yum|_|2|Best part of my week.
+3643|cake_yum|_|3|Is this... carrot? I love it.
+3644|cake_yum|mert|0|I'm taking a second piece. For research.
+3645|cake_yum|ahmet|0|...Acceptable. Very acceptable.
+3646|share_credit|_|0|Honestly, {target} did half of that work.
+3647|share_credit|_|1|Ahmet Bey — I couldn't have done it without {target}.
+3648|share_credit|_|2|The credit goes to {target} too.
+3649|credit_shared_thanks|_|0|You didn't have to say that. Thank you.
+3650|credit_shared_thanks|_|1|Wow. Thanks for that.
+3651|credit_shared_thanks|_|2|That means a lot.
+3652|deal_cheer|_|0|YES! YES! CLOSED IT!
+3653|deal_cheer|_|1|WHO'S THE BEST? I'M THE BEST!
+3654|deal_cheer|_|2|Signed! SIGNED! Someone get me cake!
+3655|deal_cheer|mert|0|THE BIG ONE! I CLOSED THE BIG ONE!
+3656|deal_clap|_|0|Woo! Go Mert!
+3657|deal_clap|_|1|Nice!
+3658|deal_clap|_|2|Speech! Speech!
+3659|deal_clap|_|3|Drinks are on you!
+3660|boss_deal_praise|_|0|THAT is how it's done!
+3661|boss_deal_praise|_|1|Excellent. Excellent!
+3662|boss_deal_praise|_|2|Finally, some good news.
+3663|deal_jealous|_|0|Luck. Pure luck.
+3664|deal_jealous|_|1|Must be nice.
+3665|deal_jealous|_|2|Hm. Good for him.
+3666|deal_jealous|deniz|0|The client would've signed anyway.
+3667|audit_find|_|0|These numbers don't add up...
+3668|audit_find|_|1|Wait. Who signed off on this?
+3669|audit_find|_|2|Zeynep's report has a hole the size of a truck.
+3670|audit_summon|_|0|Zeynep. My office.
+3671|audit_summon|_|1|Zeynep! Bring your spreadsheets.
+3672|audit_confess|_|0|...It was a mistake. I meant to fix it before anyone saw.
+3673|audit_confess|_|1|Okay. Yes. I messed up. I'll fix it.
+3674|audit_deflect|_|0|That's... probably Ece's data entry.
+3675|audit_deflect|_|1|Someone must have changed my file!
+3676|audit_deflect|_|2|I'll look into who did this.
+3677|boss_audit_angry|_|0|You'll fix it. Tonight.
+3678|boss_audit_angry|_|1|This stays between us. For now.
+3679|boss_audit_angry|_|2|I expected better.
+3680|slip_line|_|0|...which is funny, because {fact}
+3681|slip_line|_|1|— oh, like how {fact} Oops.
+3682|slip_line|_|2|Not that anyone knows {fact} Wait. Forget I said that.
+3683|slip_line|ece|0|Oh! Speaking of which, {fact} ...Was that a secret?
+3684|slip_line|mert|0|Ha, and don't forget {fact} — oh. Oh no.
+3685|slip_subject|_|0|You did NOT just say that.
+3686|slip_subject|_|1|I trusted you!
+3687|slip_subject|_|2|...Thanks a lot.
+3688|logs_find|_|0|Huh. Server logs say someone copied a whole folder at midnight.
+3689|logs_find|_|1|Interesting... who has access to Selin's files?
+3690|logs_find|_|2|Well, well. The logs never lie.
+3691|logs_tell|_|0|{target}, I found something in the server logs. You should see this.
+3692|logs_tell|_|1|I wasn't snooping. Okay, I was. Look at this.
+3693|logs_shock|_|0|He WHAT?
+3694|logs_shock|_|1|I knew it. I KNEW it.
+3695|logs_shock|_|2|Can you print that for me?
+3696|feud_snub|_|0|...
+3697|feud_snub|_|1|Hmph.
+3698|feud_snub|_|2|*looks the other way*
+3699|feud_snub|_|3|Oh. It's you.
+3700|feud_snub|selin|0|*pointedly ignores*
+3701|feud_snub|ahmet|0|*cold stare*
+3702|revenge_rumor_pitch|_|0|Want to hear something about {victim}? Total slacker. Sneaks out every afternoon.
+3703|revenge_rumor_pitch|_|1|Don't tell anyone, but {victim} trashes you behind your back.
+3704|revenge_rumor_pitch|_|2|Between us — {victim} is about to get fired.
+3705|revenge_rumor_pitch|deniz|0|I hear {victim} has been... cutting corners. Big corners.
+3706|revenge_rumor_listen|_|0|Really?! Huh.
+3707|revenge_rumor_listen|_|1|I did NOT know that.
+3708|revenge_rumor_listen|_|2|Interesting...
+3709|revenge_rumor_listen|ceren|0|I'll want proof before I believe that.
+3710|peace_offer|_|0|Hey. I brought you a coffee. Can we talk?
+3711|peace_offer|_|1|I don't want to keep doing this. Truce?
+3712|peace_offer|_|2|Look... I'm sorry. Really.
+3713|peace_offer|ece|0|I made you a card. It says sorry in three languages.
+3714|peace_offer|mert|0|Peace offering: one simit, slightly squashed.
+3715|peace_accept|_|0|...Okay. Truce.
+3716|peace_accept|_|1|Thanks. I'm sorry too.
+3717|peace_accept|_|2|Fine. Come here.
+3718|peace_reject|_|0|Not yet. Not after that.
+3719|peace_reject|_|1|You think coffee fixes this?
+3720|peace_reject|_|2|No.
+3721|defend_friend_rumor|_|0|No way. Not {subject}. I don't believe it.
+3722|defend_friend_rumor|_|1|That's not true. I know {subject}.
+3723|defend_friend_rumor|_|2|Whoever said that doesn't know {subject}.
+3724|stood_up|_|0|...They're not coming, are they.
+3725|stood_up|_|1|I'll just... stand here. Alone. Cool.
+3726|stood_up|_|2|Unbelievable. Stood up by the coffee machine.
+3727|back_from_out|_|0|I'm back! Did I miss anything?
+3728|back_from_out|_|1|Back. Don't ask.
+3729|back_from_out|_|2|Okay, where was I?
+3730|back_from_out|burak|0|...Dentist. It was the dentist.
+3731|si_think|_|0|{victim}'s client proposal is brilliant. Shame if it stayed theirs.
+3732|si_think|_|1|Some ideas are too good for the person who had them.
+3733|si_think|_|2|Ahmet would love that proposal. From the right person.
+3734|si_think|deniz|0|Selin's draft is on her screen again. Careless of her.
+3735|si_pitch|_|0|Ahmet Bey, I've been working on something. A new client workflow — saves us a week per project.
+3736|si_pitch|_|1|Got five minutes? I have an idea that could change how we pitch.
+3737|si_pitch|_|2|I've drafted a proposal. Bit of a game changer, if I say so myself.
+3738|si_boss_wow|_|0|...That's actually brilliant. Why didn't anyone think of this before?
+3739|si_boss_wow|_|1|Now THIS is what I like to see.
+3740|si_boss_wow|_|2|Excellent. Write it up.
+3741|si_praise|_|0|Everyone! Listen up. {thief} has come up with an excellent proposal. Initiative! Learn from it!
+3742|si_praise|_|1|I want you all to know: {thief}'s new workflow idea is exactly the thinking this office needs.
+3743|si_victim_what|_|0|...Wait. That's MY idea.
+3744|si_victim_what|_|1|Excuse me? That's my proposal.
+3745|si_victim_what|_|2|That's... that's what I've been working on for two weeks.
+3746|si_thief_smug|_|0|Thank you, Ahmet Bey. Just doing my job.
+3747|si_thief_smug|_|1|Happy to contribute.
+3748|si_suspect|_|0|That was my idea. Wasn't it? Was my screen open when he walked by?
+3749|si_suspect|_|1|Did {thief} see my draft? He must have...
+3750|si_suspect|_|2|I can't prove anything. Yet.
+3751|si_suspect|selin|0|I will not let this go. I need proof.
+3752|si_let_go|_|0|Maybe great minds think alike. ...Ugh.
+3753|si_let_go|_|1|Whatever. I'll have a better one.
+3754|si_ask|_|0|Did you see {thief} anywhere near my desk this week?
+3755|si_ask|_|1|Be honest. Did {thief} come up with that proposal himself?
+3756|si_ask|_|2|I think {thief} stole my idea. Tell me I'm not crazy.
+3757|si_conf_knows|_|0|You're not crazy. I heard he copied it.
+3758|si_conf_knows|_|1|I KNEW something was off. Everyone's whispering about it.
+3759|si_conf_burak|_|0|Ask Burak. He can see who opened which files.
+3760|si_conf_burak|_|1|Burak keeps logs of everything. EVERYTHING.
+3761|si_conf_dismiss|_|0|Aren't you being a bit paranoid?
+3762|si_conf_dismiss|_|1|Ideas float around. Let it go.
+3763|si_conf_dismiss|_|2|I didn't see anything. Sorry.
+3764|si_ask_burak|_|0|Burak, can you check who opened my proposal file last week?
+3765|si_ask_burak|_|1|I need a favour. File logs. Quietly.
+3766|si_burak_found|_|0|Copied from {thief}'s machine. Tuesday, 8:52 a.m. You didn't hear it from me.
+3767|si_burak_found|_|1|There. {thief}'s PC. Twice. Happy?
+3768|si_burak_no|_|0|I don't do office politics.
+3769|si_burak_no|_|1|Not my business. Sorry.
+3770|si_burak_no|_|2|If I start checking logs for everyone, I'll never leave.
+3771|si_showdown|_|0|Ahmet Bey, the workflow proposal was mine. I can prove it.
+3772|si_showdown|_|1|I need to show you something about {thief}'s "idea".
+3773|si_showdown|_|2|{thief} stole my proposal. Here are the file logs.
+3774|si_boss_believes|_|0|...Get {thief} in here. Now.
+3775|si_boss_believes|_|1|This is unacceptable. Thank you for telling me.
+3776|si_boss_believes|_|2|I see. I'll deal with this personally.
+3777|si_boss_dismiss|_|0|I don't have time for office politics.
+3778|si_boss_dismiss|_|1|Ideas belong to the company, not to people.
+3779|si_boss_dismiss|_|2|Sort it out between yourselves.
+3780|rom_think|_|0|Today's the day. I'm asking {crush} for coffee.
+3781|rom_think|_|1|Okay. Be cool. Be normal. Talk to {crush}.
+3782|rom_think|_|2|Deep breath. {crush}. Coffee. Words.
+3783|rom_think|mert|0|Mert, you close deals for a living. Close THIS one.
+3784|rom_ask|_|0|So... I was wondering. Coffee? Just us? Kitchen, later?
+3785|rom_ask|_|1|You, me, terrible office coffee. Say three o'clock?
+3786|rom_ask|_|2|Can I steal you for a coffee later? I promise to be charming.
+3787|rom_ask|mert|0|I've rehearsed this. Coffee? With me? Later? ...That was the whole speech.
+3788|rom_yes|_|0|...Okay. Yes. Later.
+3789|rom_yes|_|1|I'd like that.
+3790|rom_yes|_|2|Ha. Fine. You're buying.
+3791|rom_yes|ceren|0|Fifteen minutes. Don't make it weird.
+3792|rom_no|_|0|Oh — that's sweet. But let's keep it professional.
+3793|rom_no|_|1|I think we're better as friends.
+3794|rom_no|_|2|Ah... I'm really busy today. And... in general.
+3795|rom_date|_|0|So. This is nice.
+3796|rom_date|_|1|I may have saved you the last good mug.
+3797|rom_date|_|2|Tell me something nobody here knows about you.

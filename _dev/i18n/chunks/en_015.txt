@@ -1,0 +1,267 @@
+2519|dark_scheme_whisper|_|0|Perfect timing...
+2520|dark_scheme_whisper|_|1|Nobody's looking...
+2521|dark_scheme_whisper|_|2|Darkness is just opportunity without lighting.
+2522|lights_ghost_on|_|0|The lights came back on by themselves?
+2523|lights_ghost_on|_|1|Who... did that?
+2524|lights_ghost_on|_|2|Nobody touched the switch!
+2525|dark_scared|_|0|I don't like this.
+2526|dark_scared|_|1|Is it just me or is it creepy in here?
+2527|dark_scared|_|2|Stay close, okay?
+2528|dark_scared|ece|0|Can I hold your sleeve? Just a little?
+2529|dark_comfort|_|0|It's okay, I'm here.
+2530|dark_comfort|_|1|Relax, it's just a blackout.
+2531|dark_comfort|_|2|Ha, don't worry. I've got you.
+2532|dark_comfort|mert|0|Don't worry, I glow in the dark. Kidding.
+2533|too_cold|_|0|Brrr! Why is it so cold?
+2534|too_cold|_|1|My fingers are freezing!
+2535|too_cold|_|2|Is the AC set to Antarctica?
+2536|too_cold|zeynep|0|I'm turning into an ice sculpture here!
+2537|too_cold|ece|0|I can see my breath!
+2538|too_hot|_|0|It's boiling in here!
+2539|too_hot|_|1|Who turned on the sauna?
+2540|too_hot|_|2|I'm melting...
+2541|too_hot|ahmet|0|Who touched the AC?!
+2542|too_hot|burak|0|The servers are going to cook.
+2543|temp_complain|_|0|That's it. I'm fixing the thermostat.
+2544|temp_complain|_|1|I can't work like this.
+2545|temp_complain|_|2|Who keeps changing the temperature?!
+2546|temp_suffer|_|0|I'll just... suffer quietly.
+2547|temp_suffer|_|1|*shivers*
+2548|temp_suffer|_|2|*fans self with a folder*
+2549|thermo_grumble|_|0|Who touched the thermostat?
+2550|thermo_grumble|_|1|Seriously? Again?
+2551|thermo_grumble|_|2|*mutters about the AC*
+2552|thermo_argue_1|_|0|Why did you change the temperature?
+2553|thermo_argue_1|_|1|Don't touch the thermostat!
+2554|thermo_argue_1|_|2|It was perfect before!
+2555|thermo_argue_1|zeynep|0|Some of us have blood circulation issues!
+2556|thermo_argue_2|_|0|It was freezing!
+2557|thermo_argue_2|_|1|It was a sauna!
+2558|thermo_argue_2|_|2|I'm not the only one who works here!
+2559|thermo_argue_2|ahmet|0|I am the manager. I set the temperature.
+2560|thermo_argue_3|_|0|Fine! Wear a sweater!
+2561|thermo_argue_3|_|1|Unbelievable.
+2562|thermo_argue_3|_|2|This is a war now.
+2563|files_flew|_|0|My papers just... flew?!
+2564|files_flew|_|1|Did you see that?! The files moved on their own!
+2565|files_flew|_|2|Okay. That's it. Ghosts.
+2566|witness_ghost|_|0|What was THAT?
+2567|witness_ghost|_|1|I saw it too!
+2568|witness_ghost|_|2|Nope. Nope nope nope.
+2569|who_did_this|_|0|Who messed up my documents?!
+2570|who_did_this|_|1|Who touched my desk?!
+2571|who_did_this|_|2|My files! Everything's out of order!
+2572|who_did_this|selin|0|Who. Touched. My. Files.
+2573|who_did_this|selin|1|Someone has been at my desk.
+2574|who_did_this|ahmet|0|Who dared to touch my desk?!
+2575|who_did_this|burak|0|My desk. My system. Ruined.
+2576|who_did_this|zeynep|0|Someone's been snooping. And it's not me this time!
+2577|who_did_this|deniz|0|Someone's trying to sabotage me.
+2578|suspect_named|_|0|It was {suspect}. I just know it.
+2579|suspect_named|_|1|{suspect}... I'm going to have a word.
+2580|suspect_named|_|2|This has {suspect} written all over it.
+2581|dont_look_at_me|_|0|Don't look at me!
+2582|dont_look_at_me|_|1|I didn't do it!
+2583|dont_look_at_me|_|2|Wasn't me!
+2584|dont_look_at_me|_|3|I've been at my desk all day!
+2585|dont_look_at_me|mert|0|I'm innocent! Mostly.
+2586|dont_look_at_me|burak|0|I have an alibi. My code.
+2587|tidy_sigh|_|0|*sighs and starts sorting papers*
+2588|tidy_sigh|_|1|Back to square one.
+2589|tidy_sigh|_|2|Fine. I'll just redo it.
+2590|tidy_sigh|ceren|0|Let's just tidy up quietly.
+2591|ece_offer_tidy|_|0|Let me help you sort these!
+2592|ece_offer_tidy|_|1|I'm great at filing! Mostly!
+2593|ece_tidy_thanks|_|0|Thanks, Ece. You're sweet.
+2594|ece_tidy_thanks|_|1|You didn't have to... thank you.
+2595|ece_tidy_thanks|_|2|Okay, you're officially my favourite.
+2596|i_think_i_know|_|0|I think I know who did it...
+2597|i_think_i_know|_|1|Psst. I saw something.
+2598|i_think_i_know|_|2|Want to know what I saw?
+2599|i_think_i_know|zeynep|0|Oh, I know EXACTLY who did it.
+2600|who_was_it|_|0|Who?!
+2601|who_was_it|_|1|Tell me.
+2602|who_was_it|_|2|Spill it.
+2603|zeynep_accuse|_|0|{suspect}. I saw them near your desk.
+2604|zeynep_accuse|_|1|It was {suspect}. Don't say I told you.
+2605|zeynep_accuse|_|2|Let's just say {suspect} looked very suspicious.
+2606|accuse_files|_|0|Did you mess with my desk, {target}?
+2607|accuse_files|_|1|Was it you who touched my files?
+2608|accuse_files|_|2|{target}. My files. Explain.
+2609|accuse_files|selin|0|I know it was you, {target}.
+2610|accuse_coffee|_|0|You broke the coffee machine, didn't you?
+2611|accuse_coffee|_|1|{target}, admit it. The coffee machine.
+2612|accuse_item|_|0|Why was my {item} on YOUR desk, {target}?
+2613|accuse_item|_|1|{target}, care to explain my {item}?
+2614|accuse_promo|_|0|You messed with my promotion file, didn't you?
+2615|accuse_promo|_|1|{target}, did you sabotage my promotion?
+2616|accuse_promo|selin|0|You doctored that file, {target}. Admit it.
+2617|smooth_deny|_|0|Me? I would never. Must've been the ghost.
+2618|smooth_deny|_|1|No idea what you're talking about.
+2619|smooth_deny|_|2|Wow. Paranoid much?
+2620|not_convinced|_|0|Mm-hm. Sure.
+2621|not_convinced|_|1|I'm watching you.
+2622|not_convinced|_|2|We'll see.
+2623|deny_angry|_|0|Excuse me?! I didn't do anything!
+2624|deny_angry|_|1|How DARE you accuse me!
+2625|deny_angry|_|2|Are you serious right now?!
+2626|deny_angry|burak|0|Don't you blame me for this!
+2627|deny_angry|burak|1|I didn't touch it. Stop blaming me!
+2628|deny_angry|ahmet|0|You're accusing ME?
+2629|deny_angry|deniz|0|Wow. Jealous much?
+2630|insist|_|0|Then who else?!
+2631|insist|_|1|You were the only one near my desk!
+2632|insist|_|2|Don't lie to me!
+2633|deny_angry2|_|0|Get out of my face!
+2634|deny_angry2|_|1|I'm done with this!
+2635|deny_angry2|_|2|Think whatever you want!
+2636|witness_argument|_|0|Whoa, whoa...
+2637|witness_argument|_|1|Here we go again.
+2638|witness_argument|_|2|Should someone stop them?
+2639|witness_argument|zeynep|0|Ooh, this is getting good.
+2640|witness_argument|mert|0|Popcorn, anyone?
+2641|deny_calm|_|0|It wasn't me, I promise.
+2642|deny_calm|_|1|I understand you're upset, but it wasn't me.
+2643|deny_calm|_|2|I'd never do that to you.
+2644|deny_calm|ceren|0|I didn't, but I'll help you find out who did.
+2645|sorry_accuse|_|0|Okay... sorry. I'm just stressed.
+2646|sorry_accuse|_|1|You're right. Sorry.
+2647|sorry_accuse|_|2|My bad. I'm on edge.
+2648|take_blame|_|0|It... it was me. Sorry.
+2649|take_blame|_|1|Okay, I'll take the blame. Let's just move on.
+2650|take_blame|_|2|I'm sorry! Probably my fault!
+2651|take_blame|ece|0|It was probably me! I'm clumsy! I'm so sorry!
+2652|accept_apology|_|0|...Fine. Just don't do it again.
+2653|accept_apology|_|1|Okay. Thanks for being honest.
+2654|accept_apology|_|2|Apology accepted. Barely.
+2655|defend|_|0|Leave them alone, it wasn't them.
+2656|defend|_|1|Hey! Back off. They didn't do it.
+2657|defend|_|2|I was with them the whole time.
+2658|defend|mert|0|Come on, they'd never do that.
+2659|defend|ceren|0|Let's not accuse people without proof.
+2660|stay_out|_|0|Stay out of this!
+2661|stay_out|_|1|Nobody asked you.
+2662|stay_out|_|2|Mind your own business.
+2663|fight_crowd|_|0|What's going on?!
+2664|fight_crowd|_|1|Not again!
+2665|fight_crowd|_|2|Someone call Ahmet!
+2666|fight_crowd|_|3|Everybody calm down!
+2667|fight_crowd|zeynep|0|I'm getting this all in my memory.
+2668|boss_outburst|_|0|ENOUGH! This is an office, not a circus!
+2669|boss_outburst|_|1|What is going on here?! Back to work, ALL of you!
+2670|boss_outburst|_|2|One more fight and I'm cancelling everyone's lunch!
+2671|missing_glasses|_|0|Where are my glasses?! I can't read a thing!
+2672|missing_glasses|_|1|Has anyone seen my reading glasses?
+2673|missing_usb|_|0|My USB stick! My whole presentation is on it!
+2674|missing_usb|_|1|Where's my USB?! It was right here!
+2675|missing_mug|_|0|Where's my lucky mug? I can't drink coffee from a normal cup!
+2676|missing_mug|_|1|Who took my mug?!
+2677|missing_planner|_|0|My planner's gone. My entire life is in that planner.
+2678|missing_planner|_|1|Where is my planner?
+2679|missing_charger|_|0|My charger's gone. Laptop's at 3%.
+2680|missing_charger|_|1|Who took my charger? Who does that?
+2681|found_at_desk|_|0|My {item}... on {owner}'s desk?!
+2682|found_at_desk|_|1|Why is my {item} at {owner}'s desk?
+2683|found_at_desk|_|2|So {owner} had my {item} all along.
+2684|found_at_friend|_|0|Ha! {owner}, you thief! Haha.
+2685|found_at_friend|_|1|My {item} at {owner}'s place? Funny.
+2686|found_weird_place|_|0|How did my {item} end up here?
+2687|found_weird_place|_|1|I never brought my {item} here...
+2688|found_weird_place|_|2|Things keep moving in this office.
+2689|found_item_relief|_|0|Found it! Phew.
+2690|found_item_relief|_|1|There you are!
+2691|pocket_item|_|0|Finders keepers...
+2692|pocket_item|_|1|Hm. This could be useful.
+2693|pocket_item|_|2|*quietly slides it into a drawer*
+2694|found_foreign_item|_|0|Why is {owner}'s {item} on my desk? I'll return it.
+2695|found_foreign_item|_|1|This is {owner}'s {item}... let me bring it back.
+2696|whose_is_this|_|0|Whose is this?
+2697|whose_is_this|_|1|Not mine. Not my problem.
+2698|return_item_line|_|0|Found your {item} on my desk!
+2699|return_item_line|_|1|Here — your {item} was at my place.
+2700|return_item_line|_|2|I think this is yours.
+2701|thanks_return|_|0|Oh my god, thank you!
+2702|thanks_return|_|1|You're a lifesaver!
+2703|thanks_return|_|2|Thank you! I was going crazy!
+2704|thanks_return|selin|0|Thank you. Seriously. Thank you.
+2705|thanks_return|ahmet|0|Hm. Thank you.
+2706|email_oops|_|0|Wait. Did that go to... EVERYONE?!
+2707|email_oops|_|1|No. No no no no no.
+2708|email_oops|_|2|Undo! UNDO! Where's undo?!
+2709|email_oops|ahmet|0|That was NOT meant for the team.
+2710|email_oops|mert|0|Oh no. Oh no. I'm moving to another country.
+2711|email_oops|burak|0|...I'm going to need a new job. Faster.
+2712|email_oops|ece|0|I want to disappear.
+2713|email_oops|deniz|0|This is... a misunderstanding.
+2714|email_oops|zeynep|0|Well. That's awkward.
+2715|email_oops|selin|0|This wasn't for everyone.
+2716|email_read_all|_|0|Did everyone just get that email?
+2717|email_read_all|_|1|Oh. My. God.
+2718|email_read_all|_|2|I'm reading this twice.
+2719|email_read_all|_|3|Reply all? Reply ALL?
+2720|email_read_all|zeynep|0|Best email EVER.
+2721|email_read_all|zeynep|1|I'm printing this and framing it.
+2722|email_read_all|mert|0|Oh this is gold.
+2723|email_read_all|ceren|0|Oh dear.
+2724|email_read_all|ahmet|0|What is the meaning of this?
+2725|secret_exposed|_|0|That was private!
+2726|secret_exposed|_|1|Everyone knows now. Great.
+2727|secret_exposed|_|2|How could you?!
+2728|own_secret_out|_|0|Everyone knows now...
+2729|own_secret_out|_|1|Great. Just great.
+2730|own_secret_out|_|2|Well, the cat's out of the bag.
+2731|team_complaint_react|_|0|Lazy? WE'RE lazy?
+2732|team_complaint_react|_|1|Wow. Tell us how you really feel.
+2733|team_complaint_react|_|2|So that's what he thinks of us.
+2734|boss_backpedal|_|0|That was... a draft. A rough draft.
+2735|boss_backpedal|_|1|Let's all pretend that didn't happen.
+2736|email_sent_wrong|_|0|Wait... who did I send that to?
+2737|email_sent_wrong|_|1|Did that just go to {target}?!
+2738|email_sent_wrong|_|2|Wrong recipient... oh no.
+2739|email_redirect_read|_|0|Uh... {actor}, I don't think this was for me.
+2740|email_redirect_read|_|1|Well, THIS is interesting.
+2741|email_redirect_read|_|2|Hmm. Was I supposed to see this?
+2742|email_redirect_read|ahmet|0|{actor}. My office. Now. Actually, I'll come to you.
+2743|email_redirect_read|zeynep|0|Ooh, this is juicy.
+2744|email_confront|_|0|I read your email, {target}.
+2745|email_confront|_|1|So THAT'S what you think of me?
+2746|email_confront|_|2|We need to talk about that email.
+2747|email_apology|_|0|I'm sorry. I was venting. I didn't mean it.
+2748|email_apology|_|1|That was out of line. I'm sorry.
+2749|email_apology|_|2|Can we start over?
+2750|email_apology_accept|_|0|Okay. But it hurt.
+2751|email_apology_accept|_|1|Fine. Let's move on.
+2752|email_apology_accept|_|2|Apology accepted. For now.
+2753|email_defiant|_|0|I meant every word.
+2754|email_defiant|_|1|Maybe you needed to hear it.
+2755|email_defiant|_|2|Well, it's out there now.
+2756|email_furious|_|0|Unbelievable!
+2757|email_furious|_|1|You're unbelievable!
+2758|email_furious|_|2|We're done talking.
+2759|crush_flattered|_|0|Mert... that was actually kind of sweet.
+2760|crush_flattered|_|1|So... you like me? That's... nice.
+2761|crush_flattered|_|2|Well. That's one way to tell me.
+2762|mert_blush|_|0|Haha... yeah... about that...
+2763|mert_blush|_|1|I can explain! ...No I can't.
+2764|mert_blush|_|2|*turns bright red*
+2765|crush_awkward|_|0|Mert, we work together. This is... awkward.
+2766|crush_awkward|_|1|I... need a minute.
+2767|crush_awkward|_|2|Let's just keep things professional.
+2768|tease_crush_line|_|0|So... Ceren, huh?
+2769|tease_crush_line|_|1|Saw your little love letter, Romeo.
+2770|tease_crush_line|_|2|Ceren? Bold move, my friend.
+2771|board_who_moved|_|0|Who moved the meeting? I didn't change that.
+2772|board_who_moved|_|1|That's not the time I scheduled...
+2773|board_who_moved|_|2|Someone's been messing with my calendar.
+2774|board_moved_note|_|0|Oh, the meeting moved?
+2775|board_moved_note|_|1|New meeting time, noted.
+2776|board_moved_note|_|2|Huh. Meeting's at a different time now.
+2777|tell_boss_meeting_moved|_|0|Sir, the meeting time was changed on the board.
+2778|tell_boss_meeting_moved|_|1|Heads up — someone moved today's meeting.
+2779|boss_meeting_moved_ok|_|0|Fine. We'll go with the new time.
+2780|boss_meeting_moved_ok|_|1|Noted. Thank you, Ceren.
+2781|boss_meeting_moved_blame|_|0|Changed? YOU manage the calendar, Ceren!
+2782|boss_meeting_moved_blame|_|1|How does a meeting move by itself?!
+2783|board_changed_live|_|0|Wait... the meeting time just changed?
+2784|board_changed_live|_|1|Did the board just... change?
+2785|board_changed_live|_|2|I'm not crazy. That said a different time.

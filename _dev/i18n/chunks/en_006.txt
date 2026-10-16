@@ -1,0 +1,109 @@
+1306|log.dd_maybe|{a} and {b} talked about the fake couple photo — and decided they don't mind if it's not that fake.
+1307|log.dd_official|{a} and {b} took the fake couple photo down — and went to lunch together. Just the two of them.
+1308|log.deadline_missed|{actor} missed a deadline.
+1309|log.deal_closed|{actor} closed a big deal and celebrated loudly. The whole office clapped.
+1310|log.decaf|Someone switched the office coffee to decaf. People are yawning everywhere.
+1311|log.decaf_blame|{actor} accused Zeynep of switching to cheap decaf to save money. She swears she didn't.
+1312|log.defend|{best} discovered that {owner} had quietly stood up for them in an email to Ahmet. {best} is moved.
+1313|log.defended|{defender} stood up for {target} against {actor}.
+1314|log.deniz_snitch|Deniz snitched to Ahmet: "{gossip}"
+1315|log.desk_sabotage|{actor} sneaked over to {target}'s empty desk and wrecked their paperwork. Nobody saw. Probably.
+1316|log.desk_sabotage_seen|{actor} wrecked {target}'s desk — and {spotter} saw the whole thing.
+1317|log.df_alarm|{victim} discovered the shared drive is empty. Office-wide panic. Fingers point at {suspect}.
+1318|log.df_boss_blames|Ahmet demanded a name. Nobody spoke — so he blamed {suspect}. ({culprit} said nothing.)
+1319|log.df_confessed|Ahmet demanded a name. {culprit} stepped forward and confessed to deleting the shared drive.
+1320|log.df_covered|Burak restored the shared drive and blamed a "sync error". He's protecting {culprit}.
+1321|log.df_exposed|Burak restored the shared drive — and the logs showed it was deleted from {culprit}'s computer.
+1322|log.df_nobackup|{culprit} confessed the deleted folder to Burak. There's no backup.
+1323|log.df_oops|{culprit} accidentally deleted the entire shared folder. Nobody knows yet.
+1324|log.df_quiet|{culprit} confessed the deleted folder to Burak. He restored it from backup — quietly.
+1325|log.df_restored|Burak restored the shared drive. The crisis is over.
+1326|log.disco|The office lights switched to disco mode. Half the office is dancing.
+1327|log.disco_off|Ahmet stormed to the breaker and killed the disco lights.
+1328|log.dnd|Ahmet couldn't reach {target} — their phone was on Do Not Disturb. He stormed over to their desk.
+1329|log.door_locked|The meeting room was locked. People piled up outside while {fixer} went for the key.
+1330|log.door_open|{actor} unlocked the meeting room. It had been locked from the inside — with nobody in it.
+1331|log.double|A second 'meeting' appeared in the calendar at the same time. {actor} and {target} sat in the kitchen waiting for it — then ran to the real one, late.
+1332|log.early_promo|Ahmet suddenly announced the promotion hours early. Not everyone was around to hear it.
+1333|log.ece_fixed|Ece fixed the coffee machine. Nobody knows how.
+1334|log.ece_spill|Ece tried to fix the coffee machine and got sprayed.
+1335|log.ece_tidy|Ece helped {target} tidy up.
+1336|log.email_all.complaint_boss|{actor}'s complaint about Ahmet went to the whole office — including Ahmet.
+1337|log.email_all.complaint_team|Ahmet's email calling the team 'lazy' went to the team.
+1338|log.email_all.gossip_digest|Zeynep's gossip email went to everyone: "{fact}"
+1339|log.email_all.love|Mert's love letter to Ceren went to EVERYONE.
+1340|log.email_all.rant|{actor}'s rant about {subject} went to the whole office!
+1341|log.email_all.scheme|Deniz's plan against Selin was emailed to everyone!
+1342|log.email_all.secret|{actor}'s private email went to EVERYONE: "{fact}"
+1343|log.email_apology|{target} apologised to {actor} for the email.
+1344|log.email_redirect.complaint_boss|{actor}'s complaint about Ahmet went to {target}.
+1345|log.email_redirect.complaint_team|Ahmet's grumpy email went to {target}.
+1346|log.email_redirect.gossip_digest|Zeynep's gossip meant for {intended} went to {target}.
+1347|log.email_redirect.love|Mert's message about Ceren went to {target}.
+1348|log.email_redirect.rant|{actor}'s rant about {subject} went to {target}.
+1349|log.email_redirect.scheme|Deniz's scheme against Selin went to {target}.
+1350|log.email_redirect.secret|{actor}'s private message went to {target}: "{fact}"
+1351|log.empty_room|Someone deleted the meeting invite. Ahmet sat in the meeting room almost alone — and he is furious.
+1352|log.eotm_fix|The Employee of the Month certificate said {target}. Ahmet publicly corrected it to {rich}. Brutal.
+1353|log.eotm_keep|The Employee of the Month certificate says {target}. Ahmet didn't pick them — but decided to let it stand.
+1354|log.es_clear|Zeynep questioned {suspect} about their expenses. Everything checked out.
+1355|log.es_keep|Zeynep decided to keep {suspect}'s expense secret — in exchange for a favour.
+1356|log.es_panic|Zeynep questioned {suspect} about their expenses. {suspect} begged her to keep it quiet.
+1357|log.es_report|Zeynep reported {suspect}'s dodgy expenses to Ahmet.
+1358|log.es_spot|Zeynep found something odd in {suspect}'s expense claims.
+1359|log.ev_chaos|Everyone got stuck at the jammed front door during the fire alarm. Total chaos. {panicker} screamed the loudest.
+1360|log.ev_hero|Everyone got stuck at the jammed front door during the fire alarm. {hero} kept calm and took charge.
+1361|log.ev_praise|Ahmet praised {hero} in front of everyone for handling the evacuation.
+1362|log.ev_scapegoat|Ahmet blamed {scapegoat} for the jammed front door. {scapegoat} had nothing to do with it.
+1363|log.ev_unjam|{hero} unjammed the front door. Everyone filed out — just as the alarm stopped. Applause anyway.
+1364|log.excluded_cold|{target} was left off an after-work drinks invite 'from' {organizer}. {organizer} didn't exactly fix it.
+1365|log.excluded_fix|{target} was left off an after-work drinks invite 'from' {organizer}. {organizer} insisted they were welcome.
+1366|log.fake_date_cold|{actor} and {target} met over an invite nobody sent. It was very awkward.
+1367|log.fake_date_laugh|{actor} and {target} both got a meeting invite from the other. Neither sent one. They had coffee anyway.
+1368|log.fake_date_spark|{actor} and {target} met in the kitchen over an invite nobody sent. It turned into a long, warm chat...
+1369|log.farewell_maybe|The board called today's meeting '{target}'s farewell'. {target} isn't leaving... but now they're thinking about it.
+1370|log.farewell_moved|The board called today's meeting '{target}'s farewell'. {target} isn't leaving — but heard how much people would miss them.
+1371|log.feud_begins|{actor} and {target} are no longer on speaking terms.
+1372|log.feud_snub|{actor} and {target} walked past each other without a word. Still not speaking.
+1373|log.files_flew|{actor}'s papers flew off the desk by themselves!
+1374|log.files_messed|{actor} found their desk in chaos.
+1375|log.first_bomb|{actor} was suddenly first on the presentation list. They weren't ready. It showed.
+1376|log.first_shine|{actor} was moved to the top of the presentation list — and nailed it.
+1377|log.fish|Someone microwaved fish curry at noon. The label said it was {target}'s. {target} swears it isn't.
+1378|log.fixed|{actor} fixed the {obj}.
+1379|log.fixed_for|{actor} fixed the {obj} for {requester}.
+1380|log.flicker|The office lights started flickering by themselves. Some people are now convinced the office is haunted.
+1381|log.flirt_bad|Mert flirted with Ceren. It did not go well.
+1382|log.flirt_good|Mert flirted with Ceren. It went well!
+1383|log.fm_cold|Day two of {a} and {b} not speaking. The office walks on eggshells around them. {mediator} has noticed.
+1384|log.fm_cold_alone|Day two of {a} and {b} not speaking. Nobody dares to get involved.
+1385|log.fm_collect|{organiser} is secretly collecting money for {leaver}'s farewell gift. Everyone signed the card.
+1386|log.fm_confused|Ahmet begged {leaver} not to quit. {leaver} had no idea what he was talking about.
+1387|log.fm_cunning|Ahmet begged {leaver} not to quit. {leaver} didn't correct him — and negotiated a raise.
+1388|log.fm_news|{organiser} told everyone that {leaver} is quitting — the resignation letter and the 'I quit' auto-reply were proof enough.
+1389|log.fm_not_leaving|The office threw {leaver} a surprise farewell party. {leaver} isn't leaving. They kept the cake anyway.
+1390|log.fm_played|The office threw {leaver} a farewell party — and {leaver} announced they're staying, with a fresh raise. People want their gift money back.
+1391|log.fm_reconciled|{a} and {b} finally talked it out in the kitchen. They're friends again — thanks to {mediator}.
+1392|log.fm_talk_no|{mediator} tried to talk {target} into making peace with {other}. {target} refused.
+1393|log.fm_talk_ok|{mediator} talked to {target} about the feud with {other}. {target} is softening.
+1394|log.fm_worse|{mediator} got {a} and {b} in the same room. It went terribly. The feud is worse than ever.
+1395|log.fnote|A passive-aggressive note 'signed' by {target} is on the fridge. People think it's petty. {target} didn't write it.
+1396|log.forge_caught|Zeynep spotted a forged Ahmet signature on {target}'s expense claim. {target} swears they know nothing.
+1397|log.forge_pass|{target}'s expense claim sailed through with a forged signature. Nobody noticed. Yet.
+1398|log.fp_assign|Ahmet paired {a} and {b} — sworn rivals — on the quarterly report.
+1399|log.fp_clash|{a} and {b} worked on the report together in the archive. There was shouting about fonts.
+1400|log.fp_click|{a} and {b} worked on the report together in the archive — and, against all odds, it went well.
+1401|log.fp_credit|{a} handed in the joint report and claimed most of the credit. {b} exploded.
+1402|log.fp_good|{a} and {b} handed in the joint report. Ahmet loved it and praised them both.
+1403|log.fridge_raid|{actor} quietly ate {target}'s lunch from the fridge.
+1404|log.fridgephone|{actor}'s phone vanished from their desk and turned up in the office fridge. Chilled.
+1405|log.frontdoor|The front door jammed. {actor} was stuck inside until {fixer} got it open.
+1406|log.fw_counter|{victim} stuck a furious counter-note on the fridge, addressed to {signer}. The fridge war has begun.
+1407|log.fw_feud|{victim} confronted {signer} over the fridge note. {signer} snapped back. The kitchen is now a war zone.
+1408|log.fw_ghost|{victim} confronted {signer} over the fridge note. {signer} proved it wasn't their handwriting. They now both suspect a third party.
+1409|log.fw_outrage|{victim} found the fridge empty and a note 'signed' by {signer}. {victim} is convinced {signer} binned everyone's lunch.
+1410|log.fwd_feud|{actor} confronted {target} about the forwarded chat. {target} doubled down. They're not speaking now.
+1411|log.fwd_read|{actor} received a chat {owner} wrote about them. It was not flattering.
+1412|log.fwd_sorry|{actor} confronted {target} about the forwarded chat. {target} apologised — it helped a little.
+1413|log.fwdcall_help|{owner}'s calls were going to {target}. {target} handled a client call and passed the message on.
+1414|log.fwdcall_steal|{owner}'s calls were going to {target} — and {target} quietly kept {owner}'s client for themselves.

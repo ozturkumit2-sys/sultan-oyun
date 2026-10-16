@@ -1,0 +1,120 @@
+1897|log.ns_slip_safe|Ece accidentally called Ahmet "Uncle". Luckily, nobody was close enough to hear.
+1898|log.ns_spread|{witness} told {listener} that Ece is Ahmet's niece. By tomorrow, everyone will know.
+1899|log.ns_stonewalled|{witness} tried to get Ceren to confirm the Ece-Ahmet rumour. Ceren gave nothing away.
+1900|log.ns_truth|{witness} asked Ece about the "Uncle" slip. Ece confessed: Ahmet is her uncle.
+1901|log.nw_louder|{quiet} asked {loud} to keep it down. {loud} got louder. The noise war is on.
+1902|log.nw_music|{loud} cranked the office speaker to win the noise war. Everyone else lost.
+1903|log.nw_sorry|{quiet} asked {loud} to keep it down. {loud} apologised. Peace, for now.
+1904|log.nw_truce|{mediator} sat {quiet} and {loud} down in the kitchen. Quiet hours agreed. The noise war is over.
+1905|log.nw_war|{mediator} tried to end the noise war. {loud} threatened to bring a trumpet. It's a feud now.
+1906|log.oldver_none|{actor}'s file was rolled back a week. No backup. {actor} is redoing everything.
+1907|log.oldver_redo|{actor}'s changes vanished — they're staying late to redo them.
+1908|log.oldver_saved|Someone rolled back {actor}'s report to last week's version. {target} rescued it from a backup.
+1909|log.onscreen|{owner}'s private file popped up on {actor}'s screen. {actor} read it.
+1910|log.op_boss_join|Ahmet walked in on the office party... and stayed for cake. Legendary.
+1911|log.op_boss_stop|Ahmet stormed in and shut the office party down.
+1912|log.op_no|{host} pitched an office party. {helper} shut it down immediately.
+1913|log.op_party|The impromptu office party is in full swing in the kitchen.
+1914|log.op_prep|{helper} quietly set up snacks in the kitchen for {host}'s secret party.
+1915|log.op_secret|The kitchen party went on for half an hour. Ahmet never found out. Probably.
+1916|log.op_spotted|Ahmet caught {helper} setting up party snacks. {helper} claimed it was 'the plant's birthday'. Ahmet looked unconvinced.
+1917|log.op_yes|{host} pitched an office party and {helper} said yes. Kitchen, 4 pm.
+1918|log.orgchart|Someone pinned an org chart showing {target} above Ahmet. Ahmet saw it.
+1919|log.overheard_call|{listener} overheard Burak's secret phone call.
+1920|log.overheard_self|{subject} walked in right as {actor} was gossiping about them.
+1921|log.overtime|{target} discovered they'd been put on the weekend overtime list. {target} is not taking it quietly.
+1922|log.packed|{actor} arrived at their desk to find everything packed in a cardboard box. The office assumes the worst.
+1923|log.packed_relief|Ahmet confirmed to {actor}: nobody's fired. Somebody just packed their desk. Relief — and suspicion.
+1924|log.pact|A signed 'alliance agreement' between {a} and {b} was found in the archive. The whole office knows now.
+1925|log.pages_joke|{actor}'s presentation pages were completely out of order. {actor} turned it into a joke — the room loved it.
+1926|log.pages_melt|{actor}'s presentation pages were scrambled. {actor} melted down in front of Ahmet.
+1927|log.paranoid_caught|{actor} caught {target} gossiping about them. Things got ugly.
+1928|log.paranoid_relief|{actor} thought {target} was gossiping about them. It was about football.
+1929|log.party_cancel|{target} had to tell {actor} the party doesn't exist. {actor} looked crushed.
+1930|log.party_yes|{target} gave in: there IS a party tonight now. The office is thrilled.
+1931|log.payroll_demand|{actor} marched into Ahmet's office with payroll numbers. Ahmet wants to know who leaked them.
+1932|log.payroll_read|Zeynep's payroll sheet landed in {target}'s inbox. {target} now knows exactly what {rich} earns.
+1933|log.pb_a|Ahmet picked {a}'s idea in the pitch battle. {b} is taking it badly.
+1934|log.pb_b|Ahmet picked {b}'s idea in the pitch battle. {a} lost their own challenge.
+1935|log.pb_both|Ahmet liked both pitches and told {a} and {b} to work together. Neither looks pleased.
+1936|log.pb_challenge|{a} challenged {b} to a pitch battle in front of Ahmet. {b} accepted.
+1937|log.pb_prep|{a} and {b} are both furiously preparing their pitches. Nobody dares to interrupt.
+1938|log.peace_made|{actor} offered {target} a peace coffee. They're talking again!
+1939|log.peace_rejected|{actor} tried to make peace with {target}. {target} wasn't ready.
+1940|log.perf_bad|Someone rewrote {actor}'s performance report into a disaster. Ahmet gave them a grim talk.
+1941|log.perf_good|Someone rewrote {actor}'s performance report to sparkle. Ahmet praised them; colleagues smell something off.
+1942|log.pet_alone|{accomplice} refused to help hide the kitten. {smuggler} is hiding it under their desk.
+1943|log.pet_furious|Ahmet found the kitten and exploded. The kitten went to {smuggler}'s neighbour. {smuggler} got a lecture.
+1944|log.pet_hidden|{smuggler} and {accomplice} hid a kitten in the archive. Several people now 'need files' every five minutes.
+1945|log.pet_melts|Ahmet found the kitten. He melted. The office has a new mascot.
+1946|log.pet_sneak|{smuggler} arrived with a suspicious cardboard box. The box is meowing.
+1947|log.photo|An embarrassing old photo of {owner} appeared in the office group chat. Everybody has seen it.
+1948|log.pizza|The meeting board promised free pizza. Everyone showed up early and hungry. There was no pizza.
+1949|log.plant|The dying office plant is suddenly green and healthy. {actor} noticed. Nobody knows who did it.
+1950|log.plate_panic|The manager's nameplate now says '{target}'. {target} spent the morning refusing other people's paperwork.
+1951|log.plate_power|The manager's nameplate now says '{target}'. People started bringing {target} their paperwork — and {target} enjoyed it.
+1952|log.player.break_coffee|You broke the coffee machine.
+1953|log.player.break_printer|You jammed the printer.
+1954|log.player.edit_promo|You doctored the promotion file in favour of {target}.
+1955|log.player.email_all|You rigged {actor}'s email to go to everyone.
+1956|log.player.email_redirect|You redirected {actor}'s next email to {target}.
+1957|log.player.fake_notif|You sent {actor} a fake notification.
+1958|log.player.fix_coffee|You secretly fixed the coffee machine.
+1959|log.player.lights_off|You turned off the lights.
+1960|log.player.lights_on|You turned the lights back on.
+1961|log.player.move_item|You moved {owner}'s {item} → {loc}.
+1962|log.player.move_meeting|You moved today's meeting from {old_time} to {new_time}.
+1963|log.player.set_temp|You set the AC to {temp}.
+1964|log.player.shuffle_files|You scrambled {actor}'s desk.
+1965|log.postpone|{target}'s performance review was postponed 'indefinitely'. {target} is reading a lot into it.
+1966|log.pp_dismiss|{climber} asked Ahmet about a promotion and got brushed off.
+1967|log.pp_flop|{climber}'s Kaya pitch fell apart in front of Ahmet.
+1968|log.pp_flop_sab|{climber}'s Kaya pitch fell apart — the notes had been sabotaged. Ahmet doesn't know that.
+1969|log.pp_great|{climber} nailed the Kaya pitch in the meeting room. Ahmet was visibly impressed.
+1970|log.pp_grind|{climber} is working like a machine on the Kaya pitch. Someone has noticed: {rival}.
+1971|log.pp_grind_solo|{climber} is working like a machine on the Kaya pitch.
+1972|log.pp_not_yet|Ahmet told {climber}: "Not yet." {climber} took it badly.
+1973|log.pp_promise|{climber} asked Ahmet about a promotion. He hinted it's theirs.
+1974|log.pp_prove|{climber} asked Ahmet about a promotion. Ahmet's answer: "Prove it." The race is on.
+1975|log.pp_sabotage|While {climber} was away, {rival} quietly wrecked their pitch notes.
+1976|log.pp_yes|Ahmet told {climber} they're next in line for team lead.
+1977|log.prankcall|Ahmet got a heavy-breathing prank call. The display said it came from {owner}'s extension.
+1978|log.present_bad|{actor} wasn't ready for the meeting.
+1979|log.present_good|{actor} nailed the presentation.
+1980|log.present_no_usb|{actor}'s presentation fell apart — the USB stick was missing.
+1981|log.printer_broken|{actor} found the printer jammed.
+1982|log.printer_ghostfix|{actor} found the broken printer mysteriously working again.
+1983|log.printer_kicked|{actor} kicked the printer in frustration.
+1984|log.printjob_mine|{owner}'s private file came out of the shared printer — luckily {owner} grabbed it first.
+1985|log.printjob_other|{actor} picked up {owner}'s private document from the printer tray. And read it.
+1986|log.proj_improv|The projector died just as {actor} started presenting. {actor} drew everything by hand. Impressive.
+1987|log.proj_panic|The projector died as {actor} started presenting. {actor} fell apart.
+1988|log.promise_dodge|{actor} confronted Ahmet with an old written promise. Ahmet wriggled out of it. {actor} is bitter.
+1989|log.promise_honour|{actor} dug up Ahmet's two-year-old promise and walked in with it. Ahmet honoured it!
+1990|log.promo_reviewed|Ahmet read the doctored promotion file. {credited} looks like a star now.
+1991|log.promo_tip|Ceren told {target} that the promotion file was changed.
+1992|log.promotion|{winner} was promoted to Team Lead!
+1993|log.promotion_rigged|The wrong person got rewarded — {honest} deserved it.
+1994|log.purge|Someone emptied the office fridge. {actor} rounded up the hungry and they all went out for lunch together.
+1995|log.pw_first|{p1} pranked {p2}'s desk. The prank war has begun.
+1996|log.pw_laugh|{p1}'s ultimate prank hit Ahmet instead of {p2}. Ahmet... laughed. The prank war ends as office legend.
+1997|log.pw_rage|{p1}'s ultimate prank hit Ahmet instead of {p2}. Both pranksters got a written warning.
+1998|log.pw_revenge|{p2} struck back at {p1} with a bigger prank. Nobody's desk is safe.
+1999|log.quiet_grudge|{actor} silently blames {suspect} for the mess.
+2000|log.quit_leverage|Ahmet panicked about {target}'s 'I quit' auto-reply and offered a raise on the spot. {target} said yes.
+2001|log.quit_read|{owner}'s email auto-reply now says 'I quit. Don't contact me.' Ahmet just read it.
+2002|log.quit_real|{target}'s fake 'I quit' auto-reply made them realise... maybe they do want to quit.
+2003|log.quit_relief|Ahmet stormed over about {target}'s 'I quit' auto-reply. It was a glitch. Everyone breathed again.
+2004|log.quit_vent|{actor} told {target} in the kitchen that they're thinking of quitting.
+2005|log.quit_vent_egged|{actor} vented about quitting — and {target} told them to go for it.
+2006|log.raise_later|{actor} asked for a raise. "Next quarter."
+2007|log.raise_no|{actor} asked for a raise and got shot down hard.
+2008|log.raise_yes|{actor} asked Ahmet for a raise — and got one. Quietly.
+2009|log.raiseletter|A raise letter meant for {rich} landed on {target}'s desk. {target} celebrated — until Zeynep corrected it.
+2010|log.reconcile|{actor} and {target} made up!
+2011|log.reconcile_fail|{actor} tried to apologise to {target}. Rejected.
+2012|log.recruiter|{actor} took a hushed call in the hallway. A recruiter.
+2013|log.recruiter_heard|{listener} overheard {actor} talking to a recruiter.
+2014|log.recycle_found|{actor}'s signed contract was found in the kitchen recycling. Coffee stain included.
+2015|log.reference_hurt|{target} found a reference letter from Ahmet recommending them 'for positions elsewhere'. They took it as a hint.
+2016|log.reference_use|{target} found a glowing reference letter from Ahmet — and started applying for other jobs with it.

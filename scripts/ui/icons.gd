@@ -26,6 +26,19 @@ static func draw(ci: CanvasItem, name: String, c: Vector2, s: float, col := INK)
 				pts.append(c + Vector2(cos(a), sin(a)) * rr)
 			ci.draw_colored_polygon(pts, col)
 			ci.draw_circle(c, r * 0.45, Color("fffdf5"))
+		"globe":
+			var gr := s * 0.38
+			ci.draw_circle(c, gr, Color("fffdf5"))
+			ci.draw_arc(c, gr, 0, TAU, 28, col, w, true)
+			ci.draw_line(c + Vector2(-gr, 0), c + Vector2(gr, 0), col, w * 0.8, true)
+			ci.draw_line(c + Vector2(0, -gr), c + Vector2(0, gr), col, w * 0.8, true)
+			var ell := PackedVector2Array()
+			for i in 25:
+				var a2 := TAU * i / 24.0
+				ell.append(c + Vector2(cos(a2) * gr * 0.45, sin(a2) * gr))
+			ci.draw_polyline(ell, col, w * 0.8, true)
+			ci.draw_line(c + Vector2(-gr * 0.86, -gr * 0.5), c + Vector2(gr * 0.86, -gr * 0.5), col, w * 0.6, true)
+			ci.draw_line(c + Vector2(-gr * 0.86, gr * 0.5), c + Vector2(gr * 0.86, gr * 0.5), col, w * 0.6, true)
 		"pin":
 			ci.draw_circle(c + Vector2(0, -s * 0.12), s * 0.26, col)
 			ci.draw_line(c + Vector2(0, s * 0.1), c + Vector2(0, s * 0.42), col, w, true)

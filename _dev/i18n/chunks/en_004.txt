@@ -1,0 +1,150 @@
+1047|arc.forced_partners|Forced Partners
+1048|arc.forced_partners.teaser|Ahmet has paired {a} and {b} on a project. They can't stand each other.
+1049|arc.fridge_war|The Fridge War
+1050|arc.fridge_war.teaser|{victim} thinks {signer} threw out everyone's lunch.
+1051|arc.ghost_hunt|The Ghost Hunt
+1052|arc.ghost_hunt.teaser|{believer} is convinced the office is haunted.
+1053|arc.headhunted|Headhunted
+1054|arc.headhunted.teaser|{seeker} keeps checking their phone. A recruiter, maybe?
+1055|arc.hq_inspection|The HQ Inspection
+1056|arc.hq_inspection.teaser|HQ is inspecting the office tomorrow. {slob}'s desk is a disaster.
+1057|arc.karaoke_night|Karaoke After Work
+1058|arc.karaoke_night.teaser|{host} is organising karaoke. {shy} has a secret.
+1059|arc.layoff_panic|Layoff Panic
+1060|arc.layoff_panic.teaser|{ear} is hovering near Ahmet's office, listening...
+1061|arc.leak_scandal|The Leak
+1062|arc.leak_scandal.teaser|A confidential document turned up in {leaker}'s shared folder.
+1063|arc.lottery_pool|The Lottery Pool
+1064|arc.lottery_pool.teaser|{organiser} runs the office lottery pool. {dreamer} is already spending the winnings.
+1065|arc.love_triangle|The Love Triangle
+1066|arc.love_triangle.teaser|{lover} and {rival} both have their eye on {crush}.
+1067|arc.loyalty_test|The Loyalty Test
+1068|arc.loyalty_test.teaser|Ahmet is convinced {target} wants to leave — so he's testing them.
+1069|arc.lunch_mystery|Who Stole the Lunch?
+1070|arc.lunch_mystery.teaser|{victim}'s lunch is gone and {victim} wants justice.
+1071|arc.mentor_mismatch|The Mentor Mismatch
+1072|arc.mentor_mismatch.teaser|Ahmet has made {mentor} mentor {mentee}. Neither is thrilled.
+1073|arc.mentor_protect|Covering for the Kid
+1074|arc.mentor_protect.teaser|{protege} is about to make a mistake in {mentor}'s report.
+1075|arc.missing_contract|The Missing Contract
+1076|arc.missing_contract.teaser|{owner} is about to discover something important is missing...
+1077|arc.mug_coverup|The Broken Mug Cover-up
+1078|arc.mug_coverup.teaser|{breaker} broke Ahmet's favourite mug. {friend} is helping hide it.
+1079|arc.niece_secret|The Boss's Niece
+1080|arc.niece_secret.teaser|Ece has a secret. And she's terrible at keeping it.
+1081|arc.noise_war|The Noise War
+1082|arc.noise_war.teaser|{quiet} can't concentrate. {loud} can't stop talking.
+1083|arc.office_coup|The Coup
+1084|arc.office_coup.teaser|{usurper} has decided the office needs new leadership.
+1085|arc.office_party|The Office Party
+1086|arc.office_party.teaser|{host} wants to throw a party. In the office. Today.
+1087|arc.office_pet|The Office Kitten
+1088|arc.office_pet.teaser|{smuggler} has smuggled a kitten into the office.
+1089|arc.office_romance|Office Romance
+1090|arc.office_romance.teaser|{lover} keeps glancing at {crush}. Something's brewing.
+1091|arc.pitch_battle|The Pitch Battle
+1092|arc.pitch_battle.teaser|{a} and {b} each think they have the better idea. Ahmet will decide.
+1093|arc.prank_war|The Prank War
+1094|arc.prank_war.teaser|{p1} pranked {p2}. {p2} will not let this go.
+1095|arc.promotion_push|Gunning for Team Lead
+1096|arc.promotion_push.teaser|{climber} is working up the nerve to ask Ahmet about team lead.
+1097|arc.resignation|The Resignation Letter
+1098|arc.resignation.teaser|{quitter} looks like they've had enough of this place.
+1099|arc.revenge_plot|Revenge Is Sweet
+1100|arc.revenge_plot.teaser|{avenger} hasn't forgiven {victim}. Not even close.
+1101|arc.rumor_war|The Rumour War
+1102|arc.rumor_war.teaser|{gossip} and {enemy} are trading rumours about each other.
+1103|arc.salary_revolt|The Salary Revolt
+1104|arc.salary_revolt.teaser|{leader} thinks it's time everyone stood up together.
+1105|arc.secret_admirer|The Secret Admirer
+1106|arc.secret_admirer.teaser|Someone has been leaving anonymous notes for {beloved}.
+1107|arc.secret_alliance|The Secret Alliance
+1108|arc.secret_alliance.teaser|{schemer} wants a quiet word with {partner}.
+1109|arc.side_hustle|The Side Hustle
+1110|arc.side_hustle.teaser|{seller} is running a baklava business from their desk.
+1111|arc.speaker_confession|The Speakerphone Confession
+1112|arc.speaker_confession.teaser|{owner}'s most private phone call is about to go very public.
+1113|arc.stolen_idea|The Stolen Idea
+1114|arc.stolen_idea.teaser|{thief} has been eyeing {victim}'s client proposal...
+1115|arc.wrong_promotion|The Wrong Promotion
+1116|arc.wrong_promotion.teaser|Ahmet just announced a promotion nobody expected — not even the winner.
+1117|log.accuse_calm|{actor} accused {target}, who calmly denied it.
+1118|log.admirer_awkward|{actor} asked {target} if they were the admirer. Very awkward.
+1119|log.admirer_sweet|{actor} asked {target} if they were the admirer. Sparks!
+1120|log.agenda_boss|Ahmet found someone had rewritten his meeting agenda. He wants a name.
+1121|log.agenda_read|{actor} read today's meeting agenda on the board — someone had changed it.
+1122|log.alarm|The fire alarm went off. The whole office evacuated to the reception.
+1123|log.alarm_gather|Everyone stood around in reception after the false fire alarm. Lots of chatting. No fire.
+1124|log.alarm_meeting|{owner}'s phone alarm went off mid-meeting: 'WAKE UP! WAKE UP!' Ahmet was not amused.
+1125|log.alarm_over|The alarm stopped. False alarm. Ahmet wants to know who pulled it.
+1126|log.alliance|{actor} and {target} made a secret pact against {enemy} in the archive.
+1127|log.alliance_refused|{actor} proposed a secret pact against {enemy}. {target} said no — and now knows what {actor} is up to.
+1128|log.apology_wrong|{owner}'s apology letter to {foe} landed on {target}'s desk instead. {foe} is still waiting for it.
+1129|log.app_cold|Ahmet confronted {target} about the job application. It went cold and ugly.
+1130|log.app_counter|Ahmet confronted {target} about the job application — then made a counter-offer to keep them.
+1131|log.app_found|{applicant}'s secret job application turned up on Ahmet's desk.
+1132|log.approve_cheer|{owner} received an email from Ahmet: 'Approved!' — for a {what} Ahmet never agreed to.
+1133|log.approve_fallout|Ahmet found out {owner} thinks their {what} was approved. It wasn't. Awkward meeting.
+1134|log.archive_fight|{actor} and {target} both needed the misfiled archive. They ended up fighting over the piles.
+1135|log.archive_found|{actor} searched everywhere for their printed report. It had been filed in the archive under 'Z'.
+1136|log.archive_mess|{actor} found the archive completely misfiled. Searching for anything takes forever now.
+1137|log.archive_team|{actor} and {target} both got lost in the misfiled archive — and sorted it out together.
+1138|log.argument|{actor} and {target} had a heated argument!
+1139|log.argument_email|{actor} and {target} fought over the email.
+1140|log.argument_grudge|Old grudges flared: {actor} vs. {target}.
+1141|log.audit_confess|Ahmet found the hole in Zeynep's numbers. She confessed.
+1142|log.audit_deflect|Ahmet found the hole in Zeynep's numbers. She blamed Ece.
+1143|log.author_correct|Ahmet praised {target} for {owner}'s project. {target} set the record straight. Respect.
+1144|log.author_take|Ahmet praised {target} for {owner}'s project (the author's name had changed). {target} just... said thank you.
+1145|log.award|{winner} was named Employee of the Week.
+1146|log.baby_boss_mad|Ahmet saw his baby photo all over the office. He is hunting for the culprit.
+1147|log.baby_boss_ok|Ahmet saw his baby photo all over the office... and laughed. First time anyone's seen that.
+1148|log.baby_found|The printer spat out 500 copies of a baby photo. It's Ahmet. In a sailor suit. Copies are spreading.
+1149|log.bae_amused|{owner}'s email to Ahmet started 'Dear Ahmet Bae'. Ahmet was... oddly amused.
+1150|log.bae_offended|{owner}'s email to Ahmet started 'Dear Ahmet Bae'. Ahmet was not amused.
+1151|log.battery|{actor}'s phone died out of nowhere. They 'borrowed' Burak's charger without asking.
+1152|log.bc2_accept|{leader} talked Ahmet into a bake sale to save the coffee. The office is cautiously optimistic.
+1153|log.bc2_announce|Ahmet announced budget cuts: no more free coffee. The office reacted as if he'd cancelled oxygen.
+1154|log.bc2_grumble|The coffee-less office gathered in the kitchen to grumble. {leader} wants to do something about it.
+1155|log.bc2_reject|{leader} proposed a bake sale to save the coffee. Ahmet said no. Morale has hit the floor.
+1156|log.bc_clash|{rebel} stood up and told Ahmet off in front of the whole office. Everyone froze.
+1157|log.bc_hover|Ahmet is hovering over {rebel}'s desk. Again. {rebel} is reaching boiling point.
+1158|log.bc_sides|{ally} backed {rebel} up in front of Ahmet. A few others nodded. Ahmet looks shaken.
+1159|log.bc_truce|Behind closed doors, Ahmet admitted he'd been too much. {rebel} walked out smiling.
+1160|log.bc_vent_calm|{rebel} vented to {ally} about Ahmet. {ally} talked them down.
+1161|log.bc_vent_egg|{rebel} vented to {ally} about Ahmet. {ally} told them to stand up to him.
+1162|log.bc_warning|Behind closed doors, Ahmet gave {rebel} a final warning. {rebel} walked out pale.
+1163|log.bd_almost|{organizer} hid {bday}'s cake in the fridge. {snacker} nearly ate it.
+1164|log.bd_collect|{organizer} is quietly collecting money and signatures for {bday}'s surprise.
+1165|log.bd_collect_blab|{organizer} recruited {helper} for {bday}'s surprise. {helper} is famously bad at secrets.
+1166|log.bd_hide|{organizer} hid {bday}'s birthday cake in the fridge.
+1167|log.bd_missed|The office gathered in the kitchen for {bday}'s surprise party. {bday} never showed up.
+1168|log.bd_party|Surprise! The office threw {bday} a birthday party in the kitchen. Even Ahmet had cake.
+1169|log.bd_party_leak|The office threw {bday} a surprise birthday party. Thanks to {helper}, it wasn't much of a surprise — but {bday} loved it.
+1170|log.bd_plan|{organizer} found out it's {bday}'s birthday and is secretly organising a surprise.
+1171|log.bestboss|A 'World's Best Boss' mug appeared on Ahmet's desk 'from {target}'. Ahmet loved it. The office rolled its eyes.
+1172|log.bet_pool|{actor} started a betting pool on the next promotion. {target} placed a bet.
+1173|log.bet_pool_caught|{actor}'s promotion betting pool was discovered by Ahmet.
+1174|log.bg_complaint|A client called Ahmet, furious: the numbers we sent were wrong. (It was {culprit}'s spreadsheet.)
+1175|log.bg_confessed|{culprit} walked into Ahmet's office and admitted the wrong figures were theirs.
+1176|log.bg_hide|{culprit} kept their head down. Ahmet is now looking at {scapegoat}.
+1177|log.bg_hunt|Ahmet stood in the middle of the office demanding to know who sent the wrong figures.
+1178|log.bg_injustice|Ahmet blamed {scapegoat} for the wrong figures. {scapegoat} took it — but it was {culprit}.
+1179|log.bg_proof|Ahmet accused {scapegoat} of the wrong figures. {scapegoat} told him to check the file history.
+1180|log.bg_shift|{culprit} quietly told Ahmet that {scapegoat} sent the wrong figures. It was {culprit}.
+1181|log.bg_truth|The file history doesn't lie: the figures were {culprit}'s. Ahmet now knows {culprit} let {scapegoat} take the blame.
+1182|log.big_fight|The office erupted into a big fight!
+1183|log.blame_shift|{target} got scolded — and blamed {suspect} for it. {suspect} had nothing to do with it.
+1184|log.bonk|{actor} walked face-first into the meeting room glass.
+1185|log.boss_blames_ceren|Ahmet blamed Ceren for the meeting mix-up.
+1186|log.boss_confused_annoyed|Ahmet snapped at {actor} for showing up uninvited.
+1187|log.boss_confused_friendly|{actor} showed up at Ahmet's office and they had a nice chat.
+1188|log.boss_idle_scold|Ahmet caught {target} slacking off.
+1189|log.boss_late|Ahmet was late to his own meeting.
+1190|log.boss_late_blame|Ahmet was late to his own meeting and blamed Ceren.
+1191|log.boss_learns_job|Ahmet found out Burak is job hunting.
+1192|log.boss_outburst|Ahmet exploded at the whole office.
+1193|log.boss_praise|Ahmet praised {target}.
+1194|log.boss_review|Ahmet found out headquarters is reviewing him.
+1195|log.brag|{actor} went over to {target}'s desk to brag. The rivalry is heating up.
+1196|log.bu_makeup|{a} and {b} had a small fight in the lounge — and made up two minutes later.
