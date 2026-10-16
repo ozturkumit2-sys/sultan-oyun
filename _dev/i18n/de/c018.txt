@@ -1,0 +1,263 @@
+3321|Oh! Klar! Ich ... krieg das schon hin!
+3322|Äh. Okay. Wie schwer kann das schon sein?
+3323|... Na gut. Mal wieder.
+3324|Achtung! Ab heute: keine persönlichen Tassen mehr in der Küche.
+3325|Neue Regel: Meetings beginnen fünf Minuten FRÜHER. Immer.
+3326|Ab sofort dauert die Mittagspause dreißig Minuten. Nicht fünfunddreißig.
+3327|Mit sofortiger Wirkung: keine Kopfhörer am Schreibtisch.
+3328|Ist das ein Witz?
+3329|Das ist lächerlich.
+3330|Und wieder geht’s los.
+3331|Wer denkt sich so was aus?
+3332|... Keine Kopfhörer. Wunderbar.
+3333|Und was ist mit Seelentröster-Tassen?
+3334|Das schreibe ich mir auf. Für die Nachwelt.
+3335|Gute Idee, Ahmet Bey.
+3336|Ergibt Sinn!
+3337|Disziplin ist wichtig.
+3338|Hervorragende Regelung. Längst überfällig.
+3339|Wettbüro! Wer kriegt die nächste Beförderung? Fünf Lira.
+3340|Die Bürowette ist eröffnet. Selin oder Deniz?
+3341|Macht eure Einsätze, Leute.
+3342|Meine Damen und Herren, die Beförderungswette ist ERÖFFNET.
+3343|Schreib mich für Selin auf.
+3344|Deniz. Der findet einen Weg.
+3345|Zehn auf den Außenseiter.
+3346|Ich wette doch nicht auf meine Kollegen! ... Na gut, fünf.
+3347|Ist das etwa ein WETTBÜRO in meinem Büro?
+3348|Mert. Mein Büro. Sofort.
+3349|Drei Abschlüsse vor dem Mittagessen. Und du so?
+3350|Ahmet Bey fand meine Zahlen super. Nur so nebenbei.
+3351|Hast du meinen Bericht gesehen? Jeder hat ihn gesehen.
+3352|Komisch, wie meine Zahlen deine immer schlagen.
+3353|Ich würde dir ja helfen, aber du wirkst so ... beschäftigt.
+3354|Mein Kunde hat verlängert. Zwei Jahre. Toppen kannst du das nicht.
+3355|Glückwunsch. Willst du eine Medaille?
+3356|Toll. Und jetzt das Ganze, ohne jemandem die Folien zu klauen.
+3357|Wow. Hast du auch den Kaffee erfunden?
+3358|Reden ist billig. Die Ergebnisse liegen auf meinem Schreibtisch.
+3359|Süß. Meld dich, wenn du Senior bist.
+3360|Mhm. Schön für dich.
+3361|... Okay.
+3362|Ich hab zu tun.
+3363|Mal sehen, wie dir das gefällt ...
+3364|Ups. Wie ungeschickt von mir.
+3365|Zeit für die Rache.
+3366|Nichts Persönliches. Nur Geschäft.
+3367|Hehe. Das wird gut.
+3368|Mal sehen, wie lange es dauert, bis es auffällt ...
+3369|Bei Comedy kommt es aufs Timing an.
+3370|Heute zusammen Mittag essen?
+3371|Lust auf Mittagessen? Ich lad dich ein. Teilweise.
+3372|Dönerbude? Du und ich?
+3373|Darf ich mich beim Mittagessen zu dir setzen?
+3374|Mittagessen? Ich kenne einen, der einen kennt, der super Lahmacun macht.
+3375|Ja! Bitte. Rette mich vor meinem Schreibtisch.
+3376|Klar, gehen wir.
+3377|Abgemacht.
+3378|Sorry, ich esse heute am Schreibtisch.
+3379|Geht nicht, Deadline.
+3380|Vielleicht morgen?
+3381|Siehst aus, als bräuchtest du das. Simit.
+3382|Hier — Schokolade. Ärztliche Anordnung.
+3383|Hab dir einen Snack mitgebracht. Atme.
+3384|Ich hab Kekse gebacken! Sie sind ... größtenteils keksförmig.
+3385|Tee und ein Keks. Fünf Minuten Pause. Los.
+3386|Du bist ein Engel.
+3387|Oh, danke. Wirklich.
+3388|Das hab ich dringender gebraucht, als du denkst.
+3389|... Danke. Ernsthaft.
+3390|Weißt du noch, die Sache mit dem Faxgerät?
+3391|Sag es. Sag das Ding.
+3392|... Ananas.
+3393|Nächstes Jahr, gleiche Zeit?
+3394|HAHAHA, hör auf!
+3395|Ich krieg keine Luft!
+3396|Jedes Mal!
+3397|*japst vor Lachen*
+3398|Oh, {actor} ist schon seit früh da — {actor?er|sie} holt gerade die Kundenakten für mich.
+3399|Das geht auf mich — ich hab {actor} zur Bank geschickt.
+3400|{actor} war da! Im Archiv. Überall Staub.
+3401|Netter Versuch. Sehr netter Versuch.
+3402|Ich bin doch nicht von gestern.
+3403|Mhm. Alle beide, zurück an die Arbeit.
+3404|Hm. Na gut.
+3405|Nächstes Mal sagen Sie mir vorher Bescheid.
+3406|Ach so. Na dann.
+3407|Hab gehört, Ahmet fand deine Arbeit super. Gut gemacht!
+3408|Schau dich an, Star des Tages!
+3409|Glückwunsch! Hast du dir verdient.
+3410|Danke! Das bedeutet mir viel.
+3411|Ach, danke!
+3412|Ha, danke.
+3413|Kannst du ein Geheimnis für dich behalten? So richtig?
+3414|Unter uns. Versprochen?
+3415|Ich muss es jemandem erzählen, sonst platze ich.
+3416|{fact}
+3417|Also ... {fact}
+3418|Okay. {fact} Sag’s keinem.
+3419|Meine Lippen sind versiegelt.
+3420|Ich sag kein Wort.
+3421|Wow. Okay. Bei mir ist es sicher.
+3422|NIEMALS.
+3423|Hör auf. Echt jetzt?!
+3424|Oh, das ist pikant.
+3425|Einfach ... hier liegen lassen. Anonym. Elegant.
+3426|Kein Name. Geheimnisvoll. Perfekt.
+3427|Okay. Okay. Zettel hinlegen. RENNEN.
+3428|Ein Zettel? „Mit dir sind Montage erträglich.“ ... Von wem?!
+3429|Wer hat das auf meinen Schreibtisch gelegt?
+3430|„Hab einen schönen Tag :)“ — kein Name?
+3431|Hi. Benimm dich normal.
+3432|Fünf Minuten. Keiner schaut.
+3433|Ich hab dir den letzten Simit aufgehoben.
+3434|Ist es komisch, dass ich das geübt habe?
+3435|Wir haben genau vier Minuten, bevor Ahmet mich braucht.
+3436|Selber hi.
+3437|Du bist albern. Danke.
+3438|Psst, da kommt jemand.
+3439|Sieh mal einer an ...
+3440|Ohoo! Was haben wir denn da?
+3441|Ich WUSSTE es.
+3442|Weihnachten kommt dieses Jahr früher.
+3443|Seit wann sind DIE beste Freunde?
+3444|Ach, {actor} hat also einen neuen Liebling.
+3445|Hmpf. So ist das also.
+3446|... Mich haben sie nicht eingeladen.
+3447|Burak ersetzt mich? Durch IHN?
+3448|Süß. Echt süß. Ihr zwei.
+3449|Ich hoffe, ihr werdet glücklich miteinander.
+3450|Lasst euch nicht stören. Ich hol nur Wasser.
+3451|... Glückwunsch, schätze ich.
+3452|Äh ... danke?
+3453|Stimmt was nicht?
+3454|Okay, was soll dieser Ton?
+3455|Wow, noch ein Meeting. Mein Lieblingshobby.
+3456|Toll, was du mit deinem Schreibtisch gemacht hast. Sehr ... mutig.
+3457|Tolles Hemd. Mutige Wahl für einen Erwachsenen.
+3458|Schöne Krawatte! Wette verloren?
+3459|Oh, DAS ziehst du an? Mutig.
+3460|Interessanter Ansatz für den Bericht. Sehr ... kreativ.
+3461|... Wie bitte?
+3462|Wow. Okay. Danke.
+3463|Sollte das lustig sein?
+3464|Das merk ich mir.
+3465|Das denkst du also von mir?
+3466|Das war ein WITZ!
+3467|Scherz! War nur ein Scherz!
+3468|Oh nein, das kam falsch rüber.
+3469|Ha! Fair.
+3470|Frech. Zutreffend, aber frech.
+3471|Hahaha, okay, erwischt.
+3472|Ceren! Äh— Ece. Wer auch immer. Bringen Sie mir die Akte.
+3473|Selin, die— Zeynep. Ja. Sie.
+3474|Mert! Ich meine Burak. Der Computermann.
+3475|... Ich heiße übrigens {target}.
+3476|Immer noch {target}. Seit drei Jahren.
+3477|Fast richtig, schätze ich.
+3478|Schon okay! Das macht jeder! ... Oder?
+3479|Ich schwör’s, noch so ein Tag und ich kündige.
+3480|Ich aktualisiere heute Abend meinen Lebenslauf. Im Ernst.
+3481|Warum arbeite ich überhaupt hier?
+3482|Schlimmer als hier kann der Arbeitsmarkt nicht sein.
+3483|Wenn die Beförderung nicht kommt, bin ich weg.
+3484|Ich könnte eine viel nettere Firma prüfen.
+3485|Hey. Entscheide nichts im Zorn. Schlaf eine Nacht drüber.
+3486|Ohne dich würden wir auseinanderfallen, weißt du.
+3487|Komm schon. Döner nach Feierabend. Geht auf mich.
+3488|Ehrlich? Mach’s. Du bist hier verschwendet.
+3489|An deiner Stelle wäre ich längst weg.
+3490|Zeig’s ihnen. Geh einfach.
+3491|Du solltest unbedingt gehen. Zu deinem eigenen Besten.
+3492|Lebenslauf ... „ausgezeichneter Teamplayer“. Ha.
+3493|Mal schauen, was es da draußen so gibt.
+3494|Ich aktualisiere meinen Lebenslauf. Nur für alle Fälle.
+3495|Ist das ein Jobportal auf deinem Bildschirm?
+3496|Uuh, LinkedIn. Interessant.
+3497|Suchst du was?
+3498|Was? Nein! Das ist ... Recherche.
+3499|Das ist für jemand anderen!
+3500|Kümmer dich um deinen eigenen Bildschirm.
+3501|Ja, am Apparat. Donnerstag passt.
+3502|Gehalt? Darüber sprechen wir persönlich.
+3503|Nein, ich kann reden. Leise.
+3504|Ja, ich kann in einem Monat anfangen. ... Nein, die wissen nichts davon.
+3505|War das ein Headhunter?!
+3506|Donnerstag? Vorstellungsgespräch?
+3507|Ohhh. Da geht wohl jemand.
+3508|Wo ist mein Bericht?! Der lag genau hier!
+3509|Mein Ordner ist WEG.
+3510|Hat jemand einen blauen Ordner gesehen?
+3511|Meine Rechnungen. Meine kostbaren Rechnungen. WO.
+3512|Ich hab ihn hierhin gelegt. Ich leg ihn immer hierhin.
+3513|Gefunden — abgelegt unter „Sonstiges“?! Wer war das?
+3514|Im ARCHIV. Unter Q. Q!
+3515|Das hat {suspect} abgelegt. Ich kenne diese Handschrift.
+3516|... Oh. Er war in meiner eigenen Schublade.
+3517|Gefunden. Genau da, wo ich ihn hingelegt hab. Sag nichts.
+3518|Ah. Mein Fehler.
+3519|Er ist weg. Komplett weg.
+3520|Ich muss das Ganze noch mal machen.
+3521|Das ist ein Albtraum.
+3522|Oh nein. Oh nein, nein, nein. Das war ALLEN ANTWORTEN.
+3523|Warum ging das an ALLE?!
+3524|Rückgängig. RÜCKGÄNGIG. Wo ist Rückgängig?!
+3525|... Das Katzenvideo war nur für Burak gedacht.
+3526|Ich hab meinen Einkaufszettel an die ganze Firma geschickt.
+3527|HAHAHA, die Katze!
+3528|Oh, das kommt in die Ruhmeshalle.
+3529|Haben das alle bekommen?
+3530|Danke für das ... Video?
+3531|... Ha. Okay, die Katze ist lustig.
+3532|Löschen Sie das. ... Nachdem ich es mir noch mal angeschaut habe.
+3533|Wenn ich darf — ich glaube, was hier eigentlich gesagt werden SOLL, ist ...
+3534|Ich steig hier mal kurz ein, denn die eigentliche Erkenntnis stammt von mir.
+3535|Sorry, dass ich unterbreche, aber die Idee hatte ich zuerst.
+3536|Erlauben Sie mir, diese Präsentation zu retten.
+3537|Entschuldigung, ich bin noch nicht fertig.
+3538|ICH präsentiere gerade, danke.
+3539|Lass das bitte.
+3540|Fragen beantworte ich am ENDE.
+3541|Nein, nein, lassen Sie reden. Interessant.
+3542|Fahren Sie fort, Deniz.
+3543|Lassen Sie ausreden.
+3544|Warten Sie, bis Sie dran sind.
+3545|Deniz. Setzen.
+3546|Zzz ... chrrr ... zzz ...
+3547|*schnaaarch*
+3548|... mmh, noch fünf Minuten ...
+3549|Schnarcht ... schnarcht da etwa jemand?
+3550|Hahaha!
+3551|Psst, lasst schlafen. Das ist so niedlich.
+3552|LANGWEILEN wir Sie?
+3553|Aufwachen! Das ist ein Meeting, kein Hotel.
+3554|Kaffee. Sofort.
+3555|♪ Klingeling-ding, geh endlich ran! ♪
+3556|♪ BAKA BAKA BAKA ♪
+3557|*Handy spielt eine schreiende Ziege ab*
+3558|Sorry! Sorry! Mein Neffe hat das eingestellt!
+3559|Das ist nicht meins. ... Doch, ist es.
+3560|Ich kann das erklären!
+3561|Entschuldigung, ich habe diesen Raum gebucht.
+3562|Ich habe den Raum bis elf.
+3563|Dieser Raum ist reserviert. Für mich.
+3564|Nein, ich hab ihn gebucht. Schau in den Kalender.
+3565|Ich hab ihn schon seit Montag gebucht!
+3566|Dann lügt der Kalender.
+3567|Na gut. Du nimmst die linke Hälfte.
+3568|Okay, okay — jeder zehn Minuten.
+3569|Machen wir kein Drama draus.
+3570|Ich geh nicht.
+3571|Ich auch nicht.
+3572|Das ist lächerlich.
+3573|Fairerweise, Ahmet Bey: {suspect} hat mir die Daten nie geschickt.
+3574|Ich hab auf {suspect} gewartet. Fragen Sie {suspect?ihn|sie}.
+3575|Das ist nicht meine Schuld — {suspect} hat es verbockt.
+3576|Ich sag’s ungern, aber {suspect} war in letzter Zeit ... unzuverlässig.
+3577|Wie BITTE?!
+3578|Willst du mich veräppeln?
+3579|Das ist eine glatte Lüge!
+3580|Ahmet Bey, das geht teilweise auf mich. Ich habe die falschen Zahlen geliefert.
+3581|Seien Sie nachsichtig — heute Morgen musste da noch meine Arbeit mit erledigt werden.
+3582|Bei allem Respekt, das lag nicht nur an einer Person.
+3583|Ahmet Bey, die Terminänderung kam von mir.

@@ -232,7 +232,7 @@
 3552|boss_wake_up|_|0|Are we BORING you?
 3553|boss_wake_up|_|1|Wake up! This is a meeting, not a hotel.
 3554|boss_wake_up|_|2|Coffee. Now.
-3555|ringtone|_|0|♪ I'm a Barbie girl... ♪
+3555|ringtone|_|0|♪ Ring-a-ding-ding, answer the thing! ♪
 3556|ringtone|_|1|♪ BAKA BAKA BAKA ♪
 3557|ringtone|_|2|*phone plays a goat screaming*
 3558|ringtone_sorry|_|0|Sorry! Sorry! My nephew changed it!

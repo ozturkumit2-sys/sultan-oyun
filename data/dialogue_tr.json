@@ -2457,5 +2457,642 @@
   "deniz": [
    "{to}, bu CV'nde harika görünecek."
   ]
+ },
+ "buck_taken": {
+  "_": [
+   "Ah! Tabii! Ben... bir yolunu bulurum!",
+   "Şey. Tamam. Ne kadar zor olabilir ki?"
+  ],
+  "burak": [
+   "...Peki. Yine."
+  ]
+ },
+ "rule_announce": {
+  "_": [
+   "Dikkat! Bugünden itibaren mutfakta kişisel kupa yok.",
+   "Yeni kural: toplantılar beş dakika ERKEN başlar. Her zaman.",
+   "Bundan sonra öğle arası otuz dakika. Otuz beş değil.",
+   "Derhâl geçerli: masalarda kulaklık yok."
+  ]
+ },
+ "rule_grumble": {
+  "_": [
+   "Ciddi misiniz?",
+   "Bu çok saçma.",
+   "Yine başlıyoruz.",
+   "Bunları kim uyduruyor?"
+  ],
+  "burak": [
+   "...Kulaklık yok. Harika."
+  ],
+  "mert": [
+   "Peki ya duygusal destek kupaları?"
+  ],
+  "zeynep": [
+   "Bunu not ediyorum. Gelecek nesiller için."
+  ]
+ },
+ "rule_support": {
+  "_": [
+   "İyi fikir, Ahmet Bey.",
+   "Mantıklı!",
+   "Disiplin önemlidir."
+  ],
+  "deniz": [
+   "Mükemmel bir politika. Çoktan gelmesi gerekiyordu."
+  ]
+ },
+ "bet_pitch": {
+  "_": [
+   "Bahis havuzu! Bir sonraki terfiyi kim alacak? Beş lira.",
+   "Ofis bahsi açıldı. Selin mi, Deniz mi?",
+   "Bahislerinizi yapın, millet."
+  ],
+  "mert": [
+   "Hanımlar beyler, terfi bahsi AÇILMIŞTIR."
+  ]
+ },
+ "bet_place": {
+  "_": [
+   "Beni Selin'e yazın.",
+   "Deniz. O bir yolunu bulur.",
+   "Sürpriz isme on lira.",
+   "İş arkadaşlarıma bahis oynamam! ...Peki, beş."
+  ]
+ },
+ "bet_boss_caught": {
+  "_": [
+   "Ofisimde BAHİS mi dönüyor?",
+   "Mert. Odama. Hemen."
+  ]
+ },
+ "brag_line": {
+  "_": [
+   "Öğle yemeğinden önce üç satış kapattım. Ya sen?",
+   "Ahmet Bey rakamlarıma bayıldı. Söylemiş olayım.",
+   "Raporumu gördün mü? Herkes gördü."
+  ],
+  "deniz": [
+   "Komik, benim rakamlarım hep seninkileri geçiyor.",
+   "Yardım teklif ederdim ama... meşgul görünüyorsun."
+  ],
+  "selin": [
+   "Müşterim yeniledi. İki yıl. Geç bakalım."
+  ]
+ },
+ "brag_retort": {
+  "_": [
+   "Tebrikler. Madalya ister misin?",
+   "Harika. Şimdi bir de kimsenin slaytlarını çalmadan yap.",
+   "Vay. Kahveyi de sen mi icat ettin?"
+  ],
+  "deniz": [
+   "Tatlı. Kıdemli olunca ararsın."
+  ],
+  "selin": [
+   "Laf ucuz. Sonuçlar masamda."
+  ]
+ },
+ "brag_ignore": {
+  "_": [
+   "Hı hı. Aferin sana.",
+   "...Tamam.",
+   "Meşgulüm."
+  ]
+ },
+ "sabotage_mutter": {
+  "_": [
+   "Bakalım bu nasıl hoşuna gidecek...",
+   "Hay aksi. Ne sakarım.",
+   "Ödeşme zamanı."
+  ],
+  "deniz": [
+   "Kişisel değil. Sadece iş."
+  ]
+ },
+ "hide_prank_think": {
+  "_": [
+   "Hehe. Bu çok iyi olacak.",
+   "Bakalım ne kadar sürede fark edecekler...",
+   "Komedi tamamen zamanlamadır."
+  ]
+ },
+ "lunch_ask": {
+  "_": [
+   "Bugün birlikte öğle yemeği?",
+   "Öğle yemeğine çıkalım mı? Benden. Kısmen.",
+   "Kebapçı? Sen ve ben?"
+  ],
+  "ece": [
+   "Öğle yemeğinde yanına oturabilir miyim?"
+  ],
+  "mert": [
+   "Öğle yemeği? Harika lahmacun yapan birini tanıyan birini tanıyorum."
+  ]
+ },
+ "lunch_yes": {
+  "_": [
+   "Evet! Lütfen. Kurtar beni masamdan.",
+   "Tabii, gidelim.",
+   "Anlaştık."
+  ]
+ },
+ "lunch_no": {
+  "_": [
+   "Kusura bakma, bugün masamda yiyorum.",
+   "Olmaz, teslim var.",
+   "Belki yarın?"
+  ]
+ },
+ "snack_offer": {
+  "_": [
+   "Buna ihtiyacın var gibi görünüyor. Simit.",
+   "Al — çikolata. Doktor tavsiyesi.",
+   "Sana atıştırmalık getirdim. Nefes al."
+  ],
+  "ceren": [
+   "Çay ve bisküvi. Beş dakika mola. Hadi."
+  ],
+  "ece": [
+   "Kurabiye yaptım! Şekilleri... çoğunlukla kurabiyeye benziyor."
+  ]
+ },
+ "snack_thanks": {
+  "_": [
+   "Sen bir meleksin.",
+   "Ah, teşekkürler. Gerçekten.",
+   "Buna sandığından çok ihtiyacım vardı."
+  ],
+  "burak": [
+   "...Sağ ol. Cidden."
+  ]
+ },
+ "inside_joke": {
+  "_": [
+   "Faks makinesi olayını hatırlıyor musun?",
+   "Söyle. Hadi söyle.",
+   "...Ananas.",
+   "Seneye aynı saatte?"
+  ]
+ },
+ "inside_laugh": {
+  "_": [
+   "HAHAHA yeter!",
+   "Nefes alamıyorum!",
+   "Her seferinde!",
+   "*hırıldayarak güler*"
+  ]
+ },
+ "cover_line": {
+  "_": [
+   "Ah, {actor} sabahtan beri burada — benim için müşteri dosyalarını almaya gitti.",
+   "O benim suçum — {actor:i} bankaya ben gönderdim.",
+   "{actor} buradaydı! Arşivde. Her yer toz."
+  ]
+ },
+ "boss_not_buying": {
+  "_": [
+   "İyi denemeydi. Çok iyi denemeydi.",
+   "Ben dünkü çocuk değilim.",
+   "Hı hı. İkiniz de, işinizin başına."
+  ]
+ },
+ "boss_buys_it": {
+  "_": [
+   "Hm. Peki.",
+   "Bir dahakine önce bana söyle.",
+   "Ha. Tamam o zaman."
+  ]
+ },
+ "congrats": {
+  "_": [
+   "Ahmet işine bayılmış diye duydum. Aferin!",
+   "Şuna bak, günün yıldızı!",
+   "Tebrikler! Hak ettin."
+  ]
+ },
+ "congrats_thanks": {
+  "_": [
+   "Sağ ol! Bu benim için çok değerli.",
+   "Aww, teşekkürler!",
+   "Ha, sağ ol."
+  ]
+ },
+ "confide_open": {
+  "_": [
+   "Sır tutabilir misin? Yani gerçekten tutabilir misin?",
+   "Aramızda. Söz mü?",
+   "Birine anlatmazsam patlayacağım."
+  ]
+ },
+ "confide_tell": {
+  "_": [
+   "{fact}",
+   "Şöyle... {fact}",
+   "Tamam. {fact} Kimseye söyleme."
+  ]
+ },
+ "confide_promise": {
+  "_": [
+   "Ağzım mühürlü.",
+   "Tek kelime etmem.",
+   "Vay. Tamam. Bende güvende."
+  ]
+ },
+ "confide_wow": {
+  "_": [
+   "OLAMAZ.",
+   "Hadi ya. Gerçekten mi?!",
+   "Ooo, bu çok sulu."
+  ]
+ },
+ "note_drop_think": {
+  "_": [
+   "Sadece... buraya bırak. İsimsiz. Şık.",
+   "İsim yok. Gizemli. Mükemmel.",
+   "Tamam. Tamam. Notu bırak. KAÇ."
+  ]
+ },
+ "note_read": {
+  "_": [
+   "Bir not mu? \"Pazartesileri çekilir kılıyorsun.\" ...Kim?!",
+   "Bunu masama kim bıraktı?",
+   "\"İyi günler :)\" — isim yok mu?"
+  ]
+ },
+ "date_whisper": {
+  "_": [
+   "Selam. Normal davran.",
+   "Beş dakika. Kimse bakmıyor.",
+   "Son simidi sana ayırdım."
+  ],
+  "ceren": [
+   "Ahmet beni çağırmadan önce tam dört dakikamız var."
+  ],
+  "mert": [
+   "Bunu prova etmiş olmam tuhaf mı?"
+  ]
+ },
+ "date_reply": {
+  "_": [
+   "Sana da selam.",
+   "Çok saçmasın. Teşekkürler.",
+   "Şşş, biri geliyor."
+  ]
+ },
+ "spot_couple": {
+  "_": [
+   "Vay vay vay...",
+   "Ohoo! Burada neler oluyor?",
+   "BİLİYORDUM."
+  ],
+  "zeynep": [
+   "Bayram erken geldi."
+  ]
+ },
+ "jealous_friend_mutter": {
+  "_": [
+   "Bunlar ne zamandan beri en yakın arkadaş?",
+   "Ha, demek {actor:in} yeni bir gözdesi var.",
+   "Hıh. Anladım ben."
+  ],
+  "ece": [
+   "...Beni çağırmadılar."
+  ],
+  "mert": [
+   "Burak benim yerime onu mu koyuyor? ONU mu?"
+  ]
+ },
+ "heartbreak_jab": {
+  "_": [
+   "Tatlı. Gerçekten tatlı. Siz ikiniz.",
+   "Umarım birlikte mutlu olursunuz.",
+   "Bana aldırmayın. Su almaya geldim."
+  ],
+  "burak": [
+   "...Tebrikler herhalde."
+  ]
+ },
+ "heartbreak_reply": {
+  "_": [
+   "Şey... teşekkürler?",
+   "Bir sorun mu var?",
+   "Tamam, bu ses tonu da neyin nesi?"
+  ]
+ },
+ "sarcasm": {
+  "_": [
+   "Vay, bir toplantı daha. En sevdiğim.",
+   "Masana yaptıklarına bayıldım. Çok... cesur.",
+   "Harika gömlek. Bir yetişkin için cesur bir seçim."
+  ],
+  "deniz": [
+   "Rapora ilginç bir yaklaşım. Çok... yaratıcı."
+  ],
+  "mert": [
+   "Güzel kravat! Bahsi mi kaybettin?"
+  ],
+  "zeynep": [
+   "Ah, BUNU mu giyiyorsun? Cesursun."
+  ]
+ },
+ "sarcasm_hurt": {
+  "_": [
+   "...Pardon?",
+   "Vay. Tamam. Sağ ol.",
+   "Bunun komik olması mı gerekiyordu?"
+  ],
+  "burak": [
+   "Bunu unutmayacağım."
+  ],
+  "selin": [
+   "Benim hakkımda böyle mi düşünüyorsun?"
+  ]
+ },
+ "sarcasm_explain": {
+  "_": [
+   "ŞAKA yapıyordum!",
+   "Şakaydı! Şaka!",
+   "Eyvah, yanlış anlaşıldı."
+  ]
+ },
+ "sarcasm_laugh": {
+  "_": [
+   "Ha! Haklısın.",
+   "Kaba. Doğru ama kaba.",
+   "Hahaha, tamam, beni yakaladın."
+  ]
+ },
+ "wrong_name_call": {
+  "_": [
+   "Ceren! Şey— Ece. Her kimse. Dosyayı getir.",
+   "Selin, şey— Zeynep. Evet. Sen.",
+   "Mert! Yani Burak. Bilgisayarcı."
+  ]
+ },
+ "wrong_name_reply": {
+  "_": [
+   "...Aslında {target}.",
+   "Hâlâ {target}. Üç yıldır.",
+   "Yakın sayılır herhalde."
+  ],
+  "ece": [
+   "Sorun değil! Herkes yapıyor! ...Yapıyorlar mı?"
+  ]
+ },
+ "quit_vent": {
+  "_": [
+   "Yemin ederim, bir gün daha böyle geçerse istifa ediyorum.",
+   "Bu akşam CV'mi güncelliyorum. Ciddiyim.",
+   "Ben neden burada çalışıyorum ki?"
+  ],
+  "burak": [
+   "İş piyasası bundan kötü olamaz."
+  ],
+  "selin": [
+   "O terfi gelmezse giderim."
+  ],
+  "zeynep": [
+   "Çok daha güzel bir şirketin hesaplarını denetleyebilirim."
+  ]
+ },
+ "quit_comfort": {
+  "_": [
+   "Hey. Öfkeyle karar verme. Bir gece uyu üstüne.",
+   "Sensiz dağılırız, biliyorsun.",
+   "Hadi. İş çıkışı kebap. Benden."
+  ]
+ },
+ "quit_egg_on": {
+  "_": [
+   "Açıkçası mı? Yap. Burada harcanıyorsun.",
+   "Senin yerinde olsam çoktan giderdim.",
+   "Göster onlara. Çek git."
+  ],
+  "deniz": [
+   "Kesinlikle gitmelisin. Kendi iyiliğin için."
+  ]
+ },
+ "cv_think": {
+  "_": [
+   "CV... \"mükemmel takım oyuncusu.\" Ha.",
+   "Bakalım dışarıda neler var.",
+   "CV'mi güncelliyorum. Ne olur ne olmaz."
+  ]
+ },
+ "cv_spotted": {
+  "_": [
+   "Ekranındaki iş ilanı sitesi mi?",
+   "Oo, LinkedIn. İlginç.",
+   "Bir şey mi arıyorsun?"
+  ]
+ },
+ "cv_cover": {
+  "_": [
+   "Ne? Hayır! Bu... araştırma.",
+   "O bir arkadaş için!",
+   "Sen kendi ekranına bak."
+  ]
+ },
+ "recruiter_line": {
+  "_": [
+   "Evet, benim. Perşembe uyar.",
+   "Maaş mı? Yüz yüze konuşalım.",
+   "Hayır, konuşabilirim. Sessizce."
+  ],
+  "burak": [
+   "Evet, bir ay içinde başlayabilirim. ...Hayır, onların haberi yok."
+  ]
+ },
+ "overheard_recruiter": {
+  "_": [
+   "O bir işe alım uzmanı mıydı?!",
+   "Perşembe mi? Mülakat mı?",
+   "Ooo. Biri gidiyor."
+  ]
+ },
+ "lost_report": {
+  "_": [
+   "Raporum nerede?! Tam buradaydı!",
+   "Klasörüm YOK.",
+   "Mavi bir klasör gören var mı?"
+  ],
+  "selin": [
+   "Buraya koydum. Hep buraya koyarım."
+  ],
+  "zeynep": [
+   "Faturalarım. Kıymetli faturalarım. NEREDE."
+  ]
+ },
+ "found_misfiled": {
+  "_": [
+   "Buldum — \"çeşitli\" altında mı dosyalanmış?! Kim yaptı bunu?",
+   "ARŞİVDE. Q harfinin altında. Q!",
+   "Bunu {suspect} dosyalamış. O el yazısını tanırım."
+  ]
+ },
+ "found_own_fault": {
+  "_": [
+   "...Ha. Kendi çekmecemdeymiş.",
+   "Buldum. Tam bıraktığım yerde. Hiçbir şey söyleme.",
+   "Ah. Benim hatam."
+  ]
+ },
+ "still_lost": {
+  "_": [
+   "Gitmiş. Tamamen gitmiş.",
+   "Her şeyi baştan yapmam gerekecek.",
+   "Bu bir kâbus."
+  ]
+ },
+ "reply_all_oops": {
+  "_": [
+   "Eyvah. Eyvah eyvah eyvah. TÜMÜNÜ YANITLA'ymış.",
+   "Bu neden HERKESE gitti?!",
+   "Geri al. GERİ AL. Geri alma nerede?!"
+  ],
+  "ece": [
+   "Market listemi bütün şirkete gönderdim."
+  ],
+  "mert": [
+   "...O kedi videosu sadece Burak içindi."
+  ]
+ },
+ "reply_all_react": {
+  "_": [
+   "HAHAHA, kedi!",
+   "Ah, bu şeref köşesine gidiyor.",
+   "Herkese mi geldi bu?",
+   "Bu... video için teşekkürler?"
+  ]
+ },
+ "boss_reply_all_laugh": {
+  "_": [
+   "...Ha. Tamam, o kedi komik.",
+   "Silin onu. ...Bir kez daha izledikten sonra."
+  ]
+ },
+ "hijack_line": {
+  "_": [
+   "İzin verirseniz — sanırım burada aslında anlatılmaya ÇALIŞILAN şey şu...",
+   "Şuraya bir gireyim, çünkü asıl içgörü benim.",
+   "Böldüğüm için kusura bakmayın ama bu fikri önce ben buldum."
+  ],
+  "deniz": [
+   "İzin verin, bu sunumu kurtarayım."
+  ]
+ },
+ "hijack_protest": {
+  "_": [
+   "Pardon, daha bitirmedim.",
+   "SUNUM yapıyorum, teşekkürler.",
+   "Yapmasan?"
+  ],
+  "selin": [
+   "Soruları SONDA alacağım."
+  ]
+ },
+ "boss_sides_hijack": {
+  "_": [
+   "Hayır, hayır, bırak konuşsun. İlginç.",
+   "Devam et, Deniz."
+  ]
+ },
+ "boss_stops_hijack": {
+  "_": [
+   "Bitirmesine izin ver.",
+   "Sıranı bekle.",
+   "Deniz. Otur."
+  ]
+ },
+ "snore": {
+  "_": [
+   "Zzz... hırrk... zzz...",
+   "*horrrr*",
+   "...mmh, beş dakika daha..."
+  ]
+ },
+ "snore_laugh": {
+  "_": [
+   "Biri... biri HORLUYOR mu?",
+   "Hahaha!",
+   "Şşş, bırakın uyusun. Çok tatlı."
+  ]
+ },
+ "boss_wake_up": {
+  "_": [
+   "Sizi SIKIYOR muyuz?",
+   "Uyan! Burası toplantı, otel değil.",
+   "Kahve. Hemen."
+  ]
+ },
+ "ringtone": {
+  "_": [
+   "♪ Dıırın dıırın, aç beni, aç beni! ♪",
+   "♪ BAKA BAKA BAKA ♪",
+   "*telefondan çığlık atan bir keçi sesi gelir*"
+  ]
+ },
+ "ringtone_sorry": {
+  "_": [
+   "Pardon! Pardon! Yeğenim değiştirmiş!",
+   "O benim değil. ...Benim.",
+   "Açıklayabilirim!"
+  ]
+ },
+ "room_mine": {
+  "_": [
+   "Pardon, bu odayı ben ayırttım.",
+   "Bu oda on bire kadar bende.",
+   "Bu oda rezerve. Bana."
+  ]
+ },
+ "room_no_mine": {
+  "_": [
+   "Hayır, ben ayırttım. Takvime bak.",
+   "Pazartesiden beri ayırtmıştım!",
+   "O zaman takvim yalan söylüyor."
+  ]
+ },
+ "room_share": {
+  "_": [
+   "Peki. Sol yarısı senin.",
+   "Tamam, tamam — on dakika sen, on dakika ben.",
+   "Bunu mesele yapmayalım."
+  ]
+ },
+ "room_fight": {
+  "_": [
+   "Kıpırdamıyorum.",
+   "Ben de.",
+   "Bu çok saçma."
+  ]
+ },
+ "blame_shift": {
+  "_": [
+   "Açıkçası Ahmet Bey, {suspect} verileri bana hiç göndermedi.",
+   "{suspect:i} bekliyordum. Ona sorun.",
+   "Benim suçum değil — {suspect} topu taca attı."
+  ],
+  "deniz": [
+   "Söylemek istemezdim ama {suspect} son zamanlarda biraz... güvenilmez."
+  ]
+ },
+ "blame_shift_heard": {
+  "_": [
+   "PARDON?!",
+   "Dalga mı geçiyorsun?",
+   "Bu düpedüz yalan!"
+  ]
+ },
+ "shield_line": {
+  "_": [
+   "Ahmet Bey, bunda benim de payım var. Yanlış rakamları ben verdim.",
+   "Hafif olun — bu sabah benim işimi idare ediyordu.",
+   "Saygısızlık olmasın, bu tamamen onun suçu değildi."
+  ],
+  "ceren": [
+   "Ahmet Bey, program değişikliği benden geldi."
+  ]
  }
 }

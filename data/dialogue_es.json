@@ -2457,5 +2457,642 @@
   "deniz": [
    "{to}, esto va a quedar genial en tu CV."
   ]
+ },
+ "buck_taken": {
+  "_": [
+   "¡Ah! ¡Claro! ¡Ya… me las apañaré!",
+   "Eh. Vale. ¿Qué tan difícil puede ser?"
+  ],
+  "burak": [
+   "…Vale. Otra vez."
+  ]
+ },
+ "rule_announce": {
+  "_": [
+   "¡Atención! A partir de hoy: nada de tazas personales en la cocina.",
+   "Nueva norma: las reuniones empiezan cinco minutos ANTES. Siempre.",
+   "De ahora en adelante, el almuerzo dura treinta minutos. No treinta y cinco.",
+   "Con efecto inmediato: nada de auriculares en los escritorios."
+  ]
+ },
+ "rule_grumble": {
+  "_": [
+   "¿En serio?",
+   "Eso es ridículo.",
+   "Ya empezamos.",
+   "¿A quién se le ocurren estas cosas?"
+  ],
+  "burak": [
+   "…Sin auriculares. Maravilloso."
+  ],
+  "mert": [
+   "¿Y las tazas de apoyo emocional?"
+  ],
+  "zeynep": [
+   "Esto lo apunto. Para la posteridad."
+  ]
+ },
+ "rule_support": {
+  "_": [
+   "Buena idea, Ahmet Bey.",
+   "¡Tiene sentido!",
+   "La disciplina es importante."
+  ],
+  "deniz": [
+   "Excelente política. Ya hacía falta."
+  ]
+ },
+ "bet_pitch": {
+  "_": [
+   "¡Porra! ¿Quién se lleva el próximo ascenso? Cinco liras.",
+   "La porra de la oficina está abierta. ¿Selin o Deniz?",
+   "Hagan sus apuestas, señores."
+  ],
+  "mert": [
+   "Damas y caballeros, la porra del ascenso queda ABIERTA."
+  ]
+ },
+ "bet_place": {
+  "_": [
+   "Apúntame por Selin.",
+   "Deniz. Encontrará la manera.",
+   "Diez al tapado.",
+   "¡Yo no apuesto por mis compañeros! …Vale, cinco."
+  ]
+ },
+ "bet_boss_caught": {
+  "_": [
+   "¿Eso es una PORRA en mi oficina?",
+   "Mert. A mi despacho. Ya."
+  ]
+ },
+ "brag_line": {
+  "_": [
+   "Cerré tres ventas antes del almuerzo. ¿Y tú?",
+   "A Ahmet Bey le encantaron mis cifras. Solo lo digo.",
+   "¿Viste mi informe? Lo vio todo el mundo."
+  ],
+  "deniz": [
+   "Qué curioso que mis cifras siempre superen a las tuyas.",
+   "Te ofrecería ayuda, pero pareces… ocupad{to?o|a}."
+  ],
+  "selin": [
+   "Mi cliente renovó. Dos años. Supéralo."
+  ]
+ },
+ "brag_retort": {
+  "_": [
+   "Enhorabuena. ¿Quieres una medalla?",
+   "Genial. Ahora hazlo sin robarle las diapositivas a nadie.",
+   "Vaya. ¿También inventaste el café?"
+  ],
+  "deniz": [
+   "Qué mono. Llámame cuando seas sénior."
+  ],
+  "selin": [
+   "Hablar es fácil. Los resultados están en mi escritorio."
+  ]
+ },
+ "brag_ignore": {
+  "_": [
+   "Ajá. Me alegro por ti.",
+   "…Vale.",
+   "Estoy {me?ocupado|ocupada}."
+  ]
+ },
+ "sabotage_mutter": {
+  "_": [
+   "A ver qué te parece esto…",
+   "Uy. Qué torpe soy.",
+   "Hora de la venganza."
+  ],
+  "deniz": [
+   "No es nada personal. Solo negocios."
+  ]
+ },
+ "hide_prank_think": {
+  "_": [
+   "Je. Esto va a estar bueno.",
+   "A ver cuánto tardan en darse cuenta…",
+   "La comedia es cuestión de timing."
+  ]
+ },
+ "lunch_ask": {
+  "_": [
+   "¿Almorzamos juntos hoy?",
+   "¿Vamos a almorzar? Invito yo. En parte.",
+   "¿El sitio de kebab? ¿Tú y yo?"
+  ],
+  "ece": [
+   "¿Me puedo sentar contigo en el almuerzo?"
+  ],
+  "mert": [
+   "¿Almuerzo? Conozco a uno que conoce a uno que hace un lahmacun buenísimo."
+  ]
+ },
+ "lunch_yes": {
+  "_": [
+   "¡Sí! Por favor. Sálvame de mi escritorio.",
+   "Claro, vamos.",
+   "Trato hecho."
+  ]
+ },
+ "lunch_no": {
+  "_": [
+   "Lo siento, hoy como en mi escritorio.",
+   "No puedo, tengo una entrega.",
+   "¿Quizá mañana?"
+  ]
+ },
+ "snack_offer": {
+  "_": [
+   "Parece que te hace falta esto. Simit.",
+   "Toma: chocolate. Órdenes del médico.",
+   "Te traje algo de picar. Respira."
+  ],
+  "ceren": [
+   "Té y una galleta. Cinco minutos de descanso. Vamos."
+  ],
+  "ece": [
+   "¡Hice galletas! Tienen… casi forma de galleta."
+  ]
+ },
+ "snack_thanks": {
+  "_": [
+   "Eres un ángel.",
+   "Ay, gracias. De verdad.",
+   "Lo necesitaba más de lo que crees."
+  ],
+  "burak": [
+   "…Gracias. En serio."
+  ]
+ },
+ "inside_joke": {
+  "_": [
+   "¿Te acuerdas del incidente del fax?",
+   "Dilo. Di la cosa.",
+   "…Piña.",
+   "¿El año que viene a la misma hora?"
+  ]
+ },
+ "inside_laugh": {
+  "_": [
+   "¡JAJAJA, para!",
+   "¡No puedo respirar!",
+   "¡Siempre!",
+   "*se ahoga de risa*"
+  ]
+ },
+ "cover_line": {
+  "_": [
+   "Ah, {actor} lleva aquí desde temprano; fue a buscarme los expedientes del cliente.",
+   "Eso es culpa mía: mandé a {actor} al banco.",
+   "¡{actor} estaba aquí! En el archivo. Polvo por todas partes."
+  ]
+ },
+ "boss_not_buying": {
+  "_": [
+   "Buen intento. Muy buen intento.",
+   "No nací ayer.",
+   "Ajá. Los dos, a trabajar."
+  ]
+ },
+ "boss_buys_it": {
+  "_": [
+   "Mm. Bien.",
+   "La próxima vez, avísame antes.",
+   "Ah. Bueno, entonces."
+  ]
+ },
+ "congrats": {
+  "_": [
+   "Me dijeron que a Ahmet le encantó tu trabajo. ¡Bien hecho!",
+   "¡Mírate, la estrella del día!",
+   "¡Enhorabuena! Te lo has ganado."
+  ]
+ },
+ "congrats_thanks": {
+  "_": [
+   "¡Gracias! Significa mucho para mí.",
+   "¡Ay, gracias!",
+   "Ja, gracias."
+  ]
+ },
+ "confide_open": {
+  "_": [
+   "¿Sabes guardar un secreto? ¿Pero guardarlo de verdad?",
+   "Entre nosotros. ¿Prometido?",
+   "Tengo que contárselo a alguien o voy a explotar."
+  ]
+ },
+ "confide_tell": {
+  "_": [
+   "{fact}",
+   "Pues… {fact}",
+   "Vale. {fact} No se lo digas a nadie."
+  ]
+ },
+ "confide_promise": {
+  "_": [
+   "Soy una tumba.",
+   "No diré ni una palabra.",
+   "Vaya. Vale. Conmigo está a salvo."
+  ]
+ },
+ "confide_wow": {
+  "_": [
+   "NO PUEDE SER.",
+   "Calla. ¿¡En serio!?",
+   "Ay, esto es jugoso."
+  ]
+ },
+ "note_drop_think": {
+  "_": [
+   "Solo… dejarla aquí. Anónima. Con estilo.",
+   "Sin nombre. Misteriosa. Perfecta.",
+   "Vale. Vale. Deja la nota. CORRE."
+  ]
+ },
+ "note_read": {
+  "_": [
+   "¿Una nota? «Haces que los lunes sean soportables». …¡¿Quién?!",
+   "¿Quién dejó esto en mi escritorio?",
+   "«Que tengas un gran día :)»… ¿sin nombre?"
+  ]
+ },
+ "date_whisper": {
+  "_": [
+   "Hola. Actúa normal.",
+   "Cinco minutos. Nadie mira.",
+   "Te guardé el último simit."
+  ],
+  "ceren": [
+   "Tenemos exactamente cuatro minutos antes de que Ahmet me necesite."
+  ],
+  "mert": [
+   "¿Es raro que haya ensayado esto?"
+  ]
+ },
+ "date_reply": {
+  "_": [
+   "Hola a ti.",
+   "Eres ridícul{to?o|a}. Gracias.",
+   "Shh, viene alguien."
+  ]
+ },
+ "spot_couple": {
+  "_": [
+   "Vaya, vaya, vaya…",
+   "¡Ajá! ¿Qué tenemos aquí?",
+   "LO SABÍA."
+  ],
+  "zeynep": [
+   "La Navidad se adelantó este año."
+  ]
+ },
+ "jealous_friend_mutter": {
+  "_": [
+   "¿Desde cuándo ESOS son mejores amigos?",
+   "Ah, así que {actor} tiene nuevo favorito.",
+   "Hmpf. Ya veo cómo va esto."
+  ],
+  "ece": [
+   "…No me invitaron."
+  ],
+  "mert": [
+   "¿Burak me está sustituyendo? ¿Por ÉL?"
+  ]
+ },
+ "heartbreak_jab": {
+  "_": [
+   "Qué monos. Muy monos. Ustedes dos.",
+   "Espero que sean muy felices juntos.",
+   "No me hagan caso. Solo vengo por agua."
+  ],
+  "burak": [
+   "…Enhorabuena, supongo."
+  ]
+ },
+ "heartbreak_reply": {
+  "_": [
+   "Eh… ¿gracias?",
+   "¿Pasa algo?",
+   "Vale, ¿a qué viene ese tono?"
+  ]
+ },
+ "sarcasm": {
+  "_": [
+   "Vaya, otra reunión. Mi favorita.",
+   "Me encanta lo que has hecho con tu escritorio. Muy… valiente.",
+   "Gran camisa. Una elección audaz para un adulto."
+  ],
+  "deniz": [
+   "Interesante enfoque del informe. Muy… creativo."
+  ],
+  "mert": [
+   "¡Bonita corbata! ¿Perdiste una apuesta?"
+  ],
+  "zeynep": [
+   "Ay, ¿te vas a poner ESO? Qué valiente."
+  ]
+ },
+ "sarcasm_hurt": {
+  "_": [
+   "…¿Perdona?",
+   "Vaya. Vale. Gracias.",
+   "¿Se suponía que eso era gracioso?"
+  ],
+  "burak": [
+   "Me acordaré de esto."
+  ],
+  "selin": [
+   "¿Eso es lo que piensas de mí?"
+  ]
+ },
+ "sarcasm_explain": {
+  "_": [
+   "¡Estaba BROMEANDO!",
+   "¡Es broma! ¡Era una broma!",
+   "Ay, no, eso sonó fatal."
+  ]
+ },
+ "sarcasm_laugh": {
+  "_": [
+   "¡Ja! Me lo merezco.",
+   "Grosero. Acertado, pero grosero.",
+   "Jajaja, vale, me pillaste."
+  ]
+ },
+ "wrong_name_call": {
+  "_": [
+   "¡Ceren! Eh… Ece. Quien sea. Tráeme el expediente.",
+   "Selin, la… Zeynep. Sí. Tú.",
+   "¡Mert! Digo, Burak. El de las computadoras."
+  ]
+ },
+ "wrong_name_reply": {
+  "_": [
+   "…En realidad me llamo {target}.",
+   "Sigo siendo {target}. Desde hace tres años.",
+   "Casi, supongo."
+  ],
+  "ece": [
+   "¡No pasa nada! ¡Le pasa a todo el mundo! …¿No?"
+  ]
+ },
+ "quit_vent": {
+  "_": [
+   "Lo juro, un día más así y renuncio.",
+   "Esta noche actualizo mi CV. Lo digo en serio.",
+   "¿Por qué trabajo aquí siquiera?"
+  ],
+  "burak": [
+   "El mercado laboral no puede ser peor que esto."
+  ],
+  "selin": [
+   "Si no llega ese ascenso, me voy."
+  ],
+  "zeynep": [
+   "Podría auditar una empresa mucho más agradable."
+  ]
+ },
+ "quit_comfort": {
+  "_": [
+   "Oye. No decidas nada en caliente. Consúltalo con la almohada.",
+   "Sin ti nos vendríamos abajo, ¿sabes?",
+   "Venga. Kebab después del trabajo. Invito yo."
+  ]
+ },
+ "quit_egg_on": {
+  "_": [
+   "¿Sinceramente? Hazlo. Aquí te están desperdiciando.",
+   "Yo en tu lugar ya me habría ido.",
+   "Demuéstraselo. Vete."
+  ],
+  "deniz": [
+   "Deberías irte, sin duda. Por tu propio bien."
+  ]
+ },
+ "cv_think": {
+  "_": [
+   "CV… «excelente trabajo en equipo». Ja.",
+   "A ver qué hay por ahí.",
+   "Actualizando mi CV. Por si acaso."
+  ]
+ },
+ "cv_spotted": {
+  "_": [
+   "¿Eso es una web de empleo en tu pantalla?",
+   "Uy, LinkedIn. Interesante.",
+   "¿Buscas algo?"
+  ]
+ },
+ "cv_cover": {
+  "_": [
+   "¿Qué? ¡No! Es… investigación.",
+   "¡Es para un amigo!",
+   "Mira tu propia pantalla."
+  ]
+ },
+ "recruiter_line": {
+  "_": [
+   "Sí, soy yo. El jueves me va bien.",
+   "¿El sueldo? Hablémoslo en persona.",
+   "No, puedo hablar. Bajito."
+  ],
+  "burak": [
+   "Sí, puedo empezar en un mes. …No, no lo saben."
+  ]
+ },
+ "overheard_recruiter": {
+  "_": [
+   "¿¡Eso era un cazatalentos!?",
+   "¿El jueves? ¿Entrevista?",
+   "Ohhh. Alguien se va."
+  ]
+ },
+ "lost_report": {
+  "_": [
+   "¿¡Dónde está mi informe!? ¡Estaba justo aquí!",
+   "Mi carpeta ha DESAPARECIDO.",
+   "¿Alguien ha visto una carpeta azul?"
+  ],
+  "selin": [
+   "Lo puse aquí. Siempre lo pongo aquí."
+  ],
+  "zeynep": [
+   "Mis facturas. Mis preciosas facturas. ¿DÓNDE?"
+  ]
+ },
+ "found_misfiled": {
+  "_": [
+   "Lo encontré: ¿¡archivado en «varios»!? ¿Quién hizo esto?",
+   "En el ARCHIVO. En la Q. ¡La Q!",
+   "Esto lo archivó {suspect}. Conozco esa letra."
+  ]
+ },
+ "found_own_fault": {
+  "_": [
+   "…Ah. Estaba en mi propio cajón.",
+   "Lo encontré. Justo donde lo dejé. No digas nada.",
+   "Ah. Error mío."
+  ]
+ },
+ "still_lost": {
+  "_": [
+   "Ha desaparecido. Del todo.",
+   "Voy a tener que rehacerlo entero.",
+   "Esto es una pesadilla."
+  ]
+ },
+ "reply_all_oops": {
+  "_": [
+   "Ay, no. No, no, no. Eso fue RESPONDER A TODOS.",
+   "¿¡Por qué le llegó a TODO EL MUNDO!?",
+   "Deshacer. DESHACER. ¿¡Dónde está deshacer!?"
+  ],
+  "ece": [
+   "Le mandé mi lista de la compra a toda la empresa."
+  ],
+  "mert": [
+   "…Ese video del gato era solo para Burak."
+  ]
+ },
+ "reply_all_react": {
+  "_": [
+   "¡JAJAJA, el gato!",
+   "Ay, esto va directo al salón de la fama.",
+   "¿A todos les llegó eso?",
+   "Gracias por el… ¿video?"
+  ]
+ },
+ "boss_reply_all_laugh": {
+  "_": [
+   "…Ja. Vale, ese gato es gracioso.",
+   "Bórralo. …Después de que lo vuelva a ver."
+  ]
+ },
+ "hijack_line": {
+  "_": [
+   "Si me permiten… creo que lo que se INTENTA decir aquí es…",
+   "Déjenme intervenir, porque la idea clave es mía.",
+   "Perdón por interrumpir, pero esta idea la tuve yo primero."
+  ],
+  "deniz": [
+   "Permítanme rescatar esta presentación."
+  ]
+ },
+ "hijack_protest": {
+  "_": [
+   "Perdona, no he terminado.",
+   "ESTOY presentando, gracias.",
+   "¿Te importaría no hacerlo?"
+  ],
+  "selin": [
+   "Las preguntas, al FINAL."
+  ]
+ },
+ "boss_sides_hijack": {
+  "_": [
+   "No, no, deja que hable. Interesante.",
+   "Adelante, Deniz."
+  ]
+ },
+ "boss_stops_hijack": {
+  "_": [
+   "Deja que termine.",
+   "Espera tu turno.",
+   "Deniz. Siéntate."
+  ]
+ },
+ "snore": {
+  "_": [
+   "Zzz… jrrnk… zzz…",
+   "*ronquiiiido*",
+   "…mmm, cinco minutitos más…"
+  ]
+ },
+ "snore_laugh": {
+  "_": [
+   "¿Alguien… alguien está RONCANDO?",
+   "¡Jajaja!",
+   "Shh, dejen que duerma. Es adorable."
+  ]
+ },
+ "boss_wake_up": {
+  "_": [
+   "¿Les ABURRIMOS?",
+   "¡Despierta! Esto es una reunión, no un hotel.",
+   "Café. Ya."
+  ]
+ },
+ "ringtone": {
+  "_": [
+   "♪ Ring-ring-ring, ¡contesta ya! ♪",
+   "♪ BAKA BAKA BAKA ♪",
+   "*el teléfono reproduce una cabra gritando*"
+  ]
+ },
+ "ringtone_sorry": {
+  "_": [
+   "¡Perdón! ¡Perdón! ¡Me lo cambió mi sobrino!",
+   "Ese no es el mío. …Sí es el mío.",
+   "¡Puedo explicarlo!"
+  ]
+ },
+ "room_mine": {
+  "_": [
+   "Perdona, yo reservé esta sala.",
+   "Tengo esta sala hasta las once.",
+   "Esta sala está reservada. Para mí."
+  ]
+ },
+ "room_no_mine": {
+  "_": [
+   "No, la reservé yo. Mira el calendario.",
+   "¡La tengo reservada desde el lunes!",
+   "Entonces el calendario miente."
+  ]
+ },
+ "room_share": {
+  "_": [
+   "Vale. Tú te quedas con la mitad izquierda.",
+   "Vale, vale: diez minutos cada uno.",
+   "No hagamos un drama de esto."
+  ]
+ },
+ "room_fight": {
+  "_": [
+   "Yo no me muevo.",
+   "Yo tampoco.",
+   "Esto es ridículo."
+  ]
+ },
+ "blame_shift": {
+  "_": [
+   "Para ser justos, Ahmet Bey, {suspect} nunca me mandó los datos.",
+   "Estaba esperando a {suspect}. Pregúntele.",
+   "No es culpa mía: {suspect} metió la pata."
+  ],
+  "deniz": [
+   "Me duele decirlo, pero {suspect} ha estado… poco fiable últimamente."
+  ]
+ },
+ "blame_shift_heard": {
+  "_": [
+   "¿¡PERDONA!?",
+   "¿Me tomas el pelo?",
+   "¡Eso es una mentira descarada!"
+  ]
+ },
+ "shield_line": {
+  "_": [
+   "Ahmet Bey, en parte es culpa mía. Le di las cifras equivocadas.",
+   "No sea duro: esta mañana estaba cubriendo mi trabajo.",
+   "Con todo respeto, no fue del todo culpa suya."
+  ],
+  "ceren": [
+   "Ahmet Bey, el cambio de horario vino de mí."
+  ]
  }
 }

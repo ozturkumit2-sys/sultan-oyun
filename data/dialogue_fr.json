@@ -2457,5 +2457,642 @@
   "deniz": [
    "{to}, ça fera très bien sur ton CV."
   ]
+ },
+ "buck_taken": {
+  "_": [
+   "Oh ! Bien sûr ! Je vais… me débrouiller !",
+   "Euh. D'accord. Ça peut pas être si dur, si ?"
+  ],
+  "burak": [
+   "… Bon. Encore."
+  ]
+ },
+ "rule_announce": {
+  "_": [
+   "Votre attention ! À partir d'aujourd'hui : plus de mugs personnels dans la cuisine.",
+   "Nouvelle règle : les réunions commencent cinq minutes EN AVANCE. Toujours.",
+   "Désormais, le déjeuner dure trente minutes. Pas trente-cinq.",
+   "Avec effet immédiat : pas de casque aux bureaux."
+  ]
+ },
+ "rule_grumble": {
+  "_": [
+   "Sérieusement ?",
+   "C'est ridicule.",
+   "Et c'est reparti.",
+   "Qui invente ces trucs ?"
+  ],
+  "burak": [
+   "… Pas de casque. Merveilleux."
+  ],
+  "mert": [
+   "Et les mugs de soutien émotionnel, alors ?"
+  ],
+  "zeynep": [
+   "Je note ça. Pour la postérité."
+  ]
+ },
+ "rule_support": {
+  "_": [
+   "Bonne idée, Ahmet Bey.",
+   "Ça se tient !",
+   "La discipline, c'est important."
+  ],
+  "deniz": [
+   "Excellente mesure. Il était temps."
+  ]
+ },
+ "bet_pitch": {
+  "_": [
+   "Les paris sont ouverts ! Qui aura la prochaine promotion ? Cinq lires.",
+   "Le pari du bureau est ouvert. Selin ou Deniz ?",
+   "Faites vos jeux, les amis."
+  ],
+  "mert": [
+   "Mesdames et messieurs, les paris sur la promotion sont OUVERTS."
+  ]
+ },
+ "bet_place": {
+  "_": [
+   "Mets-moi sur Selin.",
+   "Deniz. Il trouvera un moyen.",
+   "Dix sur l'outsider.",
+   "Je ne parie pas sur mes collègues ! … Bon, cinq."
+  ]
+ },
+ "bet_boss_caught": {
+  "_": [
+   "C'est un PARI CLANDESTIN dans mon bureau ?",
+   "Mert. Dans mon bureau. Tout de suite."
+  ]
+ },
+ "brag_line": {
+  "_": [
+   "Trois contrats signés avant le déjeuner. Et toi ?",
+   "Ahmet Bey a adoré mes chiffres. Je dis ça, je dis rien.",
+   "Tu as vu mon rapport ? Tout le monde l'a vu."
+  ],
+  "deniz": [
+   "Drôle comme mes chiffres battent toujours les tiens.",
+   "Je proposerais bien de t'aider, mais tu as l'air… occupé{to?|e}."
+  ],
+  "selin": [
+   "Mon client a renouvelé. Deux ans. Fais mieux."
+  ]
+ },
+ "brag_retort": {
+  "_": [
+   "Félicitations. Tu veux une médaille ?",
+   "Super. Maintenant, fais pareil sans voler les diapos de personne.",
+   "Waouh. Tu as aussi inventé le café ?"
+  ],
+  "deniz": [
+   "Mignon. Rappelle-moi quand tu seras senior."
+  ],
+  "selin": [
+   "Les paroles ne coûtent rien. Les résultats sont sur mon bureau."
+  ]
+ },
+ "brag_ignore": {
+  "_": [
+   "Mmh. Tant mieux pour toi.",
+   "… D'accord.",
+   "Je suis occupé{me?|e}."
+  ]
+ },
+ "sabotage_mutter": {
+  "_": [
+   "Voyons comment tu vas aimer ça…",
+   "Oups. Que je suis maladroit{me?|e}.",
+   "L'heure de la revanche."
+  ],
+  "deniz": [
+   "Rien de personnel. Juste les affaires."
+  ]
+ },
+ "hide_prank_think": {
+  "_": [
+   "Hé hé. Ça va être drôle.",
+   "Voyons combien de temps il va falloir…",
+   "L'humour, c'est une question de timing."
+  ]
+ },
+ "lunch_ask": {
+  "_": [
+   "On déjeune ensemble aujourd'hui ?",
+   "On va déjeuner ? C'est moi qui invite. En partie.",
+   "Le kebab ? Toi et moi ?"
+  ],
+  "ece": [
+   "Je peux m'asseoir avec toi au déjeuner ?"
+  ],
+  "mert": [
+   "Déjeuner ? Je connais un gars qui connaît un gars qui fait un lahmacun incroyable."
+  ]
+ },
+ "lunch_yes": {
+  "_": [
+   "Oui ! S'il te plaît. Sauve-moi de mon bureau.",
+   "Bien sûr, allons-y.",
+   "Marché conclu."
+  ]
+ },
+ "lunch_no": {
+  "_": [
+   "Désolé{me?|e}, je mange à mon bureau aujourd'hui.",
+   "Pas possible, échéance.",
+   "Demain, peut-être ?"
+  ]
+ },
+ "snack_offer": {
+  "_": [
+   "On dirait que tu en as besoin. Un simit.",
+   "Tiens — du chocolat. Prescription médicale.",
+   "Je t'ai apporté un en-cas. Respire."
+  ],
+  "ceren": [
+   "Thé et biscuit. Cinq minutes de pause. Allez."
+  ],
+  "ece": [
+   "J'ai fait des cookies ! Ils ont… presque une forme de cookie."
+  ]
+ },
+ "snack_thanks": {
+  "_": [
+   "Tu es un ange.",
+   "Oh, merci. Vraiment.",
+   "J'en avais plus besoin que tu ne crois."
+  ],
+  "burak": [
+   "… Merci. Sérieusement."
+  ]
+ },
+ "inside_joke": {
+  "_": [
+   "Tu te souviens de l'incident du fax ?",
+   "Dis-le. Dis le truc.",
+   "… Ananas.",
+   "Même heure l'année prochaine ?"
+  ]
+ },
+ "inside_laugh": {
+  "_": [
+   "HAHAHA arrête !",
+   "Je ne peux plus respirer !",
+   "À chaque fois !",
+   "*s'étrangle de rire*"
+  ]
+ },
+ "cover_line": {
+  "_": [
+   "Oh, {actor} est là depuis tôt — {actor?il est allé|elle est allée} chercher les dossiers clients pour moi.",
+   "C'est ma faute — j'ai envoyé {actor} à la banque.",
+   "{actor} était là ! Aux archives. De la poussière partout."
+  ]
+ },
+ "boss_not_buying": {
+  "_": [
+   "Bien essayé. Très bien essayé.",
+   "Je ne suis pas né de la dernière pluie.",
+   "Mmh. Tous les deux, au travail."
+  ]
+ },
+ "boss_buys_it": {
+  "_": [
+   "Hm. Bon.",
+   "La prochaine fois, prévenez-moi d'abord.",
+   "Ah. Très bien, alors."
+  ]
+ },
+ "congrats": {
+  "_": [
+   "Il paraît qu'Ahmet a adoré ton travail. Bravo !",
+   "Regarde-toi, la star du jour !",
+   "Félicitations ! Tu l'as mérité."
+  ]
+ },
+ "congrats_thanks": {
+  "_": [
+   "Merci ! Ça me touche beaucoup.",
+   "Oh, merci !",
+   "Ha, merci."
+  ]
+ },
+ "confide_open": {
+  "_": [
+   "Tu sais garder un secret ? Genre, vraiment ?",
+   "Entre nous. Promis ?",
+   "Il faut que je le dise à quelqu'un, sinon j'explose."
+  ]
+ },
+ "confide_tell": {
+  "_": [
+   "{fact}",
+   "Alors… {fact}",
+   "OK. {fact} Ne le dis à personne."
+  ]
+ },
+ "confide_promise": {
+  "_": [
+   "Motus et bouche cousue.",
+   "Je ne dirai pas un mot.",
+   "Waouh. OK. C'est en sécurité avec moi."
+  ]
+ },
+ "confide_wow": {
+  "_": [
+   "PAS POSSIBLE.",
+   "Tais-toi. Vraiment ?!",
+   "Oh, c'est croustillant."
+  ]
+ },
+ "note_drop_think": {
+  "_": [
+   "Juste… le laisser ici. Anonyme. Classe.",
+   "Pas de nom. Mystérieux. Parfait.",
+   "OK. OK. Pose le mot. COURS."
+  ]
+ },
+ "note_read": {
+  "_": [
+   "Un mot ? « Grâce à toi, les lundis sont supportables. » … Qui ?!",
+   "Qui a laissé ça sur mon bureau ?",
+   "« Bonne journée :) » — pas de nom ?"
+  ]
+ },
+ "date_whisper": {
+  "_": [
+   "Salut. Fais comme si de rien n'était.",
+   "Cinq minutes. Personne ne regarde.",
+   "Je t'ai gardé le dernier simit."
+  ],
+  "ceren": [
+   "On a exactement quatre minutes avant qu'Ahmet ait besoin de moi."
+  ],
+  "mert": [
+   "C'est bizarre que j'aie répété ça ?"
+  ]
+ },
+ "date_reply": {
+  "_": [
+   "Salut à toi.",
+   "T'es ridicule. Merci.",
+   "Chut, quelqu'un arrive."
+  ]
+ },
+ "spot_couple": {
+  "_": [
+   "Tiens, tiens, tiens…",
+   "Oh-oh ! Qu'est-ce qu'on a là ?",
+   "Je le SAVAIS."
+  ],
+  "zeynep": [
+   "Noël est en avance cette année."
+  ]
+ },
+ "jealous_friend_mutter": {
+  "_": [
+   "Depuis quand ILS sont meilleurs amis ?",
+   "Ah, donc {actor} a un nouveau chouchou.",
+   "Hmpf. Je vois ce que c'est."
+  ],
+  "ece": [
+   "… Ils ne m'ont pas invitée."
+  ],
+  "mert": [
+   "Burak me remplace ? Par LUI ?"
+  ]
+ },
+ "heartbreak_jab": {
+  "_": [
+   "Mignon. Vraiment mignon. Vous deux.",
+   "J'espère que vous serez heureux ensemble.",
+   "Faites comme si je n'étais pas là. Je prends juste de l'eau."
+  ],
+  "burak": [
+   "… Félicitations, j'imagine."
+  ]
+ },
+ "heartbreak_reply": {
+  "_": [
+   "Euh… merci ?",
+   "Quelque chose ne va pas ?",
+   "OK, c'est quoi ce ton ?"
+  ]
+ },
+ "sarcasm": {
+  "_": [
+   "Waouh, encore une réunion. Ma préférée.",
+   "J'adore ce que tu as fait de ton bureau. Très… audacieux.",
+   "Super chemise. Choix osé pour un adulte."
+  ],
+  "deniz": [
+   "Approche intéressante pour le rapport. Très… créative."
+  ],
+  "mert": [
+   "Belle cravate ! Tu as perdu un pari ?"
+  ],
+  "zeynep": [
+   "Oh, tu mets ÇA ? Courageux{to?|se}."
+  ]
+ },
+ "sarcasm_hurt": {
+  "_": [
+   "… Pardon ?",
+   "Waouh. OK. Merci.",
+   "C'était censé être drôle ?"
+  ],
+  "burak": [
+   "Je m'en souviendrai."
+  ],
+  "selin": [
+   "C'est ce que tu penses de moi ?"
+  ]
+ },
+ "sarcasm_explain": {
+  "_": [
+   "Je RIGOLAIS !",
+   "Je plaisante ! C'était une blague !",
+   "Oh non, c'est mal sorti."
+  ]
+ },
+ "sarcasm_laugh": {
+  "_": [
+   "Ha ! Bien vu.",
+   "Grossier. Juste, mais grossier.",
+   "Hahaha, OK, tu m'as eu{me?|e}."
+  ]
+ },
+ "wrong_name_call": {
+  "_": [
+   "Ceren ! Euh— Ece. Peu importe. Apportez-moi le dossier.",
+   "Selin, la— Zeynep. Oui. Vous.",
+   "Mert ! Je veux dire Burak. Le monsieur des ordinateurs."
+  ]
+ },
+ "wrong_name_reply": {
+  "_": [
+   "… C'est {target}, en fait.",
+   "Toujours {target}. Depuis trois ans.",
+   "Presque, j'imagine."
+  ],
+  "ece": [
+   "Ce n'est pas grave ! Tout le monde le fait ! … Hein ?"
+  ]
+ },
+ "quit_vent": {
+  "_": [
+   "Je le jure, encore une journée comme ça et je démissionne.",
+   "Je mets mon CV à jour ce soir. Je suis sérieux{me?|se}.",
+   "Pourquoi je travaille ici, déjà ?"
+  ],
+  "burak": [
+   "Le marché du travail ne peut pas être pire que ça."
+  ],
+  "selin": [
+   "Si cette promotion n'arrive pas, je pars."
+  ],
+  "zeynep": [
+   "Je pourrais auditer une entreprise bien plus agréable."
+  ]
+ },
+ "quit_comfort": {
+  "_": [
+   "Hé. Ne décide rien sous le coup de la colère. La nuit porte conseil.",
+   "On s'effondrerait sans toi, tu sais.",
+   "Allez. Kebab après le boulot. C'est pour moi."
+  ]
+ },
+ "quit_egg_on": {
+  "_": [
+   "Franchement ? Fais-le. Tu es gâché{to?|e} ici.",
+   "À ta place, je serais déjà parti{me?|e}.",
+   "Montre-leur. Pars."
+  ],
+  "deniz": [
+   "Tu devrais absolument partir. Pour ton bien."
+  ]
+ },
+ "cv_think": {
+  "_": [
+   "CV… « excellent esprit d'équipe ». Ha.",
+   "Voyons ce qu'il y a ailleurs.",
+   "Je mets mon CV à jour. Au cas où."
+  ]
+ },
+ "cv_spotted": {
+  "_": [
+   "C'est un site d'emploi sur ton écran ?",
+   "Oh, LinkedIn. Intéressant.",
+   "Tu cherches quelque chose ?"
+  ]
+ },
+ "cv_cover": {
+  "_": [
+   "Quoi ? Non ! C'est… de la veille.",
+   "C'est pour un ami !",
+   "Occupe-toi de ton écran."
+  ]
+ },
+ "recruiter_line": {
+  "_": [
+   "Oui, c'est moi. Jeudi, ça me va.",
+   "Le salaire ? Parlons-en de vive voix.",
+   "Non, je peux parler. Doucement."
+  ],
+  "burak": [
+   "Oui, je peux commencer dans un mois. … Non, ils ne savent pas."
+  ]
+ },
+ "overheard_recruiter": {
+  "_": [
+   "C'était un chasseur de têtes ?!",
+   "Jeudi ? Un entretien ?",
+   "Ohhh. Quelqu'un s'en va."
+  ]
+ },
+ "lost_report": {
+  "_": [
+   "Où est mon rapport ?! Il était juste là !",
+   "Mon dossier a DISPARU.",
+   "Quelqu'un a vu un dossier bleu ?"
+  ],
+  "selin": [
+   "Je l'ai mis là. Je le mets toujours là."
+  ],
+  "zeynep": [
+   "Mes factures. Mes précieuses factures. OÙ."
+  ]
+ },
+ "found_misfiled": {
+  "_": [
+   "Trouvé — classé dans « divers » ?! Qui a fait ça ?",
+   "Aux ARCHIVES. À la lettre Q. Q !",
+   "C'est {suspect} qui a classé ça. Je reconnais l'écriture."
+  ]
+ },
+ "found_own_fault": {
+  "_": [
+   "… Oh. Il était dans mon propre tiroir.",
+   "Trouvé. Exactement là où je l'avais laissé. Ne dis rien.",
+   "Ah. Mon erreur."
+  ]
+ },
+ "still_lost": {
+  "_": [
+   "Il a disparu. Complètement.",
+   "Je vais devoir tout refaire.",
+   "C'est un cauchemar."
+  ]
+ },
+ "reply_all_oops": {
+  "_": [
+   "Oh non. Oh non non non. C'était RÉPONDRE À TOUS.",
+   "Pourquoi c'est parti à TOUT LE MONDE ?!",
+   "Annuler. ANNULER. Où est annuler ?!"
+  ],
+  "ece": [
+   "J'ai envoyé ma liste de courses à toute l'entreprise."
+  ],
+  "mert": [
+   "… Cette vidéo de chat était juste pour Burak."
+  ]
+ },
+ "reply_all_react": {
+  "_": [
+   "HAHAHA, le chat !",
+   "Oh, ça va direct au panthéon.",
+   "Tout le monde a reçu ça ?",
+   "Merci pour la… vidéo ?"
+  ]
+ },
+ "boss_reply_all_laugh": {
+  "_": [
+   "… Ha. Bon, ce chat est drôle.",
+   "Supprimez-la. … Après que je l'aie revue."
+  ]
+ },
+ "hijack_line": {
+  "_": [
+   "Si vous permettez — je crois que ce qu'on ESSAIE de dire ici, c'est…",
+   "Je me permets d'intervenir, parce que la vraie idée vient de moi.",
+   "Désolé{me?|e} d'interrompre, mais j'ai eu cette idée en premier."
+  ],
+  "deniz": [
+   "Permettez-moi de sauver cette présentation."
+  ]
+ },
+ "hijack_protest": {
+  "_": [
+   "Excuse-moi, je n'ai pas fini.",
+   "C'est MOI qui présente, merci.",
+   "Tu veux bien arrêter ?"
+  ],
+  "selin": [
+   "Je prendrai les questions à la FIN."
+  ]
+ },
+ "boss_sides_hijack": {
+  "_": [
+   "Non, non, laissez parler. Intéressant.",
+   "Continuez, Deniz."
+  ]
+ },
+ "boss_stops_hijack": {
+  "_": [
+   "Laissez finir.",
+   "Attendez votre tour.",
+   "Deniz. Assis."
+  ]
+ },
+ "snore": {
+  "_": [
+   "Zzz… hrnk… zzz…",
+   "*ronfleeeement*",
+   "… mmh, encore cinq minutes…"
+  ]
+ },
+ "snore_laugh": {
+  "_": [
+   "Est-ce que… quelqu'un RONFLE ?",
+   "Hahaha !",
+   "Chut, laissez dormir. C'est adorable."
+  ]
+ },
+ "boss_wake_up": {
+  "_": [
+   "On vous ENNUIE ?",
+   "Réveillez-vous ! C'est une réunion, pas un hôtel.",
+   "Café. Tout de suite."
+  ]
+ },
+ "ringtone": {
+  "_": [
+   "♪ Dring-dring, décroche, décroche ! ♪",
+   "♪ BAKA BAKA BAKA ♪",
+   "*le téléphone diffuse une chèvre qui hurle*"
+  ]
+ },
+ "ringtone_sorry": {
+  "_": [
+   "Pardon ! Pardon ! C'est mon neveu qui l'a changée !",
+   "Ce n'est pas le mien. … C'est le mien.",
+   "Je peux expliquer !"
+  ]
+ },
+ "room_mine": {
+  "_": [
+   "Excuse-moi, j'ai réservé cette salle.",
+   "J'ai cette salle jusqu'à onze heures.",
+   "Cette salle est réservée. Pour moi."
+  ]
+ },
+ "room_no_mine": {
+  "_": [
+   "Non, c'est moi qui l'ai réservée. Regarde l'agenda.",
+   "Je l'ai réservée depuis lundi !",
+   "Alors l'agenda ment."
+  ]
+ },
+ "room_share": {
+  "_": [
+   "Bon. Tu prends la moitié gauche.",
+   "OK, OK — dix minutes chacun.",
+   "N'en faisons pas toute une histoire."
+  ]
+ },
+ "room_fight": {
+  "_": [
+   "Je ne bouge pas.",
+   "Moi non plus.",
+   "C'est ridicule."
+  ]
+ },
+ "blame_shift": {
+  "_": [
+   "Pour être honnête, Ahmet Bey, {suspect} ne m'a jamais envoyé les données.",
+   "J'attendais {suspect}. Demandez-lui.",
+   "Ce n'est pas ma faute — {suspect} n'a pas assuré."
+  ],
+  "deniz": [
+   "Ça me coûte de le dire, mais {suspect} n'est pas très… fiable ces temps-ci."
+  ]
+ },
+ "blame_shift_heard": {
+  "_": [
+   "Pardon ?!",
+   "Tu te moques de moi ?",
+   "C'est un mensonge éhonté !"
+  ]
+ },
+ "shield_line": {
+  "_": [
+   "Ahmet Bey, c'est en partie ma faute. Je lui ai donné les mauvais chiffres.",
+   "Soyez indulgent — ce matin, il fallait aussi couvrir mon travail.",
+   "Sauf votre respect, ce n'était pas entièrement de sa faute."
+  ],
+  "ceren": [
+   "Ahmet Bey, le changement de planning venait de moi."
+  ]
  }
 }

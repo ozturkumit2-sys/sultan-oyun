@@ -785,7 +785,7 @@ ev(id="meeting_snore", trigger="meeting_banter", priority=40, also=True, tier="s
             rumor("snores", a="sleeper", b="actor", juicy=0.4, knowers=[]), witness([learn("self", "$rumor")], near="sleeper", r=6),
             log("log.meeting_snore", 2, "meeting", who="sleeper")])
 
-L("ringtone", ["♪ I'm a Barbie girl... ♪", "♪ BAKA BAKA BAKA ♪", "*phone plays a goat screaming*"])
+L("ringtone", ["♪ Ring-a-ding-ding, answer the thing! ♪", "♪ BAKA BAKA BAKA ♪", "*phone plays a goat screaming*"])
 L("ringtone_sorry", ["Sorry! Sorry! My nephew changed it!", "That's not mine. ...It's mine.", "I can explain!"])
 S_("log.ringtone", "{joker}'s ringtone went off in the meeting. Everyone heard it.")
 ev(id="meeting_ringtone", trigger="meeting_banter", priority=38, also=True, tier="small", allow_absent=True, cooldown_days=2,
