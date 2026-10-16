@@ -1,0 +1,184 @@
+869|Müdür kapısındaki ismi değiştir
+870|'Müdür: (biri)'. İnsanlar Ahmet'in evraklarını ona getirecek.
+871|Ofis bültenine sulu bir satır ekle
+872|'Görüldü: (biri) mum ışığında yemekte, yanında...' Ceren bunu öğlen gönderiyor.
+873|Yazıcının kâğıt tepsisini boşalt
+874|Bir sonraki çıktı alınamayacak. Biri kâğıt avına çıkacak.
+875|Mesaj önizlemesini başka birinin telefonunda göster
+876|Kimin telefonu olacağını seç. Önizleme pek nazik değil.
+877|Ofis müziğini değiştir
+878|Hoparlörü herkes duyar. Ama herkes aynı müziği sevmez.
+879|Ahmet'in eski sözünü gün yüzüne çıkar
+880|Antika bir e-posta: 'seneye zam — söz veriyorum.' Gelen kutusunun en üstüne geri getir.
+881|Dosyasının eski bir sürümünü geri yükle
+882|Raporunu geçen haftaya döndür. Her değişiklik: gitti.
+883|Mantar panodaki organizasyon şemasını düzenle
+884|Birini Ahmet'in üstüne koy. Toplantı odasındaki herkes görecek.
+885|Birini hafta sonu mesai listesine ekle
+886|Herkes görsün diye panoya asıldı.
+887|Masasını karton kutuya topla
+888|Her şeyi. Düzgünce. İşten çıkarılmış biri gibi.
+889|Bilgisayar saatini değiştir
+890|İleri: erkenden toparlanır. Geri: her şeye geç kalır.
+891|Birinin performans raporunu yeniden yaz
+892|Kimin raporu olacağını seç, sonra ya parlat ya da felakete çevir. Ahmet bunları masasında okur.
+893|Birinin telefonunu başka birinin montuna koy
+894|Kimin telefonu olacağını seç. Yanlış cepten çalacak.
+895|Telefonunu buzdolabına sakla
+896|Sütün yanına. Önce her yere bakacak.
+897|Ahmet'in herkes hakkındaki özel notlarını as
+898|Her çalışan hakkında gerçekte ne düşündüğü. Mantar panoda.
+899|Toplantıda bedava pizza sözü ver
+900|Herkes erken gelecek. Aç karnına.
+901|Birinin değerlendirmesini süresiz ertele
+902|Yeni tarih yok. Sadece 'ertelendi'. Nedenini merak edecek.
+903|Onun dahili hattından Ahmet'e şaka telefonu aç
+904|Ağır ağır nefes. Ahmet'in telefonu aramanın tam olarak nereden geldiğini gösteriyor.
+905|Birini sunum listesinin başına al
+906|Hazır olsun olmasın, ilk o çıkacak.
+907|Ahmet'in bebeklik fotoğrafından 500 kopya bas
+908|Yazıcıyı kullanan ilk kişi fotoğrafların altında kalacak.
+909|Özel dosyasını ortak yazıcıya gönder
+910|Bir sonraki çıktıyı alan sürpriz bir sayfa bulacak.
+911|Sahte 'terfi kriterleri' as
+912|Hırslılar harfiyen uygulayacak.
+913|Yazıcının önüne su dök
+914|Çıktı almaya gelen ilk kişi bunu beklemiyor olacak.
+915|Birinin zam mektubunu yanlış kişiye ulaştır
+916|Mektup Ahmet'in gözdesi için. Yerine kimin açacağını seç.
+917|İmzalı sözleşmesini geri dönüşüme at
+918|Mutfaktaki geri dönüşüm kutusu. Yoğurt kaplarının yanı.
+919|Biri için övgü dolu bir referans mektubu bırak
+920|Ahmet'ten. 'Kesinlikle tavsiye ederim — başka yerlerdeki pozisyonlar için.'
+921|Klasörlerinin etiketlerini değiştir
+922|Masasının önünden geçen herkes yeni etiketleri okuyacak.
+923|Raporunu başka birinin masasına koy
+924|Kimin masası olacağını seç. Onunla ne yapacağı ona kalmış.
+925|Mutfağa 'Rezerve' tabelası as
+926|'Ahmet'in özel öğle yemeği için ayrılmıştır.' Bugün mutfak kimseye yok.
+927|İstifa taslağını ortada bırak
+928|Kötü bir günde yazmıştı. Hiç göndermedi. Şimdi yığının en üstünde.
+929|Ölmek üzere olan ofis bitkisini canlandır
+930|Küçük, iyi kalpli bir musallat.
+931|Gizli hediye çekilişine hile karıştır
+932|Birbirini çekemeyen iki kişi birbirine hediye almak zorunda kalacak.
+933|Zil sesini değiştir
+934|Bir sonraki araması… bununla çalacak.
+935|Yalan bir söylentiyi kimin başlattığını panoya as
+936|Biri bir şey uydurdu. Mantar panoda ismini ver.
+937|Satış sıralamasını yeniden yaz
+938|Birinciliğe başkasını koy. Mert her gün kontrol ediyor.
+939|Şekerliği tuzla doldur
+940|Sonraki iki kahve unutulmaz olacak.
+941|Resepsiyon santralini karıştır
+942|Gelen her arama bir saat boyunca yanlış masaya gider.
+943|Özel klasörünü herkesle paylaş
+944|Ofisin en meraklısı ilk o bulacak.
+945|Toplantıya '5 dakika' yaz
+946|İnsanlar panoya harfiyen inanacak.
+947|Birini terfi kısa listesinin en üstüne koy
+948|Henüz var olmayan bir kısa liste — en başta onun adı.
+949|Sunumunun sayfalarını karıştır
+950|Herkesin önünde fark edecek.
+951|E-posta imzasını değiştir
+952|Bundan sonra gönderdiği her e-postada olacak.
+953|İnternetini yavaşlat
+954|Yaptığı her şey iki kat uzun sürer — BT düzeltene kadar.
+955|Su sebilini bir 'spa köşesine' çevir
+956|Limon dilimleri, salatalık, küçük bir tabela. İnsanlar oyalanacak.
+957|Ahmet'in talimatını spam klasörüne gönder
+958|Asla görmeyeceği acil bir istek — Ahmet sorana kadar.
+959|Telefonunu hoparlöre al
+960|Bir sonraki özel araması: yakındaki herkese canlı yayın.
+961|Kahveyi üç kat sert yap
+962|Verim yukarı. Sabır aşağı.
+963|Öneri kutusunu doldur
+964|Tek bir kişi hakkında altı aynı not. Ahmet kutuyu masasında okur.
+965|Sürpriz bir performans değerlendirmesi ayarla
+966|Ahmet'in takvimine biri için birebir değerlendirme koy — şimdi başlıyor.
+967|Askılıktaki iki montu değiştir
+968|Bir mont sahibi seç. Eve başkasının montuyla gidecek.
+969|Raftaki herkesin kupasını karıştır
+970|Kahve yapan ilk kişi yanlış kupayı kapacak.
+971|Yapışkan notunu başka birinin masasına taşı
+972|'Öğlen 1'de yemek? Benden.' Kimin bulacağını seç.
+973|Cep telefonunu birinin tıpatıp aynı telefonuyla değiştir
+974|Kiminkiyle olacağını seç. Biri kendine ait olmayan bir mesajı okuyacak.
+975|İki kişinin performans değerlendirmesini değiştir
+976|Kimin dosyasının bu masanın sahibininkiyle yer değiştireceğini seç.
+977|Toplantı koltuklarındaki isim kartlarını değiştir
+978|Olabilecek en kötü ikiliyi yan yana oturt. (Ya da en iyisini.)
+979|Sözleşmesinin imza sayfasını değiştir
+980|Sözleşmesi artık başka birinin imzasıyla bitiyor.
+981|Sunum dosyasını değiştir
+982|Sunumunda artık başkasının slaytları var — ve ilk o sunacak.
+983|İsimsiz bir çay ve kurabiye tepsisi koy
+984|Kimin getirdiğini kimse bilmiyor. Biri sahiplenecek.
+985|Ahmet'in teşekkür notunu yanlış kişiye ulaştır
+986|Gözdesi içindi. Kimin açacağını seç.
+987|'Teşekkürler Burak' bahşiş kavanozu koy
+988|Her şeyi o tamir ediyor. Kimse bir teşekkür bile etmiyor.
+989|Birinin unvanını 'Stajyer' yap
+990|İK sisteminde. Bordro bir hoş geldin e-postası gönderecek.
+991|Biri için tayin talebi hazırla
+992|Çok, çok uzaktaki bir şubeye.
+993|Müşteri e-postasına yazım hataları serpiştir
+994|'Sayın Değerli Müşterrimiz...' Müşteri Ahmet'i arayacak.
+995|Birini toplantı davetinden çıkar
+996|Bir toplantı olduğunu bilmeyecek. Sonradan öğrenene kadar.
+997|Monitörünün fişini çek
+998|En basit şaka. Panikleyişini izle.
+999|Ağ anahtarının fişini çek
+1000|Arşivin arkasındaki küçük mavi kutu. Bütün ofis çevrimdışı olur.
+1001|Özrünü geri çek
+1002|Birine az önce bir özür yazdı. Okunmadan yok et.
+1003|Masasındaki her kâğıda ACİL damgası bas
+1004|Hepsine. Her bir sayfaya.
+1005|Sahte bir virüs uyarısı çıkar
+1006|Yanıp sönen kırmızı kurukafa, korkunç sirenler. Zararsız. Ama o bunu bilmiyor.
+1007|Sesli mesajını yanlış kişiye ulaştır
+1008|Kaydettiği özel bir şey. Kimin duyacağını seç.
+1009|Ofisin duvar saatini değiştir
+1010|İnsanlar o saate güvenir. Bazıları ona göre davranacak.
+1011|Duvar kâğıdını değiştir
+1012|Kesinlikle fark edeceği bir şey.
+1013|Telefonundan 'konuşmamız lazım' mesajı at
+1014|Hoşlandığı kişiye.
+1015|Sandalyesini kırık olanla değiştir
+1016|Sağlam görünüyor. Değil.
+1017|Yanlış kişiyi geri aramasını sağla
+1018|'Cevapsız arama' listesinde artık başkasının numarası var. Kiminki olacağını seç.
+1019|Toplantı başkanı olarak başkasını yaz
+1020|Pano bugünkü toplantıyı kimin yöneteceğini söyleyecek.
+1021|'Bu yılki zam bütçesi: 0' notunu as
+1022|Mantar panoda küçük bir not. Moralde büyük bir düşüş.
+1023|Sürpriz Parti
+1024|Bugün {bday:in} doğum günü — ve {organizer:in} bir planı var.
+1025|Suçlama Oyunu
+1026|Ahmet'in telefonu çalıyor. Sinirli bir müşteriye benziyor.
+1027|Patron Çalışana Karşı
+1028|Ahmet {rebel:in} masasının başından ayrılmıyor. {rebel:in} sabrı tükeniyor.
+1029|Ayrılık
+1030|{a} ile {b} kavga ediyor. Bütün ofis dinlemiyormuş gibi yapıyor.
+1031|Bütçe Kesintileri
+1032|Genel merkez bütçeyi kesti. İlk kurban bedava kahve.
+1033|Ofis Sandalyesi Yarışı
+1034|{racer}, {rival:i} koridorda ofis sandalyesi yarışına davet etti.
+1035|Bağış Kutusu
+1036|{organiser} hayvan barınağı için bağış topluyor. Biri yanlış sayıyor.
+1037|Müşteri Krizi
+1038|Müşteri yolda. Projeksiyon ölü. Sıra {presenter:de}.
+1039|Çalınan Müşteri
+1040|{thief:in} gözü {victim:in} en büyük müşterisinde.
+1041|Kahve Randevusu Karmaşası
+1042|{reader}, {sender:in} kendisine çıkma teklif ettiğini sanıyor. {sender:in} hiçbir şeyden haberi yok.
+1043|Silinen Klasör
+1044|{culprit} tıklamaması gereken şeylere tıklıyor.
+1045|Kazara Çifte Randevu
+1046|{a} ile {b} (fotoğraftaki 'çift') kendilerini {c} ve {d} ile öğle yemeğinde buldu.
+1047|Büyük Tahliye
+1048|Yangın alarmı. Ön kapı sıkışık. Herkes resepsiyonda mahsur.
+1049|Masraf Skandalı
+1050|Zeynep, {suspect:in} masraflarında tuhaf bir şey buldu.
+1051|Olmayan Veda
+1052|Herkes {leaver:in} istifa ettiğini sanıyor. Etmiyor. Galiba.
