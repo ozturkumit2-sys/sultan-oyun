@@ -1,0 +1,202 @@
+4666|...Tu sais quoi ? D'accord. Soirée chez moi. Pourquoi pas !
+4667|OK. OK ! La soirée est maintenue. Apportez des chips.
+4668|...{owner} a écrit ÇA sur moi ?
+4669|Waouh. Alors c'est ce que {owner} pense vraiment.
+4670|Je n'étais pas censé{me?|e} voir ça, hein.
+4671|Je le savais. Je SAVAIS que {owner} parlait de moi.
+4672|Oh. Oh non. {owner} ne m'aime pas ?
+4673|J'ai lu ta petite discussion sur moi, {target}.
+4674|Tu veux me le dire en face, {target} ?
+4675|Sympa, votre petite discussion sur moi.
+4676|Pardon. Je vidais mon sac. Je ne le pensais pas.
+4677|C'était une mauvaise journée. Désolé{me?|e} que tu aies vu ça.
+4678|Ben, c'est vrai.
+4679|Peut-être que si tu ne rendais pas ça si facile...
+4680|OUI ! Approuvé ! APPROUVÉ !
+4681|Ahmet a dit oui ! J'y crois pas !
+4682|Enfin ! C'est officiel !
+4683|...Approuvé ? Tiens. OK. OUI.
+4684|Devine qui vient de se faire approuver son {what} ?
+4685|Ahmet a approuvé mon {what} ! C'est une bonne journée.
+4686|J'ai approuvé QUOI ? Je n'ai jamais rien approuvé !
+4687|Il n'y a eu aucune approbation. Qui vous a dit ça ?
+4688|Mais... le mail disait...
+4689|C'était écrit « Approuvé ». Noir sur blanc !
+4690|{target}, vous avez fini ce que je vous ai demandé ce matin ?
+4691|Où est le truc que je vous ai envoyé par mail, {target} ?
+4692|Quel truc ? Je n'ai jamais rien reçu !
+4693|Demandé ? Quand ? Il n'y a rien dans ma boîte de réception !
+4694|Attendez... c'est dans mes SPAMS ?! Depuis ce matin !
+4695|Oh non. C'est dans les spams. Évidemment que c'est dans les spams.
+4696|Alors vérifiez vos spams ! C'est urgent et c'est pour aujourd'hui.
+4697|Des excuses. Je le veux avant votre départ.
+4698|Des spams ? Hm. Burak va m'entendre. Faites-le maintenant, s'il vous plaît.
+4699|Bon. Notre messagerie est une catastrophe. Faites-le.
+4700|Tu voulais me voir ?
+4701|Alors... cette réunion, c'est à quel sujet ?
+4702|J'ai reçu ton invitation. La cuisine, c'est ça ?
+4703|Quoi ? Je croyais que c'était TOI qui M'avais invité{me?|e}.
+4704|Je n'ai rien envoyé. C'est toi !
+4705|Bon, on est là. Un café ?
+4706|Ha ! OK. Puisqu'on est là tous les deux...
+4707|Peut-être que l'univers voulait qu'on prenne un café.
+4708|Je suis... en fait content{me?|e} que ce soit arrivé.
+4709|J'ai mieux à faire.
+4710|Génial. Une perte de temps.
+4711|Attends. Ahmet m'a PROMIS une promotion. Par écrit. Il y a deux ans !
+4712|Regarde ce vieux mail... « l'année prochaine, une augmentation, promis. » L'année prochaine, c'était l'année dernière !
+4713|Ahmet Bey, vous vous souvenez de ce mail ? Vous m'avez promis une augmentation.
+4714|J'ai retrouvé votre vieille promesse. Par écrit. J'aimerais en parler.
+4715|...C'est vrai, je l'ai écrit. Bon. Je tiens parole. Parlons chiffres.
+4716|Hm. Chose promise, chose due.
+4717|Les temps changent. Les budgets changent.
+4718|C'était une autre année. Un autre moi.
+4719|Je ne me souviens pas avoir écrit ça.
+4720|« Je démissionne. Ne me contactez pas. » — la réponse automatique de {owner} ?!
+4721|{owner}... a DÉMISSIONNÉ ? Depuis quand ?!
+4722|{target} ! C'est quoi, cette histoire de « je démissionne » ?!
+4723|Vous DÉMISSIONNEZ ? Sans me le dire ?!
+4724|Quoi ? Non ! Je ne démissionne pas ! ...Si ?
+4725|Ce n'est pas ma réponse automatique ! Je n'ai jamais mis ça !
+4726|Écoutez... quoi que ce soit, on peut en parler. Plus d'argent ? Un meilleur titre ?
+4727|Ne faites rien d'irréfléchi. Parlons de votre avenir ici.
+4728|...En fait, maintenant que vous le dites — une augmentation, ce serait bien.
+4729|Eh bien. Puisque vous le proposez...
+4730|Vous savez quoi ? C'est peut-être vrai. Je DEVRAIS peut-être démissionner.
+4731|...Ce n'est pas faux, cela dit.
+4732|Alors... c'est bon entre nous ? Après mon message ?
+4733|Hé. Merci d'avoir lu mon message. Amis à nouveau ?
+4734|Quel message ? Tu ne t'es jamais excusé{to?|e}.
+4735|Bon entre nous ? Tu ne t'es même pas excusé{to?|e}.
+4736|...Alors je le dis maintenant. Je suis désolé{me?|e}.
+4737|Il a disparu ? OK. En personne, alors : je suis désolé{me?|e}.
+4738|Je me SUIS excusé{me?|e} ! Ne fais pas comme si je ne l'avais pas fait !
+4739|Incroyable. Je me suis excusé{me?|e} et tu fais comme si de rien n'était.
+4740|...Pourquoi je suis dans un groupe qui s'appelle « Pff, {target} » ?
+4741|Oh. Tout un groupe de discussion. Sur moi.
+4742|« {hater} dit : je ne supporte pas {target}. » Charmant.
+4743|Sympa, le groupe, {target}. Je peux le lire maintenant, tu sais.
+4744|Alors vous avez toute une DISCUSSION sur moi ?
+4745|...Comment tu t'es retrouvé{to?|e} dans ce groupe ?
+4746|Oh non. Qui t'a ajouté{to?|e} ?!
+4747|{target}. Le client a appelé. « Cher Cleint, nous avons le regert de vous infromer... » ?!
+4748|Le client dit que votre mail était « illisible ». Expliquez-vous.
+4749|C'est impossible, je l'ai relu deux fois !
+4750|Quoi ?! Il était parfait quand je l'ai envoyé !
+4751|La prochaine fois, relisez TROIS fois.
+4752|Cette entreprise a une réputation. Avait.
+4753|...« Regert ». Ha. Bon. Appelez-les et excusez-vous.
+4754|Au moins, le client a ri. Corrigez ça.
+4755|Lecture intéressante, la petite discussion de {owner}.
+4756|J'ai été mis en copie de la discussion « privée » de {owner}. Très instructif.
+4757|« Ahmet est un dinosaure » ? Vraiment, {target} ?
+4758|Alors je suis « une réunion sur pattes », {target} ?
+4759|Quarante messages sur le kebab pendant les heures de travail, {target} ?
+4760|Vous deux, vous discutez plus que vous ne travaillez.
+4761|...C'était censé être privé !
+4762|Oh non. Oh NON. Vous étiez en copie ?
+4763|{owner} a lu mon message il y a une heure. Pas de réponse. Super.
+4764|« Vu ». Juste « vu ». Waouh, {owner}.
+4765|Tu as lu mon message et tu l'as juste... ignoré ?
+4766|Je vois que tu l'as lu, tu sais.
+4767|Quel message ? Je ne l'ai même pas ouvert !
+4768|Je n'ai rien vu ! Je le jure !
+4769|...Bon. Ton téléphone fait peut-être des siennes.
+4770|OK. Je te crois. Presque.
+4771|« PDG en devenir » ? Dans ta signature, {owner} ?
+4772|Signature audacieuse, {owner}. Très audacieuse.
+4773|« PDG en devenir. » C'est une menace, {owner} ?
+4774|PDG en devenir ? Il faudra me passer sur le corps.
+4775|« Envoyé depuis ma baignoire » ?! {owner} !
+4776|Pourquoi ton mail dit que tu es dans une baignoire ?
+4777|Des mails depuis la baignoire ! Une légende.
+4778|« {owner?Le chouchou|La chouchoute} d'Ahmet » ? Vraiment, {owner} ?
+4779|Signature de fayot. Charmant.
+4780|Hm. « Chouchou. » Eh bien. Peut-être.
+4781|Ma signature dit QUOI ?!
+4782|Je n'ai pas écrit ça ! Jamais de la vie !
+4783|...{owner} vient de m'envoyer un cœur ?
+4784|Trois emojis cœur. Dans un mail sur le budget. De la part de {owner}.
+4785|Des cœurs ? De la part de {owner} ? Tiens.
+4786|Alors... à propos des cœurs dans ton mail...
+4787|Ce cœur... c'était voulu ?
+4788|Des cœurs ?! Non ! Je t'ai envoyé un tableur !
+4789|Ce n'était pas moi ! Mon clavier n'en fait qu'à sa tête !
+4790|...Peut-être que c'était un tout petit peu voulu.
+4791|Bon. Oui. Tu me plais. Voilà, je l'ai dit.
+4792|...{rich} gagne COMBIEN de plus que moi ?!
+4793|C'est la fiche de paie. Je ne devrais pas— attends. {rich} ?!
+4794|Alors c'est ce que gagne {rich}. Intéressant.
+4795|Ahmet Bey, j'ai vu ce que gagnent les autres. Je veux ce qui est juste.
+4796|J'aimerais parler de mon salaire. Maintenant. S'il vous plaît.
+4797|Qui vous a montré les salaires ?! C'est confidentiel !
+4798|Où avez-vous eu ces chiffres ?!
+4799|« Restructuration... réductions possibles »... RÉDUCTIONS ?!
+4800|La note d'Ahmet parle de « réductions ». Ça veut dire nous !
+4801|Tout le monde vient de recevoir le brouillon de la note d'Ahmet ?!
+4802|« Réductions. » Heureusement que mon CV est à jour.
+4803|Des réductions de QUOI ? De gens ?!
+4804|C'était un BROUILLON ! Qui a envoyé mon brouillon ?!
+4805|Cette note n'était PAS prête !
+4806|« Aperçus : {target} et {crush2} lors d'un dîner aux chandelles » ?!
+4807|La newsletter dit que {target} et {crush2}... sont ENSEMBLE ?
+4808|Enfin du journalisme !
+4809|Ce n'est pas vrai ! On n'a jamais dîné ensemble !
+4810|Qui a écrit ça ?! C'est un mensonge !
+4811|...Enfin. Ce n'est pas VRAI. Mais ce n'est pas... horrible.
+4812|Un dîner ? En tête-à-tête ? ...Hm.
+4813|« Je vais TOUT DÉCHIRER... ...la présentation » ?! De la part de {owner} ?
+4814|Le message de {owner} dit « je vais te détruire ». Je devrais m'inquiéter ?
+4815|Tu viens de me menacer ?!
+4816|Ça veut dire quoi, exactement, « je vais te détruire » ?
+4817|J'ai dit « je vais te la DÉCRIRE » ! La dictée vocale !
+4818|C'était la dictée vocale ! J'ai dit « tout déchirer », genre « assurer » !
+4819|Oh, Dieu merci. Ton téléphone te déteste.
+4820|...OK. En fait, c'est hilarant.
+4821|C'est ça. « La dictée vocale ».
+4822|Je garde une capture d'écran. Au cas où.
+4823|{target} ? Que faites-vous dans cette réunion ?
+4824|Quelqu'un a invité {target} ? Pourquoi ?
+4825|Eh bien, puisque je suis là — j'ai une idée là-dessus.
+4826|En fait, je peux aider sur ce point.
+4827|J'ai reçu une invitation ! ...Je m'en vais.
+4828|Pardon ! Je vais juste... sortir.
+4829|Où est {target} ? Toujours là, d'habitude.
+4830|Quelqu'un a vu {target} ?
+4831|On m'a retiré{me?|e} de la liste des invités ?! Qui ça ?
+4832|Alors il y avait une réunion. Sans moi. Charmant.
+4833|Oh — moi d'abord ? OK. Voilà où on en est...
+4834|Bien. Allons-y.
+4835|En premier ? Parfait, je suis prêt{me?|e}.
+4836|Moi ? EN PREMIER ? Je... n'étais pas prêt{me?|e} à passer en premier.
+4837|Euh. Je peux passer en dernier ? Non ? D'accord...
+4838|« Ordre du jour : licenciements » ?!
+4839|Pourquoi le tableau dit LICENCIEMENTS ?
+4840|Des licenciements. À l'ordre du jour. Aujourd'hui.
+4841|« Nouvelle politique sur les romances au bureau » ? Oh oh.
+4842|Une politique sur les romances ?! Ça vise qui ?
+4843|« Ordre du jour : Qui vole les déjeuners ? » Enfin !
+4844|Le voleur de déjeuners à l'ordre du jour. Quelqu'un transpire.
+4845|Des « promotions » à l'ordre du jour ? Aujourd'hui ?!
+4846|Des promotions ! OK. OK. Reste cool.
+4847|Qui a écrit ÇA sur mon ordre du jour ?!
+4848|Ce n'est PAS mon ordre du jour. Qui a touché à mon tableau ?
+4849|Pourquoi est-ce qu'on fait une réunion à côté du frigo ?!
+4850|Qui a déplacé ma réunion dans le coin détente ?
+4851|C'est une cuisine. Pas une salle du conseil.
+4852|Moi, je m'y plais bien, Ahmet Bey.
+4853|Des snacks à portée de main. Meilleure réunion de tous les temps.
+4854|Meilleure salle de réunion de tous les temps. Accès direct au frigo.
+4855|Mais où est TOUT LE MONDE ?!
+4856|Je suis là. Tout{me?|e} seul{me?|e}. À ma propre réunion.
+4857|C'est un jour férié ? Personne ne m'a prévenu{me?|e}.
+4858|La réunion est annulée ? Super, plus de temps !
+4859|Réunion annulée ? Merveilleux.
+4860|Allô ? Où est tout le monde ? C'est la bonne réunion ?
+4861|C'est nous, le « point budget »... dans la cuisine... non ?
+4862|Attends. Il n'y a pas de point budget. La vraie réunion a commencé !
+4863|On est dans la mauvaise réunion ! COUREZ !
+4864|Bien, tout le monde ! On commence. C'est moi qui préside aujourd'hui.
+4865|OK ! Puisque c'est moi qui mène cette réunion — premier point !
+4866|Mesdames et messieurs. Soyons efficaces.
+4867|Euh, salut ! Je suis... apparemment la présidente de séance ? C'est parti !

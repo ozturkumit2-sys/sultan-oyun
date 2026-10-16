@@ -5846,5 +5846,585 @@
    "À ce sujet... il n'y a pas de soirée. C'était une erreur.",
    "Il n'y a pas de soirée ! Mon mail s'est fait pirater, ou je sais pas quoi !"
   ]
+ },
+ "party_yes": {
+  "_": [
+   "...Tu sais quoi ? D'accord. Soirée chez moi. Pourquoi pas !",
+   "OK. OK ! La soirée est maintenue. Apportez des chips."
+  ]
+ },
+ "fwd_read": {
+  "_": [
+   "...{owner} a écrit ÇA sur moi ?",
+   "Waouh. Alors c'est ce que {owner} pense vraiment.",
+   "Je n'étais pas censé{me?|e} voir ça, hein."
+  ],
+  "ece": [
+   "Oh. Oh non. {owner} ne m'aime pas ?"
+  ],
+  "selin": [
+   "Je le savais. Je SAVAIS que {owner} parlait de moi."
+  ]
+ },
+ "fwd_confront": {
+  "_": [
+   "J'ai lu ta petite discussion sur moi, {target}.",
+   "Tu veux me le dire en face, {target} ?",
+   "Sympa, votre petite discussion sur moi."
+  ]
+ },
+ "fwd_sorry": {
+  "_": [
+   "Pardon. Je vidais mon sac. Je ne le pensais pas.",
+   "C'était une mauvaise journée. Désolé{me?|e} que tu aies vu ça."
+  ]
+ },
+ "fwd_double": {
+  "_": [
+   "Ben, c'est vrai.",
+   "Peut-être que si tu ne rendais pas ça si facile..."
+  ]
+ },
+ "approve_cheer": {
+  "_": [
+   "OUI ! Approuvé ! APPROUVÉ !",
+   "Ahmet a dit oui ! J'y crois pas !",
+   "Enfin ! C'est officiel !"
+  ],
+  "burak": [
+   "...Approuvé ? Tiens. OK. OUI."
+  ]
+ },
+ "approve_brag": {
+  "_": [
+   "Devine qui vient de se faire approuver son {what} ?",
+   "Ahmet a approuvé mon {what} ! C'est une bonne journée."
+  ]
+ },
+ "approve_boss_what": {
+  "_": [
+   "J'ai approuvé QUOI ? Je n'ai jamais rien approuvé !",
+   "Il n'y a eu aucune approbation. Qui vous a dit ça ?"
+  ]
+ },
+ "approve_crushed": {
+  "_": [
+   "Mais... le mail disait...",
+   "C'était écrit « Approuvé ». Noir sur blanc !"
+  ]
+ },
+ "spam_boss_check": {
+  "_": [
+   "{target}, vous avez fini ce que je vous ai demandé ce matin ?",
+   "Où est le truc que je vous ai envoyé par mail, {target} ?"
+  ]
+ },
+ "spam_what": {
+  "_": [
+   "Quel truc ? Je n'ai jamais rien reçu !",
+   "Demandé ? Quand ? Il n'y a rien dans ma boîte de réception !"
+  ]
+ },
+ "spam_found": {
+  "_": [
+   "Attendez... c'est dans mes SPAMS ?! Depuis ce matin !",
+   "Oh non. C'est dans les spams. Évidemment que c'est dans les spams."
+  ]
+ },
+ "spam_scold": {
+  "_": [
+   "Alors vérifiez vos spams ! C'est urgent et c'est pour aujourd'hui.",
+   "Des excuses. Je le veux avant votre départ."
+  ]
+ },
+ "spam_understand": {
+  "_": [
+   "Des spams ? Hm. Burak va m'entendre. Faites-le maintenant, s'il vous plaît.",
+   "Bon. Notre messagerie est une catastrophe. Faites-le."
+  ]
+ },
+ "fake_date_q": {
+  "_": [
+   "Tu voulais me voir ?",
+   "Alors... cette réunion, c'est à quel sujet ?",
+   "J'ai reçu ton invitation. La cuisine, c'est ça ?"
+  ]
+ },
+ "fake_date_a": {
+  "_": [
+   "Quoi ? Je croyais que c'était TOI qui M'avais invité{me?|e}.",
+   "Je n'ai rien envoyé. C'est toi !"
+  ]
+ },
+ "fake_date_laugh": {
+  "_": [
+   "Bon, on est là. Un café ?",
+   "Ha ! OK. Puisqu'on est là tous les deux..."
+  ]
+ },
+ "fake_date_spark": {
+  "_": [
+   "Peut-être que l'univers voulait qu'on prenne un café.",
+   "Je suis... en fait content{me?|e} que ce soit arrivé."
+  ]
+ },
+ "fake_date_cold": {
+  "_": [
+   "J'ai mieux à faire.",
+   "Génial. Une perte de temps."
+  ]
+ },
+ "promise_find": {
+  "_": [
+   "Attends. Ahmet m'a PROMIS une promotion. Par écrit. Il y a deux ans !",
+   "Regarde ce vieux mail... « l'année prochaine, une augmentation, promis. » L'année prochaine, c'était l'année dernière !"
+  ]
+ },
+ "promise_claim": {
+  "_": [
+   "Ahmet Bey, vous vous souvenez de ce mail ? Vous m'avez promis une augmentation.",
+   "J'ai retrouvé votre vieille promesse. Par écrit. J'aimerais en parler."
+  ]
+ },
+ "promise_honour": {
+  "_": [
+   "...C'est vrai, je l'ai écrit. Bon. Je tiens parole. Parlons chiffres.",
+   "Hm. Chose promise, chose due."
+  ]
+ },
+ "promise_dodge": {
+  "_": [
+   "Les temps changent. Les budgets changent.",
+   "C'était une autre année. Un autre moi.",
+   "Je ne me souviens pas avoir écrit ça."
+  ]
+ },
+ "quit_reply_read": {
+  "_": [
+   "« Je démissionne. Ne me contactez pas. » — la réponse automatique de {owner} ?!",
+   "{owner}... a DÉMISSIONNÉ ? Depuis quand ?!"
+  ]
+ },
+ "quit_boss_rush": {
+  "_": [
+   "{target} ! C'est quoi, cette histoire de « je démissionne » ?!",
+   "Vous DÉMISSIONNEZ ? Sans me le dire ?!"
+  ]
+ },
+ "quit_explain": {
+  "_": [
+   "Quoi ? Non ! Je ne démissionne pas ! ...Si ?",
+   "Ce n'est pas ma réponse automatique ! Je n'ai jamais mis ça !"
+  ]
+ },
+ "quit_counter": {
+  "_": [
+   "Écoutez... quoi que ce soit, on peut en parler. Plus d'argent ? Un meilleur titre ?",
+   "Ne faites rien d'irréfléchi. Parlons de votre avenir ici."
+  ]
+ },
+ "quit_leverage": {
+  "_": [
+   "...En fait, maintenant que vous le dites — une augmentation, ce serait bien.",
+   "Eh bien. Puisque vous le proposez..."
+  ]
+ },
+ "quit_real": {
+  "_": [
+   "Vous savez quoi ? C'est peut-être vrai. Je DEVRAIS peut-être démissionner.",
+   "...Ce n'est pas faux, cela dit."
+  ]
+ },
+ "unsent_hope": {
+  "_": [
+   "Alors... c'est bon entre nous ? Après mon message ?",
+   "Hé. Merci d'avoir lu mon message. Amis à nouveau ?"
+  ]
+ },
+ "unsent_cold": {
+  "_": [
+   "Quel message ? Tu ne t'es jamais excusé{to?|e}.",
+   "Bon entre nous ? Tu ne t'es même pas excusé{to?|e}."
+  ]
+ },
+ "unsent_say_it": {
+  "_": [
+   "...Alors je le dis maintenant. Je suis désolé{me?|e}.",
+   "Il a disparu ? OK. En personne, alors : je suis désolé{me?|e}."
+  ]
+ },
+ "unsent_fight": {
+  "_": [
+   "Je me SUIS excusé{me?|e} ! Ne fais pas comme si je ne l'avais pas fait !",
+   "Incroyable. Je me suis excusé{me?|e} et tu fais comme si de rien n'était."
+  ]
+ },
+ "groupchat_read": {
+  "_": [
+   "...Pourquoi je suis dans un groupe qui s'appelle « Pff, {target} » ?",
+   "Oh. Tout un groupe de discussion. Sur moi.",
+   "« {hater} dit : je ne supporte pas {target}. » Charmant."
+  ]
+ },
+ "groupchat_confront": {
+  "_": [
+   "Sympa, le groupe, {target}. Je peux le lire maintenant, tu sais.",
+   "Alors vous avez toute une DISCUSSION sur moi ?"
+  ]
+ },
+ "groupchat_busted": {
+  "_": [
+   "...Comment tu t'es retrouvé{to?|e} dans ce groupe ?",
+   "Oh non. Qui t'a ajouté{to?|e} ?!"
+  ]
+ },
+ "typo_boss": {
+  "_": [
+   "{target}. Le client a appelé. « Cher Cleint, nous avons le regert de vous infromer... » ?!",
+   "Le client dit que votre mail était « illisible ». Expliquez-vous."
+  ]
+ },
+ "typo_explain": {
+  "_": [
+   "C'est impossible, je l'ai relu deux fois !",
+   "Quoi ?! Il était parfait quand je l'ai envoyé !"
+  ]
+ },
+ "typo_scold": {
+  "_": [
+   "La prochaine fois, relisez TROIS fois.",
+   "Cette entreprise a une réputation. Avait."
+  ]
+ },
+ "typo_laugh": {
+  "_": [
+   "...« Regert ». Ha. Bon. Appelez-les et excusez-vous.",
+   "Au moins, le client a ri. Corrigez ça."
+  ]
+ },
+ "cc_boss_read": {
+  "_": [
+   "Lecture intéressante, la petite discussion de {owner}.",
+   "J'ai été mis en copie de la discussion « privée » de {owner}. Très instructif."
+  ]
+ },
+ "cc_boss_rant": {
+  "_": [
+   "« Ahmet est un dinosaure » ? Vraiment, {target} ?",
+   "Alors je suis « une réunion sur pattes », {target} ?"
+  ]
+ },
+ "cc_boss_chatter": {
+  "_": [
+   "Quarante messages sur le kebab pendant les heures de travail, {target} ?",
+   "Vous deux, vous discutez plus que vous ne travaillez."
+  ]
+ },
+ "cc_owner_mortified": {
+  "_": [
+   "...C'était censé être privé !",
+   "Oh non. Oh NON. Vous étiez en copie ?"
+  ]
+ },
+ "seen_hurt": {
+  "_": [
+   "{owner} a lu mon message il y a une heure. Pas de réponse. Super.",
+   "« Vu ». Juste « vu ». Waouh, {owner}."
+  ]
+ },
+ "seen_confront": {
+  "_": [
+   "Tu as lu mon message et tu l'as juste... ignoré ?",
+   "Je vois que tu l'as lu, tu sais."
+  ]
+ },
+ "seen_explain": {
+  "_": [
+   "Quel message ? Je ne l'ai même pas ouvert !",
+   "Je n'ai rien vu ! Je le jure !"
+  ]
+ },
+ "seen_ok": {
+  "_": [
+   "...Bon. Ton téléphone fait peut-être des siennes.",
+   "OK. Je te crois. Presque."
+  ]
+ },
+ "sig_ceo_react": {
+  "_": [
+   "« PDG en devenir » ? Dans ta signature, {owner} ?",
+   "Signature audacieuse, {owner}. Très audacieuse."
+  ],
+  "ahmet": [
+   "« PDG en devenir. » C'est une menace, {owner} ?"
+  ],
+  "deniz": [
+   "PDG en devenir ? Il faudra me passer sur le corps."
+  ]
+ },
+ "sig_bath_react": {
+  "_": [
+   "« Envoyé depuis ma baignoire » ?! {owner} !",
+   "Pourquoi ton mail dit que tu es dans une baignoire ?"
+  ],
+  "mert": [
+   "Des mails depuis la baignoire ! Une légende."
+  ]
+ },
+ "sig_fav_react": {
+  "_": [
+   "« {owner?Le chouchou|La chouchoute} d'Ahmet » ? Vraiment, {owner} ?",
+   "Signature de fayot. Charmant."
+  ],
+  "ahmet": [
+   "Hm. « Chouchou. » Eh bien. Peut-être."
+  ]
+ },
+ "sig_owner": {
+  "_": [
+   "Ma signature dit QUOI ?!",
+   "Je n'ai pas écrit ça ! Jamais de la vie !"
+  ]
+ },
+ "heart_read": {
+  "_": [
+   "...{owner} vient de m'envoyer un cœur ?",
+   "Trois emojis cœur. Dans un mail sur le budget. De la part de {owner}.",
+   "Des cœurs ? De la part de {owner} ? Tiens."
+  ]
+ },
+ "heart_ask": {
+  "_": [
+   "Alors... à propos des cœurs dans ton mail...",
+   "Ce cœur... c'était voulu ?"
+  ]
+ },
+ "heart_deny": {
+  "_": [
+   "Des cœurs ?! Non ! Je t'ai envoyé un tableur !",
+   "Ce n'était pas moi ! Mon clavier n'en fait qu'à sa tête !"
+  ]
+ },
+ "heart_admit": {
+  "_": [
+   "...Peut-être que c'était un tout petit peu voulu.",
+   "Bon. Oui. Tu me plais. Voilà, je l'ai dit."
+  ]
+ },
+ "payroll_read": {
+  "_": [
+   "...{rich} gagne COMBIEN de plus que moi ?!",
+   "C'est la fiche de paie. Je ne devrais pas— attends. {rich} ?!",
+   "Alors c'est ce que gagne {rich}. Intéressant."
+  ]
+ },
+ "payroll_demand": {
+  "_": [
+   "Ahmet Bey, j'ai vu ce que gagnent les autres. Je veux ce qui est juste.",
+   "J'aimerais parler de mon salaire. Maintenant. S'il vous plaît."
+  ]
+ },
+ "payroll_boss_angry": {
+  "_": [
+   "Qui vous a montré les salaires ?! C'est confidentiel !",
+   "Où avez-vous eu ces chiffres ?!"
+  ]
+ },
+ "memo_read": {
+  "_": [
+   "« Restructuration... réductions possibles »... RÉDUCTIONS ?!",
+   "La note d'Ahmet parle de « réductions ». Ça veut dire nous !",
+   "Tout le monde vient de recevoir le brouillon de la note d'Ahmet ?!"
+  ],
+  "burak": [
+   "« Réductions. » Heureusement que mon CV est à jour."
+  ],
+  "ece": [
+   "Des réductions de QUOI ? De gens ?!"
+  ]
+ },
+ "memo_boss": {
+  "_": [
+   "C'était un BROUILLON ! Qui a envoyé mon brouillon ?!",
+   "Cette note n'était PAS prête !"
+  ]
+ },
+ "news_read": {
+  "_": [
+   "« Aperçus : {target} et {crush2} lors d'un dîner aux chandelles » ?!",
+   "La newsletter dit que {target} et {crush2}... sont ENSEMBLE ?"
+  ],
+  "zeynep": [
+   "Enfin du journalisme !"
+  ]
+ },
+ "news_deny": {
+  "_": [
+   "Ce n'est pas vrai ! On n'a jamais dîné ensemble !",
+   "Qui a écrit ça ?! C'est un mensonge !"
+  ]
+ },
+ "news_blush": {
+  "_": [
+   "...Enfin. Ce n'est pas VRAI. Mais ce n'est pas... horrible.",
+   "Un dîner ? En tête-à-tête ? ...Hm."
+  ]
+ },
+ "garble_read": {
+  "_": [
+   "« Je vais TOUT DÉCHIRER... ...la présentation » ?! De la part de {owner} ?",
+   "Le message de {owner} dit « je vais te détruire ». Je devrais m'inquiéter ?"
+  ]
+ },
+ "garble_confront": {
+  "_": [
+   "Tu viens de me menacer ?!",
+   "Ça veut dire quoi, exactement, « je vais te détruire » ?"
+  ]
+ },
+ "garble_explain": {
+  "_": [
+   "J'ai dit « je vais te la DÉCRIRE » ! La dictée vocale !",
+   "C'était la dictée vocale ! J'ai dit « tout déchirer », genre « assurer » !"
+  ]
+ },
+ "garble_laugh": {
+  "_": [
+   "Oh, Dieu merci. Ton téléphone te déteste.",
+   "...OK. En fait, c'est hilarant."
+  ]
+ },
+ "garble_doubt": {
+  "_": [
+   "C'est ça. « La dictée vocale ».",
+   "Je garde une capture d'écran. Au cas où."
+  ]
+ },
+ "wrong_invitee_boss": {
+  "_": [
+   "{target} ? Que faites-vous dans cette réunion ?",
+   "Quelqu'un a invité {target} ? Pourquoi ?"
+  ]
+ },
+ "wrong_invitee_contrib": {
+  "_": [
+   "Eh bien, puisque je suis là — j'ai une idée là-dessus.",
+   "En fait, je peux aider sur ce point."
+  ]
+ },
+ "wrong_invitee_leave": {
+  "_": [
+   "J'ai reçu une invitation ! ...Je m'en vais.",
+   "Pardon ! Je vais juste... sortir."
+  ]
+ },
+ "uninv_notice": {
+  "_": [
+   "Où est {target} ? Toujours là, d'habitude.",
+   "Quelqu'un a vu {target} ?"
+  ]
+ },
+ "uninv_find_out": {
+  "_": [
+   "On m'a retiré{me?|e} de la liste des invités ?! Qui ça ?",
+   "Alors il y avait une réunion. Sans moi. Charmant."
+  ]
+ },
+ "first_shine": {
+  "_": [
+   "Oh — moi d'abord ? OK. Voilà où on en est...",
+   "Bien. Allons-y.",
+   "En premier ? Parfait, je suis prêt{me?|e}."
+  ]
+ },
+ "first_bomb": {
+  "_": [
+   "Moi ? EN PREMIER ? Je... n'étais pas prêt{me?|e} à passer en premier.",
+   "Euh. Je peux passer en dernier ? Non ? D'accord..."
+  ]
+ },
+ "agenda_layoffs": {
+  "_": [
+   "« Ordre du jour : licenciements » ?!",
+   "Pourquoi le tableau dit LICENCIEMENTS ?",
+   "Des licenciements. À l'ordre du jour. Aujourd'hui."
+  ]
+ },
+ "agenda_romance": {
+  "_": [
+   "« Nouvelle politique sur les romances au bureau » ? Oh oh.",
+   "Une politique sur les romances ?! Ça vise qui ?"
+  ]
+ },
+ "agenda_lunch": {
+  "_": [
+   "« Ordre du jour : Qui vole les déjeuners ? » Enfin !",
+   "Le voleur de déjeuners à l'ordre du jour. Quelqu'un transpire."
+  ]
+ },
+ "agenda_promo": {
+  "_": [
+   "Des « promotions » à l'ordre du jour ? Aujourd'hui ?!",
+   "Des promotions ! OK. OK. Reste cool."
+  ]
+ },
+ "agenda_boss": {
+  "_": [
+   "Qui a écrit ÇA sur mon ordre du jour ?!",
+   "Ce n'est PAS mon ordre du jour. Qui a touché à mon tableau ?"
+  ]
+ },
+ "room_boss": {
+  "_": [
+   "Pourquoi est-ce qu'on fait une réunion à côté du frigo ?!",
+   "Qui a déplacé ma réunion dans le coin détente ?",
+   "C'est une cuisine. Pas une salle du conseil."
+  ]
+ },
+ "room_fun": {
+  "_": [
+   "Moi, je m'y plais bien, Ahmet Bey.",
+   "Des snacks à portée de main. Meilleure réunion de tous les temps."
+  ],
+  "mert": [
+   "Meilleure salle de réunion de tous les temps. Accès direct au frigo."
+  ]
+ },
+ "empty_room": {
+  "_": [
+   "Mais où est TOUT LE MONDE ?!",
+   "Je suis là. Tout{me?|e} seul{me?|e}. À ma propre réunion.",
+   "C'est un jour férié ? Personne ne m'a prévenu{me?|e}."
+  ]
+ },
+ "cancelled_think": {
+  "_": [
+   "La réunion est annulée ? Super, plus de temps !",
+   "Réunion annulée ? Merveilleux."
+  ]
+ },
+ "double_where": {
+  "_": [
+   "Allô ? Où est tout le monde ? C'est la bonne réunion ?",
+   "C'est nous, le « point budget »... dans la cuisine... non ?"
+  ]
+ },
+ "double_realise": {
+  "_": [
+   "Attends. Il n'y a pas de point budget. La vraie réunion a commencé !",
+   "On est dans la mauvaise réunion ! COUREZ !"
+  ]
+ },
+ "chair_open": {
+  "_": [
+   "Bien, tout le monde ! On commence. C'est moi qui préside aujourd'hui.",
+   "OK ! Puisque c'est moi qui mène cette réunion — premier point !"
+  ],
+  "deniz": [
+   "Mesdames et messieurs. Soyons efficaces."
+  ],
+  "ece": [
+   "Euh, salut ! Je suis... apparemment la présidente de séance ? C'est parti !"
+  ]
  }
 }

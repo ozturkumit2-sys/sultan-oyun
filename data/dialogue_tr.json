@@ -5846,5 +5846,585 @@
    "Şey... parti falan yok. Bir hataydı.",
    "Parti yok! E-postam hacklendi ya da bir şey oldu!"
   ]
+ },
+ "party_yes": {
+  "_": [
+   "...Biliyor musun? Peki. Parti bende. Neden olmasın!",
+   "Tamam. TAMAM. Parti var. Cips getirin."
+  ]
+ },
+ "fwd_read": {
+  "_": [
+   "...{owner} benim hakkımda BUNU mu yazmış?",
+   "Vay. Demek {owner} aslında böyle düşünüyormuş.",
+   "Bunu görmemem gerekiyordu, değil mi?"
+  ],
+  "ece": [
+   "Ah. Eyvah. {owner} beni sevmiyor mu?"
+  ],
+  "selin": [
+   "Biliyordum. {owner:in} arkamdan konuştuğunu BİLİYORDUM."
+  ]
+ },
+ "fwd_confront": {
+  "_": [
+   "Benim hakkımdaki o küçük sohbetini okudum, {target}.",
+   "Bunu yüzüme söylemek ister misin, {target}?",
+   "Benim hakkımda ne güzel sohbet etmişsiniz."
+  ]
+ },
+ "fwd_sorry": {
+  "_": [
+   "Özür dilerim. İçimi döküyordum. Öyle demek istemedim.",
+   "Kötü bir gündü. Görmene üzüldüm."
+  ]
+ },
+ "fwd_double": {
+  "_": [
+   "Eh, doğru ama.",
+   "Belki bu kadar kolaylaştırmasaydın..."
+  ]
+ },
+ "approve_cheer": {
+  "_": [
+   "EVET! Onaylandı! ONAYLANDI!",
+   "Ahmet evet dedi! İnanamıyorum!",
+   "Nihayet! Resmîleşti!"
+  ],
+  "burak": [
+   "...Onaylandı mı? Hıh. Tamam. EVET."
+  ]
+ },
+ "approve_brag": {
+  "_": [
+   "Bil bakalım kimin {what} talebi onaylandı?",
+   "Ahmet {what} talebimi onayladı! Bugün güzel bir gün."
+  ]
+ },
+ "approve_boss_what": {
+  "_": [
+   "NEYİ onaylamışım? Ben hiçbir şey onaylamadım!",
+   "Ortada bir onay yok. Bunu sana kim söyledi?"
+  ]
+ },
+ "approve_crushed": {
+  "_": [
+   "Ama... e-postada...",
+   "'Onaylandı' yazıyordu. Yazılı olarak!"
+  ]
+ },
+ "spam_boss_check": {
+  "_": [
+   "{target}, sabah istediğim şeyi bitirdin mi?",
+   "Sana e-postayla gönderdiğim iş nerede, {target}?"
+  ]
+ },
+ "spam_what": {
+  "_": [
+   "Ne işi? Bana hiçbir şey gelmedi!",
+   "Benden mi istediniz? Ne zaman? Gelen kutumda hiçbir şey yok!"
+  ]
+ },
+ "spam_found": {
+  "_": [
+   "Bir dakika... SPAM klasörümde mi?! Sabahtan beri!",
+   "Eyvah. Spam'de. Tabii ki spam'de."
+  ]
+ },
+ "spam_scold": {
+  "_": [
+   "O zaman spam'ine bak! Acil ve bugün teslim.",
+   "Bahaneler. Çıkmadan önce istiyorum."
+  ]
+ },
+ "spam_understand": {
+  "_": [
+   "Spam mi? Hım. Burak'la bunu konuşacağız. Şimdi yap lütfen.",
+   "Peki. E-posta sistemimiz felaket. Hallet şunu."
+  ]
+ },
+ "fake_date_q": {
+  "_": [
+   "Beni görmek mi istedin?",
+   "Eee... bu toplantı ne hakkında?",
+   "Davetini aldım. Mutfak, değil mi?"
+  ]
+ },
+ "fake_date_a": {
+  "_": [
+   "Ne? Ben de SENİN beni davet ettiğini sanıyordum.",
+   "Ben hiçbir şey göndermedim. Sen gönderdin!"
+  ]
+ },
+ "fake_date_laugh": {
+  "_": [
+   "Neyse, buradayız. Kahve?",
+   "Ha! Tamam. Madem ikimiz de buradayız..."
+  ]
+ },
+ "fake_date_spark": {
+  "_": [
+   "Belki de evren bir kahve içmemizi istedi.",
+   "Aslında... böyle olmasına sevindim."
+  ]
+ },
+ "fake_date_cold": {
+  "_": [
+   "Daha önemli işlerim var.",
+   "Harika. Tam bir zaman kaybı."
+  ]
+ },
+ "promise_find": {
+  "_": [
+   "Bir dakika. Ahmet bana terfi SÖZÜ vermiş. Yazılı. İki yıl önce!",
+   "Şu eski e-postaya bak... 'seneye zam, söz.' Seneye dediği geçen seneydi!"
+  ]
+ },
+ "promise_claim": {
+  "_": [
+   "Ahmet Bey, bu e-postayı hatırlıyor musunuz? Bana zam sözü vermiştiniz.",
+   "Eski sözünüzü buldum. Yazılı. Bunu konuşmak istiyorum."
+  ]
+ },
+ "promise_honour": {
+  "_": [
+   "...Bunu ben yazdım, evet. Peki. Sözümün eriyim. Rakamları konuşalım.",
+   "Hım. Söz sözdür."
+  ]
+ },
+ "promise_dodge": {
+  "_": [
+   "Zaman değişir. Bütçeler değişir.",
+   "O başka bir yıldı. Ben başka biriydim.",
+   "Öyle bir şey yazdığımı hatırlamıyorum."
+  ]
+ },
+ "quit_reply_read": {
+  "_": [
+   "'İstifa ettim. Benimle iletişime geçmeyin.' — {owner:in} otomatik yanıtı mı?!",
+   "{owner}... İSTİFA mı etti? Ne zamandan beri?!"
+  ]
+ },
+ "quit_boss_rush": {
+  "_": [
+   "{target}! Bu 'istifa ettim' meselesi de ne?!",
+   "İstifa mı EDİYORSUN? Bana söylemeden mi?!"
+  ]
+ },
+ "quit_explain": {
+  "_": [
+   "Ne? Hayır! İstifa etmiyorum! ...Ediyor muyum?",
+   "O benim otomatik yanıtım değil! Ben öyle bir şey ayarlamadım!"
+  ]
+ },
+ "quit_counter": {
+  "_": [
+   "Bak... her ne ise konuşabiliriz. Daha fazla para? Daha iyi bir unvan?",
+   "Aceleci bir şey yapma. Buradaki geleceğini konuşalım."
+  ]
+ },
+ "quit_leverage": {
+  "_": [
+   "...Aslında, siz söyleyince — bir zam fena olmazdı.",
+   "Eh. Madem teklif ediyorsunuz..."
+  ]
+ },
+ "quit_real": {
+  "_": [
+   "Biliyor musunuz? Belki doğrudur. Belki gerçekten istifa ETMELİYİM.",
+   "...Yine de yanlış değil."
+  ]
+ },
+ "unsent_hope": {
+  "_": [
+   "Eee... şimdi aramız iyi mi? Mesajımdan sonra?",
+   "Hey. Mesajımı okuduğun için teşekkürler. Yine arkadaş mıyız?"
+  ]
+ },
+ "unsent_cold": {
+  "_": [
+   "Ne mesajı? Sen hiç özür dilemedin.",
+   "İyi mi? Bir özür bile dilemedin."
+  ]
+ },
+ "unsent_say_it": {
+  "_": [
+   "...O zaman şimdi söylüyorum. Özür dilerim.",
+   "Kayboldu mu? Tamam. O zaman yüz yüze: özür dilerim."
+  ]
+ },
+ "unsent_fight": {
+  "_": [
+   "Ben özür DİLEDİM! Dilememişim gibi yapma!",
+   "İnanılmaz. Özür diledim, sen de dilememişim gibi davranıyorsun."
+  ]
+ },
+ "groupchat_read": {
+  "_": [
+   "...Neden 'Of, {target}' adlı bir gruptayım?",
+   "Ah. Koca bir grup sohbeti. Benim hakkımda.",
+   "'{hater} diyor ki: {target:e} katlanamıyorum.' Ne hoş."
+  ]
+ },
+ "groupchat_confront": {
+  "_": [
+   "Güzel grup sohbeti, {target}. Artık okuyabiliyorum, haberin olsun.",
+   "Yani benim hakkımda koca bir SOHBET grubunuz mu var?"
+  ]
+ },
+ "groupchat_busted": {
+  "_": [
+   "...Sen o gruba nasıl girdin?",
+   "Eyvah. Seni kim ekledi?!"
+  ]
+ },
+ "typo_boss": {
+  "_": [
+   "{target}. Müşteri aradı. 'Değerli Müşteirmiz, size bildirmekten üzünütü duyarız...' mı?!",
+   "Müşteri, e-postanın 'okunamaz' olduğunu söylüyor. Açıkla."
+  ]
+ },
+ "typo_explain": {
+  "_": [
+   "İmkânsız, iki kez kontrol ettim!",
+   "Ne?! Gönderdiğimde kusursuzdu!"
+  ]
+ },
+ "typo_scold": {
+  "_": [
+   "Bir dahakine ÜÇ kez kontrol et.",
+   "Bu şirketin bir itibarı var. Vardı."
+  ]
+ },
+ "typo_laugh": {
+  "_": [
+   "...'Üzünütü'. Ha. Peki. Ara onları ve özür dile.",
+   "En azından müşteri güldü. Düzelt şunu."
+  ]
+ },
+ "cc_boss_read": {
+  "_": [
+   "İlginç okuma, {owner:in} küçük sohbeti.",
+   "{owner:in} 'özel' sohbetine bilgi olarak eklenmişim. Ne kadar öğretici."
+  ]
+ },
+ "cc_boss_rant": {
+  "_": [
+   "'Ahmet bir dinozor' mu? Öyle mi, {target}?",
+   "Demek ben 'yürüyen bir toplantı'yım, öyle mi {target}?"
+  ]
+ },
+ "cc_boss_chatter": {
+  "_": [
+   "Mesai saatinde kebap hakkında kırk mesaj, {target}?",
+   "Siz ikiniz çalıştığınızdan çok sohbet ediyorsunuz."
+  ]
+ },
+ "cc_owner_mortified": {
+  "_": [
+   "...O özel olacaktı!",
+   "Eyvah. EYVAH. Bilgiye siz mi eklenmiştiniz?"
+  ]
+ },
+ "seen_hurt": {
+  "_": [
+   "{owner} mesajımı bir saat önce okudu. Cevap yok. Harika.",
+   "'Görüldü'. Sadece 'görüldü'. Vay, {owner}."
+  ]
+ },
+ "seen_confront": {
+  "_": [
+   "Mesajımı okuyup... görmezden mi geldin?",
+   "Okuduğunu görebiliyorum, biliyorsun."
+  ]
+ },
+ "seen_explain": {
+  "_": [
+   "Ne mesajı? Açmadım bile!",
+   "Hiçbir şey görmedim! Yemin ederim!"
+  ]
+ },
+ "seen_ok": {
+  "_": [
+   "...Peki. Belki telefonun tuhaftır.",
+   "Tamam. Sana inanıyorum. Çoğunlukla."
+  ]
+ },
+ "sig_ceo_react": {
+  "_": [
+   "'Geleceğin CEO'su' mu? İmzanda mı, {owner}?",
+   "Cesur imza, {owner}. Çok cesur."
+  ],
+  "ahmet": [
+   "'Geleceğin CEO'su.' Bu bir tehdit mi, {owner}?"
+  ],
+  "deniz": [
+   "Geleceğin CEO'su mu? Benim cesedimi çiğnemeden olmaz."
+  ]
+ },
+ "sig_bath_react": {
+  "_": [
+   "'Küvetimden gönderildi' mi?! {owner}!",
+   "E-postan neden küvette olduğunu söylüyor?"
+  ],
+  "mert": [
+   "Küvetten e-postalar! Efsane."
+  ]
+ },
+ "sig_fav_react": {
+  "_": [
+   "'Ahmet'in en sevdiği çalışan' mı? Cidden mi, {owner}?",
+   "Patronun gözdesi imzası. Hoş."
+  ],
+  "ahmet": [
+   "Hım. 'En sevdiği.' Eh. Belki."
+  ]
+ },
+ "sig_owner": {
+  "_": [
+   "İmzamda NE yazıyor?!",
+   "Onu ben yazmadım! Asla yazmam!"
+  ]
+ },
+ "heart_read": {
+  "_": [
+   "...{owner} bana az önce kalp mi gönderdi?",
+   "Üç kalp emojisi. Bir bütçe e-postasında. {owner:den}.",
+   "Kalp mi? {owner:den} mi? Hıh."
+  ]
+ },
+ "heart_ask": {
+  "_": [
+   "Eee... e-postandaki o kalpler...",
+   "O kalp... bilerek miydi?"
+  ]
+ },
+ "heart_deny": {
+  "_": [
+   "Kalp mi?! Hayır! Sana bir tablo gönderdim!",
+   "O ben değildim! Klavyemin kendi aklı var!"
+  ]
+ },
+ "heart_admit": {
+  "_": [
+   "...Belki birazcık bilerekti.",
+   "Tamam. Evet. Senden hoşlanıyorum. İşte, söyledim."
+  ]
+ },
+ "payroll_read": {
+  "_": [
+   "...{rich} benden NE kadar fazla kazanıyor?!",
+   "Bu bordro. Bakmamalıyım— dur. {rich} mi?!",
+   "Demek {rich} bu kadar kazanıyor. İlginç."
+  ]
+ },
+ "payroll_demand": {
+  "_": [
+   "Ahmet Bey, başkalarının ne kazandığını gördüm. Hakkım neyse onu istiyorum.",
+   "Maaşımı konuşmak istiyorum. Şimdi. Lütfen."
+  ]
+ },
+ "payroll_boss_angry": {
+  "_": [
+   "Bordroyu sana kim gösterdi?! O gizli!",
+   "O rakamları nereden buldun?!"
+  ]
+ },
+ "memo_read": {
+  "_": [
+   "'Yeniden yapılanma... olası küçülmeler'... KÜÇÜLME mi?!",
+   "Ahmet'in notunda 'küçülme' yazıyor. Bu biz demek!",
+   "Ahmet'in taslak notu herkese mi gitti?!"
+  ],
+  "burak": [
+   "'Küçülme.' İyi ki CV'm güncel."
+  ],
+  "ece": [
+   "NEYİN küçülmesi? İnsanların mı?!"
+  ]
+ },
+ "memo_boss": {
+  "_": [
+   "O bir TASLAKTI! Taslağımı kim gönderdi?!",
+   "O not hazır DEĞİLDİ!"
+  ]
+ },
+ "news_read": {
+  "_": [
+   "'Gözlerden kaçmadı: {target} ve {crush2} mum ışığında yemekte' mi?!",
+   "Bülten, {target} ile {crush2:in}... bir İLİŞKİSİ olduğunu mu söylüyor?"
+  ],
+  "zeynep": [
+   "Nihayet, gazetecilik!"
+  ]
+ },
+ "news_deny": {
+  "_": [
+   "Bu doğru değil! Biz hiç akşam yemeği yemedik!",
+   "Bunu kim yazdı?! Yalan bu!"
+  ]
+ },
+ "news_blush": {
+  "_": [
+   "...Yani. DOĞRU değil. Ama... kötü de değil.",
+   "Akşam yemeği? Onunla mı? ...Hım."
+  ]
+ },
+ "garble_read": {
+  "_": [
+   "'YIKIP GEÇECEĞİM... ...sunumu' mu?! {owner:den} mi?",
+   "{owner:in} mesajında 'Seni bitireceğim' yazıyor. Endişelenmeli miyim?"
+  ]
+ },
+ "garble_confront": {
+  "_": [
+   "Az önce beni tehdit mi ettin?!",
+   "'Seni bitireceğim' tam olarak ne demek?"
+  ]
+ },
+ "garble_explain": {
+  "_": [
+   "'Senin için BİTİRECEĞİM' dedim! Sesli yazma!",
+   "Sesten yazıya çevirdi! 'Yıkıp geçeceğim' dedim, yani 'harika olacak' anlamında!"
+  ]
+ },
+ "garble_laugh": {
+  "_": [
+   "Oh, çok şükür. Telefonun senden nefret ediyor.",
+   "...Tamam. Bu aslında çok komik."
+  ]
+ },
+ "garble_doubt": {
+  "_": [
+   "Tabii. 'Sesli yazma'.",
+   "Ekran görüntüsünü saklıyorum. Ne olur ne olmaz."
+  ]
+ },
+ "wrong_invitee_boss": {
+  "_": [
+   "{target}? Bu toplantıda ne işin var?",
+   "{target:i} biri mi davet etti? Neden?"
+  ]
+ },
+ "wrong_invitee_contrib": {
+  "_": [
+   "Eh, madem buradayım — bu konuda bir fikrim var.",
+   "Aslında bu konuda yardımcı olabilirim."
+  ]
+ },
+ "wrong_invitee_leave": {
+  "_": [
+   "Davet almıştım! ...Gidiyorum.",
+   "Pardon! Ben şöyle... çıkayım."
+  ]
+ },
+ "uninv_notice": {
+  "_": [
+   "{target} nerede? Hep burada olur.",
+   "{target:i} gören oldu mu?"
+  ]
+ },
+ "uninv_find_out": {
+  "_": [
+   "Davet listesinden çıkarıldım mı?! Kim tarafından?",
+   "Demek bir toplantı vardı. Bensiz. Ne güzel."
+  ]
+ },
+ "first_shine": {
+  "_": [
+   "Ah — ilk ben mi? Tamam. Durum şöyle...",
+   "Pekâlâ. Hadi yapalım.",
+   "İlk ben mi? Harika, hazırım."
+  ]
+ },
+ "first_bomb": {
+  "_": [
+   "Ben mi? İLK? Ben... ilk olmaya hazır değildim.",
+   "Şey. En son ben konuşabilir miyim? Olmaz mı? Tamam..."
+  ]
+ },
+ "agenda_layoffs": {
+  "_": [
+   "'Gündem: İşten çıkarmalar' mı?!",
+   "Tahtada neden İŞTEN ÇIKARMALAR yazıyor?",
+   "İşten çıkarmalar. Gündemde. Bugün."
+  ]
+ },
+ "agenda_romance": {
+  "_": [
+   "'Yeni ofis içi ilişki politikası' mı? Eyvah.",
+   "İlişki politikası mı?! Kimi hedefliyor bu?"
+  ]
+ },
+ "agenda_lunch": {
+  "_": [
+   "'Gündem: Öğle yemeklerini kim çalıyor?' Nihayet!",
+   "Yemek hırsızı gündemde. Birileri terliyor."
+  ]
+ },
+ "agenda_promo": {
+  "_": [
+   "Gündemde 'terfiler' mi? Bugün mü?!",
+   "Terfiler! Tamam. Tamam. Sakin ol."
+  ]
+ },
+ "agenda_boss": {
+  "_": [
+   "Gündemime BUNU kim yazdı?!",
+   "Bu benim gündemim DEĞİL. Tahtama kim dokundu?"
+  ]
+ },
+ "room_boss": {
+  "_": [
+   "Neden buzdolabının yanında toplantı yapıyoruz?!",
+   "Toplantımı dinlenme alanına kim taşıdı?",
+   "Burası mutfak. Toplantı odası değil."
+  ]
+ },
+ "room_fun": {
+  "_": [
+   "Ben burayı biraz sevdim, Ahmet Bey.",
+   "Atıştırmalıklar el altında. Gelmiş geçmiş en iyi toplantı."
+  ],
+  "mert": [
+   "Gelmiş geçmiş en iyi toplantı odası. Buzdolabına erişim."
+  ]
+ },
+ "empty_room": {
+  "_": [
+   "Herkes NEREDE?!",
+   "Buradayım. Yalnız. Kendi toplantımda.",
+   "Tatil mi var? Kimse bana söylemedi."
+  ]
+ },
+ "cancelled_think": {
+  "_": [
+   "Toplantı iptal mi edildi? Harika, daha çok vakit!",
+   "Toplantı iptal mi? Şahane."
+  ]
+ },
+ "double_where": {
+  "_": [
+   "Alo? Herkes nerede? Doğru toplantı bu mu?",
+   "Biz 'bütçe toplantısı'yız... mutfakta... değil mi?"
+  ]
+ },
+ "double_realise": {
+  "_": [
+   "Bir dakika. Bütçe toplantısı falan yok. Asıl toplantı başladı!",
+   "Yanlış toplantıdayız! KOŞUN!"
+  ]
+ },
+ "chair_open": {
+  "_": [
+   "Pekâlâ, millet! Başlayalım. Bugün toplantıyı ben yönetiyorum.",
+   "Tamam! Madem bu toplantıyı ben yönetiyorum — ilk madde!"
+  ],
+  "deniz": [
+   "Hanımlar beyler. Bunu verimli yapalım."
+  ],
+  "ece": [
+   "Şey, merhaba! Ben... galiba toplantı başkanıyım? Hadi başlayalım!"
+  ]
  }
 }
