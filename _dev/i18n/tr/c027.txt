@@ -1,0 +1,186 @@
+5280|Alo, {owner:in} telefonu... şey, BENİM telefonum... Alo?
+5281|Evet, ben— hayır, {owner} değilim. Ama yardımcı olabilirim!
+5282|Senin yerine bir müşteri telefonuna baktım. Mesaj şu.
+5283|Müşterin yanlışlıkla beni aradı. Senin için hallettim.
+5284|Öyle mi? Teşekkürler!
+5285|Bu... gerçekten çok incelik.
+5286|{owner:i} arayan bir müşteri mi? ...Bununla bizzat ilgilenirim.
+5287|Hım. {owner:in} müşterisi. Artık benim müşterim.
+5288|Fırsat kapıyı çalıyor. Kelimenin tam anlamıyla.
+5289|Müşterim {target} ile mi görüştüğünü söylüyor?!
+5290|{target} müşterimi mi aldı?!
+5291|Hıh — bir önizleme belirdi: '{owner}: bugün {worst:e} katlanamıyorum'...
+5292|{owner:in} bildirimleri neden bana geliyor? '...{worst} ÇOK sinir bozucu.'
+5293|...{owner} bana katlanamıyor mu?
+5294|Ah. Demek {owner} benim hakkımda böyle konuşuyor.
+5295|Telefonum. Telefonum nerede? TAM BURADAYDI.
+5296|Telefonumu gören oldu mu?!
+5297|...BUZDOLABINDA. Sütün yanında. BUZ GİBİ.
+5298|Telefonum buzdolabında. Telefonum neden buzdolabında?!
+5299|'Hatırlatma: {crush} için çiçek al' mı? Bunu ben mi kurdum?
+5300|Telefonum {crush} için çiçek almamı söylüyor. ...Alsam mı?
+5301|'Spor salonu — 16:30 — SAKIN ATLAMA'. Tamam, telefon. Tamam.
+5302|Spor hatırlatması. Galiba erken çıkıyorum!
+5303|'BUGÜN: Ahmet'ten zam iste.' ...Biliyor musun? Evet.
+5304|Telefon diyor ki: zam iste. Telefon haklı.
+5305|Bunlar senin için. Nedenini sorma. Ben de bilmiyorum.
+5306|Sana çiçek aldım. Telefonum öyle söyledi. Kulağa tuhaf geliyor.
+5307|Bana mı? ...Bu çok tatlı.
+5308|Çiçek! Hiç kimse bana daha önce— teşekkür ederim.
+5309|...Teşekkürler? Bu bir şaka mı?
+5310|Ah. Şey. Çiçek. Tamam.
+5311|Ahmet Bey, zam istiyorum. Bugün.
+5312|Zamı hak ettiğime karar verdim. Konuşabilir miyiz?
+5313|Müşteri geri aradı — bir SAAT geç — ve anlaşma uçtu gitti.
+5314|Rakiple anlaşmışlar. Tek bir aramayı kaçırdım diye mi?!
+5315|Müşteriyi KAYBETTİN mi, {owner}?!
+5316|Bir arama. TEK bir aramayı kaçırdın ve hesabı kaybettik, öyle mi?
+5317|{owner:den} bir sesli mesaj mı? Bana mı? Dinleyelim.
+5318|'{owner:den} yeni sesli mesaj.' Hım.
+5319|...{owner} benden HOŞLANIYOR mu?!
+5320|Bir dakika. Bu... bir aşk itirafı mıydı? {owner:den} mi?
+5321|...Bunu duymamam gerekiyordu.
+5322|Eyvah. Bu özeldi.
+5323|Merhaba, aramanıza dönüyorum— {target} mı?! SEN mi aradın beni?
+5324|Alo? Ah. Sen... misin.
+5325|Madem telefondayız... gerçekten nasılsın?
+5326|Ha. Tamam, madem seni yakaladım — bir ara öğle yemeği?
+5327|Seni aramadım. Seni neden arayayım?
+5328|Bu bir çeşit şaka mı?
+5329|*hoparlörde* '...Evet anne, sebze yiyorum.'
+5330|*hoparlörde* '...sonra da onlara o dosyayı hiç görmediğimi söyledim. Ha!'
+5331|...Neden herkes bana bakıyor? Eyvah. HOPARLÖR.
+5332|HOPARLÖRDE mi?!
+5333|Seni DÖRT KEZ aradım, {target}!
+5334|Neden telefonuna bakmıyorsun, {target}?!
+5335|Ne? Hiç çalmadı! Bakın — Rahatsız Etmeyin mi? Ben açmadım onu!
+5336|Telefonum bir kez bile çalmadı!
+5337|O zaman telefonunu düzelt. Ben kimsenin peşinden koşmam.
+5338|Kabul edilemez. Ulaşılabilir ol.
+5339|...Hım. Teknoloji. Peki.
+5340|Burak'a baktır.
+5341|Alo? ...Alo? Kimsiniz? ...Biri NEFES mi alıyor?
+5342|*hatta ağır ağır nefes sesi* ...Bu da ne böyle?
+5343|O arama {owner:in} dahili hattından gelmiş.
+5344|Dahili hat... {owner}. İlginç.
+5345|Alo? ...Hayır, burası muhasebe değil. Neden herkes beni muhasebe sanıyor?
+5346|YİNE yanlış masa. Ceren, telefonlara cin girmiş!
+5347|Santral çıldırdı! Ben dokunmadım!
+5348|Her arama yanlış masaya gidiyor. Her. Biri.
+5349|...Dur, o arama {intended} içindi. Ve ÇOK ilginçti.
+5350|Az önce {intended} için gelen bir aramaya baktım. Ah, neler duydum.
+5351|Müşteri bekleme müziğimizin 'çığlıklı heavy metal' olduğunu söylüyor?!
+5352|Bir müşteri bekleme müziği yüzünden telefonu kapatmış. Ayrılık şarkısı mı?!
+5353|Ceren! Bekleme müziğimiz müşterileri kaçırıyor!
+5354|Bekleme müziğini KİM değiştirdi?
+5355|Ben hiçbir şeyi değiştirmedim! Yemin ederim!
+5356|Benim ayarladığım bu değil! Biri sistemime girmiş.
+5357|...{coat:in} ceketi neden BENİM zil sesimle ÇALIYOR?
+5358|Bu benim telefonum! {coat:in} ceket cebinde!
+5359|Benim telefonum neden SENİN ceketinde, {target}?!
+5360|Telefonumun cebine nasıl girdiğini açıkla, {target}.
+5361|Hiçbir fikrim yok! Bütün gün ceketime dokunmadım!
+5362|Ne?! Telefonunu ben almadım!
+5363|'Konuşmamız lazım.' {owner:den}. ...Eyvah.
+5364|'Konuşmamız lazım' mı?! Ne yaptım ben?
+5365|Konuşmak mı istedin? Buradayım. Söyle hadi.
+5366|Tamam. Hazırım. Sorun ne?
+5367|Konuşmak mı? Ne hakkında? Ben öyle bir şey göndermedim!
+5368|Ne? Sana hiçbir mesaj atmadım!
+5369|...Tamam, belki de gerçekten bir şey söylemem gerekiyor. Senden hoşlanıyorum. Hem de çok.
+5370|Madem buradasın... bir süredir sana bir şey söylemek istiyordum.
+5371|Oh, çok şükür. Benden ayrılacaksın sandım!
+5372|Oh be! Bir saattir panikliyorum!
+5373|*BİP BİP BİP* 'UYAN! UYAN!'
+5374|*telefon alarmı: 'ŞEKERLEME ZAMANI!'*
+5375|Toplantımda TELEFON ALARMI mı çalıyor?!
+5376|Kimin telefonu 'uyan' diye bağırıyor?!
+5377|O değil— ben kurmadım onu!
+5378|Pardon! Pardon! Nasıl kapatılacağını bilmiyorum!
+5379|Bitti mi?! Bir saat önce %90'daydı!
+5380|Telefonum ÖLDÜ. Şarj aleti lazım. Hemen.
+5381|Burak'ın şarj aleti! Sorun etmez. Herhalde.
+5382|Burak'ın şarj aletini bir dakikalığına ödünç alayım.
+5383|Karaoke gecesindeki {owner} mı bu?! Ha!
+5384|{owner:in} şu FOTOĞRAFI! O saçlar! O kıyafet!
+5385|{owner:in} masasında uyurken çekilmiş fotoğrafını kim paylaştı?!
+5386|Onu kim paylaştı?! SİLİN ONU!
+5387|O fotoğraf sonsuza dek yok olmuş olacaktı!
+5388|Bahse girerim onu {suspect} paylaştı.
+5389|{suspect}. {suspect} olmalı.
+5390|Mmm. Kahve. ...Bu kupa yeni.
+5391|Güzel kupa. Benim mi? Artık benim.
+5392|Pardon — o BENİM kupam.
+5393|Benim kupamdan mı içiyorsun?!
+5394|O kupa. Benim.
+5395|O kupa benim. Üstünde baş harflerim var.
+5396|Ah! Pardon! Raftakiler karışmış!
+5397|Öyle mi? Hepsi aynı görünüyor!
+5398|...Demek artık aynı kupayı paylaştık. Bu... bir adım.
+5399|Dolaylı öpücük! ...Pardon. Bu tuhaf oldu.
+5400|...Neden hâlâ yorgunum? Bu üçüncü kahvemdi.
+5401|Bu kahve etki etmiyor. Bozuk mu? Ben mi bozuğum?
+5402|*esneeer*
+5403|Zeynep, tasarruf için ucuz kahveye mi geçtik?!
+5404|Bu KAFEİNSİZ! Biri kahve bütçesini kesmiş!
+5405|Kahve bütçesine DOKUNMADIM!
+5406|Bana bakma. Kahveyle asla oynamam.
+5407|...Öğle yemeğim. EN ÜST rafta. Hardalın arkasında. İnsanları BOŞ YERE suçladım.
+5408|Ah. İşte orada. Saklanıyormuş. Hay aksi.
+5409|'Isınıyor' mu? Ne kadar daha?!
+5410|'Lütfen bekleyin' yazıyor. Bekliyorum zaten.
+5411|Hadi, hadi, ısın!
+5412|Eee... madem ikimiz de burada takıldık...
+5413|Kahve kuyruğu arkadaşları. Günün nasıl geçiyor?
+5414|Dün ne olduğunu duydun mu?
+5415|Su sebili boşalmış. Bu SICAKTA mı?
+5416|Su yok mu? Su bile mi yok?
+5417|*gulp*... hiçbir şey.
+5418|Ben tamir ederim! Bir kere video izlemiştim!
+5419|Bana bırakın!
+5420|Eyvah. Eyvah eyvah eyvah. HER YER SU!
+5421|Sızdırıyor! SIZDIRIYOR!
+5422|Atıştırmalıklar nereye gitti? Atıştırmalık kutusu YOK.
+5423|Atıştırmalık yok mu? Bu bir kriz.
+5424|Atıştırmalık acil durumu. Atıştırmalık. Acil durumu.
+5425|{target:in} çekmecesi bizim atıştırmalıklarla DOLU!
+5426|Demek atıştırmalıklar BURAYA gitmiş, {target}.
+5427|...Tamam, benim değiller ama — alın! Hepsini alın!
+5428|Herkese atıştırmalık! Ben de sizin kadar şaşkınım!
+5429|BENİM çekmecemdeler, yani... artık benim atıştırmalıklarım.
+5430|Bulan alır.
+5431|...Bu bir doğum günü pastası mı? Üstünde BENİM adım mı var?
+5432|Bir dakika. O pastada benim adım yazıyor. Bu... bir sürpriz miydi?
+5433|HAYIR! O bir SÜRPRİZ olacaktı!
+5434|Pastayı kim çıkardı?! Saklıydı!
+5435|'MUTFAK REZERVE — Ahmet — özel öğle yemeği' mi?!
+5436|Mutfakta yemek yiyemiyor muyuz? Ne zamandan beri?
+5437|Mutfakta neden benim adımın yazdığı bir tabela var?
+5438|Özel öğle yemeği mi? Ben masamda sandviç yiyorum!
+5439|Mikrodalga öldü! Yemeğim DONUK!
+5440|Mikrodalga olmaz. Her şey olur ama mikrodalga olmaz.
+5441|Soğuk makarna. Yine.
+5442|Başka bir mikrodalga var mı bir yerde?
+5443|Açlıktan ölüyorum ve çorbam buz kalıbı.
+5444|MİKRODALGADA BALIK ISITAN KİM?!
+5445|Bu KOKU da ne?!
+5446|Balık. Mikrodalgada. Bir OFİSTE.
+5447|Bu LEŞ kokunun sorumlusu kim?
+5448|Etikette {target:in} olduğu yazıyor.
+5449|Bu {target:in} öğle yemeği. Etiket orada işte.
+5450|O benim yemeğim değil! Ben sandviç getirdim!
+5451|Ben balık SEVMEM bile!
+5452|*PÜF* TUZ! Şekerde TUZ var!
+5453|IYY! Şeker kavanozuna kim tuz koydu?!
+5454|'YOĞURDUMU ÇALMAYI BIRAK. KİM OLDUĞUNU BİLİYORUM. — {target}' ...Vay.
+5455|Buzdolabında {target:den} pasif-agresif bir not. Ne klas.
+5456|O notu ben yazmadım! Ben yoğurt bile yemem!
+5457|O benim el yazım değil!
+5458|Buzdolabı BOMBOŞ. Herkesin yemeği nerede?!
+5459|Biri buzdolabını boşaltmış. Benim yemeğim içindeydi!
+5460|Biliyor musunuz? Hep beraber dışarıda yiyelim.
+5461|Dışarıda, hep birlikte öğle yemeği? Benden... sayılır.
+5462|Renkleri duyabiliyorum.
+5463|VAY. Bu... işte buna kahve denir. VAY.
+5464|Kalbim davul solosu yapıyor.
+5465|Şu an on anlaşma kapatabilirim. ON.

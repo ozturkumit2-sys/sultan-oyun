@@ -7634,5 +7634,545 @@
    "Ce n'est pas ma sonnerie ! Faites que ça s'arrête !",
    "Ce n'est pas moi qui l'ai choisie ! Je le jure !"
   ]
+ },
+ "fwdcall_answer": {
+  "_": [
+   "Allô, téléphone de {owner}... euh, MON téléphone... Allô ?",
+   "Oui, c'est— non, je ne suis pas {owner}. Mais je peux vous aider !"
+  ]
+ },
+ "fwdcall_help": {
+  "_": [
+   "J'ai pris l'appel d'un client pour toi. Voilà le message.",
+   "Ton client m'a appelé{me?|e} par erreur. J'ai réglé ça pour toi."
+  ]
+ },
+ "fwdcall_thanks": {
+  "_": [
+   "C'est vrai ? Merci !",
+   "C'est... vraiment gentil de ta part."
+  ]
+ },
+ "fwdcall_steal": {
+  "_": [
+   "Un client qui cherche {owner} ? ...Je vais m'en occuper personnellement.",
+   "Hm. Le client de {owner}. Mon client, maintenant."
+  ],
+  "deniz": [
+   "L'occasion frappe à la porte. Littéralement."
+  ]
+ },
+ "fwdcall_owner_finds": {
+  "_": [
+   "Mon client dit qu'il traite avec {target} ?!",
+   "{target} m'a piqué mon client ?!"
+  ]
+ },
+ "notif_preview": {
+  "_": [
+   "Tiens — un aperçu s'est affiché : « {owner} : je ne supporte pas {worst} aujourd'hui »...",
+   "Pourquoi je reçois les notifications de {owner} ? « ...{worst} est TELLEMENT {worst?agaçant|agaçante}. »"
+  ]
+ },
+ "notif_preview_hurt": {
+  "_": [
+   "...{owner} ne me supporte pas ?",
+   "Oh. Alors c'est ce que {owner} dit de moi."
+  ]
+ },
+ "fridgephone_lost": {
+  "_": [
+   "Mon téléphone. Où est mon téléphone ? Il était JUSTE LÀ.",
+   "Quelqu'un a vu mon téléphone ?!"
+  ]
+ },
+ "fridgephone_found": {
+  "_": [
+   "...Il est dans le FRIGO. À côté du lait. Il est GELÉ.",
+   "Mon téléphone est dans le frigo. Pourquoi mon téléphone est dans le frigo ?!"
+  ]
+ },
+ "remind_flowers": {
+  "_": [
+   "« Rappel : acheter des fleurs pour {crush} » ? C'est moi qui ai mis ça ?",
+   "Mon téléphone dit que je devrais acheter des fleurs à {crush}. ...Je devrais ?"
+  ]
+ },
+ "remind_gym": {
+  "_": [
+   "« Salle de sport — 16h30 — PAS D'EXCUSE ». OK, téléphone. OK.",
+   "Rappel salle de sport. Je crois que je pars plus tôt !"
+  ]
+ },
+ "remind_raise": {
+  "_": [
+   "« AUJOURD'HUI : demander une augmentation à Ahmet. » ...Tu sais quoi ? Oui.",
+   "Le téléphone dit : demande une augmentation. Le téléphone a raison."
+  ]
+ },
+ "flowers_give": {
+  "_": [
+   "C'est pour toi. Ne demande pas pourquoi. Je ne sais pas moi-même.",
+   "Je t'ai acheté des fleurs. Mon téléphone me l'a dit. Ça sonne bizarre."
+  ]
+ },
+ "flowers_love": {
+  "_": [
+   "Pour moi ? ...C'est vraiment adorable.",
+   "Des fleurs ! Personne ne m'avait jamais— merci."
+  ]
+ },
+ "flowers_awkward": {
+  "_": [
+   "...Merci ? C'est une blague ?",
+   "Oh. Euh. Des fleurs. D'accord."
+  ]
+ },
+ "raise_ask_line": {
+  "_": [
+   "Ahmet Bey, j'aimerais une augmentation. Aujourd'hui.",
+   "J'ai décidé que je mérite une augmentation. On peut en parler ?"
+  ]
+ },
+ "callback_late": {
+  "_": [
+   "Le client a rappelé — une HEURE en retard — et le contrat nous est passé sous le nez.",
+   "Ils ont signé avec un concurrent. Parce que j'ai raté UN appel ?!"
+  ]
+ },
+ "callback_boss": {
+  "_": [
+   "Vous avez PERDU le client, {owner} ?!",
+   "Un appel. Vous avez raté UN appel et on a perdu le compte ?"
+  ]
+ },
+ "vm_listen": {
+  "_": [
+   "Un message vocal de {owner} ? Pour... moi ? Écoutons ça.",
+   "« Nouveau message vocal de {owner}. » Hm."
+  ]
+ },
+ "vm_confession": {
+  "_": [
+   "...{owner} dit que je lui PLAIS ?!",
+   "Attends. C'était... une déclaration d'amour ? De la part de {owner} ?"
+  ]
+ },
+ "vm_secret": {
+  "_": [
+   "...Je n'étais pas censé{me?|e} entendre ça.",
+   "Oh non. C'était privé."
+  ]
+ },
+ "wrongcb_call": {
+  "_": [
+   "Allô, je vous rappelle— {target} ?! C'est TOI qui m'as appelé{me?|e} ?",
+   "Allô ? Oh. C'est... toi."
+  ]
+ },
+ "wrongcb_chat": {
+  "_": [
+   "Bon, puisqu'on est au téléphone... comment tu vas, vraiment ?",
+   "Ha. OK, puisque je te tiens — on déjeune ensemble un de ces jours ?"
+  ]
+ },
+ "wrongcb_fight": {
+  "_": [
+   "Je ne t'ai pas appelé{to?|e}. Pourquoi je t'appellerais ?",
+   "C'est une blague, c'est ça ?"
+  ]
+ },
+ "speaker_call": {
+  "_": [
+   "*sur haut-parleur* « ...Oui, maman, je mange des légumes. »",
+   "*sur haut-parleur* « ...et là, je leur ai dit que je n'avais jamais vu ce dossier. Ha ! »"
+  ]
+ },
+ "speaker_realise": {
+  "_": [
+   "...Pourquoi tout le monde me regarde ? Oh non. HAUT-PARLEUR.",
+   "C'est sur HAUT-PARLEUR ?!"
+  ]
+ },
+ "dnd_boss": {
+  "_": [
+   "Je vous ai appelé{to?|e} QUATRE FOIS, {target} !",
+   "Pourquoi ne répondez-vous pas au téléphone, {target} ?!"
+  ]
+ },
+ "dnd_explain": {
+  "_": [
+   "Quoi ? Il n'a jamais sonné ! Regardez — « Ne pas déranger » ? Je ne l'ai pas activé !",
+   "Mon téléphone n'a pas sonné une seule fois !"
+  ]
+ },
+ "dnd_scold": {
+  "_": [
+   "Alors réparez votre téléphone. Je ne cours après personne.",
+   "Inacceptable. Soyez joignable."
+  ]
+ },
+ "dnd_ok": {
+  "_": [
+   "...Hm. La technologie. Bon.",
+   "Demandez à Burak d'y jeter un œil."
+  ]
+ },
+ "prank_boss_pick": {
+  "_": [
+   "Allô ? ...Allô ? Qui est à l'appareil ? ...Quelqu'un RESPIRE ?",
+   "*respiration lourde au bout du fil* ...Mais qu'est-ce que c'est que ça ?"
+  ]
+ },
+ "prank_boss_see": {
+  "_": [
+   "Cet appel venait du poste de {owner}.",
+   "Poste... {owner}. Intéressant."
+  ]
+ },
+ "switch_wrong": {
+  "_": [
+   "Allô ? ...Non, ici ce n'est pas la compta. Pourquoi tout le monde croit que je suis la compta ?",
+   "ENCORE le mauvais bureau. Ceren, les téléphones sont possédés !"
+  ]
+ },
+ "switch_ceren": {
+  "_": [
+   "Le standard est devenu fou ! Je n'y ai pas touché !",
+   "Chaque appel arrive au mauvais bureau. Chaque. Appel."
+  ]
+ },
+ "switch_overhear": {
+  "_": [
+   "...Attends, cet appel était pour {intended}. Et c'était TRÈS intéressant.",
+   "Je viens de prendre un appel destiné à {intended}. Oh, ce que j'ai entendu..."
+  ]
+ },
+ "hold_client": {
+  "_": [
+   "Le client dit que notre musique d'attente, c'est « du heavy metal qui hurle » ?!",
+   "Un client a raccroché à cause de la musique d'attente. Une ballade de rupture ?!"
+  ]
+ },
+ "hold_boss": {
+  "_": [
+   "Ceren ! Notre musique d'attente fait fuir les clients !",
+   "QUI a changé la musique d'attente ?"
+  ]
+ },
+ "hold_ceren": {
+  "_": [
+   "Je n'ai rien changé ! Je le jure !",
+   "Ce n'est pas ce que j'ai réglé ! Quelqu'un est entré dans mon système."
+  ]
+ },
+ "coatphone_ring": {
+  "_": [
+   "...Pourquoi la veste de {coat} SONNE avec MA sonnerie ?",
+   "C'est mon téléphone ! Dans la poche du manteau de {coat} !"
+  ]
+ },
+ "coatphone_accuse": {
+  "_": [
+   "Pourquoi mon téléphone est dans TON manteau, {target} ?!",
+   "Explique-moi comment mon téléphone a atterri dans ta poche, {target}."
+  ]
+ },
+ "coatphone_innocent": {
+  "_": [
+   "Aucune idée ! Je n'ai pas touché mon manteau de la journée !",
+   "Quoi ?! Je n'ai pas pris ton téléphone !"
+  ]
+ },
+ "wntt_read": {
+  "_": [
+   "« Il faut qu'on parle. » De la part de {owner}. ...Oh non.",
+   "« Il faut qu'on parle » ?! Qu'est-ce que j'ai fait ?"
+  ]
+ },
+ "wntt_ask": {
+  "_": [
+   "Tu voulais parler ? Je suis là. Dis-le.",
+   "OK. Je suis prêt{me?|e}. Qu'est-ce qui ne va pas ?"
+  ]
+ },
+ "wntt_confused": {
+  "_": [
+   "Parler ? De quoi ? Je n'ai jamais envoyé ça !",
+   "Quoi ? Je ne t'ai envoyé aucun message !"
+  ]
+ },
+ "wntt_confess": {
+  "_": [
+   "...OK, j'ai peut-être VRAIMENT quelque chose à dire. Tu me plais. Beaucoup.",
+   "Puisque tu es là... ça fait un moment que je veux te dire quelque chose."
+  ]
+ },
+ "wntt_relief": {
+  "_": [
+   "Oh, Dieu merci. J'ai cru que tu me quittais !",
+   "Ouf ! Ça fait une heure que je panique !"
+  ]
+ },
+ "alarm_ring": {
+  "_": [
+   "*BIP BIP BIP* « RÉVEILLE-TOI ! RÉVEILLE-TOI ! »",
+   "*alarme du téléphone : « C'EST L'HEURE DE TA SIESTE ! »*"
+  ]
+ },
+ "alarm_boss": {
+  "_": [
+   "C'est une ALARME de téléphone dans ma réunion ?!",
+   "C'est le téléphone de qui qui hurle « réveille-toi » ?!"
+  ]
+ },
+ "alarm_owner": {
+  "_": [
+   "Ce n'est pas— je ne l'ai pas réglée !",
+   "Pardon ! Pardon ! Je ne sais pas comment l'arrêter !"
+  ]
+ },
+ "battery_dead": {
+  "_": [
+   "Déchargé ?! Il était à 90 % il y a une heure !",
+   "Mon téléphone est MORT. Il me faut un chargeur. Tout de suite."
+  ]
+ },
+ "battery_borrow": {
+  "_": [
+   "Le chargeur de Burak ! Ça ne le dérangera pas. Probablement.",
+   "J'emprunte juste le chargeur de Burak une minute."
+  ]
+ },
+ "photo_see": {
+  "_": [
+   "C'est {owner} à la soirée karaoké ?! Ha !",
+   "Cette PHOTO de {owner} ! Les cheveux ! La tenue !",
+   "Qui a posté {owner} {owner?endormi|endormie} à son bureau ?!"
+  ]
+ },
+ "photo_owner": {
+  "_": [
+   "Qui a posté ça ?! SUPPRIMEZ-LA !",
+   "Cette photo était censée avoir disparu pour toujours !"
+  ]
+ },
+ "photo_blame": {
+  "_": [
+   "Je parie que c'est {suspect} qui l'a postée.",
+   "{suspect}. Ça ne peut être que {suspect}."
+  ]
+ },
+ "mug_drink": {
+  "_": [
+   "Mmm. Du café. ...Cette tasse est nouvelle.",
+   "Jolie tasse. C'est la mienne ? Maintenant, oui."
+  ]
+ },
+ "mug_claim": {
+  "_": [
+   "Excuse-moi — c'est MA tasse.",
+   "Tu bois dans ma tasse ?!",
+   "Cette tasse. Est. À moi."
+  ],
+  "selin": [
+   "Cette tasse est à moi. Il y a mes initiales dessus."
+  ]
+ },
+ "mug_sorry": {
+  "_": [
+   "Oh ! Pardon ! Elles ont été échangées sur l'étagère !",
+   "Ah bon ? Elles se ressemblent toutes !"
+  ]
+ },
+ "mug_blush": {
+  "_": [
+   "...Alors on a partagé une tasse. C'est... un premier pas.",
+   "Baiser indirect ! ...Pardon. C'était bizarre."
+  ]
+ },
+ "decaf_sleepy": {
+  "_": [
+   "...Pourquoi je suis encore fatigué{me?|e} ? C'était mon troisième café.",
+   "Ce café ne fait rien. Il est cassé ? C'est moi qui suis cassé{me?|e} ?",
+   "*baîîîlle*"
+  ]
+ },
+ "decaf_blame": {
+  "_": [
+   "Zeynep, tu nous as fait passer au café bas de gamme pour économiser ?!",
+   "C'est du DÉCA ! Quelqu'un a sabré le budget café !"
+  ]
+ },
+ "decaf_zeynep": {
+  "_": [
+   "Je n'ai PAS touché au budget café !",
+   "Ne me regarde pas. Je ne toucherais jamais au café."
+  ]
+ },
+ "lunchmove_found": {
+  "_": [
+   "...Mon déjeuner. Sur l'étagère du HAUT. Derrière la moutarde. J'ai accusé les gens POUR RIEN.",
+   "Oh. Le voilà. Il se cachait. Oups."
+  ]
+ },
+ "cwait_line": {
+  "_": [
+   "« Préchauffage » ? Pendant combien de temps ?!",
+   "C'est écrit « veuillez patienter ». Je patiente, là.",
+   "Allez, allez, chauffe !"
+  ]
+ },
+ "cwait_chat": {
+  "_": [
+   "Bon... puisqu'on est coincés là tous les deux...",
+   "Copains de file d'attente café. Ta journée se passe bien ?",
+   "T'as entendu ce qui s'est passé hier ?"
+  ]
+ },
+ "water_dead": {
+  "_": [
+   "La fontaine à eau est vide. Par CETTE chaleur ?",
+   "Pas d'eau ? Même pas d'eau ?",
+   "*glou*... rien."
+  ]
+ },
+ "water_ece_try": {
+  "_": [
+   "Je vais la réparer ! J'ai vu une vidéo une fois !",
+   "Laissez-moi faire !"
+  ]
+ },
+ "water_flood": {
+  "_": [
+   "Oh non. Oh non non non. DE L'EAU PARTOUT !",
+   "Ça fuit ! Ça FUIT !"
+  ]
+ },
+ "snack_search": {
+  "_": [
+   "Où sont passés les snacks ? La boîte à snacks a DISPARU.",
+   "Pas de snacks ? C'est la crise."
+  ],
+  "mert": [
+   "Urgence snacks. Urgence. Snacks."
+  ]
+ },
+ "snack_found": {
+  "_": [
+   "Le tiroir de {target} est PLEIN de nos snacks !",
+   "Alors c'est LÀ que sont passés les snacks, {target}."
+  ]
+ },
+ "snack_share": {
+  "_": [
+   "...OK, ils ne sont pas à moi, mais — servez-vous ! Prenez tout !",
+   "Des snacks pour tout le monde ! Je suis aussi surpris{me?|e} que vous !"
+  ]
+ },
+ "snack_refuse": {
+  "_": [
+   "Ils sont dans MON tiroir, donc... ce sont mes snacks maintenant.",
+   "Qui trouve garde."
+  ]
+ },
+ "cake_early_see": {
+  "_": [
+   "...C'est un gâteau d'anniversaire ? Avec MON nom dessus ?",
+   "Attends. Il y a mon nom sur ce gâteau. C'était... une surprise ?"
+  ]
+ },
+ "cake_planner_sad": {
+  "_": [
+   "NON ! C'était censé être une SURPRISE !",
+   "Qui a sorti le gâteau ?! Il était caché !"
+  ]
+ },
+ "reserved_sign": {
+  "_": [
+   "« CUISINE RÉSERVÉE — Ahmet — déjeuner privé » ?!",
+   "On ne peut pas manger dans la cuisine ? Depuis quand ?"
+  ]
+ },
+ "reserved_boss": {
+  "_": [
+   "Pourquoi y a-t-il un panneau avec mon nom sur la cuisine ?",
+   "Un déjeuner privé ? Je mange un sandwich à mon bureau !"
+  ]
+ },
+ "micro_dead": {
+  "_": [
+   "Le micro-ondes est mort ! Mon déjeuner est CONGELÉ !",
+   "Pas le micro-ondes. Tout sauf le micro-ondes.",
+   "Des pâtes froides. Encore."
+  ]
+ },
+ "micro_queue": {
+  "_": [
+   "Il y a un autre micro-ondes quelque part ?",
+   "Je meurs de faim et ma soupe est un glaçon."
+  ]
+ },
+ "fish_smell": {
+  "_": [
+   "QUI A RÉCHAUFFÉ DU POISSON AU MICRO-ONDES ?!",
+   "C'est quoi cette ODEUR ?!",
+   "Du poisson. Au micro-ondes. Dans un BUREAU."
+  ],
+  "ahmet": [
+   "Qui est responsable de cette PUANTEUR ?"
+  ]
+ },
+ "fish_label": {
+  "_": [
+   "D'après l'étiquette, c'est à {target}.",
+   "C'est le déjeuner de {target}. L'étiquette est juste là."
+  ]
+ },
+ "fish_innocent": {
+  "_": [
+   "Ce n'est pas mon déjeuner ! J'ai apporté un sandwich !",
+   "Je n'AIME même pas le poisson !"
+  ]
+ },
+ "salt_spit": {
+  "_": [
+   "*PFFT* DU SEL ! Il y a du SEL dans le sucre !",
+   "BEURK ! Qui a mis du sel dans le sucrier ?!"
+  ]
+ },
+ "fnote_read": {
+  "_": [
+   "« ARRÊTE DE VOLER MES YAOURTS. JE SAIS QUI TU ES. — {target} » ...Waouh.",
+   "Un mot passif-agressif de {target} sur le frigo. Classe."
+  ]
+ },
+ "fnote_deny": {
+  "_": [
+   "Je n'ai pas écrit ce mot ! Je ne mange même pas de yaourt !",
+   "Ce n'est pas mon écriture !"
+  ]
+ },
+ "purge_shock": {
+  "_": [
+   "Le frigo est VIDE. Où sont les déjeuners de tout le monde ?!",
+   "Quelqu'un a vidé le frigo. Mon déjeuner était dedans !"
+  ]
+ },
+ "purge_out": {
+  "_": [
+   "Vous savez quoi ? Allons tous déjeuner dehors.",
+   "Déjeuner dehors, tous ensemble ? C'est moi qui invite... à peu près."
+  ]
+ },
+ "strong_jitter": {
+  "_": [
+   "J'entends les couleurs.",
+   "WAOUH. Ça... ça, c'est du café. WAOUH.",
+   "Mon cœur fait un solo de batterie."
+  ],
+  "mert": [
+   "Je pourrais conclure dix contrats, là. DIX."
+  ]
  }
 }

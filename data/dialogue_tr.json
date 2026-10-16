@@ -7634,5 +7634,545 @@
    "O benim zil sesim değil! Susturun şunu!",
    "Onu ben seçmedim! Yemin ederim!"
   ]
+ },
+ "fwdcall_answer": {
+  "_": [
+   "Alo, {owner:in} telefonu... şey, BENİM telefonum... Alo?",
+   "Evet, ben— hayır, {owner} değilim. Ama yardımcı olabilirim!"
+  ]
+ },
+ "fwdcall_help": {
+  "_": [
+   "Senin yerine bir müşteri telefonuna baktım. Mesaj şu.",
+   "Müşterin yanlışlıkla beni aradı. Senin için hallettim."
+  ]
+ },
+ "fwdcall_thanks": {
+  "_": [
+   "Öyle mi? Teşekkürler!",
+   "Bu... gerçekten çok incelik."
+  ]
+ },
+ "fwdcall_steal": {
+  "_": [
+   "{owner:i} arayan bir müşteri mi? ...Bununla bizzat ilgilenirim.",
+   "Hım. {owner:in} müşterisi. Artık benim müşterim."
+  ],
+  "deniz": [
+   "Fırsat kapıyı çalıyor. Kelimenin tam anlamıyla."
+  ]
+ },
+ "fwdcall_owner_finds": {
+  "_": [
+   "Müşterim {target} ile mi görüştüğünü söylüyor?!",
+   "{target} müşterimi mi aldı?!"
+  ]
+ },
+ "notif_preview": {
+  "_": [
+   "Hıh — bir önizleme belirdi: '{owner}: bugün {worst:e} katlanamıyorum'...",
+   "{owner:in} bildirimleri neden bana geliyor? '...{worst} ÇOK sinir bozucu.'"
+  ]
+ },
+ "notif_preview_hurt": {
+  "_": [
+   "...{owner} bana katlanamıyor mu?",
+   "Ah. Demek {owner} benim hakkımda böyle konuşuyor."
+  ]
+ },
+ "fridgephone_lost": {
+  "_": [
+   "Telefonum. Telefonum nerede? TAM BURADAYDI.",
+   "Telefonumu gören oldu mu?!"
+  ]
+ },
+ "fridgephone_found": {
+  "_": [
+   "...BUZDOLABINDA. Sütün yanında. BUZ GİBİ.",
+   "Telefonum buzdolabında. Telefonum neden buzdolabında?!"
+  ]
+ },
+ "remind_flowers": {
+  "_": [
+   "'Hatırlatma: {crush} için çiçek al' mı? Bunu ben mi kurdum?",
+   "Telefonum {crush} için çiçek almamı söylüyor. ...Alsam mı?"
+  ]
+ },
+ "remind_gym": {
+  "_": [
+   "'Spor salonu — 16:30 — SAKIN ATLAMA'. Tamam, telefon. Tamam.",
+   "Spor hatırlatması. Galiba erken çıkıyorum!"
+  ]
+ },
+ "remind_raise": {
+  "_": [
+   "'BUGÜN: Ahmet'ten zam iste.' ...Biliyor musun? Evet.",
+   "Telefon diyor ki: zam iste. Telefon haklı."
+  ]
+ },
+ "flowers_give": {
+  "_": [
+   "Bunlar senin için. Nedenini sorma. Ben de bilmiyorum.",
+   "Sana çiçek aldım. Telefonum öyle söyledi. Kulağa tuhaf geliyor."
+  ]
+ },
+ "flowers_love": {
+  "_": [
+   "Bana mı? ...Bu çok tatlı.",
+   "Çiçek! Hiç kimse bana daha önce— teşekkür ederim."
+  ]
+ },
+ "flowers_awkward": {
+  "_": [
+   "...Teşekkürler? Bu bir şaka mı?",
+   "Ah. Şey. Çiçek. Tamam."
+  ]
+ },
+ "raise_ask_line": {
+  "_": [
+   "Ahmet Bey, zam istiyorum. Bugün.",
+   "Zamı hak ettiğime karar verdim. Konuşabilir miyiz?"
+  ]
+ },
+ "callback_late": {
+  "_": [
+   "Müşteri geri aradı — bir SAAT geç — ve anlaşma uçtu gitti.",
+   "Rakiple anlaşmışlar. Tek bir aramayı kaçırdım diye mi?!"
+  ]
+ },
+ "callback_boss": {
+  "_": [
+   "Müşteriyi KAYBETTİN mi, {owner}?!",
+   "Bir arama. TEK bir aramayı kaçırdın ve hesabı kaybettik, öyle mi?"
+  ]
+ },
+ "vm_listen": {
+  "_": [
+   "{owner:den} bir sesli mesaj mı? Bana mı? Dinleyelim.",
+   "'{owner:den} yeni sesli mesaj.' Hım."
+  ]
+ },
+ "vm_confession": {
+  "_": [
+   "...{owner} benden HOŞLANIYOR mu?!",
+   "Bir dakika. Bu... bir aşk itirafı mıydı? {owner:den} mi?"
+  ]
+ },
+ "vm_secret": {
+  "_": [
+   "...Bunu duymamam gerekiyordu.",
+   "Eyvah. Bu özeldi."
+  ]
+ },
+ "wrongcb_call": {
+  "_": [
+   "Merhaba, aramanıza dönüyorum— {target} mı?! SEN mi aradın beni?",
+   "Alo? Ah. Sen... misin."
+  ]
+ },
+ "wrongcb_chat": {
+  "_": [
+   "Madem telefondayız... gerçekten nasılsın?",
+   "Ha. Tamam, madem seni yakaladım — bir ara öğle yemeği?"
+  ]
+ },
+ "wrongcb_fight": {
+  "_": [
+   "Seni aramadım. Seni neden arayayım?",
+   "Bu bir çeşit şaka mı?"
+  ]
+ },
+ "speaker_call": {
+  "_": [
+   "*hoparlörde* '...Evet anne, sebze yiyorum.'",
+   "*hoparlörde* '...sonra da onlara o dosyayı hiç görmediğimi söyledim. Ha!'"
+  ]
+ },
+ "speaker_realise": {
+  "_": [
+   "...Neden herkes bana bakıyor? Eyvah. HOPARLÖR.",
+   "HOPARLÖRDE mi?!"
+  ]
+ },
+ "dnd_boss": {
+  "_": [
+   "Seni DÖRT KEZ aradım, {target}!",
+   "Neden telefonuna bakmıyorsun, {target}?!"
+  ]
+ },
+ "dnd_explain": {
+  "_": [
+   "Ne? Hiç çalmadı! Bakın — Rahatsız Etmeyin mi? Ben açmadım onu!",
+   "Telefonum bir kez bile çalmadı!"
+  ]
+ },
+ "dnd_scold": {
+  "_": [
+   "O zaman telefonunu düzelt. Ben kimsenin peşinden koşmam.",
+   "Kabul edilemez. Ulaşılabilir ol."
+  ]
+ },
+ "dnd_ok": {
+  "_": [
+   "...Hım. Teknoloji. Peki.",
+   "Burak'a baktır."
+  ]
+ },
+ "prank_boss_pick": {
+  "_": [
+   "Alo? ...Alo? Kimsiniz? ...Biri NEFES mi alıyor?",
+   "*hatta ağır ağır nefes sesi* ...Bu da ne böyle?"
+  ]
+ },
+ "prank_boss_see": {
+  "_": [
+   "O arama {owner:in} dahili hattından gelmiş.",
+   "Dahili hat... {owner}. İlginç."
+  ]
+ },
+ "switch_wrong": {
+  "_": [
+   "Alo? ...Hayır, burası muhasebe değil. Neden herkes beni muhasebe sanıyor?",
+   "YİNE yanlış masa. Ceren, telefonlara cin girmiş!"
+  ]
+ },
+ "switch_ceren": {
+  "_": [
+   "Santral çıldırdı! Ben dokunmadım!",
+   "Her arama yanlış masaya gidiyor. Her. Biri."
+  ]
+ },
+ "switch_overhear": {
+  "_": [
+   "...Dur, o arama {intended} içindi. Ve ÇOK ilginçti.",
+   "Az önce {intended} için gelen bir aramaya baktım. Ah, neler duydum."
+  ]
+ },
+ "hold_client": {
+  "_": [
+   "Müşteri bekleme müziğimizin 'çığlıklı heavy metal' olduğunu söylüyor?!",
+   "Bir müşteri bekleme müziği yüzünden telefonu kapatmış. Ayrılık şarkısı mı?!"
+  ]
+ },
+ "hold_boss": {
+  "_": [
+   "Ceren! Bekleme müziğimiz müşterileri kaçırıyor!",
+   "Bekleme müziğini KİM değiştirdi?"
+  ]
+ },
+ "hold_ceren": {
+  "_": [
+   "Ben hiçbir şeyi değiştirmedim! Yemin ederim!",
+   "Benim ayarladığım bu değil! Biri sistemime girmiş."
+  ]
+ },
+ "coatphone_ring": {
+  "_": [
+   "...{coat:in} ceketi neden BENİM zil sesimle ÇALIYOR?",
+   "Bu benim telefonum! {coat:in} ceket cebinde!"
+  ]
+ },
+ "coatphone_accuse": {
+  "_": [
+   "Benim telefonum neden SENİN ceketinde, {target}?!",
+   "Telefonumun cebine nasıl girdiğini açıkla, {target}."
+  ]
+ },
+ "coatphone_innocent": {
+  "_": [
+   "Hiçbir fikrim yok! Bütün gün ceketime dokunmadım!",
+   "Ne?! Telefonunu ben almadım!"
+  ]
+ },
+ "wntt_read": {
+  "_": [
+   "'Konuşmamız lazım.' {owner:den}. ...Eyvah.",
+   "'Konuşmamız lazım' mı?! Ne yaptım ben?"
+  ]
+ },
+ "wntt_ask": {
+  "_": [
+   "Konuşmak mı istedin? Buradayım. Söyle hadi.",
+   "Tamam. Hazırım. Sorun ne?"
+  ]
+ },
+ "wntt_confused": {
+  "_": [
+   "Konuşmak mı? Ne hakkında? Ben öyle bir şey göndermedim!",
+   "Ne? Sana hiçbir mesaj atmadım!"
+  ]
+ },
+ "wntt_confess": {
+  "_": [
+   "...Tamam, belki de gerçekten bir şey söylemem gerekiyor. Senden hoşlanıyorum. Hem de çok.",
+   "Madem buradasın... bir süredir sana bir şey söylemek istiyordum."
+  ]
+ },
+ "wntt_relief": {
+  "_": [
+   "Oh, çok şükür. Benden ayrılacaksın sandım!",
+   "Oh be! Bir saattir panikliyorum!"
+  ]
+ },
+ "alarm_ring": {
+  "_": [
+   "*BİP BİP BİP* 'UYAN! UYAN!'",
+   "*telefon alarmı: 'ŞEKERLEME ZAMANI!'*"
+  ]
+ },
+ "alarm_boss": {
+  "_": [
+   "Toplantımda TELEFON ALARMI mı çalıyor?!",
+   "Kimin telefonu 'uyan' diye bağırıyor?!"
+  ]
+ },
+ "alarm_owner": {
+  "_": [
+   "O değil— ben kurmadım onu!",
+   "Pardon! Pardon! Nasıl kapatılacağını bilmiyorum!"
+  ]
+ },
+ "battery_dead": {
+  "_": [
+   "Bitti mi?! Bir saat önce %90'daydı!",
+   "Telefonum ÖLDÜ. Şarj aleti lazım. Hemen."
+  ]
+ },
+ "battery_borrow": {
+  "_": [
+   "Burak'ın şarj aleti! Sorun etmez. Herhalde.",
+   "Burak'ın şarj aletini bir dakikalığına ödünç alayım."
+  ]
+ },
+ "photo_see": {
+  "_": [
+   "Karaoke gecesindeki {owner} mı bu?! Ha!",
+   "{owner:in} şu FOTOĞRAFI! O saçlar! O kıyafet!",
+   "{owner:in} masasında uyurken çekilmiş fotoğrafını kim paylaştı?!"
+  ]
+ },
+ "photo_owner": {
+  "_": [
+   "Onu kim paylaştı?! SİLİN ONU!",
+   "O fotoğraf sonsuza dek yok olmuş olacaktı!"
+  ]
+ },
+ "photo_blame": {
+  "_": [
+   "Bahse girerim onu {suspect} paylaştı.",
+   "{suspect}. {suspect} olmalı."
+  ]
+ },
+ "mug_drink": {
+  "_": [
+   "Mmm. Kahve. ...Bu kupa yeni.",
+   "Güzel kupa. Benim mi? Artık benim."
+  ]
+ },
+ "mug_claim": {
+  "_": [
+   "Pardon — o BENİM kupam.",
+   "Benim kupamdan mı içiyorsun?!",
+   "O kupa. Benim."
+  ],
+  "selin": [
+   "O kupa benim. Üstünde baş harflerim var."
+  ]
+ },
+ "mug_sorry": {
+  "_": [
+   "Ah! Pardon! Raftakiler karışmış!",
+   "Öyle mi? Hepsi aynı görünüyor!"
+  ]
+ },
+ "mug_blush": {
+  "_": [
+   "...Demek artık aynı kupayı paylaştık. Bu... bir adım.",
+   "Dolaylı öpücük! ...Pardon. Bu tuhaf oldu."
+  ]
+ },
+ "decaf_sleepy": {
+  "_": [
+   "...Neden hâlâ yorgunum? Bu üçüncü kahvemdi.",
+   "Bu kahve etki etmiyor. Bozuk mu? Ben mi bozuğum?",
+   "*esneeer*"
+  ]
+ },
+ "decaf_blame": {
+  "_": [
+   "Zeynep, tasarruf için ucuz kahveye mi geçtik?!",
+   "Bu KAFEİNSİZ! Biri kahve bütçesini kesmiş!"
+  ]
+ },
+ "decaf_zeynep": {
+  "_": [
+   "Kahve bütçesine DOKUNMADIM!",
+   "Bana bakma. Kahveyle asla oynamam."
+  ]
+ },
+ "lunchmove_found": {
+  "_": [
+   "...Öğle yemeğim. EN ÜST rafta. Hardalın arkasında. İnsanları BOŞ YERE suçladım.",
+   "Ah. İşte orada. Saklanıyormuş. Hay aksi."
+  ]
+ },
+ "cwait_line": {
+  "_": [
+   "'Isınıyor' mu? Ne kadar daha?!",
+   "'Lütfen bekleyin' yazıyor. Bekliyorum zaten.",
+   "Hadi, hadi, ısın!"
+  ]
+ },
+ "cwait_chat": {
+  "_": [
+   "Eee... madem ikimiz de burada takıldık...",
+   "Kahve kuyruğu arkadaşları. Günün nasıl geçiyor?",
+   "Dün ne olduğunu duydun mu?"
+  ]
+ },
+ "water_dead": {
+  "_": [
+   "Su sebili boşalmış. Bu SICAKTA mı?",
+   "Su yok mu? Su bile mi yok?",
+   "*gulp*... hiçbir şey."
+  ]
+ },
+ "water_ece_try": {
+  "_": [
+   "Ben tamir ederim! Bir kere video izlemiştim!",
+   "Bana bırakın!"
+  ]
+ },
+ "water_flood": {
+  "_": [
+   "Eyvah. Eyvah eyvah eyvah. HER YER SU!",
+   "Sızdırıyor! SIZDIRIYOR!"
+  ]
+ },
+ "snack_search": {
+  "_": [
+   "Atıştırmalıklar nereye gitti? Atıştırmalık kutusu YOK.",
+   "Atıştırmalık yok mu? Bu bir kriz."
+  ],
+  "mert": [
+   "Atıştırmalık acil durumu. Atıştırmalık. Acil durumu."
+  ]
+ },
+ "snack_found": {
+  "_": [
+   "{target:in} çekmecesi bizim atıştırmalıklarla DOLU!",
+   "Demek atıştırmalıklar BURAYA gitmiş, {target}."
+  ]
+ },
+ "snack_share": {
+  "_": [
+   "...Tamam, benim değiller ama — alın! Hepsini alın!",
+   "Herkese atıştırmalık! Ben de sizin kadar şaşkınım!"
+  ]
+ },
+ "snack_refuse": {
+  "_": [
+   "BENİM çekmecemdeler, yani... artık benim atıştırmalıklarım.",
+   "Bulan alır."
+  ]
+ },
+ "cake_early_see": {
+  "_": [
+   "...Bu bir doğum günü pastası mı? Üstünde BENİM adım mı var?",
+   "Bir dakika. O pastada benim adım yazıyor. Bu... bir sürpriz miydi?"
+  ]
+ },
+ "cake_planner_sad": {
+  "_": [
+   "HAYIR! O bir SÜRPRİZ olacaktı!",
+   "Pastayı kim çıkardı?! Saklıydı!"
+  ]
+ },
+ "reserved_sign": {
+  "_": [
+   "'MUTFAK REZERVE — Ahmet — özel öğle yemeği' mi?!",
+   "Mutfakta yemek yiyemiyor muyuz? Ne zamandan beri?"
+  ]
+ },
+ "reserved_boss": {
+  "_": [
+   "Mutfakta neden benim adımın yazdığı bir tabela var?",
+   "Özel öğle yemeği mi? Ben masamda sandviç yiyorum!"
+  ]
+ },
+ "micro_dead": {
+  "_": [
+   "Mikrodalga öldü! Yemeğim DONUK!",
+   "Mikrodalga olmaz. Her şey olur ama mikrodalga olmaz.",
+   "Soğuk makarna. Yine."
+  ]
+ },
+ "micro_queue": {
+  "_": [
+   "Başka bir mikrodalga var mı bir yerde?",
+   "Açlıktan ölüyorum ve çorbam buz kalıbı."
+  ]
+ },
+ "fish_smell": {
+  "_": [
+   "MİKRODALGADA BALIK ISITAN KİM?!",
+   "Bu KOKU da ne?!",
+   "Balık. Mikrodalgada. Bir OFİSTE."
+  ],
+  "ahmet": [
+   "Bu LEŞ kokunun sorumlusu kim?"
+  ]
+ },
+ "fish_label": {
+  "_": [
+   "Etikette {target:in} olduğu yazıyor.",
+   "Bu {target:in} öğle yemeği. Etiket orada işte."
+  ]
+ },
+ "fish_innocent": {
+  "_": [
+   "O benim yemeğim değil! Ben sandviç getirdim!",
+   "Ben balık SEVMEM bile!"
+  ]
+ },
+ "salt_spit": {
+  "_": [
+   "*PÜF* TUZ! Şekerde TUZ var!",
+   "IYY! Şeker kavanozuna kim tuz koydu?!"
+  ]
+ },
+ "fnote_read": {
+  "_": [
+   "'YOĞURDUMU ÇALMAYI BIRAK. KİM OLDUĞUNU BİLİYORUM. — {target}' ...Vay.",
+   "Buzdolabında {target:den} pasif-agresif bir not. Ne klas."
+  ]
+ },
+ "fnote_deny": {
+  "_": [
+   "O notu ben yazmadım! Ben yoğurt bile yemem!",
+   "O benim el yazım değil!"
+  ]
+ },
+ "purge_shock": {
+  "_": [
+   "Buzdolabı BOMBOŞ. Herkesin yemeği nerede?!",
+   "Biri buzdolabını boşaltmış. Benim yemeğim içindeydi!"
+  ]
+ },
+ "purge_out": {
+  "_": [
+   "Biliyor musunuz? Hep beraber dışarıda yiyelim.",
+   "Dışarıda, hep birlikte öğle yemeği? Benden... sayılır."
+  ]
+ },
+ "strong_jitter": {
+  "_": [
+   "Renkleri duyabiliyorum.",
+   "VAY. Bu... işte buna kahve denir. VAY.",
+   "Kalbim davul solosu yapıyor."
+  ],
+  "mert": [
+   "Şu an on anlaşma kapatabilirim. ON."
+  ]
  }
 }

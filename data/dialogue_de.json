@@ -7634,5 +7634,545 @@
    "Das ist nicht mein Klingelton! Mach, dass es aufhört!",
    "Den hab ich nicht ausgesucht! Ich schwöre!"
   ]
+ },
+ "fwdcall_answer": {
+  "_": [
+   "Hallo, Telefon von {owner}... äh, MEIN Telefon... Hallo?",
+   "Ja, hier ist— nein, ich bin nicht {owner}. Aber ich kann helfen!"
+  ]
+ },
+ "fwdcall_help": {
+  "_": [
+   "Ich hab einen Kundenanruf für dich angenommen. Hier ist die Nachricht.",
+   "Dein Kunde hat aus Versehen mich angerufen. Ich hab das für dich geklärt."
+  ]
+ },
+ "fwdcall_thanks": {
+  "_": [
+   "Echt? Danke!",
+   "Das ist... wirklich nett von dir."
+  ]
+ },
+ "fwdcall_steal": {
+  "_": [
+   "Ein Kunde, der {owner} sucht? ...Darum kümmere ich mich persönlich.",
+   "Hm. {owner:s} Kunde. Jetzt mein Kunde."
+  ],
+  "deniz": [
+   "Die Gelegenheit klopft an. Buchstäblich."
+  ]
+ },
+ "fwdcall_owner_finds": {
+  "_": [
+   "Mein Kunde sagt, er hatte mit {target} zu tun?!",
+   "{target} hat mir meinen Kunden abgeluchst?!"
+  ]
+ },
+ "notif_preview": {
+  "_": [
+   "Hä — eine Vorschau ist aufgeploppt: „{owner}: kann {worst} heute nicht ausstehen“...",
+   "Warum bekomme ich {owner:s} Benachrichtigungen? „...{worst} nervt SO.“"
+  ]
+ },
+ "notif_preview_hurt": {
+  "_": [
+   "...{owner} kann mich nicht ausstehen?",
+   "Oh. Das sagt {owner} also über mich."
+  ]
+ },
+ "fridgephone_lost": {
+  "_": [
+   "Mein Handy. Wo ist mein Handy? Es war GENAU HIER.",
+   "Hat jemand mein Handy gesehen?!"
+  ]
+ },
+ "fridgephone_found": {
+  "_": [
+   "...Es ist im KÜHLSCHRANK. Neben der Milch. Es ist EISKALT.",
+   "Mein Handy ist im Kühlschrank. Warum ist mein Handy im Kühlschrank?!"
+  ]
+ },
+ "remind_flowers": {
+  "_": [
+   "„Erinnerung: Blumen für {crush} kaufen“? Hab ich das eingestellt?",
+   "Laut Handy soll ich {crush} Blumen kaufen. ...Soll ich?"
+  ]
+ },
+ "remind_gym": {
+  "_": [
+   "„Fitnessstudio — 16:30 — NICHT SCHWÄNZEN“. Okay, Handy. Okay.",
+   "Erinnerung ans Fitnessstudio. Dann geh ich wohl früher!"
+  ]
+ },
+ "remind_raise": {
+  "_": [
+   "„HEUTE: Ahmet um eine Gehaltserhöhung bitten.“ ...Weißt du was? Ja.",
+   "Das Handy sagt: um eine Erhöhung bitten. Das Handy hat recht."
+  ]
+ },
+ "flowers_give": {
+  "_": [
+   "Die sind für dich. Frag nicht, warum. Ich weiß es selbst nicht.",
+   "Ich hab dir Blumen gekauft. Mein Handy hat's mir gesagt. Klingt komisch."
+  ]
+ },
+ "flowers_love": {
+  "_": [
+   "Für mich? ...Das ist echt süß.",
+   "Blumen! Noch nie hat mir jemand— danke."
+  ]
+ },
+ "flowers_awkward": {
+  "_": [
+   "...Danke? Ist das ein Scherz?",
+   "Oh. Ähm. Blumen. Okay."
+  ]
+ },
+ "raise_ask_line": {
+  "_": [
+   "Ahmet Bey, ich hätte gern eine Gehaltserhöhung. Heute.",
+   "Ich habe beschlossen, dass ich eine Gehaltserhöhung verdiene. Können wir reden?"
+  ]
+ },
+ "callback_late": {
+  "_": [
+   "Der Kunde hat zurückgerufen — eine STUNDE zu spät — und der Deal ist weg.",
+   "Die haben bei der Konkurrenz unterschrieben. Weil ich EINEN Anruf verpasst habe?!"
+  ]
+ },
+ "callback_boss": {
+  "_": [
+   "Sie haben den Kunden VERLOREN, {owner}?!",
+   "Ein Anruf. Sie haben EINEN Anruf verpasst, und wir haben den Kunden verloren?"
+  ]
+ },
+ "vm_listen": {
+  "_": [
+   "Eine Sprachnachricht von {owner}? Für... mich? Mal hören.",
+   "„Neue Sprachnachricht von {owner}.“ Hm."
+  ]
+ },
+ "vm_confession": {
+  "_": [
+   "...{owner} sagt, dass {owner?er|sie} mich MAG?!",
+   "Moment. War das... eine Liebeserklärung? Von {owner}?"
+  ]
+ },
+ "vm_secret": {
+  "_": [
+   "...Das hätte ich nicht hören sollen.",
+   "Oh nein. Das war privat."
+  ]
+ },
+ "wrongcb_call": {
+  "_": [
+   "Hallo, ich rufe zurück— {target}?! DU hast mich angerufen?",
+   "Hallo? Oh. Du bist's."
+  ]
+ },
+ "wrongcb_chat": {
+  "_": [
+   "Na ja, wo wir schon telefonieren... wie geht's dir wirklich?",
+   "Ha. Okay, wo ich dich schon dranhab — mal Mittagessen?"
+  ]
+ },
+ "wrongcb_fight": {
+  "_": [
+   "Ich hab dich nicht angerufen. Warum sollte ich dich anrufen?",
+   "Ist das irgendein Scherz?"
+  ]
+ },
+ "speaker_call": {
+  "_": [
+   "*auf Lautsprecher* „...Ja, Mama, ich esse Gemüse.“",
+   "*auf Lautsprecher* „...und dann hab ich gesagt, ich hätte die Akte nie gesehen. Ha!“"
+  ]
+ },
+ "speaker_realise": {
+  "_": [
+   "...Warum schauen mich alle an? Oh nein. LAUTSPRECHER.",
+   "Das ist auf LAUTSPRECHER?!"
+  ]
+ },
+ "dnd_boss": {
+  "_": [
+   "Ich habe Sie VIERMAL angerufen, {target}!",
+   "Warum gehen Sie nicht ans Telefon, {target}?!"
+  ]
+ },
+ "dnd_explain": {
+  "_": [
+   "Was? Es hat nie geklingelt! Schauen Sie — „Nicht stören“? Das hab ich nicht eingeschaltet!",
+   "Mein Handy hat kein einziges Mal geklingelt!"
+  ]
+ },
+ "dnd_scold": {
+  "_": [
+   "Dann reparieren Sie Ihr Handy. Ich laufe niemandem hinterher.",
+   "Inakzeptabel. Seien Sie erreichbar."
+  ]
+ },
+ "dnd_ok": {
+  "_": [
+   "...Hm. Technik. Na gut.",
+   "Lassen Sie Burak draufschauen."
+  ]
+ },
+ "prank_boss_pick": {
+  "_": [
+   "Hallo? ...Hallo? Wer ist da? ...ATMET da jemand?",
+   "*schweres Atmen in der Leitung* ...Was um alles in der Welt?"
+  ]
+ },
+ "prank_boss_see": {
+  "_": [
+   "Der Anruf kam von {owner:s} Durchwahl.",
+   "Durchwahl... {owner}. Interessant."
+  ]
+ },
+ "switch_wrong": {
+  "_": [
+   "Hallo? ...Nein, hier ist nicht die Buchhaltung. Warum halten mich alle für die Buchhaltung?",
+   "SCHON WIEDER der falsche Platz. Ceren, die Telefone sind besessen!"
+  ]
+ },
+ "switch_ceren": {
+  "_": [
+   "Die Telefonanlage spielt verrückt! Ich hab nichts angefasst!",
+   "Jeder Anruf landet am falschen Platz. Jeder. Einzelne."
+  ]
+ },
+ "switch_overhear": {
+  "_": [
+   "...Moment, der Anruf war für {intended}. Und er war SEHR interessant.",
+   "Ich hab gerade einen Anruf für {intended} angenommen. Was ich da alles gehört hab."
+  ]
+ },
+ "hold_client": {
+  "_": [
+   "Der Kunde sagt, unsere Warteschleifenmusik sei „Heavy-Metal-Geschrei“?!",
+   "Ein Kunde hat wegen der Warteschleifenmusik aufgelegt. Eine Trennungsballade?!"
+  ]
+ },
+ "hold_boss": {
+  "_": [
+   "Ceren! Unsere Warteschleifenmusik vertreibt die Kunden!",
+   "WER hat die Warteschleifenmusik geändert?"
+  ]
+ },
+ "hold_ceren": {
+  "_": [
+   "Ich habe nichts geändert! Ich schwöre!",
+   "Das habe ich nicht eingestellt! Jemand war in meinem System."
+  ]
+ },
+ "coatphone_ring": {
+  "_": [
+   "...Warum KLINGELT {coat:s} Jacke mit MEINEM Klingelton?",
+   "Das ist mein Handy! In {coat:s} Manteltasche!"
+  ]
+ },
+ "coatphone_accuse": {
+  "_": [
+   "Warum ist mein Handy in DEINEM Mantel, {target}?!",
+   "Erklär mir, wie mein Handy in deine Tasche gekommen ist, {target}."
+  ]
+ },
+ "coatphone_innocent": {
+  "_": [
+   "Keine Ahnung! Ich hab meinen Mantel den ganzen Tag nicht angefasst!",
+   "Was?! Ich hab dein Handy nicht genommen!"
+  ]
+ },
+ "wntt_read": {
+  "_": [
+   "„Wir müssen reden.“ Von {owner}. ...Oh nein.",
+   "„Wir müssen reden“?! Was hab ich getan?"
+  ]
+ },
+ "wntt_ask": {
+  "_": [
+   "Du wolltest reden? Ich bin da. Sag's einfach.",
+   "Okay. Ich bin bereit. Was ist los?"
+  ]
+ },
+ "wntt_confused": {
+  "_": [
+   "Reden? Worüber? Das hab ich nie geschickt!",
+   "Was? Ich hab dir gar nichts geschrieben!"
+  ]
+ },
+ "wntt_confess": {
+  "_": [
+   "...Okay, vielleicht MUSS ich wirklich was sagen. Ich mag dich. Sehr.",
+   "Wo du schon mal da bist... ich wollte dir schon länger was sagen."
+  ]
+ },
+ "wntt_relief": {
+  "_": [
+   "Gott sei Dank. Ich dachte, du machst mit mir Schluss!",
+   "Puh! Ich bin seit einer Stunde in Panik!"
+  ]
+ },
+ "alarm_ring": {
+  "_": [
+   "*PIEP PIEP PIEP* „AUFWACHEN! AUFWACHEN!“",
+   "*Handywecker: „ZEIT FÜR DEIN NICKERCHEN!“*"
+  ]
+ },
+ "alarm_boss": {
+  "_": [
+   "Ist das etwa ein HANDYWECKER in meinem Meeting?!",
+   "Wessen Handy schreit „Aufwachen“?!"
+  ]
+ },
+ "alarm_owner": {
+  "_": [
+   "Das ist nicht— das hab ich nicht eingestellt!",
+   "Sorry! Sorry! Ich weiß nicht, wie man das ausschaltet!"
+  ]
+ },
+ "battery_dead": {
+  "_": [
+   "Leer?! Vor einer Stunde waren es noch 90 %!",
+   "Mein Handy ist TOT. Ich brauche ein Ladegerät. Sofort."
+  ]
+ },
+ "battery_borrow": {
+  "_": [
+   "Buraks Ladegerät! Das macht ihm nichts aus. Wahrscheinlich.",
+   "Ich leih mir kurz Buraks Ladegerät."
+  ]
+ },
+ "photo_see": {
+  "_": [
+   "Ist das {owner} beim Karaoke-Abend?! Ha!",
+   "Dieses FOTO von {owner}! Die Haare! Das Outfit!",
+   "Wer hat {owner} schlafend am Schreibtisch gepostet?!"
+  ]
+ },
+ "photo_owner": {
+  "_": [
+   "Wer hat das gepostet?! LÖSCHT DAS!",
+   "Das Foto sollte für immer verschwunden sein!"
+  ]
+ },
+ "photo_blame": {
+  "_": [
+   "Ich wette, {suspect} hat das gepostet.",
+   "{suspect}. Das muss {suspect} gewesen sein."
+  ]
+ },
+ "mug_drink": {
+  "_": [
+   "Mmm. Kaffee. ...Die Tasse ist neu.",
+   "Schöne Tasse. Ist das meine? Jetzt schon."
+  ]
+ },
+ "mug_claim": {
+  "_": [
+   "Entschuldigung — das ist MEINE Tasse.",
+   "Trinkst du etwa aus meiner Tasse?!",
+   "Diese Tasse. Gehört. Mir."
+  ],
+  "selin": [
+   "Diese Tasse gehört mir. Da sind meine Initialen drauf."
+  ]
+ },
+ "mug_sorry": {
+  "_": [
+   "Oh! Sorry! Die waren im Regal vertauscht!",
+   "Ach ja? Die sehen alle gleich aus!"
+  ]
+ },
+ "mug_blush": {
+  "_": [
+   "...Jetzt haben wir uns also eine Tasse geteilt. Das ist... ein Schritt.",
+   "Indirekter Kuss! ...Sorry. Das war komisch."
+  ]
+ },
+ "decaf_sleepy": {
+  "_": [
+   "...Warum bin ich immer noch müde? Das war mein dritter Kaffee.",
+   "Der Kaffee wirkt nicht. Ist er kaputt? Bin ICH kaputt?",
+   "*gääähn*"
+  ]
+ },
+ "decaf_blame": {
+  "_": [
+   "Zeynep, hast du uns aus Spargründen auf billigen Kaffee umgestellt?!",
+   "Das ist ENTKOFFEINIERT! Jemand hat das Kaffeebudget gekürzt!"
+  ]
+ },
+ "decaf_zeynep": {
+  "_": [
+   "Ich habe das Kaffeebudget NICHT angerührt!",
+   "Schau mich nicht an. Beim Kaffee würde ich nie tricksen."
+  ]
+ },
+ "lunchmove_found": {
+  "_": [
+   "...Mein Mittagessen. Im OBERSTEN Fach. Hinter dem Senf. Ich hab Leute UMSONST beschuldigt.",
+   "Oh. Da ist es ja. Es hat sich versteckt. Ups."
+  ]
+ },
+ "cwait_line": {
+  "_": [
+   "„Heizt auf“? Wie lange denn noch?!",
+   "Da steht „Bitte warten“. Ich warte doch.",
+   "Komm schon, komm schon, heiz auf!"
+  ]
+ },
+ "cwait_chat": {
+  "_": [
+   "Also... wo wir hier schon beide festhängen...",
+   "Kaffeeschlangen-Kumpel. Wie läuft dein Tag?",
+   "Hast du gehört, was gestern passiert ist?"
+  ]
+ },
+ "water_dead": {
+  "_": [
+   "Der Wasserspender ist leer. Bei DIESER Hitze?",
+   "Kein Wasser? Nicht mal Wasser?",
+   "*gluck*... nichts."
+  ]
+ },
+ "water_ece_try": {
+  "_": [
+   "Ich repariere das! Ich hab mal ein Video gesehen!",
+   "Überlasst das mir!"
+  ]
+ },
+ "water_flood": {
+  "_": [
+   "Oh nein. Oh nein, nein, nein. ÜBERALL WASSER!",
+   "Es leckt! Es LECKT!"
+  ]
+ },
+ "snack_search": {
+  "_": [
+   "Wo sind die Snacks hin? Die Snackbox ist WEG.",
+   "Keine Snacks? Das ist eine Krise."
+  ],
+  "mert": [
+   "Snack-Notfall. Snack. Notfall."
+  ]
+ },
+ "snack_found": {
+  "_": [
+   "{target:s} Schublade ist VOLL mit unseren Snacks!",
+   "Hierhin sind die Snacks also verschwunden, {target}."
+  ]
+ },
+ "snack_share": {
+  "_": [
+   "...Okay, die gehören nicht mir, aber — nehmt welche! Nehmt alle!",
+   "Snacks für alle! Ich bin genauso überrascht wie ihr!"
+  ]
+ },
+ "snack_refuse": {
+  "_": [
+   "Die sind in MEINER Schublade, also... sind es jetzt meine Snacks.",
+   "Wer's findet, dem gehört's."
+  ]
+ },
+ "cake_early_see": {
+  "_": [
+   "...Ist das eine Geburtstagstorte? Mit MEINEM Namen drauf?",
+   "Moment. Auf der Torte steht mein Name. War das... eine Überraschung?"
+  ]
+ },
+ "cake_planner_sad": {
+  "_": [
+   "NEIN! Das sollte eine ÜBERRASCHUNG sein!",
+   "Wer hat die Torte rausgestellt?! Die war versteckt!"
+  ]
+ },
+ "reserved_sign": {
+  "_": [
+   "„KÜCHE RESERVIERT — Ahmet — privates Mittagessen“?!",
+   "Wir dürfen nicht in der Küche essen? Seit wann?"
+  ]
+ },
+ "reserved_boss": {
+  "_": [
+   "Warum hängt an der Küche ein Schild mit meinem Namen?",
+   "Privates Mittagessen? Ich esse ein Sandwich an meinem Schreibtisch!"
+  ]
+ },
+ "micro_dead": {
+  "_": [
+   "Die Mikrowelle ist tot! Mein Mittagessen ist GEFROREN!",
+   "Nicht die Mikrowelle. Alles, nur nicht die Mikrowelle.",
+   "Kalte Nudeln. Schon wieder."
+  ]
+ },
+ "micro_queue": {
+  "_": [
+   "Gibt es hier irgendwo noch eine Mikrowelle?",
+   "Ich verhungere, und meine Suppe ist ein Eiswürfel."
+  ]
+ },
+ "fish_smell": {
+  "_": [
+   "WER HAT FISCH IN DER MIKROWELLE GEMACHT?!",
+   "Was ist das für ein GERUCH?!",
+   "Fisch. In der Mikrowelle. In einem BÜRO."
+  ],
+  "ahmet": [
+   "Wer ist für diesen GESTANK verantwortlich?"
+  ]
+ },
+ "fish_label": {
+  "_": [
+   "Laut Etikett gehört er {target}.",
+   "Das ist {target:s} Mittagessen. Das Etikett ist doch da."
+  ]
+ },
+ "fish_innocent": {
+  "_": [
+   "Das ist nicht mein Mittagessen! Ich hab ein Sandwich dabei!",
+   "Ich MAG nicht mal Fisch!"
+  ]
+ },
+ "salt_spit": {
+  "_": [
+   "*PFFT* SALZ! Da ist SALZ im Zucker!",
+   "BÄH! Wer hat Salz in die Zuckerdose getan?!"
+  ]
+ },
+ "fnote_read": {
+  "_": [
+   "„HÖR AUF, MEINEN JOGHURT ZU KLAUEN. ICH WEISS, WER DU BIST. — {target}“ ...Wow.",
+   "Passiv-aggressiver Zettel von {target} am Kühlschrank. Stilvoll."
+  ]
+ },
+ "fnote_deny": {
+  "_": [
+   "Den Zettel hab ich nicht geschrieben! Ich esse nicht mal Joghurt!",
+   "Das ist nicht meine Handschrift!"
+  ]
+ },
+ "purge_shock": {
+  "_": [
+   "Der Kühlschrank ist LEER. Wo ist das Mittagessen von allen?!",
+   "Jemand hat den Kühlschrank ausgeräumt. Mein Mittagessen war da drin!"
+  ]
+ },
+ "purge_out": {
+  "_": [
+   "Wisst ihr was? Lasst uns alle zusammen essen gehen.",
+   "Gemeinsam auswärts essen? Ich lad euch ein... so halb."
+  ]
+ },
+ "strong_jitter": {
+  "_": [
+   "Ich kann Farben hören.",
+   "WOW. Das... das ist Kaffee. WOW.",
+   "Mein Herz spielt ein Schlagzeugsolo."
+  ],
+  "mert": [
+   "Ich könnte jetzt zehn Deals abschließen. ZEHN."
+  ]
  }
 }

@@ -1,0 +1,186 @@
+5280|Hallo, Telefon von {owner}... äh, MEIN Telefon... Hallo?
+5281|Ja, hier ist— nein, ich bin nicht {owner}. Aber ich kann helfen!
+5282|Ich hab einen Kundenanruf für dich angenommen. Hier ist die Nachricht.
+5283|Dein Kunde hat aus Versehen mich angerufen. Ich hab das für dich geklärt.
+5284|Echt? Danke!
+5285|Das ist... wirklich nett von dir.
+5286|Ein Kunde, der {owner} sucht? ...Darum kümmere ich mich persönlich.
+5287|Hm. {owner:s} Kunde. Jetzt mein Kunde.
+5288|Die Gelegenheit klopft an. Buchstäblich.
+5289|Mein Kunde sagt, er hatte mit {target} zu tun?!
+5290|{target} hat mir meinen Kunden abgeluchst?!
+5291|Hä — eine Vorschau ist aufgeploppt: „{owner}: kann {worst} heute nicht ausstehen“...
+5292|Warum bekomme ich {owner:s} Benachrichtigungen? „...{worst} nervt SO.“
+5293|...{owner} kann mich nicht ausstehen?
+5294|Oh. Das sagt {owner} also über mich.
+5295|Mein Handy. Wo ist mein Handy? Es war GENAU HIER.
+5296|Hat jemand mein Handy gesehen?!
+5297|...Es ist im KÜHLSCHRANK. Neben der Milch. Es ist EISKALT.
+5298|Mein Handy ist im Kühlschrank. Warum ist mein Handy im Kühlschrank?!
+5299|„Erinnerung: Blumen für {crush} kaufen“? Hab ich das eingestellt?
+5300|Laut Handy soll ich {crush} Blumen kaufen. ...Soll ich?
+5301|„Fitnessstudio — 16:30 — NICHT SCHWÄNZEN“. Okay, Handy. Okay.
+5302|Erinnerung ans Fitnessstudio. Dann geh ich wohl früher!
+5303|„HEUTE: Ahmet um eine Gehaltserhöhung bitten.“ ...Weißt du was? Ja.
+5304|Das Handy sagt: um eine Erhöhung bitten. Das Handy hat recht.
+5305|Die sind für dich. Frag nicht, warum. Ich weiß es selbst nicht.
+5306|Ich hab dir Blumen gekauft. Mein Handy hat's mir gesagt. Klingt komisch.
+5307|Für mich? ...Das ist echt süß.
+5308|Blumen! Noch nie hat mir jemand— danke.
+5309|...Danke? Ist das ein Scherz?
+5310|Oh. Ähm. Blumen. Okay.
+5311|Ahmet Bey, ich hätte gern eine Gehaltserhöhung. Heute.
+5312|Ich habe beschlossen, dass ich eine Gehaltserhöhung verdiene. Können wir reden?
+5313|Der Kunde hat zurückgerufen — eine STUNDE zu spät — und der Deal ist weg.
+5314|Die haben bei der Konkurrenz unterschrieben. Weil ich EINEN Anruf verpasst habe?!
+5315|Sie haben den Kunden VERLOREN, {owner}?!
+5316|Ein Anruf. Sie haben EINEN Anruf verpasst, und wir haben den Kunden verloren?
+5317|Eine Sprachnachricht von {owner}? Für... mich? Mal hören.
+5318|„Neue Sprachnachricht von {owner}.“ Hm.
+5319|...{owner} sagt, dass {owner?er|sie} mich MAG?!
+5320|Moment. War das... eine Liebeserklärung? Von {owner}?
+5321|...Das hätte ich nicht hören sollen.
+5322|Oh nein. Das war privat.
+5323|Hallo, ich rufe zurück— {target}?! DU hast mich angerufen?
+5324|Hallo? Oh. Du bist's.
+5325|Na ja, wo wir schon telefonieren... wie geht's dir wirklich?
+5326|Ha. Okay, wo ich dich schon dranhab — mal Mittagessen?
+5327|Ich hab dich nicht angerufen. Warum sollte ich dich anrufen?
+5328|Ist das irgendein Scherz?
+5329|*auf Lautsprecher* „...Ja, Mama, ich esse Gemüse.“
+5330|*auf Lautsprecher* „...und dann hab ich gesagt, ich hätte die Akte nie gesehen. Ha!“
+5331|...Warum schauen mich alle an? Oh nein. LAUTSPRECHER.
+5332|Das ist auf LAUTSPRECHER?!
+5333|Ich habe Sie VIERMAL angerufen, {target}!
+5334|Warum gehen Sie nicht ans Telefon, {target}?!
+5335|Was? Es hat nie geklingelt! Schauen Sie — „Nicht stören“? Das hab ich nicht eingeschaltet!
+5336|Mein Handy hat kein einziges Mal geklingelt!
+5337|Dann reparieren Sie Ihr Handy. Ich laufe niemandem hinterher.
+5338|Inakzeptabel. Seien Sie erreichbar.
+5339|...Hm. Technik. Na gut.
+5340|Lassen Sie Burak draufschauen.
+5341|Hallo? ...Hallo? Wer ist da? ...ATMET da jemand?
+5342|*schweres Atmen in der Leitung* ...Was um alles in der Welt?
+5343|Der Anruf kam von {owner:s} Durchwahl.
+5344|Durchwahl... {owner}. Interessant.
+5345|Hallo? ...Nein, hier ist nicht die Buchhaltung. Warum halten mich alle für die Buchhaltung?
+5346|SCHON WIEDER der falsche Platz. Ceren, die Telefone sind besessen!
+5347|Die Telefonanlage spielt verrückt! Ich hab nichts angefasst!
+5348|Jeder Anruf landet am falschen Platz. Jeder. Einzelne.
+5349|...Moment, der Anruf war für {intended}. Und er war SEHR interessant.
+5350|Ich hab gerade einen Anruf für {intended} angenommen. Was ich da alles gehört hab.
+5351|Der Kunde sagt, unsere Warteschleifenmusik sei „Heavy-Metal-Geschrei“?!
+5352|Ein Kunde hat wegen der Warteschleifenmusik aufgelegt. Eine Trennungsballade?!
+5353|Ceren! Unsere Warteschleifenmusik vertreibt die Kunden!
+5354|WER hat die Warteschleifenmusik geändert?
+5355|Ich habe nichts geändert! Ich schwöre!
+5356|Das habe ich nicht eingestellt! Jemand war in meinem System.
+5357|...Warum KLINGELT {coat:s} Jacke mit MEINEM Klingelton?
+5358|Das ist mein Handy! In {coat:s} Manteltasche!
+5359|Warum ist mein Handy in DEINEM Mantel, {target}?!
+5360|Erklär mir, wie mein Handy in deine Tasche gekommen ist, {target}.
+5361|Keine Ahnung! Ich hab meinen Mantel den ganzen Tag nicht angefasst!
+5362|Was?! Ich hab dein Handy nicht genommen!
+5363|„Wir müssen reden.“ Von {owner}. ...Oh nein.
+5364|„Wir müssen reden“?! Was hab ich getan?
+5365|Du wolltest reden? Ich bin da. Sag's einfach.
+5366|Okay. Ich bin bereit. Was ist los?
+5367|Reden? Worüber? Das hab ich nie geschickt!
+5368|Was? Ich hab dir gar nichts geschrieben!
+5369|...Okay, vielleicht MUSS ich wirklich was sagen. Ich mag dich. Sehr.
+5370|Wo du schon mal da bist... ich wollte dir schon länger was sagen.
+5371|Gott sei Dank. Ich dachte, du machst mit mir Schluss!
+5372|Puh! Ich bin seit einer Stunde in Panik!
+5373|*PIEP PIEP PIEP* „AUFWACHEN! AUFWACHEN!“
+5374|*Handywecker: „ZEIT FÜR DEIN NICKERCHEN!“*
+5375|Ist das etwa ein HANDYWECKER in meinem Meeting?!
+5376|Wessen Handy schreit „Aufwachen“?!
+5377|Das ist nicht— das hab ich nicht eingestellt!
+5378|Sorry! Sorry! Ich weiß nicht, wie man das ausschaltet!
+5379|Leer?! Vor einer Stunde waren es noch 90 %!
+5380|Mein Handy ist TOT. Ich brauche ein Ladegerät. Sofort.
+5381|Buraks Ladegerät! Das macht ihm nichts aus. Wahrscheinlich.
+5382|Ich leih mir kurz Buraks Ladegerät.
+5383|Ist das {owner} beim Karaoke-Abend?! Ha!
+5384|Dieses FOTO von {owner}! Die Haare! Das Outfit!
+5385|Wer hat {owner} schlafend am Schreibtisch gepostet?!
+5386|Wer hat das gepostet?! LÖSCHT DAS!
+5387|Das Foto sollte für immer verschwunden sein!
+5388|Ich wette, {suspect} hat das gepostet.
+5389|{suspect}. Das muss {suspect} gewesen sein.
+5390|Mmm. Kaffee. ...Die Tasse ist neu.
+5391|Schöne Tasse. Ist das meine? Jetzt schon.
+5392|Entschuldigung — das ist MEINE Tasse.
+5393|Trinkst du etwa aus meiner Tasse?!
+5394|Diese Tasse. Gehört. Mir.
+5395|Diese Tasse gehört mir. Da sind meine Initialen drauf.
+5396|Oh! Sorry! Die waren im Regal vertauscht!
+5397|Ach ja? Die sehen alle gleich aus!
+5398|...Jetzt haben wir uns also eine Tasse geteilt. Das ist... ein Schritt.
+5399|Indirekter Kuss! ...Sorry. Das war komisch.
+5400|...Warum bin ich immer noch müde? Das war mein dritter Kaffee.
+5401|Der Kaffee wirkt nicht. Ist er kaputt? Bin ICH kaputt?
+5402|*gääähn*
+5403|Zeynep, hast du uns aus Spargründen auf billigen Kaffee umgestellt?!
+5404|Das ist ENTKOFFEINIERT! Jemand hat das Kaffeebudget gekürzt!
+5405|Ich habe das Kaffeebudget NICHT angerührt!
+5406|Schau mich nicht an. Beim Kaffee würde ich nie tricksen.
+5407|...Mein Mittagessen. Im OBERSTEN Fach. Hinter dem Senf. Ich hab Leute UMSONST beschuldigt.
+5408|Oh. Da ist es ja. Es hat sich versteckt. Ups.
+5409|„Heizt auf“? Wie lange denn noch?!
+5410|Da steht „Bitte warten“. Ich warte doch.
+5411|Komm schon, komm schon, heiz auf!
+5412|Also... wo wir hier schon beide festhängen...
+5413|Kaffeeschlangen-Kumpel. Wie läuft dein Tag?
+5414|Hast du gehört, was gestern passiert ist?
+5415|Der Wasserspender ist leer. Bei DIESER Hitze?
+5416|Kein Wasser? Nicht mal Wasser?
+5417|*gluck*... nichts.
+5418|Ich repariere das! Ich hab mal ein Video gesehen!
+5419|Überlasst das mir!
+5420|Oh nein. Oh nein, nein, nein. ÜBERALL WASSER!
+5421|Es leckt! Es LECKT!
+5422|Wo sind die Snacks hin? Die Snackbox ist WEG.
+5423|Keine Snacks? Das ist eine Krise.
+5424|Snack-Notfall. Snack. Notfall.
+5425|{target:s} Schublade ist VOLL mit unseren Snacks!
+5426|Hierhin sind die Snacks also verschwunden, {target}.
+5427|...Okay, die gehören nicht mir, aber — nehmt welche! Nehmt alle!
+5428|Snacks für alle! Ich bin genauso überrascht wie ihr!
+5429|Die sind in MEINER Schublade, also... sind es jetzt meine Snacks.
+5430|Wer's findet, dem gehört's.
+5431|...Ist das eine Geburtstagstorte? Mit MEINEM Namen drauf?
+5432|Moment. Auf der Torte steht mein Name. War das... eine Überraschung?
+5433|NEIN! Das sollte eine ÜBERRASCHUNG sein!
+5434|Wer hat die Torte rausgestellt?! Die war versteckt!
+5435|„KÜCHE RESERVIERT — Ahmet — privates Mittagessen“?!
+5436|Wir dürfen nicht in der Küche essen? Seit wann?
+5437|Warum hängt an der Küche ein Schild mit meinem Namen?
+5438|Privates Mittagessen? Ich esse ein Sandwich an meinem Schreibtisch!
+5439|Die Mikrowelle ist tot! Mein Mittagessen ist GEFROREN!
+5440|Nicht die Mikrowelle. Alles, nur nicht die Mikrowelle.
+5441|Kalte Nudeln. Schon wieder.
+5442|Gibt es hier irgendwo noch eine Mikrowelle?
+5443|Ich verhungere, und meine Suppe ist ein Eiswürfel.
+5444|WER HAT FISCH IN DER MIKROWELLE GEMACHT?!
+5445|Was ist das für ein GERUCH?!
+5446|Fisch. In der Mikrowelle. In einem BÜRO.
+5447|Wer ist für diesen GESTANK verantwortlich?
+5448|Laut Etikett gehört er {target}.
+5449|Das ist {target:s} Mittagessen. Das Etikett ist doch da.
+5450|Das ist nicht mein Mittagessen! Ich hab ein Sandwich dabei!
+5451|Ich MAG nicht mal Fisch!
+5452|*PFFT* SALZ! Da ist SALZ im Zucker!
+5453|BÄH! Wer hat Salz in die Zuckerdose getan?!
+5454|„HÖR AUF, MEINEN JOGHURT ZU KLAUEN. ICH WEISS, WER DU BIST. — {target}“ ...Wow.
+5455|Passiv-aggressiver Zettel von {target} am Kühlschrank. Stilvoll.
+5456|Den Zettel hab ich nicht geschrieben! Ich esse nicht mal Joghurt!
+5457|Das ist nicht meine Handschrift!
+5458|Der Kühlschrank ist LEER. Wo ist das Mittagessen von allen?!
+5459|Jemand hat den Kühlschrank ausgeräumt. Mein Mittagessen war da drin!
+5460|Wisst ihr was? Lasst uns alle zusammen essen gehen.
+5461|Gemeinsam auswärts essen? Ich lad euch ein... so halb.
+5462|Ich kann Farben hören.
+5463|WOW. Das... das ist Kaffee. WOW.
+5464|Mein Herz spielt ein Schlagzeugsolo.
+5465|Ich könnte jetzt zehn Deals abschließen. ZEHN.
