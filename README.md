@@ -2,7 +2,7 @@
 
 Astro's Playroom tarzı, renkli bir 3B platform oyunu. Tarçın adlı turuncu tekir kedi, Karaköy rıhtımından Galata Kulesi'nin tepesine kadar çatılarda koşar, zıplar ve kayıp yavruları kurtarır.
 
-**İndirme:** APK dosyası [Releases](../../releases) sayfasında, `cati-kedisi-v…` etiketiyle.
+**İndirme:** APK dosyası bu daldaki `apk/` klasöründe.
 
 ## Bölüm 1: Galata Çatıları
 - Karaköy çatıları, tente sokağı ve halı köprüsü, bacalar ve martılar, nostaljik tramvay, duvar zıplama sokağı, Galata Kulesi tırmanışı
