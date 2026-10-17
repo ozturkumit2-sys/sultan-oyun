@@ -342,7 +342,7 @@ func _build_pause() -> void:
 	var cont := UIKit.button("Devam", UIKit.TURQ, 30, 200)
 	cont.pressed.connect(toggle_pause)
 	row.add_child(cont)
-	var menu := UIKit.button("Ana Menü", UIKit.CORAL, 30, 200)
+	var menu := UIKit.button("Kedi Evi", UIKit.CORAL, 30, 200)
 	menu.pressed.connect(func():
 		get_tree().paused = false
 		GameState.save_data()
@@ -398,7 +398,7 @@ func _build_results() -> void:
 	for l in [res_fish, res_kittens, res_time]:
 		l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		v.add_child(l)
-	var teaser := UIKit.label("Sıradaki durak: Kapalıçarşı (yakında)", 22, UIKit.TURQ, 700)
+	var teaser := UIKit.label("Kurtardığın yavrular Kedi Evi'nde, balıklarınla Şapkacı Dede'den alışveriş yap!", 22, UIKit.TURQ, 700)
 	teaser.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	v.add_child(teaser)
 	var row := HBoxContainer.new()
@@ -410,7 +410,7 @@ func _build_results() -> void:
 		get_tree().paused = false
 		restart_requested.emit())
 	row.add_child(again)
-	var menu := UIKit.button("Ana Menü", UIKit.CORAL, 30, 200)
+	var menu := UIKit.button("Kedi Evi'ne Dön", UIKit.CORAL, 30, 260)
 	menu.pressed.connect(func():
 		get_tree().paused = false
 		menu_requested.emit())
@@ -421,7 +421,7 @@ func show_results(info: Dictionary) -> void:
 	touch.release_all()
 	touch.visible = false
 	pause_btn.visible = false
-	res_fish.text = "Balık: %d / %d" % [GameState.fish, GameState.fish_total]
+	res_fish.text = "Balık: %d / %d   (kumbara: %d)" % [GameState.fish, GameState.fish_total, GameState.bank]
 	res_kittens.text = "Kurtarılan yavru: %d / %d" % [GameState.kittens_found.size(), GameState.KITTEN_TOTAL]
 	res_time.text = "Süre: %s%s" % [GameState.format_time(GameState.run_time), "  —  Yeni rekor!" if info.get("record", false) else ""]
 	results_panel.visible = true

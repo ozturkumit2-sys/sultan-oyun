@@ -99,7 +99,37 @@ func start_cinematic(center: Vector3, look: Vector3, radius: float, height: floa
 	cine_cam.current = true
 
 
+## Fixed framing (shop try-on etc.): smoothly moves a separate camera to pos, looking at look.
+var fixed := false
+var fixed_pos := Vector3.ZERO
+var fixed_look := Vector3.ZERO
+
+
+func set_fixed(pos: Vector3, look: Vector3) -> void:
+	if cine_cam == null:
+		cine_cam = Camera3D.new()
+		cine_cam.fov = 50.0
+		cine_cam.far = camera.far
+		get_parent().add_child(cine_cam)
+	if not fixed:
+		cine_cam.global_transform = camera.global_transform
+	fixed = true
+	fixed_pos = pos
+	fixed_look = look
+	cine_cam.current = true
+
+
+func release_fixed() -> void:
+	fixed = false
+	camera.current = true
+
+
 func _process(delta: float) -> void:
+	if fixed and cine_cam:
+		cine_cam.global_position = cine_cam.global_position.lerp(fixed_pos, clamp(delta * 4.0, 0.0, 1.0))
+		var want := cine_cam.global_transform.looking_at(fixed_look, Vector3.UP)
+		cine_cam.global_transform.basis = cine_cam.global_transform.basis.slerp(want.basis, clamp(delta * 5.0, 0.0, 1.0))
+		return
 	if cinematic:
 		cine_angle += delta * 0.35
 		var want := cine_center + Vector3(cos(cine_angle) * cine_radius, cine_height, sin(cine_angle) * cine_radius)

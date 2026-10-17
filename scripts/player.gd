@@ -81,6 +81,7 @@ func _ready() -> void:
 	visual.coat = "tarcin"
 	visual_root.add_child(visual)
 	visual.scale = Vector3.ONE * 1.05
+	Accessories.apply(visual, GameState.equipped)
 	_make_shadow()
 	_make_particles()
 	checkpoint_pos = global_position

@@ -76,8 +76,15 @@ func _ready() -> void:
 	hud = preload("res://scripts/hud.gd").new()
 	add_child(hud)
 	hud.restart_requested.connect(func(): get_tree().reload_current_scene())
-	hud.menu_requested.connect(func(): get_tree().change_scene_to_file("res://scenes/main_menu.tscn"))
+	hud.menu_requested.connect(func():
+		GameState.came_from = "galata"
+		GameState.save_data()
+		get_tree().change_scene_to_file("res://scenes/hub.tscn"))
+	GameState.level_id = "galata"
 	GameState.reset_run(fish.total_value())
+	for kid in GameState.rescued_in("galata"):
+		GameState.kittens_found.append(kid)
+	GameState.kittens_changed.emit(GameState.kittens_found.size())
 	GameState.running = false
 	hud.set_totals(fish.total_value())
 	hud.cam = cam.camera
@@ -98,8 +105,8 @@ func _ready() -> void:
 		player.control_enabled = false
 		hud.show_intro("Bölüm 1 · Galata Çatıları",
 			"İstanbul'un yavru kedileri çatılarda kayboldu! Tarçın onları bulup Galata Kulesi'nin tepesindeki altın balığa ulaşmalı.",
-			[["tower", "Galata Kulesi'nin tepesine çık"], ["kitten", "5 kayıp yavruyu kurtar (miyavlarını dinle)"],
-			["fish", "Balıkları topla, altın balıklar 5 sayar"]], _start_level)
+			[["tower", "Galata Kulesi'nin tepesine çık"], ["kitten", "5 kayıp yavruyu kurtar, Kedi Evi'ne gelsinler (%d/5)" % GameState.kittens_found.size()],
+			["fish", "Balıkları topla: Şapkacı Dede'den şapka alırsın"]], _start_level)
 
 
 func _start_level() -> void:
@@ -185,6 +192,8 @@ func checkpoint(p: Vector3, yaw := 0.0) -> void:
 
 
 func kitten(p: Vector3, id: String, name: String, coat: String, parent: Node3D = null) -> void:
+	if id in GameState.rescued_in("galata"):
+		return   # already safe at Kedi Evi
 	var k := Kitten.new()
 	k.id = id
 	k.display_name = name

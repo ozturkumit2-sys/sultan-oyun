@@ -5,6 +5,8 @@ signal fish_changed(total: int)
 signal kittens_changed(found: int)
 signal health_changed(hp: int)
 signal message(text: String, kind: String)
+signal bank_changed(total: int)
+signal equipped_changed
 
 const SAVE_PATH := "user://save.cfg"
 const KITTEN_TOTAL := 5
@@ -26,6 +28,12 @@ var settings := {
 	"quality": 1,   # 0 low, 1 high
 }
 var best := {}  # level -> {fish, kittens, time}
+var bank := 0                     # fish wallet (persistent)
+var owned: Array = []             # accessory ids
+var equipped := {"head": "", "eyes": "", "scarf": "kirmizi"}
+var rescued := {}                 # level -> [kitten ids]
+var level_id := "galata"
+var came_from := ""
 
 var touch_move := Vector2.ZERO   # written by on-screen joystick
 var touch_look := Vector2.ZERO   # accumulated swipe delta, consumed by camera
@@ -99,13 +107,46 @@ func reset_run(total_fish: int) -> void:
 
 func add_fish(n := 1) -> void:
 	fish += n
+	bank += n
 	fish_changed.emit(fish)
+	bank_changed.emit(bank)
+
+
+func spend(n: int) -> bool:
+	if bank < n:
+		return false
+	bank -= n
+	bank_changed.emit(bank)
+	save_data()
+	return true
+
+
+func rescued_in(level: String) -> Array:
+	return rescued.get(level, [])
+
+
+func total_rescued() -> int:
+	var n := 0
+	for k in rescued.keys():
+		n += (rescued[k] as Array).size()
+	return n
+
+
+func equip(slot: String, id: String) -> void:
+	equipped[slot] = id
+	equipped_changed.emit()
+	save_data()
 
 
 func find_kitten(id: String, display_name: String) -> void:
 	if id in kittens_found:
 		return
 	kittens_found.append(id)
+	var lst: Array = rescued.get(level_id, [])
+	if not (id in lst):
+		lst.append(id)
+		rescued[level_id] = lst
+		save_data()
 	kittens_changed.emit(kittens_found.size())
 	message.emit("%s kurtarıldı!  %d/%d" % [display_name, kittens_found.size(), KITTEN_TOTAL], "kitten")
 
@@ -140,6 +181,10 @@ func save_data() -> void:
 		cf.set_value("settings", k, settings[k])
 	for lv in best.keys():
 		cf.set_value("best", lv, best[lv])
+	cf.set_value("progress", "bank", bank)
+	cf.set_value("progress", "owned", owned)
+	cf.set_value("progress", "equipped", equipped)
+	cf.set_value("progress", "rescued", rescued)
 	cf.save(SAVE_PATH)
 
 
@@ -152,6 +197,12 @@ func load_data() -> void:
 	if cf.has_section("best"):
 		for lv in cf.get_section_keys("best"):
 			best[lv] = cf.get_value("best", lv)
+	bank = cf.get_value("progress", "bank", 0)
+	owned = cf.get_value("progress", "owned", [])
+	var eq: Dictionary = cf.get_value("progress", "equipped", {})
+	for k in eq.keys():
+		equipped[k] = eq[k]
+	rescued = cf.get_value("progress", "rescued", {})
 	apply_audio()
 
 

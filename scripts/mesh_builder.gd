@@ -200,6 +200,42 @@ func hip(center_base: Vector3, w: float, d: float, h: float, roof_col: Color, ov
 		tri(c00, c01, top, roof_col)
 
 
+## Full (optionally scaled) sphere, smooth.
+func sphere(center: Vector3, radius: float, col: Color, segs := 14, rings := 8, scl := Vector3.ONE) -> void:
+	for r in rings:
+		var p0 := PI * float(r) / rings - PI * 0.5
+		var p1 := PI * float(r + 1) / rings - PI * 0.5
+		for i in segs:
+			var a0 := TAU * i / segs
+			var a1 := TAU * (i + 1) / segs
+			var dirs := [Vector3(cos(a0) * cos(p0), sin(p0), sin(a0) * cos(p0)), Vector3(cos(a1) * cos(p0), sin(p0), sin(a1) * cos(p0)),
+				Vector3(cos(a1) * cos(p1), sin(p1), sin(a1) * cos(p1)), Vector3(cos(a0) * cos(p1), sin(p1), sin(a0) * cos(p1))]
+			var pts := []
+			var nrm := []
+			for d in dirs:
+				pts.append(center + d * radius * scl)
+				nrm.append((d / scl).normalized())
+			tri_smooth(pts[1], pts[0], pts[3], nrm[1], nrm[0], nrm[3], col)
+			tri_smooth(pts[1], pts[3], pts[2], nrm[1], nrm[3], nrm[2], col)
+
+
+## Torus ring lying in the XY plane (facing +Z), for glasses frames etc.
+func torus(center: Vector3, R: float, r: float, col: Color, segs := 20, sides := 6) -> void:
+	for i in segs:
+		var a0 := TAU * i / segs
+		var a1 := TAU * (i + 1) / segs
+		for j in sides:
+			var b0 := TAU * j / sides
+			var b1 := TAU * (j + 1) / sides
+			var P := func(a: float, b: float) -> Vector3:
+				var ring := Vector3(cos(a), sin(a), 0)
+				return center + ring * (R + r * cos(b)) + Vector3(0, 0, r * sin(b))
+			var N := func(a: float, b: float) -> Vector3:
+				return (Vector3(cos(a), sin(a), 0) * cos(b) + Vector3(0, 0, sin(b))).normalized()
+			tri_smooth(P.call(a0, b0), P.call(a1, b0), P.call(a1, b1), N.call(a0, b0), N.call(a1, b0), N.call(a1, b1), col)
+			tri_smooth(P.call(a0, b0), P.call(a1, b1), P.call(a0, b1), N.call(a0, b0), N.call(a1, b1), N.call(a0, b1), col)
+
+
 func set_alpha(a: float) -> void:
 	for i in colors.size():
 		colors[i].a = a

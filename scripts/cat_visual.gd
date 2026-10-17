@@ -26,6 +26,7 @@ var parts := {}            # name -> Node3D
 var rest := {}             # name -> Basis (rest rotation)
 var rest_pos := {}         # name -> Vector3
 var fur_materials: Array[ShaderMaterial] = []
+var scarf_materials: Array[ShaderMaterial] = []
 
 # animation state (driven by the player / kitten script)
 var speed_ratio := 0.0     # 0..1 run speed
@@ -95,7 +96,9 @@ func _mat_for(name: String) -> Material:
 			h.albedo_color = Color(1, 1, 1)
 			return h
 		"Scarf":
-			return _solid(Color("d8262f"), 0.0, 0.35)
+			var sm := _solid(Color("d8262f"), 0.0, 0.35)
+			scarf_materials.append(sm)
+			return sm
 	return null
 
 
@@ -129,6 +132,11 @@ func set_coat(c: String) -> void:
 		m.set_shader_parameter("base_color", d["base"])
 		m.set_shader_parameter("stripe_color", d["stripe"])
 		m.set_shader_parameter("white_color", d["white"])
+
+
+func set_scarf_color(c: Color) -> void:
+	for m in scarf_materials:
+		m.set_shader_parameter("color", c)
 
 
 func hit_flash() -> void:

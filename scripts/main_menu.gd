@@ -212,6 +212,7 @@ func _panel_howto() -> Control:
 		"Duvara doğru düşerken zıpla: duvar zıplaması.",
 		"Sağ tarafta kaydır: kamerayı çevir.",
 		"Balıkları topla, 5 kayıp yavruyu bul, Galata Kulesi'ne çık!",
+		"Kurtardığın yavrular Kedi Evi'ne gelir; balıklarınla Şapkacı Dede'den şapka al.",
 	]
 	for l in lines:
 		var lb := UIKit.label("•  " + l, 26, UIKit.NAVY, 600)
@@ -232,4 +233,4 @@ func _play() -> void:
 	var tw := create_tween()
 	tw.tween_property(fade, "color:a", 1.0, 0.45)
 	await tw.finished
-	get_tree().change_scene_to_file("res://scenes/game.tscn")
+	get_tree().change_scene_to_file("res://scenes/hub.tscn")
