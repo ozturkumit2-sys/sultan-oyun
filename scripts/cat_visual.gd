@@ -47,6 +47,7 @@ var tail_vel := Vector3.ZERO
 var tail_offset := Vector3.ZERO
 var look_yaw := 0.0
 var _flash := 0.0
+var fall_stretch := 0.0
 
 
 func _ready() -> void:
@@ -180,6 +181,7 @@ func _process(delta: float) -> void:
 	var body_pitch := 0.0
 	var body_bob := 0.0
 	var head_pitch := 0.0
+	fall_stretch = 0.0
 	var leg_f := Vector2.ZERO   # front legs swing (L, R)
 	var leg_b := Vector2.ZERO
 	if on_floor:
@@ -213,6 +215,15 @@ func _process(delta: float) -> void:
 			leg_b = Vector2(0.8, 0.7) * max(rising, 0.2) - Vector2(0.4, 0.4) * max(-rising, 0.0)
 			body_pitch = -0.25 * rising
 			head_pitch = 0.15 * rising
+			# falling: paws reach for the ground and paddle, nose tips down, body stretches
+			var fall_k: float = clamp((-vel_y - 4.0) / 9.0, 0.0, 1.0)
+			if fall_k > 0.0:
+				var pad := sin(t * 19.0) * 0.55
+				leg_f = leg_f.lerp(Vector2(-0.75 + pad, -0.75 - pad), fall_k)
+				leg_b = leg_b.lerp(Vector2(0.55 - pad, 0.55 + pad), fall_k)
+				body_pitch = lerp(body_pitch, 0.32, fall_k)
+				head_pitch = lerp(head_pitch, 0.05, fall_k)
+				fall_stretch = fall_k
 	_rot("LegFL", Vector3(leg_f.x, 0, 0))
 	_rot("LegFR", Vector3(leg_f.y, 0, 0))
 	_rot("LegBL", Vector3(leg_b.x, 0, 0))
@@ -232,7 +243,7 @@ func _process(delta: float) -> void:
 		var b: Node3D = parts["Body"]
 		b.position = rest_pos["Body"] + Vector3(0, body_bob, 0)
 		b.transform.basis = rest["Body"] * Basis.from_euler(Vector3(body_pitch + flip_rot, 0, 0))
-	model.scale = Vector3(sxz, sy, sxz)
+	model.scale = Vector3(sxz * (1.0 - 0.07 * fall_stretch), sy * (1.0 + 0.14 * fall_stretch), sxz * (1.0 - 0.07 * fall_stretch))
 	# --- head
 	var idle_look := sin(t * 0.7) * 0.25 if (on_floor and run < 0.05) else 0.0
 	look_yaw = lerp(look_yaw, idle_look, delta * 2.0)

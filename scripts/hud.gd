@@ -20,6 +20,12 @@ var _fish_pop := 0.0
 var _kitten_pop := 0.0
 var _health_pop := 0.0
 var _banner_t := 0.0
+var goal_pos := Vector3.INF
+var goal_name := "Kule"
+var cam: Camera3D
+var goal_label: Label
+var intro_panel: Control
+var _intro_cb: Callable
 
 
 func _ready() -> void:
@@ -86,6 +92,9 @@ func _ready() -> void:
 	fade.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	root.add_child(fade)
 
+	goal_label = UIKit.label("", 22, UIKit.CREAM, 800, 8, UIKit.NAVY)
+	root.add_child(goal_label)
+
 	_build_pause()
 	_build_results()
 
@@ -128,7 +137,13 @@ func _process(delta: float) -> void:
 	var vp := get_viewport().get_visible_rect().size
 	root.size = vp
 	pause_btn.position = Vector2(vp.x - 104, 14)
-	banner.position = Vector2((vp.x - banner.size.x) * 0.5, 104)
+	banner.position = Vector2((vp.x - banner.size.x) * 0.5, 150)
+	goal_label.visible = goal_pos != Vector3.INF and cam != null and not results_panel.visible
+	if goal_label.visible:
+		var d := Vector2(goal_pos.x - cam.global_position.x, goal_pos.z - cam.global_position.z).length()
+		goal_label.text = "%s · %d m" % [goal_name, int(d)]
+		goal_label.reset_size()
+		goal_label.position = Vector2(vp.x * 0.5 + 26, 82)
 	icons.queue_redraw()
 	if Input.is_action_just_pressed("pause") and not results_panel.visible:
 		toggle_pause()
@@ -142,6 +157,7 @@ func _draw_icons() -> void:
 		var full := i < GameState.health
 		var c := UIKit.CORAL if full else Color(UIKit.NAVY, 0.35)
 		var ps := 30.0 * (1.0 + (0.25 * sin(_health_pop * PI) if i == GameState.health else 0.0))
+		UIKit.draw_paw(icons, Vector2(42 + i * 46, 109), ps * 1.13, Color(UIKit.NAVY, 0.55), Color(UIKit.NAVY, 0.55))
 		UIKit.draw_paw(icons, Vector2(42 + i * 46, 108), ps, c, Color(UIKit.CREAM, 0.95) if full else Color(UIKit.CREAM, 0.4))
 	# kittens
 	var n := GameState.KITTEN_TOTAL
@@ -154,6 +170,97 @@ func _draw_icons() -> void:
 		var col: Color = cols[coats[i]] if found else Color(UIKit.NAVY, 0.3)
 		var pop := 1.0 + (0.35 * sin(_kitten_pop * PI) if found and i == GameState.kittens_found.size() - 1 else 0.0)
 		UIKit.draw_cat_head(icons, Vector2(cx + i * 60, 44), 40 * pop, col, Color(UIKit.CREAM, 0.95) if found else Color(UIKit.CREAM, 0.35), found)
+
+
+	# goal compass under the kitten row
+	if goal_pos != Vector3.INF and cam != null and not results_panel.visible:
+		var b := cam.global_transform.basis
+		var fwd := Vector3(-b.z.x, 0, -b.z.z).normalized()
+		var rgt := Vector3(b.x.x, 0, b.x.z).normalized()
+		var to := goal_pos - cam.global_position
+		to.y = 0
+		var ang := atan2(to.dot(rgt), to.dot(fwd))
+		var c := Vector2(w * 0.5, 96)
+		icons.draw_circle(c + Vector2(0, 2), 19, Color(UIKit.NAVY, 0.4))
+		icons.draw_circle(c, 18, UIKit.CREAM)
+		icons.draw_arc(c, 16, 0, TAU, 32, UIKit.COBALT, 3.0, true)
+		var dir := Vector2(sin(ang), -cos(ang))
+		var side := Vector2(-dir.y, dir.x)
+		var tip := c + dir * 12.0
+		var tail := c - dir * 8.0
+		icons.draw_colored_polygon(PackedVector2Array([tip, tail + side * 7.0, c - dir * 3.0, tail - side * 7.0]), UIKit.CORAL)
+
+
+func show_intro(title: String, story: String, goals: Array, on_start: Callable) -> void:
+	_intro_cb = on_start
+	intro_panel = Control.new()
+	intro_panel.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	root.add_child(intro_panel)
+	var dim := ColorRect.new()
+	dim.color = Color(UIKit.NAVY, 0.5)
+	dim.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	intro_panel.add_child(dim)
+	var center := CenterContainer.new()
+	center.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	intro_panel.add_child(center)
+	var p := PanelContainer.new()
+	p.add_theme_stylebox_override("panel", UIKit.panel_style())
+	center.add_child(p)
+	var v := VBoxContainer.new()
+	v.add_theme_constant_override("separation", 10)
+	p.add_child(v)
+	var t := UIKit.label(title, 44, UIKit.COBALT, 800)
+	t.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	v.add_child(t)
+	var st := UIKit.label(story, 25, UIKit.NAVY, 600)
+	st.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	st.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	st.custom_minimum_size = Vector2(620, 0)
+	v.add_child(st)
+	for g in goals:
+		var row := HBoxContainer.new()
+		row.add_theme_constant_override("separation", 14)
+		var ic := Control.new()
+		ic.custom_minimum_size = Vector2(52, 46)
+		var kind: String = g[0]
+		ic.draw.connect(_draw_goal_icon.bind(ic, kind))
+		row.add_child(ic)
+		var l := UIKit.label(g[1], 26, UIKit.NAVY, 700)
+		l.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+		row.add_child(l)
+		v.add_child(row)
+	var go := UIKit.button("Başla!", UIKit.CORAL, 36, 260)
+	go.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+	go.pressed.connect(func():
+		var tw := create_tween()
+		tw.tween_property(intro_panel, "modulate:a", 0.0, 0.3)
+		tw.tween_callback(intro_panel.queue_free)
+		if _intro_cb.is_valid():
+			_intro_cb.call())
+	v.add_child(go)
+	touch.visible = false
+	pause_btn.visible = false
+
+
+func _draw_goal_icon(ic: Control, kind: String) -> void:
+	var c := Vector2(26, 23)
+	match kind:
+		"tower":
+			ic.draw_rect(Rect2(c + Vector2(-8, -6), Vector2(16, 24)), Color("cdbfae"))
+			ic.draw_rect(Rect2(c + Vector2(-11, -8), Vector2(22, 4)), Color("efe6d8"))
+			ic.draw_colored_polygon(PackedVector2Array([c + Vector2(-10, -8), c + Vector2(10, -8), c + Vector2(0, -22)]), Color("6f7e8f"))
+			ic.draw_rect(Rect2(c + Vector2(-3, 2), Vector2(6, 8)), Color("27303f"))
+		"kitten":
+			UIKit.draw_cat_head(ic, c, 34, Color("9aa3ad"), UIKit.NAVY)
+		"fish":
+			UIKit.draw_fish(ic, c, 40, Color("bfe3ee"))
+		"gold":
+			UIKit.draw_fish(ic, c, 40, Color("ffcf4a"))
+
+
+func end_intro_ui() -> void:
+	touch.visible = DisplayServer.is_touchscreen_available() or OS.has_feature("mobile")
+	pause_btn.visible = true
 
 
 func show_banner(text: String, _kind := "") -> void:

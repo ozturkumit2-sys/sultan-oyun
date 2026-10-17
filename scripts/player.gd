@@ -55,6 +55,9 @@ var kill_height: Callable = func(_p: Vector3) -> float: return -50.0
 var air_time := 0.0
 var bounce_lock := 0.0
 var jump_t := 10.0
+var slide_t := 0.0          # how long we've been wall-sliding (slide speeds up, then lets go)
+var stuck_t := 0.0          # airborne but not moving (wedged) -> rescue
+var last_pos := Vector3.ZERO
 
 
 func _ready() -> void:
@@ -179,6 +182,16 @@ func _cam_yaw() -> float:
 
 func _physics_process(delta: float) -> void:
 	if dead:
+		# keep falling (no control) while the screen fades; the camera holds still
+		velocity.y = max(velocity.y - G_DOWN * delta, -MAX_FALL)
+		velocity.x *= 0.97
+		velocity.z *= 0.97
+		move_and_slide()
+		visual.on_floor = false
+		visual.vel_y = velocity.y
+		visual.speed_ratio = 0.0
+		visual.wall_cling = false
+		_update_shadow()
 		return
 	var inp := _get_input() if control_enabled else Vector2.ZERO
 	var yaw := _cam_yaw()
@@ -230,19 +243,20 @@ func _physics_process(delta: float) -> void:
 		if abs(n.y) < 0.35:
 			touching_wall = true
 			wall_normal = Vector3(n.x, 0, n.z).normalized()
-	if touching_wall and velocity.y < 1.0:
+	var pushing_in := touching_wall and wish.dot(-wall_normal) > 0.3
+	if pushing_in and velocity.y < 1.0 and slide_t < 1.3:
 		wall_t = 0.15
 	else:
 		wall_t -= delta
 	var sliding := wall_t > 0.0 and not on_floor and velocity.y < 1.0
-	# sticky walls: keep contact while sliding unless the stick pushes away
-	if sliding and wish.dot(wall_normal) < 0.5:
-		velocity.x -= wall_normal.x * 2.5
-		velocity.z -= wall_normal.z * 2.5
-		var into := Vector3(velocity.x, 0, velocity.z).dot(-wall_normal)
-		if into > 3.0:
-			velocity.x += wall_normal.x * (into - 3.0)
-			velocity.z += wall_normal.z * (into - 3.0)
+	if sliding:
+		slide_t += delta
+		# light stickiness only while the stick pushes into the wall
+		if wish.dot(-wall_normal) > 0.3:
+			velocity.x -= wall_normal.x * 1.2
+			velocity.z -= wall_normal.z * 1.2
+	if on_floor:
+		slide_t = 0.0
 
 	# --- gravity
 	var g := G_DOWN
@@ -252,7 +266,9 @@ func _physics_process(delta: float) -> void:
 		g *= 0.35
 	velocity.y -= g * delta
 	if sliding:
-		velocity.y = max(velocity.y, -WALL_SLIDE)
+		# slow at first, then the cat loses grip and slides faster
+		var grip: float = clamp((slide_t - 0.35) / 0.8, 0.0, 1.0)
+		velocity.y = max(velocity.y, -lerpf(WALL_SLIDE, 11.0, grip))
 	velocity.y = max(velocity.y, -MAX_FALL)
 
 	# --- jumping
@@ -317,8 +333,25 @@ func _physics_process(delta: float) -> void:
 	# invulnerability blink
 	visual.visible = invuln <= 0.0 or int(invuln * 14.0) % 2 == 0
 	_update_shadow()
-	# falling out of the world
-	if global_position.y < kill_height.call(global_position):
+	# wedged between geometry (airborne but not moving): let the cat jump out, then rescue
+	var moved := global_position.distance_to(last_pos)
+	last_pos = global_position
+	if not on_floor and not sliding and velocity.y < -1.0 and moved < 0.01:
+		stuck_t += delta
+		coyote_t = COYOTE
+		jumps_used = 0
+		var col := get_last_slide_collision()
+		if col:
+			var n := col.get_normal()
+			velocity.x += n.x * 3.0
+			velocity.z += n.z * 3.0
+		if stuck_t > 1.2:
+			stuck_t = 0.0
+			_soft_respawn()
+	else:
+		stuck_t = 0.0
+	# falling out of the world (or falling for far too long)
+	if global_position.y < kill_height.call(global_position) or (air_time > 3.0 and velocity.y < -MAX_FALL + 1.0):
 		fall_out()
 
 
@@ -352,6 +385,7 @@ func _do_wall_jump(wish: Vector3) -> void:
 	wall_t = -1.0
 	wall_jump_lock = 0.18
 	bounce_lock = 0.28
+	slide_t = 0.0
 	buffer_t = 0.0
 	visual.jump_stretch()
 	Sfx.play("wall", 1.0, -3.0, 0.05)
@@ -425,14 +459,25 @@ func fall_out() -> void:
 	_die()
 
 
+func _soft_respawn() -> void:
+	# unstick without punishment
+	dead = true
+	var hud0 := get_tree().get_first_node_in_group("hud")
+	if hud0 and hud0.has_method("fade_out_in"):
+		await hud0.fade_out_in(0.25)
+	respawn()
+
+
 func _die() -> void:
 	dead = true
-	velocity = Vector3.ZERO
+	velocity.x *= 0.5
+	velocity.z *= 0.5
 	var hud := get_tree().get_first_node_in_group("hud")
 	if hud and hud.has_method("fade_out_in"):
-		await hud.fade_out_in(0.35)
+		await get_tree().create_timer(0.25).timeout
+		await hud.fade_out_in(0.3)
 	else:
-		await get_tree().create_timer(0.35).timeout
+		await get_tree().create_timer(0.55).timeout
 	respawn()
 
 
@@ -445,6 +490,12 @@ func respawn() -> void:
 	invuln = 1.2
 	dead = false
 	was_on_floor = false
+	slide_t = 0.0
+	stuck_t = 0.0
+	air_time = 0.0
+	last_pos = global_position
+	dust.restart()
+	visual.land(0.6)
 	if cam_rig and cam_rig.has_method("snap_to"):
 		cam_rig.snap_to(checkpoint_yaw)
 	respawned.emit()

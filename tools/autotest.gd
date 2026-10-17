@@ -57,6 +57,7 @@ func _begin() -> void:
 					tr.global_position = tr.b
 		"b2_b3": start_pos = Vector3(2.0, 7.9, 25.0)
 		"b5_b6": start_pos = Vector3(2.0, 14.1, -8.0)
+		"fall_wall": start_pos = Vector3(8.7, 13.1, 3.0)
 	settle = 1.2
 
 
@@ -212,12 +213,26 @@ func _physics_process(delta: float) -> void:
 			if _hop_route([Vector3(2.0, 9.3, 17.5), Vector3(1.4, 8.0, 11.0)], delta, 3.0) or t > 6.0:
 				done = true
 				ok = abs(p.y - 8.05) < 0.4 and p.z < 12.0
+		"fall_wall":
+			# walk off the roof edge into the street, then (panicking) push back toward the wall
+			if p.z < 4.6 and not state.has("off"):
+				Input.action_press("move_back")
+			else:
+				state["off"] = true
+				Input.action_release("move_back")
+				Input.action_press("move_forward")
+			if player.dead and not state.has("dead_t"):
+				state["dead_t"] = t
+			if t > 8.0 or state.has("dead_t"):
+				done = true
+				ok = state.get("dead_t", 99.0) < 2.0
+				state["fall_time"] = state.get("dead_t", -1.0)
 		"b5_b6":
 			if _hop_route([Vector3(2.0, 15.6, -16.0), Vector3(2.0, 17.1, -25.5)], delta, 3.0) or t > 6.0:
 				done = true
 				ok = p.y > 16.8 and p.z < -24.0
 	if done:
-		print("TEST ", name, ": ", "PASS" if ok else "FAIL", "  pos=", p.snapped(Vector3.ONE * 0.01), " max_y=", snapped(max_y, 0.01), " reached=", state.get("i", -1))
+		print("TEST ", name, ": ", "PASS" if ok else "FAIL", "  pos=", p.snapped(Vector3.ONE * 0.01), " max_y=", snapped(max_y, 0.01), " reached=", state.get("i", -1), " fall_time=", state.get("fall_time", "-"))
 		test += 1
 		if test >= tests.size():
 			get_tree().quit()

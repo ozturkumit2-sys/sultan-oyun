@@ -78,12 +78,34 @@ func _ready() -> void:
 	hud.restart_requested.connect(func(): get_tree().reload_current_scene())
 	hud.menu_requested.connect(func(): get_tree().change_scene_to_file("res://scenes/main_menu.tscn"))
 	GameState.reset_run(fish.total_value())
+	GameState.running = false
 	hud.set_totals(fish.total_value())
+	hud.cam = cam.camera
+	hud.goal_pos = TOWER + Vector3(0, BALCONY_Y - TOWER.y, 0)
+	hud.goal_name = "Galata Kulesi"
 	checkpoints[0].player = player
 	checkpoints[0].activate(true)
 	Sfx.play_music("res://assets/audio/music_galata.ogg", -8.0)
 	Sfx.play_ambience("res://assets/audio/ambience_city.ogg")
 	await get_tree().process_frame
+	var skip_intro := false
+	for a in OS.get_cmdline_user_args():
+		if a.begins_with("spawn=") or a == "showresults" or a == "showpause" or a == "nointro":
+			skip_intro = true
+	if (skip_intro or get_parent() != get_tree().root) and not ("intro" in OS.get_cmdline_user_args()):
+		_start_level()
+	else:
+		player.control_enabled = false
+		hud.show_intro("Bölüm 1 · Galata Çatıları",
+			"İstanbul'un yavru kedileri çatılarda kayboldu! Tarçın onları bulup Galata Kulesi'nin tepesindeki altın balığa ulaşmalı.",
+			[["tower", "Galata Kulesi'nin tepesine çık"], ["kitten", "5 kayıp yavruyu kurtar (miyavlarını dinle)"],
+			["fish", "Balıkları topla, altın balıklar 5 sayar"]], _start_level)
+
+
+func _start_level() -> void:
+	player.control_enabled = true
+	GameState.running = true
+	hud.end_intro_ui()
 	hud.show_banner("Bölüm 1 · Galata Çatıları")
 	if "stats" in OS.get_cmdline_user_args():
 		_print_stats()

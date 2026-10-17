@@ -144,6 +144,9 @@ func _process(delta: float) -> void:
 
 func _apply(delta: float) -> void:
 	var tp := target.global_position + Vector3(0, 1.1, 0)
+	var pl: Player = target as Player
+	if pl and pl.dead and delta > 0.0:
+		return
 	var grounded := true
 	var p: Player = target as Player
 	if p:
