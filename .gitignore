@@ -1,0 +1,7 @@
+.godot/
+build/
+*.apk
+*.idsig
+*.import
+export_credentials.cfg
+__pycache__/
